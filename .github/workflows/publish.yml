@@ -1,0 +1,50 @@
+name: Render and publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            cran::arrow
+            cran::dplyr
+            cran::tidyr
+            cran::purrr
+            cran::stringr
+            cran::readr
+            cran::jsonlite
+            cran::knitr
+            cran::rmarkdown
+            github::redivis/redivis-r
+
+      - name: Fetch data from Redivis
+        env:
+          REDIVIS_API_TOKEN: ${{ secrets.REDIVIS_API_TOKEN }}
+        run: Rscript etl/fetch_redivis_tables.R
+
+      - name: Write site data slices
+        run: Rscript etl/write_site_slices.R
+
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

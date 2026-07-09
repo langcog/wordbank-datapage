@@ -1,0 +1,94 @@
+---
+title: "CDI Scoring"
+---
+
+Look up vocabulary percentiles for your own data against the Fenson et al.
+(2007) norms for the English *Words & Sentences* form. Upload a CSV with
+columns for vocabulary size (number of words), age (months), and gender —
+other columns are carried through. **Your file is processed entirely in your
+browser and never uploaded anywhere.**
+
+Percentiles are matched by gender, floored age in months, and vocabulary
+count; rows outside the norming range (ages 16–30) get no percentile.
+Download a [sample file](resources/scoring/sample.csv) to see the expected
+shape.
+
+```{ojs setup-scoring}
+//| output: false
+d3 = require("d3@7")
+lookup = d3.csv("resources/scoring/ws_english_lookup.csv", d3.autoType)
+lookup_key = new Map(lookup.map((d) => [`${d.gender}|${d.age_months}|${d.vocab_nwords}`, d.percentile]))
+sample = d3.csv("resources/scoring/sample.csv", d3.autoType)
+```
+
+::::{.panel-input}
+
+```{ojs input-file}
+viewof upload = Inputs.file({ label: "Your CSV", accept: ".csv,.tsv,.txt" })
+```
+
+```{ojs parse-upload}
+//| output: false
+uploaded = upload ? upload.csv({ typed: true }) : null
+active = uploaded ?? sample
+columns = Object.keys(active[0] ?? {})
+guess = (cands) => columns.find((c) => cands.includes(c.toLowerCase())) ?? columns[0]
+```
+
+```{ojs input-columns}
+viewof vocab_col = Inputs.select(columns, {
+  label: "Vocabulary column",
+  value: guess(["vocab_nwords", "vocab", "nwords", "words", "production"])
+})
+viewof age_col = Inputs.select(columns, {
+  label: "Age column (months)",
+  value: guess(["age_months", "age", "months"])
+})
+viewof gender_col = Inputs.select(columns, {
+  label: "Gender column",
+  value: guess(["gender", "sex"])
+})
+viewof male_val = Inputs.select(
+  [...new Set(active.map((d) => String(d[gender_col])))],
+  { label: "Value meaning male" }
+)
+```
+
+::::
+
+```{ojs score}
+//| output: false
+scored = active.map((row) => {
+  const age = Math.floor(+row[age_col]);
+  const vocab = +row[vocab_col];
+  const gender = String(row[gender_col]) === male_val ? "male" : "female";
+  const percentile = lookup_key.get(`${gender}|${age}|${vocab}`) ?? null;
+  return { ...row, instrument: "Words & Sentences (English)", percentile };
+})
+```
+
+```{ojs table-title}
+html`<h4>${upload ? "Your scored output" : "Sample scored output"}</h4>`
+```
+
+```{ojs scored-table}
+Inputs.table(scored, { maxWidth: 950 })
+```
+
+```{ojs download-button}
+{
+  const csv = [
+    Object.keys(scored[0]).join(","),
+    ...scored.map((r) => Object.values(r).map((v) => v ?? "").join(","))
+  ].join("\n");
+  const blob = new Blob([csv], { type: "text/csv" });
+  const url = URL.createObjectURL(blob);
+  return html`<a class="btn btn-primary" href=${url} download="percentiles.csv">Download percentiles.csv</a>`;
+}
+```
+
+::: {.callout-note}
+Norms are from Fenson et al. (2007), *MacArthur-Bates Communicative
+Development Inventories: User's Guide and Technical Manual* (2nd ed.). Only
+the English *Words & Sentences* form is currently supported.
+:::
