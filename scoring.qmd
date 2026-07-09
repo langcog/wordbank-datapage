@@ -21,7 +21,9 @@ lookup_key = new Map(lookup.map((d) => [`${d.gender}|${d.age_months}|${d.vocab_n
 sample = d3.csv("resources/scoring/sample.csv", d3.autoType)
 ```
 
-::::{.panel-input}
+:::: {.viz-layout}
+
+::: {.viz-sidebar}
 
 ```{ojs input-file}
 viewof upload = Inputs.file({ label: "Your CSV", accept: ".csv,.tsv,.txt" })
@@ -54,7 +56,9 @@ viewof male_val = Inputs.select(
 )
 ```
 
-::::
+:::
+
+::: {.viz-main}
 
 ```{ojs score}
 //| output: false
@@ -92,3 +96,7 @@ Norms are from Fenson et al. (2007), *MacArthur-Bates Communicative
 Development Inventories: User's Guide and Technical Manual* (2nd ed.). Only
 the English *Words & Sentences* form is currently supported.
 :::
+
+:::
+
+::::

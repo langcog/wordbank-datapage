@@ -16,6 +16,10 @@ _site/
 /_freeze/
 
 .DS_Store
-slices/
+
+# derived slices are build artifacts, except responses/ which is the compact
+# committed source CI builds the others from
+slices/*
+!slices/responses
 
 **/*.quarto_ipynb

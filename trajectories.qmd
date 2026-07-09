@@ -3,23 +3,38 @@ title: "Item Trajectories"
 ---
 
 Explore how individual words are acquired over development. Pick a language
-and form, then select words to see the proportion of children reported to
-produce (or understand) each word at each age.
+and form, select words, and optionally split by a demographic variable —
+proportions are computed in your browser from the raw child-by-word responses.
 
 {{< include _load-instruments.qmd >}}
+{{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
 
 ```{ojs setup}
 //| output: false
 Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
-d3 = require("d3@7")
+duckdb = import("https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/+esm")
+
+db = {
+  const bundle = await duckdb.selectBundle(duckdb.getJsDelivrBundles());
+  const worker = await duckdb.createWorker(bundle.mainWorker);
+  const database = new duckdb.AsyncDuckDB(new duckdb.VoidLogger(), worker);
+  await database.instantiate(bundle.mainModule, bundle.pthreadWorker);
+  return database;
+}
+conn = db.connect()
+registered = new Set()
 
 insts = transpose(instruments)
-san = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
 languages = [...new Set(insts.map((d) => d.language))].sort()
+
+sql = async (q) => (await (await conn).query(q)).toArray().map((r) => ({...r.toJSON()}))
+quote_list = (xs) => xs.map((x) => `'${String(x).replace(/'/g, "''")}'`).join(", ")
 ```
 
-::::{.panel-input}
+:::: {.viz-layout}
+
+::: {.viz-sidebar}
 
 ```{ojs inputs-instrument}
 viewof language = Inputs.select(languages, {
@@ -34,12 +49,26 @@ viewof form = Inputs.select(
 
 ```{ojs load-slice}
 //| output: false
-// lazy load: fetch only the selected instrument's summaries
-slice = d3.csv(`slices/items/${san(language + " " + form)}.csv`, d3.autoType)
+// lazy load: fetch and register only the selected instrument's responses
+resp = {
+  const slug = san(language + " " + form);
+  const fname = `${slug}.parquet`;
+  if (!registered.has(fname)) {
+    const buf = new Uint8Array(
+      await fetch(`slices/responses/${fname}`).then((r) => {
+        if (!r.ok) throw new Error(`no data for ${language} ${form}`);
+        return r.arrayBuffer();
+      }));
+    await db.registerFileBuffer(fname, buf);
+    registered.add(fname);
+  }
+  return `read_parquet('${fname}')`;
+}
 
 form_type = insts.find((d) => d.language === language && d.form === form)?.form_type
 measures = form_type === "WG" ? ["produces", "understands"] : ["produces"]
-words = [...new Set(slice.map((d) => d.item_definition))].sort()
+words = (await sql(`SELECT DISTINCT item_definition FROM ${resp} WHERE item_kind = 'word' ORDER BY 1`))
+  .map((d) => d.item_definition)
 default_words = {
   const defaults = words.filter((w) => ["dog", "mommy*", "ball"].includes(w));
   return defaults.length ? defaults : words.slice(0, 3);
@@ -53,51 +82,87 @@ viewof selected = Inputs.select(words, {
   multiple: 8,
   value: default_words
 })
+viewof split = Inputs.select(split_options, { label: "Split by" })
+viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false })
 ```
 
-::::
+:::
+
+::: {.viz-main}
 
 ```{ojs trajectory-data}
 //| output: false
-trajectory_data = slice.filter(
-  (d) => d.measure === measure && selected.includes(d.item_definition)
-)
+min_n_traj = 5
+trajectory_data = {
+  if (!selected.length) return [];
+  const grp = split ? `CAST(${split} AS VARCHAR)` : `'All data'`;
+  const where = [
+    `item_kind = 'word'`,
+    `item_definition IN (${quote_list(selected)})`,
+    split ? `${grp} IS NOT NULL AND ${grp} <> ''` : `TRUE`,
+    norming_only ? `is_norming` : `TRUE`
+  ].join(" AND ");
+  const rows = await sql(`
+    SELECT item_definition, ${grp} AS grp, age,
+           AVG(CASE WHEN ${measure} THEN 1.0 ELSE 0.0 END) AS prop,
+           COUNT(DISTINCT data_id)::INT AS n_children
+    FROM ${resp}
+    WHERE ${where}
+    GROUP BY 1, 2, 3
+    HAVING COUNT(DISTINCT data_id) >= ${min_n_traj}
+    ORDER BY 1, 2, 3`);
+  return rows.map((d) => ({ ...d, age: Number(d.age), prop: Number(d.prop),
+                            n_children: Number(d.n_children) }));
+}
+
+traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(split))
 ```
 
 ```{ojs trajectory-plot}
-Plot.plot({
-  style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
-  width: 900,
-  height: 450,
-  inset: 8,
-  grid: true,
-  x: { label: "Age (months)", tickFormat: "" },
-  y: { label: `Proportion of children who ${measure === "produces" ? "produce" : "understand"}`, domain: [0, 1] },
-  color: { legend: true },
-  marks: [
-    Plot.dot(trajectory_data, {
-      x: "age",
-      y: "prop",
-      stroke: "item_definition",
-      r: (d) => Math.sqrt(d.n_children) / 4,
-      fillOpacity: 0.5,
-      tip: true
-    }),
-    Plot.lineY(
-      trajectory_data,
-      Plot.windowY(
-        { k: 3, reduce: "mean" },
-        { x: "age", y: "prop", stroke: "item_definition", curve: "basis", strokeWidth: 2.5 }
-      )
-    )
-  ]
-})
+{
+  if (!trajectory_data.length) {
+    return html`<em>No data for this selection (age-by-group cells need at least ${min_n_traj} children).</em>`;
+  }
+  const single = traj_groups.length === 1;
+  const panels = traj_groups.map((g) => {
+    const sub = trajectory_data.filter((d) => d.grp === g);
+    return html`<div style="text-align:center">
+      ${single ? "" : html`<div style="font-weight:600">${g}</div>`}
+      ${Plot.plot({
+        style: { fontFamily: "var(--sans-serif)", fontSize: single ? "13px" : "11px" },
+        width: single ? 850 : 410,
+        height: single ? 450 : 300,
+        inset: 8,
+        grid: true,
+        x: { label: "Age (months)", tickFormat: "d" },
+        y: { label: single ? `Proportion of children who ${measure === "produces" ? "produce" : "understand"}` : null, domain: [0, 1] },
+        color: { legend: single, domain: selected },
+        marks: [
+          Plot.dot(sub, {
+            x: "age", y: "prop", stroke: "item_definition",
+            r: (d) => Math.sqrt(d.n_children) / 4, fillOpacity: 0.5,
+            channels: { n_children: "n_children" }, tip: true
+          }),
+          Plot.lineY(sub, Plot.windowY(
+            { k: 3, reduce: "mean" },
+            { x: "age", y: "prop", stroke: "item_definition", curve: "basis", strokeWidth: 2.5 }
+          ))
+        ]
+      })}
+    </div>`;
+  });
+  return html`<div style="display:flex;flex-wrap:wrap;gap:12px">
+    ${single ? "" : html`<div style="width:100%">${Plot.legend({ color: { domain: selected } })}</div>`}
+    ${panels}
+  </div>`;
+}
 ```
 
 ```{ojs trajectory-table}
 Inputs.table(
-  trajectory_data.map(({ item_definition, category, age, n_children, prop }) =>
-    ({ word: item_definition, category, age, n: n_children, proportion: prop })),
+  trajectory_data.map(({ item_definition, grp, age, n_children, prop }) =>
+    ({ word: item_definition, group: grp, age, n: n_children,
+       proportion: Math.round(prop * 1e4) / 1e4 })),
   { maxWidth: 900 }
 )
 ```
@@ -105,3 +170,7 @@ Inputs.table(
 ```{ojs trajectory-download}
 download_csv(trajectory_data, `wordbank_trajectories_${san(language + " " + form)}_${measure}.csv`)
 ```
+
+:::
+
+::::

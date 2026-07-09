@@ -5,9 +5,10 @@ title: "Vocabulary Norms"
 Vocabulary size as a function of age. Curves show empirical quantiles of
 total vocabulary among children in the Wordbank database, computed in your
 browser from the individual administrations — so they update with any
-combination of filters below.
+combination of filters.
 
 {{< include _load-instruments.qmd >}}
+{{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
 
 ```{ojs setup-norms}
@@ -16,7 +17,6 @@ Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
 d3 = require("d3@7")
 
 insts = transpose(instruments)
-san = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
 norm_languages = [...new Set(insts.map((d) => d.language))].sort()
 
 quantile_presets = new Map([
@@ -25,26 +25,11 @@ quantile_presets = new Map([
   ["Deciles", [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]],
   ["Median", [0.5]]
 ])
-
-split_options = new Map([
-  ["None", null],
-  ["Sex", "sex"],
-  ["Birth order", "birth_order"],
-  ["Caregiver education", "caregiver_education"],
-  ["Ethnicity", "ethnicity"]
-])
-
-level_orders = ({
-  sex: ["Female", "Male", "Other"],
-  birth_order: ["First", "Second", "Third", "Fourth", "Fifth", "Sixth",
-                "Seventh", "Eighth"],
-  caregiver_education: ["None", "Primary", "Some Secondary", "Secondary",
-                        "Some College", "College", "Some Graduate", "Graduate"],
-  ethnicity: ["Asian", "Black", "Hispanic", "White", "Other"]
-})
 ```
 
-::::{.panel-input}
+:::: {.viz-layout}
+
+::: {.viz-sidebar}
 
 ```{ojs inputs-norms}
 viewof nlanguage = Inputs.select(norm_languages, {
@@ -65,7 +50,9 @@ viewof nquantiles = Inputs.select(quantile_presets, { label: "Quantiles" })
 viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false })
 ```
 
-::::
+:::
+
+::: {.viz-main}
 
 ```{ojs norms-data}
 //| output: false
@@ -93,9 +80,8 @@ norms_quantiles = {
       }
     }
   }
-  const order = nsplit ? (level_orders[nsplit] ?? []) : [];
-  return out.sort((a, b) =>
-    (order.indexOf(a.group) - order.indexOf(b.group)) || d3.ascending(a.age, b.age));
+  const cmp = level_sort(nsplit);
+  return out.sort((a, b) => cmp(a.group, b.group) || d3.ascending(a.age, b.age));
 }
 
 norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
@@ -115,8 +101,8 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
       ${single ? "" : html`<div style="font-weight:600">${g} <span style="color:#666;font-weight:400">(n=${n.toLocaleString()})</span></div>`}
       ${Plot.plot({
         style: { fontFamily: "var(--sans-serif)", fontSize: single ? "13px" : "11px" },
-        width: single ? 900 : 440,
-        height: single ? 500 : 300,
+        width: single ? 850 : 410,
+        height: single ? 480 : 300,
         inset: 8,
         grid: true,
         x: { label: "Age (months)", tickFormat: "d" },
@@ -135,7 +121,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
       })}
     </div>`;
   });
-  return html`<div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center">${panels}</div>`;
+  return html`<div style="display:flex;flex-wrap:wrap;gap:16px">${panels}</div>`;
 }
 ```
 
@@ -149,3 +135,7 @@ over adjacent ages, with age-by-group cells under 10 children hidden — a
 useful descriptive picture, but not clinical norms. For norming applications
 see the [official CDI norms](https://mb-cdi.stanford.edu/).
 :::
+
+:::
+
+::::

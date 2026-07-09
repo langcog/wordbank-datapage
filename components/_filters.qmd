@@ -1,0 +1,31 @@
+```{ojs filters-helper}
+//| output: false
+// standard demographic filter set shared by all visualizations
+san = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
+
+split_options = new Map([
+  ["None", null],
+  ["Sex", "sex"],
+  ["Birth order", "birth_order"],
+  ["Caregiver education", "caregiver_education"],
+  ["Ethnicity", "ethnicity"]
+])
+
+level_orders = ({
+  sex: ["Female", "Male", "Other"],
+  birth_order: ["First", "Second", "Third", "Fourth", "Fifth", "Sixth",
+                "Seventh", "Eighth"],
+  caregiver_education: ["None", "Primary", "Some Secondary", "Secondary",
+                        "Some College", "College", "Some Graduate", "Graduate"],
+  ethnicity: ["Asian", "Black", "Hispanic", "White", "Other"]
+})
+
+level_sort = (split) => {
+  const order = split ? (level_orders[split] ?? []) : [];
+  return (a, b) => {
+    const ia = order.indexOf(a), ib = order.indexOf(b);
+    if (ia !== -1 || ib !== -1) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+    return a < b ? -1 : a > b ? 1 : 0;
+  };
+}
+```
