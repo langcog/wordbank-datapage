@@ -1,0 +1,33 @@
+---
+title: "Wordbank"
+subtitle: "An open database of children's vocabulary development"
+---
+
+Wordbank archives data from the [MacArthur-Bates Communicative Development
+Inventories](https://mb-cdi.stanford.edu/) (CDIs), parent-report instruments
+that measure early language development. Data are contributed by researchers
+around the world and are freely available for browsing, visualization, and
+download.
+
+{{< include _load-instruments.qmd >}}
+
+```{ojs stats-cards}
+html`<div class="stats-row">
+  <div class="stat-card"><div class="stat-n">${stats.n_administrations.toLocaleString()}</div><div class="stat-label">CDI administrations</div></div>
+  <div class="stat-card"><div class="stat-n">${stats.n_children.toLocaleString()}</div><div class="stat-label">children</div></div>
+  <div class="stat-card"><div class="stat-n">${stats.n_languages}</div><div class="stat-label">languages</div></div>
+  <div class="stat-card"><div class="stat-n">${stats.n_instruments}</div><div class="stat-label">instruments</div></div>
+</div>`
+```
+
+## Explore
+
+- [Item Trajectories](trajectories.qmd) — how individual words are acquired
+  across ages
+- [Data](data.qmd) — browse and download the full dataset on Redivis
+
+## Citation
+
+Frank, M. C., Braginsky, M., Yurovsky, D., & Marchman, V. A. (2017).
+Wordbank: An open repository for developmental vocabulary data.
+*Journal of Child Language, 44*(3), 677–694.

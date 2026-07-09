@@ -1,0 +1,21 @@
+---
+title: "Data"
+---
+
+All Wordbank data are hosted on the
+[datapages.wordbank](https://redivis.com/datapages/datasets/wordbank) Redivis
+dataset, versioned and freely downloadable. Tables can be filtered and
+exported directly on Redivis; for programmatic access see the
+[wordbankr](https://github.com/langcog/wordbankr) R package or the
+[Redivis API](https://apidocs.redivis.com/).
+
+Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the
+`license` column of the `datasets` table).
+
+## Administrations
+
+{{< redivis-table datapages.wordbank.administrations >}}
+
+## Item responses
+
+{{< redivis-table datapages.wordbank.item_responses >}}

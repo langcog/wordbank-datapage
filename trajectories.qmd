@@ -1,0 +1,102 @@
+---
+title: "Item Trajectories"
+---
+
+Explore how individual words are acquired over development. Pick a language
+and form, then select words to see the proportion of children reported to
+produce (or understand) each word at each age.
+
+{{< include _load-instruments.qmd >}}
+
+```{ojs setup}
+//| output: false
+Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
+d3 = require("d3@7")
+
+insts = transpose(instruments)
+san = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
+languages = [...new Set(insts.map((d) => d.language))].sort()
+```
+
+::::{.panel-input}
+
+```{ojs inputs-instrument}
+viewof language = Inputs.select(languages, {
+  label: "Language",
+  value: "English (American)"
+})
+viewof form = Inputs.select(
+  insts.filter((d) => d.language === language).map((d) => d.form),
+  { label: "Form" }
+)
+```
+
+```{ojs load-slice}
+//| output: false
+// lazy load: fetch only the selected instrument's summaries
+slice = d3.csv(`slices/items/${san(language + " " + form)}.csv`, d3.autoType)
+
+form_type = insts.find((d) => d.language === language && d.form === form)?.form_type
+measures = form_type === "WG" ? ["produces", "understands"] : ["produces"]
+words = [...new Set(slice.map((d) => d.item_definition))].sort()
+default_words = {
+  const defaults = words.filter((w) => ["dog", "mommy*", "ball"].includes(w));
+  return defaults.length ? defaults : words.slice(0, 3);
+}
+```
+
+```{ojs inputs-items}
+viewof measure = Inputs.select(measures, { label: "Measure" })
+viewof selected = Inputs.select(words, {
+  label: "Words",
+  multiple: 8,
+  value: default_words
+})
+```
+
+::::
+
+```{ojs trajectory-data}
+//| output: false
+trajectory_data = slice.filter(
+  (d) => d.measure === measure && selected.includes(d.item_definition)
+)
+```
+
+```{ojs trajectory-plot}
+Plot.plot({
+  style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
+  width: 900,
+  height: 450,
+  inset: 8,
+  grid: true,
+  x: { label: "Age (months)", tickFormat: "" },
+  y: { label: `Proportion of children who ${measure === "produces" ? "produce" : "understand"}`, domain: [0, 1] },
+  color: { legend: true },
+  marks: [
+    Plot.dot(trajectory_data, {
+      x: "age",
+      y: "prop",
+      stroke: "item_definition",
+      r: (d) => Math.sqrt(d.n_children) / 4,
+      fillOpacity: 0.5,
+      tip: true
+    }),
+    Plot.lineY(
+      trajectory_data,
+      Plot.windowY(
+        { k: 3, reduce: "mean" },
+        { x: "age", y: "prop", stroke: "item_definition", curve: "basis", strokeWidth: 2.5 }
+      )
+    )
+  ]
+})
+```
+
+```{ojs trajectory-table}
+Inputs.table(
+  trajectory_data.map(({ item_definition, category, age, n_children, prop }) =>
+    ({ word: item_definition, category, age, n: n_children, proportion: prop })),
+  { maxWidth: 900 }
+)
+```

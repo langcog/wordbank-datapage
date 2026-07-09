@@ -1,0 +1,28 @@
+```{r load-instruments}
+# Load the instruments table and headline stats, from local ETL output when
+# present (data/), otherwise from Redivis (requires REDIVIS_API_TOKEN).
+suppressMessages({
+  library(dplyr)
+})
+
+if (file.exists("data/instruments.parquet")) {
+  instruments <- arrow::read_parquet("data/instruments.parquet")
+  admins <- arrow::read_parquet("data/administrations.parquet")
+} else {
+  library(redivis)
+  dataset <- redivis$organization("datapages")$dataset("wordbank")
+  instruments <- dataset$table("instruments")$to_tibble()
+  admins <- dataset$table("administrations")$to_tibble()
+}
+
+instruments <- instruments |> arrange(language, form)
+stats <- list(
+  n_administrations = nrow(admins),
+  n_children = dplyr::n_distinct(admins$child_id),
+  n_languages = dplyr::n_distinct(instruments$language),
+  n_instruments = nrow(instruments)
+)
+
+ojs_define(instruments = instruments)
+ojs_define(stats = stats)
+```

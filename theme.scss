@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+$primary: #337ab7;
+
+/*-- scss:rules --*/
+
+@import 'https://fonts.googleapis.com/css?family=Nunito+Sans:600,700,800|Roboto+Mono:400|Roboto:500';
+
+.navbar .navbar-brand img {
+  max-height: 32px;
+}
+
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  flex: 1 1 150px;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+
+  .stat-n {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: $primary;
+  }
+
+  .stat-label {
+    color: #666;
+  }
+}
+
+.panel-input {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}

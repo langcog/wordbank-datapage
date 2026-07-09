@@ -1,0 +1,36 @@
+project:
+  title: "Wordbank"
+  type: website
+  resources:
+    - "slices/**"
+
+website:
+  favicon: images/favicon.ico
+  navbar:
+    logo: images/walrus.png
+    title: Wordbank
+    left:
+      - href: index.qmd
+        text: Home
+      - href: trajectories.qmd
+        text: Item Trajectories
+      - href: data.qmd
+        text: Data
+      - href: about.qmd
+        text: About
+
+format:
+  datapage-html:
+    theme: theme.scss
+
+execute:
+  echo: false
+  message: false
+  warning: false
+  error: false
+
+# canonical data store; render-time loading falls back to this when
+# local data/ parquet files (from etl/extract_wordbank.R) are absent
+redivis:
+  organization: datapages
+  dataset: wordbank
