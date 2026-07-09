@@ -7,6 +7,8 @@ Compare the acquisition of word meanings across languages. Pick a "uni-lemma"
 mapped word, the proportion of children producing or understanding it at each
 age.
 
+{{< include components/_download.qmd >}}
+
 ```{ojs setup-crossling}
 //| output: false
 Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
@@ -78,4 +80,8 @@ Inputs.table(
     ({ language, word: words, age, n, proportion: prop })),
   { maxWidth: 950 }
 )
+```
+
+```{ojs crossling-download}
+download_csv(lemma_filtered, `wordbank_crossling_${lemma.slug}_${xmeasure}.csv`)
 ```

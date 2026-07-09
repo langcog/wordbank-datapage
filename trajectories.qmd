@@ -7,6 +7,7 @@ and form, then select words to see the proportion of children reported to
 produce (or understand) each word at each age.
 
 {{< include _load-instruments.qmd >}}
+{{< include components/_download.qmd >}}
 
 ```{ojs setup}
 //| output: false
@@ -99,4 +100,8 @@ Inputs.table(
     ({ word: item_definition, category, age, n: n_children, proportion: prop })),
   { maxWidth: 900 }
 )
+```
+
+```{ojs trajectory-download}
+download_csv(trajectory_data, `wordbank_trajectories_${san(language + " " + form)}_${measure}.csv`)
 ```

@@ -2,28 +2,46 @@
 title: "Vocabulary Norms"
 ---
 
-Vocabulary size as a function of age. Curves show empirical quantiles
-(10th/25th/50th/75th/90th percentile) of total vocabulary among children in
-the Wordbank database, per instrument.
+Vocabulary size as a function of age. Curves show empirical quantiles of
+total vocabulary among children in the Wordbank database, computed in your
+browser from the individual administrations — so they update with any
+combination of filters below.
 
-```{r load-vocab}
-suppressMessages(library(dplyr))
-if (file.exists("data/vocab_summaries.parquet")) {
-  vocab_summaries <- arrow::read_parquet("data/vocab_summaries.parquet")
-} else {
-  library(redivis)
-  vocab_summaries <- redivis$organization("datapages")$dataset("wordbank")$
-    table("vocab_summaries")$to_tibble()
-}
-ojs_define(vocab = vocab_summaries)
-```
+{{< include _load-instruments.qmd >}}
+{{< include components/_download.qmd >}}
 
 ```{ojs setup-norms}
 //| output: false
 Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
+d3 = require("d3@7")
 
-v = transpose(vocab)
-norm_languages = [...new Set(v.map((d) => d.language))].sort()
+insts = transpose(instruments)
+san = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
+norm_languages = [...new Set(insts.map((d) => d.language))].sort()
+
+quantile_presets = new Map([
+  ["Standard (10/25/50/75/90)", [0.10, 0.25, 0.50, 0.75, 0.90]],
+  ["Quartiles", [0.25, 0.50, 0.75]],
+  ["Deciles", [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]],
+  ["Median", [0.5]]
+])
+
+split_options = new Map([
+  ["None", null],
+  ["Sex", "sex"],
+  ["Birth order", "birth_order"],
+  ["Caregiver education", "caregiver_education"],
+  ["Ethnicity", "ethnicity"]
+])
+
+level_orders = ({
+  sex: ["Female", "Male", "Other"],
+  birth_order: ["First", "Second", "Third", "Fourth", "Fifth", "Sixth",
+                "Seventh", "Eighth"],
+  caregiver_education: ["None", "Primary", "Some Secondary", "Secondary",
+                        "Some College", "College", "Some Graduate", "Graduate"],
+  ethnicity: ["Asian", "Black", "Hispanic", "White", "Other"]
+})
 ```
 
 ::::{.panel-input}
@@ -34,53 +52,100 @@ viewof nlanguage = Inputs.select(norm_languages, {
   value: "English (American)"
 })
 viewof nform = Inputs.select(
-  [...new Set(v.filter((d) => d.language === nlanguage).map((d) => d.form))],
+  insts.filter((d) => d.language === nlanguage).map((d) => d.form),
   { label: "Form" }
 )
 viewof nmeasure = Inputs.select(
-  [...new Set(v.filter((d) => d.language === nlanguage && d.form === nform)
-    .map((d) => d.measure))],
+  insts.find((d) => d.language === nlanguage && d.form === nform)?.form_type === "WG"
+    ? ["production", "comprehension"] : ["production"],
   { label: "Measure" }
 )
+viewof nsplit = Inputs.select(split_options, { label: "Split by" })
+viewof nquantiles = Inputs.select(quantile_presets, { label: "Quantiles" })
+viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false })
 ```
 
 ::::
 
 ```{ojs norms-data}
 //| output: false
-norms_data = v.filter((d) =>
-  d.language === nlanguage && d.form === nform && d.measure === nmeasure)
+// lazy load: fetch only the selected instrument's administrations
+nslice = d3.csv(`slices/admins/${san(nlanguage + " " + nform)}.csv`, (d) => ({
+  age: +d.age,
+  vocab: +d[nmeasure],
+  is_norming: d.is_norming === "TRUE",
+  group: nsplit ? d[nsplit] : "All data"
+}))
+
+min_n = 10
+norms_quantiles = {
+  const rows = nslice.filter((d) =>
+    Number.isFinite(d.vocab) && d.group !== "" && (!norming_only || d.is_norming));
+  const out = [];
+  for (const [group, byAge] of d3.groups(rows, (d) => d.group)) {
+    for (const [age, cell] of d3.groups(byAge, (d) => d.age)) {
+      if (cell.length < min_n) continue;
+      const vocabs = cell.map((d) => d.vocab).sort(d3.ascending);
+      for (const q of nquantiles) {
+        out.push({ group, age, n_children: cell.length,
+                   quantile: `${Math.round(q * 100)}th`,
+                   vocab: d3.quantileSorted(vocabs, q) });
+      }
+    }
+  }
+  const order = nsplit ? (level_orders[nsplit] ?? []) : [];
+  return out.sort((a, b) =>
+    (order.indexOf(a.group) - order.indexOf(b.group)) || d3.ascending(a.age, b.age));
+}
+
+norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
 ```
 
 ```{ojs norms-plot}
-Plot.plot({
-  style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
-  width: 900,
-  height: 500,
-  inset: 8,
-  grid: true,
-  x: { label: "Age (months)", tickFormat: "" },
-  y: { label: `${nmeasure === "production" ? "Productive" : "Receptive"} vocabulary (words)` },
-  color: { legend: true, type: "ordinal", scheme: "viridis", label: "Quantile" },
-  marks: [
-    Plot.lineY(norms_data, Plot.windowY(
-      { k: 3, reduce: "mean" },
-      { x: "age", y: "vocab", stroke: (d) => `${Math.round(d.quantile * 100)}th`,
-        strokeWidth: 2.5, curve: "basis" }
-    )),
-    Plot.dot(norms_data, {
-      x: "age", y: "vocab",
-      fill: (d) => `${Math.round(d.quantile * 100)}th`,
-      r: 2.5, fillOpacity: 0.6,
-      channels: { n_children: "n_children" },
-      tip: true
-    })
-  ]
-})
+{
+  if (!norms_quantiles.length) {
+    return html`<em>Not enough data for this selection (cells need at least ${min_n} children per age).</em>`;
+  }
+  const single = norm_groups.length === 1;
+  const panels = norm_groups.map((g) => {
+    const sub = norms_quantiles.filter((d) => d.group === g);
+    const n = d3.sum([...new Set(sub.map((d) => `${d.age}`))].map((a) =>
+      sub.find((d) => `${d.age}` === a).n_children));
+    return html`<div style="text-align:center">
+      ${single ? "" : html`<div style="font-weight:600">${g} <span style="color:#666;font-weight:400">(n=${n.toLocaleString()})</span></div>`}
+      ${Plot.plot({
+        style: { fontFamily: "var(--sans-serif)", fontSize: single ? "13px" : "11px" },
+        width: single ? 900 : 440,
+        height: single ? 500 : 300,
+        inset: 8,
+        grid: true,
+        x: { label: "Age (months)", tickFormat: "d" },
+        y: { label: single ? `${nmeasure === "production" ? "Productive" : "Receptive"} vocabulary (words)` : null },
+        color: { legend: single, type: "ordinal", scheme: "viridis", label: "Quantile" },
+        marks: [
+          Plot.lineY(sub, Plot.windowY(
+            { k: 3, reduce: "mean" },
+            { x: "age", y: "vocab", stroke: "quantile", strokeWidth: 2.5, curve: "basis" }
+          )),
+          Plot.dot(sub, {
+            x: "age", y: "vocab", fill: "quantile", r: 2.5, fillOpacity: 0.6,
+            channels: { n_children: "n_children" }, tip: true
+          })
+        ]
+      })}
+    </div>`;
+  });
+  return html`<div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:center">${panels}</div>`;
+}
+```
+
+```{ojs norms-download}
+download_csv(norms_quantiles, `wordbank_norms_${san(nlanguage + " " + nform)}_${nmeasure}.csv`)
 ```
 
 ::: {.callout-note}
 These are empirical quantiles of the archive's convenience sample, smoothed
-over adjacent ages — a useful descriptive picture, but not clinical norms.
-For norming applications see the [official CDI norms](https://mb-cdi.stanford.edu/).
+over adjacent ages, with age-by-group cells under 10 children hidden — a
+useful descriptive picture, but not clinical norms. For norming applications
+see the [official CDI norms](https://mb-cdi.stanford.edu/).
 :::

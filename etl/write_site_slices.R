@@ -8,6 +8,8 @@
 #   slices/items/<language_form>.csv   item_summaries for one instrument
 #   slices/unilemmas/<uni_lemma>.csv   uni_lemma_summaries for one uni-lemma
 #   slices/unilemmas/index.json        available uni-lemmas + language counts
+#   slices/admins/<language_form>.csv  administrations (with demographics) for
+#                                      one instrument, for client-side norms
 
 suppressMessages({
   library(arrow)
@@ -56,3 +58,17 @@ uni |>
   arrange(uni_lemma) |>
   write_json("slices/unilemmas/index.json")
 message("wrote ", length(list.files("slices/unilemmas")), " uni-lemma slices")
+
+dir.create("slices/admins", recursive = TRUE, showWarnings = FALSE)
+read_parquet("data/administrations.parquet") |>
+  filter(!is.na(age)) |>
+  group_by(language, form) |>
+  group_walk(function(d, key) {
+    d |>
+      select(age, production, comprehension, is_norming, sex, birth_order,
+             caregiver_education, ethnicity) |>
+      write_csv(file.path("slices/admins",
+                          paste0(san(paste(key$language, key$form)), ".csv")),
+                na = "")
+  })
+message("wrote ", length(list.files("slices/admins")), " admin slices")
