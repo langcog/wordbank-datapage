@@ -23,6 +23,17 @@ stats <- list(
   n_instruments = nrow(instruments)
 )
 
+# children per language; 3+-word names become initials (as on the old site)
+lang_stats <- admins |>
+  group_by(language) |>
+  summarise(count = dplyr::n_distinct(child_id), .groups = "drop") |>
+  mutate(name = ifelse(
+    lengths(strsplit(language, " ")) > 2,
+    vapply(strsplit(language, " "), \(p) paste(substr(p, 1, 1), collapse = ""), ""),
+    language)) |>
+  arrange(desc(count))
+
 ojs_define(instruments = instruments)
 ojs_define(stats = stats)
+ojs_define(lang_stats = lang_stats)
 ```
