@@ -1,0 +1,18 @@
+# credentials — never commit
+.secrets
+
+# ETL output (uploaded to Redivis, not stored in git)
+data/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Rprofile.local
+
+# Quarto
+/.quarto/
+_site/
+/_freeze/
+
+.DS_Store
