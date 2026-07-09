@@ -1,0 +1,14 @@
+```{r load-datasets}
+# Datasets/contributors table, from local ETL output when present, else Redivis.
+suppressMessages(library(dplyr))
+if (file.exists("data/datasets.parquet")) {
+  wb_datasets <- arrow::read_parquet("data/datasets.parquet")
+} else {
+  library(redivis)
+  wb_datasets <- redivis$organization("datapages")$dataset("wordbank")$
+    table("datasets")$to_tibble()
+}
+ojs_define(datasets = dplyr::select(
+  wb_datasets, language, form, dataset_name, contributor, citation, license,
+  n_admins))
+```

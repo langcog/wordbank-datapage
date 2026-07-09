@@ -13,18 +13,26 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: trajectories.qmd
-        text: Item Trajectories
-      - href: crossling.qmd
-        text: Cross-Linguistic
-      - href: norms.qmd
-        text: Vocabulary Norms
-      - href: scoring.qmd
-        text: Scoring
+      - text: Analyses
+        menu:
+          - href: norms.qmd
+            text: Vocabulary Norms
+          - href: trajectories.qmd
+            text: Item Trajectories
+          - href: crossling.qmd
+            text: Cross-Linguistic Trajectories
+          - href: scoring.qmd
+            text: CDI Scoring
       - href: data.qmd
         text: Data
+      - href: contributors.qmd
+        text: Contributors
+      - href: blog.qmd
+        text: Blog
       - href: about.qmd
         text: About
+      - href: faq.qmd
+        text: FAQ
 
 format:
   datapage-html:

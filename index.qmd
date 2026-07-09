@@ -1,7 +1,20 @@
 ---
-title: "Wordbank"
-subtitle: "An open database of children's vocabulary development"
+pagetitle: "Wordbank"
 ---
+
+```{=html}
+<div class="wb-hero">
+  <img class="walrus" src="images/walrus.png" alt="Wordbank walrus">
+  <div class="wb-hero-title">
+    <div class="wb-title">Wordbank</div>
+    <p>An open database of children's vocabulary development</p>
+  </div>
+  <div>
+    <a href="https://mb-cdi.stanford.edu/"><img class="mcdi" src="images/mcdi.png" alt="MB-CDI"></a>
+    <a href="https://langcog.stanford.edu/"><img class="lab" src="images/lab_logo.png" alt="Language and Cognition Lab"></a>
+  </div>
+</div>
+```
 
 Wordbank archives data from the [MacArthur-Bates Communicative Development
 Inventories](https://mb-cdi.stanford.edu/) (CDIs), parent-report instruments
@@ -82,9 +95,30 @@ langs = transpose(lang_stats)
 
 ## Explore
 
-- [Item Trajectories](trajectories.qmd) — how individual words are acquired
-  across ages
-- [Data](data.qmd) — browse and download the full dataset on Redivis
+```{=html}
+<div class="analysis-thumbs">
+  <a href="norms.html">
+    <img src="images/sample_plots/vocab_xkcd.png" alt="">
+    <h4>Vocabulary Norms</h4>
+    <p>Growth curves of vocabulary size, by language and demographic group.</p>
+  </a>
+  <a href="trajectories.html">
+    <img src="images/sample_plots/items_xkcd.png" alt="">
+    <h4>Item Trajectories</h4>
+    <p>Acquisition trajectories of individual words.</p>
+  </a>
+  <a href="crossling.html">
+    <img src="images/sample_plots/items_xkcd.png" alt="">
+    <h4>Cross-Linguistic</h4>
+    <p>Compare word meanings across languages.</p>
+  </a>
+  <a href="data.html">
+    <img src="images/sample_plots/vocab_xkcd.png" alt="">
+    <h4>Data</h4>
+    <p>Browse and download the full dataset on Redivis.</p>
+  </a>
+</div>
+```
 
 ## Citation
 
