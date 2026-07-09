@@ -1,99 +1,295 @@
-language,age,words,n,measure,prop
-Russian,18,дрова,42,produces,0
-Russian,18,дрова,42,understands,0
-Russian,19,дрова,41,produces,0
-Russian,19,дрова,41,understands,0
-Russian,20,дрова,45,produces,0.0444
-Russian,20,дрова,45,understands,0
-Russian,21,дрова,43,produces,0.0465
-Russian,21,дрова,43,understands,0
-Russian,22,дрова,51,produces,0.0392
-Russian,22,дрова,51,understands,0
-Russian,23,дрова,56,produces,0.1071
-Russian,23,дрова,56,understands,0
-Russian,24,дрова,61,produces,0.1311
-Russian,24,дрова,61,understands,0
-Russian,25,дрова,66,produces,0.1515
-Russian,25,дрова,66,understands,0
-Russian,26,дрова,52,produces,0.1731
-Russian,26,дрова,52,understands,0
-Russian,27,дрова,60,produces,0.25
-Russian,27,дрова,60,understands,0
-Russian,28,дрова,60,produces,0.3
-Russian,28,дрова,60,understands,0
-Russian,29,дрова,58,produces,0.3448
-Russian,29,дрова,58,understands,0
-Russian,30,дрова,77,produces,0.3117
-Russian,30,дрова,77,understands,0
-Russian,31,дрова,61,produces,0.4262
-Russian,31,дрова,61,understands,0
-Russian,32,дрова,55,produces,0.5091
-Russian,32,дрова,55,understands,0
-Russian,33,дрова,55,produces,0.5091
-Russian,33,дрова,55,understands,0
-Russian,34,дрова,58,produces,0.431
-Russian,34,дрова,58,understands,0
-Russian,35,дрова,47,produces,0.5532
-Russian,35,дрова,47,understands,0
-Russian,36,дрова,49,produces,0.4694
-Russian,36,дрова,49,understands,0
-Spanish (Mexican),16,leña,68,produces,0.0588
-Spanish (Mexican),16,leña,68,understands,0
-Spanish (Mexican),17,leña,59,produces,0.0169
-Spanish (Mexican),17,leña,59,understands,0
-Spanish (Mexican),18,leña,75,produces,0.04
-Spanish (Mexican),18,leña,75,understands,0
-Spanish (Mexican),19,leña,100,produces,0.15
-Spanish (Mexican),19,leña,100,understands,0
-Spanish (Mexican),20,leña,107,produces,0.0935
-Spanish (Mexican),20,leña,107,understands,0
-Spanish (Mexican),21,leña,84,produces,0.0833
-Spanish (Mexican),21,leña,84,understands,0
-Spanish (Mexican),22,leña,141,produces,0.0496
-Spanish (Mexican),22,leña,141,understands,0
-Spanish (Mexican),23,leña,91,produces,0.0659
-Spanish (Mexican),23,leña,91,understands,0
-Spanish (Mexican),24,leña,126,produces,0.1667
-Spanish (Mexican),24,leña,126,understands,0
-Spanish (Mexican),25,leña,177,produces,0.1412
-Spanish (Mexican),25,leña,177,understands,0
-Spanish (Mexican),26,leña,83,produces,0.1446
-Spanish (Mexican),26,leña,83,understands,0
-Spanish (Mexican),27,leña,85,produces,0.1647
-Spanish (Mexican),27,leña,85,understands,0
-Spanish (Mexican),28,leña,89,produces,0.2247
-Spanish (Mexican),28,leña,89,understands,0
-Spanish (Mexican),29,leña,89,produces,0.1461
-Spanish (Mexican),29,leña,89,understands,0
-Spanish (Mexican),30,leña,308,produces,0.0747
-Spanish (Mexican),30,leña,308,understands,0
-Catalan,16,llenya,24,produces,0
-Catalan,16,llenya,24,understands,0
-Catalan,17,llenya,36,produces,0
-Catalan,17,llenya,36,understands,0
-Catalan,18,llenya,51,produces,0
-Catalan,18,llenya,51,understands,0
-Catalan,19,llenya,45,produces,0.0222
-Catalan,19,llenya,45,understands,0
-Catalan,20,llenya,56,produces,0.0179
-Catalan,20,llenya,56,understands,0
-Catalan,21,llenya,58,produces,0.0345
-Catalan,21,llenya,58,understands,0
-Catalan,22,llenya,50,produces,0.04
-Catalan,22,llenya,50,understands,0
-Catalan,23,llenya,66,produces,0.1061
-Catalan,23,llenya,66,understands,0
-Catalan,24,llenya,79,produces,0.1646
-Catalan,24,llenya,79,understands,0
-Catalan,25,llenya,60,produces,0.2333
-Catalan,25,llenya,60,understands,0
-Catalan,26,llenya,65,produces,0.2308
-Catalan,26,llenya,65,understands,0
-Catalan,27,llenya,63,produces,0.1905
-Catalan,27,llenya,63,understands,0
-Catalan,28,llenya,81,produces,0.2716
-Catalan,28,llenya,81,understands,0
-Catalan,29,llenya,50,produces,0.36
-Catalan,29,llenya,50,understands,0
-Catalan,30,llenya,75,produces,0.4133
-Catalan,30,llenya,75,understands,0
+language,sex,age,words,n,measure,prop
+Catalan,All,16,llenya,24,produces,0
+Catalan,All,16,llenya,24,understands,0
+Catalan,All,17,llenya,36,produces,0
+Catalan,All,17,llenya,36,understands,0
+Catalan,All,18,llenya,51,produces,0
+Catalan,All,18,llenya,51,understands,0
+Catalan,All,19,llenya,45,produces,0.0222
+Catalan,All,19,llenya,45,understands,0
+Catalan,All,20,llenya,56,produces,0.0179
+Catalan,All,20,llenya,56,understands,0
+Catalan,All,21,llenya,58,produces,0.0345
+Catalan,All,21,llenya,58,understands,0
+Catalan,All,22,llenya,50,produces,0.04
+Catalan,All,22,llenya,50,understands,0
+Catalan,All,23,llenya,66,produces,0.1061
+Catalan,All,23,llenya,66,understands,0
+Catalan,All,24,llenya,79,produces,0.1646
+Catalan,All,24,llenya,79,understands,0
+Catalan,All,25,llenya,60,produces,0.2333
+Catalan,All,25,llenya,60,understands,0
+Catalan,All,26,llenya,65,produces,0.2308
+Catalan,All,26,llenya,65,understands,0
+Catalan,All,27,llenya,63,produces,0.1905
+Catalan,All,27,llenya,63,understands,0
+Catalan,All,28,llenya,81,produces,0.2716
+Catalan,All,28,llenya,81,understands,0
+Catalan,All,29,llenya,50,produces,0.36
+Catalan,All,29,llenya,50,understands,0
+Catalan,All,30,llenya,75,produces,0.4133
+Catalan,All,30,llenya,75,understands,0
+Russian,All,18,дрова,42,produces,0
+Russian,All,18,дрова,42,understands,0
+Russian,All,19,дрова,41,produces,0
+Russian,All,19,дрова,41,understands,0
+Russian,All,20,дрова,45,produces,0.0444
+Russian,All,20,дрова,45,understands,0
+Russian,All,21,дрова,43,produces,0.0465
+Russian,All,21,дрова,43,understands,0
+Russian,All,22,дрова,51,produces,0.0392
+Russian,All,22,дрова,51,understands,0
+Russian,All,23,дрова,56,produces,0.1071
+Russian,All,23,дрова,56,understands,0
+Russian,All,24,дрова,61,produces,0.1311
+Russian,All,24,дрова,61,understands,0
+Russian,All,25,дрова,66,produces,0.1515
+Russian,All,25,дрова,66,understands,0
+Russian,All,26,дрова,52,produces,0.1731
+Russian,All,26,дрова,52,understands,0
+Russian,All,27,дрова,60,produces,0.25
+Russian,All,27,дрова,60,understands,0
+Russian,All,28,дрова,60,produces,0.3
+Russian,All,28,дрова,60,understands,0
+Russian,All,29,дрова,58,produces,0.3448
+Russian,All,29,дрова,58,understands,0
+Russian,All,30,дрова,77,produces,0.3117
+Russian,All,30,дрова,77,understands,0
+Russian,All,31,дрова,61,produces,0.4262
+Russian,All,31,дрова,61,understands,0
+Russian,All,32,дрова,55,produces,0.5091
+Russian,All,32,дрова,55,understands,0
+Russian,All,33,дрова,55,produces,0.5091
+Russian,All,33,дрова,55,understands,0
+Russian,All,34,дрова,58,produces,0.431
+Russian,All,34,дрова,58,understands,0
+Russian,All,35,дрова,47,produces,0.5532
+Russian,All,35,дрова,47,understands,0
+Russian,All,36,дрова,49,produces,0.4694
+Russian,All,36,дрова,49,understands,0
+Spanish (Mexican),All,16,leña,68,produces,0.0588
+Spanish (Mexican),All,16,leña,68,understands,0
+Spanish (Mexican),All,17,leña,59,produces,0.0169
+Spanish (Mexican),All,17,leña,59,understands,0
+Spanish (Mexican),All,18,leña,75,produces,0.04
+Spanish (Mexican),All,18,leña,75,understands,0
+Spanish (Mexican),All,19,leña,100,produces,0.15
+Spanish (Mexican),All,19,leña,100,understands,0
+Spanish (Mexican),All,20,leña,107,produces,0.0935
+Spanish (Mexican),All,20,leña,107,understands,0
+Spanish (Mexican),All,21,leña,84,produces,0.0833
+Spanish (Mexican),All,21,leña,84,understands,0
+Spanish (Mexican),All,22,leña,141,produces,0.0496
+Spanish (Mexican),All,22,leña,141,understands,0
+Spanish (Mexican),All,23,leña,91,produces,0.0659
+Spanish (Mexican),All,23,leña,91,understands,0
+Spanish (Mexican),All,24,leña,126,produces,0.1667
+Spanish (Mexican),All,24,leña,126,understands,0
+Spanish (Mexican),All,25,leña,177,produces,0.1412
+Spanish (Mexican),All,25,leña,177,understands,0
+Spanish (Mexican),All,26,leña,83,produces,0.1446
+Spanish (Mexican),All,26,leña,83,understands,0
+Spanish (Mexican),All,27,leña,85,produces,0.1647
+Spanish (Mexican),All,27,leña,85,understands,0
+Spanish (Mexican),All,28,leña,89,produces,0.2247
+Spanish (Mexican),All,28,leña,89,understands,0
+Spanish (Mexican),All,29,leña,89,produces,0.1461
+Spanish (Mexican),All,29,leña,89,understands,0
+Spanish (Mexican),All,30,leña,308,produces,0.0747
+Spanish (Mexican),All,30,leña,308,understands,0
+Catalan,Female,16,llenya,8,produces,0
+Catalan,Female,16,llenya,8,understands,0
+Catalan,Male,16,llenya,16,produces,0
+Catalan,Male,16,llenya,16,understands,0
+Catalan,Female,17,llenya,22,produces,0
+Catalan,Female,17,llenya,22,understands,0
+Catalan,Male,17,llenya,14,produces,0
+Catalan,Male,17,llenya,14,understands,0
+Catalan,Female,18,llenya,22,produces,0
+Catalan,Female,18,llenya,22,understands,0
+Catalan,Male,18,llenya,29,produces,0
+Catalan,Male,18,llenya,29,understands,0
+Catalan,Female,19,llenya,25,produces,0.04
+Catalan,Female,19,llenya,25,understands,0
+Catalan,Male,19,llenya,20,produces,0
+Catalan,Male,19,llenya,20,understands,0
+Catalan,Female,20,llenya,28,produces,0
+Catalan,Female,20,llenya,28,understands,0
+Catalan,Male,20,llenya,28,produces,0.0357
+Catalan,Male,20,llenya,28,understands,0
+Catalan,Female,21,llenya,32,produces,0.0312
+Catalan,Female,21,llenya,32,understands,0
+Catalan,Male,21,llenya,26,produces,0.0385
+Catalan,Male,21,llenya,26,understands,0
+Catalan,Female,22,llenya,26,produces,0
+Catalan,Female,22,llenya,26,understands,0
+Catalan,Male,22,llenya,24,produces,0.0833
+Catalan,Male,22,llenya,24,understands,0
+Catalan,Female,23,llenya,35,produces,0.0571
+Catalan,Female,23,llenya,35,understands,0
+Catalan,Male,23,llenya,31,produces,0.1613
+Catalan,Male,23,llenya,31,understands,0
+Catalan,Female,24,llenya,41,produces,0.1951
+Catalan,Female,24,llenya,41,understands,0
+Catalan,Male,24,llenya,38,produces,0.1316
+Catalan,Male,24,llenya,38,understands,0
+Catalan,Female,25,llenya,30,produces,0.2667
+Catalan,Female,25,llenya,30,understands,0
+Catalan,Male,25,llenya,30,produces,0.2
+Catalan,Male,25,llenya,30,understands,0
+Catalan,Female,26,llenya,35,produces,0.1714
+Catalan,Female,26,llenya,35,understands,0
+Catalan,Male,26,llenya,30,produces,0.3
+Catalan,Male,26,llenya,30,understands,0
+Catalan,Female,27,llenya,36,produces,0.25
+Catalan,Female,27,llenya,36,understands,0
+Catalan,Male,27,llenya,27,produces,0.1111
+Catalan,Male,27,llenya,27,understands,0
+Catalan,Female,28,llenya,40,produces,0.35
+Catalan,Female,28,llenya,40,understands,0
+Catalan,Male,28,llenya,41,produces,0.1951
+Catalan,Male,28,llenya,41,understands,0
+Catalan,Female,29,llenya,25,produces,0.48
+Catalan,Female,29,llenya,25,understands,0
+Catalan,Male,29,llenya,25,produces,0.24
+Catalan,Male,29,llenya,25,understands,0
+Catalan,Female,30,llenya,24,produces,0.3333
+Catalan,Female,30,llenya,24,understands,0
+Catalan,Male,30,llenya,51,produces,0.451
+Catalan,Male,30,llenya,51,understands,0
+Russian,Female,18,дрова,24,produces,0
+Russian,Female,18,дрова,24,understands,0
+Russian,Male,18,дрова,18,produces,0
+Russian,Male,18,дрова,18,understands,0
+Russian,Female,19,дрова,22,produces,0
+Russian,Female,19,дрова,22,understands,0
+Russian,Male,19,дрова,19,produces,0
+Russian,Male,19,дрова,19,understands,0
+Russian,Female,20,дрова,18,produces,0
+Russian,Female,20,дрова,18,understands,0
+Russian,Male,20,дрова,27,produces,0.0741
+Russian,Male,20,дрова,27,understands,0
+Russian,Female,21,дрова,22,produces,0
+Russian,Female,21,дрова,22,understands,0
+Russian,Male,21,дрова,21,produces,0.0952
+Russian,Male,21,дрова,21,understands,0
+Russian,Female,22,дрова,29,produces,0
+Russian,Female,22,дрова,29,understands,0
+Russian,Male,22,дрова,22,produces,0.0909
+Russian,Male,22,дрова,22,understands,0
+Russian,Female,23,дрова,37,produces,0.1622
+Russian,Female,23,дрова,37,understands,0
+Russian,Male,23,дрова,19,produces,0
+Russian,Male,23,дрова,19,understands,0
+Russian,Female,24,дрова,28,produces,0.1786
+Russian,Female,24,дрова,28,understands,0
+Russian,Male,24,дрова,33,produces,0.0909
+Russian,Male,24,дрова,33,understands,0
+Russian,Female,25,дрова,39,produces,0.1282
+Russian,Female,25,дрова,39,understands,0
+Russian,Male,25,дрова,27,produces,0.1852
+Russian,Male,25,дрова,27,understands,0
+Russian,Female,26,дрова,26,produces,0.1923
+Russian,Female,26,дрова,26,understands,0
+Russian,Male,26,дрова,26,produces,0.1538
+Russian,Male,26,дрова,26,understands,0
+Russian,Female,27,дрова,37,produces,0.2703
+Russian,Female,27,дрова,37,understands,0
+Russian,Male,27,дрова,23,produces,0.2174
+Russian,Male,27,дрова,23,understands,0
+Russian,Female,28,дрова,28,produces,0.4286
+Russian,Female,28,дрова,28,understands,0
+Russian,Male,28,дрова,32,produces,0.1875
+Russian,Male,28,дрова,32,understands,0
+Russian,Female,29,дрова,30,produces,0.3333
+Russian,Female,29,дрова,30,understands,0
+Russian,Male,29,дрова,27,produces,0.3704
+Russian,Male,29,дрова,27,understands,0
+Russian,Female,30,дрова,42,produces,0.3095
+Russian,Female,30,дрова,42,understands,0
+Russian,Male,30,дрова,35,produces,0.3143
+Russian,Male,30,дрова,35,understands,0
+Russian,Female,31,дрова,32,produces,0.4062
+Russian,Female,31,дрова,32,understands,0
+Russian,Male,31,дрова,29,produces,0.4483
+Russian,Male,31,дрова,29,understands,0
+Russian,Female,32,дрова,29,produces,0.4483
+Russian,Female,32,дрова,29,understands,0
+Russian,Male,32,дрова,26,produces,0.5769
+Russian,Male,32,дрова,26,understands,0
+Russian,Female,33,дрова,27,produces,0.4444
+Russian,Female,33,дрова,27,understands,0
+Russian,Male,33,дрова,28,produces,0.5714
+Russian,Male,33,дрова,28,understands,0
+Russian,Female,34,дрова,31,produces,0.5161
+Russian,Female,34,дрова,31,understands,0
+Russian,Male,34,дрова,27,produces,0.3333
+Russian,Male,34,дрова,27,understands,0
+Russian,Female,35,дрова,22,produces,0.6364
+Russian,Female,35,дрова,22,understands,0
+Russian,Male,35,дрова,25,produces,0.48
+Russian,Male,35,дрова,25,understands,0
+Russian,Female,36,дрова,27,produces,0.5556
+Russian,Female,36,дрова,27,understands,0
+Russian,Male,36,дрова,22,produces,0.3636
+Russian,Male,36,дрова,22,understands,0
+Spanish (Mexican),Female,16,leña,34,produces,0.0882
+Spanish (Mexican),Female,16,leña,34,understands,0
+Spanish (Mexican),Male,16,leña,34,produces,0.0294
+Spanish (Mexican),Male,16,leña,34,understands,0
+Spanish (Mexican),Female,17,leña,34,produces,0.0294
+Spanish (Mexican),Female,17,leña,34,understands,0
+Spanish (Mexican),Male,17,leña,25,produces,0
+Spanish (Mexican),Male,17,leña,25,understands,0
+Spanish (Mexican),Female,18,leña,35,produces,0.0286
+Spanish (Mexican),Female,18,leña,35,understands,0
+Spanish (Mexican),Male,18,leña,40,produces,0.05
+Spanish (Mexican),Male,18,leña,40,understands,0
+Spanish (Mexican),Female,19,leña,47,produces,0.1277
+Spanish (Mexican),Female,19,leña,47,understands,0
+Spanish (Mexican),Male,19,leña,53,produces,0.1698
+Spanish (Mexican),Male,19,leña,53,understands,0
+Spanish (Mexican),Female,20,leña,53,produces,0.1132
+Spanish (Mexican),Female,20,leña,53,understands,0
+Spanish (Mexican),Male,20,leña,54,produces,0.0741
+Spanish (Mexican),Male,20,leña,54,understands,0
+Spanish (Mexican),Female,21,leña,37,produces,0.0541
+Spanish (Mexican),Female,21,leña,37,understands,0
+Spanish (Mexican),Male,21,leña,47,produces,0.1064
+Spanish (Mexican),Male,21,leña,47,understands,0
+Spanish (Mexican),Female,22,leña,64,produces,0.0625
+Spanish (Mexican),Female,22,leña,64,understands,0
+Spanish (Mexican),Male,22,leña,67,produces,0.0448
+Spanish (Mexican),Male,22,leña,67,understands,0
+Spanish (Mexican),Female,23,leña,49,produces,0.0408
+Spanish (Mexican),Female,23,leña,49,understands,0
+Spanish (Mexican),Male,23,leña,42,produces,0.0952
+Spanish (Mexican),Male,23,leña,42,understands,0
+Spanish (Mexican),Female,24,leña,63,produces,0.1429
+Spanish (Mexican),Female,24,leña,63,understands,0
+Spanish (Mexican),Male,24,leña,63,produces,0.1905
+Spanish (Mexican),Male,24,leña,63,understands,0
+Spanish (Mexican),Female,25,leña,78,produces,0.1667
+Spanish (Mexican),Female,25,leña,78,understands,0
+Spanish (Mexican),Male,25,leña,89,produces,0.1348
+Spanish (Mexican),Male,25,leña,89,understands,0
+Spanish (Mexican),Female,26,leña,38,produces,0.1579
+Spanish (Mexican),Female,26,leña,38,understands,0
+Spanish (Mexican),Male,26,leña,45,produces,0.1333
+Spanish (Mexican),Male,26,leña,45,understands,0
+Spanish (Mexican),Female,27,leña,45,produces,0.1778
+Spanish (Mexican),Female,27,leña,45,understands,0
+Spanish (Mexican),Male,27,leña,40,produces,0.15
+Spanish (Mexican),Male,27,leña,40,understands,0
+Spanish (Mexican),Female,28,leña,44,produces,0.2727
+Spanish (Mexican),Female,28,leña,44,understands,0
+Spanish (Mexican),Male,28,leña,45,produces,0.1778
+Spanish (Mexican),Male,28,leña,45,understands,0
+Spanish (Mexican),Female,29,leña,51,produces,0.2353
+Spanish (Mexican),Female,29,leña,51,understands,0
+Spanish (Mexican),Male,29,leña,38,produces,0.0263
+Spanish (Mexican),Male,29,leña,38,understands,0
+Spanish (Mexican),Female,30,leña,146,produces,0.0685
+Spanish (Mexican),Female,30,leña,146,understands,0
+Spanish (Mexican),Male,30,leña,152,produces,0.0855
+Spanish (Mexican),Male,30,leña,152,understands,0

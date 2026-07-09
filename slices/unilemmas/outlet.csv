@@ -1,87 +1,203 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),17,插座,40,produces,0.025
-Mandarin (Beijing),17,插座,40,understands,0
-Mandarin (Beijing),18,插座,50,produces,0.02
-Mandarin (Beijing),18,插座,50,understands,0
-Mandarin (Beijing),19,插座,50,produces,0.04
-Mandarin (Beijing),19,插座,50,understands,0
-Mandarin (Beijing),20,插座,50,produces,0.04
-Mandarin (Beijing),20,插座,50,understands,0
-Mandarin (Beijing),21,插座,49,produces,0.0612
-Mandarin (Beijing),21,插座,49,understands,0
-Mandarin (Beijing),22,插座,46,produces,0.0435
-Mandarin (Beijing),22,插座,46,understands,0
-Mandarin (Beijing),23,插座,50,produces,0.34
-Mandarin (Beijing),23,插座,50,understands,0
-Mandarin (Beijing),24,插座,50,produces,0.22
-Mandarin (Beijing),24,插座,50,understands,0
-Mandarin (Beijing),25,插座,43,produces,0.2326
-Mandarin (Beijing),25,插座,43,understands,0
-Mandarin (Beijing),26,插座,47,produces,0.3191
-Mandarin (Beijing),26,插座,47,understands,0
-Mandarin (Beijing),27,插座,44,produces,0.2955
-Mandarin (Beijing),27,插座,44,understands,0
-Mandarin (Beijing),28,插座,44,produces,0.4318
-Mandarin (Beijing),28,插座,44,understands,0
-Mandarin (Beijing),29,插座,49,produces,0.3878
-Mandarin (Beijing),29,插座,49,understands,0
-Mandarin (Beijing),30,插座,40,produces,0.525
-Mandarin (Beijing),30,插座,40,understands,0
-Slovak,8,zástrčka / elektrika,73,produces,0
-Slovak,8,zástrčka / elektrika,73,understands,0.0548
-Slovak,9,zástrčka / elektrika,59,produces,0
-Slovak,9,zástrčka / elektrika,59,understands,0.1186
-Slovak,10,zástrčka / elektrika,73,produces,0
-Slovak,10,zástrčka / elektrika,73,understands,0.1644
-Slovak,11,zástrčka / elektrika,62,produces,0.0323
-Slovak,11,zástrčka / elektrika,62,understands,0.2581
-Slovak,12,zástrčka / elektrika,79,produces,0.0127
-Slovak,12,zástrčka / elektrika,79,understands,0.4684
-Slovak,13,zástrčka / elektrika,74,produces,0.027
-Slovak,13,zástrčka / elektrika,74,understands,0.473
-Slovak,14,zástrčka / elektrika,78,produces,0.0128
-Slovak,14,zástrčka / elektrika,78,understands,0.5
-Slovak,15,zástrčka / elektrika,87,produces,0.0345
-Slovak,15,zástrčka / elektrika,87,understands,0.5287
-Slovak,16,zástrčka / elektrika,68,produces,0.0441
-Slovak,16,zástrčka / elektrika,68,understands,0.6029
-Slovak,17,zástrčka / elektrika,70,produces,0.0571
-Slovak,17,zástrčka / elektrika,70,understands,0
-Slovak,18,zástrčka / elektrika,65,produces,0.0462
-Slovak,18,zástrčka / elektrika,65,understands,0
-Slovak,19,zástrčka / elektrika,56,produces,0.0536
-Slovak,19,zástrčka / elektrika,56,understands,0
-Slovak,20,zástrčka / elektrika,62,produces,0.1935
-Slovak,20,zástrčka / elektrika,62,understands,0
-Slovak,21,zástrčka / elektrika,81,produces,0.2222
-Slovak,21,zástrčka / elektrika,81,understands,0
-Slovak,22,zástrčka / elektrika,53,produces,0.2453
-Slovak,22,zástrčka / elektrika,53,understands,0
-Slovak,23,zástrčka / elektrika,59,produces,0.2881
-Slovak,23,zástrčka / elektrika,59,understands,0
-Slovak,24,zástrčka / elektrika,59,produces,0.4068
-Slovak,24,zástrčka / elektrika,59,understands,0
-Slovak,25,zástrčka / elektrika,69,produces,0.4348
-Slovak,25,zástrčka / elektrika,69,understands,0
-Slovak,26,zástrčka / elektrika,78,produces,0.4744
-Slovak,26,zástrčka / elektrika,78,understands,0
-Slovak,27,zástrčka / elektrika,62,produces,0.5806
-Slovak,27,zástrčka / elektrika,62,understands,0
-Slovak,28,zástrčka / elektrika,86,produces,0.4884
-Slovak,28,zástrčka / elektrika,86,understands,0
-Slovak,29,zástrčka / elektrika,75,produces,0.52
-Slovak,29,zástrčka / elektrika,75,understands,0
-Slovak,30,zástrčka / elektrika,49,produces,0.5714
-Slovak,30,zástrčka / elektrika,49,understands,0
-Slovak,31,zástrčka / elektrika,29,produces,0.5517
-Slovak,31,zástrčka / elektrika,29,understands,0
-Slovak,32,zástrčka / elektrika,25,produces,0.72
-Slovak,32,zástrčka / elektrika,25,understands,0
-Slovak,33,zástrčka / elektrika,22,produces,0.7273
-Slovak,33,zástrčka / elektrika,22,understands,0
-Slovak,34,zástrčka / elektrika,27,produces,0.6296
-Slovak,34,zástrčka / elektrika,27,understands,0
-Slovak,35,zástrčka / elektrika,27,produces,0.6296
-Slovak,35,zástrčka / elektrika,27,understands,0
-Slovak,36,zástrčka / elektrika,8,produces,0.75
-Slovak,36,zástrčka / elektrika,8,understands,0
+language,sex,age,words,n,measure,prop
+Mandarin (Beijing),All,17,插座,40,produces,0.025
+Mandarin (Beijing),All,17,插座,40,understands,0
+Mandarin (Beijing),All,18,插座,50,produces,0.02
+Mandarin (Beijing),All,18,插座,50,understands,0
+Mandarin (Beijing),All,19,插座,50,produces,0.04
+Mandarin (Beijing),All,19,插座,50,understands,0
+Mandarin (Beijing),All,20,插座,50,produces,0.04
+Mandarin (Beijing),All,20,插座,50,understands,0
+Mandarin (Beijing),All,21,插座,49,produces,0.0612
+Mandarin (Beijing),All,21,插座,49,understands,0
+Mandarin (Beijing),All,22,插座,46,produces,0.0435
+Mandarin (Beijing),All,22,插座,46,understands,0
+Mandarin (Beijing),All,23,插座,50,produces,0.34
+Mandarin (Beijing),All,23,插座,50,understands,0
+Mandarin (Beijing),All,24,插座,50,produces,0.22
+Mandarin (Beijing),All,24,插座,50,understands,0
+Mandarin (Beijing),All,25,插座,43,produces,0.2326
+Mandarin (Beijing),All,25,插座,43,understands,0
+Mandarin (Beijing),All,26,插座,47,produces,0.3191
+Mandarin (Beijing),All,26,插座,47,understands,0
+Mandarin (Beijing),All,27,插座,44,produces,0.2955
+Mandarin (Beijing),All,27,插座,44,understands,0
+Mandarin (Beijing),All,28,插座,44,produces,0.4318
+Mandarin (Beijing),All,28,插座,44,understands,0
+Mandarin (Beijing),All,29,插座,49,produces,0.3878
+Mandarin (Beijing),All,29,插座,49,understands,0
+Mandarin (Beijing),All,30,插座,40,produces,0.525
+Mandarin (Beijing),All,30,插座,40,understands,0
+Slovak,All,8,zástrčka / elektrika,73,produces,0
+Slovak,All,8,zástrčka / elektrika,73,understands,0.0548
+Slovak,All,9,zástrčka / elektrika,59,produces,0
+Slovak,All,9,zástrčka / elektrika,59,understands,0.1186
+Slovak,All,10,zástrčka / elektrika,73,produces,0
+Slovak,All,10,zástrčka / elektrika,73,understands,0.1644
+Slovak,All,11,zástrčka / elektrika,62,produces,0.0323
+Slovak,All,11,zástrčka / elektrika,62,understands,0.2581
+Slovak,All,12,zástrčka / elektrika,79,produces,0.0127
+Slovak,All,12,zástrčka / elektrika,79,understands,0.4684
+Slovak,All,13,zástrčka / elektrika,74,produces,0.027
+Slovak,All,13,zástrčka / elektrika,74,understands,0.473
+Slovak,All,14,zástrčka / elektrika,78,produces,0.0128
+Slovak,All,14,zástrčka / elektrika,78,understands,0.5
+Slovak,All,15,zástrčka / elektrika,87,produces,0.0345
+Slovak,All,15,zástrčka / elektrika,87,understands,0.5287
+Slovak,All,16,zástrčka / elektrika,68,produces,0.0441
+Slovak,All,16,zástrčka / elektrika,68,understands,0.6029
+Slovak,All,17,zástrčka / elektrika,70,produces,0.0571
+Slovak,All,17,zástrčka / elektrika,70,understands,0
+Slovak,All,18,zástrčka / elektrika,65,produces,0.0462
+Slovak,All,18,zástrčka / elektrika,65,understands,0
+Slovak,All,19,zástrčka / elektrika,56,produces,0.0536
+Slovak,All,19,zástrčka / elektrika,56,understands,0
+Slovak,All,20,zástrčka / elektrika,62,produces,0.1935
+Slovak,All,20,zástrčka / elektrika,62,understands,0
+Slovak,All,21,zástrčka / elektrika,81,produces,0.2222
+Slovak,All,21,zástrčka / elektrika,81,understands,0
+Slovak,All,22,zástrčka / elektrika,53,produces,0.2453
+Slovak,All,22,zástrčka / elektrika,53,understands,0
+Slovak,All,23,zástrčka / elektrika,59,produces,0.2881
+Slovak,All,23,zástrčka / elektrika,59,understands,0
+Slovak,All,24,zástrčka / elektrika,59,produces,0.4068
+Slovak,All,24,zástrčka / elektrika,59,understands,0
+Slovak,All,25,zástrčka / elektrika,69,produces,0.4348
+Slovak,All,25,zástrčka / elektrika,69,understands,0
+Slovak,All,26,zástrčka / elektrika,78,produces,0.4744
+Slovak,All,26,zástrčka / elektrika,78,understands,0
+Slovak,All,27,zástrčka / elektrika,62,produces,0.5806
+Slovak,All,27,zástrčka / elektrika,62,understands,0
+Slovak,All,28,zástrčka / elektrika,86,produces,0.4884
+Slovak,All,28,zástrčka / elektrika,86,understands,0
+Slovak,All,29,zástrčka / elektrika,75,produces,0.52
+Slovak,All,29,zástrčka / elektrika,75,understands,0
+Slovak,All,30,zástrčka / elektrika,49,produces,0.5714
+Slovak,All,30,zástrčka / elektrika,49,understands,0
+Slovak,All,31,zástrčka / elektrika,29,produces,0.5517
+Slovak,All,31,zástrčka / elektrika,29,understands,0
+Slovak,All,32,zástrčka / elektrika,25,produces,0.72
+Slovak,All,32,zástrčka / elektrika,25,understands,0
+Slovak,All,33,zástrčka / elektrika,22,produces,0.7273
+Slovak,All,33,zástrčka / elektrika,22,understands,0
+Slovak,All,34,zástrčka / elektrika,27,produces,0.6296
+Slovak,All,34,zástrčka / elektrika,27,understands,0
+Slovak,All,35,zástrčka / elektrika,27,produces,0.6296
+Slovak,All,35,zástrčka / elektrika,27,understands,0
+Slovak,All,36,zástrčka / elektrika,8,produces,0.75
+Slovak,All,36,zástrčka / elektrika,8,understands,0
+Slovak,Female,8,zástrčka / elektrika,45,produces,0
+Slovak,Female,8,zástrčka / elektrika,45,understands,0.0444
+Slovak,Male,8,zástrčka / elektrika,28,produces,0
+Slovak,Male,8,zástrčka / elektrika,28,understands,0.0714
+Slovak,Female,9,zástrčka / elektrika,31,produces,0
+Slovak,Female,9,zástrčka / elektrika,31,understands,0.129
+Slovak,Male,9,zástrčka / elektrika,28,produces,0
+Slovak,Male,9,zástrčka / elektrika,28,understands,0.1071
+Slovak,Female,10,zástrčka / elektrika,30,produces,0
+Slovak,Female,10,zástrčka / elektrika,30,understands,0.2
+Slovak,Male,10,zástrčka / elektrika,43,produces,0
+Slovak,Male,10,zástrčka / elektrika,43,understands,0.1395
+Slovak,Female,11,zástrčka / elektrika,29,produces,0.0345
+Slovak,Female,11,zástrčka / elektrika,29,understands,0.1034
+Slovak,Male,11,zástrčka / elektrika,33,produces,0.0303
+Slovak,Male,11,zástrčka / elektrika,33,understands,0.3939
+Slovak,Female,12,zástrčka / elektrika,39,produces,0
+Slovak,Female,12,zástrčka / elektrika,39,understands,0.3846
+Slovak,Male,12,zástrčka / elektrika,40,produces,0.025
+Slovak,Male,12,zástrčka / elektrika,40,understands,0.55
+Slovak,Female,13,zástrčka / elektrika,35,produces,0.0286
+Slovak,Female,13,zástrčka / elektrika,35,understands,0.4
+Slovak,Male,13,zástrčka / elektrika,39,produces,0.0256
+Slovak,Male,13,zástrčka / elektrika,39,understands,0.5385
+Slovak,Female,14,zástrčka / elektrika,43,produces,0
+Slovak,Female,14,zástrčka / elektrika,43,understands,0.4884
+Slovak,Male,14,zástrčka / elektrika,35,produces,0.0286
+Slovak,Male,14,zástrčka / elektrika,35,understands,0.5143
+Slovak,Female,15,zástrčka / elektrika,41,produces,0.0488
+Slovak,Female,15,zástrčka / elektrika,41,understands,0.5854
+Slovak,Male,15,zástrčka / elektrika,46,produces,0.0217
+Slovak,Male,15,zástrčka / elektrika,46,understands,0.4783
+Slovak,Female,16,zástrčka / elektrika,31,produces,0.0645
+Slovak,Female,16,zástrčka / elektrika,31,understands,0.5161
+Slovak,Male,16,zástrčka / elektrika,37,produces,0.027
+Slovak,Male,16,zástrčka / elektrika,37,understands,0.6757
+Slovak,Female,17,zástrčka / elektrika,39,produces,0.0256
+Slovak,Female,17,zástrčka / elektrika,39,understands,0
+Slovak,Male,17,zástrčka / elektrika,31,produces,0.0968
+Slovak,Male,17,zástrčka / elektrika,31,understands,0
+Slovak,Female,18,zástrčka / elektrika,30,produces,0.0333
+Slovak,Female,18,zástrčka / elektrika,30,understands,0
+Slovak,Male,18,zástrčka / elektrika,35,produces,0.0571
+Slovak,Male,18,zástrčka / elektrika,35,understands,0
+Slovak,Female,19,zástrčka / elektrika,30,produces,0.1
+Slovak,Female,19,zástrčka / elektrika,30,understands,0
+Slovak,Male,19,zástrčka / elektrika,26,produces,0
+Slovak,Male,19,zástrčka / elektrika,26,understands,0
+Slovak,Female,20,zástrčka / elektrika,33,produces,0.2727
+Slovak,Female,20,zástrčka / elektrika,33,understands,0
+Slovak,Male,20,zástrčka / elektrika,29,produces,0.1034
+Slovak,Male,20,zástrčka / elektrika,29,understands,0
+Slovak,Female,21,zástrčka / elektrika,40,produces,0.175
+Slovak,Female,21,zástrčka / elektrika,40,understands,0
+Slovak,Male,21,zástrčka / elektrika,41,produces,0.2683
+Slovak,Male,21,zástrčka / elektrika,41,understands,0
+Slovak,Female,22,zástrčka / elektrika,27,produces,0.2963
+Slovak,Female,22,zástrčka / elektrika,27,understands,0
+Slovak,Male,22,zástrčka / elektrika,26,produces,0.1923
+Slovak,Male,22,zástrčka / elektrika,26,understands,0
+Slovak,Female,23,zástrčka / elektrika,28,produces,0.2857
+Slovak,Female,23,zástrčka / elektrika,28,understands,0
+Slovak,Male,23,zástrčka / elektrika,31,produces,0.2903
+Slovak,Male,23,zástrčka / elektrika,31,understands,0
+Slovak,Female,24,zástrčka / elektrika,28,produces,0.4643
+Slovak,Female,24,zástrčka / elektrika,28,understands,0
+Slovak,Male,24,zástrčka / elektrika,31,produces,0.3548
+Slovak,Male,24,zástrčka / elektrika,31,understands,0
+Slovak,Female,25,zástrčka / elektrika,35,produces,0.4286
+Slovak,Female,25,zástrčka / elektrika,35,understands,0
+Slovak,Male,25,zástrčka / elektrika,34,produces,0.4412
+Slovak,Male,25,zástrčka / elektrika,34,understands,0
+Slovak,Female,26,zástrčka / elektrika,43,produces,0.4884
+Slovak,Female,26,zástrčka / elektrika,43,understands,0
+Slovak,Male,26,zástrčka / elektrika,35,produces,0.4571
+Slovak,Male,26,zástrčka / elektrika,35,understands,0
+Slovak,Female,27,zástrčka / elektrika,33,produces,0.6061
+Slovak,Female,27,zástrčka / elektrika,33,understands,0
+Slovak,Male,27,zástrčka / elektrika,29,produces,0.5517
+Slovak,Male,27,zástrčka / elektrika,29,understands,0
+Slovak,Female,28,zástrčka / elektrika,48,produces,0.4167
+Slovak,Female,28,zástrčka / elektrika,48,understands,0
+Slovak,Male,28,zástrčka / elektrika,38,produces,0.5789
+Slovak,Male,28,zástrčka / elektrika,38,understands,0
+Slovak,Female,29,zástrčka / elektrika,36,produces,0.4722
+Slovak,Female,29,zástrčka / elektrika,36,understands,0
+Slovak,Male,29,zástrčka / elektrika,39,produces,0.5641
+Slovak,Male,29,zástrčka / elektrika,39,understands,0
+Slovak,Female,30,zástrčka / elektrika,19,produces,0.5263
+Slovak,Female,30,zástrčka / elektrika,19,understands,0
+Slovak,Male,30,zástrčka / elektrika,30,produces,0.6
+Slovak,Male,30,zástrčka / elektrika,30,understands,0
+Slovak,Female,31,zástrčka / elektrika,16,produces,0.5
+Slovak,Female,31,zástrčka / elektrika,16,understands,0
+Slovak,Male,31,zástrčka / elektrika,13,produces,0.6154
+Slovak,Male,31,zástrčka / elektrika,13,understands,0
+Slovak,Female,32,zástrčka / elektrika,12,produces,0.5
+Slovak,Female,32,zástrčka / elektrika,12,understands,0
+Slovak,Male,32,zástrčka / elektrika,13,produces,0.9231
+Slovak,Male,32,zástrčka / elektrika,13,understands,0
+Slovak,Female,33,zástrčka / elektrika,12,produces,0.6667
+Slovak,Female,33,zástrčka / elektrika,12,understands,0
+Slovak,Male,33,zástrčka / elektrika,10,produces,0.8
+Slovak,Male,33,zástrčka / elektrika,10,understands,0
+Slovak,Female,34,zástrčka / elektrika,17,produces,0.7059
+Slovak,Female,34,zástrčka / elektrika,17,understands,0
+Slovak,Male,34,zástrčka / elektrika,10,produces,0.5
+Slovak,Male,34,zástrčka / elektrika,10,understands,0
+Slovak,Female,35,zástrčka / elektrika,9,produces,0.7778
+Slovak,Female,35,zástrčka / elektrika,9,understands,0
+Slovak,Male,35,zástrčka / elektrika,18,produces,0.5556
+Slovak,Male,35,zástrčka / elektrika,18,understands,0
+Slovak,Female,36,zástrčka / elektrika,2,produces,0.5
+Slovak,Female,36,zástrčka / elektrika,2,understands,0
+Slovak,Male,36,zástrčka / elektrika,6,produces,0.8333
+Slovak,Male,36,zástrčka / elektrika,6,understands,0

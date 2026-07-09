@@ -1,61 +1,181 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),16,嚼,70,produces,0.0429
-Mandarin (Beijing),16,嚼,70,understands,0
-Mandarin (Beijing),17,嚼,72,produces,0.1528
-Mandarin (Beijing),17,嚼,72,understands,0
-Mandarin (Beijing),18,嚼,71,produces,0.1268
-Mandarin (Beijing),18,嚼,71,understands,0
-Mandarin (Beijing),19,嚼,70,produces,0.2714
-Mandarin (Beijing),19,嚼,70,understands,0
-Mandarin (Beijing),20,嚼,71,produces,0.3662
-Mandarin (Beijing),20,嚼,71,understands,0
-Mandarin (Beijing),21,嚼,70,produces,0.5714
-Mandarin (Beijing),21,嚼,70,understands,0
-Mandarin (Beijing),22,嚼,71,produces,0.6338
-Mandarin (Beijing),22,嚼,71,understands,0
-Mandarin (Beijing),23,嚼,70,produces,0.6857
-Mandarin (Beijing),23,嚼,70,understands,0
-Mandarin (Beijing),24,嚼,70,produces,0.6714
-Mandarin (Beijing),24,嚼,70,understands,0
-Mandarin (Beijing),25,嚼,70,produces,0.7857
-Mandarin (Beijing),25,嚼,70,understands,0
-Mandarin (Beijing),26,嚼,71,produces,0.831
-Mandarin (Beijing),26,嚼,71,understands,0
-Mandarin (Beijing),27,嚼,70,produces,0.8286
-Mandarin (Beijing),27,嚼,70,understands,0
-Mandarin (Beijing),28,嚼,70,produces,0.8429
-Mandarin (Beijing),28,嚼,70,understands,0
-Mandarin (Beijing),29,嚼,70,produces,0.8857
-Mandarin (Beijing),29,嚼,70,understands,0
-Mandarin (Beijing),30,嚼,70,produces,0.8
-Mandarin (Beijing),30,嚼,70,understands,0
-Cantonese,16,噍*,46,produces,0
-Cantonese,16,噍*,46,understands,0
-Cantonese,17,噍*,61,produces,0
-Cantonese,17,噍*,61,understands,0
-Cantonese,18,噍*,68,produces,0.0147
-Cantonese,18,噍*,68,understands,0
-Cantonese,19,噍*,66,produces,0.0152
-Cantonese,19,噍*,66,understands,0
-Cantonese,20,噍*,140,produces,0.05
-Cantonese,20,噍*,140,understands,0
-Cantonese,21,噍*,120,produces,0.05
-Cantonese,21,噍*,120,understands,0
-Cantonese,22,噍*,68,produces,0.0147
-Cantonese,22,噍*,68,understands,0
-Cantonese,23,噍*,74,produces,0.0541
-Cantonese,23,噍*,74,understands,0
-Cantonese,24,噍*,68,produces,0.0441
-Cantonese,24,噍*,68,understands,0
-Cantonese,25,噍*,65,produces,0.0462
-Cantonese,25,噍*,65,understands,0
-Cantonese,26,噍*,68,produces,0.1029
-Cantonese,26,噍*,68,understands,0
-Cantonese,27,噍*,62,produces,0.0806
-Cantonese,27,噍*,62,understands,0
-Cantonese,28,噍*,66,produces,0.2273
-Cantonese,28,噍*,66,understands,0
-Cantonese,29,噍*,72,produces,0.1389
-Cantonese,29,噍*,72,understands,0
-Cantonese,30,噍*,164,produces,0.1829
-Cantonese,30,噍*,164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,噍*,46,produces,0
+Cantonese,All,16,噍*,46,understands,0
+Cantonese,All,17,噍*,61,produces,0
+Cantonese,All,17,噍*,61,understands,0
+Cantonese,All,18,噍*,68,produces,0.0147
+Cantonese,All,18,噍*,68,understands,0
+Cantonese,All,19,噍*,66,produces,0.0152
+Cantonese,All,19,噍*,66,understands,0
+Cantonese,All,20,噍*,140,produces,0.05
+Cantonese,All,20,噍*,140,understands,0
+Cantonese,All,21,噍*,120,produces,0.05
+Cantonese,All,21,噍*,120,understands,0
+Cantonese,All,22,噍*,68,produces,0.0147
+Cantonese,All,22,噍*,68,understands,0
+Cantonese,All,23,噍*,74,produces,0.0541
+Cantonese,All,23,噍*,74,understands,0
+Cantonese,All,24,噍*,68,produces,0.0441
+Cantonese,All,24,噍*,68,understands,0
+Cantonese,All,25,噍*,65,produces,0.0462
+Cantonese,All,25,噍*,65,understands,0
+Cantonese,All,26,噍*,68,produces,0.1029
+Cantonese,All,26,噍*,68,understands,0
+Cantonese,All,27,噍*,62,produces,0.0806
+Cantonese,All,27,噍*,62,understands,0
+Cantonese,All,28,噍*,66,produces,0.2273
+Cantonese,All,28,噍*,66,understands,0
+Cantonese,All,29,噍*,72,produces,0.1389
+Cantonese,All,29,噍*,72,understands,0
+Cantonese,All,30,噍*,164,produces,0.1829
+Cantonese,All,30,噍*,164,understands,0
+Mandarin (Beijing),All,16,嚼,70,produces,0.0429
+Mandarin (Beijing),All,16,嚼,70,understands,0
+Mandarin (Beijing),All,17,嚼,72,produces,0.1528
+Mandarin (Beijing),All,17,嚼,72,understands,0
+Mandarin (Beijing),All,18,嚼,71,produces,0.1268
+Mandarin (Beijing),All,18,嚼,71,understands,0
+Mandarin (Beijing),All,19,嚼,70,produces,0.2714
+Mandarin (Beijing),All,19,嚼,70,understands,0
+Mandarin (Beijing),All,20,嚼,71,produces,0.3662
+Mandarin (Beijing),All,20,嚼,71,understands,0
+Mandarin (Beijing),All,21,嚼,70,produces,0.5714
+Mandarin (Beijing),All,21,嚼,70,understands,0
+Mandarin (Beijing),All,22,嚼,71,produces,0.6338
+Mandarin (Beijing),All,22,嚼,71,understands,0
+Mandarin (Beijing),All,23,嚼,70,produces,0.6857
+Mandarin (Beijing),All,23,嚼,70,understands,0
+Mandarin (Beijing),All,24,嚼,70,produces,0.6714
+Mandarin (Beijing),All,24,嚼,70,understands,0
+Mandarin (Beijing),All,25,嚼,70,produces,0.7857
+Mandarin (Beijing),All,25,嚼,70,understands,0
+Mandarin (Beijing),All,26,嚼,71,produces,0.831
+Mandarin (Beijing),All,26,嚼,71,understands,0
+Mandarin (Beijing),All,27,嚼,70,produces,0.8286
+Mandarin (Beijing),All,27,嚼,70,understands,0
+Mandarin (Beijing),All,28,嚼,70,produces,0.8429
+Mandarin (Beijing),All,28,嚼,70,understands,0
+Mandarin (Beijing),All,29,嚼,70,produces,0.8857
+Mandarin (Beijing),All,29,嚼,70,understands,0
+Mandarin (Beijing),All,30,嚼,70,produces,0.8
+Mandarin (Beijing),All,30,嚼,70,understands,0
+Cantonese,Female,16,噍*,23,produces,0
+Cantonese,Female,16,噍*,23,understands,0
+Cantonese,Male,16,噍*,23,produces,0
+Cantonese,Male,16,噍*,23,understands,0
+Cantonese,Female,17,噍*,30,produces,0
+Cantonese,Female,17,噍*,30,understands,0
+Cantonese,Male,17,噍*,31,produces,0
+Cantonese,Male,17,噍*,31,understands,0
+Cantonese,Female,18,噍*,33,produces,0.0303
+Cantonese,Female,18,噍*,33,understands,0
+Cantonese,Male,18,噍*,35,produces,0
+Cantonese,Male,18,噍*,35,understands,0
+Cantonese,Female,19,噍*,30,produces,0.0333
+Cantonese,Female,19,噍*,30,understands,0
+Cantonese,Male,19,噍*,36,produces,0
+Cantonese,Male,19,噍*,36,understands,0
+Cantonese,Female,20,噍*,62,produces,0.0161
+Cantonese,Female,20,噍*,62,understands,0
+Cantonese,Male,20,噍*,78,produces,0.0769
+Cantonese,Male,20,噍*,78,understands,0
+Cantonese,Female,21,噍*,57,produces,0.0877
+Cantonese,Female,21,噍*,57,understands,0
+Cantonese,Male,21,噍*,63,produces,0.0159
+Cantonese,Male,21,噍*,63,understands,0
+Cantonese,Female,22,噍*,34,produces,0.0294
+Cantonese,Female,22,噍*,34,understands,0
+Cantonese,Male,22,噍*,34,produces,0
+Cantonese,Male,22,噍*,34,understands,0
+Cantonese,Female,23,噍*,37,produces,0.0541
+Cantonese,Female,23,噍*,37,understands,0
+Cantonese,Male,23,噍*,37,produces,0.0541
+Cantonese,Male,23,噍*,37,understands,0
+Cantonese,Female,24,噍*,32,produces,0.0625
+Cantonese,Female,24,噍*,32,understands,0
+Cantonese,Male,24,噍*,36,produces,0.0278
+Cantonese,Male,24,噍*,36,understands,0
+Cantonese,Female,25,噍*,31,produces,0.0323
+Cantonese,Female,25,噍*,31,understands,0
+Cantonese,Male,25,噍*,34,produces,0.0588
+Cantonese,Male,25,噍*,34,understands,0
+Cantonese,Female,26,噍*,31,produces,0.0645
+Cantonese,Female,26,噍*,31,understands,0
+Cantonese,Male,26,噍*,37,produces,0.1351
+Cantonese,Male,26,噍*,37,understands,0
+Cantonese,Female,27,噍*,31,produces,0.0645
+Cantonese,Female,27,噍*,31,understands,0
+Cantonese,Male,27,噍*,31,produces,0.0968
+Cantonese,Male,27,噍*,31,understands,0
+Cantonese,Female,28,噍*,32,produces,0.1875
+Cantonese,Female,28,噍*,32,understands,0
+Cantonese,Male,28,噍*,34,produces,0.2647
+Cantonese,Male,28,噍*,34,understands,0
+Cantonese,Female,29,噍*,36,produces,0.1389
+Cantonese,Female,29,噍*,36,understands,0
+Cantonese,Male,29,噍*,36,produces,0.1389
+Cantonese,Male,29,噍*,36,understands,0
+Cantonese,Female,30,噍*,76,produces,0.1974
+Cantonese,Female,30,噍*,76,understands,0
+Cantonese,Male,30,噍*,88,produces,0.1705
+Cantonese,Male,30,噍*,88,understands,0
+Mandarin (Beijing),Female,16,嚼,35,produces,0.0571
+Mandarin (Beijing),Female,16,嚼,35,understands,0
+Mandarin (Beijing),Male,16,嚼,35,produces,0.0286
+Mandarin (Beijing),Male,16,嚼,35,understands,0
+Mandarin (Beijing),Female,17,嚼,35,produces,0.1143
+Mandarin (Beijing),Female,17,嚼,35,understands,0
+Mandarin (Beijing),Male,17,嚼,37,produces,0.1892
+Mandarin (Beijing),Male,17,嚼,37,understands,0
+Mandarin (Beijing),Female,18,嚼,35,produces,0.1714
+Mandarin (Beijing),Female,18,嚼,35,understands,0
+Mandarin (Beijing),Male,18,嚼,36,produces,0.0833
+Mandarin (Beijing),Male,18,嚼,36,understands,0
+Mandarin (Beijing),Female,19,嚼,35,produces,0.3429
+Mandarin (Beijing),Female,19,嚼,35,understands,0
+Mandarin (Beijing),Male,19,嚼,35,produces,0.2
+Mandarin (Beijing),Male,19,嚼,35,understands,0
+Mandarin (Beijing),Female,20,嚼,35,produces,0.4286
+Mandarin (Beijing),Female,20,嚼,35,understands,0
+Mandarin (Beijing),Male,20,嚼,36,produces,0.3056
+Mandarin (Beijing),Male,20,嚼,36,understands,0
+Mandarin (Beijing),Female,21,嚼,35,produces,0.6
+Mandarin (Beijing),Female,21,嚼,35,understands,0
+Mandarin (Beijing),Male,21,嚼,35,produces,0.5429
+Mandarin (Beijing),Male,21,嚼,35,understands,0
+Mandarin (Beijing),Female,22,嚼,35,produces,0.7429
+Mandarin (Beijing),Female,22,嚼,35,understands,0
+Mandarin (Beijing),Male,22,嚼,36,produces,0.5278
+Mandarin (Beijing),Male,22,嚼,36,understands,0
+Mandarin (Beijing),Female,23,嚼,35,produces,0.6857
+Mandarin (Beijing),Female,23,嚼,35,understands,0
+Mandarin (Beijing),Male,23,嚼,35,produces,0.6857
+Mandarin (Beijing),Male,23,嚼,35,understands,0
+Mandarin (Beijing),Female,24,嚼,35,produces,0.7714
+Mandarin (Beijing),Female,24,嚼,35,understands,0
+Mandarin (Beijing),Male,24,嚼,35,produces,0.5714
+Mandarin (Beijing),Male,24,嚼,35,understands,0
+Mandarin (Beijing),Female,25,嚼,35,produces,0.8857
+Mandarin (Beijing),Female,25,嚼,35,understands,0
+Mandarin (Beijing),Male,25,嚼,35,produces,0.6857
+Mandarin (Beijing),Male,25,嚼,35,understands,0
+Mandarin (Beijing),Female,26,嚼,36,produces,0.8611
+Mandarin (Beijing),Female,26,嚼,36,understands,0
+Mandarin (Beijing),Male,26,嚼,35,produces,0.8
+Mandarin (Beijing),Male,26,嚼,35,understands,0
+Mandarin (Beijing),Female,27,嚼,35,produces,0.8571
+Mandarin (Beijing),Female,27,嚼,35,understands,0
+Mandarin (Beijing),Male,27,嚼,35,produces,0.8
+Mandarin (Beijing),Male,27,嚼,35,understands,0
+Mandarin (Beijing),Female,28,嚼,35,produces,0.8286
+Mandarin (Beijing),Female,28,嚼,35,understands,0
+Mandarin (Beijing),Male,28,嚼,35,produces,0.8571
+Mandarin (Beijing),Male,28,嚼,35,understands,0
+Mandarin (Beijing),Female,29,嚼,35,produces,0.9143
+Mandarin (Beijing),Female,29,嚼,35,understands,0
+Mandarin (Beijing),Male,29,嚼,35,produces,0.8571
+Mandarin (Beijing),Male,29,嚼,35,understands,0
+Mandarin (Beijing),Female,30,嚼,35,produces,0.8571
+Mandarin (Beijing),Female,30,嚼,35,understands,0
+Mandarin (Beijing),Male,30,嚼,35,produces,0.7429
+Mandarin (Beijing),Male,30,嚼,35,understands,0

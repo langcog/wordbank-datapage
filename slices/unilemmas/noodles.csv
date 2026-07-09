@@ -1,347 +1,971 @@
-language,age,words,n,measure,prop
-Japanese,8,うどん,6,produces,0
-Japanese,8,うどん,6,understands,0.1667
-Japanese,9,うどん,10,produces,0
-Japanese,9,うどん,10,understands,0
-Japanese,10,うどん,8,produces,0
-Japanese,10,うどん,8,understands,0
-Japanese,11,うどん,87,produces,0.023
-Japanese,11,うどん,87,understands,0.0805
-Japanese,12,うどん,118,produces,0
-Japanese,12,うどん,118,understands,0.0847
-Japanese,13,うどん,23,produces,0
-Japanese,13,うどん,23,understands,0.1739
-Japanese,14,うどん,26,produces,0.0769
-Japanese,14,うどん,26,understands,0.2692
-Japanese,15,うどん,72,produces,0.0417
-Japanese,15,うどん,72,understands,0.4306
-Japanese,16,"うどん, ラーメン",46,produces,0.0526
-Japanese,16,"うどん, ラーメン",46,understands,0.2456
-Japanese,17,"うどん, ラーメン",77,produces,0.0532
-Japanese,17,"うどん, ラーメン",77,understands,0.3298
-Japanese,18,"うどん, ラーメン",94,produces,0.0733
-Japanese,18,"うどん, ラーメン",94,understands,0.16
-Japanese,19,"うどん, ラーメン",35,produces,0.1714
-Japanese,19,"うどん, ラーメン",35,understands,0
-Japanese,20,"うどん, ラーメン",59,produces,0.0932
-Japanese,20,"うどん, ラーメン",59,understands,0
-Japanese,21,"うどん, ラーメン",62,produces,0.2661
-Japanese,21,"うどん, ラーメン",62,understands,0
-Japanese,22,"うどん, ラーメン",31,produces,0.2419
-Japanese,22,"うどん, ラーメン",31,understands,0
-Japanese,23,"うどん, ラーメン",67,produces,0.403
-Japanese,23,"うどん, ラーメン",67,understands,0
-Japanese,24,"うどん, ラーメン",33,produces,0.4242
-Japanese,24,"うどん, ラーメン",33,understands,0
-Japanese,25,"うどん, ラーメン",34,produces,0.5294
-Japanese,25,"うどん, ラーメン",34,understands,0
-Japanese,26,"うどん, ラーメン",33,produces,0.5909
-Japanese,26,"うどん, ラーメン",33,understands,0
-Japanese,27,"うどん, ラーメン",15,produces,0.6333
-Japanese,27,"うどん, ラーメン",15,understands,0
-Japanese,28,"うどん, ラーメン",18,produces,0.75
-Japanese,28,"うどん, ラーメン",18,understands,0
-Japanese,29,"うどん, ラーメン",17,produces,0.7059
-Japanese,29,"うどん, ラーメン",17,understands,0
-Japanese,30,"うどん, ラーメン",18,produces,0.5833
-Japanese,30,"うどん, ラーメン",18,understands,0
-Japanese,31,"うどん, ラーメン",18,produces,0.6111
-Japanese,31,"うどん, ラーメン",18,understands,0
-Japanese,32,"うどん, ラーメン",13,produces,0.7308
-Japanese,32,"うどん, ラーメン",13,understands,0
-Japanese,33,"うどん, ラーメン",16,produces,0.875
-Japanese,33,"うどん, ラーメン",16,understands,0
-Japanese,34,"うどん, ラーメン",13,produces,0.7308
-Japanese,34,"うどん, ラーメン",13,understands,0
-Japanese,35,"うどん, ラーメン",31,produces,0.9032
-Japanese,35,"うどん, ラーメン",31,understands,0
-Japanese,36,"うどん, ラーメン",18,produces,0.9167
-Japanese,36,"うどん, ラーメン",18,understands,0
-Korean,8,라면,57,produces,0
-Korean,8,라면,57,understands,0.0175
-Korean,9,라면,73,produces,0
-Korean,9,라면,73,understands,0
-Korean,10,라면,77,produces,0
-Korean,10,라면,77,understands,0.013
-Korean,11,라면,80,produces,0.0125
-Korean,11,라면,80,understands,0.025
-Korean,12,라면,74,produces,0
-Korean,12,라면,74,understands,0.0405
-Korean,13,라면,127,produces,0
-Korean,13,라면,127,understands,0.0551
-Korean,14,라면,87,produces,0.0115
-Korean,14,라면,87,understands,0.0805
-Korean,15,라면,85,produces,0.0118
-Korean,15,라면,85,understands,0.0706
-Korean,16,라면,86,produces,0.0465
-Korean,16,라면,86,understands,0.1512
-Korean,17,라면,63,produces,0.0317
-Korean,17,라면,63,understands,0.2063
-Korean,18,라면,88,produces,0.1023
-Korean,18,라면,88,understands,0
-Korean,19,라면,77,produces,0.026
-Korean,19,라면,77,understands,0
-Korean,20,라면,88,produces,0.1705
-Korean,20,라면,88,understands,0
-Korean,21,라면,79,produces,0.1519
-Korean,21,라면,79,understands,0
-Korean,22,라면,87,produces,0.2644
-Korean,22,라면,87,understands,0
-Korean,23,라면,87,produces,0.2414
-Korean,23,라면,87,understands,0
-Korean,24,라면,107,produces,0.4486
-Korean,24,라면,107,understands,0
-Korean,25,라면,95,produces,0.5158
-Korean,25,라면,95,understands,0
-Korean,26,라면,91,produces,0.4725
-Korean,26,라면,91,understands,0
-Korean,27,라면,104,produces,0.5673
-Korean,27,라면,104,understands,0
-Korean,28,라면,89,produces,0.6742
-Korean,28,라면,89,understands,0
-Korean,29,라면,101,produces,0.6733
-Korean,29,라면,101,understands,0
-Korean,30,라면,81,produces,0.7284
-Korean,30,라면,81,understands,0
-Korean,31,라면,79,produces,0.8101
-Korean,31,라면,79,understands,0
-Korean,32,라면,70,produces,0.8143
-Korean,32,라면,70,understands,0
-Korean,33,라면,79,produces,0.8228
-Korean,33,라면,79,understands,0
-Korean,34,라면,79,produces,0.8734
-Korean,34,라면,79,understands,0
-Korean,35,라면,74,produces,0.8243
-Korean,35,라면,74,understands,0
-Korean,36,라면,75,produces,0.9333
-Korean,36,라면,75,understands,0
-Mandarin (Beijing),17,方便面,40,produces,0.05
-Mandarin (Beijing),17,方便面,40,understands,0
-Mandarin (Beijing),18,方便面,50,produces,0.04
-Mandarin (Beijing),18,方便面,50,understands,0
-Mandarin (Beijing),19,方便面,50,produces,0.16
-Mandarin (Beijing),19,方便面,50,understands,0
-Mandarin (Beijing),20,方便面,50,produces,0.16
-Mandarin (Beijing),20,方便面,50,understands,0
-Mandarin (Beijing),21,方便面,49,produces,0.1837
-Mandarin (Beijing),21,方便面,49,understands,0
-Mandarin (Beijing),22,方便面,46,produces,0.1522
-Mandarin (Beijing),22,方便面,46,understands,0
-Mandarin (Beijing),23,方便面,50,produces,0.38
-Mandarin (Beijing),23,方便面,50,understands,0
-Mandarin (Beijing),24,方便面,50,produces,0.22
-Mandarin (Beijing),24,方便面,50,understands,0
-Mandarin (Beijing),25,方便面,43,produces,0.2791
-Mandarin (Beijing),25,方便面,43,understands,0
-Mandarin (Beijing),26,方便面,47,produces,0.3191
-Mandarin (Beijing),26,方便面,47,understands,0
-Mandarin (Beijing),27,方便面,44,produces,0.4773
-Mandarin (Beijing),27,方便面,44,understands,0
-Mandarin (Beijing),28,方便面,44,produces,0.5227
-Mandarin (Beijing),28,方便面,44,understands,0
-Mandarin (Beijing),29,方便面,49,produces,0.5714
-Mandarin (Beijing),29,方便面,49,understands,0
-Mandarin (Beijing),30,方便面,40,produces,0.575
-Mandarin (Beijing),30,方便面,40,understands,0
-Mandarin (Taiwanese),8,麵,86,produces,0
-Mandarin (Taiwanese),8,麵,86,understands,0.4302
-Mandarin (Taiwanese),9,麵,79,produces,0
-Mandarin (Taiwanese),9,麵,79,understands,0.4684
-Mandarin (Taiwanese),10,麵,78,produces,0
-Mandarin (Taiwanese),10,麵,78,understands,0.1282
-Mandarin (Taiwanese),11,麵,79,produces,0.0127
-Mandarin (Taiwanese),11,麵,79,understands,0.2532
-Mandarin (Taiwanese),12,麵,80,produces,0.025
-Mandarin (Taiwanese),12,麵,80,understands,0.225
-Mandarin (Taiwanese),13,麵,78,produces,0.0385
-Mandarin (Taiwanese),13,麵,78,understands,0.3077
-Mandarin (Taiwanese),14,麵,81,produces,0.1111
-Mandarin (Taiwanese),14,麵,81,understands,0.3333
-Mandarin (Taiwanese),15,麵,106,produces,0.1509
-Mandarin (Taiwanese),15,麵,106,understands,0.5
-Mandarin (Taiwanese),16,麵,170,produces,0.1294
-Mandarin (Taiwanese),16,麵,170,understands,0.2353
-Mandarin (Taiwanese),17,麵,87,produces,0.3333
-Mandarin (Taiwanese),17,麵,87,understands,0
-Mandarin (Taiwanese),18,麵,84,produces,0.4048
-Mandarin (Taiwanese),18,麵,84,understands,0
-Mandarin (Taiwanese),19,麵,84,produces,0.5476
-Mandarin (Taiwanese),19,麵,84,understands,0
-Mandarin (Taiwanese),20,麵,84,produces,0.5357
-Mandarin (Taiwanese),20,麵,84,understands,0
-Mandarin (Taiwanese),21,麵,88,produces,0.6818
-Mandarin (Taiwanese),21,麵,88,understands,0
-Mandarin (Taiwanese),22,麵,96,produces,0.6771
-Mandarin (Taiwanese),22,麵,96,understands,0
-Mandarin (Taiwanese),23,麵,105,produces,0.7714
-Mandarin (Taiwanese),23,麵,105,understands,0
-Mandarin (Taiwanese),24,麵,124,produces,0.871
-Mandarin (Taiwanese),24,麵,124,understands,0
-Mandarin (Taiwanese),25,麵,110,produces,0.8636
-Mandarin (Taiwanese),25,麵,110,understands,0
-Mandarin (Taiwanese),26,麵,87,produces,0.908
-Mandarin (Taiwanese),26,麵,87,understands,0
-Mandarin (Taiwanese),27,麵,92,produces,0.8913
-Mandarin (Taiwanese),27,麵,92,understands,0
-Mandarin (Taiwanese),28,麵,100,produces,0.98
-Mandarin (Taiwanese),28,麵,100,understands,0
-Mandarin (Taiwanese),29,麵,88,produces,0.9318
-Mandarin (Taiwanese),29,麵,88,understands,0
-Mandarin (Taiwanese),30,麵,94,produces,0.9468
-Mandarin (Taiwanese),30,麵,94,understands,0
-Mandarin (Taiwanese),31,麵,88,produces,0.9886
-Mandarin (Taiwanese),31,麵,88,understands,0
-Mandarin (Taiwanese),32,麵,82,produces,0.9268
-Mandarin (Taiwanese),32,麵,82,understands,0
-Mandarin (Taiwanese),33,麵,85,produces,1
-Mandarin (Taiwanese),33,麵,85,understands,0
-Mandarin (Taiwanese),34,麵,77,produces,0.961
-Mandarin (Taiwanese),34,麵,77,understands,0
-Mandarin (Taiwanese),35,麵,81,produces,1
-Mandarin (Taiwanese),35,麵,81,understands,0
-Mandarin (Taiwanese),36,麵,81,produces,0.9877
-Mandarin (Taiwanese),36,麵,81,understands,0
-Arabic (Saudi),8,,19,produces,0
-Arabic (Saudi),8,,19,understands,0
-Arabic (Saudi),9,,18,produces,0
-Arabic (Saudi),9,,18,understands,0
-Arabic (Saudi),10,,25,produces,0
-Arabic (Saudi),10,,25,understands,0
-Arabic (Saudi),11,,21,produces,0
-Arabic (Saudi),11,,21,understands,0
-Arabic (Saudi),12,,19,produces,0
-Arabic (Saudi),12,,19,understands,0
-Arabic (Saudi),13,,36,produces,0
-Arabic (Saudi),13,,36,understands,0
-Arabic (Saudi),14,,20,produces,0
-Arabic (Saudi),14,,20,understands,0
-Arabic (Saudi),15,,19,produces,0
-Arabic (Saudi),15,,19,understands,0
-Arabic (Saudi),16,,18,produces,0
-Arabic (Saudi),16,,18,understands,0
-Cantonese,16,麵,46,produces,0.1304
-Cantonese,16,麵,46,understands,0
-Cantonese,17,麵,61,produces,0.1311
-Cantonese,17,麵,61,understands,0
-Cantonese,18,麵,68,produces,0.2647
-Cantonese,18,麵,68,understands,0
-Cantonese,19,麵,66,produces,0.303
-Cantonese,19,麵,66,understands,0
-Cantonese,20,麵,140,produces,0.5
-Cantonese,20,麵,140,understands,0
-Cantonese,21,麵,120,produces,0.5417
-Cantonese,21,麵,120,understands,0
-Cantonese,22,麵,68,produces,0.5588
-Cantonese,22,麵,68,understands,0
-Cantonese,23,麵,74,produces,0.6486
-Cantonese,23,麵,74,understands,0
-Cantonese,24,麵,68,produces,0.7206
-Cantonese,24,麵,68,understands,0
-Cantonese,25,麵,65,produces,0.8769
-Cantonese,25,麵,65,understands,0
-Cantonese,26,麵,68,produces,0.8676
-Cantonese,26,麵,68,understands,0
-Cantonese,27,麵,62,produces,0.9355
-Cantonese,27,麵,62,understands,0
-Cantonese,28,麵,66,produces,0.8939
-Cantonese,28,麵,66,understands,0
-Cantonese,29,麵,72,produces,0.9444
-Cantonese,29,麵,72,understands,0
-Cantonese,30,麵,164,produces,0.9512
-Cantonese,30,麵,164,understands,0
-Catalan,16,fideus,24,produces,0
-Catalan,16,fideus,24,understands,0
-Catalan,17,fideus,36,produces,0
-Catalan,17,fideus,36,understands,0
-Catalan,18,fideus,51,produces,0.0392
-Catalan,18,fideus,51,understands,0
-Catalan,19,fideus,45,produces,0
-Catalan,19,fideus,45,understands,0
-Catalan,20,fideus,56,produces,0.0714
-Catalan,20,fideus,56,understands,0
-Catalan,21,fideus,58,produces,0.2931
-Catalan,21,fideus,58,understands,0
-Catalan,22,fideus,50,produces,0.26
-Catalan,22,fideus,50,understands,0
-Catalan,23,fideus,66,produces,0.1818
-Catalan,23,fideus,66,understands,0
-Catalan,24,fideus,79,produces,0.4304
-Catalan,24,fideus,79,understands,0
-Catalan,25,fideus,60,produces,0.45
-Catalan,25,fideus,60,understands,0
-Catalan,26,fideus,65,produces,0.5538
-Catalan,26,fideus,65,understands,0
-Catalan,27,fideus,63,produces,0.5714
-Catalan,27,fideus,63,understands,0
-Catalan,28,fideus,81,produces,0.5556
-Catalan,28,fideus,81,understands,0
-Catalan,29,fideus,50,produces,0.62
-Catalan,29,fideus,50,understands,0
-Catalan,30,fideus,75,produces,0.6933
-Catalan,30,fideus,75,understands,0
-English (Australian),12,noodles,71,produces,0
-English (Australian),12,noodles,71,understands,0
-English (Australian),13,noodles,64,produces,0
-English (Australian),13,noodles,64,understands,0
-English (Australian),14,noodles,111,produces,0.018
-English (Australian),14,noodles,111,understands,0
-English (Australian),15,noodles,69,produces,0.0435
-English (Australian),15,noodles,69,understands,0
-English (Australian),16,noodles,60,produces,0.0333
-English (Australian),16,noodles,60,understands,0
-English (Australian),17,noodles,104,produces,0.0385
-English (Australian),17,noodles,104,understands,0
-English (Australian),18,noodles,109,produces,0.0826
-English (Australian),18,noodles,109,understands,0
-English (Australian),19,noodles,124,produces,0.1613
-English (Australian),19,noodles,124,understands,0
-English (Australian),20,noodles,78,produces,0.3205
-English (Australian),20,noodles,78,understands,0
-English (Australian),21,noodles,68,produces,0.1765
-English (Australian),21,noodles,68,understands,0
-English (Australian),22,noodles,73,produces,0.4521
-English (Australian),22,noodles,73,understands,0
-English (Australian),23,noodles,71,produces,0.4366
-English (Australian),23,noodles,71,understands,0
-English (Australian),24,noodles,76,produces,0.5395
-English (Australian),24,noodles,76,understands,0
-English (Australian),25,noodles,85,produces,0.4824
-English (Australian),25,noodles,85,understands,0
-English (Australian),26,noodles,77,produces,0.5974
-English (Australian),26,noodles,77,understands,0
-English (Australian),27,noodles,72,produces,0.6111
-English (Australian),27,noodles,72,understands,0
-English (Australian),28,noodles,67,produces,0.7164
-English (Australian),28,noodles,67,understands,0
-English (Australian),29,noodles,65,produces,0.6615
-English (Australian),29,noodles,65,understands,0
-English (Australian),30,noodles,53,produces,0.6604
-English (Australian),30,noodles,53,understands,0
-Hebrew,11,פתיתים,1,produces,0
-Hebrew,11,פתיתים,1,understands,0
-Hebrew,12,פתיתים,4,produces,0
-Hebrew,12,פתיתים,4,understands,0
-Hebrew,13,פתיתים,4,produces,0
-Hebrew,13,פתיתים,4,understands,0.25
-Hebrew,14,פתיתים,1,produces,0
-Hebrew,14,פתיתים,1,understands,0
-Hebrew,15,פתיתים,2,produces,0
-Hebrew,15,פתיתים,2,understands,0
-Hebrew,16,פתיתים,6,produces,0.1667
-Hebrew,16,פתיתים,6,understands,0.1667
-Hebrew,17,פתיתים,3,produces,0
-Hebrew,17,פתיתים,3,understands,0.3333
-Hebrew,19,פתיתים,4,produces,0
-Hebrew,19,פתיתים,4,understands,0
-Hebrew,20,פתיתים,9,produces,0.3333
-Hebrew,20,פתיתים,9,understands,0.5556
-Hebrew,21,פתיתים,4,produces,0.5
-Hebrew,21,פתיתים,4,understands,0.5
-Hebrew,22,פתיתים,3,produces,0
-Hebrew,22,פתיתים,3,understands,0.6667
-Hebrew,23,פתיתים,7,produces,0.1429
-Hebrew,23,פתיתים,7,understands,0.2857
-Hebrew,24,פתיתים,11,produces,0.6364
-Hebrew,24,פתיתים,11,understands,0.6364
-Hebrew,25,פתיתים,2,produces,0.5
-Hebrew,25,פתיתים,2,understands,0.5
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,,19,produces,0
+Arabic (Saudi),All,8,,19,understands,0
+Arabic (Saudi),All,9,,18,produces,0
+Arabic (Saudi),All,9,,18,understands,0
+Arabic (Saudi),All,10,,25,produces,0
+Arabic (Saudi),All,10,,25,understands,0
+Arabic (Saudi),All,11,,21,produces,0
+Arabic (Saudi),All,11,,21,understands,0
+Arabic (Saudi),All,12,,19,produces,0
+Arabic (Saudi),All,12,,19,understands,0
+Arabic (Saudi),All,13,,36,produces,0
+Arabic (Saudi),All,13,,36,understands,0
+Arabic (Saudi),All,14,,20,produces,0
+Arabic (Saudi),All,14,,20,understands,0
+Arabic (Saudi),All,15,,19,produces,0
+Arabic (Saudi),All,15,,19,understands,0
+Arabic (Saudi),All,16,,18,produces,0
+Arabic (Saudi),All,16,,18,understands,0
+Cantonese,All,16,麵,46,produces,0.1304
+Cantonese,All,16,麵,46,understands,0
+Cantonese,All,17,麵,61,produces,0.1311
+Cantonese,All,17,麵,61,understands,0
+Cantonese,All,18,麵,68,produces,0.2647
+Cantonese,All,18,麵,68,understands,0
+Cantonese,All,19,麵,66,produces,0.303
+Cantonese,All,19,麵,66,understands,0
+Cantonese,All,20,麵,140,produces,0.5
+Cantonese,All,20,麵,140,understands,0
+Cantonese,All,21,麵,120,produces,0.5417
+Cantonese,All,21,麵,120,understands,0
+Cantonese,All,22,麵,68,produces,0.5588
+Cantonese,All,22,麵,68,understands,0
+Cantonese,All,23,麵,74,produces,0.6486
+Cantonese,All,23,麵,74,understands,0
+Cantonese,All,24,麵,68,produces,0.7206
+Cantonese,All,24,麵,68,understands,0
+Cantonese,All,25,麵,65,produces,0.8769
+Cantonese,All,25,麵,65,understands,0
+Cantonese,All,26,麵,68,produces,0.8676
+Cantonese,All,26,麵,68,understands,0
+Cantonese,All,27,麵,62,produces,0.9355
+Cantonese,All,27,麵,62,understands,0
+Cantonese,All,28,麵,66,produces,0.8939
+Cantonese,All,28,麵,66,understands,0
+Cantonese,All,29,麵,72,produces,0.9444
+Cantonese,All,29,麵,72,understands,0
+Cantonese,All,30,麵,164,produces,0.9512
+Cantonese,All,30,麵,164,understands,0
+Catalan,All,16,fideus,24,produces,0
+Catalan,All,16,fideus,24,understands,0
+Catalan,All,17,fideus,36,produces,0
+Catalan,All,17,fideus,36,understands,0
+Catalan,All,18,fideus,51,produces,0.0392
+Catalan,All,18,fideus,51,understands,0
+Catalan,All,19,fideus,45,produces,0
+Catalan,All,19,fideus,45,understands,0
+Catalan,All,20,fideus,56,produces,0.0714
+Catalan,All,20,fideus,56,understands,0
+Catalan,All,21,fideus,58,produces,0.2931
+Catalan,All,21,fideus,58,understands,0
+Catalan,All,22,fideus,50,produces,0.26
+Catalan,All,22,fideus,50,understands,0
+Catalan,All,23,fideus,66,produces,0.1818
+Catalan,All,23,fideus,66,understands,0
+Catalan,All,24,fideus,79,produces,0.4304
+Catalan,All,24,fideus,79,understands,0
+Catalan,All,25,fideus,60,produces,0.45
+Catalan,All,25,fideus,60,understands,0
+Catalan,All,26,fideus,65,produces,0.5538
+Catalan,All,26,fideus,65,understands,0
+Catalan,All,27,fideus,63,produces,0.5714
+Catalan,All,27,fideus,63,understands,0
+Catalan,All,28,fideus,81,produces,0.5556
+Catalan,All,28,fideus,81,understands,0
+Catalan,All,29,fideus,50,produces,0.62
+Catalan,All,29,fideus,50,understands,0
+Catalan,All,30,fideus,75,produces,0.6933
+Catalan,All,30,fideus,75,understands,0
+English (Australian),All,12,noodles,71,produces,0
+English (Australian),All,12,noodles,71,understands,0
+English (Australian),All,13,noodles,64,produces,0
+English (Australian),All,13,noodles,64,understands,0
+English (Australian),All,14,noodles,111,produces,0.018
+English (Australian),All,14,noodles,111,understands,0
+English (Australian),All,15,noodles,69,produces,0.0435
+English (Australian),All,15,noodles,69,understands,0
+English (Australian),All,16,noodles,60,produces,0.0333
+English (Australian),All,16,noodles,60,understands,0
+English (Australian),All,17,noodles,104,produces,0.0385
+English (Australian),All,17,noodles,104,understands,0
+English (Australian),All,18,noodles,109,produces,0.0826
+English (Australian),All,18,noodles,109,understands,0
+English (Australian),All,19,noodles,124,produces,0.1613
+English (Australian),All,19,noodles,124,understands,0
+English (Australian),All,20,noodles,78,produces,0.3205
+English (Australian),All,20,noodles,78,understands,0
+English (Australian),All,21,noodles,68,produces,0.1765
+English (Australian),All,21,noodles,68,understands,0
+English (Australian),All,22,noodles,73,produces,0.4521
+English (Australian),All,22,noodles,73,understands,0
+English (Australian),All,23,noodles,71,produces,0.4366
+English (Australian),All,23,noodles,71,understands,0
+English (Australian),All,24,noodles,76,produces,0.5395
+English (Australian),All,24,noodles,76,understands,0
+English (Australian),All,25,noodles,85,produces,0.4824
+English (Australian),All,25,noodles,85,understands,0
+English (Australian),All,26,noodles,77,produces,0.5974
+English (Australian),All,26,noodles,77,understands,0
+English (Australian),All,27,noodles,72,produces,0.6111
+English (Australian),All,27,noodles,72,understands,0
+English (Australian),All,28,noodles,67,produces,0.7164
+English (Australian),All,28,noodles,67,understands,0
+English (Australian),All,29,noodles,65,produces,0.6615
+English (Australian),All,29,noodles,65,understands,0
+English (Australian),All,30,noodles,53,produces,0.6604
+English (Australian),All,30,noodles,53,understands,0
+Hebrew,All,11,פתיתים,1,produces,0
+Hebrew,All,11,פתיתים,1,understands,0
+Hebrew,All,12,פתיתים,4,produces,0
+Hebrew,All,12,פתיתים,4,understands,0
+Hebrew,All,13,פתיתים,4,produces,0
+Hebrew,All,13,פתיתים,4,understands,0.25
+Hebrew,All,14,פתיתים,1,produces,0
+Hebrew,All,14,פתיתים,1,understands,0
+Hebrew,All,15,פתיתים,2,produces,0
+Hebrew,All,15,פתיתים,2,understands,0
+Hebrew,All,16,פתיתים,6,produces,0.1667
+Hebrew,All,16,פתיתים,6,understands,0.1667
+Hebrew,All,17,פתיתים,3,produces,0
+Hebrew,All,17,פתיתים,3,understands,0.3333
+Hebrew,All,19,פתיתים,4,produces,0
+Hebrew,All,19,פתיתים,4,understands,0
+Hebrew,All,20,פתיתים,9,produces,0.3333
+Hebrew,All,20,פתיתים,9,understands,0.5556
+Hebrew,All,21,פתיתים,4,produces,0.5
+Hebrew,All,21,פתיתים,4,understands,0.5
+Hebrew,All,22,פתיתים,3,produces,0
+Hebrew,All,22,פתיתים,3,understands,0.6667
+Hebrew,All,23,פתיתים,7,produces,0.1429
+Hebrew,All,23,פתיתים,7,understands,0.2857
+Hebrew,All,24,פתיתים,11,produces,0.6364
+Hebrew,All,24,פתיתים,11,understands,0.6364
+Hebrew,All,25,פתיתים,2,produces,0.5
+Hebrew,All,25,פתיתים,2,understands,0.5
+Japanese,All,8,うどん,6,produces,0
+Japanese,All,8,うどん,6,understands,0.1667
+Japanese,All,9,うどん,10,produces,0
+Japanese,All,9,うどん,10,understands,0
+Japanese,All,10,うどん,8,produces,0
+Japanese,All,10,うどん,8,understands,0
+Japanese,All,11,うどん,87,produces,0.023
+Japanese,All,11,うどん,87,understands,0.0805
+Japanese,All,12,うどん,118,produces,0
+Japanese,All,12,うどん,118,understands,0.0847
+Japanese,All,13,うどん,23,produces,0
+Japanese,All,13,うどん,23,understands,0.1739
+Japanese,All,14,うどん,26,produces,0.0769
+Japanese,All,14,うどん,26,understands,0.2692
+Japanese,All,15,うどん,72,produces,0.0417
+Japanese,All,15,うどん,72,understands,0.4306
+Japanese,All,16,"うどん, ラーメン",46,produces,0.0526
+Japanese,All,16,"うどん, ラーメン",46,understands,0.2456
+Japanese,All,17,"うどん, ラーメン",77,produces,0.0532
+Japanese,All,17,"うどん, ラーメン",77,understands,0.3298
+Japanese,All,18,"うどん, ラーメン",94,produces,0.0733
+Japanese,All,18,"うどん, ラーメン",94,understands,0.16
+Japanese,All,19,"うどん, ラーメン",35,produces,0.1714
+Japanese,All,19,"うどん, ラーメン",35,understands,0
+Japanese,All,20,"うどん, ラーメン",59,produces,0.0932
+Japanese,All,20,"うどん, ラーメン",59,understands,0
+Japanese,All,21,"うどん, ラーメン",62,produces,0.2661
+Japanese,All,21,"うどん, ラーメン",62,understands,0
+Japanese,All,22,"うどん, ラーメン",31,produces,0.2419
+Japanese,All,22,"うどん, ラーメン",31,understands,0
+Japanese,All,23,"うどん, ラーメン",67,produces,0.403
+Japanese,All,23,"うどん, ラーメン",67,understands,0
+Japanese,All,24,"うどん, ラーメン",33,produces,0.4242
+Japanese,All,24,"うどん, ラーメン",33,understands,0
+Japanese,All,25,"うどん, ラーメン",34,produces,0.5294
+Japanese,All,25,"うどん, ラーメン",34,understands,0
+Japanese,All,26,"うどん, ラーメン",33,produces,0.5909
+Japanese,All,26,"うどん, ラーメン",33,understands,0
+Japanese,All,27,"うどん, ラーメン",15,produces,0.6333
+Japanese,All,27,"うどん, ラーメン",15,understands,0
+Japanese,All,28,"うどん, ラーメン",18,produces,0.75
+Japanese,All,28,"うどん, ラーメン",18,understands,0
+Japanese,All,29,"うどん, ラーメン",17,produces,0.7059
+Japanese,All,29,"うどん, ラーメン",17,understands,0
+Japanese,All,30,"うどん, ラーメン",18,produces,0.5833
+Japanese,All,30,"うどん, ラーメン",18,understands,0
+Japanese,All,31,"うどん, ラーメン",18,produces,0.6111
+Japanese,All,31,"うどん, ラーメン",18,understands,0
+Japanese,All,32,"うどん, ラーメン",13,produces,0.7308
+Japanese,All,32,"うどん, ラーメン",13,understands,0
+Japanese,All,33,"うどん, ラーメン",16,produces,0.875
+Japanese,All,33,"うどん, ラーメン",16,understands,0
+Japanese,All,34,"うどん, ラーメン",13,produces,0.7308
+Japanese,All,34,"うどん, ラーメン",13,understands,0
+Japanese,All,35,"うどん, ラーメン",31,produces,0.9032
+Japanese,All,35,"うどん, ラーメン",31,understands,0
+Japanese,All,36,"うどん, ラーメン",18,produces,0.9167
+Japanese,All,36,"うどん, ラーメン",18,understands,0
+Korean,All,8,라면,57,produces,0
+Korean,All,8,라면,57,understands,0.0175
+Korean,All,9,라면,73,produces,0
+Korean,All,9,라면,73,understands,0
+Korean,All,10,라면,77,produces,0
+Korean,All,10,라면,77,understands,0.013
+Korean,All,11,라면,80,produces,0.0125
+Korean,All,11,라면,80,understands,0.025
+Korean,All,12,라면,74,produces,0
+Korean,All,12,라면,74,understands,0.0405
+Korean,All,13,라면,127,produces,0
+Korean,All,13,라면,127,understands,0.0551
+Korean,All,14,라면,87,produces,0.0115
+Korean,All,14,라면,87,understands,0.0805
+Korean,All,15,라면,85,produces,0.0118
+Korean,All,15,라면,85,understands,0.0706
+Korean,All,16,라면,86,produces,0.0465
+Korean,All,16,라면,86,understands,0.1512
+Korean,All,17,라면,63,produces,0.0317
+Korean,All,17,라면,63,understands,0.2063
+Korean,All,18,라면,88,produces,0.1023
+Korean,All,18,라면,88,understands,0
+Korean,All,19,라면,77,produces,0.026
+Korean,All,19,라면,77,understands,0
+Korean,All,20,라면,88,produces,0.1705
+Korean,All,20,라면,88,understands,0
+Korean,All,21,라면,79,produces,0.1519
+Korean,All,21,라면,79,understands,0
+Korean,All,22,라면,87,produces,0.2644
+Korean,All,22,라면,87,understands,0
+Korean,All,23,라면,87,produces,0.2414
+Korean,All,23,라면,87,understands,0
+Korean,All,24,라면,107,produces,0.4486
+Korean,All,24,라면,107,understands,0
+Korean,All,25,라면,95,produces,0.5158
+Korean,All,25,라면,95,understands,0
+Korean,All,26,라면,91,produces,0.4725
+Korean,All,26,라면,91,understands,0
+Korean,All,27,라면,104,produces,0.5673
+Korean,All,27,라면,104,understands,0
+Korean,All,28,라면,89,produces,0.6742
+Korean,All,28,라면,89,understands,0
+Korean,All,29,라면,101,produces,0.6733
+Korean,All,29,라면,101,understands,0
+Korean,All,30,라면,81,produces,0.7284
+Korean,All,30,라면,81,understands,0
+Korean,All,31,라면,79,produces,0.8101
+Korean,All,31,라면,79,understands,0
+Korean,All,32,라면,70,produces,0.8143
+Korean,All,32,라면,70,understands,0
+Korean,All,33,라면,79,produces,0.8228
+Korean,All,33,라면,79,understands,0
+Korean,All,34,라면,79,produces,0.8734
+Korean,All,34,라면,79,understands,0
+Korean,All,35,라면,74,produces,0.8243
+Korean,All,35,라면,74,understands,0
+Korean,All,36,라면,75,produces,0.9333
+Korean,All,36,라면,75,understands,0
+Mandarin (Beijing),All,17,方便面,40,produces,0.05
+Mandarin (Beijing),All,17,方便面,40,understands,0
+Mandarin (Beijing),All,18,方便面,50,produces,0.04
+Mandarin (Beijing),All,18,方便面,50,understands,0
+Mandarin (Beijing),All,19,方便面,50,produces,0.16
+Mandarin (Beijing),All,19,方便面,50,understands,0
+Mandarin (Beijing),All,20,方便面,50,produces,0.16
+Mandarin (Beijing),All,20,方便面,50,understands,0
+Mandarin (Beijing),All,21,方便面,49,produces,0.1837
+Mandarin (Beijing),All,21,方便面,49,understands,0
+Mandarin (Beijing),All,22,方便面,46,produces,0.1522
+Mandarin (Beijing),All,22,方便面,46,understands,0
+Mandarin (Beijing),All,23,方便面,50,produces,0.38
+Mandarin (Beijing),All,23,方便面,50,understands,0
+Mandarin (Beijing),All,24,方便面,50,produces,0.22
+Mandarin (Beijing),All,24,方便面,50,understands,0
+Mandarin (Beijing),All,25,方便面,43,produces,0.2791
+Mandarin (Beijing),All,25,方便面,43,understands,0
+Mandarin (Beijing),All,26,方便面,47,produces,0.3191
+Mandarin (Beijing),All,26,方便面,47,understands,0
+Mandarin (Beijing),All,27,方便面,44,produces,0.4773
+Mandarin (Beijing),All,27,方便面,44,understands,0
+Mandarin (Beijing),All,28,方便面,44,produces,0.5227
+Mandarin (Beijing),All,28,方便面,44,understands,0
+Mandarin (Beijing),All,29,方便面,49,produces,0.5714
+Mandarin (Beijing),All,29,方便面,49,understands,0
+Mandarin (Beijing),All,30,方便面,40,produces,0.575
+Mandarin (Beijing),All,30,方便面,40,understands,0
+Mandarin (Taiwanese),All,8,麵,86,produces,0
+Mandarin (Taiwanese),All,8,麵,86,understands,0.4302
+Mandarin (Taiwanese),All,9,麵,79,produces,0
+Mandarin (Taiwanese),All,9,麵,79,understands,0.4684
+Mandarin (Taiwanese),All,10,麵,78,produces,0
+Mandarin (Taiwanese),All,10,麵,78,understands,0.1282
+Mandarin (Taiwanese),All,11,麵,79,produces,0.0127
+Mandarin (Taiwanese),All,11,麵,79,understands,0.2532
+Mandarin (Taiwanese),All,12,麵,80,produces,0.025
+Mandarin (Taiwanese),All,12,麵,80,understands,0.225
+Mandarin (Taiwanese),All,13,麵,78,produces,0.0385
+Mandarin (Taiwanese),All,13,麵,78,understands,0.3077
+Mandarin (Taiwanese),All,14,麵,81,produces,0.1111
+Mandarin (Taiwanese),All,14,麵,81,understands,0.3333
+Mandarin (Taiwanese),All,15,麵,106,produces,0.1509
+Mandarin (Taiwanese),All,15,麵,106,understands,0.5
+Mandarin (Taiwanese),All,16,麵,170,produces,0.1294
+Mandarin (Taiwanese),All,16,麵,170,understands,0.2353
+Mandarin (Taiwanese),All,17,麵,87,produces,0.3333
+Mandarin (Taiwanese),All,17,麵,87,understands,0
+Mandarin (Taiwanese),All,18,麵,84,produces,0.4048
+Mandarin (Taiwanese),All,18,麵,84,understands,0
+Mandarin (Taiwanese),All,19,麵,84,produces,0.5476
+Mandarin (Taiwanese),All,19,麵,84,understands,0
+Mandarin (Taiwanese),All,20,麵,84,produces,0.5357
+Mandarin (Taiwanese),All,20,麵,84,understands,0
+Mandarin (Taiwanese),All,21,麵,88,produces,0.6818
+Mandarin (Taiwanese),All,21,麵,88,understands,0
+Mandarin (Taiwanese),All,22,麵,96,produces,0.6771
+Mandarin (Taiwanese),All,22,麵,96,understands,0
+Mandarin (Taiwanese),All,23,麵,105,produces,0.7714
+Mandarin (Taiwanese),All,23,麵,105,understands,0
+Mandarin (Taiwanese),All,24,麵,124,produces,0.871
+Mandarin (Taiwanese),All,24,麵,124,understands,0
+Mandarin (Taiwanese),All,25,麵,110,produces,0.8636
+Mandarin (Taiwanese),All,25,麵,110,understands,0
+Mandarin (Taiwanese),All,26,麵,87,produces,0.908
+Mandarin (Taiwanese),All,26,麵,87,understands,0
+Mandarin (Taiwanese),All,27,麵,92,produces,0.8913
+Mandarin (Taiwanese),All,27,麵,92,understands,0
+Mandarin (Taiwanese),All,28,麵,100,produces,0.98
+Mandarin (Taiwanese),All,28,麵,100,understands,0
+Mandarin (Taiwanese),All,29,麵,88,produces,0.9318
+Mandarin (Taiwanese),All,29,麵,88,understands,0
+Mandarin (Taiwanese),All,30,麵,94,produces,0.9468
+Mandarin (Taiwanese),All,30,麵,94,understands,0
+Mandarin (Taiwanese),All,31,麵,88,produces,0.9886
+Mandarin (Taiwanese),All,31,麵,88,understands,0
+Mandarin (Taiwanese),All,32,麵,82,produces,0.9268
+Mandarin (Taiwanese),All,32,麵,82,understands,0
+Mandarin (Taiwanese),All,33,麵,85,produces,1
+Mandarin (Taiwanese),All,33,麵,85,understands,0
+Mandarin (Taiwanese),All,34,麵,77,produces,0.961
+Mandarin (Taiwanese),All,34,麵,77,understands,0
+Mandarin (Taiwanese),All,35,麵,81,produces,1
+Mandarin (Taiwanese),All,35,麵,81,understands,0
+Mandarin (Taiwanese),All,36,麵,81,produces,0.9877
+Mandarin (Taiwanese),All,36,麵,81,understands,0
+Arabic (Saudi),Female,8,,9,produces,0
+Arabic (Saudi),Female,8,,9,understands,0
+Arabic (Saudi),Male,8,,10,produces,0
+Arabic (Saudi),Male,8,,10,understands,0
+Arabic (Saudi),Female,9,,10,produces,0
+Arabic (Saudi),Female,9,,10,understands,0
+Arabic (Saudi),Male,9,,8,produces,0
+Arabic (Saudi),Male,9,,8,understands,0
+Arabic (Saudi),Female,10,,11,produces,0
+Arabic (Saudi),Female,10,,11,understands,0
+Arabic (Saudi),Male,10,,14,produces,0
+Arabic (Saudi),Male,10,,14,understands,0
+Arabic (Saudi),Female,11,,9,produces,0
+Arabic (Saudi),Female,11,,9,understands,0
+Arabic (Saudi),Male,11,,12,produces,0
+Arabic (Saudi),Male,11,,12,understands,0
+Arabic (Saudi),Female,12,,8,produces,0
+Arabic (Saudi),Female,12,,8,understands,0
+Arabic (Saudi),Male,12,,11,produces,0
+Arabic (Saudi),Male,12,,11,understands,0
+Arabic (Saudi),Female,13,,16,produces,0
+Arabic (Saudi),Female,13,,16,understands,0
+Arabic (Saudi),Male,13,,20,produces,0
+Arabic (Saudi),Male,13,,20,understands,0
+Arabic (Saudi),Female,14,,10,produces,0
+Arabic (Saudi),Female,14,,10,understands,0
+Arabic (Saudi),Male,14,,10,produces,0
+Arabic (Saudi),Male,14,,10,understands,0
+Arabic (Saudi),Female,15,,7,produces,0
+Arabic (Saudi),Female,15,,7,understands,0
+Arabic (Saudi),Male,15,,12,produces,0
+Arabic (Saudi),Male,15,,12,understands,0
+Arabic (Saudi),Female,16,,9,produces,0
+Arabic (Saudi),Female,16,,9,understands,0
+Arabic (Saudi),Male,16,,9,produces,0
+Arabic (Saudi),Male,16,,9,understands,0
+Cantonese,Female,16,麵,23,produces,0.087
+Cantonese,Female,16,麵,23,understands,0
+Cantonese,Male,16,麵,23,produces,0.1739
+Cantonese,Male,16,麵,23,understands,0
+Cantonese,Female,17,麵,30,produces,0.2333
+Cantonese,Female,17,麵,30,understands,0
+Cantonese,Male,17,麵,31,produces,0.0323
+Cantonese,Male,17,麵,31,understands,0
+Cantonese,Female,18,麵,33,produces,0.3333
+Cantonese,Female,18,麵,33,understands,0
+Cantonese,Male,18,麵,35,produces,0.2
+Cantonese,Male,18,麵,35,understands,0
+Cantonese,Female,19,麵,30,produces,0.3667
+Cantonese,Female,19,麵,30,understands,0
+Cantonese,Male,19,麵,36,produces,0.25
+Cantonese,Male,19,麵,36,understands,0
+Cantonese,Female,20,麵,62,produces,0.5323
+Cantonese,Female,20,麵,62,understands,0
+Cantonese,Male,20,麵,78,produces,0.4744
+Cantonese,Male,20,麵,78,understands,0
+Cantonese,Female,21,麵,57,produces,0.5439
+Cantonese,Female,21,麵,57,understands,0
+Cantonese,Male,21,麵,63,produces,0.5397
+Cantonese,Male,21,麵,63,understands,0
+Cantonese,Female,22,麵,34,produces,0.7353
+Cantonese,Female,22,麵,34,understands,0
+Cantonese,Male,22,麵,34,produces,0.3824
+Cantonese,Male,22,麵,34,understands,0
+Cantonese,Female,23,麵,37,produces,0.7568
+Cantonese,Female,23,麵,37,understands,0
+Cantonese,Male,23,麵,37,produces,0.5405
+Cantonese,Male,23,麵,37,understands,0
+Cantonese,Female,24,麵,32,produces,0.7188
+Cantonese,Female,24,麵,32,understands,0
+Cantonese,Male,24,麵,36,produces,0.7222
+Cantonese,Male,24,麵,36,understands,0
+Cantonese,Female,25,麵,31,produces,0.9032
+Cantonese,Female,25,麵,31,understands,0
+Cantonese,Male,25,麵,34,produces,0.8529
+Cantonese,Male,25,麵,34,understands,0
+Cantonese,Female,26,麵,31,produces,0.9355
+Cantonese,Female,26,麵,31,understands,0
+Cantonese,Male,26,麵,37,produces,0.8108
+Cantonese,Male,26,麵,37,understands,0
+Cantonese,Female,27,麵,31,produces,0.9677
+Cantonese,Female,27,麵,31,understands,0
+Cantonese,Male,27,麵,31,produces,0.9032
+Cantonese,Male,27,麵,31,understands,0
+Cantonese,Female,28,麵,32,produces,0.9375
+Cantonese,Female,28,麵,32,understands,0
+Cantonese,Male,28,麵,34,produces,0.8529
+Cantonese,Male,28,麵,34,understands,0
+Cantonese,Female,29,麵,36,produces,0.9444
+Cantonese,Female,29,麵,36,understands,0
+Cantonese,Male,29,麵,36,produces,0.9444
+Cantonese,Male,29,麵,36,understands,0
+Cantonese,Female,30,麵,76,produces,0.9605
+Cantonese,Female,30,麵,76,understands,0
+Cantonese,Male,30,麵,88,produces,0.9432
+Cantonese,Male,30,麵,88,understands,0
+Catalan,Female,16,fideus,8,produces,0
+Catalan,Female,16,fideus,8,understands,0
+Catalan,Male,16,fideus,16,produces,0
+Catalan,Male,16,fideus,16,understands,0
+Catalan,Female,17,fideus,22,produces,0
+Catalan,Female,17,fideus,22,understands,0
+Catalan,Male,17,fideus,14,produces,0
+Catalan,Male,17,fideus,14,understands,0
+Catalan,Female,18,fideus,22,produces,0.0455
+Catalan,Female,18,fideus,22,understands,0
+Catalan,Male,18,fideus,29,produces,0.0345
+Catalan,Male,18,fideus,29,understands,0
+Catalan,Female,19,fideus,25,produces,0
+Catalan,Female,19,fideus,25,understands,0
+Catalan,Male,19,fideus,20,produces,0
+Catalan,Male,19,fideus,20,understands,0
+Catalan,Female,20,fideus,28,produces,0.0714
+Catalan,Female,20,fideus,28,understands,0
+Catalan,Male,20,fideus,28,produces,0.0714
+Catalan,Male,20,fideus,28,understands,0
+Catalan,Female,21,fideus,32,produces,0.3438
+Catalan,Female,21,fideus,32,understands,0
+Catalan,Male,21,fideus,26,produces,0.2308
+Catalan,Male,21,fideus,26,understands,0
+Catalan,Female,22,fideus,26,produces,0.4231
+Catalan,Female,22,fideus,26,understands,0
+Catalan,Male,22,fideus,24,produces,0.0833
+Catalan,Male,22,fideus,24,understands,0
+Catalan,Female,23,fideus,35,produces,0.2571
+Catalan,Female,23,fideus,35,understands,0
+Catalan,Male,23,fideus,31,produces,0.0968
+Catalan,Male,23,fideus,31,understands,0
+Catalan,Female,24,fideus,41,produces,0.5366
+Catalan,Female,24,fideus,41,understands,0
+Catalan,Male,24,fideus,38,produces,0.3158
+Catalan,Male,24,fideus,38,understands,0
+Catalan,Female,25,fideus,30,produces,0.4667
+Catalan,Female,25,fideus,30,understands,0
+Catalan,Male,25,fideus,30,produces,0.4333
+Catalan,Male,25,fideus,30,understands,0
+Catalan,Female,26,fideus,35,produces,0.6
+Catalan,Female,26,fideus,35,understands,0
+Catalan,Male,26,fideus,30,produces,0.5
+Catalan,Male,26,fideus,30,understands,0
+Catalan,Female,27,fideus,36,produces,0.5833
+Catalan,Female,27,fideus,36,understands,0
+Catalan,Male,27,fideus,27,produces,0.5556
+Catalan,Male,27,fideus,27,understands,0
+Catalan,Female,28,fideus,40,produces,0.675
+Catalan,Female,28,fideus,40,understands,0
+Catalan,Male,28,fideus,41,produces,0.439
+Catalan,Male,28,fideus,41,understands,0
+Catalan,Female,29,fideus,25,produces,0.68
+Catalan,Female,29,fideus,25,understands,0
+Catalan,Male,29,fideus,25,produces,0.56
+Catalan,Male,29,fideus,25,understands,0
+Catalan,Female,30,fideus,24,produces,0.7917
+Catalan,Female,30,fideus,24,understands,0
+Catalan,Male,30,fideus,51,produces,0.6471
+Catalan,Male,30,fideus,51,understands,0
+English (Australian),Female,12,noodles,27,produces,0
+English (Australian),Female,12,noodles,27,understands,0
+English (Australian),Male,12,noodles,44,produces,0
+English (Australian),Male,12,noodles,44,understands,0
+English (Australian),Female,13,noodles,35,produces,0
+English (Australian),Female,13,noodles,35,understands,0
+English (Australian),Male,13,noodles,29,produces,0
+English (Australian),Male,13,noodles,29,understands,0
+English (Australian),Female,14,noodles,51,produces,0.0392
+English (Australian),Female,14,noodles,51,understands,0
+English (Australian),Male,14,noodles,60,produces,0
+English (Australian),Male,14,noodles,60,understands,0
+English (Australian),Female,15,noodles,31,produces,0.0645
+English (Australian),Female,15,noodles,31,understands,0
+English (Australian),Male,15,noodles,38,produces,0.0263
+English (Australian),Male,15,noodles,38,understands,0
+English (Australian),Female,16,noodles,32,produces,0.0312
+English (Australian),Female,16,noodles,32,understands,0
+English (Australian),Male,16,noodles,28,produces,0.0357
+English (Australian),Male,16,noodles,28,understands,0
+English (Australian),Female,17,noodles,56,produces,0.0536
+English (Australian),Female,17,noodles,56,understands,0
+English (Australian),Male,17,noodles,48,produces,0.0208
+English (Australian),Male,17,noodles,48,understands,0
+English (Australian),Female,18,noodles,52,produces,0.1346
+English (Australian),Female,18,noodles,52,understands,0
+English (Australian),Male,18,noodles,57,produces,0.0351
+English (Australian),Male,18,noodles,57,understands,0
+English (Australian),Female,19,noodles,72,produces,0.1944
+English (Australian),Female,19,noodles,72,understands,0
+English (Australian),Male,19,noodles,52,produces,0.1154
+English (Australian),Male,19,noodles,52,understands,0
+English (Australian),Female,20,noodles,40,produces,0.375
+English (Australian),Female,20,noodles,40,understands,0
+English (Australian),Male,20,noodles,38,produces,0.2632
+English (Australian),Male,20,noodles,38,understands,0
+English (Australian),Female,21,noodles,39,produces,0.1538
+English (Australian),Female,21,noodles,39,understands,0
+English (Australian),Male,21,noodles,25,produces,0.2
+English (Australian),Male,21,noodles,25,understands,0
+English (Australian),Female,22,noodles,27,produces,0.4815
+English (Australian),Female,22,noodles,27,understands,0
+English (Australian),Male,22,noodles,46,produces,0.4348
+English (Australian),Male,22,noodles,46,understands,0
+English (Australian),Female,23,noodles,39,produces,0.5385
+English (Australian),Female,23,noodles,39,understands,0
+English (Australian),Male,23,noodles,32,produces,0.3125
+English (Australian),Male,23,noodles,32,understands,0
+English (Australian),Female,24,noodles,36,produces,0.6111
+English (Australian),Female,24,noodles,36,understands,0
+English (Australian),Male,24,noodles,40,produces,0.475
+English (Australian),Male,24,noodles,40,understands,0
+English (Australian),Female,25,noodles,44,produces,0.5227
+English (Australian),Female,25,noodles,44,understands,0
+English (Australian),Male,25,noodles,41,produces,0.439
+English (Australian),Male,25,noodles,41,understands,0
+English (Australian),Female,26,noodles,40,produces,0.625
+English (Australian),Female,26,noodles,40,understands,0
+English (Australian),Male,26,noodles,37,produces,0.5676
+English (Australian),Male,26,noodles,37,understands,0
+English (Australian),Female,27,noodles,36,produces,0.7222
+English (Australian),Female,27,noodles,36,understands,0
+English (Australian),Male,27,noodles,36,produces,0.5
+English (Australian),Male,27,noodles,36,understands,0
+English (Australian),Female,28,noodles,27,produces,0.7778
+English (Australian),Female,28,noodles,27,understands,0
+English (Australian),Male,28,noodles,40,produces,0.675
+English (Australian),Male,28,noodles,40,understands,0
+English (Australian),Female,29,noodles,33,produces,0.6364
+English (Australian),Female,29,noodles,33,understands,0
+English (Australian),Male,29,noodles,32,produces,0.6875
+English (Australian),Male,29,noodles,32,understands,0
+English (Australian),Female,30,noodles,28,produces,0.6786
+English (Australian),Female,30,noodles,28,understands,0
+English (Australian),Male,30,noodles,25,produces,0.64
+English (Australian),Male,30,noodles,25,understands,0
+Hebrew,Male,11,פתיתים,1,produces,0
+Hebrew,Male,11,פתיתים,1,understands,0
+Hebrew,Female,12,פתיתים,1,produces,0
+Hebrew,Female,12,פתיתים,1,understands,0
+Hebrew,Male,12,פתיתים,3,produces,0
+Hebrew,Male,12,פתיתים,3,understands,0
+Hebrew,Male,13,פתיתים,4,produces,0
+Hebrew,Male,13,פתיתים,4,understands,0.25
+Hebrew,Male,14,פתיתים,1,produces,0
+Hebrew,Male,14,פתיתים,1,understands,0
+Hebrew,Male,15,פתיתים,2,produces,0
+Hebrew,Male,15,פתיתים,2,understands,0
+Hebrew,Female,16,פתיתים,4,produces,0.25
+Hebrew,Female,16,פתיתים,4,understands,0.25
+Hebrew,Male,16,פתיתים,2,produces,0
+Hebrew,Male,16,פתיתים,2,understands,0
+Hebrew,Female,17,פתיתים,2,produces,0
+Hebrew,Female,17,פתיתים,2,understands,0.5
+Hebrew,Male,17,פתיתים,1,produces,0
+Hebrew,Male,17,פתיתים,1,understands,0
+Hebrew,Female,19,פתיתים,1,produces,0
+Hebrew,Female,19,פתיתים,1,understands,0
+Hebrew,Male,19,פתיתים,3,produces,0
+Hebrew,Male,19,פתיתים,3,understands,0
+Hebrew,Female,20,פתיתים,1,produces,1
+Hebrew,Female,20,פתיתים,1,understands,1
+Hebrew,Male,20,פתיתים,8,produces,0.25
+Hebrew,Male,20,פתיתים,8,understands,0.5
+Hebrew,Female,21,פתיתים,1,produces,1
+Hebrew,Female,21,פתיתים,1,understands,1
+Hebrew,Male,21,פתיתים,3,produces,0.3333
+Hebrew,Male,21,פתיתים,3,understands,0.3333
+Hebrew,Male,22,פתיתים,3,produces,0
+Hebrew,Male,22,פתיתים,3,understands,0.6667
+Hebrew,Female,23,פתיתים,3,produces,0
+Hebrew,Female,23,פתיתים,3,understands,0.3333
+Hebrew,Male,23,פתיתים,4,produces,0.25
+Hebrew,Male,23,פתיתים,4,understands,0.25
+Hebrew,Female,24,פתיתים,1,produces,1
+Hebrew,Female,24,פתיתים,1,understands,1
+Hebrew,Male,24,פתיתים,10,produces,0.6
+Hebrew,Male,24,פתיתים,10,understands,0.6
+Hebrew,Male,25,פתיתים,2,produces,0.5
+Hebrew,Male,25,פתיתים,2,understands,0.5
+Japanese,Female,8,うどん,2,produces,0
+Japanese,Female,8,うどん,2,understands,0
+Japanese,Male,8,うどん,4,produces,0
+Japanese,Male,8,うどん,4,understands,0.25
+Japanese,Female,9,うどん,4,produces,0
+Japanese,Female,9,うどん,4,understands,0
+Japanese,Male,9,うどん,6,produces,0
+Japanese,Male,9,うどん,6,understands,0
+Japanese,Female,10,うどん,2,produces,0
+Japanese,Female,10,うどん,2,understands,0
+Japanese,Male,10,うどん,6,produces,0
+Japanese,Male,10,うどん,6,understands,0
+Japanese,Female,11,うどん,58,produces,0.0345
+Japanese,Female,11,うどん,58,understands,0.0862
+Japanese,Male,11,うどん,29,produces,0
+Japanese,Male,11,うどん,29,understands,0.069
+Japanese,Female,12,うどん,56,produces,0
+Japanese,Female,12,うどん,56,understands,0.1071
+Japanese,Male,12,うどん,62,produces,0
+Japanese,Male,12,うどん,62,understands,0.0645
+Japanese,Female,13,うどん,10,produces,0
+Japanese,Female,13,うどん,10,understands,0.1
+Japanese,Male,13,うどん,13,produces,0
+Japanese,Male,13,うどん,13,understands,0.2308
+Japanese,Female,14,うどん,15,produces,0.1333
+Japanese,Female,14,うどん,15,understands,0.3333
+Japanese,Male,14,うどん,11,produces,0
+Japanese,Male,14,うどん,11,understands,0.1818
+Japanese,Female,15,うどん,38,produces,0.0789
+Japanese,Female,15,うどん,38,understands,0.4737
+Japanese,Male,15,うどん,34,produces,0
+Japanese,Male,15,うどん,34,understands,0.3824
+Japanese,Female,16,"うどん, ラーメン",23,produces,0
+Japanese,Female,16,"うどん, ラーメン",23,understands,0.1481
+Japanese,Male,16,"うどん, ラーメン",23,produces,0.1
+Japanese,Male,16,"うどん, ラーメン",23,understands,0.3333
+Japanese,Female,17,"うどん, ラーメン",51,produces,0.0484
+Japanese,Female,17,"うどん, ラーメン",51,understands,0.3065
+Japanese,Male,17,"うどん, ラーメン",26,produces,0.0625
+Japanese,Male,17,"うどん, ラーメン",26,understands,0.375
+Japanese,Female,18,"うどん, ラーメン",47,produces,0.1216
+Japanese,Female,18,"うどん, ラーメン",47,understands,0.1892
+Japanese,Male,18,"うどん, ラーメン",47,produces,0.0263
+Japanese,Male,18,"うどん, ラーメン",47,understands,0.1316
+Japanese,Female,19,"うどん, ラーメン",14,produces,0.25
+Japanese,Female,19,"うどん, ラーメン",14,understands,0
+Japanese,Male,19,"うどん, ラーメン",21,produces,0.119
+Japanese,Male,19,"うどん, ラーメン",21,understands,0
+Japanese,Female,20,"うどん, ラーメン",27,produces,0.1667
+Japanese,Female,20,"うどん, ラーメン",27,understands,0
+Japanese,Male,20,"うどん, ラーメン",32,produces,0.0312
+Japanese,Male,20,"うどん, ラーメン",32,understands,0
+Japanese,Female,21,"うどん, ラーメン",29,produces,0.3276
+Japanese,Female,21,"うどん, ラーメン",29,understands,0
+Japanese,Male,21,"うどん, ラーメン",33,produces,0.2121
+Japanese,Male,21,"うどん, ラーメン",33,understands,0
+Japanese,Female,22,"うどん, ラーメン",16,produces,0.3125
+Japanese,Female,22,"うどん, ラーメン",16,understands,0
+Japanese,Male,22,"うどん, ラーメン",15,produces,0.1667
+Japanese,Male,22,"うどん, ラーメン",15,understands,0
+Japanese,Female,23,"うどん, ラーメン",38,produces,0.3421
+Japanese,Female,23,"うどん, ラーメン",38,understands,0
+Japanese,Male,23,"うどん, ラーメン",29,produces,0.4828
+Japanese,Male,23,"うどん, ラーメン",29,understands,0
+Japanese,Female,24,"うどん, ラーメン",18,produces,0.5
+Japanese,Female,24,"うどん, ラーメン",18,understands,0
+Japanese,Male,24,"うどん, ラーメン",15,produces,0.3333
+Japanese,Male,24,"うどん, ラーメン",15,understands,0
+Japanese,Female,25,"うどん, ラーメン",14,produces,0.5357
+Japanese,Female,25,"うどん, ラーメン",14,understands,0
+Japanese,Male,25,"うどん, ラーメン",20,produces,0.525
+Japanese,Male,25,"うどん, ラーメン",20,understands,0
+Japanese,Female,26,"うどん, ラーメン",19,produces,0.6053
+Japanese,Female,26,"うどん, ラーメン",19,understands,0
+Japanese,Male,26,"うどん, ラーメン",14,produces,0.5714
+Japanese,Male,26,"うどん, ラーメン",14,understands,0
+Japanese,Female,27,"うどん, ラーメン",8,produces,0.625
+Japanese,Female,27,"うどん, ラーメン",8,understands,0
+Japanese,Male,27,"うどん, ラーメン",7,produces,0.6429
+Japanese,Male,27,"うどん, ラーメン",7,understands,0
+Japanese,Female,28,"うどん, ラーメン",8,produces,0.75
+Japanese,Female,28,"うどん, ラーメン",8,understands,0
+Japanese,Male,28,"うどん, ラーメン",10,produces,0.75
+Japanese,Male,28,"うどん, ラーメン",10,understands,0
+Japanese,Female,29,"うどん, ラーメン",6,produces,0.5
+Japanese,Female,29,"うどん, ラーメン",6,understands,0
+Japanese,Male,29,"うどん, ラーメン",11,produces,0.8182
+Japanese,Male,29,"うどん, ラーメン",11,understands,0
+Japanese,Female,30,"うどん, ラーメン",9,produces,0.6111
+Japanese,Female,30,"うどん, ラーメン",9,understands,0
+Japanese,Male,30,"うどん, ラーメン",9,produces,0.5556
+Japanese,Male,30,"うどん, ラーメン",9,understands,0
+Japanese,Female,31,"うどん, ラーメン",8,produces,0.75
+Japanese,Female,31,"うどん, ラーメン",8,understands,0
+Japanese,Male,31,"うどん, ラーメン",10,produces,0.5
+Japanese,Male,31,"うどん, ラーメン",10,understands,0
+Japanese,Female,32,"うどん, ラーメン",8,produces,0.6875
+Japanese,Female,32,"うどん, ラーメン",8,understands,0
+Japanese,Male,32,"うどん, ラーメン",5,produces,0.8
+Japanese,Male,32,"うどん, ラーメン",5,understands,0
+Japanese,Female,33,"うどん, ラーメン",9,produces,0.8889
+Japanese,Female,33,"うどん, ラーメン",9,understands,0
+Japanese,Male,33,"うどん, ラーメン",7,produces,0.8571
+Japanese,Male,33,"うどん, ラーメン",7,understands,0
+Japanese,Female,34,"うどん, ラーメン",8,produces,0.875
+Japanese,Female,34,"うどん, ラーメン",8,understands,0
+Japanese,Male,34,"うどん, ラーメン",5,produces,0.5
+Japanese,Male,34,"うどん, ラーメン",5,understands,0
+Japanese,Female,35,"うどん, ラーメン",19,produces,0.8947
+Japanese,Female,35,"うどん, ラーメン",19,understands,0
+Japanese,Male,35,"うどん, ラーメン",12,produces,0.9167
+Japanese,Male,35,"うどん, ラーメン",12,understands,0
+Japanese,Female,36,"うどん, ラーメン",4,produces,1
+Japanese,Female,36,"うどん, ラーメン",4,understands,0
+Japanese,Male,36,"うどん, ラーメン",14,produces,0.8929
+Japanese,Male,36,"うどん, ラーメン",14,understands,0
+Korean,Female,8,라면,38,produces,0
+Korean,Female,8,라면,38,understands,0.0263
+Korean,Male,8,라면,19,produces,0
+Korean,Male,8,라면,19,understands,0
+Korean,Female,9,라면,37,produces,0
+Korean,Female,9,라면,37,understands,0
+Korean,Male,9,라면,36,produces,0
+Korean,Male,9,라면,36,understands,0
+Korean,Female,10,라면,34,produces,0
+Korean,Female,10,라면,34,understands,0.0294
+Korean,Male,10,라면,43,produces,0
+Korean,Male,10,라면,43,understands,0
+Korean,Female,11,라면,42,produces,0
+Korean,Female,11,라면,42,understands,0.0238
+Korean,Male,11,라면,38,produces,0.0263
+Korean,Male,11,라면,38,understands,0.0263
+Korean,Female,12,라면,40,produces,0
+Korean,Female,12,라면,40,understands,0.025
+Korean,Male,12,라면,34,produces,0
+Korean,Male,12,라면,34,understands,0.0588
+Korean,Female,13,라면,62,produces,0
+Korean,Female,13,라면,62,understands,0.0645
+Korean,Male,13,라면,65,produces,0
+Korean,Male,13,라면,65,understands,0.0462
+Korean,Female,14,라면,47,produces,0.0213
+Korean,Female,14,라면,47,understands,0.1277
+Korean,Male,14,라면,40,produces,0
+Korean,Male,14,라면,40,understands,0.025
+Korean,Female,15,라면,47,produces,0.0213
+Korean,Female,15,라면,47,understands,0.1064
+Korean,Male,15,라면,38,produces,0
+Korean,Male,15,라면,38,understands,0.0263
+Korean,Female,16,라면,41,produces,0.0244
+Korean,Female,16,라면,41,understands,0.122
+Korean,Male,16,라면,45,produces,0.0667
+Korean,Male,16,라면,45,understands,0.1778
+Korean,Female,17,라면,34,produces,0.0588
+Korean,Female,17,라면,34,understands,0.3529
+Korean,Male,17,라면,29,produces,0
+Korean,Male,17,라면,29,understands,0.0345
+Korean,Female,18,라면,51,produces,0.1569
+Korean,Female,18,라면,51,understands,0
+Korean,Male,18,라면,37,produces,0.027
+Korean,Male,18,라면,37,understands,0
+Korean,Female,19,라면,39,produces,0.0513
+Korean,Female,19,라면,39,understands,0
+Korean,Male,19,라면,38,produces,0
+Korean,Male,19,라면,38,understands,0
+Korean,Female,20,라면,47,produces,0.1702
+Korean,Female,20,라면,47,understands,0
+Korean,Male,20,라면,41,produces,0.1707
+Korean,Male,20,라면,41,understands,0
+Korean,Female,21,라면,38,produces,0.2368
+Korean,Female,21,라면,38,understands,0
+Korean,Male,21,라면,41,produces,0.0732
+Korean,Male,21,라면,41,understands,0
+Korean,Female,22,라면,42,produces,0.2857
+Korean,Female,22,라면,42,understands,0
+Korean,Male,22,라면,45,produces,0.2444
+Korean,Male,22,라면,45,understands,0
+Korean,Female,23,라면,42,produces,0.2857
+Korean,Female,23,라면,42,understands,0
+Korean,Male,23,라면,45,produces,0.2
+Korean,Male,23,라면,45,understands,0
+Korean,Female,24,라면,46,produces,0.5
+Korean,Female,24,라면,46,understands,0
+Korean,Male,24,라면,61,produces,0.4098
+Korean,Male,24,라면,61,understands,0
+Korean,Female,25,라면,46,produces,0.6522
+Korean,Female,25,라면,46,understands,0
+Korean,Male,25,라면,49,produces,0.3878
+Korean,Male,25,라면,49,understands,0
+Korean,Female,26,라면,42,produces,0.5714
+Korean,Female,26,라면,42,understands,0
+Korean,Male,26,라면,49,produces,0.3878
+Korean,Male,26,라면,49,understands,0
+Korean,Female,27,라면,46,produces,0.6087
+Korean,Female,27,라면,46,understands,0
+Korean,Male,27,라면,58,produces,0.5345
+Korean,Male,27,라면,58,understands,0
+Korean,Female,28,라면,49,produces,0.6939
+Korean,Female,28,라면,49,understands,0
+Korean,Male,28,라면,40,produces,0.65
+Korean,Male,28,라면,40,understands,0
+Korean,Female,29,라면,49,produces,0.6939
+Korean,Female,29,라면,49,understands,0
+Korean,Male,29,라면,51,produces,0.6667
+Korean,Male,29,라면,51,understands,0
+Korean,Female,30,라면,34,produces,0.8529
+Korean,Female,30,라면,34,understands,0
+Korean,Male,30,라면,47,produces,0.6383
+Korean,Male,30,라면,47,understands,0
+Korean,Female,31,라면,31,produces,0.8387
+Korean,Female,31,라면,31,understands,0
+Korean,Male,31,라면,48,produces,0.7917
+Korean,Male,31,라면,48,understands,0
+Korean,Female,32,라면,33,produces,0.9091
+Korean,Female,32,라면,33,understands,0
+Korean,Male,32,라면,36,produces,0.7222
+Korean,Male,32,라면,36,understands,0
+Korean,Female,33,라면,36,produces,0.8333
+Korean,Female,33,라면,36,understands,0
+Korean,Male,33,라면,43,produces,0.814
+Korean,Male,33,라면,43,understands,0
+Korean,Female,34,라면,41,produces,0.9268
+Korean,Female,34,라면,41,understands,0
+Korean,Male,34,라면,38,produces,0.8158
+Korean,Male,34,라면,38,understands,0
+Korean,Female,35,라면,37,produces,0.8108
+Korean,Female,35,라면,37,understands,0
+Korean,Male,35,라면,37,produces,0.8378
+Korean,Male,35,라면,37,understands,0
+Korean,Female,36,라면,40,produces,0.925
+Korean,Female,36,라면,40,understands,0
+Korean,Male,36,라면,35,produces,0.9429
+Korean,Male,36,라면,35,understands,0
+Mandarin (Taiwanese),Female,8,麵,39,produces,0
+Mandarin (Taiwanese),Female,8,麵,39,understands,0.359
+Mandarin (Taiwanese),Male,8,麵,47,produces,0
+Mandarin (Taiwanese),Male,8,麵,47,understands,0.4894
+Mandarin (Taiwanese),Female,9,麵,46,produces,0
+Mandarin (Taiwanese),Female,9,麵,46,understands,0.4348
+Mandarin (Taiwanese),Male,9,麵,33,produces,0
+Mandarin (Taiwanese),Male,9,麵,33,understands,0.5152
+Mandarin (Taiwanese),Female,10,麵,40,produces,0
+Mandarin (Taiwanese),Female,10,麵,40,understands,0.125
+Mandarin (Taiwanese),Male,10,麵,38,produces,0
+Mandarin (Taiwanese),Male,10,麵,38,understands,0.1316
+Mandarin (Taiwanese),Female,11,麵,38,produces,0.0263
+Mandarin (Taiwanese),Female,11,麵,38,understands,0.2895
+Mandarin (Taiwanese),Male,11,麵,41,produces,0
+Mandarin (Taiwanese),Male,11,麵,41,understands,0.2195
+Mandarin (Taiwanese),Female,12,麵,42,produces,0
+Mandarin (Taiwanese),Female,12,麵,42,understands,0.1905
+Mandarin (Taiwanese),Male,12,麵,38,produces,0.0526
+Mandarin (Taiwanese),Male,12,麵,38,understands,0.2632
+Mandarin (Taiwanese),Female,13,麵,41,produces,0
+Mandarin (Taiwanese),Female,13,麵,41,understands,0.2683
+Mandarin (Taiwanese),Male,13,麵,37,produces,0.0811
+Mandarin (Taiwanese),Male,13,麵,37,understands,0.3514
+Mandarin (Taiwanese),Female,14,麵,43,produces,0.1628
+Mandarin (Taiwanese),Female,14,麵,43,understands,0.3721
+Mandarin (Taiwanese),Male,14,麵,38,produces,0.0526
+Mandarin (Taiwanese),Male,14,麵,38,understands,0.2895
+Mandarin (Taiwanese),Female,15,麵,54,produces,0.2037
+Mandarin (Taiwanese),Female,15,麵,54,understands,0.5
+Mandarin (Taiwanese),Male,15,麵,52,produces,0.0962
+Mandarin (Taiwanese),Male,15,麵,52,understands,0.5
+Mandarin (Taiwanese),Female,16,麵,82,produces,0.2195
+Mandarin (Taiwanese),Female,16,麵,82,understands,0.2927
+Mandarin (Taiwanese),Male,16,麵,88,produces,0.0455
+Mandarin (Taiwanese),Male,16,麵,88,understands,0.1818
+Mandarin (Taiwanese),Female,17,麵,37,produces,0.4865
+Mandarin (Taiwanese),Female,17,麵,37,understands,0
+Mandarin (Taiwanese),Male,17,麵,50,produces,0.22
+Mandarin (Taiwanese),Male,17,麵,50,understands,0
+Mandarin (Taiwanese),Female,18,麵,49,produces,0.3878
+Mandarin (Taiwanese),Female,18,麵,49,understands,0
+Mandarin (Taiwanese),Male,18,麵,35,produces,0.4286
+Mandarin (Taiwanese),Male,18,麵,35,understands,0
+Mandarin (Taiwanese),Female,19,麵,42,produces,0.619
+Mandarin (Taiwanese),Female,19,麵,42,understands,0
+Mandarin (Taiwanese),Male,19,麵,42,produces,0.4762
+Mandarin (Taiwanese),Male,19,麵,42,understands,0
+Mandarin (Taiwanese),Female,20,麵,40,produces,0.625
+Mandarin (Taiwanese),Female,20,麵,40,understands,0
+Mandarin (Taiwanese),Male,20,麵,44,produces,0.4545
+Mandarin (Taiwanese),Male,20,麵,44,understands,0
+Mandarin (Taiwanese),Female,21,麵,38,produces,0.7105
+Mandarin (Taiwanese),Female,21,麵,38,understands,0
+Mandarin (Taiwanese),Male,21,麵,50,produces,0.66
+Mandarin (Taiwanese),Male,21,麵,50,understands,0
+Mandarin (Taiwanese),Female,22,麵,48,produces,0.7292
+Mandarin (Taiwanese),Female,22,麵,48,understands,0
+Mandarin (Taiwanese),Male,22,麵,48,produces,0.625
+Mandarin (Taiwanese),Male,22,麵,48,understands,0
+Mandarin (Taiwanese),Female,23,麵,50,produces,0.86
+Mandarin (Taiwanese),Female,23,麵,50,understands,0
+Mandarin (Taiwanese),Male,23,麵,55,produces,0.6909
+Mandarin (Taiwanese),Male,23,麵,55,understands,0
+Mandarin (Taiwanese),Female,24,麵,65,produces,0.8923
+Mandarin (Taiwanese),Female,24,麵,65,understands,0
+Mandarin (Taiwanese),Male,24,麵,59,produces,0.8475
+Mandarin (Taiwanese),Male,24,麵,59,understands,0
+Mandarin (Taiwanese),Female,25,麵,60,produces,0.9167
+Mandarin (Taiwanese),Female,25,麵,60,understands,0
+Mandarin (Taiwanese),Male,25,麵,50,produces,0.8
+Mandarin (Taiwanese),Male,25,麵,50,understands,0
+Mandarin (Taiwanese),Female,26,麵,38,produces,0.9474
+Mandarin (Taiwanese),Female,26,麵,38,understands,0
+Mandarin (Taiwanese),Male,26,麵,49,produces,0.8776
+Mandarin (Taiwanese),Male,26,麵,49,understands,0
+Mandarin (Taiwanese),Female,27,麵,49,produces,0.8776
+Mandarin (Taiwanese),Female,27,麵,49,understands,0
+Mandarin (Taiwanese),Male,27,麵,43,produces,0.907
+Mandarin (Taiwanese),Male,27,麵,43,understands,0
+Mandarin (Taiwanese),Female,28,麵,50,produces,0.98
+Mandarin (Taiwanese),Female,28,麵,50,understands,0
+Mandarin (Taiwanese),Male,28,麵,50,produces,0.98
+Mandarin (Taiwanese),Male,28,麵,50,understands,0
+Mandarin (Taiwanese),Female,29,麵,41,produces,0.9512
+Mandarin (Taiwanese),Female,29,麵,41,understands,0
+Mandarin (Taiwanese),Male,29,麵,47,produces,0.9149
+Mandarin (Taiwanese),Male,29,麵,47,understands,0
+Mandarin (Taiwanese),Female,30,麵,44,produces,0.9545
+Mandarin (Taiwanese),Female,30,麵,44,understands,0
+Mandarin (Taiwanese),Male,30,麵,50,produces,0.94
+Mandarin (Taiwanese),Male,30,麵,50,understands,0
+Mandarin (Taiwanese),Female,31,麵,35,produces,0.9714
+Mandarin (Taiwanese),Female,31,麵,35,understands,0
+Mandarin (Taiwanese),Male,31,麵,53,produces,1
+Mandarin (Taiwanese),Male,31,麵,53,understands,0
+Mandarin (Taiwanese),Female,32,麵,43,produces,0.9302
+Mandarin (Taiwanese),Female,32,麵,43,understands,0
+Mandarin (Taiwanese),Male,32,麵,39,produces,0.9231
+Mandarin (Taiwanese),Male,32,麵,39,understands,0
+Mandarin (Taiwanese),Female,33,麵,45,produces,1
+Mandarin (Taiwanese),Female,33,麵,45,understands,0
+Mandarin (Taiwanese),Male,33,麵,40,produces,1
+Mandarin (Taiwanese),Male,33,麵,40,understands,0
+Mandarin (Taiwanese),Female,34,麵,33,produces,0.9697
+Mandarin (Taiwanese),Female,34,麵,33,understands,0
+Mandarin (Taiwanese),Male,34,麵,44,produces,0.9545
+Mandarin (Taiwanese),Male,34,麵,44,understands,0
+Mandarin (Taiwanese),Female,35,麵,42,produces,1
+Mandarin (Taiwanese),Female,35,麵,42,understands,0
+Mandarin (Taiwanese),Male,35,麵,39,produces,1
+Mandarin (Taiwanese),Male,35,麵,39,understands,0
+Mandarin (Taiwanese),Female,36,麵,38,produces,0.9737
+Mandarin (Taiwanese),Female,36,麵,38,understands,0
+Mandarin (Taiwanese),Male,36,麵,43,produces,1
+Mandarin (Taiwanese),Male,36,麵,43,understands,0

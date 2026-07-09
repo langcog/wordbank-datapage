@@ -1,79 +1,235 @@
-language,age,words,n,measure,prop
-Arabic (Saudi),8,مشاية,24,produces,0
-Arabic (Saudi),8,مشاية,24,understands,0.0833
-Arabic (Saudi),9,مشاية,27,produces,0.037
-Arabic (Saudi),9,مشاية,27,understands,0.1111
-Arabic (Saudi),10,مشاية,35,produces,0
-Arabic (Saudi),10,مشاية,35,understands,0.1143
-Arabic (Saudi),11,مشاية,30,produces,0
-Arabic (Saudi),11,مشاية,30,understands,0.0667
-Arabic (Saudi),12,مشاية,30,produces,0
-Arabic (Saudi),12,مشاية,30,understands,0.1667
-Arabic (Saudi),13,مشاية,39,produces,0
-Arabic (Saudi),13,مشاية,39,understands,0
-Arabic (Saudi),14,مشاية,25,produces,0
-Arabic (Saudi),14,مشاية,25,understands,0
-Arabic (Saudi),15,مشاية,27,produces,0.0741
-Arabic (Saudi),15,مشاية,27,understands,0.1481
-Arabic (Saudi),16,مشاية,21,produces,0.0476
-Arabic (Saudi),16,مشاية,21,understands,0.0952
-Croatian,16,hodalica,13,produces,0
-Croatian,16,hodalica,13,understands,0
-Croatian,17,hodalica,25,produces,0
-Croatian,17,hodalica,25,understands,0
-Croatian,18,hodalica,22,produces,0
-Croatian,18,hodalica,22,understands,0
-Croatian,19,hodalica,21,produces,0.0476
-Croatian,19,hodalica,21,understands,0
-Croatian,20,hodalica,26,produces,0.0385
-Croatian,20,hodalica,26,understands,0
-Croatian,21,hodalica,29,produces,0
-Croatian,21,hodalica,29,understands,0
-Croatian,22,hodalica,24,produces,0.125
-Croatian,22,hodalica,24,understands,0
-Croatian,23,hodalica,26,produces,0.1538
-Croatian,23,hodalica,26,understands,0
-Croatian,24,hodalica,30,produces,0.1333
-Croatian,24,hodalica,30,understands,0
-Croatian,25,hodalica,30,produces,0.2667
-Croatian,25,hodalica,30,understands,0
-Croatian,26,hodalica,29,produces,0.2414
-Croatian,26,hodalica,29,understands,0
-Croatian,27,hodalica,25,produces,0.4
-Croatian,27,hodalica,25,understands,0
-Croatian,28,hodalica,21,produces,0.381
-Croatian,28,hodalica,21,understands,0
-Croatian,29,hodalica,28,produces,0.2857
-Croatian,29,hodalica,28,understands,0
-Croatian,30,hodalica,28,produces,0.2857
-Croatian,30,hodalica,28,understands,0
-English (American),16,walker,930,produces,0.0043
-English (American),16,walker,930,understands,0
-English (American),17,walker,458,produces,0.0197
-English (American),17,walker,458,understands,0
-English (American),18,walker,641,produces,0.0094
-English (American),18,walker,641,understands,0
-English (American),19,walker,570,produces,0.0193
-English (American),19,walker,570,understands,0
-English (American),20,walker,537,produces,0.0205
-English (American),20,walker,537,understands,0
-English (American),21,walker,366,produces,0.0273
-English (American),21,walker,366,understands,0
-English (American),22,walker,454,produces,0.0463
-English (American),22,walker,454,understands,0
-English (American),23,walker,470,produces,0.066
-English (American),23,walker,470,understands,0
-English (American),24,walker,985,produces,0.0701
-English (American),24,walker,985,understands,0
-English (American),25,walker,757,produces,0.0898
-English (American),25,walker,757,understands,0
-English (American),26,walker,435,produces,0.0828
-English (American),26,walker,435,understands,0
-English (American),27,walker,361,produces,0.1551
-English (American),27,walker,361,understands,0
-English (American),28,walker,954,produces,0.2096
-English (American),28,walker,954,understands,0
-English (American),29,walker,390,produces,0.1718
-English (American),29,walker,390,understands,0
-English (American),30,walker,785,produces,0.1643
-English (American),30,walker,785,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,مشاية,24,produces,0
+Arabic (Saudi),All,8,مشاية,24,understands,0.0833
+Arabic (Saudi),All,9,مشاية,27,produces,0.037
+Arabic (Saudi),All,9,مشاية,27,understands,0.1111
+Arabic (Saudi),All,10,مشاية,35,produces,0
+Arabic (Saudi),All,10,مشاية,35,understands,0.1143
+Arabic (Saudi),All,11,مشاية,30,produces,0
+Arabic (Saudi),All,11,مشاية,30,understands,0.0667
+Arabic (Saudi),All,12,مشاية,30,produces,0
+Arabic (Saudi),All,12,مشاية,30,understands,0.1667
+Arabic (Saudi),All,13,مشاية,39,produces,0
+Arabic (Saudi),All,13,مشاية,39,understands,0
+Arabic (Saudi),All,14,مشاية,25,produces,0
+Arabic (Saudi),All,14,مشاية,25,understands,0
+Arabic (Saudi),All,15,مشاية,27,produces,0.0741
+Arabic (Saudi),All,15,مشاية,27,understands,0.1481
+Arabic (Saudi),All,16,مشاية,21,produces,0.0476
+Arabic (Saudi),All,16,مشاية,21,understands,0.0952
+Croatian,All,16,hodalica,13,produces,0
+Croatian,All,16,hodalica,13,understands,0
+Croatian,All,17,hodalica,25,produces,0
+Croatian,All,17,hodalica,25,understands,0
+Croatian,All,18,hodalica,22,produces,0
+Croatian,All,18,hodalica,22,understands,0
+Croatian,All,19,hodalica,21,produces,0.0476
+Croatian,All,19,hodalica,21,understands,0
+Croatian,All,20,hodalica,26,produces,0.0385
+Croatian,All,20,hodalica,26,understands,0
+Croatian,All,21,hodalica,29,produces,0
+Croatian,All,21,hodalica,29,understands,0
+Croatian,All,22,hodalica,24,produces,0.125
+Croatian,All,22,hodalica,24,understands,0
+Croatian,All,23,hodalica,26,produces,0.1538
+Croatian,All,23,hodalica,26,understands,0
+Croatian,All,24,hodalica,30,produces,0.1333
+Croatian,All,24,hodalica,30,understands,0
+Croatian,All,25,hodalica,30,produces,0.2667
+Croatian,All,25,hodalica,30,understands,0
+Croatian,All,26,hodalica,29,produces,0.2414
+Croatian,All,26,hodalica,29,understands,0
+Croatian,All,27,hodalica,25,produces,0.4
+Croatian,All,27,hodalica,25,understands,0
+Croatian,All,28,hodalica,21,produces,0.381
+Croatian,All,28,hodalica,21,understands,0
+Croatian,All,29,hodalica,28,produces,0.2857
+Croatian,All,29,hodalica,28,understands,0
+Croatian,All,30,hodalica,28,produces,0.2857
+Croatian,All,30,hodalica,28,understands,0
+English (American),All,16,walker,930,produces,0.0043
+English (American),All,16,walker,930,understands,0
+English (American),All,17,walker,458,produces,0.0197
+English (American),All,17,walker,458,understands,0
+English (American),All,18,walker,641,produces,0.0094
+English (American),All,18,walker,641,understands,0
+English (American),All,19,walker,570,produces,0.0193
+English (American),All,19,walker,570,understands,0
+English (American),All,20,walker,537,produces,0.0205
+English (American),All,20,walker,537,understands,0
+English (American),All,21,walker,366,produces,0.0273
+English (American),All,21,walker,366,understands,0
+English (American),All,22,walker,454,produces,0.0463
+English (American),All,22,walker,454,understands,0
+English (American),All,23,walker,470,produces,0.066
+English (American),All,23,walker,470,understands,0
+English (American),All,24,walker,985,produces,0.0701
+English (American),All,24,walker,985,understands,0
+English (American),All,25,walker,757,produces,0.0898
+English (American),All,25,walker,757,understands,0
+English (American),All,26,walker,435,produces,0.0828
+English (American),All,26,walker,435,understands,0
+English (American),All,27,walker,361,produces,0.1551
+English (American),All,27,walker,361,understands,0
+English (American),All,28,walker,954,produces,0.2096
+English (American),All,28,walker,954,understands,0
+English (American),All,29,walker,390,produces,0.1718
+English (American),All,29,walker,390,understands,0
+English (American),All,30,walker,785,produces,0.1643
+English (American),All,30,walker,785,understands,0
+Arabic (Saudi),Female,8,مشاية,13,produces,0
+Arabic (Saudi),Female,8,مشاية,13,understands,0.1538
+Arabic (Saudi),Male,8,مشاية,11,produces,0
+Arabic (Saudi),Male,8,مشاية,11,understands,0
+Arabic (Saudi),Female,9,مشاية,14,produces,0
+Arabic (Saudi),Female,9,مشاية,14,understands,0.1429
+Arabic (Saudi),Male,9,مشاية,13,produces,0.0769
+Arabic (Saudi),Male,9,مشاية,13,understands,0.0769
+Arabic (Saudi),Female,10,مشاية,15,produces,0
+Arabic (Saudi),Female,10,مشاية,15,understands,0.1333
+Arabic (Saudi),Male,10,مشاية,20,produces,0
+Arabic (Saudi),Male,10,مشاية,20,understands,0.1
+Arabic (Saudi),Female,11,مشاية,14,produces,0
+Arabic (Saudi),Female,11,مشاية,14,understands,0
+Arabic (Saudi),Male,11,مشاية,16,produces,0
+Arabic (Saudi),Male,11,مشاية,16,understands,0.125
+Arabic (Saudi),Female,12,مشاية,14,produces,0
+Arabic (Saudi),Female,12,مشاية,14,understands,0.2143
+Arabic (Saudi),Male,12,مشاية,16,produces,0
+Arabic (Saudi),Male,12,مشاية,16,understands,0.125
+Arabic (Saudi),Female,13,مشاية,17,produces,0
+Arabic (Saudi),Female,13,مشاية,17,understands,0
+Arabic (Saudi),Male,13,مشاية,22,produces,0
+Arabic (Saudi),Male,13,مشاية,22,understands,0
+Arabic (Saudi),Female,14,مشاية,10,produces,0
+Arabic (Saudi),Female,14,مشاية,10,understands,0
+Arabic (Saudi),Male,14,مشاية,15,produces,0
+Arabic (Saudi),Male,14,مشاية,15,understands,0
+Arabic (Saudi),Female,15,مشاية,12,produces,0
+Arabic (Saudi),Female,15,مشاية,12,understands,0.25
+Arabic (Saudi),Male,15,مشاية,15,produces,0.1333
+Arabic (Saudi),Male,15,مشاية,15,understands,0.0667
+Arabic (Saudi),Female,16,مشاية,10,produces,0
+Arabic (Saudi),Female,16,مشاية,10,understands,0.1
+Arabic (Saudi),Male,16,مشاية,11,produces,0.0909
+Arabic (Saudi),Male,16,مشاية,11,understands,0.0909
+Croatian,Female,16,hodalica,7,produces,0
+Croatian,Female,16,hodalica,7,understands,0
+Croatian,Male,16,hodalica,6,produces,0
+Croatian,Male,16,hodalica,6,understands,0
+Croatian,Female,17,hodalica,12,produces,0
+Croatian,Female,17,hodalica,12,understands,0
+Croatian,Male,17,hodalica,13,produces,0
+Croatian,Male,17,hodalica,13,understands,0
+Croatian,Female,18,hodalica,8,produces,0
+Croatian,Female,18,hodalica,8,understands,0
+Croatian,Male,18,hodalica,14,produces,0
+Croatian,Male,18,hodalica,14,understands,0
+Croatian,Female,19,hodalica,14,produces,0.0714
+Croatian,Female,19,hodalica,14,understands,0
+Croatian,Male,19,hodalica,7,produces,0
+Croatian,Male,19,hodalica,7,understands,0
+Croatian,Female,20,hodalica,13,produces,0
+Croatian,Female,20,hodalica,13,understands,0
+Croatian,Male,20,hodalica,13,produces,0.0769
+Croatian,Male,20,hodalica,13,understands,0
+Croatian,Female,21,hodalica,13,produces,0
+Croatian,Female,21,hodalica,13,understands,0
+Croatian,Male,21,hodalica,16,produces,0
+Croatian,Male,21,hodalica,16,understands,0
+Croatian,Female,22,hodalica,14,produces,0.2143
+Croatian,Female,22,hodalica,14,understands,0
+Croatian,Male,22,hodalica,10,produces,0
+Croatian,Male,22,hodalica,10,understands,0
+Croatian,Female,23,hodalica,14,produces,0.0714
+Croatian,Female,23,hodalica,14,understands,0
+Croatian,Male,23,hodalica,12,produces,0.25
+Croatian,Male,23,hodalica,12,understands,0
+Croatian,Female,24,hodalica,14,produces,0.1429
+Croatian,Female,24,hodalica,14,understands,0
+Croatian,Male,24,hodalica,16,produces,0.125
+Croatian,Male,24,hodalica,16,understands,0
+Croatian,Female,25,hodalica,14,produces,0.3571
+Croatian,Female,25,hodalica,14,understands,0
+Croatian,Male,25,hodalica,16,produces,0.1875
+Croatian,Male,25,hodalica,16,understands,0
+Croatian,Female,26,hodalica,11,produces,0.3636
+Croatian,Female,26,hodalica,11,understands,0
+Croatian,Male,26,hodalica,18,produces,0.1667
+Croatian,Male,26,hodalica,18,understands,0
+Croatian,Female,27,hodalica,11,produces,0.4545
+Croatian,Female,27,hodalica,11,understands,0
+Croatian,Male,27,hodalica,14,produces,0.3571
+Croatian,Male,27,hodalica,14,understands,0
+Croatian,Female,28,hodalica,8,produces,0.625
+Croatian,Female,28,hodalica,8,understands,0
+Croatian,Male,28,hodalica,13,produces,0.2308
+Croatian,Male,28,hodalica,13,understands,0
+Croatian,Female,29,hodalica,15,produces,0.3333
+Croatian,Female,29,hodalica,15,understands,0
+Croatian,Male,29,hodalica,13,produces,0.2308
+Croatian,Male,29,hodalica,13,understands,0
+Croatian,Female,30,hodalica,11,produces,0.2727
+Croatian,Female,30,hodalica,11,understands,0
+Croatian,Male,30,hodalica,17,produces,0.2941
+Croatian,Male,30,hodalica,17,understands,0
+English (American),Female,16,walker,392,produces,0.0077
+English (American),Female,16,walker,392,understands,0
+English (American),Male,16,walker,431,produces,0.0023
+English (American),Male,16,walker,431,understands,0
+English (American),Female,17,walker,152,produces,0.0329
+English (American),Female,17,walker,152,understands,0
+English (American),Male,17,walker,169,produces,0.0237
+English (American),Male,17,walker,169,understands,0
+English (American),Female,18,walker,256,produces,0.0117
+English (American),Female,18,walker,256,understands,0
+English (American),Male,18,walker,263,produces,0.0114
+English (American),Male,18,walker,263,understands,0
+English (American),Female,19,walker,231,produces,0.026
+English (American),Female,19,walker,231,understands,0
+English (American),Male,19,walker,224,produces,0.0223
+English (American),Male,19,walker,224,understands,0
+English (American),Female,20,walker,205,produces,0.0341
+English (American),Female,20,walker,205,understands,0
+English (American),Male,20,walker,222,produces,0.018
+English (American),Male,20,walker,222,understands,0
+English (American),Female,21,walker,127,produces,0.0394
+English (American),Female,21,walker,127,understands,0
+English (American),Male,21,walker,142,produces,0.0282
+English (American),Male,21,walker,142,understands,0
+English (American),Female,22,walker,186,produces,0.0538
+English (American),Female,22,walker,186,understands,0
+English (American),Male,22,walker,162,produces,0.037
+English (American),Male,22,walker,162,understands,0
+English (American),Female,23,walker,177,produces,0.0847
+English (American),Female,23,walker,177,understands,0
+English (American),Male,23,walker,196,produces,0.0561
+English (American),Male,23,walker,196,understands,0
+English (American),Female,24,walker,365,produces,0.0849
+English (American),Female,24,walker,365,understands,0
+English (American),Male,24,walker,453,produces,0.0706
+English (American),Male,24,walker,453,understands,0
+English (American),Female,25,walker,299,produces,0.1171
+English (American),Female,25,walker,299,understands,0
+English (American),Male,25,walker,336,produces,0.0804
+English (American),Male,25,walker,336,understands,0
+English (American),Female,26,walker,173,produces,0.1156
+English (American),Female,26,walker,173,understands,0
+English (American),Male,26,walker,197,produces,0.0558
+English (American),Male,26,walker,197,understands,0
+English (American),Female,27,walker,158,produces,0.1899
+English (American),Female,27,walker,158,understands,0
+English (American),Male,27,walker,154,produces,0.1558
+English (American),Male,27,walker,154,understands,0
+English (American),Female,28,walker,416,produces,0.2452
+English (American),Female,28,walker,416,understands,0
+English (American),Male,28,walker,492,produces,0.1829
+English (American),Male,28,walker,492,understands,0
+English (American),Female,29,walker,166,produces,0.1747
+English (American),Female,29,walker,166,understands,0
+English (American),Male,29,walker,167,produces,0.2096
+English (American),Male,29,walker,167,understands,0
+English (American),Female,30,walker,323,produces,0.1796
+English (American),Female,30,walker,323,understands,0
+English (American),Male,30,walker,368,produces,0.1495
+English (American),Male,30,walker,368,understands,0

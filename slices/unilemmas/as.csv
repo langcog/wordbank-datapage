@@ -1,111 +1,331 @@
-language,age,words,n,measure,prop
-Norwegian,16,som,98,produces,0
-Norwegian,16,som,98,understands,0
-Norwegian,17,som,218,produces,0.0046
-Norwegian,17,som,218,understands,0
-Norwegian,18,som,271,produces,0
-Norwegian,18,som,271,understands,0
-Norwegian,19,som,281,produces,0.0142
-Norwegian,19,som,281,understands,0
-Norwegian,20,som,342,produces,0.0058
-Norwegian,20,som,342,understands,0
-Norwegian,21,som,418,produces,0.0048
-Norwegian,21,som,418,understands,0
-Norwegian,22,som,596,produces,0.0185
-Norwegian,22,som,596,understands,0
-Norwegian,23,som,566,produces,0.03
-Norwegian,23,som,566,understands,0
-Norwegian,24,som,538,produces,0.0595
-Norwegian,24,som,538,understands,0
-Norwegian,25,som,656,produces,0.0823
-Norwegian,25,som,656,understands,0
-Norwegian,26,som,644,produces,0.132
-Norwegian,26,som,644,understands,0
-Norwegian,27,som,525,produces,0.1829
-Norwegian,27,som,525,understands,0
-Norwegian,28,som,544,produces,0.25
-Norwegian,28,som,544,understands,0
-Norwegian,29,som,536,produces,0.278
-Norwegian,29,som,536,understands,0
-Norwegian,30,som,457,produces,0.302
-Norwegian,30,som,457,understands,0
-Norwegian,31,som,479,produces,0.3674
-Norwegian,31,som,479,understands,0
-Norwegian,32,som,451,produces,0.4479
-Norwegian,32,som,451,understands,0
-Norwegian,33,som,430,produces,0.5419
-Norwegian,33,som,430,understands,0
-Norwegian,34,som,424,produces,0.559
-Norwegian,34,som,424,understands,0
-Norwegian,35,som,422,produces,0.6564
-Norwegian,35,som,422,understands,0
-Norwegian,36,som,329,produces,0.6413
-Norwegian,36,som,329,understands,0
-Russian,18,как,42,produces,0
-Russian,18,как,42,understands,0
-Russian,19,как,41,produces,0
-Russian,19,как,41,understands,0
-Russian,20,как,45,produces,0.0222
-Russian,20,как,45,understands,0
-Russian,21,как,43,produces,0.186
-Russian,21,как,43,understands,0
-Russian,22,как,51,produces,0.0784
-Russian,22,как,51,understands,0
-Russian,23,как,56,produces,0.1429
-Russian,23,как,56,understands,0
-Russian,24,как,61,produces,0.1967
-Russian,24,как,61,understands,0
-Russian,25,как,66,produces,0.1818
-Russian,25,как,66,understands,0
-Russian,26,как,52,produces,0.1923
-Russian,26,как,52,understands,0
-Russian,27,как,60,produces,0.3333
-Russian,27,как,60,understands,0
-Russian,28,как,60,produces,0.5
-Russian,28,как,60,understands,0
-Russian,29,как,58,produces,0.4483
-Russian,29,как,58,understands,0
-Russian,30,как,77,produces,0.4545
-Russian,30,как,77,understands,0
-Russian,31,как,61,produces,0.4918
-Russian,31,как,61,understands,0
-Russian,32,как,55,produces,0.7091
-Russian,32,как,55,understands,0
-Russian,33,как,55,produces,0.5455
-Russian,33,как,55,understands,0
-Russian,34,как,58,produces,0.5
-Russian,34,как,58,understands,0
-Russian,35,как,47,produces,0.5745
-Russian,35,как,47,understands,0
-Russian,36,как,49,produces,0.7143
-Russian,36,как,49,understands,0
-French (Quebecois),16,comme,47,produces,0
-French (Quebecois),16,comme,47,understands,0
-French (Quebecois),17,comme,62,produces,0
-French (Quebecois),17,comme,62,understands,0
-French (Quebecois),18,comme,99,produces,0.0202
-French (Quebecois),18,comme,99,understands,0
-French (Quebecois),19,comme,91,produces,0.011
-French (Quebecois),19,comme,91,understands,0
-French (Quebecois),20,comme,196,produces,0.0255
-French (Quebecois),20,comme,196,understands,0
-French (Quebecois),21,comme,109,produces,0.0183
-French (Quebecois),21,comme,109,understands,0
-French (Quebecois),22,comme,86,produces,0.0814
-French (Quebecois),22,comme,86,understands,0
-French (Quebecois),23,comme,86,produces,0.1744
-French (Quebecois),23,comme,86,understands,0
-French (Quebecois),24,comme,132,produces,0.1288
-French (Quebecois),24,comme,132,understands,0
-French (Quebecois),25,comme,87,produces,0.2759
-French (Quebecois),25,comme,87,understands,0
-French (Quebecois),26,comme,95,produces,0.2526
-French (Quebecois),26,comme,95,understands,0
-French (Quebecois),27,comme,74,produces,0.3919
-French (Quebecois),27,comme,74,understands,0
-French (Quebecois),28,comme,61,produces,0.4754
-French (Quebecois),28,comme,61,understands,0
-French (Quebecois),29,comme,70,produces,0.6571
-French (Quebecois),29,comme,70,understands,0
-French (Quebecois),30,comme,100,produces,0.45
-French (Quebecois),30,comme,100,understands,0
+language,sex,age,words,n,measure,prop
+French (Quebecois),All,16,comme,47,produces,0
+French (Quebecois),All,16,comme,47,understands,0
+French (Quebecois),All,17,comme,62,produces,0
+French (Quebecois),All,17,comme,62,understands,0
+French (Quebecois),All,18,comme,99,produces,0.0202
+French (Quebecois),All,18,comme,99,understands,0
+French (Quebecois),All,19,comme,91,produces,0.011
+French (Quebecois),All,19,comme,91,understands,0
+French (Quebecois),All,20,comme,196,produces,0.0255
+French (Quebecois),All,20,comme,196,understands,0
+French (Quebecois),All,21,comme,109,produces,0.0183
+French (Quebecois),All,21,comme,109,understands,0
+French (Quebecois),All,22,comme,86,produces,0.0814
+French (Quebecois),All,22,comme,86,understands,0
+French (Quebecois),All,23,comme,86,produces,0.1744
+French (Quebecois),All,23,comme,86,understands,0
+French (Quebecois),All,24,comme,132,produces,0.1288
+French (Quebecois),All,24,comme,132,understands,0
+French (Quebecois),All,25,comme,87,produces,0.2759
+French (Quebecois),All,25,comme,87,understands,0
+French (Quebecois),All,26,comme,95,produces,0.2526
+French (Quebecois),All,26,comme,95,understands,0
+French (Quebecois),All,27,comme,74,produces,0.3919
+French (Quebecois),All,27,comme,74,understands,0
+French (Quebecois),All,28,comme,61,produces,0.4754
+French (Quebecois),All,28,comme,61,understands,0
+French (Quebecois),All,29,comme,70,produces,0.6571
+French (Quebecois),All,29,comme,70,understands,0
+French (Quebecois),All,30,comme,100,produces,0.45
+French (Quebecois),All,30,comme,100,understands,0
+Norwegian,All,16,som,98,produces,0
+Norwegian,All,16,som,98,understands,0
+Norwegian,All,17,som,218,produces,0.0046
+Norwegian,All,17,som,218,understands,0
+Norwegian,All,18,som,271,produces,0
+Norwegian,All,18,som,271,understands,0
+Norwegian,All,19,som,281,produces,0.0142
+Norwegian,All,19,som,281,understands,0
+Norwegian,All,20,som,342,produces,0.0058
+Norwegian,All,20,som,342,understands,0
+Norwegian,All,21,som,418,produces,0.0048
+Norwegian,All,21,som,418,understands,0
+Norwegian,All,22,som,596,produces,0.0185
+Norwegian,All,22,som,596,understands,0
+Norwegian,All,23,som,566,produces,0.03
+Norwegian,All,23,som,566,understands,0
+Norwegian,All,24,som,538,produces,0.0595
+Norwegian,All,24,som,538,understands,0
+Norwegian,All,25,som,656,produces,0.0823
+Norwegian,All,25,som,656,understands,0
+Norwegian,All,26,som,644,produces,0.132
+Norwegian,All,26,som,644,understands,0
+Norwegian,All,27,som,525,produces,0.1829
+Norwegian,All,27,som,525,understands,0
+Norwegian,All,28,som,544,produces,0.25
+Norwegian,All,28,som,544,understands,0
+Norwegian,All,29,som,536,produces,0.278
+Norwegian,All,29,som,536,understands,0
+Norwegian,All,30,som,457,produces,0.302
+Norwegian,All,30,som,457,understands,0
+Norwegian,All,31,som,479,produces,0.3674
+Norwegian,All,31,som,479,understands,0
+Norwegian,All,32,som,451,produces,0.4479
+Norwegian,All,32,som,451,understands,0
+Norwegian,All,33,som,430,produces,0.5419
+Norwegian,All,33,som,430,understands,0
+Norwegian,All,34,som,424,produces,0.559
+Norwegian,All,34,som,424,understands,0
+Norwegian,All,35,som,422,produces,0.6564
+Norwegian,All,35,som,422,understands,0
+Norwegian,All,36,som,329,produces,0.6413
+Norwegian,All,36,som,329,understands,0
+Russian,All,18,как,42,produces,0
+Russian,All,18,как,42,understands,0
+Russian,All,19,как,41,produces,0
+Russian,All,19,как,41,understands,0
+Russian,All,20,как,45,produces,0.0222
+Russian,All,20,как,45,understands,0
+Russian,All,21,как,43,produces,0.186
+Russian,All,21,как,43,understands,0
+Russian,All,22,как,51,produces,0.0784
+Russian,All,22,как,51,understands,0
+Russian,All,23,как,56,produces,0.1429
+Russian,All,23,как,56,understands,0
+Russian,All,24,как,61,produces,0.1967
+Russian,All,24,как,61,understands,0
+Russian,All,25,как,66,produces,0.1818
+Russian,All,25,как,66,understands,0
+Russian,All,26,как,52,produces,0.1923
+Russian,All,26,как,52,understands,0
+Russian,All,27,как,60,produces,0.3333
+Russian,All,27,как,60,understands,0
+Russian,All,28,как,60,produces,0.5
+Russian,All,28,как,60,understands,0
+Russian,All,29,как,58,produces,0.4483
+Russian,All,29,как,58,understands,0
+Russian,All,30,как,77,produces,0.4545
+Russian,All,30,как,77,understands,0
+Russian,All,31,как,61,produces,0.4918
+Russian,All,31,как,61,understands,0
+Russian,All,32,как,55,produces,0.7091
+Russian,All,32,как,55,understands,0
+Russian,All,33,как,55,produces,0.5455
+Russian,All,33,как,55,understands,0
+Russian,All,34,как,58,produces,0.5
+Russian,All,34,как,58,understands,0
+Russian,All,35,как,47,produces,0.5745
+Russian,All,35,как,47,understands,0
+Russian,All,36,как,49,produces,0.7143
+Russian,All,36,как,49,understands,0
+French (Quebecois),Female,16,comme,26,produces,0
+French (Quebecois),Female,16,comme,26,understands,0
+French (Quebecois),Male,16,comme,21,produces,0
+French (Quebecois),Male,16,comme,21,understands,0
+French (Quebecois),Female,17,comme,30,produces,0
+French (Quebecois),Female,17,comme,30,understands,0
+French (Quebecois),Male,17,comme,31,produces,0
+French (Quebecois),Male,17,comme,31,understands,0
+French (Quebecois),Female,18,comme,53,produces,0.0377
+French (Quebecois),Female,18,comme,53,understands,0
+French (Quebecois),Male,18,comme,46,produces,0
+French (Quebecois),Male,18,comme,46,understands,0
+French (Quebecois),Female,19,comme,41,produces,0.0244
+French (Quebecois),Female,19,comme,41,understands,0
+French (Quebecois),Male,19,comme,50,produces,0
+French (Quebecois),Male,19,comme,50,understands,0
+French (Quebecois),Female,20,comme,90,produces,0.0444
+French (Quebecois),Female,20,comme,90,understands,0
+French (Quebecois),Male,20,comme,105,produces,0.0095
+French (Quebecois),Male,20,comme,105,understands,0
+French (Quebecois),Female,21,comme,56,produces,0.0357
+French (Quebecois),Female,21,comme,56,understands,0
+French (Quebecois),Male,21,comme,53,produces,0
+French (Quebecois),Male,21,comme,53,understands,0
+French (Quebecois),Female,22,comme,42,produces,0.0952
+French (Quebecois),Female,22,comme,42,understands,0
+French (Quebecois),Male,22,comme,44,produces,0.0682
+French (Quebecois),Male,22,comme,44,understands,0
+French (Quebecois),Female,23,comme,41,produces,0.2683
+French (Quebecois),Female,23,comme,41,understands,0
+French (Quebecois),Male,23,comme,45,produces,0.0889
+French (Quebecois),Male,23,comme,45,understands,0
+French (Quebecois),Female,24,comme,56,produces,0.2321
+French (Quebecois),Female,24,comme,56,understands,0
+French (Quebecois),Male,24,comme,76,produces,0.0526
+French (Quebecois),Male,24,comme,76,understands,0
+French (Quebecois),Female,25,comme,41,produces,0.3415
+French (Quebecois),Female,25,comme,41,understands,0
+French (Quebecois),Male,25,comme,45,produces,0.2222
+French (Quebecois),Male,25,comme,45,understands,0
+French (Quebecois),Female,26,comme,46,produces,0.2609
+French (Quebecois),Female,26,comme,46,understands,0
+French (Quebecois),Male,26,comme,49,produces,0.2449
+French (Quebecois),Male,26,comme,49,understands,0
+French (Quebecois),Female,27,comme,40,produces,0.525
+French (Quebecois),Female,27,comme,40,understands,0
+French (Quebecois),Male,27,comme,34,produces,0.2353
+French (Quebecois),Male,27,comme,34,understands,0
+French (Quebecois),Female,28,comme,28,produces,0.5714
+French (Quebecois),Female,28,comme,28,understands,0
+French (Quebecois),Male,28,comme,32,produces,0.4062
+French (Quebecois),Male,28,comme,32,understands,0
+French (Quebecois),Female,29,comme,35,produces,0.6286
+French (Quebecois),Female,29,comme,35,understands,0
+French (Quebecois),Male,29,comme,35,produces,0.6857
+French (Quebecois),Male,29,comme,35,understands,0
+French (Quebecois),Female,30,comme,41,produces,0.5854
+French (Quebecois),Female,30,comme,41,understands,0
+French (Quebecois),Male,30,comme,59,produces,0.3559
+French (Quebecois),Male,30,comme,59,understands,0
+Norwegian,Female,16,som,39,produces,0
+Norwegian,Female,16,som,39,understands,0
+Norwegian,Male,16,som,59,produces,0
+Norwegian,Male,16,som,59,understands,0
+Norwegian,Female,17,som,125,produces,0
+Norwegian,Female,17,som,125,understands,0
+Norwegian,Male,17,som,93,produces,0.0108
+Norwegian,Male,17,som,93,understands,0
+Norwegian,Female,18,som,146,produces,0
+Norwegian,Female,18,som,146,understands,0
+Norwegian,Male,18,som,125,produces,0
+Norwegian,Male,18,som,125,understands,0
+Norwegian,Female,19,som,135,produces,0.0148
+Norwegian,Female,19,som,135,understands,0
+Norwegian,Male,19,som,146,produces,0.0137
+Norwegian,Male,19,som,146,understands,0
+Norwegian,Female,20,som,183,produces,0.0055
+Norwegian,Female,20,som,183,understands,0
+Norwegian,Male,20,som,159,produces,0.0063
+Norwegian,Male,20,som,159,understands,0
+Norwegian,Female,21,som,218,produces,0.0046
+Norwegian,Female,21,som,218,understands,0
+Norwegian,Male,21,som,200,produces,0.005
+Norwegian,Male,21,som,200,understands,0
+Norwegian,Female,22,som,304,produces,0.0263
+Norwegian,Female,22,som,304,understands,0
+Norwegian,Male,22,som,292,produces,0.0103
+Norwegian,Male,22,som,292,understands,0
+Norwegian,Female,23,som,285,produces,0.0421
+Norwegian,Female,23,som,285,understands,0
+Norwegian,Male,23,som,281,produces,0.0178
+Norwegian,Male,23,som,281,understands,0
+Norwegian,Female,24,som,266,produces,0.0489
+Norwegian,Female,24,som,266,understands,0
+Norwegian,Male,24,som,272,produces,0.0699
+Norwegian,Male,24,som,272,understands,0
+Norwegian,Female,25,som,325,produces,0.1015
+Norwegian,Female,25,som,325,understands,0
+Norwegian,Male,25,som,331,produces,0.0634
+Norwegian,Male,25,som,331,understands,0
+Norwegian,Female,26,som,301,produces,0.1993
+Norwegian,Female,26,som,301,understands,0
+Norwegian,Male,26,som,343,produces,0.0729
+Norwegian,Male,26,som,343,understands,0
+Norwegian,Female,27,som,267,produces,0.2322
+Norwegian,Female,27,som,267,understands,0
+Norwegian,Male,27,som,258,produces,0.1318
+Norwegian,Male,27,som,258,understands,0
+Norwegian,Female,28,som,281,produces,0.2954
+Norwegian,Female,28,som,281,understands,0
+Norwegian,Male,28,som,263,produces,0.2015
+Norwegian,Male,28,som,263,understands,0
+Norwegian,Female,29,som,252,produces,0.3571
+Norwegian,Female,29,som,252,understands,0
+Norwegian,Male,29,som,284,produces,0.2077
+Norwegian,Male,29,som,284,understands,0
+Norwegian,Female,30,som,213,produces,0.338
+Norwegian,Female,30,som,213,understands,0
+Norwegian,Male,30,som,244,produces,0.2705
+Norwegian,Male,30,som,244,understands,0
+Norwegian,Female,31,som,229,produces,0.4454
+Norwegian,Female,31,som,229,understands,0
+Norwegian,Male,31,som,250,produces,0.296
+Norwegian,Male,31,som,250,understands,0
+Norwegian,Female,32,som,224,produces,0.5045
+Norwegian,Female,32,som,224,understands,0
+Norwegian,Male,32,som,227,produces,0.3921
+Norwegian,Male,32,som,227,understands,0
+Norwegian,Female,33,som,213,produces,0.6197
+Norwegian,Female,33,som,213,understands,0
+Norwegian,Male,33,som,217,produces,0.4654
+Norwegian,Male,33,som,217,understands,0
+Norwegian,Female,34,som,194,produces,0.6701
+Norwegian,Female,34,som,194,understands,0
+Norwegian,Male,34,som,230,produces,0.4652
+Norwegian,Male,34,som,230,understands,0
+Norwegian,Female,35,som,230,produces,0.7348
+Norwegian,Female,35,som,230,understands,0
+Norwegian,Male,35,som,192,produces,0.5625
+Norwegian,Male,35,som,192,understands,0
+Norwegian,Female,36,som,170,produces,0.7294
+Norwegian,Female,36,som,170,understands,0
+Norwegian,Male,36,som,159,produces,0.5472
+Norwegian,Male,36,som,159,understands,0
+Russian,Female,18,как,24,produces,0
+Russian,Female,18,как,24,understands,0
+Russian,Male,18,как,18,produces,0
+Russian,Male,18,как,18,understands,0
+Russian,Female,19,как,22,produces,0
+Russian,Female,19,как,22,understands,0
+Russian,Male,19,как,19,produces,0
+Russian,Male,19,как,19,understands,0
+Russian,Female,20,как,18,produces,0
+Russian,Female,20,как,18,understands,0
+Russian,Male,20,как,27,produces,0.037
+Russian,Male,20,как,27,understands,0
+Russian,Female,21,как,22,produces,0.2273
+Russian,Female,21,как,22,understands,0
+Russian,Male,21,как,21,produces,0.1429
+Russian,Male,21,как,21,understands,0
+Russian,Female,22,как,29,produces,0.1034
+Russian,Female,22,как,29,understands,0
+Russian,Male,22,как,22,produces,0.0455
+Russian,Male,22,как,22,understands,0
+Russian,Female,23,как,37,produces,0.2162
+Russian,Female,23,как,37,understands,0
+Russian,Male,23,как,19,produces,0
+Russian,Male,23,как,19,understands,0
+Russian,Female,24,как,28,produces,0.2143
+Russian,Female,24,как,28,understands,0
+Russian,Male,24,как,33,produces,0.1818
+Russian,Male,24,как,33,understands,0
+Russian,Female,25,как,39,produces,0.2051
+Russian,Female,25,как,39,understands,0
+Russian,Male,25,как,27,produces,0.1481
+Russian,Male,25,как,27,understands,0
+Russian,Female,26,как,26,produces,0.2692
+Russian,Female,26,как,26,understands,0
+Russian,Male,26,как,26,produces,0.1154
+Russian,Male,26,как,26,understands,0
+Russian,Female,27,как,37,produces,0.3784
+Russian,Female,27,как,37,understands,0
+Russian,Male,27,как,23,produces,0.2609
+Russian,Male,27,как,23,understands,0
+Russian,Female,28,как,28,produces,0.4643
+Russian,Female,28,как,28,understands,0
+Russian,Male,28,как,32,produces,0.5312
+Russian,Male,28,как,32,understands,0
+Russian,Female,29,как,30,produces,0.6
+Russian,Female,29,как,30,understands,0
+Russian,Male,29,как,27,produces,0.2963
+Russian,Male,29,как,27,understands,0
+Russian,Female,30,как,42,produces,0.5
+Russian,Female,30,как,42,understands,0
+Russian,Male,30,как,35,produces,0.4
+Russian,Male,30,как,35,understands,0
+Russian,Female,31,как,32,produces,0.5938
+Russian,Female,31,как,32,understands,0
+Russian,Male,31,как,29,produces,0.3793
+Russian,Male,31,как,29,understands,0
+Russian,Female,32,как,29,produces,0.6897
+Russian,Female,32,как,29,understands,0
+Russian,Male,32,как,26,produces,0.7308
+Russian,Male,32,как,26,understands,0
+Russian,Female,33,как,27,produces,0.5556
+Russian,Female,33,как,27,understands,0
+Russian,Male,33,как,28,produces,0.5357
+Russian,Male,33,как,28,understands,0
+Russian,Female,34,как,31,produces,0.6129
+Russian,Female,34,как,31,understands,0
+Russian,Male,34,как,27,produces,0.3704
+Russian,Male,34,как,27,understands,0
+Russian,Female,35,как,22,produces,0.6364
+Russian,Female,35,как,22,understands,0
+Russian,Male,35,как,25,produces,0.52
+Russian,Male,35,как,25,understands,0
+Russian,Female,36,как,27,produces,0.7037
+Russian,Female,36,как,27,understands,0
+Russian,Male,36,как,22,produces,0.7273
+Russian,Male,36,как,22,understands,0

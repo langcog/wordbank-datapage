@@ -1,65 +1,193 @@
-language,age,words,n,measure,prop
-Slovak,17,ležať / ľahnúť,70,produces,0.1571
-Slovak,17,ležať / ľahnúť,70,understands,0
-Slovak,18,ležať / ľahnúť,65,produces,0.2615
-Slovak,18,ležať / ľahnúť,65,understands,0
-Slovak,19,ležať / ľahnúť,56,produces,0.2857
-Slovak,19,ležať / ľahnúť,56,understands,0
-Slovak,20,ležať / ľahnúť,62,produces,0.4355
-Slovak,20,ležať / ľahnúť,62,understands,0
-Slovak,21,ležať / ľahnúť,81,produces,0.5062
-Slovak,21,ležať / ľahnúť,81,understands,0
-Slovak,22,ležať / ľahnúť,53,produces,0.5094
-Slovak,22,ležať / ľahnúť,53,understands,0
-Slovak,23,ležať / ľahnúť,59,produces,0.5932
-Slovak,23,ležať / ľahnúť,59,understands,0
-Slovak,24,ležať / ľahnúť,59,produces,0.7797
-Slovak,24,ležať / ľahnúť,59,understands,0
-Slovak,25,ležať / ľahnúť,69,produces,0.7246
-Slovak,25,ležať / ľahnúť,69,understands,0
-Slovak,26,ležať / ľahnúť,78,produces,0.8077
-Slovak,26,ležať / ľahnúť,78,understands,0
-Slovak,27,ležať / ľahnúť,62,produces,0.8226
-Slovak,27,ležať / ľahnúť,62,understands,0
-Slovak,28,ležať / ľahnúť,86,produces,0.8023
-Slovak,28,ležať / ľahnúť,86,understands,0
-Slovak,29,ležať / ľahnúť,75,produces,0.8267
-Slovak,29,ležať / ľahnúť,75,understands,0
-Slovak,30,ležať / ľahnúť,49,produces,0.8571
-Slovak,30,ležať / ľahnúť,49,understands,0
-Slovak,31,ležať / ľahnúť,29,produces,0.7931
-Slovak,31,ležať / ľahnúť,29,understands,0
-Slovak,32,ležať / ľahnúť,25,produces,0.92
-Slovak,32,ležať / ľahnúť,25,understands,0
-Slovak,33,ležať / ľahnúť,22,produces,0.9091
-Slovak,33,ležať / ľahnúť,22,understands,0
-Slovak,34,ležať / ľahnúť,27,produces,0.8889
-Slovak,34,ležať / ľahnúť,27,understands,0
-Slovak,35,ležať / ľahnúť,27,produces,0.8889
-Slovak,35,ležať / ľahnúť,27,understands,0
-Slovak,36,ležať / ľahnúť,8,produces,0.875
-Slovak,36,ležať / ľahnúť,8,understands,0
-Swedish,16,lägga,159,produces,0.0063
-Swedish,16,lägga,159,understands,0
-Swedish,19,lägga,152,produces,0.0329
-Swedish,19,lägga,152,understands,0
-Swedish,22,lägga,307,produces,0.2248
-Swedish,22,lägga,307,understands,0
-Swedish,25,lägga,143,produces,0.4825
-Swedish,25,lägga,143,understands,0
-Swedish,28,lägga,139,produces,0.6331
-Swedish,28,lägga,139,understands,0
-Dutch,15,leggen,3,produces,0
-Dutch,15,leggen,3,understands,0.3333
-Dutch,16,leggen,3,produces,0
-Dutch,16,leggen,3,understands,0
-Dutch,17,leggen,6,produces,0
-Dutch,17,leggen,6,understands,0.1667
-Dutch,18,leggen,130,produces,0
-Dutch,18,leggen,130,understands,0.2846
-Dutch,19,leggen,94,produces,0.0532
-Dutch,19,leggen,94,understands,0.4681
-Dutch,20,leggen,26,produces,0
-Dutch,20,leggen,26,understands,0.3462
-Dutch,21,leggen,6,produces,0
-Dutch,21,leggen,6,understands,0.6667
+language,sex,age,words,n,measure,prop
+Dutch,All,15,leggen,3,produces,0
+Dutch,All,15,leggen,3,understands,0.3333
+Dutch,All,16,leggen,3,produces,0
+Dutch,All,16,leggen,3,understands,0
+Dutch,All,17,leggen,6,produces,0
+Dutch,All,17,leggen,6,understands,0.1667
+Dutch,All,18,leggen,130,produces,0
+Dutch,All,18,leggen,130,understands,0.2846
+Dutch,All,19,leggen,94,produces,0.0532
+Dutch,All,19,leggen,94,understands,0.4681
+Dutch,All,20,leggen,26,produces,0
+Dutch,All,20,leggen,26,understands,0.3462
+Dutch,All,21,leggen,6,produces,0
+Dutch,All,21,leggen,6,understands,0.6667
+Slovak,All,17,ležať / ľahnúť,70,produces,0.1571
+Slovak,All,17,ležať / ľahnúť,70,understands,0
+Slovak,All,18,ležať / ľahnúť,65,produces,0.2615
+Slovak,All,18,ležať / ľahnúť,65,understands,0
+Slovak,All,19,ležať / ľahnúť,56,produces,0.2857
+Slovak,All,19,ležať / ľahnúť,56,understands,0
+Slovak,All,20,ležať / ľahnúť,62,produces,0.4355
+Slovak,All,20,ležať / ľahnúť,62,understands,0
+Slovak,All,21,ležať / ľahnúť,81,produces,0.5062
+Slovak,All,21,ležať / ľahnúť,81,understands,0
+Slovak,All,22,ležať / ľahnúť,53,produces,0.5094
+Slovak,All,22,ležať / ľahnúť,53,understands,0
+Slovak,All,23,ležať / ľahnúť,59,produces,0.5932
+Slovak,All,23,ležať / ľahnúť,59,understands,0
+Slovak,All,24,ležať / ľahnúť,59,produces,0.7797
+Slovak,All,24,ležať / ľahnúť,59,understands,0
+Slovak,All,25,ležať / ľahnúť,69,produces,0.7246
+Slovak,All,25,ležať / ľahnúť,69,understands,0
+Slovak,All,26,ležať / ľahnúť,78,produces,0.8077
+Slovak,All,26,ležať / ľahnúť,78,understands,0
+Slovak,All,27,ležať / ľahnúť,62,produces,0.8226
+Slovak,All,27,ležať / ľahnúť,62,understands,0
+Slovak,All,28,ležať / ľahnúť,86,produces,0.8023
+Slovak,All,28,ležať / ľahnúť,86,understands,0
+Slovak,All,29,ležať / ľahnúť,75,produces,0.8267
+Slovak,All,29,ležať / ľahnúť,75,understands,0
+Slovak,All,30,ležať / ľahnúť,49,produces,0.8571
+Slovak,All,30,ležať / ľahnúť,49,understands,0
+Slovak,All,31,ležať / ľahnúť,29,produces,0.7931
+Slovak,All,31,ležať / ľahnúť,29,understands,0
+Slovak,All,32,ležať / ľahnúť,25,produces,0.92
+Slovak,All,32,ležať / ľahnúť,25,understands,0
+Slovak,All,33,ležať / ľahnúť,22,produces,0.9091
+Slovak,All,33,ležať / ľahnúť,22,understands,0
+Slovak,All,34,ležať / ľahnúť,27,produces,0.8889
+Slovak,All,34,ležať / ľahnúť,27,understands,0
+Slovak,All,35,ležať / ľahnúť,27,produces,0.8889
+Slovak,All,35,ležať / ľahnúť,27,understands,0
+Slovak,All,36,ležať / ľahnúť,8,produces,0.875
+Slovak,All,36,ležať / ľahnúť,8,understands,0
+Swedish,All,16,lägga,159,produces,0.0063
+Swedish,All,16,lägga,159,understands,0
+Swedish,All,19,lägga,152,produces,0.0329
+Swedish,All,19,lägga,152,understands,0
+Swedish,All,22,lägga,307,produces,0.2248
+Swedish,All,22,lägga,307,understands,0
+Swedish,All,25,lägga,143,produces,0.4825
+Swedish,All,25,lägga,143,understands,0
+Swedish,All,28,lägga,139,produces,0.6331
+Swedish,All,28,lägga,139,understands,0
+Dutch,Female,15,leggen,2,produces,0
+Dutch,Female,15,leggen,2,understands,0.5
+Dutch,Male,15,leggen,1,produces,0
+Dutch,Male,15,leggen,1,understands,0
+Dutch,Female,16,leggen,1,produces,0
+Dutch,Female,16,leggen,1,understands,0
+Dutch,Male,16,leggen,2,produces,0
+Dutch,Male,16,leggen,2,understands,0
+Dutch,Female,17,leggen,2,produces,0
+Dutch,Female,17,leggen,2,understands,0.5
+Dutch,Male,17,leggen,4,produces,0
+Dutch,Male,17,leggen,4,understands,0
+Dutch,Female,18,leggen,67,produces,0
+Dutch,Female,18,leggen,67,understands,0.2687
+Dutch,Male,18,leggen,57,produces,0
+Dutch,Male,18,leggen,57,understands,0.3158
+Dutch,Female,19,leggen,49,produces,0.0408
+Dutch,Female,19,leggen,49,understands,0.4286
+Dutch,Male,19,leggen,45,produces,0.0667
+Dutch,Male,19,leggen,45,understands,0.5111
+Dutch,Female,20,leggen,13,produces,0
+Dutch,Female,20,leggen,13,understands,0.4615
+Dutch,Male,20,leggen,13,produces,0
+Dutch,Male,20,leggen,13,understands,0.2308
+Dutch,Female,21,leggen,3,produces,0
+Dutch,Female,21,leggen,3,understands,0.6667
+Dutch,Male,21,leggen,3,produces,0
+Dutch,Male,21,leggen,3,understands,0.6667
+Slovak,Female,17,ležať / ľahnúť,39,produces,0.2564
+Slovak,Female,17,ležať / ľahnúť,39,understands,0
+Slovak,Male,17,ležať / ľahnúť,31,produces,0.0323
+Slovak,Male,17,ležať / ľahnúť,31,understands,0
+Slovak,Female,18,ležať / ľahnúť,30,produces,0.2333
+Slovak,Female,18,ležať / ľahnúť,30,understands,0
+Slovak,Male,18,ležať / ľahnúť,35,produces,0.2857
+Slovak,Male,18,ležať / ľahnúť,35,understands,0
+Slovak,Female,19,ležať / ľahnúť,30,produces,0.5
+Slovak,Female,19,ležať / ľahnúť,30,understands,0
+Slovak,Male,19,ležať / ľahnúť,26,produces,0.0385
+Slovak,Male,19,ležať / ľahnúť,26,understands,0
+Slovak,Female,20,ležať / ľahnúť,33,produces,0.4545
+Slovak,Female,20,ležať / ľahnúť,33,understands,0
+Slovak,Male,20,ležať / ľahnúť,29,produces,0.4138
+Slovak,Male,20,ležať / ľahnúť,29,understands,0
+Slovak,Female,21,ležať / ľahnúť,40,produces,0.625
+Slovak,Female,21,ležať / ľahnúť,40,understands,0
+Slovak,Male,21,ležať / ľahnúť,41,produces,0.3902
+Slovak,Male,21,ležať / ľahnúť,41,understands,0
+Slovak,Female,22,ležať / ľahnúť,27,produces,0.7778
+Slovak,Female,22,ležať / ľahnúť,27,understands,0
+Slovak,Male,22,ležať / ľahnúť,26,produces,0.2308
+Slovak,Male,22,ležať / ľahnúť,26,understands,0
+Slovak,Female,23,ležať / ľahnúť,28,produces,0.7143
+Slovak,Female,23,ležať / ľahnúť,28,understands,0
+Slovak,Male,23,ležať / ľahnúť,31,produces,0.4839
+Slovak,Male,23,ležať / ľahnúť,31,understands,0
+Slovak,Female,24,ležať / ľahnúť,28,produces,0.8571
+Slovak,Female,24,ležať / ľahnúť,28,understands,0
+Slovak,Male,24,ležať / ľahnúť,31,produces,0.7097
+Slovak,Male,24,ležať / ľahnúť,31,understands,0
+Slovak,Female,25,ležať / ľahnúť,35,produces,0.7714
+Slovak,Female,25,ležať / ľahnúť,35,understands,0
+Slovak,Male,25,ležať / ľahnúť,34,produces,0.6765
+Slovak,Male,25,ležať / ľahnúť,34,understands,0
+Slovak,Female,26,ležať / ľahnúť,43,produces,0.907
+Slovak,Female,26,ležať / ľahnúť,43,understands,0
+Slovak,Male,26,ležať / ľahnúť,35,produces,0.6857
+Slovak,Male,26,ležať / ľahnúť,35,understands,0
+Slovak,Female,27,ležať / ľahnúť,33,produces,0.8788
+Slovak,Female,27,ležať / ľahnúť,33,understands,0
+Slovak,Male,27,ležať / ľahnúť,29,produces,0.7586
+Slovak,Male,27,ležať / ľahnúť,29,understands,0
+Slovak,Female,28,ležať / ľahnúť,48,produces,0.8333
+Slovak,Female,28,ležať / ľahnúť,48,understands,0
+Slovak,Male,28,ležať / ľahnúť,38,produces,0.7632
+Slovak,Male,28,ležať / ľahnúť,38,understands,0
+Slovak,Female,29,ležať / ľahnúť,36,produces,0.9167
+Slovak,Female,29,ležať / ľahnúť,36,understands,0
+Slovak,Male,29,ležať / ľahnúť,39,produces,0.7436
+Slovak,Male,29,ležať / ľahnúť,39,understands,0
+Slovak,Female,30,ležať / ľahnúť,19,produces,0.7895
+Slovak,Female,30,ležať / ľahnúť,19,understands,0
+Slovak,Male,30,ležať / ľahnúť,30,produces,0.9
+Slovak,Male,30,ležať / ľahnúť,30,understands,0
+Slovak,Female,31,ležať / ľahnúť,16,produces,0.75
+Slovak,Female,31,ležať / ľahnúť,16,understands,0
+Slovak,Male,31,ležať / ľahnúť,13,produces,0.8462
+Slovak,Male,31,ležať / ľahnúť,13,understands,0
+Slovak,Female,32,ležať / ľahnúť,12,produces,0.9167
+Slovak,Female,32,ležať / ľahnúť,12,understands,0
+Slovak,Male,32,ležať / ľahnúť,13,produces,0.9231
+Slovak,Male,32,ležať / ľahnúť,13,understands,0
+Slovak,Female,33,ležať / ľahnúť,12,produces,1
+Slovak,Female,33,ležať / ľahnúť,12,understands,0
+Slovak,Male,33,ležať / ľahnúť,10,produces,0.8
+Slovak,Male,33,ležať / ľahnúť,10,understands,0
+Slovak,Female,34,ležať / ľahnúť,17,produces,1
+Slovak,Female,34,ležať / ľahnúť,17,understands,0
+Slovak,Male,34,ležať / ľahnúť,10,produces,0.7
+Slovak,Male,34,ležať / ľahnúť,10,understands,0
+Slovak,Female,35,ležať / ľahnúť,9,produces,1
+Slovak,Female,35,ležať / ľahnúť,9,understands,0
+Slovak,Male,35,ležať / ľahnúť,18,produces,0.8333
+Slovak,Male,35,ležať / ľahnúť,18,understands,0
+Slovak,Female,36,ležať / ľahnúť,2,produces,1
+Slovak,Female,36,ležať / ľahnúť,2,understands,0
+Slovak,Male,36,ležať / ľahnúť,6,produces,0.8333
+Slovak,Male,36,ležať / ľahnúť,6,understands,0
+Swedish,Female,16,lägga,90,produces,0
+Swedish,Female,16,lägga,90,understands,0
+Swedish,Male,16,lägga,66,produces,0.0152
+Swedish,Male,16,lägga,66,understands,0
+Swedish,Female,19,lägga,85,produces,0.0235
+Swedish,Female,19,lägga,85,understands,0
+Swedish,Male,19,lägga,65,produces,0.0462
+Swedish,Male,19,lägga,65,understands,0
+Swedish,Female,22,lägga,162,produces,0.2469
+Swedish,Female,22,lägga,162,understands,0
+Swedish,Male,22,lägga,143,produces,0.1958
+Swedish,Male,22,lägga,143,understands,0
+Swedish,Female,25,lägga,67,produces,0.5821
+Swedish,Female,25,lägga,67,understands,0
+Swedish,Male,25,lägga,76,produces,0.3947
+Swedish,Male,25,lägga,76,understands,0
+Swedish,Female,28,lägga,69,produces,0.7681
+Swedish,Female,28,lägga,69,understands,0
+Swedish,Male,28,lägga,70,produces,0.5
+Swedish,Male,28,lägga,70,understands,0

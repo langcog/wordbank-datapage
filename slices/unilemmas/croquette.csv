@@ -1,91 +1,265 @@
-language,age,words,n,measure,prop
-Spanish (European),16,croqueta/s,39,produces,0.0256
-Spanish (European),16,croqueta/s,39,understands,0
-Spanish (European),17,croqueta/s,39,produces,0
-Spanish (European),17,croqueta/s,39,understands,0
-Spanish (European),18,croqueta/s,50,produces,0.06
-Spanish (European),18,croqueta/s,50,understands,0
-Spanish (European),19,croqueta/s,27,produces,0.1111
-Spanish (European),19,croqueta/s,27,understands,0
-Spanish (European),20,croqueta/s,36,produces,0.1111
-Spanish (European),20,croqueta/s,36,understands,0
-Spanish (European),21,croqueta/s,41,produces,0.1707
-Spanish (European),21,croqueta/s,41,understands,0
-Spanish (European),22,croqueta/s,38,produces,0.2632
-Spanish (European),22,croqueta/s,38,understands,0
-Spanish (European),23,croqueta/s,30,produces,0.2667
-Spanish (European),23,croqueta/s,30,understands,0
-Spanish (European),24,croqueta/s,55,produces,0.4
-Spanish (European),24,croqueta/s,55,understands,0
-Spanish (European),25,croqueta/s,35,produces,0.4286
-Spanish (European),25,croqueta/s,35,understands,0
-Spanish (European),26,croqueta/s,49,produces,0.4082
-Spanish (European),26,croqueta/s,49,understands,0
-Spanish (European),27,croqueta/s,34,produces,0.6176
-Spanish (European),27,croqueta/s,34,understands,0
-Spanish (European),28,croqueta/s,38,produces,0.5
-Spanish (European),28,croqueta/s,38,understands,0
-Spanish (European),29,croqueta/s,41,produces,0.5854
-Spanish (European),29,croqueta/s,41,understands,0
-Spanish (European),30,croqueta/s,41,produces,0.6585
-Spanish (European),30,croqueta/s,41,understands,0
-Spanish (Peruvian),16,croqueta(s),13,produces,0
-Spanish (Peruvian),16,croqueta(s),13,understands,0
-Spanish (Peruvian),17,croqueta(s),9,produces,0
-Spanish (Peruvian),17,croqueta(s),9,understands,0
-Spanish (Peruvian),18,croqueta(s),4,produces,0
-Spanish (Peruvian),18,croqueta(s),4,understands,0
-Spanish (Peruvian),19,croqueta(s),12,produces,0
-Spanish (Peruvian),19,croqueta(s),12,understands,0
-Spanish (Peruvian),20,croqueta(s),1,produces,0
-Spanish (Peruvian),20,croqueta(s),1,understands,0
-Spanish (Peruvian),21,croqueta(s),5,produces,0
-Spanish (Peruvian),21,croqueta(s),5,understands,0
-Spanish (Peruvian),22,croqueta(s),9,produces,0
-Spanish (Peruvian),22,croqueta(s),9,understands,0
-Spanish (Peruvian),23,croqueta(s),1,produces,0
-Spanish (Peruvian),23,croqueta(s),1,understands,0
-Spanish (Peruvian),24,croqueta(s),15,produces,0.0667
-Spanish (Peruvian),24,croqueta(s),15,understands,0
-Spanish (Peruvian),25,croqueta(s),5,produces,0
-Spanish (Peruvian),25,croqueta(s),5,understands,0
-Spanish (Peruvian),26,croqueta(s),8,produces,0
-Spanish (Peruvian),26,croqueta(s),8,understands,0
-Spanish (Peruvian),27,croqueta(s),7,produces,0
-Spanish (Peruvian),27,croqueta(s),7,understands,0
-Spanish (Peruvian),28,croqueta(s),8,produces,0
-Spanish (Peruvian),28,croqueta(s),8,understands,0
-Spanish (Peruvian),29,croqueta(s),6,produces,0.1667
-Spanish (Peruvian),29,croqueta(s),6,understands,0
-Spanish (Peruvian),30,croqueta(s),2,produces,0
-Spanish (Peruvian),30,croqueta(s),2,understands,0
-Catalan,16,croquetes,24,produces,0
-Catalan,16,croquetes,24,understands,0
-Catalan,17,croquetes,36,produces,0.0556
-Catalan,17,croquetes,36,understands,0
-Catalan,18,croquetes,51,produces,0.1176
-Catalan,18,croquetes,51,understands,0
-Catalan,19,croquetes,45,produces,0
-Catalan,19,croquetes,45,understands,0
-Catalan,20,croquetes,56,produces,0.0893
-Catalan,20,croquetes,56,understands,0
-Catalan,21,croquetes,58,produces,0.2414
-Catalan,21,croquetes,58,understands,0
-Catalan,22,croquetes,50,produces,0.42
-Catalan,22,croquetes,50,understands,0
-Catalan,23,croquetes,66,produces,0.2879
-Catalan,23,croquetes,66,understands,0
-Catalan,24,croquetes,79,produces,0.519
-Catalan,24,croquetes,79,understands,0
-Catalan,25,croquetes,60,produces,0.5833
-Catalan,25,croquetes,60,understands,0
-Catalan,26,croquetes,65,produces,0.5231
-Catalan,26,croquetes,65,understands,0
-Catalan,27,croquetes,63,produces,0.746
-Catalan,27,croquetes,63,understands,0
-Catalan,28,croquetes,81,produces,0.716
-Catalan,28,croquetes,81,understands,0
-Catalan,29,croquetes,50,produces,0.74
-Catalan,29,croquetes,50,understands,0
-Catalan,30,croquetes,75,produces,0.7067
-Catalan,30,croquetes,75,understands,0
+language,sex,age,words,n,measure,prop
+Catalan,All,16,croquetes,24,produces,0
+Catalan,All,16,croquetes,24,understands,0
+Catalan,All,17,croquetes,36,produces,0.0556
+Catalan,All,17,croquetes,36,understands,0
+Catalan,All,18,croquetes,51,produces,0.1176
+Catalan,All,18,croquetes,51,understands,0
+Catalan,All,19,croquetes,45,produces,0
+Catalan,All,19,croquetes,45,understands,0
+Catalan,All,20,croquetes,56,produces,0.0893
+Catalan,All,20,croquetes,56,understands,0
+Catalan,All,21,croquetes,58,produces,0.2414
+Catalan,All,21,croquetes,58,understands,0
+Catalan,All,22,croquetes,50,produces,0.42
+Catalan,All,22,croquetes,50,understands,0
+Catalan,All,23,croquetes,66,produces,0.2879
+Catalan,All,23,croquetes,66,understands,0
+Catalan,All,24,croquetes,79,produces,0.519
+Catalan,All,24,croquetes,79,understands,0
+Catalan,All,25,croquetes,60,produces,0.5833
+Catalan,All,25,croquetes,60,understands,0
+Catalan,All,26,croquetes,65,produces,0.5231
+Catalan,All,26,croquetes,65,understands,0
+Catalan,All,27,croquetes,63,produces,0.746
+Catalan,All,27,croquetes,63,understands,0
+Catalan,All,28,croquetes,81,produces,0.716
+Catalan,All,28,croquetes,81,understands,0
+Catalan,All,29,croquetes,50,produces,0.74
+Catalan,All,29,croquetes,50,understands,0
+Catalan,All,30,croquetes,75,produces,0.7067
+Catalan,All,30,croquetes,75,understands,0
+Spanish (European),All,16,croqueta/s,39,produces,0.0256
+Spanish (European),All,16,croqueta/s,39,understands,0
+Spanish (European),All,17,croqueta/s,39,produces,0
+Spanish (European),All,17,croqueta/s,39,understands,0
+Spanish (European),All,18,croqueta/s,50,produces,0.06
+Spanish (European),All,18,croqueta/s,50,understands,0
+Spanish (European),All,19,croqueta/s,27,produces,0.1111
+Spanish (European),All,19,croqueta/s,27,understands,0
+Spanish (European),All,20,croqueta/s,36,produces,0.1111
+Spanish (European),All,20,croqueta/s,36,understands,0
+Spanish (European),All,21,croqueta/s,41,produces,0.1707
+Spanish (European),All,21,croqueta/s,41,understands,0
+Spanish (European),All,22,croqueta/s,38,produces,0.2632
+Spanish (European),All,22,croqueta/s,38,understands,0
+Spanish (European),All,23,croqueta/s,30,produces,0.2667
+Spanish (European),All,23,croqueta/s,30,understands,0
+Spanish (European),All,24,croqueta/s,55,produces,0.4
+Spanish (European),All,24,croqueta/s,55,understands,0
+Spanish (European),All,25,croqueta/s,35,produces,0.4286
+Spanish (European),All,25,croqueta/s,35,understands,0
+Spanish (European),All,26,croqueta/s,49,produces,0.4082
+Spanish (European),All,26,croqueta/s,49,understands,0
+Spanish (European),All,27,croqueta/s,34,produces,0.6176
+Spanish (European),All,27,croqueta/s,34,understands,0
+Spanish (European),All,28,croqueta/s,38,produces,0.5
+Spanish (European),All,28,croqueta/s,38,understands,0
+Spanish (European),All,29,croqueta/s,41,produces,0.5854
+Spanish (European),All,29,croqueta/s,41,understands,0
+Spanish (European),All,30,croqueta/s,41,produces,0.6585
+Spanish (European),All,30,croqueta/s,41,understands,0
+Spanish (Peruvian),All,16,croqueta(s),13,produces,0
+Spanish (Peruvian),All,16,croqueta(s),13,understands,0
+Spanish (Peruvian),All,17,croqueta(s),9,produces,0
+Spanish (Peruvian),All,17,croqueta(s),9,understands,0
+Spanish (Peruvian),All,18,croqueta(s),4,produces,0
+Spanish (Peruvian),All,18,croqueta(s),4,understands,0
+Spanish (Peruvian),All,19,croqueta(s),12,produces,0
+Spanish (Peruvian),All,19,croqueta(s),12,understands,0
+Spanish (Peruvian),All,20,croqueta(s),1,produces,0
+Spanish (Peruvian),All,20,croqueta(s),1,understands,0
+Spanish (Peruvian),All,21,croqueta(s),5,produces,0
+Spanish (Peruvian),All,21,croqueta(s),5,understands,0
+Spanish (Peruvian),All,22,croqueta(s),9,produces,0
+Spanish (Peruvian),All,22,croqueta(s),9,understands,0
+Spanish (Peruvian),All,23,croqueta(s),1,produces,0
+Spanish (Peruvian),All,23,croqueta(s),1,understands,0
+Spanish (Peruvian),All,24,croqueta(s),15,produces,0.0667
+Spanish (Peruvian),All,24,croqueta(s),15,understands,0
+Spanish (Peruvian),All,25,croqueta(s),5,produces,0
+Spanish (Peruvian),All,25,croqueta(s),5,understands,0
+Spanish (Peruvian),All,26,croqueta(s),8,produces,0
+Spanish (Peruvian),All,26,croqueta(s),8,understands,0
+Spanish (Peruvian),All,27,croqueta(s),7,produces,0
+Spanish (Peruvian),All,27,croqueta(s),7,understands,0
+Spanish (Peruvian),All,28,croqueta(s),8,produces,0
+Spanish (Peruvian),All,28,croqueta(s),8,understands,0
+Spanish (Peruvian),All,29,croqueta(s),6,produces,0.1667
+Spanish (Peruvian),All,29,croqueta(s),6,understands,0
+Spanish (Peruvian),All,30,croqueta(s),2,produces,0
+Spanish (Peruvian),All,30,croqueta(s),2,understands,0
+Catalan,Female,16,croquetes,8,produces,0
+Catalan,Female,16,croquetes,8,understands,0
+Catalan,Male,16,croquetes,16,produces,0
+Catalan,Male,16,croquetes,16,understands,0
+Catalan,Female,17,croquetes,22,produces,0
+Catalan,Female,17,croquetes,22,understands,0
+Catalan,Male,17,croquetes,14,produces,0.1429
+Catalan,Male,17,croquetes,14,understands,0
+Catalan,Female,18,croquetes,22,produces,0.1364
+Catalan,Female,18,croquetes,22,understands,0
+Catalan,Male,18,croquetes,29,produces,0.1034
+Catalan,Male,18,croquetes,29,understands,0
+Catalan,Female,19,croquetes,25,produces,0
+Catalan,Female,19,croquetes,25,understands,0
+Catalan,Male,19,croquetes,20,produces,0
+Catalan,Male,19,croquetes,20,understands,0
+Catalan,Female,20,croquetes,28,produces,0.1071
+Catalan,Female,20,croquetes,28,understands,0
+Catalan,Male,20,croquetes,28,produces,0.0714
+Catalan,Male,20,croquetes,28,understands,0
+Catalan,Female,21,croquetes,32,produces,0.25
+Catalan,Female,21,croquetes,32,understands,0
+Catalan,Male,21,croquetes,26,produces,0.2308
+Catalan,Male,21,croquetes,26,understands,0
+Catalan,Female,22,croquetes,26,produces,0.4615
+Catalan,Female,22,croquetes,26,understands,0
+Catalan,Male,22,croquetes,24,produces,0.375
+Catalan,Male,22,croquetes,24,understands,0
+Catalan,Female,23,croquetes,35,produces,0.2571
+Catalan,Female,23,croquetes,35,understands,0
+Catalan,Male,23,croquetes,31,produces,0.3226
+Catalan,Male,23,croquetes,31,understands,0
+Catalan,Female,24,croquetes,41,produces,0.6098
+Catalan,Female,24,croquetes,41,understands,0
+Catalan,Male,24,croquetes,38,produces,0.4211
+Catalan,Male,24,croquetes,38,understands,0
+Catalan,Female,25,croquetes,30,produces,0.7
+Catalan,Female,25,croquetes,30,understands,0
+Catalan,Male,25,croquetes,30,produces,0.4667
+Catalan,Male,25,croquetes,30,understands,0
+Catalan,Female,26,croquetes,35,produces,0.6
+Catalan,Female,26,croquetes,35,understands,0
+Catalan,Male,26,croquetes,30,produces,0.4333
+Catalan,Male,26,croquetes,30,understands,0
+Catalan,Female,27,croquetes,36,produces,0.75
+Catalan,Female,27,croquetes,36,understands,0
+Catalan,Male,27,croquetes,27,produces,0.7407
+Catalan,Male,27,croquetes,27,understands,0
+Catalan,Female,28,croquetes,40,produces,0.725
+Catalan,Female,28,croquetes,40,understands,0
+Catalan,Male,28,croquetes,41,produces,0.7073
+Catalan,Male,28,croquetes,41,understands,0
+Catalan,Female,29,croquetes,25,produces,0.68
+Catalan,Female,29,croquetes,25,understands,0
+Catalan,Male,29,croquetes,25,produces,0.8
+Catalan,Male,29,croquetes,25,understands,0
+Catalan,Female,30,croquetes,24,produces,0.7917
+Catalan,Female,30,croquetes,24,understands,0
+Catalan,Male,30,croquetes,51,produces,0.6667
+Catalan,Male,30,croquetes,51,understands,0
+Spanish (European),Female,16,croqueta/s,19,produces,0.0526
+Spanish (European),Female,16,croqueta/s,19,understands,0
+Spanish (European),Male,16,croqueta/s,20,produces,0
+Spanish (European),Male,16,croqueta/s,20,understands,0
+Spanish (European),Female,17,croqueta/s,21,produces,0
+Spanish (European),Female,17,croqueta/s,21,understands,0
+Spanish (European),Male,17,croqueta/s,18,produces,0
+Spanish (European),Male,17,croqueta/s,18,understands,0
+Spanish (European),Female,18,croqueta/s,27,produces,0.1111
+Spanish (European),Female,18,croqueta/s,27,understands,0
+Spanish (European),Male,18,croqueta/s,23,produces,0
+Spanish (European),Male,18,croqueta/s,23,understands,0
+Spanish (European),Female,19,croqueta/s,16,produces,0.125
+Spanish (European),Female,19,croqueta/s,16,understands,0
+Spanish (European),Male,19,croqueta/s,11,produces,0.0909
+Spanish (European),Male,19,croqueta/s,11,understands,0
+Spanish (European),Female,20,croqueta/s,17,produces,0.1176
+Spanish (European),Female,20,croqueta/s,17,understands,0
+Spanish (European),Male,20,croqueta/s,19,produces,0.1053
+Spanish (European),Male,20,croqueta/s,19,understands,0
+Spanish (European),Female,21,croqueta/s,23,produces,0.2174
+Spanish (European),Female,21,croqueta/s,23,understands,0
+Spanish (European),Male,21,croqueta/s,18,produces,0.1111
+Spanish (European),Male,21,croqueta/s,18,understands,0
+Spanish (European),Female,22,croqueta/s,18,produces,0.2778
+Spanish (European),Female,22,croqueta/s,18,understands,0
+Spanish (European),Male,22,croqueta/s,20,produces,0.25
+Spanish (European),Male,22,croqueta/s,20,understands,0
+Spanish (European),Female,23,croqueta/s,15,produces,0.1333
+Spanish (European),Female,23,croqueta/s,15,understands,0
+Spanish (European),Male,23,croqueta/s,15,produces,0.4
+Spanish (European),Male,23,croqueta/s,15,understands,0
+Spanish (European),Female,24,croqueta/s,31,produces,0.4839
+Spanish (European),Female,24,croqueta/s,31,understands,0
+Spanish (European),Male,24,croqueta/s,24,produces,0.2917
+Spanish (European),Male,24,croqueta/s,24,understands,0
+Spanish (European),Female,25,croqueta/s,16,produces,0.625
+Spanish (European),Female,25,croqueta/s,16,understands,0
+Spanish (European),Male,25,croqueta/s,19,produces,0.2632
+Spanish (European),Male,25,croqueta/s,19,understands,0
+Spanish (European),Female,26,croqueta/s,22,produces,0.4545
+Spanish (European),Female,26,croqueta/s,22,understands,0
+Spanish (European),Male,26,croqueta/s,27,produces,0.3704
+Spanish (European),Male,26,croqueta/s,27,understands,0
+Spanish (European),Female,27,croqueta/s,16,produces,0.6875
+Spanish (European),Female,27,croqueta/s,16,understands,0
+Spanish (European),Male,27,croqueta/s,18,produces,0.5556
+Spanish (European),Male,27,croqueta/s,18,understands,0
+Spanish (European),Female,28,croqueta/s,20,produces,0.35
+Spanish (European),Female,28,croqueta/s,20,understands,0
+Spanish (European),Male,28,croqueta/s,18,produces,0.6667
+Spanish (European),Male,28,croqueta/s,18,understands,0
+Spanish (European),Female,29,croqueta/s,18,produces,0.6111
+Spanish (European),Female,29,croqueta/s,18,understands,0
+Spanish (European),Male,29,croqueta/s,23,produces,0.5652
+Spanish (European),Male,29,croqueta/s,23,understands,0
+Spanish (European),Female,30,croqueta/s,17,produces,0.7647
+Spanish (European),Female,30,croqueta/s,17,understands,0
+Spanish (European),Male,30,croqueta/s,24,produces,0.5833
+Spanish (European),Male,30,croqueta/s,24,understands,0
+Spanish (Peruvian),Female,16,croqueta(s),6,produces,0
+Spanish (Peruvian),Female,16,croqueta(s),6,understands,0
+Spanish (Peruvian),Male,16,croqueta(s),7,produces,0
+Spanish (Peruvian),Male,16,croqueta(s),7,understands,0
+Spanish (Peruvian),Female,17,croqueta(s),5,produces,0
+Spanish (Peruvian),Female,17,croqueta(s),5,understands,0
+Spanish (Peruvian),Male,17,croqueta(s),4,produces,0
+Spanish (Peruvian),Male,17,croqueta(s),4,understands,0
+Spanish (Peruvian),Female,18,croqueta(s),4,produces,0
+Spanish (Peruvian),Female,18,croqueta(s),4,understands,0
+Spanish (Peruvian),Female,19,croqueta(s),3,produces,0
+Spanish (Peruvian),Female,19,croqueta(s),3,understands,0
+Spanish (Peruvian),Male,19,croqueta(s),9,produces,0
+Spanish (Peruvian),Male,19,croqueta(s),9,understands,0
+Spanish (Peruvian),Male,20,croqueta(s),1,produces,0
+Spanish (Peruvian),Male,20,croqueta(s),1,understands,0
+Spanish (Peruvian),Female,21,croqueta(s),3,produces,0
+Spanish (Peruvian),Female,21,croqueta(s),3,understands,0
+Spanish (Peruvian),Male,21,croqueta(s),2,produces,0
+Spanish (Peruvian),Male,21,croqueta(s),2,understands,0
+Spanish (Peruvian),Female,22,croqueta(s),4,produces,0
+Spanish (Peruvian),Female,22,croqueta(s),4,understands,0
+Spanish (Peruvian),Male,22,croqueta(s),5,produces,0
+Spanish (Peruvian),Male,22,croqueta(s),5,understands,0
+Spanish (Peruvian),Female,23,croqueta(s),1,produces,0
+Spanish (Peruvian),Female,23,croqueta(s),1,understands,0
+Spanish (Peruvian),Female,24,croqueta(s),7,produces,0.1429
+Spanish (Peruvian),Female,24,croqueta(s),7,understands,0
+Spanish (Peruvian),Male,24,croqueta(s),8,produces,0
+Spanish (Peruvian),Male,24,croqueta(s),8,understands,0
+Spanish (Peruvian),Female,25,croqueta(s),2,produces,0
+Spanish (Peruvian),Female,25,croqueta(s),2,understands,0
+Spanish (Peruvian),Male,25,croqueta(s),3,produces,0
+Spanish (Peruvian),Male,25,croqueta(s),3,understands,0
+Spanish (Peruvian),Female,26,croqueta(s),3,produces,0
+Spanish (Peruvian),Female,26,croqueta(s),3,understands,0
+Spanish (Peruvian),Male,26,croqueta(s),5,produces,0
+Spanish (Peruvian),Male,26,croqueta(s),5,understands,0
+Spanish (Peruvian),Female,27,croqueta(s),3,produces,0
+Spanish (Peruvian),Female,27,croqueta(s),3,understands,0
+Spanish (Peruvian),Male,27,croqueta(s),4,produces,0
+Spanish (Peruvian),Male,27,croqueta(s),4,understands,0
+Spanish (Peruvian),Female,28,croqueta(s),3,produces,0
+Spanish (Peruvian),Female,28,croqueta(s),3,understands,0
+Spanish (Peruvian),Male,28,croqueta(s),5,produces,0
+Spanish (Peruvian),Male,28,croqueta(s),5,understands,0
+Spanish (Peruvian),Female,29,croqueta(s),1,produces,1
+Spanish (Peruvian),Female,29,croqueta(s),1,understands,0
+Spanish (Peruvian),Male,29,croqueta(s),5,produces,0
+Spanish (Peruvian),Male,29,croqueta(s),5,understands,0
+Spanish (Peruvian),Female,30,croqueta(s),1,produces,0
+Spanish (Peruvian),Female,30,croqueta(s),1,understands,0
+Spanish (Peruvian),Male,30,croqueta(s),1,produces,0
+Spanish (Peruvian),Male,30,croqueta(s),1,understands,0

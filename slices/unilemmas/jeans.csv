@@ -1,653 +1,1937 @@
-language,age,words,n,measure,prop
-Italian,18,jeans,31,produces,0.0323
-Italian,18,jeans,31,understands,0
-Italian,19,jeans,39,produces,0.0769
-Italian,19,jeans,39,understands,0
-Italian,20,jeans,64,produces,0.0625
-Italian,20,jeans,64,understands,0
-Italian,21,jeans,55,produces,0.2
-Italian,21,jeans,55,understands,0
-Italian,22,jeans,55,produces,0.2909
-Italian,22,jeans,55,understands,0
-Italian,23,jeans,53,produces,0.2642
-Italian,23,jeans,53,understands,0
-Italian,24,jeans,71,produces,0.4225
-Italian,24,jeans,71,understands,0
-Italian,25,jeans,39,produces,0.2821
-Italian,25,jeans,39,understands,0
-Italian,26,jeans,41,produces,0.5122
-Italian,26,jeans,41,understands,0
-Italian,27,jeans,43,produces,0.4651
-Italian,27,jeans,43,understands,0
-Italian,28,jeans,44,produces,0.3864
-Italian,28,jeans,44,understands,0
-Italian,29,jeans,37,produces,0.4054
-Italian,29,jeans,37,understands,0
-Italian,30,jeans,67,produces,0.597
-Italian,30,jeans,67,understands,0
-Italian,31,jeans,19,produces,0.5263
-Italian,31,jeans,19,understands,0
-Italian,32,jeans,23,produces,0.4348
-Italian,32,jeans,23,understands,0
-Italian,33,jeans,16,produces,0.625
-Italian,33,jeans,16,understands,0
-Italian,34,jeans,19,produces,0.6316
-Italian,34,jeans,19,understands,0
-Italian,35,jeans,15,produces,0.6
-Italian,35,jeans,15,understands,0
-Italian,36,jeans,21,produces,0.8095
-Italian,36,jeans,21,understands,0
-Japanese,8,ジーパン,6,produces,0
-Japanese,8,ジーパン,6,understands,0
-Japanese,9,ジーパン,10,produces,0
-Japanese,9,ジーパン,10,understands,0
-Japanese,10,ジーパン,8,produces,0
-Japanese,10,ジーパン,8,understands,0
-Japanese,11,ジーパン,87,produces,0
-Japanese,11,ジーパン,87,understands,0
-Japanese,12,ジーパン,118,produces,0
-Japanese,12,ジーパン,118,understands,0
-Japanese,13,ジーパン,23,produces,0
-Japanese,13,ジーパン,23,understands,0
-Japanese,14,ジーパン,26,produces,0
-Japanese,14,ジーパン,26,understands,0
-Japanese,15,ジーパン,72,produces,0
-Japanese,15,ジーパン,72,understands,0.0139
-Japanese,16,ジーパン,46,produces,0
-Japanese,16,ジーパン,46,understands,0.0217
-Japanese,17,ジーパン,77,produces,0
-Japanese,17,ジーパン,77,understands,0.026
-Japanese,18,ジーパン,94,produces,0.0213
-Japanese,18,ジーパン,94,understands,0.0213
-Japanese,19,ジーパン,35,produces,0
-Japanese,19,ジーパン,35,understands,0
-Japanese,20,ジーパン,59,produces,0.0169
-Japanese,20,ジーパン,59,understands,0
-Japanese,21,ジーパン,62,produces,0.0161
-Japanese,21,ジーパン,62,understands,0
-Japanese,22,ジーパン,31,produces,0.0645
-Japanese,22,ジーパン,31,understands,0
-Japanese,23,ジーパン,67,produces,0.0299
-Japanese,23,ジーパン,67,understands,0
-Japanese,24,ジーパン,33,produces,0.0909
-Japanese,24,ジーパン,33,understands,0
-Japanese,25,ジーパン,34,produces,0.0588
-Japanese,25,ジーパン,34,understands,0
-Japanese,26,ジーパン,33,produces,0.0606
-Japanese,26,ジーパン,33,understands,0
-Japanese,27,ジーパン,15,produces,0.0667
-Japanese,27,ジーパン,15,understands,0
-Japanese,28,ジーパン,18,produces,0.0556
-Japanese,28,ジーパン,18,understands,0
-Japanese,29,ジーパン,17,produces,0.1765
-Japanese,29,ジーパン,17,understands,0
-Japanese,30,ジーパン,18,produces,0
-Japanese,30,ジーパン,18,understands,0
-Japanese,31,ジーパン,18,produces,0.1667
-Japanese,31,ジーパン,18,understands,0
-Japanese,32,ジーパン,13,produces,0.1538
-Japanese,32,ジーパン,13,understands,0
-Japanese,33,ジーパン,16,produces,0.1875
-Japanese,33,ジーパン,16,understands,0
-Japanese,34,ジーパン,13,produces,0.1538
-Japanese,34,ジーパン,13,understands,0
-Japanese,35,ジーパン,31,produces,0.0968
-Japanese,35,ジーパン,31,understands,0
-Japanese,36,ジーパン,18,produces,0.0556
-Japanese,36,ジーパン,18,understands,0
-Kigiriama,16,Jinzi,1,produces,0
-Kigiriama,16,Jinzi,1,understands,0
-Kigiriama,17,Jinzi,6,produces,0
-Kigiriama,17,Jinzi,6,understands,0
-Kigiriama,18,Jinzi,13,produces,0
-Kigiriama,18,Jinzi,13,understands,0
-Kigiriama,19,Jinzi,8,produces,0
-Kigiriama,19,Jinzi,8,understands,0
-Kigiriama,20,Jinzi,14,produces,0
-Kigiriama,20,Jinzi,14,understands,0
-Kigiriama,21,Jinzi,6,produces,0
-Kigiriama,21,Jinzi,6,understands,0
-Kigiriama,22,Jinzi,9,produces,0
-Kigiriama,22,Jinzi,9,understands,0
-Kigiriama,23,Jinzi,4,produces,0
-Kigiriama,23,Jinzi,4,understands,0
-Kigiriama,24,Jinzi,7,produces,0
-Kigiriama,24,Jinzi,7,understands,0
-Kigiriama,25,Jinzi,3,produces,0
-Kigiriama,25,Jinzi,3,understands,0
-Kigiriama,26,Jinzi,6,produces,0
-Kigiriama,26,Jinzi,6,understands,0
-Kigiriama,27,Jinzi,4,produces,0.5
-Kigiriama,27,Jinzi,4,understands,0
-Kigiriama,28,Jinzi,1,produces,0
-Kigiriama,28,Jinzi,1,understands,0
-Kigiriama,29,Jinzi,5,produces,0
-Kigiriama,29,Jinzi,5,understands,0
-Kigiriama,30,Jinzi,1,produces,1
-Kigiriama,30,Jinzi,1,understands,0
-Kiswahili,23,Jeans,2,produces,0
-Kiswahili,23,Jeans,2,understands,0
-Kiswahili,24,Jeans,12,produces,0.0833
-Kiswahili,24,Jeans,12,understands,0
-Kiswahili,25,Jeans,10,produces,0
-Kiswahili,25,Jeans,10,understands,0
-Kiswahili,26,Jeans,13,produces,0
-Kiswahili,26,Jeans,13,understands,0
-Kiswahili,27,Jeans,8,produces,0.25
-Kiswahili,27,Jeans,8,understands,0
-Kiswahili,28,Jeans,6,produces,0.1667
-Kiswahili,28,Jeans,6,understands,0
-Kiswahili,29,Jeans,6,produces,0.1667
-Kiswahili,29,Jeans,6,understands,0
-Kiswahili,30,Jeans,5,produces,0.4
-Kiswahili,30,Jeans,5,understands,0
-Swedish,8,jeans,26,produces,0
-Swedish,8,jeans,26,understands,0
-Swedish,9,jeans,2,produces,0
-Swedish,9,jeans,2,understands,0
-Swedish,10,jeans,54,produces,0
-Swedish,10,jeans,54,understands,0
-Swedish,11,jeans,3,produces,0
-Swedish,11,jeans,3,understands,0
-Swedish,12,jeans,79,produces,0
-Swedish,12,jeans,79,understands,0.0253
-Swedish,13,jeans,7,produces,0
-Swedish,13,jeans,7,understands,0
-Swedish,14,jeans,124,produces,0
-Swedish,14,jeans,124,understands,0.0484
-Swedish,15,jeans,13,produces,0
-Swedish,15,jeans,13,understands,0.0769
-Swedish,16,jeans,318,produces,0.0031
-Swedish,16,jeans,318,understands,0.0377
-Swedish,19,jeans,152,produces,0
-Swedish,19,jeans,152,understands,0
-Swedish,22,jeans,307,produces,0.0814
-Swedish,22,jeans,307,understands,0
-Swedish,25,jeans,143,produces,0.2727
-Swedish,25,jeans,143,understands,0
-Swedish,28,jeans,139,produces,0.4029
-Swedish,28,jeans,139,understands,0
-Arabic (Saudi),8,جينز,19,produces,0
-Arabic (Saudi),8,جينز,19,understands,0
-Arabic (Saudi),9,جينز,18,produces,0
-Arabic (Saudi),9,جينز,18,understands,0
-Arabic (Saudi),10,جينز,25,produces,0.04
-Arabic (Saudi),10,جينز,25,understands,0
-Arabic (Saudi),11,جينز,21,produces,0
-Arabic (Saudi),11,جينز,21,understands,0
-Arabic (Saudi),12,جينز,19,produces,0
-Arabic (Saudi),12,جينز,19,understands,0
-Arabic (Saudi),13,جينز,36,produces,0.1389
-Arabic (Saudi),13,جينز,36,understands,0
-Arabic (Saudi),14,جينز,20,produces,0
-Arabic (Saudi),14,جينز,20,understands,0
-Arabic (Saudi),15,جينز,19,produces,0
-Arabic (Saudi),15,جينز,19,understands,0
-Arabic (Saudi),16,جينز,18,produces,0.0556
-Arabic (Saudi),16,جينز,18,understands,0
-Cantonese,16,牛仔褲,46,produces,0
-Cantonese,16,牛仔褲,46,understands,0
-Cantonese,17,牛仔褲,61,produces,0
-Cantonese,17,牛仔褲,61,understands,0
-Cantonese,18,牛仔褲,68,produces,0.0294
-Cantonese,18,牛仔褲,68,understands,0
-Cantonese,19,牛仔褲,66,produces,0
-Cantonese,19,牛仔褲,66,understands,0
-Cantonese,20,牛仔褲,140,produces,0.0071
-Cantonese,20,牛仔褲,140,understands,0
-Cantonese,21,牛仔褲,120,produces,0
-Cantonese,21,牛仔褲,120,understands,0
-Cantonese,22,牛仔褲,68,produces,0.0294
-Cantonese,22,牛仔褲,68,understands,0
-Cantonese,23,牛仔褲,74,produces,0.0405
-Cantonese,23,牛仔褲,74,understands,0
-Cantonese,24,牛仔褲,68,produces,0.0294
-Cantonese,24,牛仔褲,68,understands,0
-Cantonese,25,牛仔褲,65,produces,0.0923
-Cantonese,25,牛仔褲,65,understands,0
-Cantonese,26,牛仔褲,68,produces,0.1324
-Cantonese,26,牛仔褲,68,understands,0
-Cantonese,27,牛仔褲,62,produces,0.1129
-Cantonese,27,牛仔褲,62,understands,0
-Cantonese,28,牛仔褲,66,produces,0.197
-Cantonese,28,牛仔褲,66,understands,0
-Cantonese,29,牛仔褲,72,produces,0.1944
-Cantonese,29,牛仔褲,72,understands,0
-Cantonese,30,牛仔褲,164,produces,0.25
-Cantonese,30,牛仔褲,164,understands,0
-Dutch,8,jeans(broek)/spijkerbroek,7,produces,0
-Dutch,8,jeans(broek)/spijkerbroek,7,understands,0
-Dutch,9,jeans(broek)/spijkerbroek,94,produces,0
-Dutch,9,jeans(broek)/spijkerbroek,94,understands,0.0319
-Dutch,10,jeans(broek)/spijkerbroek,128,produces,0.0078
-Dutch,10,jeans(broek)/spijkerbroek,128,understands,0.0625
-Dutch,11,jeans(broek)/spijkerbroek,9,produces,0
-Dutch,11,jeans(broek)/spijkerbroek,9,understands,0
-Dutch,12,jeans(broek)/spijkerbroek,7,produces,0
-Dutch,12,jeans(broek)/spijkerbroek,7,understands,0
-Dutch,13,jeans(broek)/spijkerbroek,6,produces,0
-Dutch,13,jeans(broek)/spijkerbroek,6,understands,0.3333
-Dutch,14,jeans(broek)/spijkerbroek,35,produces,0.0286
-Dutch,14,jeans(broek)/spijkerbroek,35,understands,0.0571
-Dutch,15,jeans(broek)/spijkerbroek,6,produces,0
-Dutch,15,jeans(broek)/spijkerbroek,6,understands,0.5
-Dutch,16,jeans(broek)/spijkerbroek,9,produces,0
-Dutch,16,jeans(broek)/spijkerbroek,9,understands,0
-Dutch,17,jeans(broek)/spijkerbroek,49,produces,0
-Dutch,17,jeans(broek)/spijkerbroek,49,understands,0
-Dutch,18,jeans(broek)/spijkerbroek,68,produces,0.0882
-Dutch,18,jeans(broek)/spijkerbroek,68,understands,0
-Dutch,19,jeans(broek)/spijkerbroek,7,produces,0.2857
-Dutch,19,jeans(broek)/spijkerbroek,7,understands,0
-Dutch,20,jeans(broek)/spijkerbroek,7,produces,0.1429
-Dutch,20,jeans(broek)/spijkerbroek,7,understands,0
-Dutch,21,jeans(broek)/spijkerbroek,7,produces,0.1429
-Dutch,21,jeans(broek)/spijkerbroek,7,understands,0
-Dutch,22,jeans(broek)/spijkerbroek,7,produces,0.2857
-Dutch,22,jeans(broek)/spijkerbroek,7,understands,0
-Dutch,23,jeans(broek)/spijkerbroek,51,produces,0.549
-Dutch,23,jeans(broek)/spijkerbroek,51,understands,0
-Dutch,24,jeans(broek)/spijkerbroek,31,produces,0.5161
-Dutch,24,jeans(broek)/spijkerbroek,31,understands,0
-Dutch,25,jeans(broek)/spijkerbroek,6,produces,0.8333
-Dutch,25,jeans(broek)/spijkerbroek,6,understands,0
-Dutch,26,jeans(broek)/spijkerbroek,6,produces,0.3333
-Dutch,26,jeans(broek)/spijkerbroek,6,understands,0
-Dutch,27,jeans(broek)/spijkerbroek,5,produces,0.4
-Dutch,27,jeans(broek)/spijkerbroek,5,understands,0
-Dutch,28,"jeans(broek), jeans(broek)/spijkerbroek",7,produces,0.7143
-Dutch,28,"jeans(broek), jeans(broek)/spijkerbroek",7,understands,0
-Dutch,29,"jeans(broek), jeans(broek)/spijkerbroek",71,produces,0.7042
-Dutch,29,"jeans(broek), jeans(broek)/spijkerbroek",71,understands,0
-Dutch,30,"jeans(broek), jeans(broek)/spijkerbroek",45,produces,0.8222
-Dutch,30,"jeans(broek), jeans(broek)/spijkerbroek",45,understands,0
-Dutch,31,"jeans(broek), jeans(broek)/spijkerbroek",7,produces,0.7143
-Dutch,31,"jeans(broek), jeans(broek)/spijkerbroek",7,understands,0
-Dutch,32,jeans(broek),5,produces,1
-Dutch,32,jeans(broek),5,understands,0
-Dutch,33,jeans(broek),3,produces,0.3333
-Dutch,33,jeans(broek),3,understands,0
-Dutch,34,jeans(broek),5,produces,0.4
-Dutch,34,jeans(broek),5,understands,0
-Dutch,35,jeans(broek),3,produces,0.6667
-Dutch,35,jeans(broek),3,understands,0
-Dutch,36,jeans(broek),6,produces,0.8333
-Dutch,36,jeans(broek),6,understands,0
-English (American),8,jeans,255,produces,0.0039
-English (American),8,jeans,255,understands,0.0549
-English (American),9,jeans,299,produces,0.0033
-English (American),9,jeans,299,understands,0.0401
-English (American),10,jeans,279,produces,0.0108
-English (American),10,jeans,279,understands,0.0394
-English (American),11,jeans,360,produces,0.0111
-English (American),11,jeans,360,understands,0.0444
-English (American),12,jeans,615,produces,0.013
-English (American),12,jeans,615,understands,0.0699
-English (American),13,jeans,1039,produces,0.0048
-English (American),13,jeans,1039,understands,0.0491
-English (American),14,jeans,455,produces,0.0176
-English (American),14,jeans,455,understands,0.0835
-English (American),15,jeans,245,produces,0.0327
-English (American),15,jeans,245,understands,0.1265
-English (American),16,jeans,1750,produces,0.0149
-English (American),16,jeans,1750,understands,0.06
-English (American),17,jeans,831,produces,0.0301
-English (American),17,jeans,831,understands,0.0794
-English (American),18,jeans,1024,produces,0.0381
-English (American),18,jeans,1024,understands,0.084
-English (American),19,jeans,570,produces,0.0719
-English (American),19,jeans,570,understands,0
-English (American),20,jeans,537,produces,0.0819
-English (American),20,jeans,537,understands,0
-English (American),21,jeans,366,produces,0.1421
-English (American),21,jeans,366,understands,0
-English (American),22,jeans,454,produces,0.1564
-English (American),22,jeans,454,understands,0
-English (American),23,jeans,470,produces,0.2191
-English (American),23,jeans,470,understands,0
-English (American),24,jeans,985,produces,0.2822
-English (American),24,jeans,985,understands,0
-English (American),25,jeans,757,produces,0.3078
-English (American),25,jeans,757,understands,0
-English (American),26,jeans,435,produces,0.3678
-English (American),26,jeans,435,understands,0
-English (American),27,jeans,361,produces,0.3269
-English (American),27,jeans,361,understands,0
-English (American),28,jeans,954,produces,0.5566
-English (American),28,jeans,954,understands,0
-English (American),29,jeans,390,produces,0.4923
-English (American),29,jeans,390,understands,0
-English (American),30,jeans,785,produces,0.5223
-English (American),30,jeans,785,understands,0
-English (Australian),12,jeans,71,produces,0
-English (Australian),12,jeans,71,understands,0
-English (Australian),13,jeans,64,produces,0
-English (Australian),13,jeans,64,understands,0
-English (Australian),14,jeans,111,produces,0.009
-English (Australian),14,jeans,111,understands,0
-English (Australian),15,jeans,69,produces,0.029
-English (Australian),15,jeans,69,understands,0
-English (Australian),16,jeans,60,produces,0
-English (Australian),16,jeans,60,understands,0
-English (Australian),17,jeans,104,produces,0.0481
-English (Australian),17,jeans,104,understands,0
-English (Australian),18,jeans,109,produces,0.0183
-English (Australian),18,jeans,109,understands,0
-English (Australian),19,jeans,124,produces,0.1371
-English (Australian),19,jeans,124,understands,0
-English (Australian),20,jeans,78,produces,0.141
-English (Australian),20,jeans,78,understands,0
-English (Australian),21,jeans,68,produces,0.1618
-English (Australian),21,jeans,68,understands,0
-English (Australian),22,jeans,73,produces,0.3014
-English (Australian),22,jeans,73,understands,0
-English (Australian),23,jeans,71,produces,0.4085
-English (Australian),23,jeans,71,understands,0
-English (Australian),24,jeans,76,produces,0.3289
-English (Australian),24,jeans,76,understands,0
-English (Australian),25,jeans,85,produces,0.4
-English (Australian),25,jeans,85,understands,0
-English (Australian),26,jeans,77,produces,0.4156
-English (Australian),26,jeans,77,understands,0
-English (Australian),27,jeans,72,produces,0.6111
-English (Australian),27,jeans,72,understands,0
-English (Australian),28,jeans,67,produces,0.4179
-English (Australian),28,jeans,67,understands,0
-English (Australian),29,jeans,65,produces,0.6615
-English (Australian),29,jeans,65,understands,0
-English (Australian),30,jeans,53,produces,0.6226
-English (Australian),30,jeans,53,understands,0
-English (British),12,jeans,27,produces,0
-English (British),12,jeans,27,understands,0
-English (British),13,jeans,7,produces,0
-English (British),13,jeans,7,understands,0
-English (British),14,jeans,64,produces,0
-English (British),14,jeans,64,understands,0.0938
-English (British),15,jeans,88,produces,0
-English (British),15,jeans,88,understands,0.0682
-English (British),16,jeans,118,produces,0.0085
-English (British),16,jeans,118,understands,0.1186
-English (British),17,jeans,197,produces,0.0305
-English (British),17,jeans,197,understands,0.1777
-English (British),18,jeans,118,produces,0.0424
-English (British),18,jeans,118,understands,0.1864
-English (British),19,jeans,109,produces,0.0734
-English (British),19,jeans,109,understands,0.3486
-English (British),20,jeans,144,produces,0.1181
-English (British),20,jeans,144,understands,0.3611
-English (British),21,jeans,75,produces,0.1067
-English (British),21,jeans,75,understands,0.4533
-English (British),22,jeans,28,produces,0.1429
-English (British),22,jeans,28,understands,0.3571
-English (British),23,jeans,112,produces,0.2679
-English (British),23,jeans,112,understands,0.5714
-English (British),24,jeans,87,produces,0.3333
-English (British),24,jeans,87,understands,0.6437
-English (British),25,jeans,36,produces,0.3889
-English (British),25,jeans,36,understands,0.5
-English (British),34,jeans,443,produces,0.6727
-English (British),34,jeans,443,understands,0
-English (British),35,jeans,3693,produces,0.6729
-English (British),35,jeans,3693,understands,0
-English (British),36,jeans,5244,produces,0.6732
-English (British),36,jeans,5244,understands,0
-English (British),37,jeans,906,produces,0.6645
-English (British),37,jeans,906,understands,0
-English (British),38,jeans,264,produces,0.6098
-English (British),38,jeans,264,understands,0
-English (British),39,jeans,99,produces,0.7172
-English (British),39,jeans,99,understands,0
-English (British),40,jeans,48,produces,0.6042
-English (British),40,jeans,48,understands,0
-English (British),41,jeans,24,produces,0.75
-English (British),41,jeans,24,understands,0
-English (British),42,jeans,23,produces,0.6087
-English (British),42,jeans,23,understands,0
-English (British),43,jeans,12,produces,0.6667
-English (British),43,jeans,12,understands,0
-English (British),44,jeans,9,produces,0.6667
-English (British),44,jeans,9,understands,0
-English (British),45,jeans,12,produces,0.75
-English (British),45,jeans,12,understands,0
-English (British),46,jeans,5,produces,0.2
-English (British),46,jeans,5,understands,0
-English (British),47,jeans,8,produces,0.75
-English (British),47,jeans,8,understands,0
-Estonian,16,teksad,36,produces,0.0278
-Estonian,16,teksad,36,understands,0
-Estonian,17,teksad,89,produces,0
-Estonian,17,teksad,89,understands,0
-Estonian,18,teksad,103,produces,0.0097
-Estonian,18,teksad,103,understands,0
-Estonian,19,teksad,85,produces,0.0118
-Estonian,19,teksad,85,understands,0
-Estonian,20,teksad,60,produces,0.0167
-Estonian,20,teksad,60,understands,0
-Estonian,21,teksad,66,produces,0.0909
-Estonian,21,teksad,66,understands,0
-Estonian,22,teksad,76,produces,0.0526
-Estonian,22,teksad,76,understands,0
-Estonian,23,teksad,95,produces,0.1684
-Estonian,23,teksad,95,understands,0
-Estonian,24,teksad,116,produces,0.1897
-Estonian,24,teksad,116,understands,0
-Estonian,25,teksad,82,produces,0.1341
-Estonian,25,teksad,82,understands,0
-Estonian,26,teksad,84,produces,0.1548
-Estonian,26,teksad,84,understands,0
-Estonian,27,teksad,80,produces,0.2375
-Estonian,27,teksad,80,understands,0
-Estonian,28,teksad,92,produces,0.3043
-Estonian,28,teksad,92,understands,0
-Estonian,29,teksad,100,produces,0.41
-Estonian,29,teksad,100,understands,0
-Estonian,30,teksad,71,produces,0.3662
-Estonian,30,teksad,71,understands,0
-French (French),8,jeans,54,produces,0
-French (French),8,jeans,54,understands,0.037
-French (French),9,jeans,11,produces,0
-French (French),9,jeans,11,understands,0.0909
-French (French),10,jeans,13,produces,0
-French (French),10,jeans,13,understands,0
-French (French),11,jeans,42,produces,0
-French (French),11,jeans,42,understands,0
-French (French),12,jeans,64,produces,0
-French (French),12,jeans,64,understands,0.0469
-French (French),13,jeans,116,produces,0
-French (French),13,jeans,116,understands,0.0517
-French (French),14,jeans,40,produces,0
-French (French),14,jeans,40,understands,0
-French (French),15,jeans,26,produces,0.0385
-French (French),15,jeans,26,understands,0.0385
-French (French),16,jeans,98,produces,0.0204
-French (French),16,jeans,98,understands,0
-French (French),17,jeans,52,produces,0.0192
-French (French),17,jeans,52,understands,0
-French (French),18,jeans,54,produces,0.0556
-French (French),18,jeans,54,understands,0
-French (French),19,jeans,42,produces,0.0714
-French (French),19,jeans,42,understands,0
-French (French),20,jeans,81,produces,0.1111
-French (French),20,jeans,81,understands,0
-French (French),21,jeans,102,produces,0.098
-French (French),21,jeans,102,understands,0
-French (French),22,jeans,103,produces,0.1165
-French (French),22,jeans,103,understands,0
-French (French),23,jeans,118,produces,0.2458
-French (French),23,jeans,118,understands,0
-French (French),24,jeans,173,produces,0.1561
-French (French),24,jeans,173,understands,0
-French (French),25,jeans,87,produces,0.2299
-French (French),25,jeans,87,understands,0
-French (French),26,jeans,64,produces,0.2188
-French (French),26,jeans,64,understands,0
-French (French),27,jeans,54,produces,0.2037
-French (French),27,jeans,54,understands,0
-French (French),28,jeans,76,produces,0.2237
-French (French),28,jeans,76,understands,0
-French (French),29,jeans,67,produces,0.3284
-French (French),29,jeans,67,understands,0
-French (French),30,jeans,68,produces,0.3235
-French (French),30,jeans,68,understands,0
-French (Quebecois),8,jeans,103,produces,0
-French (Quebecois),8,jeans,103,understands,0.0097
-French (Quebecois),9,jeans,167,produces,0
-French (Quebecois),9,jeans,167,understands,0.012
-French (Quebecois),10,jeans,86,produces,0
-French (Quebecois),10,jeans,86,understands,0.0233
-French (Quebecois),11,jeans,81,produces,0
-French (Quebecois),11,jeans,81,understands,0.0247
-French (Quebecois),12,jeans,166,produces,0
-French (Quebecois),12,jeans,166,understands,0.0301
-French (Quebecois),13,jeans,126,produces,0
-French (Quebecois),13,jeans,126,understands,0.0238
-French (Quebecois),14,jeans,228,produces,0
-French (Quebecois),14,jeans,228,understands,0.057
-French (Quebecois),15,jeans,101,produces,0.0297
-French (Quebecois),15,jeans,101,understands,0.0891
-French (Quebecois),16,jeans,108,produces,0
-French (Quebecois),16,jeans,108,understands,0.0648
-French (Quebecois),17,jeans,62,produces,0.0161
-French (Quebecois),17,jeans,62,understands,0
-French (Quebecois),18,jeans,99,produces,0.0909
-French (Quebecois),18,jeans,99,understands,0
-French (Quebecois),19,jeans,91,produces,0.044
-French (Quebecois),19,jeans,91,understands,0
-French (Quebecois),20,jeans,196,produces,0.0816
-French (Quebecois),20,jeans,196,understands,0
-French (Quebecois),21,jeans,109,produces,0.1284
-French (Quebecois),21,jeans,109,understands,0
-French (Quebecois),22,jeans,86,produces,0.1744
-French (Quebecois),22,jeans,86,understands,0
-French (Quebecois),23,jeans,86,produces,0.1744
-French (Quebecois),23,jeans,86,understands,0
-French (Quebecois),24,jeans,132,produces,0.2348
-French (Quebecois),24,jeans,132,understands,0
-French (Quebecois),25,jeans,87,produces,0.2414
-French (Quebecois),25,jeans,87,understands,0
-French (Quebecois),26,jeans,95,produces,0.3895
-French (Quebecois),26,jeans,95,understands,0
-French (Quebecois),27,jeans,74,produces,0.3784
-French (Quebecois),27,jeans,74,understands,0
-French (Quebecois),28,jeans,61,produces,0.4918
-French (Quebecois),28,jeans,61,understands,0
-French (Quebecois),29,jeans,70,produces,0.6143
-French (Quebecois),29,jeans,70,understands,0
-French (Quebecois),30,jeans,100,produces,0.47
-French (Quebecois),30,jeans,100,understands,0
-German,18,Jeans,85,produces,0.0235
-German,18,Jeans,85,understands,0
-German,19,Jeans,79,produces,0.038
-German,19,Jeans,79,understands,0
-German,20,Jeans,96,produces,0.0417
-German,20,Jeans,96,understands,0
-German,21,Jeans,77,produces,0.1169
-German,21,Jeans,77,understands,0
-German,22,Jeans,95,produces,0.1053
-German,22,Jeans,95,understands,0
-German,23,Jeans,95,produces,0.1579
-German,23,Jeans,95,understands,0
-German,24,Jeans,103,produces,0.165
-German,24,Jeans,103,understands,0
-German,25,Jeans,95,produces,0.2526
-German,25,Jeans,95,understands,0
-German,26,Jeans,92,produces,0.3913
-German,26,Jeans,92,understands,0
-German,27,Jeans,89,produces,0.3596
-German,27,Jeans,89,understands,0
-German,28,Jeans,93,produces,0.4624
-German,28,Jeans,93,understands,0
-German,29,Jeans,89,produces,0.573
-German,29,Jeans,89,understands,0
-German,30,Jeans,93,produces,0.5484
-German,30,Jeans,93,understands,0
-Greek (Cypriot),18,τζην,45,produces,0.0667
-Greek (Cypriot),18,τζην,45,understands,0
-Greek (Cypriot),21,τζην,36,produces,0.1389
-Greek (Cypriot),21,τζην,36,understands,0
-Greek (Cypriot),24,τζην,32,produces,0.3438
-Greek (Cypriot),24,τζην,32,understands,0
-Greek (Cypriot),27,τζην,29,produces,0.5862
-Greek (Cypriot),27,τζην,29,understands,0
-Greek (Cypriot),30,τζην,34,produces,0.5294
-Greek (Cypriot),30,τζην,34,understands,0
-Hebrew,11,ג'ינס,1,produces,0
-Hebrew,11,ג'ינס,1,understands,0
-Hebrew,12,ג'ינס,4,produces,0
-Hebrew,12,ג'ינס,4,understands,0
-Hebrew,13,ג'ינס,4,produces,0
-Hebrew,13,ג'ינס,4,understands,0.25
-Hebrew,14,ג'ינס,1,produces,0
-Hebrew,14,ג'ינס,1,understands,0
-Hebrew,15,ג'ינס,2,produces,0
-Hebrew,15,ג'ינס,2,understands,0
-Hebrew,16,ג'ינס,6,produces,0.1667
-Hebrew,16,ג'ינס,6,understands,0.1667
-Hebrew,17,ג'ינס,3,produces,0.3333
-Hebrew,17,ג'ינס,3,understands,0.3333
-Hebrew,19,ג'ינס,4,produces,0
-Hebrew,19,ג'ינס,4,understands,0
-Hebrew,20,ג'ינס,9,produces,0.2222
-Hebrew,20,ג'ינס,9,understands,0.4444
-Hebrew,21,ג'ינס,4,produces,0.5
-Hebrew,21,ג'ינס,4,understands,0.5
-Hebrew,22,ג'ינס,3,produces,0.3333
-Hebrew,22,ג'ינס,3,understands,0.6667
-Hebrew,23,ג'ינס,7,produces,0
-Hebrew,23,ג'ינס,7,understands,0
-Hebrew,24,ג'ינס,11,produces,0.3636
-Hebrew,24,ג'ינס,11,understands,0.6364
-Hebrew,25,ג'ינס,84,produces,0.3333
-Hebrew,25,ג'ינס,84,understands,0
-Hebrew,26,ג'ינס,80,produces,0.4375
-Hebrew,26,ג'ינס,80,understands,0
-Hebrew,27,ג'ינס,68,produces,0.4265
-Hebrew,27,ג'ינס,68,understands,0
-Hebrew,28,ג'ינס,57,produces,0.5614
-Hebrew,28,ג'ינס,57,understands,0
-Hebrew,29,ג'ינס,47,produces,0.4255
-Hebrew,29,ג'ינס,47,understands,0
-Hebrew,30,ג'ינס,28,produces,0.6071
-Hebrew,30,ג'ינס,28,understands,0
-Hebrew,31,ג'ינס,35,produces,0.4857
-Hebrew,31,ג'ינס,35,understands,0
-Hebrew,32,ג'ינס,36,produces,0.5833
-Hebrew,32,ג'ינס,36,understands,0
-Hebrew,33,ג'ינס,21,produces,0.5238
-Hebrew,33,ג'ינס,21,understands,0
-Hebrew,34,ג'ינס,27,produces,0.6667
-Hebrew,34,ג'ינס,27,understands,0
-Hebrew,35,ג'ינס,18,produces,0.5556
-Hebrew,35,ג'ינס,18,understands,0
-Hebrew,36,ג'ינס,5,produces,0.2
-Hebrew,36,ג'ינס,5,understands,0
-Hungarian,16,farmer,21,produces,0
-Hungarian,16,farmer,21,understands,0
-Hungarian,17,farmer,18,produces,0.1111
-Hungarian,17,farmer,18,understands,0
-Hungarian,18,farmer,18,produces,0.1111
-Hungarian,18,farmer,18,understands,0
-Hungarian,19,farmer,26,produces,0.1923
-Hungarian,19,farmer,26,understands,0
-Hungarian,20,farmer,18,produces,0.1111
-Hungarian,20,farmer,18,understands,0
-Hungarian,21,farmer,36,produces,0.3056
-Hungarian,21,farmer,36,understands,0
-Hungarian,22,farmer,27,produces,0.2593
-Hungarian,22,farmer,27,understands,0
-Hungarian,23,farmer,18,produces,0.1667
-Hungarian,23,farmer,18,understands,0
-Hungarian,24,farmer,38,produces,0.4474
-Hungarian,24,farmer,38,understands,0
-Hungarian,25,farmer,43,produces,0.5581
-Hungarian,25,farmer,43,understands,0
-Hungarian,26,farmer,23,produces,0.4348
-Hungarian,26,farmer,23,understands,0
-Hungarian,27,farmer,26,produces,0.5769
-Hungarian,27,farmer,26,understands,0
-Hungarian,28,farmer,30,produces,0.4667
-Hungarian,28,farmer,30,understands,0
-Hungarian,29,farmer,12,produces,0.6667
-Hungarian,29,farmer,12,understands,0
-Hungarian,30,farmer,18,produces,0.7222
-Hungarian,30,farmer,18,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,جينز,19,produces,0
+Arabic (Saudi),All,8,جينز,19,understands,0
+Arabic (Saudi),All,9,جينز,18,produces,0
+Arabic (Saudi),All,9,جينز,18,understands,0
+Arabic (Saudi),All,10,جينز,25,produces,0.04
+Arabic (Saudi),All,10,جينز,25,understands,0
+Arabic (Saudi),All,11,جينز,21,produces,0
+Arabic (Saudi),All,11,جينز,21,understands,0
+Arabic (Saudi),All,12,جينز,19,produces,0
+Arabic (Saudi),All,12,جينز,19,understands,0
+Arabic (Saudi),All,13,جينز,36,produces,0.1389
+Arabic (Saudi),All,13,جينز,36,understands,0
+Arabic (Saudi),All,14,جينز,20,produces,0
+Arabic (Saudi),All,14,جينز,20,understands,0
+Arabic (Saudi),All,15,جينز,19,produces,0
+Arabic (Saudi),All,15,جينز,19,understands,0
+Arabic (Saudi),All,16,جينز,18,produces,0.0556
+Arabic (Saudi),All,16,جينز,18,understands,0
+Cantonese,All,16,牛仔褲,46,produces,0
+Cantonese,All,16,牛仔褲,46,understands,0
+Cantonese,All,17,牛仔褲,61,produces,0
+Cantonese,All,17,牛仔褲,61,understands,0
+Cantonese,All,18,牛仔褲,68,produces,0.0294
+Cantonese,All,18,牛仔褲,68,understands,0
+Cantonese,All,19,牛仔褲,66,produces,0
+Cantonese,All,19,牛仔褲,66,understands,0
+Cantonese,All,20,牛仔褲,140,produces,0.0071
+Cantonese,All,20,牛仔褲,140,understands,0
+Cantonese,All,21,牛仔褲,120,produces,0
+Cantonese,All,21,牛仔褲,120,understands,0
+Cantonese,All,22,牛仔褲,68,produces,0.0294
+Cantonese,All,22,牛仔褲,68,understands,0
+Cantonese,All,23,牛仔褲,74,produces,0.0405
+Cantonese,All,23,牛仔褲,74,understands,0
+Cantonese,All,24,牛仔褲,68,produces,0.0294
+Cantonese,All,24,牛仔褲,68,understands,0
+Cantonese,All,25,牛仔褲,65,produces,0.0923
+Cantonese,All,25,牛仔褲,65,understands,0
+Cantonese,All,26,牛仔褲,68,produces,0.1324
+Cantonese,All,26,牛仔褲,68,understands,0
+Cantonese,All,27,牛仔褲,62,produces,0.1129
+Cantonese,All,27,牛仔褲,62,understands,0
+Cantonese,All,28,牛仔褲,66,produces,0.197
+Cantonese,All,28,牛仔褲,66,understands,0
+Cantonese,All,29,牛仔褲,72,produces,0.1944
+Cantonese,All,29,牛仔褲,72,understands,0
+Cantonese,All,30,牛仔褲,164,produces,0.25
+Cantonese,All,30,牛仔褲,164,understands,0
+Dutch,All,8,jeans(broek)/spijkerbroek,7,produces,0
+Dutch,All,8,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,All,9,jeans(broek)/spijkerbroek,94,produces,0
+Dutch,All,9,jeans(broek)/spijkerbroek,94,understands,0.0319
+Dutch,All,10,jeans(broek)/spijkerbroek,128,produces,0.0078
+Dutch,All,10,jeans(broek)/spijkerbroek,128,understands,0.0625
+Dutch,All,11,jeans(broek)/spijkerbroek,9,produces,0
+Dutch,All,11,jeans(broek)/spijkerbroek,9,understands,0
+Dutch,All,12,jeans(broek)/spijkerbroek,7,produces,0
+Dutch,All,12,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,All,13,jeans(broek)/spijkerbroek,6,produces,0
+Dutch,All,13,jeans(broek)/spijkerbroek,6,understands,0.3333
+Dutch,All,14,jeans(broek)/spijkerbroek,35,produces,0.0286
+Dutch,All,14,jeans(broek)/spijkerbroek,35,understands,0.0571
+Dutch,All,15,jeans(broek)/spijkerbroek,6,produces,0
+Dutch,All,15,jeans(broek)/spijkerbroek,6,understands,0.5
+Dutch,All,16,jeans(broek)/spijkerbroek,9,produces,0
+Dutch,All,16,jeans(broek)/spijkerbroek,9,understands,0
+Dutch,All,17,jeans(broek)/spijkerbroek,49,produces,0
+Dutch,All,17,jeans(broek)/spijkerbroek,49,understands,0
+Dutch,All,18,jeans(broek)/spijkerbroek,68,produces,0.0882
+Dutch,All,18,jeans(broek)/spijkerbroek,68,understands,0
+Dutch,All,19,jeans(broek)/spijkerbroek,7,produces,0.2857
+Dutch,All,19,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,All,20,jeans(broek)/spijkerbroek,7,produces,0.1429
+Dutch,All,20,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,All,21,jeans(broek)/spijkerbroek,7,produces,0.1429
+Dutch,All,21,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,All,22,jeans(broek)/spijkerbroek,7,produces,0.2857
+Dutch,All,22,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,All,23,jeans(broek)/spijkerbroek,51,produces,0.549
+Dutch,All,23,jeans(broek)/spijkerbroek,51,understands,0
+Dutch,All,24,jeans(broek)/spijkerbroek,31,produces,0.5161
+Dutch,All,24,jeans(broek)/spijkerbroek,31,understands,0
+Dutch,All,25,jeans(broek)/spijkerbroek,6,produces,0.8333
+Dutch,All,25,jeans(broek)/spijkerbroek,6,understands,0
+Dutch,All,26,jeans(broek)/spijkerbroek,6,produces,0.3333
+Dutch,All,26,jeans(broek)/spijkerbroek,6,understands,0
+Dutch,All,27,jeans(broek)/spijkerbroek,5,produces,0.4
+Dutch,All,27,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,All,28,"jeans(broek)/spijkerbroek, jeans(broek)",7,produces,0.7143
+Dutch,All,28,"jeans(broek)/spijkerbroek, jeans(broek)",7,understands,0
+Dutch,All,29,"jeans(broek), jeans(broek)/spijkerbroek",71,produces,0.7042
+Dutch,All,29,"jeans(broek), jeans(broek)/spijkerbroek",71,understands,0
+Dutch,All,30,"jeans(broek), jeans(broek)/spijkerbroek",45,produces,0.8222
+Dutch,All,30,"jeans(broek), jeans(broek)/spijkerbroek",45,understands,0
+Dutch,All,31,"jeans(broek), jeans(broek)/spijkerbroek",7,produces,0.7143
+Dutch,All,31,"jeans(broek), jeans(broek)/spijkerbroek",7,understands,0
+Dutch,All,32,jeans(broek),5,produces,1
+Dutch,All,32,jeans(broek),5,understands,0
+Dutch,All,33,jeans(broek),3,produces,0.3333
+Dutch,All,33,jeans(broek),3,understands,0
+Dutch,All,34,jeans(broek),5,produces,0.4
+Dutch,All,34,jeans(broek),5,understands,0
+Dutch,All,35,jeans(broek),3,produces,0.6667
+Dutch,All,35,jeans(broek),3,understands,0
+Dutch,All,36,jeans(broek),6,produces,0.8333
+Dutch,All,36,jeans(broek),6,understands,0
+English (American),All,8,jeans,255,produces,0.0039
+English (American),All,8,jeans,255,understands,0.0549
+English (American),All,9,jeans,299,produces,0.0033
+English (American),All,9,jeans,299,understands,0.0401
+English (American),All,10,jeans,279,produces,0.0108
+English (American),All,10,jeans,279,understands,0.0394
+English (American),All,11,jeans,360,produces,0.0111
+English (American),All,11,jeans,360,understands,0.0444
+English (American),All,12,jeans,615,produces,0.013
+English (American),All,12,jeans,615,understands,0.0699
+English (American),All,13,jeans,1039,produces,0.0048
+English (American),All,13,jeans,1039,understands,0.0491
+English (American),All,14,jeans,455,produces,0.0176
+English (American),All,14,jeans,455,understands,0.0835
+English (American),All,15,jeans,245,produces,0.0327
+English (American),All,15,jeans,245,understands,0.1265
+English (American),All,16,jeans,1750,produces,0.0149
+English (American),All,16,jeans,1750,understands,0.06
+English (American),All,17,jeans,831,produces,0.0301
+English (American),All,17,jeans,831,understands,0.0794
+English (American),All,18,jeans,1024,produces,0.0381
+English (American),All,18,jeans,1024,understands,0.084
+English (American),All,19,jeans,570,produces,0.0719
+English (American),All,19,jeans,570,understands,0
+English (American),All,20,jeans,537,produces,0.0819
+English (American),All,20,jeans,537,understands,0
+English (American),All,21,jeans,366,produces,0.1421
+English (American),All,21,jeans,366,understands,0
+English (American),All,22,jeans,454,produces,0.1564
+English (American),All,22,jeans,454,understands,0
+English (American),All,23,jeans,470,produces,0.2191
+English (American),All,23,jeans,470,understands,0
+English (American),All,24,jeans,985,produces,0.2822
+English (American),All,24,jeans,985,understands,0
+English (American),All,25,jeans,757,produces,0.3078
+English (American),All,25,jeans,757,understands,0
+English (American),All,26,jeans,435,produces,0.3678
+English (American),All,26,jeans,435,understands,0
+English (American),All,27,jeans,361,produces,0.3269
+English (American),All,27,jeans,361,understands,0
+English (American),All,28,jeans,954,produces,0.5566
+English (American),All,28,jeans,954,understands,0
+English (American),All,29,jeans,390,produces,0.4923
+English (American),All,29,jeans,390,understands,0
+English (American),All,30,jeans,785,produces,0.5223
+English (American),All,30,jeans,785,understands,0
+English (Australian),All,12,jeans,71,produces,0
+English (Australian),All,12,jeans,71,understands,0
+English (Australian),All,13,jeans,64,produces,0
+English (Australian),All,13,jeans,64,understands,0
+English (Australian),All,14,jeans,111,produces,0.009
+English (Australian),All,14,jeans,111,understands,0
+English (Australian),All,15,jeans,69,produces,0.029
+English (Australian),All,15,jeans,69,understands,0
+English (Australian),All,16,jeans,60,produces,0
+English (Australian),All,16,jeans,60,understands,0
+English (Australian),All,17,jeans,104,produces,0.0481
+English (Australian),All,17,jeans,104,understands,0
+English (Australian),All,18,jeans,109,produces,0.0183
+English (Australian),All,18,jeans,109,understands,0
+English (Australian),All,19,jeans,124,produces,0.1371
+English (Australian),All,19,jeans,124,understands,0
+English (Australian),All,20,jeans,78,produces,0.141
+English (Australian),All,20,jeans,78,understands,0
+English (Australian),All,21,jeans,68,produces,0.1618
+English (Australian),All,21,jeans,68,understands,0
+English (Australian),All,22,jeans,73,produces,0.3014
+English (Australian),All,22,jeans,73,understands,0
+English (Australian),All,23,jeans,71,produces,0.4085
+English (Australian),All,23,jeans,71,understands,0
+English (Australian),All,24,jeans,76,produces,0.3289
+English (Australian),All,24,jeans,76,understands,0
+English (Australian),All,25,jeans,85,produces,0.4
+English (Australian),All,25,jeans,85,understands,0
+English (Australian),All,26,jeans,77,produces,0.4156
+English (Australian),All,26,jeans,77,understands,0
+English (Australian),All,27,jeans,72,produces,0.6111
+English (Australian),All,27,jeans,72,understands,0
+English (Australian),All,28,jeans,67,produces,0.4179
+English (Australian),All,28,jeans,67,understands,0
+English (Australian),All,29,jeans,65,produces,0.6615
+English (Australian),All,29,jeans,65,understands,0
+English (Australian),All,30,jeans,53,produces,0.6226
+English (Australian),All,30,jeans,53,understands,0
+English (British),All,12,jeans,27,produces,0
+English (British),All,12,jeans,27,understands,0
+English (British),All,13,jeans,7,produces,0
+English (British),All,13,jeans,7,understands,0
+English (British),All,14,jeans,64,produces,0
+English (British),All,14,jeans,64,understands,0.0938
+English (British),All,15,jeans,88,produces,0
+English (British),All,15,jeans,88,understands,0.0682
+English (British),All,16,jeans,118,produces,0.0085
+English (British),All,16,jeans,118,understands,0.1186
+English (British),All,17,jeans,197,produces,0.0305
+English (British),All,17,jeans,197,understands,0.1777
+English (British),All,18,jeans,118,produces,0.0424
+English (British),All,18,jeans,118,understands,0.1864
+English (British),All,19,jeans,109,produces,0.0734
+English (British),All,19,jeans,109,understands,0.3486
+English (British),All,20,jeans,144,produces,0.1181
+English (British),All,20,jeans,144,understands,0.3611
+English (British),All,21,jeans,75,produces,0.1067
+English (British),All,21,jeans,75,understands,0.4533
+English (British),All,22,jeans,28,produces,0.1429
+English (British),All,22,jeans,28,understands,0.3571
+English (British),All,23,jeans,112,produces,0.2679
+English (British),All,23,jeans,112,understands,0.5714
+English (British),All,24,jeans,87,produces,0.3333
+English (British),All,24,jeans,87,understands,0.6437
+English (British),All,25,jeans,36,produces,0.3889
+English (British),All,25,jeans,36,understands,0.5
+English (British),All,34,jeans,443,produces,0.6727
+English (British),All,34,jeans,443,understands,0
+English (British),All,35,jeans,3693,produces,0.6729
+English (British),All,35,jeans,3693,understands,0
+English (British),All,36,jeans,5244,produces,0.6732
+English (British),All,36,jeans,5244,understands,0
+English (British),All,37,jeans,906,produces,0.6645
+English (British),All,37,jeans,906,understands,0
+English (British),All,38,jeans,264,produces,0.6098
+English (British),All,38,jeans,264,understands,0
+English (British),All,39,jeans,99,produces,0.7172
+English (British),All,39,jeans,99,understands,0
+English (British),All,40,jeans,48,produces,0.6042
+English (British),All,40,jeans,48,understands,0
+English (British),All,41,jeans,24,produces,0.75
+English (British),All,41,jeans,24,understands,0
+English (British),All,42,jeans,23,produces,0.6087
+English (British),All,42,jeans,23,understands,0
+English (British),All,43,jeans,12,produces,0.6667
+English (British),All,43,jeans,12,understands,0
+English (British),All,44,jeans,9,produces,0.6667
+English (British),All,44,jeans,9,understands,0
+English (British),All,45,jeans,12,produces,0.75
+English (British),All,45,jeans,12,understands,0
+English (British),All,46,jeans,5,produces,0.2
+English (British),All,46,jeans,5,understands,0
+English (British),All,47,jeans,8,produces,0.75
+English (British),All,47,jeans,8,understands,0
+Estonian,All,16,teksad,36,produces,0.0278
+Estonian,All,16,teksad,36,understands,0
+Estonian,All,17,teksad,89,produces,0
+Estonian,All,17,teksad,89,understands,0
+Estonian,All,18,teksad,103,produces,0.0097
+Estonian,All,18,teksad,103,understands,0
+Estonian,All,19,teksad,85,produces,0.0118
+Estonian,All,19,teksad,85,understands,0
+Estonian,All,20,teksad,60,produces,0.0167
+Estonian,All,20,teksad,60,understands,0
+Estonian,All,21,teksad,66,produces,0.0909
+Estonian,All,21,teksad,66,understands,0
+Estonian,All,22,teksad,76,produces,0.0526
+Estonian,All,22,teksad,76,understands,0
+Estonian,All,23,teksad,95,produces,0.1684
+Estonian,All,23,teksad,95,understands,0
+Estonian,All,24,teksad,116,produces,0.1897
+Estonian,All,24,teksad,116,understands,0
+Estonian,All,25,teksad,82,produces,0.1341
+Estonian,All,25,teksad,82,understands,0
+Estonian,All,26,teksad,84,produces,0.1548
+Estonian,All,26,teksad,84,understands,0
+Estonian,All,27,teksad,80,produces,0.2375
+Estonian,All,27,teksad,80,understands,0
+Estonian,All,28,teksad,92,produces,0.3043
+Estonian,All,28,teksad,92,understands,0
+Estonian,All,29,teksad,100,produces,0.41
+Estonian,All,29,teksad,100,understands,0
+Estonian,All,30,teksad,71,produces,0.3662
+Estonian,All,30,teksad,71,understands,0
+French (French),All,8,jeans,54,produces,0
+French (French),All,8,jeans,54,understands,0.037
+French (French),All,9,jeans,11,produces,0
+French (French),All,9,jeans,11,understands,0.0909
+French (French),All,10,jeans,13,produces,0
+French (French),All,10,jeans,13,understands,0
+French (French),All,11,jeans,42,produces,0
+French (French),All,11,jeans,42,understands,0
+French (French),All,12,jeans,64,produces,0
+French (French),All,12,jeans,64,understands,0.0469
+French (French),All,13,jeans,116,produces,0
+French (French),All,13,jeans,116,understands,0.0517
+French (French),All,14,jeans,40,produces,0
+French (French),All,14,jeans,40,understands,0
+French (French),All,15,jeans,26,produces,0.0385
+French (French),All,15,jeans,26,understands,0.0385
+French (French),All,16,jeans,98,produces,0.0204
+French (French),All,16,jeans,98,understands,0
+French (French),All,17,jeans,52,produces,0.0192
+French (French),All,17,jeans,52,understands,0
+French (French),All,18,jeans,54,produces,0.0556
+French (French),All,18,jeans,54,understands,0
+French (French),All,19,jeans,42,produces,0.0714
+French (French),All,19,jeans,42,understands,0
+French (French),All,20,jeans,81,produces,0.1111
+French (French),All,20,jeans,81,understands,0
+French (French),All,21,jeans,102,produces,0.098
+French (French),All,21,jeans,102,understands,0
+French (French),All,22,jeans,103,produces,0.1165
+French (French),All,22,jeans,103,understands,0
+French (French),All,23,jeans,118,produces,0.2458
+French (French),All,23,jeans,118,understands,0
+French (French),All,24,jeans,173,produces,0.1561
+French (French),All,24,jeans,173,understands,0
+French (French),All,25,jeans,87,produces,0.2299
+French (French),All,25,jeans,87,understands,0
+French (French),All,26,jeans,64,produces,0.2188
+French (French),All,26,jeans,64,understands,0
+French (French),All,27,jeans,54,produces,0.2037
+French (French),All,27,jeans,54,understands,0
+French (French),All,28,jeans,76,produces,0.2237
+French (French),All,28,jeans,76,understands,0
+French (French),All,29,jeans,67,produces,0.3284
+French (French),All,29,jeans,67,understands,0
+French (French),All,30,jeans,68,produces,0.3235
+French (French),All,30,jeans,68,understands,0
+French (Quebecois),All,8,jeans,103,produces,0
+French (Quebecois),All,8,jeans,103,understands,0.0097
+French (Quebecois),All,9,jeans,167,produces,0
+French (Quebecois),All,9,jeans,167,understands,0.012
+French (Quebecois),All,10,jeans,86,produces,0
+French (Quebecois),All,10,jeans,86,understands,0.0233
+French (Quebecois),All,11,jeans,81,produces,0
+French (Quebecois),All,11,jeans,81,understands,0.0247
+French (Quebecois),All,12,jeans,166,produces,0
+French (Quebecois),All,12,jeans,166,understands,0.0301
+French (Quebecois),All,13,jeans,126,produces,0
+French (Quebecois),All,13,jeans,126,understands,0.0238
+French (Quebecois),All,14,jeans,228,produces,0
+French (Quebecois),All,14,jeans,228,understands,0.057
+French (Quebecois),All,15,jeans,101,produces,0.0297
+French (Quebecois),All,15,jeans,101,understands,0.0891
+French (Quebecois),All,16,jeans,108,produces,0
+French (Quebecois),All,16,jeans,108,understands,0.0648
+French (Quebecois),All,17,jeans,62,produces,0.0161
+French (Quebecois),All,17,jeans,62,understands,0
+French (Quebecois),All,18,jeans,99,produces,0.0909
+French (Quebecois),All,18,jeans,99,understands,0
+French (Quebecois),All,19,jeans,91,produces,0.044
+French (Quebecois),All,19,jeans,91,understands,0
+French (Quebecois),All,20,jeans,196,produces,0.0816
+French (Quebecois),All,20,jeans,196,understands,0
+French (Quebecois),All,21,jeans,109,produces,0.1284
+French (Quebecois),All,21,jeans,109,understands,0
+French (Quebecois),All,22,jeans,86,produces,0.1744
+French (Quebecois),All,22,jeans,86,understands,0
+French (Quebecois),All,23,jeans,86,produces,0.1744
+French (Quebecois),All,23,jeans,86,understands,0
+French (Quebecois),All,24,jeans,132,produces,0.2348
+French (Quebecois),All,24,jeans,132,understands,0
+French (Quebecois),All,25,jeans,87,produces,0.2414
+French (Quebecois),All,25,jeans,87,understands,0
+French (Quebecois),All,26,jeans,95,produces,0.3895
+French (Quebecois),All,26,jeans,95,understands,0
+French (Quebecois),All,27,jeans,74,produces,0.3784
+French (Quebecois),All,27,jeans,74,understands,0
+French (Quebecois),All,28,jeans,61,produces,0.4918
+French (Quebecois),All,28,jeans,61,understands,0
+French (Quebecois),All,29,jeans,70,produces,0.6143
+French (Quebecois),All,29,jeans,70,understands,0
+French (Quebecois),All,30,jeans,100,produces,0.47
+French (Quebecois),All,30,jeans,100,understands,0
+German,All,18,Jeans,85,produces,0.0235
+German,All,18,Jeans,85,understands,0
+German,All,19,Jeans,79,produces,0.038
+German,All,19,Jeans,79,understands,0
+German,All,20,Jeans,96,produces,0.0417
+German,All,20,Jeans,96,understands,0
+German,All,21,Jeans,77,produces,0.1169
+German,All,21,Jeans,77,understands,0
+German,All,22,Jeans,95,produces,0.1053
+German,All,22,Jeans,95,understands,0
+German,All,23,Jeans,95,produces,0.1579
+German,All,23,Jeans,95,understands,0
+German,All,24,Jeans,103,produces,0.165
+German,All,24,Jeans,103,understands,0
+German,All,25,Jeans,95,produces,0.2526
+German,All,25,Jeans,95,understands,0
+German,All,26,Jeans,92,produces,0.3913
+German,All,26,Jeans,92,understands,0
+German,All,27,Jeans,89,produces,0.3596
+German,All,27,Jeans,89,understands,0
+German,All,28,Jeans,93,produces,0.4624
+German,All,28,Jeans,93,understands,0
+German,All,29,Jeans,89,produces,0.573
+German,All,29,Jeans,89,understands,0
+German,All,30,Jeans,93,produces,0.5484
+German,All,30,Jeans,93,understands,0
+Greek (Cypriot),All,18,τζην,45,produces,0.0667
+Greek (Cypriot),All,18,τζην,45,understands,0
+Greek (Cypriot),All,21,τζην,36,produces,0.1389
+Greek (Cypriot),All,21,τζην,36,understands,0
+Greek (Cypriot),All,24,τζην,32,produces,0.3438
+Greek (Cypriot),All,24,τζην,32,understands,0
+Greek (Cypriot),All,27,τζην,29,produces,0.5862
+Greek (Cypriot),All,27,τζην,29,understands,0
+Greek (Cypriot),All,30,τζην,34,produces,0.5294
+Greek (Cypriot),All,30,τζην,34,understands,0
+Hebrew,All,11,ג'ינס,1,produces,0
+Hebrew,All,11,ג'ינס,1,understands,0
+Hebrew,All,12,ג'ינס,4,produces,0
+Hebrew,All,12,ג'ינס,4,understands,0
+Hebrew,All,13,ג'ינס,4,produces,0
+Hebrew,All,13,ג'ינס,4,understands,0.25
+Hebrew,All,14,ג'ינס,1,produces,0
+Hebrew,All,14,ג'ינס,1,understands,0
+Hebrew,All,15,ג'ינס,2,produces,0
+Hebrew,All,15,ג'ינס,2,understands,0
+Hebrew,All,16,ג'ינס,6,produces,0.1667
+Hebrew,All,16,ג'ינס,6,understands,0.1667
+Hebrew,All,17,ג'ינס,3,produces,0.3333
+Hebrew,All,17,ג'ינס,3,understands,0.3333
+Hebrew,All,19,ג'ינס,4,produces,0
+Hebrew,All,19,ג'ינס,4,understands,0
+Hebrew,All,20,ג'ינס,9,produces,0.2222
+Hebrew,All,20,ג'ינס,9,understands,0.4444
+Hebrew,All,21,ג'ינס,4,produces,0.5
+Hebrew,All,21,ג'ינס,4,understands,0.5
+Hebrew,All,22,ג'ינס,3,produces,0.3333
+Hebrew,All,22,ג'ינס,3,understands,0.6667
+Hebrew,All,23,ג'ינס,7,produces,0
+Hebrew,All,23,ג'ינס,7,understands,0
+Hebrew,All,24,ג'ינס,11,produces,0.3636
+Hebrew,All,24,ג'ינס,11,understands,0.6364
+Hebrew,All,25,ג'ינס,84,produces,0.3333
+Hebrew,All,25,ג'ינס,84,understands,0
+Hebrew,All,26,ג'ינס,80,produces,0.4375
+Hebrew,All,26,ג'ינס,80,understands,0
+Hebrew,All,27,ג'ינס,68,produces,0.4265
+Hebrew,All,27,ג'ינס,68,understands,0
+Hebrew,All,28,ג'ינס,57,produces,0.5614
+Hebrew,All,28,ג'ינס,57,understands,0
+Hebrew,All,29,ג'ינס,47,produces,0.4255
+Hebrew,All,29,ג'ינס,47,understands,0
+Hebrew,All,30,ג'ינס,28,produces,0.6071
+Hebrew,All,30,ג'ינס,28,understands,0
+Hebrew,All,31,ג'ינס,35,produces,0.4857
+Hebrew,All,31,ג'ינס,35,understands,0
+Hebrew,All,32,ג'ינס,36,produces,0.5833
+Hebrew,All,32,ג'ינס,36,understands,0
+Hebrew,All,33,ג'ינס,21,produces,0.5238
+Hebrew,All,33,ג'ינס,21,understands,0
+Hebrew,All,34,ג'ינס,27,produces,0.6667
+Hebrew,All,34,ג'ינס,27,understands,0
+Hebrew,All,35,ג'ינס,18,produces,0.5556
+Hebrew,All,35,ג'ינס,18,understands,0
+Hebrew,All,36,ג'ינס,5,produces,0.2
+Hebrew,All,36,ג'ינס,5,understands,0
+Hungarian,All,16,farmer,21,produces,0
+Hungarian,All,16,farmer,21,understands,0
+Hungarian,All,17,farmer,18,produces,0.1111
+Hungarian,All,17,farmer,18,understands,0
+Hungarian,All,18,farmer,18,produces,0.1111
+Hungarian,All,18,farmer,18,understands,0
+Hungarian,All,19,farmer,26,produces,0.1923
+Hungarian,All,19,farmer,26,understands,0
+Hungarian,All,20,farmer,18,produces,0.1111
+Hungarian,All,20,farmer,18,understands,0
+Hungarian,All,21,farmer,36,produces,0.3056
+Hungarian,All,21,farmer,36,understands,0
+Hungarian,All,22,farmer,27,produces,0.2593
+Hungarian,All,22,farmer,27,understands,0
+Hungarian,All,23,farmer,18,produces,0.1667
+Hungarian,All,23,farmer,18,understands,0
+Hungarian,All,24,farmer,38,produces,0.4474
+Hungarian,All,24,farmer,38,understands,0
+Hungarian,All,25,farmer,43,produces,0.5581
+Hungarian,All,25,farmer,43,understands,0
+Hungarian,All,26,farmer,23,produces,0.4348
+Hungarian,All,26,farmer,23,understands,0
+Hungarian,All,27,farmer,26,produces,0.5769
+Hungarian,All,27,farmer,26,understands,0
+Hungarian,All,28,farmer,30,produces,0.4667
+Hungarian,All,28,farmer,30,understands,0
+Hungarian,All,29,farmer,12,produces,0.6667
+Hungarian,All,29,farmer,12,understands,0
+Hungarian,All,30,farmer,18,produces,0.7222
+Hungarian,All,30,farmer,18,understands,0
+Italian,All,18,jeans,31,produces,0.0323
+Italian,All,18,jeans,31,understands,0
+Italian,All,19,jeans,39,produces,0.0769
+Italian,All,19,jeans,39,understands,0
+Italian,All,20,jeans,64,produces,0.0625
+Italian,All,20,jeans,64,understands,0
+Italian,All,21,jeans,55,produces,0.2
+Italian,All,21,jeans,55,understands,0
+Italian,All,22,jeans,55,produces,0.2909
+Italian,All,22,jeans,55,understands,0
+Italian,All,23,jeans,53,produces,0.2642
+Italian,All,23,jeans,53,understands,0
+Italian,All,24,jeans,71,produces,0.4225
+Italian,All,24,jeans,71,understands,0
+Italian,All,25,jeans,39,produces,0.2821
+Italian,All,25,jeans,39,understands,0
+Italian,All,26,jeans,41,produces,0.5122
+Italian,All,26,jeans,41,understands,0
+Italian,All,27,jeans,43,produces,0.4651
+Italian,All,27,jeans,43,understands,0
+Italian,All,28,jeans,44,produces,0.3864
+Italian,All,28,jeans,44,understands,0
+Italian,All,29,jeans,37,produces,0.4054
+Italian,All,29,jeans,37,understands,0
+Italian,All,30,jeans,67,produces,0.597
+Italian,All,30,jeans,67,understands,0
+Italian,All,31,jeans,19,produces,0.5263
+Italian,All,31,jeans,19,understands,0
+Italian,All,32,jeans,23,produces,0.4348
+Italian,All,32,jeans,23,understands,0
+Italian,All,33,jeans,16,produces,0.625
+Italian,All,33,jeans,16,understands,0
+Italian,All,34,jeans,19,produces,0.6316
+Italian,All,34,jeans,19,understands,0
+Italian,All,35,jeans,15,produces,0.6
+Italian,All,35,jeans,15,understands,0
+Italian,All,36,jeans,21,produces,0.8095
+Italian,All,36,jeans,21,understands,0
+Japanese,All,8,ジーパン,6,produces,0
+Japanese,All,8,ジーパン,6,understands,0
+Japanese,All,9,ジーパン,10,produces,0
+Japanese,All,9,ジーパン,10,understands,0
+Japanese,All,10,ジーパン,8,produces,0
+Japanese,All,10,ジーパン,8,understands,0
+Japanese,All,11,ジーパン,87,produces,0
+Japanese,All,11,ジーパン,87,understands,0
+Japanese,All,12,ジーパン,118,produces,0
+Japanese,All,12,ジーパン,118,understands,0
+Japanese,All,13,ジーパン,23,produces,0
+Japanese,All,13,ジーパン,23,understands,0
+Japanese,All,14,ジーパン,26,produces,0
+Japanese,All,14,ジーパン,26,understands,0
+Japanese,All,15,ジーパン,72,produces,0
+Japanese,All,15,ジーパン,72,understands,0.0139
+Japanese,All,16,ジーパン,46,produces,0
+Japanese,All,16,ジーパン,46,understands,0.0217
+Japanese,All,17,ジーパン,77,produces,0
+Japanese,All,17,ジーパン,77,understands,0.026
+Japanese,All,18,ジーパン,94,produces,0.0213
+Japanese,All,18,ジーパン,94,understands,0.0213
+Japanese,All,19,ジーパン,35,produces,0
+Japanese,All,19,ジーパン,35,understands,0
+Japanese,All,20,ジーパン,59,produces,0.0169
+Japanese,All,20,ジーパン,59,understands,0
+Japanese,All,21,ジーパン,62,produces,0.0161
+Japanese,All,21,ジーパン,62,understands,0
+Japanese,All,22,ジーパン,31,produces,0.0645
+Japanese,All,22,ジーパン,31,understands,0
+Japanese,All,23,ジーパン,67,produces,0.0299
+Japanese,All,23,ジーパン,67,understands,0
+Japanese,All,24,ジーパン,33,produces,0.0909
+Japanese,All,24,ジーパン,33,understands,0
+Japanese,All,25,ジーパン,34,produces,0.0588
+Japanese,All,25,ジーパン,34,understands,0
+Japanese,All,26,ジーパン,33,produces,0.0606
+Japanese,All,26,ジーパン,33,understands,0
+Japanese,All,27,ジーパン,15,produces,0.0667
+Japanese,All,27,ジーパン,15,understands,0
+Japanese,All,28,ジーパン,18,produces,0.0556
+Japanese,All,28,ジーパン,18,understands,0
+Japanese,All,29,ジーパン,17,produces,0.1765
+Japanese,All,29,ジーパン,17,understands,0
+Japanese,All,30,ジーパン,18,produces,0
+Japanese,All,30,ジーパン,18,understands,0
+Japanese,All,31,ジーパン,18,produces,0.1667
+Japanese,All,31,ジーパン,18,understands,0
+Japanese,All,32,ジーパン,13,produces,0.1538
+Japanese,All,32,ジーパン,13,understands,0
+Japanese,All,33,ジーパン,16,produces,0.1875
+Japanese,All,33,ジーパン,16,understands,0
+Japanese,All,34,ジーパン,13,produces,0.1538
+Japanese,All,34,ジーパン,13,understands,0
+Japanese,All,35,ジーパン,31,produces,0.0968
+Japanese,All,35,ジーパン,31,understands,0
+Japanese,All,36,ジーパン,18,produces,0.0556
+Japanese,All,36,ジーパン,18,understands,0
+Kigiriama,All,16,Jinzi,1,produces,0
+Kigiriama,All,16,Jinzi,1,understands,0
+Kigiriama,All,17,Jinzi,6,produces,0
+Kigiriama,All,17,Jinzi,6,understands,0
+Kigiriama,All,18,Jinzi,13,produces,0
+Kigiriama,All,18,Jinzi,13,understands,0
+Kigiriama,All,19,Jinzi,8,produces,0
+Kigiriama,All,19,Jinzi,8,understands,0
+Kigiriama,All,20,Jinzi,14,produces,0
+Kigiriama,All,20,Jinzi,14,understands,0
+Kigiriama,All,21,Jinzi,6,produces,0
+Kigiriama,All,21,Jinzi,6,understands,0
+Kigiriama,All,22,Jinzi,9,produces,0
+Kigiriama,All,22,Jinzi,9,understands,0
+Kigiriama,All,23,Jinzi,4,produces,0
+Kigiriama,All,23,Jinzi,4,understands,0
+Kigiriama,All,24,Jinzi,7,produces,0
+Kigiriama,All,24,Jinzi,7,understands,0
+Kigiriama,All,25,Jinzi,3,produces,0
+Kigiriama,All,25,Jinzi,3,understands,0
+Kigiriama,All,26,Jinzi,6,produces,0
+Kigiriama,All,26,Jinzi,6,understands,0
+Kigiriama,All,27,Jinzi,4,produces,0.5
+Kigiriama,All,27,Jinzi,4,understands,0
+Kigiriama,All,28,Jinzi,1,produces,0
+Kigiriama,All,28,Jinzi,1,understands,0
+Kigiriama,All,29,Jinzi,5,produces,0
+Kigiriama,All,29,Jinzi,5,understands,0
+Kigiriama,All,30,Jinzi,1,produces,1
+Kigiriama,All,30,Jinzi,1,understands,0
+Kiswahili,All,23,Jeans,2,produces,0
+Kiswahili,All,23,Jeans,2,understands,0
+Kiswahili,All,24,Jeans,12,produces,0.0833
+Kiswahili,All,24,Jeans,12,understands,0
+Kiswahili,All,25,Jeans,10,produces,0
+Kiswahili,All,25,Jeans,10,understands,0
+Kiswahili,All,26,Jeans,13,produces,0
+Kiswahili,All,26,Jeans,13,understands,0
+Kiswahili,All,27,Jeans,8,produces,0.25
+Kiswahili,All,27,Jeans,8,understands,0
+Kiswahili,All,28,Jeans,6,produces,0.1667
+Kiswahili,All,28,Jeans,6,understands,0
+Kiswahili,All,29,Jeans,6,produces,0.1667
+Kiswahili,All,29,Jeans,6,understands,0
+Kiswahili,All,30,Jeans,5,produces,0.4
+Kiswahili,All,30,Jeans,5,understands,0
+Swedish,All,8,jeans,26,produces,0
+Swedish,All,8,jeans,26,understands,0
+Swedish,All,9,jeans,2,produces,0
+Swedish,All,9,jeans,2,understands,0
+Swedish,All,10,jeans,54,produces,0
+Swedish,All,10,jeans,54,understands,0
+Swedish,All,11,jeans,3,produces,0
+Swedish,All,11,jeans,3,understands,0
+Swedish,All,12,jeans,79,produces,0
+Swedish,All,12,jeans,79,understands,0.0253
+Swedish,All,13,jeans,7,produces,0
+Swedish,All,13,jeans,7,understands,0
+Swedish,All,14,jeans,124,produces,0
+Swedish,All,14,jeans,124,understands,0.0484
+Swedish,All,15,jeans,13,produces,0
+Swedish,All,15,jeans,13,understands,0.0769
+Swedish,All,16,jeans,318,produces,0.0031
+Swedish,All,16,jeans,318,understands,0.0377
+Swedish,All,19,jeans,152,produces,0
+Swedish,All,19,jeans,152,understands,0
+Swedish,All,22,jeans,307,produces,0.0814
+Swedish,All,22,jeans,307,understands,0
+Swedish,All,25,jeans,143,produces,0.2727
+Swedish,All,25,jeans,143,understands,0
+Swedish,All,28,jeans,139,produces,0.4029
+Swedish,All,28,jeans,139,understands,0
+Arabic (Saudi),Female,8,جينز,9,produces,0
+Arabic (Saudi),Female,8,جينز,9,understands,0
+Arabic (Saudi),Male,8,جينز,10,produces,0
+Arabic (Saudi),Male,8,جينز,10,understands,0
+Arabic (Saudi),Female,9,جينز,10,produces,0
+Arabic (Saudi),Female,9,جينز,10,understands,0
+Arabic (Saudi),Male,9,جينز,8,produces,0
+Arabic (Saudi),Male,9,جينز,8,understands,0
+Arabic (Saudi),Female,10,جينز,11,produces,0.0909
+Arabic (Saudi),Female,10,جينز,11,understands,0
+Arabic (Saudi),Male,10,جينز,14,produces,0
+Arabic (Saudi),Male,10,جينز,14,understands,0
+Arabic (Saudi),Female,11,جينز,9,produces,0
+Arabic (Saudi),Female,11,جينز,9,understands,0
+Arabic (Saudi),Male,11,جينز,12,produces,0
+Arabic (Saudi),Male,11,جينز,12,understands,0
+Arabic (Saudi),Female,12,جينز,8,produces,0
+Arabic (Saudi),Female,12,جينز,8,understands,0
+Arabic (Saudi),Male,12,جينز,11,produces,0
+Arabic (Saudi),Male,12,جينز,11,understands,0
+Arabic (Saudi),Female,13,جينز,16,produces,0.1875
+Arabic (Saudi),Female,13,جينز,16,understands,0
+Arabic (Saudi),Male,13,جينز,20,produces,0.1
+Arabic (Saudi),Male,13,جينز,20,understands,0
+Arabic (Saudi),Female,14,جينز,10,produces,0
+Arabic (Saudi),Female,14,جينز,10,understands,0
+Arabic (Saudi),Male,14,جينز,10,produces,0
+Arabic (Saudi),Male,14,جينز,10,understands,0
+Arabic (Saudi),Female,15,جينز,7,produces,0
+Arabic (Saudi),Female,15,جينز,7,understands,0
+Arabic (Saudi),Male,15,جينز,12,produces,0
+Arabic (Saudi),Male,15,جينز,12,understands,0
+Arabic (Saudi),Female,16,جينز,9,produces,0
+Arabic (Saudi),Female,16,جينز,9,understands,0
+Arabic (Saudi),Male,16,جينز,9,produces,0.1111
+Arabic (Saudi),Male,16,جينز,9,understands,0
+Cantonese,Female,16,牛仔褲,23,produces,0
+Cantonese,Female,16,牛仔褲,23,understands,0
+Cantonese,Male,16,牛仔褲,23,produces,0
+Cantonese,Male,16,牛仔褲,23,understands,0
+Cantonese,Female,17,牛仔褲,30,produces,0
+Cantonese,Female,17,牛仔褲,30,understands,0
+Cantonese,Male,17,牛仔褲,31,produces,0
+Cantonese,Male,17,牛仔褲,31,understands,0
+Cantonese,Female,18,牛仔褲,33,produces,0.0606
+Cantonese,Female,18,牛仔褲,33,understands,0
+Cantonese,Male,18,牛仔褲,35,produces,0
+Cantonese,Male,18,牛仔褲,35,understands,0
+Cantonese,Female,19,牛仔褲,30,produces,0
+Cantonese,Female,19,牛仔褲,30,understands,0
+Cantonese,Male,19,牛仔褲,36,produces,0
+Cantonese,Male,19,牛仔褲,36,understands,0
+Cantonese,Female,20,牛仔褲,62,produces,0.0161
+Cantonese,Female,20,牛仔褲,62,understands,0
+Cantonese,Male,20,牛仔褲,78,produces,0
+Cantonese,Male,20,牛仔褲,78,understands,0
+Cantonese,Female,21,牛仔褲,57,produces,0
+Cantonese,Female,21,牛仔褲,57,understands,0
+Cantonese,Male,21,牛仔褲,63,produces,0
+Cantonese,Male,21,牛仔褲,63,understands,0
+Cantonese,Female,22,牛仔褲,34,produces,0.0588
+Cantonese,Female,22,牛仔褲,34,understands,0
+Cantonese,Male,22,牛仔褲,34,produces,0
+Cantonese,Male,22,牛仔褲,34,understands,0
+Cantonese,Female,23,牛仔褲,37,produces,0.0811
+Cantonese,Female,23,牛仔褲,37,understands,0
+Cantonese,Male,23,牛仔褲,37,produces,0
+Cantonese,Male,23,牛仔褲,37,understands,0
+Cantonese,Female,24,牛仔褲,32,produces,0.0312
+Cantonese,Female,24,牛仔褲,32,understands,0
+Cantonese,Male,24,牛仔褲,36,produces,0.0278
+Cantonese,Male,24,牛仔褲,36,understands,0
+Cantonese,Female,25,牛仔褲,31,produces,0.129
+Cantonese,Female,25,牛仔褲,31,understands,0
+Cantonese,Male,25,牛仔褲,34,produces,0.0588
+Cantonese,Male,25,牛仔褲,34,understands,0
+Cantonese,Female,26,牛仔褲,31,produces,0.129
+Cantonese,Female,26,牛仔褲,31,understands,0
+Cantonese,Male,26,牛仔褲,37,produces,0.1351
+Cantonese,Male,26,牛仔褲,37,understands,0
+Cantonese,Female,27,牛仔褲,31,produces,0.0968
+Cantonese,Female,27,牛仔褲,31,understands,0
+Cantonese,Male,27,牛仔褲,31,produces,0.129
+Cantonese,Male,27,牛仔褲,31,understands,0
+Cantonese,Female,28,牛仔褲,32,produces,0.2812
+Cantonese,Female,28,牛仔褲,32,understands,0
+Cantonese,Male,28,牛仔褲,34,produces,0.1176
+Cantonese,Male,28,牛仔褲,34,understands,0
+Cantonese,Female,29,牛仔褲,36,produces,0.2222
+Cantonese,Female,29,牛仔褲,36,understands,0
+Cantonese,Male,29,牛仔褲,36,produces,0.1667
+Cantonese,Male,29,牛仔褲,36,understands,0
+Cantonese,Female,30,牛仔褲,76,produces,0.2632
+Cantonese,Female,30,牛仔褲,76,understands,0
+Cantonese,Male,30,牛仔褲,88,produces,0.2386
+Cantonese,Male,30,牛仔褲,88,understands,0
+Dutch,Female,8,jeans(broek)/spijkerbroek,5,produces,0
+Dutch,Female,8,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Male,8,jeans(broek)/spijkerbroek,2,produces,0
+Dutch,Male,8,jeans(broek)/spijkerbroek,2,understands,0
+Dutch,Female,9,jeans(broek)/spijkerbroek,44,produces,0
+Dutch,Female,9,jeans(broek)/spijkerbroek,44,understands,0
+Dutch,Male,9,jeans(broek)/spijkerbroek,50,produces,0
+Dutch,Male,9,jeans(broek)/spijkerbroek,50,understands,0.06
+Dutch,Female,10,jeans(broek)/spijkerbroek,51,produces,0.0196
+Dutch,Female,10,jeans(broek)/spijkerbroek,51,understands,0.0784
+Dutch,Male,10,jeans(broek)/spijkerbroek,48,produces,0
+Dutch,Male,10,jeans(broek)/spijkerbroek,48,understands,0.0833
+Dutch,Female,11,jeans(broek)/spijkerbroek,4,produces,0
+Dutch,Female,11,jeans(broek)/spijkerbroek,4,understands,0
+Dutch,Male,11,jeans(broek)/spijkerbroek,5,produces,0
+Dutch,Male,11,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Female,12,jeans(broek)/spijkerbroek,2,produces,0
+Dutch,Female,12,jeans(broek)/spijkerbroek,2,understands,0
+Dutch,Male,12,jeans(broek)/spijkerbroek,5,produces,0
+Dutch,Male,12,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Male,13,jeans(broek)/spijkerbroek,6,produces,0
+Dutch,Male,13,jeans(broek)/spijkerbroek,6,understands,0.3333
+Dutch,Female,14,jeans(broek)/spijkerbroek,1,produces,0
+Dutch,Female,14,jeans(broek)/spijkerbroek,1,understands,0
+Dutch,Male,14,jeans(broek)/spijkerbroek,3,produces,0.3333
+Dutch,Male,14,jeans(broek)/spijkerbroek,3,understands,0.3333
+Dutch,Female,15,jeans(broek)/spijkerbroek,2,produces,0
+Dutch,Female,15,jeans(broek)/spijkerbroek,2,understands,1
+Dutch,Male,15,jeans(broek)/spijkerbroek,4,produces,0
+Dutch,Male,15,jeans(broek)/spijkerbroek,4,understands,0.25
+Dutch,Female,16,jeans(broek)/spijkerbroek,7,produces,0
+Dutch,Female,16,jeans(broek)/spijkerbroek,7,understands,0
+Dutch,Male,16,jeans(broek)/spijkerbroek,2,produces,0
+Dutch,Male,16,jeans(broek)/spijkerbroek,2,understands,0
+Dutch,Female,17,jeans(broek)/spijkerbroek,33,produces,0
+Dutch,Female,17,jeans(broek)/spijkerbroek,33,understands,0
+Dutch,Male,17,jeans(broek)/spijkerbroek,16,produces,0
+Dutch,Male,17,jeans(broek)/spijkerbroek,16,understands,0
+Dutch,Female,18,jeans(broek)/spijkerbroek,38,produces,0.0789
+Dutch,Female,18,jeans(broek)/spijkerbroek,38,understands,0
+Dutch,Male,18,jeans(broek)/spijkerbroek,30,produces,0.1
+Dutch,Male,18,jeans(broek)/spijkerbroek,30,understands,0
+Dutch,Female,19,jeans(broek)/spijkerbroek,5,produces,0.4
+Dutch,Female,19,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Male,19,jeans(broek)/spijkerbroek,2,produces,0
+Dutch,Male,19,jeans(broek)/spijkerbroek,2,understands,0
+Dutch,Female,20,jeans(broek)/spijkerbroek,6,produces,0
+Dutch,Female,20,jeans(broek)/spijkerbroek,6,understands,0
+Dutch,Male,20,jeans(broek)/spijkerbroek,1,produces,1
+Dutch,Male,20,jeans(broek)/spijkerbroek,1,understands,0
+Dutch,Female,21,jeans(broek)/spijkerbroek,3,produces,0.3333
+Dutch,Female,21,jeans(broek)/spijkerbroek,3,understands,0
+Dutch,Male,21,jeans(broek)/spijkerbroek,4,produces,0
+Dutch,Male,21,jeans(broek)/spijkerbroek,4,understands,0
+Dutch,Female,22,jeans(broek)/spijkerbroek,1,produces,1
+Dutch,Female,22,jeans(broek)/spijkerbroek,1,understands,0
+Dutch,Male,22,jeans(broek)/spijkerbroek,6,produces,0.1667
+Dutch,Male,22,jeans(broek)/spijkerbroek,6,understands,0
+Dutch,Female,23,jeans(broek)/spijkerbroek,25,produces,0.6
+Dutch,Female,23,jeans(broek)/spijkerbroek,25,understands,0
+Dutch,Male,23,jeans(broek)/spijkerbroek,26,produces,0.5
+Dutch,Male,23,jeans(broek)/spijkerbroek,26,understands,0
+Dutch,Female,24,jeans(broek)/spijkerbroek,16,produces,0.4375
+Dutch,Female,24,jeans(broek)/spijkerbroek,16,understands,0
+Dutch,Male,24,jeans(broek)/spijkerbroek,15,produces,0.6
+Dutch,Male,24,jeans(broek)/spijkerbroek,15,understands,0
+Dutch,Female,25,jeans(broek)/spijkerbroek,5,produces,0.8
+Dutch,Female,25,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Male,25,jeans(broek)/spijkerbroek,1,produces,1
+Dutch,Male,25,jeans(broek)/spijkerbroek,1,understands,0
+Dutch,Female,26,jeans(broek)/spijkerbroek,1,produces,1
+Dutch,Female,26,jeans(broek)/spijkerbroek,1,understands,0
+Dutch,Male,26,jeans(broek)/spijkerbroek,5,produces,0.2
+Dutch,Male,26,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Female,27,jeans(broek)/spijkerbroek,3,produces,0.3333
+Dutch,Female,27,jeans(broek)/spijkerbroek,3,understands,0
+Dutch,Male,27,jeans(broek)/spijkerbroek,1,produces,1
+Dutch,Male,27,jeans(broek)/spijkerbroek,1,understands,0
+Dutch,Female,28,jeans(broek)/spijkerbroek,5,produces,0.6
+Dutch,Female,28,jeans(broek)/spijkerbroek,5,understands,0
+Dutch,Male,28,"jeans(broek), jeans(broek)/spijkerbroek",2,produces,1
+Dutch,Male,28,"jeans(broek), jeans(broek)/spijkerbroek",2,understands,0
+Dutch,Female,29,"jeans(broek), jeans(broek)/spijkerbroek",27,produces,0.7778
+Dutch,Female,29,"jeans(broek), jeans(broek)/spijkerbroek",27,understands,0
+Dutch,Male,29,"jeans(broek), jeans(broek)/spijkerbroek",23,produces,0.4783
+Dutch,Male,29,"jeans(broek), jeans(broek)/spijkerbroek",23,understands,0
+Dutch,Female,30,"jeans(broek), jeans(broek)/spijkerbroek",20,produces,0.85
+Dutch,Female,30,"jeans(broek), jeans(broek)/spijkerbroek",20,understands,0
+Dutch,Male,30,"jeans(broek), jeans(broek)/spijkerbroek",11,produces,0.9091
+Dutch,Male,30,"jeans(broek), jeans(broek)/spijkerbroek",11,understands,0
+Dutch,Female,31,"jeans(broek), jeans(broek)/spijkerbroek",3,produces,1
+Dutch,Female,31,"jeans(broek), jeans(broek)/spijkerbroek",3,understands,0
+Dutch,Male,31,"jeans(broek), jeans(broek)/spijkerbroek",4,produces,0.5
+Dutch,Male,31,"jeans(broek), jeans(broek)/spijkerbroek",4,understands,0
+Dutch,Female,32,jeans(broek),1,produces,1
+Dutch,Female,32,jeans(broek),1,understands,0
+Dutch,Male,32,jeans(broek),4,produces,1
+Dutch,Male,32,jeans(broek),4,understands,0
+Dutch,Female,33,jeans(broek),1,produces,0
+Dutch,Female,33,jeans(broek),1,understands,0
+Dutch,Male,33,jeans(broek),2,produces,0.5
+Dutch,Male,33,jeans(broek),2,understands,0
+Dutch,Male,34,jeans(broek),4,produces,0.25
+Dutch,Male,34,jeans(broek),4,understands,0
+Dutch,Female,35,jeans(broek),1,produces,1
+Dutch,Female,35,jeans(broek),1,understands,0
+Dutch,Male,35,jeans(broek),2,produces,0.5
+Dutch,Male,35,jeans(broek),2,understands,0
+Dutch,Female,36,jeans(broek),3,produces,1
+Dutch,Female,36,jeans(broek),3,understands,0
+Dutch,Male,36,jeans(broek),3,produces,0.6667
+Dutch,Male,36,jeans(broek),3,understands,0
+English (American),Female,8,jeans,114,produces,0.0088
+English (American),Female,8,jeans,114,understands,0.0439
+English (American),Male,8,jeans,141,produces,0
+English (American),Male,8,jeans,141,understands,0.0638
+English (American),Female,9,jeans,135,produces,0.0074
+English (American),Female,9,jeans,135,understands,0.0444
+English (American),Male,9,jeans,160,produces,0
+English (American),Male,9,jeans,160,understands,0.0375
+English (American),Female,10,jeans,119,produces,0.0084
+English (American),Female,10,jeans,119,understands,0.0504
+English (American),Male,10,jeans,144,produces,0.0139
+English (American),Male,10,jeans,144,understands,0.0347
+English (American),Female,11,jeans,171,produces,0.0117
+English (American),Female,11,jeans,171,understands,0.0468
+English (American),Male,11,jeans,189,produces,0.0106
+English (American),Male,11,jeans,189,understands,0.0423
+English (American),Female,12,jeans,279,produces,0.0036
+English (American),Female,12,jeans,279,understands,0.0609
+English (American),Male,12,jeans,334,produces,0.021
+English (American),Male,12,jeans,334,understands,0.0778
+English (American),Female,13,jeans,496,produces,0.006
+English (American),Female,13,jeans,496,understands,0.0524
+English (American),Male,13,jeans,541,produces,0.0037
+English (American),Male,13,jeans,541,understands,0.0462
+English (American),Female,14,jeans,220,produces,0.0136
+English (American),Female,14,jeans,220,understands,0.1
+English (American),Male,14,jeans,224,produces,0.0223
+English (American),Male,14,jeans,224,understands,0.0714
+English (American),Female,15,jeans,111,produces,0.036
+English (American),Female,15,jeans,111,understands,0.0811
+English (American),Male,15,jeans,127,produces,0.0315
+English (American),Male,15,jeans,127,understands,0.1654
+English (American),Female,16,jeans,786,produces,0.0153
+English (American),Female,16,jeans,786,understands,0.0611
+English (American),Male,16,jeans,856,produces,0.0129
+English (American),Male,16,jeans,856,understands,0.0654
+English (American),Female,17,jeans,315,produces,0.0254
+English (American),Female,17,jeans,315,understands,0.1111
+English (American),Male,17,jeans,379,produces,0.0396
+English (American),Male,17,jeans,379,understands,0.0818
+English (American),Female,18,jeans,434,produces,0.0461
+English (American),Female,18,jeans,434,understands,0.1129
+English (American),Male,18,jeans,468,produces,0.0278
+English (American),Male,18,jeans,468,understands,0.0791
+English (American),Female,19,jeans,231,produces,0.0649
+English (American),Female,19,jeans,231,understands,0
+English (American),Male,19,jeans,224,produces,0.0759
+English (American),Male,19,jeans,224,understands,0
+English (American),Female,20,jeans,205,produces,0.1171
+English (American),Female,20,jeans,205,understands,0
+English (American),Male,20,jeans,222,produces,0.0586
+English (American),Male,20,jeans,222,understands,0
+English (American),Female,21,jeans,127,produces,0.1339
+English (American),Female,21,jeans,127,understands,0
+English (American),Male,21,jeans,142,produces,0.1408
+English (American),Male,21,jeans,142,understands,0
+English (American),Female,22,jeans,186,produces,0.1559
+English (American),Female,22,jeans,186,understands,0
+English (American),Male,22,jeans,162,produces,0.1173
+English (American),Male,22,jeans,162,understands,0
+English (American),Female,23,jeans,177,produces,0.2712
+English (American),Female,23,jeans,177,understands,0
+English (American),Male,23,jeans,196,produces,0.2143
+English (American),Male,23,jeans,196,understands,0
+English (American),Female,24,jeans,365,produces,0.3233
+English (American),Female,24,jeans,365,understands,0
+English (American),Male,24,jeans,453,produces,0.245
+English (American),Male,24,jeans,453,understands,0
+English (American),Female,25,jeans,299,produces,0.3612
+English (American),Female,25,jeans,299,understands,0
+English (American),Male,25,jeans,336,produces,0.2738
+English (American),Male,25,jeans,336,understands,0
+English (American),Female,26,jeans,173,produces,0.4046
+English (American),Female,26,jeans,173,understands,0
+English (American),Male,26,jeans,197,produces,0.3046
+English (American),Male,26,jeans,197,understands,0
+English (American),Female,27,jeans,158,produces,0.3544
+English (American),Female,27,jeans,158,understands,0
+English (American),Male,27,jeans,154,produces,0.2987
+English (American),Male,27,jeans,154,understands,0
+English (American),Female,28,jeans,416,produces,0.5505
+English (American),Female,28,jeans,416,understands,0
+English (American),Male,28,jeans,492,produces,0.5549
+English (American),Male,28,jeans,492,understands,0
+English (American),Female,29,jeans,166,produces,0.506
+English (American),Female,29,jeans,166,understands,0
+English (American),Male,29,jeans,167,produces,0.4551
+English (American),Male,29,jeans,167,understands,0
+English (American),Female,30,jeans,323,produces,0.5387
+English (American),Female,30,jeans,323,understands,0
+English (American),Male,30,jeans,368,produces,0.4973
+English (American),Male,30,jeans,368,understands,0
+English (Australian),Female,12,jeans,27,produces,0
+English (Australian),Female,12,jeans,27,understands,0
+English (Australian),Male,12,jeans,44,produces,0
+English (Australian),Male,12,jeans,44,understands,0
+English (Australian),Female,13,jeans,35,produces,0
+English (Australian),Female,13,jeans,35,understands,0
+English (Australian),Male,13,jeans,29,produces,0
+English (Australian),Male,13,jeans,29,understands,0
+English (Australian),Female,14,jeans,51,produces,0.0196
+English (Australian),Female,14,jeans,51,understands,0
+English (Australian),Male,14,jeans,60,produces,0
+English (Australian),Male,14,jeans,60,understands,0
+English (Australian),Female,15,jeans,31,produces,0.0323
+English (Australian),Female,15,jeans,31,understands,0
+English (Australian),Male,15,jeans,38,produces,0.0263
+English (Australian),Male,15,jeans,38,understands,0
+English (Australian),Female,16,jeans,32,produces,0
+English (Australian),Female,16,jeans,32,understands,0
+English (Australian),Male,16,jeans,28,produces,0
+English (Australian),Male,16,jeans,28,understands,0
+English (Australian),Female,17,jeans,56,produces,0.0893
+English (Australian),Female,17,jeans,56,understands,0
+English (Australian),Male,17,jeans,48,produces,0
+English (Australian),Male,17,jeans,48,understands,0
+English (Australian),Female,18,jeans,52,produces,0.0385
+English (Australian),Female,18,jeans,52,understands,0
+English (Australian),Male,18,jeans,57,produces,0
+English (Australian),Male,18,jeans,57,understands,0
+English (Australian),Female,19,jeans,72,produces,0.1806
+English (Australian),Female,19,jeans,72,understands,0
+English (Australian),Male,19,jeans,52,produces,0.0769
+English (Australian),Male,19,jeans,52,understands,0
+English (Australian),Female,20,jeans,40,produces,0.2
+English (Australian),Female,20,jeans,40,understands,0
+English (Australian),Male,20,jeans,38,produces,0.0789
+English (Australian),Male,20,jeans,38,understands,0
+English (Australian),Female,21,jeans,39,produces,0.1538
+English (Australian),Female,21,jeans,39,understands,0
+English (Australian),Male,21,jeans,25,produces,0.12
+English (Australian),Male,21,jeans,25,understands,0
+English (Australian),Female,22,jeans,27,produces,0.2222
+English (Australian),Female,22,jeans,27,understands,0
+English (Australian),Male,22,jeans,46,produces,0.3478
+English (Australian),Male,22,jeans,46,understands,0
+English (Australian),Female,23,jeans,39,produces,0.4615
+English (Australian),Female,23,jeans,39,understands,0
+English (Australian),Male,23,jeans,32,produces,0.3438
+English (Australian),Male,23,jeans,32,understands,0
+English (Australian),Female,24,jeans,36,produces,0.3611
+English (Australian),Female,24,jeans,36,understands,0
+English (Australian),Male,24,jeans,40,produces,0.3
+English (Australian),Male,24,jeans,40,understands,0
+English (Australian),Female,25,jeans,44,produces,0.5227
+English (Australian),Female,25,jeans,44,understands,0
+English (Australian),Male,25,jeans,41,produces,0.2683
+English (Australian),Male,25,jeans,41,understands,0
+English (Australian),Female,26,jeans,40,produces,0.475
+English (Australian),Female,26,jeans,40,understands,0
+English (Australian),Male,26,jeans,37,produces,0.3514
+English (Australian),Male,26,jeans,37,understands,0
+English (Australian),Female,27,jeans,36,produces,0.7222
+English (Australian),Female,27,jeans,36,understands,0
+English (Australian),Male,27,jeans,36,produces,0.5
+English (Australian),Male,27,jeans,36,understands,0
+English (Australian),Female,28,jeans,27,produces,0.4444
+English (Australian),Female,28,jeans,27,understands,0
+English (Australian),Male,28,jeans,40,produces,0.4
+English (Australian),Male,28,jeans,40,understands,0
+English (Australian),Female,29,jeans,33,produces,0.7273
+English (Australian),Female,29,jeans,33,understands,0
+English (Australian),Male,29,jeans,32,produces,0.5938
+English (Australian),Male,29,jeans,32,understands,0
+English (Australian),Female,30,jeans,28,produces,0.7143
+English (Australian),Female,30,jeans,28,understands,0
+English (Australian),Male,30,jeans,25,produces,0.52
+English (Australian),Male,30,jeans,25,understands,0
+English (British),Female,12,jeans,13,produces,0
+English (British),Female,12,jeans,13,understands,0
+English (British),Male,12,jeans,14,produces,0
+English (British),Male,12,jeans,14,understands,0
+English (British),Female,13,jeans,2,produces,0
+English (British),Female,13,jeans,2,understands,0
+English (British),Male,13,jeans,5,produces,0
+English (British),Male,13,jeans,5,understands,0
+English (British),Female,14,jeans,27,produces,0
+English (British),Female,14,jeans,27,understands,0.037
+English (British),Male,14,jeans,37,produces,0
+English (British),Male,14,jeans,37,understands,0.1351
+English (British),Female,15,jeans,38,produces,0
+English (British),Female,15,jeans,38,understands,0.0789
+English (British),Male,15,jeans,50,produces,0
+English (British),Male,15,jeans,50,understands,0.06
+English (British),Female,16,jeans,58,produces,0
+English (British),Female,16,jeans,58,understands,0.1552
+English (British),Male,16,jeans,60,produces,0.0167
+English (British),Male,16,jeans,60,understands,0.0833
+English (British),Female,17,jeans,90,produces,0.0667
+English (British),Female,17,jeans,90,understands,0.1889
+English (British),Male,17,jeans,107,produces,0
+English (British),Male,17,jeans,107,understands,0.1682
+English (British),Female,18,jeans,58,produces,0.069
+English (British),Female,18,jeans,58,understands,0.2241
+English (British),Male,18,jeans,60,produces,0.0167
+English (British),Male,18,jeans,60,understands,0.15
+English (British),Female,19,jeans,52,produces,0.0962
+English (British),Female,19,jeans,52,understands,0.4423
+English (British),Male,19,jeans,57,produces,0.0526
+English (British),Male,19,jeans,57,understands,0.2632
+English (British),Female,20,jeans,64,produces,0.125
+English (British),Female,20,jeans,64,understands,0.2812
+English (British),Male,20,jeans,80,produces,0.1125
+English (British),Male,20,jeans,80,understands,0.425
+English (British),Female,21,jeans,32,produces,0.1562
+English (British),Female,21,jeans,32,understands,0.5312
+English (British),Male,21,jeans,43,produces,0.0698
+English (British),Male,21,jeans,43,understands,0.3953
+English (British),Female,22,jeans,12,produces,0.3333
+English (British),Female,22,jeans,12,understands,0.4167
+English (British),Male,22,jeans,16,produces,0
+English (British),Male,22,jeans,16,understands,0.3125
+English (British),Female,23,jeans,50,produces,0.32
+English (British),Female,23,jeans,50,understands,0.58
+English (British),Male,23,jeans,62,produces,0.2258
+English (British),Male,23,jeans,62,understands,0.5645
+English (British),Female,24,jeans,42,produces,0.3333
+English (British),Female,24,jeans,42,understands,0.6905
+English (British),Male,24,jeans,45,produces,0.3333
+English (British),Male,24,jeans,45,understands,0.6
+English (British),Female,25,jeans,21,produces,0.4762
+English (British),Female,25,jeans,21,understands,0.5238
+English (British),Male,25,jeans,15,produces,0.2667
+English (British),Male,25,jeans,15,understands,0.4667
+English (British),Female,34,jeans,247,produces,0.6518
+English (British),Female,34,jeans,247,understands,0
+English (British),Male,34,jeans,196,produces,0.699
+English (British),Male,34,jeans,196,understands,0
+English (British),Female,35,jeans,1927,produces,0.686
+English (British),Female,35,jeans,1927,understands,0
+English (British),Male,35,jeans,1766,produces,0.6586
+English (British),Male,35,jeans,1766,understands,0
+English (British),Female,36,jeans,2650,produces,0.7
+English (British),Female,36,jeans,2650,understands,0
+English (British),Male,36,jeans,2594,produces,0.6457
+English (British),Male,36,jeans,2594,understands,0
+English (British),Female,37,jeans,434,produces,0.682
+English (British),Female,37,jeans,434,understands,0
+English (British),Male,37,jeans,472,produces,0.6483
+English (British),Male,37,jeans,472,understands,0
+English (British),Female,38,jeans,136,produces,0.5882
+English (British),Female,38,jeans,136,understands,0
+English (British),Male,38,jeans,128,produces,0.6328
+English (British),Male,38,jeans,128,understands,0
+English (British),Female,39,jeans,52,produces,0.6923
+English (British),Female,39,jeans,52,understands,0
+English (British),Male,39,jeans,47,produces,0.7447
+English (British),Male,39,jeans,47,understands,0
+English (British),Female,40,jeans,29,produces,0.5862
+English (British),Female,40,jeans,29,understands,0
+English (British),Male,40,jeans,19,produces,0.6316
+English (British),Male,40,jeans,19,understands,0
+English (British),Female,41,jeans,10,produces,0.6
+English (British),Female,41,jeans,10,understands,0
+English (British),Male,41,jeans,14,produces,0.8571
+English (British),Male,41,jeans,14,understands,0
+English (British),Female,42,jeans,10,produces,0.6
+English (British),Female,42,jeans,10,understands,0
+English (British),Male,42,jeans,13,produces,0.6154
+English (British),Male,42,jeans,13,understands,0
+English (British),Female,43,jeans,3,produces,0.3333
+English (British),Female,43,jeans,3,understands,0
+English (British),Male,43,jeans,9,produces,0.7778
+English (British),Male,43,jeans,9,understands,0
+English (British),Female,44,jeans,4,produces,0.75
+English (British),Female,44,jeans,4,understands,0
+English (British),Male,44,jeans,5,produces,0.6
+English (British),Male,44,jeans,5,understands,0
+English (British),Female,45,jeans,8,produces,0.75
+English (British),Female,45,jeans,8,understands,0
+English (British),Male,45,jeans,4,produces,0.75
+English (British),Male,45,jeans,4,understands,0
+English (British),Female,46,jeans,3,produces,0.3333
+English (British),Female,46,jeans,3,understands,0
+English (British),Male,46,jeans,2,produces,0
+English (British),Male,46,jeans,2,understands,0
+English (British),Female,47,jeans,5,produces,0.8
+English (British),Female,47,jeans,5,understands,0
+English (British),Male,47,jeans,3,produces,0.6667
+English (British),Male,47,jeans,3,understands,0
+Estonian,Female,16,teksad,19,produces,0.0526
+Estonian,Female,16,teksad,19,understands,0
+Estonian,Male,16,teksad,17,produces,0
+Estonian,Male,16,teksad,17,understands,0
+Estonian,Female,17,teksad,42,produces,0
+Estonian,Female,17,teksad,42,understands,0
+Estonian,Male,17,teksad,47,produces,0
+Estonian,Male,17,teksad,47,understands,0
+Estonian,Female,18,teksad,52,produces,0.0192
+Estonian,Female,18,teksad,52,understands,0
+Estonian,Male,18,teksad,51,produces,0
+Estonian,Male,18,teksad,51,understands,0
+Estonian,Female,19,teksad,44,produces,0
+Estonian,Female,19,teksad,44,understands,0
+Estonian,Male,19,teksad,41,produces,0.0244
+Estonian,Male,19,teksad,41,understands,0
+Estonian,Female,20,teksad,36,produces,0
+Estonian,Female,20,teksad,36,understands,0
+Estonian,Male,20,teksad,24,produces,0.0417
+Estonian,Male,20,teksad,24,understands,0
+Estonian,Female,21,teksad,28,produces,0.1429
+Estonian,Female,21,teksad,28,understands,0
+Estonian,Male,21,teksad,38,produces,0.0526
+Estonian,Male,21,teksad,38,understands,0
+Estonian,Female,22,teksad,45,produces,0.0889
+Estonian,Female,22,teksad,45,understands,0
+Estonian,Male,22,teksad,31,produces,0
+Estonian,Male,22,teksad,31,understands,0
+Estonian,Female,23,teksad,48,produces,0.2083
+Estonian,Female,23,teksad,48,understands,0
+Estonian,Male,23,teksad,47,produces,0.1277
+Estonian,Male,23,teksad,47,understands,0
+Estonian,Female,24,teksad,52,produces,0.25
+Estonian,Female,24,teksad,52,understands,0
+Estonian,Male,24,teksad,64,produces,0.1406
+Estonian,Male,24,teksad,64,understands,0
+Estonian,Female,25,teksad,45,produces,0.1778
+Estonian,Female,25,teksad,45,understands,0
+Estonian,Male,25,teksad,37,produces,0.0811
+Estonian,Male,25,teksad,37,understands,0
+Estonian,Female,26,teksad,45,produces,0.2
+Estonian,Female,26,teksad,45,understands,0
+Estonian,Male,26,teksad,39,produces,0.1026
+Estonian,Male,26,teksad,39,understands,0
+Estonian,Female,27,teksad,44,produces,0.2955
+Estonian,Female,27,teksad,44,understands,0
+Estonian,Male,27,teksad,36,produces,0.1667
+Estonian,Male,27,teksad,36,understands,0
+Estonian,Female,28,teksad,44,produces,0.4545
+Estonian,Female,28,teksad,44,understands,0
+Estonian,Male,28,teksad,48,produces,0.1667
+Estonian,Male,28,teksad,48,understands,0
+Estonian,Female,29,teksad,59,produces,0.5424
+Estonian,Female,29,teksad,59,understands,0
+Estonian,Male,29,teksad,41,produces,0.2195
+Estonian,Male,29,teksad,41,understands,0
+Estonian,Female,30,teksad,37,produces,0.4324
+Estonian,Female,30,teksad,37,understands,0
+Estonian,Male,30,teksad,34,produces,0.2941
+Estonian,Male,30,teksad,34,understands,0
+French (French),Female,8,jeans,2,produces,0
+French (French),Female,8,jeans,2,understands,0
+French (French),Male,8,jeans,5,produces,0
+French (French),Male,8,jeans,5,understands,0
+French (French),Female,9,jeans,2,produces,0
+French (French),Female,9,jeans,2,understands,0
+French (French),Male,9,jeans,5,produces,0
+French (French),Male,9,jeans,5,understands,0
+French (French),Female,10,jeans,7,produces,0
+French (French),Female,10,jeans,7,understands,0
+French (French),Male,10,jeans,6,produces,0
+French (French),Male,10,jeans,6,understands,0
+French (French),Female,11,jeans,8,produces,0
+French (French),Female,11,jeans,8,understands,0
+French (French),Male,11,jeans,6,produces,0
+French (French),Male,11,jeans,6,understands,0
+French (French),Female,12,jeans,19,produces,0
+French (French),Female,12,jeans,19,understands,0
+French (French),Male,12,jeans,19,produces,0
+French (French),Male,12,jeans,19,understands,0
+French (French),Female,13,jeans,36,produces,0
+French (French),Female,13,jeans,36,understands,0.0556
+French (French),Male,13,jeans,30,produces,0
+French (French),Male,13,jeans,30,understands,0.0333
+French (French),Female,14,jeans,17,produces,0
+French (French),Female,14,jeans,17,understands,0
+French (French),Male,14,jeans,20,produces,0
+French (French),Male,14,jeans,20,understands,0
+French (French),Female,15,jeans,11,produces,0.0909
+French (French),Female,15,jeans,11,understands,0.0909
+French (French),Male,15,jeans,13,produces,0
+French (French),Male,15,jeans,13,understands,0
+French (French),Female,16,jeans,25,produces,0.04
+French (French),Female,16,jeans,25,understands,0
+French (French),Male,16,jeans,27,produces,0
+French (French),Male,16,jeans,27,understands,0
+French (French),Female,17,jeans,25,produces,0.04
+French (French),Female,17,jeans,25,understands,0
+French (French),Male,17,jeans,23,produces,0
+French (French),Male,17,jeans,23,understands,0
+French (French),Female,18,jeans,27,produces,0.0741
+French (French),Female,18,jeans,27,understands,0
+French (French),Male,18,jeans,21,produces,0.0476
+French (French),Male,18,jeans,21,understands,0
+French (French),Female,19,jeans,22,produces,0.0455
+French (French),Female,19,jeans,22,understands,0
+French (French),Male,19,jeans,17,produces,0.0588
+French (French),Male,19,jeans,17,understands,0
+French (French),Female,20,jeans,42,produces,0.119
+French (French),Female,20,jeans,42,understands,0
+French (French),Male,20,jeans,35,produces,0.0857
+French (French),Male,20,jeans,35,understands,0
+French (French),Female,21,jeans,55,produces,0.0909
+French (French),Female,21,jeans,55,understands,0
+French (French),Male,21,jeans,38,produces,0.0789
+French (French),Male,21,jeans,38,understands,0
+French (French),Female,22,jeans,60,produces,0.1333
+French (French),Female,22,jeans,60,understands,0
+French (French),Male,22,jeans,38,produces,0.0526
+French (French),Male,22,jeans,38,understands,0
+French (French),Female,23,jeans,40,produces,0.175
+French (French),Female,23,jeans,40,understands,0
+French (French),Male,23,jeans,44,produces,0.1591
+French (French),Male,23,jeans,44,understands,0
+French (French),Female,24,jeans,65,produces,0.0923
+French (French),Female,24,jeans,65,understands,0
+French (French),Male,24,jeans,72,produces,0.125
+French (French),Male,24,jeans,72,understands,0
+French (French),Female,25,jeans,39,produces,0.2821
+French (French),Female,25,jeans,39,understands,0
+French (French),Male,25,jeans,46,produces,0.1739
+French (French),Male,25,jeans,46,understands,0
+French (French),Female,26,jeans,31,produces,0.2581
+French (French),Female,26,jeans,31,understands,0
+French (French),Male,26,jeans,32,produces,0.1875
+French (French),Male,26,jeans,32,understands,0
+French (French),Female,27,jeans,28,produces,0.3214
+French (French),Female,27,jeans,28,understands,0
+French (French),Male,27,jeans,24,produces,0.0833
+French (French),Male,27,jeans,24,understands,0
+French (French),Female,28,jeans,33,produces,0.2727
+French (French),Female,28,jeans,33,understands,0
+French (French),Male,28,jeans,43,produces,0.186
+French (French),Male,28,jeans,43,understands,0
+French (French),Female,29,jeans,32,produces,0.3438
+French (French),Female,29,jeans,32,understands,0
+French (French),Male,29,jeans,33,produces,0.3333
+French (French),Male,29,jeans,33,understands,0
+French (French),Female,30,jeans,34,produces,0.2941
+French (French),Female,30,jeans,34,understands,0
+French (French),Male,30,jeans,33,produces,0.3333
+French (French),Male,30,jeans,33,understands,0
+French (Quebecois),Female,8,jeans,49,produces,0
+French (Quebecois),Female,8,jeans,49,understands,0
+French (Quebecois),Male,8,jeans,54,produces,0
+French (Quebecois),Male,8,jeans,54,understands,0.0185
+French (Quebecois),Female,9,jeans,79,produces,0
+French (Quebecois),Female,9,jeans,79,understands,0.0253
+French (Quebecois),Male,9,jeans,88,produces,0
+French (Quebecois),Male,9,jeans,88,understands,0
+French (Quebecois),Female,10,jeans,40,produces,0
+French (Quebecois),Female,10,jeans,40,understands,0.05
+French (Quebecois),Male,10,jeans,46,produces,0
+French (Quebecois),Male,10,jeans,46,understands,0
+French (Quebecois),Female,11,jeans,41,produces,0
+French (Quebecois),Female,11,jeans,41,understands,0.0244
+French (Quebecois),Male,11,jeans,40,produces,0
+French (Quebecois),Male,11,jeans,40,understands,0.025
+French (Quebecois),Female,12,jeans,72,produces,0
+French (Quebecois),Female,12,jeans,72,understands,0.0278
+French (Quebecois),Male,12,jeans,94,produces,0
+French (Quebecois),Male,12,jeans,94,understands,0.0319
+French (Quebecois),Female,13,jeans,49,produces,0
+French (Quebecois),Female,13,jeans,49,understands,0.0612
+French (Quebecois),Male,13,jeans,76,produces,0
+French (Quebecois),Male,13,jeans,76,understands,0
+French (Quebecois),Female,14,jeans,132,produces,0
+French (Quebecois),Female,14,jeans,132,understands,0.0682
+French (Quebecois),Male,14,jeans,96,produces,0
+French (Quebecois),Male,14,jeans,96,understands,0.0417
+French (Quebecois),Female,15,jeans,39,produces,0.0256
+French (Quebecois),Female,15,jeans,39,understands,0.1026
+French (Quebecois),Male,15,jeans,62,produces,0.0323
+French (Quebecois),Male,15,jeans,62,understands,0.0806
+French (Quebecois),Female,16,jeans,57,produces,0
+French (Quebecois),Female,16,jeans,57,understands,0.0877
+French (Quebecois),Male,16,jeans,51,produces,0
+French (Quebecois),Male,16,jeans,51,understands,0.0392
+French (Quebecois),Female,17,jeans,30,produces,0.0333
+French (Quebecois),Female,17,jeans,30,understands,0
+French (Quebecois),Male,17,jeans,31,produces,0
+French (Quebecois),Male,17,jeans,31,understands,0
+French (Quebecois),Female,18,jeans,53,produces,0.1132
+French (Quebecois),Female,18,jeans,53,understands,0
+French (Quebecois),Male,18,jeans,46,produces,0.0652
+French (Quebecois),Male,18,jeans,46,understands,0
+French (Quebecois),Female,19,jeans,41,produces,0.0976
+French (Quebecois),Female,19,jeans,41,understands,0
+French (Quebecois),Male,19,jeans,50,produces,0
+French (Quebecois),Male,19,jeans,50,understands,0
+French (Quebecois),Female,20,jeans,90,produces,0.1111
+French (Quebecois),Female,20,jeans,90,understands,0
+French (Quebecois),Male,20,jeans,105,produces,0.0571
+French (Quebecois),Male,20,jeans,105,understands,0
+French (Quebecois),Female,21,jeans,56,produces,0.1607
+French (Quebecois),Female,21,jeans,56,understands,0
+French (Quebecois),Male,21,jeans,53,produces,0.0943
+French (Quebecois),Male,21,jeans,53,understands,0
+French (Quebecois),Female,22,jeans,42,produces,0.2143
+French (Quebecois),Female,22,jeans,42,understands,0
+French (Quebecois),Male,22,jeans,44,produces,0.1364
+French (Quebecois),Male,22,jeans,44,understands,0
+French (Quebecois),Female,23,jeans,41,produces,0.2439
+French (Quebecois),Female,23,jeans,41,understands,0
+French (Quebecois),Male,23,jeans,45,produces,0.1111
+French (Quebecois),Male,23,jeans,45,understands,0
+French (Quebecois),Female,24,jeans,56,produces,0.3929
+French (Quebecois),Female,24,jeans,56,understands,0
+French (Quebecois),Male,24,jeans,76,produces,0.1184
+French (Quebecois),Male,24,jeans,76,understands,0
+French (Quebecois),Female,25,jeans,41,produces,0.2927
+French (Quebecois),Female,25,jeans,41,understands,0
+French (Quebecois),Male,25,jeans,45,produces,0.2
+French (Quebecois),Male,25,jeans,45,understands,0
+French (Quebecois),Female,26,jeans,46,produces,0.413
+French (Quebecois),Female,26,jeans,46,understands,0
+French (Quebecois),Male,26,jeans,49,produces,0.3673
+French (Quebecois),Male,26,jeans,49,understands,0
+French (Quebecois),Female,27,jeans,40,produces,0.475
+French (Quebecois),Female,27,jeans,40,understands,0
+French (Quebecois),Male,27,jeans,34,produces,0.2647
+French (Quebecois),Male,27,jeans,34,understands,0
+French (Quebecois),Female,28,jeans,28,produces,0.5714
+French (Quebecois),Female,28,jeans,28,understands,0
+French (Quebecois),Male,28,jeans,32,produces,0.4375
+French (Quebecois),Male,28,jeans,32,understands,0
+French (Quebecois),Female,29,jeans,35,produces,0.6286
+French (Quebecois),Female,29,jeans,35,understands,0
+French (Quebecois),Male,29,jeans,35,produces,0.6
+French (Quebecois),Male,29,jeans,35,understands,0
+French (Quebecois),Female,30,jeans,41,produces,0.5122
+French (Quebecois),Female,30,jeans,41,understands,0
+French (Quebecois),Male,30,jeans,59,produces,0.4407
+French (Quebecois),Male,30,jeans,59,understands,0
+German,Female,18,Jeans,40,produces,0.025
+German,Female,18,Jeans,40,understands,0
+German,Male,18,Jeans,45,produces,0.0222
+German,Male,18,Jeans,45,understands,0
+German,Female,19,Jeans,39,produces,0.0769
+German,Female,19,Jeans,39,understands,0
+German,Male,19,Jeans,40,produces,0
+German,Male,19,Jeans,40,understands,0
+German,Female,20,Jeans,39,produces,0.0513
+German,Female,20,Jeans,39,understands,0
+German,Male,20,Jeans,57,produces,0.0351
+German,Male,20,Jeans,57,understands,0
+German,Female,21,Jeans,38,produces,0.2105
+German,Female,21,Jeans,38,understands,0
+German,Male,21,Jeans,39,produces,0.0256
+German,Male,21,Jeans,39,understands,0
+German,Female,22,Jeans,52,produces,0.1346
+German,Female,22,Jeans,52,understands,0
+German,Male,22,Jeans,43,produces,0.0698
+German,Male,22,Jeans,43,understands,0
+German,Female,23,Jeans,45,produces,0.2
+German,Female,23,Jeans,45,understands,0
+German,Male,23,Jeans,50,produces,0.12
+German,Male,23,Jeans,50,understands,0
+German,Female,24,Jeans,48,produces,0.1875
+German,Female,24,Jeans,48,understands,0
+German,Male,24,Jeans,55,produces,0.1455
+German,Male,24,Jeans,55,understands,0
+German,Female,25,Jeans,28,produces,0.3214
+German,Female,25,Jeans,28,understands,0
+German,Male,25,Jeans,67,produces,0.2239
+German,Male,25,Jeans,67,understands,0
+German,Female,26,Jeans,42,produces,0.5
+German,Female,26,Jeans,42,understands,0
+German,Male,26,Jeans,50,produces,0.3
+German,Male,26,Jeans,50,understands,0
+German,Female,27,Jeans,41,produces,0.4878
+German,Female,27,Jeans,41,understands,0
+German,Male,27,Jeans,48,produces,0.25
+German,Male,27,Jeans,48,understands,0
+German,Female,28,Jeans,35,produces,0.6571
+German,Female,28,Jeans,35,understands,0
+German,Male,28,Jeans,58,produces,0.3448
+German,Male,28,Jeans,58,understands,0
+German,Female,29,Jeans,50,produces,0.72
+German,Female,29,Jeans,50,understands,0
+German,Male,29,Jeans,39,produces,0.3846
+German,Male,29,Jeans,39,understands,0
+German,Female,30,Jeans,54,produces,0.5741
+German,Female,30,Jeans,54,understands,0
+German,Male,30,Jeans,39,produces,0.5128
+German,Male,30,Jeans,39,understands,0
+Greek (Cypriot),Female,18,τζην,24,produces,0.125
+Greek (Cypriot),Female,18,τζην,24,understands,0
+Greek (Cypriot),Male,18,τζην,21,produces,0
+Greek (Cypriot),Male,18,τζην,21,understands,0
+Greek (Cypriot),Female,21,τζην,19,produces,0.2105
+Greek (Cypriot),Female,21,τζην,19,understands,0
+Greek (Cypriot),Male,21,τζην,17,produces,0.0588
+Greek (Cypriot),Male,21,τζην,17,understands,0
+Greek (Cypriot),Female,24,τζην,12,produces,0.4167
+Greek (Cypriot),Female,24,τζην,12,understands,0
+Greek (Cypriot),Male,24,τζην,20,produces,0.3
+Greek (Cypriot),Male,24,τζην,20,understands,0
+Greek (Cypriot),Female,27,τζην,16,produces,0.5625
+Greek (Cypriot),Female,27,τζην,16,understands,0
+Greek (Cypriot),Male,27,τζην,13,produces,0.6154
+Greek (Cypriot),Male,27,τζην,13,understands,0
+Greek (Cypriot),Female,30,τζην,12,produces,0.3333
+Greek (Cypriot),Female,30,τζην,12,understands,0
+Greek (Cypriot),Male,30,τζην,22,produces,0.6364
+Greek (Cypriot),Male,30,τζην,22,understands,0
+Hebrew,Male,11,ג'ינס,1,produces,0
+Hebrew,Male,11,ג'ינס,1,understands,0
+Hebrew,Female,12,ג'ינס,1,produces,0
+Hebrew,Female,12,ג'ינס,1,understands,0
+Hebrew,Male,12,ג'ינס,3,produces,0
+Hebrew,Male,12,ג'ינס,3,understands,0
+Hebrew,Male,13,ג'ינס,4,produces,0
+Hebrew,Male,13,ג'ינס,4,understands,0.25
+Hebrew,Male,14,ג'ינס,1,produces,0
+Hebrew,Male,14,ג'ינס,1,understands,0
+Hebrew,Male,15,ג'ינס,2,produces,0
+Hebrew,Male,15,ג'ינס,2,understands,0
+Hebrew,Female,16,ג'ינס,4,produces,0.25
+Hebrew,Female,16,ג'ינס,4,understands,0.25
+Hebrew,Male,16,ג'ינס,2,produces,0
+Hebrew,Male,16,ג'ינס,2,understands,0
+Hebrew,Female,17,ג'ינס,2,produces,0.5
+Hebrew,Female,17,ג'ינס,2,understands,0.5
+Hebrew,Male,17,ג'ינס,1,produces,0
+Hebrew,Male,17,ג'ינס,1,understands,0
+Hebrew,Female,19,ג'ינס,1,produces,0
+Hebrew,Female,19,ג'ינס,1,understands,0
+Hebrew,Male,19,ג'ינס,3,produces,0
+Hebrew,Male,19,ג'ינס,3,understands,0
+Hebrew,Female,20,ג'ינס,1,produces,0
+Hebrew,Female,20,ג'ינס,1,understands,0
+Hebrew,Male,20,ג'ינס,8,produces,0.25
+Hebrew,Male,20,ג'ינס,8,understands,0.5
+Hebrew,Female,21,ג'ינס,1,produces,1
+Hebrew,Female,21,ג'ינס,1,understands,1
+Hebrew,Male,21,ג'ינס,3,produces,0.3333
+Hebrew,Male,21,ג'ינס,3,understands,0.3333
+Hebrew,Male,22,ג'ינס,3,produces,0.3333
+Hebrew,Male,22,ג'ינס,3,understands,0.6667
+Hebrew,Female,23,ג'ינס,3,produces,0
+Hebrew,Female,23,ג'ינס,3,understands,0
+Hebrew,Male,23,ג'ינס,4,produces,0
+Hebrew,Male,23,ג'ינס,4,understands,0
+Hebrew,Female,24,ג'ינס,1,produces,0
+Hebrew,Female,24,ג'ינס,1,understands,1
+Hebrew,Male,24,ג'ינס,10,produces,0.4
+Hebrew,Male,24,ג'ינס,10,understands,0.6
+Hebrew,Female,25,ג'ינס,36,produces,0.4167
+Hebrew,Female,25,ג'ינס,36,understands,0
+Hebrew,Male,25,ג'ינס,48,produces,0.2708
+Hebrew,Male,25,ג'ינס,48,understands,0
+Hebrew,Female,26,ג'ינס,42,produces,0.5238
+Hebrew,Female,26,ג'ינס,42,understands,0
+Hebrew,Male,26,ג'ינס,38,produces,0.3421
+Hebrew,Male,26,ג'ינס,38,understands,0
+Hebrew,Female,27,ג'ינס,36,produces,0.3889
+Hebrew,Female,27,ג'ינס,36,understands,0
+Hebrew,Male,27,ג'ינס,32,produces,0.4688
+Hebrew,Male,27,ג'ינס,32,understands,0
+Hebrew,Female,28,ג'ינס,30,produces,0.4333
+Hebrew,Female,28,ג'ינס,30,understands,0
+Hebrew,Male,28,ג'ינס,27,produces,0.7037
+Hebrew,Male,28,ג'ינס,27,understands,0
+Hebrew,Female,29,ג'ינס,20,produces,0.35
+Hebrew,Female,29,ג'ינס,20,understands,0
+Hebrew,Male,29,ג'ינס,27,produces,0.4815
+Hebrew,Male,29,ג'ינס,27,understands,0
+Hebrew,Female,30,ג'ינס,12,produces,0.5
+Hebrew,Female,30,ג'ינס,12,understands,0
+Hebrew,Male,30,ג'ינס,16,produces,0.6875
+Hebrew,Male,30,ג'ינס,16,understands,0
+Hebrew,Female,31,ג'ינס,18,produces,0.5
+Hebrew,Female,31,ג'ינס,18,understands,0
+Hebrew,Male,31,ג'ינס,17,produces,0.4706
+Hebrew,Male,31,ג'ינס,17,understands,0
+Hebrew,Female,32,ג'ינס,19,produces,0.5789
+Hebrew,Female,32,ג'ינס,19,understands,0
+Hebrew,Male,32,ג'ינס,17,produces,0.5882
+Hebrew,Male,32,ג'ינס,17,understands,0
+Hebrew,Female,33,ג'ינס,10,produces,0.6
+Hebrew,Female,33,ג'ינס,10,understands,0
+Hebrew,Male,33,ג'ינס,11,produces,0.4545
+Hebrew,Male,33,ג'ינס,11,understands,0
+Hebrew,Female,34,ג'ינס,15,produces,0.6667
+Hebrew,Female,34,ג'ינס,15,understands,0
+Hebrew,Male,34,ג'ינס,12,produces,0.6667
+Hebrew,Male,34,ג'ינס,12,understands,0
+Hebrew,Female,35,ג'ינס,6,produces,0.5
+Hebrew,Female,35,ג'ינס,6,understands,0
+Hebrew,Male,35,ג'ינס,12,produces,0.5833
+Hebrew,Male,35,ג'ינס,12,understands,0
+Hebrew,Female,36,ג'ינס,4,produces,0.25
+Hebrew,Female,36,ג'ינס,4,understands,0
+Hebrew,Male,36,ג'ינס,1,produces,0
+Hebrew,Male,36,ג'ינס,1,understands,0
+Hungarian,Female,16,farmer,11,produces,0
+Hungarian,Female,16,farmer,11,understands,0
+Hungarian,Male,16,farmer,10,produces,0
+Hungarian,Male,16,farmer,10,understands,0
+Hungarian,Female,17,farmer,11,produces,0.1818
+Hungarian,Female,17,farmer,11,understands,0
+Hungarian,Male,17,farmer,7,produces,0
+Hungarian,Male,17,farmer,7,understands,0
+Hungarian,Female,18,farmer,9,produces,0.1111
+Hungarian,Female,18,farmer,9,understands,0
+Hungarian,Male,18,farmer,9,produces,0.1111
+Hungarian,Male,18,farmer,9,understands,0
+Hungarian,Female,19,farmer,13,produces,0.2308
+Hungarian,Female,19,farmer,13,understands,0
+Hungarian,Male,19,farmer,12,produces,0.1667
+Hungarian,Male,19,farmer,12,understands,0
+Hungarian,Female,20,farmer,12,produces,0.1667
+Hungarian,Female,20,farmer,12,understands,0
+Hungarian,Male,20,farmer,6,produces,0
+Hungarian,Male,20,farmer,6,understands,0
+Hungarian,Female,21,farmer,16,produces,0.375
+Hungarian,Female,21,farmer,16,understands,0
+Hungarian,Male,21,farmer,20,produces,0.25
+Hungarian,Male,21,farmer,20,understands,0
+Hungarian,Female,22,farmer,14,produces,0.2857
+Hungarian,Female,22,farmer,14,understands,0
+Hungarian,Male,22,farmer,13,produces,0.2308
+Hungarian,Male,22,farmer,13,understands,0
+Hungarian,Female,23,farmer,6,produces,0
+Hungarian,Female,23,farmer,6,understands,0
+Hungarian,Male,23,farmer,12,produces,0.25
+Hungarian,Male,23,farmer,12,understands,0
+Hungarian,Female,24,farmer,14,produces,0.5
+Hungarian,Female,24,farmer,14,understands,0
+Hungarian,Male,24,farmer,24,produces,0.4167
+Hungarian,Male,24,farmer,24,understands,0
+Hungarian,Female,25,farmer,17,produces,0.5294
+Hungarian,Female,25,farmer,17,understands,0
+Hungarian,Male,25,farmer,25,produces,0.56
+Hungarian,Male,25,farmer,25,understands,0
+Hungarian,Female,26,farmer,9,produces,0.3333
+Hungarian,Female,26,farmer,9,understands,0
+Hungarian,Male,26,farmer,14,produces,0.5
+Hungarian,Male,26,farmer,14,understands,0
+Hungarian,Female,27,farmer,13,produces,0.6154
+Hungarian,Female,27,farmer,13,understands,0
+Hungarian,Male,27,farmer,13,produces,0.5385
+Hungarian,Male,27,farmer,13,understands,0
+Hungarian,Female,28,farmer,11,produces,0.7273
+Hungarian,Female,28,farmer,11,understands,0
+Hungarian,Male,28,farmer,18,produces,0.2778
+Hungarian,Male,28,farmer,18,understands,0
+Hungarian,Female,29,farmer,8,produces,0.75
+Hungarian,Female,29,farmer,8,understands,0
+Hungarian,Male,29,farmer,4,produces,0.5
+Hungarian,Male,29,farmer,4,understands,0
+Hungarian,Female,30,farmer,3,produces,1
+Hungarian,Female,30,farmer,3,understands,0
+Hungarian,Male,30,farmer,15,produces,0.6667
+Hungarian,Male,30,farmer,15,understands,0
+Italian,Female,18,jeans,18,produces,0
+Italian,Female,18,jeans,18,understands,0
+Italian,Male,18,jeans,13,produces,0.0769
+Italian,Male,18,jeans,13,understands,0
+Italian,Female,19,jeans,21,produces,0.0476
+Italian,Female,19,jeans,21,understands,0
+Italian,Male,19,jeans,18,produces,0.1111
+Italian,Male,19,jeans,18,understands,0
+Italian,Female,20,jeans,34,produces,0.0294
+Italian,Female,20,jeans,34,understands,0
+Italian,Male,20,jeans,30,produces,0.1
+Italian,Male,20,jeans,30,understands,0
+Italian,Female,21,jeans,24,produces,0.2083
+Italian,Female,21,jeans,24,understands,0
+Italian,Male,21,jeans,31,produces,0.1935
+Italian,Male,21,jeans,31,understands,0
+Italian,Female,22,jeans,27,produces,0.2593
+Italian,Female,22,jeans,27,understands,0
+Italian,Male,22,jeans,28,produces,0.3214
+Italian,Male,22,jeans,28,understands,0
+Italian,Female,23,jeans,27,produces,0.2222
+Italian,Female,23,jeans,27,understands,0
+Italian,Male,23,jeans,26,produces,0.3077
+Italian,Male,23,jeans,26,understands,0
+Italian,Female,24,jeans,39,produces,0.4615
+Italian,Female,24,jeans,39,understands,0
+Italian,Male,24,jeans,32,produces,0.375
+Italian,Male,24,jeans,32,understands,0
+Italian,Female,25,jeans,23,produces,0.3478
+Italian,Female,25,jeans,23,understands,0
+Italian,Male,25,jeans,16,produces,0.1875
+Italian,Male,25,jeans,16,understands,0
+Italian,Female,26,jeans,19,produces,0.5789
+Italian,Female,26,jeans,19,understands,0
+Italian,Male,26,jeans,22,produces,0.4545
+Italian,Male,26,jeans,22,understands,0
+Italian,Female,27,jeans,20,produces,0.45
+Italian,Female,27,jeans,20,understands,0
+Italian,Male,27,jeans,23,produces,0.4783
+Italian,Male,27,jeans,23,understands,0
+Italian,Female,28,jeans,21,produces,0.4286
+Italian,Female,28,jeans,21,understands,0
+Italian,Male,28,jeans,23,produces,0.3478
+Italian,Male,28,jeans,23,understands,0
+Italian,Female,29,jeans,21,produces,0.4286
+Italian,Female,29,jeans,21,understands,0
+Italian,Male,29,jeans,16,produces,0.375
+Italian,Male,29,jeans,16,understands,0
+Italian,Female,30,jeans,28,produces,0.5357
+Italian,Female,30,jeans,28,understands,0
+Italian,Male,30,jeans,39,produces,0.641
+Italian,Male,30,jeans,39,understands,0
+Italian,Female,31,jeans,8,produces,0.5
+Italian,Female,31,jeans,8,understands,0
+Italian,Male,31,jeans,11,produces,0.5455
+Italian,Male,31,jeans,11,understands,0
+Italian,Female,32,jeans,14,produces,0.5714
+Italian,Female,32,jeans,14,understands,0
+Italian,Male,32,jeans,9,produces,0.2222
+Italian,Male,32,jeans,9,understands,0
+Italian,Female,33,jeans,5,produces,0.8
+Italian,Female,33,jeans,5,understands,0
+Italian,Male,33,jeans,11,produces,0.5455
+Italian,Male,33,jeans,11,understands,0
+Italian,Female,34,jeans,12,produces,0.75
+Italian,Female,34,jeans,12,understands,0
+Italian,Male,34,jeans,7,produces,0.4286
+Italian,Male,34,jeans,7,understands,0
+Italian,Female,35,jeans,9,produces,0.5556
+Italian,Female,35,jeans,9,understands,0
+Italian,Male,35,jeans,6,produces,0.6667
+Italian,Male,35,jeans,6,understands,0
+Italian,Female,36,jeans,7,produces,0.8571
+Italian,Female,36,jeans,7,understands,0
+Italian,Male,36,jeans,14,produces,0.7857
+Italian,Male,36,jeans,14,understands,0
+Japanese,Female,8,ジーパン,2,produces,0
+Japanese,Female,8,ジーパン,2,understands,0
+Japanese,Male,8,ジーパン,4,produces,0
+Japanese,Male,8,ジーパン,4,understands,0
+Japanese,Female,9,ジーパン,4,produces,0
+Japanese,Female,9,ジーパン,4,understands,0
+Japanese,Male,9,ジーパン,6,produces,0
+Japanese,Male,9,ジーパン,6,understands,0
+Japanese,Female,10,ジーパン,2,produces,0
+Japanese,Female,10,ジーパン,2,understands,0
+Japanese,Male,10,ジーパン,6,produces,0
+Japanese,Male,10,ジーパン,6,understands,0
+Japanese,Female,11,ジーパン,58,produces,0
+Japanese,Female,11,ジーパン,58,understands,0
+Japanese,Male,11,ジーパン,29,produces,0
+Japanese,Male,11,ジーパン,29,understands,0
+Japanese,Female,12,ジーパン,56,produces,0
+Japanese,Female,12,ジーパン,56,understands,0
+Japanese,Male,12,ジーパン,62,produces,0
+Japanese,Male,12,ジーパン,62,understands,0
+Japanese,Female,13,ジーパン,10,produces,0
+Japanese,Female,13,ジーパン,10,understands,0
+Japanese,Male,13,ジーパン,13,produces,0
+Japanese,Male,13,ジーパン,13,understands,0
+Japanese,Female,14,ジーパン,15,produces,0
+Japanese,Female,14,ジーパン,15,understands,0
+Japanese,Male,14,ジーパン,11,produces,0
+Japanese,Male,14,ジーパン,11,understands,0
+Japanese,Female,15,ジーパン,38,produces,0
+Japanese,Female,15,ジーパン,38,understands,0.0263
+Japanese,Male,15,ジーパン,34,produces,0
+Japanese,Male,15,ジーパン,34,understands,0
+Japanese,Female,16,ジーパン,23,produces,0
+Japanese,Female,16,ジーパン,23,understands,0
+Japanese,Male,16,ジーパン,23,produces,0
+Japanese,Male,16,ジーパン,23,understands,0.0435
+Japanese,Female,17,ジーパン,51,produces,0
+Japanese,Female,17,ジーパン,51,understands,0.0392
+Japanese,Male,17,ジーパン,26,produces,0
+Japanese,Male,17,ジーパン,26,understands,0
+Japanese,Female,18,ジーパン,47,produces,0.0426
+Japanese,Female,18,ジーパン,47,understands,0.0426
+Japanese,Male,18,ジーパン,47,produces,0
+Japanese,Male,18,ジーパン,47,understands,0
+Japanese,Female,19,ジーパン,14,produces,0
+Japanese,Female,19,ジーパン,14,understands,0
+Japanese,Male,19,ジーパン,21,produces,0
+Japanese,Male,19,ジーパン,21,understands,0
+Japanese,Female,20,ジーパン,27,produces,0.037
+Japanese,Female,20,ジーパン,27,understands,0
+Japanese,Male,20,ジーパン,32,produces,0
+Japanese,Male,20,ジーパン,32,understands,0
+Japanese,Female,21,ジーパン,29,produces,0
+Japanese,Female,21,ジーパン,29,understands,0
+Japanese,Male,21,ジーパン,33,produces,0.0303
+Japanese,Male,21,ジーパン,33,understands,0
+Japanese,Female,22,ジーパン,16,produces,0.0625
+Japanese,Female,22,ジーパン,16,understands,0
+Japanese,Male,22,ジーパン,15,produces,0.0667
+Japanese,Male,22,ジーパン,15,understands,0
+Japanese,Female,23,ジーパン,38,produces,0.0263
+Japanese,Female,23,ジーパン,38,understands,0
+Japanese,Male,23,ジーパン,29,produces,0.0345
+Japanese,Male,23,ジーパン,29,understands,0
+Japanese,Female,24,ジーパン,18,produces,0.1667
+Japanese,Female,24,ジーパン,18,understands,0
+Japanese,Male,24,ジーパン,15,produces,0
+Japanese,Male,24,ジーパン,15,understands,0
+Japanese,Female,25,ジーパン,14,produces,0.1429
+Japanese,Female,25,ジーパン,14,understands,0
+Japanese,Male,25,ジーパン,20,produces,0
+Japanese,Male,25,ジーパン,20,understands,0
+Japanese,Female,26,ジーパン,19,produces,0.0526
+Japanese,Female,26,ジーパン,19,understands,0
+Japanese,Male,26,ジーパン,14,produces,0.0714
+Japanese,Male,26,ジーパン,14,understands,0
+Japanese,Female,27,ジーパン,8,produces,0.125
+Japanese,Female,27,ジーパン,8,understands,0
+Japanese,Male,27,ジーパン,7,produces,0
+Japanese,Male,27,ジーパン,7,understands,0
+Japanese,Female,28,ジーパン,8,produces,0
+Japanese,Female,28,ジーパン,8,understands,0
+Japanese,Male,28,ジーパン,10,produces,0.1
+Japanese,Male,28,ジーパン,10,understands,0
+Japanese,Female,29,ジーパン,6,produces,0
+Japanese,Female,29,ジーパン,6,understands,0
+Japanese,Male,29,ジーパン,11,produces,0.2727
+Japanese,Male,29,ジーパン,11,understands,0
+Japanese,Female,30,ジーパン,9,produces,0
+Japanese,Female,30,ジーパン,9,understands,0
+Japanese,Male,30,ジーパン,9,produces,0
+Japanese,Male,30,ジーパン,9,understands,0
+Japanese,Female,31,ジーパン,8,produces,0.25
+Japanese,Female,31,ジーパン,8,understands,0
+Japanese,Male,31,ジーパン,10,produces,0.1
+Japanese,Male,31,ジーパン,10,understands,0
+Japanese,Female,32,ジーパン,8,produces,0.125
+Japanese,Female,32,ジーパン,8,understands,0
+Japanese,Male,32,ジーパン,5,produces,0.2
+Japanese,Male,32,ジーパン,5,understands,0
+Japanese,Female,33,ジーパン,9,produces,0.2222
+Japanese,Female,33,ジーパン,9,understands,0
+Japanese,Male,33,ジーパン,7,produces,0.1429
+Japanese,Male,33,ジーパン,7,understands,0
+Japanese,Female,34,ジーパン,8,produces,0.25
+Japanese,Female,34,ジーパン,8,understands,0
+Japanese,Male,34,ジーパン,5,produces,0
+Japanese,Male,34,ジーパン,5,understands,0
+Japanese,Female,35,ジーパン,19,produces,0.0526
+Japanese,Female,35,ジーパン,19,understands,0
+Japanese,Male,35,ジーパン,12,produces,0.1667
+Japanese,Male,35,ジーパン,12,understands,0
+Japanese,Female,36,ジーパン,4,produces,0.25
+Japanese,Female,36,ジーパン,4,understands,0
+Japanese,Male,36,ジーパン,14,produces,0
+Japanese,Male,36,ジーパン,14,understands,0
+Kigiriama,Female,16,Jinzi,1,produces,0
+Kigiriama,Female,16,Jinzi,1,understands,0
+Kigiriama,Female,17,Jinzi,5,produces,0
+Kigiriama,Female,17,Jinzi,5,understands,0
+Kigiriama,Male,17,Jinzi,1,produces,0
+Kigiriama,Male,17,Jinzi,1,understands,0
+Kigiriama,Female,18,Jinzi,6,produces,0
+Kigiriama,Female,18,Jinzi,6,understands,0
+Kigiriama,Male,18,Jinzi,6,produces,0
+Kigiriama,Male,18,Jinzi,6,understands,0
+Kigiriama,Female,19,Jinzi,3,produces,0
+Kigiriama,Female,19,Jinzi,3,understands,0
+Kigiriama,Male,19,Jinzi,5,produces,0
+Kigiriama,Male,19,Jinzi,5,understands,0
+Kigiriama,Female,20,Jinzi,5,produces,0
+Kigiriama,Female,20,Jinzi,5,understands,0
+Kigiriama,Male,20,Jinzi,8,produces,0
+Kigiriama,Male,20,Jinzi,8,understands,0
+Kigiriama,Female,21,Jinzi,3,produces,0
+Kigiriama,Female,21,Jinzi,3,understands,0
+Kigiriama,Male,21,Jinzi,3,produces,0
+Kigiriama,Male,21,Jinzi,3,understands,0
+Kigiriama,Female,22,Jinzi,7,produces,0
+Kigiriama,Female,22,Jinzi,7,understands,0
+Kigiriama,Male,22,Jinzi,2,produces,0
+Kigiriama,Male,22,Jinzi,2,understands,0
+Kigiriama,Female,23,Jinzi,2,produces,0
+Kigiriama,Female,23,Jinzi,2,understands,0
+Kigiriama,Male,23,Jinzi,2,produces,0
+Kigiriama,Male,23,Jinzi,2,understands,0
+Kigiriama,Female,24,Jinzi,6,produces,0
+Kigiriama,Female,24,Jinzi,6,understands,0
+Kigiriama,Male,24,Jinzi,1,produces,0
+Kigiriama,Male,24,Jinzi,1,understands,0
+Kigiriama,Female,25,Jinzi,2,produces,0
+Kigiriama,Female,25,Jinzi,2,understands,0
+Kigiriama,Male,25,Jinzi,1,produces,0
+Kigiriama,Male,25,Jinzi,1,understands,0
+Kigiriama,Female,26,Jinzi,4,produces,0
+Kigiriama,Female,26,Jinzi,4,understands,0
+Kigiriama,Male,26,Jinzi,2,produces,0
+Kigiriama,Male,26,Jinzi,2,understands,0
+Kigiriama,Female,27,Jinzi,1,produces,1
+Kigiriama,Female,27,Jinzi,1,understands,0
+Kigiriama,Male,27,Jinzi,3,produces,0.3333
+Kigiriama,Male,27,Jinzi,3,understands,0
+Kigiriama,Male,28,Jinzi,1,produces,0
+Kigiriama,Male,28,Jinzi,1,understands,0
+Kigiriama,Female,29,Jinzi,2,produces,0
+Kigiriama,Female,29,Jinzi,2,understands,0
+Kigiriama,Male,29,Jinzi,3,produces,0
+Kigiriama,Male,29,Jinzi,3,understands,0
+Kigiriama,Male,30,Jinzi,1,produces,1
+Kigiriama,Male,30,Jinzi,1,understands,0
+Kiswahili,Female,23,Jeans,1,produces,0
+Kiswahili,Female,23,Jeans,1,understands,0
+Kiswahili,Male,23,Jeans,1,produces,0
+Kiswahili,Male,23,Jeans,1,understands,0
+Kiswahili,Female,24,Jeans,6,produces,0.1667
+Kiswahili,Female,24,Jeans,6,understands,0
+Kiswahili,Male,24,Jeans,6,produces,0
+Kiswahili,Male,24,Jeans,6,understands,0
+Kiswahili,Female,25,Jeans,8,produces,0
+Kiswahili,Female,25,Jeans,8,understands,0
+Kiswahili,Male,25,Jeans,2,produces,0
+Kiswahili,Male,25,Jeans,2,understands,0
+Kiswahili,Female,26,Jeans,3,produces,0
+Kiswahili,Female,26,Jeans,3,understands,0
+Kiswahili,Male,26,Jeans,10,produces,0
+Kiswahili,Male,26,Jeans,10,understands,0
+Kiswahili,Female,27,Jeans,3,produces,0
+Kiswahili,Female,27,Jeans,3,understands,0
+Kiswahili,Male,27,Jeans,5,produces,0.4
+Kiswahili,Male,27,Jeans,5,understands,0
+Kiswahili,Female,28,Jeans,3,produces,0
+Kiswahili,Female,28,Jeans,3,understands,0
+Kiswahili,Male,28,Jeans,3,produces,0.3333
+Kiswahili,Male,28,Jeans,3,understands,0
+Kiswahili,Female,29,Jeans,3,produces,0.3333
+Kiswahili,Female,29,Jeans,3,understands,0
+Kiswahili,Male,29,Jeans,3,produces,0
+Kiswahili,Male,29,Jeans,3,understands,0
+Kiswahili,Female,30,Jeans,3,produces,0
+Kiswahili,Female,30,Jeans,3,understands,0
+Kiswahili,Male,30,Jeans,2,produces,1
+Kiswahili,Male,30,Jeans,2,understands,0
+Swedish,Female,8,jeans,11,produces,0
+Swedish,Female,8,jeans,11,understands,0
+Swedish,Male,8,jeans,15,produces,0
+Swedish,Male,8,jeans,15,understands,0
+Swedish,Female,9,jeans,1,produces,0
+Swedish,Female,9,jeans,1,understands,0
+Swedish,Male,9,jeans,1,produces,0
+Swedish,Male,9,jeans,1,understands,0
+Swedish,Female,10,jeans,27,produces,0
+Swedish,Female,10,jeans,27,understands,0
+Swedish,Male,10,jeans,27,produces,0
+Swedish,Male,10,jeans,27,understands,0
+Swedish,Female,11,jeans,2,produces,0
+Swedish,Female,11,jeans,2,understands,0
+Swedish,Male,11,jeans,1,produces,0
+Swedish,Male,11,jeans,1,understands,0
+Swedish,Female,12,jeans,42,produces,0
+Swedish,Female,12,jeans,42,understands,0.0476
+Swedish,Male,12,jeans,37,produces,0
+Swedish,Male,12,jeans,37,understands,0
+Swedish,Female,13,jeans,4,produces,0
+Swedish,Female,13,jeans,4,understands,0
+Swedish,Male,13,jeans,3,produces,0
+Swedish,Male,13,jeans,3,understands,0
+Swedish,Female,14,jeans,63,produces,0
+Swedish,Female,14,jeans,63,understands,0.0794
+Swedish,Male,14,jeans,61,produces,0
+Swedish,Male,14,jeans,61,understands,0.0164
+Swedish,Female,15,jeans,10,produces,0
+Swedish,Female,15,jeans,10,understands,0.1
+Swedish,Male,15,jeans,3,produces,0
+Swedish,Male,15,jeans,3,understands,0
+Swedish,Female,16,jeans,171,produces,0.0058
+Swedish,Female,16,jeans,171,understands,0.0292
+Swedish,Male,16,jeans,142,produces,0
+Swedish,Male,16,jeans,142,understands,0.0493
+Swedish,Female,19,jeans,85,produces,0
+Swedish,Female,19,jeans,85,understands,0
+Swedish,Male,19,jeans,65,produces,0
+Swedish,Male,19,jeans,65,understands,0
+Swedish,Female,22,jeans,162,produces,0.0864
+Swedish,Female,22,jeans,162,understands,0
+Swedish,Male,22,jeans,143,produces,0.0769
+Swedish,Male,22,jeans,143,understands,0
+Swedish,Female,25,jeans,67,produces,0.3284
+Swedish,Female,25,jeans,67,understands,0
+Swedish,Male,25,jeans,76,produces,0.2237
+Swedish,Male,25,jeans,76,understands,0
+Swedish,Female,28,jeans,69,produces,0.4493
+Swedish,Female,28,jeans,69,understands,0
+Swedish,Male,28,jeans,70,produces,0.3571
+Swedish,Male,28,jeans,70,understands,0

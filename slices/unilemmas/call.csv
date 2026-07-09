@@ -1,875 +1,2605 @@
-language,age,words,n,measure,prop
-Italian,18,telefonare,31,produces,0.0645
-Italian,18,telefonare,31,understands,0
-Italian,19,telefonare,39,produces,0.0256
-Italian,19,telefonare,39,understands,0
-Italian,20,telefonare,64,produces,0.1094
-Italian,20,telefonare,64,understands,0
-Italian,21,telefonare,55,produces,0.2364
-Italian,21,telefonare,55,understands,0
-Italian,22,telefonare,55,produces,0.2364
-Italian,22,telefonare,55,understands,0
-Italian,23,telefonare,53,produces,0.3774
-Italian,23,telefonare,53,understands,0
-Italian,24,telefonare,71,produces,0.5211
-Italian,24,telefonare,71,understands,0
-Italian,25,telefonare,39,produces,0.5128
-Italian,25,telefonare,39,understands,0
-Italian,26,telefonare,41,produces,0.6098
-Italian,26,telefonare,41,understands,0
-Italian,27,telefonare,43,produces,0.6047
-Italian,27,telefonare,43,understands,0
-Italian,28,telefonare,44,produces,0.7955
-Italian,28,telefonare,44,understands,0
-Italian,29,telefonare,37,produces,0.8378
-Italian,29,telefonare,37,understands,0
-Italian,30,telefonare,67,produces,0.806
-Italian,30,telefonare,67,understands,0
-Italian,31,telefonare,19,produces,0.8947
-Italian,31,telefonare,19,understands,0
-Italian,32,telefonare,23,produces,0.6957
-Italian,32,telefonare,23,understands,0
-Italian,33,telefonare,16,produces,0.9375
-Italian,33,telefonare,16,understands,0
-Italian,34,telefonare,19,produces,0.9474
-Italian,34,telefonare,19,understands,0
-Italian,35,telefonare,15,produces,0.9333
-Italian,35,telefonare,15,understands,0
-Italian,36,telefonare,21,produces,0.7143
-Italian,36,telefonare,21,understands,0
-Japanese,16,よぶ（呼ぶ）,11,produces,0
-Japanese,16,よぶ（呼ぶ）,11,understands,0
-Japanese,17,よぶ（呼ぶ）,17,produces,0
-Japanese,17,よぶ（呼ぶ）,17,understands,0
-Japanese,18,よぶ（呼ぶ）,56,produces,0.0179
-Japanese,18,よぶ（呼ぶ）,56,understands,0
-Japanese,19,よぶ（呼ぶ）,35,produces,0
-Japanese,19,よぶ（呼ぶ）,35,understands,0
-Japanese,20,よぶ（呼ぶ）,59,produces,0.0339
-Japanese,20,よぶ（呼ぶ）,59,understands,0
-Japanese,21,よぶ（呼ぶ）,62,produces,0.0323
-Japanese,21,よぶ（呼ぶ）,62,understands,0
-Japanese,22,よぶ（呼ぶ）,31,produces,0.0323
-Japanese,22,よぶ（呼ぶ）,31,understands,0
-Japanese,23,よぶ（呼ぶ）,67,produces,0.0448
-Japanese,23,よぶ（呼ぶ）,67,understands,0
-Japanese,24,よぶ（呼ぶ）,33,produces,0.0909
-Japanese,24,よぶ（呼ぶ）,33,understands,0
-Japanese,25,よぶ（呼ぶ）,34,produces,0.1765
-Japanese,25,よぶ（呼ぶ）,34,understands,0
-Japanese,26,よぶ（呼ぶ）,33,produces,0.303
-Japanese,26,よぶ（呼ぶ）,33,understands,0
-Japanese,27,よぶ（呼ぶ）,15,produces,0.0667
-Japanese,27,よぶ（呼ぶ）,15,understands,0
-Japanese,28,よぶ（呼ぶ）,18,produces,0.2222
-Japanese,28,よぶ（呼ぶ）,18,understands,0
-Japanese,29,よぶ（呼ぶ）,17,produces,0.4706
-Japanese,29,よぶ（呼ぶ）,17,understands,0
-Japanese,30,よぶ（呼ぶ）,18,produces,0.3333
-Japanese,30,よぶ（呼ぶ）,18,understands,0
-Japanese,31,よぶ（呼ぶ）,18,produces,0.3333
-Japanese,31,よぶ（呼ぶ）,18,understands,0
-Japanese,32,よぶ（呼ぶ）,13,produces,0.3846
-Japanese,32,よぶ（呼ぶ）,13,understands,0
-Japanese,33,よぶ（呼ぶ）,16,produces,0.625
-Japanese,33,よぶ（呼ぶ）,16,understands,0
-Japanese,34,よぶ（呼ぶ）,13,produces,0.6923
-Japanese,34,よぶ（呼ぶ）,13,understands,0
-Japanese,35,よぶ（呼ぶ）,31,produces,0.7419
-Japanese,35,よぶ（呼ぶ）,31,understands,0
-Japanese,36,よぶ（呼ぶ）,18,produces,0.6111
-Japanese,36,よぶ（呼ぶ）,18,understands,0
-Kigiriama,16,Kupiga simu,1,produces,0
-Kigiriama,16,Kupiga simu,1,understands,0
-Kigiriama,17,Kupiga simu,6,produces,0
-Kigiriama,17,Kupiga simu,6,understands,0
-Kigiriama,18,Kupiga simu,13,produces,0.0769
-Kigiriama,18,Kupiga simu,13,understands,0
-Kigiriama,19,Kupiga simu,8,produces,0
-Kigiriama,19,Kupiga simu,8,understands,0
-Kigiriama,20,Kupiga simu,14,produces,0.0714
-Kigiriama,20,Kupiga simu,14,understands,0
-Kigiriama,21,Kupiga simu,6,produces,0
-Kigiriama,21,Kupiga simu,6,understands,0
-Kigiriama,22,Kupiga simu,9,produces,0.2222
-Kigiriama,22,Kupiga simu,9,understands,0
-Kigiriama,23,Kupiga simu,4,produces,0
-Kigiriama,23,Kupiga simu,4,understands,0
-Kigiriama,24,Kupiga simu,7,produces,0
-Kigiriama,24,Kupiga simu,7,understands,0
-Kigiriama,25,Kupiga simu,3,produces,0.3333
-Kigiriama,25,Kupiga simu,3,understands,0
-Kigiriama,26,Kupiga simu,6,produces,0
-Kigiriama,26,Kupiga simu,6,understands,0
-Kigiriama,27,Kupiga simu,4,produces,0.5
-Kigiriama,27,Kupiga simu,4,understands,0
-Kigiriama,28,Kupiga simu,1,produces,0
-Kigiriama,28,Kupiga simu,1,understands,0
-Kigiriama,29,Kupiga simu,5,produces,0
-Kigiriama,29,Kupiga simu,5,understands,0
-Kigiriama,30,Kupiga simu,1,produces,0
-Kigiriama,30,Kupiga simu,1,understands,0
-Kiswahili,23,Piga simu,2,produces,0
-Kiswahili,23,Piga simu,2,understands,0
-Kiswahili,24,Piga simu,12,produces,0.1667
-Kiswahili,24,Piga simu,12,understands,0
-Kiswahili,25,Piga simu,10,produces,0.1
-Kiswahili,25,Piga simu,10,understands,0
-Kiswahili,26,Piga simu,13,produces,0.1538
-Kiswahili,26,Piga simu,13,understands,0
-Kiswahili,27,Piga simu,8,produces,0.25
-Kiswahili,27,Piga simu,8,understands,0
-Kiswahili,28,Piga simu,6,produces,0
-Kiswahili,28,Piga simu,6,understands,0
-Kiswahili,29,Piga simu,6,produces,0.1667
-Kiswahili,29,Piga simu,6,understands,0
-Kiswahili,30,Piga simu,5,produces,0.4
-Kiswahili,30,Piga simu,5,understands,0
-Latvian,17,saukt,27,produces,0.037
-Latvian,17,saukt,27,understands,0
-Latvian,18,saukt,21,produces,0.0476
-Latvian,18,saukt,21,understands,0
-Latvian,19,saukt,28,produces,0
-Latvian,19,saukt,28,understands,0
-Latvian,20,saukt,34,produces,0.0294
-Latvian,20,saukt,34,understands,0
-Latvian,21,saukt,26,produces,0.1923
-Latvian,21,saukt,26,understands,0
-Latvian,22,saukt,32,produces,0.1875
-Latvian,22,saukt,32,understands,0
-Latvian,23,saukt,25,produces,0.12
-Latvian,23,saukt,25,understands,0
-Latvian,24,saukt,30,produces,0.3333
-Latvian,24,saukt,30,understands,0
-Latvian,25,saukt,29,produces,0.1379
-Latvian,25,saukt,29,understands,0
-Latvian,26,saukt,22,produces,0.4545
-Latvian,26,saukt,22,understands,0
-Latvian,27,saukt,18,produces,0.3333
-Latvian,27,saukt,18,understands,0
-Latvian,28,saukt,23,produces,0.4348
-Latvian,28,saukt,23,understands,0
-Latvian,29,saukt,24,produces,0.5
-Latvian,29,saukt,24,understands,0
-Latvian,30,saukt,26,produces,0.5
-Latvian,30,saukt,26,understands,0
-Latvian,31,saukt,19,produces,0.4737
-Latvian,31,saukt,19,understands,0
-Latvian,32,saukt,25,produces,0.6
-Latvian,32,saukt,25,understands,0
-Latvian,33,saukt,31,produces,0.6452
-Latvian,33,saukt,31,understands,0
-Latvian,34,saukt,17,produces,0.7647
-Latvian,34,saukt,17,understands,0
-Latvian,35,saukt,21,produces,0.7619
-Latvian,35,saukt,21,understands,0
-Latvian,36,saukt,22,produces,0.7273
-Latvian,36,saukt,22,understands,0
-Mandarin (Beijing),16,"打（电话）, 拨（电话）",70,produces,0.2857
-Mandarin (Beijing),16,"打（电话）, 拨（电话）",70,understands,0
-Mandarin (Beijing),17,"打电话, 打（电话）, 拨（电话）",112,produces,0.3587
-Mandarin (Beijing),17,"打电话, 打（电话）, 拨（电话）",112,understands,0
-Mandarin (Beijing),18,"打电话, 打（电话）, 拨（电话）",121,produces,0.401
-Mandarin (Beijing),18,"打电话, 打（电话）, 拨（电话）",121,understands,0
-Mandarin (Beijing),19,"打电话, 打（电话）, 拨（电话）",120,produces,0.5053
-Mandarin (Beijing),19,"打电话, 打（电话）, 拨（电话）",120,understands,0
-Mandarin (Beijing),20,"打电话, 打（电话）, 拨（电话）",121,produces,0.5781
-Mandarin (Beijing),20,"打电话, 打（电话）, 拨（电话）",121,understands,0
-Mandarin (Beijing),21,"打电话, 打（电话）, 拨（电话）",119,produces,0.6243
-Mandarin (Beijing),21,"打电话, 打（电话）, 拨（电话）",119,understands,0
-Mandarin (Beijing),22,"打电话, 打（电话）, 拨（电话）",117,produces,0.6702
-Mandarin (Beijing),22,"打电话, 打（电话）, 拨（电话）",117,understands,0
-Mandarin (Beijing),23,"打电话, 打（电话）, 拨（电话）",120,produces,0.7947
-Mandarin (Beijing),23,"打电话, 打（电话）, 拨（电话）",120,understands,0
-Mandarin (Beijing),24,"打电话, 打（电话）, 拨（电话）",120,produces,0.7579
-Mandarin (Beijing),24,"打电话, 打（电话）, 拨（电话）",120,understands,0
-Mandarin (Beijing),25,"打电话, 打（电话）, 拨（电话）",113,produces,0.8634
-Mandarin (Beijing),25,"打电话, 打（电话）, 拨（电话）",113,understands,0
-Mandarin (Beijing),26,"打电话, 打（电话）, 拨（电话）",118,produces,0.8571
-Mandarin (Beijing),26,"打电话, 打（电话）, 拨（电话）",118,understands,0
-Mandarin (Beijing),27,"打电话, 打（电话）, 拨（电话）",114,produces,0.8587
-Mandarin (Beijing),27,"打电话, 打（电话）, 拨（电话）",114,understands,0
-Mandarin (Beijing),28,"打电话, 打（电话）, 拨（电话）",114,produces,0.8641
-Mandarin (Beijing),28,"打电话, 打（电话）, 拨（电话）",114,understands,0
-Mandarin (Beijing),29,"打电话, 打（电话）, 拨（电话）",119,produces,0.9048
-Mandarin (Beijing),29,"打电话, 打（电话）, 拨（电话）",119,understands,0
-Mandarin (Beijing),30,"打电话, 打（电话）, 拨（电话）",110,produces,0.9167
-Mandarin (Beijing),30,"打电话, 打（电话）, 拨（电话）",110,understands,0
-Mandarin (Taiwanese),8,"打電話, 叫",86,produces,0.0058
-Mandarin (Taiwanese),8,"打電話, 叫",86,understands,0.4767
-Mandarin (Taiwanese),9,"打電話, 叫",79,produces,0.019
-Mandarin (Taiwanese),9,"打電話, 叫",79,understands,0.49370000000000003
-Mandarin (Taiwanese),10,"打電話, 叫",78,produces,0.0192
-Mandarin (Taiwanese),10,"打電話, 叫",78,understands,0.2051
-Mandarin (Taiwanese),11,"打電話, 叫",79,produces,0.0443
-Mandarin (Taiwanese),11,"打電話, 叫",79,understands,0.2658
-Mandarin (Taiwanese),12,"打電話, 叫",80,produces,0.05
-Mandarin (Taiwanese),12,"打電話, 叫",80,understands,0.3375
-Mandarin (Taiwanese),13,"打電話, 叫",78,produces,0.0897
-Mandarin (Taiwanese),13,"打電話, 叫",78,understands,0.4167
-Mandarin (Taiwanese),14,"打電話, 叫",81,produces,0.1852
-Mandarin (Taiwanese),14,"打電話, 叫",81,understands,0.4136
-Mandarin (Taiwanese),15,"打電話, 叫",106,produces,0.1698
-Mandarin (Taiwanese),15,"打電話, 叫",106,understands,0.5094
-Mandarin (Taiwanese),16,"打電話, 叫",170,produces,0.1265
-Mandarin (Taiwanese),16,"打電話, 叫",170,understands,0.2412
-Mandarin (Taiwanese),17,"打電話, 叫",87,produces,0.069
-Mandarin (Taiwanese),17,"打電話, 叫",87,understands,0
-Mandarin (Taiwanese),18,"打電話, 叫",84,produces,0.0952
-Mandarin (Taiwanese),18,"打電話, 叫",84,understands,0
-Mandarin (Taiwanese),19,"打電話, 叫",84,produces,0.2143
-Mandarin (Taiwanese),19,"打電話, 叫",84,understands,0
-Mandarin (Taiwanese),20,"打電話, 叫",84,produces,0.2321
-Mandarin (Taiwanese),20,"打電話, 叫",84,understands,0
-Mandarin (Taiwanese),21,"打電話, 叫",88,produces,0.2159
-Mandarin (Taiwanese),21,"打電話, 叫",88,understands,0
-Mandarin (Taiwanese),22,"打電話, 叫",96,produces,0.2865
-Mandarin (Taiwanese),22,"打電話, 叫",96,understands,0
-Mandarin (Taiwanese),23,"打電話, 叫",105,produces,0.4
-Mandarin (Taiwanese),23,"打電話, 叫",105,understands,0
-Mandarin (Taiwanese),24,"打電話, 叫",124,produces,0.4435
-Mandarin (Taiwanese),24,"打電話, 叫",124,understands,0
-Mandarin (Taiwanese),25,"打電話, 叫",110,produces,0.4182
-Mandarin (Taiwanese),25,"打電話, 叫",110,understands,0
-Mandarin (Taiwanese),26,"打電話, 叫",87,produces,0.5575
-Mandarin (Taiwanese),26,"打電話, 叫",87,understands,0
-Mandarin (Taiwanese),27,"打電話, 叫",92,produces,0.5217
-Mandarin (Taiwanese),27,"打電話, 叫",92,understands,0
-Mandarin (Taiwanese),28,"打電話, 叫",100,produces,0.645
-Mandarin (Taiwanese),28,"打電話, 叫",100,understands,0
-Mandarin (Taiwanese),29,"打電話, 叫",88,produces,0.6932
-Mandarin (Taiwanese),29,"打電話, 叫",88,understands,0
-Mandarin (Taiwanese),30,"打電話, 叫",94,produces,0.734
-Mandarin (Taiwanese),30,"打電話, 叫",94,understands,0
-Mandarin (Taiwanese),31,"打電話, 叫",88,produces,0.8125
-Mandarin (Taiwanese),31,"打電話, 叫",88,understands,0
-Mandarin (Taiwanese),32,"打電話, 叫",82,produces,0.7317
-Mandarin (Taiwanese),32,"打電話, 叫",82,understands,0
-Mandarin (Taiwanese),33,"打電話, 叫",85,produces,0.8765
-Mandarin (Taiwanese),33,"打電話, 叫",85,understands,0
-Mandarin (Taiwanese),34,"打電話, 叫",77,produces,0.8182
-Mandarin (Taiwanese),34,"打電話, 叫",77,understands,0
-Mandarin (Taiwanese),35,"打電話, 叫",81,produces,0.9136
-Mandarin (Taiwanese),35,"打電話, 叫",81,understands,0
-Mandarin (Taiwanese),36,"打電話, 叫",81,produces,0.9074
-Mandarin (Taiwanese),36,"打電話, 叫",81,understands,0
-Norwegian,16,ringe,98,produces,0.0714
-Norwegian,16,ringe,98,understands,0
-Norwegian,17,ringe,218,produces,0.0734
-Norwegian,17,ringe,218,understands,0
-Norwegian,18,ringe,271,produces,0.1365
-Norwegian,18,ringe,271,understands,0
-Norwegian,19,ringe,281,produces,0.1851
-Norwegian,19,ringe,281,understands,0
-Norwegian,20,ringe,342,produces,0.269
-Norwegian,20,ringe,342,understands,0
-Norwegian,21,ringe,418,produces,0.3421
-Norwegian,21,ringe,418,understands,0
-Norwegian,22,ringe,596,produces,0.3943
-Norwegian,22,ringe,596,understands,0
-Norwegian,23,ringe,566,produces,0.4841
-Norwegian,23,ringe,566,understands,0
-Norwegian,24,ringe,538,produces,0.5632
-Norwegian,24,ringe,538,understands,0
-Norwegian,25,ringe,656,produces,0.6433
-Norwegian,25,ringe,656,understands,0
-Norwegian,26,ringe,644,produces,0.736
-Norwegian,26,ringe,644,understands,0
-Norwegian,27,ringe,525,produces,0.7867
-Norwegian,27,ringe,525,understands,0
-Norwegian,28,ringe,544,produces,0.829
-Norwegian,28,ringe,544,understands,0
-Norwegian,29,ringe,536,produces,0.8619
-Norwegian,29,ringe,536,understands,0
-Norwegian,30,ringe,457,produces,0.8687
-Norwegian,30,ringe,457,understands,0
-Norwegian,31,ringe,479,produces,0.8768
-Norwegian,31,ringe,479,understands,0
-Norwegian,32,ringe,451,produces,0.9224
-Norwegian,32,ringe,451,understands,0
-Norwegian,33,ringe,430,produces,0.9209
-Norwegian,33,ringe,430,understands,0
-Norwegian,34,ringe,424,produces,0.9316
-Norwegian,34,ringe,424,understands,0
-Norwegian,35,ringe,422,produces,0.9479
-Norwegian,35,ringe,422,understands,0
-Norwegian,36,ringe,329,produces,0.9635
-Norwegian,36,ringe,329,understands,0
-Portuguese (European),16,Chamar,144,produces,0.0069
-Portuguese (European),16,Chamar,144,understands,0
-Portuguese (European),17,Chamar,158,produces,0.0127
-Portuguese (European),17,Chamar,158,understands,0
-Portuguese (European),18,Chamar,203,produces,0.0345
-Portuguese (European),18,Chamar,203,understands,0
-Portuguese (European),19,Chamar,196,produces,0.0408
-Portuguese (European),19,Chamar,196,understands,0
-Portuguese (European),20,Chamar,218,produces,0.0505
-Portuguese (European),20,Chamar,218,understands,0
-Portuguese (European),21,Chamar,208,produces,0.0769
-Portuguese (European),21,Chamar,208,understands,0
-Portuguese (European),22,Chamar,213,produces,0.1221
-Portuguese (European),22,Chamar,213,understands,0
-Portuguese (European),23,Chamar,199,produces,0.1256
-Portuguese (European),23,Chamar,199,understands,0
-Portuguese (European),24,Chamar,215,produces,0.2419
-Portuguese (European),24,Chamar,215,understands,0
-Portuguese (European),25,Chamar,213,produces,0.338
-Portuguese (European),25,Chamar,213,understands,0
-Portuguese (European),26,Chamar,218,produces,0.3624
-Portuguese (European),26,Chamar,218,understands,0
-Portuguese (European),27,Chamar,238,produces,0.4622
-Portuguese (European),27,Chamar,238,understands,0
-Portuguese (European),28,Chamar,219,produces,0.5251
-Portuguese (European),28,Chamar,219,understands,0
-Portuguese (European),29,Chamar,207,produces,0.5459
-Portuguese (European),29,Chamar,207,understands,0
-Portuguese (European),30,Chamar,163,produces,0.6135
-Portuguese (European),30,Chamar,163,understands,0
-Russian,18,звонить,42,produces,0.0238
-Russian,18,звонить,42,understands,0
-Russian,19,звонить,41,produces,0.1463
-Russian,19,звонить,41,understands,0
-Russian,20,звонить,45,produces,0.1111
-Russian,20,звонить,45,understands,0
-Russian,21,звонить,43,produces,0.2558
-Russian,21,звонить,43,understands,0
-Russian,22,звонить,51,produces,0.2549
-Russian,22,звонить,51,understands,0
-Russian,23,звонить,56,produces,0.375
-Russian,23,звонить,56,understands,0
-Russian,24,звонить,61,produces,0.459
-Russian,24,звонить,61,understands,0
-Russian,25,звонить,66,produces,0.5
-Russian,25,звонить,66,understands,0
-Russian,26,звонить,52,produces,0.5385
-Russian,26,звонить,52,understands,0
-Russian,27,звонить,60,produces,0.55
-Russian,27,звонить,60,understands,0
-Russian,28,звонить,60,produces,0.6667
-Russian,28,звонить,60,understands,0
-Russian,29,звонить,58,produces,0.7759
-Russian,29,звонить,58,understands,0
-Russian,30,звонить,77,produces,0.7403
-Russian,30,звонить,77,understands,0
-Russian,31,звонить,61,produces,0.8525
-Russian,31,звонить,61,understands,0
-Russian,32,звонить,55,produces,0.7636
-Russian,32,звонить,55,understands,0
-Russian,33,звонить,55,produces,0.8
-Russian,33,звонить,55,understands,0
-Russian,34,звонить,58,produces,0.8966
-Russian,34,звонить,58,understands,0
-Russian,35,звонить,47,produces,0.8936
-Russian,35,звонить,47,understands,0
-Russian,36,звонить,49,produces,0.9796
-Russian,36,звонить,49,understands,0
-Slovak,8,volať,73,produces,0.0137
-Slovak,8,volať,73,understands,0.1096
-Slovak,9,volať,59,produces,0.0339
-Slovak,9,volať,59,understands,0.2034
-Slovak,10,volať,73,produces,0.0137
-Slovak,10,volať,73,understands,0.1644
-Slovak,11,volať,62,produces,0
-Slovak,11,volať,62,understands,0.3387
-Slovak,12,volať,79,produces,0.0506
-Slovak,12,volať,79,understands,0.5063
-Slovak,13,volať,74,produces,0.027
-Slovak,13,volať,74,understands,0.5676
-Slovak,14,volať,78,produces,0.0513
-Slovak,14,volať,78,understands,0.5769
-Slovak,15,volať,87,produces,0.0805
-Slovak,15,volať,87,understands,0.6552
-Slovak,16,volať,68,produces,0.1324
-Slovak,16,volať,68,understands,0.6029
-Slovak,17,"volať, telefonovať",70,produces,0.2286
-Slovak,17,"volať, telefonovať",70,understands,0
-Slovak,18,"volať, telefonovať",65,produces,0.2615
-Slovak,18,"volať, telefonovať",65,understands,0
-Slovak,19,"volať, telefonovať",56,produces,0.2143
-Slovak,19,"volať, telefonovať",56,understands,0
-Slovak,20,"volať, telefonovať",62,produces,0.371
-Slovak,20,"volať, telefonovať",62,understands,0
-Slovak,21,"volať, telefonovať",81,produces,0.4444
-Slovak,21,"volať, telefonovať",81,understands,0
-Slovak,22,"volať, telefonovať",53,produces,0.4528
-Slovak,22,"volať, telefonovať",53,understands,0
-Slovak,23,"volať, telefonovať",59,produces,0.4915
-Slovak,23,"volať, telefonovať",59,understands,0
-Slovak,24,"volať, telefonovať",59,produces,0.6271
-Slovak,24,"volať, telefonovať",59,understands,0
-Slovak,25,"volať, telefonovať",69,produces,0.6304
-Slovak,25,"volať, telefonovať",69,understands,0
-Slovak,26,"volať, telefonovať",78,produces,0.8141
-Slovak,26,"volať, telefonovať",78,understands,0
-Slovak,27,"volať, telefonovať",62,produces,0.8065
-Slovak,27,"volať, telefonovať",62,understands,0
-Slovak,28,"volať, telefonovať",86,produces,0.7558
-Slovak,28,"volať, telefonovať",86,understands,0
-Slovak,29,"volať, telefonovať",75,produces,0.7933
-Slovak,29,"volať, telefonovať",75,understands,0
-Slovak,30,"volať, telefonovať",49,produces,0.7041
-Slovak,30,"volať, telefonovať",49,understands,0
-Slovak,31,"volať, telefonovať",29,produces,0.7931
-Slovak,31,"volať, telefonovať",29,understands,0
-Slovak,32,"volať, telefonovať",25,produces,0.92
-Slovak,32,"volať, telefonovať",25,understands,0
-Slovak,33,"volať, telefonovať",22,produces,0.9545
-Slovak,33,"volať, telefonovať",22,understands,0
-Slovak,34,"volať, telefonovať",27,produces,0.8519
-Slovak,34,"volať, telefonovať",27,understands,0
-Slovak,35,"volať, telefonovať",27,produces,0.8148
-Slovak,35,"volať, telefonovať",27,understands,0
-Slovak,36,"volať, telefonovať",8,produces,0.875
-Slovak,36,"volať, telefonovať",8,understands,0
-Spanish (European),16,llamar,39,produces,0
-Spanish (European),16,llamar,39,understands,0
-Spanish (European),17,llamar,39,produces,0.0513
-Spanish (European),17,llamar,39,understands,0
-Spanish (European),18,llamar,50,produces,0.06
-Spanish (European),18,llamar,50,understands,0
-Spanish (European),19,llamar,27,produces,0.037
-Spanish (European),19,llamar,27,understands,0
-Spanish (European),20,llamar,36,produces,0
-Spanish (European),20,llamar,36,understands,0
-Spanish (European),21,llamar,41,produces,0.0488
-Spanish (European),21,llamar,41,understands,0
-Spanish (European),22,llamar,38,produces,0.1842
-Spanish (European),22,llamar,38,understands,0
-Spanish (European),23,llamar,30,produces,0.2667
-Spanish (European),23,llamar,30,understands,0
-Spanish (European),24,llamar,55,produces,0.3455
-Spanish (European),24,llamar,55,understands,0
-Spanish (European),25,llamar,35,produces,0.3429
-Spanish (European),25,llamar,35,understands,0
-Spanish (European),26,llamar,49,produces,0.4694
-Spanish (European),26,llamar,49,understands,0
-Spanish (European),27,llamar,34,produces,0.7353
-Spanish (European),27,llamar,34,understands,0
-Spanish (European),28,llamar,38,produces,0.6579
-Spanish (European),28,llamar,38,understands,0
-Spanish (European),29,llamar,41,produces,0.7073
-Spanish (European),29,llamar,41,understands,0
-Spanish (European),30,llamar,41,produces,0.7073
-Spanish (European),30,llamar,41,understands,0
-Spanish (Peruvian),16,llamar,13,produces,0
-Spanish (Peruvian),16,llamar,13,understands,0
-Spanish (Peruvian),17,llamar,9,produces,0.2222
-Spanish (Peruvian),17,llamar,9,understands,0
-Spanish (Peruvian),18,llamar,4,produces,0
-Spanish (Peruvian),18,llamar,4,understands,0
-Spanish (Peruvian),19,llamar,12,produces,0.3333
-Spanish (Peruvian),19,llamar,12,understands,0
-Spanish (Peruvian),20,llamar,1,produces,0
-Spanish (Peruvian),20,llamar,1,understands,0
-Spanish (Peruvian),21,llamar,5,produces,0.2
-Spanish (Peruvian),21,llamar,5,understands,0
-Spanish (Peruvian),22,llamar,9,produces,0.3333
-Spanish (Peruvian),22,llamar,9,understands,0
-Spanish (Peruvian),23,llamar,1,produces,1
-Spanish (Peruvian),23,llamar,1,understands,0
-Spanish (Peruvian),24,llamar,15,produces,0.1333
-Spanish (Peruvian),24,llamar,15,understands,0
-Spanish (Peruvian),25,llamar,5,produces,0.2
-Spanish (Peruvian),25,llamar,5,understands,0
-Spanish (Peruvian),26,llamar,8,produces,0.125
-Spanish (Peruvian),26,llamar,8,understands,0
-Spanish (Peruvian),27,llamar,7,produces,0.2857
-Spanish (Peruvian),27,llamar,7,understands,0
-Spanish (Peruvian),28,llamar,8,produces,0.375
-Spanish (Peruvian),28,llamar,8,understands,0
-Spanish (Peruvian),29,llamar,6,produces,0.5
-Spanish (Peruvian),29,llamar,6,understands,0
-Spanish (Peruvian),30,llamar,2,produces,0.5
-Spanish (Peruvian),30,llamar,2,understands,0
-Swedish,16,"ringa, heta",159,produces,0.0189
-Swedish,16,"ringa, heta",159,understands,0
-Swedish,19,"ringa, heta",152,produces,0.0855
-Swedish,19,"ringa, heta",152,understands,0
-Swedish,22,"ringa, heta",307,produces,0.2704
-Swedish,22,"ringa, heta",307,understands,0
-Swedish,25,"ringa, heta",143,produces,0.4895
-Swedish,25,"ringa, heta",143,understands,0
-Swedish,28,"ringa, heta",139,produces,0.6259
-Swedish,28,"ringa, heta",139,understands,0
-Turkish,16,Çağır,109,produces,0.0183
-Turkish,16,Çağır,109,understands,0
-Turkish,17,Çağır,107,produces,0.0654
-Turkish,17,Çağır,107,understands,0
-Turkish,18,Çağır,128,produces,0.0156
-Turkish,18,Çağır,128,understands,0
-Turkish,19,Çağır,121,produces,0.0496
-Turkish,19,Çağır,121,understands,0
-Turkish,20,Çağır,119,produces,0.1176
-Turkish,20,Çağır,119,understands,0
-Turkish,21,Çağır,124,produces,0.1371
-Turkish,21,Çağır,124,understands,0
-Turkish,22,Çağır,126,produces,0.1111
-Turkish,22,Çağır,126,understands,0
-Turkish,23,Çağır,131,produces,0.1603
-Turkish,23,Çağır,131,understands,0
-Turkish,24,Çağır,106,produces,0.2736
-Turkish,24,Çağır,106,understands,0
-Turkish,25,Çağır,123,produces,0.3415
-Turkish,25,Çağır,123,understands,0
-Turkish,26,Çağır,123,produces,0.4228
-Turkish,26,Çağır,123,understands,0
-Turkish,27,Çağır,108,produces,0.4167
-Turkish,27,Çağır,108,understands,0
-Turkish,28,Çağır,112,produces,0.5
-Turkish,28,Çağır,112,understands,0
-Turkish,29,Çağır,119,produces,0.563
-Turkish,29,Çağır,119,understands,0
-Turkish,30,Çağır,104,produces,0.6154
-Turkish,30,Çağır,104,understands,0
-Turkish,31,Çağır,101,produces,0.604
-Turkish,31,Çağır,101,understands,0
-Turkish,32,Çağır,132,produces,0.6364
-Turkish,32,Çağır,132,understands,0
-Turkish,33,Çağır,114,produces,0.7719
-Turkish,33,Çağır,114,understands,0
-Turkish,34,Çağır,107,produces,0.729
-Turkish,34,Çağır,107,understands,0
-Turkish,35,Çağır,131,produces,0.7481
-Turkish,35,Çağır,131,understands,0
-Turkish,36,Çağır,77,produces,0.8312
-Turkish,36,Çağır,77,understands,0
-Arabic (Saudi),8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",24,produces,0
-Arabic (Saudi),8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",24,understands,0.0833
-Arabic (Saudi),9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,produces,0
-Arabic (Saudi),9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,understands,0.0185
-Arabic (Saudi),10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",35,produces,0
-Arabic (Saudi),10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",35,understands,0.0714
-Arabic (Saudi),11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,produces,0.0167
-Arabic (Saudi),11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,understands,0.0333
-Arabic (Saudi),12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,produces,0.0167
-Arabic (Saudi),12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,understands,0.1333
-Arabic (Saudi),13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",39,produces,0.0128
-Arabic (Saudi),13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",39,understands,0
-Arabic (Saudi),14,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",25,produces,0.02
-Arabic (Saudi),14,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",25,understands,0.06
-Arabic (Saudi),15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,produces,0.0556
-Arabic (Saudi),15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,understands,0.1111
-Arabic (Saudi),16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",21,produces,0.0714
-Arabic (Saudi),16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",21,understands,0.0952
-Cantonese,16,打電話,46,produces,0.0217
-Cantonese,16,打電話,46,understands,0
-Cantonese,17,打電話,61,produces,0.0656
-Cantonese,17,打電話,61,understands,0
-Cantonese,18,打電話,68,produces,0.1176
-Cantonese,18,打電話,68,understands,0
-Cantonese,19,打電話,66,produces,0.1515
-Cantonese,19,打電話,66,understands,0
-Cantonese,20,打電話,140,produces,0.2071
-Cantonese,20,打電話,140,understands,0
-Cantonese,21,打電話,120,produces,0.325
-Cantonese,21,打電話,120,understands,0
-Cantonese,22,打電話,68,produces,0.2941
-Cantonese,22,打電話,68,understands,0
-Cantonese,23,打電話,74,produces,0.5
-Cantonese,23,打電話,74,understands,0
-Cantonese,24,打電話,68,produces,0.5
-Cantonese,24,打電話,68,understands,0
-Cantonese,25,打電話,65,produces,0.7385
-Cantonese,25,打電話,65,understands,0
-Cantonese,26,打電話,68,produces,0.6324
-Cantonese,26,打電話,68,understands,0
-Cantonese,27,打電話,62,produces,0.7742
-Cantonese,27,打電話,62,understands,0
-Cantonese,28,打電話,66,produces,0.7879
-Cantonese,28,打電話,66,understands,0
-Cantonese,29,打電話,72,produces,0.9167
-Cantonese,29,打電話,72,understands,0
-Cantonese,30,打電話,164,produces,0.8902
-Cantonese,30,打電話,164,understands,0
-Croatian,16,halo-halo,13,produces,0.1538
-Croatian,16,halo-halo,13,understands,0
-Croatian,17,halo-halo,25,produces,0.4
-Croatian,17,halo-halo,25,understands,0
-Croatian,18,halo-halo,22,produces,0.4545
-Croatian,18,halo-halo,22,understands,0
-Croatian,19,halo-halo,21,produces,0.619
-Croatian,19,halo-halo,21,understands,0
-Croatian,20,halo-halo,26,produces,0.6923
-Croatian,20,halo-halo,26,understands,0
-Croatian,21,halo-halo,29,produces,0.6552
-Croatian,21,halo-halo,29,understands,0
-Croatian,22,halo-halo,24,produces,0.7083
-Croatian,22,halo-halo,24,understands,0
-Croatian,23,halo-halo,26,produces,0.6923
-Croatian,23,halo-halo,26,understands,0
-Croatian,24,halo-halo,30,produces,0.8333
-Croatian,24,halo-halo,30,understands,0
-Croatian,25,halo-halo,30,produces,0.7333
-Croatian,25,halo-halo,30,understands,0
-Croatian,26,halo-halo,29,produces,0.8966
-Croatian,26,halo-halo,29,understands,0
-Croatian,27,halo-halo,25,produces,0.8
-Croatian,27,halo-halo,25,understands,0
-Croatian,28,halo-halo,21,produces,0.9048
-Croatian,28,halo-halo,21,understands,0
-Croatian,29,halo-halo,28,produces,0.7143
-Croatian,29,halo-halo,28,understands,0
-Croatian,30,halo-halo,28,produces,0.8214
-Croatian,30,halo-halo,28,understands,0
-Dutch,16,bellen/telefoneren,4,produces,0
-Dutch,16,bellen/telefoneren,4,understands,0
-Dutch,17,bellen/telefoneren,49,produces,0.102
-Dutch,17,bellen/telefoneren,49,understands,0
-Dutch,18,bellen/telefoneren,68,produces,0.1029
-Dutch,18,bellen/telefoneren,68,understands,0
-Dutch,19,bellen/telefoneren,7,produces,0
-Dutch,19,bellen/telefoneren,7,understands,0
-Dutch,20,bellen/telefoneren,7,produces,0.4286
-Dutch,20,bellen/telefoneren,7,understands,0
-Dutch,21,bellen/telefoneren,7,produces,0.1429
-Dutch,21,bellen/telefoneren,7,understands,0
-Dutch,22,bellen/telefoneren,7,produces,0.4286
-Dutch,22,bellen/telefoneren,7,understands,0
-Dutch,23,bellen/telefoneren,51,produces,0.6863
-Dutch,23,bellen/telefoneren,51,understands,0
-Dutch,24,bellen/telefoneren,31,produces,0.6774
-Dutch,24,bellen/telefoneren,31,understands,0
-Dutch,25,bellen/telefoneren,6,produces,1
-Dutch,25,bellen/telefoneren,6,understands,0
-Dutch,26,bellen/telefoneren,6,produces,0.5
-Dutch,26,bellen/telefoneren,6,understands,0
-Dutch,27,bellen/telefoneren,5,produces,0.4
-Dutch,27,bellen/telefoneren,5,understands,0
-Dutch,28,bellen/telefoneren,6,produces,1
-Dutch,28,bellen/telefoneren,6,understands,0
-Dutch,29,bellen/telefoneren,23,produces,0.913
-Dutch,29,bellen/telefoneren,23,understands,0
-Dutch,30,bellen/telefoneren,24,produces,1
-Dutch,30,bellen/telefoneren,24,understands,0
-Dutch,31,bellen/telefoneren,2,produces,1
-Dutch,31,bellen/telefoneren,2,understands,0
-English (American),16,call (on phone),930,produces,0.1
-English (American),16,call (on phone),930,understands,0
-English (American),17,call (on phone),458,produces,0.107
-English (American),17,call (on phone),458,understands,0
-English (American),18,call (on phone),641,produces,0.1622
-English (American),18,call (on phone),641,understands,0
-English (American),19,call (on phone),570,produces,0.2368
-English (American),19,call (on phone),570,understands,0
-English (American),20,call (on phone),537,produces,0.2458
-English (American),20,call (on phone),537,understands,0
-English (American),21,call (on phone),366,produces,0.3251
-English (American),21,call (on phone),366,understands,0
-English (American),22,call (on phone),454,produces,0.3833
-English (American),22,call (on phone),454,understands,0
-English (American),23,call (on phone),470,produces,0.4809
-English (American),23,call (on phone),470,understands,0
-English (American),24,call (on phone),985,produces,0.5279
-English (American),24,call (on phone),985,understands,0
-English (American),25,call (on phone),757,produces,0.5931
-English (American),25,call (on phone),757,understands,0
-English (American),26,call (on phone),435,produces,0.646
-English (American),26,call (on phone),435,understands,0
-English (American),27,call (on phone),361,produces,0.6759
-English (American),27,call (on phone),361,understands,0
-English (American),28,call (on phone),954,produces,0.7778
-English (American),28,call (on phone),954,understands,0
-English (American),29,call (on phone),390,produces,0.7308
-English (American),29,call (on phone),390,understands,0
-English (American),30,call (on phone),785,produces,0.7338
-English (American),30,call (on phone),785,understands,0
-English (Australian),12,"call(phone), call",71,produces,0.007
-English (Australian),12,"call(phone), call",71,understands,0
-English (Australian),13,"call(phone), call",64,produces,0.0078
-English (Australian),13,"call(phone), call",64,understands,0
-English (Australian),14,"call(phone), call",111,produces,0.045
-English (Australian),14,"call(phone), call",111,understands,0
-English (Australian),15,"call(phone), call",69,produces,0.0652
-English (Australian),15,"call(phone), call",69,understands,0
-English (Australian),16,"call(phone), call",60,produces,0.0833
-English (Australian),16,"call(phone), call",60,understands,0
-English (Australian),17,"call(phone), call",104,produces,0.0865
-English (Australian),17,"call(phone), call",104,understands,0
-English (Australian),18,"call(phone), call",109,produces,0.1009
-English (Australian),18,"call(phone), call",109,understands,0
-English (Australian),19,"call(phone), call",124,produces,0.1653
-English (Australian),19,"call(phone), call",124,understands,0
-English (Australian),20,"call(phone), call",78,produces,0.25
-English (Australian),20,"call(phone), call",78,understands,0
-English (Australian),21,"call(phone), call",68,produces,0.2574
-English (Australian),21,"call(phone), call",68,understands,0
-English (Australian),22,"call(phone), call",73,produces,0.3493
-English (Australian),22,"call(phone), call",73,understands,0
-English (Australian),23,"call(phone), call",71,produces,0.4789
-English (Australian),23,"call(phone), call",71,understands,0
-English (Australian),24,"call(phone), call",76,produces,0.4737
-English (Australian),24,"call(phone), call",76,understands,0
-English (Australian),25,"call(phone), call",85,produces,0.4529
-English (Australian),25,"call(phone), call",85,understands,0
-English (Australian),26,"call(phone), call",77,produces,0.5714
-English (Australian),26,"call(phone), call",77,understands,0
-English (Australian),27,"call(phone), call",72,produces,0.5903
-English (Australian),27,"call(phone), call",72,understands,0
-English (Australian),28,"call(phone), call",67,produces,0.6493
-English (Australian),28,"call(phone), call",67,understands,0
-English (Australian),29,"call(phone), call",65,produces,0.7692
-English (Australian),29,"call(phone), call",65,understands,0
-English (Australian),30,"call(phone), call",53,produces,0.6792
-English (Australian),30,"call(phone), call",53,understands,0
-English (British),12,call,27,produces,0
-English (British),12,call,27,understands,0.037
-English (British),13,call,7,produces,0
-English (British),13,call,7,understands,0
-English (British),14,call,64,produces,0
-English (British),14,call,64,understands,0.0625
-English (British),15,call,88,produces,0.0114
-English (British),15,call,88,understands,0.1364
-English (British),16,call,118,produces,0
-English (British),16,call,118,understands,0.1017
-English (British),17,call,197,produces,0
-English (British),17,call,197,understands,0.1269
-English (British),18,call,118,produces,0.0085
-English (British),18,call,118,understands,0.1695
-English (British),19,call,109,produces,0.0367
-English (British),19,call,109,understands,0.2844
-English (British),20,call,144,produces,0.0556
-English (British),20,call,144,understands,0.3403
-English (British),21,call,75,produces,0.0533
-English (British),21,call,75,understands,0.3067
-English (British),22,call,28,produces,0.1429
-English (British),22,call,28,understands,0.4643
-English (British),23,call,112,produces,0.1786
-English (British),23,call,112,understands,0.4732
-English (British),24,call,87,produces,0.1724
-English (British),24,call,87,understands,0.5632
-English (British),25,call,36,produces,0.3333
-English (British),25,call,36,understands,0.5833
-Finnish,12,soittaa ,35,produces,0
-Finnish,12,soittaa ,35,understands,0
-Finnish,15,soittaa ,35,produces,0
-Finnish,15,soittaa ,35,understands,0
-Finnish,18,soittaa,35,produces,0.0286
-Finnish,18,soittaa,35,understands,0
-Finnish,24,soittaa,35,produces,0.7429
-Finnish,24,soittaa,35,understands,0
-French (Quebecois),16,parler (au téléphone),47,produces,0.234
-French (Quebecois),16,parler (au téléphone),47,understands,0
-French (Quebecois),17,parler (au téléphone),62,produces,0.1935
-French (Quebecois),17,parler (au téléphone),62,understands,0
-French (Quebecois),18,parler (au téléphone),99,produces,0.3131
-French (Quebecois),18,parler (au téléphone),99,understands,0
-French (Quebecois),19,parler (au téléphone),91,produces,0.3077
-French (Quebecois),19,parler (au téléphone),91,understands,0
-French (Quebecois),20,parler (au téléphone),196,produces,0.3367
-French (Quebecois),20,parler (au téléphone),196,understands,0
-French (Quebecois),21,parler (au téléphone),109,produces,0.43120000000000003
-French (Quebecois),21,parler (au téléphone),109,understands,0
-French (Quebecois),22,parler (au téléphone),86,produces,0.4767
-French (Quebecois),22,parler (au téléphone),86,understands,0
-French (Quebecois),23,parler (au téléphone),86,produces,0.6047
-French (Quebecois),23,parler (au téléphone),86,understands,0
-French (Quebecois),24,parler (au téléphone),132,produces,0.6061
-French (Quebecois),24,parler (au téléphone),132,understands,0
-French (Quebecois),25,parler (au téléphone),87,produces,0.6782
-French (Quebecois),25,parler (au téléphone),87,understands,0
-French (Quebecois),26,parler (au téléphone),95,produces,0.6947
-French (Quebecois),26,parler (au téléphone),95,understands,0
-French (Quebecois),27,parler (au téléphone),74,produces,0.7973
-French (Quebecois),27,parler (au téléphone),74,understands,0
-French (Quebecois),28,parler (au téléphone),61,produces,0.8689
-French (Quebecois),28,parler (au téléphone),61,understands,0
-French (Quebecois),29,parler (au téléphone),70,produces,0.9143
-French (Quebecois),29,parler (au téléphone),70,understands,0
-French (Quebecois),30,parler (au téléphone),100,produces,0.71
-French (Quebecois),30,parler (au téléphone),100,understands,0
-German,18,telefonieren,85,produces,0.0471
-German,18,telefonieren,85,understands,0
-German,19,telefonieren,79,produces,0.1392
-German,19,telefonieren,79,understands,0
-German,20,telefonieren,96,produces,0.1146
-German,20,telefonieren,96,understands,0
-German,21,telefonieren,77,produces,0.2597
-German,21,telefonieren,77,understands,0
-German,22,telefonieren,95,produces,0.2211
-German,22,telefonieren,95,understands,0
-German,23,telefonieren,95,produces,0.4105
-German,23,telefonieren,95,understands,0
-German,24,telefonieren,103,produces,0.4563
-German,24,telefonieren,103,understands,0
-German,25,telefonieren,95,produces,0.5368
-German,25,telefonieren,95,understands,0
-German,26,telefonieren,92,produces,0.6522
-German,26,telefonieren,92,understands,0
-German,27,telefonieren,89,produces,0.6854
-German,27,telefonieren,89,understands,0
-German,28,telefonieren,93,produces,0.7419
-German,28,telefonieren,93,understands,0
-German,29,telefonieren,89,produces,0.7416
-German,29,telefonieren,89,understands,0
-German,30,telefonieren,93,produces,0.8817
-German,30,telefonieren,93,understands,0
-Hungarian,16,"telefon!, hív",21,produces,0.119
-Hungarian,16,"telefon!, hív",21,understands,0
-Hungarian,17,"telefon!, hív",18,produces,0.1389
-Hungarian,17,"telefon!, hív",18,understands,0
-Hungarian,18,"telefon!, hív",18,produces,0.1389
-Hungarian,18,"telefon!, hív",18,understands,0
-Hungarian,19,"telefon!, hív",26,produces,0.2115
-Hungarian,19,"telefon!, hív",26,understands,0
-Hungarian,20,"telefon!, hív",18,produces,0.1944
-Hungarian,20,"telefon!, hív",18,understands,0
-Hungarian,21,"telefon!, hív",36,produces,0.3056
-Hungarian,21,"telefon!, hív",36,understands,0
-Hungarian,22,"telefon!, hív",27,produces,0.2963
-Hungarian,22,"telefon!, hív",27,understands,0
-Hungarian,23,"telefon!, hív",18,produces,0.2778
-Hungarian,23,"telefon!, hív",18,understands,0
-Hungarian,24,"telefon!, hív",38,produces,0.3026
-Hungarian,24,"telefon!, hív",38,understands,0
-Hungarian,25,"telefon!, hív",43,produces,0.5814
-Hungarian,25,"telefon!, hív",43,understands,0
-Hungarian,26,"telefon!, hív",23,produces,0.5
-Hungarian,26,"telefon!, hív",23,understands,0
-Hungarian,27,"telefon!, hív",26,produces,0.5962
-Hungarian,27,"telefon!, hív",26,understands,0
-Hungarian,28,"telefon!, hív",30,produces,0.5833
-Hungarian,28,"telefon!, hív",30,understands,0
-Hungarian,29,"telefon!, hív",12,produces,0.625
-Hungarian,29,"telefon!, hív",12,understands,0
-Hungarian,30,"telefon!, hív",18,produces,0.6667
-Hungarian,30,"telefon!, hív",18,understands,0
-Irish,17,glaoch(gutháin0,2,produces,0
-Irish,17,glaoch(gutháin0,2,understands,0
-Irish,18,glaoch(gutháin0,1,produces,1
-Irish,18,glaoch(gutháin0,1,understands,0
-Irish,19,glaoch(gutháin0,2,produces,0
-Irish,19,glaoch(gutháin0,2,understands,0
-Irish,20,glaoch(gutháin0,1,produces,0
-Irish,20,glaoch(gutháin0,1,understands,0
-Irish,21,glaoch(gutháin0,3,produces,0
-Irish,21,glaoch(gutháin0,3,understands,0
-Irish,22,glaoch(gutháin0,4,produces,0.25
-Irish,22,glaoch(gutháin0,4,understands,0
-Irish,23,glaoch(gutháin0,4,produces,0.25
-Irish,23,glaoch(gutháin0,4,understands,0
-Irish,24,glaoch(gutháin0,4,produces,0.25
-Irish,24,glaoch(gutháin0,4,understands,0
-Irish,25,glaoch(gutháin0,6,produces,0.3333
-Irish,25,glaoch(gutháin0,6,understands,0
-Irish,26,glaoch(gutháin0,10,produces,0.2
-Irish,26,glaoch(gutháin0,10,understands,0
-Irish,27,glaoch(gutháin0,5,produces,0.4
-Irish,27,glaoch(gutháin0,5,understands,0
-Irish,28,glaoch(gutháin0,7,produces,0.1429
-Irish,28,glaoch(gutháin0,7,understands,0
-Irish,29,glaoch(gutháin0,4,produces,0.25
-Irish,29,glaoch(gutháin0,4,understands,0
-Irish,30,glaoch(gutháin0,9,produces,0.5556
-Irish,30,glaoch(gutháin0,9,understands,0
-Irish,31,glaoch(gutháin0,8,produces,0.5
-Irish,31,glaoch(gutháin0,8,understands,0
-Irish,32,glaoch(gutháin0,4,produces,0.5
-Irish,32,glaoch(gutháin0,4,understands,0
-Irish,33,glaoch(gutháin0,5,produces,0.8
-Irish,33,glaoch(gutháin0,5,understands,0
-Irish,34,glaoch(gutháin0,4,produces,0.25
-Irish,34,glaoch(gutháin0,4,understands,0
-Irish,35,glaoch(gutháin0,11,produces,0.6364
-Irish,35,glaoch(gutháin0,11,understands,0
-Irish,36,glaoch(gutháin0,5,produces,0.8
-Irish,36,glaoch(gutháin0,5,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",24,produces,0
+Arabic (Saudi),All,8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",24,understands,0.0833
+Arabic (Saudi),All,9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,produces,0
+Arabic (Saudi),All,9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,understands,0.0185
+Arabic (Saudi),All,10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",35,produces,0
+Arabic (Saudi),All,10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",35,understands,0.0714
+Arabic (Saudi),All,11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,produces,0.0167
+Arabic (Saudi),All,11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,understands,0.0333
+Arabic (Saudi),All,12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,produces,0.0167
+Arabic (Saudi),All,12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",30,understands,0.1333
+Arabic (Saudi),All,13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",39,produces,0.0128
+Arabic (Saudi),All,13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",39,understands,0
+Arabic (Saudi),All,14,"أنادي/ ينادي, اتصل (يتصل), ينادي, يتصل",25,produces,0.02
+Arabic (Saudi),All,14,"أنادي/ ينادي, اتصل (يتصل), ينادي, يتصل",25,understands,0.06
+Arabic (Saudi),All,15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,produces,0.0556
+Arabic (Saudi),All,15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",27,understands,0.1111
+Arabic (Saudi),All,16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",21,produces,0.0714
+Arabic (Saudi),All,16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",21,understands,0.0952
+Cantonese,All,16,打電話,46,produces,0.0217
+Cantonese,All,16,打電話,46,understands,0
+Cantonese,All,17,打電話,61,produces,0.0656
+Cantonese,All,17,打電話,61,understands,0
+Cantonese,All,18,打電話,68,produces,0.1176
+Cantonese,All,18,打電話,68,understands,0
+Cantonese,All,19,打電話,66,produces,0.1515
+Cantonese,All,19,打電話,66,understands,0
+Cantonese,All,20,打電話,140,produces,0.2071
+Cantonese,All,20,打電話,140,understands,0
+Cantonese,All,21,打電話,120,produces,0.325
+Cantonese,All,21,打電話,120,understands,0
+Cantonese,All,22,打電話,68,produces,0.2941
+Cantonese,All,22,打電話,68,understands,0
+Cantonese,All,23,打電話,74,produces,0.5
+Cantonese,All,23,打電話,74,understands,0
+Cantonese,All,24,打電話,68,produces,0.5
+Cantonese,All,24,打電話,68,understands,0
+Cantonese,All,25,打電話,65,produces,0.7385
+Cantonese,All,25,打電話,65,understands,0
+Cantonese,All,26,打電話,68,produces,0.6324
+Cantonese,All,26,打電話,68,understands,0
+Cantonese,All,27,打電話,62,produces,0.7742
+Cantonese,All,27,打電話,62,understands,0
+Cantonese,All,28,打電話,66,produces,0.7879
+Cantonese,All,28,打電話,66,understands,0
+Cantonese,All,29,打電話,72,produces,0.9167
+Cantonese,All,29,打電話,72,understands,0
+Cantonese,All,30,打電話,164,produces,0.8902
+Cantonese,All,30,打電話,164,understands,0
+Croatian,All,16,halo-halo,13,produces,0.1538
+Croatian,All,16,halo-halo,13,understands,0
+Croatian,All,17,halo-halo,25,produces,0.4
+Croatian,All,17,halo-halo,25,understands,0
+Croatian,All,18,halo-halo,22,produces,0.4545
+Croatian,All,18,halo-halo,22,understands,0
+Croatian,All,19,halo-halo,21,produces,0.619
+Croatian,All,19,halo-halo,21,understands,0
+Croatian,All,20,halo-halo,26,produces,0.6923
+Croatian,All,20,halo-halo,26,understands,0
+Croatian,All,21,halo-halo,29,produces,0.6552
+Croatian,All,21,halo-halo,29,understands,0
+Croatian,All,22,halo-halo,24,produces,0.7083
+Croatian,All,22,halo-halo,24,understands,0
+Croatian,All,23,halo-halo,26,produces,0.6923
+Croatian,All,23,halo-halo,26,understands,0
+Croatian,All,24,halo-halo,30,produces,0.8333
+Croatian,All,24,halo-halo,30,understands,0
+Croatian,All,25,halo-halo,30,produces,0.7333
+Croatian,All,25,halo-halo,30,understands,0
+Croatian,All,26,halo-halo,29,produces,0.8966
+Croatian,All,26,halo-halo,29,understands,0
+Croatian,All,27,halo-halo,25,produces,0.8
+Croatian,All,27,halo-halo,25,understands,0
+Croatian,All,28,halo-halo,21,produces,0.9048
+Croatian,All,28,halo-halo,21,understands,0
+Croatian,All,29,halo-halo,28,produces,0.7143
+Croatian,All,29,halo-halo,28,understands,0
+Croatian,All,30,halo-halo,28,produces,0.8214
+Croatian,All,30,halo-halo,28,understands,0
+Dutch,All,16,bellen/telefoneren,4,produces,0
+Dutch,All,16,bellen/telefoneren,4,understands,0
+Dutch,All,17,bellen/telefoneren,49,produces,0.102
+Dutch,All,17,bellen/telefoneren,49,understands,0
+Dutch,All,18,bellen/telefoneren,68,produces,0.1029
+Dutch,All,18,bellen/telefoneren,68,understands,0
+Dutch,All,19,bellen/telefoneren,7,produces,0
+Dutch,All,19,bellen/telefoneren,7,understands,0
+Dutch,All,20,bellen/telefoneren,7,produces,0.4286
+Dutch,All,20,bellen/telefoneren,7,understands,0
+Dutch,All,21,bellen/telefoneren,7,produces,0.1429
+Dutch,All,21,bellen/telefoneren,7,understands,0
+Dutch,All,22,bellen/telefoneren,7,produces,0.4286
+Dutch,All,22,bellen/telefoneren,7,understands,0
+Dutch,All,23,bellen/telefoneren,51,produces,0.6863
+Dutch,All,23,bellen/telefoneren,51,understands,0
+Dutch,All,24,bellen/telefoneren,31,produces,0.6774
+Dutch,All,24,bellen/telefoneren,31,understands,0
+Dutch,All,25,bellen/telefoneren,6,produces,1
+Dutch,All,25,bellen/telefoneren,6,understands,0
+Dutch,All,26,bellen/telefoneren,6,produces,0.5
+Dutch,All,26,bellen/telefoneren,6,understands,0
+Dutch,All,27,bellen/telefoneren,5,produces,0.4
+Dutch,All,27,bellen/telefoneren,5,understands,0
+Dutch,All,28,bellen/telefoneren,6,produces,1
+Dutch,All,28,bellen/telefoneren,6,understands,0
+Dutch,All,29,bellen/telefoneren,23,produces,0.913
+Dutch,All,29,bellen/telefoneren,23,understands,0
+Dutch,All,30,bellen/telefoneren,24,produces,1
+Dutch,All,30,bellen/telefoneren,24,understands,0
+Dutch,All,31,bellen/telefoneren,2,produces,1
+Dutch,All,31,bellen/telefoneren,2,understands,0
+English (American),All,16,call (on phone),930,produces,0.1
+English (American),All,16,call (on phone),930,understands,0
+English (American),All,17,call (on phone),458,produces,0.107
+English (American),All,17,call (on phone),458,understands,0
+English (American),All,18,call (on phone),641,produces,0.1622
+English (American),All,18,call (on phone),641,understands,0
+English (American),All,19,call (on phone),570,produces,0.2368
+English (American),All,19,call (on phone),570,understands,0
+English (American),All,20,call (on phone),537,produces,0.2458
+English (American),All,20,call (on phone),537,understands,0
+English (American),All,21,call (on phone),366,produces,0.3251
+English (American),All,21,call (on phone),366,understands,0
+English (American),All,22,call (on phone),454,produces,0.3833
+English (American),All,22,call (on phone),454,understands,0
+English (American),All,23,call (on phone),470,produces,0.4809
+English (American),All,23,call (on phone),470,understands,0
+English (American),All,24,call (on phone),985,produces,0.5279
+English (American),All,24,call (on phone),985,understands,0
+English (American),All,25,call (on phone),757,produces,0.5931
+English (American),All,25,call (on phone),757,understands,0
+English (American),All,26,call (on phone),435,produces,0.646
+English (American),All,26,call (on phone),435,understands,0
+English (American),All,27,call (on phone),361,produces,0.6759
+English (American),All,27,call (on phone),361,understands,0
+English (American),All,28,call (on phone),954,produces,0.7778
+English (American),All,28,call (on phone),954,understands,0
+English (American),All,29,call (on phone),390,produces,0.7308
+English (American),All,29,call (on phone),390,understands,0
+English (American),All,30,call (on phone),785,produces,0.7338
+English (American),All,30,call (on phone),785,understands,0
+English (Australian),All,12,"call(phone), call",71,produces,0.007
+English (Australian),All,12,"call(phone), call",71,understands,0
+English (Australian),All,13,"call(phone), call",64,produces,0.0078
+English (Australian),All,13,"call(phone), call",64,understands,0
+English (Australian),All,14,"call(phone), call",111,produces,0.045
+English (Australian),All,14,"call(phone), call",111,understands,0
+English (Australian),All,15,"call(phone), call",69,produces,0.0652
+English (Australian),All,15,"call(phone), call",69,understands,0
+English (Australian),All,16,"call(phone), call",60,produces,0.0833
+English (Australian),All,16,"call(phone), call",60,understands,0
+English (Australian),All,17,"call(phone), call",104,produces,0.0865
+English (Australian),All,17,"call(phone), call",104,understands,0
+English (Australian),All,18,"call(phone), call",109,produces,0.1009
+English (Australian),All,18,"call(phone), call",109,understands,0
+English (Australian),All,19,"call(phone), call",124,produces,0.1653
+English (Australian),All,19,"call(phone), call",124,understands,0
+English (Australian),All,20,"call(phone), call",78,produces,0.25
+English (Australian),All,20,"call(phone), call",78,understands,0
+English (Australian),All,21,"call(phone), call",68,produces,0.2574
+English (Australian),All,21,"call(phone), call",68,understands,0
+English (Australian),All,22,"call(phone), call",73,produces,0.3493
+English (Australian),All,22,"call(phone), call",73,understands,0
+English (Australian),All,23,"call(phone), call",71,produces,0.4789
+English (Australian),All,23,"call(phone), call",71,understands,0
+English (Australian),All,24,"call(phone), call",76,produces,0.4737
+English (Australian),All,24,"call(phone), call",76,understands,0
+English (Australian),All,25,"call(phone), call",85,produces,0.4529
+English (Australian),All,25,"call(phone), call",85,understands,0
+English (Australian),All,26,"call(phone), call",77,produces,0.5714
+English (Australian),All,26,"call(phone), call",77,understands,0
+English (Australian),All,27,"call(phone), call",72,produces,0.5903
+English (Australian),All,27,"call(phone), call",72,understands,0
+English (Australian),All,28,"call(phone), call",67,produces,0.6493
+English (Australian),All,28,"call(phone), call",67,understands,0
+English (Australian),All,29,"call(phone), call",65,produces,0.7692
+English (Australian),All,29,"call(phone), call",65,understands,0
+English (Australian),All,30,"call(phone), call",53,produces,0.6792
+English (Australian),All,30,"call(phone), call",53,understands,0
+English (British),All,12,call,27,produces,0
+English (British),All,12,call,27,understands,0.037
+English (British),All,13,call,7,produces,0
+English (British),All,13,call,7,understands,0
+English (British),All,14,call,64,produces,0
+English (British),All,14,call,64,understands,0.0625
+English (British),All,15,call,88,produces,0.0114
+English (British),All,15,call,88,understands,0.1364
+English (British),All,16,call,118,produces,0
+English (British),All,16,call,118,understands,0.1017
+English (British),All,17,call,197,produces,0
+English (British),All,17,call,197,understands,0.1269
+English (British),All,18,call,118,produces,0.0085
+English (British),All,18,call,118,understands,0.1695
+English (British),All,19,call,109,produces,0.0367
+English (British),All,19,call,109,understands,0.2844
+English (British),All,20,call,144,produces,0.0556
+English (British),All,20,call,144,understands,0.3403
+English (British),All,21,call,75,produces,0.0533
+English (British),All,21,call,75,understands,0.3067
+English (British),All,22,call,28,produces,0.1429
+English (British),All,22,call,28,understands,0.4643
+English (British),All,23,call,112,produces,0.1786
+English (British),All,23,call,112,understands,0.4732
+English (British),All,24,call,87,produces,0.1724
+English (British),All,24,call,87,understands,0.5632
+English (British),All,25,call,36,produces,0.3333
+English (British),All,25,call,36,understands,0.5833
+Finnish,All,12,soittaa ,35,produces,0
+Finnish,All,12,soittaa ,35,understands,0
+Finnish,All,15,soittaa ,35,produces,0
+Finnish,All,15,soittaa ,35,understands,0
+Finnish,All,18,soittaa,35,produces,0.0286
+Finnish,All,18,soittaa,35,understands,0
+Finnish,All,24,soittaa,35,produces,0.7429
+Finnish,All,24,soittaa,35,understands,0
+French (Quebecois),All,16,parler (au téléphone),47,produces,0.234
+French (Quebecois),All,16,parler (au téléphone),47,understands,0
+French (Quebecois),All,17,parler (au téléphone),62,produces,0.1935
+French (Quebecois),All,17,parler (au téléphone),62,understands,0
+French (Quebecois),All,18,parler (au téléphone),99,produces,0.3131
+French (Quebecois),All,18,parler (au téléphone),99,understands,0
+French (Quebecois),All,19,parler (au téléphone),91,produces,0.3077
+French (Quebecois),All,19,parler (au téléphone),91,understands,0
+French (Quebecois),All,20,parler (au téléphone),196,produces,0.3367
+French (Quebecois),All,20,parler (au téléphone),196,understands,0
+French (Quebecois),All,21,parler (au téléphone),109,produces,0.43120000000000003
+French (Quebecois),All,21,parler (au téléphone),109,understands,0
+French (Quebecois),All,22,parler (au téléphone),86,produces,0.4767
+French (Quebecois),All,22,parler (au téléphone),86,understands,0
+French (Quebecois),All,23,parler (au téléphone),86,produces,0.6047
+French (Quebecois),All,23,parler (au téléphone),86,understands,0
+French (Quebecois),All,24,parler (au téléphone),132,produces,0.6061
+French (Quebecois),All,24,parler (au téléphone),132,understands,0
+French (Quebecois),All,25,parler (au téléphone),87,produces,0.6782
+French (Quebecois),All,25,parler (au téléphone),87,understands,0
+French (Quebecois),All,26,parler (au téléphone),95,produces,0.6947
+French (Quebecois),All,26,parler (au téléphone),95,understands,0
+French (Quebecois),All,27,parler (au téléphone),74,produces,0.7973
+French (Quebecois),All,27,parler (au téléphone),74,understands,0
+French (Quebecois),All,28,parler (au téléphone),61,produces,0.8689
+French (Quebecois),All,28,parler (au téléphone),61,understands,0
+French (Quebecois),All,29,parler (au téléphone),70,produces,0.9143
+French (Quebecois),All,29,parler (au téléphone),70,understands,0
+French (Quebecois),All,30,parler (au téléphone),100,produces,0.71
+French (Quebecois),All,30,parler (au téléphone),100,understands,0
+German,All,18,telefonieren,85,produces,0.0471
+German,All,18,telefonieren,85,understands,0
+German,All,19,telefonieren,79,produces,0.1392
+German,All,19,telefonieren,79,understands,0
+German,All,20,telefonieren,96,produces,0.1146
+German,All,20,telefonieren,96,understands,0
+German,All,21,telefonieren,77,produces,0.2597
+German,All,21,telefonieren,77,understands,0
+German,All,22,telefonieren,95,produces,0.2211
+German,All,22,telefonieren,95,understands,0
+German,All,23,telefonieren,95,produces,0.4105
+German,All,23,telefonieren,95,understands,0
+German,All,24,telefonieren,103,produces,0.4563
+German,All,24,telefonieren,103,understands,0
+German,All,25,telefonieren,95,produces,0.5368
+German,All,25,telefonieren,95,understands,0
+German,All,26,telefonieren,92,produces,0.6522
+German,All,26,telefonieren,92,understands,0
+German,All,27,telefonieren,89,produces,0.6854
+German,All,27,telefonieren,89,understands,0
+German,All,28,telefonieren,93,produces,0.7419
+German,All,28,telefonieren,93,understands,0
+German,All,29,telefonieren,89,produces,0.7416
+German,All,29,telefonieren,89,understands,0
+German,All,30,telefonieren,93,produces,0.8817
+German,All,30,telefonieren,93,understands,0
+Hungarian,All,16,"telefon!, hív",21,produces,0.119
+Hungarian,All,16,"telefon!, hív",21,understands,0
+Hungarian,All,17,"telefon!, hív",18,produces,0.1389
+Hungarian,All,17,"telefon!, hív",18,understands,0
+Hungarian,All,18,"telefon!, hív",18,produces,0.1389
+Hungarian,All,18,"telefon!, hív",18,understands,0
+Hungarian,All,19,"telefon!, hív",26,produces,0.2115
+Hungarian,All,19,"telefon!, hív",26,understands,0
+Hungarian,All,20,"telefon!, hív",18,produces,0.1944
+Hungarian,All,20,"telefon!, hív",18,understands,0
+Hungarian,All,21,"telefon!, hív",36,produces,0.3056
+Hungarian,All,21,"telefon!, hív",36,understands,0
+Hungarian,All,22,"telefon!, hív",27,produces,0.2963
+Hungarian,All,22,"telefon!, hív",27,understands,0
+Hungarian,All,23,"telefon!, hív",18,produces,0.2778
+Hungarian,All,23,"telefon!, hív",18,understands,0
+Hungarian,All,24,"telefon!, hív",38,produces,0.3026
+Hungarian,All,24,"telefon!, hív",38,understands,0
+Hungarian,All,25,"telefon!, hív",43,produces,0.5814
+Hungarian,All,25,"telefon!, hív",43,understands,0
+Hungarian,All,26,"telefon!, hív",23,produces,0.5
+Hungarian,All,26,"telefon!, hív",23,understands,0
+Hungarian,All,27,"telefon!, hív",26,produces,0.5962
+Hungarian,All,27,"telefon!, hív",26,understands,0
+Hungarian,All,28,"telefon!, hív",30,produces,0.5833
+Hungarian,All,28,"telefon!, hív",30,understands,0
+Hungarian,All,29,"telefon!, hív",12,produces,0.625
+Hungarian,All,29,"telefon!, hív",12,understands,0
+Hungarian,All,30,"telefon!, hív",18,produces,0.6667
+Hungarian,All,30,"telefon!, hív",18,understands,0
+Irish,All,17,glaoch(gutháin0,2,produces,0
+Irish,All,17,glaoch(gutháin0,2,understands,0
+Irish,All,18,glaoch(gutháin0,1,produces,1
+Irish,All,18,glaoch(gutháin0,1,understands,0
+Irish,All,19,glaoch(gutháin0,2,produces,0
+Irish,All,19,glaoch(gutháin0,2,understands,0
+Irish,All,20,glaoch(gutháin0,1,produces,0
+Irish,All,20,glaoch(gutháin0,1,understands,0
+Irish,All,21,glaoch(gutháin0,3,produces,0
+Irish,All,21,glaoch(gutháin0,3,understands,0
+Irish,All,22,glaoch(gutháin0,4,produces,0.25
+Irish,All,22,glaoch(gutháin0,4,understands,0
+Irish,All,23,glaoch(gutháin0,4,produces,0.25
+Irish,All,23,glaoch(gutháin0,4,understands,0
+Irish,All,24,glaoch(gutháin0,4,produces,0.25
+Irish,All,24,glaoch(gutháin0,4,understands,0
+Irish,All,25,glaoch(gutháin0,6,produces,0.3333
+Irish,All,25,glaoch(gutháin0,6,understands,0
+Irish,All,26,glaoch(gutháin0,10,produces,0.2
+Irish,All,26,glaoch(gutháin0,10,understands,0
+Irish,All,27,glaoch(gutháin0,5,produces,0.4
+Irish,All,27,glaoch(gutháin0,5,understands,0
+Irish,All,28,glaoch(gutháin0,7,produces,0.1429
+Irish,All,28,glaoch(gutháin0,7,understands,0
+Irish,All,29,glaoch(gutháin0,4,produces,0.25
+Irish,All,29,glaoch(gutháin0,4,understands,0
+Irish,All,30,glaoch(gutháin0,9,produces,0.5556
+Irish,All,30,glaoch(gutháin0,9,understands,0
+Irish,All,31,glaoch(gutháin0,8,produces,0.5
+Irish,All,31,glaoch(gutháin0,8,understands,0
+Irish,All,32,glaoch(gutháin0,4,produces,0.5
+Irish,All,32,glaoch(gutháin0,4,understands,0
+Irish,All,33,glaoch(gutháin0,5,produces,0.8
+Irish,All,33,glaoch(gutháin0,5,understands,0
+Irish,All,34,glaoch(gutháin0,4,produces,0.25
+Irish,All,34,glaoch(gutháin0,4,understands,0
+Irish,All,35,glaoch(gutháin0,11,produces,0.6364
+Irish,All,35,glaoch(gutháin0,11,understands,0
+Irish,All,36,glaoch(gutháin0,5,produces,0.8
+Irish,All,36,glaoch(gutháin0,5,understands,0
+Italian,All,18,telefonare,31,produces,0.0645
+Italian,All,18,telefonare,31,understands,0
+Italian,All,19,telefonare,39,produces,0.0256
+Italian,All,19,telefonare,39,understands,0
+Italian,All,20,telefonare,64,produces,0.1094
+Italian,All,20,telefonare,64,understands,0
+Italian,All,21,telefonare,55,produces,0.2364
+Italian,All,21,telefonare,55,understands,0
+Italian,All,22,telefonare,55,produces,0.2364
+Italian,All,22,telefonare,55,understands,0
+Italian,All,23,telefonare,53,produces,0.3774
+Italian,All,23,telefonare,53,understands,0
+Italian,All,24,telefonare,71,produces,0.5211
+Italian,All,24,telefonare,71,understands,0
+Italian,All,25,telefonare,39,produces,0.5128
+Italian,All,25,telefonare,39,understands,0
+Italian,All,26,telefonare,41,produces,0.6098
+Italian,All,26,telefonare,41,understands,0
+Italian,All,27,telefonare,43,produces,0.6047
+Italian,All,27,telefonare,43,understands,0
+Italian,All,28,telefonare,44,produces,0.7955
+Italian,All,28,telefonare,44,understands,0
+Italian,All,29,telefonare,37,produces,0.8378
+Italian,All,29,telefonare,37,understands,0
+Italian,All,30,telefonare,67,produces,0.806
+Italian,All,30,telefonare,67,understands,0
+Italian,All,31,telefonare,19,produces,0.8947
+Italian,All,31,telefonare,19,understands,0
+Italian,All,32,telefonare,23,produces,0.6957
+Italian,All,32,telefonare,23,understands,0
+Italian,All,33,telefonare,16,produces,0.9375
+Italian,All,33,telefonare,16,understands,0
+Italian,All,34,telefonare,19,produces,0.9474
+Italian,All,34,telefonare,19,understands,0
+Italian,All,35,telefonare,15,produces,0.9333
+Italian,All,35,telefonare,15,understands,0
+Italian,All,36,telefonare,21,produces,0.7143
+Italian,All,36,telefonare,21,understands,0
+Japanese,All,16,よぶ（呼ぶ）,11,produces,0
+Japanese,All,16,よぶ（呼ぶ）,11,understands,0
+Japanese,All,17,よぶ（呼ぶ）,17,produces,0
+Japanese,All,17,よぶ（呼ぶ）,17,understands,0
+Japanese,All,18,よぶ（呼ぶ）,56,produces,0.0179
+Japanese,All,18,よぶ（呼ぶ）,56,understands,0
+Japanese,All,19,よぶ（呼ぶ）,35,produces,0
+Japanese,All,19,よぶ（呼ぶ）,35,understands,0
+Japanese,All,20,よぶ（呼ぶ）,59,produces,0.0339
+Japanese,All,20,よぶ（呼ぶ）,59,understands,0
+Japanese,All,21,よぶ（呼ぶ）,62,produces,0.0323
+Japanese,All,21,よぶ（呼ぶ）,62,understands,0
+Japanese,All,22,よぶ（呼ぶ）,31,produces,0.0323
+Japanese,All,22,よぶ（呼ぶ）,31,understands,0
+Japanese,All,23,よぶ（呼ぶ）,67,produces,0.0448
+Japanese,All,23,よぶ（呼ぶ）,67,understands,0
+Japanese,All,24,よぶ（呼ぶ）,33,produces,0.0909
+Japanese,All,24,よぶ（呼ぶ）,33,understands,0
+Japanese,All,25,よぶ（呼ぶ）,34,produces,0.1765
+Japanese,All,25,よぶ（呼ぶ）,34,understands,0
+Japanese,All,26,よぶ（呼ぶ）,33,produces,0.303
+Japanese,All,26,よぶ（呼ぶ）,33,understands,0
+Japanese,All,27,よぶ（呼ぶ）,15,produces,0.0667
+Japanese,All,27,よぶ（呼ぶ）,15,understands,0
+Japanese,All,28,よぶ（呼ぶ）,18,produces,0.2222
+Japanese,All,28,よぶ（呼ぶ）,18,understands,0
+Japanese,All,29,よぶ（呼ぶ）,17,produces,0.4706
+Japanese,All,29,よぶ（呼ぶ）,17,understands,0
+Japanese,All,30,よぶ（呼ぶ）,18,produces,0.3333
+Japanese,All,30,よぶ（呼ぶ）,18,understands,0
+Japanese,All,31,よぶ（呼ぶ）,18,produces,0.3333
+Japanese,All,31,よぶ（呼ぶ）,18,understands,0
+Japanese,All,32,よぶ（呼ぶ）,13,produces,0.3846
+Japanese,All,32,よぶ（呼ぶ）,13,understands,0
+Japanese,All,33,よぶ（呼ぶ）,16,produces,0.625
+Japanese,All,33,よぶ（呼ぶ）,16,understands,0
+Japanese,All,34,よぶ（呼ぶ）,13,produces,0.6923
+Japanese,All,34,よぶ（呼ぶ）,13,understands,0
+Japanese,All,35,よぶ（呼ぶ）,31,produces,0.7419
+Japanese,All,35,よぶ（呼ぶ）,31,understands,0
+Japanese,All,36,よぶ（呼ぶ）,18,produces,0.6111
+Japanese,All,36,よぶ（呼ぶ）,18,understands,0
+Kigiriama,All,16,Kupiga simu,1,produces,0
+Kigiriama,All,16,Kupiga simu,1,understands,0
+Kigiriama,All,17,Kupiga simu,6,produces,0
+Kigiriama,All,17,Kupiga simu,6,understands,0
+Kigiriama,All,18,Kupiga simu,13,produces,0.0769
+Kigiriama,All,18,Kupiga simu,13,understands,0
+Kigiriama,All,19,Kupiga simu,8,produces,0
+Kigiriama,All,19,Kupiga simu,8,understands,0
+Kigiriama,All,20,Kupiga simu,14,produces,0.0714
+Kigiriama,All,20,Kupiga simu,14,understands,0
+Kigiriama,All,21,Kupiga simu,6,produces,0
+Kigiriama,All,21,Kupiga simu,6,understands,0
+Kigiriama,All,22,Kupiga simu,9,produces,0.2222
+Kigiriama,All,22,Kupiga simu,9,understands,0
+Kigiriama,All,23,Kupiga simu,4,produces,0
+Kigiriama,All,23,Kupiga simu,4,understands,0
+Kigiriama,All,24,Kupiga simu,7,produces,0
+Kigiriama,All,24,Kupiga simu,7,understands,0
+Kigiriama,All,25,Kupiga simu,3,produces,0.3333
+Kigiriama,All,25,Kupiga simu,3,understands,0
+Kigiriama,All,26,Kupiga simu,6,produces,0
+Kigiriama,All,26,Kupiga simu,6,understands,0
+Kigiriama,All,27,Kupiga simu,4,produces,0.5
+Kigiriama,All,27,Kupiga simu,4,understands,0
+Kigiriama,All,28,Kupiga simu,1,produces,0
+Kigiriama,All,28,Kupiga simu,1,understands,0
+Kigiriama,All,29,Kupiga simu,5,produces,0
+Kigiriama,All,29,Kupiga simu,5,understands,0
+Kigiriama,All,30,Kupiga simu,1,produces,0
+Kigiriama,All,30,Kupiga simu,1,understands,0
+Kiswahili,All,23,Piga simu,2,produces,0
+Kiswahili,All,23,Piga simu,2,understands,0
+Kiswahili,All,24,Piga simu,12,produces,0.1667
+Kiswahili,All,24,Piga simu,12,understands,0
+Kiswahili,All,25,Piga simu,10,produces,0.1
+Kiswahili,All,25,Piga simu,10,understands,0
+Kiswahili,All,26,Piga simu,13,produces,0.1538
+Kiswahili,All,26,Piga simu,13,understands,0
+Kiswahili,All,27,Piga simu,8,produces,0.25
+Kiswahili,All,27,Piga simu,8,understands,0
+Kiswahili,All,28,Piga simu,6,produces,0
+Kiswahili,All,28,Piga simu,6,understands,0
+Kiswahili,All,29,Piga simu,6,produces,0.1667
+Kiswahili,All,29,Piga simu,6,understands,0
+Kiswahili,All,30,Piga simu,5,produces,0.4
+Kiswahili,All,30,Piga simu,5,understands,0
+Latvian,All,17,saukt,27,produces,0.037
+Latvian,All,17,saukt,27,understands,0
+Latvian,All,18,saukt,21,produces,0.0476
+Latvian,All,18,saukt,21,understands,0
+Latvian,All,19,saukt,28,produces,0
+Latvian,All,19,saukt,28,understands,0
+Latvian,All,20,saukt,34,produces,0.0294
+Latvian,All,20,saukt,34,understands,0
+Latvian,All,21,saukt,26,produces,0.1923
+Latvian,All,21,saukt,26,understands,0
+Latvian,All,22,saukt,32,produces,0.1875
+Latvian,All,22,saukt,32,understands,0
+Latvian,All,23,saukt,25,produces,0.12
+Latvian,All,23,saukt,25,understands,0
+Latvian,All,24,saukt,30,produces,0.3333
+Latvian,All,24,saukt,30,understands,0
+Latvian,All,25,saukt,29,produces,0.1379
+Latvian,All,25,saukt,29,understands,0
+Latvian,All,26,saukt,22,produces,0.4545
+Latvian,All,26,saukt,22,understands,0
+Latvian,All,27,saukt,18,produces,0.3333
+Latvian,All,27,saukt,18,understands,0
+Latvian,All,28,saukt,23,produces,0.4348
+Latvian,All,28,saukt,23,understands,0
+Latvian,All,29,saukt,24,produces,0.5
+Latvian,All,29,saukt,24,understands,0
+Latvian,All,30,saukt,26,produces,0.5
+Latvian,All,30,saukt,26,understands,0
+Latvian,All,31,saukt,19,produces,0.4737
+Latvian,All,31,saukt,19,understands,0
+Latvian,All,32,saukt,25,produces,0.6
+Latvian,All,32,saukt,25,understands,0
+Latvian,All,33,saukt,31,produces,0.6452
+Latvian,All,33,saukt,31,understands,0
+Latvian,All,34,saukt,17,produces,0.7647
+Latvian,All,34,saukt,17,understands,0
+Latvian,All,35,saukt,21,produces,0.7619
+Latvian,All,35,saukt,21,understands,0
+Latvian,All,36,saukt,22,produces,0.7273
+Latvian,All,36,saukt,22,understands,0
+Mandarin (Beijing),All,16,"打（电话）, 拨（电话）",70,produces,0.2857
+Mandarin (Beijing),All,16,"打（电话）, 拨（电话）",70,understands,0
+Mandarin (Beijing),All,17,"打（电话）, 拨（电话）, 打电话",112,produces,0.3587
+Mandarin (Beijing),All,17,"打（电话）, 拨（电话）, 打电话",112,understands,0
+Mandarin (Beijing),All,18,"打（电话）, 拨（电话）, 打电话",121,produces,0.401
+Mandarin (Beijing),All,18,"打（电话）, 拨（电话）, 打电话",121,understands,0
+Mandarin (Beijing),All,19,"打（电话）, 拨（电话）, 打电话",120,produces,0.5053
+Mandarin (Beijing),All,19,"打（电话）, 拨（电话）, 打电话",120,understands,0
+Mandarin (Beijing),All,20,"打（电话）, 拨（电话）, 打电话",121,produces,0.5781
+Mandarin (Beijing),All,20,"打（电话）, 拨（电话）, 打电话",121,understands,0
+Mandarin (Beijing),All,21,"打（电话）, 拨（电话）, 打电话",119,produces,0.6243
+Mandarin (Beijing),All,21,"打（电话）, 拨（电话）, 打电话",119,understands,0
+Mandarin (Beijing),All,22,"打（电话）, 拨（电话）, 打电话",117,produces,0.6702
+Mandarin (Beijing),All,22,"打（电话）, 拨（电话）, 打电话",117,understands,0
+Mandarin (Beijing),All,23,"打（电话）, 拨（电话）, 打电话",120,produces,0.7947
+Mandarin (Beijing),All,23,"打（电话）, 拨（电话）, 打电话",120,understands,0
+Mandarin (Beijing),All,24,"打（电话）, 拨（电话）, 打电话",120,produces,0.7579
+Mandarin (Beijing),All,24,"打（电话）, 拨（电话）, 打电话",120,understands,0
+Mandarin (Beijing),All,25,"打（电话）, 拨（电话）, 打电话",113,produces,0.8634
+Mandarin (Beijing),All,25,"打（电话）, 拨（电话）, 打电话",113,understands,0
+Mandarin (Beijing),All,26,"打（电话）, 拨（电话）, 打电话",118,produces,0.8571
+Mandarin (Beijing),All,26,"打（电话）, 拨（电话）, 打电话",118,understands,0
+Mandarin (Beijing),All,27,"打（电话）, 拨（电话）, 打电话",114,produces,0.8587
+Mandarin (Beijing),All,27,"打（电话）, 拨（电话）, 打电话",114,understands,0
+Mandarin (Beijing),All,28,"打（电话）, 拨（电话）, 打电话",114,produces,0.8641
+Mandarin (Beijing),All,28,"打（电话）, 拨（电话）, 打电话",114,understands,0
+Mandarin (Beijing),All,29,"打（电话）, 拨（电话）, 打电话",119,produces,0.9048
+Mandarin (Beijing),All,29,"打（电话）, 拨（电话）, 打电话",119,understands,0
+Mandarin (Beijing),All,30,"打（电话）, 拨（电话）, 打电话",110,produces,0.9167
+Mandarin (Beijing),All,30,"打（电话）, 拨（电话）, 打电话",110,understands,0
+Mandarin (Taiwanese),All,8,"打電話, 叫",86,produces,0.0058
+Mandarin (Taiwanese),All,8,"打電話, 叫",86,understands,0.4767
+Mandarin (Taiwanese),All,9,"打電話, 叫",79,produces,0.019
+Mandarin (Taiwanese),All,9,"打電話, 叫",79,understands,0.49370000000000003
+Mandarin (Taiwanese),All,10,"打電話, 叫",78,produces,0.0192
+Mandarin (Taiwanese),All,10,"打電話, 叫",78,understands,0.2051
+Mandarin (Taiwanese),All,11,"打電話, 叫",79,produces,0.0443
+Mandarin (Taiwanese),All,11,"打電話, 叫",79,understands,0.2658
+Mandarin (Taiwanese),All,12,"打電話, 叫",80,produces,0.05
+Mandarin (Taiwanese),All,12,"打電話, 叫",80,understands,0.3375
+Mandarin (Taiwanese),All,13,"打電話, 叫",78,produces,0.0897
+Mandarin (Taiwanese),All,13,"打電話, 叫",78,understands,0.4167
+Mandarin (Taiwanese),All,14,"打電話, 叫",81,produces,0.1852
+Mandarin (Taiwanese),All,14,"打電話, 叫",81,understands,0.4136
+Mandarin (Taiwanese),All,15,"打電話, 叫",106,produces,0.1698
+Mandarin (Taiwanese),All,15,"打電話, 叫",106,understands,0.5094
+Mandarin (Taiwanese),All,16,"打電話, 叫",170,produces,0.1265
+Mandarin (Taiwanese),All,16,"打電話, 叫",170,understands,0.2412
+Mandarin (Taiwanese),All,17,"打電話, 叫",87,produces,0.069
+Mandarin (Taiwanese),All,17,"打電話, 叫",87,understands,0
+Mandarin (Taiwanese),All,18,"打電話, 叫",84,produces,0.0952
+Mandarin (Taiwanese),All,18,"打電話, 叫",84,understands,0
+Mandarin (Taiwanese),All,19,"打電話, 叫",84,produces,0.2143
+Mandarin (Taiwanese),All,19,"打電話, 叫",84,understands,0
+Mandarin (Taiwanese),All,20,"打電話, 叫",84,produces,0.2321
+Mandarin (Taiwanese),All,20,"打電話, 叫",84,understands,0
+Mandarin (Taiwanese),All,21,"打電話, 叫",88,produces,0.2159
+Mandarin (Taiwanese),All,21,"打電話, 叫",88,understands,0
+Mandarin (Taiwanese),All,22,"打電話, 叫",96,produces,0.2865
+Mandarin (Taiwanese),All,22,"打電話, 叫",96,understands,0
+Mandarin (Taiwanese),All,23,"打電話, 叫",105,produces,0.4
+Mandarin (Taiwanese),All,23,"打電話, 叫",105,understands,0
+Mandarin (Taiwanese),All,24,"打電話, 叫",124,produces,0.4435
+Mandarin (Taiwanese),All,24,"打電話, 叫",124,understands,0
+Mandarin (Taiwanese),All,25,"打電話, 叫",110,produces,0.4182
+Mandarin (Taiwanese),All,25,"打電話, 叫",110,understands,0
+Mandarin (Taiwanese),All,26,"打電話, 叫",87,produces,0.5575
+Mandarin (Taiwanese),All,26,"打電話, 叫",87,understands,0
+Mandarin (Taiwanese),All,27,"打電話, 叫",92,produces,0.5217
+Mandarin (Taiwanese),All,27,"打電話, 叫",92,understands,0
+Mandarin (Taiwanese),All,28,"打電話, 叫",100,produces,0.645
+Mandarin (Taiwanese),All,28,"打電話, 叫",100,understands,0
+Mandarin (Taiwanese),All,29,"打電話, 叫",88,produces,0.6932
+Mandarin (Taiwanese),All,29,"打電話, 叫",88,understands,0
+Mandarin (Taiwanese),All,30,"打電話, 叫",94,produces,0.734
+Mandarin (Taiwanese),All,30,"打電話, 叫",94,understands,0
+Mandarin (Taiwanese),All,31,"打電話, 叫",88,produces,0.8125
+Mandarin (Taiwanese),All,31,"打電話, 叫",88,understands,0
+Mandarin (Taiwanese),All,32,"打電話, 叫",82,produces,0.7317
+Mandarin (Taiwanese),All,32,"打電話, 叫",82,understands,0
+Mandarin (Taiwanese),All,33,"打電話, 叫",85,produces,0.8765
+Mandarin (Taiwanese),All,33,"打電話, 叫",85,understands,0
+Mandarin (Taiwanese),All,34,"打電話, 叫",77,produces,0.8182
+Mandarin (Taiwanese),All,34,"打電話, 叫",77,understands,0
+Mandarin (Taiwanese),All,35,"打電話, 叫",81,produces,0.9136
+Mandarin (Taiwanese),All,35,"打電話, 叫",81,understands,0
+Mandarin (Taiwanese),All,36,"打電話, 叫",81,produces,0.9074
+Mandarin (Taiwanese),All,36,"打電話, 叫",81,understands,0
+Norwegian,All,16,ringe,98,produces,0.0714
+Norwegian,All,16,ringe,98,understands,0
+Norwegian,All,17,ringe,218,produces,0.0734
+Norwegian,All,17,ringe,218,understands,0
+Norwegian,All,18,ringe,271,produces,0.1365
+Norwegian,All,18,ringe,271,understands,0
+Norwegian,All,19,ringe,281,produces,0.1851
+Norwegian,All,19,ringe,281,understands,0
+Norwegian,All,20,ringe,342,produces,0.269
+Norwegian,All,20,ringe,342,understands,0
+Norwegian,All,21,ringe,418,produces,0.3421
+Norwegian,All,21,ringe,418,understands,0
+Norwegian,All,22,ringe,596,produces,0.3943
+Norwegian,All,22,ringe,596,understands,0
+Norwegian,All,23,ringe,566,produces,0.4841
+Norwegian,All,23,ringe,566,understands,0
+Norwegian,All,24,ringe,538,produces,0.5632
+Norwegian,All,24,ringe,538,understands,0
+Norwegian,All,25,ringe,656,produces,0.6433
+Norwegian,All,25,ringe,656,understands,0
+Norwegian,All,26,ringe,644,produces,0.736
+Norwegian,All,26,ringe,644,understands,0
+Norwegian,All,27,ringe,525,produces,0.7867
+Norwegian,All,27,ringe,525,understands,0
+Norwegian,All,28,ringe,544,produces,0.829
+Norwegian,All,28,ringe,544,understands,0
+Norwegian,All,29,ringe,536,produces,0.8619
+Norwegian,All,29,ringe,536,understands,0
+Norwegian,All,30,ringe,457,produces,0.8687
+Norwegian,All,30,ringe,457,understands,0
+Norwegian,All,31,ringe,479,produces,0.8768
+Norwegian,All,31,ringe,479,understands,0
+Norwegian,All,32,ringe,451,produces,0.9224
+Norwegian,All,32,ringe,451,understands,0
+Norwegian,All,33,ringe,430,produces,0.9209
+Norwegian,All,33,ringe,430,understands,0
+Norwegian,All,34,ringe,424,produces,0.9316
+Norwegian,All,34,ringe,424,understands,0
+Norwegian,All,35,ringe,422,produces,0.9479
+Norwegian,All,35,ringe,422,understands,0
+Norwegian,All,36,ringe,329,produces,0.9635
+Norwegian,All,36,ringe,329,understands,0
+Portuguese (European),All,16,Chamar,144,produces,0.0069
+Portuguese (European),All,16,Chamar,144,understands,0
+Portuguese (European),All,17,Chamar,158,produces,0.0127
+Portuguese (European),All,17,Chamar,158,understands,0
+Portuguese (European),All,18,Chamar,203,produces,0.0345
+Portuguese (European),All,18,Chamar,203,understands,0
+Portuguese (European),All,19,Chamar,196,produces,0.0408
+Portuguese (European),All,19,Chamar,196,understands,0
+Portuguese (European),All,20,Chamar,218,produces,0.0505
+Portuguese (European),All,20,Chamar,218,understands,0
+Portuguese (European),All,21,Chamar,208,produces,0.0769
+Portuguese (European),All,21,Chamar,208,understands,0
+Portuguese (European),All,22,Chamar,213,produces,0.1221
+Portuguese (European),All,22,Chamar,213,understands,0
+Portuguese (European),All,23,Chamar,199,produces,0.1256
+Portuguese (European),All,23,Chamar,199,understands,0
+Portuguese (European),All,24,Chamar,215,produces,0.2419
+Portuguese (European),All,24,Chamar,215,understands,0
+Portuguese (European),All,25,Chamar,213,produces,0.338
+Portuguese (European),All,25,Chamar,213,understands,0
+Portuguese (European),All,26,Chamar,218,produces,0.3624
+Portuguese (European),All,26,Chamar,218,understands,0
+Portuguese (European),All,27,Chamar,238,produces,0.4622
+Portuguese (European),All,27,Chamar,238,understands,0
+Portuguese (European),All,28,Chamar,219,produces,0.5251
+Portuguese (European),All,28,Chamar,219,understands,0
+Portuguese (European),All,29,Chamar,207,produces,0.5459
+Portuguese (European),All,29,Chamar,207,understands,0
+Portuguese (European),All,30,Chamar,163,produces,0.6135
+Portuguese (European),All,30,Chamar,163,understands,0
+Russian,All,18,звонить,42,produces,0.0238
+Russian,All,18,звонить,42,understands,0
+Russian,All,19,звонить,41,produces,0.1463
+Russian,All,19,звонить,41,understands,0
+Russian,All,20,звонить,45,produces,0.1111
+Russian,All,20,звонить,45,understands,0
+Russian,All,21,звонить,43,produces,0.2558
+Russian,All,21,звонить,43,understands,0
+Russian,All,22,звонить,51,produces,0.2549
+Russian,All,22,звонить,51,understands,0
+Russian,All,23,звонить,56,produces,0.375
+Russian,All,23,звонить,56,understands,0
+Russian,All,24,звонить,61,produces,0.459
+Russian,All,24,звонить,61,understands,0
+Russian,All,25,звонить,66,produces,0.5
+Russian,All,25,звонить,66,understands,0
+Russian,All,26,звонить,52,produces,0.5385
+Russian,All,26,звонить,52,understands,0
+Russian,All,27,звонить,60,produces,0.55
+Russian,All,27,звонить,60,understands,0
+Russian,All,28,звонить,60,produces,0.6667
+Russian,All,28,звонить,60,understands,0
+Russian,All,29,звонить,58,produces,0.7759
+Russian,All,29,звонить,58,understands,0
+Russian,All,30,звонить,77,produces,0.7403
+Russian,All,30,звонить,77,understands,0
+Russian,All,31,звонить,61,produces,0.8525
+Russian,All,31,звонить,61,understands,0
+Russian,All,32,звонить,55,produces,0.7636
+Russian,All,32,звонить,55,understands,0
+Russian,All,33,звонить,55,produces,0.8
+Russian,All,33,звонить,55,understands,0
+Russian,All,34,звонить,58,produces,0.8966
+Russian,All,34,звонить,58,understands,0
+Russian,All,35,звонить,47,produces,0.8936
+Russian,All,35,звонить,47,understands,0
+Russian,All,36,звонить,49,produces,0.9796
+Russian,All,36,звонить,49,understands,0
+Slovak,All,8,volať,73,produces,0.0137
+Slovak,All,8,volať,73,understands,0.1096
+Slovak,All,9,volať,59,produces,0.0339
+Slovak,All,9,volať,59,understands,0.2034
+Slovak,All,10,volať,73,produces,0.0137
+Slovak,All,10,volať,73,understands,0.1644
+Slovak,All,11,volať,62,produces,0
+Slovak,All,11,volať,62,understands,0.3387
+Slovak,All,12,volať,79,produces,0.0506
+Slovak,All,12,volať,79,understands,0.5063
+Slovak,All,13,volať,74,produces,0.027
+Slovak,All,13,volať,74,understands,0.5676
+Slovak,All,14,volať,78,produces,0.0513
+Slovak,All,14,volať,78,understands,0.5769
+Slovak,All,15,volať,87,produces,0.0805
+Slovak,All,15,volať,87,understands,0.6552
+Slovak,All,16,volať,68,produces,0.1324
+Slovak,All,16,volať,68,understands,0.6029
+Slovak,All,17,"volať, telefonovať",70,produces,0.2286
+Slovak,All,17,"volať, telefonovať",70,understands,0
+Slovak,All,18,"volať, telefonovať",65,produces,0.2615
+Slovak,All,18,"volať, telefonovať",65,understands,0
+Slovak,All,19,"volať, telefonovať",56,produces,0.2143
+Slovak,All,19,"volať, telefonovať",56,understands,0
+Slovak,All,20,"volať, telefonovať",62,produces,0.371
+Slovak,All,20,"volať, telefonovať",62,understands,0
+Slovak,All,21,"volať, telefonovať",81,produces,0.4444
+Slovak,All,21,"volať, telefonovať",81,understands,0
+Slovak,All,22,"volať, telefonovať",53,produces,0.4528
+Slovak,All,22,"volať, telefonovať",53,understands,0
+Slovak,All,23,"volať, telefonovať",59,produces,0.4915
+Slovak,All,23,"volať, telefonovať",59,understands,0
+Slovak,All,24,"volať, telefonovať",59,produces,0.6271
+Slovak,All,24,"volať, telefonovať",59,understands,0
+Slovak,All,25,"volať, telefonovať",69,produces,0.6304
+Slovak,All,25,"volať, telefonovať",69,understands,0
+Slovak,All,26,"volať, telefonovať",78,produces,0.8141
+Slovak,All,26,"volať, telefonovať",78,understands,0
+Slovak,All,27,"volať, telefonovať",62,produces,0.8065
+Slovak,All,27,"volať, telefonovať",62,understands,0
+Slovak,All,28,"volať, telefonovať",86,produces,0.7558
+Slovak,All,28,"volať, telefonovať",86,understands,0
+Slovak,All,29,"volať, telefonovať",75,produces,0.7933
+Slovak,All,29,"volať, telefonovať",75,understands,0
+Slovak,All,30,"volať, telefonovať",49,produces,0.7041
+Slovak,All,30,"volať, telefonovať",49,understands,0
+Slovak,All,31,"volať, telefonovať",29,produces,0.7931
+Slovak,All,31,"volať, telefonovať",29,understands,0
+Slovak,All,32,"volať, telefonovať",25,produces,0.92
+Slovak,All,32,"volať, telefonovať",25,understands,0
+Slovak,All,33,"volať, telefonovať",22,produces,0.9545
+Slovak,All,33,"volať, telefonovať",22,understands,0
+Slovak,All,34,"volať, telefonovať",27,produces,0.8519
+Slovak,All,34,"volať, telefonovať",27,understands,0
+Slovak,All,35,"volať, telefonovať",27,produces,0.8148
+Slovak,All,35,"volať, telefonovať",27,understands,0
+Slovak,All,36,"volať, telefonovať",8,produces,0.875
+Slovak,All,36,"volať, telefonovať",8,understands,0
+Spanish (European),All,16,llamar,39,produces,0
+Spanish (European),All,16,llamar,39,understands,0
+Spanish (European),All,17,llamar,39,produces,0.0513
+Spanish (European),All,17,llamar,39,understands,0
+Spanish (European),All,18,llamar,50,produces,0.06
+Spanish (European),All,18,llamar,50,understands,0
+Spanish (European),All,19,llamar,27,produces,0.037
+Spanish (European),All,19,llamar,27,understands,0
+Spanish (European),All,20,llamar,36,produces,0
+Spanish (European),All,20,llamar,36,understands,0
+Spanish (European),All,21,llamar,41,produces,0.0488
+Spanish (European),All,21,llamar,41,understands,0
+Spanish (European),All,22,llamar,38,produces,0.1842
+Spanish (European),All,22,llamar,38,understands,0
+Spanish (European),All,23,llamar,30,produces,0.2667
+Spanish (European),All,23,llamar,30,understands,0
+Spanish (European),All,24,llamar,55,produces,0.3455
+Spanish (European),All,24,llamar,55,understands,0
+Spanish (European),All,25,llamar,35,produces,0.3429
+Spanish (European),All,25,llamar,35,understands,0
+Spanish (European),All,26,llamar,49,produces,0.4694
+Spanish (European),All,26,llamar,49,understands,0
+Spanish (European),All,27,llamar,34,produces,0.7353
+Spanish (European),All,27,llamar,34,understands,0
+Spanish (European),All,28,llamar,38,produces,0.6579
+Spanish (European),All,28,llamar,38,understands,0
+Spanish (European),All,29,llamar,41,produces,0.7073
+Spanish (European),All,29,llamar,41,understands,0
+Spanish (European),All,30,llamar,41,produces,0.7073
+Spanish (European),All,30,llamar,41,understands,0
+Spanish (Peruvian),All,16,llamar,13,produces,0
+Spanish (Peruvian),All,16,llamar,13,understands,0
+Spanish (Peruvian),All,17,llamar,9,produces,0.2222
+Spanish (Peruvian),All,17,llamar,9,understands,0
+Spanish (Peruvian),All,18,llamar,4,produces,0
+Spanish (Peruvian),All,18,llamar,4,understands,0
+Spanish (Peruvian),All,19,llamar,12,produces,0.3333
+Spanish (Peruvian),All,19,llamar,12,understands,0
+Spanish (Peruvian),All,20,llamar,1,produces,0
+Spanish (Peruvian),All,20,llamar,1,understands,0
+Spanish (Peruvian),All,21,llamar,5,produces,0.2
+Spanish (Peruvian),All,21,llamar,5,understands,0
+Spanish (Peruvian),All,22,llamar,9,produces,0.3333
+Spanish (Peruvian),All,22,llamar,9,understands,0
+Spanish (Peruvian),All,23,llamar,1,produces,1
+Spanish (Peruvian),All,23,llamar,1,understands,0
+Spanish (Peruvian),All,24,llamar,15,produces,0.1333
+Spanish (Peruvian),All,24,llamar,15,understands,0
+Spanish (Peruvian),All,25,llamar,5,produces,0.2
+Spanish (Peruvian),All,25,llamar,5,understands,0
+Spanish (Peruvian),All,26,llamar,8,produces,0.125
+Spanish (Peruvian),All,26,llamar,8,understands,0
+Spanish (Peruvian),All,27,llamar,7,produces,0.2857
+Spanish (Peruvian),All,27,llamar,7,understands,0
+Spanish (Peruvian),All,28,llamar,8,produces,0.375
+Spanish (Peruvian),All,28,llamar,8,understands,0
+Spanish (Peruvian),All,29,llamar,6,produces,0.5
+Spanish (Peruvian),All,29,llamar,6,understands,0
+Spanish (Peruvian),All,30,llamar,2,produces,0.5
+Spanish (Peruvian),All,30,llamar,2,understands,0
+Swedish,All,16,"ringa, heta",159,produces,0.0189
+Swedish,All,16,"ringa, heta",159,understands,0
+Swedish,All,19,"ringa, heta",152,produces,0.0855
+Swedish,All,19,"ringa, heta",152,understands,0
+Swedish,All,22,"ringa, heta",307,produces,0.2704
+Swedish,All,22,"ringa, heta",307,understands,0
+Swedish,All,25,"ringa, heta",143,produces,0.4895
+Swedish,All,25,"ringa, heta",143,understands,0
+Swedish,All,28,"ringa, heta",139,produces,0.6259
+Swedish,All,28,"ringa, heta",139,understands,0
+Turkish,All,16,Çağır,109,produces,0.0183
+Turkish,All,16,Çağır,109,understands,0
+Turkish,All,17,Çağır,107,produces,0.0654
+Turkish,All,17,Çağır,107,understands,0
+Turkish,All,18,Çağır,128,produces,0.0156
+Turkish,All,18,Çağır,128,understands,0
+Turkish,All,19,Çağır,121,produces,0.0496
+Turkish,All,19,Çağır,121,understands,0
+Turkish,All,20,Çağır,119,produces,0.1176
+Turkish,All,20,Çağır,119,understands,0
+Turkish,All,21,Çağır,124,produces,0.1371
+Turkish,All,21,Çağır,124,understands,0
+Turkish,All,22,Çağır,126,produces,0.1111
+Turkish,All,22,Çağır,126,understands,0
+Turkish,All,23,Çağır,131,produces,0.1603
+Turkish,All,23,Çağır,131,understands,0
+Turkish,All,24,Çağır,106,produces,0.2736
+Turkish,All,24,Çağır,106,understands,0
+Turkish,All,25,Çağır,123,produces,0.3415
+Turkish,All,25,Çağır,123,understands,0
+Turkish,All,26,Çağır,123,produces,0.4228
+Turkish,All,26,Çağır,123,understands,0
+Turkish,All,27,Çağır,108,produces,0.4167
+Turkish,All,27,Çağır,108,understands,0
+Turkish,All,28,Çağır,112,produces,0.5
+Turkish,All,28,Çağır,112,understands,0
+Turkish,All,29,Çağır,119,produces,0.563
+Turkish,All,29,Çağır,119,understands,0
+Turkish,All,30,Çağır,104,produces,0.6154
+Turkish,All,30,Çağır,104,understands,0
+Turkish,All,31,Çağır,101,produces,0.604
+Turkish,All,31,Çağır,101,understands,0
+Turkish,All,32,Çağır,132,produces,0.6364
+Turkish,All,32,Çağır,132,understands,0
+Turkish,All,33,Çağır,114,produces,0.7719
+Turkish,All,33,Çağır,114,understands,0
+Turkish,All,34,Çağır,107,produces,0.729
+Turkish,All,34,Çağır,107,understands,0
+Turkish,All,35,Çağır,131,produces,0.7481
+Turkish,All,35,Çağır,131,understands,0
+Turkish,All,36,Çağır,77,produces,0.8312
+Turkish,All,36,Çağır,77,understands,0
+Arabic (Saudi),Female,8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",13,produces,0
+Arabic (Saudi),Female,8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",13,understands,0.1538
+Arabic (Saudi),Male,8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",11,produces,0
+Arabic (Saudi),Male,8,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",11,understands,0
+Arabic (Saudi),Female,9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",14,produces,0
+Arabic (Saudi),Female,9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",14,understands,0.0357
+Arabic (Saudi),Male,9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",13,produces,0
+Arabic (Saudi),Male,9,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",13,understands,0
+Arabic (Saudi),Female,10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",15,produces,0
+Arabic (Saudi),Female,10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",15,understands,0
+Arabic (Saudi),Male,10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",20,produces,0
+Arabic (Saudi),Male,10,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",20,understands,0.125
+Arabic (Saudi),Female,11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",14,produces,0
+Arabic (Saudi),Female,11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",14,understands,0
+Arabic (Saudi),Male,11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",16,produces,0.0312
+Arabic (Saudi),Male,11,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",16,understands,0.0625
+Arabic (Saudi),Female,12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",14,produces,0
+Arabic (Saudi),Female,12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",14,understands,0.25
+Arabic (Saudi),Male,12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",16,produces,0.0312
+Arabic (Saudi),Male,12,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",16,understands,0.0312
+Arabic (Saudi),Female,13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",17,produces,0
+Arabic (Saudi),Female,13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",17,understands,0
+Arabic (Saudi),Male,13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",22,produces,0.0227
+Arabic (Saudi),Male,13,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",22,understands,0
+Arabic (Saudi),Female,14,"أنادي/ ينادي, اتصل (يتصل)",10,produces,0
+Arabic (Saudi),Female,14,"أنادي/ ينادي, اتصل (يتصل)",10,understands,0
+Arabic (Saudi),Male,14,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",15,produces,0.0333
+Arabic (Saudi),Male,14,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",15,understands,0.1
+Arabic (Saudi),Female,15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",12,produces,0.0417
+Arabic (Saudi),Female,15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",12,understands,0.125
+Arabic (Saudi),Male,15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",15,produces,0.0667
+Arabic (Saudi),Male,15,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",15,understands,0.1
+Arabic (Saudi),Female,16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",10,produces,0.15
+Arabic (Saudi),Female,16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",10,understands,0.1
+Arabic (Saudi),Male,16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",11,produces,0
+Arabic (Saudi),Male,16,"ينادي, يتصل, أنادي/ ينادي, اتصل (يتصل)",11,understands,0.0909
+Cantonese,Female,16,打電話,23,produces,0.0435
+Cantonese,Female,16,打電話,23,understands,0
+Cantonese,Male,16,打電話,23,produces,0
+Cantonese,Male,16,打電話,23,understands,0
+Cantonese,Female,17,打電話,30,produces,0.0333
+Cantonese,Female,17,打電話,30,understands,0
+Cantonese,Male,17,打電話,31,produces,0.0968
+Cantonese,Male,17,打電話,31,understands,0
+Cantonese,Female,18,打電話,33,produces,0.2121
+Cantonese,Female,18,打電話,33,understands,0
+Cantonese,Male,18,打電話,35,produces,0.0286
+Cantonese,Male,18,打電話,35,understands,0
+Cantonese,Female,19,打電話,30,produces,0.1333
+Cantonese,Female,19,打電話,30,understands,0
+Cantonese,Male,19,打電話,36,produces,0.1667
+Cantonese,Male,19,打電話,36,understands,0
+Cantonese,Female,20,打電話,62,produces,0.2581
+Cantonese,Female,20,打電話,62,understands,0
+Cantonese,Male,20,打電話,78,produces,0.1667
+Cantonese,Male,20,打電話,78,understands,0
+Cantonese,Female,21,打電話,57,produces,0.4386
+Cantonese,Female,21,打電話,57,understands,0
+Cantonese,Male,21,打電話,63,produces,0.2222
+Cantonese,Male,21,打電話,63,understands,0
+Cantonese,Female,22,打電話,34,produces,0.4118
+Cantonese,Female,22,打電話,34,understands,0
+Cantonese,Male,22,打電話,34,produces,0.1765
+Cantonese,Male,22,打電話,34,understands,0
+Cantonese,Female,23,打電話,37,produces,0.6486
+Cantonese,Female,23,打電話,37,understands,0
+Cantonese,Male,23,打電話,37,produces,0.3514
+Cantonese,Male,23,打電話,37,understands,0
+Cantonese,Female,24,打電話,32,produces,0.5
+Cantonese,Female,24,打電話,32,understands,0
+Cantonese,Male,24,打電話,36,produces,0.5
+Cantonese,Male,24,打電話,36,understands,0
+Cantonese,Female,25,打電話,31,produces,0.8065
+Cantonese,Female,25,打電話,31,understands,0
+Cantonese,Male,25,打電話,34,produces,0.6765
+Cantonese,Male,25,打電話,34,understands,0
+Cantonese,Female,26,打電話,31,produces,0.7097
+Cantonese,Female,26,打電話,31,understands,0
+Cantonese,Male,26,打電話,37,produces,0.5676
+Cantonese,Male,26,打電話,37,understands,0
+Cantonese,Female,27,打電話,31,produces,0.9032
+Cantonese,Female,27,打電話,31,understands,0
+Cantonese,Male,27,打電話,31,produces,0.6452
+Cantonese,Male,27,打電話,31,understands,0
+Cantonese,Female,28,打電話,32,produces,0.8438
+Cantonese,Female,28,打電話,32,understands,0
+Cantonese,Male,28,打電話,34,produces,0.7353
+Cantonese,Male,28,打電話,34,understands,0
+Cantonese,Female,29,打電話,36,produces,1
+Cantonese,Female,29,打電話,36,understands,0
+Cantonese,Male,29,打電話,36,produces,0.8333
+Cantonese,Male,29,打電話,36,understands,0
+Cantonese,Female,30,打電話,76,produces,0.9605
+Cantonese,Female,30,打電話,76,understands,0
+Cantonese,Male,30,打電話,88,produces,0.8295
+Cantonese,Male,30,打電話,88,understands,0
+Croatian,Female,16,halo-halo,7,produces,0
+Croatian,Female,16,halo-halo,7,understands,0
+Croatian,Male,16,halo-halo,6,produces,0.3333
+Croatian,Male,16,halo-halo,6,understands,0
+Croatian,Female,17,halo-halo,12,produces,0.4167
+Croatian,Female,17,halo-halo,12,understands,0
+Croatian,Male,17,halo-halo,13,produces,0.3846
+Croatian,Male,17,halo-halo,13,understands,0
+Croatian,Female,18,halo-halo,8,produces,0.5
+Croatian,Female,18,halo-halo,8,understands,0
+Croatian,Male,18,halo-halo,14,produces,0.4286
+Croatian,Male,18,halo-halo,14,understands,0
+Croatian,Female,19,halo-halo,14,produces,0.6429
+Croatian,Female,19,halo-halo,14,understands,0
+Croatian,Male,19,halo-halo,7,produces,0.5714
+Croatian,Male,19,halo-halo,7,understands,0
+Croatian,Female,20,halo-halo,13,produces,0.9231
+Croatian,Female,20,halo-halo,13,understands,0
+Croatian,Male,20,halo-halo,13,produces,0.4615
+Croatian,Male,20,halo-halo,13,understands,0
+Croatian,Female,21,halo-halo,13,produces,0.6923
+Croatian,Female,21,halo-halo,13,understands,0
+Croatian,Male,21,halo-halo,16,produces,0.625
+Croatian,Male,21,halo-halo,16,understands,0
+Croatian,Female,22,halo-halo,14,produces,0.5714
+Croatian,Female,22,halo-halo,14,understands,0
+Croatian,Male,22,halo-halo,10,produces,0.9
+Croatian,Male,22,halo-halo,10,understands,0
+Croatian,Female,23,halo-halo,14,produces,0.7857
+Croatian,Female,23,halo-halo,14,understands,0
+Croatian,Male,23,halo-halo,12,produces,0.5833
+Croatian,Male,23,halo-halo,12,understands,0
+Croatian,Female,24,halo-halo,14,produces,0.8571
+Croatian,Female,24,halo-halo,14,understands,0
+Croatian,Male,24,halo-halo,16,produces,0.8125
+Croatian,Male,24,halo-halo,16,understands,0
+Croatian,Female,25,halo-halo,14,produces,0.8571
+Croatian,Female,25,halo-halo,14,understands,0
+Croatian,Male,25,halo-halo,16,produces,0.625
+Croatian,Male,25,halo-halo,16,understands,0
+Croatian,Female,26,halo-halo,11,produces,1
+Croatian,Female,26,halo-halo,11,understands,0
+Croatian,Male,26,halo-halo,18,produces,0.8333
+Croatian,Male,26,halo-halo,18,understands,0
+Croatian,Female,27,halo-halo,11,produces,0.8182
+Croatian,Female,27,halo-halo,11,understands,0
+Croatian,Male,27,halo-halo,14,produces,0.7857
+Croatian,Male,27,halo-halo,14,understands,0
+Croatian,Female,28,halo-halo,8,produces,1
+Croatian,Female,28,halo-halo,8,understands,0
+Croatian,Male,28,halo-halo,13,produces,0.8462
+Croatian,Male,28,halo-halo,13,understands,0
+Croatian,Female,29,halo-halo,15,produces,0.6667
+Croatian,Female,29,halo-halo,15,understands,0
+Croatian,Male,29,halo-halo,13,produces,0.7692
+Croatian,Male,29,halo-halo,13,understands,0
+Croatian,Female,30,halo-halo,11,produces,0.6364
+Croatian,Female,30,halo-halo,11,understands,0
+Croatian,Male,30,halo-halo,17,produces,0.9412
+Croatian,Male,30,halo-halo,17,understands,0
+Dutch,Female,16,bellen/telefoneren,4,produces,0
+Dutch,Female,16,bellen/telefoneren,4,understands,0
+Dutch,Female,17,bellen/telefoneren,33,produces,0.1212
+Dutch,Female,17,bellen/telefoneren,33,understands,0
+Dutch,Male,17,bellen/telefoneren,16,produces,0.0625
+Dutch,Male,17,bellen/telefoneren,16,understands,0
+Dutch,Female,18,bellen/telefoneren,38,produces,0.0789
+Dutch,Female,18,bellen/telefoneren,38,understands,0
+Dutch,Male,18,bellen/telefoneren,30,produces,0.1333
+Dutch,Male,18,bellen/telefoneren,30,understands,0
+Dutch,Female,19,bellen/telefoneren,5,produces,0
+Dutch,Female,19,bellen/telefoneren,5,understands,0
+Dutch,Male,19,bellen/telefoneren,2,produces,0
+Dutch,Male,19,bellen/telefoneren,2,understands,0
+Dutch,Female,20,bellen/telefoneren,6,produces,0.3333
+Dutch,Female,20,bellen/telefoneren,6,understands,0
+Dutch,Male,20,bellen/telefoneren,1,produces,1
+Dutch,Male,20,bellen/telefoneren,1,understands,0
+Dutch,Female,21,bellen/telefoneren,3,produces,0.3333
+Dutch,Female,21,bellen/telefoneren,3,understands,0
+Dutch,Male,21,bellen/telefoneren,4,produces,0
+Dutch,Male,21,bellen/telefoneren,4,understands,0
+Dutch,Female,22,bellen/telefoneren,1,produces,1
+Dutch,Female,22,bellen/telefoneren,1,understands,0
+Dutch,Male,22,bellen/telefoneren,6,produces,0.3333
+Dutch,Male,22,bellen/telefoneren,6,understands,0
+Dutch,Female,23,bellen/telefoneren,25,produces,0.76
+Dutch,Female,23,bellen/telefoneren,25,understands,0
+Dutch,Male,23,bellen/telefoneren,26,produces,0.6154
+Dutch,Male,23,bellen/telefoneren,26,understands,0
+Dutch,Female,24,bellen/telefoneren,16,produces,0.75
+Dutch,Female,24,bellen/telefoneren,16,understands,0
+Dutch,Male,24,bellen/telefoneren,15,produces,0.6
+Dutch,Male,24,bellen/telefoneren,15,understands,0
+Dutch,Female,25,bellen/telefoneren,5,produces,1
+Dutch,Female,25,bellen/telefoneren,5,understands,0
+Dutch,Male,25,bellen/telefoneren,1,produces,1
+Dutch,Male,25,bellen/telefoneren,1,understands,0
+Dutch,Female,26,bellen/telefoneren,1,produces,1
+Dutch,Female,26,bellen/telefoneren,1,understands,0
+Dutch,Male,26,bellen/telefoneren,5,produces,0.4
+Dutch,Male,26,bellen/telefoneren,5,understands,0
+Dutch,Female,27,bellen/telefoneren,3,produces,0.6667
+Dutch,Female,27,bellen/telefoneren,3,understands,0
+Dutch,Male,27,bellen/telefoneren,1,produces,0
+Dutch,Male,27,bellen/telefoneren,1,understands,0
+Dutch,Female,28,bellen/telefoneren,5,produces,1
+Dutch,Female,28,bellen/telefoneren,5,understands,0
+Dutch,Male,28,bellen/telefoneren,1,produces,1
+Dutch,Male,28,bellen/telefoneren,1,understands,0
+Dutch,Female,29,bellen/telefoneren,12,produces,0.9167
+Dutch,Female,29,bellen/telefoneren,12,understands,0
+Dutch,Male,29,bellen/telefoneren,11,produces,0.9091
+Dutch,Male,29,bellen/telefoneren,11,understands,0
+Dutch,Female,30,bellen/telefoneren,16,produces,1
+Dutch,Female,30,bellen/telefoneren,16,understands,0
+Dutch,Male,30,bellen/telefoneren,8,produces,1
+Dutch,Male,30,bellen/telefoneren,8,understands,0
+Dutch,Female,31,bellen/telefoneren,1,produces,1
+Dutch,Female,31,bellen/telefoneren,1,understands,0
+Dutch,Male,31,bellen/telefoneren,1,produces,1
+Dutch,Male,31,bellen/telefoneren,1,understands,0
+English (American),Female,16,call (on phone),392,produces,0.1173
+English (American),Female,16,call (on phone),392,understands,0
+English (American),Male,16,call (on phone),431,produces,0.0835
+English (American),Male,16,call (on phone),431,understands,0
+English (American),Female,17,call (on phone),152,produces,0.1316
+English (American),Female,17,call (on phone),152,understands,0
+English (American),Male,17,call (on phone),169,produces,0.1124
+English (American),Male,17,call (on phone),169,understands,0
+English (American),Female,18,call (on phone),256,produces,0.1836
+English (American),Female,18,call (on phone),256,understands,0
+English (American),Male,18,call (on phone),263,produces,0.1483
+English (American),Male,18,call (on phone),263,understands,0
+English (American),Female,19,call (on phone),231,produces,0.2944
+English (American),Female,19,call (on phone),231,understands,0
+English (American),Male,19,call (on phone),224,produces,0.1741
+English (American),Male,19,call (on phone),224,understands,0
+English (American),Female,20,call (on phone),205,produces,0.2488
+English (American),Female,20,call (on phone),205,understands,0
+English (American),Male,20,call (on phone),222,produces,0.2432
+English (American),Male,20,call (on phone),222,understands,0
+English (American),Female,21,call (on phone),127,produces,0.4094
+English (American),Female,21,call (on phone),127,understands,0
+English (American),Male,21,call (on phone),142,produces,0.3239
+English (American),Male,21,call (on phone),142,understands,0
+English (American),Female,22,call (on phone),186,produces,0.4247
+English (American),Female,22,call (on phone),186,understands,0
+English (American),Male,22,call (on phone),162,produces,0.358
+English (American),Male,22,call (on phone),162,understands,0
+English (American),Female,23,call (on phone),177,produces,0.5424
+English (American),Female,23,call (on phone),177,understands,0
+English (American),Male,23,call (on phone),196,produces,0.4337
+English (American),Male,23,call (on phone),196,understands,0
+English (American),Female,24,call (on phone),365,produces,0.5863
+English (American),Female,24,call (on phone),365,understands,0
+English (American),Male,24,call (on phone),453,produces,0.479
+English (American),Male,24,call (on phone),453,understands,0
+English (American),Female,25,call (on phone),299,produces,0.689
+English (American),Female,25,call (on phone),299,understands,0
+English (American),Male,25,call (on phone),336,produces,0.5298
+English (American),Male,25,call (on phone),336,understands,0
+English (American),Female,26,call (on phone),173,produces,0.659
+English (American),Female,26,call (on phone),173,understands,0
+English (American),Male,26,call (on phone),197,produces,0.6142
+English (American),Male,26,call (on phone),197,understands,0
+English (American),Female,27,call (on phone),158,produces,0.7025
+English (American),Female,27,call (on phone),158,understands,0
+English (American),Male,27,call (on phone),154,produces,0.6364
+English (American),Male,27,call (on phone),154,understands,0
+English (American),Female,28,call (on phone),416,produces,0.8173
+English (American),Female,28,call (on phone),416,understands,0
+English (American),Male,28,call (on phone),492,produces,0.752
+English (American),Male,28,call (on phone),492,understands,0
+English (American),Female,29,call (on phone),166,produces,0.7892
+English (American),Female,29,call (on phone),166,understands,0
+English (American),Male,29,call (on phone),167,produces,0.6707
+English (American),Male,29,call (on phone),167,understands,0
+English (American),Female,30,call (on phone),323,produces,0.7771
+English (American),Female,30,call (on phone),323,understands,0
+English (American),Male,30,call (on phone),368,produces,0.7011
+English (American),Male,30,call (on phone),368,understands,0
+English (Australian),Female,12,"call(phone), call",27,produces,0.0185
+English (Australian),Female,12,"call(phone), call",27,understands,0
+English (Australian),Male,12,"call(phone), call",44,produces,0
+English (Australian),Male,12,"call(phone), call",44,understands,0
+English (Australian),Female,13,"call(phone), call",35,produces,0.0143
+English (Australian),Female,13,"call(phone), call",35,understands,0
+English (Australian),Male,13,"call(phone), call",29,produces,0
+English (Australian),Male,13,"call(phone), call",29,understands,0
+English (Australian),Female,14,"call(phone), call",51,produces,0.0882
+English (Australian),Female,14,"call(phone), call",51,understands,0
+English (Australian),Male,14,"call(phone), call",60,produces,0.0083
+English (Australian),Male,14,"call(phone), call",60,understands,0
+English (Australian),Female,15,"call(phone), call",31,produces,0.0968
+English (Australian),Female,15,"call(phone), call",31,understands,0
+English (Australian),Male,15,"call(phone), call",38,produces,0.0395
+English (Australian),Male,15,"call(phone), call",38,understands,0
+English (Australian),Female,16,"call(phone), call",32,produces,0.1094
+English (Australian),Female,16,"call(phone), call",32,understands,0
+English (Australian),Male,16,"call(phone), call",28,produces,0.0536
+English (Australian),Male,16,"call(phone), call",28,understands,0
+English (Australian),Female,17,"call(phone), call",56,produces,0.0982
+English (Australian),Female,17,"call(phone), call",56,understands,0
+English (Australian),Male,17,"call(phone), call",48,produces,0.0729
+English (Australian),Male,17,"call(phone), call",48,understands,0
+English (Australian),Female,18,"call(phone), call",52,produces,0.1058
+English (Australian),Female,18,"call(phone), call",52,understands,0
+English (Australian),Male,18,"call(phone), call",57,produces,0.0965
+English (Australian),Male,18,"call(phone), call",57,understands,0
+English (Australian),Female,19,"call(phone), call",72,produces,0.2083
+English (Australian),Female,19,"call(phone), call",72,understands,0
+English (Australian),Male,19,"call(phone), call",52,produces,0.1058
+English (Australian),Male,19,"call(phone), call",52,understands,0
+English (Australian),Female,20,"call(phone), call",40,produces,0.2875
+English (Australian),Female,20,"call(phone), call",40,understands,0
+English (Australian),Male,20,"call(phone), call",38,produces,0.2105
+English (Australian),Male,20,"call(phone), call",38,understands,0
+English (Australian),Female,21,"call(phone), call",39,produces,0.2692
+English (Australian),Female,21,"call(phone), call",39,understands,0
+English (Australian),Male,21,"call(phone), call",25,produces,0.24
+English (Australian),Male,21,"call(phone), call",25,understands,0
+English (Australian),Female,22,"call(phone), call",27,produces,0.3889
+English (Australian),Female,22,"call(phone), call",27,understands,0
+English (Australian),Male,22,"call(phone), call",46,produces,0.3261
+English (Australian),Male,22,"call(phone), call",46,understands,0
+English (Australian),Female,23,"call(phone), call",39,produces,0.5256
+English (Australian),Female,23,"call(phone), call",39,understands,0
+English (Australian),Male,23,"call(phone), call",32,produces,0.4219
+English (Australian),Male,23,"call(phone), call",32,understands,0
+English (Australian),Female,24,"call(phone), call",36,produces,0.4861
+English (Australian),Female,24,"call(phone), call",36,understands,0
+English (Australian),Male,24,"call(phone), call",40,produces,0.4625
+English (Australian),Male,24,"call(phone), call",40,understands,0
+English (Australian),Female,25,"call(phone), call",44,produces,0.5682
+English (Australian),Female,25,"call(phone), call",44,understands,0
+English (Australian),Male,25,"call(phone), call",41,produces,0.3293
+English (Australian),Male,25,"call(phone), call",41,understands,0
+English (Australian),Female,26,"call(phone), call",40,produces,0.6875
+English (Australian),Female,26,"call(phone), call",40,understands,0
+English (Australian),Male,26,"call(phone), call",37,produces,0.4459
+English (Australian),Male,26,"call(phone), call",37,understands,0
+English (Australian),Female,27,"call(phone), call",36,produces,0.625
+English (Australian),Female,27,"call(phone), call",36,understands,0
+English (Australian),Male,27,"call(phone), call",36,produces,0.5556
+English (Australian),Male,27,"call(phone), call",36,understands,0
+English (Australian),Female,28,"call(phone), call",27,produces,0.6667
+English (Australian),Female,28,"call(phone), call",27,understands,0
+English (Australian),Male,28,"call(phone), call",40,produces,0.6375
+English (Australian),Male,28,"call(phone), call",40,understands,0
+English (Australian),Female,29,"call(phone), call",33,produces,0.803
+English (Australian),Female,29,"call(phone), call",33,understands,0
+English (Australian),Male,29,"call(phone), call",32,produces,0.7344
+English (Australian),Male,29,"call(phone), call",32,understands,0
+English (Australian),Female,30,"call(phone), call",28,produces,0.7679
+English (Australian),Female,30,"call(phone), call",28,understands,0
+English (Australian),Male,30,"call(phone), call",25,produces,0.58
+English (Australian),Male,30,"call(phone), call",25,understands,0
+English (British),Female,12,call,13,produces,0
+English (British),Female,12,call,13,understands,0.0769
+English (British),Male,12,call,14,produces,0
+English (British),Male,12,call,14,understands,0
+English (British),Female,13,call,2,produces,0
+English (British),Female,13,call,2,understands,0
+English (British),Male,13,call,5,produces,0
+English (British),Male,13,call,5,understands,0
+English (British),Female,14,call,27,produces,0
+English (British),Female,14,call,27,understands,0.0741
+English (British),Male,14,call,37,produces,0
+English (British),Male,14,call,37,understands,0.0541
+English (British),Female,15,call,38,produces,0.0263
+English (British),Female,15,call,38,understands,0.1053
+English (British),Male,15,call,50,produces,0
+English (British),Male,15,call,50,understands,0.16
+English (British),Female,16,call,58,produces,0
+English (British),Female,16,call,58,understands,0.1552
+English (British),Male,16,call,60,produces,0
+English (British),Male,16,call,60,understands,0.05
+English (British),Female,17,call,90,produces,0
+English (British),Female,17,call,90,understands,0.1667
+English (British),Male,17,call,107,produces,0
+English (British),Male,17,call,107,understands,0.0935
+English (British),Female,18,call,58,produces,0.0172
+English (British),Female,18,call,58,understands,0.2241
+English (British),Male,18,call,60,produces,0
+English (British),Male,18,call,60,understands,0.1167
+English (British),Female,19,call,52,produces,0.0385
+English (British),Female,19,call,52,understands,0.3462
+English (British),Male,19,call,57,produces,0.0351
+English (British),Male,19,call,57,understands,0.2281
+English (British),Female,20,call,64,produces,0.125
+English (British),Female,20,call,64,understands,0.4688
+English (British),Male,20,call,80,produces,0
+English (British),Male,20,call,80,understands,0.2375
+English (British),Female,21,call,32,produces,0.0625
+English (British),Female,21,call,32,understands,0.375
+English (British),Male,21,call,43,produces,0.0465
+English (British),Male,21,call,43,understands,0.2558
+English (British),Female,22,call,12,produces,0.25
+English (British),Female,22,call,12,understands,0.6667
+English (British),Male,22,call,16,produces,0.0625
+English (British),Male,22,call,16,understands,0.3125
+English (British),Female,23,call,50,produces,0.2
+English (British),Female,23,call,50,understands,0.52
+English (British),Male,23,call,62,produces,0.1613
+English (British),Male,23,call,62,understands,0.4355
+English (British),Female,24,call,42,produces,0.1667
+English (British),Female,24,call,42,understands,0.5238
+English (British),Male,24,call,45,produces,0.1778
+English (British),Male,24,call,45,understands,0.6
+English (British),Female,25,call,21,produces,0.4762
+English (British),Female,25,call,21,understands,0.6667
+English (British),Male,25,call,15,produces,0.1333
+English (British),Male,25,call,15,understands,0.4667
+Finnish,Female,12,soittaa ,18,produces,0
+Finnish,Female,12,soittaa ,18,understands,0
+Finnish,Male,12,soittaa ,17,produces,0
+Finnish,Male,12,soittaa ,17,understands,0
+Finnish,Female,15,soittaa ,18,produces,0
+Finnish,Female,15,soittaa ,18,understands,0
+Finnish,Male,15,soittaa ,17,produces,0
+Finnish,Male,15,soittaa ,17,understands,0
+Finnish,Female,18,soittaa,18,produces,0
+Finnish,Female,18,soittaa,18,understands,0
+Finnish,Male,18,soittaa,17,produces,0.0588
+Finnish,Male,18,soittaa,17,understands,0
+Finnish,Female,24,soittaa,18,produces,0.6667
+Finnish,Female,24,soittaa,18,understands,0
+Finnish,Male,24,soittaa,17,produces,0.8235
+Finnish,Male,24,soittaa,17,understands,0
+French (Quebecois),Female,16,parler (au téléphone),26,produces,0.3077
+French (Quebecois),Female,16,parler (au téléphone),26,understands,0
+French (Quebecois),Male,16,parler (au téléphone),21,produces,0.1429
+French (Quebecois),Male,16,parler (au téléphone),21,understands,0
+French (Quebecois),Female,17,parler (au téléphone),30,produces,0.2
+French (Quebecois),Female,17,parler (au téléphone),30,understands,0
+French (Quebecois),Male,17,parler (au téléphone),31,produces,0.1935
+French (Quebecois),Male,17,parler (au téléphone),31,understands,0
+French (Quebecois),Female,18,parler (au téléphone),53,produces,0.3585
+French (Quebecois),Female,18,parler (au téléphone),53,understands,0
+French (Quebecois),Male,18,parler (au téléphone),46,produces,0.2609
+French (Quebecois),Male,18,parler (au téléphone),46,understands,0
+French (Quebecois),Female,19,parler (au téléphone),41,produces,0.3659
+French (Quebecois),Female,19,parler (au téléphone),41,understands,0
+French (Quebecois),Male,19,parler (au téléphone),50,produces,0.26
+French (Quebecois),Male,19,parler (au téléphone),50,understands,0
+French (Quebecois),Female,20,parler (au téléphone),90,produces,0.4
+French (Quebecois),Female,20,parler (au téléphone),90,understands,0
+French (Quebecois),Male,20,parler (au téléphone),105,produces,0.2857
+French (Quebecois),Male,20,parler (au téléphone),105,understands,0
+French (Quebecois),Female,21,parler (au téléphone),56,produces,0.5179
+French (Quebecois),Female,21,parler (au téléphone),56,understands,0
+French (Quebecois),Male,21,parler (au téléphone),53,produces,0.3396
+French (Quebecois),Male,21,parler (au téléphone),53,understands,0
+French (Quebecois),Female,22,parler (au téléphone),42,produces,0.4762
+French (Quebecois),Female,22,parler (au téléphone),42,understands,0
+French (Quebecois),Male,22,parler (au téléphone),44,produces,0.4773
+French (Quebecois),Male,22,parler (au téléphone),44,understands,0
+French (Quebecois),Female,23,parler (au téléphone),41,produces,0.561
+French (Quebecois),Female,23,parler (au téléphone),41,understands,0
+French (Quebecois),Male,23,parler (au téléphone),45,produces,0.6444
+French (Quebecois),Male,23,parler (au téléphone),45,understands,0
+French (Quebecois),Female,24,parler (au téléphone),56,produces,0.7321
+French (Quebecois),Female,24,parler (au téléphone),56,understands,0
+French (Quebecois),Male,24,parler (au téléphone),76,produces,0.5132
+French (Quebecois),Male,24,parler (au téléphone),76,understands,0
+French (Quebecois),Female,25,parler (au téléphone),41,produces,0.8049
+French (Quebecois),Female,25,parler (au téléphone),41,understands,0
+French (Quebecois),Male,25,parler (au téléphone),45,produces,0.5778
+French (Quebecois),Male,25,parler (au téléphone),45,understands,0
+French (Quebecois),Female,26,parler (au téléphone),46,produces,0.7609
+French (Quebecois),Female,26,parler (au téléphone),46,understands,0
+French (Quebecois),Male,26,parler (au téléphone),49,produces,0.6327
+French (Quebecois),Male,26,parler (au téléphone),49,understands,0
+French (Quebecois),Female,27,parler (au téléphone),40,produces,0.85
+French (Quebecois),Female,27,parler (au téléphone),40,understands,0
+French (Quebecois),Male,27,parler (au téléphone),34,produces,0.7353
+French (Quebecois),Male,27,parler (au téléphone),34,understands,0
+French (Quebecois),Female,28,parler (au téléphone),28,produces,0.9286
+French (Quebecois),Female,28,parler (au téléphone),28,understands,0
+French (Quebecois),Male,28,parler (au téléphone),32,produces,0.8438
+French (Quebecois),Male,28,parler (au téléphone),32,understands,0
+French (Quebecois),Female,29,parler (au téléphone),35,produces,0.8857
+French (Quebecois),Female,29,parler (au téléphone),35,understands,0
+French (Quebecois),Male,29,parler (au téléphone),35,produces,0.9429
+French (Quebecois),Male,29,parler (au téléphone),35,understands,0
+French (Quebecois),Female,30,parler (au téléphone),41,produces,0.8049
+French (Quebecois),Female,30,parler (au téléphone),41,understands,0
+French (Quebecois),Male,30,parler (au téléphone),59,produces,0.6441
+French (Quebecois),Male,30,parler (au téléphone),59,understands,0
+German,Female,18,telefonieren,40,produces,0.075
+German,Female,18,telefonieren,40,understands,0
+German,Male,18,telefonieren,45,produces,0.0222
+German,Male,18,telefonieren,45,understands,0
+German,Female,19,telefonieren,39,produces,0.1538
+German,Female,19,telefonieren,39,understands,0
+German,Male,19,telefonieren,40,produces,0.125
+German,Male,19,telefonieren,40,understands,0
+German,Female,20,telefonieren,39,produces,0.1282
+German,Female,20,telefonieren,39,understands,0
+German,Male,20,telefonieren,57,produces,0.1053
+German,Male,20,telefonieren,57,understands,0
+German,Female,21,telefonieren,38,produces,0.3421
+German,Female,21,telefonieren,38,understands,0
+German,Male,21,telefonieren,39,produces,0.1795
+German,Male,21,telefonieren,39,understands,0
+German,Female,22,telefonieren,52,produces,0.25
+German,Female,22,telefonieren,52,understands,0
+German,Male,22,telefonieren,43,produces,0.186
+German,Male,22,telefonieren,43,understands,0
+German,Female,23,telefonieren,45,produces,0.4667
+German,Female,23,telefonieren,45,understands,0
+German,Male,23,telefonieren,50,produces,0.36
+German,Male,23,telefonieren,50,understands,0
+German,Female,24,telefonieren,48,produces,0.5417
+German,Female,24,telefonieren,48,understands,0
+German,Male,24,telefonieren,55,produces,0.3818
+German,Male,24,telefonieren,55,understands,0
+German,Female,25,telefonieren,28,produces,0.7857
+German,Female,25,telefonieren,28,understands,0
+German,Male,25,telefonieren,67,produces,0.4328
+German,Male,25,telefonieren,67,understands,0
+German,Female,26,telefonieren,42,produces,0.7381
+German,Female,26,telefonieren,42,understands,0
+German,Male,26,telefonieren,50,produces,0.58
+German,Male,26,telefonieren,50,understands,0
+German,Female,27,telefonieren,41,produces,0.7805
+German,Female,27,telefonieren,41,understands,0
+German,Male,27,telefonieren,48,produces,0.6042
+German,Male,27,telefonieren,48,understands,0
+German,Female,28,telefonieren,35,produces,0.8571
+German,Female,28,telefonieren,35,understands,0
+German,Male,28,telefonieren,58,produces,0.6724
+German,Male,28,telefonieren,58,understands,0
+German,Female,29,telefonieren,50,produces,0.86
+German,Female,29,telefonieren,50,understands,0
+German,Male,29,telefonieren,39,produces,0.5897
+German,Male,29,telefonieren,39,understands,0
+German,Female,30,telefonieren,54,produces,0.9074
+German,Female,30,telefonieren,54,understands,0
+German,Male,30,telefonieren,39,produces,0.8462
+German,Male,30,telefonieren,39,understands,0
+Hungarian,Female,16,"telefon!, hív",11,produces,0.0455
+Hungarian,Female,16,"telefon!, hív",11,understands,0
+Hungarian,Male,16,"telefon!, hív",10,produces,0.2
+Hungarian,Male,16,"telefon!, hív",10,understands,0
+Hungarian,Female,17,"telefon!, hív",11,produces,0.2273
+Hungarian,Female,17,"telefon!, hív",11,understands,0
+Hungarian,Male,17,"telefon!, hív",7,produces,0
+Hungarian,Male,17,"telefon!, hív",7,understands,0
+Hungarian,Female,18,"telefon!, hív",9,produces,0.1667
+Hungarian,Female,18,"telefon!, hív",9,understands,0
+Hungarian,Male,18,"telefon!, hív",9,produces,0.1111
+Hungarian,Male,18,"telefon!, hív",9,understands,0
+Hungarian,Female,19,"telefon!, hív",13,produces,0.1923
+Hungarian,Female,19,"telefon!, hív",13,understands,0
+Hungarian,Male,19,"telefon!, hív",12,produces,0.25
+Hungarian,Male,19,"telefon!, hív",12,understands,0
+Hungarian,Female,20,"telefon!, hív",12,produces,0.25
+Hungarian,Female,20,"telefon!, hív",12,understands,0
+Hungarian,Male,20,"telefon!, hív",6,produces,0.0833
+Hungarian,Male,20,"telefon!, hív",6,understands,0
+Hungarian,Female,21,"telefon!, hív",16,produces,0.4375
+Hungarian,Female,21,"telefon!, hív",16,understands,0
+Hungarian,Male,21,"telefon!, hív",20,produces,0.2
+Hungarian,Male,21,"telefon!, hív",20,understands,0
+Hungarian,Female,22,"telefon!, hív",14,produces,0.3571
+Hungarian,Female,22,"telefon!, hív",14,understands,0
+Hungarian,Male,22,"telefon!, hív",13,produces,0.2308
+Hungarian,Male,22,"telefon!, hív",13,understands,0
+Hungarian,Female,23,"telefon!, hív",6,produces,0.1667
+Hungarian,Female,23,"telefon!, hív",6,understands,0
+Hungarian,Male,23,"telefon!, hív",12,produces,0.3333
+Hungarian,Male,23,"telefon!, hív",12,understands,0
+Hungarian,Female,24,"telefon!, hív",14,produces,0.3214
+Hungarian,Female,24,"telefon!, hív",14,understands,0
+Hungarian,Male,24,"telefon!, hív",24,produces,0.2917
+Hungarian,Male,24,"telefon!, hív",24,understands,0
+Hungarian,Female,25,"telefon!, hív",17,produces,0.5294
+Hungarian,Female,25,"telefon!, hív",17,understands,0
+Hungarian,Male,25,"telefon!, hív",25,produces,0.6
+Hungarian,Male,25,"telefon!, hív",25,understands,0
+Hungarian,Female,26,"telefon!, hív",9,produces,0.3889
+Hungarian,Female,26,"telefon!, hív",9,understands,0
+Hungarian,Male,26,"telefon!, hív",14,produces,0.5714
+Hungarian,Male,26,"telefon!, hív",14,understands,0
+Hungarian,Female,27,"telefon!, hív",13,produces,0.6154
+Hungarian,Female,27,"telefon!, hív",13,understands,0
+Hungarian,Male,27,"telefon!, hív",13,produces,0.5769
+Hungarian,Male,27,"telefon!, hív",13,understands,0
+Hungarian,Female,28,"telefon!, hív",11,produces,0.7727
+Hungarian,Female,28,"telefon!, hív",11,understands,0
+Hungarian,Male,28,"telefon!, hív",18,produces,0.4444
+Hungarian,Male,28,"telefon!, hív",18,understands,0
+Hungarian,Female,29,"telefon!, hív",8,produces,0.625
+Hungarian,Female,29,"telefon!, hív",8,understands,0
+Hungarian,Male,29,"telefon!, hív",4,produces,0.625
+Hungarian,Male,29,"telefon!, hív",4,understands,0
+Hungarian,Female,30,"telefon!, hív",3,produces,0.5
+Hungarian,Female,30,"telefon!, hív",3,understands,0
+Hungarian,Male,30,"telefon!, hív",15,produces,0.7
+Hungarian,Male,30,"telefon!, hív",15,understands,0
+Irish,Female,17,glaoch(gutháin0,1,produces,0
+Irish,Female,17,glaoch(gutháin0,1,understands,0
+Irish,Male,17,glaoch(gutháin0,1,produces,0
+Irish,Male,17,glaoch(gutháin0,1,understands,0
+Irish,Female,18,glaoch(gutháin0,1,produces,1
+Irish,Female,18,glaoch(gutháin0,1,understands,0
+Irish,Female,19,glaoch(gutháin0,1,produces,0
+Irish,Female,19,glaoch(gutháin0,1,understands,0
+Irish,Male,19,glaoch(gutháin0,1,produces,0
+Irish,Male,19,glaoch(gutháin0,1,understands,0
+Irish,Female,20,glaoch(gutháin0,1,produces,0
+Irish,Female,20,glaoch(gutháin0,1,understands,0
+Irish,Female,21,glaoch(gutháin0,2,produces,0
+Irish,Female,21,glaoch(gutháin0,2,understands,0
+Irish,Male,21,glaoch(gutháin0,1,produces,0
+Irish,Male,21,glaoch(gutháin0,1,understands,0
+Irish,Female,22,glaoch(gutháin0,3,produces,0.3333
+Irish,Female,22,glaoch(gutháin0,3,understands,0
+Irish,Male,22,glaoch(gutháin0,1,produces,0
+Irish,Male,22,glaoch(gutháin0,1,understands,0
+Irish,Female,23,glaoch(gutháin0,2,produces,0
+Irish,Female,23,glaoch(gutháin0,2,understands,0
+Irish,Male,23,glaoch(gutháin0,2,produces,0.5
+Irish,Male,23,glaoch(gutháin0,2,understands,0
+Irish,Female,24,glaoch(gutháin0,2,produces,0.5
+Irish,Female,24,glaoch(gutháin0,2,understands,0
+Irish,Male,24,glaoch(gutháin0,2,produces,0
+Irish,Male,24,glaoch(gutháin0,2,understands,0
+Irish,Female,25,glaoch(gutháin0,3,produces,0
+Irish,Female,25,glaoch(gutháin0,3,understands,0
+Irish,Male,25,glaoch(gutháin0,3,produces,0.6667
+Irish,Male,25,glaoch(gutháin0,3,understands,0
+Irish,Female,26,glaoch(gutháin0,7,produces,0.1429
+Irish,Female,26,glaoch(gutháin0,7,understands,0
+Irish,Male,26,glaoch(gutháin0,3,produces,0.3333
+Irish,Male,26,glaoch(gutháin0,3,understands,0
+Irish,Female,27,glaoch(gutháin0,1,produces,0
+Irish,Female,27,glaoch(gutháin0,1,understands,0
+Irish,Male,27,glaoch(gutháin0,4,produces,0.5
+Irish,Male,27,glaoch(gutháin0,4,understands,0
+Irish,Female,28,glaoch(gutháin0,4,produces,0
+Irish,Female,28,glaoch(gutháin0,4,understands,0
+Irish,Male,28,glaoch(gutháin0,3,produces,0.3333
+Irish,Male,28,glaoch(gutháin0,3,understands,0
+Irish,Female,29,glaoch(gutháin0,1,produces,1
+Irish,Female,29,glaoch(gutháin0,1,understands,0
+Irish,Male,29,glaoch(gutháin0,3,produces,0
+Irish,Male,29,glaoch(gutháin0,3,understands,0
+Irish,Female,30,glaoch(gutháin0,5,produces,0.2
+Irish,Female,30,glaoch(gutháin0,5,understands,0
+Irish,Male,30,glaoch(gutháin0,4,produces,1
+Irish,Male,30,glaoch(gutháin0,4,understands,0
+Irish,Female,31,glaoch(gutháin0,3,produces,1
+Irish,Female,31,glaoch(gutháin0,3,understands,0
+Irish,Male,31,glaoch(gutháin0,5,produces,0.2
+Irish,Male,31,glaoch(gutháin0,5,understands,0
+Irish,Female,32,glaoch(gutháin0,2,produces,0
+Irish,Female,32,glaoch(gutháin0,2,understands,0
+Irish,Male,32,glaoch(gutháin0,2,produces,1
+Irish,Male,32,glaoch(gutháin0,2,understands,0
+Irish,Female,33,glaoch(gutháin0,1,produces,1
+Irish,Female,33,glaoch(gutháin0,1,understands,0
+Irish,Male,33,glaoch(gutháin0,4,produces,0.75
+Irish,Male,33,glaoch(gutháin0,4,understands,0
+Irish,Female,34,glaoch(gutháin0,2,produces,0
+Irish,Female,34,glaoch(gutháin0,2,understands,0
+Irish,Male,34,glaoch(gutháin0,2,produces,0.5
+Irish,Male,34,glaoch(gutháin0,2,understands,0
+Irish,Female,35,glaoch(gutháin0,2,produces,0
+Irish,Female,35,glaoch(gutháin0,2,understands,0
+Irish,Male,35,glaoch(gutháin0,9,produces,0.7778
+Irish,Male,35,glaoch(gutháin0,9,understands,0
+Irish,Female,36,glaoch(gutháin0,3,produces,0.6667
+Irish,Female,36,glaoch(gutháin0,3,understands,0
+Irish,Male,36,glaoch(gutháin0,2,produces,1
+Irish,Male,36,glaoch(gutháin0,2,understands,0
+Italian,Female,18,telefonare,18,produces,0.1111
+Italian,Female,18,telefonare,18,understands,0
+Italian,Male,18,telefonare,13,produces,0
+Italian,Male,18,telefonare,13,understands,0
+Italian,Female,19,telefonare,21,produces,0.0476
+Italian,Female,19,telefonare,21,understands,0
+Italian,Male,19,telefonare,18,produces,0
+Italian,Male,19,telefonare,18,understands,0
+Italian,Female,20,telefonare,34,produces,0.0882
+Italian,Female,20,telefonare,34,understands,0
+Italian,Male,20,telefonare,30,produces,0.1333
+Italian,Male,20,telefonare,30,understands,0
+Italian,Female,21,telefonare,24,produces,0.25
+Italian,Female,21,telefonare,24,understands,0
+Italian,Male,21,telefonare,31,produces,0.2258
+Italian,Male,21,telefonare,31,understands,0
+Italian,Female,22,telefonare,27,produces,0.2593
+Italian,Female,22,telefonare,27,understands,0
+Italian,Male,22,telefonare,28,produces,0.2143
+Italian,Male,22,telefonare,28,understands,0
+Italian,Female,23,telefonare,27,produces,0.2963
+Italian,Female,23,telefonare,27,understands,0
+Italian,Male,23,telefonare,26,produces,0.4615
+Italian,Male,23,telefonare,26,understands,0
+Italian,Female,24,telefonare,39,produces,0.4615
+Italian,Female,24,telefonare,39,understands,0
+Italian,Male,24,telefonare,32,produces,0.5938
+Italian,Male,24,telefonare,32,understands,0
+Italian,Female,25,telefonare,23,produces,0.5217
+Italian,Female,25,telefonare,23,understands,0
+Italian,Male,25,telefonare,16,produces,0.5
+Italian,Male,25,telefonare,16,understands,0
+Italian,Female,26,telefonare,19,produces,0.5789
+Italian,Female,26,telefonare,19,understands,0
+Italian,Male,26,telefonare,22,produces,0.6364
+Italian,Male,26,telefonare,22,understands,0
+Italian,Female,27,telefonare,20,produces,0.55
+Italian,Female,27,telefonare,20,understands,0
+Italian,Male,27,telefonare,23,produces,0.6522
+Italian,Male,27,telefonare,23,understands,0
+Italian,Female,28,telefonare,21,produces,0.8571
+Italian,Female,28,telefonare,21,understands,0
+Italian,Male,28,telefonare,23,produces,0.7391
+Italian,Male,28,telefonare,23,understands,0
+Italian,Female,29,telefonare,21,produces,0.7619
+Italian,Female,29,telefonare,21,understands,0
+Italian,Male,29,telefonare,16,produces,0.9375
+Italian,Male,29,telefonare,16,understands,0
+Italian,Female,30,telefonare,28,produces,0.7857
+Italian,Female,30,telefonare,28,understands,0
+Italian,Male,30,telefonare,39,produces,0.8205
+Italian,Male,30,telefonare,39,understands,0
+Italian,Female,31,telefonare,8,produces,0.875
+Italian,Female,31,telefonare,8,understands,0
+Italian,Male,31,telefonare,11,produces,0.9091
+Italian,Male,31,telefonare,11,understands,0
+Italian,Female,32,telefonare,14,produces,1
+Italian,Female,32,telefonare,14,understands,0
+Italian,Male,32,telefonare,9,produces,0.2222
+Italian,Male,32,telefonare,9,understands,0
+Italian,Female,33,telefonare,5,produces,1
+Italian,Female,33,telefonare,5,understands,0
+Italian,Male,33,telefonare,11,produces,0.9091
+Italian,Male,33,telefonare,11,understands,0
+Italian,Female,34,telefonare,12,produces,1
+Italian,Female,34,telefonare,12,understands,0
+Italian,Male,34,telefonare,7,produces,0.8571
+Italian,Male,34,telefonare,7,understands,0
+Italian,Female,35,telefonare,9,produces,1
+Italian,Female,35,telefonare,9,understands,0
+Italian,Male,35,telefonare,6,produces,0.8333
+Italian,Male,35,telefonare,6,understands,0
+Italian,Female,36,telefonare,7,produces,0.8571
+Italian,Female,36,telefonare,7,understands,0
+Italian,Male,36,telefonare,14,produces,0.6429
+Italian,Male,36,telefonare,14,understands,0
+Japanese,Female,16,よぶ（呼ぶ）,4,produces,0
+Japanese,Female,16,よぶ（呼ぶ）,4,understands,0
+Japanese,Male,16,よぶ（呼ぶ）,7,produces,0
+Japanese,Male,16,よぶ（呼ぶ）,7,understands,0
+Japanese,Female,17,よぶ（呼ぶ）,11,produces,0
+Japanese,Female,17,よぶ（呼ぶ）,11,understands,0
+Japanese,Male,17,よぶ（呼ぶ）,6,produces,0
+Japanese,Male,17,よぶ（呼ぶ）,6,understands,0
+Japanese,Female,18,よぶ（呼ぶ）,27,produces,0.037
+Japanese,Female,18,よぶ（呼ぶ）,27,understands,0
+Japanese,Male,18,よぶ（呼ぶ）,29,produces,0
+Japanese,Male,18,よぶ（呼ぶ）,29,understands,0
+Japanese,Female,19,よぶ（呼ぶ）,14,produces,0
+Japanese,Female,19,よぶ（呼ぶ）,14,understands,0
+Japanese,Male,19,よぶ（呼ぶ）,21,produces,0
+Japanese,Male,19,よぶ（呼ぶ）,21,understands,0
+Japanese,Female,20,よぶ（呼ぶ）,27,produces,0.0741
+Japanese,Female,20,よぶ（呼ぶ）,27,understands,0
+Japanese,Male,20,よぶ（呼ぶ）,32,produces,0
+Japanese,Male,20,よぶ（呼ぶ）,32,understands,0
+Japanese,Female,21,よぶ（呼ぶ）,29,produces,0.0345
+Japanese,Female,21,よぶ（呼ぶ）,29,understands,0
+Japanese,Male,21,よぶ（呼ぶ）,33,produces,0.0303
+Japanese,Male,21,よぶ（呼ぶ）,33,understands,0
+Japanese,Female,22,よぶ（呼ぶ）,16,produces,0
+Japanese,Female,22,よぶ（呼ぶ）,16,understands,0
+Japanese,Male,22,よぶ（呼ぶ）,15,produces,0.0667
+Japanese,Male,22,よぶ（呼ぶ）,15,understands,0
+Japanese,Female,23,よぶ（呼ぶ）,38,produces,0.0263
+Japanese,Female,23,よぶ（呼ぶ）,38,understands,0
+Japanese,Male,23,よぶ（呼ぶ）,29,produces,0.069
+Japanese,Male,23,よぶ（呼ぶ）,29,understands,0
+Japanese,Female,24,よぶ（呼ぶ）,18,produces,0.1667
+Japanese,Female,24,よぶ（呼ぶ）,18,understands,0
+Japanese,Male,24,よぶ（呼ぶ）,15,produces,0
+Japanese,Male,24,よぶ（呼ぶ）,15,understands,0
+Japanese,Female,25,よぶ（呼ぶ）,14,produces,0.1429
+Japanese,Female,25,よぶ（呼ぶ）,14,understands,0
+Japanese,Male,25,よぶ（呼ぶ）,20,produces,0.2
+Japanese,Male,25,よぶ（呼ぶ）,20,understands,0
+Japanese,Female,26,よぶ（呼ぶ）,19,produces,0.4737
+Japanese,Female,26,よぶ（呼ぶ）,19,understands,0
+Japanese,Male,26,よぶ（呼ぶ）,14,produces,0.0714
+Japanese,Male,26,よぶ（呼ぶ）,14,understands,0
+Japanese,Female,27,よぶ（呼ぶ）,8,produces,0.125
+Japanese,Female,27,よぶ（呼ぶ）,8,understands,0
+Japanese,Male,27,よぶ（呼ぶ）,7,produces,0
+Japanese,Male,27,よぶ（呼ぶ）,7,understands,0
+Japanese,Female,28,よぶ（呼ぶ）,8,produces,0.375
+Japanese,Female,28,よぶ（呼ぶ）,8,understands,0
+Japanese,Male,28,よぶ（呼ぶ）,10,produces,0.1
+Japanese,Male,28,よぶ（呼ぶ）,10,understands,0
+Japanese,Female,29,よぶ（呼ぶ）,6,produces,0.1667
+Japanese,Female,29,よぶ（呼ぶ）,6,understands,0
+Japanese,Male,29,よぶ（呼ぶ）,11,produces,0.6364
+Japanese,Male,29,よぶ（呼ぶ）,11,understands,0
+Japanese,Female,30,よぶ（呼ぶ）,9,produces,0.1111
+Japanese,Female,30,よぶ（呼ぶ）,9,understands,0
+Japanese,Male,30,よぶ（呼ぶ）,9,produces,0.5556
+Japanese,Male,30,よぶ（呼ぶ）,9,understands,0
+Japanese,Female,31,よぶ（呼ぶ）,8,produces,0.625
+Japanese,Female,31,よぶ（呼ぶ）,8,understands,0
+Japanese,Male,31,よぶ（呼ぶ）,10,produces,0.1
+Japanese,Male,31,よぶ（呼ぶ）,10,understands,0
+Japanese,Female,32,よぶ（呼ぶ）,8,produces,0.25
+Japanese,Female,32,よぶ（呼ぶ）,8,understands,0
+Japanese,Male,32,よぶ（呼ぶ）,5,produces,0.6
+Japanese,Male,32,よぶ（呼ぶ）,5,understands,0
+Japanese,Female,33,よぶ（呼ぶ）,9,produces,0.8889
+Japanese,Female,33,よぶ（呼ぶ）,9,understands,0
+Japanese,Male,33,よぶ（呼ぶ）,7,produces,0.2857
+Japanese,Male,33,よぶ（呼ぶ）,7,understands,0
+Japanese,Female,34,よぶ（呼ぶ）,8,produces,0.75
+Japanese,Female,34,よぶ（呼ぶ）,8,understands,0
+Japanese,Male,34,よぶ（呼ぶ）,5,produces,0.6
+Japanese,Male,34,よぶ（呼ぶ）,5,understands,0
+Japanese,Female,35,よぶ（呼ぶ）,19,produces,0.8421
+Japanese,Female,35,よぶ（呼ぶ）,19,understands,0
+Japanese,Male,35,よぶ（呼ぶ）,12,produces,0.5833
+Japanese,Male,35,よぶ（呼ぶ）,12,understands,0
+Japanese,Female,36,よぶ（呼ぶ）,4,produces,1
+Japanese,Female,36,よぶ（呼ぶ）,4,understands,0
+Japanese,Male,36,よぶ（呼ぶ）,14,produces,0.5
+Japanese,Male,36,よぶ（呼ぶ）,14,understands,0
+Kigiriama,Female,16,Kupiga simu,1,produces,0
+Kigiriama,Female,16,Kupiga simu,1,understands,0
+Kigiriama,Female,17,Kupiga simu,5,produces,0
+Kigiriama,Female,17,Kupiga simu,5,understands,0
+Kigiriama,Male,17,Kupiga simu,1,produces,0
+Kigiriama,Male,17,Kupiga simu,1,understands,0
+Kigiriama,Female,18,Kupiga simu,6,produces,0.1667
+Kigiriama,Female,18,Kupiga simu,6,understands,0
+Kigiriama,Male,18,Kupiga simu,6,produces,0
+Kigiriama,Male,18,Kupiga simu,6,understands,0
+Kigiriama,Female,19,Kupiga simu,3,produces,0
+Kigiriama,Female,19,Kupiga simu,3,understands,0
+Kigiriama,Male,19,Kupiga simu,5,produces,0
+Kigiriama,Male,19,Kupiga simu,5,understands,0
+Kigiriama,Female,20,Kupiga simu,5,produces,0
+Kigiriama,Female,20,Kupiga simu,5,understands,0
+Kigiriama,Male,20,Kupiga simu,8,produces,0
+Kigiriama,Male,20,Kupiga simu,8,understands,0
+Kigiriama,Female,21,Kupiga simu,3,produces,0
+Kigiriama,Female,21,Kupiga simu,3,understands,0
+Kigiriama,Male,21,Kupiga simu,3,produces,0
+Kigiriama,Male,21,Kupiga simu,3,understands,0
+Kigiriama,Female,22,Kupiga simu,7,produces,0.1429
+Kigiriama,Female,22,Kupiga simu,7,understands,0
+Kigiriama,Male,22,Kupiga simu,2,produces,0.5
+Kigiriama,Male,22,Kupiga simu,2,understands,0
+Kigiriama,Female,23,Kupiga simu,2,produces,0
+Kigiriama,Female,23,Kupiga simu,2,understands,0
+Kigiriama,Male,23,Kupiga simu,2,produces,0
+Kigiriama,Male,23,Kupiga simu,2,understands,0
+Kigiriama,Female,24,Kupiga simu,6,produces,0
+Kigiriama,Female,24,Kupiga simu,6,understands,0
+Kigiriama,Male,24,Kupiga simu,1,produces,0
+Kigiriama,Male,24,Kupiga simu,1,understands,0
+Kigiriama,Female,25,Kupiga simu,2,produces,0
+Kigiriama,Female,25,Kupiga simu,2,understands,0
+Kigiriama,Male,25,Kupiga simu,1,produces,1
+Kigiriama,Male,25,Kupiga simu,1,understands,0
+Kigiriama,Female,26,Kupiga simu,4,produces,0
+Kigiriama,Female,26,Kupiga simu,4,understands,0
+Kigiriama,Male,26,Kupiga simu,2,produces,0
+Kigiriama,Male,26,Kupiga simu,2,understands,0
+Kigiriama,Female,27,Kupiga simu,1,produces,0
+Kigiriama,Female,27,Kupiga simu,1,understands,0
+Kigiriama,Male,27,Kupiga simu,3,produces,0.6667
+Kigiriama,Male,27,Kupiga simu,3,understands,0
+Kigiriama,Male,28,Kupiga simu,1,produces,0
+Kigiriama,Male,28,Kupiga simu,1,understands,0
+Kigiriama,Female,29,Kupiga simu,2,produces,0
+Kigiriama,Female,29,Kupiga simu,2,understands,0
+Kigiriama,Male,29,Kupiga simu,3,produces,0
+Kigiriama,Male,29,Kupiga simu,3,understands,0
+Kigiriama,Male,30,Kupiga simu,1,produces,0
+Kigiriama,Male,30,Kupiga simu,1,understands,0
+Kiswahili,Female,23,Piga simu,1,produces,0
+Kiswahili,Female,23,Piga simu,1,understands,0
+Kiswahili,Male,23,Piga simu,1,produces,0
+Kiswahili,Male,23,Piga simu,1,understands,0
+Kiswahili,Female,24,Piga simu,6,produces,0.1667
+Kiswahili,Female,24,Piga simu,6,understands,0
+Kiswahili,Male,24,Piga simu,6,produces,0.1667
+Kiswahili,Male,24,Piga simu,6,understands,0
+Kiswahili,Female,25,Piga simu,8,produces,0.125
+Kiswahili,Female,25,Piga simu,8,understands,0
+Kiswahili,Male,25,Piga simu,2,produces,0
+Kiswahili,Male,25,Piga simu,2,understands,0
+Kiswahili,Female,26,Piga simu,3,produces,0
+Kiswahili,Female,26,Piga simu,3,understands,0
+Kiswahili,Male,26,Piga simu,10,produces,0.2
+Kiswahili,Male,26,Piga simu,10,understands,0
+Kiswahili,Female,27,Piga simu,3,produces,0
+Kiswahili,Female,27,Piga simu,3,understands,0
+Kiswahili,Male,27,Piga simu,5,produces,0.4
+Kiswahili,Male,27,Piga simu,5,understands,0
+Kiswahili,Female,28,Piga simu,3,produces,0
+Kiswahili,Female,28,Piga simu,3,understands,0
+Kiswahili,Male,28,Piga simu,3,produces,0
+Kiswahili,Male,28,Piga simu,3,understands,0
+Kiswahili,Female,29,Piga simu,3,produces,0.3333
+Kiswahili,Female,29,Piga simu,3,understands,0
+Kiswahili,Male,29,Piga simu,3,produces,0
+Kiswahili,Male,29,Piga simu,3,understands,0
+Kiswahili,Female,30,Piga simu,3,produces,0.3333
+Kiswahili,Female,30,Piga simu,3,understands,0
+Kiswahili,Male,30,Piga simu,2,produces,0.5
+Kiswahili,Male,30,Piga simu,2,understands,0
+Latvian,Female,17,saukt,12,produces,0
+Latvian,Female,17,saukt,12,understands,0
+Latvian,Male,17,saukt,15,produces,0.0667
+Latvian,Male,17,saukt,15,understands,0
+Latvian,Female,18,saukt,10,produces,0
+Latvian,Female,18,saukt,10,understands,0
+Latvian,Male,18,saukt,11,produces,0.0909
+Latvian,Male,18,saukt,11,understands,0
+Latvian,Female,19,saukt,18,produces,0
+Latvian,Female,19,saukt,18,understands,0
+Latvian,Male,19,saukt,10,produces,0
+Latvian,Male,19,saukt,10,understands,0
+Latvian,Female,20,saukt,17,produces,0.0588
+Latvian,Female,20,saukt,17,understands,0
+Latvian,Male,20,saukt,17,produces,0
+Latvian,Male,20,saukt,17,understands,0
+Latvian,Female,21,saukt,15,produces,0.2667
+Latvian,Female,21,saukt,15,understands,0
+Latvian,Male,21,saukt,11,produces,0.0909
+Latvian,Male,21,saukt,11,understands,0
+Latvian,Female,22,saukt,16,produces,0.1875
+Latvian,Female,22,saukt,16,understands,0
+Latvian,Male,22,saukt,16,produces,0.1875
+Latvian,Male,22,saukt,16,understands,0
+Latvian,Female,23,saukt,15,produces,0.2
+Latvian,Female,23,saukt,15,understands,0
+Latvian,Male,23,saukt,10,produces,0
+Latvian,Male,23,saukt,10,understands,0
+Latvian,Female,24,saukt,15,produces,0.4667
+Latvian,Female,24,saukt,15,understands,0
+Latvian,Male,24,saukt,15,produces,0.2
+Latvian,Male,24,saukt,15,understands,0
+Latvian,Female,25,saukt,16,produces,0.1875
+Latvian,Female,25,saukt,16,understands,0
+Latvian,Male,25,saukt,13,produces,0.0769
+Latvian,Male,25,saukt,13,understands,0
+Latvian,Female,26,saukt,9,produces,0.4444
+Latvian,Female,26,saukt,9,understands,0
+Latvian,Male,26,saukt,13,produces,0.4615
+Latvian,Male,26,saukt,13,understands,0
+Latvian,Female,27,saukt,10,produces,0.5
+Latvian,Female,27,saukt,10,understands,0
+Latvian,Male,27,saukt,8,produces,0.125
+Latvian,Male,27,saukt,8,understands,0
+Latvian,Female,28,saukt,11,produces,0.5455
+Latvian,Female,28,saukt,11,understands,0
+Latvian,Male,28,saukt,12,produces,0.3333
+Latvian,Male,28,saukt,12,understands,0
+Latvian,Female,29,saukt,11,produces,0.7273
+Latvian,Female,29,saukt,11,understands,0
+Latvian,Male,29,saukt,13,produces,0.3077
+Latvian,Male,29,saukt,13,understands,0
+Latvian,Female,30,saukt,12,produces,0.3333
+Latvian,Female,30,saukt,12,understands,0
+Latvian,Male,30,saukt,14,produces,0.6429
+Latvian,Male,30,saukt,14,understands,0
+Latvian,Female,31,saukt,10,produces,0.3
+Latvian,Female,31,saukt,10,understands,0
+Latvian,Male,31,saukt,9,produces,0.6667
+Latvian,Male,31,saukt,9,understands,0
+Latvian,Female,32,saukt,13,produces,0.7692
+Latvian,Female,32,saukt,13,understands,0
+Latvian,Male,32,saukt,12,produces,0.4167
+Latvian,Male,32,saukt,12,understands,0
+Latvian,Female,33,saukt,17,produces,0.7647
+Latvian,Female,33,saukt,17,understands,0
+Latvian,Male,33,saukt,14,produces,0.5
+Latvian,Male,33,saukt,14,understands,0
+Latvian,Female,34,saukt,10,produces,0.9
+Latvian,Female,34,saukt,10,understands,0
+Latvian,Male,34,saukt,7,produces,0.5714
+Latvian,Male,34,saukt,7,understands,0
+Latvian,Female,35,saukt,8,produces,0.875
+Latvian,Female,35,saukt,8,understands,0
+Latvian,Male,35,saukt,13,produces,0.6923
+Latvian,Male,35,saukt,13,understands,0
+Latvian,Female,36,saukt,12,produces,0.75
+Latvian,Female,36,saukt,12,understands,0
+Latvian,Male,36,saukt,10,produces,0.7
+Latvian,Male,36,saukt,10,understands,0
+Mandarin (Beijing),Female,16,"打（电话）, 拨（电话）",35,produces,0.3286
+Mandarin (Beijing),Female,16,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,16,"打（电话）, 拨（电话）",35,produces,0.2429
+Mandarin (Beijing),Male,16,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,17,"打（电话）, 拨（电话）",35,produces,0.4143
+Mandarin (Beijing),Female,17,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,17,"打（电话）, 拨（电话）",37,produces,0.3649
+Mandarin (Beijing),Male,17,"打（电话）, 拨（电话）",37,understands,0
+Mandarin (Beijing),Female,18,"打（电话）, 拨（电话）",35,produces,0.5
+Mandarin (Beijing),Female,18,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,18,"打（电话）, 拨（电话）",36,produces,0.4167
+Mandarin (Beijing),Male,18,"打（电话）, 拨（电话）",36,understands,0
+Mandarin (Beijing),Female,19,"打（电话）, 拨（电话）",35,produces,0.6571
+Mandarin (Beijing),Female,19,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,19,"打（电话）, 拨（电话）",35,produces,0.4714
+Mandarin (Beijing),Male,19,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,20,"打（电话）, 拨（电话）",35,produces,0.6429
+Mandarin (Beijing),Female,20,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,20,"打（电话）, 拨（电话）",36,produces,0.6111
+Mandarin (Beijing),Male,20,"打（电话）, 拨（电话）",36,understands,0
+Mandarin (Beijing),Female,21,"打（电话）, 拨（电话）",35,produces,0.6571
+Mandarin (Beijing),Female,21,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,21,"打（电话）, 拨（电话）",35,produces,0.7143
+Mandarin (Beijing),Male,21,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,22,"打（电话）, 拨（电话）",35,produces,0.7714
+Mandarin (Beijing),Female,22,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,22,"打（电话）, 拨（电话）",36,produces,0.6667
+Mandarin (Beijing),Male,22,"打（电话）, 拨（电话）",36,understands,0
+Mandarin (Beijing),Female,23,"打（电话）, 拨（电话）",35,produces,0.8714
+Mandarin (Beijing),Female,23,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,23,"打（电话）, 拨（电话）",35,produces,0.7857
+Mandarin (Beijing),Male,23,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,24,"打（电话）, 拨（电话）",35,produces,0.7857
+Mandarin (Beijing),Female,24,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,24,"打（电话）, 拨（电话）",35,produces,0.8
+Mandarin (Beijing),Male,24,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,25,"打（电话）, 拨（电话）",35,produces,0.9143
+Mandarin (Beijing),Female,25,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,25,"打（电话）, 拨（电话）",35,produces,0.8714
+Mandarin (Beijing),Male,25,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,26,"打（电话）, 拨（电话）",36,produces,0.9306
+Mandarin (Beijing),Female,26,"打（电话）, 拨（电话）",36,understands,0
+Mandarin (Beijing),Male,26,"打（电话）, 拨（电话）",35,produces,0.8429
+Mandarin (Beijing),Male,26,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,27,"打（电话）, 拨（电话）",35,produces,0.9
+Mandarin (Beijing),Female,27,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,27,"打（电话）, 拨（电话）",35,produces,0.8429
+Mandarin (Beijing),Male,27,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,28,"打（电话）, 拨（电话）",35,produces,0.8857
+Mandarin (Beijing),Female,28,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,28,"打（电话）, 拨（电话）",35,produces,0.8286
+Mandarin (Beijing),Male,28,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,29,"打（电话）, 拨（电话）",35,produces,0.9
+Mandarin (Beijing),Female,29,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,29,"打（电话）, 拨（电话）",35,produces,0.8714
+Mandarin (Beijing),Male,29,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Female,30,"打（电话）, 拨（电话）",35,produces,0.9429
+Mandarin (Beijing),Female,30,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Beijing),Male,30,"打（电话）, 拨（电话）",35,produces,0.8857
+Mandarin (Beijing),Male,30,"打（电话）, 拨（电话）",35,understands,0
+Mandarin (Taiwanese),Female,8,"打電話, 叫",39,produces,0
+Mandarin (Taiwanese),Female,8,"打電話, 叫",39,understands,0.4359
+Mandarin (Taiwanese),Male,8,"打電話, 叫",47,produces,0.0106
+Mandarin (Taiwanese),Male,8,"打電話, 叫",47,understands,0.5106
+Mandarin (Taiwanese),Female,9,"打電話, 叫",46,produces,0.0217
+Mandarin (Taiwanese),Female,9,"打電話, 叫",46,understands,0.5109
+Mandarin (Taiwanese),Male,9,"打電話, 叫",33,produces,0.0152
+Mandarin (Taiwanese),Male,9,"打電話, 叫",33,understands,0.4697
+Mandarin (Taiwanese),Female,10,"打電話, 叫",40,produces,0.0375
+Mandarin (Taiwanese),Female,10,"打電話, 叫",40,understands,0.175
+Mandarin (Taiwanese),Male,10,"打電話, 叫",38,produces,0
+Mandarin (Taiwanese),Male,10,"打電話, 叫",38,understands,0.2368
+Mandarin (Taiwanese),Female,11,"打電話, 叫",38,produces,0.0526
+Mandarin (Taiwanese),Female,11,"打電話, 叫",38,understands,0.3553
+Mandarin (Taiwanese),Male,11,"打電話, 叫",41,produces,0.0366
+Mandarin (Taiwanese),Male,11,"打電話, 叫",41,understands,0.1829
+Mandarin (Taiwanese),Female,12,"打電話, 叫",42,produces,0.0476
+Mandarin (Taiwanese),Female,12,"打電話, 叫",42,understands,0.3333
+Mandarin (Taiwanese),Male,12,"打電話, 叫",38,produces,0.0526
+Mandarin (Taiwanese),Male,12,"打電話, 叫",38,understands,0.3421
+Mandarin (Taiwanese),Female,13,"打電話, 叫",41,produces,0.1341
+Mandarin (Taiwanese),Female,13,"打電話, 叫",41,understands,0.4512
+Mandarin (Taiwanese),Male,13,"打電話, 叫",37,produces,0.0405
+Mandarin (Taiwanese),Male,13,"打電話, 叫",37,understands,0.3784
+Mandarin (Taiwanese),Female,14,"打電話, 叫",43,produces,0.186
+Mandarin (Taiwanese),Female,14,"打電話, 叫",43,understands,0.407
+Mandarin (Taiwanese),Male,14,"打電話, 叫",38,produces,0.1842
+Mandarin (Taiwanese),Male,14,"打電話, 叫",38,understands,0.4211
+Mandarin (Taiwanese),Female,15,"打電話, 叫",54,produces,0.1296
+Mandarin (Taiwanese),Female,15,"打電話, 叫",54,understands,0.4815
+Mandarin (Taiwanese),Male,15,"打電話, 叫",52,produces,0.2115
+Mandarin (Taiwanese),Male,15,"打電話, 叫",52,understands,0.5385
+Mandarin (Taiwanese),Female,16,"打電話, 叫",82,produces,0.1463
+Mandarin (Taiwanese),Female,16,"打電話, 叫",82,understands,0.2256
+Mandarin (Taiwanese),Male,16,"打電話, 叫",88,produces,0.108
+Mandarin (Taiwanese),Male,16,"打電話, 叫",88,understands,0.2557
+Mandarin (Taiwanese),Female,17,"打電話, 叫",37,produces,0.0811
+Mandarin (Taiwanese),Female,17,"打電話, 叫",37,understands,0
+Mandarin (Taiwanese),Male,17,"打電話, 叫",50,produces,0.06
+Mandarin (Taiwanese),Male,17,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Female,18,"打電話, 叫",49,produces,0.0714
+Mandarin (Taiwanese),Female,18,"打電話, 叫",49,understands,0
+Mandarin (Taiwanese),Male,18,"打電話, 叫",35,produces,0.1286
+Mandarin (Taiwanese),Male,18,"打電話, 叫",35,understands,0
+Mandarin (Taiwanese),Female,19,"打電話, 叫",42,produces,0.2381
+Mandarin (Taiwanese),Female,19,"打電話, 叫",42,understands,0
+Mandarin (Taiwanese),Male,19,"打電話, 叫",42,produces,0.1905
+Mandarin (Taiwanese),Male,19,"打電話, 叫",42,understands,0
+Mandarin (Taiwanese),Female,20,"打電話, 叫",40,produces,0.275
+Mandarin (Taiwanese),Female,20,"打電話, 叫",40,understands,0
+Mandarin (Taiwanese),Male,20,"打電話, 叫",44,produces,0.1932
+Mandarin (Taiwanese),Male,20,"打電話, 叫",44,understands,0
+Mandarin (Taiwanese),Female,21,"打電話, 叫",38,produces,0.2632
+Mandarin (Taiwanese),Female,21,"打電話, 叫",38,understands,0
+Mandarin (Taiwanese),Male,21,"打電話, 叫",50,produces,0.18
+Mandarin (Taiwanese),Male,21,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Female,22,"打電話, 叫",48,produces,0.3021
+Mandarin (Taiwanese),Female,22,"打電話, 叫",48,understands,0
+Mandarin (Taiwanese),Male,22,"打電話, 叫",48,produces,0.2708
+Mandarin (Taiwanese),Male,22,"打電話, 叫",48,understands,0
+Mandarin (Taiwanese),Female,23,"打電話, 叫",50,produces,0.43
+Mandarin (Taiwanese),Female,23,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Male,23,"打電話, 叫",55,produces,0.3727
+Mandarin (Taiwanese),Male,23,"打電話, 叫",55,understands,0
+Mandarin (Taiwanese),Female,24,"打電話, 叫",65,produces,0.5154
+Mandarin (Taiwanese),Female,24,"打電話, 叫",65,understands,0
+Mandarin (Taiwanese),Male,24,"打電話, 叫",59,produces,0.3644
+Mandarin (Taiwanese),Male,24,"打電話, 叫",59,understands,0
+Mandarin (Taiwanese),Female,25,"打電話, 叫",60,produces,0.4583
+Mandarin (Taiwanese),Female,25,"打電話, 叫",60,understands,0
+Mandarin (Taiwanese),Male,25,"打電話, 叫",50,produces,0.37
+Mandarin (Taiwanese),Male,25,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Female,26,"打電話, 叫",38,produces,0.6579
+Mandarin (Taiwanese),Female,26,"打電話, 叫",38,understands,0
+Mandarin (Taiwanese),Male,26,"打電話, 叫",49,produces,0.4796
+Mandarin (Taiwanese),Male,26,"打電話, 叫",49,understands,0
+Mandarin (Taiwanese),Female,27,"打電話, 叫",49,produces,0.5918
+Mandarin (Taiwanese),Female,27,"打電話, 叫",49,understands,0
+Mandarin (Taiwanese),Male,27,"打電話, 叫",43,produces,0.4419
+Mandarin (Taiwanese),Male,27,"打電話, 叫",43,understands,0
+Mandarin (Taiwanese),Female,28,"打電話, 叫",50,produces,0.63
+Mandarin (Taiwanese),Female,28,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Male,28,"打電話, 叫",50,produces,0.66
+Mandarin (Taiwanese),Male,28,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Female,29,"打電話, 叫",41,produces,0.6951
+Mandarin (Taiwanese),Female,29,"打電話, 叫",41,understands,0
+Mandarin (Taiwanese),Male,29,"打電話, 叫",47,produces,0.6915
+Mandarin (Taiwanese),Male,29,"打電話, 叫",47,understands,0
+Mandarin (Taiwanese),Female,30,"打電話, 叫",44,produces,0.7614
+Mandarin (Taiwanese),Female,30,"打電話, 叫",44,understands,0
+Mandarin (Taiwanese),Male,30,"打電話, 叫",50,produces,0.71
+Mandarin (Taiwanese),Male,30,"打電話, 叫",50,understands,0
+Mandarin (Taiwanese),Female,31,"打電話, 叫",35,produces,0.8429
+Mandarin (Taiwanese),Female,31,"打電話, 叫",35,understands,0
+Mandarin (Taiwanese),Male,31,"打電話, 叫",53,produces,0.7925
+Mandarin (Taiwanese),Male,31,"打電話, 叫",53,understands,0
+Mandarin (Taiwanese),Female,32,"打電話, 叫",43,produces,0.7326
+Mandarin (Taiwanese),Female,32,"打電話, 叫",43,understands,0
+Mandarin (Taiwanese),Male,32,"打電話, 叫",39,produces,0.7308
+Mandarin (Taiwanese),Male,32,"打電話, 叫",39,understands,0
+Mandarin (Taiwanese),Female,33,"打電話, 叫",45,produces,0.8778
+Mandarin (Taiwanese),Female,33,"打電話, 叫",45,understands,0
+Mandarin (Taiwanese),Male,33,"打電話, 叫",40,produces,0.875
+Mandarin (Taiwanese),Male,33,"打電話, 叫",40,understands,0
+Mandarin (Taiwanese),Female,34,"打電話, 叫",33,produces,0.8636
+Mandarin (Taiwanese),Female,34,"打電話, 叫",33,understands,0
+Mandarin (Taiwanese),Male,34,"打電話, 叫",44,produces,0.7841
+Mandarin (Taiwanese),Male,34,"打電話, 叫",44,understands,0
+Mandarin (Taiwanese),Female,35,"打電話, 叫",42,produces,0.9167
+Mandarin (Taiwanese),Female,35,"打電話, 叫",42,understands,0
+Mandarin (Taiwanese),Male,35,"打電話, 叫",39,produces,0.9103
+Mandarin (Taiwanese),Male,35,"打電話, 叫",39,understands,0
+Mandarin (Taiwanese),Female,36,"打電話, 叫",38,produces,0.9079
+Mandarin (Taiwanese),Female,36,"打電話, 叫",38,understands,0
+Mandarin (Taiwanese),Male,36,"打電話, 叫",43,produces,0.907
+Mandarin (Taiwanese),Male,36,"打電話, 叫",43,understands,0
+Norwegian,Female,16,ringe,39,produces,0.0513
+Norwegian,Female,16,ringe,39,understands,0
+Norwegian,Male,16,ringe,59,produces,0.0847
+Norwegian,Male,16,ringe,59,understands,0
+Norwegian,Female,17,ringe,125,produces,0.08
+Norwegian,Female,17,ringe,125,understands,0
+Norwegian,Male,17,ringe,93,produces,0.0645
+Norwegian,Male,17,ringe,93,understands,0
+Norwegian,Female,18,ringe,146,produces,0.1644
+Norwegian,Female,18,ringe,146,understands,0
+Norwegian,Male,18,ringe,125,produces,0.104
+Norwegian,Male,18,ringe,125,understands,0
+Norwegian,Female,19,ringe,135,produces,0.2148
+Norwegian,Female,19,ringe,135,understands,0
+Norwegian,Male,19,ringe,146,produces,0.1575
+Norwegian,Male,19,ringe,146,understands,0
+Norwegian,Female,20,ringe,183,produces,0.3115
+Norwegian,Female,20,ringe,183,understands,0
+Norwegian,Male,20,ringe,159,produces,0.2201
+Norwegian,Male,20,ringe,159,understands,0
+Norwegian,Female,21,ringe,218,produces,0.4037
+Norwegian,Female,21,ringe,218,understands,0
+Norwegian,Male,21,ringe,200,produces,0.275
+Norwegian,Male,21,ringe,200,understands,0
+Norwegian,Female,22,ringe,304,produces,0.4572
+Norwegian,Female,22,ringe,304,understands,0
+Norwegian,Male,22,ringe,292,produces,0.3288
+Norwegian,Male,22,ringe,292,understands,0
+Norwegian,Female,23,ringe,285,produces,0.5649
+Norwegian,Female,23,ringe,285,understands,0
+Norwegian,Male,23,ringe,281,produces,0.4021
+Norwegian,Male,23,ringe,281,understands,0
+Norwegian,Female,24,ringe,266,produces,0.6203
+Norwegian,Female,24,ringe,266,understands,0
+Norwegian,Male,24,ringe,272,produces,0.5074
+Norwegian,Male,24,ringe,272,understands,0
+Norwegian,Female,25,ringe,325,produces,0.72
+Norwegian,Female,25,ringe,325,understands,0
+Norwegian,Male,25,ringe,331,produces,0.568
+Norwegian,Male,25,ringe,331,understands,0
+Norwegian,Female,26,ringe,301,produces,0.8306
+Norwegian,Female,26,ringe,301,understands,0
+Norwegian,Male,26,ringe,343,produces,0.6531
+Norwegian,Male,26,ringe,343,understands,0
+Norwegian,Female,27,ringe,267,produces,0.8539
+Norwegian,Female,27,ringe,267,understands,0
+Norwegian,Male,27,ringe,258,produces,0.7171
+Norwegian,Male,27,ringe,258,understands,0
+Norwegian,Female,28,ringe,281,produces,0.8932
+Norwegian,Female,28,ringe,281,understands,0
+Norwegian,Male,28,ringe,263,produces,0.7605
+Norwegian,Male,28,ringe,263,understands,0
+Norwegian,Female,29,ringe,252,produces,0.9087
+Norwegian,Female,29,ringe,252,understands,0
+Norwegian,Male,29,ringe,284,produces,0.8204
+Norwegian,Male,29,ringe,284,understands,0
+Norwegian,Female,30,ringe,213,produces,0.939
+Norwegian,Female,30,ringe,213,understands,0
+Norwegian,Male,30,ringe,244,produces,0.8074
+Norwegian,Male,30,ringe,244,understands,0
+Norwegian,Female,31,ringe,229,produces,0.9432
+Norwegian,Female,31,ringe,229,understands,0
+Norwegian,Male,31,ringe,250,produces,0.816
+Norwegian,Male,31,ringe,250,understands,0
+Norwegian,Female,32,ringe,224,produces,0.9554
+Norwegian,Female,32,ringe,224,understands,0
+Norwegian,Male,32,ringe,227,produces,0.8899
+Norwegian,Male,32,ringe,227,understands,0
+Norwegian,Female,33,ringe,213,produces,0.9624
+Norwegian,Female,33,ringe,213,understands,0
+Norwegian,Male,33,ringe,217,produces,0.8802
+Norwegian,Male,33,ringe,217,understands,0
+Norwegian,Female,34,ringe,194,produces,0.9639
+Norwegian,Female,34,ringe,194,understands,0
+Norwegian,Male,34,ringe,230,produces,0.9043
+Norwegian,Male,34,ringe,230,understands,0
+Norwegian,Female,35,ringe,230,produces,0.9696
+Norwegian,Female,35,ringe,230,understands,0
+Norwegian,Male,35,ringe,192,produces,0.9219
+Norwegian,Male,35,ringe,192,understands,0
+Norwegian,Female,36,ringe,170,produces,0.9824
+Norwegian,Female,36,ringe,170,understands,0
+Norwegian,Male,36,ringe,159,produces,0.9434
+Norwegian,Male,36,ringe,159,understands,0
+Portuguese (European),Female,16,Chamar,71,produces,0.0141
+Portuguese (European),Female,16,Chamar,71,understands,0
+Portuguese (European),Male,16,Chamar,73,produces,0
+Portuguese (European),Male,16,Chamar,73,understands,0
+Portuguese (European),Female,17,Chamar,62,produces,0.0161
+Portuguese (European),Female,17,Chamar,62,understands,0
+Portuguese (European),Male,17,Chamar,96,produces,0.0104
+Portuguese (European),Male,17,Chamar,96,understands,0
+Portuguese (European),Female,18,Chamar,102,produces,0.049
+Portuguese (European),Female,18,Chamar,102,understands,0
+Portuguese (European),Male,18,Chamar,101,produces,0.0198
+Portuguese (European),Male,18,Chamar,101,understands,0
+Portuguese (European),Female,19,Chamar,97,produces,0.0515
+Portuguese (European),Female,19,Chamar,97,understands,0
+Portuguese (European),Male,19,Chamar,99,produces,0.0303
+Portuguese (European),Male,19,Chamar,99,understands,0
+Portuguese (European),Female,20,Chamar,115,produces,0.0522
+Portuguese (European),Female,20,Chamar,115,understands,0
+Portuguese (European),Male,20,Chamar,103,produces,0.0485
+Portuguese (European),Male,20,Chamar,103,understands,0
+Portuguese (European),Female,21,Chamar,93,produces,0.0753
+Portuguese (European),Female,21,Chamar,93,understands,0
+Portuguese (European),Male,21,Chamar,115,produces,0.0783
+Portuguese (European),Male,21,Chamar,115,understands,0
+Portuguese (European),Female,22,Chamar,117,produces,0.1538
+Portuguese (European),Female,22,Chamar,117,understands,0
+Portuguese (European),Male,22,Chamar,96,produces,0.0833
+Portuguese (European),Male,22,Chamar,96,understands,0
+Portuguese (European),Female,23,Chamar,94,produces,0.1702
+Portuguese (European),Female,23,Chamar,94,understands,0
+Portuguese (European),Male,23,Chamar,105,produces,0.0857
+Portuguese (European),Male,23,Chamar,105,understands,0
+Portuguese (European),Female,24,Chamar,88,produces,0.3636
+Portuguese (European),Female,24,Chamar,88,understands,0
+Portuguese (European),Male,24,Chamar,127,produces,0.1575
+Portuguese (European),Male,24,Chamar,127,understands,0
+Portuguese (European),Female,25,Chamar,110,produces,0.3909
+Portuguese (European),Female,25,Chamar,110,understands,0
+Portuguese (European),Male,25,Chamar,103,produces,0.2816
+Portuguese (European),Male,25,Chamar,103,understands,0
+Portuguese (European),Female,26,Chamar,96,produces,0.4479
+Portuguese (European),Female,26,Chamar,96,understands,0
+Portuguese (European),Male,26,Chamar,122,produces,0.2951
+Portuguese (European),Male,26,Chamar,122,understands,0
+Portuguese (European),Female,27,Chamar,109,produces,0.5413
+Portuguese (European),Female,27,Chamar,109,understands,0
+Portuguese (European),Male,27,Chamar,129,produces,0.3953
+Portuguese (European),Male,27,Chamar,129,understands,0
+Portuguese (European),Female,28,Chamar,91,produces,0.5934
+Portuguese (European),Female,28,Chamar,91,understands,0
+Portuguese (European),Male,28,Chamar,128,produces,0.4766
+Portuguese (European),Male,28,Chamar,128,understands,0
+Portuguese (European),Female,29,Chamar,98,produces,0.6531
+Portuguese (European),Female,29,Chamar,98,understands,0
+Portuguese (European),Male,29,Chamar,109,produces,0.4495
+Portuguese (European),Male,29,Chamar,109,understands,0
+Portuguese (European),Female,30,Chamar,81,produces,0.7037
+Portuguese (European),Female,30,Chamar,81,understands,0
+Portuguese (European),Male,30,Chamar,82,produces,0.5244
+Portuguese (European),Male,30,Chamar,82,understands,0
+Russian,Female,18,звонить,24,produces,0.0417
+Russian,Female,18,звонить,24,understands,0
+Russian,Male,18,звонить,18,produces,0
+Russian,Male,18,звонить,18,understands,0
+Russian,Female,19,звонить,22,produces,0.1364
+Russian,Female,19,звонить,22,understands,0
+Russian,Male,19,звонить,19,produces,0.1579
+Russian,Male,19,звонить,19,understands,0
+Russian,Female,20,звонить,18,produces,0.0556
+Russian,Female,20,звонить,18,understands,0
+Russian,Male,20,звонить,27,produces,0.1481
+Russian,Male,20,звонить,27,understands,0
+Russian,Female,21,звонить,22,produces,0.2273
+Russian,Female,21,звонить,22,understands,0
+Russian,Male,21,звонить,21,produces,0.2857
+Russian,Male,21,звонить,21,understands,0
+Russian,Female,22,звонить,29,produces,0.3103
+Russian,Female,22,звонить,29,understands,0
+Russian,Male,22,звонить,22,produces,0.1818
+Russian,Male,22,звонить,22,understands,0
+Russian,Female,23,звонить,37,produces,0.3514
+Russian,Female,23,звонить,37,understands,0
+Russian,Male,23,звонить,19,produces,0.4211
+Russian,Male,23,звонить,19,understands,0
+Russian,Female,24,звонить,28,produces,0.4643
+Russian,Female,24,звонить,28,understands,0
+Russian,Male,24,звонить,33,produces,0.4545
+Russian,Male,24,звонить,33,understands,0
+Russian,Female,25,звонить,39,produces,0.5641
+Russian,Female,25,звонить,39,understands,0
+Russian,Male,25,звонить,27,produces,0.4074
+Russian,Male,25,звонить,27,understands,0
+Russian,Female,26,звонить,26,produces,0.5769
+Russian,Female,26,звонить,26,understands,0
+Russian,Male,26,звонить,26,produces,0.5
+Russian,Male,26,звонить,26,understands,0
+Russian,Female,27,звонить,37,produces,0.5676
+Russian,Female,27,звонить,37,understands,0
+Russian,Male,27,звонить,23,produces,0.5217
+Russian,Male,27,звонить,23,understands,0
+Russian,Female,28,звонить,28,produces,0.7857
+Russian,Female,28,звонить,28,understands,0
+Russian,Male,28,звонить,32,produces,0.5625
+Russian,Male,28,звонить,32,understands,0
+Russian,Female,29,звонить,30,produces,0.9
+Russian,Female,29,звонить,30,understands,0
+Russian,Male,29,звонить,27,produces,0.6667
+Russian,Male,29,звонить,27,understands,0
+Russian,Female,30,звонить,42,produces,0.8571
+Russian,Female,30,звонить,42,understands,0
+Russian,Male,30,звонить,35,produces,0.6
+Russian,Male,30,звонить,35,understands,0
+Russian,Female,31,звонить,32,produces,0.9062
+Russian,Female,31,звонить,32,understands,0
+Russian,Male,31,звонить,29,produces,0.7931
+Russian,Male,31,звонить,29,understands,0
+Russian,Female,32,звонить,29,produces,0.7931
+Russian,Female,32,звонить,29,understands,0
+Russian,Male,32,звонить,26,produces,0.7308
+Russian,Male,32,звонить,26,understands,0
+Russian,Female,33,звонить,27,produces,0.8519
+Russian,Female,33,звонить,27,understands,0
+Russian,Male,33,звонить,28,produces,0.75
+Russian,Male,33,звонить,28,understands,0
+Russian,Female,34,звонить,31,produces,0.9677
+Russian,Female,34,звонить,31,understands,0
+Russian,Male,34,звонить,27,produces,0.8148
+Russian,Male,34,звонить,27,understands,0
+Russian,Female,35,звонить,22,produces,0.8636
+Russian,Female,35,звонить,22,understands,0
+Russian,Male,35,звонить,25,produces,0.92
+Russian,Male,35,звонить,25,understands,0
+Russian,Female,36,звонить,27,produces,1
+Russian,Female,36,звонить,27,understands,0
+Russian,Male,36,звонить,22,produces,0.9545
+Russian,Male,36,звонить,22,understands,0
+Slovak,Female,8,volať,45,produces,0.0222
+Slovak,Female,8,volať,45,understands,0.1333
+Slovak,Male,8,volať,28,produces,0
+Slovak,Male,8,volať,28,understands,0.0714
+Slovak,Female,9,volať,31,produces,0.0645
+Slovak,Female,9,volať,31,understands,0.2903
+Slovak,Male,9,volať,28,produces,0
+Slovak,Male,9,volať,28,understands,0.1071
+Slovak,Female,10,volať,30,produces,0
+Slovak,Female,10,volať,30,understands,0.1667
+Slovak,Male,10,volať,43,produces,0.0233
+Slovak,Male,10,volať,43,understands,0.1628
+Slovak,Female,11,volať,29,produces,0
+Slovak,Female,11,volať,29,understands,0.3103
+Slovak,Male,11,volať,33,produces,0
+Slovak,Male,11,volať,33,understands,0.3636
+Slovak,Female,12,volať,39,produces,0.0513
+Slovak,Female,12,volať,39,understands,0.4103
+Slovak,Male,12,volať,40,produces,0.05
+Slovak,Male,12,volať,40,understands,0.6
+Slovak,Female,13,volať,35,produces,0.0286
+Slovak,Female,13,volať,35,understands,0.6571
+Slovak,Male,13,volať,39,produces,0.0256
+Slovak,Male,13,volať,39,understands,0.4872
+Slovak,Female,14,volať,43,produces,0.0465
+Slovak,Female,14,volať,43,understands,0.5581
+Slovak,Male,14,volať,35,produces,0.0571
+Slovak,Male,14,volať,35,understands,0.6
+Slovak,Female,15,volať,41,produces,0.122
+Slovak,Female,15,volať,41,understands,0.6585
+Slovak,Male,15,volať,46,produces,0.0435
+Slovak,Male,15,volať,46,understands,0.6522
+Slovak,Female,16,volať,31,produces,0.2258
+Slovak,Female,16,volať,31,understands,0.6774
+Slovak,Male,16,volať,37,produces,0.0541
+Slovak,Male,16,volať,37,understands,0.5405
+Slovak,Female,17,"volať, telefonovať",39,produces,0.2564
+Slovak,Female,17,"volať, telefonovať",39,understands,0
+Slovak,Male,17,"volať, telefonovať",31,produces,0.1935
+Slovak,Male,17,"volať, telefonovať",31,understands,0
+Slovak,Female,18,"volať, telefonovať",30,produces,0.3
+Slovak,Female,18,"volať, telefonovať",30,understands,0
+Slovak,Male,18,"volať, telefonovať",35,produces,0.2286
+Slovak,Male,18,"volať, telefonovať",35,understands,0
+Slovak,Female,19,"volať, telefonovať",30,produces,0.25
+Slovak,Female,19,"volať, telefonovať",30,understands,0
+Slovak,Male,19,"volať, telefonovať",26,produces,0.1731
+Slovak,Male,19,"volať, telefonovať",26,understands,0
+Slovak,Female,20,"volať, telefonovať",33,produces,0.3939
+Slovak,Female,20,"volať, telefonovať",33,understands,0
+Slovak,Male,20,"volať, telefonovať",29,produces,0.3448
+Slovak,Male,20,"volať, telefonovať",29,understands,0
+Slovak,Female,21,"volať, telefonovať",40,produces,0.475
+Slovak,Female,21,"volať, telefonovať",40,understands,0
+Slovak,Male,21,"volať, telefonovať",41,produces,0.4146
+Slovak,Male,21,"volať, telefonovať",41,understands,0
+Slovak,Female,22,"volať, telefonovať",27,produces,0.6296
+Slovak,Female,22,"volať, telefonovať",27,understands,0
+Slovak,Male,22,"volať, telefonovať",26,produces,0.2692
+Slovak,Male,22,"volať, telefonovať",26,understands,0
+Slovak,Female,23,"volať, telefonovať",28,produces,0.5893
+Slovak,Female,23,"volať, telefonovať",28,understands,0
+Slovak,Male,23,"volať, telefonovať",31,produces,0.4032
+Slovak,Male,23,"volať, telefonovať",31,understands,0
+Slovak,Female,24,"volať, telefonovať",28,produces,0.6786
+Slovak,Female,24,"volať, telefonovať",28,understands,0
+Slovak,Male,24,"volať, telefonovať",31,produces,0.5806
+Slovak,Male,24,"volať, telefonovať",31,understands,0
+Slovak,Female,25,"volať, telefonovať",35,produces,0.6429
+Slovak,Female,25,"volať, telefonovať",35,understands,0
+Slovak,Male,25,"volať, telefonovať",34,produces,0.6176
+Slovak,Male,25,"volať, telefonovať",34,understands,0
+Slovak,Female,26,"volať, telefonovať",43,produces,0.8256
+Slovak,Female,26,"volať, telefonovať",43,understands,0
+Slovak,Male,26,"volať, telefonovať",35,produces,0.8
+Slovak,Male,26,"volať, telefonovať",35,understands,0
+Slovak,Female,27,"volať, telefonovať",33,produces,0.8939
+Slovak,Female,27,"volať, telefonovať",33,understands,0
+Slovak,Male,27,"volať, telefonovať",29,produces,0.7069
+Slovak,Male,27,"volať, telefonovať",29,understands,0
+Slovak,Female,28,"volať, telefonovať",48,produces,0.7604
+Slovak,Female,28,"volať, telefonovať",48,understands,0
+Slovak,Male,28,"volať, telefonovať",38,produces,0.75
+Slovak,Male,28,"volať, telefonovať",38,understands,0
+Slovak,Female,29,"volať, telefonovať",36,produces,0.875
+Slovak,Female,29,"volať, telefonovať",36,understands,0
+Slovak,Male,29,"volať, telefonovať",39,produces,0.7179
+Slovak,Male,29,"volať, telefonovať",39,understands,0
+Slovak,Female,30,"volať, telefonovať",19,produces,0.7368
+Slovak,Female,30,"volať, telefonovať",19,understands,0
+Slovak,Male,30,"volať, telefonovať",30,produces,0.6833
+Slovak,Male,30,"volať, telefonovať",30,understands,0
+Slovak,Female,31,"volať, telefonovať",16,produces,0.8125
+Slovak,Female,31,"volať, telefonovať",16,understands,0
+Slovak,Male,31,"volať, telefonovať",13,produces,0.7692
+Slovak,Male,31,"volať, telefonovať",13,understands,0
+Slovak,Female,32,"volať, telefonovať",12,produces,0.9167
+Slovak,Female,32,"volať, telefonovať",12,understands,0
+Slovak,Male,32,"volať, telefonovať",13,produces,0.9231
+Slovak,Male,32,"volať, telefonovať",13,understands,0
+Slovak,Female,33,"volať, telefonovať",12,produces,1
+Slovak,Female,33,"volať, telefonovať",12,understands,0
+Slovak,Male,33,"volať, telefonovať",10,produces,0.9
+Slovak,Male,33,"volať, telefonovať",10,understands,0
+Slovak,Female,34,"volať, telefonovať",17,produces,0.9706
+Slovak,Female,34,"volať, telefonovať",17,understands,0
+Slovak,Male,34,"volať, telefonovať",10,produces,0.65
+Slovak,Male,34,"volať, telefonovať",10,understands,0
+Slovak,Female,35,"volať, telefonovať",9,produces,1
+Slovak,Female,35,"volať, telefonovať",9,understands,0
+Slovak,Male,35,"volať, telefonovať",18,produces,0.7222
+Slovak,Male,35,"volať, telefonovať",18,understands,0
+Slovak,Female,36,"volať, telefonovať",2,produces,1
+Slovak,Female,36,"volať, telefonovať",2,understands,0
+Slovak,Male,36,"volať, telefonovať",6,produces,0.8333
+Slovak,Male,36,"volať, telefonovať",6,understands,0
+Spanish (European),Female,16,llamar,19,produces,0
+Spanish (European),Female,16,llamar,19,understands,0
+Spanish (European),Male,16,llamar,20,produces,0
+Spanish (European),Male,16,llamar,20,understands,0
+Spanish (European),Female,17,llamar,21,produces,0.0952
+Spanish (European),Female,17,llamar,21,understands,0
+Spanish (European),Male,17,llamar,18,produces,0
+Spanish (European),Male,17,llamar,18,understands,0
+Spanish (European),Female,18,llamar,27,produces,0.0741
+Spanish (European),Female,18,llamar,27,understands,0
+Spanish (European),Male,18,llamar,23,produces,0.0435
+Spanish (European),Male,18,llamar,23,understands,0
+Spanish (European),Female,19,llamar,16,produces,0.0625
+Spanish (European),Female,19,llamar,16,understands,0
+Spanish (European),Male,19,llamar,11,produces,0
+Spanish (European),Male,19,llamar,11,understands,0
+Spanish (European),Female,20,llamar,17,produces,0
+Spanish (European),Female,20,llamar,17,understands,0
+Spanish (European),Male,20,llamar,19,produces,0
+Spanish (European),Male,20,llamar,19,understands,0
+Spanish (European),Female,21,llamar,23,produces,0.087
+Spanish (European),Female,21,llamar,23,understands,0
+Spanish (European),Male,21,llamar,18,produces,0
+Spanish (European),Male,21,llamar,18,understands,0
+Spanish (European),Female,22,llamar,18,produces,0.1667
+Spanish (European),Female,22,llamar,18,understands,0
+Spanish (European),Male,22,llamar,20,produces,0.2
+Spanish (European),Male,22,llamar,20,understands,0
+Spanish (European),Female,23,llamar,15,produces,0.1333
+Spanish (European),Female,23,llamar,15,understands,0
+Spanish (European),Male,23,llamar,15,produces,0.4
+Spanish (European),Male,23,llamar,15,understands,0
+Spanish (European),Female,24,llamar,31,produces,0.3871
+Spanish (European),Female,24,llamar,31,understands,0
+Spanish (European),Male,24,llamar,24,produces,0.2917
+Spanish (European),Male,24,llamar,24,understands,0
+Spanish (European),Female,25,llamar,16,produces,0.5
+Spanish (European),Female,25,llamar,16,understands,0
+Spanish (European),Male,25,llamar,19,produces,0.2105
+Spanish (European),Male,25,llamar,19,understands,0
+Spanish (European),Female,26,llamar,22,produces,0.5
+Spanish (European),Female,26,llamar,22,understands,0
+Spanish (European),Male,26,llamar,27,produces,0.4444
+Spanish (European),Male,26,llamar,27,understands,0
+Spanish (European),Female,27,llamar,16,produces,0.75
+Spanish (European),Female,27,llamar,16,understands,0
+Spanish (European),Male,27,llamar,18,produces,0.7222
+Spanish (European),Male,27,llamar,18,understands,0
+Spanish (European),Female,28,llamar,20,produces,0.75
+Spanish (European),Female,28,llamar,20,understands,0
+Spanish (European),Male,28,llamar,18,produces,0.5556
+Spanish (European),Male,28,llamar,18,understands,0
+Spanish (European),Female,29,llamar,18,produces,0.7222
+Spanish (European),Female,29,llamar,18,understands,0
+Spanish (European),Male,29,llamar,23,produces,0.6957
+Spanish (European),Male,29,llamar,23,understands,0
+Spanish (European),Female,30,llamar,17,produces,0.8824
+Spanish (European),Female,30,llamar,17,understands,0
+Spanish (European),Male,30,llamar,24,produces,0.5833
+Spanish (European),Male,30,llamar,24,understands,0
+Spanish (Peruvian),Female,16,llamar,6,produces,0
+Spanish (Peruvian),Female,16,llamar,6,understands,0
+Spanish (Peruvian),Male,16,llamar,7,produces,0
+Spanish (Peruvian),Male,16,llamar,7,understands,0
+Spanish (Peruvian),Female,17,llamar,5,produces,0.2
+Spanish (Peruvian),Female,17,llamar,5,understands,0
+Spanish (Peruvian),Male,17,llamar,4,produces,0.25
+Spanish (Peruvian),Male,17,llamar,4,understands,0
+Spanish (Peruvian),Female,18,llamar,4,produces,0
+Spanish (Peruvian),Female,18,llamar,4,understands,0
+Spanish (Peruvian),Female,19,llamar,3,produces,0
+Spanish (Peruvian),Female,19,llamar,3,understands,0
+Spanish (Peruvian),Male,19,llamar,9,produces,0.4444
+Spanish (Peruvian),Male,19,llamar,9,understands,0
+Spanish (Peruvian),Male,20,llamar,1,produces,0
+Spanish (Peruvian),Male,20,llamar,1,understands,0
+Spanish (Peruvian),Female,21,llamar,3,produces,0.3333
+Spanish (Peruvian),Female,21,llamar,3,understands,0
+Spanish (Peruvian),Male,21,llamar,2,produces,0
+Spanish (Peruvian),Male,21,llamar,2,understands,0
+Spanish (Peruvian),Female,22,llamar,4,produces,0.25
+Spanish (Peruvian),Female,22,llamar,4,understands,0
+Spanish (Peruvian),Male,22,llamar,5,produces,0.4
+Spanish (Peruvian),Male,22,llamar,5,understands,0
+Spanish (Peruvian),Female,23,llamar,1,produces,1
+Spanish (Peruvian),Female,23,llamar,1,understands,0
+Spanish (Peruvian),Female,24,llamar,7,produces,0.2857
+Spanish (Peruvian),Female,24,llamar,7,understands,0
+Spanish (Peruvian),Male,24,llamar,8,produces,0
+Spanish (Peruvian),Male,24,llamar,8,understands,0
+Spanish (Peruvian),Female,25,llamar,2,produces,0
+Spanish (Peruvian),Female,25,llamar,2,understands,0
+Spanish (Peruvian),Male,25,llamar,3,produces,0.3333
+Spanish (Peruvian),Male,25,llamar,3,understands,0
+Spanish (Peruvian),Female,26,llamar,3,produces,0
+Spanish (Peruvian),Female,26,llamar,3,understands,0
+Spanish (Peruvian),Male,26,llamar,5,produces,0.2
+Spanish (Peruvian),Male,26,llamar,5,understands,0
+Spanish (Peruvian),Female,27,llamar,3,produces,0
+Spanish (Peruvian),Female,27,llamar,3,understands,0
+Spanish (Peruvian),Male,27,llamar,4,produces,0.5
+Spanish (Peruvian),Male,27,llamar,4,understands,0
+Spanish (Peruvian),Female,28,llamar,3,produces,0
+Spanish (Peruvian),Female,28,llamar,3,understands,0
+Spanish (Peruvian),Male,28,llamar,5,produces,0.6
+Spanish (Peruvian),Male,28,llamar,5,understands,0
+Spanish (Peruvian),Female,29,llamar,1,produces,1
+Spanish (Peruvian),Female,29,llamar,1,understands,0
+Spanish (Peruvian),Male,29,llamar,5,produces,0.4
+Spanish (Peruvian),Male,29,llamar,5,understands,0
+Spanish (Peruvian),Female,30,llamar,1,produces,0
+Spanish (Peruvian),Female,30,llamar,1,understands,0
+Spanish (Peruvian),Male,30,llamar,1,produces,1
+Spanish (Peruvian),Male,30,llamar,1,understands,0
+Swedish,Female,16,"ringa, heta",90,produces,0.0167
+Swedish,Female,16,"ringa, heta",90,understands,0
+Swedish,Male,16,"ringa, heta",66,produces,0.0152
+Swedish,Male,16,"ringa, heta",66,understands,0
+Swedish,Female,19,"ringa, heta",85,produces,0.0824
+Swedish,Female,19,"ringa, heta",85,understands,0
+Swedish,Male,19,"ringa, heta",65,produces,0.0923
+Swedish,Male,19,"ringa, heta",65,understands,0
+Swedish,Female,22,"ringa, heta",162,produces,0.3025
+Swedish,Female,22,"ringa, heta",162,understands,0
+Swedish,Male,22,"ringa, heta",143,produces,0.2343
+Swedish,Male,22,"ringa, heta",143,understands,0
+Swedish,Female,25,"ringa, heta",67,produces,0.5448
+Swedish,Female,25,"ringa, heta",67,understands,0
+Swedish,Male,25,"ringa, heta",76,produces,0.4408
+Swedish,Male,25,"ringa, heta",76,understands,0
+Swedish,Female,28,"ringa, heta",69,produces,0.6957
+Swedish,Female,28,"ringa, heta",69,understands,0
+Swedish,Male,28,"ringa, heta",70,produces,0.5571
+Swedish,Male,28,"ringa, heta",70,understands,0
+Turkish,Female,16,Çağır,60,produces,0.0167
+Turkish,Female,16,Çağır,60,understands,0
+Turkish,Male,16,Çağır,49,produces,0.0204
+Turkish,Male,16,Çağır,49,understands,0
+Turkish,Female,17,Çağır,50,produces,0.12
+Turkish,Female,17,Çağır,50,understands,0
+Turkish,Male,17,Çağır,57,produces,0.0175
+Turkish,Male,17,Çağır,57,understands,0
+Turkish,Female,18,Çağır,65,produces,0.0308
+Turkish,Female,18,Çağır,65,understands,0
+Turkish,Male,18,Çağır,63,produces,0
+Turkish,Male,18,Çağır,63,understands,0
+Turkish,Female,19,Çağır,63,produces,0.0635
+Turkish,Female,19,Çağır,63,understands,0
+Turkish,Male,19,Çağır,58,produces,0.0345
+Turkish,Male,19,Çağır,58,understands,0
+Turkish,Female,20,Çağır,60,produces,0.1167
+Turkish,Female,20,Çağır,60,understands,0
+Turkish,Male,20,Çağır,59,produces,0.1186
+Turkish,Male,20,Çağır,59,understands,0
+Turkish,Female,21,Çağır,55,produces,0.2
+Turkish,Female,21,Çağır,55,understands,0
+Turkish,Male,21,Çağır,69,produces,0.087
+Turkish,Male,21,Çağır,69,understands,0
+Turkish,Female,22,Çağır,58,produces,0.1034
+Turkish,Female,22,Çağır,58,understands,0
+Turkish,Male,22,Çağır,68,produces,0.1176
+Turkish,Male,22,Çağır,68,understands,0
+Turkish,Female,23,Çağır,71,produces,0.1972
+Turkish,Female,23,Çağır,71,understands,0
+Turkish,Male,23,Çağır,60,produces,0.1167
+Turkish,Male,23,Çağır,60,understands,0
+Turkish,Female,24,Çağır,54,produces,0.3519
+Turkish,Female,24,Çağır,54,understands,0
+Turkish,Male,24,Çağır,52,produces,0.1923
+Turkish,Male,24,Çağır,52,understands,0
+Turkish,Female,25,Çağır,63,produces,0.3333
+Turkish,Female,25,Çağır,63,understands,0
+Turkish,Male,25,Çağır,60,produces,0.35
+Turkish,Male,25,Çağır,60,understands,0
+Turkish,Female,26,Çağır,60,produces,0.5
+Turkish,Female,26,Çağır,60,understands,0
+Turkish,Male,26,Çağır,63,produces,0.3492
+Turkish,Male,26,Çağır,63,understands,0
+Turkish,Female,27,Çağır,56,produces,0.4286
+Turkish,Female,27,Çağır,56,understands,0
+Turkish,Male,27,Çağır,52,produces,0.4038
+Turkish,Male,27,Çağır,52,understands,0
+Turkish,Female,28,Çağır,62,produces,0.5
+Turkish,Female,28,Çağır,62,understands,0
+Turkish,Male,28,Çağır,50,produces,0.5
+Turkish,Male,28,Çağır,50,understands,0
+Turkish,Female,29,Çağır,54,produces,0.6481
+Turkish,Female,29,Çağır,54,understands,0
+Turkish,Male,29,Çağır,65,produces,0.4923
+Turkish,Male,29,Çağır,65,understands,0
+Turkish,Female,30,Çağır,56,produces,0.5893
+Turkish,Female,30,Çağır,56,understands,0
+Turkish,Male,30,Çağır,48,produces,0.6458
+Turkish,Male,30,Çağır,48,understands,0
+Turkish,Female,31,Çağır,62,produces,0.6613
+Turkish,Female,31,Çağır,62,understands,0
+Turkish,Male,31,Çağır,39,produces,0.5128
+Turkish,Male,31,Çağır,39,understands,0
+Turkish,Female,32,Çağır,56,produces,0.75
+Turkish,Female,32,Çağır,56,understands,0
+Turkish,Male,32,Çağır,76,produces,0.5526
+Turkish,Male,32,Çağır,76,understands,0
+Turkish,Female,33,Çağır,59,produces,0.7966
+Turkish,Female,33,Çağır,59,understands,0
+Turkish,Male,33,Çağır,55,produces,0.7455
+Turkish,Male,33,Çağır,55,understands,0
+Turkish,Female,34,Çağır,56,produces,0.7321
+Turkish,Female,34,Çağır,56,understands,0
+Turkish,Male,34,Çağır,51,produces,0.7255
+Turkish,Male,34,Çağır,51,understands,0
+Turkish,Female,35,Çağır,69,produces,0.7971
+Turkish,Female,35,Çağır,69,understands,0
+Turkish,Male,35,Çağır,62,produces,0.6935
+Turkish,Male,35,Çağır,62,understands,0
+Turkish,Female,36,Çağır,36,produces,0.8333
+Turkish,Female,36,Çağır,36,understands,0
+Turkish,Male,36,Çağır,41,produces,0.8293
+Turkish,Male,36,Çağır,41,understands,0

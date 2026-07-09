@@ -1,117 +1,349 @@
-language,age,words,n,measure,prop
-Portuguese (European),16,Cinco,144,produces,0.0139
-Portuguese (European),16,Cinco,144,understands,0
-Portuguese (European),17,Cinco,158,produces,0.019
-Portuguese (European),17,Cinco,158,understands,0
-Portuguese (European),18,Cinco,203,produces,0.0837
-Portuguese (European),18,Cinco,203,understands,0
-Portuguese (European),19,Cinco,196,produces,0.0663
-Portuguese (European),19,Cinco,196,understands,0
-Portuguese (European),20,Cinco,218,produces,0.1422
-Portuguese (European),20,Cinco,218,understands,0
-Portuguese (European),21,Cinco,208,produces,0.1442
-Portuguese (European),21,Cinco,208,understands,0
-Portuguese (European),22,Cinco,213,produces,0.23
-Portuguese (European),22,Cinco,213,understands,0
-Portuguese (European),23,Cinco,199,produces,0.2965
-Portuguese (European),23,Cinco,199,understands,0
-Portuguese (European),24,Cinco,215,produces,0.4047
-Portuguese (European),24,Cinco,215,understands,0
-Portuguese (European),25,Cinco,213,produces,0.5023
-Portuguese (European),25,Cinco,213,understands,0
-Portuguese (European),26,Cinco,218,produces,0.4725
-Portuguese (European),26,Cinco,218,understands,0
-Portuguese (European),27,Cinco,238,produces,0.5504
-Portuguese (European),27,Cinco,238,understands,0
-Portuguese (European),28,Cinco,219,produces,0.5708
-Portuguese (European),28,Cinco,219,understands,0
-Portuguese (European),29,Cinco,207,produces,0.628
-Portuguese (European),29,Cinco,207,understands,0
-Portuguese (European),30,Cinco,163,produces,0.681
-Portuguese (European),30,Cinco,163,understands,0
-Russian,18,пять,42,produces,0
-Russian,18,пять,42,understands,0
-Russian,19,пять,41,produces,0.0244
-Russian,19,пять,41,understands,0
-Russian,20,пять,45,produces,0.1333
-Russian,20,пять,45,understands,0
-Russian,21,пять,43,produces,0.2093
-Russian,21,пять,43,understands,0
-Russian,22,пять,51,produces,0.1373
-Russian,22,пять,51,understands,0
-Russian,23,пять,56,produces,0.3571
-Russian,23,пять,56,understands,0
-Russian,24,пять,61,produces,0.2787
-Russian,24,пять,61,understands,0
-Russian,25,пять,66,produces,0.4091
-Russian,25,пять,66,understands,0
-Russian,26,пять,52,produces,0.3654
-Russian,26,пять,52,understands,0
-Russian,27,пять,60,produces,0.45
-Russian,27,пять,60,understands,0
-Russian,28,пять,60,produces,0.4667
-Russian,28,пять,60,understands,0
-Russian,29,пять,58,produces,0.4828
-Russian,29,пять,58,understands,0
-Russian,30,пять,77,produces,0.5195
-Russian,30,пять,77,understands,0
-Russian,31,пять,61,produces,0.5902
-Russian,31,пять,61,understands,0
-Russian,32,пять,55,produces,0.6909
-Russian,32,пять,55,understands,0
-Russian,33,пять,55,produces,0.6364
-Russian,33,пять,55,understands,0
-Russian,34,пять,58,produces,0.7759
-Russian,34,пять,58,understands,0
-Russian,35,пять,47,produces,0.6596
-Russian,35,пять,47,understands,0
-Russian,36,пять,49,produces,0.7551
-Russian,36,пять,49,understands,0
-Arabic (Saudi),8,خمسة,24,produces,0
-Arabic (Saudi),8,خمسة,24,understands,0.0833
-Arabic (Saudi),9,خمسة,27,produces,0
-Arabic (Saudi),9,خمسة,27,understands,0
-Arabic (Saudi),10,خمسة,35,produces,0
-Arabic (Saudi),10,خمسة,35,understands,0.0571
-Arabic (Saudi),11,خمسة,30,produces,0.0667
-Arabic (Saudi),11,خمسة,30,understands,0.0333
-Arabic (Saudi),12,خمسة,30,produces,0.0333
-Arabic (Saudi),12,خمسة,30,understands,0.0333
-Arabic (Saudi),13,خمسة,39,produces,0.0769
-Arabic (Saudi),13,خمسة,39,understands,0
-Arabic (Saudi),14,خمسة,25,produces,0
-Arabic (Saudi),14,خمسة,25,understands,0
-Arabic (Saudi),15,خمسة,27,produces,0.0741
-Arabic (Saudi),15,خمسة,27,understands,0.0741
-Arabic (Saudi),16,خمسة,21,produces,0.0476
-Arabic (Saudi),16,خمسة,21,understands,0.0476
-Hungarian,16,öt,21,produces,0.0952
-Hungarian,16,öt,21,understands,0
-Hungarian,17,öt,18,produces,0.1667
-Hungarian,17,öt,18,understands,0
-Hungarian,18,öt,18,produces,0.1667
-Hungarian,18,öt,18,understands,0
-Hungarian,19,öt,26,produces,0.2692
-Hungarian,19,öt,26,understands,0
-Hungarian,20,öt,18,produces,0.2222
-Hungarian,20,öt,18,understands,0
-Hungarian,21,öt,36,produces,0.3889
-Hungarian,21,öt,36,understands,0
-Hungarian,22,öt,27,produces,0.3704
-Hungarian,22,öt,27,understands,0
-Hungarian,23,öt,18,produces,0.5
-Hungarian,23,öt,18,understands,0
-Hungarian,24,öt,38,produces,0.4474
-Hungarian,24,öt,38,understands,0
-Hungarian,25,öt,43,produces,0.7442
-Hungarian,25,öt,43,understands,0
-Hungarian,26,öt,23,produces,0.5652
-Hungarian,26,öt,23,understands,0
-Hungarian,27,öt,26,produces,0.6923
-Hungarian,27,öt,26,understands,0
-Hungarian,28,öt,30,produces,0.7333
-Hungarian,28,öt,30,understands,0
-Hungarian,29,öt,12,produces,0.5833
-Hungarian,29,öt,12,understands,0
-Hungarian,30,öt,18,produces,0.7222
-Hungarian,30,öt,18,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,خمسة,24,produces,0
+Arabic (Saudi),All,8,خمسة,24,understands,0.0833
+Arabic (Saudi),All,9,خمسة,27,produces,0
+Arabic (Saudi),All,9,خمسة,27,understands,0
+Arabic (Saudi),All,10,خمسة,35,produces,0
+Arabic (Saudi),All,10,خمسة,35,understands,0.0571
+Arabic (Saudi),All,11,خمسة,30,produces,0.0667
+Arabic (Saudi),All,11,خمسة,30,understands,0.0333
+Arabic (Saudi),All,12,خمسة,30,produces,0.0333
+Arabic (Saudi),All,12,خمسة,30,understands,0.0333
+Arabic (Saudi),All,13,خمسة,39,produces,0.0769
+Arabic (Saudi),All,13,خمسة,39,understands,0
+Arabic (Saudi),All,14,خمسة,25,produces,0
+Arabic (Saudi),All,14,خمسة,25,understands,0
+Arabic (Saudi),All,15,خمسة,27,produces,0.0741
+Arabic (Saudi),All,15,خمسة,27,understands,0.0741
+Arabic (Saudi),All,16,خمسة,21,produces,0.0476
+Arabic (Saudi),All,16,خمسة,21,understands,0.0476
+Hungarian,All,16,öt,21,produces,0.0952
+Hungarian,All,16,öt,21,understands,0
+Hungarian,All,17,öt,18,produces,0.1667
+Hungarian,All,17,öt,18,understands,0
+Hungarian,All,18,öt,18,produces,0.1667
+Hungarian,All,18,öt,18,understands,0
+Hungarian,All,19,öt,26,produces,0.2692
+Hungarian,All,19,öt,26,understands,0
+Hungarian,All,20,öt,18,produces,0.2222
+Hungarian,All,20,öt,18,understands,0
+Hungarian,All,21,öt,36,produces,0.3889
+Hungarian,All,21,öt,36,understands,0
+Hungarian,All,22,öt,27,produces,0.3704
+Hungarian,All,22,öt,27,understands,0
+Hungarian,All,23,öt,18,produces,0.5
+Hungarian,All,23,öt,18,understands,0
+Hungarian,All,24,öt,38,produces,0.4474
+Hungarian,All,24,öt,38,understands,0
+Hungarian,All,25,öt,43,produces,0.7442
+Hungarian,All,25,öt,43,understands,0
+Hungarian,All,26,öt,23,produces,0.5652
+Hungarian,All,26,öt,23,understands,0
+Hungarian,All,27,öt,26,produces,0.6923
+Hungarian,All,27,öt,26,understands,0
+Hungarian,All,28,öt,30,produces,0.7333
+Hungarian,All,28,öt,30,understands,0
+Hungarian,All,29,öt,12,produces,0.5833
+Hungarian,All,29,öt,12,understands,0
+Hungarian,All,30,öt,18,produces,0.7222
+Hungarian,All,30,öt,18,understands,0
+Portuguese (European),All,16,Cinco,144,produces,0.0139
+Portuguese (European),All,16,Cinco,144,understands,0
+Portuguese (European),All,17,Cinco,158,produces,0.019
+Portuguese (European),All,17,Cinco,158,understands,0
+Portuguese (European),All,18,Cinco,203,produces,0.0837
+Portuguese (European),All,18,Cinco,203,understands,0
+Portuguese (European),All,19,Cinco,196,produces,0.0663
+Portuguese (European),All,19,Cinco,196,understands,0
+Portuguese (European),All,20,Cinco,218,produces,0.1422
+Portuguese (European),All,20,Cinco,218,understands,0
+Portuguese (European),All,21,Cinco,208,produces,0.1442
+Portuguese (European),All,21,Cinco,208,understands,0
+Portuguese (European),All,22,Cinco,213,produces,0.23
+Portuguese (European),All,22,Cinco,213,understands,0
+Portuguese (European),All,23,Cinco,199,produces,0.2965
+Portuguese (European),All,23,Cinco,199,understands,0
+Portuguese (European),All,24,Cinco,215,produces,0.4047
+Portuguese (European),All,24,Cinco,215,understands,0
+Portuguese (European),All,25,Cinco,213,produces,0.5023
+Portuguese (European),All,25,Cinco,213,understands,0
+Portuguese (European),All,26,Cinco,218,produces,0.4725
+Portuguese (European),All,26,Cinco,218,understands,0
+Portuguese (European),All,27,Cinco,238,produces,0.5504
+Portuguese (European),All,27,Cinco,238,understands,0
+Portuguese (European),All,28,Cinco,219,produces,0.5708
+Portuguese (European),All,28,Cinco,219,understands,0
+Portuguese (European),All,29,Cinco,207,produces,0.628
+Portuguese (European),All,29,Cinco,207,understands,0
+Portuguese (European),All,30,Cinco,163,produces,0.681
+Portuguese (European),All,30,Cinco,163,understands,0
+Russian,All,18,пять,42,produces,0
+Russian,All,18,пять,42,understands,0
+Russian,All,19,пять,41,produces,0.0244
+Russian,All,19,пять,41,understands,0
+Russian,All,20,пять,45,produces,0.1333
+Russian,All,20,пять,45,understands,0
+Russian,All,21,пять,43,produces,0.2093
+Russian,All,21,пять,43,understands,0
+Russian,All,22,пять,51,produces,0.1373
+Russian,All,22,пять,51,understands,0
+Russian,All,23,пять,56,produces,0.3571
+Russian,All,23,пять,56,understands,0
+Russian,All,24,пять,61,produces,0.2787
+Russian,All,24,пять,61,understands,0
+Russian,All,25,пять,66,produces,0.4091
+Russian,All,25,пять,66,understands,0
+Russian,All,26,пять,52,produces,0.3654
+Russian,All,26,пять,52,understands,0
+Russian,All,27,пять,60,produces,0.45
+Russian,All,27,пять,60,understands,0
+Russian,All,28,пять,60,produces,0.4667
+Russian,All,28,пять,60,understands,0
+Russian,All,29,пять,58,produces,0.4828
+Russian,All,29,пять,58,understands,0
+Russian,All,30,пять,77,produces,0.5195
+Russian,All,30,пять,77,understands,0
+Russian,All,31,пять,61,produces,0.5902
+Russian,All,31,пять,61,understands,0
+Russian,All,32,пять,55,produces,0.6909
+Russian,All,32,пять,55,understands,0
+Russian,All,33,пять,55,produces,0.6364
+Russian,All,33,пять,55,understands,0
+Russian,All,34,пять,58,produces,0.7759
+Russian,All,34,пять,58,understands,0
+Russian,All,35,пять,47,produces,0.6596
+Russian,All,35,пять,47,understands,0
+Russian,All,36,пять,49,produces,0.7551
+Russian,All,36,пять,49,understands,0
+Arabic (Saudi),Female,8,خمسة,13,produces,0
+Arabic (Saudi),Female,8,خمسة,13,understands,0.1538
+Arabic (Saudi),Male,8,خمسة,11,produces,0
+Arabic (Saudi),Male,8,خمسة,11,understands,0
+Arabic (Saudi),Female,9,خمسة,14,produces,0
+Arabic (Saudi),Female,9,خمسة,14,understands,0
+Arabic (Saudi),Male,9,خمسة,13,produces,0
+Arabic (Saudi),Male,9,خمسة,13,understands,0
+Arabic (Saudi),Female,10,خمسة,15,produces,0
+Arabic (Saudi),Female,10,خمسة,15,understands,0
+Arabic (Saudi),Male,10,خمسة,20,produces,0
+Arabic (Saudi),Male,10,خمسة,20,understands,0.1
+Arabic (Saudi),Female,11,خمسة,14,produces,0.0714
+Arabic (Saudi),Female,11,خمسة,14,understands,0
+Arabic (Saudi),Male,11,خمسة,16,produces,0.0625
+Arabic (Saudi),Male,11,خمسة,16,understands,0.0625
+Arabic (Saudi),Female,12,خمسة,14,produces,0
+Arabic (Saudi),Female,12,خمسة,14,understands,0.0714
+Arabic (Saudi),Male,12,خمسة,16,produces,0.0625
+Arabic (Saudi),Male,12,خمسة,16,understands,0
+Arabic (Saudi),Female,13,خمسة,17,produces,0.0588
+Arabic (Saudi),Female,13,خمسة,17,understands,0
+Arabic (Saudi),Male,13,خمسة,22,produces,0.0909
+Arabic (Saudi),Male,13,خمسة,22,understands,0
+Arabic (Saudi),Female,14,خمسة,10,produces,0
+Arabic (Saudi),Female,14,خمسة,10,understands,0
+Arabic (Saudi),Male,14,خمسة,15,produces,0
+Arabic (Saudi),Male,14,خمسة,15,understands,0
+Arabic (Saudi),Female,15,خمسة,12,produces,0
+Arabic (Saudi),Female,15,خمسة,12,understands,0.0833
+Arabic (Saudi),Male,15,خمسة,15,produces,0.1333
+Arabic (Saudi),Male,15,خمسة,15,understands,0.0667
+Arabic (Saudi),Female,16,خمسة,10,produces,0.1
+Arabic (Saudi),Female,16,خمسة,10,understands,0.1
+Arabic (Saudi),Male,16,خمسة,11,produces,0
+Arabic (Saudi),Male,16,خمسة,11,understands,0
+Hungarian,Female,16,öt,11,produces,0
+Hungarian,Female,16,öt,11,understands,0
+Hungarian,Male,16,öt,10,produces,0.2
+Hungarian,Male,16,öt,10,understands,0
+Hungarian,Female,17,öt,11,produces,0.2727
+Hungarian,Female,17,öt,11,understands,0
+Hungarian,Male,17,öt,7,produces,0
+Hungarian,Male,17,öt,7,understands,0
+Hungarian,Female,18,öt,9,produces,0.2222
+Hungarian,Female,18,öt,9,understands,0
+Hungarian,Male,18,öt,9,produces,0.1111
+Hungarian,Male,18,öt,9,understands,0
+Hungarian,Female,19,öt,13,produces,0.2308
+Hungarian,Female,19,öt,13,understands,0
+Hungarian,Male,19,öt,12,produces,0.3333
+Hungarian,Male,19,öt,12,understands,0
+Hungarian,Female,20,öt,12,produces,0.25
+Hungarian,Female,20,öt,12,understands,0
+Hungarian,Male,20,öt,6,produces,0.1667
+Hungarian,Male,20,öt,6,understands,0
+Hungarian,Female,21,öt,16,produces,0.375
+Hungarian,Female,21,öt,16,understands,0
+Hungarian,Male,21,öt,20,produces,0.4
+Hungarian,Male,21,öt,20,understands,0
+Hungarian,Female,22,öt,14,produces,0.5
+Hungarian,Female,22,öt,14,understands,0
+Hungarian,Male,22,öt,13,produces,0.2308
+Hungarian,Male,22,öt,13,understands,0
+Hungarian,Female,23,öt,6,produces,0.6667
+Hungarian,Female,23,öt,6,understands,0
+Hungarian,Male,23,öt,12,produces,0.4167
+Hungarian,Male,23,öt,12,understands,0
+Hungarian,Female,24,öt,14,produces,0.4286
+Hungarian,Female,24,öt,14,understands,0
+Hungarian,Male,24,öt,24,produces,0.4583
+Hungarian,Male,24,öt,24,understands,0
+Hungarian,Female,25,öt,17,produces,0.6471
+Hungarian,Female,25,öt,17,understands,0
+Hungarian,Male,25,öt,25,produces,0.8
+Hungarian,Male,25,öt,25,understands,0
+Hungarian,Female,26,öt,9,produces,0.5556
+Hungarian,Female,26,öt,9,understands,0
+Hungarian,Male,26,öt,14,produces,0.5714
+Hungarian,Male,26,öt,14,understands,0
+Hungarian,Female,27,öt,13,produces,0.6154
+Hungarian,Female,27,öt,13,understands,0
+Hungarian,Male,27,öt,13,produces,0.7692
+Hungarian,Male,27,öt,13,understands,0
+Hungarian,Female,28,öt,11,produces,0.9091
+Hungarian,Female,28,öt,11,understands,0
+Hungarian,Male,28,öt,18,produces,0.6111
+Hungarian,Male,28,öt,18,understands,0
+Hungarian,Female,29,öt,8,produces,0.5
+Hungarian,Female,29,öt,8,understands,0
+Hungarian,Male,29,öt,4,produces,0.75
+Hungarian,Male,29,öt,4,understands,0
+Hungarian,Female,30,öt,3,produces,0.6667
+Hungarian,Female,30,öt,3,understands,0
+Hungarian,Male,30,öt,15,produces,0.7333
+Hungarian,Male,30,öt,15,understands,0
+Portuguese (European),Female,16,Cinco,71,produces,0.0282
+Portuguese (European),Female,16,Cinco,71,understands,0
+Portuguese (European),Male,16,Cinco,73,produces,0
+Portuguese (European),Male,16,Cinco,73,understands,0
+Portuguese (European),Female,17,Cinco,62,produces,0.0323
+Portuguese (European),Female,17,Cinco,62,understands,0
+Portuguese (European),Male,17,Cinco,96,produces,0.0104
+Portuguese (European),Male,17,Cinco,96,understands,0
+Portuguese (European),Female,18,Cinco,102,produces,0.0882
+Portuguese (European),Female,18,Cinco,102,understands,0
+Portuguese (European),Male,18,Cinco,101,produces,0.0792
+Portuguese (European),Male,18,Cinco,101,understands,0
+Portuguese (European),Female,19,Cinco,97,produces,0.0825
+Portuguese (European),Female,19,Cinco,97,understands,0
+Portuguese (European),Male,19,Cinco,99,produces,0.0505
+Portuguese (European),Male,19,Cinco,99,understands,0
+Portuguese (European),Female,20,Cinco,115,produces,0.1652
+Portuguese (European),Female,20,Cinco,115,understands,0
+Portuguese (European),Male,20,Cinco,103,produces,0.1165
+Portuguese (European),Male,20,Cinco,103,understands,0
+Portuguese (European),Female,21,Cinco,93,produces,0.172
+Portuguese (European),Female,21,Cinco,93,understands,0
+Portuguese (European),Male,21,Cinco,115,produces,0.1217
+Portuguese (European),Male,21,Cinco,115,understands,0
+Portuguese (European),Female,22,Cinco,117,produces,0.2393
+Portuguese (European),Female,22,Cinco,117,understands,0
+Portuguese (European),Male,22,Cinco,96,produces,0.2188
+Portuguese (European),Male,22,Cinco,96,understands,0
+Portuguese (European),Female,23,Cinco,94,produces,0.3298
+Portuguese (European),Female,23,Cinco,94,understands,0
+Portuguese (European),Male,23,Cinco,105,produces,0.2667
+Portuguese (European),Male,23,Cinco,105,understands,0
+Portuguese (European),Female,24,Cinco,88,produces,0.4886
+Portuguese (European),Female,24,Cinco,88,understands,0
+Portuguese (European),Male,24,Cinco,127,produces,0.3465
+Portuguese (European),Male,24,Cinco,127,understands,0
+Portuguese (European),Female,25,Cinco,110,produces,0.5273
+Portuguese (European),Female,25,Cinco,110,understands,0
+Portuguese (European),Male,25,Cinco,103,produces,0.4757
+Portuguese (European),Male,25,Cinco,103,understands,0
+Portuguese (European),Female,26,Cinco,96,produces,0.5312
+Portuguese (European),Female,26,Cinco,96,understands,0
+Portuguese (European),Male,26,Cinco,122,produces,0.4262
+Portuguese (European),Male,26,Cinco,122,understands,0
+Portuguese (European),Female,27,Cinco,109,produces,0.578
+Portuguese (European),Female,27,Cinco,109,understands,0
+Portuguese (European),Male,27,Cinco,129,produces,0.5271
+Portuguese (European),Male,27,Cinco,129,understands,0
+Portuguese (European),Female,28,Cinco,91,produces,0.6264
+Portuguese (European),Female,28,Cinco,91,understands,0
+Portuguese (European),Male,28,Cinco,128,produces,0.5312
+Portuguese (European),Male,28,Cinco,128,understands,0
+Portuguese (European),Female,29,Cinco,98,produces,0.6633
+Portuguese (European),Female,29,Cinco,98,understands,0
+Portuguese (European),Male,29,Cinco,109,produces,0.5963
+Portuguese (European),Male,29,Cinco,109,understands,0
+Portuguese (European),Female,30,Cinco,81,produces,0.6543
+Portuguese (European),Female,30,Cinco,81,understands,0
+Portuguese (European),Male,30,Cinco,82,produces,0.7073
+Portuguese (European),Male,30,Cinco,82,understands,0
+Russian,Female,18,пять,24,produces,0
+Russian,Female,18,пять,24,understands,0
+Russian,Male,18,пять,18,produces,0
+Russian,Male,18,пять,18,understands,0
+Russian,Female,19,пять,22,produces,0.0455
+Russian,Female,19,пять,22,understands,0
+Russian,Male,19,пять,19,produces,0
+Russian,Male,19,пять,19,understands,0
+Russian,Female,20,пять,18,produces,0.0556
+Russian,Female,20,пять,18,understands,0
+Russian,Male,20,пять,27,produces,0.1852
+Russian,Male,20,пять,27,understands,0
+Russian,Female,21,пять,22,produces,0.2727
+Russian,Female,21,пять,22,understands,0
+Russian,Male,21,пять,21,produces,0.1429
+Russian,Male,21,пять,21,understands,0
+Russian,Female,22,пять,29,produces,0.2069
+Russian,Female,22,пять,29,understands,0
+Russian,Male,22,пять,22,produces,0.0455
+Russian,Male,22,пять,22,understands,0
+Russian,Female,23,пять,37,produces,0.4324
+Russian,Female,23,пять,37,understands,0
+Russian,Male,23,пять,19,produces,0.2105
+Russian,Male,23,пять,19,understands,0
+Russian,Female,24,пять,28,produces,0.2857
+Russian,Female,24,пять,28,understands,0
+Russian,Male,24,пять,33,produces,0.2727
+Russian,Male,24,пять,33,understands,0
+Russian,Female,25,пять,39,produces,0.4359
+Russian,Female,25,пять,39,understands,0
+Russian,Male,25,пять,27,produces,0.3704
+Russian,Male,25,пять,27,understands,0
+Russian,Female,26,пять,26,produces,0.3077
+Russian,Female,26,пять,26,understands,0
+Russian,Male,26,пять,26,produces,0.4231
+Russian,Male,26,пять,26,understands,0
+Russian,Female,27,пять,37,produces,0.4595
+Russian,Female,27,пять,37,understands,0
+Russian,Male,27,пять,23,produces,0.4348
+Russian,Male,27,пять,23,understands,0
+Russian,Female,28,пять,28,produces,0.5357
+Russian,Female,28,пять,28,understands,0
+Russian,Male,28,пять,32,produces,0.4062
+Russian,Male,28,пять,32,understands,0
+Russian,Female,29,пять,30,produces,0.5
+Russian,Female,29,пять,30,understands,0
+Russian,Male,29,пять,27,produces,0.4444
+Russian,Male,29,пять,27,understands,0
+Russian,Female,30,пять,42,produces,0.5476
+Russian,Female,30,пять,42,understands,0
+Russian,Male,30,пять,35,produces,0.4857
+Russian,Male,30,пять,35,understands,0
+Russian,Female,31,пять,32,produces,0.625
+Russian,Female,31,пять,32,understands,0
+Russian,Male,31,пять,29,produces,0.5517
+Russian,Male,31,пять,29,understands,0
+Russian,Female,32,пять,29,produces,0.6207
+Russian,Female,32,пять,29,understands,0
+Russian,Male,32,пять,26,produces,0.7692
+Russian,Male,32,пять,26,understands,0
+Russian,Female,33,пять,27,produces,0.5926
+Russian,Female,33,пять,27,understands,0
+Russian,Male,33,пять,28,produces,0.6786
+Russian,Male,33,пять,28,understands,0
+Russian,Female,34,пять,31,produces,0.8387
+Russian,Female,34,пять,31,understands,0
+Russian,Male,34,пять,27,produces,0.7037
+Russian,Male,34,пять,27,understands,0
+Russian,Female,35,пять,22,produces,0.7273
+Russian,Female,35,пять,22,understands,0
+Russian,Male,35,пять,25,produces,0.6
+Russian,Male,35,пять,25,understands,0
+Russian,Female,36,пять,27,produces,0.8519
+Russian,Female,36,пять,27,understands,0
+Russian,Male,36,пять,22,produces,0.6364
+Russian,Male,36,пять,22,understands,0

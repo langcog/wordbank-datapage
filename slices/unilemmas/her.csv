@@ -1,81 +1,229 @@
-language,age,words,n,measure,prop
-Dutch,15,haar,3,produces,0
-Dutch,15,haar,3,understands,0
-Dutch,16,haar,3,produces,0
-Dutch,16,haar,3,understands,0
-Dutch,17,haar,6,produces,0
-Dutch,17,haar,6,understands,0
-Dutch,18,haar,130,produces,0.0231
-Dutch,18,haar,130,understands,0.1
-Dutch,19,haar,94,produces,0.1489
-Dutch,19,haar,94,understands,0.3085
-Dutch,20,haar,26,produces,0.0385
-Dutch,20,haar,26,understands,0.2692
-Dutch,21,haar,6,produces,0
-Dutch,21,haar,6,understands,0
-English (British),12,her,27,produces,0
-English (British),12,her,27,understands,0
-English (British),13,her,7,produces,0
-English (British),13,her,7,understands,0
-English (British),14,her,64,produces,0
-English (British),14,her,64,understands,0.0312
-English (British),15,her,88,produces,0
-English (British),15,her,88,understands,0.0114
-English (British),16,her,118,produces,0
-English (British),16,her,118,understands,0.0339
-English (British),17,her,197,produces,0
-English (British),17,her,197,understands,0.0305
-English (British),18,her,118,produces,0
-English (British),18,her,118,understands,0.0508
-English (British),19,her,109,produces,0.0092
-English (British),19,her,109,understands,0.1376
-English (British),20,her,144,produces,0.0208
-English (British),20,her,144,understands,0.1667
-English (British),21,her,75,produces,0.0133
-English (British),21,her,75,understands,0.08
-English (British),22,her,28,produces,0.0357
-English (British),22,her,28,understands,0.25
-English (British),23,her,112,produces,0.1071
-English (British),23,her,112,understands,0.2589
-English (British),24,her,87,produces,0.1149
-English (British),24,her,87,understands,0.3103
-English (British),25,her,36,produces,0.25
-English (British),25,her,36,understands,0.3889
-Greek (Cypriot),18,την (αγαπώ),45,produces,0.0222
-Greek (Cypriot),18,την (αγαπώ),45,understands,0
-Greek (Cypriot),21,την (αγαπώ),36,produces,0.0833
-Greek (Cypriot),21,την (αγαπώ),36,understands,0
-Greek (Cypriot),24,την (αγαπώ),32,produces,0.0938
-Greek (Cypriot),24,την (αγαπώ),32,understands,0
-Greek (Cypriot),27,την (αγαπώ),29,produces,0.2069
-Greek (Cypriot),27,την (αγαπώ),29,understands,0
-Greek (Cypriot),30,την (αγαπώ),34,produces,0.3529
-Greek (Cypriot),30,την (αγαπώ),34,understands,0
-Hebrew,11,הינה,1,produces,0
-Hebrew,11,הינה,1,understands,0
-Hebrew,12,הינה,4,produces,0
-Hebrew,12,הינה,4,understands,0.25
-Hebrew,13,הינה,4,produces,0
-Hebrew,13,הינה,4,understands,0.25
-Hebrew,14,הינה,1,produces,0
-Hebrew,14,הינה,1,understands,0
-Hebrew,15,הינה,2,produces,0
-Hebrew,15,הינה,2,understands,0.5
-Hebrew,16,הינה,6,produces,0.1667
-Hebrew,16,הינה,6,understands,0.5
-Hebrew,17,הינה,3,produces,0.3333
-Hebrew,17,הינה,3,understands,0.6667
-Hebrew,19,הינה,4,produces,0.5
-Hebrew,19,הינה,4,understands,0.5
-Hebrew,20,הינה,9,produces,0.5556
-Hebrew,20,הינה,9,understands,0.7778
-Hebrew,21,הינה,4,produces,0.5
-Hebrew,21,הינה,4,understands,0.75
-Hebrew,22,הינה,3,produces,0.6667
-Hebrew,22,הינה,3,understands,0.6667
-Hebrew,23,הינה,7,produces,0.5714
-Hebrew,23,הינה,7,understands,0.8571
-Hebrew,24,הינה,11,produces,0.6364
-Hebrew,24,הינה,11,understands,0.7273
-Hebrew,25,הינה,2,produces,0.5
-Hebrew,25,הינה,2,understands,0.5
+language,sex,age,words,n,measure,prop
+Dutch,All,15,haar,3,produces,0
+Dutch,All,15,haar,3,understands,0
+Dutch,All,16,haar,3,produces,0
+Dutch,All,16,haar,3,understands,0
+Dutch,All,17,haar,6,produces,0
+Dutch,All,17,haar,6,understands,0
+Dutch,All,18,haar,130,produces,0.0231
+Dutch,All,18,haar,130,understands,0.1
+Dutch,All,19,haar,94,produces,0.1489
+Dutch,All,19,haar,94,understands,0.3085
+Dutch,All,20,haar,26,produces,0.0385
+Dutch,All,20,haar,26,understands,0.2692
+Dutch,All,21,haar,6,produces,0
+Dutch,All,21,haar,6,understands,0
+English (British),All,12,her,27,produces,0
+English (British),All,12,her,27,understands,0
+English (British),All,13,her,7,produces,0
+English (British),All,13,her,7,understands,0
+English (British),All,14,her,64,produces,0
+English (British),All,14,her,64,understands,0.0312
+English (British),All,15,her,88,produces,0
+English (British),All,15,her,88,understands,0.0114
+English (British),All,16,her,118,produces,0
+English (British),All,16,her,118,understands,0.0339
+English (British),All,17,her,197,produces,0
+English (British),All,17,her,197,understands,0.0305
+English (British),All,18,her,118,produces,0
+English (British),All,18,her,118,understands,0.0508
+English (British),All,19,her,109,produces,0.0092
+English (British),All,19,her,109,understands,0.1376
+English (British),All,20,her,144,produces,0.0208
+English (British),All,20,her,144,understands,0.1667
+English (British),All,21,her,75,produces,0.0133
+English (British),All,21,her,75,understands,0.08
+English (British),All,22,her,28,produces,0.0357
+English (British),All,22,her,28,understands,0.25
+English (British),All,23,her,112,produces,0.1071
+English (British),All,23,her,112,understands,0.2589
+English (British),All,24,her,87,produces,0.1149
+English (British),All,24,her,87,understands,0.3103
+English (British),All,25,her,36,produces,0.25
+English (British),All,25,her,36,understands,0.3889
+Greek (Cypriot),All,18,την (αγαπώ),45,produces,0.0222
+Greek (Cypriot),All,18,την (αγαπώ),45,understands,0
+Greek (Cypriot),All,21,την (αγαπώ),36,produces,0.0833
+Greek (Cypriot),All,21,την (αγαπώ),36,understands,0
+Greek (Cypriot),All,24,την (αγαπώ),32,produces,0.0938
+Greek (Cypriot),All,24,την (αγαπώ),32,understands,0
+Greek (Cypriot),All,27,την (αγαπώ),29,produces,0.2069
+Greek (Cypriot),All,27,την (αγαπώ),29,understands,0
+Greek (Cypriot),All,30,την (αγαπώ),34,produces,0.3529
+Greek (Cypriot),All,30,την (αγαπώ),34,understands,0
+Hebrew,All,11,הינה,1,produces,0
+Hebrew,All,11,הינה,1,understands,0
+Hebrew,All,12,הינה,4,produces,0
+Hebrew,All,12,הינה,4,understands,0.25
+Hebrew,All,13,הינה,4,produces,0
+Hebrew,All,13,הינה,4,understands,0.25
+Hebrew,All,14,הינה,1,produces,0
+Hebrew,All,14,הינה,1,understands,0
+Hebrew,All,15,הינה,2,produces,0
+Hebrew,All,15,הינה,2,understands,0.5
+Hebrew,All,16,הינה,6,produces,0.1667
+Hebrew,All,16,הינה,6,understands,0.5
+Hebrew,All,17,הינה,3,produces,0.3333
+Hebrew,All,17,הינה,3,understands,0.6667
+Hebrew,All,19,הינה,4,produces,0.5
+Hebrew,All,19,הינה,4,understands,0.5
+Hebrew,All,20,הינה,9,produces,0.5556
+Hebrew,All,20,הינה,9,understands,0.7778
+Hebrew,All,21,הינה,4,produces,0.5
+Hebrew,All,21,הינה,4,understands,0.75
+Hebrew,All,22,הינה,3,produces,0.6667
+Hebrew,All,22,הינה,3,understands,0.6667
+Hebrew,All,23,הינה,7,produces,0.5714
+Hebrew,All,23,הינה,7,understands,0.8571
+Hebrew,All,24,הינה,11,produces,0.6364
+Hebrew,All,24,הינה,11,understands,0.7273
+Hebrew,All,25,הינה,2,produces,0.5
+Hebrew,All,25,הינה,2,understands,0.5
+Dutch,Female,15,haar,2,produces,0
+Dutch,Female,15,haar,2,understands,0
+Dutch,Male,15,haar,1,produces,0
+Dutch,Male,15,haar,1,understands,0
+Dutch,Female,16,haar,1,produces,0
+Dutch,Female,16,haar,1,understands,0
+Dutch,Male,16,haar,2,produces,0
+Dutch,Male,16,haar,2,understands,0
+Dutch,Female,17,haar,2,produces,0
+Dutch,Female,17,haar,2,understands,0
+Dutch,Male,17,haar,4,produces,0
+Dutch,Male,17,haar,4,understands,0
+Dutch,Female,18,haar,67,produces,0.0299
+Dutch,Female,18,haar,67,understands,0.1045
+Dutch,Male,18,haar,57,produces,0.0175
+Dutch,Male,18,haar,57,understands,0.1053
+Dutch,Female,19,haar,49,produces,0.1429
+Dutch,Female,19,haar,49,understands,0.3061
+Dutch,Male,19,haar,45,produces,0.1556
+Dutch,Male,19,haar,45,understands,0.3111
+Dutch,Female,20,haar,13,produces,0.0769
+Dutch,Female,20,haar,13,understands,0.2308
+Dutch,Male,20,haar,13,produces,0
+Dutch,Male,20,haar,13,understands,0.3077
+Dutch,Female,21,haar,3,produces,0
+Dutch,Female,21,haar,3,understands,0
+Dutch,Male,21,haar,3,produces,0
+Dutch,Male,21,haar,3,understands,0
+English (British),Female,12,her,13,produces,0
+English (British),Female,12,her,13,understands,0
+English (British),Male,12,her,14,produces,0
+English (British),Male,12,her,14,understands,0
+English (British),Female,13,her,2,produces,0
+English (British),Female,13,her,2,understands,0
+English (British),Male,13,her,5,produces,0
+English (British),Male,13,her,5,understands,0
+English (British),Female,14,her,27,produces,0
+English (British),Female,14,her,27,understands,0.037
+English (British),Male,14,her,37,produces,0
+English (British),Male,14,her,37,understands,0.027
+English (British),Female,15,her,38,produces,0
+English (British),Female,15,her,38,understands,0
+English (British),Male,15,her,50,produces,0
+English (British),Male,15,her,50,understands,0.02
+English (British),Female,16,her,58,produces,0
+English (British),Female,16,her,58,understands,0.0517
+English (British),Male,16,her,60,produces,0
+English (British),Male,16,her,60,understands,0.0167
+English (British),Female,17,her,90,produces,0
+English (British),Female,17,her,90,understands,0.0444
+English (British),Male,17,her,107,produces,0
+English (British),Male,17,her,107,understands,0.0187
+English (British),Female,18,her,58,produces,0
+English (British),Female,18,her,58,understands,0.0862
+English (British),Male,18,her,60,produces,0
+English (British),Male,18,her,60,understands,0.0167
+English (British),Female,19,her,52,produces,0
+English (British),Female,19,her,52,understands,0.2308
+English (British),Male,19,her,57,produces,0.0175
+English (British),Male,19,her,57,understands,0.0526
+English (British),Female,20,her,64,produces,0.0312
+English (British),Female,20,her,64,understands,0.2188
+English (British),Male,20,her,80,produces,0.0125
+English (British),Male,20,her,80,understands,0.125
+English (British),Female,21,her,32,produces,0
+English (British),Female,21,her,32,understands,0.0938
+English (British),Male,21,her,43,produces,0.0233
+English (British),Male,21,her,43,understands,0.0698
+English (British),Female,22,her,12,produces,0.0833
+English (British),Female,22,her,12,understands,0.25
+English (British),Male,22,her,16,produces,0
+English (British),Male,22,her,16,understands,0.25
+English (British),Female,23,her,50,produces,0.12
+English (British),Female,23,her,50,understands,0.26
+English (British),Male,23,her,62,produces,0.0968
+English (British),Male,23,her,62,understands,0.2581
+English (British),Female,24,her,42,produces,0.0952
+English (British),Female,24,her,42,understands,0.2381
+English (British),Male,24,her,45,produces,0.1333
+English (British),Male,24,her,45,understands,0.3778
+English (British),Female,25,her,21,produces,0.3333
+English (British),Female,25,her,21,understands,0.4286
+English (British),Male,25,her,15,produces,0.1333
+English (British),Male,25,her,15,understands,0.3333
+Greek (Cypriot),Female,18,την (αγαπώ),24,produces,0
+Greek (Cypriot),Female,18,την (αγαπώ),24,understands,0
+Greek (Cypriot),Male,18,την (αγαπώ),21,produces,0.0476
+Greek (Cypriot),Male,18,την (αγαπώ),21,understands,0
+Greek (Cypriot),Female,21,την (αγαπώ),19,produces,0.1053
+Greek (Cypriot),Female,21,την (αγαπώ),19,understands,0
+Greek (Cypriot),Male,21,την (αγαπώ),17,produces,0.0588
+Greek (Cypriot),Male,21,την (αγαπώ),17,understands,0
+Greek (Cypriot),Female,24,την (αγαπώ),12,produces,0.1667
+Greek (Cypriot),Female,24,την (αγαπώ),12,understands,0
+Greek (Cypriot),Male,24,την (αγαπώ),20,produces,0.05
+Greek (Cypriot),Male,24,την (αγαπώ),20,understands,0
+Greek (Cypriot),Female,27,την (αγαπώ),16,produces,0.1875
+Greek (Cypriot),Female,27,την (αγαπώ),16,understands,0
+Greek (Cypriot),Male,27,την (αγαπώ),13,produces,0.2308
+Greek (Cypriot),Male,27,την (αγαπώ),13,understands,0
+Greek (Cypriot),Female,30,την (αγαπώ),12,produces,0.25
+Greek (Cypriot),Female,30,την (αγαπώ),12,understands,0
+Greek (Cypriot),Male,30,την (αγαπώ),22,produces,0.4091
+Greek (Cypriot),Male,30,την (αγαπώ),22,understands,0
+Hebrew,Male,11,הינה,1,produces,0
+Hebrew,Male,11,הינה,1,understands,0
+Hebrew,Female,12,הינה,1,produces,0
+Hebrew,Female,12,הינה,1,understands,0
+Hebrew,Male,12,הינה,3,produces,0
+Hebrew,Male,12,הינה,3,understands,0.3333
+Hebrew,Male,13,הינה,4,produces,0
+Hebrew,Male,13,הינה,4,understands,0.25
+Hebrew,Male,14,הינה,1,produces,0
+Hebrew,Male,14,הינה,1,understands,0
+Hebrew,Male,15,הינה,2,produces,0
+Hebrew,Male,15,הינה,2,understands,0.5
+Hebrew,Female,16,הינה,4,produces,0.25
+Hebrew,Female,16,הינה,4,understands,0.5
+Hebrew,Male,16,הינה,2,produces,0
+Hebrew,Male,16,הינה,2,understands,0.5
+Hebrew,Female,17,הינה,2,produces,0.5
+Hebrew,Female,17,הינה,2,understands,1
+Hebrew,Male,17,הינה,1,produces,0
+Hebrew,Male,17,הינה,1,understands,0
+Hebrew,Female,19,הינה,1,produces,1
+Hebrew,Female,19,הינה,1,understands,1
+Hebrew,Male,19,הינה,3,produces,0.3333
+Hebrew,Male,19,הינה,3,understands,0.3333
+Hebrew,Female,20,הינה,1,produces,1
+Hebrew,Female,20,הינה,1,understands,1
+Hebrew,Male,20,הינה,8,produces,0.5
+Hebrew,Male,20,הינה,8,understands,0.75
+Hebrew,Female,21,הינה,1,produces,1
+Hebrew,Female,21,הינה,1,understands,1
+Hebrew,Male,21,הינה,3,produces,0.3333
+Hebrew,Male,21,הינה,3,understands,0.6667
+Hebrew,Male,22,הינה,3,produces,0.6667
+Hebrew,Male,22,הינה,3,understands,0.6667
+Hebrew,Female,23,הינה,3,produces,0.3333
+Hebrew,Female,23,הינה,3,understands,0.6667
+Hebrew,Male,23,הינה,4,produces,0.75
+Hebrew,Male,23,הינה,4,understands,1
+Hebrew,Female,24,הינה,1,produces,0
+Hebrew,Female,24,הינה,1,understands,1
+Hebrew,Male,24,הינה,10,produces,0.7
+Hebrew,Male,24,הינה,10,understands,0.7
+Hebrew,Male,25,הינה,2,produces,0.5
+Hebrew,Male,25,הינה,2,understands,0.5

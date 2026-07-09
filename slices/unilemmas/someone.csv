@@ -1,99 +1,295 @@
-language,age,words,n,measure,prop
-Slovak,17,niekto / niečo,70,produces,0
-Slovak,17,niekto / niečo,70,understands,0
-Slovak,18,niekto / niečo,65,produces,0.0308
-Slovak,18,niekto / niečo,65,understands,0
-Slovak,19,niekto / niečo,56,produces,0.0357
-Slovak,19,niekto / niečo,56,understands,0
-Slovak,20,niekto / niečo,62,produces,0.1129
-Slovak,20,niekto / niečo,62,understands,0
-Slovak,21,niekto / niečo,81,produces,0.1111
-Slovak,21,niekto / niečo,81,understands,0
-Slovak,22,niekto / niečo,53,produces,0.0943
-Slovak,22,niekto / niečo,53,understands,0
-Slovak,23,niekto / niečo,59,produces,0.2203
-Slovak,23,niekto / niečo,59,understands,0
-Slovak,24,niekto / niečo,59,produces,0.2542
-Slovak,24,niekto / niečo,59,understands,0
-Slovak,25,niekto / niečo,69,produces,0.2319
-Slovak,25,niekto / niečo,69,understands,0
-Slovak,26,niekto / niečo,78,produces,0.4103
-Slovak,26,niekto / niečo,78,understands,0
-Slovak,27,niekto / niečo,62,produces,0.4032
-Slovak,27,niekto / niečo,62,understands,0
-Slovak,28,niekto / niečo,86,produces,0.3721
-Slovak,28,niekto / niečo,86,understands,0
-Slovak,29,niekto / niečo,75,produces,0.48
-Slovak,29,niekto / niečo,75,understands,0
-Slovak,30,niekto / niečo,49,produces,0.6735
-Slovak,30,niekto / niečo,49,understands,0
-Slovak,31,niekto / niečo,29,produces,0.5172
-Slovak,31,niekto / niečo,29,understands,0
-Slovak,32,niekto / niečo,25,produces,0.56
-Slovak,32,niekto / niečo,25,understands,0
-Slovak,33,niekto / niečo,22,produces,0.7727
-Slovak,33,niekto / niečo,22,understands,0
-Slovak,34,niekto / niečo,27,produces,0.6296
-Slovak,34,niekto / niečo,27,understands,0
-Slovak,35,niekto / niečo,27,produces,0.6296
-Slovak,35,niekto / niečo,27,understands,0
-Slovak,36,niekto / niečo,8,produces,0.75
-Slovak,36,niekto / niečo,8,understands,0
-Turkish,8,Biri,140,produces,0
-Turkish,8,Biri,140,understands,0.0143
-Turkish,9,Biri,125,produces,0
-Turkish,9,Biri,125,understands,0.024
-Turkish,10,Biri,130,produces,0
-Turkish,10,Biri,130,understands,0.0462
-Turkish,11,Biri,125,produces,0
-Turkish,11,Biri,125,understands,0.08
-Turkish,12,Biri,120,produces,0
-Turkish,12,Biri,120,understands,0.0583
-Turkish,13,Biri,122,produces,0
-Turkish,13,Biri,122,understands,0.041
-Turkish,14,Biri,147,produces,0
-Turkish,14,Biri,147,understands,0.1088
-Turkish,15,Biri,131,produces,0.0229
-Turkish,15,Biri,131,understands,0.1527
-Turkish,16,Biri,184,produces,0.0054
-Turkish,16,Biri,184,understands,0.038
-Turkish,17,Biri,107,produces,0.0374
-Turkish,17,Biri,107,understands,0
-Turkish,18,Biri,128,produces,0.0312
-Turkish,18,Biri,128,understands,0
-Turkish,19,Biri,121,produces,0.0579
-Turkish,19,Biri,121,understands,0
-Turkish,20,Biri,119,produces,0.0672
-Turkish,20,Biri,119,understands,0
-Turkish,21,Biri,124,produces,0.0806
-Turkish,21,Biri,124,understands,0
-Turkish,22,Biri,126,produces,0.0317
-Turkish,22,Biri,126,understands,0
-Turkish,23,Biri,131,produces,0.0992
-Turkish,23,Biri,131,understands,0
-Turkish,24,Biri,106,produces,0.1981
-Turkish,24,Biri,106,understands,0
-Turkish,25,Biri,123,produces,0.2439
-Turkish,25,Biri,123,understands,0
-Turkish,26,Biri,123,produces,0.2927
-Turkish,26,Biri,123,understands,0
-Turkish,27,Biri,108,produces,0.3426
-Turkish,27,Biri,108,understands,0
-Turkish,28,Biri,112,produces,0.3393
-Turkish,28,Biri,112,understands,0
-Turkish,29,Biri,119,produces,0.4286
-Turkish,29,Biri,119,understands,0
-Turkish,30,Biri,104,produces,0.5096
-Turkish,30,Biri,104,understands,0
-Turkish,31,Biri,101,produces,0.495
-Turkish,31,Biri,101,understands,0
-Turkish,32,Biri,132,produces,0.5455
-Turkish,32,Biri,132,understands,0
-Turkish,33,Biri,114,produces,0.6404
-Turkish,33,Biri,114,understands,0
-Turkish,34,Biri,107,produces,0.5701
-Turkish,34,Biri,107,understands,0
-Turkish,35,Biri,131,produces,0.6336
-Turkish,35,Biri,131,understands,0
-Turkish,36,Biri,77,produces,0.7273
-Turkish,36,Biri,77,understands,0
+language,sex,age,words,n,measure,prop
+Slovak,All,17,niekto / niečo,70,produces,0
+Slovak,All,17,niekto / niečo,70,understands,0
+Slovak,All,18,niekto / niečo,65,produces,0.0308
+Slovak,All,18,niekto / niečo,65,understands,0
+Slovak,All,19,niekto / niečo,56,produces,0.0357
+Slovak,All,19,niekto / niečo,56,understands,0
+Slovak,All,20,niekto / niečo,62,produces,0.1129
+Slovak,All,20,niekto / niečo,62,understands,0
+Slovak,All,21,niekto / niečo,81,produces,0.1111
+Slovak,All,21,niekto / niečo,81,understands,0
+Slovak,All,22,niekto / niečo,53,produces,0.0943
+Slovak,All,22,niekto / niečo,53,understands,0
+Slovak,All,23,niekto / niečo,59,produces,0.2203
+Slovak,All,23,niekto / niečo,59,understands,0
+Slovak,All,24,niekto / niečo,59,produces,0.2542
+Slovak,All,24,niekto / niečo,59,understands,0
+Slovak,All,25,niekto / niečo,69,produces,0.2319
+Slovak,All,25,niekto / niečo,69,understands,0
+Slovak,All,26,niekto / niečo,78,produces,0.4103
+Slovak,All,26,niekto / niečo,78,understands,0
+Slovak,All,27,niekto / niečo,62,produces,0.4032
+Slovak,All,27,niekto / niečo,62,understands,0
+Slovak,All,28,niekto / niečo,86,produces,0.3721
+Slovak,All,28,niekto / niečo,86,understands,0
+Slovak,All,29,niekto / niečo,75,produces,0.48
+Slovak,All,29,niekto / niečo,75,understands,0
+Slovak,All,30,niekto / niečo,49,produces,0.6735
+Slovak,All,30,niekto / niečo,49,understands,0
+Slovak,All,31,niekto / niečo,29,produces,0.5172
+Slovak,All,31,niekto / niečo,29,understands,0
+Slovak,All,32,niekto / niečo,25,produces,0.56
+Slovak,All,32,niekto / niečo,25,understands,0
+Slovak,All,33,niekto / niečo,22,produces,0.7727
+Slovak,All,33,niekto / niečo,22,understands,0
+Slovak,All,34,niekto / niečo,27,produces,0.6296
+Slovak,All,34,niekto / niečo,27,understands,0
+Slovak,All,35,niekto / niečo,27,produces,0.6296
+Slovak,All,35,niekto / niečo,27,understands,0
+Slovak,All,36,niekto / niečo,8,produces,0.75
+Slovak,All,36,niekto / niečo,8,understands,0
+Turkish,All,8,Biri,140,produces,0
+Turkish,All,8,Biri,140,understands,0.0143
+Turkish,All,9,Biri,125,produces,0
+Turkish,All,9,Biri,125,understands,0.024
+Turkish,All,10,Biri,130,produces,0
+Turkish,All,10,Biri,130,understands,0.0462
+Turkish,All,11,Biri,125,produces,0
+Turkish,All,11,Biri,125,understands,0.08
+Turkish,All,12,Biri,120,produces,0
+Turkish,All,12,Biri,120,understands,0.0583
+Turkish,All,13,Biri,122,produces,0
+Turkish,All,13,Biri,122,understands,0.041
+Turkish,All,14,Biri,147,produces,0
+Turkish,All,14,Biri,147,understands,0.1088
+Turkish,All,15,Biri,131,produces,0.0229
+Turkish,All,15,Biri,131,understands,0.1527
+Turkish,All,16,Biri,184,produces,0.0054
+Turkish,All,16,Biri,184,understands,0.038
+Turkish,All,17,Biri,107,produces,0.0374
+Turkish,All,17,Biri,107,understands,0
+Turkish,All,18,Biri,128,produces,0.0312
+Turkish,All,18,Biri,128,understands,0
+Turkish,All,19,Biri,121,produces,0.0579
+Turkish,All,19,Biri,121,understands,0
+Turkish,All,20,Biri,119,produces,0.0672
+Turkish,All,20,Biri,119,understands,0
+Turkish,All,21,Biri,124,produces,0.0806
+Turkish,All,21,Biri,124,understands,0
+Turkish,All,22,Biri,126,produces,0.0317
+Turkish,All,22,Biri,126,understands,0
+Turkish,All,23,Biri,131,produces,0.0992
+Turkish,All,23,Biri,131,understands,0
+Turkish,All,24,Biri,106,produces,0.1981
+Turkish,All,24,Biri,106,understands,0
+Turkish,All,25,Biri,123,produces,0.2439
+Turkish,All,25,Biri,123,understands,0
+Turkish,All,26,Biri,123,produces,0.2927
+Turkish,All,26,Biri,123,understands,0
+Turkish,All,27,Biri,108,produces,0.3426
+Turkish,All,27,Biri,108,understands,0
+Turkish,All,28,Biri,112,produces,0.3393
+Turkish,All,28,Biri,112,understands,0
+Turkish,All,29,Biri,119,produces,0.4286
+Turkish,All,29,Biri,119,understands,0
+Turkish,All,30,Biri,104,produces,0.5096
+Turkish,All,30,Biri,104,understands,0
+Turkish,All,31,Biri,101,produces,0.495
+Turkish,All,31,Biri,101,understands,0
+Turkish,All,32,Biri,132,produces,0.5455
+Turkish,All,32,Biri,132,understands,0
+Turkish,All,33,Biri,114,produces,0.6404
+Turkish,All,33,Biri,114,understands,0
+Turkish,All,34,Biri,107,produces,0.5701
+Turkish,All,34,Biri,107,understands,0
+Turkish,All,35,Biri,131,produces,0.6336
+Turkish,All,35,Biri,131,understands,0
+Turkish,All,36,Biri,77,produces,0.7273
+Turkish,All,36,Biri,77,understands,0
+Slovak,Female,17,niekto / niečo,39,produces,0
+Slovak,Female,17,niekto / niečo,39,understands,0
+Slovak,Male,17,niekto / niečo,31,produces,0
+Slovak,Male,17,niekto / niečo,31,understands,0
+Slovak,Female,18,niekto / niečo,30,produces,0
+Slovak,Female,18,niekto / niečo,30,understands,0
+Slovak,Male,18,niekto / niečo,35,produces,0.0571
+Slovak,Male,18,niekto / niečo,35,understands,0
+Slovak,Female,19,niekto / niečo,30,produces,0.0667
+Slovak,Female,19,niekto / niečo,30,understands,0
+Slovak,Male,19,niekto / niečo,26,produces,0
+Slovak,Male,19,niekto / niečo,26,understands,0
+Slovak,Female,20,niekto / niečo,33,produces,0.1515
+Slovak,Female,20,niekto / niečo,33,understands,0
+Slovak,Male,20,niekto / niečo,29,produces,0.069
+Slovak,Male,20,niekto / niečo,29,understands,0
+Slovak,Female,21,niekto / niečo,40,produces,0.125
+Slovak,Female,21,niekto / niečo,40,understands,0
+Slovak,Male,21,niekto / niečo,41,produces,0.0976
+Slovak,Male,21,niekto / niečo,41,understands,0
+Slovak,Female,22,niekto / niečo,27,produces,0.1111
+Slovak,Female,22,niekto / niečo,27,understands,0
+Slovak,Male,22,niekto / niečo,26,produces,0.0769
+Slovak,Male,22,niekto / niečo,26,understands,0
+Slovak,Female,23,niekto / niečo,28,produces,0.25
+Slovak,Female,23,niekto / niečo,28,understands,0
+Slovak,Male,23,niekto / niečo,31,produces,0.1935
+Slovak,Male,23,niekto / niečo,31,understands,0
+Slovak,Female,24,niekto / niečo,28,produces,0.3929
+Slovak,Female,24,niekto / niečo,28,understands,0
+Slovak,Male,24,niekto / niečo,31,produces,0.129
+Slovak,Male,24,niekto / niečo,31,understands,0
+Slovak,Female,25,niekto / niečo,35,produces,0.2
+Slovak,Female,25,niekto / niečo,35,understands,0
+Slovak,Male,25,niekto / niečo,34,produces,0.2647
+Slovak,Male,25,niekto / niečo,34,understands,0
+Slovak,Female,26,niekto / niečo,43,produces,0.3721
+Slovak,Female,26,niekto / niečo,43,understands,0
+Slovak,Male,26,niekto / niečo,35,produces,0.4571
+Slovak,Male,26,niekto / niečo,35,understands,0
+Slovak,Female,27,niekto / niečo,33,produces,0.4545
+Slovak,Female,27,niekto / niečo,33,understands,0
+Slovak,Male,27,niekto / niečo,29,produces,0.3448
+Slovak,Male,27,niekto / niečo,29,understands,0
+Slovak,Female,28,niekto / niečo,48,produces,0.3125
+Slovak,Female,28,niekto / niečo,48,understands,0
+Slovak,Male,28,niekto / niečo,38,produces,0.4474
+Slovak,Male,28,niekto / niečo,38,understands,0
+Slovak,Female,29,niekto / niečo,36,produces,0.4444
+Slovak,Female,29,niekto / niečo,36,understands,0
+Slovak,Male,29,niekto / niečo,39,produces,0.5128
+Slovak,Male,29,niekto / niečo,39,understands,0
+Slovak,Female,30,niekto / niečo,19,produces,0.7368
+Slovak,Female,30,niekto / niečo,19,understands,0
+Slovak,Male,30,niekto / niečo,30,produces,0.6333
+Slovak,Male,30,niekto / niečo,30,understands,0
+Slovak,Female,31,niekto / niečo,16,produces,0.4375
+Slovak,Female,31,niekto / niečo,16,understands,0
+Slovak,Male,31,niekto / niečo,13,produces,0.6154
+Slovak,Male,31,niekto / niečo,13,understands,0
+Slovak,Female,32,niekto / niečo,12,produces,0.6667
+Slovak,Female,32,niekto / niečo,12,understands,0
+Slovak,Male,32,niekto / niečo,13,produces,0.4615
+Slovak,Male,32,niekto / niečo,13,understands,0
+Slovak,Female,33,niekto / niečo,12,produces,0.9167
+Slovak,Female,33,niekto / niečo,12,understands,0
+Slovak,Male,33,niekto / niečo,10,produces,0.6
+Slovak,Male,33,niekto / niečo,10,understands,0
+Slovak,Female,34,niekto / niečo,17,produces,0.6471
+Slovak,Female,34,niekto / niečo,17,understands,0
+Slovak,Male,34,niekto / niečo,10,produces,0.6
+Slovak,Male,34,niekto / niečo,10,understands,0
+Slovak,Female,35,niekto / niečo,9,produces,1
+Slovak,Female,35,niekto / niečo,9,understands,0
+Slovak,Male,35,niekto / niečo,18,produces,0.4444
+Slovak,Male,35,niekto / niečo,18,understands,0
+Slovak,Female,36,niekto / niečo,2,produces,1
+Slovak,Female,36,niekto / niečo,2,understands,0
+Slovak,Male,36,niekto / niečo,6,produces,0.6667
+Slovak,Male,36,niekto / niečo,6,understands,0
+Turkish,Female,8,Biri,70,produces,0
+Turkish,Female,8,Biri,70,understands,0.0286
+Turkish,Male,8,Biri,70,produces,0
+Turkish,Male,8,Biri,70,understands,0
+Turkish,Female,9,Biri,65,produces,0
+Turkish,Female,9,Biri,65,understands,0.0308
+Turkish,Male,9,Biri,60,produces,0
+Turkish,Male,9,Biri,60,understands,0.0167
+Turkish,Female,10,Biri,62,produces,0
+Turkish,Female,10,Biri,62,understands,0.0484
+Turkish,Male,10,Biri,68,produces,0
+Turkish,Male,10,Biri,68,understands,0.0441
+Turkish,Female,11,Biri,65,produces,0
+Turkish,Female,11,Biri,65,understands,0.0769
+Turkish,Male,11,Biri,60,produces,0
+Turkish,Male,11,Biri,60,understands,0.0833
+Turkish,Female,12,Biri,63,produces,0
+Turkish,Female,12,Biri,63,understands,0.0159
+Turkish,Male,12,Biri,57,produces,0
+Turkish,Male,12,Biri,57,understands,0.1053
+Turkish,Female,13,Biri,60,produces,0
+Turkish,Female,13,Biri,60,understands,0.0333
+Turkish,Male,13,Biri,62,produces,0
+Turkish,Male,13,Biri,62,understands,0.0484
+Turkish,Female,14,Biri,74,produces,0
+Turkish,Female,14,Biri,74,understands,0.1081
+Turkish,Male,14,Biri,73,produces,0
+Turkish,Male,14,Biri,73,understands,0.1096
+Turkish,Female,15,Biri,66,produces,0
+Turkish,Female,15,Biri,66,understands,0.1515
+Turkish,Male,15,Biri,65,produces,0.0462
+Turkish,Male,15,Biri,65,understands,0.1538
+Turkish,Female,16,Biri,102,produces,0
+Turkish,Female,16,Biri,102,understands,0.0588
+Turkish,Male,16,Biri,82,produces,0.0122
+Turkish,Male,16,Biri,82,understands,0.0122
+Turkish,Female,17,Biri,50,produces,0.06
+Turkish,Female,17,Biri,50,understands,0
+Turkish,Male,17,Biri,57,produces,0.0175
+Turkish,Male,17,Biri,57,understands,0
+Turkish,Female,18,Biri,65,produces,0.0308
+Turkish,Female,18,Biri,65,understands,0
+Turkish,Male,18,Biri,63,produces,0.0317
+Turkish,Male,18,Biri,63,understands,0
+Turkish,Female,19,Biri,63,produces,0.0952
+Turkish,Female,19,Biri,63,understands,0
+Turkish,Male,19,Biri,58,produces,0.0172
+Turkish,Male,19,Biri,58,understands,0
+Turkish,Female,20,Biri,60,produces,0.05
+Turkish,Female,20,Biri,60,understands,0
+Turkish,Male,20,Biri,59,produces,0.0847
+Turkish,Male,20,Biri,59,understands,0
+Turkish,Female,21,Biri,55,produces,0.1636
+Turkish,Female,21,Biri,55,understands,0
+Turkish,Male,21,Biri,69,produces,0.0145
+Turkish,Male,21,Biri,69,understands,0
+Turkish,Female,22,Biri,58,produces,0.0345
+Turkish,Female,22,Biri,58,understands,0
+Turkish,Male,22,Biri,68,produces,0.0294
+Turkish,Male,22,Biri,68,understands,0
+Turkish,Female,23,Biri,71,produces,0.0986
+Turkish,Female,23,Biri,71,understands,0
+Turkish,Male,23,Biri,60,produces,0.1
+Turkish,Male,23,Biri,60,understands,0
+Turkish,Female,24,Biri,54,produces,0.2407
+Turkish,Female,24,Biri,54,understands,0
+Turkish,Male,24,Biri,52,produces,0.1538
+Turkish,Male,24,Biri,52,understands,0
+Turkish,Female,25,Biri,63,produces,0.2698
+Turkish,Female,25,Biri,63,understands,0
+Turkish,Male,25,Biri,60,produces,0.2167
+Turkish,Male,25,Biri,60,understands,0
+Turkish,Female,26,Biri,60,produces,0.35
+Turkish,Female,26,Biri,60,understands,0
+Turkish,Male,26,Biri,63,produces,0.2381
+Turkish,Male,26,Biri,63,understands,0
+Turkish,Female,27,Biri,56,produces,0.3571
+Turkish,Female,27,Biri,56,understands,0
+Turkish,Male,27,Biri,52,produces,0.3269
+Turkish,Male,27,Biri,52,understands,0
+Turkish,Female,28,Biri,62,produces,0.3387
+Turkish,Female,28,Biri,62,understands,0
+Turkish,Male,28,Biri,50,produces,0.34
+Turkish,Male,28,Biri,50,understands,0
+Turkish,Female,29,Biri,54,produces,0.4074
+Turkish,Female,29,Biri,54,understands,0
+Turkish,Male,29,Biri,65,produces,0.4462
+Turkish,Male,29,Biri,65,understands,0
+Turkish,Female,30,Biri,56,produces,0.5
+Turkish,Female,30,Biri,56,understands,0
+Turkish,Male,30,Biri,48,produces,0.5208
+Turkish,Male,30,Biri,48,understands,0
+Turkish,Female,31,Biri,62,produces,0.4516
+Turkish,Female,31,Biri,62,understands,0
+Turkish,Male,31,Biri,39,produces,0.5641
+Turkish,Male,31,Biri,39,understands,0
+Turkish,Female,32,Biri,56,produces,0.5893
+Turkish,Female,32,Biri,56,understands,0
+Turkish,Male,32,Biri,76,produces,0.5132
+Turkish,Male,32,Biri,76,understands,0
+Turkish,Female,33,Biri,59,produces,0.5763
+Turkish,Female,33,Biri,59,understands,0
+Turkish,Male,33,Biri,55,produces,0.7091
+Turkish,Male,33,Biri,55,understands,0
+Turkish,Female,34,Biri,56,produces,0.6071
+Turkish,Female,34,Biri,56,understands,0
+Turkish,Male,34,Biri,51,produces,0.5294
+Turkish,Male,34,Biri,51,understands,0
+Turkish,Female,35,Biri,69,produces,0.7246
+Turkish,Female,35,Biri,69,understands,0
+Turkish,Male,35,Biri,62,produces,0.5323
+Turkish,Male,35,Biri,62,understands,0
+Turkish,Female,36,Biri,36,produces,0.7778
+Turkish,Female,36,Biri,36,understands,0
+Turkish,Male,36,Biri,41,produces,0.6829
+Turkish,Male,36,Biri,41,understands,0

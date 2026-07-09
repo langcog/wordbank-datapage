@@ -1,661 +1,1893 @@
-language,age,words,n,measure,prop
-Japanese,16,お買いもの,11,produces,0
-Japanese,16,お買いもの,11,understands,0
-Japanese,17,お買いもの,17,produces,0
-Japanese,17,お買いもの,17,understands,0
-Japanese,18,お買いもの,56,produces,0
-Japanese,18,お買いもの,56,understands,0
-Japanese,19,お買いもの,35,produces,0.0286
-Japanese,19,お買いもの,35,understands,0
-Japanese,20,お買いもの,59,produces,0.0339
-Japanese,20,お買いもの,59,understands,0
-Japanese,21,お買いもの,62,produces,0.0968
-Japanese,21,お買いもの,62,understands,0
-Japanese,22,お買いもの,31,produces,0.0645
-Japanese,22,お買いもの,31,understands,0
-Japanese,23,お買いもの,67,produces,0.2687
-Japanese,23,お買いもの,67,understands,0
-Japanese,24,お買いもの,33,produces,0.303
-Japanese,24,お買いもの,33,understands,0
-Japanese,25,お買いもの,34,produces,0.5
-Japanese,25,お買いもの,34,understands,0
-Japanese,26,お買いもの,33,produces,0.6364
-Japanese,26,お買いもの,33,understands,0
-Japanese,27,お買いもの,15,produces,0.4
-Japanese,27,お買いもの,15,understands,0
-Japanese,28,お買いもの,18,produces,0.6667
-Japanese,28,お買いもの,18,understands,0
-Japanese,29,お買いもの,17,produces,0.5882
-Japanese,29,お買いもの,17,understands,0
-Japanese,30,お買いもの,18,produces,0.7778
-Japanese,30,お買いもの,18,understands,0
-Japanese,31,お買いもの,18,produces,0.7222
-Japanese,31,お買いもの,18,understands,0
-Japanese,32,お買いもの,13,produces,0.8462
-Japanese,32,お買いもの,13,understands,0
-Japanese,33,お買いもの,16,produces,0.875
-Japanese,33,お買いもの,16,understands,0
-Japanese,34,お買いもの,13,produces,0.8462
-Japanese,34,お買いもの,13,understands,0
-Japanese,35,お買いもの,31,produces,0.871
-Japanese,35,お買いもの,31,understands,0
-Japanese,36,お買いもの,18,produces,0.8889
-Japanese,36,お買いもの,18,understands,0
-Mandarin (Beijing),17,买东西,40,produces,0.075
-Mandarin (Beijing),17,买东西,40,understands,0
-Mandarin (Beijing),18,买东西,50,produces,0.12
-Mandarin (Beijing),18,买东西,50,understands,0
-Mandarin (Beijing),19,买东西,50,produces,0.18
-Mandarin (Beijing),19,买东西,50,understands,0
-Mandarin (Beijing),20,买东西,50,produces,0.22
-Mandarin (Beijing),20,买东西,50,understands,0
-Mandarin (Beijing),21,买东西,49,produces,0.3265
-Mandarin (Beijing),21,买东西,49,understands,0
-Mandarin (Beijing),22,买东西,46,produces,0.2391
-Mandarin (Beijing),22,买东西,46,understands,0
-Mandarin (Beijing),23,买东西,50,produces,0.46
-Mandarin (Beijing),23,买东西,50,understands,0
-Mandarin (Beijing),24,买东西,50,produces,0.42
-Mandarin (Beijing),24,买东西,50,understands,0
-Mandarin (Beijing),25,买东西,43,produces,0.4884
-Mandarin (Beijing),25,买东西,43,understands,0
-Mandarin (Beijing),26,买东西,47,produces,0.5745
-Mandarin (Beijing),26,买东西,47,understands,0
-Mandarin (Beijing),27,买东西,44,produces,0.7273
-Mandarin (Beijing),27,买东西,44,understands,0
-Mandarin (Beijing),28,买东西,44,produces,0.7045
-Mandarin (Beijing),28,买东西,44,understands,0
-Mandarin (Beijing),29,买东西,49,produces,0.7755
-Mandarin (Beijing),29,买东西,49,understands,0
-Mandarin (Beijing),30,买东西,40,produces,0.9
-Mandarin (Beijing),30,买东西,40,understands,0
-Mandarin (Taiwanese),8,逛街/買東西,86,produces,0
-Mandarin (Taiwanese),8,逛街/買東西,86,understands,0.2558
-Mandarin (Taiwanese),9,逛街/買東西,79,produces,0
-Mandarin (Taiwanese),9,逛街/買東西,79,understands,0.3291
-Mandarin (Taiwanese),10,逛街/買東西,78,produces,0
-Mandarin (Taiwanese),10,逛街/買東西,78,understands,0.1026
-Mandarin (Taiwanese),11,逛街/買東西,79,produces,0
-Mandarin (Taiwanese),11,逛街/買東西,79,understands,0.1266
-Mandarin (Taiwanese),12,逛街/買東西,80,produces,0.0375
-Mandarin (Taiwanese),12,逛街/買東西,80,understands,0.15
-Mandarin (Taiwanese),13,逛街/買東西,78,produces,0.0385
-Mandarin (Taiwanese),13,逛街/買東西,78,understands,0.2179
-Mandarin (Taiwanese),14,逛街/買東西,81,produces,0.037
-Mandarin (Taiwanese),14,逛街/買東西,81,understands,0.2099
-Mandarin (Taiwanese),15,逛街/買東西,106,produces,0.0472
-Mandarin (Taiwanese),15,逛街/買東西,106,understands,0.2642
-Mandarin (Taiwanese),16,逛街/買東西,170,produces,0.0235
-Mandarin (Taiwanese),16,逛街/買東西,170,understands,0.1294
-Mandarin (Taiwanese),17,逛街/買東西,87,produces,0.046
-Mandarin (Taiwanese),17,逛街/買東西,87,understands,0
-Mandarin (Taiwanese),18,逛街/買東西,84,produces,0.0476
-Mandarin (Taiwanese),18,逛街/買東西,84,understands,0
-Mandarin (Taiwanese),19,逛街/買東西,84,produces,0.119
-Mandarin (Taiwanese),19,逛街/買東西,84,understands,0
-Mandarin (Taiwanese),20,逛街/買東西,84,produces,0.1548
-Mandarin (Taiwanese),20,逛街/買東西,84,understands,0
-Mandarin (Taiwanese),21,逛街/買東西,88,produces,0.2159
-Mandarin (Taiwanese),21,逛街/買東西,88,understands,0
-Mandarin (Taiwanese),22,逛街/買東西,96,produces,0.3021
-Mandarin (Taiwanese),22,逛街/買東西,96,understands,0
-Mandarin (Taiwanese),23,逛街/買東西,105,produces,0.3429
-Mandarin (Taiwanese),23,逛街/買東西,105,understands,0
-Mandarin (Taiwanese),24,逛街/買東西,124,produces,0.379
-Mandarin (Taiwanese),24,逛街/買東西,124,understands,0
-Mandarin (Taiwanese),25,逛街/買東西,110,produces,0.4364
-Mandarin (Taiwanese),25,逛街/買東西,110,understands,0
-Mandarin (Taiwanese),26,逛街/買東西,87,produces,0.5172
-Mandarin (Taiwanese),26,逛街/買東西,87,understands,0
-Mandarin (Taiwanese),27,逛街/買東西,92,produces,0.5761
-Mandarin (Taiwanese),27,逛街/買東西,92,understands,0
-Mandarin (Taiwanese),28,逛街/買東西,100,produces,0.69
-Mandarin (Taiwanese),28,逛街/買東西,100,understands,0
-Mandarin (Taiwanese),29,逛街/買東西,88,produces,0.7273
-Mandarin (Taiwanese),29,逛街/買東西,88,understands,0
-Mandarin (Taiwanese),30,逛街/買東西,94,produces,0.7234
-Mandarin (Taiwanese),30,逛街/買東西,94,understands,0
-Mandarin (Taiwanese),31,逛街/買東西,88,produces,0.7727
-Mandarin (Taiwanese),31,逛街/買東西,88,understands,0
-Mandarin (Taiwanese),32,逛街/買東西,82,produces,0.6829
-Mandarin (Taiwanese),32,逛街/買東西,82,understands,0
-Mandarin (Taiwanese),33,逛街/買東西,85,produces,0.8941
-Mandarin (Taiwanese),33,逛街/買東西,85,understands,0
-Mandarin (Taiwanese),34,逛街/買東西,77,produces,0.8052
-Mandarin (Taiwanese),34,逛街/買東西,77,understands,0
-Mandarin (Taiwanese),35,逛街/買東西,81,produces,0.9012
-Mandarin (Taiwanese),35,逛街/買東西,81,understands,0
-Mandarin (Taiwanese),36,逛街/買東西,81,produces,0.9012
-Mandarin (Taiwanese),36,逛街/買東西,81,understands,0
-Norwegian,16,handle,98,produces,0.0102
-Norwegian,16,handle,98,understands,0
-Norwegian,17,handle,218,produces,0.0092
-Norwegian,17,handle,218,understands,0
-Norwegian,18,handle,271,produces,0.0221
-Norwegian,18,handle,271,understands,0
-Norwegian,19,handle,281,produces,0.0285
-Norwegian,19,handle,281,understands,0
-Norwegian,20,handle,342,produces,0.0614
-Norwegian,20,handle,342,understands,0
-Norwegian,21,handle,418,produces,0.0957
-Norwegian,21,handle,418,understands,0
-Norwegian,22,handle,596,produces,0.1309
-Norwegian,22,handle,596,understands,0
-Norwegian,23,handle,566,produces,0.2085
-Norwegian,23,handle,566,understands,0
-Norwegian,24,handle,538,produces,0.2509
-Norwegian,24,handle,538,understands,0
-Norwegian,25,handle,656,produces,0.3491
-Norwegian,25,handle,656,understands,0
-Norwegian,26,handle,644,produces,0.4255
-Norwegian,26,handle,644,understands,0
-Norwegian,27,handle,525,produces,0.541
-Norwegian,27,handle,525,understands,0
-Norwegian,28,handle,544,produces,0.5533
-Norwegian,28,handle,544,understands,0
-Norwegian,29,handle,536,produces,0.5989
-Norwegian,29,handle,536,understands,0
-Norwegian,30,handle,457,produces,0.663
-Norwegian,30,handle,457,understands,0
-Norwegian,31,handle,479,produces,0.7098
-Norwegian,31,handle,479,understands,0
-Norwegian,32,handle,451,produces,0.7716
-Norwegian,32,handle,451,understands,0
-Norwegian,33,handle,430,produces,0.8047
-Norwegian,33,handle,430,understands,0
-Norwegian,34,handle,424,produces,0.7854
-Norwegian,34,handle,424,understands,0
-Norwegian,35,handle,422,produces,0.8081
-Norwegian,35,handle,422,understands,0
-Norwegian,36,handle,329,produces,0.8571
-Norwegian,36,handle,329,understands,0
-Swedish,16,handla,159,produces,0.0063
-Swedish,16,handla,159,understands,0
-Swedish,19,handla,152,produces,0.0724
-Swedish,19,handla,152,understands,0
-Swedish,22,handla,307,produces,0.3094
-Swedish,22,handla,307,understands,0
-Swedish,25,handla,143,produces,0.5734
-Swedish,25,handla,143,understands,0
-Swedish,28,handla,139,produces,0.7554
-Swedish,28,handla,139,understands,0
-American Sign Language,8,SHOPPING,1,produces,0
-American Sign Language,8,SHOPPING,1,understands,0
-American Sign Language,10,SHOPPING,3,produces,0
-American Sign Language,10,SHOPPING,3,understands,0
-American Sign Language,11,SHOPPING,1,produces,0
-American Sign Language,11,SHOPPING,1,understands,0
-American Sign Language,12,SHOPPING,2,produces,0
-American Sign Language,12,SHOPPING,2,understands,0.5
-American Sign Language,13,SHOPPING,4,produces,0
-American Sign Language,13,SHOPPING,4,understands,0
-American Sign Language,14,SHOPPING,1,produces,0
-American Sign Language,14,SHOPPING,1,understands,0
-American Sign Language,15,SHOPPING,2,produces,0.5
-American Sign Language,15,SHOPPING,2,understands,0
-American Sign Language,17,SHOPPING,2,produces,0
-American Sign Language,17,SHOPPING,2,understands,0
-American Sign Language,18,SHOPPING,4,produces,0.5
-American Sign Language,18,SHOPPING,4,understands,0
-American Sign Language,19,SHOPPING,1,produces,0
-American Sign Language,19,SHOPPING,1,understands,0
-American Sign Language,20,SHOPPING,1,produces,1
-American Sign Language,20,SHOPPING,1,understands,0
-American Sign Language,21,SHOPPING,2,produces,0.5
-American Sign Language,21,SHOPPING,2,understands,0.5
-American Sign Language,22,SHOPPING,2,produces,0
-American Sign Language,22,SHOPPING,2,understands,0
-American Sign Language,23,SHOPPING,3,produces,0
-American Sign Language,23,SHOPPING,3,understands,0
-American Sign Language,24,SHOPPING,3,produces,0
-American Sign Language,24,SHOPPING,3,understands,0
-American Sign Language,25,SHOPPING,2,produces,0.5
-American Sign Language,25,SHOPPING,2,understands,0
-American Sign Language,27,SHOPPING,2,produces,0.5
-American Sign Language,27,SHOPPING,2,understands,0
-American Sign Language,28,SHOPPING,4,produces,1
-American Sign Language,28,SHOPPING,4,understands,0.25
-American Sign Language,30,SHOPPING,3,produces,1
-American Sign Language,30,SHOPPING,3,understands,0
-American Sign Language,31,SHOPPING,3,produces,0.3333
-American Sign Language,31,SHOPPING,3,understands,0
-American Sign Language,32,SHOPPING,8,produces,0.875
-American Sign Language,32,SHOPPING,8,understands,0
-American Sign Language,33,SHOPPING,2,produces,0.5
-American Sign Language,33,SHOPPING,2,understands,0.5
-American Sign Language,34,SHOPPING,2,produces,1
-American Sign Language,34,SHOPPING,2,understands,0
-American Sign Language,35,SHOPPING,3,produces,0.6667
-American Sign Language,35,SHOPPING,3,understands,0
-British Sign Language,8,shopping,4,produces,0
-British Sign Language,8,shopping,4,understands,0
-British Sign Language,9,shopping,4,produces,0
-British Sign Language,9,shopping,4,understands,0
-British Sign Language,10,shopping,4,produces,0
-British Sign Language,10,shopping,4,understands,0
-British Sign Language,11,shopping,6,produces,0
-British Sign Language,11,shopping,6,understands,0
-British Sign Language,12,shopping,6,produces,0
-British Sign Language,12,shopping,6,understands,0
-British Sign Language,13,shopping,6,produces,0
-British Sign Language,13,shopping,6,understands,0
-British Sign Language,14,shopping,7,produces,0
-British Sign Language,14,shopping,7,understands,0.1429
-British Sign Language,15,shopping,6,produces,0
-British Sign Language,15,shopping,6,understands,0
-British Sign Language,16,shopping,7,produces,0.1429
-British Sign Language,16,shopping,7,understands,0.2857
-British Sign Language,17,shopping,7,produces,0
-British Sign Language,17,shopping,7,understands,0.1429
-British Sign Language,18,shopping,8,produces,0
-British Sign Language,18,shopping,8,understands,0
-British Sign Language,19,shopping,8,produces,0.125
-British Sign Language,19,shopping,8,understands,0.25
-British Sign Language,20,shopping,11,produces,0.0909
-British Sign Language,20,shopping,11,understands,0.2727
-British Sign Language,21,shopping,5,produces,0
-British Sign Language,21,shopping,5,understands,0
-British Sign Language,22,shopping,6,produces,0
-British Sign Language,22,shopping,6,understands,0.1667
-British Sign Language,23,shopping,7,produces,0.1429
-British Sign Language,23,shopping,7,understands,0.1429
-British Sign Language,24,shopping,5,produces,0.2
-British Sign Language,24,shopping,5,understands,0.6
-British Sign Language,25,shopping,7,produces,0.1429
-British Sign Language,25,shopping,7,understands,0.2857
-British Sign Language,26,shopping,6,produces,0.6667
-British Sign Language,26,shopping,6,understands,0.6667
-British Sign Language,27,shopping,6,produces,0.3333
-British Sign Language,27,shopping,6,understands,0.3333
-British Sign Language,28,shopping,3,produces,0
-British Sign Language,28,shopping,3,understands,0.3333
-British Sign Language,29,shopping,7,produces,0.8571
-British Sign Language,29,shopping,7,understands,0.8571
-British Sign Language,30,shopping,5,produces,0.4
-British Sign Language,30,shopping,5,understands,0.6
-British Sign Language,31,shopping,2,produces,0.5
-British Sign Language,31,shopping,2,understands,0.5
-British Sign Language,32,shopping,6,produces,0.8333
-British Sign Language,32,shopping,6,understands,0.8333
-British Sign Language,33,shopping,5,produces,0.8
-British Sign Language,33,shopping,5,understands,0.8
-British Sign Language,34,shopping,2,produces,0.5
-British Sign Language,34,shopping,2,understands,0.5
-British Sign Language,35,shopping,2,produces,1
-British Sign Language,35,shopping,2,understands,1
-British Sign Language,36,shopping,3,produces,1
-British Sign Language,36,shopping,3,understands,1
-Danish,16,købe ind,184,produces,0.0163
-Danish,16,købe ind,184,understands,0
-Danish,17,købe ind,176,produces,0.0114
-Danish,17,købe ind,176,understands,0
-Danish,18,købe ind,160,produces,0.0187
-Danish,18,købe ind,160,understands,0
-Danish,19,købe ind,205,produces,0.0195
-Danish,19,købe ind,205,understands,0
-Danish,20,købe ind,196,produces,0.0357
-Danish,20,købe ind,196,understands,0
-Danish,21,købe ind,236,produces,0.0381
-Danish,21,købe ind,236,understands,0
-Danish,22,købe ind,235,produces,0.0936
-Danish,22,købe ind,235,understands,0
-Danish,23,købe ind,190,produces,0.1421
-Danish,23,købe ind,190,understands,0
-Danish,24,købe ind,216,produces,0.2269
-Danish,24,købe ind,216,understands,0
-Danish,25,købe ind,138,produces,0.2101
-Danish,25,købe ind,138,understands,0
-Danish,26,købe ind,206,produces,0.3835
-Danish,26,købe ind,206,understands,0
-Danish,27,købe ind,176,produces,0.4716
-Danish,27,købe ind,176,understands,0
-Danish,28,købe ind,190,produces,0.4632
-Danish,28,købe ind,190,understands,0
-Danish,29,købe ind,182,produces,0.5604
-Danish,29,købe ind,182,understands,0
-Danish,30,købe ind,173,produces,0.5549
-Danish,30,købe ind,173,understands,0
-Danish,31,købe ind,175,produces,0.6514
-Danish,31,købe ind,175,understands,0
-Danish,32,købe ind,143,produces,0.7762
-Danish,32,købe ind,143,understands,0
-Danish,33,købe ind,151,produces,0.8411
-Danish,33,købe ind,151,understands,0
-Danish,34,købe ind,143,produces,0.8601
-Danish,34,købe ind,143,understands,0
-Danish,35,købe ind,113,produces,0.8407
-Danish,35,købe ind,113,understands,0
-Danish,36,købe ind,126,produces,0.8571
-Danish,36,købe ind,126,understands,0
-Dutch,16,winkelen,4,produces,0
-Dutch,16,winkelen,4,understands,0
-Dutch,17,winkelen,49,produces,0
-Dutch,17,winkelen,49,understands,0
-Dutch,18,winkelen,68,produces,0.0147
-Dutch,18,winkelen,68,understands,0
-Dutch,19,winkelen,7,produces,0
-Dutch,19,winkelen,7,understands,0
-Dutch,20,winkelen,7,produces,0.1429
-Dutch,20,winkelen,7,understands,0
-Dutch,21,winkelen,7,produces,0
-Dutch,21,winkelen,7,understands,0
-Dutch,22,winkelen,7,produces,0.2857
-Dutch,22,winkelen,7,understands,0
-Dutch,23,winkelen,51,produces,0.1765
-Dutch,23,winkelen,51,understands,0
-Dutch,24,winkelen,31,produces,0.1935
-Dutch,24,winkelen,31,understands,0
-Dutch,25,winkelen,6,produces,0.1667
-Dutch,25,winkelen,6,understands,0
-Dutch,26,winkelen,6,produces,0.3333
-Dutch,26,winkelen,6,understands,0
-Dutch,27,winkelen,5,produces,0.4
-Dutch,27,winkelen,5,understands,0
-Dutch,28,winkelen,6,produces,0.8333
-Dutch,28,winkelen,6,understands,0
-Dutch,29,winkelen,23,produces,0.7826
-Dutch,29,winkelen,23,understands,0
-Dutch,30,winkelen,24,produces,0.75
-Dutch,30,winkelen,24,understands,0
-Dutch,31,winkelen,2,produces,1
-Dutch,31,winkelen,2,understands,0
-English (American),16,shopping,930,produces,0.0172
-English (American),16,shopping,930,understands,0
-English (American),17,shopping,467,produces,0.03
-English (American),17,shopping,467,understands,0
-English (American),18,shopping,664,produces,0.0527
-English (American),18,shopping,664,understands,0
-English (American),19,shopping,579,produces,0.1054
-English (American),19,shopping,579,understands,0
-English (American),20,shopping,546,produces,0.0934
-English (American),20,shopping,546,understands,0
-English (American),21,shopping,377,produces,0.1273
-English (American),21,shopping,377,understands,0
-English (American),22,shopping,456,produces,0.1842
-English (American),22,shopping,456,understands,0
-English (American),23,shopping,470,produces,0.283
-English (American),23,shopping,470,understands,0
-English (American),24,shopping,985,produces,0.3371
-English (American),24,shopping,985,understands,0
-English (American),25,shopping,757,produces,0.4069
-English (American),25,shopping,757,understands,0
-English (American),26,shopping,435,produces,0.4644
-English (American),26,shopping,435,understands,0
-English (American),27,shopping,361,produces,0.5152
-English (American),27,shopping,361,understands,0
-English (American),28,shopping,954,produces,0.7002
-English (American),28,shopping,954,understands,0
-English (American),29,shopping,390,produces,0.6051
-English (American),29,shopping,390,understands,0
-English (American),30,shopping,785,produces,0.6166
-English (American),30,shopping,785,understands,0
-English (Australian),12,shopping,71,produces,0
-English (Australian),12,shopping,71,understands,0
-English (Australian),13,shopping,64,produces,0
-English (Australian),13,shopping,64,understands,0
-English (Australian),14,shopping,111,produces,0.036
-English (Australian),14,shopping,111,understands,0
-English (Australian),15,shopping,69,produces,0.0435
-English (Australian),15,shopping,69,understands,0
-English (Australian),16,shopping,60,produces,0.0333
-English (Australian),16,shopping,60,understands,0
-English (Australian),17,shopping,104,produces,0.0673
-English (Australian),17,shopping,104,understands,0
-English (Australian),18,shopping,109,produces,0.0734
-English (Australian),18,shopping,109,understands,0
-English (Australian),19,shopping,124,produces,0.1371
-English (Australian),19,shopping,124,understands,0
-English (Australian),20,shopping,78,produces,0.2179
-English (Australian),20,shopping,78,understands,0
-English (Australian),21,shopping,68,produces,0.25
-English (Australian),21,shopping,68,understands,0
-English (Australian),22,shopping,73,produces,0.4247
-English (Australian),22,shopping,73,understands,0
-English (Australian),23,shopping,71,produces,0.5493
-English (Australian),23,shopping,71,understands,0
-English (Australian),24,shopping,76,produces,0.5132
-English (Australian),24,shopping,76,understands,0
-English (Australian),25,shopping,85,produces,0.5647
-English (Australian),25,shopping,85,understands,0
-English (Australian),26,shopping,77,produces,0.6364
-English (Australian),26,shopping,77,understands,0
-English (Australian),27,shopping,72,produces,0.75
-English (Australian),27,shopping,72,understands,0
-English (Australian),28,shopping,67,produces,0.7164
-English (Australian),28,shopping,67,understands,0
-English (Australian),29,shopping,65,produces,0.9077
-English (Australian),29,shopping,65,understands,0
-English (Australian),30,shopping,53,produces,0.8491
-English (Australian),30,shopping,53,understands,0
-English (British),20,shopping,2,produces,0
-English (British),20,shopping,2,understands,0
-English (British),21,shopping,7,produces,0.5714
-English (British),21,shopping,7,understands,0
-English (British),22,shopping,268,produces,0.4067
-English (British),22,shopping,268,understands,0
-English (British),23,shopping,2861,produces,0.4268
-English (British),23,shopping,2861,understands,0
-English (British),24,shopping,6411,produces,0.4806
-English (British),24,shopping,6411,understands,0
-English (British),25,shopping,807,produces,0.5217
-English (British),25,shopping,807,understands,0
-English (British),26,shopping,282,produces,0.6241
-English (British),26,shopping,282,understands,0
-English (British),27,shopping,149,produces,0.6376
-English (British),27,shopping,149,understands,0
-English (British),28,shopping,93,produces,0.6344
-English (British),28,shopping,93,understands,0
-English (British),29,shopping,90,produces,0.7889
-English (British),29,shopping,90,understands,0
-English (British),30,shopping,49,produces,0.9388
-English (British),30,shopping,49,understands,0
-English (British),31,shopping,48,produces,0.8333
-English (British),31,shopping,48,understands,0
-English (British),32,shopping,27,produces,0.7778
-English (British),32,shopping,27,understands,0
-English (British),33,shopping,15,produces,0.9333
-English (British),33,shopping,15,understands,0
-English (British),34,shopping,10,produces,0.3
-English (British),34,shopping,10,understands,0
-English (British),35,shopping,10,produces,0.7
-English (British),35,shopping,10,understands,0
-English (Irish),17,shopping,2,produces,0
-English (Irish),17,shopping,2,understands,0
-English (Irish),18,shopping,1,produces,0
-English (Irish),18,shopping,1,understands,0
-English (Irish),19,shopping,2,produces,0
-English (Irish),19,shopping,2,understands,0
-English (Irish),20,shopping,1,produces,0
-English (Irish),20,shopping,1,understands,0
-English (Irish),21,shopping,3,produces,0
-English (Irish),21,shopping,3,understands,0
-English (Irish),22,shopping,4,produces,0
-English (Irish),22,shopping,4,understands,0
-English (Irish),23,shopping,4,produces,0
-English (Irish),23,shopping,4,understands,0
-English (Irish),24,shopping,4,produces,0.25
-English (Irish),24,shopping,4,understands,0
-English (Irish),25,shopping,6,produces,0
-English (Irish),25,shopping,6,understands,0
-English (Irish),26,shopping,10,produces,0.1
-English (Irish),26,shopping,10,understands,0
-English (Irish),27,shopping,5,produces,0.2
-English (Irish),27,shopping,5,understands,0
-English (Irish),28,shopping,7,produces,0.1429
-English (Irish),28,shopping,7,understands,0
-English (Irish),29,shopping,4,produces,0.25
-English (Irish),29,shopping,4,understands,0
-English (Irish),30,shopping,9,produces,0.1111
-English (Irish),30,shopping,9,understands,0
-English (Irish),31,shopping,8,produces,0.25
-English (Irish),31,shopping,8,understands,0
-English (Irish),32,shopping,4,produces,0.75
-English (Irish),32,shopping,4,understands,0
-English (Irish),33,shopping,5,produces,0.2
-English (Irish),33,shopping,5,understands,0
-English (Irish),34,shopping,4,produces,0.25
-English (Irish),34,shopping,4,understands,0
-English (Irish),35,shopping,11,produces,0.3636
-English (Irish),35,shopping,11,understands,0
-English (Irish),36,shopping,5,produces,0.2
-English (Irish),36,shopping,5,understands,0
-Finnish,18,käydä ostoksilla,35,produces,0
-Finnish,18,käydä ostoksilla,35,understands,0
-Finnish,24,käydä ostoksilla,35,produces,0.5429
-Finnish,24,käydä ostoksilla,35,understands,0
-French (French),16,faire les courses,92,produces,0.0326
-French (French),16,faire les courses,92,understands,0
-French (French),17,faire les courses,52,produces,0
-French (French),17,faire les courses,52,understands,0
-French (French),18,faire les courses,54,produces,0.2407
-French (French),18,faire les courses,54,understands,0
-French (French),19,faire les courses,42,produces,0.1429
-French (French),19,faire les courses,42,understands,0
-French (French),20,faire les courses,81,produces,0.1111
-French (French),20,faire les courses,81,understands,0
-French (French),21,faire les courses,102,produces,0.2353
-French (French),21,faire les courses,102,understands,0
-French (French),22,faire les courses,103,produces,0.301
-French (French),22,faire les courses,103,understands,0
-French (French),23,faire les courses,118,produces,0.2288
-French (French),23,faire les courses,118,understands,0
-French (French),24,faire les courses,173,produces,0.2775
-French (French),24,faire les courses,173,understands,0
-French (French),25,faire les courses,87,produces,0.4138
-French (French),25,faire les courses,87,understands,0
-French (French),26,faire les courses,64,produces,0.4688
-French (French),26,faire les courses,64,understands,0
-French (French),27,faire les courses,54,produces,0.5185
-French (French),27,faire les courses,54,understands,0
-French (French),28,faire les courses,76,produces,0.5658
-French (French),28,faire les courses,76,understands,0
-French (French),29,faire les courses,67,produces,0.6567
-French (French),29,faire les courses,67,understands,0
-French (French),30,faire les courses,68,produces,0.5147
-French (French),30,faire les courses,68,understands,0
-French (Quebecois),16,aller au magasin,47,produces,0
-French (Quebecois),16,aller au magasin,47,understands,0
-French (Quebecois),17,aller au magasin,62,produces,0
-French (Quebecois),17,aller au magasin,62,understands,0
-French (Quebecois),18,aller au magasin,99,produces,0.0303
-French (Quebecois),18,aller au magasin,99,understands,0
-French (Quebecois),19,aller au magasin,91,produces,0.022
-French (Quebecois),19,aller au magasin,91,understands,0
-French (Quebecois),20,aller au magasin,196,produces,0.051
-French (Quebecois),20,aller au magasin,196,understands,0
-French (Quebecois),21,aller au magasin,109,produces,0.0367
-French (Quebecois),21,aller au magasin,109,understands,0
-French (Quebecois),22,aller au magasin,86,produces,0.1744
-French (Quebecois),22,aller au magasin,86,understands,0
-French (Quebecois),23,aller au magasin,86,produces,0.2558
-French (Quebecois),23,aller au magasin,86,understands,0
-French (Quebecois),24,aller au magasin,132,produces,0.2273
-French (Quebecois),24,aller au magasin,132,understands,0
-French (Quebecois),25,aller au magasin,87,produces,0.3218
-French (Quebecois),25,aller au magasin,87,understands,0
-French (Quebecois),26,aller au magasin,95,produces,0.4105
-French (Quebecois),26,aller au magasin,95,understands,0
-French (Quebecois),27,aller au magasin,74,produces,0.5
-French (Quebecois),27,aller au magasin,74,understands,0
-French (Quebecois),28,aller au magasin,61,produces,0.5902
-French (Quebecois),28,aller au magasin,61,understands,0
-French (Quebecois),29,aller au magasin,70,produces,0.7429
-French (Quebecois),29,aller au magasin,70,understands,0
-French (Quebecois),30,aller au magasin,100,produces,0.6
-French (Quebecois),30,aller au magasin,100,understands,0
-German,18,einkaufen,85,produces,0.0706
-German,18,einkaufen,85,understands,0
-German,19,einkaufen,79,produces,0.0759
-German,19,einkaufen,79,understands,0
-German,20,einkaufen,96,produces,0.1354
-German,20,einkaufen,96,understands,0
-German,21,einkaufen,77,produces,0.2857
-German,21,einkaufen,77,understands,0
-German,22,einkaufen,95,produces,0.3368
-German,22,einkaufen,95,understands,0
-German,23,einkaufen,95,produces,0.4
-German,23,einkaufen,95,understands,0
-German,24,einkaufen,103,produces,0.4757
-German,24,einkaufen,103,understands,0
-German,25,einkaufen,95,produces,0.5263
-German,25,einkaufen,95,understands,0
-German,26,einkaufen,92,produces,0.7174
-German,26,einkaufen,92,understands,0
-German,27,einkaufen,89,produces,0.6292
-German,27,einkaufen,89,understands,0
-German,28,einkaufen,93,produces,0.8065
-German,28,einkaufen,93,understands,0
-German,29,einkaufen,89,produces,0.8315
-German,29,einkaufen,89,understands,0
-German,30,einkaufen,93,produces,0.9247
-German,30,einkaufen,93,understands,0
-Hungarian,16,vásárlás,21,produces,0
-Hungarian,16,vásárlás,21,understands,0
-Hungarian,17,vásárlás,18,produces,0.0556
-Hungarian,17,vásárlás,18,understands,0
-Hungarian,18,vásárlás,18,produces,0
-Hungarian,18,vásárlás,18,understands,0
-Hungarian,19,vásárlás,26,produces,0.1154
-Hungarian,19,vásárlás,26,understands,0
-Hungarian,20,vásárlás,18,produces,0.0556
-Hungarian,20,vásárlás,18,understands,0
-Hungarian,21,vásárlás,36,produces,0.1667
-Hungarian,21,vásárlás,36,understands,0
-Hungarian,22,vásárlás,27,produces,0.1852
-Hungarian,22,vásárlás,27,understands,0
-Hungarian,23,vásárlás,18,produces,0.1667
-Hungarian,23,vásárlás,18,understands,0
-Hungarian,24,vásárlás,38,produces,0.1842
-Hungarian,24,vásárlás,38,understands,0
-Hungarian,25,vásárlás,43,produces,0.4419
-Hungarian,25,vásárlás,43,understands,0
-Hungarian,26,vásárlás,23,produces,0.4783
-Hungarian,26,vásárlás,23,understands,0
-Hungarian,27,vásárlás,26,produces,0.4231
-Hungarian,27,vásárlás,26,understands,0
-Hungarian,28,vásárlás,30,produces,0.5
-Hungarian,28,vásárlás,30,understands,0
-Hungarian,29,vásárlás,12,produces,0.5833
-Hungarian,29,vásárlás,12,understands,0
-Hungarian,30,vásárlás,18,produces,0.5556
-Hungarian,30,vásárlás,18,understands,0
-Irish,17,siopadóireacht,2,produces,0
-Irish,17,siopadóireacht,2,understands,0
-Irish,18,siopadóireacht,1,produces,0
-Irish,18,siopadóireacht,1,understands,0
-Irish,19,siopadóireacht,2,produces,0
-Irish,19,siopadóireacht,2,understands,0
-Irish,20,siopadóireacht,1,produces,0
-Irish,20,siopadóireacht,1,understands,0
-Irish,21,siopadóireacht,3,produces,0
-Irish,21,siopadóireacht,3,understands,0
-Irish,22,siopadóireacht,4,produces,0
-Irish,22,siopadóireacht,4,understands,0
-Irish,23,siopadóireacht,4,produces,0.25
-Irish,23,siopadóireacht,4,understands,0
-Irish,24,siopadóireacht,4,produces,0.5
-Irish,24,siopadóireacht,4,understands,0
-Irish,25,siopadóireacht,6,produces,0.5
-Irish,25,siopadóireacht,6,understands,0
-Irish,26,siopadóireacht,10,produces,0.4
-Irish,26,siopadóireacht,10,understands,0
-Irish,27,siopadóireacht,5,produces,0.2
-Irish,27,siopadóireacht,5,understands,0
-Irish,28,siopadóireacht,7,produces,0.4286
-Irish,28,siopadóireacht,7,understands,0
-Irish,29,siopadóireacht,4,produces,0.25
-Irish,29,siopadóireacht,4,understands,0
-Irish,30,siopadóireacht,9,produces,0.5556
-Irish,30,siopadóireacht,9,understands,0
-Irish,31,siopadóireacht,8,produces,0.625
-Irish,31,siopadóireacht,8,understands,0
-Irish,32,siopadóireacht,4,produces,0.5
-Irish,32,siopadóireacht,4,understands,0
-Irish,33,siopadóireacht,5,produces,0.6
-Irish,33,siopadóireacht,5,understands,0
-Irish,34,siopadóireacht,4,produces,0.75
-Irish,34,siopadóireacht,4,understands,0
-Irish,35,siopadóireacht,11,produces,0.7273
-Irish,35,siopadóireacht,11,understands,0
-Irish,36,siopadóireacht,5,produces,0.8
-Irish,36,siopadóireacht,5,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,8,SHOPPING,1,produces,0
+American Sign Language,All,8,SHOPPING,1,understands,0
+American Sign Language,All,10,SHOPPING,3,produces,0
+American Sign Language,All,10,SHOPPING,3,understands,0
+American Sign Language,All,11,SHOPPING,1,produces,0
+American Sign Language,All,11,SHOPPING,1,understands,0
+American Sign Language,All,12,SHOPPING,2,produces,0
+American Sign Language,All,12,SHOPPING,2,understands,0.5
+American Sign Language,All,13,SHOPPING,4,produces,0
+American Sign Language,All,13,SHOPPING,4,understands,0
+American Sign Language,All,14,SHOPPING,1,produces,0
+American Sign Language,All,14,SHOPPING,1,understands,0
+American Sign Language,All,15,SHOPPING,2,produces,0.5
+American Sign Language,All,15,SHOPPING,2,understands,0
+American Sign Language,All,17,SHOPPING,2,produces,0
+American Sign Language,All,17,SHOPPING,2,understands,0
+American Sign Language,All,18,SHOPPING,4,produces,0.5
+American Sign Language,All,18,SHOPPING,4,understands,0
+American Sign Language,All,19,SHOPPING,1,produces,0
+American Sign Language,All,19,SHOPPING,1,understands,0
+American Sign Language,All,20,SHOPPING,1,produces,1
+American Sign Language,All,20,SHOPPING,1,understands,0
+American Sign Language,All,21,SHOPPING,2,produces,0.5
+American Sign Language,All,21,SHOPPING,2,understands,0.5
+American Sign Language,All,22,SHOPPING,2,produces,0
+American Sign Language,All,22,SHOPPING,2,understands,0
+American Sign Language,All,23,SHOPPING,3,produces,0
+American Sign Language,All,23,SHOPPING,3,understands,0
+American Sign Language,All,24,SHOPPING,3,produces,0
+American Sign Language,All,24,SHOPPING,3,understands,0
+American Sign Language,All,25,SHOPPING,2,produces,0.5
+American Sign Language,All,25,SHOPPING,2,understands,0
+American Sign Language,All,27,SHOPPING,2,produces,0.5
+American Sign Language,All,27,SHOPPING,2,understands,0
+American Sign Language,All,28,SHOPPING,4,produces,1
+American Sign Language,All,28,SHOPPING,4,understands,0.25
+American Sign Language,All,30,SHOPPING,3,produces,1
+American Sign Language,All,30,SHOPPING,3,understands,0
+American Sign Language,All,31,SHOPPING,3,produces,0.3333
+American Sign Language,All,31,SHOPPING,3,understands,0
+American Sign Language,All,32,SHOPPING,8,produces,0.875
+American Sign Language,All,32,SHOPPING,8,understands,0
+American Sign Language,All,33,SHOPPING,2,produces,0.5
+American Sign Language,All,33,SHOPPING,2,understands,0.5
+American Sign Language,All,34,SHOPPING,2,produces,1
+American Sign Language,All,34,SHOPPING,2,understands,0
+American Sign Language,All,35,SHOPPING,3,produces,0.6667
+American Sign Language,All,35,SHOPPING,3,understands,0
+British Sign Language,All,8,shopping,4,produces,0
+British Sign Language,All,8,shopping,4,understands,0
+British Sign Language,All,9,shopping,4,produces,0
+British Sign Language,All,9,shopping,4,understands,0
+British Sign Language,All,10,shopping,4,produces,0
+British Sign Language,All,10,shopping,4,understands,0
+British Sign Language,All,11,shopping,6,produces,0
+British Sign Language,All,11,shopping,6,understands,0
+British Sign Language,All,12,shopping,6,produces,0
+British Sign Language,All,12,shopping,6,understands,0
+British Sign Language,All,13,shopping,6,produces,0
+British Sign Language,All,13,shopping,6,understands,0
+British Sign Language,All,14,shopping,7,produces,0
+British Sign Language,All,14,shopping,7,understands,0.1429
+British Sign Language,All,15,shopping,6,produces,0
+British Sign Language,All,15,shopping,6,understands,0
+British Sign Language,All,16,shopping,7,produces,0.1429
+British Sign Language,All,16,shopping,7,understands,0.2857
+British Sign Language,All,17,shopping,7,produces,0
+British Sign Language,All,17,shopping,7,understands,0.1429
+British Sign Language,All,18,shopping,8,produces,0
+British Sign Language,All,18,shopping,8,understands,0
+British Sign Language,All,19,shopping,8,produces,0.125
+British Sign Language,All,19,shopping,8,understands,0.25
+British Sign Language,All,20,shopping,11,produces,0.0909
+British Sign Language,All,20,shopping,11,understands,0.2727
+British Sign Language,All,21,shopping,5,produces,0
+British Sign Language,All,21,shopping,5,understands,0
+British Sign Language,All,22,shopping,6,produces,0
+British Sign Language,All,22,shopping,6,understands,0.1667
+British Sign Language,All,23,shopping,7,produces,0.1429
+British Sign Language,All,23,shopping,7,understands,0.1429
+British Sign Language,All,24,shopping,5,produces,0.2
+British Sign Language,All,24,shopping,5,understands,0.6
+British Sign Language,All,25,shopping,7,produces,0.1429
+British Sign Language,All,25,shopping,7,understands,0.2857
+British Sign Language,All,26,shopping,6,produces,0.6667
+British Sign Language,All,26,shopping,6,understands,0.6667
+British Sign Language,All,27,shopping,6,produces,0.3333
+British Sign Language,All,27,shopping,6,understands,0.3333
+British Sign Language,All,28,shopping,3,produces,0
+British Sign Language,All,28,shopping,3,understands,0.3333
+British Sign Language,All,29,shopping,7,produces,0.8571
+British Sign Language,All,29,shopping,7,understands,0.8571
+British Sign Language,All,30,shopping,5,produces,0.4
+British Sign Language,All,30,shopping,5,understands,0.6
+British Sign Language,All,31,shopping,2,produces,0.5
+British Sign Language,All,31,shopping,2,understands,0.5
+British Sign Language,All,32,shopping,6,produces,0.8333
+British Sign Language,All,32,shopping,6,understands,0.8333
+British Sign Language,All,33,shopping,5,produces,0.8
+British Sign Language,All,33,shopping,5,understands,0.8
+British Sign Language,All,34,shopping,2,produces,0.5
+British Sign Language,All,34,shopping,2,understands,0.5
+British Sign Language,All,35,shopping,2,produces,1
+British Sign Language,All,35,shopping,2,understands,1
+British Sign Language,All,36,shopping,3,produces,1
+British Sign Language,All,36,shopping,3,understands,1
+Danish,All,16,købe ind,184,produces,0.0163
+Danish,All,16,købe ind,184,understands,0
+Danish,All,17,købe ind,176,produces,0.0114
+Danish,All,17,købe ind,176,understands,0
+Danish,All,18,købe ind,160,produces,0.0187
+Danish,All,18,købe ind,160,understands,0
+Danish,All,19,købe ind,205,produces,0.0195
+Danish,All,19,købe ind,205,understands,0
+Danish,All,20,købe ind,196,produces,0.0357
+Danish,All,20,købe ind,196,understands,0
+Danish,All,21,købe ind,236,produces,0.0381
+Danish,All,21,købe ind,236,understands,0
+Danish,All,22,købe ind,235,produces,0.0936
+Danish,All,22,købe ind,235,understands,0
+Danish,All,23,købe ind,190,produces,0.1421
+Danish,All,23,købe ind,190,understands,0
+Danish,All,24,købe ind,216,produces,0.2269
+Danish,All,24,købe ind,216,understands,0
+Danish,All,25,købe ind,138,produces,0.2101
+Danish,All,25,købe ind,138,understands,0
+Danish,All,26,købe ind,206,produces,0.3835
+Danish,All,26,købe ind,206,understands,0
+Danish,All,27,købe ind,176,produces,0.4716
+Danish,All,27,købe ind,176,understands,0
+Danish,All,28,købe ind,190,produces,0.4632
+Danish,All,28,købe ind,190,understands,0
+Danish,All,29,købe ind,182,produces,0.5604
+Danish,All,29,købe ind,182,understands,0
+Danish,All,30,købe ind,173,produces,0.5549
+Danish,All,30,købe ind,173,understands,0
+Danish,All,31,købe ind,175,produces,0.6514
+Danish,All,31,købe ind,175,understands,0
+Danish,All,32,købe ind,143,produces,0.7762
+Danish,All,32,købe ind,143,understands,0
+Danish,All,33,købe ind,151,produces,0.8411
+Danish,All,33,købe ind,151,understands,0
+Danish,All,34,købe ind,143,produces,0.8601
+Danish,All,34,købe ind,143,understands,0
+Danish,All,35,købe ind,113,produces,0.8407
+Danish,All,35,købe ind,113,understands,0
+Danish,All,36,købe ind,126,produces,0.8571
+Danish,All,36,købe ind,126,understands,0
+Dutch,All,16,winkelen,4,produces,0
+Dutch,All,16,winkelen,4,understands,0
+Dutch,All,17,winkelen,49,produces,0
+Dutch,All,17,winkelen,49,understands,0
+Dutch,All,18,winkelen,68,produces,0.0147
+Dutch,All,18,winkelen,68,understands,0
+Dutch,All,19,winkelen,7,produces,0
+Dutch,All,19,winkelen,7,understands,0
+Dutch,All,20,winkelen,7,produces,0.1429
+Dutch,All,20,winkelen,7,understands,0
+Dutch,All,21,winkelen,7,produces,0
+Dutch,All,21,winkelen,7,understands,0
+Dutch,All,22,winkelen,7,produces,0.2857
+Dutch,All,22,winkelen,7,understands,0
+Dutch,All,23,winkelen,51,produces,0.1765
+Dutch,All,23,winkelen,51,understands,0
+Dutch,All,24,winkelen,31,produces,0.1935
+Dutch,All,24,winkelen,31,understands,0
+Dutch,All,25,winkelen,6,produces,0.1667
+Dutch,All,25,winkelen,6,understands,0
+Dutch,All,26,winkelen,6,produces,0.3333
+Dutch,All,26,winkelen,6,understands,0
+Dutch,All,27,winkelen,5,produces,0.4
+Dutch,All,27,winkelen,5,understands,0
+Dutch,All,28,winkelen,6,produces,0.8333
+Dutch,All,28,winkelen,6,understands,0
+Dutch,All,29,winkelen,23,produces,0.7826
+Dutch,All,29,winkelen,23,understands,0
+Dutch,All,30,winkelen,24,produces,0.75
+Dutch,All,30,winkelen,24,understands,0
+Dutch,All,31,winkelen,2,produces,1
+Dutch,All,31,winkelen,2,understands,0
+English (American),All,16,shopping,930,produces,0.0172
+English (American),All,16,shopping,930,understands,0
+English (American),All,17,shopping,467,produces,0.03
+English (American),All,17,shopping,467,understands,0
+English (American),All,18,shopping,664,produces,0.0527
+English (American),All,18,shopping,664,understands,0
+English (American),All,19,shopping,579,produces,0.1054
+English (American),All,19,shopping,579,understands,0
+English (American),All,20,shopping,546,produces,0.0934
+English (American),All,20,shopping,546,understands,0
+English (American),All,21,shopping,377,produces,0.1273
+English (American),All,21,shopping,377,understands,0
+English (American),All,22,shopping,456,produces,0.1842
+English (American),All,22,shopping,456,understands,0
+English (American),All,23,shopping,470,produces,0.283
+English (American),All,23,shopping,470,understands,0
+English (American),All,24,shopping,985,produces,0.3371
+English (American),All,24,shopping,985,understands,0
+English (American),All,25,shopping,757,produces,0.4069
+English (American),All,25,shopping,757,understands,0
+English (American),All,26,shopping,435,produces,0.4644
+English (American),All,26,shopping,435,understands,0
+English (American),All,27,shopping,361,produces,0.5152
+English (American),All,27,shopping,361,understands,0
+English (American),All,28,shopping,954,produces,0.7002
+English (American),All,28,shopping,954,understands,0
+English (American),All,29,shopping,390,produces,0.6051
+English (American),All,29,shopping,390,understands,0
+English (American),All,30,shopping,785,produces,0.6166
+English (American),All,30,shopping,785,understands,0
+English (Australian),All,12,shopping,71,produces,0
+English (Australian),All,12,shopping,71,understands,0
+English (Australian),All,13,shopping,64,produces,0
+English (Australian),All,13,shopping,64,understands,0
+English (Australian),All,14,shopping,111,produces,0.036
+English (Australian),All,14,shopping,111,understands,0
+English (Australian),All,15,shopping,69,produces,0.0435
+English (Australian),All,15,shopping,69,understands,0
+English (Australian),All,16,shopping,60,produces,0.0333
+English (Australian),All,16,shopping,60,understands,0
+English (Australian),All,17,shopping,104,produces,0.0673
+English (Australian),All,17,shopping,104,understands,0
+English (Australian),All,18,shopping,109,produces,0.0734
+English (Australian),All,18,shopping,109,understands,0
+English (Australian),All,19,shopping,124,produces,0.1371
+English (Australian),All,19,shopping,124,understands,0
+English (Australian),All,20,shopping,78,produces,0.2179
+English (Australian),All,20,shopping,78,understands,0
+English (Australian),All,21,shopping,68,produces,0.25
+English (Australian),All,21,shopping,68,understands,0
+English (Australian),All,22,shopping,73,produces,0.4247
+English (Australian),All,22,shopping,73,understands,0
+English (Australian),All,23,shopping,71,produces,0.5493
+English (Australian),All,23,shopping,71,understands,0
+English (Australian),All,24,shopping,76,produces,0.5132
+English (Australian),All,24,shopping,76,understands,0
+English (Australian),All,25,shopping,85,produces,0.5647
+English (Australian),All,25,shopping,85,understands,0
+English (Australian),All,26,shopping,77,produces,0.6364
+English (Australian),All,26,shopping,77,understands,0
+English (Australian),All,27,shopping,72,produces,0.75
+English (Australian),All,27,shopping,72,understands,0
+English (Australian),All,28,shopping,67,produces,0.7164
+English (Australian),All,28,shopping,67,understands,0
+English (Australian),All,29,shopping,65,produces,0.9077
+English (Australian),All,29,shopping,65,understands,0
+English (Australian),All,30,shopping,53,produces,0.8491
+English (Australian),All,30,shopping,53,understands,0
+English (British),All,20,shopping,2,produces,0
+English (British),All,20,shopping,2,understands,0
+English (British),All,21,shopping,7,produces,0.5714
+English (British),All,21,shopping,7,understands,0
+English (British),All,22,shopping,268,produces,0.4067
+English (British),All,22,shopping,268,understands,0
+English (British),All,23,shopping,2861,produces,0.4268
+English (British),All,23,shopping,2861,understands,0
+English (British),All,24,shopping,6411,produces,0.4806
+English (British),All,24,shopping,6411,understands,0
+English (British),All,25,shopping,807,produces,0.5217
+English (British),All,25,shopping,807,understands,0
+English (British),All,26,shopping,282,produces,0.6241
+English (British),All,26,shopping,282,understands,0
+English (British),All,27,shopping,149,produces,0.6376
+English (British),All,27,shopping,149,understands,0
+English (British),All,28,shopping,93,produces,0.6344
+English (British),All,28,shopping,93,understands,0
+English (British),All,29,shopping,90,produces,0.7889
+English (British),All,29,shopping,90,understands,0
+English (British),All,30,shopping,49,produces,0.9388
+English (British),All,30,shopping,49,understands,0
+English (British),All,31,shopping,48,produces,0.8333
+English (British),All,31,shopping,48,understands,0
+English (British),All,32,shopping,27,produces,0.7778
+English (British),All,32,shopping,27,understands,0
+English (British),All,33,shopping,15,produces,0.9333
+English (British),All,33,shopping,15,understands,0
+English (British),All,34,shopping,10,produces,0.3
+English (British),All,34,shopping,10,understands,0
+English (British),All,35,shopping,10,produces,0.7
+English (British),All,35,shopping,10,understands,0
+English (Irish),All,17,shopping,2,produces,0
+English (Irish),All,17,shopping,2,understands,0
+English (Irish),All,18,shopping,1,produces,0
+English (Irish),All,18,shopping,1,understands,0
+English (Irish),All,19,shopping,2,produces,0
+English (Irish),All,19,shopping,2,understands,0
+English (Irish),All,20,shopping,1,produces,0
+English (Irish),All,20,shopping,1,understands,0
+English (Irish),All,21,shopping,3,produces,0
+English (Irish),All,21,shopping,3,understands,0
+English (Irish),All,22,shopping,4,produces,0
+English (Irish),All,22,shopping,4,understands,0
+English (Irish),All,23,shopping,4,produces,0
+English (Irish),All,23,shopping,4,understands,0
+English (Irish),All,24,shopping,4,produces,0.25
+English (Irish),All,24,shopping,4,understands,0
+English (Irish),All,25,shopping,6,produces,0
+English (Irish),All,25,shopping,6,understands,0
+English (Irish),All,26,shopping,10,produces,0.1
+English (Irish),All,26,shopping,10,understands,0
+English (Irish),All,27,shopping,5,produces,0.2
+English (Irish),All,27,shopping,5,understands,0
+English (Irish),All,28,shopping,7,produces,0.1429
+English (Irish),All,28,shopping,7,understands,0
+English (Irish),All,29,shopping,4,produces,0.25
+English (Irish),All,29,shopping,4,understands,0
+English (Irish),All,30,shopping,9,produces,0.1111
+English (Irish),All,30,shopping,9,understands,0
+English (Irish),All,31,shopping,8,produces,0.25
+English (Irish),All,31,shopping,8,understands,0
+English (Irish),All,32,shopping,4,produces,0.75
+English (Irish),All,32,shopping,4,understands,0
+English (Irish),All,33,shopping,5,produces,0.2
+English (Irish),All,33,shopping,5,understands,0
+English (Irish),All,34,shopping,4,produces,0.25
+English (Irish),All,34,shopping,4,understands,0
+English (Irish),All,35,shopping,11,produces,0.3636
+English (Irish),All,35,shopping,11,understands,0
+English (Irish),All,36,shopping,5,produces,0.2
+English (Irish),All,36,shopping,5,understands,0
+Finnish,All,18,käydä ostoksilla,35,produces,0
+Finnish,All,18,käydä ostoksilla,35,understands,0
+Finnish,All,24,käydä ostoksilla,35,produces,0.5429
+Finnish,All,24,käydä ostoksilla,35,understands,0
+French (French),All,16,faire les courses,92,produces,0.0326
+French (French),All,16,faire les courses,92,understands,0
+French (French),All,17,faire les courses,52,produces,0
+French (French),All,17,faire les courses,52,understands,0
+French (French),All,18,faire les courses,54,produces,0.2407
+French (French),All,18,faire les courses,54,understands,0
+French (French),All,19,faire les courses,42,produces,0.1429
+French (French),All,19,faire les courses,42,understands,0
+French (French),All,20,faire les courses,81,produces,0.1111
+French (French),All,20,faire les courses,81,understands,0
+French (French),All,21,faire les courses,102,produces,0.2353
+French (French),All,21,faire les courses,102,understands,0
+French (French),All,22,faire les courses,103,produces,0.301
+French (French),All,22,faire les courses,103,understands,0
+French (French),All,23,faire les courses,118,produces,0.2288
+French (French),All,23,faire les courses,118,understands,0
+French (French),All,24,faire les courses,173,produces,0.2775
+French (French),All,24,faire les courses,173,understands,0
+French (French),All,25,faire les courses,87,produces,0.4138
+French (French),All,25,faire les courses,87,understands,0
+French (French),All,26,faire les courses,64,produces,0.4688
+French (French),All,26,faire les courses,64,understands,0
+French (French),All,27,faire les courses,54,produces,0.5185
+French (French),All,27,faire les courses,54,understands,0
+French (French),All,28,faire les courses,76,produces,0.5658
+French (French),All,28,faire les courses,76,understands,0
+French (French),All,29,faire les courses,67,produces,0.6567
+French (French),All,29,faire les courses,67,understands,0
+French (French),All,30,faire les courses,68,produces,0.5147
+French (French),All,30,faire les courses,68,understands,0
+French (Quebecois),All,16,aller au magasin,47,produces,0
+French (Quebecois),All,16,aller au magasin,47,understands,0
+French (Quebecois),All,17,aller au magasin,62,produces,0
+French (Quebecois),All,17,aller au magasin,62,understands,0
+French (Quebecois),All,18,aller au magasin,99,produces,0.0303
+French (Quebecois),All,18,aller au magasin,99,understands,0
+French (Quebecois),All,19,aller au magasin,91,produces,0.022
+French (Quebecois),All,19,aller au magasin,91,understands,0
+French (Quebecois),All,20,aller au magasin,196,produces,0.051
+French (Quebecois),All,20,aller au magasin,196,understands,0
+French (Quebecois),All,21,aller au magasin,109,produces,0.0367
+French (Quebecois),All,21,aller au magasin,109,understands,0
+French (Quebecois),All,22,aller au magasin,86,produces,0.1744
+French (Quebecois),All,22,aller au magasin,86,understands,0
+French (Quebecois),All,23,aller au magasin,86,produces,0.2558
+French (Quebecois),All,23,aller au magasin,86,understands,0
+French (Quebecois),All,24,aller au magasin,132,produces,0.2273
+French (Quebecois),All,24,aller au magasin,132,understands,0
+French (Quebecois),All,25,aller au magasin,87,produces,0.3218
+French (Quebecois),All,25,aller au magasin,87,understands,0
+French (Quebecois),All,26,aller au magasin,95,produces,0.4105
+French (Quebecois),All,26,aller au magasin,95,understands,0
+French (Quebecois),All,27,aller au magasin,74,produces,0.5
+French (Quebecois),All,27,aller au magasin,74,understands,0
+French (Quebecois),All,28,aller au magasin,61,produces,0.5902
+French (Quebecois),All,28,aller au magasin,61,understands,0
+French (Quebecois),All,29,aller au magasin,70,produces,0.7429
+French (Quebecois),All,29,aller au magasin,70,understands,0
+French (Quebecois),All,30,aller au magasin,100,produces,0.6
+French (Quebecois),All,30,aller au magasin,100,understands,0
+German,All,18,einkaufen,85,produces,0.0706
+German,All,18,einkaufen,85,understands,0
+German,All,19,einkaufen,79,produces,0.0759
+German,All,19,einkaufen,79,understands,0
+German,All,20,einkaufen,96,produces,0.1354
+German,All,20,einkaufen,96,understands,0
+German,All,21,einkaufen,77,produces,0.2857
+German,All,21,einkaufen,77,understands,0
+German,All,22,einkaufen,95,produces,0.3368
+German,All,22,einkaufen,95,understands,0
+German,All,23,einkaufen,95,produces,0.4
+German,All,23,einkaufen,95,understands,0
+German,All,24,einkaufen,103,produces,0.4757
+German,All,24,einkaufen,103,understands,0
+German,All,25,einkaufen,95,produces,0.5263
+German,All,25,einkaufen,95,understands,0
+German,All,26,einkaufen,92,produces,0.7174
+German,All,26,einkaufen,92,understands,0
+German,All,27,einkaufen,89,produces,0.6292
+German,All,27,einkaufen,89,understands,0
+German,All,28,einkaufen,93,produces,0.8065
+German,All,28,einkaufen,93,understands,0
+German,All,29,einkaufen,89,produces,0.8315
+German,All,29,einkaufen,89,understands,0
+German,All,30,einkaufen,93,produces,0.9247
+German,All,30,einkaufen,93,understands,0
+Hungarian,All,16,vásárlás,21,produces,0
+Hungarian,All,16,vásárlás,21,understands,0
+Hungarian,All,17,vásárlás,18,produces,0.0556
+Hungarian,All,17,vásárlás,18,understands,0
+Hungarian,All,18,vásárlás,18,produces,0
+Hungarian,All,18,vásárlás,18,understands,0
+Hungarian,All,19,vásárlás,26,produces,0.1154
+Hungarian,All,19,vásárlás,26,understands,0
+Hungarian,All,20,vásárlás,18,produces,0.0556
+Hungarian,All,20,vásárlás,18,understands,0
+Hungarian,All,21,vásárlás,36,produces,0.1667
+Hungarian,All,21,vásárlás,36,understands,0
+Hungarian,All,22,vásárlás,27,produces,0.1852
+Hungarian,All,22,vásárlás,27,understands,0
+Hungarian,All,23,vásárlás,18,produces,0.1667
+Hungarian,All,23,vásárlás,18,understands,0
+Hungarian,All,24,vásárlás,38,produces,0.1842
+Hungarian,All,24,vásárlás,38,understands,0
+Hungarian,All,25,vásárlás,43,produces,0.4419
+Hungarian,All,25,vásárlás,43,understands,0
+Hungarian,All,26,vásárlás,23,produces,0.4783
+Hungarian,All,26,vásárlás,23,understands,0
+Hungarian,All,27,vásárlás,26,produces,0.4231
+Hungarian,All,27,vásárlás,26,understands,0
+Hungarian,All,28,vásárlás,30,produces,0.5
+Hungarian,All,28,vásárlás,30,understands,0
+Hungarian,All,29,vásárlás,12,produces,0.5833
+Hungarian,All,29,vásárlás,12,understands,0
+Hungarian,All,30,vásárlás,18,produces,0.5556
+Hungarian,All,30,vásárlás,18,understands,0
+Irish,All,17,siopadóireacht,2,produces,0
+Irish,All,17,siopadóireacht,2,understands,0
+Irish,All,18,siopadóireacht,1,produces,0
+Irish,All,18,siopadóireacht,1,understands,0
+Irish,All,19,siopadóireacht,2,produces,0
+Irish,All,19,siopadóireacht,2,understands,0
+Irish,All,20,siopadóireacht,1,produces,0
+Irish,All,20,siopadóireacht,1,understands,0
+Irish,All,21,siopadóireacht,3,produces,0
+Irish,All,21,siopadóireacht,3,understands,0
+Irish,All,22,siopadóireacht,4,produces,0
+Irish,All,22,siopadóireacht,4,understands,0
+Irish,All,23,siopadóireacht,4,produces,0.25
+Irish,All,23,siopadóireacht,4,understands,0
+Irish,All,24,siopadóireacht,4,produces,0.5
+Irish,All,24,siopadóireacht,4,understands,0
+Irish,All,25,siopadóireacht,6,produces,0.5
+Irish,All,25,siopadóireacht,6,understands,0
+Irish,All,26,siopadóireacht,10,produces,0.4
+Irish,All,26,siopadóireacht,10,understands,0
+Irish,All,27,siopadóireacht,5,produces,0.2
+Irish,All,27,siopadóireacht,5,understands,0
+Irish,All,28,siopadóireacht,7,produces,0.4286
+Irish,All,28,siopadóireacht,7,understands,0
+Irish,All,29,siopadóireacht,4,produces,0.25
+Irish,All,29,siopadóireacht,4,understands,0
+Irish,All,30,siopadóireacht,9,produces,0.5556
+Irish,All,30,siopadóireacht,9,understands,0
+Irish,All,31,siopadóireacht,8,produces,0.625
+Irish,All,31,siopadóireacht,8,understands,0
+Irish,All,32,siopadóireacht,4,produces,0.5
+Irish,All,32,siopadóireacht,4,understands,0
+Irish,All,33,siopadóireacht,5,produces,0.6
+Irish,All,33,siopadóireacht,5,understands,0
+Irish,All,34,siopadóireacht,4,produces,0.75
+Irish,All,34,siopadóireacht,4,understands,0
+Irish,All,35,siopadóireacht,11,produces,0.7273
+Irish,All,35,siopadóireacht,11,understands,0
+Irish,All,36,siopadóireacht,5,produces,0.8
+Irish,All,36,siopadóireacht,5,understands,0
+Japanese,All,16,お買いもの,11,produces,0
+Japanese,All,16,お買いもの,11,understands,0
+Japanese,All,17,お買いもの,17,produces,0
+Japanese,All,17,お買いもの,17,understands,0
+Japanese,All,18,お買いもの,56,produces,0
+Japanese,All,18,お買いもの,56,understands,0
+Japanese,All,19,お買いもの,35,produces,0.0286
+Japanese,All,19,お買いもの,35,understands,0
+Japanese,All,20,お買いもの,59,produces,0.0339
+Japanese,All,20,お買いもの,59,understands,0
+Japanese,All,21,お買いもの,62,produces,0.0968
+Japanese,All,21,お買いもの,62,understands,0
+Japanese,All,22,お買いもの,31,produces,0.0645
+Japanese,All,22,お買いもの,31,understands,0
+Japanese,All,23,お買いもの,67,produces,0.2687
+Japanese,All,23,お買いもの,67,understands,0
+Japanese,All,24,お買いもの,33,produces,0.303
+Japanese,All,24,お買いもの,33,understands,0
+Japanese,All,25,お買いもの,34,produces,0.5
+Japanese,All,25,お買いもの,34,understands,0
+Japanese,All,26,お買いもの,33,produces,0.6364
+Japanese,All,26,お買いもの,33,understands,0
+Japanese,All,27,お買いもの,15,produces,0.4
+Japanese,All,27,お買いもの,15,understands,0
+Japanese,All,28,お買いもの,18,produces,0.6667
+Japanese,All,28,お買いもの,18,understands,0
+Japanese,All,29,お買いもの,17,produces,0.5882
+Japanese,All,29,お買いもの,17,understands,0
+Japanese,All,30,お買いもの,18,produces,0.7778
+Japanese,All,30,お買いもの,18,understands,0
+Japanese,All,31,お買いもの,18,produces,0.7222
+Japanese,All,31,お買いもの,18,understands,0
+Japanese,All,32,お買いもの,13,produces,0.8462
+Japanese,All,32,お買いもの,13,understands,0
+Japanese,All,33,お買いもの,16,produces,0.875
+Japanese,All,33,お買いもの,16,understands,0
+Japanese,All,34,お買いもの,13,produces,0.8462
+Japanese,All,34,お買いもの,13,understands,0
+Japanese,All,35,お買いもの,31,produces,0.871
+Japanese,All,35,お買いもの,31,understands,0
+Japanese,All,36,お買いもの,18,produces,0.8889
+Japanese,All,36,お買いもの,18,understands,0
+Mandarin (Beijing),All,17,买东西,40,produces,0.075
+Mandarin (Beijing),All,17,买东西,40,understands,0
+Mandarin (Beijing),All,18,买东西,50,produces,0.12
+Mandarin (Beijing),All,18,买东西,50,understands,0
+Mandarin (Beijing),All,19,买东西,50,produces,0.18
+Mandarin (Beijing),All,19,买东西,50,understands,0
+Mandarin (Beijing),All,20,买东西,50,produces,0.22
+Mandarin (Beijing),All,20,买东西,50,understands,0
+Mandarin (Beijing),All,21,买东西,49,produces,0.3265
+Mandarin (Beijing),All,21,买东西,49,understands,0
+Mandarin (Beijing),All,22,买东西,46,produces,0.2391
+Mandarin (Beijing),All,22,买东西,46,understands,0
+Mandarin (Beijing),All,23,买东西,50,produces,0.46
+Mandarin (Beijing),All,23,买东西,50,understands,0
+Mandarin (Beijing),All,24,买东西,50,produces,0.42
+Mandarin (Beijing),All,24,买东西,50,understands,0
+Mandarin (Beijing),All,25,买东西,43,produces,0.4884
+Mandarin (Beijing),All,25,买东西,43,understands,0
+Mandarin (Beijing),All,26,买东西,47,produces,0.5745
+Mandarin (Beijing),All,26,买东西,47,understands,0
+Mandarin (Beijing),All,27,买东西,44,produces,0.7273
+Mandarin (Beijing),All,27,买东西,44,understands,0
+Mandarin (Beijing),All,28,买东西,44,produces,0.7045
+Mandarin (Beijing),All,28,买东西,44,understands,0
+Mandarin (Beijing),All,29,买东西,49,produces,0.7755
+Mandarin (Beijing),All,29,买东西,49,understands,0
+Mandarin (Beijing),All,30,买东西,40,produces,0.9
+Mandarin (Beijing),All,30,买东西,40,understands,0
+Mandarin (Taiwanese),All,8,逛街/買東西,86,produces,0
+Mandarin (Taiwanese),All,8,逛街/買東西,86,understands,0.2558
+Mandarin (Taiwanese),All,9,逛街/買東西,79,produces,0
+Mandarin (Taiwanese),All,9,逛街/買東西,79,understands,0.3291
+Mandarin (Taiwanese),All,10,逛街/買東西,78,produces,0
+Mandarin (Taiwanese),All,10,逛街/買東西,78,understands,0.1026
+Mandarin (Taiwanese),All,11,逛街/買東西,79,produces,0
+Mandarin (Taiwanese),All,11,逛街/買東西,79,understands,0.1266
+Mandarin (Taiwanese),All,12,逛街/買東西,80,produces,0.0375
+Mandarin (Taiwanese),All,12,逛街/買東西,80,understands,0.15
+Mandarin (Taiwanese),All,13,逛街/買東西,78,produces,0.0385
+Mandarin (Taiwanese),All,13,逛街/買東西,78,understands,0.2179
+Mandarin (Taiwanese),All,14,逛街/買東西,81,produces,0.037
+Mandarin (Taiwanese),All,14,逛街/買東西,81,understands,0.2099
+Mandarin (Taiwanese),All,15,逛街/買東西,106,produces,0.0472
+Mandarin (Taiwanese),All,15,逛街/買東西,106,understands,0.2642
+Mandarin (Taiwanese),All,16,逛街/買東西,170,produces,0.0235
+Mandarin (Taiwanese),All,16,逛街/買東西,170,understands,0.1294
+Mandarin (Taiwanese),All,17,逛街/買東西,87,produces,0.046
+Mandarin (Taiwanese),All,17,逛街/買東西,87,understands,0
+Mandarin (Taiwanese),All,18,逛街/買東西,84,produces,0.0476
+Mandarin (Taiwanese),All,18,逛街/買東西,84,understands,0
+Mandarin (Taiwanese),All,19,逛街/買東西,84,produces,0.119
+Mandarin (Taiwanese),All,19,逛街/買東西,84,understands,0
+Mandarin (Taiwanese),All,20,逛街/買東西,84,produces,0.1548
+Mandarin (Taiwanese),All,20,逛街/買東西,84,understands,0
+Mandarin (Taiwanese),All,21,逛街/買東西,88,produces,0.2159
+Mandarin (Taiwanese),All,21,逛街/買東西,88,understands,0
+Mandarin (Taiwanese),All,22,逛街/買東西,96,produces,0.3021
+Mandarin (Taiwanese),All,22,逛街/買東西,96,understands,0
+Mandarin (Taiwanese),All,23,逛街/買東西,105,produces,0.3429
+Mandarin (Taiwanese),All,23,逛街/買東西,105,understands,0
+Mandarin (Taiwanese),All,24,逛街/買東西,124,produces,0.379
+Mandarin (Taiwanese),All,24,逛街/買東西,124,understands,0
+Mandarin (Taiwanese),All,25,逛街/買東西,110,produces,0.4364
+Mandarin (Taiwanese),All,25,逛街/買東西,110,understands,0
+Mandarin (Taiwanese),All,26,逛街/買東西,87,produces,0.5172
+Mandarin (Taiwanese),All,26,逛街/買東西,87,understands,0
+Mandarin (Taiwanese),All,27,逛街/買東西,92,produces,0.5761
+Mandarin (Taiwanese),All,27,逛街/買東西,92,understands,0
+Mandarin (Taiwanese),All,28,逛街/買東西,100,produces,0.69
+Mandarin (Taiwanese),All,28,逛街/買東西,100,understands,0
+Mandarin (Taiwanese),All,29,逛街/買東西,88,produces,0.7273
+Mandarin (Taiwanese),All,29,逛街/買東西,88,understands,0
+Mandarin (Taiwanese),All,30,逛街/買東西,94,produces,0.7234
+Mandarin (Taiwanese),All,30,逛街/買東西,94,understands,0
+Mandarin (Taiwanese),All,31,逛街/買東西,88,produces,0.7727
+Mandarin (Taiwanese),All,31,逛街/買東西,88,understands,0
+Mandarin (Taiwanese),All,32,逛街/買東西,82,produces,0.6829
+Mandarin (Taiwanese),All,32,逛街/買東西,82,understands,0
+Mandarin (Taiwanese),All,33,逛街/買東西,85,produces,0.8941
+Mandarin (Taiwanese),All,33,逛街/買東西,85,understands,0
+Mandarin (Taiwanese),All,34,逛街/買東西,77,produces,0.8052
+Mandarin (Taiwanese),All,34,逛街/買東西,77,understands,0
+Mandarin (Taiwanese),All,35,逛街/買東西,81,produces,0.9012
+Mandarin (Taiwanese),All,35,逛街/買東西,81,understands,0
+Mandarin (Taiwanese),All,36,逛街/買東西,81,produces,0.9012
+Mandarin (Taiwanese),All,36,逛街/買東西,81,understands,0
+Norwegian,All,16,handle,98,produces,0.0102
+Norwegian,All,16,handle,98,understands,0
+Norwegian,All,17,handle,218,produces,0.0092
+Norwegian,All,17,handle,218,understands,0
+Norwegian,All,18,handle,271,produces,0.0221
+Norwegian,All,18,handle,271,understands,0
+Norwegian,All,19,handle,281,produces,0.0285
+Norwegian,All,19,handle,281,understands,0
+Norwegian,All,20,handle,342,produces,0.0614
+Norwegian,All,20,handle,342,understands,0
+Norwegian,All,21,handle,418,produces,0.0957
+Norwegian,All,21,handle,418,understands,0
+Norwegian,All,22,handle,596,produces,0.1309
+Norwegian,All,22,handle,596,understands,0
+Norwegian,All,23,handle,566,produces,0.2085
+Norwegian,All,23,handle,566,understands,0
+Norwegian,All,24,handle,538,produces,0.2509
+Norwegian,All,24,handle,538,understands,0
+Norwegian,All,25,handle,656,produces,0.3491
+Norwegian,All,25,handle,656,understands,0
+Norwegian,All,26,handle,644,produces,0.4255
+Norwegian,All,26,handle,644,understands,0
+Norwegian,All,27,handle,525,produces,0.541
+Norwegian,All,27,handle,525,understands,0
+Norwegian,All,28,handle,544,produces,0.5533
+Norwegian,All,28,handle,544,understands,0
+Norwegian,All,29,handle,536,produces,0.5989
+Norwegian,All,29,handle,536,understands,0
+Norwegian,All,30,handle,457,produces,0.663
+Norwegian,All,30,handle,457,understands,0
+Norwegian,All,31,handle,479,produces,0.7098
+Norwegian,All,31,handle,479,understands,0
+Norwegian,All,32,handle,451,produces,0.7716
+Norwegian,All,32,handle,451,understands,0
+Norwegian,All,33,handle,430,produces,0.8047
+Norwegian,All,33,handle,430,understands,0
+Norwegian,All,34,handle,424,produces,0.7854
+Norwegian,All,34,handle,424,understands,0
+Norwegian,All,35,handle,422,produces,0.8081
+Norwegian,All,35,handle,422,understands,0
+Norwegian,All,36,handle,329,produces,0.8571
+Norwegian,All,36,handle,329,understands,0
+Swedish,All,16,handla,159,produces,0.0063
+Swedish,All,16,handla,159,understands,0
+Swedish,All,19,handla,152,produces,0.0724
+Swedish,All,19,handla,152,understands,0
+Swedish,All,22,handla,307,produces,0.3094
+Swedish,All,22,handla,307,understands,0
+Swedish,All,25,handla,143,produces,0.5734
+Swedish,All,25,handla,143,understands,0
+Swedish,All,28,handla,139,produces,0.7554
+Swedish,All,28,handla,139,understands,0
+American Sign Language,Male,8,SHOPPING,1,produces,0
+American Sign Language,Male,8,SHOPPING,1,understands,0
+American Sign Language,Female,10,SHOPPING,2,produces,0
+American Sign Language,Female,10,SHOPPING,2,understands,0
+American Sign Language,Male,10,SHOPPING,1,produces,0
+American Sign Language,Male,10,SHOPPING,1,understands,0
+American Sign Language,Female,11,SHOPPING,1,produces,0
+American Sign Language,Female,11,SHOPPING,1,understands,0
+American Sign Language,Female,12,SHOPPING,1,produces,0
+American Sign Language,Female,12,SHOPPING,1,understands,1
+American Sign Language,Male,12,SHOPPING,1,produces,0
+American Sign Language,Male,12,SHOPPING,1,understands,0
+American Sign Language,Female,13,SHOPPING,3,produces,0
+American Sign Language,Female,13,SHOPPING,3,understands,0
+American Sign Language,Male,13,SHOPPING,1,produces,0
+American Sign Language,Male,13,SHOPPING,1,understands,0
+American Sign Language,Female,14,SHOPPING,1,produces,0
+American Sign Language,Female,14,SHOPPING,1,understands,0
+American Sign Language,Female,15,SHOPPING,1,produces,1
+American Sign Language,Female,15,SHOPPING,1,understands,0
+American Sign Language,Male,15,SHOPPING,1,produces,0
+American Sign Language,Male,15,SHOPPING,1,understands,0
+American Sign Language,Female,17,SHOPPING,1,produces,0
+American Sign Language,Female,17,SHOPPING,1,understands,0
+American Sign Language,Male,17,SHOPPING,1,produces,0
+American Sign Language,Male,17,SHOPPING,1,understands,0
+American Sign Language,Female,18,SHOPPING,1,produces,1
+American Sign Language,Female,18,SHOPPING,1,understands,0
+American Sign Language,Male,18,SHOPPING,3,produces,0.3333
+American Sign Language,Male,18,SHOPPING,3,understands,0
+American Sign Language,Male,19,SHOPPING,1,produces,0
+American Sign Language,Male,19,SHOPPING,1,understands,0
+American Sign Language,Male,20,SHOPPING,1,produces,1
+American Sign Language,Male,20,SHOPPING,1,understands,0
+American Sign Language,Female,21,SHOPPING,1,produces,1
+American Sign Language,Female,21,SHOPPING,1,understands,1
+American Sign Language,Male,21,SHOPPING,1,produces,0
+American Sign Language,Male,21,SHOPPING,1,understands,0
+American Sign Language,Female,22,SHOPPING,1,produces,0
+American Sign Language,Female,22,SHOPPING,1,understands,0
+American Sign Language,Male,22,SHOPPING,1,produces,0
+American Sign Language,Male,22,SHOPPING,1,understands,0
+American Sign Language,Female,23,SHOPPING,2,produces,0
+American Sign Language,Female,23,SHOPPING,2,understands,0
+American Sign Language,Male,23,SHOPPING,1,produces,0
+American Sign Language,Male,23,SHOPPING,1,understands,0
+American Sign Language,Female,24,SHOPPING,1,produces,0
+American Sign Language,Female,24,SHOPPING,1,understands,0
+American Sign Language,Male,24,SHOPPING,2,produces,0
+American Sign Language,Male,24,SHOPPING,2,understands,0
+American Sign Language,Female,25,SHOPPING,2,produces,0.5
+American Sign Language,Female,25,SHOPPING,2,understands,0
+American Sign Language,Male,27,SHOPPING,2,produces,0.5
+American Sign Language,Male,27,SHOPPING,2,understands,0
+American Sign Language,Female,28,SHOPPING,2,produces,1
+American Sign Language,Female,28,SHOPPING,2,understands,0.5
+American Sign Language,Male,28,SHOPPING,2,produces,1
+American Sign Language,Male,28,SHOPPING,2,understands,0
+American Sign Language,Female,30,SHOPPING,1,produces,1
+American Sign Language,Female,30,SHOPPING,1,understands,0
+American Sign Language,Male,30,SHOPPING,2,produces,1
+American Sign Language,Male,30,SHOPPING,2,understands,0
+American Sign Language,Female,31,SHOPPING,3,produces,0.3333
+American Sign Language,Female,31,SHOPPING,3,understands,0
+American Sign Language,Female,32,SHOPPING,1,produces,1
+American Sign Language,Female,32,SHOPPING,1,understands,0
+American Sign Language,Male,32,SHOPPING,7,produces,0.8571
+American Sign Language,Male,32,SHOPPING,7,understands,0
+American Sign Language,Male,33,SHOPPING,2,produces,0.5
+American Sign Language,Male,33,SHOPPING,2,understands,0.5
+American Sign Language,Female,34,SHOPPING,1,produces,1
+American Sign Language,Female,34,SHOPPING,1,understands,0
+American Sign Language,Male,34,SHOPPING,1,produces,1
+American Sign Language,Male,34,SHOPPING,1,understands,0
+American Sign Language,Female,35,SHOPPING,2,produces,1
+American Sign Language,Female,35,SHOPPING,2,understands,0
+American Sign Language,Male,35,SHOPPING,1,produces,0
+American Sign Language,Male,35,SHOPPING,1,understands,0
+British Sign Language,Female,8,shopping,2,produces,0
+British Sign Language,Female,8,shopping,2,understands,0
+British Sign Language,Male,8,shopping,2,produces,0
+British Sign Language,Male,8,shopping,2,understands,0
+British Sign Language,Female,9,shopping,3,produces,0
+British Sign Language,Female,9,shopping,3,understands,0
+British Sign Language,Male,9,shopping,1,produces,0
+British Sign Language,Male,9,shopping,1,understands,0
+British Sign Language,Female,10,shopping,1,produces,0
+British Sign Language,Female,10,shopping,1,understands,0
+British Sign Language,Male,10,shopping,3,produces,0
+British Sign Language,Male,10,shopping,3,understands,0
+British Sign Language,Female,11,shopping,4,produces,0
+British Sign Language,Female,11,shopping,4,understands,0
+British Sign Language,Male,11,shopping,2,produces,0
+British Sign Language,Male,11,shopping,2,understands,0
+British Sign Language,Female,12,shopping,3,produces,0
+British Sign Language,Female,12,shopping,3,understands,0
+British Sign Language,Male,12,shopping,3,produces,0
+British Sign Language,Male,12,shopping,3,understands,0
+British Sign Language,Female,13,shopping,2,produces,0
+British Sign Language,Female,13,shopping,2,understands,0
+British Sign Language,Male,13,shopping,4,produces,0
+British Sign Language,Male,13,shopping,4,understands,0
+British Sign Language,Female,14,shopping,3,produces,0
+British Sign Language,Female,14,shopping,3,understands,0.3333
+British Sign Language,Male,14,shopping,4,produces,0
+British Sign Language,Male,14,shopping,4,understands,0
+British Sign Language,Female,15,shopping,4,produces,0
+British Sign Language,Female,15,shopping,4,understands,0
+British Sign Language,Male,15,shopping,2,produces,0
+British Sign Language,Male,15,shopping,2,understands,0
+British Sign Language,Female,16,shopping,4,produces,0.25
+British Sign Language,Female,16,shopping,4,understands,0.25
+British Sign Language,Male,16,shopping,3,produces,0
+British Sign Language,Male,16,shopping,3,understands,0.3333
+British Sign Language,Female,17,shopping,2,produces,0
+British Sign Language,Female,17,shopping,2,understands,0
+British Sign Language,Male,17,shopping,5,produces,0
+British Sign Language,Male,17,shopping,5,understands,0.2
+British Sign Language,Female,18,shopping,4,produces,0
+British Sign Language,Female,18,shopping,4,understands,0
+British Sign Language,Male,18,shopping,4,produces,0
+British Sign Language,Male,18,shopping,4,understands,0
+British Sign Language,Female,19,shopping,4,produces,0.25
+British Sign Language,Female,19,shopping,4,understands,0.25
+British Sign Language,Male,19,shopping,4,produces,0
+British Sign Language,Male,19,shopping,4,understands,0.25
+British Sign Language,Female,20,shopping,4,produces,0
+British Sign Language,Female,20,shopping,4,understands,0.5
+British Sign Language,Male,20,shopping,7,produces,0.1429
+British Sign Language,Male,20,shopping,7,understands,0.1429
+British Sign Language,Female,21,shopping,3,produces,0
+British Sign Language,Female,21,shopping,3,understands,0
+British Sign Language,Male,21,shopping,2,produces,0
+British Sign Language,Male,21,shopping,2,understands,0
+British Sign Language,Female,22,shopping,2,produces,0
+British Sign Language,Female,22,shopping,2,understands,0
+British Sign Language,Male,22,shopping,4,produces,0
+British Sign Language,Male,22,shopping,4,understands,0.25
+British Sign Language,Female,23,shopping,2,produces,0.5
+British Sign Language,Female,23,shopping,2,understands,0.5
+British Sign Language,Male,23,shopping,5,produces,0
+British Sign Language,Male,23,shopping,5,understands,0
+British Sign Language,Female,24,shopping,3,produces,0.3333
+British Sign Language,Female,24,shopping,3,understands,0.6667
+British Sign Language,Male,24,shopping,2,produces,0
+British Sign Language,Male,24,shopping,2,understands,0.5
+British Sign Language,Female,25,shopping,1,produces,0
+British Sign Language,Female,25,shopping,1,understands,0
+British Sign Language,Male,25,shopping,6,produces,0.1667
+British Sign Language,Male,25,shopping,6,understands,0.3333
+British Sign Language,Female,26,shopping,4,produces,0.75
+British Sign Language,Female,26,shopping,4,understands,0.75
+British Sign Language,Male,26,shopping,2,produces,0.5
+British Sign Language,Male,26,shopping,2,understands,0.5
+British Sign Language,Female,27,shopping,1,produces,1
+British Sign Language,Female,27,shopping,1,understands,1
+British Sign Language,Male,27,shopping,5,produces,0.2
+British Sign Language,Male,27,shopping,5,understands,0.2
+British Sign Language,Female,28,shopping,1,produces,0
+British Sign Language,Female,28,shopping,1,understands,1
+British Sign Language,Male,28,shopping,2,produces,0
+British Sign Language,Male,28,shopping,2,understands,0
+British Sign Language,Female,29,shopping,2,produces,1
+British Sign Language,Female,29,shopping,2,understands,1
+British Sign Language,Male,29,shopping,5,produces,0.8
+British Sign Language,Male,29,shopping,5,understands,0.8
+British Sign Language,Female,30,shopping,1,produces,1
+British Sign Language,Female,30,shopping,1,understands,1
+British Sign Language,Male,30,shopping,4,produces,0.25
+British Sign Language,Male,30,shopping,4,understands,0.5
+British Sign Language,Male,31,shopping,2,produces,0.5
+British Sign Language,Male,31,shopping,2,understands,0.5
+British Sign Language,Female,32,shopping,2,produces,1
+British Sign Language,Female,32,shopping,2,understands,1
+British Sign Language,Male,32,shopping,4,produces,0.75
+British Sign Language,Male,32,shopping,4,understands,0.75
+British Sign Language,Female,33,shopping,1,produces,1
+British Sign Language,Female,33,shopping,1,understands,1
+British Sign Language,Male,33,shopping,4,produces,0.75
+British Sign Language,Male,33,shopping,4,understands,0.75
+British Sign Language,Female,34,shopping,1,produces,1
+British Sign Language,Female,34,shopping,1,understands,1
+British Sign Language,Male,34,shopping,1,produces,0
+British Sign Language,Male,34,shopping,1,understands,0
+British Sign Language,Female,35,shopping,1,produces,1
+British Sign Language,Female,35,shopping,1,understands,1
+British Sign Language,Male,35,shopping,1,produces,1
+British Sign Language,Male,35,shopping,1,understands,1
+British Sign Language,Female,36,shopping,1,produces,1
+British Sign Language,Female,36,shopping,1,understands,1
+British Sign Language,Male,36,shopping,2,produces,1
+British Sign Language,Male,36,shopping,2,understands,1
+Danish,Female,16,købe ind,101,produces,0.0198
+Danish,Female,16,købe ind,101,understands,0
+Danish,Male,16,købe ind,83,produces,0.012
+Danish,Male,16,købe ind,83,understands,0
+Danish,Female,17,købe ind,91,produces,0.011
+Danish,Female,17,købe ind,91,understands,0
+Danish,Male,17,købe ind,85,produces,0.0118
+Danish,Male,17,købe ind,85,understands,0
+Danish,Female,18,købe ind,87,produces,0.0115
+Danish,Female,18,købe ind,87,understands,0
+Danish,Male,18,købe ind,73,produces,0.0274
+Danish,Male,18,købe ind,73,understands,0
+Danish,Female,19,købe ind,104,produces,0.0385
+Danish,Female,19,købe ind,104,understands,0
+Danish,Male,19,købe ind,101,produces,0
+Danish,Male,19,købe ind,101,understands,0
+Danish,Female,20,købe ind,100,produces,0.03
+Danish,Female,20,købe ind,100,understands,0
+Danish,Male,20,købe ind,96,produces,0.0417
+Danish,Male,20,købe ind,96,understands,0
+Danish,Female,21,købe ind,112,produces,0.0446
+Danish,Female,21,købe ind,112,understands,0
+Danish,Male,21,købe ind,124,produces,0.0323
+Danish,Male,21,købe ind,124,understands,0
+Danish,Female,22,købe ind,125,produces,0.12
+Danish,Female,22,købe ind,125,understands,0
+Danish,Male,22,købe ind,110,produces,0.0636
+Danish,Male,22,købe ind,110,understands,0
+Danish,Female,23,købe ind,95,produces,0.1789
+Danish,Female,23,købe ind,95,understands,0
+Danish,Male,23,købe ind,95,produces,0.1053
+Danish,Male,23,købe ind,95,understands,0
+Danish,Female,24,købe ind,112,produces,0.2589
+Danish,Female,24,købe ind,112,understands,0
+Danish,Male,24,købe ind,104,produces,0.1923
+Danish,Male,24,købe ind,104,understands,0
+Danish,Female,25,købe ind,71,produces,0.2958
+Danish,Female,25,købe ind,71,understands,0
+Danish,Male,25,købe ind,67,produces,0.1194
+Danish,Male,25,købe ind,67,understands,0
+Danish,Female,26,købe ind,108,produces,0.4907
+Danish,Female,26,købe ind,108,understands,0
+Danish,Male,26,købe ind,98,produces,0.2653
+Danish,Male,26,købe ind,98,understands,0
+Danish,Female,27,købe ind,100,produces,0.54
+Danish,Female,27,købe ind,100,understands,0
+Danish,Male,27,købe ind,76,produces,0.3816
+Danish,Male,27,købe ind,76,understands,0
+Danish,Female,28,købe ind,94,produces,0.5532
+Danish,Female,28,købe ind,94,understands,0
+Danish,Male,28,købe ind,96,produces,0.375
+Danish,Male,28,købe ind,96,understands,0
+Danish,Female,29,købe ind,102,produces,0.6569
+Danish,Female,29,købe ind,102,understands,0
+Danish,Male,29,købe ind,80,produces,0.4375
+Danish,Male,29,købe ind,80,understands,0
+Danish,Female,30,købe ind,75,produces,0.5467
+Danish,Female,30,købe ind,75,understands,0
+Danish,Male,30,købe ind,98,produces,0.5612
+Danish,Male,30,købe ind,98,understands,0
+Danish,Female,31,købe ind,82,produces,0.6829
+Danish,Female,31,købe ind,82,understands,0
+Danish,Male,31,købe ind,93,produces,0.6237
+Danish,Male,31,købe ind,93,understands,0
+Danish,Female,32,købe ind,74,produces,0.8108
+Danish,Female,32,købe ind,74,understands,0
+Danish,Male,32,købe ind,69,produces,0.7391
+Danish,Male,32,købe ind,69,understands,0
+Danish,Female,33,købe ind,82,produces,0.9146
+Danish,Female,33,købe ind,82,understands,0
+Danish,Male,33,købe ind,69,produces,0.7536
+Danish,Male,33,købe ind,69,understands,0
+Danish,Female,34,købe ind,68,produces,0.8824
+Danish,Female,34,købe ind,68,understands,0
+Danish,Male,34,købe ind,75,produces,0.84
+Danish,Male,34,købe ind,75,understands,0
+Danish,Female,35,købe ind,56,produces,0.875
+Danish,Female,35,købe ind,56,understands,0
+Danish,Male,35,købe ind,57,produces,0.807
+Danish,Male,35,købe ind,57,understands,0
+Danish,Female,36,købe ind,61,produces,0.8033
+Danish,Female,36,købe ind,61,understands,0
+Danish,Male,36,købe ind,65,produces,0.9077
+Danish,Male,36,købe ind,65,understands,0
+Dutch,Female,16,winkelen,4,produces,0
+Dutch,Female,16,winkelen,4,understands,0
+Dutch,Female,17,winkelen,33,produces,0
+Dutch,Female,17,winkelen,33,understands,0
+Dutch,Male,17,winkelen,16,produces,0
+Dutch,Male,17,winkelen,16,understands,0
+Dutch,Female,18,winkelen,38,produces,0.0263
+Dutch,Female,18,winkelen,38,understands,0
+Dutch,Male,18,winkelen,30,produces,0
+Dutch,Male,18,winkelen,30,understands,0
+Dutch,Female,19,winkelen,5,produces,0
+Dutch,Female,19,winkelen,5,understands,0
+Dutch,Male,19,winkelen,2,produces,0
+Dutch,Male,19,winkelen,2,understands,0
+Dutch,Female,20,winkelen,6,produces,0
+Dutch,Female,20,winkelen,6,understands,0
+Dutch,Male,20,winkelen,1,produces,1
+Dutch,Male,20,winkelen,1,understands,0
+Dutch,Female,21,winkelen,3,produces,0
+Dutch,Female,21,winkelen,3,understands,0
+Dutch,Male,21,winkelen,4,produces,0
+Dutch,Male,21,winkelen,4,understands,0
+Dutch,Female,22,winkelen,1,produces,1
+Dutch,Female,22,winkelen,1,understands,0
+Dutch,Male,22,winkelen,6,produces,0.1667
+Dutch,Male,22,winkelen,6,understands,0
+Dutch,Female,23,winkelen,25,produces,0.24
+Dutch,Female,23,winkelen,25,understands,0
+Dutch,Male,23,winkelen,26,produces,0.1154
+Dutch,Male,23,winkelen,26,understands,0
+Dutch,Female,24,winkelen,16,produces,0.125
+Dutch,Female,24,winkelen,16,understands,0
+Dutch,Male,24,winkelen,15,produces,0.2667
+Dutch,Male,24,winkelen,15,understands,0
+Dutch,Female,25,winkelen,5,produces,0.2
+Dutch,Female,25,winkelen,5,understands,0
+Dutch,Male,25,winkelen,1,produces,0
+Dutch,Male,25,winkelen,1,understands,0
+Dutch,Female,26,winkelen,1,produces,1
+Dutch,Female,26,winkelen,1,understands,0
+Dutch,Male,26,winkelen,5,produces,0.2
+Dutch,Male,26,winkelen,5,understands,0
+Dutch,Female,27,winkelen,3,produces,0.3333
+Dutch,Female,27,winkelen,3,understands,0
+Dutch,Male,27,winkelen,1,produces,0
+Dutch,Male,27,winkelen,1,understands,0
+Dutch,Female,28,winkelen,5,produces,0.8
+Dutch,Female,28,winkelen,5,understands,0
+Dutch,Male,28,winkelen,1,produces,1
+Dutch,Male,28,winkelen,1,understands,0
+Dutch,Female,29,winkelen,12,produces,0.8333
+Dutch,Female,29,winkelen,12,understands,0
+Dutch,Male,29,winkelen,11,produces,0.7273
+Dutch,Male,29,winkelen,11,understands,0
+Dutch,Female,30,winkelen,16,produces,0.8125
+Dutch,Female,30,winkelen,16,understands,0
+Dutch,Male,30,winkelen,8,produces,0.625
+Dutch,Male,30,winkelen,8,understands,0
+Dutch,Female,31,winkelen,1,produces,1
+Dutch,Female,31,winkelen,1,understands,0
+Dutch,Male,31,winkelen,1,produces,1
+Dutch,Male,31,winkelen,1,understands,0
+English (American),Female,16,shopping,392,produces,0.0281
+English (American),Female,16,shopping,392,understands,0
+English (American),Male,16,shopping,431,produces,0.0116
+English (American),Male,16,shopping,431,understands,0
+English (American),Female,17,shopping,157,produces,0.0446
+English (American),Female,17,shopping,157,understands,0
+English (American),Male,17,shopping,173,produces,0.0347
+English (American),Male,17,shopping,173,understands,0
+English (American),Female,18,shopping,268,produces,0.0709
+English (American),Female,18,shopping,268,understands,0
+English (American),Male,18,shopping,274,produces,0.0401
+English (American),Male,18,shopping,274,understands,0
+English (American),Female,19,shopping,235,produces,0.1234
+English (American),Female,19,shopping,235,understands,0
+English (American),Male,19,shopping,229,produces,0.083
+English (American),Male,19,shopping,229,understands,0
+English (American),Female,20,shopping,210,produces,0.1333
+English (American),Female,20,shopping,210,understands,0
+English (American),Male,20,shopping,226,produces,0.0575
+English (American),Male,20,shopping,226,understands,0
+English (American),Female,21,shopping,132,produces,0.1742
+English (American),Female,21,shopping,132,understands,0
+English (American),Male,21,shopping,148,produces,0.1284
+English (American),Male,21,shopping,148,understands,0
+English (American),Female,22,shopping,187,produces,0.246
+English (American),Female,22,shopping,187,understands,0
+English (American),Male,22,shopping,163,produces,0.1104
+English (American),Male,22,shopping,163,understands,0
+English (American),Female,23,shopping,177,produces,0.3616
+English (American),Female,23,shopping,177,understands,0
+English (American),Male,23,shopping,196,produces,0.2245
+English (American),Male,23,shopping,196,understands,0
+English (American),Female,24,shopping,365,produces,0.4219
+English (American),Female,24,shopping,365,understands,0
+English (American),Male,24,shopping,453,produces,0.2781
+English (American),Male,24,shopping,453,understands,0
+English (American),Female,25,shopping,299,produces,0.5151
+English (American),Female,25,shopping,299,understands,0
+English (American),Male,25,shopping,336,produces,0.3304
+English (American),Male,25,shopping,336,understands,0
+English (American),Female,26,shopping,173,produces,0.5318
+English (American),Female,26,shopping,173,understands,0
+English (American),Male,26,shopping,197,produces,0.3858
+English (American),Male,26,shopping,197,understands,0
+English (American),Female,27,shopping,158,produces,0.5696
+English (American),Female,27,shopping,158,understands,0
+English (American),Male,27,shopping,154,produces,0.474
+English (American),Male,27,shopping,154,understands,0
+English (American),Female,28,shopping,416,produces,0.7788
+English (American),Female,28,shopping,416,understands,0
+English (American),Male,28,shopping,492,produces,0.6382
+English (American),Male,28,shopping,492,understands,0
+English (American),Female,29,shopping,166,produces,0.6687
+English (American),Female,29,shopping,166,understands,0
+English (American),Male,29,shopping,167,produces,0.5509
+English (American),Male,29,shopping,167,understands,0
+English (American),Female,30,shopping,323,produces,0.6904
+English (American),Female,30,shopping,323,understands,0
+English (American),Male,30,shopping,368,produces,0.5598
+English (American),Male,30,shopping,368,understands,0
+English (Australian),Female,12,shopping,27,produces,0
+English (Australian),Female,12,shopping,27,understands,0
+English (Australian),Male,12,shopping,44,produces,0
+English (Australian),Male,12,shopping,44,understands,0
+English (Australian),Female,13,shopping,35,produces,0
+English (Australian),Female,13,shopping,35,understands,0
+English (Australian),Male,13,shopping,29,produces,0
+English (Australian),Male,13,shopping,29,understands,0
+English (Australian),Female,14,shopping,51,produces,0.0588
+English (Australian),Female,14,shopping,51,understands,0
+English (Australian),Male,14,shopping,60,produces,0.0167
+English (Australian),Male,14,shopping,60,understands,0
+English (Australian),Female,15,shopping,31,produces,0.0645
+English (Australian),Female,15,shopping,31,understands,0
+English (Australian),Male,15,shopping,38,produces,0.0263
+English (Australian),Male,15,shopping,38,understands,0
+English (Australian),Female,16,shopping,32,produces,0.0625
+English (Australian),Female,16,shopping,32,understands,0
+English (Australian),Male,16,shopping,28,produces,0
+English (Australian),Male,16,shopping,28,understands,0
+English (Australian),Female,17,shopping,56,produces,0.0893
+English (Australian),Female,17,shopping,56,understands,0
+English (Australian),Male,17,shopping,48,produces,0.0417
+English (Australian),Male,17,shopping,48,understands,0
+English (Australian),Female,18,shopping,52,produces,0.0962
+English (Australian),Female,18,shopping,52,understands,0
+English (Australian),Male,18,shopping,57,produces,0.0526
+English (Australian),Male,18,shopping,57,understands,0
+English (Australian),Female,19,shopping,72,produces,0.1806
+English (Australian),Female,19,shopping,72,understands,0
+English (Australian),Male,19,shopping,52,produces,0.0769
+English (Australian),Male,19,shopping,52,understands,0
+English (Australian),Female,20,shopping,40,produces,0.275
+English (Australian),Female,20,shopping,40,understands,0
+English (Australian),Male,20,shopping,38,produces,0.1579
+English (Australian),Male,20,shopping,38,understands,0
+English (Australian),Female,21,shopping,39,produces,0.3077
+English (Australian),Female,21,shopping,39,understands,0
+English (Australian),Male,21,shopping,25,produces,0.16
+English (Australian),Male,21,shopping,25,understands,0
+English (Australian),Female,22,shopping,27,produces,0.4444
+English (Australian),Female,22,shopping,27,understands,0
+English (Australian),Male,22,shopping,46,produces,0.413
+English (Australian),Male,22,shopping,46,understands,0
+English (Australian),Female,23,shopping,39,produces,0.6923
+English (Australian),Female,23,shopping,39,understands,0
+English (Australian),Male,23,shopping,32,produces,0.375
+English (Australian),Male,23,shopping,32,understands,0
+English (Australian),Female,24,shopping,36,produces,0.6111
+English (Australian),Female,24,shopping,36,understands,0
+English (Australian),Male,24,shopping,40,produces,0.425
+English (Australian),Male,24,shopping,40,understands,0
+English (Australian),Female,25,shopping,44,produces,0.6818
+English (Australian),Female,25,shopping,44,understands,0
+English (Australian),Male,25,shopping,41,produces,0.439
+English (Australian),Male,25,shopping,41,understands,0
+English (Australian),Female,26,shopping,40,produces,0.75
+English (Australian),Female,26,shopping,40,understands,0
+English (Australian),Male,26,shopping,37,produces,0.5135
+English (Australian),Male,26,shopping,37,understands,0
+English (Australian),Female,27,shopping,36,produces,0.8889
+English (Australian),Female,27,shopping,36,understands,0
+English (Australian),Male,27,shopping,36,produces,0.6111
+English (Australian),Male,27,shopping,36,understands,0
+English (Australian),Female,28,shopping,27,produces,0.7778
+English (Australian),Female,28,shopping,27,understands,0
+English (Australian),Male,28,shopping,40,produces,0.675
+English (Australian),Male,28,shopping,40,understands,0
+English (Australian),Female,29,shopping,33,produces,0.9394
+English (Australian),Female,29,shopping,33,understands,0
+English (Australian),Male,29,shopping,32,produces,0.875
+English (Australian),Male,29,shopping,32,understands,0
+English (Australian),Female,30,shopping,28,produces,0.9643
+English (Australian),Female,30,shopping,28,understands,0
+English (Australian),Male,30,shopping,25,produces,0.72
+English (Australian),Male,30,shopping,25,understands,0
+English (British),Male,20,shopping,2,produces,0
+English (British),Male,20,shopping,2,understands,0
+English (British),Female,21,shopping,4,produces,0.75
+English (British),Female,21,shopping,4,understands,0
+English (British),Male,21,shopping,3,produces,0.3333
+English (British),Male,21,shopping,3,understands,0
+English (British),Female,22,shopping,130,produces,0.4846
+English (British),Female,22,shopping,130,understands,0
+English (British),Male,22,shopping,138,produces,0.3333
+English (British),Male,22,shopping,138,understands,0
+English (British),Female,23,shopping,1457,produces,0.5003
+English (British),Female,23,shopping,1457,understands,0
+English (British),Male,23,shopping,1404,produces,0.3504
+English (British),Male,23,shopping,1404,understands,0
+English (British),Female,24,shopping,3240,produces,0.5673
+English (British),Female,24,shopping,3240,understands,0
+English (British),Male,24,shopping,3171,produces,0.392
+English (British),Male,24,shopping,3171,understands,0
+English (British),Female,25,shopping,437,produces,0.5904
+English (British),Female,25,shopping,437,understands,0
+English (British),Male,25,shopping,370,produces,0.4405
+English (British),Male,25,shopping,370,understands,0
+English (British),Female,26,shopping,134,produces,0.7463
+English (British),Female,26,shopping,134,understands,0
+English (British),Male,26,shopping,148,produces,0.5135
+English (British),Male,26,shopping,148,understands,0
+English (British),Female,27,shopping,76,produces,0.6842
+English (British),Female,27,shopping,76,understands,0
+English (British),Male,27,shopping,73,produces,0.589
+English (British),Male,27,shopping,73,understands,0
+English (British),Female,28,shopping,42,produces,0.7619
+English (British),Female,28,shopping,42,understands,0
+English (British),Male,28,shopping,51,produces,0.5294
+English (British),Male,28,shopping,51,understands,0
+English (British),Female,29,shopping,52,produces,0.7885
+English (British),Female,29,shopping,52,understands,0
+English (British),Male,29,shopping,38,produces,0.7895
+English (British),Male,29,shopping,38,understands,0
+English (British),Female,30,shopping,27,produces,0.963
+English (British),Female,30,shopping,27,understands,0
+English (British),Male,30,shopping,22,produces,0.9091
+English (British),Male,30,shopping,22,understands,0
+English (British),Female,31,shopping,30,produces,0.7667
+English (British),Female,31,shopping,30,understands,0
+English (British),Male,31,shopping,18,produces,0.9444
+English (British),Male,31,shopping,18,understands,0
+English (British),Female,32,shopping,16,produces,0.875
+English (British),Female,32,shopping,16,understands,0
+English (British),Male,32,shopping,11,produces,0.6364
+English (British),Male,32,shopping,11,understands,0
+English (British),Female,33,shopping,8,produces,1
+English (British),Female,33,shopping,8,understands,0
+English (British),Male,33,shopping,7,produces,0.8571
+English (British),Male,33,shopping,7,understands,0
+English (British),Female,34,shopping,2,produces,0.5
+English (British),Female,34,shopping,2,understands,0
+English (British),Male,34,shopping,8,produces,0.25
+English (British),Male,34,shopping,8,understands,0
+English (British),Female,35,shopping,4,produces,0.25
+English (British),Female,35,shopping,4,understands,0
+English (British),Male,35,shopping,6,produces,1
+English (British),Male,35,shopping,6,understands,0
+English (Irish),Female,17,shopping,1,produces,0
+English (Irish),Female,17,shopping,1,understands,0
+English (Irish),Male,17,shopping,1,produces,0
+English (Irish),Male,17,shopping,1,understands,0
+English (Irish),Female,18,shopping,1,produces,0
+English (Irish),Female,18,shopping,1,understands,0
+English (Irish),Female,19,shopping,1,produces,0
+English (Irish),Female,19,shopping,1,understands,0
+English (Irish),Male,19,shopping,1,produces,0
+English (Irish),Male,19,shopping,1,understands,0
+English (Irish),Female,20,shopping,1,produces,0
+English (Irish),Female,20,shopping,1,understands,0
+English (Irish),Female,21,shopping,2,produces,0
+English (Irish),Female,21,shopping,2,understands,0
+English (Irish),Male,21,shopping,1,produces,0
+English (Irish),Male,21,shopping,1,understands,0
+English (Irish),Female,22,shopping,3,produces,0
+English (Irish),Female,22,shopping,3,understands,0
+English (Irish),Male,22,shopping,1,produces,0
+English (Irish),Male,22,shopping,1,understands,0
+English (Irish),Female,23,shopping,2,produces,0
+English (Irish),Female,23,shopping,2,understands,0
+English (Irish),Male,23,shopping,2,produces,0
+English (Irish),Male,23,shopping,2,understands,0
+English (Irish),Female,24,shopping,2,produces,0.5
+English (Irish),Female,24,shopping,2,understands,0
+English (Irish),Male,24,shopping,2,produces,0
+English (Irish),Male,24,shopping,2,understands,0
+English (Irish),Female,25,shopping,3,produces,0
+English (Irish),Female,25,shopping,3,understands,0
+English (Irish),Male,25,shopping,3,produces,0
+English (Irish),Male,25,shopping,3,understands,0
+English (Irish),Female,26,shopping,7,produces,0
+English (Irish),Female,26,shopping,7,understands,0
+English (Irish),Male,26,shopping,3,produces,0.3333
+English (Irish),Male,26,shopping,3,understands,0
+English (Irish),Female,27,shopping,1,produces,0
+English (Irish),Female,27,shopping,1,understands,0
+English (Irish),Male,27,shopping,4,produces,0.25
+English (Irish),Male,27,shopping,4,understands,0
+English (Irish),Female,28,shopping,4,produces,0.25
+English (Irish),Female,28,shopping,4,understands,0
+English (Irish),Male,28,shopping,3,produces,0
+English (Irish),Male,28,shopping,3,understands,0
+English (Irish),Female,29,shopping,1,produces,0
+English (Irish),Female,29,shopping,1,understands,0
+English (Irish),Male,29,shopping,3,produces,0.3333
+English (Irish),Male,29,shopping,3,understands,0
+English (Irish),Female,30,shopping,5,produces,0.2
+English (Irish),Female,30,shopping,5,understands,0
+English (Irish),Male,30,shopping,4,produces,0
+English (Irish),Male,30,shopping,4,understands,0
+English (Irish),Female,31,shopping,3,produces,0
+English (Irish),Female,31,shopping,3,understands,0
+English (Irish),Male,31,shopping,5,produces,0.4
+English (Irish),Male,31,shopping,5,understands,0
+English (Irish),Female,32,shopping,2,produces,1
+English (Irish),Female,32,shopping,2,understands,0
+English (Irish),Male,32,shopping,2,produces,0.5
+English (Irish),Male,32,shopping,2,understands,0
+English (Irish),Female,33,shopping,1,produces,0
+English (Irish),Female,33,shopping,1,understands,0
+English (Irish),Male,33,shopping,4,produces,0.25
+English (Irish),Male,33,shopping,4,understands,0
+English (Irish),Female,34,shopping,2,produces,0
+English (Irish),Female,34,shopping,2,understands,0
+English (Irish),Male,34,shopping,2,produces,0.5
+English (Irish),Male,34,shopping,2,understands,0
+English (Irish),Female,35,shopping,2,produces,0.5
+English (Irish),Female,35,shopping,2,understands,0
+English (Irish),Male,35,shopping,9,produces,0.3333
+English (Irish),Male,35,shopping,9,understands,0
+English (Irish),Female,36,shopping,3,produces,0.3333
+English (Irish),Female,36,shopping,3,understands,0
+English (Irish),Male,36,shopping,2,produces,0
+English (Irish),Male,36,shopping,2,understands,0
+Finnish,Female,18,käydä ostoksilla,18,produces,0
+Finnish,Female,18,käydä ostoksilla,18,understands,0
+Finnish,Male,18,käydä ostoksilla,17,produces,0
+Finnish,Male,18,käydä ostoksilla,17,understands,0
+Finnish,Female,24,käydä ostoksilla,18,produces,0.5
+Finnish,Female,24,käydä ostoksilla,18,understands,0
+Finnish,Male,24,käydä ostoksilla,17,produces,0.5882
+Finnish,Male,24,käydä ostoksilla,17,understands,0
+French (French),Female,16,faire les courses,25,produces,0.08
+French (French),Female,16,faire les courses,25,understands,0
+French (French),Male,16,faire les courses,26,produces,0
+French (French),Male,16,faire les courses,26,understands,0
+French (French),Female,17,faire les courses,25,produces,0
+French (French),Female,17,faire les courses,25,understands,0
+French (French),Male,17,faire les courses,23,produces,0
+French (French),Male,17,faire les courses,23,understands,0
+French (French),Female,18,faire les courses,27,produces,0.1481
+French (French),Female,18,faire les courses,27,understands,0
+French (French),Male,18,faire les courses,21,produces,0.2857
+French (French),Male,18,faire les courses,21,understands,0
+French (French),Female,19,faire les courses,22,produces,0.0455
+French (French),Female,19,faire les courses,22,understands,0
+French (French),Male,19,faire les courses,17,produces,0.1765
+French (French),Male,19,faire les courses,17,understands,0
+French (French),Female,20,faire les courses,42,produces,0.0952
+French (French),Female,20,faire les courses,42,understands,0
+French (French),Male,20,faire les courses,35,produces,0.0857
+French (French),Male,20,faire les courses,35,understands,0
+French (French),Female,21,faire les courses,55,produces,0.2
+French (French),Female,21,faire les courses,55,understands,0
+French (French),Male,21,faire les courses,38,produces,0.1842
+French (French),Male,21,faire les courses,38,understands,0
+French (French),Female,22,faire les courses,60,produces,0.2667
+French (French),Female,22,faire les courses,60,understands,0
+French (French),Male,22,faire les courses,38,produces,0.2895
+French (French),Male,22,faire les courses,38,understands,0
+French (French),Female,23,faire les courses,40,produces,0.2
+French (French),Female,23,faire les courses,40,understands,0
+French (French),Male,23,faire les courses,44,produces,0.25
+French (French),Male,23,faire les courses,44,understands,0
+French (French),Female,24,faire les courses,65,produces,0.3077
+French (French),Female,24,faire les courses,65,understands,0
+French (French),Male,24,faire les courses,72,produces,0.2639
+French (French),Male,24,faire les courses,72,understands,0
+French (French),Female,25,faire les courses,39,produces,0.359
+French (French),Female,25,faire les courses,39,understands,0
+French (French),Male,25,faire les courses,46,produces,0.4783
+French (French),Male,25,faire les courses,46,understands,0
+French (French),Female,26,faire les courses,31,produces,0.5484
+French (French),Female,26,faire les courses,31,understands,0
+French (French),Male,26,faire les courses,32,produces,0.4062
+French (French),Male,26,faire les courses,32,understands,0
+French (French),Female,27,faire les courses,28,produces,0.6071
+French (French),Female,27,faire les courses,28,understands,0
+French (French),Male,27,faire les courses,24,produces,0.4167
+French (French),Male,27,faire les courses,24,understands,0
+French (French),Female,28,faire les courses,33,produces,0.5152
+French (French),Female,28,faire les courses,33,understands,0
+French (French),Male,28,faire les courses,43,produces,0.6047
+French (French),Male,28,faire les courses,43,understands,0
+French (French),Female,29,faire les courses,32,produces,0.75
+French (French),Female,29,faire les courses,32,understands,0
+French (French),Male,29,faire les courses,33,produces,0.6061
+French (French),Male,29,faire les courses,33,understands,0
+French (French),Female,30,faire les courses,34,produces,0.5294
+French (French),Female,30,faire les courses,34,understands,0
+French (French),Male,30,faire les courses,33,produces,0.5152
+French (French),Male,30,faire les courses,33,understands,0
+French (Quebecois),Female,16,aller au magasin,26,produces,0
+French (Quebecois),Female,16,aller au magasin,26,understands,0
+French (Quebecois),Male,16,aller au magasin,21,produces,0
+French (Quebecois),Male,16,aller au magasin,21,understands,0
+French (Quebecois),Female,17,aller au magasin,30,produces,0
+French (Quebecois),Female,17,aller au magasin,30,understands,0
+French (Quebecois),Male,17,aller au magasin,31,produces,0
+French (Quebecois),Male,17,aller au magasin,31,understands,0
+French (Quebecois),Female,18,aller au magasin,53,produces,0.0189
+French (Quebecois),Female,18,aller au magasin,53,understands,0
+French (Quebecois),Male,18,aller au magasin,46,produces,0.0435
+French (Quebecois),Male,18,aller au magasin,46,understands,0
+French (Quebecois),Female,19,aller au magasin,41,produces,0.0244
+French (Quebecois),Female,19,aller au magasin,41,understands,0
+French (Quebecois),Male,19,aller au magasin,50,produces,0.02
+French (Quebecois),Male,19,aller au magasin,50,understands,0
+French (Quebecois),Female,20,aller au magasin,90,produces,0.0667
+French (Quebecois),Female,20,aller au magasin,90,understands,0
+French (Quebecois),Male,20,aller au magasin,105,produces,0.0381
+French (Quebecois),Male,20,aller au magasin,105,understands,0
+French (Quebecois),Female,21,aller au magasin,56,produces,0.0536
+French (Quebecois),Female,21,aller au magasin,56,understands,0
+French (Quebecois),Male,21,aller au magasin,53,produces,0.0189
+French (Quebecois),Male,21,aller au magasin,53,understands,0
+French (Quebecois),Female,22,aller au magasin,42,produces,0.2143
+French (Quebecois),Female,22,aller au magasin,42,understands,0
+French (Quebecois),Male,22,aller au magasin,44,produces,0.1364
+French (Quebecois),Male,22,aller au magasin,44,understands,0
+French (Quebecois),Female,23,aller au magasin,41,produces,0.3415
+French (Quebecois),Female,23,aller au magasin,41,understands,0
+French (Quebecois),Male,23,aller au magasin,45,produces,0.1778
+French (Quebecois),Male,23,aller au magasin,45,understands,0
+French (Quebecois),Female,24,aller au magasin,56,produces,0.2321
+French (Quebecois),Female,24,aller au magasin,56,understands,0
+French (Quebecois),Male,24,aller au magasin,76,produces,0.2237
+French (Quebecois),Male,24,aller au magasin,76,understands,0
+French (Quebecois),Female,25,aller au magasin,41,produces,0.439
+French (Quebecois),Female,25,aller au magasin,41,understands,0
+French (Quebecois),Male,25,aller au magasin,45,produces,0.2222
+French (Quebecois),Male,25,aller au magasin,45,understands,0
+French (Quebecois),Female,26,aller au magasin,46,produces,0.5217
+French (Quebecois),Female,26,aller au magasin,46,understands,0
+French (Quebecois),Male,26,aller au magasin,49,produces,0.3061
+French (Quebecois),Male,26,aller au magasin,49,understands,0
+French (Quebecois),Female,27,aller au magasin,40,produces,0.7
+French (Quebecois),Female,27,aller au magasin,40,understands,0
+French (Quebecois),Male,27,aller au magasin,34,produces,0.2647
+French (Quebecois),Male,27,aller au magasin,34,understands,0
+French (Quebecois),Female,28,aller au magasin,28,produces,0.6429
+French (Quebecois),Female,28,aller au magasin,28,understands,0
+French (Quebecois),Male,28,aller au magasin,32,produces,0.5625
+French (Quebecois),Male,28,aller au magasin,32,understands,0
+French (Quebecois),Female,29,aller au magasin,35,produces,0.6
+French (Quebecois),Female,29,aller au magasin,35,understands,0
+French (Quebecois),Male,29,aller au magasin,35,produces,0.8857
+French (Quebecois),Male,29,aller au magasin,35,understands,0
+French (Quebecois),Female,30,aller au magasin,41,produces,0.6829
+French (Quebecois),Female,30,aller au magasin,41,understands,0
+French (Quebecois),Male,30,aller au magasin,59,produces,0.5424
+French (Quebecois),Male,30,aller au magasin,59,understands,0
+German,Female,18,einkaufen,40,produces,0.1
+German,Female,18,einkaufen,40,understands,0
+German,Male,18,einkaufen,45,produces,0.0444
+German,Male,18,einkaufen,45,understands,0
+German,Female,19,einkaufen,39,produces,0.1026
+German,Female,19,einkaufen,39,understands,0
+German,Male,19,einkaufen,40,produces,0.05
+German,Male,19,einkaufen,40,understands,0
+German,Female,20,einkaufen,39,produces,0.1795
+German,Female,20,einkaufen,39,understands,0
+German,Male,20,einkaufen,57,produces,0.1053
+German,Male,20,einkaufen,57,understands,0
+German,Female,21,einkaufen,38,produces,0.4211
+German,Female,21,einkaufen,38,understands,0
+German,Male,21,einkaufen,39,produces,0.1538
+German,Male,21,einkaufen,39,understands,0
+German,Female,22,einkaufen,52,produces,0.3462
+German,Female,22,einkaufen,52,understands,0
+German,Male,22,einkaufen,43,produces,0.3256
+German,Male,22,einkaufen,43,understands,0
+German,Female,23,einkaufen,45,produces,0.4222
+German,Female,23,einkaufen,45,understands,0
+German,Male,23,einkaufen,50,produces,0.38
+German,Male,23,einkaufen,50,understands,0
+German,Female,24,einkaufen,48,produces,0.5625
+German,Female,24,einkaufen,48,understands,0
+German,Male,24,einkaufen,55,produces,0.4
+German,Male,24,einkaufen,55,understands,0
+German,Female,25,einkaufen,28,produces,0.75
+German,Female,25,einkaufen,28,understands,0
+German,Male,25,einkaufen,67,produces,0.4328
+German,Male,25,einkaufen,67,understands,0
+German,Female,26,einkaufen,42,produces,0.8333
+German,Female,26,einkaufen,42,understands,0
+German,Male,26,einkaufen,50,produces,0.62
+German,Male,26,einkaufen,50,understands,0
+German,Female,27,einkaufen,41,produces,0.7317
+German,Female,27,einkaufen,41,understands,0
+German,Male,27,einkaufen,48,produces,0.5417
+German,Male,27,einkaufen,48,understands,0
+German,Female,28,einkaufen,35,produces,0.8857
+German,Female,28,einkaufen,35,understands,0
+German,Male,28,einkaufen,58,produces,0.7586
+German,Male,28,einkaufen,58,understands,0
+German,Female,29,einkaufen,50,produces,0.96
+German,Female,29,einkaufen,50,understands,0
+German,Male,29,einkaufen,39,produces,0.6667
+German,Male,29,einkaufen,39,understands,0
+German,Female,30,einkaufen,54,produces,0.9074
+German,Female,30,einkaufen,54,understands,0
+German,Male,30,einkaufen,39,produces,0.9487
+German,Male,30,einkaufen,39,understands,0
+Hungarian,Female,16,vásárlás,11,produces,0
+Hungarian,Female,16,vásárlás,11,understands,0
+Hungarian,Male,16,vásárlás,10,produces,0
+Hungarian,Male,16,vásárlás,10,understands,0
+Hungarian,Female,17,vásárlás,11,produces,0.0909
+Hungarian,Female,17,vásárlás,11,understands,0
+Hungarian,Male,17,vásárlás,7,produces,0
+Hungarian,Male,17,vásárlás,7,understands,0
+Hungarian,Female,18,vásárlás,9,produces,0
+Hungarian,Female,18,vásárlás,9,understands,0
+Hungarian,Male,18,vásárlás,9,produces,0
+Hungarian,Male,18,vásárlás,9,understands,0
+Hungarian,Female,19,vásárlás,13,produces,0.0769
+Hungarian,Female,19,vásárlás,13,understands,0
+Hungarian,Male,19,vásárlás,12,produces,0.1667
+Hungarian,Male,19,vásárlás,12,understands,0
+Hungarian,Female,20,vásárlás,12,produces,0.0833
+Hungarian,Female,20,vásárlás,12,understands,0
+Hungarian,Male,20,vásárlás,6,produces,0
+Hungarian,Male,20,vásárlás,6,understands,0
+Hungarian,Female,21,vásárlás,16,produces,0.125
+Hungarian,Female,21,vásárlás,16,understands,0
+Hungarian,Male,21,vásárlás,20,produces,0.2
+Hungarian,Male,21,vásárlás,20,understands,0
+Hungarian,Female,22,vásárlás,14,produces,0.2143
+Hungarian,Female,22,vásárlás,14,understands,0
+Hungarian,Male,22,vásárlás,13,produces,0.1538
+Hungarian,Male,22,vásárlás,13,understands,0
+Hungarian,Female,23,vásárlás,6,produces,0.1667
+Hungarian,Female,23,vásárlás,6,understands,0
+Hungarian,Male,23,vásárlás,12,produces,0.1667
+Hungarian,Male,23,vásárlás,12,understands,0
+Hungarian,Female,24,vásárlás,14,produces,0.2143
+Hungarian,Female,24,vásárlás,14,understands,0
+Hungarian,Male,24,vásárlás,24,produces,0.1667
+Hungarian,Male,24,vásárlás,24,understands,0
+Hungarian,Female,25,vásárlás,17,produces,0.4706
+Hungarian,Female,25,vásárlás,17,understands,0
+Hungarian,Male,25,vásárlás,25,produces,0.4
+Hungarian,Male,25,vásárlás,25,understands,0
+Hungarian,Female,26,vásárlás,9,produces,0.3333
+Hungarian,Female,26,vásárlás,9,understands,0
+Hungarian,Male,26,vásárlás,14,produces,0.5714
+Hungarian,Male,26,vásárlás,14,understands,0
+Hungarian,Female,27,vásárlás,13,produces,0.3846
+Hungarian,Female,27,vásárlás,13,understands,0
+Hungarian,Male,27,vásárlás,13,produces,0.4615
+Hungarian,Male,27,vásárlás,13,understands,0
+Hungarian,Female,28,vásárlás,11,produces,0.9091
+Hungarian,Female,28,vásárlás,11,understands,0
+Hungarian,Male,28,vásárlás,18,produces,0.2778
+Hungarian,Male,28,vásárlás,18,understands,0
+Hungarian,Female,29,vásárlás,8,produces,0.625
+Hungarian,Female,29,vásárlás,8,understands,0
+Hungarian,Male,29,vásárlás,4,produces,0.5
+Hungarian,Male,29,vásárlás,4,understands,0
+Hungarian,Female,30,vásárlás,3,produces,0.3333
+Hungarian,Female,30,vásárlás,3,understands,0
+Hungarian,Male,30,vásárlás,15,produces,0.6
+Hungarian,Male,30,vásárlás,15,understands,0
+Irish,Female,17,siopadóireacht,1,produces,0
+Irish,Female,17,siopadóireacht,1,understands,0
+Irish,Male,17,siopadóireacht,1,produces,0
+Irish,Male,17,siopadóireacht,1,understands,0
+Irish,Female,18,siopadóireacht,1,produces,0
+Irish,Female,18,siopadóireacht,1,understands,0
+Irish,Female,19,siopadóireacht,1,produces,0
+Irish,Female,19,siopadóireacht,1,understands,0
+Irish,Male,19,siopadóireacht,1,produces,0
+Irish,Male,19,siopadóireacht,1,understands,0
+Irish,Female,20,siopadóireacht,1,produces,0
+Irish,Female,20,siopadóireacht,1,understands,0
+Irish,Female,21,siopadóireacht,2,produces,0
+Irish,Female,21,siopadóireacht,2,understands,0
+Irish,Male,21,siopadóireacht,1,produces,0
+Irish,Male,21,siopadóireacht,1,understands,0
+Irish,Female,22,siopadóireacht,3,produces,0
+Irish,Female,22,siopadóireacht,3,understands,0
+Irish,Male,22,siopadóireacht,1,produces,0
+Irish,Male,22,siopadóireacht,1,understands,0
+Irish,Female,23,siopadóireacht,2,produces,0
+Irish,Female,23,siopadóireacht,2,understands,0
+Irish,Male,23,siopadóireacht,2,produces,0.5
+Irish,Male,23,siopadóireacht,2,understands,0
+Irish,Female,24,siopadóireacht,2,produces,0.5
+Irish,Female,24,siopadóireacht,2,understands,0
+Irish,Male,24,siopadóireacht,2,produces,0.5
+Irish,Male,24,siopadóireacht,2,understands,0
+Irish,Female,25,siopadóireacht,3,produces,0.3333
+Irish,Female,25,siopadóireacht,3,understands,0
+Irish,Male,25,siopadóireacht,3,produces,0.6667
+Irish,Male,25,siopadóireacht,3,understands,0
+Irish,Female,26,siopadóireacht,7,produces,0.2857
+Irish,Female,26,siopadóireacht,7,understands,0
+Irish,Male,26,siopadóireacht,3,produces,0.6667
+Irish,Male,26,siopadóireacht,3,understands,0
+Irish,Female,27,siopadóireacht,1,produces,0
+Irish,Female,27,siopadóireacht,1,understands,0
+Irish,Male,27,siopadóireacht,4,produces,0.25
+Irish,Male,27,siopadóireacht,4,understands,0
+Irish,Female,28,siopadóireacht,4,produces,0.5
+Irish,Female,28,siopadóireacht,4,understands,0
+Irish,Male,28,siopadóireacht,3,produces,0.3333
+Irish,Male,28,siopadóireacht,3,understands,0
+Irish,Female,29,siopadóireacht,1,produces,0
+Irish,Female,29,siopadóireacht,1,understands,0
+Irish,Male,29,siopadóireacht,3,produces,0.3333
+Irish,Male,29,siopadóireacht,3,understands,0
+Irish,Female,30,siopadóireacht,5,produces,0.2
+Irish,Female,30,siopadóireacht,5,understands,0
+Irish,Male,30,siopadóireacht,4,produces,1
+Irish,Male,30,siopadóireacht,4,understands,0
+Irish,Female,31,siopadóireacht,3,produces,1
+Irish,Female,31,siopadóireacht,3,understands,0
+Irish,Male,31,siopadóireacht,5,produces,0.4
+Irish,Male,31,siopadóireacht,5,understands,0
+Irish,Female,32,siopadóireacht,2,produces,0.5
+Irish,Female,32,siopadóireacht,2,understands,0
+Irish,Male,32,siopadóireacht,2,produces,0.5
+Irish,Male,32,siopadóireacht,2,understands,0
+Irish,Female,33,siopadóireacht,1,produces,1
+Irish,Female,33,siopadóireacht,1,understands,0
+Irish,Male,33,siopadóireacht,4,produces,0.5
+Irish,Male,33,siopadóireacht,4,understands,0
+Irish,Female,34,siopadóireacht,2,produces,1
+Irish,Female,34,siopadóireacht,2,understands,0
+Irish,Male,34,siopadóireacht,2,produces,0.5
+Irish,Male,34,siopadóireacht,2,understands,0
+Irish,Female,35,siopadóireacht,2,produces,0.5
+Irish,Female,35,siopadóireacht,2,understands,0
+Irish,Male,35,siopadóireacht,9,produces,0.7778
+Irish,Male,35,siopadóireacht,9,understands,0
+Irish,Female,36,siopadóireacht,3,produces,1
+Irish,Female,36,siopadóireacht,3,understands,0
+Irish,Male,36,siopadóireacht,2,produces,0.5
+Irish,Male,36,siopadóireacht,2,understands,0
+Japanese,Female,16,お買いもの,4,produces,0
+Japanese,Female,16,お買いもの,4,understands,0
+Japanese,Male,16,お買いもの,7,produces,0
+Japanese,Male,16,お買いもの,7,understands,0
+Japanese,Female,17,お買いもの,11,produces,0
+Japanese,Female,17,お買いもの,11,understands,0
+Japanese,Male,17,お買いもの,6,produces,0
+Japanese,Male,17,お買いもの,6,understands,0
+Japanese,Female,18,お買いもの,27,produces,0
+Japanese,Female,18,お買いもの,27,understands,0
+Japanese,Male,18,お買いもの,29,produces,0
+Japanese,Male,18,お買いもの,29,understands,0
+Japanese,Female,19,お買いもの,14,produces,0.0714
+Japanese,Female,19,お買いもの,14,understands,0
+Japanese,Male,19,お買いもの,21,produces,0
+Japanese,Male,19,お買いもの,21,understands,0
+Japanese,Female,20,お買いもの,27,produces,0.037
+Japanese,Female,20,お買いもの,27,understands,0
+Japanese,Male,20,お買いもの,32,produces,0.0312
+Japanese,Male,20,お買いもの,32,understands,0
+Japanese,Female,21,お買いもの,29,produces,0.1724
+Japanese,Female,21,お買いもの,29,understands,0
+Japanese,Male,21,お買いもの,33,produces,0.0303
+Japanese,Male,21,お買いもの,33,understands,0
+Japanese,Female,22,お買いもの,16,produces,0.0625
+Japanese,Female,22,お買いもの,16,understands,0
+Japanese,Male,22,お買いもの,15,produces,0.0667
+Japanese,Male,22,お買いもの,15,understands,0
+Japanese,Female,23,お買いもの,38,produces,0.2895
+Japanese,Female,23,お買いもの,38,understands,0
+Japanese,Male,23,お買いもの,29,produces,0.2414
+Japanese,Male,23,お買いもの,29,understands,0
+Japanese,Female,24,お買いもの,18,produces,0.4444
+Japanese,Female,24,お買いもの,18,understands,0
+Japanese,Male,24,お買いもの,15,produces,0.1333
+Japanese,Male,24,お買いもの,15,understands,0
+Japanese,Female,25,お買いもの,14,produces,0.5714
+Japanese,Female,25,お買いもの,14,understands,0
+Japanese,Male,25,お買いもの,20,produces,0.45
+Japanese,Male,25,お買いもの,20,understands,0
+Japanese,Female,26,お買いもの,19,produces,0.7368
+Japanese,Female,26,お買いもの,19,understands,0
+Japanese,Male,26,お買いもの,14,produces,0.5
+Japanese,Male,26,お買いもの,14,understands,0
+Japanese,Female,27,お買いもの,8,produces,0.25
+Japanese,Female,27,お買いもの,8,understands,0
+Japanese,Male,27,お買いもの,7,produces,0.5714
+Japanese,Male,27,お買いもの,7,understands,0
+Japanese,Female,28,お買いもの,8,produces,0.75
+Japanese,Female,28,お買いもの,8,understands,0
+Japanese,Male,28,お買いもの,10,produces,0.6
+Japanese,Male,28,お買いもの,10,understands,0
+Japanese,Female,29,お買いもの,6,produces,0.5
+Japanese,Female,29,お買いもの,6,understands,0
+Japanese,Male,29,お買いもの,11,produces,0.6364
+Japanese,Male,29,お買いもの,11,understands,0
+Japanese,Female,30,お買いもの,9,produces,0.6667
+Japanese,Female,30,お買いもの,9,understands,0
+Japanese,Male,30,お買いもの,9,produces,0.8889
+Japanese,Male,30,お買いもの,9,understands,0
+Japanese,Female,31,お買いもの,8,produces,0.875
+Japanese,Female,31,お買いもの,8,understands,0
+Japanese,Male,31,お買いもの,10,produces,0.6
+Japanese,Male,31,お買いもの,10,understands,0
+Japanese,Female,32,お買いもの,8,produces,0.875
+Japanese,Female,32,お買いもの,8,understands,0
+Japanese,Male,32,お買いもの,5,produces,0.8
+Japanese,Male,32,お買いもの,5,understands,0
+Japanese,Female,33,お買いもの,9,produces,1
+Japanese,Female,33,お買いもの,9,understands,0
+Japanese,Male,33,お買いもの,7,produces,0.7143
+Japanese,Male,33,お買いもの,7,understands,0
+Japanese,Female,34,お買いもの,8,produces,1
+Japanese,Female,34,お買いもの,8,understands,0
+Japanese,Male,34,お買いもの,5,produces,0.6
+Japanese,Male,34,お買いもの,5,understands,0
+Japanese,Female,35,お買いもの,19,produces,0.8947
+Japanese,Female,35,お買いもの,19,understands,0
+Japanese,Male,35,お買いもの,12,produces,0.8333
+Japanese,Male,35,お買いもの,12,understands,0
+Japanese,Female,36,お買いもの,4,produces,1
+Japanese,Female,36,お買いもの,4,understands,0
+Japanese,Male,36,お買いもの,14,produces,0.8571
+Japanese,Male,36,お買いもの,14,understands,0
+Mandarin (Taiwanese),Female,8,逛街/買東西,39,produces,0
+Mandarin (Taiwanese),Female,8,逛街/買東西,39,understands,0.2308
+Mandarin (Taiwanese),Male,8,逛街/買東西,47,produces,0
+Mandarin (Taiwanese),Male,8,逛街/買東西,47,understands,0.2766
+Mandarin (Taiwanese),Female,9,逛街/買東西,46,produces,0
+Mandarin (Taiwanese),Female,9,逛街/買東西,46,understands,0.2609
+Mandarin (Taiwanese),Male,9,逛街/買東西,33,produces,0
+Mandarin (Taiwanese),Male,9,逛街/買東西,33,understands,0.4242
+Mandarin (Taiwanese),Female,10,逛街/買東西,40,produces,0
+Mandarin (Taiwanese),Female,10,逛街/買東西,40,understands,0.05
+Mandarin (Taiwanese),Male,10,逛街/買東西,38,produces,0
+Mandarin (Taiwanese),Male,10,逛街/買東西,38,understands,0.1579
+Mandarin (Taiwanese),Female,11,逛街/買東西,38,produces,0
+Mandarin (Taiwanese),Female,11,逛街/買東西,38,understands,0.1842
+Mandarin (Taiwanese),Male,11,逛街/買東西,41,produces,0
+Mandarin (Taiwanese),Male,11,逛街/買東西,41,understands,0.0732
+Mandarin (Taiwanese),Female,12,逛街/買東西,42,produces,0.0476
+Mandarin (Taiwanese),Female,12,逛街/買東西,42,understands,0.1429
+Mandarin (Taiwanese),Male,12,逛街/買東西,38,produces,0.0263
+Mandarin (Taiwanese),Male,12,逛街/買東西,38,understands,0.1579
+Mandarin (Taiwanese),Female,13,逛街/買東西,41,produces,0.0244
+Mandarin (Taiwanese),Female,13,逛街/買東西,41,understands,0.1707
+Mandarin (Taiwanese),Male,13,逛街/買東西,37,produces,0.0541
+Mandarin (Taiwanese),Male,13,逛街/買東西,37,understands,0.2703
+Mandarin (Taiwanese),Female,14,逛街/買東西,43,produces,0.0698
+Mandarin (Taiwanese),Female,14,逛街/買東西,43,understands,0.2558
+Mandarin (Taiwanese),Male,14,逛街/買東西,38,produces,0
+Mandarin (Taiwanese),Male,14,逛街/買東西,38,understands,0.1579
+Mandarin (Taiwanese),Female,15,逛街/買東西,54,produces,0.037
+Mandarin (Taiwanese),Female,15,逛街/買東西,54,understands,0.2222
+Mandarin (Taiwanese),Male,15,逛街/買東西,52,produces,0.0577
+Mandarin (Taiwanese),Male,15,逛街/買東西,52,understands,0.3077
+Mandarin (Taiwanese),Female,16,逛街/買東西,82,produces,0.0366
+Mandarin (Taiwanese),Female,16,逛街/買東西,82,understands,0.1829
+Mandarin (Taiwanese),Male,16,逛街/買東西,88,produces,0.0114
+Mandarin (Taiwanese),Male,16,逛街/買東西,88,understands,0.0795
+Mandarin (Taiwanese),Female,17,逛街/買東西,37,produces,0.0541
+Mandarin (Taiwanese),Female,17,逛街/買東西,37,understands,0
+Mandarin (Taiwanese),Male,17,逛街/買東西,50,produces,0.04
+Mandarin (Taiwanese),Male,17,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Female,18,逛街/買東西,49,produces,0.0408
+Mandarin (Taiwanese),Female,18,逛街/買東西,49,understands,0
+Mandarin (Taiwanese),Male,18,逛街/買東西,35,produces,0.0571
+Mandarin (Taiwanese),Male,18,逛街/買東西,35,understands,0
+Mandarin (Taiwanese),Female,19,逛街/買東西,42,produces,0.1429
+Mandarin (Taiwanese),Female,19,逛街/買東西,42,understands,0
+Mandarin (Taiwanese),Male,19,逛街/買東西,42,produces,0.0952
+Mandarin (Taiwanese),Male,19,逛街/買東西,42,understands,0
+Mandarin (Taiwanese),Female,20,逛街/買東西,40,produces,0.15
+Mandarin (Taiwanese),Female,20,逛街/買東西,40,understands,0
+Mandarin (Taiwanese),Male,20,逛街/買東西,44,produces,0.1591
+Mandarin (Taiwanese),Male,20,逛街/買東西,44,understands,0
+Mandarin (Taiwanese),Female,21,逛街/買東西,38,produces,0.2632
+Mandarin (Taiwanese),Female,21,逛街/買東西,38,understands,0
+Mandarin (Taiwanese),Male,21,逛街/買東西,50,produces,0.18
+Mandarin (Taiwanese),Male,21,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Female,22,逛街/買東西,48,produces,0.2708
+Mandarin (Taiwanese),Female,22,逛街/買東西,48,understands,0
+Mandarin (Taiwanese),Male,22,逛街/買東西,48,produces,0.3333
+Mandarin (Taiwanese),Male,22,逛街/買東西,48,understands,0
+Mandarin (Taiwanese),Female,23,逛街/買東西,50,produces,0.42
+Mandarin (Taiwanese),Female,23,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Male,23,逛街/買東西,55,produces,0.2727
+Mandarin (Taiwanese),Male,23,逛街/買東西,55,understands,0
+Mandarin (Taiwanese),Female,24,逛街/買東西,65,produces,0.4462
+Mandarin (Taiwanese),Female,24,逛街/買東西,65,understands,0
+Mandarin (Taiwanese),Male,24,逛街/買東西,59,produces,0.3051
+Mandarin (Taiwanese),Male,24,逛街/買東西,59,understands,0
+Mandarin (Taiwanese),Female,25,逛街/買東西,60,produces,0.4833
+Mandarin (Taiwanese),Female,25,逛街/買東西,60,understands,0
+Mandarin (Taiwanese),Male,25,逛街/買東西,50,produces,0.38
+Mandarin (Taiwanese),Male,25,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Female,26,逛街/買東西,38,produces,0.6053
+Mandarin (Taiwanese),Female,26,逛街/買東西,38,understands,0
+Mandarin (Taiwanese),Male,26,逛街/買東西,49,produces,0.449
+Mandarin (Taiwanese),Male,26,逛街/買東西,49,understands,0
+Mandarin (Taiwanese),Female,27,逛街/買東西,49,produces,0.6531
+Mandarin (Taiwanese),Female,27,逛街/買東西,49,understands,0
+Mandarin (Taiwanese),Male,27,逛街/買東西,43,produces,0.4884
+Mandarin (Taiwanese),Male,27,逛街/買東西,43,understands,0
+Mandarin (Taiwanese),Female,28,逛街/買東西,50,produces,0.76
+Mandarin (Taiwanese),Female,28,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Male,28,逛街/買東西,50,produces,0.62
+Mandarin (Taiwanese),Male,28,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Female,29,逛街/買東西,41,produces,0.8293
+Mandarin (Taiwanese),Female,29,逛街/買東西,41,understands,0
+Mandarin (Taiwanese),Male,29,逛街/買東西,47,produces,0.6383
+Mandarin (Taiwanese),Male,29,逛街/買東西,47,understands,0
+Mandarin (Taiwanese),Female,30,逛街/買東西,44,produces,0.7955
+Mandarin (Taiwanese),Female,30,逛街/買東西,44,understands,0
+Mandarin (Taiwanese),Male,30,逛街/買東西,50,produces,0.66
+Mandarin (Taiwanese),Male,30,逛街/買東西,50,understands,0
+Mandarin (Taiwanese),Female,31,逛街/買東西,35,produces,0.8286
+Mandarin (Taiwanese),Female,31,逛街/買東西,35,understands,0
+Mandarin (Taiwanese),Male,31,逛街/買東西,53,produces,0.7358
+Mandarin (Taiwanese),Male,31,逛街/買東西,53,understands,0
+Mandarin (Taiwanese),Female,32,逛街/買東西,43,produces,0.7209
+Mandarin (Taiwanese),Female,32,逛街/買東西,43,understands,0
+Mandarin (Taiwanese),Male,32,逛街/買東西,39,produces,0.641
+Mandarin (Taiwanese),Male,32,逛街/買東西,39,understands,0
+Mandarin (Taiwanese),Female,33,逛街/買東西,45,produces,0.9333
+Mandarin (Taiwanese),Female,33,逛街/買東西,45,understands,0
+Mandarin (Taiwanese),Male,33,逛街/買東西,40,produces,0.85
+Mandarin (Taiwanese),Male,33,逛街/買東西,40,understands,0
+Mandarin (Taiwanese),Female,34,逛街/買東西,33,produces,0.8485
+Mandarin (Taiwanese),Female,34,逛街/買東西,33,understands,0
+Mandarin (Taiwanese),Male,34,逛街/買東西,44,produces,0.7727
+Mandarin (Taiwanese),Male,34,逛街/買東西,44,understands,0
+Mandarin (Taiwanese),Female,35,逛街/買東西,42,produces,0.9286
+Mandarin (Taiwanese),Female,35,逛街/買東西,42,understands,0
+Mandarin (Taiwanese),Male,35,逛街/買東西,39,produces,0.8718
+Mandarin (Taiwanese),Male,35,逛街/買東西,39,understands,0
+Mandarin (Taiwanese),Female,36,逛街/買東西,38,produces,0.9474
+Mandarin (Taiwanese),Female,36,逛街/買東西,38,understands,0
+Mandarin (Taiwanese),Male,36,逛街/買東西,43,produces,0.8605
+Mandarin (Taiwanese),Male,36,逛街/買東西,43,understands,0
+Norwegian,Female,16,handle,39,produces,0.0256
+Norwegian,Female,16,handle,39,understands,0
+Norwegian,Male,16,handle,59,produces,0
+Norwegian,Male,16,handle,59,understands,0
+Norwegian,Female,17,handle,125,produces,0
+Norwegian,Female,17,handle,125,understands,0
+Norwegian,Male,17,handle,93,produces,0.0215
+Norwegian,Male,17,handle,93,understands,0
+Norwegian,Female,18,handle,146,produces,0.0342
+Norwegian,Female,18,handle,146,understands,0
+Norwegian,Male,18,handle,125,produces,0.008
+Norwegian,Male,18,handle,125,understands,0
+Norwegian,Female,19,handle,135,produces,0.037
+Norwegian,Female,19,handle,135,understands,0
+Norwegian,Male,19,handle,146,produces,0.0205
+Norwegian,Male,19,handle,146,understands,0
+Norwegian,Female,20,handle,183,produces,0.0601
+Norwegian,Female,20,handle,183,understands,0
+Norwegian,Male,20,handle,159,produces,0.0629
+Norwegian,Male,20,handle,159,understands,0
+Norwegian,Female,21,handle,218,produces,0.1147
+Norwegian,Female,21,handle,218,understands,0
+Norwegian,Male,21,handle,200,produces,0.075
+Norwegian,Male,21,handle,200,understands,0
+Norwegian,Female,22,handle,304,produces,0.1842
+Norwegian,Female,22,handle,304,understands,0
+Norwegian,Male,22,handle,292,produces,0.0753
+Norwegian,Male,22,handle,292,understands,0
+Norwegian,Female,23,handle,285,produces,0.2842
+Norwegian,Female,23,handle,285,understands,0
+Norwegian,Male,23,handle,281,produces,0.1317
+Norwegian,Male,23,handle,281,understands,0
+Norwegian,Female,24,handle,266,produces,0.2519
+Norwegian,Female,24,handle,266,understands,0
+Norwegian,Male,24,handle,272,produces,0.25
+Norwegian,Male,24,handle,272,understands,0
+Norwegian,Female,25,handle,325,produces,0.3877
+Norwegian,Female,25,handle,325,understands,0
+Norwegian,Male,25,handle,331,produces,0.3112
+Norwegian,Male,25,handle,331,understands,0
+Norwegian,Female,26,handle,301,produces,0.5183
+Norwegian,Female,26,handle,301,understands,0
+Norwegian,Male,26,handle,343,produces,0.344
+Norwegian,Male,26,handle,343,understands,0
+Norwegian,Female,27,handle,267,produces,0.6142
+Norwegian,Female,27,handle,267,understands,0
+Norwegian,Male,27,handle,258,produces,0.4651
+Norwegian,Male,27,handle,258,understands,0
+Norwegian,Female,28,handle,281,produces,0.6512
+Norwegian,Female,28,handle,281,understands,0
+Norwegian,Male,28,handle,263,produces,0.4487
+Norwegian,Male,28,handle,263,understands,0
+Norwegian,Female,29,handle,252,produces,0.6587
+Norwegian,Female,29,handle,252,understands,0
+Norwegian,Male,29,handle,284,produces,0.5458
+Norwegian,Male,29,handle,284,understands,0
+Norwegian,Female,30,handle,213,produces,0.7042
+Norwegian,Female,30,handle,213,understands,0
+Norwegian,Male,30,handle,244,produces,0.627
+Norwegian,Male,30,handle,244,understands,0
+Norwegian,Female,31,handle,229,produces,0.786
+Norwegian,Female,31,handle,229,understands,0
+Norwegian,Male,31,handle,250,produces,0.64
+Norwegian,Male,31,handle,250,understands,0
+Norwegian,Female,32,handle,224,produces,0.8259
+Norwegian,Female,32,handle,224,understands,0
+Norwegian,Male,32,handle,227,produces,0.7181
+Norwegian,Male,32,handle,227,understands,0
+Norwegian,Female,33,handle,213,produces,0.8592
+Norwegian,Female,33,handle,213,understands,0
+Norwegian,Male,33,handle,217,produces,0.7512
+Norwegian,Male,33,handle,217,understands,0
+Norwegian,Female,34,handle,194,produces,0.8454
+Norwegian,Female,34,handle,194,understands,0
+Norwegian,Male,34,handle,230,produces,0.7348
+Norwegian,Male,34,handle,230,understands,0
+Norwegian,Female,35,handle,230,produces,0.8522
+Norwegian,Female,35,handle,230,understands,0
+Norwegian,Male,35,handle,192,produces,0.7552
+Norwegian,Male,35,handle,192,understands,0
+Norwegian,Female,36,handle,170,produces,0.8941
+Norwegian,Female,36,handle,170,understands,0
+Norwegian,Male,36,handle,159,produces,0.8176
+Norwegian,Male,36,handle,159,understands,0
+Swedish,Female,16,handla,90,produces,0
+Swedish,Female,16,handla,90,understands,0
+Swedish,Male,16,handla,66,produces,0.0152
+Swedish,Male,16,handla,66,understands,0
+Swedish,Female,19,handla,85,produces,0.0824
+Swedish,Female,19,handla,85,understands,0
+Swedish,Male,19,handla,65,produces,0.0615
+Swedish,Male,19,handla,65,understands,0
+Swedish,Female,22,handla,162,produces,0.3457
+Swedish,Female,22,handla,162,understands,0
+Swedish,Male,22,handla,143,produces,0.2727
+Swedish,Male,22,handla,143,understands,0
+Swedish,Female,25,handla,67,produces,0.6269
+Swedish,Female,25,handla,67,understands,0
+Swedish,Male,25,handla,76,produces,0.5263
+Swedish,Male,25,handla,76,understands,0
+Swedish,Female,28,handla,69,produces,0.7826
+Swedish,Female,28,handla,69,understands,0
+Swedish,Male,28,handla,70,produces,0.7286
+Swedish,Male,28,handla,70,understands,0

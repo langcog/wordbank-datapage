@@ -1,57 +1,169 @@
-language,age,words,n,measure,prop
-Italian,18,olio,31,produces,0.1935
-Italian,18,olio,31,understands,0
-Italian,19,olio,39,produces,0.2051
-Italian,19,olio,39,understands,0
-Italian,20,olio,64,produces,0.3281
-Italian,20,olio,64,understands,0
-Italian,21,olio,55,produces,0.3091
-Italian,21,olio,55,understands,0
-Italian,22,olio,55,produces,0.5636
-Italian,22,olio,55,understands,0
-Italian,23,olio,53,produces,0.5472
-Italian,23,olio,53,understands,0
-Italian,24,olio,71,produces,0.5493
-Italian,24,olio,71,understands,0
-Italian,25,olio,39,produces,0.7179
-Italian,25,olio,39,understands,0
-Italian,26,olio,41,produces,0.6585
-Italian,26,olio,41,understands,0
-Italian,27,olio,43,produces,0.5116
-Italian,27,olio,43,understands,0
-Italian,28,olio,44,produces,0.6818
-Italian,28,olio,44,understands,0
-Italian,29,olio,37,produces,0.8108
-Italian,29,olio,37,understands,0
-Italian,30,olio,67,produces,0.8209
-Italian,30,olio,67,understands,0
-Italian,31,olio,19,produces,0.7368
-Italian,31,olio,19,understands,0
-Italian,32,olio,23,produces,0.7391
-Italian,32,olio,23,understands,0
-Italian,33,olio,16,produces,0.875
-Italian,33,olio,16,understands,0
-Italian,34,olio,19,produces,0.9474
-Italian,34,olio,19,understands,0
-Italian,35,olio,15,produces,0.8
-Italian,35,olio,15,understands,0
-Italian,36,olio,21,produces,0.9524
-Italian,36,olio,21,understands,0
-Arabic (Saudi),8,زيت,24,produces,0
-Arabic (Saudi),8,زيت,24,understands,0.0833
-Arabic (Saudi),9,زيت,27,produces,0
-Arabic (Saudi),9,زيت,27,understands,0
-Arabic (Saudi),10,زيت,35,produces,0.0571
-Arabic (Saudi),10,زيت,35,understands,0.0571
-Arabic (Saudi),11,زيت,30,produces,0
-Arabic (Saudi),11,زيت,30,understands,0.0333
-Arabic (Saudi),12,زيت,30,produces,0.0333
-Arabic (Saudi),12,زيت,30,understands,0
-Arabic (Saudi),13,زيت,39,produces,0
-Arabic (Saudi),13,زيت,39,understands,0
-Arabic (Saudi),14,زيت,25,produces,0
-Arabic (Saudi),14,زيت,25,understands,0
-Arabic (Saudi),15,زيت,27,produces,0
-Arabic (Saudi),15,زيت,27,understands,0.1111
-Arabic (Saudi),16,زيت,21,produces,0.0476
-Arabic (Saudi),16,زيت,21,understands,0.0476
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,زيت,24,produces,0
+Arabic (Saudi),All,8,زيت,24,understands,0.0833
+Arabic (Saudi),All,9,زيت,27,produces,0
+Arabic (Saudi),All,9,زيت,27,understands,0
+Arabic (Saudi),All,10,زيت,35,produces,0.0571
+Arabic (Saudi),All,10,زيت,35,understands,0.0571
+Arabic (Saudi),All,11,زيت,30,produces,0
+Arabic (Saudi),All,11,زيت,30,understands,0.0333
+Arabic (Saudi),All,12,زيت,30,produces,0.0333
+Arabic (Saudi),All,12,زيت,30,understands,0
+Arabic (Saudi),All,13,زيت,39,produces,0
+Arabic (Saudi),All,13,زيت,39,understands,0
+Arabic (Saudi),All,14,زيت,25,produces,0
+Arabic (Saudi),All,14,زيت,25,understands,0
+Arabic (Saudi),All,15,زيت,27,produces,0
+Arabic (Saudi),All,15,زيت,27,understands,0.1111
+Arabic (Saudi),All,16,زيت,21,produces,0.0476
+Arabic (Saudi),All,16,زيت,21,understands,0.0476
+Italian,All,18,olio,31,produces,0.1935
+Italian,All,18,olio,31,understands,0
+Italian,All,19,olio,39,produces,0.2051
+Italian,All,19,olio,39,understands,0
+Italian,All,20,olio,64,produces,0.3281
+Italian,All,20,olio,64,understands,0
+Italian,All,21,olio,55,produces,0.3091
+Italian,All,21,olio,55,understands,0
+Italian,All,22,olio,55,produces,0.5636
+Italian,All,22,olio,55,understands,0
+Italian,All,23,olio,53,produces,0.5472
+Italian,All,23,olio,53,understands,0
+Italian,All,24,olio,71,produces,0.5493
+Italian,All,24,olio,71,understands,0
+Italian,All,25,olio,39,produces,0.7179
+Italian,All,25,olio,39,understands,0
+Italian,All,26,olio,41,produces,0.6585
+Italian,All,26,olio,41,understands,0
+Italian,All,27,olio,43,produces,0.5116
+Italian,All,27,olio,43,understands,0
+Italian,All,28,olio,44,produces,0.6818
+Italian,All,28,olio,44,understands,0
+Italian,All,29,olio,37,produces,0.8108
+Italian,All,29,olio,37,understands,0
+Italian,All,30,olio,67,produces,0.8209
+Italian,All,30,olio,67,understands,0
+Italian,All,31,olio,19,produces,0.7368
+Italian,All,31,olio,19,understands,0
+Italian,All,32,olio,23,produces,0.7391
+Italian,All,32,olio,23,understands,0
+Italian,All,33,olio,16,produces,0.875
+Italian,All,33,olio,16,understands,0
+Italian,All,34,olio,19,produces,0.9474
+Italian,All,34,olio,19,understands,0
+Italian,All,35,olio,15,produces,0.8
+Italian,All,35,olio,15,understands,0
+Italian,All,36,olio,21,produces,0.9524
+Italian,All,36,olio,21,understands,0
+Arabic (Saudi),Female,8,زيت,13,produces,0
+Arabic (Saudi),Female,8,زيت,13,understands,0.1538
+Arabic (Saudi),Male,8,زيت,11,produces,0
+Arabic (Saudi),Male,8,زيت,11,understands,0
+Arabic (Saudi),Female,9,زيت,14,produces,0
+Arabic (Saudi),Female,9,زيت,14,understands,0
+Arabic (Saudi),Male,9,زيت,13,produces,0
+Arabic (Saudi),Male,9,زيت,13,understands,0
+Arabic (Saudi),Female,10,زيت,15,produces,0.0667
+Arabic (Saudi),Female,10,زيت,15,understands,0
+Arabic (Saudi),Male,10,زيت,20,produces,0.05
+Arabic (Saudi),Male,10,زيت,20,understands,0.1
+Arabic (Saudi),Female,11,زيت,14,produces,0
+Arabic (Saudi),Female,11,زيت,14,understands,0
+Arabic (Saudi),Male,11,زيت,16,produces,0
+Arabic (Saudi),Male,11,زيت,16,understands,0.0625
+Arabic (Saudi),Female,12,زيت,14,produces,0.0714
+Arabic (Saudi),Female,12,زيت,14,understands,0
+Arabic (Saudi),Male,12,زيت,16,produces,0
+Arabic (Saudi),Male,12,زيت,16,understands,0
+Arabic (Saudi),Female,13,زيت,17,produces,0
+Arabic (Saudi),Female,13,زيت,17,understands,0
+Arabic (Saudi),Male,13,زيت,22,produces,0
+Arabic (Saudi),Male,13,زيت,22,understands,0
+Arabic (Saudi),Female,14,زيت,10,produces,0
+Arabic (Saudi),Female,14,زيت,10,understands,0
+Arabic (Saudi),Male,14,زيت,15,produces,0
+Arabic (Saudi),Male,14,زيت,15,understands,0
+Arabic (Saudi),Female,15,زيت,12,produces,0
+Arabic (Saudi),Female,15,زيت,12,understands,0.1667
+Arabic (Saudi),Male,15,زيت,15,produces,0
+Arabic (Saudi),Male,15,زيت,15,understands,0.0667
+Arabic (Saudi),Female,16,زيت,10,produces,0
+Arabic (Saudi),Female,16,زيت,10,understands,0.1
+Arabic (Saudi),Male,16,زيت,11,produces,0.0909
+Arabic (Saudi),Male,16,زيت,11,understands,0
+Italian,Female,18,olio,18,produces,0.2778
+Italian,Female,18,olio,18,understands,0
+Italian,Male,18,olio,13,produces,0.0769
+Italian,Male,18,olio,13,understands,0
+Italian,Female,19,olio,21,produces,0.2381
+Italian,Female,19,olio,21,understands,0
+Italian,Male,19,olio,18,produces,0.1667
+Italian,Male,19,olio,18,understands,0
+Italian,Female,20,olio,34,produces,0.3235
+Italian,Female,20,olio,34,understands,0
+Italian,Male,20,olio,30,produces,0.3333
+Italian,Male,20,olio,30,understands,0
+Italian,Female,21,olio,24,produces,0.2917
+Italian,Female,21,olio,24,understands,0
+Italian,Male,21,olio,31,produces,0.3226
+Italian,Male,21,olio,31,understands,0
+Italian,Female,22,olio,27,produces,0.5556
+Italian,Female,22,olio,27,understands,0
+Italian,Male,22,olio,28,produces,0.5714
+Italian,Male,22,olio,28,understands,0
+Italian,Female,23,olio,27,produces,0.5556
+Italian,Female,23,olio,27,understands,0
+Italian,Male,23,olio,26,produces,0.5385
+Italian,Male,23,olio,26,understands,0
+Italian,Female,24,olio,39,produces,0.5641
+Italian,Female,24,olio,39,understands,0
+Italian,Male,24,olio,32,produces,0.5312
+Italian,Male,24,olio,32,understands,0
+Italian,Female,25,olio,23,produces,0.6957
+Italian,Female,25,olio,23,understands,0
+Italian,Male,25,olio,16,produces,0.75
+Italian,Male,25,olio,16,understands,0
+Italian,Female,26,olio,19,produces,0.7368
+Italian,Female,26,olio,19,understands,0
+Italian,Male,26,olio,22,produces,0.5909
+Italian,Male,26,olio,22,understands,0
+Italian,Female,27,olio,20,produces,0.4
+Italian,Female,27,olio,20,understands,0
+Italian,Male,27,olio,23,produces,0.6087
+Italian,Male,27,olio,23,understands,0
+Italian,Female,28,olio,21,produces,0.6667
+Italian,Female,28,olio,21,understands,0
+Italian,Male,28,olio,23,produces,0.6957
+Italian,Male,28,olio,23,understands,0
+Italian,Female,29,olio,21,produces,0.7619
+Italian,Female,29,olio,21,understands,0
+Italian,Male,29,olio,16,produces,0.875
+Italian,Male,29,olio,16,understands,0
+Italian,Female,30,olio,28,produces,0.7857
+Italian,Female,30,olio,28,understands,0
+Italian,Male,30,olio,39,produces,0.8462
+Italian,Male,30,olio,39,understands,0
+Italian,Female,31,olio,8,produces,0.625
+Italian,Female,31,olio,8,understands,0
+Italian,Male,31,olio,11,produces,0.8182
+Italian,Male,31,olio,11,understands,0
+Italian,Female,32,olio,14,produces,1
+Italian,Female,32,olio,14,understands,0
+Italian,Male,32,olio,9,produces,0.3333
+Italian,Male,32,olio,9,understands,0
+Italian,Female,33,olio,5,produces,0.8
+Italian,Female,33,olio,5,understands,0
+Italian,Male,33,olio,11,produces,0.9091
+Italian,Male,33,olio,11,understands,0
+Italian,Female,34,olio,12,produces,1
+Italian,Female,34,olio,12,understands,0
+Italian,Male,34,olio,7,produces,0.8571
+Italian,Male,34,olio,7,understands,0
+Italian,Female,35,olio,9,produces,0.7778
+Italian,Female,35,olio,9,understands,0
+Italian,Male,35,olio,6,produces,0.8333
+Italian,Male,35,olio,6,understands,0
+Italian,Female,36,olio,7,produces,1
+Italian,Female,36,olio,7,understands,0
+Italian,Male,36,olio,14,produces,0.9286
+Italian,Male,36,olio,14,understands,0

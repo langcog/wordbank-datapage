@@ -1,81 +1,233 @@
-language,age,words,n,measure,prop
-English (Irish),17,across,2,produces,0
-English (Irish),17,across,2,understands,0
-English (Irish),18,across,1,produces,0
-English (Irish),18,across,1,understands,0
-English (Irish),19,across,2,produces,0
-English (Irish),19,across,2,understands,0
-English (Irish),20,across,1,produces,0
-English (Irish),20,across,1,understands,0
-English (Irish),21,across,3,produces,0
-English (Irish),21,across,3,understands,0
-English (Irish),22,across,4,produces,0
-English (Irish),22,across,4,understands,0
-English (Irish),23,across,4,produces,0
-English (Irish),23,across,4,understands,0
-English (Irish),24,across,4,produces,0
-English (Irish),24,across,4,understands,0
-English (Irish),25,across,6,produces,0
-English (Irish),25,across,6,understands,0
-English (Irish),26,across,10,produces,0
-English (Irish),26,across,10,understands,0
-English (Irish),27,across,5,produces,0
-English (Irish),27,across,5,understands,0
-English (Irish),28,across,7,produces,0
-English (Irish),28,across,7,understands,0
-English (Irish),29,across,4,produces,0
-English (Irish),29,across,4,understands,0
-English (Irish),30,across,9,produces,0.1111
-English (Irish),30,across,9,understands,0
-English (Irish),31,across,8,produces,0
-English (Irish),31,across,8,understands,0
-English (Irish),32,across,4,produces,0
-English (Irish),32,across,4,understands,0
-English (Irish),33,across,5,produces,0
-English (Irish),33,across,5,understands,0
-English (Irish),34,across,4,produces,0
-English (Irish),34,across,4,understands,0
-English (Irish),35,across,11,produces,0.2727
-English (Irish),35,across,11,understands,0
-English (Irish),36,across,5,produces,0
-English (Irish),36,across,5,understands,0
-Irish,17,transna,2,produces,0
-Irish,17,transna,2,understands,0
-Irish,18,transna,1,produces,0
-Irish,18,transna,1,understands,0
-Irish,19,transna,2,produces,0
-Irish,19,transna,2,understands,0
-Irish,20,transna,1,produces,0
-Irish,20,transna,1,understands,0
-Irish,21,transna,3,produces,0
-Irish,21,transna,3,understands,0
-Irish,22,transna,4,produces,0
-Irish,22,transna,4,understands,0
-Irish,23,transna,4,produces,0.25
-Irish,23,transna,4,understands,0
-Irish,24,transna,4,produces,0.25
-Irish,24,transna,4,understands,0
-Irish,25,transna,6,produces,0.3333
-Irish,25,transna,6,understands,0
-Irish,26,transna,10,produces,0.3
-Irish,26,transna,10,understands,0
-Irish,27,transna,5,produces,0.4
-Irish,27,transna,5,understands,0
-Irish,28,transna,7,produces,0.1429
-Irish,28,transna,7,understands,0
-Irish,29,transna,4,produces,0.25
-Irish,29,transna,4,understands,0
-Irish,30,transna,9,produces,0.5556
-Irish,30,transna,9,understands,0
-Irish,31,transna,8,produces,0.375
-Irish,31,transna,8,understands,0
-Irish,32,transna,4,produces,0.5
-Irish,32,transna,4,understands,0
-Irish,33,transna,5,produces,0.4
-Irish,33,transna,5,understands,0
-Irish,34,transna,4,produces,0.5
-Irish,34,transna,4,understands,0
-Irish,35,transna,11,produces,0.4545
-Irish,35,transna,11,understands,0
-Irish,36,transna,5,produces,0.6
-Irish,36,transna,5,understands,0
+language,sex,age,words,n,measure,prop
+English (Irish),All,17,across,2,produces,0
+English (Irish),All,17,across,2,understands,0
+English (Irish),All,18,across,1,produces,0
+English (Irish),All,18,across,1,understands,0
+English (Irish),All,19,across,2,produces,0
+English (Irish),All,19,across,2,understands,0
+English (Irish),All,20,across,1,produces,0
+English (Irish),All,20,across,1,understands,0
+English (Irish),All,21,across,3,produces,0
+English (Irish),All,21,across,3,understands,0
+English (Irish),All,22,across,4,produces,0
+English (Irish),All,22,across,4,understands,0
+English (Irish),All,23,across,4,produces,0
+English (Irish),All,23,across,4,understands,0
+English (Irish),All,24,across,4,produces,0
+English (Irish),All,24,across,4,understands,0
+English (Irish),All,25,across,6,produces,0
+English (Irish),All,25,across,6,understands,0
+English (Irish),All,26,across,10,produces,0
+English (Irish),All,26,across,10,understands,0
+English (Irish),All,27,across,5,produces,0
+English (Irish),All,27,across,5,understands,0
+English (Irish),All,28,across,7,produces,0
+English (Irish),All,28,across,7,understands,0
+English (Irish),All,29,across,4,produces,0
+English (Irish),All,29,across,4,understands,0
+English (Irish),All,30,across,9,produces,0.1111
+English (Irish),All,30,across,9,understands,0
+English (Irish),All,31,across,8,produces,0
+English (Irish),All,31,across,8,understands,0
+English (Irish),All,32,across,4,produces,0
+English (Irish),All,32,across,4,understands,0
+English (Irish),All,33,across,5,produces,0
+English (Irish),All,33,across,5,understands,0
+English (Irish),All,34,across,4,produces,0
+English (Irish),All,34,across,4,understands,0
+English (Irish),All,35,across,11,produces,0.2727
+English (Irish),All,35,across,11,understands,0
+English (Irish),All,36,across,5,produces,0
+English (Irish),All,36,across,5,understands,0
+Irish,All,17,transna,2,produces,0
+Irish,All,17,transna,2,understands,0
+Irish,All,18,transna,1,produces,0
+Irish,All,18,transna,1,understands,0
+Irish,All,19,transna,2,produces,0
+Irish,All,19,transna,2,understands,0
+Irish,All,20,transna,1,produces,0
+Irish,All,20,transna,1,understands,0
+Irish,All,21,transna,3,produces,0
+Irish,All,21,transna,3,understands,0
+Irish,All,22,transna,4,produces,0
+Irish,All,22,transna,4,understands,0
+Irish,All,23,transna,4,produces,0.25
+Irish,All,23,transna,4,understands,0
+Irish,All,24,transna,4,produces,0.25
+Irish,All,24,transna,4,understands,0
+Irish,All,25,transna,6,produces,0.3333
+Irish,All,25,transna,6,understands,0
+Irish,All,26,transna,10,produces,0.3
+Irish,All,26,transna,10,understands,0
+Irish,All,27,transna,5,produces,0.4
+Irish,All,27,transna,5,understands,0
+Irish,All,28,transna,7,produces,0.1429
+Irish,All,28,transna,7,understands,0
+Irish,All,29,transna,4,produces,0.25
+Irish,All,29,transna,4,understands,0
+Irish,All,30,transna,9,produces,0.5556
+Irish,All,30,transna,9,understands,0
+Irish,All,31,transna,8,produces,0.375
+Irish,All,31,transna,8,understands,0
+Irish,All,32,transna,4,produces,0.5
+Irish,All,32,transna,4,understands,0
+Irish,All,33,transna,5,produces,0.4
+Irish,All,33,transna,5,understands,0
+Irish,All,34,transna,4,produces,0.5
+Irish,All,34,transna,4,understands,0
+Irish,All,35,transna,11,produces,0.4545
+Irish,All,35,transna,11,understands,0
+Irish,All,36,transna,5,produces,0.6
+Irish,All,36,transna,5,understands,0
+English (Irish),Female,17,across,1,produces,0
+English (Irish),Female,17,across,1,understands,0
+English (Irish),Male,17,across,1,produces,0
+English (Irish),Male,17,across,1,understands,0
+English (Irish),Female,18,across,1,produces,0
+English (Irish),Female,18,across,1,understands,0
+English (Irish),Female,19,across,1,produces,0
+English (Irish),Female,19,across,1,understands,0
+English (Irish),Male,19,across,1,produces,0
+English (Irish),Male,19,across,1,understands,0
+English (Irish),Female,20,across,1,produces,0
+English (Irish),Female,20,across,1,understands,0
+English (Irish),Female,21,across,2,produces,0
+English (Irish),Female,21,across,2,understands,0
+English (Irish),Male,21,across,1,produces,0
+English (Irish),Male,21,across,1,understands,0
+English (Irish),Female,22,across,3,produces,0
+English (Irish),Female,22,across,3,understands,0
+English (Irish),Male,22,across,1,produces,0
+English (Irish),Male,22,across,1,understands,0
+English (Irish),Female,23,across,2,produces,0
+English (Irish),Female,23,across,2,understands,0
+English (Irish),Male,23,across,2,produces,0
+English (Irish),Male,23,across,2,understands,0
+English (Irish),Female,24,across,2,produces,0
+English (Irish),Female,24,across,2,understands,0
+English (Irish),Male,24,across,2,produces,0
+English (Irish),Male,24,across,2,understands,0
+English (Irish),Female,25,across,3,produces,0
+English (Irish),Female,25,across,3,understands,0
+English (Irish),Male,25,across,3,produces,0
+English (Irish),Male,25,across,3,understands,0
+English (Irish),Female,26,across,7,produces,0
+English (Irish),Female,26,across,7,understands,0
+English (Irish),Male,26,across,3,produces,0
+English (Irish),Male,26,across,3,understands,0
+English (Irish),Female,27,across,1,produces,0
+English (Irish),Female,27,across,1,understands,0
+English (Irish),Male,27,across,4,produces,0
+English (Irish),Male,27,across,4,understands,0
+English (Irish),Female,28,across,4,produces,0
+English (Irish),Female,28,across,4,understands,0
+English (Irish),Male,28,across,3,produces,0
+English (Irish),Male,28,across,3,understands,0
+English (Irish),Female,29,across,1,produces,0
+English (Irish),Female,29,across,1,understands,0
+English (Irish),Male,29,across,3,produces,0
+English (Irish),Male,29,across,3,understands,0
+English (Irish),Female,30,across,5,produces,0.2
+English (Irish),Female,30,across,5,understands,0
+English (Irish),Male,30,across,4,produces,0
+English (Irish),Male,30,across,4,understands,0
+English (Irish),Female,31,across,3,produces,0
+English (Irish),Female,31,across,3,understands,0
+English (Irish),Male,31,across,5,produces,0
+English (Irish),Male,31,across,5,understands,0
+English (Irish),Female,32,across,2,produces,0
+English (Irish),Female,32,across,2,understands,0
+English (Irish),Male,32,across,2,produces,0
+English (Irish),Male,32,across,2,understands,0
+English (Irish),Female,33,across,1,produces,0
+English (Irish),Female,33,across,1,understands,0
+English (Irish),Male,33,across,4,produces,0
+English (Irish),Male,33,across,4,understands,0
+English (Irish),Female,34,across,2,produces,0
+English (Irish),Female,34,across,2,understands,0
+English (Irish),Male,34,across,2,produces,0
+English (Irish),Male,34,across,2,understands,0
+English (Irish),Female,35,across,2,produces,0
+English (Irish),Female,35,across,2,understands,0
+English (Irish),Male,35,across,9,produces,0.3333
+English (Irish),Male,35,across,9,understands,0
+English (Irish),Female,36,across,3,produces,0
+English (Irish),Female,36,across,3,understands,0
+English (Irish),Male,36,across,2,produces,0
+English (Irish),Male,36,across,2,understands,0
+Irish,Female,17,transna,1,produces,0
+Irish,Female,17,transna,1,understands,0
+Irish,Male,17,transna,1,produces,0
+Irish,Male,17,transna,1,understands,0
+Irish,Female,18,transna,1,produces,0
+Irish,Female,18,transna,1,understands,0
+Irish,Female,19,transna,1,produces,0
+Irish,Female,19,transna,1,understands,0
+Irish,Male,19,transna,1,produces,0
+Irish,Male,19,transna,1,understands,0
+Irish,Female,20,transna,1,produces,0
+Irish,Female,20,transna,1,understands,0
+Irish,Female,21,transna,2,produces,0
+Irish,Female,21,transna,2,understands,0
+Irish,Male,21,transna,1,produces,0
+Irish,Male,21,transna,1,understands,0
+Irish,Female,22,transna,3,produces,0
+Irish,Female,22,transna,3,understands,0
+Irish,Male,22,transna,1,produces,0
+Irish,Male,22,transna,1,understands,0
+Irish,Female,23,transna,2,produces,0
+Irish,Female,23,transna,2,understands,0
+Irish,Male,23,transna,2,produces,0.5
+Irish,Male,23,transna,2,understands,0
+Irish,Female,24,transna,2,produces,0.5
+Irish,Female,24,transna,2,understands,0
+Irish,Male,24,transna,2,produces,0
+Irish,Male,24,transna,2,understands,0
+Irish,Female,25,transna,3,produces,0
+Irish,Female,25,transna,3,understands,0
+Irish,Male,25,transna,3,produces,0.6667
+Irish,Male,25,transna,3,understands,0
+Irish,Female,26,transna,7,produces,0.2857
+Irish,Female,26,transna,7,understands,0
+Irish,Male,26,transna,3,produces,0.3333
+Irish,Male,26,transna,3,understands,0
+Irish,Female,27,transna,1,produces,0
+Irish,Female,27,transna,1,understands,0
+Irish,Male,27,transna,4,produces,0.5
+Irish,Male,27,transna,4,understands,0
+Irish,Female,28,transna,4,produces,0
+Irish,Female,28,transna,4,understands,0
+Irish,Male,28,transna,3,produces,0.3333
+Irish,Male,28,transna,3,understands,0
+Irish,Female,29,transna,1,produces,1
+Irish,Female,29,transna,1,understands,0
+Irish,Male,29,transna,3,produces,0
+Irish,Male,29,transna,3,understands,0
+Irish,Female,30,transna,5,produces,0.4
+Irish,Female,30,transna,5,understands,0
+Irish,Male,30,transna,4,produces,0.75
+Irish,Male,30,transna,4,understands,0
+Irish,Female,31,transna,3,produces,0.3333
+Irish,Female,31,transna,3,understands,0
+Irish,Male,31,transna,5,produces,0.4
+Irish,Male,31,transna,5,understands,0
+Irish,Female,32,transna,2,produces,1
+Irish,Female,32,transna,2,understands,0
+Irish,Male,32,transna,2,produces,0
+Irish,Male,32,transna,2,understands,0
+Irish,Female,33,transna,1,produces,1
+Irish,Female,33,transna,1,understands,0
+Irish,Male,33,transna,4,produces,0.25
+Irish,Male,33,transna,4,understands,0
+Irish,Female,34,transna,2,produces,0.5
+Irish,Female,34,transna,2,understands,0
+Irish,Male,34,transna,2,produces,0.5
+Irish,Male,34,transna,2,understands,0
+Irish,Female,35,transna,2,produces,0.5
+Irish,Female,35,transna,2,understands,0
+Irish,Male,35,transna,9,produces,0.4444
+Irish,Male,35,transna,9,understands,0
+Irish,Female,36,transna,3,produces,0.3333
+Irish,Female,36,transna,3,understands,0
+Irish,Male,36,transna,2,produces,1
+Irish,Male,36,transna,2,understands,0

@@ -1,85 +1,253 @@
-language,age,words,n,measure,prop
-Japanese,16,駐車場,11,produces,0
-Japanese,16,駐車場,11,understands,0
-Japanese,17,駐車場,17,produces,0
-Japanese,17,駐車場,17,understands,0
-Japanese,18,駐車場,56,produces,0.0179
-Japanese,18,駐車場,56,understands,0
-Japanese,19,駐車場,35,produces,0
-Japanese,19,駐車場,35,understands,0
-Japanese,20,駐車場,59,produces,0.0339
-Japanese,20,駐車場,59,understands,0
-Japanese,21,駐車場,62,produces,0
-Japanese,21,駐車場,62,understands,0
-Japanese,22,駐車場,31,produces,0.0323
-Japanese,22,駐車場,31,understands,0
-Japanese,23,駐車場,67,produces,0.0448
-Japanese,23,駐車場,67,understands,0
-Japanese,24,駐車場,33,produces,0.0909
-Japanese,24,駐車場,33,understands,0
-Japanese,25,駐車場,34,produces,0.1471
-Japanese,25,駐車場,34,understands,0
-Japanese,26,駐車場,33,produces,0.1515
-Japanese,26,駐車場,33,understands,0
-Japanese,27,駐車場,15,produces,0.2
-Japanese,27,駐車場,15,understands,0
-Japanese,28,駐車場,18,produces,0.1111
-Japanese,28,駐車場,18,understands,0
-Japanese,29,駐車場,17,produces,0.3529
-Japanese,29,駐車場,17,understands,0
-Japanese,30,駐車場,18,produces,0.3333
-Japanese,30,駐車場,18,understands,0
-Japanese,31,駐車場,18,produces,0.5
-Japanese,31,駐車場,18,understands,0
-Japanese,32,駐車場,13,produces,0.1538
-Japanese,32,駐車場,13,understands,0
-Japanese,33,駐車場,16,produces,0.5
-Japanese,33,駐車場,16,understands,0
-Japanese,34,駐車場,13,produces,0.3077
-Japanese,34,駐車場,13,understands,0
-Japanese,35,駐車場,31,produces,0.2903
-Japanese,35,駐車場,31,understands,0
-Japanese,36,駐車場,18,produces,0.7222
-Japanese,36,駐車場,18,understands,0
-Mandarin (Taiwanese),16,停車場,80,produces,0
-Mandarin (Taiwanese),16,停車場,80,understands,0
-Mandarin (Taiwanese),17,停車場,87,produces,0
-Mandarin (Taiwanese),17,停車場,87,understands,0
-Mandarin (Taiwanese),18,停車場,84,produces,0
-Mandarin (Taiwanese),18,停車場,84,understands,0
-Mandarin (Taiwanese),19,停車場,84,produces,0.0119
-Mandarin (Taiwanese),19,停車場,84,understands,0
-Mandarin (Taiwanese),20,停車場,84,produces,0
-Mandarin (Taiwanese),20,停車場,84,understands,0
-Mandarin (Taiwanese),21,停車場,88,produces,0.0455
-Mandarin (Taiwanese),21,停車場,88,understands,0
-Mandarin (Taiwanese),22,停車場,96,produces,0.0625
-Mandarin (Taiwanese),22,停車場,96,understands,0
-Mandarin (Taiwanese),23,停車場,105,produces,0.0762
-Mandarin (Taiwanese),23,停車場,105,understands,0
-Mandarin (Taiwanese),24,停車場,124,produces,0.1129
-Mandarin (Taiwanese),24,停車場,124,understands,0
-Mandarin (Taiwanese),25,停車場,110,produces,0.1636
-Mandarin (Taiwanese),25,停車場,110,understands,0
-Mandarin (Taiwanese),26,停車場,87,produces,0.2184
-Mandarin (Taiwanese),26,停車場,87,understands,0
-Mandarin (Taiwanese),27,停車場,92,produces,0.2935
-Mandarin (Taiwanese),27,停車場,92,understands,0
-Mandarin (Taiwanese),28,停車場,100,produces,0.32
-Mandarin (Taiwanese),28,停車場,100,understands,0
-Mandarin (Taiwanese),29,停車場,88,produces,0.375
-Mandarin (Taiwanese),29,停車場,88,understands,0
-Mandarin (Taiwanese),30,停車場,94,produces,0.4362
-Mandarin (Taiwanese),30,停車場,94,understands,0
-Mandarin (Taiwanese),31,停車場,88,produces,0.6023
-Mandarin (Taiwanese),31,停車場,88,understands,0
-Mandarin (Taiwanese),32,停車場,82,produces,0.5
-Mandarin (Taiwanese),32,停車場,82,understands,0
-Mandarin (Taiwanese),33,停車場,85,produces,0.5765
-Mandarin (Taiwanese),33,停車場,85,understands,0
-Mandarin (Taiwanese),34,停車場,77,produces,0.5714
-Mandarin (Taiwanese),34,停車場,77,understands,0
-Mandarin (Taiwanese),35,停車場,81,produces,0.6667
-Mandarin (Taiwanese),35,停車場,81,understands,0
-Mandarin (Taiwanese),36,停車場,81,produces,0.716
-Mandarin (Taiwanese),36,停車場,81,understands,0
+language,sex,age,words,n,measure,prop
+Japanese,All,16,駐車場,11,produces,0
+Japanese,All,16,駐車場,11,understands,0
+Japanese,All,17,駐車場,17,produces,0
+Japanese,All,17,駐車場,17,understands,0
+Japanese,All,18,駐車場,56,produces,0.0179
+Japanese,All,18,駐車場,56,understands,0
+Japanese,All,19,駐車場,35,produces,0
+Japanese,All,19,駐車場,35,understands,0
+Japanese,All,20,駐車場,59,produces,0.0339
+Japanese,All,20,駐車場,59,understands,0
+Japanese,All,21,駐車場,62,produces,0
+Japanese,All,21,駐車場,62,understands,0
+Japanese,All,22,駐車場,31,produces,0.0323
+Japanese,All,22,駐車場,31,understands,0
+Japanese,All,23,駐車場,67,produces,0.0448
+Japanese,All,23,駐車場,67,understands,0
+Japanese,All,24,駐車場,33,produces,0.0909
+Japanese,All,24,駐車場,33,understands,0
+Japanese,All,25,駐車場,34,produces,0.1471
+Japanese,All,25,駐車場,34,understands,0
+Japanese,All,26,駐車場,33,produces,0.1515
+Japanese,All,26,駐車場,33,understands,0
+Japanese,All,27,駐車場,15,produces,0.2
+Japanese,All,27,駐車場,15,understands,0
+Japanese,All,28,駐車場,18,produces,0.1111
+Japanese,All,28,駐車場,18,understands,0
+Japanese,All,29,駐車場,17,produces,0.3529
+Japanese,All,29,駐車場,17,understands,0
+Japanese,All,30,駐車場,18,produces,0.3333
+Japanese,All,30,駐車場,18,understands,0
+Japanese,All,31,駐車場,18,produces,0.5
+Japanese,All,31,駐車場,18,understands,0
+Japanese,All,32,駐車場,13,produces,0.1538
+Japanese,All,32,駐車場,13,understands,0
+Japanese,All,33,駐車場,16,produces,0.5
+Japanese,All,33,駐車場,16,understands,0
+Japanese,All,34,駐車場,13,produces,0.3077
+Japanese,All,34,駐車場,13,understands,0
+Japanese,All,35,駐車場,31,produces,0.2903
+Japanese,All,35,駐車場,31,understands,0
+Japanese,All,36,駐車場,18,produces,0.7222
+Japanese,All,36,駐車場,18,understands,0
+Mandarin (Taiwanese),All,16,停車場,80,produces,0
+Mandarin (Taiwanese),All,16,停車場,80,understands,0
+Mandarin (Taiwanese),All,17,停車場,87,produces,0
+Mandarin (Taiwanese),All,17,停車場,87,understands,0
+Mandarin (Taiwanese),All,18,停車場,84,produces,0
+Mandarin (Taiwanese),All,18,停車場,84,understands,0
+Mandarin (Taiwanese),All,19,停車場,84,produces,0.0119
+Mandarin (Taiwanese),All,19,停車場,84,understands,0
+Mandarin (Taiwanese),All,20,停車場,84,produces,0
+Mandarin (Taiwanese),All,20,停車場,84,understands,0
+Mandarin (Taiwanese),All,21,停車場,88,produces,0.0455
+Mandarin (Taiwanese),All,21,停車場,88,understands,0
+Mandarin (Taiwanese),All,22,停車場,96,produces,0.0625
+Mandarin (Taiwanese),All,22,停車場,96,understands,0
+Mandarin (Taiwanese),All,23,停車場,105,produces,0.0762
+Mandarin (Taiwanese),All,23,停車場,105,understands,0
+Mandarin (Taiwanese),All,24,停車場,124,produces,0.1129
+Mandarin (Taiwanese),All,24,停車場,124,understands,0
+Mandarin (Taiwanese),All,25,停車場,110,produces,0.1636
+Mandarin (Taiwanese),All,25,停車場,110,understands,0
+Mandarin (Taiwanese),All,26,停車場,87,produces,0.2184
+Mandarin (Taiwanese),All,26,停車場,87,understands,0
+Mandarin (Taiwanese),All,27,停車場,92,produces,0.2935
+Mandarin (Taiwanese),All,27,停車場,92,understands,0
+Mandarin (Taiwanese),All,28,停車場,100,produces,0.32
+Mandarin (Taiwanese),All,28,停車場,100,understands,0
+Mandarin (Taiwanese),All,29,停車場,88,produces,0.375
+Mandarin (Taiwanese),All,29,停車場,88,understands,0
+Mandarin (Taiwanese),All,30,停車場,94,produces,0.4362
+Mandarin (Taiwanese),All,30,停車場,94,understands,0
+Mandarin (Taiwanese),All,31,停車場,88,produces,0.6023
+Mandarin (Taiwanese),All,31,停車場,88,understands,0
+Mandarin (Taiwanese),All,32,停車場,82,produces,0.5
+Mandarin (Taiwanese),All,32,停車場,82,understands,0
+Mandarin (Taiwanese),All,33,停車場,85,produces,0.5765
+Mandarin (Taiwanese),All,33,停車場,85,understands,0
+Mandarin (Taiwanese),All,34,停車場,77,produces,0.5714
+Mandarin (Taiwanese),All,34,停車場,77,understands,0
+Mandarin (Taiwanese),All,35,停車場,81,produces,0.6667
+Mandarin (Taiwanese),All,35,停車場,81,understands,0
+Mandarin (Taiwanese),All,36,停車場,81,produces,0.716
+Mandarin (Taiwanese),All,36,停車場,81,understands,0
+Japanese,Female,16,駐車場,4,produces,0
+Japanese,Female,16,駐車場,4,understands,0
+Japanese,Male,16,駐車場,7,produces,0
+Japanese,Male,16,駐車場,7,understands,0
+Japanese,Female,17,駐車場,11,produces,0
+Japanese,Female,17,駐車場,11,understands,0
+Japanese,Male,17,駐車場,6,produces,0
+Japanese,Male,17,駐車場,6,understands,0
+Japanese,Female,18,駐車場,27,produces,0.037
+Japanese,Female,18,駐車場,27,understands,0
+Japanese,Male,18,駐車場,29,produces,0
+Japanese,Male,18,駐車場,29,understands,0
+Japanese,Female,19,駐車場,14,produces,0
+Japanese,Female,19,駐車場,14,understands,0
+Japanese,Male,19,駐車場,21,produces,0
+Japanese,Male,19,駐車場,21,understands,0
+Japanese,Female,20,駐車場,27,produces,0.037
+Japanese,Female,20,駐車場,27,understands,0
+Japanese,Male,20,駐車場,32,produces,0.0312
+Japanese,Male,20,駐車場,32,understands,0
+Japanese,Female,21,駐車場,29,produces,0
+Japanese,Female,21,駐車場,29,understands,0
+Japanese,Male,21,駐車場,33,produces,0
+Japanese,Male,21,駐車場,33,understands,0
+Japanese,Female,22,駐車場,16,produces,0
+Japanese,Female,22,駐車場,16,understands,0
+Japanese,Male,22,駐車場,15,produces,0.0667
+Japanese,Male,22,駐車場,15,understands,0
+Japanese,Female,23,駐車場,38,produces,0.0263
+Japanese,Female,23,駐車場,38,understands,0
+Japanese,Male,23,駐車場,29,produces,0.069
+Japanese,Male,23,駐車場,29,understands,0
+Japanese,Female,24,駐車場,18,produces,0.1111
+Japanese,Female,24,駐車場,18,understands,0
+Japanese,Male,24,駐車場,15,produces,0.0667
+Japanese,Male,24,駐車場,15,understands,0
+Japanese,Female,25,駐車場,14,produces,0.2143
+Japanese,Female,25,駐車場,14,understands,0
+Japanese,Male,25,駐車場,20,produces,0.1
+Japanese,Male,25,駐車場,20,understands,0
+Japanese,Female,26,駐車場,19,produces,0.2105
+Japanese,Female,26,駐車場,19,understands,0
+Japanese,Male,26,駐車場,14,produces,0.0714
+Japanese,Male,26,駐車場,14,understands,0
+Japanese,Female,27,駐車場,8,produces,0.125
+Japanese,Female,27,駐車場,8,understands,0
+Japanese,Male,27,駐車場,7,produces,0.2857
+Japanese,Male,27,駐車場,7,understands,0
+Japanese,Female,28,駐車場,8,produces,0.125
+Japanese,Female,28,駐車場,8,understands,0
+Japanese,Male,28,駐車場,10,produces,0.1
+Japanese,Male,28,駐車場,10,understands,0
+Japanese,Female,29,駐車場,6,produces,0.1667
+Japanese,Female,29,駐車場,6,understands,0
+Japanese,Male,29,駐車場,11,produces,0.4545
+Japanese,Male,29,駐車場,11,understands,0
+Japanese,Female,30,駐車場,9,produces,0.3333
+Japanese,Female,30,駐車場,9,understands,0
+Japanese,Male,30,駐車場,9,produces,0.3333
+Japanese,Male,30,駐車場,9,understands,0
+Japanese,Female,31,駐車場,8,produces,0.5
+Japanese,Female,31,駐車場,8,understands,0
+Japanese,Male,31,駐車場,10,produces,0.5
+Japanese,Male,31,駐車場,10,understands,0
+Japanese,Female,32,駐車場,8,produces,0.125
+Japanese,Female,32,駐車場,8,understands,0
+Japanese,Male,32,駐車場,5,produces,0.2
+Japanese,Male,32,駐車場,5,understands,0
+Japanese,Female,33,駐車場,9,produces,0.3333
+Japanese,Female,33,駐車場,9,understands,0
+Japanese,Male,33,駐車場,7,produces,0.7143
+Japanese,Male,33,駐車場,7,understands,0
+Japanese,Female,34,駐車場,8,produces,0.375
+Japanese,Female,34,駐車場,8,understands,0
+Japanese,Male,34,駐車場,5,produces,0.2
+Japanese,Male,34,駐車場,5,understands,0
+Japanese,Female,35,駐車場,19,produces,0.3684
+Japanese,Female,35,駐車場,19,understands,0
+Japanese,Male,35,駐車場,12,produces,0.1667
+Japanese,Male,35,駐車場,12,understands,0
+Japanese,Female,36,駐車場,4,produces,1
+Japanese,Female,36,駐車場,4,understands,0
+Japanese,Male,36,駐車場,14,produces,0.6429
+Japanese,Male,36,駐車場,14,understands,0
+Mandarin (Taiwanese),Female,16,停車場,39,produces,0
+Mandarin (Taiwanese),Female,16,停車場,39,understands,0
+Mandarin (Taiwanese),Male,16,停車場,41,produces,0
+Mandarin (Taiwanese),Male,16,停車場,41,understands,0
+Mandarin (Taiwanese),Female,17,停車場,37,produces,0
+Mandarin (Taiwanese),Female,17,停車場,37,understands,0
+Mandarin (Taiwanese),Male,17,停車場,50,produces,0
+Mandarin (Taiwanese),Male,17,停車場,50,understands,0
+Mandarin (Taiwanese),Female,18,停車場,49,produces,0
+Mandarin (Taiwanese),Female,18,停車場,49,understands,0
+Mandarin (Taiwanese),Male,18,停車場,35,produces,0
+Mandarin (Taiwanese),Male,18,停車場,35,understands,0
+Mandarin (Taiwanese),Female,19,停車場,42,produces,0.0238
+Mandarin (Taiwanese),Female,19,停車場,42,understands,0
+Mandarin (Taiwanese),Male,19,停車場,42,produces,0
+Mandarin (Taiwanese),Male,19,停車場,42,understands,0
+Mandarin (Taiwanese),Female,20,停車場,40,produces,0
+Mandarin (Taiwanese),Female,20,停車場,40,understands,0
+Mandarin (Taiwanese),Male,20,停車場,44,produces,0
+Mandarin (Taiwanese),Male,20,停車場,44,understands,0
+Mandarin (Taiwanese),Female,21,停車場,38,produces,0.1053
+Mandarin (Taiwanese),Female,21,停車場,38,understands,0
+Mandarin (Taiwanese),Male,21,停車場,50,produces,0
+Mandarin (Taiwanese),Male,21,停車場,50,understands,0
+Mandarin (Taiwanese),Female,22,停車場,48,produces,0.0833
+Mandarin (Taiwanese),Female,22,停車場,48,understands,0
+Mandarin (Taiwanese),Male,22,停車場,48,produces,0.0417
+Mandarin (Taiwanese),Male,22,停車場,48,understands,0
+Mandarin (Taiwanese),Female,23,停車場,50,produces,0.06
+Mandarin (Taiwanese),Female,23,停車場,50,understands,0
+Mandarin (Taiwanese),Male,23,停車場,55,produces,0.0909
+Mandarin (Taiwanese),Male,23,停車場,55,understands,0
+Mandarin (Taiwanese),Female,24,停車場,65,produces,0.1385
+Mandarin (Taiwanese),Female,24,停車場,65,understands,0
+Mandarin (Taiwanese),Male,24,停車場,59,produces,0.0847
+Mandarin (Taiwanese),Male,24,停車場,59,understands,0
+Mandarin (Taiwanese),Female,25,停車場,60,produces,0.1833
+Mandarin (Taiwanese),Female,25,停車場,60,understands,0
+Mandarin (Taiwanese),Male,25,停車場,50,produces,0.14
+Mandarin (Taiwanese),Male,25,停車場,50,understands,0
+Mandarin (Taiwanese),Female,26,停車場,38,produces,0.2105
+Mandarin (Taiwanese),Female,26,停車場,38,understands,0
+Mandarin (Taiwanese),Male,26,停車場,49,produces,0.2245
+Mandarin (Taiwanese),Male,26,停車場,49,understands,0
+Mandarin (Taiwanese),Female,27,停車場,49,produces,0.3061
+Mandarin (Taiwanese),Female,27,停車場,49,understands,0
+Mandarin (Taiwanese),Male,27,停車場,43,produces,0.2791
+Mandarin (Taiwanese),Male,27,停車場,43,understands,0
+Mandarin (Taiwanese),Female,28,停車場,50,produces,0.26
+Mandarin (Taiwanese),Female,28,停車場,50,understands,0
+Mandarin (Taiwanese),Male,28,停車場,50,produces,0.38
+Mandarin (Taiwanese),Male,28,停車場,50,understands,0
+Mandarin (Taiwanese),Female,29,停車場,41,produces,0.3659
+Mandarin (Taiwanese),Female,29,停車場,41,understands,0
+Mandarin (Taiwanese),Male,29,停車場,47,produces,0.383
+Mandarin (Taiwanese),Male,29,停車場,47,understands,0
+Mandarin (Taiwanese),Female,30,停車場,44,produces,0.4091
+Mandarin (Taiwanese),Female,30,停車場,44,understands,0
+Mandarin (Taiwanese),Male,30,停車場,50,produces,0.46
+Mandarin (Taiwanese),Male,30,停車場,50,understands,0
+Mandarin (Taiwanese),Female,31,停車場,35,produces,0.5143
+Mandarin (Taiwanese),Female,31,停車場,35,understands,0
+Mandarin (Taiwanese),Male,31,停車場,53,produces,0.6604
+Mandarin (Taiwanese),Male,31,停車場,53,understands,0
+Mandarin (Taiwanese),Female,32,停車場,43,produces,0.4419
+Mandarin (Taiwanese),Female,32,停車場,43,understands,0
+Mandarin (Taiwanese),Male,32,停車場,39,produces,0.5641
+Mandarin (Taiwanese),Male,32,停車場,39,understands,0
+Mandarin (Taiwanese),Female,33,停車場,45,produces,0.5778
+Mandarin (Taiwanese),Female,33,停車場,45,understands,0
+Mandarin (Taiwanese),Male,33,停車場,40,produces,0.575
+Mandarin (Taiwanese),Male,33,停車場,40,understands,0
+Mandarin (Taiwanese),Female,34,停車場,33,produces,0.4545
+Mandarin (Taiwanese),Female,34,停車場,33,understands,0
+Mandarin (Taiwanese),Male,34,停車場,44,produces,0.6591
+Mandarin (Taiwanese),Male,34,停車場,44,understands,0
+Mandarin (Taiwanese),Female,35,停車場,42,produces,0.619
+Mandarin (Taiwanese),Female,35,停車場,42,understands,0
+Mandarin (Taiwanese),Male,35,停車場,39,produces,0.7179
+Mandarin (Taiwanese),Male,35,停車場,39,understands,0
+Mandarin (Taiwanese),Female,36,停車場,38,produces,0.7895
+Mandarin (Taiwanese),Female,36,停車場,38,understands,0
+Mandarin (Taiwanese),Male,36,停車場,43,produces,0.6512
+Mandarin (Taiwanese),Male,36,停車場,43,understands,0

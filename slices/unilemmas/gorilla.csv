@@ -1,73 +1,217 @@
-language,age,words,n,measure,prop
-Japanese,16,ゴリラ,11,produces,0.0909
-Japanese,16,ゴリラ,11,understands,0
-Japanese,17,ゴリラ,17,produces,0
-Japanese,17,ゴリラ,17,understands,0
-Japanese,18,ゴリラ,56,produces,0.0357
-Japanese,18,ゴリラ,56,understands,0
-Japanese,19,ゴリラ,35,produces,0.0571
-Japanese,19,ゴリラ,35,understands,0
-Japanese,20,ゴリラ,59,produces,0.1525
-Japanese,20,ゴリラ,59,understands,0
-Japanese,21,ゴリラ,62,produces,0.2097
-Japanese,21,ゴリラ,62,understands,0
-Japanese,22,ゴリラ,31,produces,0.3226
-Japanese,22,ゴリラ,31,understands,0
-Japanese,23,ゴリラ,67,produces,0.3134
-Japanese,23,ゴリラ,67,understands,0
-Japanese,24,ゴリラ,33,produces,0.4242
-Japanese,24,ゴリラ,33,understands,0
-Japanese,25,ゴリラ,34,produces,0.4118
-Japanese,25,ゴリラ,34,understands,0
-Japanese,26,ゴリラ,33,produces,0.5152
-Japanese,26,ゴリラ,33,understands,0
-Japanese,27,ゴリラ,15,produces,0.4667
-Japanese,27,ゴリラ,15,understands,0
-Japanese,28,ゴリラ,18,produces,0.6667
-Japanese,28,ゴリラ,18,understands,0
-Japanese,29,ゴリラ,17,produces,0.5882
-Japanese,29,ゴリラ,17,understands,0
-Japanese,30,ゴリラ,18,produces,0.7222
-Japanese,30,ゴリラ,18,understands,0
-Japanese,31,ゴリラ,18,produces,0.6667
-Japanese,31,ゴリラ,18,understands,0
-Japanese,32,ゴリラ,13,produces,0.6154
-Japanese,32,ゴリラ,13,understands,0
-Japanese,33,ゴリラ,16,produces,0.875
-Japanese,33,ゴリラ,16,understands,0
-Japanese,34,ゴリラ,13,produces,0.6923
-Japanese,34,ゴリラ,13,understands,0
-Japanese,35,ゴリラ,31,produces,0.8065
-Japanese,35,ゴリラ,31,understands,0
-Japanese,36,ゴリラ,18,produces,0.7778
-Japanese,36,ゴリラ,18,understands,0
-Mandarin (Beijing),16,猩猩,70,produces,0.0286
-Mandarin (Beijing),16,猩猩,70,understands,0
-Mandarin (Beijing),17,猩猩,72,produces,0.1111
-Mandarin (Beijing),17,猩猩,72,understands,0
-Mandarin (Beijing),18,猩猩,71,produces,0.0845
-Mandarin (Beijing),18,猩猩,71,understands,0
-Mandarin (Beijing),19,猩猩,70,produces,0.1857
-Mandarin (Beijing),19,猩猩,70,understands,0
-Mandarin (Beijing),20,猩猩,71,produces,0.3099
-Mandarin (Beijing),20,猩猩,71,understands,0
-Mandarin (Beijing),21,猩猩,70,produces,0.3286
-Mandarin (Beijing),21,猩猩,70,understands,0
-Mandarin (Beijing),22,猩猩,71,produces,0.4648
-Mandarin (Beijing),22,猩猩,71,understands,0
-Mandarin (Beijing),23,猩猩,70,produces,0.5143
-Mandarin (Beijing),23,猩猩,70,understands,0
-Mandarin (Beijing),24,猩猩,70,produces,0.5143
-Mandarin (Beijing),24,猩猩,70,understands,0
-Mandarin (Beijing),25,猩猩,70,produces,0.6143
-Mandarin (Beijing),25,猩猩,70,understands,0
-Mandarin (Beijing),26,猩猩,71,produces,0.6479
-Mandarin (Beijing),26,猩猩,71,understands,0
-Mandarin (Beijing),27,猩猩,70,produces,0.6429
-Mandarin (Beijing),27,猩猩,70,understands,0
-Mandarin (Beijing),28,猩猩,70,produces,0.6286
-Mandarin (Beijing),28,猩猩,70,understands,0
-Mandarin (Beijing),29,猩猩,70,produces,0.7571
-Mandarin (Beijing),29,猩猩,70,understands,0
-Mandarin (Beijing),30,猩猩,70,produces,0.7429
-Mandarin (Beijing),30,猩猩,70,understands,0
+language,sex,age,words,n,measure,prop
+Japanese,All,16,ゴリラ,11,produces,0.0909
+Japanese,All,16,ゴリラ,11,understands,0
+Japanese,All,17,ゴリラ,17,produces,0
+Japanese,All,17,ゴリラ,17,understands,0
+Japanese,All,18,ゴリラ,56,produces,0.0357
+Japanese,All,18,ゴリラ,56,understands,0
+Japanese,All,19,ゴリラ,35,produces,0.0571
+Japanese,All,19,ゴリラ,35,understands,0
+Japanese,All,20,ゴリラ,59,produces,0.1525
+Japanese,All,20,ゴリラ,59,understands,0
+Japanese,All,21,ゴリラ,62,produces,0.2097
+Japanese,All,21,ゴリラ,62,understands,0
+Japanese,All,22,ゴリラ,31,produces,0.3226
+Japanese,All,22,ゴリラ,31,understands,0
+Japanese,All,23,ゴリラ,67,produces,0.3134
+Japanese,All,23,ゴリラ,67,understands,0
+Japanese,All,24,ゴリラ,33,produces,0.4242
+Japanese,All,24,ゴリラ,33,understands,0
+Japanese,All,25,ゴリラ,34,produces,0.4118
+Japanese,All,25,ゴリラ,34,understands,0
+Japanese,All,26,ゴリラ,33,produces,0.5152
+Japanese,All,26,ゴリラ,33,understands,0
+Japanese,All,27,ゴリラ,15,produces,0.4667
+Japanese,All,27,ゴリラ,15,understands,0
+Japanese,All,28,ゴリラ,18,produces,0.6667
+Japanese,All,28,ゴリラ,18,understands,0
+Japanese,All,29,ゴリラ,17,produces,0.5882
+Japanese,All,29,ゴリラ,17,understands,0
+Japanese,All,30,ゴリラ,18,produces,0.7222
+Japanese,All,30,ゴリラ,18,understands,0
+Japanese,All,31,ゴリラ,18,produces,0.6667
+Japanese,All,31,ゴリラ,18,understands,0
+Japanese,All,32,ゴリラ,13,produces,0.6154
+Japanese,All,32,ゴリラ,13,understands,0
+Japanese,All,33,ゴリラ,16,produces,0.875
+Japanese,All,33,ゴリラ,16,understands,0
+Japanese,All,34,ゴリラ,13,produces,0.6923
+Japanese,All,34,ゴリラ,13,understands,0
+Japanese,All,35,ゴリラ,31,produces,0.8065
+Japanese,All,35,ゴリラ,31,understands,0
+Japanese,All,36,ゴリラ,18,produces,0.7778
+Japanese,All,36,ゴリラ,18,understands,0
+Mandarin (Beijing),All,16,猩猩,70,produces,0.0286
+Mandarin (Beijing),All,16,猩猩,70,understands,0
+Mandarin (Beijing),All,17,猩猩,72,produces,0.1111
+Mandarin (Beijing),All,17,猩猩,72,understands,0
+Mandarin (Beijing),All,18,猩猩,71,produces,0.0845
+Mandarin (Beijing),All,18,猩猩,71,understands,0
+Mandarin (Beijing),All,19,猩猩,70,produces,0.1857
+Mandarin (Beijing),All,19,猩猩,70,understands,0
+Mandarin (Beijing),All,20,猩猩,71,produces,0.3099
+Mandarin (Beijing),All,20,猩猩,71,understands,0
+Mandarin (Beijing),All,21,猩猩,70,produces,0.3286
+Mandarin (Beijing),All,21,猩猩,70,understands,0
+Mandarin (Beijing),All,22,猩猩,71,produces,0.4648
+Mandarin (Beijing),All,22,猩猩,71,understands,0
+Mandarin (Beijing),All,23,猩猩,70,produces,0.5143
+Mandarin (Beijing),All,23,猩猩,70,understands,0
+Mandarin (Beijing),All,24,猩猩,70,produces,0.5143
+Mandarin (Beijing),All,24,猩猩,70,understands,0
+Mandarin (Beijing),All,25,猩猩,70,produces,0.6143
+Mandarin (Beijing),All,25,猩猩,70,understands,0
+Mandarin (Beijing),All,26,猩猩,71,produces,0.6479
+Mandarin (Beijing),All,26,猩猩,71,understands,0
+Mandarin (Beijing),All,27,猩猩,70,produces,0.6429
+Mandarin (Beijing),All,27,猩猩,70,understands,0
+Mandarin (Beijing),All,28,猩猩,70,produces,0.6286
+Mandarin (Beijing),All,28,猩猩,70,understands,0
+Mandarin (Beijing),All,29,猩猩,70,produces,0.7571
+Mandarin (Beijing),All,29,猩猩,70,understands,0
+Mandarin (Beijing),All,30,猩猩,70,produces,0.7429
+Mandarin (Beijing),All,30,猩猩,70,understands,0
+Japanese,Female,16,ゴリラ,4,produces,0
+Japanese,Female,16,ゴリラ,4,understands,0
+Japanese,Male,16,ゴリラ,7,produces,0.1429
+Japanese,Male,16,ゴリラ,7,understands,0
+Japanese,Female,17,ゴリラ,11,produces,0
+Japanese,Female,17,ゴリラ,11,understands,0
+Japanese,Male,17,ゴリラ,6,produces,0
+Japanese,Male,17,ゴリラ,6,understands,0
+Japanese,Female,18,ゴリラ,27,produces,0.0741
+Japanese,Female,18,ゴリラ,27,understands,0
+Japanese,Male,18,ゴリラ,29,produces,0
+Japanese,Male,18,ゴリラ,29,understands,0
+Japanese,Female,19,ゴリラ,14,produces,0.1429
+Japanese,Female,19,ゴリラ,14,understands,0
+Japanese,Male,19,ゴリラ,21,produces,0
+Japanese,Male,19,ゴリラ,21,understands,0
+Japanese,Female,20,ゴリラ,27,produces,0.1481
+Japanese,Female,20,ゴリラ,27,understands,0
+Japanese,Male,20,ゴリラ,32,produces,0.1562
+Japanese,Male,20,ゴリラ,32,understands,0
+Japanese,Female,21,ゴリラ,29,produces,0.2759
+Japanese,Female,21,ゴリラ,29,understands,0
+Japanese,Male,21,ゴリラ,33,produces,0.1515
+Japanese,Male,21,ゴリラ,33,understands,0
+Japanese,Female,22,ゴリラ,16,produces,0.4375
+Japanese,Female,22,ゴリラ,16,understands,0
+Japanese,Male,22,ゴリラ,15,produces,0.2
+Japanese,Male,22,ゴリラ,15,understands,0
+Japanese,Female,23,ゴリラ,38,produces,0.3684
+Japanese,Female,23,ゴリラ,38,understands,0
+Japanese,Male,23,ゴリラ,29,produces,0.2414
+Japanese,Male,23,ゴリラ,29,understands,0
+Japanese,Female,24,ゴリラ,18,produces,0.5556
+Japanese,Female,24,ゴリラ,18,understands,0
+Japanese,Male,24,ゴリラ,15,produces,0.2667
+Japanese,Male,24,ゴリラ,15,understands,0
+Japanese,Female,25,ゴリラ,14,produces,0.5714
+Japanese,Female,25,ゴリラ,14,understands,0
+Japanese,Male,25,ゴリラ,20,produces,0.3
+Japanese,Male,25,ゴリラ,20,understands,0
+Japanese,Female,26,ゴリラ,19,produces,0.5789
+Japanese,Female,26,ゴリラ,19,understands,0
+Japanese,Male,26,ゴリラ,14,produces,0.4286
+Japanese,Male,26,ゴリラ,14,understands,0
+Japanese,Female,27,ゴリラ,8,produces,0.375
+Japanese,Female,27,ゴリラ,8,understands,0
+Japanese,Male,27,ゴリラ,7,produces,0.5714
+Japanese,Male,27,ゴリラ,7,understands,0
+Japanese,Female,28,ゴリラ,8,produces,0.75
+Japanese,Female,28,ゴリラ,8,understands,0
+Japanese,Male,28,ゴリラ,10,produces,0.6
+Japanese,Male,28,ゴリラ,10,understands,0
+Japanese,Female,29,ゴリラ,6,produces,0.5
+Japanese,Female,29,ゴリラ,6,understands,0
+Japanese,Male,29,ゴリラ,11,produces,0.6364
+Japanese,Male,29,ゴリラ,11,understands,0
+Japanese,Female,30,ゴリラ,9,produces,0.5556
+Japanese,Female,30,ゴリラ,9,understands,0
+Japanese,Male,30,ゴリラ,9,produces,0.8889
+Japanese,Male,30,ゴリラ,9,understands,0
+Japanese,Female,31,ゴリラ,8,produces,0.75
+Japanese,Female,31,ゴリラ,8,understands,0
+Japanese,Male,31,ゴリラ,10,produces,0.6
+Japanese,Male,31,ゴリラ,10,understands,0
+Japanese,Female,32,ゴリラ,8,produces,0.625
+Japanese,Female,32,ゴリラ,8,understands,0
+Japanese,Male,32,ゴリラ,5,produces,0.6
+Japanese,Male,32,ゴリラ,5,understands,0
+Japanese,Female,33,ゴリラ,9,produces,0.8889
+Japanese,Female,33,ゴリラ,9,understands,0
+Japanese,Male,33,ゴリラ,7,produces,0.8571
+Japanese,Male,33,ゴリラ,7,understands,0
+Japanese,Female,34,ゴリラ,8,produces,0.875
+Japanese,Female,34,ゴリラ,8,understands,0
+Japanese,Male,34,ゴリラ,5,produces,0.4
+Japanese,Male,34,ゴリラ,5,understands,0
+Japanese,Female,35,ゴリラ,19,produces,0.8421
+Japanese,Female,35,ゴリラ,19,understands,0
+Japanese,Male,35,ゴリラ,12,produces,0.75
+Japanese,Male,35,ゴリラ,12,understands,0
+Japanese,Female,36,ゴリラ,4,produces,0.75
+Japanese,Female,36,ゴリラ,4,understands,0
+Japanese,Male,36,ゴリラ,14,produces,0.7857
+Japanese,Male,36,ゴリラ,14,understands,0
+Mandarin (Beijing),Female,16,猩猩,35,produces,0
+Mandarin (Beijing),Female,16,猩猩,35,understands,0
+Mandarin (Beijing),Male,16,猩猩,35,produces,0.0571
+Mandarin (Beijing),Male,16,猩猩,35,understands,0
+Mandarin (Beijing),Female,17,猩猩,35,produces,0.0571
+Mandarin (Beijing),Female,17,猩猩,35,understands,0
+Mandarin (Beijing),Male,17,猩猩,37,produces,0.1622
+Mandarin (Beijing),Male,17,猩猩,37,understands,0
+Mandarin (Beijing),Female,18,猩猩,35,produces,0.1143
+Mandarin (Beijing),Female,18,猩猩,35,understands,0
+Mandarin (Beijing),Male,18,猩猩,36,produces,0.0556
+Mandarin (Beijing),Male,18,猩猩,36,understands,0
+Mandarin (Beijing),Female,19,猩猩,35,produces,0.3143
+Mandarin (Beijing),Female,19,猩猩,35,understands,0
+Mandarin (Beijing),Male,19,猩猩,35,produces,0.0571
+Mandarin (Beijing),Male,19,猩猩,35,understands,0
+Mandarin (Beijing),Female,20,猩猩,35,produces,0.3143
+Mandarin (Beijing),Female,20,猩猩,35,understands,0
+Mandarin (Beijing),Male,20,猩猩,36,produces,0.3056
+Mandarin (Beijing),Male,20,猩猩,36,understands,0
+Mandarin (Beijing),Female,21,猩猩,35,produces,0.3714
+Mandarin (Beijing),Female,21,猩猩,35,understands,0
+Mandarin (Beijing),Male,21,猩猩,35,produces,0.2857
+Mandarin (Beijing),Male,21,猩猩,35,understands,0
+Mandarin (Beijing),Female,22,猩猩,35,produces,0.4286
+Mandarin (Beijing),Female,22,猩猩,35,understands,0
+Mandarin (Beijing),Male,22,猩猩,36,produces,0.5
+Mandarin (Beijing),Male,22,猩猩,36,understands,0
+Mandarin (Beijing),Female,23,猩猩,35,produces,0.6286
+Mandarin (Beijing),Female,23,猩猩,35,understands,0
+Mandarin (Beijing),Male,23,猩猩,35,produces,0.4
+Mandarin (Beijing),Male,23,猩猩,35,understands,0
+Mandarin (Beijing),Female,24,猩猩,35,produces,0.5429
+Mandarin (Beijing),Female,24,猩猩,35,understands,0
+Mandarin (Beijing),Male,24,猩猩,35,produces,0.4857
+Mandarin (Beijing),Male,24,猩猩,35,understands,0
+Mandarin (Beijing),Female,25,猩猩,35,produces,0.5714
+Mandarin (Beijing),Female,25,猩猩,35,understands,0
+Mandarin (Beijing),Male,25,猩猩,35,produces,0.6571
+Mandarin (Beijing),Male,25,猩猩,35,understands,0
+Mandarin (Beijing),Female,26,猩猩,36,produces,0.6944
+Mandarin (Beijing),Female,26,猩猩,36,understands,0
+Mandarin (Beijing),Male,26,猩猩,35,produces,0.6
+Mandarin (Beijing),Male,26,猩猩,35,understands,0
+Mandarin (Beijing),Female,27,猩猩,35,produces,0.6286
+Mandarin (Beijing),Female,27,猩猩,35,understands,0
+Mandarin (Beijing),Male,27,猩猩,35,produces,0.6571
+Mandarin (Beijing),Male,27,猩猩,35,understands,0
+Mandarin (Beijing),Female,28,猩猩,35,produces,0.6571
+Mandarin (Beijing),Female,28,猩猩,35,understands,0
+Mandarin (Beijing),Male,28,猩猩,35,produces,0.6
+Mandarin (Beijing),Male,28,猩猩,35,understands,0
+Mandarin (Beijing),Female,29,猩猩,35,produces,0.8
+Mandarin (Beijing),Female,29,猩猩,35,understands,0
+Mandarin (Beijing),Male,29,猩猩,35,produces,0.7143
+Mandarin (Beijing),Male,29,猩猩,35,understands,0
+Mandarin (Beijing),Female,30,猩猩,35,produces,0.6571
+Mandarin (Beijing),Female,30,猩猩,35,understands,0
+Mandarin (Beijing),Male,30,猩猩,35,produces,0.8286
+Mandarin (Beijing),Male,30,猩猩,35,understands,0

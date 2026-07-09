@@ -1,95 +1,279 @@
-language,age,words,n,measure,prop
-Japanese,8,まだ,6,produces,0
-Japanese,8,まだ,6,understands,0
-Japanese,9,まだ,10,produces,0
-Japanese,9,まだ,10,understands,0
-Japanese,10,まだ,8,produces,0
-Japanese,10,まだ,8,understands,0
-Japanese,11,まだ,87,produces,0
-Japanese,11,まだ,87,understands,0.0575
-Japanese,12,まだ,118,produces,0
-Japanese,12,まだ,118,understands,0.0254
-Japanese,13,まだ,23,produces,0
-Japanese,13,まだ,23,understands,0.0435
-Japanese,14,まだ,26,produces,0
-Japanese,14,まだ,26,understands,0.1154
-Japanese,15,まだ,72,produces,0
-Japanese,15,まだ,72,understands,0.1806
-Japanese,16,まだ,46,produces,0
-Japanese,16,まだ,46,understands,0.1304
-Japanese,17,まだ,77,produces,0.013
-Japanese,17,まだ,77,understands,0.2208
-Japanese,18,まだ,94,produces,0.0213
-Japanese,18,まだ,94,understands,0.1064
-Japanese,19,まだ,35,produces,0.0571
-Japanese,19,まだ,35,understands,0
-Japanese,20,まだ,59,produces,0.0508
-Japanese,20,まだ,59,understands,0
-Japanese,21,まだ,62,produces,0.129
-Japanese,21,まだ,62,understands,0
-Japanese,22,まだ,31,produces,0.2903
-Japanese,22,まだ,31,understands,0
-Japanese,23,まだ,67,produces,0.3731
-Japanese,23,まだ,67,understands,0
-Japanese,24,まだ,33,produces,0.4545
-Japanese,24,まだ,33,understands,0
-Japanese,25,まだ,34,produces,0.4706
-Japanese,25,まだ,34,understands,0
-Japanese,26,まだ,33,produces,0.5758
-Japanese,26,まだ,33,understands,0
-Japanese,27,まだ,15,produces,0.6667
-Japanese,27,まだ,15,understands,0
-Japanese,28,まだ,18,produces,0.6111
-Japanese,28,まだ,18,understands,0
-Japanese,29,まだ,17,produces,0.5882
-Japanese,29,まだ,17,understands,0
-Japanese,30,まだ,18,produces,0.7222
-Japanese,30,まだ,18,understands,0
-Japanese,31,まだ,18,produces,0.7222
-Japanese,31,まだ,18,understands,0
-Japanese,32,まだ,13,produces,0.8462
-Japanese,32,まだ,13,understands,0
-Japanese,33,まだ,16,produces,0.6875
-Japanese,33,まだ,16,understands,0
-Japanese,34,まだ,13,produces,0.6923
-Japanese,34,まだ,13,understands,0
-Japanese,35,まだ,31,produces,0.9355
-Japanese,35,まだ,31,understands,0
-Japanese,36,まだ,18,produces,0.8333
-Japanese,36,まだ,18,understands,0
-Spanish (Argentinian),16,todavía,47,produces,0
-Spanish (Argentinian),16,todavía,47,understands,0
-Spanish (Argentinian),17,todavía,49,produces,0
-Spanish (Argentinian),17,todavía,49,understands,0
-Spanish (Argentinian),18,todavía,62,produces,0
-Spanish (Argentinian),18,todavía,62,understands,0
-Spanish (Argentinian),19,todavía,44,produces,0.0455
-Spanish (Argentinian),19,todavía,44,understands,0
-Spanish (Argentinian),20,todavía,46,produces,0.0217
-Spanish (Argentinian),20,todavía,46,understands,0
-Spanish (Argentinian),21,todavía,41,produces,0.0488
-Spanish (Argentinian),21,todavía,41,understands,0
-Spanish (Argentinian),22,todavía,57,produces,0
-Spanish (Argentinian),22,todavía,57,understands,0
-Spanish (Argentinian),23,todavía,49,produces,0.0612
-Spanish (Argentinian),23,todavía,49,understands,0
-Spanish (Argentinian),24,todavía,75,produces,0.0267
-Spanish (Argentinian),24,todavía,75,understands,0
-Spanish (Argentinian),25,todavía,43,produces,0.093
-Spanish (Argentinian),25,todavía,43,understands,0
-Spanish (Argentinian),26,todavía,45,produces,0.0222
-Spanish (Argentinian),26,todavía,45,understands,0
-Spanish (Argentinian),27,todavía,44,produces,0.0909
-Spanish (Argentinian),27,todavía,44,understands,0
-Spanish (Argentinian),28,todavía,42,produces,0.0714
-Spanish (Argentinian),28,todavía,42,understands,0
-Spanish (Argentinian),29,todavía,65,produces,0.1846
-Spanish (Argentinian),29,todavía,65,understands,0
-Spanish (Argentinian),30,todavía,69,produces,0.2464
-Spanish (Argentinian),30,todavía,69,understands,0
-Spanish (Argentinian),31,todavía,2,produces,0
-Spanish (Argentinian),31,todavía,2,understands,0
-Spanish (Argentinian),32,todavía,1,produces,1
-Spanish (Argentinian),32,todavía,1,understands,0
-Spanish (Argentinian),33,todavía,2,produces,0
-Spanish (Argentinian),33,todavía,2,understands,0
+language,sex,age,words,n,measure,prop
+Japanese,All,8,まだ,6,produces,0
+Japanese,All,8,まだ,6,understands,0
+Japanese,All,9,まだ,10,produces,0
+Japanese,All,9,まだ,10,understands,0
+Japanese,All,10,まだ,8,produces,0
+Japanese,All,10,まだ,8,understands,0
+Japanese,All,11,まだ,87,produces,0
+Japanese,All,11,まだ,87,understands,0.0575
+Japanese,All,12,まだ,118,produces,0
+Japanese,All,12,まだ,118,understands,0.0254
+Japanese,All,13,まだ,23,produces,0
+Japanese,All,13,まだ,23,understands,0.0435
+Japanese,All,14,まだ,26,produces,0
+Japanese,All,14,まだ,26,understands,0.1154
+Japanese,All,15,まだ,72,produces,0
+Japanese,All,15,まだ,72,understands,0.1806
+Japanese,All,16,まだ,46,produces,0
+Japanese,All,16,まだ,46,understands,0.1304
+Japanese,All,17,まだ,77,produces,0.013
+Japanese,All,17,まだ,77,understands,0.2208
+Japanese,All,18,まだ,94,produces,0.0213
+Japanese,All,18,まだ,94,understands,0.1064
+Japanese,All,19,まだ,35,produces,0.0571
+Japanese,All,19,まだ,35,understands,0
+Japanese,All,20,まだ,59,produces,0.0508
+Japanese,All,20,まだ,59,understands,0
+Japanese,All,21,まだ,62,produces,0.129
+Japanese,All,21,まだ,62,understands,0
+Japanese,All,22,まだ,31,produces,0.2903
+Japanese,All,22,まだ,31,understands,0
+Japanese,All,23,まだ,67,produces,0.3731
+Japanese,All,23,まだ,67,understands,0
+Japanese,All,24,まだ,33,produces,0.4545
+Japanese,All,24,まだ,33,understands,0
+Japanese,All,25,まだ,34,produces,0.4706
+Japanese,All,25,まだ,34,understands,0
+Japanese,All,26,まだ,33,produces,0.5758
+Japanese,All,26,まだ,33,understands,0
+Japanese,All,27,まだ,15,produces,0.6667
+Japanese,All,27,まだ,15,understands,0
+Japanese,All,28,まだ,18,produces,0.6111
+Japanese,All,28,まだ,18,understands,0
+Japanese,All,29,まだ,17,produces,0.5882
+Japanese,All,29,まだ,17,understands,0
+Japanese,All,30,まだ,18,produces,0.7222
+Japanese,All,30,まだ,18,understands,0
+Japanese,All,31,まだ,18,produces,0.7222
+Japanese,All,31,まだ,18,understands,0
+Japanese,All,32,まだ,13,produces,0.8462
+Japanese,All,32,まだ,13,understands,0
+Japanese,All,33,まだ,16,produces,0.6875
+Japanese,All,33,まだ,16,understands,0
+Japanese,All,34,まだ,13,produces,0.6923
+Japanese,All,34,まだ,13,understands,0
+Japanese,All,35,まだ,31,produces,0.9355
+Japanese,All,35,まだ,31,understands,0
+Japanese,All,36,まだ,18,produces,0.8333
+Japanese,All,36,まだ,18,understands,0
+Spanish (Argentinian),All,16,todavía,47,produces,0
+Spanish (Argentinian),All,16,todavía,47,understands,0
+Spanish (Argentinian),All,17,todavía,49,produces,0
+Spanish (Argentinian),All,17,todavía,49,understands,0
+Spanish (Argentinian),All,18,todavía,62,produces,0
+Spanish (Argentinian),All,18,todavía,62,understands,0
+Spanish (Argentinian),All,19,todavía,44,produces,0.0455
+Spanish (Argentinian),All,19,todavía,44,understands,0
+Spanish (Argentinian),All,20,todavía,46,produces,0.0217
+Spanish (Argentinian),All,20,todavía,46,understands,0
+Spanish (Argentinian),All,21,todavía,41,produces,0.0488
+Spanish (Argentinian),All,21,todavía,41,understands,0
+Spanish (Argentinian),All,22,todavía,57,produces,0
+Spanish (Argentinian),All,22,todavía,57,understands,0
+Spanish (Argentinian),All,23,todavía,49,produces,0.0612
+Spanish (Argentinian),All,23,todavía,49,understands,0
+Spanish (Argentinian),All,24,todavía,75,produces,0.0267
+Spanish (Argentinian),All,24,todavía,75,understands,0
+Spanish (Argentinian),All,25,todavía,43,produces,0.093
+Spanish (Argentinian),All,25,todavía,43,understands,0
+Spanish (Argentinian),All,26,todavía,45,produces,0.0222
+Spanish (Argentinian),All,26,todavía,45,understands,0
+Spanish (Argentinian),All,27,todavía,44,produces,0.0909
+Spanish (Argentinian),All,27,todavía,44,understands,0
+Spanish (Argentinian),All,28,todavía,42,produces,0.0714
+Spanish (Argentinian),All,28,todavía,42,understands,0
+Spanish (Argentinian),All,29,todavía,65,produces,0.1846
+Spanish (Argentinian),All,29,todavía,65,understands,0
+Spanish (Argentinian),All,30,todavía,69,produces,0.2464
+Spanish (Argentinian),All,30,todavía,69,understands,0
+Spanish (Argentinian),All,31,todavía,2,produces,0
+Spanish (Argentinian),All,31,todavía,2,understands,0
+Spanish (Argentinian),All,32,todavía,1,produces,1
+Spanish (Argentinian),All,32,todavía,1,understands,0
+Spanish (Argentinian),All,33,todavía,2,produces,0
+Spanish (Argentinian),All,33,todavía,2,understands,0
+Japanese,Female,8,まだ,2,produces,0
+Japanese,Female,8,まだ,2,understands,0
+Japanese,Male,8,まだ,4,produces,0
+Japanese,Male,8,まだ,4,understands,0
+Japanese,Female,9,まだ,4,produces,0
+Japanese,Female,9,まだ,4,understands,0
+Japanese,Male,9,まだ,6,produces,0
+Japanese,Male,9,まだ,6,understands,0
+Japanese,Female,10,まだ,2,produces,0
+Japanese,Female,10,まだ,2,understands,0
+Japanese,Male,10,まだ,6,produces,0
+Japanese,Male,10,まだ,6,understands,0
+Japanese,Female,11,まだ,58,produces,0
+Japanese,Female,11,まだ,58,understands,0.0517
+Japanese,Male,11,まだ,29,produces,0
+Japanese,Male,11,まだ,29,understands,0.069
+Japanese,Female,12,まだ,56,produces,0
+Japanese,Female,12,まだ,56,understands,0.0357
+Japanese,Male,12,まだ,62,produces,0
+Japanese,Male,12,まだ,62,understands,0.0161
+Japanese,Female,13,まだ,10,produces,0
+Japanese,Female,13,まだ,10,understands,0
+Japanese,Male,13,まだ,13,produces,0
+Japanese,Male,13,まだ,13,understands,0.0769
+Japanese,Female,14,まだ,15,produces,0
+Japanese,Female,14,まだ,15,understands,0.1333
+Japanese,Male,14,まだ,11,produces,0
+Japanese,Male,14,まだ,11,understands,0.0909
+Japanese,Female,15,まだ,38,produces,0
+Japanese,Female,15,まだ,38,understands,0.2105
+Japanese,Male,15,まだ,34,produces,0
+Japanese,Male,15,まだ,34,understands,0.1471
+Japanese,Female,16,まだ,23,produces,0
+Japanese,Female,16,まだ,23,understands,0.1304
+Japanese,Male,16,まだ,23,produces,0
+Japanese,Male,16,まだ,23,understands,0.1304
+Japanese,Female,17,まだ,51,produces,0.0196
+Japanese,Female,17,まだ,51,understands,0.1961
+Japanese,Male,17,まだ,26,produces,0
+Japanese,Male,17,まだ,26,understands,0.2692
+Japanese,Female,18,まだ,47,produces,0.0426
+Japanese,Female,18,まだ,47,understands,0.1702
+Japanese,Male,18,まだ,47,produces,0
+Japanese,Male,18,まだ,47,understands,0.0426
+Japanese,Female,19,まだ,14,produces,0.1429
+Japanese,Female,19,まだ,14,understands,0
+Japanese,Male,19,まだ,21,produces,0
+Japanese,Male,19,まだ,21,understands,0
+Japanese,Female,20,まだ,27,produces,0.1111
+Japanese,Female,20,まだ,27,understands,0
+Japanese,Male,20,まだ,32,produces,0
+Japanese,Male,20,まだ,32,understands,0
+Japanese,Female,21,まだ,29,produces,0.2069
+Japanese,Female,21,まだ,29,understands,0
+Japanese,Male,21,まだ,33,produces,0.0606
+Japanese,Male,21,まだ,33,understands,0
+Japanese,Female,22,まだ,16,produces,0.25
+Japanese,Female,22,まだ,16,understands,0
+Japanese,Male,22,まだ,15,produces,0.3333
+Japanese,Male,22,まだ,15,understands,0
+Japanese,Female,23,まだ,38,produces,0.4211
+Japanese,Female,23,まだ,38,understands,0
+Japanese,Male,23,まだ,29,produces,0.3103
+Japanese,Male,23,まだ,29,understands,0
+Japanese,Female,24,まだ,18,produces,0.3889
+Japanese,Female,24,まだ,18,understands,0
+Japanese,Male,24,まだ,15,produces,0.5333
+Japanese,Male,24,まだ,15,understands,0
+Japanese,Female,25,まだ,14,produces,0.5
+Japanese,Female,25,まだ,14,understands,0
+Japanese,Male,25,まだ,20,produces,0.45
+Japanese,Male,25,まだ,20,understands,0
+Japanese,Female,26,まだ,19,produces,0.6316
+Japanese,Female,26,まだ,19,understands,0
+Japanese,Male,26,まだ,14,produces,0.5
+Japanese,Male,26,まだ,14,understands,0
+Japanese,Female,27,まだ,8,produces,0.625
+Japanese,Female,27,まだ,8,understands,0
+Japanese,Male,27,まだ,7,produces,0.7143
+Japanese,Male,27,まだ,7,understands,0
+Japanese,Female,28,まだ,8,produces,0.625
+Japanese,Female,28,まだ,8,understands,0
+Japanese,Male,28,まだ,10,produces,0.6
+Japanese,Male,28,まだ,10,understands,0
+Japanese,Female,29,まだ,6,produces,0.3333
+Japanese,Female,29,まだ,6,understands,0
+Japanese,Male,29,まだ,11,produces,0.7273
+Japanese,Male,29,まだ,11,understands,0
+Japanese,Female,30,まだ,9,produces,0.6667
+Japanese,Female,30,まだ,9,understands,0
+Japanese,Male,30,まだ,9,produces,0.7778
+Japanese,Male,30,まだ,9,understands,0
+Japanese,Female,31,まだ,8,produces,0.875
+Japanese,Female,31,まだ,8,understands,0
+Japanese,Male,31,まだ,10,produces,0.6
+Japanese,Male,31,まだ,10,understands,0
+Japanese,Female,32,まだ,8,produces,0.75
+Japanese,Female,32,まだ,8,understands,0
+Japanese,Male,32,まだ,5,produces,1
+Japanese,Male,32,まだ,5,understands,0
+Japanese,Female,33,まだ,9,produces,0.7778
+Japanese,Female,33,まだ,9,understands,0
+Japanese,Male,33,まだ,7,produces,0.5714
+Japanese,Male,33,まだ,7,understands,0
+Japanese,Female,34,まだ,8,produces,0.5
+Japanese,Female,34,まだ,8,understands,0
+Japanese,Male,34,まだ,5,produces,1
+Japanese,Male,34,まだ,5,understands,0
+Japanese,Female,35,まだ,19,produces,0.9474
+Japanese,Female,35,まだ,19,understands,0
+Japanese,Male,35,まだ,12,produces,0.9167
+Japanese,Male,35,まだ,12,understands,0
+Japanese,Female,36,まだ,4,produces,1
+Japanese,Female,36,まだ,4,understands,0
+Japanese,Male,36,まだ,14,produces,0.7857
+Japanese,Male,36,まだ,14,understands,0
+Spanish (Argentinian),Female,16,todavía,30,produces,0
+Spanish (Argentinian),Female,16,todavía,30,understands,0
+Spanish (Argentinian),Male,16,todavía,17,produces,0
+Spanish (Argentinian),Male,16,todavía,17,understands,0
+Spanish (Argentinian),Female,17,todavía,20,produces,0
+Spanish (Argentinian),Female,17,todavía,20,understands,0
+Spanish (Argentinian),Male,17,todavía,29,produces,0
+Spanish (Argentinian),Male,17,todavía,29,understands,0
+Spanish (Argentinian),Female,18,todavía,43,produces,0
+Spanish (Argentinian),Female,18,todavía,43,understands,0
+Spanish (Argentinian),Male,18,todavía,19,produces,0
+Spanish (Argentinian),Male,18,todavía,19,understands,0
+Spanish (Argentinian),Female,19,todavía,25,produces,0.04
+Spanish (Argentinian),Female,19,todavía,25,understands,0
+Spanish (Argentinian),Male,19,todavía,19,produces,0.0526
+Spanish (Argentinian),Male,19,todavía,19,understands,0
+Spanish (Argentinian),Female,20,todavía,22,produces,0.0455
+Spanish (Argentinian),Female,20,todavía,22,understands,0
+Spanish (Argentinian),Male,20,todavía,24,produces,0
+Spanish (Argentinian),Male,20,todavía,24,understands,0
+Spanish (Argentinian),Female,21,todavía,15,produces,0
+Spanish (Argentinian),Female,21,todavía,15,understands,0
+Spanish (Argentinian),Male,21,todavía,26,produces,0.0769
+Spanish (Argentinian),Male,21,todavía,26,understands,0
+Spanish (Argentinian),Female,22,todavía,25,produces,0
+Spanish (Argentinian),Female,22,todavía,25,understands,0
+Spanish (Argentinian),Male,22,todavía,32,produces,0
+Spanish (Argentinian),Male,22,todavía,32,understands,0
+Spanish (Argentinian),Female,23,todavía,30,produces,0.1
+Spanish (Argentinian),Female,23,todavía,30,understands,0
+Spanish (Argentinian),Male,23,todavía,19,produces,0
+Spanish (Argentinian),Male,23,todavía,19,understands,0
+Spanish (Argentinian),Female,24,todavía,44,produces,0.0227
+Spanish (Argentinian),Female,24,todavía,44,understands,0
+Spanish (Argentinian),Male,24,todavía,31,produces,0.0323
+Spanish (Argentinian),Male,24,todavía,31,understands,0
+Spanish (Argentinian),Female,25,todavía,24,produces,0.125
+Spanish (Argentinian),Female,25,todavía,24,understands,0
+Spanish (Argentinian),Male,25,todavía,19,produces,0.0526
+Spanish (Argentinian),Male,25,todavía,19,understands,0
+Spanish (Argentinian),Female,26,todavía,17,produces,0.0588
+Spanish (Argentinian),Female,26,todavía,17,understands,0
+Spanish (Argentinian),Male,26,todavía,28,produces,0
+Spanish (Argentinian),Male,26,todavía,28,understands,0
+Spanish (Argentinian),Female,27,todavía,18,produces,0.0556
+Spanish (Argentinian),Female,27,todavía,18,understands,0
+Spanish (Argentinian),Male,27,todavía,26,produces,0.1154
+Spanish (Argentinian),Male,27,todavía,26,understands,0
+Spanish (Argentinian),Female,28,todavía,18,produces,0.0556
+Spanish (Argentinian),Female,28,todavía,18,understands,0
+Spanish (Argentinian),Male,28,todavía,24,produces,0.0833
+Spanish (Argentinian),Male,28,todavía,24,understands,0
+Spanish (Argentinian),Female,29,todavía,36,produces,0.1944
+Spanish (Argentinian),Female,29,todavía,36,understands,0
+Spanish (Argentinian),Male,29,todavía,29,produces,0.1724
+Spanish (Argentinian),Male,29,todavía,29,understands,0
+Spanish (Argentinian),Female,30,todavía,31,produces,0.3548
+Spanish (Argentinian),Female,30,todavía,31,understands,0
+Spanish (Argentinian),Male,30,todavía,38,produces,0.1579
+Spanish (Argentinian),Male,30,todavía,38,understands,0
+Spanish (Argentinian),Female,31,todavía,1,produces,0
+Spanish (Argentinian),Female,31,todavía,1,understands,0
+Spanish (Argentinian),Male,31,todavía,1,produces,0
+Spanish (Argentinian),Male,31,todavía,1,understands,0
+Spanish (Argentinian),Female,32,todavía,1,produces,1
+Spanish (Argentinian),Female,32,todavía,1,understands,0
+Spanish (Argentinian),Male,33,todavía,2,produces,0
+Spanish (Argentinian),Male,33,todavía,2,understands,0

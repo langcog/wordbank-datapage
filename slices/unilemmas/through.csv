@@ -1,103 +1,307 @@
-language,age,words,n,measure,prop
-Norwegian,16,gjennom,98,produces,0
-Norwegian,16,gjennom,98,understands,0
-Norwegian,17,gjennom,218,produces,0.0046
-Norwegian,17,gjennom,218,understands,0
-Norwegian,18,gjennom,271,produces,0.0111
-Norwegian,18,gjennom,271,understands,0
-Norwegian,19,gjennom,281,produces,0.0214
-Norwegian,19,gjennom,281,understands,0
-Norwegian,20,gjennom,342,produces,0.0175
-Norwegian,20,gjennom,342,understands,0
-Norwegian,21,gjennom,418,produces,0.0359
-Norwegian,21,gjennom,418,understands,0
-Norwegian,22,gjennom,596,produces,0.0587
-Norwegian,22,gjennom,596,understands,0
-Norwegian,23,gjennom,566,produces,0.0936
-Norwegian,23,gjennom,566,understands,0
-Norwegian,24,gjennom,538,produces,0.1283
-Norwegian,24,gjennom,538,understands,0
-Norwegian,25,gjennom,656,produces,0.1845
-Norwegian,25,gjennom,656,understands,0
-Norwegian,26,gjennom,644,produces,0.2826
-Norwegian,26,gjennom,644,understands,0
-Norwegian,27,gjennom,525,produces,0.4038
-Norwegian,27,gjennom,525,understands,0
-Norwegian,28,gjennom,544,produces,0.4136
-Norwegian,28,gjennom,544,understands,0
-Norwegian,29,gjennom,536,produces,0.472
-Norwegian,29,gjennom,536,understands,0
-Norwegian,30,gjennom,457,produces,0.5405
-Norwegian,30,gjennom,457,understands,0
-Norwegian,31,gjennom,479,produces,0.6096
-Norwegian,31,gjennom,479,understands,0
-Norwegian,32,gjennom,451,produces,0.6674
-Norwegian,32,gjennom,451,understands,0
-Norwegian,33,gjennom,430,produces,0.6698
-Norwegian,33,gjennom,430,understands,0
-Norwegian,34,gjennom,424,produces,0.7288
-Norwegian,34,gjennom,424,understands,0
-Norwegian,35,gjennom,422,produces,0.7512
-Norwegian,35,gjennom,422,understands,0
-Norwegian,36,gjennom,329,produces,0.772
-Norwegian,36,gjennom,329,understands,0
-Arabic (Saudi),8,خلال,19,produces,0
-Arabic (Saudi),8,خلال,19,understands,0
-Arabic (Saudi),9,خلال,18,produces,0
-Arabic (Saudi),9,خلال,18,understands,0
-Arabic (Saudi),10,خلال,25,produces,0.04
-Arabic (Saudi),10,خلال,25,understands,0
-Arabic (Saudi),11,خلال,21,produces,0
-Arabic (Saudi),11,خلال,21,understands,0
-Arabic (Saudi),12,خلال,19,produces,0
-Arabic (Saudi),12,خلال,19,understands,0
-Arabic (Saudi),13,خلال,36,produces,0
-Arabic (Saudi),13,خلال,36,understands,0
-Arabic (Saudi),14,خلال,20,produces,0
-Arabic (Saudi),14,خلال,20,understands,0
-Arabic (Saudi),15,خلال,19,produces,0
-Arabic (Saudi),15,خلال,19,understands,0
-Arabic (Saudi),16,خلال,18,produces,0
-Arabic (Saudi),16,خلال,18,understands,0
-Danish,16,gennem,184,produces,0.0054
-Danish,16,gennem,184,understands,0
-Danish,17,gennem,176,produces,0
-Danish,17,gennem,176,understands,0
-Danish,18,gennem,160,produces,0.0125
-Danish,18,gennem,160,understands,0
-Danish,19,gennem,205,produces,0.0098
-Danish,19,gennem,205,understands,0
-Danish,20,gennem,196,produces,0.0255
-Danish,20,gennem,196,understands,0
-Danish,21,gennem,236,produces,0.0297
-Danish,21,gennem,236,understands,0
-Danish,22,gennem,235,produces,0.0255
-Danish,22,gennem,235,understands,0
-Danish,23,gennem,190,produces,0.0421
-Danish,23,gennem,190,understands,0
-Danish,24,gennem,216,produces,0.0741
-Danish,24,gennem,216,understands,0
-Danish,25,gennem,138,produces,0.1522
-Danish,25,gennem,138,understands,0
-Danish,26,gennem,206,produces,0.2379
-Danish,26,gennem,206,understands,0
-Danish,27,gennem,176,produces,0.1989
-Danish,27,gennem,176,understands,0
-Danish,28,gennem,190,produces,0.2316
-Danish,28,gennem,190,understands,0
-Danish,29,gennem,182,produces,0.2857
-Danish,29,gennem,182,understands,0
-Danish,30,gennem,173,produces,0.3468
-Danish,30,gennem,173,understands,0
-Danish,31,gennem,175,produces,0.4171
-Danish,31,gennem,175,understands,0
-Danish,32,gennem,143,produces,0.5105
-Danish,32,gennem,143,understands,0
-Danish,33,gennem,151,produces,0.5894
-Danish,33,gennem,151,understands,0
-Danish,34,gennem,143,produces,0.5524
-Danish,34,gennem,143,understands,0
-Danish,35,gennem,113,produces,0.5664
-Danish,35,gennem,113,understands,0
-Danish,36,gennem,126,produces,0.7302
-Danish,36,gennem,126,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,خلال,19,produces,0
+Arabic (Saudi),All,8,خلال,19,understands,0
+Arabic (Saudi),All,9,خلال,18,produces,0
+Arabic (Saudi),All,9,خلال,18,understands,0
+Arabic (Saudi),All,10,خلال,25,produces,0.04
+Arabic (Saudi),All,10,خلال,25,understands,0
+Arabic (Saudi),All,11,خلال,21,produces,0
+Arabic (Saudi),All,11,خلال,21,understands,0
+Arabic (Saudi),All,12,خلال,19,produces,0
+Arabic (Saudi),All,12,خلال,19,understands,0
+Arabic (Saudi),All,13,خلال,36,produces,0
+Arabic (Saudi),All,13,خلال,36,understands,0
+Arabic (Saudi),All,14,خلال,20,produces,0
+Arabic (Saudi),All,14,خلال,20,understands,0
+Arabic (Saudi),All,15,خلال,19,produces,0
+Arabic (Saudi),All,15,خلال,19,understands,0
+Arabic (Saudi),All,16,خلال,18,produces,0
+Arabic (Saudi),All,16,خلال,18,understands,0
+Danish,All,16,gennem,184,produces,0.0054
+Danish,All,16,gennem,184,understands,0
+Danish,All,17,gennem,176,produces,0
+Danish,All,17,gennem,176,understands,0
+Danish,All,18,gennem,160,produces,0.0125
+Danish,All,18,gennem,160,understands,0
+Danish,All,19,gennem,205,produces,0.0098
+Danish,All,19,gennem,205,understands,0
+Danish,All,20,gennem,196,produces,0.0255
+Danish,All,20,gennem,196,understands,0
+Danish,All,21,gennem,236,produces,0.0297
+Danish,All,21,gennem,236,understands,0
+Danish,All,22,gennem,235,produces,0.0255
+Danish,All,22,gennem,235,understands,0
+Danish,All,23,gennem,190,produces,0.0421
+Danish,All,23,gennem,190,understands,0
+Danish,All,24,gennem,216,produces,0.0741
+Danish,All,24,gennem,216,understands,0
+Danish,All,25,gennem,138,produces,0.1522
+Danish,All,25,gennem,138,understands,0
+Danish,All,26,gennem,206,produces,0.2379
+Danish,All,26,gennem,206,understands,0
+Danish,All,27,gennem,176,produces,0.1989
+Danish,All,27,gennem,176,understands,0
+Danish,All,28,gennem,190,produces,0.2316
+Danish,All,28,gennem,190,understands,0
+Danish,All,29,gennem,182,produces,0.2857
+Danish,All,29,gennem,182,understands,0
+Danish,All,30,gennem,173,produces,0.3468
+Danish,All,30,gennem,173,understands,0
+Danish,All,31,gennem,175,produces,0.4171
+Danish,All,31,gennem,175,understands,0
+Danish,All,32,gennem,143,produces,0.5105
+Danish,All,32,gennem,143,understands,0
+Danish,All,33,gennem,151,produces,0.5894
+Danish,All,33,gennem,151,understands,0
+Danish,All,34,gennem,143,produces,0.5524
+Danish,All,34,gennem,143,understands,0
+Danish,All,35,gennem,113,produces,0.5664
+Danish,All,35,gennem,113,understands,0
+Danish,All,36,gennem,126,produces,0.7302
+Danish,All,36,gennem,126,understands,0
+Norwegian,All,16,gjennom,98,produces,0
+Norwegian,All,16,gjennom,98,understands,0
+Norwegian,All,17,gjennom,218,produces,0.0046
+Norwegian,All,17,gjennom,218,understands,0
+Norwegian,All,18,gjennom,271,produces,0.0111
+Norwegian,All,18,gjennom,271,understands,0
+Norwegian,All,19,gjennom,281,produces,0.0214
+Norwegian,All,19,gjennom,281,understands,0
+Norwegian,All,20,gjennom,342,produces,0.0175
+Norwegian,All,20,gjennom,342,understands,0
+Norwegian,All,21,gjennom,418,produces,0.0359
+Norwegian,All,21,gjennom,418,understands,0
+Norwegian,All,22,gjennom,596,produces,0.0587
+Norwegian,All,22,gjennom,596,understands,0
+Norwegian,All,23,gjennom,566,produces,0.0936
+Norwegian,All,23,gjennom,566,understands,0
+Norwegian,All,24,gjennom,538,produces,0.1283
+Norwegian,All,24,gjennom,538,understands,0
+Norwegian,All,25,gjennom,656,produces,0.1845
+Norwegian,All,25,gjennom,656,understands,0
+Norwegian,All,26,gjennom,644,produces,0.2826
+Norwegian,All,26,gjennom,644,understands,0
+Norwegian,All,27,gjennom,525,produces,0.4038
+Norwegian,All,27,gjennom,525,understands,0
+Norwegian,All,28,gjennom,544,produces,0.4136
+Norwegian,All,28,gjennom,544,understands,0
+Norwegian,All,29,gjennom,536,produces,0.472
+Norwegian,All,29,gjennom,536,understands,0
+Norwegian,All,30,gjennom,457,produces,0.5405
+Norwegian,All,30,gjennom,457,understands,0
+Norwegian,All,31,gjennom,479,produces,0.6096
+Norwegian,All,31,gjennom,479,understands,0
+Norwegian,All,32,gjennom,451,produces,0.6674
+Norwegian,All,32,gjennom,451,understands,0
+Norwegian,All,33,gjennom,430,produces,0.6698
+Norwegian,All,33,gjennom,430,understands,0
+Norwegian,All,34,gjennom,424,produces,0.7288
+Norwegian,All,34,gjennom,424,understands,0
+Norwegian,All,35,gjennom,422,produces,0.7512
+Norwegian,All,35,gjennom,422,understands,0
+Norwegian,All,36,gjennom,329,produces,0.772
+Norwegian,All,36,gjennom,329,understands,0
+Arabic (Saudi),Female,8,خلال,9,produces,0
+Arabic (Saudi),Female,8,خلال,9,understands,0
+Arabic (Saudi),Male,8,خلال,10,produces,0
+Arabic (Saudi),Male,8,خلال,10,understands,0
+Arabic (Saudi),Female,9,خلال,10,produces,0
+Arabic (Saudi),Female,9,خلال,10,understands,0
+Arabic (Saudi),Male,9,خلال,8,produces,0
+Arabic (Saudi),Male,9,خلال,8,understands,0
+Arabic (Saudi),Female,10,خلال,11,produces,0.0909
+Arabic (Saudi),Female,10,خلال,11,understands,0
+Arabic (Saudi),Male,10,خلال,14,produces,0
+Arabic (Saudi),Male,10,خلال,14,understands,0
+Arabic (Saudi),Female,11,خلال,9,produces,0
+Arabic (Saudi),Female,11,خلال,9,understands,0
+Arabic (Saudi),Male,11,خلال,12,produces,0
+Arabic (Saudi),Male,11,خلال,12,understands,0
+Arabic (Saudi),Female,12,خلال,8,produces,0
+Arabic (Saudi),Female,12,خلال,8,understands,0
+Arabic (Saudi),Male,12,خلال,11,produces,0
+Arabic (Saudi),Male,12,خلال,11,understands,0
+Arabic (Saudi),Female,13,خلال,16,produces,0
+Arabic (Saudi),Female,13,خلال,16,understands,0
+Arabic (Saudi),Male,13,خلال,20,produces,0
+Arabic (Saudi),Male,13,خلال,20,understands,0
+Arabic (Saudi),Female,14,خلال,10,produces,0
+Arabic (Saudi),Female,14,خلال,10,understands,0
+Arabic (Saudi),Male,14,خلال,10,produces,0
+Arabic (Saudi),Male,14,خلال,10,understands,0
+Arabic (Saudi),Female,15,خلال,7,produces,0
+Arabic (Saudi),Female,15,خلال,7,understands,0
+Arabic (Saudi),Male,15,خلال,12,produces,0
+Arabic (Saudi),Male,15,خلال,12,understands,0
+Arabic (Saudi),Female,16,خلال,9,produces,0
+Arabic (Saudi),Female,16,خلال,9,understands,0
+Arabic (Saudi),Male,16,خلال,9,produces,0
+Arabic (Saudi),Male,16,خلال,9,understands,0
+Danish,Female,16,gennem,101,produces,0
+Danish,Female,16,gennem,101,understands,0
+Danish,Male,16,gennem,83,produces,0.012
+Danish,Male,16,gennem,83,understands,0
+Danish,Female,17,gennem,91,produces,0
+Danish,Female,17,gennem,91,understands,0
+Danish,Male,17,gennem,85,produces,0
+Danish,Male,17,gennem,85,understands,0
+Danish,Female,18,gennem,87,produces,0.023
+Danish,Female,18,gennem,87,understands,0
+Danish,Male,18,gennem,73,produces,0
+Danish,Male,18,gennem,73,understands,0
+Danish,Female,19,gennem,104,produces,0.0096
+Danish,Female,19,gennem,104,understands,0
+Danish,Male,19,gennem,101,produces,0.0099
+Danish,Male,19,gennem,101,understands,0
+Danish,Female,20,gennem,100,produces,0.02
+Danish,Female,20,gennem,100,understands,0
+Danish,Male,20,gennem,96,produces,0.0312
+Danish,Male,20,gennem,96,understands,0
+Danish,Female,21,gennem,112,produces,0.0446
+Danish,Female,21,gennem,112,understands,0
+Danish,Male,21,gennem,124,produces,0.0161
+Danish,Male,21,gennem,124,understands,0
+Danish,Female,22,gennem,125,produces,0.032
+Danish,Female,22,gennem,125,understands,0
+Danish,Male,22,gennem,110,produces,0.0182
+Danish,Male,22,gennem,110,understands,0
+Danish,Female,23,gennem,95,produces,0.0526
+Danish,Female,23,gennem,95,understands,0
+Danish,Male,23,gennem,95,produces,0.0316
+Danish,Male,23,gennem,95,understands,0
+Danish,Female,24,gennem,112,produces,0.0714
+Danish,Female,24,gennem,112,understands,0
+Danish,Male,24,gennem,104,produces,0.0769
+Danish,Male,24,gennem,104,understands,0
+Danish,Female,25,gennem,71,produces,0.1972
+Danish,Female,25,gennem,71,understands,0
+Danish,Male,25,gennem,67,produces,0.1045
+Danish,Male,25,gennem,67,understands,0
+Danish,Female,26,gennem,108,produces,0.2963
+Danish,Female,26,gennem,108,understands,0
+Danish,Male,26,gennem,98,produces,0.1735
+Danish,Male,26,gennem,98,understands,0
+Danish,Female,27,gennem,100,produces,0.21
+Danish,Female,27,gennem,100,understands,0
+Danish,Male,27,gennem,76,produces,0.1842
+Danish,Male,27,gennem,76,understands,0
+Danish,Female,28,gennem,94,produces,0.2979
+Danish,Female,28,gennem,94,understands,0
+Danish,Male,28,gennem,96,produces,0.1667
+Danish,Male,28,gennem,96,understands,0
+Danish,Female,29,gennem,102,produces,0.3039
+Danish,Female,29,gennem,102,understands,0
+Danish,Male,29,gennem,80,produces,0.2625
+Danish,Male,29,gennem,80,understands,0
+Danish,Female,30,gennem,75,produces,0.3067
+Danish,Female,30,gennem,75,understands,0
+Danish,Male,30,gennem,98,produces,0.3776
+Danish,Male,30,gennem,98,understands,0
+Danish,Female,31,gennem,82,produces,0.4512
+Danish,Female,31,gennem,82,understands,0
+Danish,Male,31,gennem,93,produces,0.3871
+Danish,Male,31,gennem,93,understands,0
+Danish,Female,32,gennem,74,produces,0.5135
+Danish,Female,32,gennem,74,understands,0
+Danish,Male,32,gennem,69,produces,0.5072
+Danish,Male,32,gennem,69,understands,0
+Danish,Female,33,gennem,82,produces,0.6585
+Danish,Female,33,gennem,82,understands,0
+Danish,Male,33,gennem,69,produces,0.5072
+Danish,Male,33,gennem,69,understands,0
+Danish,Female,34,gennem,68,produces,0.5294
+Danish,Female,34,gennem,68,understands,0
+Danish,Male,34,gennem,75,produces,0.5733
+Danish,Male,34,gennem,75,understands,0
+Danish,Female,35,gennem,56,produces,0.5893
+Danish,Female,35,gennem,56,understands,0
+Danish,Male,35,gennem,57,produces,0.5439
+Danish,Male,35,gennem,57,understands,0
+Danish,Female,36,gennem,61,produces,0.7213
+Danish,Female,36,gennem,61,understands,0
+Danish,Male,36,gennem,65,produces,0.7385
+Danish,Male,36,gennem,65,understands,0
+Norwegian,Female,16,gjennom,39,produces,0
+Norwegian,Female,16,gjennom,39,understands,0
+Norwegian,Male,16,gjennom,59,produces,0
+Norwegian,Male,16,gjennom,59,understands,0
+Norwegian,Female,17,gjennom,125,produces,0
+Norwegian,Female,17,gjennom,125,understands,0
+Norwegian,Male,17,gjennom,93,produces,0.0108
+Norwegian,Male,17,gjennom,93,understands,0
+Norwegian,Female,18,gjennom,146,produces,0.0205
+Norwegian,Female,18,gjennom,146,understands,0
+Norwegian,Male,18,gjennom,125,produces,0
+Norwegian,Male,18,gjennom,125,understands,0
+Norwegian,Female,19,gjennom,135,produces,0.0074
+Norwegian,Female,19,gjennom,135,understands,0
+Norwegian,Male,19,gjennom,146,produces,0.0342
+Norwegian,Male,19,gjennom,146,understands,0
+Norwegian,Female,20,gjennom,183,produces,0.0164
+Norwegian,Female,20,gjennom,183,understands,0
+Norwegian,Male,20,gjennom,159,produces,0.0189
+Norwegian,Male,20,gjennom,159,understands,0
+Norwegian,Female,21,gjennom,218,produces,0.0367
+Norwegian,Female,21,gjennom,218,understands,0
+Norwegian,Male,21,gjennom,200,produces,0.035
+Norwegian,Male,21,gjennom,200,understands,0
+Norwegian,Female,22,gjennom,304,produces,0.0724
+Norwegian,Female,22,gjennom,304,understands,0
+Norwegian,Male,22,gjennom,292,produces,0.0445
+Norwegian,Male,22,gjennom,292,understands,0
+Norwegian,Female,23,gjennom,285,produces,0.1158
+Norwegian,Female,23,gjennom,285,understands,0
+Norwegian,Male,23,gjennom,281,produces,0.0712
+Norwegian,Male,23,gjennom,281,understands,0
+Norwegian,Female,24,gjennom,266,produces,0.1353
+Norwegian,Female,24,gjennom,266,understands,0
+Norwegian,Male,24,gjennom,272,produces,0.1213
+Norwegian,Male,24,gjennom,272,understands,0
+Norwegian,Female,25,gjennom,325,produces,0.1908
+Norwegian,Female,25,gjennom,325,understands,0
+Norwegian,Male,25,gjennom,331,produces,0.1782
+Norwegian,Male,25,gjennom,331,understands,0
+Norwegian,Female,26,gjennom,301,produces,0.3787
+Norwegian,Female,26,gjennom,301,understands,0
+Norwegian,Male,26,gjennom,343,produces,0.1983
+Norwegian,Male,26,gjennom,343,understands,0
+Norwegian,Female,27,gjennom,267,produces,0.427
+Norwegian,Female,27,gjennom,267,understands,0
+Norwegian,Male,27,gjennom,258,produces,0.3798
+Norwegian,Male,27,gjennom,258,understands,0
+Norwegian,Female,28,gjennom,281,produces,0.4662
+Norwegian,Female,28,gjennom,281,understands,0
+Norwegian,Male,28,gjennom,263,produces,0.3574
+Norwegian,Male,28,gjennom,263,understands,0
+Norwegian,Female,29,gjennom,252,produces,0.4841
+Norwegian,Female,29,gjennom,252,understands,0
+Norwegian,Male,29,gjennom,284,produces,0.4613
+Norwegian,Male,29,gjennom,284,understands,0
+Norwegian,Female,30,gjennom,213,produces,0.5822
+Norwegian,Female,30,gjennom,213,understands,0
+Norwegian,Male,30,gjennom,244,produces,0.5041
+Norwegian,Male,30,gjennom,244,understands,0
+Norwegian,Female,31,gjennom,229,produces,0.6769
+Norwegian,Female,31,gjennom,229,understands,0
+Norwegian,Male,31,gjennom,250,produces,0.548
+Norwegian,Male,31,gjennom,250,understands,0
+Norwegian,Female,32,gjennom,224,produces,0.7411
+Norwegian,Female,32,gjennom,224,understands,0
+Norwegian,Male,32,gjennom,227,produces,0.5947
+Norwegian,Male,32,gjennom,227,understands,0
+Norwegian,Female,33,gjennom,213,produces,0.7089
+Norwegian,Female,33,gjennom,213,understands,0
+Norwegian,Male,33,gjennom,217,produces,0.6313
+Norwegian,Male,33,gjennom,217,understands,0
+Norwegian,Female,34,gjennom,194,produces,0.799
+Norwegian,Female,34,gjennom,194,understands,0
+Norwegian,Male,34,gjennom,230,produces,0.6696
+Norwegian,Male,34,gjennom,230,understands,0
+Norwegian,Female,35,gjennom,230,produces,0.787
+Norwegian,Female,35,gjennom,230,understands,0
+Norwegian,Male,35,gjennom,192,produces,0.7083
+Norwegian,Male,35,gjennom,192,understands,0
+Norwegian,Female,36,gjennom,170,produces,0.8235
+Norwegian,Female,36,gjennom,170,understands,0
+Norwegian,Male,36,gjennom,159,produces,0.717
+Norwegian,Male,36,gjennom,159,understands,0

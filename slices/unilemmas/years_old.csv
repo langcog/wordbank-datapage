@@ -1,61 +1,181 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),16,一岁/两岁,70,produces,0.2429
-Mandarin (Beijing),16,一岁/两岁,70,understands,0
-Mandarin (Beijing),17,一岁/两岁,72,produces,0.3194
-Mandarin (Beijing),17,一岁/两岁,72,understands,0
-Mandarin (Beijing),18,一岁/两岁,71,produces,0.3944
-Mandarin (Beijing),18,一岁/两岁,71,understands,0
-Mandarin (Beijing),19,一岁/两岁,70,produces,0.5571
-Mandarin (Beijing),19,一岁/两岁,70,understands,0
-Mandarin (Beijing),20,一岁/两岁,71,produces,0.6479
-Mandarin (Beijing),20,一岁/两岁,71,understands,0
-Mandarin (Beijing),21,一岁/两岁,70,produces,0.7286
-Mandarin (Beijing),21,一岁/两岁,70,understands,0
-Mandarin (Beijing),22,一岁/两岁,71,produces,0.8028
-Mandarin (Beijing),22,一岁/两岁,71,understands,0
-Mandarin (Beijing),23,一岁/两岁,70,produces,0.8286
-Mandarin (Beijing),23,一岁/两岁,70,understands,0
-Mandarin (Beijing),24,一岁/两岁,70,produces,0.8857
-Mandarin (Beijing),24,一岁/两岁,70,understands,0
-Mandarin (Beijing),25,一岁/两岁,70,produces,0.9571
-Mandarin (Beijing),25,一岁/两岁,70,understands,0
-Mandarin (Beijing),26,一岁/两岁,71,produces,0.9437
-Mandarin (Beijing),26,一岁/两岁,71,understands,0
-Mandarin (Beijing),27,一岁/两岁,70,produces,1
-Mandarin (Beijing),27,一岁/两岁,70,understands,0
-Mandarin (Beijing),28,一岁/两岁,70,produces,0.9571
-Mandarin (Beijing),28,一岁/两岁,70,understands,0
-Mandarin (Beijing),29,一岁/两岁,70,produces,0.9857
-Mandarin (Beijing),29,一岁/两岁,70,understands,0
-Mandarin (Beijing),30,一岁/两岁,70,produces,0.9857
-Mandarin (Beijing),30,一岁/两岁,70,understands,0
-Cantonese,16,一歲/兩歲,46,produces,0.0217
-Cantonese,16,一歲/兩歲,46,understands,0
-Cantonese,17,一歲/兩歲,61,produces,0.0656
-Cantonese,17,一歲/兩歲,61,understands,0
-Cantonese,18,一歲/兩歲,68,produces,0.0882
-Cantonese,18,一歲/兩歲,68,understands,0
-Cantonese,19,一歲/兩歲,66,produces,0.0606
-Cantonese,19,一歲/兩歲,66,understands,0
-Cantonese,20,一歲/兩歲,140,produces,0.1714
-Cantonese,20,一歲/兩歲,140,understands,0
-Cantonese,21,一歲/兩歲,120,produces,0.2083
-Cantonese,21,一歲/兩歲,120,understands,0
-Cantonese,22,一歲/兩歲,68,produces,0.2206
-Cantonese,22,一歲/兩歲,68,understands,0
-Cantonese,23,一歲/兩歲,74,produces,0.3243
-Cantonese,23,一歲/兩歲,74,understands,0
-Cantonese,24,一歲/兩歲,68,produces,0.5
-Cantonese,24,一歲/兩歲,68,understands,0
-Cantonese,25,一歲/兩歲,65,produces,0.5231
-Cantonese,25,一歲/兩歲,65,understands,0
-Cantonese,26,一歲/兩歲,68,produces,0.6471
-Cantonese,26,一歲/兩歲,68,understands,0
-Cantonese,27,一歲/兩歲,62,produces,0.7581
-Cantonese,27,一歲/兩歲,62,understands,0
-Cantonese,28,一歲/兩歲,66,produces,0.8182
-Cantonese,28,一歲/兩歲,66,understands,0
-Cantonese,29,一歲/兩歲,72,produces,0.9028
-Cantonese,29,一歲/兩歲,72,understands,0
-Cantonese,30,一歲/兩歲,164,produces,0.878
-Cantonese,30,一歲/兩歲,164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,一歲/兩歲,46,produces,0.0217
+Cantonese,All,16,一歲/兩歲,46,understands,0
+Cantonese,All,17,一歲/兩歲,61,produces,0.0656
+Cantonese,All,17,一歲/兩歲,61,understands,0
+Cantonese,All,18,一歲/兩歲,68,produces,0.0882
+Cantonese,All,18,一歲/兩歲,68,understands,0
+Cantonese,All,19,一歲/兩歲,66,produces,0.0606
+Cantonese,All,19,一歲/兩歲,66,understands,0
+Cantonese,All,20,一歲/兩歲,140,produces,0.1714
+Cantonese,All,20,一歲/兩歲,140,understands,0
+Cantonese,All,21,一歲/兩歲,120,produces,0.2083
+Cantonese,All,21,一歲/兩歲,120,understands,0
+Cantonese,All,22,一歲/兩歲,68,produces,0.2206
+Cantonese,All,22,一歲/兩歲,68,understands,0
+Cantonese,All,23,一歲/兩歲,74,produces,0.3243
+Cantonese,All,23,一歲/兩歲,74,understands,0
+Cantonese,All,24,一歲/兩歲,68,produces,0.5
+Cantonese,All,24,一歲/兩歲,68,understands,0
+Cantonese,All,25,一歲/兩歲,65,produces,0.5231
+Cantonese,All,25,一歲/兩歲,65,understands,0
+Cantonese,All,26,一歲/兩歲,68,produces,0.6471
+Cantonese,All,26,一歲/兩歲,68,understands,0
+Cantonese,All,27,一歲/兩歲,62,produces,0.7581
+Cantonese,All,27,一歲/兩歲,62,understands,0
+Cantonese,All,28,一歲/兩歲,66,produces,0.8182
+Cantonese,All,28,一歲/兩歲,66,understands,0
+Cantonese,All,29,一歲/兩歲,72,produces,0.9028
+Cantonese,All,29,一歲/兩歲,72,understands,0
+Cantonese,All,30,一歲/兩歲,164,produces,0.878
+Cantonese,All,30,一歲/兩歲,164,understands,0
+Mandarin (Beijing),All,16,一岁/两岁,70,produces,0.2429
+Mandarin (Beijing),All,16,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,17,一岁/两岁,72,produces,0.3194
+Mandarin (Beijing),All,17,一岁/两岁,72,understands,0
+Mandarin (Beijing),All,18,一岁/两岁,71,produces,0.3944
+Mandarin (Beijing),All,18,一岁/两岁,71,understands,0
+Mandarin (Beijing),All,19,一岁/两岁,70,produces,0.5571
+Mandarin (Beijing),All,19,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,20,一岁/两岁,71,produces,0.6479
+Mandarin (Beijing),All,20,一岁/两岁,71,understands,0
+Mandarin (Beijing),All,21,一岁/两岁,70,produces,0.7286
+Mandarin (Beijing),All,21,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,22,一岁/两岁,71,produces,0.8028
+Mandarin (Beijing),All,22,一岁/两岁,71,understands,0
+Mandarin (Beijing),All,23,一岁/两岁,70,produces,0.8286
+Mandarin (Beijing),All,23,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,24,一岁/两岁,70,produces,0.8857
+Mandarin (Beijing),All,24,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,25,一岁/两岁,70,produces,0.9571
+Mandarin (Beijing),All,25,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,26,一岁/两岁,71,produces,0.9437
+Mandarin (Beijing),All,26,一岁/两岁,71,understands,0
+Mandarin (Beijing),All,27,一岁/两岁,70,produces,1
+Mandarin (Beijing),All,27,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,28,一岁/两岁,70,produces,0.9571
+Mandarin (Beijing),All,28,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,29,一岁/两岁,70,produces,0.9857
+Mandarin (Beijing),All,29,一岁/两岁,70,understands,0
+Mandarin (Beijing),All,30,一岁/两岁,70,produces,0.9857
+Mandarin (Beijing),All,30,一岁/两岁,70,understands,0
+Cantonese,Female,16,一歲/兩歲,23,produces,0.0435
+Cantonese,Female,16,一歲/兩歲,23,understands,0
+Cantonese,Male,16,一歲/兩歲,23,produces,0
+Cantonese,Male,16,一歲/兩歲,23,understands,0
+Cantonese,Female,17,一歲/兩歲,30,produces,0.1
+Cantonese,Female,17,一歲/兩歲,30,understands,0
+Cantonese,Male,17,一歲/兩歲,31,produces,0.0323
+Cantonese,Male,17,一歲/兩歲,31,understands,0
+Cantonese,Female,18,一歲/兩歲,33,produces,0.1515
+Cantonese,Female,18,一歲/兩歲,33,understands,0
+Cantonese,Male,18,一歲/兩歲,35,produces,0.0286
+Cantonese,Male,18,一歲/兩歲,35,understands,0
+Cantonese,Female,19,一歲/兩歲,30,produces,0.0333
+Cantonese,Female,19,一歲/兩歲,30,understands,0
+Cantonese,Male,19,一歲/兩歲,36,produces,0.0833
+Cantonese,Male,19,一歲/兩歲,36,understands,0
+Cantonese,Female,20,一歲/兩歲,62,produces,0.2419
+Cantonese,Female,20,一歲/兩歲,62,understands,0
+Cantonese,Male,20,一歲/兩歲,78,produces,0.1154
+Cantonese,Male,20,一歲/兩歲,78,understands,0
+Cantonese,Female,21,一歲/兩歲,57,produces,0.2105
+Cantonese,Female,21,一歲/兩歲,57,understands,0
+Cantonese,Male,21,一歲/兩歲,63,produces,0.2063
+Cantonese,Male,21,一歲/兩歲,63,understands,0
+Cantonese,Female,22,一歲/兩歲,34,produces,0.2353
+Cantonese,Female,22,一歲/兩歲,34,understands,0
+Cantonese,Male,22,一歲/兩歲,34,produces,0.2059
+Cantonese,Male,22,一歲/兩歲,34,understands,0
+Cantonese,Female,23,一歲/兩歲,37,produces,0.3784
+Cantonese,Female,23,一歲/兩歲,37,understands,0
+Cantonese,Male,23,一歲/兩歲,37,produces,0.2703
+Cantonese,Male,23,一歲/兩歲,37,understands,0
+Cantonese,Female,24,一歲/兩歲,32,produces,0.5
+Cantonese,Female,24,一歲/兩歲,32,understands,0
+Cantonese,Male,24,一歲/兩歲,36,produces,0.5
+Cantonese,Male,24,一歲/兩歲,36,understands,0
+Cantonese,Female,25,一歲/兩歲,31,produces,0.5161
+Cantonese,Female,25,一歲/兩歲,31,understands,0
+Cantonese,Male,25,一歲/兩歲,34,produces,0.5294
+Cantonese,Male,25,一歲/兩歲,34,understands,0
+Cantonese,Female,26,一歲/兩歲,31,produces,0.7097
+Cantonese,Female,26,一歲/兩歲,31,understands,0
+Cantonese,Male,26,一歲/兩歲,37,produces,0.5946
+Cantonese,Male,26,一歲/兩歲,37,understands,0
+Cantonese,Female,27,一歲/兩歲,31,produces,0.7419
+Cantonese,Female,27,一歲/兩歲,31,understands,0
+Cantonese,Male,27,一歲/兩歲,31,produces,0.7742
+Cantonese,Male,27,一歲/兩歲,31,understands,0
+Cantonese,Female,28,一歲/兩歲,32,produces,0.8125
+Cantonese,Female,28,一歲/兩歲,32,understands,0
+Cantonese,Male,28,一歲/兩歲,34,produces,0.8235
+Cantonese,Male,28,一歲/兩歲,34,understands,0
+Cantonese,Female,29,一歲/兩歲,36,produces,0.9167
+Cantonese,Female,29,一歲/兩歲,36,understands,0
+Cantonese,Male,29,一歲/兩歲,36,produces,0.8889
+Cantonese,Male,29,一歲/兩歲,36,understands,0
+Cantonese,Female,30,一歲/兩歲,76,produces,0.9211
+Cantonese,Female,30,一歲/兩歲,76,understands,0
+Cantonese,Male,30,一歲/兩歲,88,produces,0.8409
+Cantonese,Male,30,一歲/兩歲,88,understands,0
+Mandarin (Beijing),Female,16,一岁/两岁,35,produces,0.2571
+Mandarin (Beijing),Female,16,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,16,一岁/两岁,35,produces,0.2286
+Mandarin (Beijing),Male,16,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,17,一岁/两岁,35,produces,0.2571
+Mandarin (Beijing),Female,17,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,17,一岁/两岁,37,produces,0.3784
+Mandarin (Beijing),Male,17,一岁/两岁,37,understands,0
+Mandarin (Beijing),Female,18,一岁/两岁,35,produces,0.4571
+Mandarin (Beijing),Female,18,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,18,一岁/两岁,36,produces,0.3333
+Mandarin (Beijing),Male,18,一岁/两岁,36,understands,0
+Mandarin (Beijing),Female,19,一岁/两岁,35,produces,0.5714
+Mandarin (Beijing),Female,19,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,19,一岁/两岁,35,produces,0.5429
+Mandarin (Beijing),Male,19,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,20,一岁/两岁,35,produces,0.7143
+Mandarin (Beijing),Female,20,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,20,一岁/两岁,36,produces,0.5833
+Mandarin (Beijing),Male,20,一岁/两岁,36,understands,0
+Mandarin (Beijing),Female,21,一岁/两岁,35,produces,0.8857
+Mandarin (Beijing),Female,21,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,21,一岁/两岁,35,produces,0.5714
+Mandarin (Beijing),Male,21,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,22,一岁/两岁,35,produces,0.9143
+Mandarin (Beijing),Female,22,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,22,一岁/两岁,36,produces,0.6944
+Mandarin (Beijing),Male,22,一岁/两岁,36,understands,0
+Mandarin (Beijing),Female,23,一岁/两岁,35,produces,0.8857
+Mandarin (Beijing),Female,23,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,23,一岁/两岁,35,produces,0.7714
+Mandarin (Beijing),Male,23,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,24,一岁/两岁,35,produces,0.9143
+Mandarin (Beijing),Female,24,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,24,一岁/两岁,35,produces,0.8571
+Mandarin (Beijing),Male,24,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,25,一岁/两岁,35,produces,0.9714
+Mandarin (Beijing),Female,25,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,25,一岁/两岁,35,produces,0.9429
+Mandarin (Beijing),Male,25,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,26,一岁/两岁,36,produces,0.9722
+Mandarin (Beijing),Female,26,一岁/两岁,36,understands,0
+Mandarin (Beijing),Male,26,一岁/两岁,35,produces,0.9143
+Mandarin (Beijing),Male,26,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,27,一岁/两岁,35,produces,1
+Mandarin (Beijing),Female,27,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,27,一岁/两岁,35,produces,1
+Mandarin (Beijing),Male,27,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,28,一岁/两岁,35,produces,0.9714
+Mandarin (Beijing),Female,28,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,28,一岁/两岁,35,produces,0.9429
+Mandarin (Beijing),Male,28,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,29,一岁/两岁,35,produces,1
+Mandarin (Beijing),Female,29,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,29,一岁/两岁,35,produces,0.9714
+Mandarin (Beijing),Male,29,一岁/两岁,35,understands,0
+Mandarin (Beijing),Female,30,一岁/两岁,35,produces,0.9714
+Mandarin (Beijing),Female,30,一岁/两岁,35,understands,0
+Mandarin (Beijing),Male,30,一岁/两岁,35,produces,1
+Mandarin (Beijing),Male,30,一岁/两岁,35,understands,0

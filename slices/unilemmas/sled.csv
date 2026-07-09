@@ -1,679 +1,2013 @@
-language,age,words,n,measure,prop
-Italian,18,slitta,31,produces,0.0323
-Italian,18,slitta,31,understands,0
-Italian,19,slitta,39,produces,0.0256
-Italian,19,slitta,39,understands,0
-Italian,20,slitta,64,produces,0.0469
-Italian,20,slitta,64,understands,0
-Italian,21,slitta,55,produces,0.0545
-Italian,21,slitta,55,understands,0
-Italian,22,slitta,55,produces,0.0727
-Italian,22,slitta,55,understands,0
-Italian,23,slitta,53,produces,0.0566
-Italian,23,slitta,53,understands,0
-Italian,24,slitta,71,produces,0.1268
-Italian,24,slitta,71,understands,0
-Italian,25,slitta,39,produces,0.2051
-Italian,25,slitta,39,understands,0
-Italian,26,slitta,41,produces,0.2195
-Italian,26,slitta,41,understands,0
-Italian,27,slitta,43,produces,0.2326
-Italian,27,slitta,43,understands,0
-Italian,28,slitta,44,produces,0.2045
-Italian,28,slitta,44,understands,0
-Italian,29,slitta,37,produces,0.2703
-Italian,29,slitta,37,understands,0
-Italian,30,slitta,67,produces,0.3284
-Italian,30,slitta,67,understands,0
-Italian,31,slitta,19,produces,0.4211
-Italian,31,slitta,19,understands,0
-Italian,32,slitta,23,produces,0.5217
-Italian,32,slitta,23,understands,0
-Italian,33,slitta,16,produces,0.375
-Italian,33,slitta,16,understands,0
-Italian,34,slitta,19,produces,0.4211
-Italian,34,slitta,19,understands,0
-Italian,35,slitta,15,produces,0.5333
-Italian,35,slitta,15,understands,0
-Italian,36,slitta,21,produces,0.381
-Italian,36,slitta,21,understands,0
-Korean,18,썰매,88,produces,0.0455
-Korean,18,썰매,88,understands,0
-Korean,19,썰매,77,produces,0
-Korean,19,썰매,77,understands,0
-Korean,20,썰매,88,produces,0.0227
-Korean,20,썰매,88,understands,0
-Korean,21,썰매,79,produces,0.038
-Korean,21,썰매,79,understands,0
-Korean,22,썰매,87,produces,0.0805
-Korean,22,썰매,87,understands,0
-Korean,23,썰매,87,produces,0.0575
-Korean,23,썰매,87,understands,0
-Korean,24,썰매,107,produces,0.1121
-Korean,24,썰매,107,understands,0
-Korean,25,썰매,95,produces,0.0947
-Korean,25,썰매,95,understands,0
-Korean,26,썰매,91,produces,0.2198
-Korean,26,썰매,91,understands,0
-Korean,27,썰매,104,produces,0.2981
-Korean,27,썰매,104,understands,0
-Korean,28,썰매,89,produces,0.2697
-Korean,28,썰매,89,understands,0
-Korean,29,썰매,101,produces,0.3564
-Korean,29,썰매,101,understands,0
-Korean,30,썰매,81,produces,0.3333
-Korean,30,썰매,81,understands,0
-Korean,31,썰매,79,produces,0.4051
-Korean,31,썰매,79,understands,0
-Korean,32,썰매,70,produces,0.4143
-Korean,32,썰매,70,understands,0
-Korean,33,썰매,79,produces,0.3671
-Korean,33,썰매,79,understands,0
-Korean,34,썰매,79,produces,0.5443
-Korean,34,썰매,79,understands,0
-Korean,35,썰매,74,produces,0.5135
-Korean,35,썰매,74,understands,0
-Korean,36,썰매,75,produces,0.5333
-Korean,36,썰매,75,understands,0
-Latvian,17,ragaviņas,27,produces,0.0741
-Latvian,17,ragaviņas,27,understands,0
-Latvian,18,ragaviņas,21,produces,0
-Latvian,18,ragaviņas,21,understands,0
-Latvian,19,ragaviņas,28,produces,0.0714
-Latvian,19,ragaviņas,28,understands,0
-Latvian,20,ragaviņas,34,produces,0.0588
-Latvian,20,ragaviņas,34,understands,0
-Latvian,21,ragaviņas,26,produces,0.3077
-Latvian,21,ragaviņas,26,understands,0
-Latvian,22,ragaviņas,32,produces,0.1562
-Latvian,22,ragaviņas,32,understands,0
-Latvian,23,ragaviņas,25,produces,0.2
-Latvian,23,ragaviņas,25,understands,0
-Latvian,24,ragaviņas,30,produces,0.3667
-Latvian,24,ragaviņas,30,understands,0
-Latvian,25,ragaviņas,29,produces,0.3793
-Latvian,25,ragaviņas,29,understands,0
-Latvian,26,ragaviņas,22,produces,0.4545
-Latvian,26,ragaviņas,22,understands,0
-Latvian,27,ragaviņas,18,produces,0.4444
-Latvian,27,ragaviņas,18,understands,0
-Latvian,28,ragaviņas,23,produces,0.5217
-Latvian,28,ragaviņas,23,understands,0
-Latvian,29,ragaviņas,24,produces,0.4167
-Latvian,29,ragaviņas,24,understands,0
-Latvian,30,ragaviņas,26,produces,0.4615
-Latvian,30,ragaviņas,26,understands,0
-Latvian,31,ragaviņas,19,produces,0.6316
-Latvian,31,ragaviņas,19,understands,0
-Latvian,32,ragaviņas,25,produces,0.6
-Latvian,32,ragaviņas,25,understands,0
-Latvian,33,ragaviņas,31,produces,0.5161
-Latvian,33,ragaviņas,31,understands,0
-Latvian,34,ragaviņas,17,produces,0.7647
-Latvian,34,ragaviņas,17,understands,0
-Latvian,35,ragaviņas,21,produces,0.7619
-Latvian,35,ragaviņas,21,understands,0
-Latvian,36,ragaviņas,22,produces,0.5455
-Latvian,36,ragaviņas,22,understands,0
-Norwegian,16,"akebrett, kjelke",98,produces,0
-Norwegian,16,"akebrett, kjelke",98,understands,0
-Norwegian,17,"akebrett, kjelke",218,produces,0.0138
-Norwegian,17,"akebrett, kjelke",218,understands,0
-Norwegian,18,"akebrett, kjelke",271,produces,0.0221
-Norwegian,18,"akebrett, kjelke",271,understands,0
-Norwegian,19,"akebrett, kjelke",281,produces,0.0374
-Norwegian,19,"akebrett, kjelke",281,understands,0
-Norwegian,20,"akebrett, kjelke",342,produces,0.0585
-Norwegian,20,"akebrett, kjelke",342,understands,0
-Norwegian,21,"akebrett, kjelke",418,produces,0.1029
-Norwegian,21,"akebrett, kjelke",418,understands,0
-Norwegian,22,"akebrett, kjelke",596,produces,0.1527
-Norwegian,22,"akebrett, kjelke",596,understands,0
-Norwegian,23,"akebrett, kjelke",566,produces,0.2138
-Norwegian,23,"akebrett, kjelke",566,understands,0
-Norwegian,24,"akebrett, kjelke",538,produces,0.2677
-Norwegian,24,"akebrett, kjelke",538,understands,0
-Norwegian,25,"akebrett, kjelke",656,produces,0.3293
-Norwegian,25,"akebrett, kjelke",656,understands,0
-Norwegian,26,"akebrett, kjelke",644,produces,0.4161
-Norwegian,26,"akebrett, kjelke",644,understands,0
-Norwegian,27,"akebrett, kjelke",525,produces,0.4429
-Norwegian,27,"akebrett, kjelke",525,understands,0
-Norwegian,28,"akebrett, kjelke",544,produces,0.4853
-Norwegian,28,"akebrett, kjelke",544,understands,0
-Norwegian,29,"akebrett, kjelke",536,produces,0.5373
-Norwegian,29,"akebrett, kjelke",536,understands,0
-Norwegian,30,"akebrett, kjelke",457,produces,0.5853
-Norwegian,30,"akebrett, kjelke",457,understands,0
-Norwegian,31,"akebrett, kjelke",479,produces,0.6388
-Norwegian,31,"akebrett, kjelke",479,understands,0
-Norwegian,32,"akebrett, kjelke",451,produces,0.6574
-Norwegian,32,"akebrett, kjelke",451,understands,0
-Norwegian,33,"akebrett, kjelke",430,produces,0.7198
-Norwegian,33,"akebrett, kjelke",430,understands,0
-Norwegian,34,"akebrett, kjelke",424,produces,0.737
-Norwegian,34,"akebrett, kjelke",424,understands,0
-Norwegian,35,"akebrett, kjelke",422,produces,0.7571
-Norwegian,35,"akebrett, kjelke",422,understands,0
-Norwegian,36,"akebrett, kjelke",329,produces,0.766
-Norwegian,36,"akebrett, kjelke",329,understands,0
-Russian,18,санки,42,produces,0.119
-Russian,18,санки,42,understands,0
-Russian,19,санки,41,produces,0.122
-Russian,19,санки,41,understands,0
-Russian,20,санки,45,produces,0.1556
-Russian,20,санки,45,understands,0
-Russian,21,санки,43,produces,0.3721
-Russian,21,санки,43,understands,0
-Russian,22,санки,51,produces,0.4314
-Russian,22,санки,51,understands,0
-Russian,23,санки,56,produces,0.5179
-Russian,23,санки,56,understands,0
-Russian,24,санки,61,produces,0.6393
-Russian,24,санки,61,understands,0
-Russian,25,санки,66,produces,0.6364
-Russian,25,санки,66,understands,0
-Russian,26,санки,52,produces,0.5962
-Russian,26,санки,52,understands,0
-Russian,27,санки,60,produces,0.6333
-Russian,27,санки,60,understands,0
-Russian,28,санки,60,produces,0.7833
-Russian,28,санки,60,understands,0
-Russian,29,санки,58,produces,0.8448
-Russian,29,санки,58,understands,0
-Russian,30,санки,77,produces,0.7403
-Russian,30,санки,77,understands,0
-Russian,31,санки,61,produces,0.8525
-Russian,31,санки,61,understands,0
-Russian,32,санки,55,produces,0.8545
-Russian,32,санки,55,understands,0
-Russian,33,санки,55,produces,0.8545
-Russian,33,санки,55,understands,0
-Russian,34,санки,58,produces,0.9483
-Russian,34,санки,58,understands,0
-Russian,35,санки,47,produces,0.8936
-Russian,35,санки,47,understands,0
-Russian,36,санки,49,produces,0.9388
-Russian,36,санки,49,understands,0
-Spanish (European),8,tobogán,52,produces,0
-Spanish (European),8,tobogán,52,understands,0
-Spanish (European),9,tobogán,45,produces,0
-Spanish (European),9,tobogán,45,understands,0.0889
-Spanish (European),10,tobogán,49,produces,0
-Spanish (European),10,tobogán,49,understands,0.0408
-Spanish (European),11,tobogán,36,produces,0
-Spanish (European),11,tobogán,36,understands,0.0833
-Spanish (European),12,tobogán,52,produces,0
-Spanish (European),12,tobogán,52,understands,0.25
-Spanish (European),13,tobogán,58,produces,0
-Spanish (European),13,tobogán,58,understands,0.3621
-Spanish (European),14,tobogán,55,produces,0
-Spanish (European),14,tobogán,55,understands,0.4545
-Spanish (European),15,tobogán,65,produces,0.0308
-Spanish (European),15,tobogán,65,understands,0.6462
-Spanish (European),16,tobogán,39,produces,0.1026
-Spanish (European),16,tobogán,39,understands,0
-Spanish (European),17,tobogán,39,produces,0
-Spanish (European),17,tobogán,39,understands,0
-Spanish (European),18,tobogán,50,produces,0.12
-Spanish (European),18,tobogán,50,understands,0
-Spanish (European),19,tobogán,27,produces,0.1481
-Spanish (European),19,tobogán,27,understands,0
-Spanish (European),20,tobogán,36,produces,0.25
-Spanish (European),20,tobogán,36,understands,0
-Spanish (European),21,tobogán,41,produces,0.2683
-Spanish (European),21,tobogán,41,understands,0
-Spanish (European),22,tobogán,38,produces,0.3421
-Spanish (European),22,tobogán,38,understands,0
-Spanish (European),23,tobogán,30,produces,0.4
-Spanish (European),23,tobogán,30,understands,0
-Spanish (European),24,tobogán,55,produces,0.4909
-Spanish (European),24,tobogán,55,understands,0
-Spanish (European),25,tobogán,35,produces,0.6286
-Spanish (European),25,tobogán,35,understands,0
-Spanish (European),26,tobogán,49,produces,0.6327
-Spanish (European),26,tobogán,49,understands,0
-Spanish (European),27,tobogán,34,produces,0.7941
-Spanish (European),27,tobogán,34,understands,0
-Spanish (European),28,tobogán,38,produces,0.7632
-Spanish (European),28,tobogán,38,understands,0
-Spanish (European),29,tobogán,41,produces,0.8293
-Spanish (European),29,tobogán,41,understands,0
-Spanish (European),30,tobogán,41,produces,0.7561
-Spanish (European),30,tobogán,41,understands,0
-Spanish (Mexican),16,trineo,68,produces,0.0147
-Spanish (Mexican),16,trineo,68,understands,0
-Spanish (Mexican),17,trineo,59,produces,0
-Spanish (Mexican),17,trineo,59,understands,0
-Spanish (Mexican),18,trineo,75,produces,0.0133
-Spanish (Mexican),18,trineo,75,understands,0
-Spanish (Mexican),19,trineo,100,produces,0.11
-Spanish (Mexican),19,trineo,100,understands,0
-Spanish (Mexican),20,trineo,107,produces,0.0561
-Spanish (Mexican),20,trineo,107,understands,0
-Spanish (Mexican),21,trineo,84,produces,0.0952
-Spanish (Mexican),21,trineo,84,understands,0
-Spanish (Mexican),22,trineo,141,produces,0.0142
-Spanish (Mexican),22,trineo,141,understands,0
-Spanish (Mexican),23,trineo,91,produces,0.022
-Spanish (Mexican),23,trineo,91,understands,0
-Spanish (Mexican),24,trineo,126,produces,0.127
-Spanish (Mexican),24,trineo,126,understands,0
-Spanish (Mexican),25,trineo,177,produces,0.1017
-Spanish (Mexican),25,trineo,177,understands,0
-Spanish (Mexican),26,trineo,83,produces,0.1205
-Spanish (Mexican),26,trineo,83,understands,0
-Spanish (Mexican),27,trineo,85,produces,0.0706
-Spanish (Mexican),27,trineo,85,understands,0
-Spanish (Mexican),28,trineo,89,produces,0.1011
-Spanish (Mexican),28,trineo,89,understands,0
-Spanish (Mexican),29,trineo,89,produces,0.0562
-Spanish (Mexican),29,trineo,89,understands,0
-Spanish (Mexican),30,trineo,308,produces,0.0584
-Spanish (Mexican),30,trineo,308,understands,0
-Swedish,16,"kälke, pulka",159,produces,0
-Swedish,16,"kälke, pulka",159,understands,0
-Swedish,19,"kälke, pulka",152,produces,0.0263
-Swedish,19,"kälke, pulka",152,understands,0
-Swedish,22,"kälke, pulka",307,produces,0.1678
-Swedish,22,"kälke, pulka",307,understands,0
-Swedish,25,"kälke, pulka",143,produces,0.2483
-Swedish,25,"kälke, pulka",143,understands,0
-Swedish,28,"kälke, pulka",139,produces,0.5719
-Swedish,28,"kälke, pulka",139,understands,0
-American Sign Language,8,SLED,1,produces,0
-American Sign Language,8,SLED,1,understands,0
-American Sign Language,10,SLED,3,produces,0
-American Sign Language,10,SLED,3,understands,0
-American Sign Language,11,SLED,1,produces,0
-American Sign Language,11,SLED,1,understands,0
-American Sign Language,12,SLED,2,produces,0
-American Sign Language,12,SLED,2,understands,0
-American Sign Language,13,SLED,4,produces,0
-American Sign Language,13,SLED,4,understands,0
-American Sign Language,14,SLED,1,produces,0
-American Sign Language,14,SLED,1,understands,0
-American Sign Language,15,SLED,2,produces,0
-American Sign Language,15,SLED,2,understands,0
-American Sign Language,17,SLED,2,produces,0
-American Sign Language,17,SLED,2,understands,0
-American Sign Language,18,SLED,4,produces,0
-American Sign Language,18,SLED,4,understands,0
-American Sign Language,19,SLED,1,produces,0
-American Sign Language,19,SLED,1,understands,0
-American Sign Language,20,SLED,1,produces,0
-American Sign Language,20,SLED,1,understands,0
-American Sign Language,21,SLED,2,produces,0
-American Sign Language,21,SLED,2,understands,0.5
-American Sign Language,22,SLED,2,produces,0
-American Sign Language,22,SLED,2,understands,0
-American Sign Language,23,SLED,3,produces,0
-American Sign Language,23,SLED,3,understands,0
-American Sign Language,24,SLED,3,produces,0
-American Sign Language,24,SLED,3,understands,0
-American Sign Language,25,SLED,2,produces,0
-American Sign Language,25,SLED,2,understands,0
-American Sign Language,27,SLED,2,produces,0
-American Sign Language,27,SLED,2,understands,0
-American Sign Language,28,SLED,4,produces,0.25
-American Sign Language,28,SLED,4,understands,0.25
-American Sign Language,30,SLED,3,produces,0.3333
-American Sign Language,30,SLED,3,understands,0
-American Sign Language,31,SLED,3,produces,0
-American Sign Language,31,SLED,3,understands,0
-American Sign Language,32,SLED,8,produces,0.5
-American Sign Language,32,SLED,8,understands,0
-American Sign Language,33,SLED,2,produces,0
-American Sign Language,33,SLED,2,understands,0
-American Sign Language,34,SLED,2,produces,1
-American Sign Language,34,SLED,2,understands,0
-American Sign Language,35,SLED,3,produces,0
-American Sign Language,35,SLED,3,understands,0
-British Sign Language,8,sledge,4,produces,0
-British Sign Language,8,sledge,4,understands,0
-British Sign Language,9,sledge,4,produces,0
-British Sign Language,9,sledge,4,understands,0
-British Sign Language,10,sledge,4,produces,0
-British Sign Language,10,sledge,4,understands,0
-British Sign Language,11,sledge,6,produces,0
-British Sign Language,11,sledge,6,understands,0
-British Sign Language,12,sledge,6,produces,0
-British Sign Language,12,sledge,6,understands,0
-British Sign Language,13,sledge,6,produces,0
-British Sign Language,13,sledge,6,understands,0
-British Sign Language,14,sledge,7,produces,0
-British Sign Language,14,sledge,7,understands,0
-British Sign Language,15,sledge,6,produces,0
-British Sign Language,15,sledge,6,understands,0
-British Sign Language,16,sledge,7,produces,0
-British Sign Language,16,sledge,7,understands,0
-British Sign Language,17,sledge,7,produces,0
-British Sign Language,17,sledge,7,understands,0
-British Sign Language,18,sledge,8,produces,0
-British Sign Language,18,sledge,8,understands,0
-British Sign Language,19,sledge,8,produces,0
-British Sign Language,19,sledge,8,understands,0
-British Sign Language,20,sledge,11,produces,0.0909
-British Sign Language,20,sledge,11,understands,0.0909
-British Sign Language,21,sledge,5,produces,0
-British Sign Language,21,sledge,5,understands,0
-British Sign Language,22,sledge,6,produces,0
-British Sign Language,22,sledge,6,understands,0
-British Sign Language,23,sledge,7,produces,0.1429
-British Sign Language,23,sledge,7,understands,0.1429
-British Sign Language,24,sledge,5,produces,0
-British Sign Language,24,sledge,5,understands,0
-British Sign Language,25,sledge,7,produces,0
-British Sign Language,25,sledge,7,understands,0
-British Sign Language,26,sledge,6,produces,0.1667
-British Sign Language,26,sledge,6,understands,0.1667
-British Sign Language,27,sledge,6,produces,0
-British Sign Language,27,sledge,6,understands,0
-British Sign Language,28,sledge,3,produces,0
-British Sign Language,28,sledge,3,understands,0
-British Sign Language,29,sledge,7,produces,0.1429
-British Sign Language,29,sledge,7,understands,0.1429
-British Sign Language,30,sledge,5,produces,0
-British Sign Language,30,sledge,5,understands,0
-British Sign Language,31,sledge,2,produces,0
-British Sign Language,31,sledge,2,understands,0
-British Sign Language,32,sledge,6,produces,0.1667
-British Sign Language,32,sledge,6,understands,0.3333
-British Sign Language,33,sledge,5,produces,0
-British Sign Language,33,sledge,5,understands,0
-British Sign Language,34,sledge,2,produces,0
-British Sign Language,34,sledge,2,understands,0
-British Sign Language,35,sledge,2,produces,0
-British Sign Language,35,sledge,2,understands,0
-British Sign Language,36,sledge,3,produces,0.6667
-British Sign Language,36,sledge,3,understands,0.6667
-Croatian,16,sanjke,13,produces,0
-Croatian,16,sanjke,13,understands,0
-Croatian,17,sanjke,25,produces,0.08
-Croatian,17,sanjke,25,understands,0
-Croatian,18,sanjke,22,produces,0.0909
-Croatian,18,sanjke,22,understands,0
-Croatian,19,sanjke,21,produces,0.0952
-Croatian,19,sanjke,21,understands,0
-Croatian,20,sanjke,26,produces,0.1538
-Croatian,20,sanjke,26,understands,0
-Croatian,21,sanjke,29,produces,0.1379
-Croatian,21,sanjke,29,understands,0
-Croatian,22,sanjke,24,produces,0.2083
-Croatian,22,sanjke,24,understands,0
-Croatian,23,sanjke,26,produces,0.1538
-Croatian,23,sanjke,26,understands,0
-Croatian,24,sanjke,30,produces,0.2
-Croatian,24,sanjke,30,understands,0
-Croatian,25,sanjke,30,produces,0.4333
-Croatian,25,sanjke,30,understands,0
-Croatian,26,sanjke,29,produces,0.4828
-Croatian,26,sanjke,29,understands,0
-Croatian,27,sanjke,25,produces,0.56
-Croatian,27,sanjke,25,understands,0
-Croatian,28,sanjke,21,produces,0.7143
-Croatian,28,sanjke,21,understands,0
-Croatian,29,sanjke,28,produces,0.4286
-Croatian,29,sanjke,28,understands,0
-Croatian,30,sanjke,28,produces,0.6071
-Croatian,30,sanjke,28,understands,0
-Danish,8,"slæde, kælk",174,produces,0
-Danish,8,"slæde, kælk",174,understands,0
-Danish,9,"slæde, kælk",196,produces,0
-Danish,9,"slæde, kælk",196,understands,0.0026
-Danish,10,"slæde, kælk",182,produces,0
-Danish,10,"slæde, kælk",182,understands,0
-Danish,11,"slæde, kælk",200,produces,0
-Danish,11,"slæde, kælk",200,understands,0
-Danish,12,"slæde, kælk",188,produces,0
-Danish,12,"slæde, kælk",188,understands,0
-Danish,13,"slæde, kælk",216,produces,0
-Danish,13,"slæde, kælk",216,understands,0.0046
-Danish,14,"slæde, kælk",178,produces,0
-Danish,14,"slæde, kælk",178,understands,0
-Danish,15,"slæde, kælk",203,produces,0
-Danish,15,"slæde, kælk",203,understands,0.0049
-Danish,16,"slæde, kælk",359,produces,0.0022
-Danish,16,"slæde, kælk",359,understands,0.0022
-Danish,17,"slæde, kælk",346,produces,0
-Danish,17,"slæde, kælk",346,understands,0.0092
-Danish,18,"slæde, kælk",358,produces,0.008
-Danish,18,"slæde, kælk",358,understands,0.024
-Danish,19,"slæde, kælk",361,produces,0.0097
-Danish,19,"slæde, kælk",361,understands,0.014
-Danish,20,"slæde, kælk",358,produces,0.0121
-Danish,20,"slæde, kælk",358,understands,0.0154
-Danish,21,"kælk, slæde",236,produces,0.0311
-Danish,21,"kælk, slæde",236,understands,0
-Danish,22,"kælk, slæde",235,produces,0.0823
-Danish,22,"kælk, slæde",235,understands,0
-Danish,23,"kælk, slæde",190,produces,0.0737
-Danish,23,"kælk, slæde",190,understands,0
-Danish,24,"kælk, slæde",216,produces,0.1188
-Danish,24,"kælk, slæde",216,understands,0
-Danish,25,"kælk, slæde",138,produces,0.1304
-Danish,25,"kælk, slæde",138,understands,0
-Danish,26,"kælk, slæde",206,produces,0.2152
-Danish,26,"kælk, slæde",206,understands,0
-Danish,27,"kælk, slæde",176,produces,0.2273
-Danish,27,"kælk, slæde",176,understands,0
-Danish,28,"kælk, slæde",190,produces,0.2579
-Danish,28,"kælk, slæde",190,understands,0
-Danish,29,"kælk, slæde",182,produces,0.3516
-Danish,29,"kælk, slæde",182,understands,0
-Danish,30,"kælk, slæde",173,produces,0.4085
-Danish,30,"kælk, slæde",173,understands,0
-Danish,31,"kælk, slæde",175,produces,0.2514
-Danish,31,"kælk, slæde",175,understands,0
-Danish,32,"kælk, slæde",143,produces,0.3566
-Danish,32,"kælk, slæde",143,understands,0
-Danish,33,"kælk, slæde",151,produces,0.4371
-Danish,33,"kælk, slæde",151,understands,0
-Danish,34,"kælk, slæde",143,produces,0.3963
-Danish,34,"kælk, slæde",143,understands,0
-Danish,35,"kælk, slæde",113,produces,0.5192
-Danish,35,"kælk, slæde",113,understands,0
-Danish,36,"kælk, slæde",126,produces,0.537
-Danish,36,"kælk, slæde",126,understands,0
-Dutch,16,slee,4,produces,0
-Dutch,16,slee,4,understands,0
-Dutch,17,slee,49,produces,0
-Dutch,17,slee,49,understands,0
-Dutch,18,slee,68,produces,0
-Dutch,18,slee,68,understands,0
-Dutch,19,slee,7,produces,0
-Dutch,19,slee,7,understands,0
-Dutch,20,slee,7,produces,0.1429
-Dutch,20,slee,7,understands,0
-Dutch,21,slee,7,produces,0
-Dutch,21,slee,7,understands,0
-Dutch,22,slee,7,produces,0.1429
-Dutch,22,slee,7,understands,0
-Dutch,23,slee,51,produces,0.2745
-Dutch,23,slee,51,understands,0
-Dutch,24,slee,31,produces,0.1613
-Dutch,24,slee,31,understands,0
-Dutch,25,slee,6,produces,0
-Dutch,25,slee,6,understands,0
-Dutch,26,slee,6,produces,0.5
-Dutch,26,slee,6,understands,0
-Dutch,27,slee,5,produces,0.4
-Dutch,27,slee,5,understands,0
-Dutch,28,slee,6,produces,0.6667
-Dutch,28,slee,6,understands,0
-Dutch,29,slee,23,produces,0.6522
-Dutch,29,slee,23,understands,0
-Dutch,30,slee,24,produces,0.625
-Dutch,30,slee,24,understands,0
-Dutch,31,slee,2,produces,0.5
-Dutch,31,slee,2,understands,0
-English (American),16,sled,930,produces,0.0054
-English (American),16,sled,930,understands,0
-English (American),17,sled,458,produces,0.0393
-English (American),17,sled,458,understands,0
-English (American),18,sled,641,produces,0.0546
-English (American),18,sled,641,understands,0
-English (American),19,sled,570,produces,0.0632
-English (American),19,sled,570,understands,0
-English (American),20,sled,537,produces,0.0764
-English (American),20,sled,537,understands,0
-English (American),21,sled,366,produces,0.1175
-English (American),21,sled,366,understands,0
-English (American),22,sled,454,produces,0.1145
-English (American),22,sled,454,understands,0
-English (American),23,sled,470,produces,0.1809
-English (American),23,sled,470,understands,0
-English (American),24,sled,985,produces,0.1848
-English (American),24,sled,985,understands,0
-English (American),25,sled,757,produces,0.2021
-English (American),25,sled,757,understands,0
-English (American),26,sled,435,produces,0.2276
-English (American),26,sled,435,understands,0
-English (American),27,sled,361,produces,0.2964
-English (American),27,sled,361,understands,0
-English (American),28,sled,954,produces,0.3512
-English (American),28,sled,954,understands,0
-English (American),29,sled,390,produces,0.3282
-English (American),29,sled,390,understands,0
-English (American),30,sled,785,produces,0.3134
-English (American),30,sled,785,understands,0
-Estonian,16,kelk,36,produces,0.0556
-Estonian,16,kelk,36,understands,0
-Estonian,17,kelk,89,produces,0.0225
-Estonian,17,kelk,89,understands,0
-Estonian,18,kelk,103,produces,0.0971
-Estonian,18,kelk,103,understands,0
-Estonian,19,kelk,85,produces,0.1529
-Estonian,19,kelk,85,understands,0
-Estonian,20,kelk,60,produces,0.1667
-Estonian,20,kelk,60,understands,0
-Estonian,21,kelk,66,produces,0.1667
-Estonian,21,kelk,66,understands,0
-Estonian,22,kelk,76,produces,0.3158
-Estonian,22,kelk,76,understands,0
-Estonian,23,kelk,95,produces,0.3895
-Estonian,23,kelk,95,understands,0
-Estonian,24,kelk,116,produces,0.4914
-Estonian,24,kelk,116,understands,0
-Estonian,25,kelk,82,produces,0.5488
-Estonian,25,kelk,82,understands,0
-Estonian,26,kelk,84,produces,0.5476
-Estonian,26,kelk,84,understands,0
-Estonian,27,kelk,80,produces,0.675
-Estonian,27,kelk,80,understands,0
-Estonian,28,kelk,92,produces,0.663
-Estonian,28,kelk,92,understands,0
-Estonian,29,kelk,100,produces,0.78
-Estonian,29,kelk,100,understands,0
-Estonian,30,kelk,71,produces,0.7606
-Estonian,30,kelk,71,understands,0
-Finnish,18,pulkka,35,produces,0
-Finnish,18,pulkka,35,understands,0
-Finnish,24,pulkka,35,produces,0.7714
-Finnish,24,pulkka,35,understands,0
-French (French),8,traîneau,54,produces,0
-French (French),8,traîneau,54,understands,0
-French (French),9,traîneau,11,produces,0
-French (French),9,traîneau,11,understands,0
-French (French),10,traîneau,13,produces,0
-French (French),10,traîneau,13,understands,0
-French (French),11,traîneau,42,produces,0
-French (French),11,traîneau,42,understands,0
-French (French),12,traîneau,64,produces,0
-French (French),12,traîneau,64,understands,0
-French (French),13,traîneau,116,produces,0
-French (French),13,traîneau,116,understands,0
-French (French),14,traîneau,40,produces,0
-French (French),14,traîneau,40,understands,0
-French (French),15,traîneau,26,produces,0
-French (French),15,traîneau,26,understands,0
-French (French),16,"traîneau, traineau",98,produces,0.0102
-French (French),16,"traîneau, traineau",98,understands,0
-French (French),17,traineau,52,produces,0
-French (French),17,traineau,52,understands,0
-French (French),18,traineau,54,produces,0.0185
-French (French),18,traineau,54,understands,0
-French (French),19,traineau,42,produces,0
-French (French),19,traineau,42,understands,0
-French (French),20,traineau,81,produces,0.0247
-French (French),20,traineau,81,understands,0
-French (French),21,traineau,102,produces,0.0392
-French (French),21,traineau,102,understands,0
-French (French),22,traineau,103,produces,0.068
-French (French),22,traineau,103,understands,0
-French (French),23,traineau,118,produces,0.0254
-French (French),23,traineau,118,understands,0
-French (French),24,traineau,173,produces,0.0462
-French (French),24,traineau,173,understands,0
-French (French),25,traineau,87,produces,0.1149
-French (French),25,traineau,87,understands,0
-French (French),26,traineau,64,produces,0.0625
-French (French),26,traineau,64,understands,0
-French (French),27,traineau,54,produces,0.1852
-French (French),27,traineau,54,understands,0
-French (French),28,traineau,76,produces,0.1974
-French (French),28,traineau,76,understands,0
-French (French),29,traineau,67,produces,0.1642
-French (French),29,traineau,67,understands,0
-French (French),30,traineau,68,produces,0.2353
-French (French),30,traineau,68,understands,0
-French (Quebecois),16,traîneau,47,produces,0
-French (Quebecois),16,traîneau,47,understands,0
-French (Quebecois),17,traîneau,62,produces,0.0323
-French (Quebecois),17,traîneau,62,understands,0
-French (Quebecois),18,traîneau,99,produces,0.0101
-French (Quebecois),18,traîneau,99,understands,0
-French (Quebecois),19,traîneau,91,produces,0.044
-French (Quebecois),19,traîneau,91,understands,0
-French (Quebecois),20,traîneau,196,produces,0.0765
-French (Quebecois),20,traîneau,196,understands,0
-French (Quebecois),21,traîneau,109,produces,0.1376
-French (Quebecois),21,traîneau,109,understands,0
-French (Quebecois),22,traîneau,86,produces,0.1628
-French (Quebecois),22,traîneau,86,understands,0
-French (Quebecois),23,traîneau,86,produces,0.186
-French (Quebecois),23,traîneau,86,understands,0
-French (Quebecois),24,traîneau,132,produces,0.2045
-French (Quebecois),24,traîneau,132,understands,0
-French (Quebecois),25,traîneau,87,produces,0.2414
-French (Quebecois),25,traîneau,87,understands,0
-French (Quebecois),26,traîneau,95,produces,0.2421
-French (Quebecois),26,traîneau,95,understands,0
-French (Quebecois),27,traîneau,74,produces,0.4324
-French (Quebecois),27,traîneau,74,understands,0
-French (Quebecois),28,traîneau,61,produces,0.4426
-French (Quebecois),28,traîneau,61,understands,0
-French (Quebecois),29,traîneau,70,produces,0.5286
-French (Quebecois),29,traîneau,70,understands,0
-French (Quebecois),30,traîneau,100,produces,0.33
-French (Quebecois),30,traîneau,100,understands,0
-Hungarian,16,szánkó,21,produces,0
-Hungarian,16,szánkó,21,understands,0
-Hungarian,17,szánkó,18,produces,0.0556
-Hungarian,17,szánkó,18,understands,0
-Hungarian,18,szánkó,18,produces,0.0556
-Hungarian,18,szánkó,18,understands,0
-Hungarian,19,szánkó,26,produces,0.1154
-Hungarian,19,szánkó,26,understands,0
-Hungarian,20,szánkó,18,produces,0.0556
-Hungarian,20,szánkó,18,understands,0
-Hungarian,21,szánkó,36,produces,0.1944
-Hungarian,21,szánkó,36,understands,0
-Hungarian,22,szánkó,27,produces,0.1111
-Hungarian,22,szánkó,27,understands,0
-Hungarian,23,szánkó,18,produces,0.3333
-Hungarian,23,szánkó,18,understands,0
-Hungarian,24,szánkó,38,produces,0.2895
-Hungarian,24,szánkó,38,understands,0
-Hungarian,25,szánkó,43,produces,0.5349
-Hungarian,25,szánkó,43,understands,0
-Hungarian,26,szánkó,23,produces,0.5652
-Hungarian,26,szánkó,23,understands,0
-Hungarian,27,szánkó,26,produces,0.7308
-Hungarian,27,szánkó,26,understands,0
-Hungarian,28,szánkó,30,produces,0.6
-Hungarian,28,szánkó,30,understands,0
-Hungarian,29,szánkó,12,produces,0.5
-Hungarian,29,szánkó,12,understands,0
-Hungarian,30,szánkó,18,produces,0.5556
-Hungarian,30,szánkó,18,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,8,SLED,1,produces,0
+American Sign Language,All,8,SLED,1,understands,0
+American Sign Language,All,10,SLED,3,produces,0
+American Sign Language,All,10,SLED,3,understands,0
+American Sign Language,All,11,SLED,1,produces,0
+American Sign Language,All,11,SLED,1,understands,0
+American Sign Language,All,12,SLED,2,produces,0
+American Sign Language,All,12,SLED,2,understands,0
+American Sign Language,All,13,SLED,4,produces,0
+American Sign Language,All,13,SLED,4,understands,0
+American Sign Language,All,14,SLED,1,produces,0
+American Sign Language,All,14,SLED,1,understands,0
+American Sign Language,All,15,SLED,2,produces,0
+American Sign Language,All,15,SLED,2,understands,0
+American Sign Language,All,17,SLED,2,produces,0
+American Sign Language,All,17,SLED,2,understands,0
+American Sign Language,All,18,SLED,4,produces,0
+American Sign Language,All,18,SLED,4,understands,0
+American Sign Language,All,19,SLED,1,produces,0
+American Sign Language,All,19,SLED,1,understands,0
+American Sign Language,All,20,SLED,1,produces,0
+American Sign Language,All,20,SLED,1,understands,0
+American Sign Language,All,21,SLED,2,produces,0
+American Sign Language,All,21,SLED,2,understands,0.5
+American Sign Language,All,22,SLED,2,produces,0
+American Sign Language,All,22,SLED,2,understands,0
+American Sign Language,All,23,SLED,3,produces,0
+American Sign Language,All,23,SLED,3,understands,0
+American Sign Language,All,24,SLED,3,produces,0
+American Sign Language,All,24,SLED,3,understands,0
+American Sign Language,All,25,SLED,2,produces,0
+American Sign Language,All,25,SLED,2,understands,0
+American Sign Language,All,27,SLED,2,produces,0
+American Sign Language,All,27,SLED,2,understands,0
+American Sign Language,All,28,SLED,4,produces,0.25
+American Sign Language,All,28,SLED,4,understands,0.25
+American Sign Language,All,30,SLED,3,produces,0.3333
+American Sign Language,All,30,SLED,3,understands,0
+American Sign Language,All,31,SLED,3,produces,0
+American Sign Language,All,31,SLED,3,understands,0
+American Sign Language,All,32,SLED,8,produces,0.5
+American Sign Language,All,32,SLED,8,understands,0
+American Sign Language,All,33,SLED,2,produces,0
+American Sign Language,All,33,SLED,2,understands,0
+American Sign Language,All,34,SLED,2,produces,1
+American Sign Language,All,34,SLED,2,understands,0
+American Sign Language,All,35,SLED,3,produces,0
+American Sign Language,All,35,SLED,3,understands,0
+British Sign Language,All,8,sledge,4,produces,0
+British Sign Language,All,8,sledge,4,understands,0
+British Sign Language,All,9,sledge,4,produces,0
+British Sign Language,All,9,sledge,4,understands,0
+British Sign Language,All,10,sledge,4,produces,0
+British Sign Language,All,10,sledge,4,understands,0
+British Sign Language,All,11,sledge,6,produces,0
+British Sign Language,All,11,sledge,6,understands,0
+British Sign Language,All,12,sledge,6,produces,0
+British Sign Language,All,12,sledge,6,understands,0
+British Sign Language,All,13,sledge,6,produces,0
+British Sign Language,All,13,sledge,6,understands,0
+British Sign Language,All,14,sledge,7,produces,0
+British Sign Language,All,14,sledge,7,understands,0
+British Sign Language,All,15,sledge,6,produces,0
+British Sign Language,All,15,sledge,6,understands,0
+British Sign Language,All,16,sledge,7,produces,0
+British Sign Language,All,16,sledge,7,understands,0
+British Sign Language,All,17,sledge,7,produces,0
+British Sign Language,All,17,sledge,7,understands,0
+British Sign Language,All,18,sledge,8,produces,0
+British Sign Language,All,18,sledge,8,understands,0
+British Sign Language,All,19,sledge,8,produces,0
+British Sign Language,All,19,sledge,8,understands,0
+British Sign Language,All,20,sledge,11,produces,0.0909
+British Sign Language,All,20,sledge,11,understands,0.0909
+British Sign Language,All,21,sledge,5,produces,0
+British Sign Language,All,21,sledge,5,understands,0
+British Sign Language,All,22,sledge,6,produces,0
+British Sign Language,All,22,sledge,6,understands,0
+British Sign Language,All,23,sledge,7,produces,0.1429
+British Sign Language,All,23,sledge,7,understands,0.1429
+British Sign Language,All,24,sledge,5,produces,0
+British Sign Language,All,24,sledge,5,understands,0
+British Sign Language,All,25,sledge,7,produces,0
+British Sign Language,All,25,sledge,7,understands,0
+British Sign Language,All,26,sledge,6,produces,0.1667
+British Sign Language,All,26,sledge,6,understands,0.1667
+British Sign Language,All,27,sledge,6,produces,0
+British Sign Language,All,27,sledge,6,understands,0
+British Sign Language,All,28,sledge,3,produces,0
+British Sign Language,All,28,sledge,3,understands,0
+British Sign Language,All,29,sledge,7,produces,0.1429
+British Sign Language,All,29,sledge,7,understands,0.1429
+British Sign Language,All,30,sledge,5,produces,0
+British Sign Language,All,30,sledge,5,understands,0
+British Sign Language,All,31,sledge,2,produces,0
+British Sign Language,All,31,sledge,2,understands,0
+British Sign Language,All,32,sledge,6,produces,0.1667
+British Sign Language,All,32,sledge,6,understands,0.3333
+British Sign Language,All,33,sledge,5,produces,0
+British Sign Language,All,33,sledge,5,understands,0
+British Sign Language,All,34,sledge,2,produces,0
+British Sign Language,All,34,sledge,2,understands,0
+British Sign Language,All,35,sledge,2,produces,0
+British Sign Language,All,35,sledge,2,understands,0
+British Sign Language,All,36,sledge,3,produces,0.6667
+British Sign Language,All,36,sledge,3,understands,0.6667
+Croatian,All,16,sanjke,13,produces,0
+Croatian,All,16,sanjke,13,understands,0
+Croatian,All,17,sanjke,25,produces,0.08
+Croatian,All,17,sanjke,25,understands,0
+Croatian,All,18,sanjke,22,produces,0.0909
+Croatian,All,18,sanjke,22,understands,0
+Croatian,All,19,sanjke,21,produces,0.0952
+Croatian,All,19,sanjke,21,understands,0
+Croatian,All,20,sanjke,26,produces,0.1538
+Croatian,All,20,sanjke,26,understands,0
+Croatian,All,21,sanjke,29,produces,0.1379
+Croatian,All,21,sanjke,29,understands,0
+Croatian,All,22,sanjke,24,produces,0.2083
+Croatian,All,22,sanjke,24,understands,0
+Croatian,All,23,sanjke,26,produces,0.1538
+Croatian,All,23,sanjke,26,understands,0
+Croatian,All,24,sanjke,30,produces,0.2
+Croatian,All,24,sanjke,30,understands,0
+Croatian,All,25,sanjke,30,produces,0.4333
+Croatian,All,25,sanjke,30,understands,0
+Croatian,All,26,sanjke,29,produces,0.4828
+Croatian,All,26,sanjke,29,understands,0
+Croatian,All,27,sanjke,25,produces,0.56
+Croatian,All,27,sanjke,25,understands,0
+Croatian,All,28,sanjke,21,produces,0.7143
+Croatian,All,28,sanjke,21,understands,0
+Croatian,All,29,sanjke,28,produces,0.4286
+Croatian,All,29,sanjke,28,understands,0
+Croatian,All,30,sanjke,28,produces,0.6071
+Croatian,All,30,sanjke,28,understands,0
+Danish,All,8,"slæde, kælk",174,produces,0
+Danish,All,8,"slæde, kælk",174,understands,0
+Danish,All,9,"slæde, kælk",196,produces,0
+Danish,All,9,"slæde, kælk",196,understands,0.0026
+Danish,All,10,"slæde, kælk",182,produces,0
+Danish,All,10,"slæde, kælk",182,understands,0
+Danish,All,11,"slæde, kælk",200,produces,0
+Danish,All,11,"slæde, kælk",200,understands,0
+Danish,All,12,"slæde, kælk",188,produces,0
+Danish,All,12,"slæde, kælk",188,understands,0
+Danish,All,13,"slæde, kælk",216,produces,0
+Danish,All,13,"slæde, kælk",216,understands,0.0046
+Danish,All,14,"slæde, kælk",178,produces,0
+Danish,All,14,"slæde, kælk",178,understands,0
+Danish,All,15,"slæde, kælk",203,produces,0
+Danish,All,15,"slæde, kælk",203,understands,0.0049
+Danish,All,16,"slæde, kælk",359,produces,0.0022
+Danish,All,16,"slæde, kælk",359,understands,0.0022
+Danish,All,17,"slæde, kælk",346,produces,0
+Danish,All,17,"slæde, kælk",346,understands,0.0092
+Danish,All,18,"slæde, kælk",358,produces,0.008
+Danish,All,18,"slæde, kælk",358,understands,0.024
+Danish,All,19,"slæde, kælk",361,produces,0.0097
+Danish,All,19,"slæde, kælk",361,understands,0.014
+Danish,All,20,"slæde, kælk",358,produces,0.0121
+Danish,All,20,"slæde, kælk",358,understands,0.0154
+Danish,All,21,"kælk, slæde",236,produces,0.0311
+Danish,All,21,"kælk, slæde",236,understands,0
+Danish,All,22,"kælk, slæde",235,produces,0.0823
+Danish,All,22,"kælk, slæde",235,understands,0
+Danish,All,23,"kælk, slæde",190,produces,0.0737
+Danish,All,23,"kælk, slæde",190,understands,0
+Danish,All,24,"kælk, slæde",216,produces,0.1188
+Danish,All,24,"kælk, slæde",216,understands,0
+Danish,All,25,"kælk, slæde",138,produces,0.1304
+Danish,All,25,"kælk, slæde",138,understands,0
+Danish,All,26,"kælk, slæde",206,produces,0.2152
+Danish,All,26,"kælk, slæde",206,understands,0
+Danish,All,27,"kælk, slæde",176,produces,0.2273
+Danish,All,27,"kælk, slæde",176,understands,0
+Danish,All,28,"kælk, slæde",190,produces,0.2579
+Danish,All,28,"kælk, slæde",190,understands,0
+Danish,All,29,"kælk, slæde",182,produces,0.3516
+Danish,All,29,"kælk, slæde",182,understands,0
+Danish,All,30,"kælk, slæde",173,produces,0.4085
+Danish,All,30,"kælk, slæde",173,understands,0
+Danish,All,31,"kælk, slæde",175,produces,0.2514
+Danish,All,31,"kælk, slæde",175,understands,0
+Danish,All,32,"kælk, slæde",143,produces,0.3566
+Danish,All,32,"kælk, slæde",143,understands,0
+Danish,All,33,"kælk, slæde",151,produces,0.4371
+Danish,All,33,"kælk, slæde",151,understands,0
+Danish,All,34,"kælk, slæde",143,produces,0.3963
+Danish,All,34,"kælk, slæde",143,understands,0
+Danish,All,35,"kælk, slæde",113,produces,0.5192
+Danish,All,35,"kælk, slæde",113,understands,0
+Danish,All,36,"kælk, slæde",126,produces,0.537
+Danish,All,36,"kælk, slæde",126,understands,0
+Dutch,All,16,slee,4,produces,0
+Dutch,All,16,slee,4,understands,0
+Dutch,All,17,slee,49,produces,0
+Dutch,All,17,slee,49,understands,0
+Dutch,All,18,slee,68,produces,0
+Dutch,All,18,slee,68,understands,0
+Dutch,All,19,slee,7,produces,0
+Dutch,All,19,slee,7,understands,0
+Dutch,All,20,slee,7,produces,0.1429
+Dutch,All,20,slee,7,understands,0
+Dutch,All,21,slee,7,produces,0
+Dutch,All,21,slee,7,understands,0
+Dutch,All,22,slee,7,produces,0.1429
+Dutch,All,22,slee,7,understands,0
+Dutch,All,23,slee,51,produces,0.2745
+Dutch,All,23,slee,51,understands,0
+Dutch,All,24,slee,31,produces,0.1613
+Dutch,All,24,slee,31,understands,0
+Dutch,All,25,slee,6,produces,0
+Dutch,All,25,slee,6,understands,0
+Dutch,All,26,slee,6,produces,0.5
+Dutch,All,26,slee,6,understands,0
+Dutch,All,27,slee,5,produces,0.4
+Dutch,All,27,slee,5,understands,0
+Dutch,All,28,slee,6,produces,0.6667
+Dutch,All,28,slee,6,understands,0
+Dutch,All,29,slee,23,produces,0.6522
+Dutch,All,29,slee,23,understands,0
+Dutch,All,30,slee,24,produces,0.625
+Dutch,All,30,slee,24,understands,0
+Dutch,All,31,slee,2,produces,0.5
+Dutch,All,31,slee,2,understands,0
+English (American),All,16,sled,930,produces,0.0054
+English (American),All,16,sled,930,understands,0
+English (American),All,17,sled,458,produces,0.0393
+English (American),All,17,sled,458,understands,0
+English (American),All,18,sled,641,produces,0.0546
+English (American),All,18,sled,641,understands,0
+English (American),All,19,sled,570,produces,0.0632
+English (American),All,19,sled,570,understands,0
+English (American),All,20,sled,537,produces,0.0764
+English (American),All,20,sled,537,understands,0
+English (American),All,21,sled,366,produces,0.1175
+English (American),All,21,sled,366,understands,0
+English (American),All,22,sled,454,produces,0.1145
+English (American),All,22,sled,454,understands,0
+English (American),All,23,sled,470,produces,0.1809
+English (American),All,23,sled,470,understands,0
+English (American),All,24,sled,985,produces,0.1848
+English (American),All,24,sled,985,understands,0
+English (American),All,25,sled,757,produces,0.2021
+English (American),All,25,sled,757,understands,0
+English (American),All,26,sled,435,produces,0.2276
+English (American),All,26,sled,435,understands,0
+English (American),All,27,sled,361,produces,0.2964
+English (American),All,27,sled,361,understands,0
+English (American),All,28,sled,954,produces,0.3512
+English (American),All,28,sled,954,understands,0
+English (American),All,29,sled,390,produces,0.3282
+English (American),All,29,sled,390,understands,0
+English (American),All,30,sled,785,produces,0.3134
+English (American),All,30,sled,785,understands,0
+Estonian,All,16,kelk,36,produces,0.0556
+Estonian,All,16,kelk,36,understands,0
+Estonian,All,17,kelk,89,produces,0.0225
+Estonian,All,17,kelk,89,understands,0
+Estonian,All,18,kelk,103,produces,0.0971
+Estonian,All,18,kelk,103,understands,0
+Estonian,All,19,kelk,85,produces,0.1529
+Estonian,All,19,kelk,85,understands,0
+Estonian,All,20,kelk,60,produces,0.1667
+Estonian,All,20,kelk,60,understands,0
+Estonian,All,21,kelk,66,produces,0.1667
+Estonian,All,21,kelk,66,understands,0
+Estonian,All,22,kelk,76,produces,0.3158
+Estonian,All,22,kelk,76,understands,0
+Estonian,All,23,kelk,95,produces,0.3895
+Estonian,All,23,kelk,95,understands,0
+Estonian,All,24,kelk,116,produces,0.4914
+Estonian,All,24,kelk,116,understands,0
+Estonian,All,25,kelk,82,produces,0.5488
+Estonian,All,25,kelk,82,understands,0
+Estonian,All,26,kelk,84,produces,0.5476
+Estonian,All,26,kelk,84,understands,0
+Estonian,All,27,kelk,80,produces,0.675
+Estonian,All,27,kelk,80,understands,0
+Estonian,All,28,kelk,92,produces,0.663
+Estonian,All,28,kelk,92,understands,0
+Estonian,All,29,kelk,100,produces,0.78
+Estonian,All,29,kelk,100,understands,0
+Estonian,All,30,kelk,71,produces,0.7606
+Estonian,All,30,kelk,71,understands,0
+Finnish,All,18,pulkka,35,produces,0
+Finnish,All,18,pulkka,35,understands,0
+Finnish,All,24,pulkka,35,produces,0.7714
+Finnish,All,24,pulkka,35,understands,0
+French (French),All,8,traîneau,54,produces,0
+French (French),All,8,traîneau,54,understands,0
+French (French),All,9,traîneau,11,produces,0
+French (French),All,9,traîneau,11,understands,0
+French (French),All,10,traîneau,13,produces,0
+French (French),All,10,traîneau,13,understands,0
+French (French),All,11,traîneau,42,produces,0
+French (French),All,11,traîneau,42,understands,0
+French (French),All,12,traîneau,64,produces,0
+French (French),All,12,traîneau,64,understands,0
+French (French),All,13,traîneau,116,produces,0
+French (French),All,13,traîneau,116,understands,0
+French (French),All,14,traîneau,40,produces,0
+French (French),All,14,traîneau,40,understands,0
+French (French),All,15,traîneau,26,produces,0
+French (French),All,15,traîneau,26,understands,0
+French (French),All,16,"traineau, traîneau",98,produces,0.0102
+French (French),All,16,"traineau, traîneau",98,understands,0
+French (French),All,17,traineau,52,produces,0
+French (French),All,17,traineau,52,understands,0
+French (French),All,18,traineau,54,produces,0.0185
+French (French),All,18,traineau,54,understands,0
+French (French),All,19,traineau,42,produces,0
+French (French),All,19,traineau,42,understands,0
+French (French),All,20,traineau,81,produces,0.0247
+French (French),All,20,traineau,81,understands,0
+French (French),All,21,traineau,102,produces,0.0392
+French (French),All,21,traineau,102,understands,0
+French (French),All,22,traineau,103,produces,0.068
+French (French),All,22,traineau,103,understands,0
+French (French),All,23,traineau,118,produces,0.0254
+French (French),All,23,traineau,118,understands,0
+French (French),All,24,traineau,173,produces,0.0462
+French (French),All,24,traineau,173,understands,0
+French (French),All,25,traineau,87,produces,0.1149
+French (French),All,25,traineau,87,understands,0
+French (French),All,26,traineau,64,produces,0.0625
+French (French),All,26,traineau,64,understands,0
+French (French),All,27,traineau,54,produces,0.1852
+French (French),All,27,traineau,54,understands,0
+French (French),All,28,traineau,76,produces,0.1974
+French (French),All,28,traineau,76,understands,0
+French (French),All,29,traineau,67,produces,0.1642
+French (French),All,29,traineau,67,understands,0
+French (French),All,30,traineau,68,produces,0.2353
+French (French),All,30,traineau,68,understands,0
+French (Quebecois),All,16,traîneau,47,produces,0
+French (Quebecois),All,16,traîneau,47,understands,0
+French (Quebecois),All,17,traîneau,62,produces,0.0323
+French (Quebecois),All,17,traîneau,62,understands,0
+French (Quebecois),All,18,traîneau,99,produces,0.0101
+French (Quebecois),All,18,traîneau,99,understands,0
+French (Quebecois),All,19,traîneau,91,produces,0.044
+French (Quebecois),All,19,traîneau,91,understands,0
+French (Quebecois),All,20,traîneau,196,produces,0.0765
+French (Quebecois),All,20,traîneau,196,understands,0
+French (Quebecois),All,21,traîneau,109,produces,0.1376
+French (Quebecois),All,21,traîneau,109,understands,0
+French (Quebecois),All,22,traîneau,86,produces,0.1628
+French (Quebecois),All,22,traîneau,86,understands,0
+French (Quebecois),All,23,traîneau,86,produces,0.186
+French (Quebecois),All,23,traîneau,86,understands,0
+French (Quebecois),All,24,traîneau,132,produces,0.2045
+French (Quebecois),All,24,traîneau,132,understands,0
+French (Quebecois),All,25,traîneau,87,produces,0.2414
+French (Quebecois),All,25,traîneau,87,understands,0
+French (Quebecois),All,26,traîneau,95,produces,0.2421
+French (Quebecois),All,26,traîneau,95,understands,0
+French (Quebecois),All,27,traîneau,74,produces,0.4324
+French (Quebecois),All,27,traîneau,74,understands,0
+French (Quebecois),All,28,traîneau,61,produces,0.4426
+French (Quebecois),All,28,traîneau,61,understands,0
+French (Quebecois),All,29,traîneau,70,produces,0.5286
+French (Quebecois),All,29,traîneau,70,understands,0
+French (Quebecois),All,30,traîneau,100,produces,0.33
+French (Quebecois),All,30,traîneau,100,understands,0
+Hungarian,All,16,szánkó,21,produces,0
+Hungarian,All,16,szánkó,21,understands,0
+Hungarian,All,17,szánkó,18,produces,0.0556
+Hungarian,All,17,szánkó,18,understands,0
+Hungarian,All,18,szánkó,18,produces,0.0556
+Hungarian,All,18,szánkó,18,understands,0
+Hungarian,All,19,szánkó,26,produces,0.1154
+Hungarian,All,19,szánkó,26,understands,0
+Hungarian,All,20,szánkó,18,produces,0.0556
+Hungarian,All,20,szánkó,18,understands,0
+Hungarian,All,21,szánkó,36,produces,0.1944
+Hungarian,All,21,szánkó,36,understands,0
+Hungarian,All,22,szánkó,27,produces,0.1111
+Hungarian,All,22,szánkó,27,understands,0
+Hungarian,All,23,szánkó,18,produces,0.3333
+Hungarian,All,23,szánkó,18,understands,0
+Hungarian,All,24,szánkó,38,produces,0.2895
+Hungarian,All,24,szánkó,38,understands,0
+Hungarian,All,25,szánkó,43,produces,0.5349
+Hungarian,All,25,szánkó,43,understands,0
+Hungarian,All,26,szánkó,23,produces,0.5652
+Hungarian,All,26,szánkó,23,understands,0
+Hungarian,All,27,szánkó,26,produces,0.7308
+Hungarian,All,27,szánkó,26,understands,0
+Hungarian,All,28,szánkó,30,produces,0.6
+Hungarian,All,28,szánkó,30,understands,0
+Hungarian,All,29,szánkó,12,produces,0.5
+Hungarian,All,29,szánkó,12,understands,0
+Hungarian,All,30,szánkó,18,produces,0.5556
+Hungarian,All,30,szánkó,18,understands,0
+Italian,All,18,slitta,31,produces,0.0323
+Italian,All,18,slitta,31,understands,0
+Italian,All,19,slitta,39,produces,0.0256
+Italian,All,19,slitta,39,understands,0
+Italian,All,20,slitta,64,produces,0.0469
+Italian,All,20,slitta,64,understands,0
+Italian,All,21,slitta,55,produces,0.0545
+Italian,All,21,slitta,55,understands,0
+Italian,All,22,slitta,55,produces,0.0727
+Italian,All,22,slitta,55,understands,0
+Italian,All,23,slitta,53,produces,0.0566
+Italian,All,23,slitta,53,understands,0
+Italian,All,24,slitta,71,produces,0.1268
+Italian,All,24,slitta,71,understands,0
+Italian,All,25,slitta,39,produces,0.2051
+Italian,All,25,slitta,39,understands,0
+Italian,All,26,slitta,41,produces,0.2195
+Italian,All,26,slitta,41,understands,0
+Italian,All,27,slitta,43,produces,0.2326
+Italian,All,27,slitta,43,understands,0
+Italian,All,28,slitta,44,produces,0.2045
+Italian,All,28,slitta,44,understands,0
+Italian,All,29,slitta,37,produces,0.2703
+Italian,All,29,slitta,37,understands,0
+Italian,All,30,slitta,67,produces,0.3284
+Italian,All,30,slitta,67,understands,0
+Italian,All,31,slitta,19,produces,0.4211
+Italian,All,31,slitta,19,understands,0
+Italian,All,32,slitta,23,produces,0.5217
+Italian,All,32,slitta,23,understands,0
+Italian,All,33,slitta,16,produces,0.375
+Italian,All,33,slitta,16,understands,0
+Italian,All,34,slitta,19,produces,0.4211
+Italian,All,34,slitta,19,understands,0
+Italian,All,35,slitta,15,produces,0.5333
+Italian,All,35,slitta,15,understands,0
+Italian,All,36,slitta,21,produces,0.381
+Italian,All,36,slitta,21,understands,0
+Korean,All,18,썰매,88,produces,0.0455
+Korean,All,18,썰매,88,understands,0
+Korean,All,19,썰매,77,produces,0
+Korean,All,19,썰매,77,understands,0
+Korean,All,20,썰매,88,produces,0.0227
+Korean,All,20,썰매,88,understands,0
+Korean,All,21,썰매,79,produces,0.038
+Korean,All,21,썰매,79,understands,0
+Korean,All,22,썰매,87,produces,0.0805
+Korean,All,22,썰매,87,understands,0
+Korean,All,23,썰매,87,produces,0.0575
+Korean,All,23,썰매,87,understands,0
+Korean,All,24,썰매,107,produces,0.1121
+Korean,All,24,썰매,107,understands,0
+Korean,All,25,썰매,95,produces,0.0947
+Korean,All,25,썰매,95,understands,0
+Korean,All,26,썰매,91,produces,0.2198
+Korean,All,26,썰매,91,understands,0
+Korean,All,27,썰매,104,produces,0.2981
+Korean,All,27,썰매,104,understands,0
+Korean,All,28,썰매,89,produces,0.2697
+Korean,All,28,썰매,89,understands,0
+Korean,All,29,썰매,101,produces,0.3564
+Korean,All,29,썰매,101,understands,0
+Korean,All,30,썰매,81,produces,0.3333
+Korean,All,30,썰매,81,understands,0
+Korean,All,31,썰매,79,produces,0.4051
+Korean,All,31,썰매,79,understands,0
+Korean,All,32,썰매,70,produces,0.4143
+Korean,All,32,썰매,70,understands,0
+Korean,All,33,썰매,79,produces,0.3671
+Korean,All,33,썰매,79,understands,0
+Korean,All,34,썰매,79,produces,0.5443
+Korean,All,34,썰매,79,understands,0
+Korean,All,35,썰매,74,produces,0.5135
+Korean,All,35,썰매,74,understands,0
+Korean,All,36,썰매,75,produces,0.5333
+Korean,All,36,썰매,75,understands,0
+Latvian,All,17,ragaviņas,27,produces,0.0741
+Latvian,All,17,ragaviņas,27,understands,0
+Latvian,All,18,ragaviņas,21,produces,0
+Latvian,All,18,ragaviņas,21,understands,0
+Latvian,All,19,ragaviņas,28,produces,0.0714
+Latvian,All,19,ragaviņas,28,understands,0
+Latvian,All,20,ragaviņas,34,produces,0.0588
+Latvian,All,20,ragaviņas,34,understands,0
+Latvian,All,21,ragaviņas,26,produces,0.3077
+Latvian,All,21,ragaviņas,26,understands,0
+Latvian,All,22,ragaviņas,32,produces,0.1562
+Latvian,All,22,ragaviņas,32,understands,0
+Latvian,All,23,ragaviņas,25,produces,0.2
+Latvian,All,23,ragaviņas,25,understands,0
+Latvian,All,24,ragaviņas,30,produces,0.3667
+Latvian,All,24,ragaviņas,30,understands,0
+Latvian,All,25,ragaviņas,29,produces,0.3793
+Latvian,All,25,ragaviņas,29,understands,0
+Latvian,All,26,ragaviņas,22,produces,0.4545
+Latvian,All,26,ragaviņas,22,understands,0
+Latvian,All,27,ragaviņas,18,produces,0.4444
+Latvian,All,27,ragaviņas,18,understands,0
+Latvian,All,28,ragaviņas,23,produces,0.5217
+Latvian,All,28,ragaviņas,23,understands,0
+Latvian,All,29,ragaviņas,24,produces,0.4167
+Latvian,All,29,ragaviņas,24,understands,0
+Latvian,All,30,ragaviņas,26,produces,0.4615
+Latvian,All,30,ragaviņas,26,understands,0
+Latvian,All,31,ragaviņas,19,produces,0.6316
+Latvian,All,31,ragaviņas,19,understands,0
+Latvian,All,32,ragaviņas,25,produces,0.6
+Latvian,All,32,ragaviņas,25,understands,0
+Latvian,All,33,ragaviņas,31,produces,0.5161
+Latvian,All,33,ragaviņas,31,understands,0
+Latvian,All,34,ragaviņas,17,produces,0.7647
+Latvian,All,34,ragaviņas,17,understands,0
+Latvian,All,35,ragaviņas,21,produces,0.7619
+Latvian,All,35,ragaviņas,21,understands,0
+Latvian,All,36,ragaviņas,22,produces,0.5455
+Latvian,All,36,ragaviņas,22,understands,0
+Norwegian,All,16,"akebrett, kjelke",98,produces,0
+Norwegian,All,16,"akebrett, kjelke",98,understands,0
+Norwegian,All,17,"akebrett, kjelke",218,produces,0.0138
+Norwegian,All,17,"akebrett, kjelke",218,understands,0
+Norwegian,All,18,"akebrett, kjelke",271,produces,0.0221
+Norwegian,All,18,"akebrett, kjelke",271,understands,0
+Norwegian,All,19,"akebrett, kjelke",281,produces,0.0374
+Norwegian,All,19,"akebrett, kjelke",281,understands,0
+Norwegian,All,20,"akebrett, kjelke",342,produces,0.0585
+Norwegian,All,20,"akebrett, kjelke",342,understands,0
+Norwegian,All,21,"akebrett, kjelke",418,produces,0.1029
+Norwegian,All,21,"akebrett, kjelke",418,understands,0
+Norwegian,All,22,"akebrett, kjelke",596,produces,0.1527
+Norwegian,All,22,"akebrett, kjelke",596,understands,0
+Norwegian,All,23,"akebrett, kjelke",566,produces,0.2138
+Norwegian,All,23,"akebrett, kjelke",566,understands,0
+Norwegian,All,24,"akebrett, kjelke",538,produces,0.2677
+Norwegian,All,24,"akebrett, kjelke",538,understands,0
+Norwegian,All,25,"akebrett, kjelke",656,produces,0.3293
+Norwegian,All,25,"akebrett, kjelke",656,understands,0
+Norwegian,All,26,"akebrett, kjelke",644,produces,0.4161
+Norwegian,All,26,"akebrett, kjelke",644,understands,0
+Norwegian,All,27,"akebrett, kjelke",525,produces,0.4429
+Norwegian,All,27,"akebrett, kjelke",525,understands,0
+Norwegian,All,28,"akebrett, kjelke",544,produces,0.4853
+Norwegian,All,28,"akebrett, kjelke",544,understands,0
+Norwegian,All,29,"akebrett, kjelke",536,produces,0.5373
+Norwegian,All,29,"akebrett, kjelke",536,understands,0
+Norwegian,All,30,"akebrett, kjelke",457,produces,0.5853
+Norwegian,All,30,"akebrett, kjelke",457,understands,0
+Norwegian,All,31,"akebrett, kjelke",479,produces,0.6388
+Norwegian,All,31,"akebrett, kjelke",479,understands,0
+Norwegian,All,32,"akebrett, kjelke",451,produces,0.6574
+Norwegian,All,32,"akebrett, kjelke",451,understands,0
+Norwegian,All,33,"akebrett, kjelke",430,produces,0.7198
+Norwegian,All,33,"akebrett, kjelke",430,understands,0
+Norwegian,All,34,"akebrett, kjelke",424,produces,0.737
+Norwegian,All,34,"akebrett, kjelke",424,understands,0
+Norwegian,All,35,"akebrett, kjelke",422,produces,0.7571
+Norwegian,All,35,"akebrett, kjelke",422,understands,0
+Norwegian,All,36,"akebrett, kjelke",329,produces,0.766
+Norwegian,All,36,"akebrett, kjelke",329,understands,0
+Russian,All,18,санки,42,produces,0.119
+Russian,All,18,санки,42,understands,0
+Russian,All,19,санки,41,produces,0.122
+Russian,All,19,санки,41,understands,0
+Russian,All,20,санки,45,produces,0.1556
+Russian,All,20,санки,45,understands,0
+Russian,All,21,санки,43,produces,0.3721
+Russian,All,21,санки,43,understands,0
+Russian,All,22,санки,51,produces,0.4314
+Russian,All,22,санки,51,understands,0
+Russian,All,23,санки,56,produces,0.5179
+Russian,All,23,санки,56,understands,0
+Russian,All,24,санки,61,produces,0.6393
+Russian,All,24,санки,61,understands,0
+Russian,All,25,санки,66,produces,0.6364
+Russian,All,25,санки,66,understands,0
+Russian,All,26,санки,52,produces,0.5962
+Russian,All,26,санки,52,understands,0
+Russian,All,27,санки,60,produces,0.6333
+Russian,All,27,санки,60,understands,0
+Russian,All,28,санки,60,produces,0.7833
+Russian,All,28,санки,60,understands,0
+Russian,All,29,санки,58,produces,0.8448
+Russian,All,29,санки,58,understands,0
+Russian,All,30,санки,77,produces,0.7403
+Russian,All,30,санки,77,understands,0
+Russian,All,31,санки,61,produces,0.8525
+Russian,All,31,санки,61,understands,0
+Russian,All,32,санки,55,produces,0.8545
+Russian,All,32,санки,55,understands,0
+Russian,All,33,санки,55,produces,0.8545
+Russian,All,33,санки,55,understands,0
+Russian,All,34,санки,58,produces,0.9483
+Russian,All,34,санки,58,understands,0
+Russian,All,35,санки,47,produces,0.8936
+Russian,All,35,санки,47,understands,0
+Russian,All,36,санки,49,produces,0.9388
+Russian,All,36,санки,49,understands,0
+Spanish (European),All,8,tobogán,52,produces,0
+Spanish (European),All,8,tobogán,52,understands,0
+Spanish (European),All,9,tobogán,45,produces,0
+Spanish (European),All,9,tobogán,45,understands,0.0889
+Spanish (European),All,10,tobogán,49,produces,0
+Spanish (European),All,10,tobogán,49,understands,0.0408
+Spanish (European),All,11,tobogán,36,produces,0
+Spanish (European),All,11,tobogán,36,understands,0.0833
+Spanish (European),All,12,tobogán,52,produces,0
+Spanish (European),All,12,tobogán,52,understands,0.25
+Spanish (European),All,13,tobogán,58,produces,0
+Spanish (European),All,13,tobogán,58,understands,0.3621
+Spanish (European),All,14,tobogán,55,produces,0
+Spanish (European),All,14,tobogán,55,understands,0.4545
+Spanish (European),All,15,tobogán,65,produces,0.0308
+Spanish (European),All,15,tobogán,65,understands,0.6462
+Spanish (European),All,16,tobogán,39,produces,0.1026
+Spanish (European),All,16,tobogán,39,understands,0
+Spanish (European),All,17,tobogán,39,produces,0
+Spanish (European),All,17,tobogán,39,understands,0
+Spanish (European),All,18,tobogán,50,produces,0.12
+Spanish (European),All,18,tobogán,50,understands,0
+Spanish (European),All,19,tobogán,27,produces,0.1481
+Spanish (European),All,19,tobogán,27,understands,0
+Spanish (European),All,20,tobogán,36,produces,0.25
+Spanish (European),All,20,tobogán,36,understands,0
+Spanish (European),All,21,tobogán,41,produces,0.2683
+Spanish (European),All,21,tobogán,41,understands,0
+Spanish (European),All,22,tobogán,38,produces,0.3421
+Spanish (European),All,22,tobogán,38,understands,0
+Spanish (European),All,23,tobogán,30,produces,0.4
+Spanish (European),All,23,tobogán,30,understands,0
+Spanish (European),All,24,tobogán,55,produces,0.4909
+Spanish (European),All,24,tobogán,55,understands,0
+Spanish (European),All,25,tobogán,35,produces,0.6286
+Spanish (European),All,25,tobogán,35,understands,0
+Spanish (European),All,26,tobogán,49,produces,0.6327
+Spanish (European),All,26,tobogán,49,understands,0
+Spanish (European),All,27,tobogán,34,produces,0.7941
+Spanish (European),All,27,tobogán,34,understands,0
+Spanish (European),All,28,tobogán,38,produces,0.7632
+Spanish (European),All,28,tobogán,38,understands,0
+Spanish (European),All,29,tobogán,41,produces,0.8293
+Spanish (European),All,29,tobogán,41,understands,0
+Spanish (European),All,30,tobogán,41,produces,0.7561
+Spanish (European),All,30,tobogán,41,understands,0
+Spanish (Mexican),All,16,trineo,68,produces,0.0147
+Spanish (Mexican),All,16,trineo,68,understands,0
+Spanish (Mexican),All,17,trineo,59,produces,0
+Spanish (Mexican),All,17,trineo,59,understands,0
+Spanish (Mexican),All,18,trineo,75,produces,0.0133
+Spanish (Mexican),All,18,trineo,75,understands,0
+Spanish (Mexican),All,19,trineo,100,produces,0.11
+Spanish (Mexican),All,19,trineo,100,understands,0
+Spanish (Mexican),All,20,trineo,107,produces,0.0561
+Spanish (Mexican),All,20,trineo,107,understands,0
+Spanish (Mexican),All,21,trineo,84,produces,0.0952
+Spanish (Mexican),All,21,trineo,84,understands,0
+Spanish (Mexican),All,22,trineo,141,produces,0.0142
+Spanish (Mexican),All,22,trineo,141,understands,0
+Spanish (Mexican),All,23,trineo,91,produces,0.022
+Spanish (Mexican),All,23,trineo,91,understands,0
+Spanish (Mexican),All,24,trineo,126,produces,0.127
+Spanish (Mexican),All,24,trineo,126,understands,0
+Spanish (Mexican),All,25,trineo,177,produces,0.1017
+Spanish (Mexican),All,25,trineo,177,understands,0
+Spanish (Mexican),All,26,trineo,83,produces,0.1205
+Spanish (Mexican),All,26,trineo,83,understands,0
+Spanish (Mexican),All,27,trineo,85,produces,0.0706
+Spanish (Mexican),All,27,trineo,85,understands,0
+Spanish (Mexican),All,28,trineo,89,produces,0.1011
+Spanish (Mexican),All,28,trineo,89,understands,0
+Spanish (Mexican),All,29,trineo,89,produces,0.0562
+Spanish (Mexican),All,29,trineo,89,understands,0
+Spanish (Mexican),All,30,trineo,308,produces,0.0584
+Spanish (Mexican),All,30,trineo,308,understands,0
+Swedish,All,16,"kälke, pulka",159,produces,0
+Swedish,All,16,"kälke, pulka",159,understands,0
+Swedish,All,19,"kälke, pulka",152,produces,0.0263
+Swedish,All,19,"kälke, pulka",152,understands,0
+Swedish,All,22,"kälke, pulka",307,produces,0.1678
+Swedish,All,22,"kälke, pulka",307,understands,0
+Swedish,All,25,"kälke, pulka",143,produces,0.2483
+Swedish,All,25,"kälke, pulka",143,understands,0
+Swedish,All,28,"kälke, pulka",139,produces,0.5719
+Swedish,All,28,"kälke, pulka",139,understands,0
+American Sign Language,Male,8,SLED,1,produces,0
+American Sign Language,Male,8,SLED,1,understands,0
+American Sign Language,Female,10,SLED,2,produces,0
+American Sign Language,Female,10,SLED,2,understands,0
+American Sign Language,Male,10,SLED,1,produces,0
+American Sign Language,Male,10,SLED,1,understands,0
+American Sign Language,Female,11,SLED,1,produces,0
+American Sign Language,Female,11,SLED,1,understands,0
+American Sign Language,Female,12,SLED,1,produces,0
+American Sign Language,Female,12,SLED,1,understands,0
+American Sign Language,Male,12,SLED,1,produces,0
+American Sign Language,Male,12,SLED,1,understands,0
+American Sign Language,Female,13,SLED,3,produces,0
+American Sign Language,Female,13,SLED,3,understands,0
+American Sign Language,Male,13,SLED,1,produces,0
+American Sign Language,Male,13,SLED,1,understands,0
+American Sign Language,Female,14,SLED,1,produces,0
+American Sign Language,Female,14,SLED,1,understands,0
+American Sign Language,Female,15,SLED,1,produces,0
+American Sign Language,Female,15,SLED,1,understands,0
+American Sign Language,Male,15,SLED,1,produces,0
+American Sign Language,Male,15,SLED,1,understands,0
+American Sign Language,Female,17,SLED,1,produces,0
+American Sign Language,Female,17,SLED,1,understands,0
+American Sign Language,Male,17,SLED,1,produces,0
+American Sign Language,Male,17,SLED,1,understands,0
+American Sign Language,Female,18,SLED,1,produces,0
+American Sign Language,Female,18,SLED,1,understands,0
+American Sign Language,Male,18,SLED,3,produces,0
+American Sign Language,Male,18,SLED,3,understands,0
+American Sign Language,Male,19,SLED,1,produces,0
+American Sign Language,Male,19,SLED,1,understands,0
+American Sign Language,Male,20,SLED,1,produces,0
+American Sign Language,Male,20,SLED,1,understands,0
+American Sign Language,Female,21,SLED,1,produces,0
+American Sign Language,Female,21,SLED,1,understands,1
+American Sign Language,Male,21,SLED,1,produces,0
+American Sign Language,Male,21,SLED,1,understands,0
+American Sign Language,Female,22,SLED,1,produces,0
+American Sign Language,Female,22,SLED,1,understands,0
+American Sign Language,Male,22,SLED,1,produces,0
+American Sign Language,Male,22,SLED,1,understands,0
+American Sign Language,Female,23,SLED,2,produces,0
+American Sign Language,Female,23,SLED,2,understands,0
+American Sign Language,Male,23,SLED,1,produces,0
+American Sign Language,Male,23,SLED,1,understands,0
+American Sign Language,Female,24,SLED,1,produces,0
+American Sign Language,Female,24,SLED,1,understands,0
+American Sign Language,Male,24,SLED,2,produces,0
+American Sign Language,Male,24,SLED,2,understands,0
+American Sign Language,Female,25,SLED,2,produces,0
+American Sign Language,Female,25,SLED,2,understands,0
+American Sign Language,Male,27,SLED,2,produces,0
+American Sign Language,Male,27,SLED,2,understands,0
+American Sign Language,Female,28,SLED,2,produces,0.5
+American Sign Language,Female,28,SLED,2,understands,0.5
+American Sign Language,Male,28,SLED,2,produces,0
+American Sign Language,Male,28,SLED,2,understands,0
+American Sign Language,Female,30,SLED,1,produces,1
+American Sign Language,Female,30,SLED,1,understands,0
+American Sign Language,Male,30,SLED,2,produces,0
+American Sign Language,Male,30,SLED,2,understands,0
+American Sign Language,Female,31,SLED,3,produces,0
+American Sign Language,Female,31,SLED,3,understands,0
+American Sign Language,Female,32,SLED,1,produces,0
+American Sign Language,Female,32,SLED,1,understands,0
+American Sign Language,Male,32,SLED,7,produces,0.5714
+American Sign Language,Male,32,SLED,7,understands,0
+American Sign Language,Male,33,SLED,2,produces,0
+American Sign Language,Male,33,SLED,2,understands,0
+American Sign Language,Female,34,SLED,1,produces,1
+American Sign Language,Female,34,SLED,1,understands,0
+American Sign Language,Male,34,SLED,1,produces,1
+American Sign Language,Male,34,SLED,1,understands,0
+American Sign Language,Female,35,SLED,2,produces,0
+American Sign Language,Female,35,SLED,2,understands,0
+American Sign Language,Male,35,SLED,1,produces,0
+American Sign Language,Male,35,SLED,1,understands,0
+British Sign Language,Female,8,sledge,2,produces,0
+British Sign Language,Female,8,sledge,2,understands,0
+British Sign Language,Male,8,sledge,2,produces,0
+British Sign Language,Male,8,sledge,2,understands,0
+British Sign Language,Female,9,sledge,3,produces,0
+British Sign Language,Female,9,sledge,3,understands,0
+British Sign Language,Male,9,sledge,1,produces,0
+British Sign Language,Male,9,sledge,1,understands,0
+British Sign Language,Female,10,sledge,1,produces,0
+British Sign Language,Female,10,sledge,1,understands,0
+British Sign Language,Male,10,sledge,3,produces,0
+British Sign Language,Male,10,sledge,3,understands,0
+British Sign Language,Female,11,sledge,4,produces,0
+British Sign Language,Female,11,sledge,4,understands,0
+British Sign Language,Male,11,sledge,2,produces,0
+British Sign Language,Male,11,sledge,2,understands,0
+British Sign Language,Female,12,sledge,3,produces,0
+British Sign Language,Female,12,sledge,3,understands,0
+British Sign Language,Male,12,sledge,3,produces,0
+British Sign Language,Male,12,sledge,3,understands,0
+British Sign Language,Female,13,sledge,2,produces,0
+British Sign Language,Female,13,sledge,2,understands,0
+British Sign Language,Male,13,sledge,4,produces,0
+British Sign Language,Male,13,sledge,4,understands,0
+British Sign Language,Female,14,sledge,3,produces,0
+British Sign Language,Female,14,sledge,3,understands,0
+British Sign Language,Male,14,sledge,4,produces,0
+British Sign Language,Male,14,sledge,4,understands,0
+British Sign Language,Female,15,sledge,4,produces,0
+British Sign Language,Female,15,sledge,4,understands,0
+British Sign Language,Male,15,sledge,2,produces,0
+British Sign Language,Male,15,sledge,2,understands,0
+British Sign Language,Female,16,sledge,4,produces,0
+British Sign Language,Female,16,sledge,4,understands,0
+British Sign Language,Male,16,sledge,3,produces,0
+British Sign Language,Male,16,sledge,3,understands,0
+British Sign Language,Female,17,sledge,2,produces,0
+British Sign Language,Female,17,sledge,2,understands,0
+British Sign Language,Male,17,sledge,5,produces,0
+British Sign Language,Male,17,sledge,5,understands,0
+British Sign Language,Female,18,sledge,4,produces,0
+British Sign Language,Female,18,sledge,4,understands,0
+British Sign Language,Male,18,sledge,4,produces,0
+British Sign Language,Male,18,sledge,4,understands,0
+British Sign Language,Female,19,sledge,4,produces,0
+British Sign Language,Female,19,sledge,4,understands,0
+British Sign Language,Male,19,sledge,4,produces,0
+British Sign Language,Male,19,sledge,4,understands,0
+British Sign Language,Female,20,sledge,4,produces,0
+British Sign Language,Female,20,sledge,4,understands,0
+British Sign Language,Male,20,sledge,7,produces,0.1429
+British Sign Language,Male,20,sledge,7,understands,0.1429
+British Sign Language,Female,21,sledge,3,produces,0
+British Sign Language,Female,21,sledge,3,understands,0
+British Sign Language,Male,21,sledge,2,produces,0
+British Sign Language,Male,21,sledge,2,understands,0
+British Sign Language,Female,22,sledge,2,produces,0
+British Sign Language,Female,22,sledge,2,understands,0
+British Sign Language,Male,22,sledge,4,produces,0
+British Sign Language,Male,22,sledge,4,understands,0
+British Sign Language,Female,23,sledge,2,produces,0
+British Sign Language,Female,23,sledge,2,understands,0
+British Sign Language,Male,23,sledge,5,produces,0.2
+British Sign Language,Male,23,sledge,5,understands,0.2
+British Sign Language,Female,24,sledge,3,produces,0
+British Sign Language,Female,24,sledge,3,understands,0
+British Sign Language,Male,24,sledge,2,produces,0
+British Sign Language,Male,24,sledge,2,understands,0
+British Sign Language,Female,25,sledge,1,produces,0
+British Sign Language,Female,25,sledge,1,understands,0
+British Sign Language,Male,25,sledge,6,produces,0
+British Sign Language,Male,25,sledge,6,understands,0
+British Sign Language,Female,26,sledge,4,produces,0
+British Sign Language,Female,26,sledge,4,understands,0
+British Sign Language,Male,26,sledge,2,produces,0.5
+British Sign Language,Male,26,sledge,2,understands,0.5
+British Sign Language,Female,27,sledge,1,produces,0
+British Sign Language,Female,27,sledge,1,understands,0
+British Sign Language,Male,27,sledge,5,produces,0
+British Sign Language,Male,27,sledge,5,understands,0
+British Sign Language,Female,28,sledge,1,produces,0
+British Sign Language,Female,28,sledge,1,understands,0
+British Sign Language,Male,28,sledge,2,produces,0
+British Sign Language,Male,28,sledge,2,understands,0
+British Sign Language,Female,29,sledge,2,produces,0
+British Sign Language,Female,29,sledge,2,understands,0
+British Sign Language,Male,29,sledge,5,produces,0.2
+British Sign Language,Male,29,sledge,5,understands,0.2
+British Sign Language,Female,30,sledge,1,produces,0
+British Sign Language,Female,30,sledge,1,understands,0
+British Sign Language,Male,30,sledge,4,produces,0
+British Sign Language,Male,30,sledge,4,understands,0
+British Sign Language,Male,31,sledge,2,produces,0
+British Sign Language,Male,31,sledge,2,understands,0
+British Sign Language,Female,32,sledge,2,produces,0
+British Sign Language,Female,32,sledge,2,understands,0
+British Sign Language,Male,32,sledge,4,produces,0.25
+British Sign Language,Male,32,sledge,4,understands,0.5
+British Sign Language,Female,33,sledge,1,produces,0
+British Sign Language,Female,33,sledge,1,understands,0
+British Sign Language,Male,33,sledge,4,produces,0
+British Sign Language,Male,33,sledge,4,understands,0
+British Sign Language,Female,34,sledge,1,produces,0
+British Sign Language,Female,34,sledge,1,understands,0
+British Sign Language,Male,34,sledge,1,produces,0
+British Sign Language,Male,34,sledge,1,understands,0
+British Sign Language,Female,35,sledge,1,produces,0
+British Sign Language,Female,35,sledge,1,understands,0
+British Sign Language,Male,35,sledge,1,produces,0
+British Sign Language,Male,35,sledge,1,understands,0
+British Sign Language,Female,36,sledge,1,produces,0
+British Sign Language,Female,36,sledge,1,understands,0
+British Sign Language,Male,36,sledge,2,produces,1
+British Sign Language,Male,36,sledge,2,understands,1
+Croatian,Female,16,sanjke,7,produces,0
+Croatian,Female,16,sanjke,7,understands,0
+Croatian,Male,16,sanjke,6,produces,0
+Croatian,Male,16,sanjke,6,understands,0
+Croatian,Female,17,sanjke,12,produces,0.0833
+Croatian,Female,17,sanjke,12,understands,0
+Croatian,Male,17,sanjke,13,produces,0.0769
+Croatian,Male,17,sanjke,13,understands,0
+Croatian,Female,18,sanjke,8,produces,0.25
+Croatian,Female,18,sanjke,8,understands,0
+Croatian,Male,18,sanjke,14,produces,0
+Croatian,Male,18,sanjke,14,understands,0
+Croatian,Female,19,sanjke,14,produces,0.1429
+Croatian,Female,19,sanjke,14,understands,0
+Croatian,Male,19,sanjke,7,produces,0
+Croatian,Male,19,sanjke,7,understands,0
+Croatian,Female,20,sanjke,13,produces,0.0769
+Croatian,Female,20,sanjke,13,understands,0
+Croatian,Male,20,sanjke,13,produces,0.2308
+Croatian,Male,20,sanjke,13,understands,0
+Croatian,Female,21,sanjke,13,produces,0.1538
+Croatian,Female,21,sanjke,13,understands,0
+Croatian,Male,21,sanjke,16,produces,0.125
+Croatian,Male,21,sanjke,16,understands,0
+Croatian,Female,22,sanjke,14,produces,0.2857
+Croatian,Female,22,sanjke,14,understands,0
+Croatian,Male,22,sanjke,10,produces,0.1
+Croatian,Male,22,sanjke,10,understands,0
+Croatian,Female,23,sanjke,14,produces,0.1429
+Croatian,Female,23,sanjke,14,understands,0
+Croatian,Male,23,sanjke,12,produces,0.1667
+Croatian,Male,23,sanjke,12,understands,0
+Croatian,Female,24,sanjke,14,produces,0.1429
+Croatian,Female,24,sanjke,14,understands,0
+Croatian,Male,24,sanjke,16,produces,0.25
+Croatian,Male,24,sanjke,16,understands,0
+Croatian,Female,25,sanjke,14,produces,0.6429
+Croatian,Female,25,sanjke,14,understands,0
+Croatian,Male,25,sanjke,16,produces,0.25
+Croatian,Male,25,sanjke,16,understands,0
+Croatian,Female,26,sanjke,11,produces,0.6364
+Croatian,Female,26,sanjke,11,understands,0
+Croatian,Male,26,sanjke,18,produces,0.3889
+Croatian,Male,26,sanjke,18,understands,0
+Croatian,Female,27,sanjke,11,produces,0.4545
+Croatian,Female,27,sanjke,11,understands,0
+Croatian,Male,27,sanjke,14,produces,0.6429
+Croatian,Male,27,sanjke,14,understands,0
+Croatian,Female,28,sanjke,8,produces,0.75
+Croatian,Female,28,sanjke,8,understands,0
+Croatian,Male,28,sanjke,13,produces,0.6923
+Croatian,Male,28,sanjke,13,understands,0
+Croatian,Female,29,sanjke,15,produces,0.5333
+Croatian,Female,29,sanjke,15,understands,0
+Croatian,Male,29,sanjke,13,produces,0.3077
+Croatian,Male,29,sanjke,13,understands,0
+Croatian,Female,30,sanjke,11,produces,0.7273
+Croatian,Female,30,sanjke,11,understands,0
+Croatian,Male,30,sanjke,17,produces,0.5294
+Croatian,Male,30,sanjke,17,understands,0
+Danish,Female,8,"slæde, kælk",77,produces,0
+Danish,Female,8,"slæde, kælk",77,understands,0
+Danish,Male,8,"slæde, kælk",97,produces,0
+Danish,Male,8,"slæde, kælk",97,understands,0
+Danish,Female,9,"slæde, kælk",94,produces,0
+Danish,Female,9,"slæde, kælk",94,understands,0.0053
+Danish,Male,9,"slæde, kælk",102,produces,0
+Danish,Male,9,"slæde, kælk",102,understands,0
+Danish,Female,10,"slæde, kælk",105,produces,0
+Danish,Female,10,"slæde, kælk",105,understands,0
+Danish,Male,10,"slæde, kælk",77,produces,0
+Danish,Male,10,"slæde, kælk",77,understands,0
+Danish,Female,11,"slæde, kælk",94,produces,0
+Danish,Female,11,"slæde, kælk",94,understands,0
+Danish,Male,11,"slæde, kælk",106,produces,0
+Danish,Male,11,"slæde, kælk",106,understands,0
+Danish,Female,12,"slæde, kælk",92,produces,0
+Danish,Female,12,"slæde, kælk",92,understands,0
+Danish,Male,12,"slæde, kælk",96,produces,0
+Danish,Male,12,"slæde, kælk",96,understands,0
+Danish,Female,13,"slæde, kælk",105,produces,0
+Danish,Female,13,"slæde, kælk",105,understands,0.0095
+Danish,Male,13,"slæde, kælk",111,produces,0
+Danish,Male,13,"slæde, kælk",111,understands,0
+Danish,Female,14,"slæde, kælk",86,produces,0
+Danish,Female,14,"slæde, kælk",86,understands,0
+Danish,Male,14,"slæde, kælk",92,produces,0
+Danish,Male,14,"slæde, kælk",92,understands,0
+Danish,Female,15,"slæde, kælk",112,produces,0
+Danish,Female,15,"slæde, kælk",112,understands,0
+Danish,Male,15,"slæde, kælk",91,produces,0
+Danish,Male,15,"slæde, kælk",91,understands,0.011
+Danish,Female,16,"slæde, kælk",184,produces,0
+Danish,Female,16,"slæde, kælk",184,understands,0
+Danish,Male,16,"slæde, kælk",175,produces,0.0046
+Danish,Male,16,"slæde, kælk",175,understands,0.0046
+Danish,Female,17,"slæde, kælk",174,produces,0
+Danish,Female,17,"slæde, kælk",174,understands,0.0091
+Danish,Male,17,"slæde, kælk",172,produces,0
+Danish,Male,17,"slæde, kælk",172,understands,0.0093
+Danish,Female,18,"slæde, kælk",188,produces,0.0065
+Danish,Female,18,"slæde, kælk",188,understands,0.0281
+Danish,Male,18,"slæde, kælk",170,produces,0.0097
+Danish,Male,18,"slæde, kælk",170,understands,0.0194
+Danish,Female,19,"slæde, kælk",189,produces,0.0187
+Danish,Female,19,"slæde, kælk",189,understands,0.0145
+Danish,Male,19,"slæde, kælk",172,produces,0
+Danish,Male,19,"slæde, kælk",172,understands,0.0135
+Danish,Female,20,"slæde, kælk",174,produces,0.0246
+Danish,Female,20,"slæde, kælk",174,understands,0.0134
+Danish,Male,20,"slæde, kælk",184,produces,0
+Danish,Male,20,"slæde, kælk",184,understands,0.0172
+Danish,Female,21,"kælk, slæde",112,produces,0.0446
+Danish,Female,21,"kælk, slæde",112,understands,0
+Danish,Male,21,"kælk, slæde",124,produces,0.0188
+Danish,Male,21,"kælk, slæde",124,understands,0
+Danish,Female,22,"kælk, slæde",125,produces,0.088
+Danish,Female,22,"kælk, slæde",125,understands,0
+Danish,Male,22,"kælk, slæde",110,produces,0.0758
+Danish,Male,22,"kælk, slæde",110,understands,0
+Danish,Female,23,"kælk, slæde",95,produces,0.0702
+Danish,Female,23,"kælk, slæde",95,understands,0
+Danish,Male,23,"kælk, slæde",95,produces,0.0772
+Danish,Male,23,"kælk, slæde",95,understands,0
+Danish,Female,24,"kælk, slæde",112,produces,0.1339
+Danish,Female,24,"kælk, slæde",112,understands,0
+Danish,Male,24,"kælk, slæde",104,produces,0.1026
+Danish,Male,24,"kælk, slæde",104,understands,0
+Danish,Female,25,"kælk, slæde",71,produces,0.1784
+Danish,Female,25,"kælk, slæde",71,understands,0
+Danish,Male,25,"kælk, slæde",67,produces,0.0796
+Danish,Male,25,"kælk, slæde",67,understands,0
+Danish,Female,26,"kælk, slæde",108,produces,0.2623
+Danish,Female,26,"kælk, slæde",108,understands,0
+Danish,Male,26,"kælk, slæde",98,produces,0.1633
+Danish,Male,26,"kælk, slæde",98,understands,0
+Danish,Female,27,"kælk, slæde",100,produces,0.25
+Danish,Female,27,"kælk, slæde",100,understands,0
+Danish,Male,27,"kælk, slæde",76,produces,0.1974
+Danish,Male,27,"kælk, slæde",76,understands,0
+Danish,Female,28,"kælk, slæde",94,produces,0.3014
+Danish,Female,28,"kælk, slæde",94,understands,0
+Danish,Male,28,"kælk, slæde",96,produces,0.2153
+Danish,Male,28,"kælk, slæde",96,understands,0
+Danish,Female,29,"kælk, slæde",102,produces,0.3824
+Danish,Female,29,"kælk, slæde",102,understands,0
+Danish,Male,29,"kælk, slæde",80,produces,0.3125
+Danish,Male,29,"kælk, slæde",80,understands,0
+Danish,Female,30,"kælk, slæde",75,produces,0.3689
+Danish,Female,30,"kælk, slæde",75,understands,0
+Danish,Male,30,"kælk, slæde",98,produces,0.4388
+Danish,Male,30,"kælk, slæde",98,understands,0
+Danish,Female,31,"kælk, slæde",82,produces,0.248
+Danish,Female,31,"kælk, slæde",82,understands,0
+Danish,Male,31,"kælk, slæde",93,produces,0.2545
+Danish,Male,31,"kælk, slæde",93,understands,0
+Danish,Female,32,"kælk, slæde",74,produces,0.4234
+Danish,Female,32,"kælk, slæde",74,understands,0
+Danish,Male,32,"kælk, slæde",69,produces,0.285
+Danish,Male,32,"kælk, slæde",69,understands,0
+Danish,Female,33,"kælk, slæde",82,produces,0.439
+Danish,Female,33,"kælk, slæde",82,understands,0
+Danish,Male,33,"kælk, slæde",69,produces,0.4348
+Danish,Male,33,"kælk, slæde",69,understands,0
+Danish,Female,34,"kælk, slæde",68,produces,0.3775
+Danish,Female,34,"kælk, slæde",68,understands,0
+Danish,Male,34,"kælk, slæde",75,produces,0.4133
+Danish,Male,34,"kælk, slæde",75,understands,0
+Danish,Female,35,"kælk, slæde",56,produces,0.5357
+Danish,Female,35,"kælk, slæde",56,understands,0
+Danish,Male,35,"kælk, slæde",57,produces,0.5029
+Danish,Male,35,"kælk, slæde",57,understands,0
+Danish,Female,36,"kælk, slæde",61,produces,0.5847
+Danish,Female,36,"kælk, slæde",61,understands,0
+Danish,Male,36,"kælk, slæde",65,produces,0.4923
+Danish,Male,36,"kælk, slæde",65,understands,0
+Dutch,Female,16,slee,4,produces,0
+Dutch,Female,16,slee,4,understands,0
+Dutch,Female,17,slee,33,produces,0
+Dutch,Female,17,slee,33,understands,0
+Dutch,Male,17,slee,16,produces,0
+Dutch,Male,17,slee,16,understands,0
+Dutch,Female,18,slee,38,produces,0
+Dutch,Female,18,slee,38,understands,0
+Dutch,Male,18,slee,30,produces,0
+Dutch,Male,18,slee,30,understands,0
+Dutch,Female,19,slee,5,produces,0
+Dutch,Female,19,slee,5,understands,0
+Dutch,Male,19,slee,2,produces,0
+Dutch,Male,19,slee,2,understands,0
+Dutch,Female,20,slee,6,produces,0
+Dutch,Female,20,slee,6,understands,0
+Dutch,Male,20,slee,1,produces,1
+Dutch,Male,20,slee,1,understands,0
+Dutch,Female,21,slee,3,produces,0
+Dutch,Female,21,slee,3,understands,0
+Dutch,Male,21,slee,4,produces,0
+Dutch,Male,21,slee,4,understands,0
+Dutch,Female,22,slee,1,produces,0
+Dutch,Female,22,slee,1,understands,0
+Dutch,Male,22,slee,6,produces,0.1667
+Dutch,Male,22,slee,6,understands,0
+Dutch,Female,23,slee,25,produces,0.28
+Dutch,Female,23,slee,25,understands,0
+Dutch,Male,23,slee,26,produces,0.2692
+Dutch,Male,23,slee,26,understands,0
+Dutch,Female,24,slee,16,produces,0.125
+Dutch,Female,24,slee,16,understands,0
+Dutch,Male,24,slee,15,produces,0.2
+Dutch,Male,24,slee,15,understands,0
+Dutch,Female,25,slee,5,produces,0
+Dutch,Female,25,slee,5,understands,0
+Dutch,Male,25,slee,1,produces,0
+Dutch,Male,25,slee,1,understands,0
+Dutch,Female,26,slee,1,produces,1
+Dutch,Female,26,slee,1,understands,0
+Dutch,Male,26,slee,5,produces,0.4
+Dutch,Male,26,slee,5,understands,0
+Dutch,Female,27,slee,3,produces,0.6667
+Dutch,Female,27,slee,3,understands,0
+Dutch,Male,27,slee,1,produces,0
+Dutch,Male,27,slee,1,understands,0
+Dutch,Female,28,slee,5,produces,0.8
+Dutch,Female,28,slee,5,understands,0
+Dutch,Male,28,slee,1,produces,0
+Dutch,Male,28,slee,1,understands,0
+Dutch,Female,29,slee,12,produces,0.5
+Dutch,Female,29,slee,12,understands,0
+Dutch,Male,29,slee,11,produces,0.8182
+Dutch,Male,29,slee,11,understands,0
+Dutch,Female,30,slee,16,produces,0.625
+Dutch,Female,30,slee,16,understands,0
+Dutch,Male,30,slee,8,produces,0.625
+Dutch,Male,30,slee,8,understands,0
+Dutch,Female,31,slee,1,produces,0
+Dutch,Female,31,slee,1,understands,0
+Dutch,Male,31,slee,1,produces,1
+Dutch,Male,31,slee,1,understands,0
+English (American),Female,16,sled,392,produces,0.0051
+English (American),Female,16,sled,392,understands,0
+English (American),Male,16,sled,431,produces,0.0023
+English (American),Male,16,sled,431,understands,0
+English (American),Female,17,sled,152,produces,0.0329
+English (American),Female,17,sled,152,understands,0
+English (American),Male,17,sled,169,produces,0.0237
+English (American),Male,17,sled,169,understands,0
+English (American),Female,18,sled,256,produces,0.0391
+English (American),Female,18,sled,256,understands,0
+English (American),Male,18,sled,263,produces,0.0114
+English (American),Male,18,sled,263,understands,0
+English (American),Female,19,sled,231,produces,0.0216
+English (American),Female,19,sled,231,understands,0
+English (American),Male,19,sled,224,produces,0.0312
+English (American),Male,19,sled,224,understands,0
+English (American),Female,20,sled,205,produces,0.0293
+English (American),Female,20,sled,205,understands,0
+English (American),Male,20,sled,222,produces,0.0405
+English (American),Male,20,sled,222,understands,0
+English (American),Female,21,sled,127,produces,0.0787
+English (American),Female,21,sled,127,understands,0
+English (American),Male,21,sled,142,produces,0.0634
+English (American),Male,21,sled,142,understands,0
+English (American),Female,22,sled,186,produces,0.0538
+English (American),Female,22,sled,186,understands,0
+English (American),Male,22,sled,162,produces,0.0494
+English (American),Male,22,sled,162,understands,0
+English (American),Female,23,sled,177,produces,0.1243
+English (American),Female,23,sled,177,understands,0
+English (American),Male,23,sled,196,produces,0.0969
+English (American),Male,23,sled,196,understands,0
+English (American),Female,24,sled,365,produces,0.1397
+English (American),Female,24,sled,365,understands,0
+English (American),Male,24,sled,453,produces,0.1126
+English (American),Male,24,sled,453,understands,0
+English (American),Female,25,sled,299,produces,0.1706
+English (American),Female,25,sled,299,understands,0
+English (American),Male,25,sled,336,produces,0.122
+English (American),Male,25,sled,336,understands,0
+English (American),Female,26,sled,173,produces,0.2023
+English (American),Female,26,sled,173,understands,0
+English (American),Male,26,sled,197,produces,0.1066
+English (American),Male,26,sled,197,understands,0
+English (American),Female,27,sled,158,produces,0.2532
+English (American),Female,27,sled,158,understands,0
+English (American),Male,27,sled,154,produces,0.2013
+English (American),Male,27,sled,154,understands,0
+English (American),Female,28,sled,416,produces,0.3293
+English (American),Female,28,sled,416,understands,0
+English (American),Male,28,sled,492,produces,0.3293
+English (American),Male,28,sled,492,understands,0
+English (American),Female,29,sled,166,produces,0.241
+English (American),Female,29,sled,166,understands,0
+English (American),Male,29,sled,167,produces,0.2814
+English (American),Male,29,sled,167,understands,0
+English (American),Female,30,sled,323,produces,0.2539
+English (American),Female,30,sled,323,understands,0
+English (American),Male,30,sled,368,produces,0.2609
+English (American),Male,30,sled,368,understands,0
+Estonian,Female,16,kelk,19,produces,0.1053
+Estonian,Female,16,kelk,19,understands,0
+Estonian,Male,16,kelk,17,produces,0
+Estonian,Male,16,kelk,17,understands,0
+Estonian,Female,17,kelk,42,produces,0.0238
+Estonian,Female,17,kelk,42,understands,0
+Estonian,Male,17,kelk,47,produces,0.0213
+Estonian,Male,17,kelk,47,understands,0
+Estonian,Female,18,kelk,52,produces,0.1346
+Estonian,Female,18,kelk,52,understands,0
+Estonian,Male,18,kelk,51,produces,0.0588
+Estonian,Male,18,kelk,51,understands,0
+Estonian,Female,19,kelk,44,produces,0.2045
+Estonian,Female,19,kelk,44,understands,0
+Estonian,Male,19,kelk,41,produces,0.0976
+Estonian,Male,19,kelk,41,understands,0
+Estonian,Female,20,kelk,36,produces,0.0833
+Estonian,Female,20,kelk,36,understands,0
+Estonian,Male,20,kelk,24,produces,0.2917
+Estonian,Male,20,kelk,24,understands,0
+Estonian,Female,21,kelk,28,produces,0.2143
+Estonian,Female,21,kelk,28,understands,0
+Estonian,Male,21,kelk,38,produces,0.1316
+Estonian,Male,21,kelk,38,understands,0
+Estonian,Female,22,kelk,45,produces,0.3111
+Estonian,Female,22,kelk,45,understands,0
+Estonian,Male,22,kelk,31,produces,0.3226
+Estonian,Male,22,kelk,31,understands,0
+Estonian,Female,23,kelk,48,produces,0.4792
+Estonian,Female,23,kelk,48,understands,0
+Estonian,Male,23,kelk,47,produces,0.2979
+Estonian,Male,23,kelk,47,understands,0
+Estonian,Female,24,kelk,52,produces,0.5385
+Estonian,Female,24,kelk,52,understands,0
+Estonian,Male,24,kelk,64,produces,0.4531
+Estonian,Male,24,kelk,64,understands,0
+Estonian,Female,25,kelk,45,produces,0.5778
+Estonian,Female,25,kelk,45,understands,0
+Estonian,Male,25,kelk,37,produces,0.5135
+Estonian,Male,25,kelk,37,understands,0
+Estonian,Female,26,kelk,45,produces,0.6
+Estonian,Female,26,kelk,45,understands,0
+Estonian,Male,26,kelk,39,produces,0.4872
+Estonian,Male,26,kelk,39,understands,0
+Estonian,Female,27,kelk,44,produces,0.7955
+Estonian,Female,27,kelk,44,understands,0
+Estonian,Male,27,kelk,36,produces,0.5278
+Estonian,Male,27,kelk,36,understands,0
+Estonian,Female,28,kelk,44,produces,0.75
+Estonian,Female,28,kelk,44,understands,0
+Estonian,Male,28,kelk,48,produces,0.5833
+Estonian,Male,28,kelk,48,understands,0
+Estonian,Female,29,kelk,59,produces,0.8475
+Estonian,Female,29,kelk,59,understands,0
+Estonian,Male,29,kelk,41,produces,0.6829
+Estonian,Male,29,kelk,41,understands,0
+Estonian,Female,30,kelk,37,produces,0.8378
+Estonian,Female,30,kelk,37,understands,0
+Estonian,Male,30,kelk,34,produces,0.6765
+Estonian,Male,30,kelk,34,understands,0
+Finnish,Female,18,pulkka,18,produces,0
+Finnish,Female,18,pulkka,18,understands,0
+Finnish,Male,18,pulkka,17,produces,0
+Finnish,Male,18,pulkka,17,understands,0
+Finnish,Female,24,pulkka,18,produces,0.7222
+Finnish,Female,24,pulkka,18,understands,0
+Finnish,Male,24,pulkka,17,produces,0.8235
+Finnish,Male,24,pulkka,17,understands,0
+French (French),Female,8,traîneau,2,produces,0
+French (French),Female,8,traîneau,2,understands,0
+French (French),Male,8,traîneau,5,produces,0
+French (French),Male,8,traîneau,5,understands,0
+French (French),Female,9,traîneau,2,produces,0
+French (French),Female,9,traîneau,2,understands,0
+French (French),Male,9,traîneau,5,produces,0
+French (French),Male,9,traîneau,5,understands,0
+French (French),Female,10,traîneau,7,produces,0
+French (French),Female,10,traîneau,7,understands,0
+French (French),Male,10,traîneau,6,produces,0
+French (French),Male,10,traîneau,6,understands,0
+French (French),Female,11,traîneau,8,produces,0
+French (French),Female,11,traîneau,8,understands,0
+French (French),Male,11,traîneau,6,produces,0
+French (French),Male,11,traîneau,6,understands,0
+French (French),Female,12,traîneau,19,produces,0
+French (French),Female,12,traîneau,19,understands,0
+French (French),Male,12,traîneau,19,produces,0
+French (French),Male,12,traîneau,19,understands,0
+French (French),Female,13,traîneau,36,produces,0
+French (French),Female,13,traîneau,36,understands,0
+French (French),Male,13,traîneau,30,produces,0
+French (French),Male,13,traîneau,30,understands,0
+French (French),Female,14,traîneau,17,produces,0
+French (French),Female,14,traîneau,17,understands,0
+French (French),Male,14,traîneau,20,produces,0
+French (French),Male,14,traîneau,20,understands,0
+French (French),Female,15,traîneau,11,produces,0
+French (French),Female,15,traîneau,11,understands,0
+French (French),Male,15,traîneau,13,produces,0
+French (French),Male,15,traîneau,13,understands,0
+French (French),Female,16,traineau,25,produces,0.04
+French (French),Female,16,traineau,25,understands,0
+French (French),Male,16,"traîneau, traineau",27,produces,0
+French (French),Male,16,"traîneau, traineau",27,understands,0
+French (French),Female,17,traineau,25,produces,0
+French (French),Female,17,traineau,25,understands,0
+French (French),Male,17,traineau,23,produces,0
+French (French),Male,17,traineau,23,understands,0
+French (French),Female,18,traineau,27,produces,0.037
+French (French),Female,18,traineau,27,understands,0
+French (French),Male,18,traineau,21,produces,0
+French (French),Male,18,traineau,21,understands,0
+French (French),Female,19,traineau,22,produces,0
+French (French),Female,19,traineau,22,understands,0
+French (French),Male,19,traineau,17,produces,0
+French (French),Male,19,traineau,17,understands,0
+French (French),Female,20,traineau,42,produces,0.0476
+French (French),Female,20,traineau,42,understands,0
+French (French),Male,20,traineau,35,produces,0
+French (French),Male,20,traineau,35,understands,0
+French (French),Female,21,traineau,55,produces,0.0364
+French (French),Female,21,traineau,55,understands,0
+French (French),Male,21,traineau,38,produces,0.0526
+French (French),Male,21,traineau,38,understands,0
+French (French),Female,22,traineau,60,produces,0.05
+French (French),Female,22,traineau,60,understands,0
+French (French),Male,22,traineau,38,produces,0.0526
+French (French),Male,22,traineau,38,understands,0
+French (French),Female,23,traineau,40,produces,0.025
+French (French),Female,23,traineau,40,understands,0
+French (French),Male,23,traineau,44,produces,0.0227
+French (French),Male,23,traineau,44,understands,0
+French (French),Female,24,traineau,65,produces,0.0462
+French (French),Female,24,traineau,65,understands,0
+French (French),Male,24,traineau,72,produces,0.0556
+French (French),Male,24,traineau,72,understands,0
+French (French),Female,25,traineau,39,produces,0.1282
+French (French),Female,25,traineau,39,understands,0
+French (French),Male,25,traineau,46,produces,0.1087
+French (French),Male,25,traineau,46,understands,0
+French (French),Female,26,traineau,31,produces,0.0968
+French (French),Female,26,traineau,31,understands,0
+French (French),Male,26,traineau,32,produces,0.0312
+French (French),Male,26,traineau,32,understands,0
+French (French),Female,27,traineau,28,produces,0.1786
+French (French),Female,27,traineau,28,understands,0
+French (French),Male,27,traineau,24,produces,0.2083
+French (French),Male,27,traineau,24,understands,0
+French (French),Female,28,traineau,33,produces,0.1818
+French (French),Female,28,traineau,33,understands,0
+French (French),Male,28,traineau,43,produces,0.2093
+French (French),Male,28,traineau,43,understands,0
+French (French),Female,29,traineau,32,produces,0.1562
+French (French),Female,29,traineau,32,understands,0
+French (French),Male,29,traineau,33,produces,0.1818
+French (French),Male,29,traineau,33,understands,0
+French (French),Female,30,traineau,34,produces,0.2353
+French (French),Female,30,traineau,34,understands,0
+French (French),Male,30,traineau,33,produces,0.2424
+French (French),Male,30,traineau,33,understands,0
+French (Quebecois),Female,16,traîneau,26,produces,0
+French (Quebecois),Female,16,traîneau,26,understands,0
+French (Quebecois),Male,16,traîneau,21,produces,0
+French (Quebecois),Male,16,traîneau,21,understands,0
+French (Quebecois),Female,17,traîneau,30,produces,0.0333
+French (Quebecois),Female,17,traîneau,30,understands,0
+French (Quebecois),Male,17,traîneau,31,produces,0.0323
+French (Quebecois),Male,17,traîneau,31,understands,0
+French (Quebecois),Female,18,traîneau,53,produces,0.0189
+French (Quebecois),Female,18,traîneau,53,understands,0
+French (Quebecois),Male,18,traîneau,46,produces,0
+French (Quebecois),Male,18,traîneau,46,understands,0
+French (Quebecois),Female,19,traîneau,41,produces,0.0488
+French (Quebecois),Female,19,traîneau,41,understands,0
+French (Quebecois),Male,19,traîneau,50,produces,0.04
+French (Quebecois),Male,19,traîneau,50,understands,0
+French (Quebecois),Female,20,traîneau,90,produces,0.0889
+French (Quebecois),Female,20,traîneau,90,understands,0
+French (Quebecois),Male,20,traîneau,105,produces,0.0667
+French (Quebecois),Male,20,traîneau,105,understands,0
+French (Quebecois),Female,21,traîneau,56,produces,0.1786
+French (Quebecois),Female,21,traîneau,56,understands,0
+French (Quebecois),Male,21,traîneau,53,produces,0.0943
+French (Quebecois),Male,21,traîneau,53,understands,0
+French (Quebecois),Female,22,traîneau,42,produces,0.2143
+French (Quebecois),Female,22,traîneau,42,understands,0
+French (Quebecois),Male,22,traîneau,44,produces,0.1136
+French (Quebecois),Male,22,traîneau,44,understands,0
+French (Quebecois),Female,23,traîneau,41,produces,0.1951
+French (Quebecois),Female,23,traîneau,41,understands,0
+French (Quebecois),Male,23,traîneau,45,produces,0.1778
+French (Quebecois),Male,23,traîneau,45,understands,0
+French (Quebecois),Female,24,traîneau,56,produces,0.25
+French (Quebecois),Female,24,traîneau,56,understands,0
+French (Quebecois),Male,24,traîneau,76,produces,0.1711
+French (Quebecois),Male,24,traîneau,76,understands,0
+French (Quebecois),Female,25,traîneau,41,produces,0.3659
+French (Quebecois),Female,25,traîneau,41,understands,0
+French (Quebecois),Male,25,traîneau,45,produces,0.1333
+French (Quebecois),Male,25,traîneau,45,understands,0
+French (Quebecois),Female,26,traîneau,46,produces,0.3261
+French (Quebecois),Female,26,traîneau,46,understands,0
+French (Quebecois),Male,26,traîneau,49,produces,0.1633
+French (Quebecois),Male,26,traîneau,49,understands,0
+French (Quebecois),Female,27,traîneau,40,produces,0.525
+French (Quebecois),Female,27,traîneau,40,understands,0
+French (Quebecois),Male,27,traîneau,34,produces,0.3235
+French (Quebecois),Male,27,traîneau,34,understands,0
+French (Quebecois),Female,28,traîneau,28,produces,0.5
+French (Quebecois),Female,28,traîneau,28,understands,0
+French (Quebecois),Male,28,traîneau,32,produces,0.4062
+French (Quebecois),Male,28,traîneau,32,understands,0
+French (Quebecois),Female,29,traîneau,35,produces,0.5429
+French (Quebecois),Female,29,traîneau,35,understands,0
+French (Quebecois),Male,29,traîneau,35,produces,0.5143
+French (Quebecois),Male,29,traîneau,35,understands,0
+French (Quebecois),Female,30,traîneau,41,produces,0.3902
+French (Quebecois),Female,30,traîneau,41,understands,0
+French (Quebecois),Male,30,traîneau,59,produces,0.2881
+French (Quebecois),Male,30,traîneau,59,understands,0
+Hungarian,Female,16,szánkó,11,produces,0
+Hungarian,Female,16,szánkó,11,understands,0
+Hungarian,Male,16,szánkó,10,produces,0
+Hungarian,Male,16,szánkó,10,understands,0
+Hungarian,Female,17,szánkó,11,produces,0.0909
+Hungarian,Female,17,szánkó,11,understands,0
+Hungarian,Male,17,szánkó,7,produces,0
+Hungarian,Male,17,szánkó,7,understands,0
+Hungarian,Female,18,szánkó,9,produces,0.1111
+Hungarian,Female,18,szánkó,9,understands,0
+Hungarian,Male,18,szánkó,9,produces,0
+Hungarian,Male,18,szánkó,9,understands,0
+Hungarian,Female,19,szánkó,13,produces,0.1538
+Hungarian,Female,19,szánkó,13,understands,0
+Hungarian,Male,19,szánkó,12,produces,0.0833
+Hungarian,Male,19,szánkó,12,understands,0
+Hungarian,Female,20,szánkó,12,produces,0.0833
+Hungarian,Female,20,szánkó,12,understands,0
+Hungarian,Male,20,szánkó,6,produces,0
+Hungarian,Male,20,szánkó,6,understands,0
+Hungarian,Female,21,szánkó,16,produces,0.1875
+Hungarian,Female,21,szánkó,16,understands,0
+Hungarian,Male,21,szánkó,20,produces,0.2
+Hungarian,Male,21,szánkó,20,understands,0
+Hungarian,Female,22,szánkó,14,produces,0.2143
+Hungarian,Female,22,szánkó,14,understands,0
+Hungarian,Male,22,szánkó,13,produces,0
+Hungarian,Male,22,szánkó,13,understands,0
+Hungarian,Female,23,szánkó,6,produces,0.5
+Hungarian,Female,23,szánkó,6,understands,0
+Hungarian,Male,23,szánkó,12,produces,0.25
+Hungarian,Male,23,szánkó,12,understands,0
+Hungarian,Female,24,szánkó,14,produces,0.2143
+Hungarian,Female,24,szánkó,14,understands,0
+Hungarian,Male,24,szánkó,24,produces,0.3333
+Hungarian,Male,24,szánkó,24,understands,0
+Hungarian,Female,25,szánkó,17,produces,0.4706
+Hungarian,Female,25,szánkó,17,understands,0
+Hungarian,Male,25,szánkó,25,produces,0.56
+Hungarian,Male,25,szánkó,25,understands,0
+Hungarian,Female,26,szánkó,9,produces,0.4444
+Hungarian,Female,26,szánkó,9,understands,0
+Hungarian,Male,26,szánkó,14,produces,0.6429
+Hungarian,Male,26,szánkó,14,understands,0
+Hungarian,Female,27,szánkó,13,produces,0.6923
+Hungarian,Female,27,szánkó,13,understands,0
+Hungarian,Male,27,szánkó,13,produces,0.7692
+Hungarian,Male,27,szánkó,13,understands,0
+Hungarian,Female,28,szánkó,11,produces,0.7273
+Hungarian,Female,28,szánkó,11,understands,0
+Hungarian,Male,28,szánkó,18,produces,0.5
+Hungarian,Male,28,szánkó,18,understands,0
+Hungarian,Female,29,szánkó,8,produces,0.375
+Hungarian,Female,29,szánkó,8,understands,0
+Hungarian,Male,29,szánkó,4,produces,0.75
+Hungarian,Male,29,szánkó,4,understands,0
+Hungarian,Female,30,szánkó,3,produces,0.3333
+Hungarian,Female,30,szánkó,3,understands,0
+Hungarian,Male,30,szánkó,15,produces,0.6
+Hungarian,Male,30,szánkó,15,understands,0
+Italian,Female,18,slitta,18,produces,0.0556
+Italian,Female,18,slitta,18,understands,0
+Italian,Male,18,slitta,13,produces,0
+Italian,Male,18,slitta,13,understands,0
+Italian,Female,19,slitta,21,produces,0
+Italian,Female,19,slitta,21,understands,0
+Italian,Male,19,slitta,18,produces,0.0556
+Italian,Male,19,slitta,18,understands,0
+Italian,Female,20,slitta,34,produces,0
+Italian,Female,20,slitta,34,understands,0
+Italian,Male,20,slitta,30,produces,0.1
+Italian,Male,20,slitta,30,understands,0
+Italian,Female,21,slitta,24,produces,0.0417
+Italian,Female,21,slitta,24,understands,0
+Italian,Male,21,slitta,31,produces,0.0645
+Italian,Male,21,slitta,31,understands,0
+Italian,Female,22,slitta,27,produces,0.1111
+Italian,Female,22,slitta,27,understands,0
+Italian,Male,22,slitta,28,produces,0.0357
+Italian,Male,22,slitta,28,understands,0
+Italian,Female,23,slitta,27,produces,0.037
+Italian,Female,23,slitta,27,understands,0
+Italian,Male,23,slitta,26,produces,0.0769
+Italian,Male,23,slitta,26,understands,0
+Italian,Female,24,slitta,39,produces,0.0769
+Italian,Female,24,slitta,39,understands,0
+Italian,Male,24,slitta,32,produces,0.1875
+Italian,Male,24,slitta,32,understands,0
+Italian,Female,25,slitta,23,produces,0.1304
+Italian,Female,25,slitta,23,understands,0
+Italian,Male,25,slitta,16,produces,0.3125
+Italian,Male,25,slitta,16,understands,0
+Italian,Female,26,slitta,19,produces,0.3158
+Italian,Female,26,slitta,19,understands,0
+Italian,Male,26,slitta,22,produces,0.1364
+Italian,Male,26,slitta,22,understands,0
+Italian,Female,27,slitta,20,produces,0.2
+Italian,Female,27,slitta,20,understands,0
+Italian,Male,27,slitta,23,produces,0.2609
+Italian,Male,27,slitta,23,understands,0
+Italian,Female,28,slitta,21,produces,0.0952
+Italian,Female,28,slitta,21,understands,0
+Italian,Male,28,slitta,23,produces,0.3043
+Italian,Male,28,slitta,23,understands,0
+Italian,Female,29,slitta,21,produces,0.1905
+Italian,Female,29,slitta,21,understands,0
+Italian,Male,29,slitta,16,produces,0.375
+Italian,Male,29,slitta,16,understands,0
+Italian,Female,30,slitta,28,produces,0.3571
+Italian,Female,30,slitta,28,understands,0
+Italian,Male,30,slitta,39,produces,0.3077
+Italian,Male,30,slitta,39,understands,0
+Italian,Female,31,slitta,8,produces,0.375
+Italian,Female,31,slitta,8,understands,0
+Italian,Male,31,slitta,11,produces,0.4545
+Italian,Male,31,slitta,11,understands,0
+Italian,Female,32,slitta,14,produces,0.7143
+Italian,Female,32,slitta,14,understands,0
+Italian,Male,32,slitta,9,produces,0.2222
+Italian,Male,32,slitta,9,understands,0
+Italian,Female,33,slitta,5,produces,0.4
+Italian,Female,33,slitta,5,understands,0
+Italian,Male,33,slitta,11,produces,0.3636
+Italian,Male,33,slitta,11,understands,0
+Italian,Female,34,slitta,12,produces,0.4167
+Italian,Female,34,slitta,12,understands,0
+Italian,Male,34,slitta,7,produces,0.4286
+Italian,Male,34,slitta,7,understands,0
+Italian,Female,35,slitta,9,produces,0.5556
+Italian,Female,35,slitta,9,understands,0
+Italian,Male,35,slitta,6,produces,0.5
+Italian,Male,35,slitta,6,understands,0
+Italian,Female,36,slitta,7,produces,0.4286
+Italian,Female,36,slitta,7,understands,0
+Italian,Male,36,slitta,14,produces,0.3571
+Italian,Male,36,slitta,14,understands,0
+Korean,Female,18,썰매,51,produces,0.0588
+Korean,Female,18,썰매,51,understands,0
+Korean,Male,18,썰매,37,produces,0.027
+Korean,Male,18,썰매,37,understands,0
+Korean,Female,19,썰매,39,produces,0
+Korean,Female,19,썰매,39,understands,0
+Korean,Male,19,썰매,38,produces,0
+Korean,Male,19,썰매,38,understands,0
+Korean,Female,20,썰매,47,produces,0.0426
+Korean,Female,20,썰매,47,understands,0
+Korean,Male,20,썰매,41,produces,0
+Korean,Male,20,썰매,41,understands,0
+Korean,Female,21,썰매,38,produces,0.0526
+Korean,Female,21,썰매,38,understands,0
+Korean,Male,21,썰매,41,produces,0.0244
+Korean,Male,21,썰매,41,understands,0
+Korean,Female,22,썰매,42,produces,0.0476
+Korean,Female,22,썰매,42,understands,0
+Korean,Male,22,썰매,45,produces,0.1111
+Korean,Male,22,썰매,45,understands,0
+Korean,Female,23,썰매,42,produces,0.0714
+Korean,Female,23,썰매,42,understands,0
+Korean,Male,23,썰매,45,produces,0.0444
+Korean,Male,23,썰매,45,understands,0
+Korean,Female,24,썰매,46,produces,0.1957
+Korean,Female,24,썰매,46,understands,0
+Korean,Male,24,썰매,61,produces,0.0492
+Korean,Male,24,썰매,61,understands,0
+Korean,Female,25,썰매,46,produces,0.1304
+Korean,Female,25,썰매,46,understands,0
+Korean,Male,25,썰매,49,produces,0.0612
+Korean,Male,25,썰매,49,understands,0
+Korean,Female,26,썰매,42,produces,0.2143
+Korean,Female,26,썰매,42,understands,0
+Korean,Male,26,썰매,49,produces,0.2245
+Korean,Male,26,썰매,49,understands,0
+Korean,Female,27,썰매,46,produces,0.2609
+Korean,Female,27,썰매,46,understands,0
+Korean,Male,27,썰매,58,produces,0.3276
+Korean,Male,27,썰매,58,understands,0
+Korean,Female,28,썰매,49,produces,0.3878
+Korean,Female,28,썰매,49,understands,0
+Korean,Male,28,썰매,40,produces,0.125
+Korean,Male,28,썰매,40,understands,0
+Korean,Female,29,썰매,49,produces,0.3878
+Korean,Female,29,썰매,49,understands,0
+Korean,Male,29,썰매,51,produces,0.3333
+Korean,Male,29,썰매,51,understands,0
+Korean,Female,30,썰매,34,produces,0.4706
+Korean,Female,30,썰매,34,understands,0
+Korean,Male,30,썰매,47,produces,0.234
+Korean,Male,30,썰매,47,understands,0
+Korean,Female,31,썰매,31,produces,0.4516
+Korean,Female,31,썰매,31,understands,0
+Korean,Male,31,썰매,48,produces,0.375
+Korean,Male,31,썰매,48,understands,0
+Korean,Female,32,썰매,33,produces,0.4545
+Korean,Female,32,썰매,33,understands,0
+Korean,Male,32,썰매,36,produces,0.3611
+Korean,Male,32,썰매,36,understands,0
+Korean,Female,33,썰매,36,produces,0.4167
+Korean,Female,33,썰매,36,understands,0
+Korean,Male,33,썰매,43,produces,0.3256
+Korean,Male,33,썰매,43,understands,0
+Korean,Female,34,썰매,41,produces,0.5366
+Korean,Female,34,썰매,41,understands,0
+Korean,Male,34,썰매,38,produces,0.5526
+Korean,Male,34,썰매,38,understands,0
+Korean,Female,35,썰매,37,produces,0.4595
+Korean,Female,35,썰매,37,understands,0
+Korean,Male,35,썰매,37,produces,0.5676
+Korean,Male,35,썰매,37,understands,0
+Korean,Female,36,썰매,40,produces,0.575
+Korean,Female,36,썰매,40,understands,0
+Korean,Male,36,썰매,35,produces,0.4857
+Korean,Male,36,썰매,35,understands,0
+Latvian,Female,17,ragaviņas,12,produces,0
+Latvian,Female,17,ragaviņas,12,understands,0
+Latvian,Male,17,ragaviņas,15,produces,0.1333
+Latvian,Male,17,ragaviņas,15,understands,0
+Latvian,Female,18,ragaviņas,10,produces,0
+Latvian,Female,18,ragaviņas,10,understands,0
+Latvian,Male,18,ragaviņas,11,produces,0
+Latvian,Male,18,ragaviņas,11,understands,0
+Latvian,Female,19,ragaviņas,18,produces,0.0556
+Latvian,Female,19,ragaviņas,18,understands,0
+Latvian,Male,19,ragaviņas,10,produces,0.1
+Latvian,Male,19,ragaviņas,10,understands,0
+Latvian,Female,20,ragaviņas,17,produces,0
+Latvian,Female,20,ragaviņas,17,understands,0
+Latvian,Male,20,ragaviņas,17,produces,0.1176
+Latvian,Male,20,ragaviņas,17,understands,0
+Latvian,Female,21,ragaviņas,15,produces,0.2667
+Latvian,Female,21,ragaviņas,15,understands,0
+Latvian,Male,21,ragaviņas,11,produces,0.3636
+Latvian,Male,21,ragaviņas,11,understands,0
+Latvian,Female,22,ragaviņas,16,produces,0.1875
+Latvian,Female,22,ragaviņas,16,understands,0
+Latvian,Male,22,ragaviņas,16,produces,0.125
+Latvian,Male,22,ragaviņas,16,understands,0
+Latvian,Female,23,ragaviņas,15,produces,0.2667
+Latvian,Female,23,ragaviņas,15,understands,0
+Latvian,Male,23,ragaviņas,10,produces,0.1
+Latvian,Male,23,ragaviņas,10,understands,0
+Latvian,Female,24,ragaviņas,15,produces,0.5333
+Latvian,Female,24,ragaviņas,15,understands,0
+Latvian,Male,24,ragaviņas,15,produces,0.2
+Latvian,Male,24,ragaviņas,15,understands,0
+Latvian,Female,25,ragaviņas,16,produces,0.4375
+Latvian,Female,25,ragaviņas,16,understands,0
+Latvian,Male,25,ragaviņas,13,produces,0.3077
+Latvian,Male,25,ragaviņas,13,understands,0
+Latvian,Female,26,ragaviņas,9,produces,0.3333
+Latvian,Female,26,ragaviņas,9,understands,0
+Latvian,Male,26,ragaviņas,13,produces,0.5385
+Latvian,Male,26,ragaviņas,13,understands,0
+Latvian,Female,27,ragaviņas,10,produces,0.7
+Latvian,Female,27,ragaviņas,10,understands,0
+Latvian,Male,27,ragaviņas,8,produces,0.125
+Latvian,Male,27,ragaviņas,8,understands,0
+Latvian,Female,28,ragaviņas,11,produces,0.7273
+Latvian,Female,28,ragaviņas,11,understands,0
+Latvian,Male,28,ragaviņas,12,produces,0.3333
+Latvian,Male,28,ragaviņas,12,understands,0
+Latvian,Female,29,ragaviņas,11,produces,0.4545
+Latvian,Female,29,ragaviņas,11,understands,0
+Latvian,Male,29,ragaviņas,13,produces,0.3846
+Latvian,Male,29,ragaviņas,13,understands,0
+Latvian,Female,30,ragaviņas,12,produces,0.4167
+Latvian,Female,30,ragaviņas,12,understands,0
+Latvian,Male,30,ragaviņas,14,produces,0.5
+Latvian,Male,30,ragaviņas,14,understands,0
+Latvian,Female,31,ragaviņas,10,produces,0.7
+Latvian,Female,31,ragaviņas,10,understands,0
+Latvian,Male,31,ragaviņas,9,produces,0.5556
+Latvian,Male,31,ragaviņas,9,understands,0
+Latvian,Female,32,ragaviņas,13,produces,0.8462
+Latvian,Female,32,ragaviņas,13,understands,0
+Latvian,Male,32,ragaviņas,12,produces,0.3333
+Latvian,Male,32,ragaviņas,12,understands,0
+Latvian,Female,33,ragaviņas,17,produces,0.8235
+Latvian,Female,33,ragaviņas,17,understands,0
+Latvian,Male,33,ragaviņas,14,produces,0.1429
+Latvian,Male,33,ragaviņas,14,understands,0
+Latvian,Female,34,ragaviņas,10,produces,0.8
+Latvian,Female,34,ragaviņas,10,understands,0
+Latvian,Male,34,ragaviņas,7,produces,0.7143
+Latvian,Male,34,ragaviņas,7,understands,0
+Latvian,Female,35,ragaviņas,8,produces,0.875
+Latvian,Female,35,ragaviņas,8,understands,0
+Latvian,Male,35,ragaviņas,13,produces,0.6923
+Latvian,Male,35,ragaviņas,13,understands,0
+Latvian,Female,36,ragaviņas,12,produces,0.5
+Latvian,Female,36,ragaviņas,12,understands,0
+Latvian,Male,36,ragaviņas,10,produces,0.6
+Latvian,Male,36,ragaviņas,10,understands,0
+Norwegian,Female,16,"akebrett, kjelke",39,produces,0
+Norwegian,Female,16,"akebrett, kjelke",39,understands,0
+Norwegian,Male,16,"akebrett, kjelke",59,produces,0
+Norwegian,Male,16,"akebrett, kjelke",59,understands,0
+Norwegian,Female,17,"akebrett, kjelke",125,produces,0.012
+Norwegian,Female,17,"akebrett, kjelke",125,understands,0
+Norwegian,Male,17,"akebrett, kjelke",93,produces,0.0161
+Norwegian,Male,17,"akebrett, kjelke",93,understands,0
+Norwegian,Female,18,"akebrett, kjelke",146,produces,0.0342
+Norwegian,Female,18,"akebrett, kjelke",146,understands,0
+Norwegian,Male,18,"akebrett, kjelke",125,produces,0.008
+Norwegian,Male,18,"akebrett, kjelke",125,understands,0
+Norwegian,Female,19,"akebrett, kjelke",135,produces,0.0407
+Norwegian,Female,19,"akebrett, kjelke",135,understands,0
+Norwegian,Male,19,"akebrett, kjelke",146,produces,0.0342
+Norwegian,Male,19,"akebrett, kjelke",146,understands,0
+Norwegian,Female,20,"akebrett, kjelke",183,produces,0.0546
+Norwegian,Female,20,"akebrett, kjelke",183,understands,0
+Norwegian,Male,20,"akebrett, kjelke",159,produces,0.0629
+Norwegian,Male,20,"akebrett, kjelke",159,understands,0
+Norwegian,Female,21,"akebrett, kjelke",218,produces,0.1239
+Norwegian,Female,21,"akebrett, kjelke",218,understands,0
+Norwegian,Male,21,"akebrett, kjelke",200,produces,0.08
+Norwegian,Male,21,"akebrett, kjelke",200,understands,0
+Norwegian,Female,22,"akebrett, kjelke",304,produces,0.1924
+Norwegian,Female,22,"akebrett, kjelke",304,understands,0
+Norwegian,Male,22,"akebrett, kjelke",292,produces,0.1113
+Norwegian,Male,22,"akebrett, kjelke",292,understands,0
+Norwegian,Female,23,"akebrett, kjelke",285,produces,0.2614
+Norwegian,Female,23,"akebrett, kjelke",285,understands,0
+Norwegian,Male,23,"akebrett, kjelke",281,produces,0.1655
+Norwegian,Male,23,"akebrett, kjelke",281,understands,0
+Norwegian,Female,24,"akebrett, kjelke",266,produces,0.282
+Norwegian,Female,24,"akebrett, kjelke",266,understands,0
+Norwegian,Male,24,"akebrett, kjelke",272,produces,0.2537
+Norwegian,Male,24,"akebrett, kjelke",272,understands,0
+Norwegian,Female,25,"akebrett, kjelke",325,produces,0.3492
+Norwegian,Female,25,"akebrett, kjelke",325,understands,0
+Norwegian,Male,25,"akebrett, kjelke",331,produces,0.3097
+Norwegian,Male,25,"akebrett, kjelke",331,understands,0
+Norwegian,Female,26,"akebrett, kjelke",301,produces,0.485
+Norwegian,Female,26,"akebrett, kjelke",301,understands,0
+Norwegian,Male,26,"akebrett, kjelke",343,produces,0.3557
+Norwegian,Male,26,"akebrett, kjelke",343,understands,0
+Norwegian,Female,27,"akebrett, kjelke",267,produces,0.4813
+Norwegian,Female,27,"akebrett, kjelke",267,understands,0
+Norwegian,Male,27,"akebrett, kjelke",258,produces,0.4031
+Norwegian,Male,27,"akebrett, kjelke",258,understands,0
+Norwegian,Female,28,"akebrett, kjelke",281,produces,0.5125
+Norwegian,Female,28,"akebrett, kjelke",281,understands,0
+Norwegian,Male,28,"akebrett, kjelke",263,produces,0.4563
+Norwegian,Male,28,"akebrett, kjelke",263,understands,0
+Norwegian,Female,29,"akebrett, kjelke",252,produces,0.5813
+Norwegian,Female,29,"akebrett, kjelke",252,understands,0
+Norwegian,Male,29,"akebrett, kjelke",284,produces,0.4982
+Norwegian,Male,29,"akebrett, kjelke",284,understands,0
+Norwegian,Female,30,"akebrett, kjelke",213,produces,0.6502
+Norwegian,Female,30,"akebrett, kjelke",213,understands,0
+Norwegian,Male,30,"akebrett, kjelke",244,produces,0.5287
+Norwegian,Male,30,"akebrett, kjelke",244,understands,0
+Norwegian,Female,31,"akebrett, kjelke",229,produces,0.6987
+Norwegian,Female,31,"akebrett, kjelke",229,understands,0
+Norwegian,Male,31,"akebrett, kjelke",250,produces,0.584
+Norwegian,Male,31,"akebrett, kjelke",250,understands,0
+Norwegian,Female,32,"akebrett, kjelke",224,produces,0.7121
+Norwegian,Female,32,"akebrett, kjelke",224,understands,0
+Norwegian,Male,32,"akebrett, kjelke",227,produces,0.6035
+Norwegian,Male,32,"akebrett, kjelke",227,understands,0
+Norwegian,Female,33,"akebrett, kjelke",213,produces,0.7418
+Norwegian,Female,33,"akebrett, kjelke",213,understands,0
+Norwegian,Male,33,"akebrett, kjelke",217,produces,0.6982
+Norwegian,Male,33,"akebrett, kjelke",217,understands,0
+Norwegian,Female,34,"akebrett, kjelke",194,produces,0.7835
+Norwegian,Female,34,"akebrett, kjelke",194,understands,0
+Norwegian,Male,34,"akebrett, kjelke",230,produces,0.6978
+Norwegian,Male,34,"akebrett, kjelke",230,understands,0
+Norwegian,Female,35,"akebrett, kjelke",230,produces,0.7543
+Norwegian,Female,35,"akebrett, kjelke",230,understands,0
+Norwegian,Male,35,"akebrett, kjelke",192,produces,0.7604
+Norwegian,Male,35,"akebrett, kjelke",192,understands,0
+Norwegian,Female,36,"akebrett, kjelke",170,produces,0.8059
+Norwegian,Female,36,"akebrett, kjelke",170,understands,0
+Norwegian,Male,36,"akebrett, kjelke",159,produces,0.7233
+Norwegian,Male,36,"akebrett, kjelke",159,understands,0
+Russian,Female,18,санки,24,produces,0.1667
+Russian,Female,18,санки,24,understands,0
+Russian,Male,18,санки,18,produces,0.0556
+Russian,Male,18,санки,18,understands,0
+Russian,Female,19,санки,22,produces,0.1364
+Russian,Female,19,санки,22,understands,0
+Russian,Male,19,санки,19,produces,0.1053
+Russian,Male,19,санки,19,understands,0
+Russian,Female,20,санки,18,produces,0.1667
+Russian,Female,20,санки,18,understands,0
+Russian,Male,20,санки,27,produces,0.1481
+Russian,Male,20,санки,27,understands,0
+Russian,Female,21,санки,22,produces,0.5
+Russian,Female,21,санки,22,understands,0
+Russian,Male,21,санки,21,produces,0.2381
+Russian,Male,21,санки,21,understands,0
+Russian,Female,22,санки,29,produces,0.4828
+Russian,Female,22,санки,29,understands,0
+Russian,Male,22,санки,22,produces,0.3636
+Russian,Male,22,санки,22,understands,0
+Russian,Female,23,санки,37,produces,0.5405
+Russian,Female,23,санки,37,understands,0
+Russian,Male,23,санки,19,produces,0.4737
+Russian,Male,23,санки,19,understands,0
+Russian,Female,24,санки,28,produces,0.7143
+Russian,Female,24,санки,28,understands,0
+Russian,Male,24,санки,33,produces,0.5758
+Russian,Male,24,санки,33,understands,0
+Russian,Female,25,санки,39,produces,0.7436
+Russian,Female,25,санки,39,understands,0
+Russian,Male,25,санки,27,produces,0.4815
+Russian,Male,25,санки,27,understands,0
+Russian,Female,26,санки,26,produces,0.6538
+Russian,Female,26,санки,26,understands,0
+Russian,Male,26,санки,26,produces,0.5385
+Russian,Male,26,санки,26,understands,0
+Russian,Female,27,санки,37,produces,0.7568
+Russian,Female,27,санки,37,understands,0
+Russian,Male,27,санки,23,produces,0.4348
+Russian,Male,27,санки,23,understands,0
+Russian,Female,28,санки,28,produces,0.8929
+Russian,Female,28,санки,28,understands,0
+Russian,Male,28,санки,32,produces,0.6875
+Russian,Male,28,санки,32,understands,0
+Russian,Female,29,санки,30,produces,0.9333
+Russian,Female,29,санки,30,understands,0
+Russian,Male,29,санки,27,produces,0.7778
+Russian,Male,29,санки,27,understands,0
+Russian,Female,30,санки,42,produces,0.7619
+Russian,Female,30,санки,42,understands,0
+Russian,Male,30,санки,35,produces,0.7143
+Russian,Male,30,санки,35,understands,0
+Russian,Female,31,санки,32,produces,0.9062
+Russian,Female,31,санки,32,understands,0
+Russian,Male,31,санки,29,produces,0.7931
+Russian,Male,31,санки,29,understands,0
+Russian,Female,32,санки,29,produces,0.8276
+Russian,Female,32,санки,29,understands,0
+Russian,Male,32,санки,26,produces,0.8846
+Russian,Male,32,санки,26,understands,0
+Russian,Female,33,санки,27,produces,0.963
+Russian,Female,33,санки,27,understands,0
+Russian,Male,33,санки,28,produces,0.75
+Russian,Male,33,санки,28,understands,0
+Russian,Female,34,санки,31,produces,0.9677
+Russian,Female,34,санки,31,understands,0
+Russian,Male,34,санки,27,produces,0.9259
+Russian,Male,34,санки,27,understands,0
+Russian,Female,35,санки,22,produces,0.9091
+Russian,Female,35,санки,22,understands,0
+Russian,Male,35,санки,25,produces,0.88
+Russian,Male,35,санки,25,understands,0
+Russian,Female,36,санки,27,produces,0.8889
+Russian,Female,36,санки,27,understands,0
+Russian,Male,36,санки,22,produces,1
+Russian,Male,36,санки,22,understands,0
+Spanish (European),Female,8,tobogán,30,produces,0
+Spanish (European),Female,8,tobogán,30,understands,0
+Spanish (European),Male,8,tobogán,22,produces,0
+Spanish (European),Male,8,tobogán,22,understands,0
+Spanish (European),Female,9,tobogán,25,produces,0
+Spanish (European),Female,9,tobogán,25,understands,0.12
+Spanish (European),Male,9,tobogán,20,produces,0
+Spanish (European),Male,9,tobogán,20,understands,0.05
+Spanish (European),Female,10,tobogán,31,produces,0
+Spanish (European),Female,10,tobogán,31,understands,0.0323
+Spanish (European),Male,10,tobogán,18,produces,0
+Spanish (European),Male,10,tobogán,18,understands,0.0556
+Spanish (European),Female,11,tobogán,19,produces,0
+Spanish (European),Female,11,tobogán,19,understands,0.1579
+Spanish (European),Male,11,tobogán,17,produces,0
+Spanish (European),Male,11,tobogán,17,understands,0
+Spanish (European),Female,12,tobogán,28,produces,0
+Spanish (European),Female,12,tobogán,28,understands,0.2143
+Spanish (European),Male,12,tobogán,24,produces,0
+Spanish (European),Male,12,tobogán,24,understands,0.2917
+Spanish (European),Female,13,tobogán,29,produces,0
+Spanish (European),Female,13,tobogán,29,understands,0.4138
+Spanish (European),Male,13,tobogán,29,produces,0
+Spanish (European),Male,13,tobogán,29,understands,0.3103
+Spanish (European),Female,14,tobogán,29,produces,0
+Spanish (European),Female,14,tobogán,29,understands,0.4138
+Spanish (European),Male,14,tobogán,26,produces,0
+Spanish (European),Male,14,tobogán,26,understands,0.5
+Spanish (European),Female,15,tobogán,32,produces,0.0312
+Spanish (European),Female,15,tobogán,32,understands,0.6562
+Spanish (European),Male,15,tobogán,33,produces,0.0303
+Spanish (European),Male,15,tobogán,33,understands,0.6364
+Spanish (European),Female,16,tobogán,19,produces,0.1579
+Spanish (European),Female,16,tobogán,19,understands,0
+Spanish (European),Male,16,tobogán,20,produces,0.05
+Spanish (European),Male,16,tobogán,20,understands,0
+Spanish (European),Female,17,tobogán,21,produces,0
+Spanish (European),Female,17,tobogán,21,understands,0
+Spanish (European),Male,17,tobogán,18,produces,0
+Spanish (European),Male,17,tobogán,18,understands,0
+Spanish (European),Female,18,tobogán,27,produces,0.1852
+Spanish (European),Female,18,tobogán,27,understands,0
+Spanish (European),Male,18,tobogán,23,produces,0.0435
+Spanish (European),Male,18,tobogán,23,understands,0
+Spanish (European),Female,19,tobogán,16,produces,0.125
+Spanish (European),Female,19,tobogán,16,understands,0
+Spanish (European),Male,19,tobogán,11,produces,0.1818
+Spanish (European),Male,19,tobogán,11,understands,0
+Spanish (European),Female,20,tobogán,17,produces,0.1765
+Spanish (European),Female,20,tobogán,17,understands,0
+Spanish (European),Male,20,tobogán,19,produces,0.3158
+Spanish (European),Male,20,tobogán,19,understands,0
+Spanish (European),Female,21,tobogán,23,produces,0.3043
+Spanish (European),Female,21,tobogán,23,understands,0
+Spanish (European),Male,21,tobogán,18,produces,0.2222
+Spanish (European),Male,21,tobogán,18,understands,0
+Spanish (European),Female,22,tobogán,18,produces,0.3889
+Spanish (European),Female,22,tobogán,18,understands,0
+Spanish (European),Male,22,tobogán,20,produces,0.3
+Spanish (European),Male,22,tobogán,20,understands,0
+Spanish (European),Female,23,tobogán,15,produces,0.3333
+Spanish (European),Female,23,tobogán,15,understands,0
+Spanish (European),Male,23,tobogán,15,produces,0.4667
+Spanish (European),Male,23,tobogán,15,understands,0
+Spanish (European),Female,24,tobogán,31,produces,0.6129
+Spanish (European),Female,24,tobogán,31,understands,0
+Spanish (European),Male,24,tobogán,24,produces,0.3333
+Spanish (European),Male,24,tobogán,24,understands,0
+Spanish (European),Female,25,tobogán,16,produces,0.75
+Spanish (European),Female,25,tobogán,16,understands,0
+Spanish (European),Male,25,tobogán,19,produces,0.5263
+Spanish (European),Male,25,tobogán,19,understands,0
+Spanish (European),Female,26,tobogán,22,produces,0.7727
+Spanish (European),Female,26,tobogán,22,understands,0
+Spanish (European),Male,26,tobogán,27,produces,0.5185
+Spanish (European),Male,26,tobogán,27,understands,0
+Spanish (European),Female,27,tobogán,16,produces,0.8125
+Spanish (European),Female,27,tobogán,16,understands,0
+Spanish (European),Male,27,tobogán,18,produces,0.7778
+Spanish (European),Male,27,tobogán,18,understands,0
+Spanish (European),Female,28,tobogán,20,produces,0.75
+Spanish (European),Female,28,tobogán,20,understands,0
+Spanish (European),Male,28,tobogán,18,produces,0.7778
+Spanish (European),Male,28,tobogán,18,understands,0
+Spanish (European),Female,29,tobogán,18,produces,0.7222
+Spanish (European),Female,29,tobogán,18,understands,0
+Spanish (European),Male,29,tobogán,23,produces,0.913
+Spanish (European),Male,29,tobogán,23,understands,0
+Spanish (European),Female,30,tobogán,17,produces,0.9412
+Spanish (European),Female,30,tobogán,17,understands,0
+Spanish (European),Male,30,tobogán,24,produces,0.625
+Spanish (European),Male,30,tobogán,24,understands,0
+Spanish (Mexican),Female,16,trineo,34,produces,0.0294
+Spanish (Mexican),Female,16,trineo,34,understands,0
+Spanish (Mexican),Male,16,trineo,34,produces,0
+Spanish (Mexican),Male,16,trineo,34,understands,0
+Spanish (Mexican),Female,17,trineo,34,produces,0
+Spanish (Mexican),Female,17,trineo,34,understands,0
+Spanish (Mexican),Male,17,trineo,25,produces,0
+Spanish (Mexican),Male,17,trineo,25,understands,0
+Spanish (Mexican),Female,18,trineo,35,produces,0
+Spanish (Mexican),Female,18,trineo,35,understands,0
+Spanish (Mexican),Male,18,trineo,40,produces,0.025
+Spanish (Mexican),Male,18,trineo,40,understands,0
+Spanish (Mexican),Female,19,trineo,47,produces,0.0851
+Spanish (Mexican),Female,19,trineo,47,understands,0
+Spanish (Mexican),Male,19,trineo,53,produces,0.1321
+Spanish (Mexican),Male,19,trineo,53,understands,0
+Spanish (Mexican),Female,20,trineo,53,produces,0.0943
+Spanish (Mexican),Female,20,trineo,53,understands,0
+Spanish (Mexican),Male,20,trineo,54,produces,0.0185
+Spanish (Mexican),Male,20,trineo,54,understands,0
+Spanish (Mexican),Female,21,trineo,37,produces,0.0811
+Spanish (Mexican),Female,21,trineo,37,understands,0
+Spanish (Mexican),Male,21,trineo,47,produces,0.1064
+Spanish (Mexican),Male,21,trineo,47,understands,0
+Spanish (Mexican),Female,22,trineo,64,produces,0.0312
+Spanish (Mexican),Female,22,trineo,64,understands,0
+Spanish (Mexican),Male,22,trineo,67,produces,0
+Spanish (Mexican),Male,22,trineo,67,understands,0
+Spanish (Mexican),Female,23,trineo,49,produces,0.0204
+Spanish (Mexican),Female,23,trineo,49,understands,0
+Spanish (Mexican),Male,23,trineo,42,produces,0.0238
+Spanish (Mexican),Male,23,trineo,42,understands,0
+Spanish (Mexican),Female,24,trineo,63,produces,0.1429
+Spanish (Mexican),Female,24,trineo,63,understands,0
+Spanish (Mexican),Male,24,trineo,63,produces,0.1111
+Spanish (Mexican),Male,24,trineo,63,understands,0
+Spanish (Mexican),Female,25,trineo,78,produces,0.1282
+Spanish (Mexican),Female,25,trineo,78,understands,0
+Spanish (Mexican),Male,25,trineo,89,produces,0.0899
+Spanish (Mexican),Male,25,trineo,89,understands,0
+Spanish (Mexican),Female,26,trineo,38,produces,0.1316
+Spanish (Mexican),Female,26,trineo,38,understands,0
+Spanish (Mexican),Male,26,trineo,45,produces,0.1111
+Spanish (Mexican),Male,26,trineo,45,understands,0
+Spanish (Mexican),Female,27,trineo,45,produces,0.0667
+Spanish (Mexican),Female,27,trineo,45,understands,0
+Spanish (Mexican),Male,27,trineo,40,produces,0.075
+Spanish (Mexican),Male,27,trineo,40,understands,0
+Spanish (Mexican),Female,28,trineo,44,produces,0.1818
+Spanish (Mexican),Female,28,trineo,44,understands,0
+Spanish (Mexican),Male,28,trineo,45,produces,0.0222
+Spanish (Mexican),Male,28,trineo,45,understands,0
+Spanish (Mexican),Female,29,trineo,51,produces,0.0784
+Spanish (Mexican),Female,29,trineo,51,understands,0
+Spanish (Mexican),Male,29,trineo,38,produces,0.0263
+Spanish (Mexican),Male,29,trineo,38,understands,0
+Spanish (Mexican),Female,30,trineo,146,produces,0.0822
+Spanish (Mexican),Female,30,trineo,146,understands,0
+Spanish (Mexican),Male,30,trineo,152,produces,0.0395
+Spanish (Mexican),Male,30,trineo,152,understands,0
+Swedish,Female,16,"kälke, pulka",90,produces,0
+Swedish,Female,16,"kälke, pulka",90,understands,0
+Swedish,Male,16,"kälke, pulka",66,produces,0
+Swedish,Male,16,"kälke, pulka",66,understands,0
+Swedish,Female,19,"kälke, pulka",85,produces,0.0294
+Swedish,Female,19,"kälke, pulka",85,understands,0
+Swedish,Male,19,"kälke, pulka",65,produces,0.0231
+Swedish,Male,19,"kälke, pulka",65,understands,0
+Swedish,Female,22,"kälke, pulka",162,produces,0.1914
+Swedish,Female,22,"kälke, pulka",162,understands,0
+Swedish,Male,22,"kälke, pulka",143,produces,0.1364
+Swedish,Male,22,"kälke, pulka",143,understands,0
+Swedish,Female,25,"kälke, pulka",67,produces,0.2836
+Swedish,Female,25,"kälke, pulka",67,understands,0
+Swedish,Male,25,"kälke, pulka",76,produces,0.2171
+Swedish,Male,25,"kälke, pulka",76,understands,0
+Swedish,Female,28,"kälke, pulka",69,produces,0.6304
+Swedish,Female,28,"kälke, pulka",69,understands,0
+Swedish,Male,28,"kälke, pulka",70,produces,0.5143
+Swedish,Male,28,"kälke, pulka",70,understands,0

@@ -1,79 +1,235 @@
-language,age,words,n,measure,prop
-Spanish (European),16,mechero,39,produces,0
-Spanish (European),16,mechero,39,understands,0
-Spanish (European),17,mechero,39,produces,0
-Spanish (European),17,mechero,39,understands,0
-Spanish (European),18,mechero,50,produces,0
-Spanish (European),18,mechero,50,understands,0
-Spanish (European),19,mechero,27,produces,0
-Spanish (European),19,mechero,27,understands,0
-Spanish (European),20,mechero,36,produces,0.0556
-Spanish (European),20,mechero,36,understands,0
-Spanish (European),21,mechero,41,produces,0.0976
-Spanish (European),21,mechero,41,understands,0
-Spanish (European),22,mechero,38,produces,0.0789
-Spanish (European),22,mechero,38,understands,0
-Spanish (European),23,mechero,30,produces,0.1
-Spanish (European),23,mechero,30,understands,0
-Spanish (European),24,mechero,55,produces,0.1818
-Spanish (European),24,mechero,55,understands,0
-Spanish (European),25,mechero,35,produces,0.0571
-Spanish (European),25,mechero,35,understands,0
-Spanish (European),26,mechero,49,produces,0.2653
-Spanish (European),26,mechero,49,understands,0
-Spanish (European),27,mechero,34,produces,0.4706
-Spanish (European),27,mechero,34,understands,0
-Spanish (European),28,mechero,38,produces,0.3158
-Spanish (European),28,mechero,38,understands,0
-Spanish (European),29,mechero,41,produces,0.439
-Spanish (European),29,mechero,41,understands,0
-Spanish (European),30,mechero,41,produces,0.3902
-Spanish (European),30,mechero,41,understands,0
-Arabic (Saudi),8,ولاعة,19,produces,0
-Arabic (Saudi),8,ولاعة,19,understands,0
-Arabic (Saudi),9,ولاعة,18,produces,0
-Arabic (Saudi),9,ولاعة,18,understands,0
-Arabic (Saudi),10,ولاعة,25,produces,0
-Arabic (Saudi),10,ولاعة,25,understands,0
-Arabic (Saudi),11,ولاعة,21,produces,0.0476
-Arabic (Saudi),11,ولاعة,21,understands,0
-Arabic (Saudi),12,ولاعة,19,produces,0
-Arabic (Saudi),12,ولاعة,19,understands,0
-Arabic (Saudi),13,ولاعة,36,produces,0
-Arabic (Saudi),13,ولاعة,36,understands,0
-Arabic (Saudi),14,ولاعة,20,produces,0
-Arabic (Saudi),14,ولاعة,20,understands,0
-Arabic (Saudi),15,ولاعة,19,produces,0
-Arabic (Saudi),15,ولاعة,19,understands,0
-Arabic (Saudi),16,ولاعة,18,produces,0
-Arabic (Saudi),16,ولاعة,18,understands,0
-Catalan,16,encenedor,24,produces,0
-Catalan,16,encenedor,24,understands,0
-Catalan,17,encenedor,36,produces,0
-Catalan,17,encenedor,36,understands,0
-Catalan,18,encenedor,51,produces,0
-Catalan,18,encenedor,51,understands,0
-Catalan,19,encenedor,45,produces,0
-Catalan,19,encenedor,45,understands,0
-Catalan,20,encenedor,56,produces,0
-Catalan,20,encenedor,56,understands,0
-Catalan,21,encenedor,58,produces,0
-Catalan,21,encenedor,58,understands,0
-Catalan,22,encenedor,50,produces,0
-Catalan,22,encenedor,50,understands,0
-Catalan,23,encenedor,66,produces,0.0303
-Catalan,23,encenedor,66,understands,0
-Catalan,24,encenedor,79,produces,0.1013
-Catalan,24,encenedor,79,understands,0
-Catalan,25,encenedor,60,produces,0.1
-Catalan,25,encenedor,60,understands,0
-Catalan,26,encenedor,65,produces,0.0923
-Catalan,26,encenedor,65,understands,0
-Catalan,27,encenedor,63,produces,0.1746
-Catalan,27,encenedor,63,understands,0
-Catalan,28,encenedor,81,produces,0.1728
-Catalan,28,encenedor,81,understands,0
-Catalan,29,encenedor,50,produces,0.22
-Catalan,29,encenedor,50,understands,0
-Catalan,30,encenedor,75,produces,0.32
-Catalan,30,encenedor,75,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,ولاعة,19,produces,0
+Arabic (Saudi),All,8,ولاعة,19,understands,0
+Arabic (Saudi),All,9,ولاعة,18,produces,0
+Arabic (Saudi),All,9,ولاعة,18,understands,0
+Arabic (Saudi),All,10,ولاعة,25,produces,0
+Arabic (Saudi),All,10,ولاعة,25,understands,0
+Arabic (Saudi),All,11,ولاعة,21,produces,0.0476
+Arabic (Saudi),All,11,ولاعة,21,understands,0
+Arabic (Saudi),All,12,ولاعة,19,produces,0
+Arabic (Saudi),All,12,ولاعة,19,understands,0
+Arabic (Saudi),All,13,ولاعة,36,produces,0
+Arabic (Saudi),All,13,ولاعة,36,understands,0
+Arabic (Saudi),All,14,ولاعة,20,produces,0
+Arabic (Saudi),All,14,ولاعة,20,understands,0
+Arabic (Saudi),All,15,ولاعة,19,produces,0
+Arabic (Saudi),All,15,ولاعة,19,understands,0
+Arabic (Saudi),All,16,ولاعة,18,produces,0
+Arabic (Saudi),All,16,ولاعة,18,understands,0
+Catalan,All,16,encenedor,24,produces,0
+Catalan,All,16,encenedor,24,understands,0
+Catalan,All,17,encenedor,36,produces,0
+Catalan,All,17,encenedor,36,understands,0
+Catalan,All,18,encenedor,51,produces,0
+Catalan,All,18,encenedor,51,understands,0
+Catalan,All,19,encenedor,45,produces,0
+Catalan,All,19,encenedor,45,understands,0
+Catalan,All,20,encenedor,56,produces,0
+Catalan,All,20,encenedor,56,understands,0
+Catalan,All,21,encenedor,58,produces,0
+Catalan,All,21,encenedor,58,understands,0
+Catalan,All,22,encenedor,50,produces,0
+Catalan,All,22,encenedor,50,understands,0
+Catalan,All,23,encenedor,66,produces,0.0303
+Catalan,All,23,encenedor,66,understands,0
+Catalan,All,24,encenedor,79,produces,0.1013
+Catalan,All,24,encenedor,79,understands,0
+Catalan,All,25,encenedor,60,produces,0.1
+Catalan,All,25,encenedor,60,understands,0
+Catalan,All,26,encenedor,65,produces,0.0923
+Catalan,All,26,encenedor,65,understands,0
+Catalan,All,27,encenedor,63,produces,0.1746
+Catalan,All,27,encenedor,63,understands,0
+Catalan,All,28,encenedor,81,produces,0.1728
+Catalan,All,28,encenedor,81,understands,0
+Catalan,All,29,encenedor,50,produces,0.22
+Catalan,All,29,encenedor,50,understands,0
+Catalan,All,30,encenedor,75,produces,0.32
+Catalan,All,30,encenedor,75,understands,0
+Spanish (European),All,16,mechero,39,produces,0
+Spanish (European),All,16,mechero,39,understands,0
+Spanish (European),All,17,mechero,39,produces,0
+Spanish (European),All,17,mechero,39,understands,0
+Spanish (European),All,18,mechero,50,produces,0
+Spanish (European),All,18,mechero,50,understands,0
+Spanish (European),All,19,mechero,27,produces,0
+Spanish (European),All,19,mechero,27,understands,0
+Spanish (European),All,20,mechero,36,produces,0.0556
+Spanish (European),All,20,mechero,36,understands,0
+Spanish (European),All,21,mechero,41,produces,0.0976
+Spanish (European),All,21,mechero,41,understands,0
+Spanish (European),All,22,mechero,38,produces,0.0789
+Spanish (European),All,22,mechero,38,understands,0
+Spanish (European),All,23,mechero,30,produces,0.1
+Spanish (European),All,23,mechero,30,understands,0
+Spanish (European),All,24,mechero,55,produces,0.1818
+Spanish (European),All,24,mechero,55,understands,0
+Spanish (European),All,25,mechero,35,produces,0.0571
+Spanish (European),All,25,mechero,35,understands,0
+Spanish (European),All,26,mechero,49,produces,0.2653
+Spanish (European),All,26,mechero,49,understands,0
+Spanish (European),All,27,mechero,34,produces,0.4706
+Spanish (European),All,27,mechero,34,understands,0
+Spanish (European),All,28,mechero,38,produces,0.3158
+Spanish (European),All,28,mechero,38,understands,0
+Spanish (European),All,29,mechero,41,produces,0.439
+Spanish (European),All,29,mechero,41,understands,0
+Spanish (European),All,30,mechero,41,produces,0.3902
+Spanish (European),All,30,mechero,41,understands,0
+Arabic (Saudi),Female,8,ولاعة,9,produces,0
+Arabic (Saudi),Female,8,ولاعة,9,understands,0
+Arabic (Saudi),Male,8,ولاعة,10,produces,0
+Arabic (Saudi),Male,8,ولاعة,10,understands,0
+Arabic (Saudi),Female,9,ولاعة,10,produces,0
+Arabic (Saudi),Female,9,ولاعة,10,understands,0
+Arabic (Saudi),Male,9,ولاعة,8,produces,0
+Arabic (Saudi),Male,9,ولاعة,8,understands,0
+Arabic (Saudi),Female,10,ولاعة,11,produces,0
+Arabic (Saudi),Female,10,ولاعة,11,understands,0
+Arabic (Saudi),Male,10,ولاعة,14,produces,0
+Arabic (Saudi),Male,10,ولاعة,14,understands,0
+Arabic (Saudi),Female,11,ولاعة,9,produces,0.1111
+Arabic (Saudi),Female,11,ولاعة,9,understands,0
+Arabic (Saudi),Male,11,ولاعة,12,produces,0
+Arabic (Saudi),Male,11,ولاعة,12,understands,0
+Arabic (Saudi),Female,12,ولاعة,8,produces,0
+Arabic (Saudi),Female,12,ولاعة,8,understands,0
+Arabic (Saudi),Male,12,ولاعة,11,produces,0
+Arabic (Saudi),Male,12,ولاعة,11,understands,0
+Arabic (Saudi),Female,13,ولاعة,16,produces,0
+Arabic (Saudi),Female,13,ولاعة,16,understands,0
+Arabic (Saudi),Male,13,ولاعة,20,produces,0
+Arabic (Saudi),Male,13,ولاعة,20,understands,0
+Arabic (Saudi),Female,14,ولاعة,10,produces,0
+Arabic (Saudi),Female,14,ولاعة,10,understands,0
+Arabic (Saudi),Male,14,ولاعة,10,produces,0
+Arabic (Saudi),Male,14,ولاعة,10,understands,0
+Arabic (Saudi),Female,15,ولاعة,7,produces,0
+Arabic (Saudi),Female,15,ولاعة,7,understands,0
+Arabic (Saudi),Male,15,ولاعة,12,produces,0
+Arabic (Saudi),Male,15,ولاعة,12,understands,0
+Arabic (Saudi),Female,16,ولاعة,9,produces,0
+Arabic (Saudi),Female,16,ولاعة,9,understands,0
+Arabic (Saudi),Male,16,ولاعة,9,produces,0
+Arabic (Saudi),Male,16,ولاعة,9,understands,0
+Catalan,Female,16,encenedor,8,produces,0
+Catalan,Female,16,encenedor,8,understands,0
+Catalan,Male,16,encenedor,16,produces,0
+Catalan,Male,16,encenedor,16,understands,0
+Catalan,Female,17,encenedor,22,produces,0
+Catalan,Female,17,encenedor,22,understands,0
+Catalan,Male,17,encenedor,14,produces,0
+Catalan,Male,17,encenedor,14,understands,0
+Catalan,Female,18,encenedor,22,produces,0
+Catalan,Female,18,encenedor,22,understands,0
+Catalan,Male,18,encenedor,29,produces,0
+Catalan,Male,18,encenedor,29,understands,0
+Catalan,Female,19,encenedor,25,produces,0
+Catalan,Female,19,encenedor,25,understands,0
+Catalan,Male,19,encenedor,20,produces,0
+Catalan,Male,19,encenedor,20,understands,0
+Catalan,Female,20,encenedor,28,produces,0
+Catalan,Female,20,encenedor,28,understands,0
+Catalan,Male,20,encenedor,28,produces,0
+Catalan,Male,20,encenedor,28,understands,0
+Catalan,Female,21,encenedor,32,produces,0
+Catalan,Female,21,encenedor,32,understands,0
+Catalan,Male,21,encenedor,26,produces,0
+Catalan,Male,21,encenedor,26,understands,0
+Catalan,Female,22,encenedor,26,produces,0
+Catalan,Female,22,encenedor,26,understands,0
+Catalan,Male,22,encenedor,24,produces,0
+Catalan,Male,22,encenedor,24,understands,0
+Catalan,Female,23,encenedor,35,produces,0.0571
+Catalan,Female,23,encenedor,35,understands,0
+Catalan,Male,23,encenedor,31,produces,0
+Catalan,Male,23,encenedor,31,understands,0
+Catalan,Female,24,encenedor,41,produces,0.122
+Catalan,Female,24,encenedor,41,understands,0
+Catalan,Male,24,encenedor,38,produces,0.0789
+Catalan,Male,24,encenedor,38,understands,0
+Catalan,Female,25,encenedor,30,produces,0.1333
+Catalan,Female,25,encenedor,30,understands,0
+Catalan,Male,25,encenedor,30,produces,0.0667
+Catalan,Male,25,encenedor,30,understands,0
+Catalan,Female,26,encenedor,35,produces,0.0857
+Catalan,Female,26,encenedor,35,understands,0
+Catalan,Male,26,encenedor,30,produces,0.1
+Catalan,Male,26,encenedor,30,understands,0
+Catalan,Female,27,encenedor,36,produces,0.1389
+Catalan,Female,27,encenedor,36,understands,0
+Catalan,Male,27,encenedor,27,produces,0.2222
+Catalan,Male,27,encenedor,27,understands,0
+Catalan,Female,28,encenedor,40,produces,0.2
+Catalan,Female,28,encenedor,40,understands,0
+Catalan,Male,28,encenedor,41,produces,0.1463
+Catalan,Male,28,encenedor,41,understands,0
+Catalan,Female,29,encenedor,25,produces,0.2
+Catalan,Female,29,encenedor,25,understands,0
+Catalan,Male,29,encenedor,25,produces,0.24
+Catalan,Male,29,encenedor,25,understands,0
+Catalan,Female,30,encenedor,24,produces,0.375
+Catalan,Female,30,encenedor,24,understands,0
+Catalan,Male,30,encenedor,51,produces,0.2941
+Catalan,Male,30,encenedor,51,understands,0
+Spanish (European),Female,16,mechero,19,produces,0
+Spanish (European),Female,16,mechero,19,understands,0
+Spanish (European),Male,16,mechero,20,produces,0
+Spanish (European),Male,16,mechero,20,understands,0
+Spanish (European),Female,17,mechero,21,produces,0
+Spanish (European),Female,17,mechero,21,understands,0
+Spanish (European),Male,17,mechero,18,produces,0
+Spanish (European),Male,17,mechero,18,understands,0
+Spanish (European),Female,18,mechero,27,produces,0
+Spanish (European),Female,18,mechero,27,understands,0
+Spanish (European),Male,18,mechero,23,produces,0
+Spanish (European),Male,18,mechero,23,understands,0
+Spanish (European),Female,19,mechero,16,produces,0
+Spanish (European),Female,19,mechero,16,understands,0
+Spanish (European),Male,19,mechero,11,produces,0
+Spanish (European),Male,19,mechero,11,understands,0
+Spanish (European),Female,20,mechero,17,produces,0.1176
+Spanish (European),Female,20,mechero,17,understands,0
+Spanish (European),Male,20,mechero,19,produces,0
+Spanish (European),Male,20,mechero,19,understands,0
+Spanish (European),Female,21,mechero,23,produces,0.1304
+Spanish (European),Female,21,mechero,23,understands,0
+Spanish (European),Male,21,mechero,18,produces,0.0556
+Spanish (European),Male,21,mechero,18,understands,0
+Spanish (European),Female,22,mechero,18,produces,0.0556
+Spanish (European),Female,22,mechero,18,understands,0
+Spanish (European),Male,22,mechero,20,produces,0.1
+Spanish (European),Male,22,mechero,20,understands,0
+Spanish (European),Female,23,mechero,15,produces,0
+Spanish (European),Female,23,mechero,15,understands,0
+Spanish (European),Male,23,mechero,15,produces,0.2
+Spanish (European),Male,23,mechero,15,understands,0
+Spanish (European),Female,24,mechero,31,produces,0.2581
+Spanish (European),Female,24,mechero,31,understands,0
+Spanish (European),Male,24,mechero,24,produces,0.0833
+Spanish (European),Male,24,mechero,24,understands,0
+Spanish (European),Female,25,mechero,16,produces,0.0625
+Spanish (European),Female,25,mechero,16,understands,0
+Spanish (European),Male,25,mechero,19,produces,0.0526
+Spanish (European),Male,25,mechero,19,understands,0
+Spanish (European),Female,26,mechero,22,produces,0.2273
+Spanish (European),Female,26,mechero,22,understands,0
+Spanish (European),Male,26,mechero,27,produces,0.2963
+Spanish (European),Male,26,mechero,27,understands,0
+Spanish (European),Female,27,mechero,16,produces,0.5
+Spanish (European),Female,27,mechero,16,understands,0
+Spanish (European),Male,27,mechero,18,produces,0.4444
+Spanish (European),Male,27,mechero,18,understands,0
+Spanish (European),Female,28,mechero,20,produces,0.2
+Spanish (European),Female,28,mechero,20,understands,0
+Spanish (European),Male,28,mechero,18,produces,0.4444
+Spanish (European),Male,28,mechero,18,understands,0
+Spanish (European),Female,29,mechero,18,produces,0.5556
+Spanish (European),Female,29,mechero,18,understands,0
+Spanish (European),Male,29,mechero,23,produces,0.3478
+Spanish (European),Male,29,mechero,23,understands,0
+Spanish (European),Female,30,mechero,17,produces,0.4706
+Spanish (European),Female,30,mechero,17,understands,0
+Spanish (European),Male,30,mechero,24,produces,0.3333
+Spanish (European),Male,30,mechero,24,understands,0

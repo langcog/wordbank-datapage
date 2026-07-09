@@ -1,111 +1,323 @@
-language,age,words,n,measure,prop
-Portuguese (European),16,Portão,144,produces,0
-Portuguese (European),16,Portão,144,understands,0
-Portuguese (European),17,Portão,158,produces,0.0063
-Portuguese (European),17,Portão,158,understands,0
-Portuguese (European),18,Portão,203,produces,0
-Portuguese (European),18,Portão,203,understands,0
-Portuguese (European),19,Portão,196,produces,0.0306
-Portuguese (European),19,Portão,196,understands,0
-Portuguese (European),20,Portão,218,produces,0.0321
-Portuguese (European),20,Portão,218,understands,0
-Portuguese (European),21,Portão,208,produces,0.0481
-Portuguese (European),21,Portão,208,understands,0
-Portuguese (European),22,Portão,213,produces,0.061
-Portuguese (European),22,Portão,213,understands,0
-Portuguese (European),23,Portão,199,produces,0.0854
-Portuguese (European),23,Portão,199,understands,0
-Portuguese (European),24,Portão,215,produces,0.1442
-Portuguese (European),24,Portão,215,understands,0
-Portuguese (European),25,Portão,213,produces,0.2207
-Portuguese (European),25,Portão,213,understands,0
-Portuguese (European),26,Portão,218,produces,0.1835
-Portuguese (European),26,Portão,218,understands,0
-Portuguese (European),27,Portão,238,produces,0.2353
-Portuguese (European),27,Portão,238,understands,0
-Portuguese (European),28,Portão,219,produces,0.3379
-Portuguese (European),28,Portão,219,understands,0
-Portuguese (European),29,Portão,207,produces,0.3333
-Portuguese (European),29,Portão,207,understands,0
-Portuguese (European),30,Portão,163,produces,0.3252
-Portuguese (European),30,Portão,163,understands,0
-English (Irish),17,gate,2,produces,0
-English (Irish),17,gate,2,understands,0
-English (Irish),18,gate,1,produces,0
-English (Irish),18,gate,1,understands,0
-English (Irish),19,gate,2,produces,0
-English (Irish),19,gate,2,understands,0
-English (Irish),20,gate,1,produces,0
-English (Irish),20,gate,1,understands,0
-English (Irish),21,gate,3,produces,0
-English (Irish),21,gate,3,understands,0
-English (Irish),22,gate,4,produces,0
-English (Irish),22,gate,4,understands,0
-English (Irish),23,gate,4,produces,0.25
-English (Irish),23,gate,4,understands,0
-English (Irish),24,gate,4,produces,0.5
-English (Irish),24,gate,4,understands,0
-English (Irish),25,gate,6,produces,0.1667
-English (Irish),25,gate,6,understands,0
-English (Irish),26,gate,10,produces,0.1
-English (Irish),26,gate,10,understands,0
-English (Irish),27,gate,5,produces,0
-English (Irish),27,gate,5,understands,0
-English (Irish),28,gate,7,produces,0.1429
-English (Irish),28,gate,7,understands,0
-English (Irish),29,gate,4,produces,0.5
-English (Irish),29,gate,4,understands,0
-English (Irish),30,gate,9,produces,0
-English (Irish),30,gate,9,understands,0
-English (Irish),31,gate,8,produces,0.125
-English (Irish),31,gate,8,understands,0
-English (Irish),32,gate,4,produces,0.75
-English (Irish),32,gate,4,understands,0
-English (Irish),33,gate,5,produces,0.2
-English (Irish),33,gate,5,understands,0
-English (Irish),34,gate,4,produces,0.25
-English (Irish),34,gate,4,understands,0
-English (Irish),35,gate,11,produces,0.2727
-English (Irish),35,gate,11,understands,0
-English (Irish),36,gate,5,produces,0
-English (Irish),36,gate,5,understands,0
-Irish,17,geata,2,produces,0
-Irish,17,geata,2,understands,0
-Irish,18,geata,1,produces,0
-Irish,18,geata,1,understands,0
-Irish,19,geata,2,produces,0.5
-Irish,19,geata,2,understands,0
-Irish,20,geata,1,produces,0
-Irish,20,geata,1,understands,0
-Irish,21,geata,3,produces,0
-Irish,21,geata,3,understands,0
-Irish,22,geata,4,produces,0
-Irish,22,geata,4,understands,0
-Irish,23,geata,4,produces,0.25
-Irish,23,geata,4,understands,0
-Irish,24,geata,4,produces,0.5
-Irish,24,geata,4,understands,0
-Irish,25,geata,6,produces,0.1667
-Irish,25,geata,6,understands,0
-Irish,26,geata,10,produces,0.9
-Irish,26,geata,10,understands,0
-Irish,27,geata,5,produces,0.6
-Irish,27,geata,5,understands,0
-Irish,28,geata,7,produces,0.7143
-Irish,28,geata,7,understands,0
-Irish,29,geata,4,produces,0.75
-Irish,29,geata,4,understands,0
-Irish,30,geata,9,produces,1
-Irish,30,geata,9,understands,0
-Irish,31,geata,8,produces,0.875
-Irish,31,geata,8,understands,0
-Irish,32,geata,4,produces,0.75
-Irish,32,geata,4,understands,0
-Irish,33,geata,5,produces,1
-Irish,33,geata,5,understands,0
-Irish,34,geata,4,produces,0.5
-Irish,34,geata,4,understands,0
-Irish,35,geata,11,produces,0.9091
-Irish,35,geata,11,understands,0
-Irish,36,geata,5,produces,0.8
-Irish,36,geata,5,understands,0
+language,sex,age,words,n,measure,prop
+English (Irish),All,17,gate,2,produces,0
+English (Irish),All,17,gate,2,understands,0
+English (Irish),All,18,gate,1,produces,0
+English (Irish),All,18,gate,1,understands,0
+English (Irish),All,19,gate,2,produces,0
+English (Irish),All,19,gate,2,understands,0
+English (Irish),All,20,gate,1,produces,0
+English (Irish),All,20,gate,1,understands,0
+English (Irish),All,21,gate,3,produces,0
+English (Irish),All,21,gate,3,understands,0
+English (Irish),All,22,gate,4,produces,0
+English (Irish),All,22,gate,4,understands,0
+English (Irish),All,23,gate,4,produces,0.25
+English (Irish),All,23,gate,4,understands,0
+English (Irish),All,24,gate,4,produces,0.5
+English (Irish),All,24,gate,4,understands,0
+English (Irish),All,25,gate,6,produces,0.1667
+English (Irish),All,25,gate,6,understands,0
+English (Irish),All,26,gate,10,produces,0.1
+English (Irish),All,26,gate,10,understands,0
+English (Irish),All,27,gate,5,produces,0
+English (Irish),All,27,gate,5,understands,0
+English (Irish),All,28,gate,7,produces,0.1429
+English (Irish),All,28,gate,7,understands,0
+English (Irish),All,29,gate,4,produces,0.5
+English (Irish),All,29,gate,4,understands,0
+English (Irish),All,30,gate,9,produces,0
+English (Irish),All,30,gate,9,understands,0
+English (Irish),All,31,gate,8,produces,0.125
+English (Irish),All,31,gate,8,understands,0
+English (Irish),All,32,gate,4,produces,0.75
+English (Irish),All,32,gate,4,understands,0
+English (Irish),All,33,gate,5,produces,0.2
+English (Irish),All,33,gate,5,understands,0
+English (Irish),All,34,gate,4,produces,0.25
+English (Irish),All,34,gate,4,understands,0
+English (Irish),All,35,gate,11,produces,0.2727
+English (Irish),All,35,gate,11,understands,0
+English (Irish),All,36,gate,5,produces,0
+English (Irish),All,36,gate,5,understands,0
+Irish,All,17,geata,2,produces,0
+Irish,All,17,geata,2,understands,0
+Irish,All,18,geata,1,produces,0
+Irish,All,18,geata,1,understands,0
+Irish,All,19,geata,2,produces,0.5
+Irish,All,19,geata,2,understands,0
+Irish,All,20,geata,1,produces,0
+Irish,All,20,geata,1,understands,0
+Irish,All,21,geata,3,produces,0
+Irish,All,21,geata,3,understands,0
+Irish,All,22,geata,4,produces,0
+Irish,All,22,geata,4,understands,0
+Irish,All,23,geata,4,produces,0.25
+Irish,All,23,geata,4,understands,0
+Irish,All,24,geata,4,produces,0.5
+Irish,All,24,geata,4,understands,0
+Irish,All,25,geata,6,produces,0.1667
+Irish,All,25,geata,6,understands,0
+Irish,All,26,geata,10,produces,0.9
+Irish,All,26,geata,10,understands,0
+Irish,All,27,geata,5,produces,0.6
+Irish,All,27,geata,5,understands,0
+Irish,All,28,geata,7,produces,0.7143
+Irish,All,28,geata,7,understands,0
+Irish,All,29,geata,4,produces,0.75
+Irish,All,29,geata,4,understands,0
+Irish,All,30,geata,9,produces,1
+Irish,All,30,geata,9,understands,0
+Irish,All,31,geata,8,produces,0.875
+Irish,All,31,geata,8,understands,0
+Irish,All,32,geata,4,produces,0.75
+Irish,All,32,geata,4,understands,0
+Irish,All,33,geata,5,produces,1
+Irish,All,33,geata,5,understands,0
+Irish,All,34,geata,4,produces,0.5
+Irish,All,34,geata,4,understands,0
+Irish,All,35,geata,11,produces,0.9091
+Irish,All,35,geata,11,understands,0
+Irish,All,36,geata,5,produces,0.8
+Irish,All,36,geata,5,understands,0
+Portuguese (European),All,16,Portão,144,produces,0
+Portuguese (European),All,16,Portão,144,understands,0
+Portuguese (European),All,17,Portão,158,produces,0.0063
+Portuguese (European),All,17,Portão,158,understands,0
+Portuguese (European),All,18,Portão,203,produces,0
+Portuguese (European),All,18,Portão,203,understands,0
+Portuguese (European),All,19,Portão,196,produces,0.0306
+Portuguese (European),All,19,Portão,196,understands,0
+Portuguese (European),All,20,Portão,218,produces,0.0321
+Portuguese (European),All,20,Portão,218,understands,0
+Portuguese (European),All,21,Portão,208,produces,0.0481
+Portuguese (European),All,21,Portão,208,understands,0
+Portuguese (European),All,22,Portão,213,produces,0.061
+Portuguese (European),All,22,Portão,213,understands,0
+Portuguese (European),All,23,Portão,199,produces,0.0854
+Portuguese (European),All,23,Portão,199,understands,0
+Portuguese (European),All,24,Portão,215,produces,0.1442
+Portuguese (European),All,24,Portão,215,understands,0
+Portuguese (European),All,25,Portão,213,produces,0.2207
+Portuguese (European),All,25,Portão,213,understands,0
+Portuguese (European),All,26,Portão,218,produces,0.1835
+Portuguese (European),All,26,Portão,218,understands,0
+Portuguese (European),All,27,Portão,238,produces,0.2353
+Portuguese (European),All,27,Portão,238,understands,0
+Portuguese (European),All,28,Portão,219,produces,0.3379
+Portuguese (European),All,28,Portão,219,understands,0
+Portuguese (European),All,29,Portão,207,produces,0.3333
+Portuguese (European),All,29,Portão,207,understands,0
+Portuguese (European),All,30,Portão,163,produces,0.3252
+Portuguese (European),All,30,Portão,163,understands,0
+English (Irish),Female,17,gate,1,produces,0
+English (Irish),Female,17,gate,1,understands,0
+English (Irish),Male,17,gate,1,produces,0
+English (Irish),Male,17,gate,1,understands,0
+English (Irish),Female,18,gate,1,produces,0
+English (Irish),Female,18,gate,1,understands,0
+English (Irish),Female,19,gate,1,produces,0
+English (Irish),Female,19,gate,1,understands,0
+English (Irish),Male,19,gate,1,produces,0
+English (Irish),Male,19,gate,1,understands,0
+English (Irish),Female,20,gate,1,produces,0
+English (Irish),Female,20,gate,1,understands,0
+English (Irish),Female,21,gate,2,produces,0
+English (Irish),Female,21,gate,2,understands,0
+English (Irish),Male,21,gate,1,produces,0
+English (Irish),Male,21,gate,1,understands,0
+English (Irish),Female,22,gate,3,produces,0
+English (Irish),Female,22,gate,3,understands,0
+English (Irish),Male,22,gate,1,produces,0
+English (Irish),Male,22,gate,1,understands,0
+English (Irish),Female,23,gate,2,produces,0.5
+English (Irish),Female,23,gate,2,understands,0
+English (Irish),Male,23,gate,2,produces,0
+English (Irish),Male,23,gate,2,understands,0
+English (Irish),Female,24,gate,2,produces,1
+English (Irish),Female,24,gate,2,understands,0
+English (Irish),Male,24,gate,2,produces,0
+English (Irish),Male,24,gate,2,understands,0
+English (Irish),Female,25,gate,3,produces,0
+English (Irish),Female,25,gate,3,understands,0
+English (Irish),Male,25,gate,3,produces,0.3333
+English (Irish),Male,25,gate,3,understands,0
+English (Irish),Female,26,gate,7,produces,0
+English (Irish),Female,26,gate,7,understands,0
+English (Irish),Male,26,gate,3,produces,0.3333
+English (Irish),Male,26,gate,3,understands,0
+English (Irish),Female,27,gate,1,produces,0
+English (Irish),Female,27,gate,1,understands,0
+English (Irish),Male,27,gate,4,produces,0
+English (Irish),Male,27,gate,4,understands,0
+English (Irish),Female,28,gate,4,produces,0
+English (Irish),Female,28,gate,4,understands,0
+English (Irish),Male,28,gate,3,produces,0.3333
+English (Irish),Male,28,gate,3,understands,0
+English (Irish),Female,29,gate,1,produces,0
+English (Irish),Female,29,gate,1,understands,0
+English (Irish),Male,29,gate,3,produces,0.6667
+English (Irish),Male,29,gate,3,understands,0
+English (Irish),Female,30,gate,5,produces,0
+English (Irish),Female,30,gate,5,understands,0
+English (Irish),Male,30,gate,4,produces,0
+English (Irish),Male,30,gate,4,understands,0
+English (Irish),Female,31,gate,3,produces,0
+English (Irish),Female,31,gate,3,understands,0
+English (Irish),Male,31,gate,5,produces,0.2
+English (Irish),Male,31,gate,5,understands,0
+English (Irish),Female,32,gate,2,produces,0.5
+English (Irish),Female,32,gate,2,understands,0
+English (Irish),Male,32,gate,2,produces,1
+English (Irish),Male,32,gate,2,understands,0
+English (Irish),Female,33,gate,1,produces,0
+English (Irish),Female,33,gate,1,understands,0
+English (Irish),Male,33,gate,4,produces,0.25
+English (Irish),Male,33,gate,4,understands,0
+English (Irish),Female,34,gate,2,produces,0
+English (Irish),Female,34,gate,2,understands,0
+English (Irish),Male,34,gate,2,produces,0.5
+English (Irish),Male,34,gate,2,understands,0
+English (Irish),Female,35,gate,2,produces,0
+English (Irish),Female,35,gate,2,understands,0
+English (Irish),Male,35,gate,9,produces,0.3333
+English (Irish),Male,35,gate,9,understands,0
+English (Irish),Female,36,gate,3,produces,0
+English (Irish),Female,36,gate,3,understands,0
+English (Irish),Male,36,gate,2,produces,0
+English (Irish),Male,36,gate,2,understands,0
+Irish,Female,17,geata,1,produces,0
+Irish,Female,17,geata,1,understands,0
+Irish,Male,17,geata,1,produces,0
+Irish,Male,17,geata,1,understands,0
+Irish,Female,18,geata,1,produces,0
+Irish,Female,18,geata,1,understands,0
+Irish,Female,19,geata,1,produces,0
+Irish,Female,19,geata,1,understands,0
+Irish,Male,19,geata,1,produces,1
+Irish,Male,19,geata,1,understands,0
+Irish,Female,20,geata,1,produces,0
+Irish,Female,20,geata,1,understands,0
+Irish,Female,21,geata,2,produces,0
+Irish,Female,21,geata,2,understands,0
+Irish,Male,21,geata,1,produces,0
+Irish,Male,21,geata,1,understands,0
+Irish,Female,22,geata,3,produces,0
+Irish,Female,22,geata,3,understands,0
+Irish,Male,22,geata,1,produces,0
+Irish,Male,22,geata,1,understands,0
+Irish,Female,23,geata,2,produces,0
+Irish,Female,23,geata,2,understands,0
+Irish,Male,23,geata,2,produces,0.5
+Irish,Male,23,geata,2,understands,0
+Irish,Female,24,geata,2,produces,0.5
+Irish,Female,24,geata,2,understands,0
+Irish,Male,24,geata,2,produces,0.5
+Irish,Male,24,geata,2,understands,0
+Irish,Female,25,geata,3,produces,0
+Irish,Female,25,geata,3,understands,0
+Irish,Male,25,geata,3,produces,0.3333
+Irish,Male,25,geata,3,understands,0
+Irish,Female,26,geata,7,produces,0.8571
+Irish,Female,26,geata,7,understands,0
+Irish,Male,26,geata,3,produces,1
+Irish,Male,26,geata,3,understands,0
+Irish,Female,27,geata,1,produces,0
+Irish,Female,27,geata,1,understands,0
+Irish,Male,27,geata,4,produces,0.75
+Irish,Male,27,geata,4,understands,0
+Irish,Female,28,geata,4,produces,0.75
+Irish,Female,28,geata,4,understands,0
+Irish,Male,28,geata,3,produces,0.6667
+Irish,Male,28,geata,3,understands,0
+Irish,Female,29,geata,1,produces,1
+Irish,Female,29,geata,1,understands,0
+Irish,Male,29,geata,3,produces,0.6667
+Irish,Male,29,geata,3,understands,0
+Irish,Female,30,geata,5,produces,1
+Irish,Female,30,geata,5,understands,0
+Irish,Male,30,geata,4,produces,1
+Irish,Male,30,geata,4,understands,0
+Irish,Female,31,geata,3,produces,1
+Irish,Female,31,geata,3,understands,0
+Irish,Male,31,geata,5,produces,0.8
+Irish,Male,31,geata,5,understands,0
+Irish,Female,32,geata,2,produces,0.5
+Irish,Female,32,geata,2,understands,0
+Irish,Male,32,geata,2,produces,1
+Irish,Male,32,geata,2,understands,0
+Irish,Female,33,geata,1,produces,1
+Irish,Female,33,geata,1,understands,0
+Irish,Male,33,geata,4,produces,1
+Irish,Male,33,geata,4,understands,0
+Irish,Female,34,geata,2,produces,0
+Irish,Female,34,geata,2,understands,0
+Irish,Male,34,geata,2,produces,1
+Irish,Male,34,geata,2,understands,0
+Irish,Female,35,geata,2,produces,0.5
+Irish,Female,35,geata,2,understands,0
+Irish,Male,35,geata,9,produces,1
+Irish,Male,35,geata,9,understands,0
+Irish,Female,36,geata,3,produces,0.6667
+Irish,Female,36,geata,3,understands,0
+Irish,Male,36,geata,2,produces,1
+Irish,Male,36,geata,2,understands,0
+Portuguese (European),Female,16,Portão,71,produces,0
+Portuguese (European),Female,16,Portão,71,understands,0
+Portuguese (European),Male,16,Portão,73,produces,0
+Portuguese (European),Male,16,Portão,73,understands,0
+Portuguese (European),Female,17,Portão,62,produces,0
+Portuguese (European),Female,17,Portão,62,understands,0
+Portuguese (European),Male,17,Portão,96,produces,0.0104
+Portuguese (European),Male,17,Portão,96,understands,0
+Portuguese (European),Female,18,Portão,102,produces,0
+Portuguese (European),Female,18,Portão,102,understands,0
+Portuguese (European),Male,18,Portão,101,produces,0
+Portuguese (European),Male,18,Portão,101,understands,0
+Portuguese (European),Female,19,Portão,97,produces,0.0103
+Portuguese (European),Female,19,Portão,97,understands,0
+Portuguese (European),Male,19,Portão,99,produces,0.0505
+Portuguese (European),Male,19,Portão,99,understands,0
+Portuguese (European),Female,20,Portão,115,produces,0.0261
+Portuguese (European),Female,20,Portão,115,understands,0
+Portuguese (European),Male,20,Portão,103,produces,0.0388
+Portuguese (European),Male,20,Portão,103,understands,0
+Portuguese (European),Female,21,Portão,93,produces,0.0538
+Portuguese (European),Female,21,Portão,93,understands,0
+Portuguese (European),Male,21,Portão,115,produces,0.0435
+Portuguese (European),Male,21,Portão,115,understands,0
+Portuguese (European),Female,22,Portão,117,produces,0.0513
+Portuguese (European),Female,22,Portão,117,understands,0
+Portuguese (European),Male,22,Portão,96,produces,0.0729
+Portuguese (European),Male,22,Portão,96,understands,0
+Portuguese (European),Female,23,Portão,94,produces,0.117
+Portuguese (European),Female,23,Portão,94,understands,0
+Portuguese (European),Male,23,Portão,105,produces,0.0571
+Portuguese (European),Male,23,Portão,105,understands,0
+Portuguese (European),Female,24,Portão,88,produces,0.1364
+Portuguese (European),Female,24,Portão,88,understands,0
+Portuguese (European),Male,24,Portão,127,produces,0.1496
+Portuguese (European),Male,24,Portão,127,understands,0
+Portuguese (European),Female,25,Portão,110,produces,0.2636
+Portuguese (European),Female,25,Portão,110,understands,0
+Portuguese (European),Male,25,Portão,103,produces,0.1748
+Portuguese (European),Male,25,Portão,103,understands,0
+Portuguese (European),Female,26,Portão,96,produces,0.1562
+Portuguese (European),Female,26,Portão,96,understands,0
+Portuguese (European),Male,26,Portão,122,produces,0.2049
+Portuguese (European),Male,26,Portão,122,understands,0
+Portuguese (European),Female,27,Portão,109,produces,0.2569
+Portuguese (European),Female,27,Portão,109,understands,0
+Portuguese (European),Male,27,Portão,129,produces,0.2171
+Portuguese (European),Male,27,Portão,129,understands,0
+Portuguese (European),Female,28,Portão,91,produces,0.3736
+Portuguese (European),Female,28,Portão,91,understands,0
+Portuguese (European),Male,28,Portão,128,produces,0.3125
+Portuguese (European),Male,28,Portão,128,understands,0
+Portuguese (European),Female,29,Portão,98,produces,0.3571
+Portuguese (European),Female,29,Portão,98,understands,0
+Portuguese (European),Male,29,Portão,109,produces,0.3119
+Portuguese (European),Male,29,Portão,109,understands,0
+Portuguese (European),Female,30,Portão,81,produces,0.321
+Portuguese (European),Female,30,Portão,81,understands,0
+Portuguese (European),Male,30,Portão,82,produces,0.3293
+Portuguese (European),Male,30,Portão,82,understands,0

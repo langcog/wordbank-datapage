@@ -1,89 +1,261 @@
-language,age,words,n,measure,prop
-Turkish,16,Kaza,109,produces,0.0092
-Turkish,16,Kaza,109,understands,0
-Turkish,17,Kaza,107,produces,0.028
-Turkish,17,Kaza,107,understands,0
-Turkish,18,Kaza,128,produces,0.0312
-Turkish,18,Kaza,128,understands,0
-Turkish,19,Kaza,121,produces,0.0661
-Turkish,19,Kaza,121,understands,0
-Turkish,20,Kaza,119,produces,0.0588
-Turkish,20,Kaza,119,understands,0
-Turkish,21,Kaza,124,produces,0.1048
-Turkish,21,Kaza,124,understands,0
-Turkish,22,Kaza,126,produces,0.0794
-Turkish,22,Kaza,126,understands,0
-Turkish,23,Kaza,131,produces,0.1298
-Turkish,23,Kaza,131,understands,0
-Turkish,24,Kaza,106,produces,0.217
-Turkish,24,Kaza,106,understands,0
-Turkish,25,Kaza,123,produces,0.3008
-Turkish,25,Kaza,123,understands,0
-Turkish,26,Kaza,123,produces,0.2683
-Turkish,26,Kaza,123,understands,0
-Turkish,27,Kaza,108,produces,0.287
-Turkish,27,Kaza,108,understands,0
-Turkish,28,Kaza,112,produces,0.3929
-Turkish,28,Kaza,112,understands,0
-Turkish,29,Kaza,119,produces,0.4286
-Turkish,29,Kaza,119,understands,0
-Turkish,30,Kaza,104,produces,0.5288
-Turkish,30,Kaza,104,understands,0
-Turkish,31,Kaza,101,produces,0.4752
-Turkish,31,Kaza,101,understands,0
-Turkish,32,Kaza,132,produces,0.5758
-Turkish,32,Kaza,132,understands,0
-Turkish,33,Kaza,114,produces,0.6053
-Turkish,33,Kaza,114,understands,0
-Turkish,34,Kaza,107,produces,0.6449
-Turkish,34,Kaza,107,understands,0
-Turkish,35,Kaza,131,produces,0.7099
-Turkish,35,Kaza,131,understands,0
-Turkish,36,Kaza,77,produces,0.7792
-Turkish,36,Kaza,77,understands,0
-Dutch,28,ongeval,1,produces,0
-Dutch,28,ongeval,1,understands,0
-Dutch,29,ongeval,48,produces,0.2708
-Dutch,29,ongeval,48,understands,0
-Dutch,30,ongeval,21,produces,0.3333
-Dutch,30,ongeval,21,understands,0
-Dutch,31,ongeval,5,produces,0.4
-Dutch,31,ongeval,5,understands,0
-Dutch,32,ongeval,5,produces,0.4
-Dutch,32,ongeval,5,understands,0
-Dutch,33,ongeval,3,produces,1
-Dutch,33,ongeval,3,understands,0
-Dutch,34,ongeval,5,produces,0.8
-Dutch,34,ongeval,5,understands,0
-Dutch,35,ongeval,3,produces,0.3333
-Dutch,35,ongeval,3,understands,0
-Dutch,36,ongeval,6,produces,0.5
-Dutch,36,ongeval,6,understands,0
-English (British),34,accident,443,produces,0.6163
-English (British),34,accident,443,understands,0
-English (British),35,accident,3693,produces,0.6279
-English (British),35,accident,3693,understands,0
-English (British),36,accident,5244,produces,0.6644
-English (British),36,accident,5244,understands,0
-English (British),37,accident,906,produces,0.6534
-English (British),37,accident,906,understands,0
-English (British),38,accident,264,produces,0.6553
-English (British),38,accident,264,understands,0
-English (British),39,accident,99,produces,0.7778
-English (British),39,accident,99,understands,0
-English (British),40,accident,48,produces,0.5625
-English (British),40,accident,48,understands,0
-English (British),41,accident,24,produces,0.7917
-English (British),41,accident,24,understands,0
-English (British),42,accident,23,produces,0.7826
-English (British),42,accident,23,understands,0
-English (British),43,accident,12,produces,0.75
-English (British),43,accident,12,understands,0
-English (British),44,accident,9,produces,0.6667
-English (British),44,accident,9,understands,0
-English (British),45,accident,12,produces,0.75
-English (British),45,accident,12,understands,0
-English (British),46,accident,5,produces,0
-English (British),46,accident,5,understands,0
-English (British),47,accident,8,produces,0.75
-English (British),47,accident,8,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,28,ongeval,1,produces,0
+Dutch,All,28,ongeval,1,understands,0
+Dutch,All,29,ongeval,48,produces,0.2708
+Dutch,All,29,ongeval,48,understands,0
+Dutch,All,30,ongeval,21,produces,0.3333
+Dutch,All,30,ongeval,21,understands,0
+Dutch,All,31,ongeval,5,produces,0.4
+Dutch,All,31,ongeval,5,understands,0
+Dutch,All,32,ongeval,5,produces,0.4
+Dutch,All,32,ongeval,5,understands,0
+Dutch,All,33,ongeval,3,produces,1
+Dutch,All,33,ongeval,3,understands,0
+Dutch,All,34,ongeval,5,produces,0.8
+Dutch,All,34,ongeval,5,understands,0
+Dutch,All,35,ongeval,3,produces,0.3333
+Dutch,All,35,ongeval,3,understands,0
+Dutch,All,36,ongeval,6,produces,0.5
+Dutch,All,36,ongeval,6,understands,0
+English (British),All,34,accident,443,produces,0.6163
+English (British),All,34,accident,443,understands,0
+English (British),All,35,accident,3693,produces,0.6279
+English (British),All,35,accident,3693,understands,0
+English (British),All,36,accident,5244,produces,0.6644
+English (British),All,36,accident,5244,understands,0
+English (British),All,37,accident,906,produces,0.6534
+English (British),All,37,accident,906,understands,0
+English (British),All,38,accident,264,produces,0.6553
+English (British),All,38,accident,264,understands,0
+English (British),All,39,accident,99,produces,0.7778
+English (British),All,39,accident,99,understands,0
+English (British),All,40,accident,48,produces,0.5625
+English (British),All,40,accident,48,understands,0
+English (British),All,41,accident,24,produces,0.7917
+English (British),All,41,accident,24,understands,0
+English (British),All,42,accident,23,produces,0.7826
+English (British),All,42,accident,23,understands,0
+English (British),All,43,accident,12,produces,0.75
+English (British),All,43,accident,12,understands,0
+English (British),All,44,accident,9,produces,0.6667
+English (British),All,44,accident,9,understands,0
+English (British),All,45,accident,12,produces,0.75
+English (British),All,45,accident,12,understands,0
+English (British),All,46,accident,5,produces,0
+English (British),All,46,accident,5,understands,0
+English (British),All,47,accident,8,produces,0.75
+English (British),All,47,accident,8,understands,0
+Turkish,All,16,Kaza,109,produces,0.0092
+Turkish,All,16,Kaza,109,understands,0
+Turkish,All,17,Kaza,107,produces,0.028
+Turkish,All,17,Kaza,107,understands,0
+Turkish,All,18,Kaza,128,produces,0.0312
+Turkish,All,18,Kaza,128,understands,0
+Turkish,All,19,Kaza,121,produces,0.0661
+Turkish,All,19,Kaza,121,understands,0
+Turkish,All,20,Kaza,119,produces,0.0588
+Turkish,All,20,Kaza,119,understands,0
+Turkish,All,21,Kaza,124,produces,0.1048
+Turkish,All,21,Kaza,124,understands,0
+Turkish,All,22,Kaza,126,produces,0.0794
+Turkish,All,22,Kaza,126,understands,0
+Turkish,All,23,Kaza,131,produces,0.1298
+Turkish,All,23,Kaza,131,understands,0
+Turkish,All,24,Kaza,106,produces,0.217
+Turkish,All,24,Kaza,106,understands,0
+Turkish,All,25,Kaza,123,produces,0.3008
+Turkish,All,25,Kaza,123,understands,0
+Turkish,All,26,Kaza,123,produces,0.2683
+Turkish,All,26,Kaza,123,understands,0
+Turkish,All,27,Kaza,108,produces,0.287
+Turkish,All,27,Kaza,108,understands,0
+Turkish,All,28,Kaza,112,produces,0.3929
+Turkish,All,28,Kaza,112,understands,0
+Turkish,All,29,Kaza,119,produces,0.4286
+Turkish,All,29,Kaza,119,understands,0
+Turkish,All,30,Kaza,104,produces,0.5288
+Turkish,All,30,Kaza,104,understands,0
+Turkish,All,31,Kaza,101,produces,0.4752
+Turkish,All,31,Kaza,101,understands,0
+Turkish,All,32,Kaza,132,produces,0.5758
+Turkish,All,32,Kaza,132,understands,0
+Turkish,All,33,Kaza,114,produces,0.6053
+Turkish,All,33,Kaza,114,understands,0
+Turkish,All,34,Kaza,107,produces,0.6449
+Turkish,All,34,Kaza,107,understands,0
+Turkish,All,35,Kaza,131,produces,0.7099
+Turkish,All,35,Kaza,131,understands,0
+Turkish,All,36,Kaza,77,produces,0.7792
+Turkish,All,36,Kaza,77,understands,0
+Dutch,Male,28,ongeval,1,produces,0
+Dutch,Male,28,ongeval,1,understands,0
+Dutch,Female,29,ongeval,15,produces,0.2
+Dutch,Female,29,ongeval,15,understands,0
+Dutch,Male,29,ongeval,12,produces,0.3333
+Dutch,Male,29,ongeval,12,understands,0
+Dutch,Female,30,ongeval,4,produces,0.25
+Dutch,Female,30,ongeval,4,understands,0
+Dutch,Male,30,ongeval,3,produces,0
+Dutch,Male,30,ongeval,3,understands,0
+Dutch,Female,31,ongeval,2,produces,0.5
+Dutch,Female,31,ongeval,2,understands,0
+Dutch,Male,31,ongeval,3,produces,0.3333
+Dutch,Male,31,ongeval,3,understands,0
+Dutch,Female,32,ongeval,1,produces,0
+Dutch,Female,32,ongeval,1,understands,0
+Dutch,Male,32,ongeval,4,produces,0.5
+Dutch,Male,32,ongeval,4,understands,0
+Dutch,Female,33,ongeval,1,produces,1
+Dutch,Female,33,ongeval,1,understands,0
+Dutch,Male,33,ongeval,2,produces,1
+Dutch,Male,33,ongeval,2,understands,0
+Dutch,Male,34,ongeval,4,produces,0.75
+Dutch,Male,34,ongeval,4,understands,0
+Dutch,Female,35,ongeval,1,produces,1
+Dutch,Female,35,ongeval,1,understands,0
+Dutch,Male,35,ongeval,2,produces,0
+Dutch,Male,35,ongeval,2,understands,0
+Dutch,Female,36,ongeval,3,produces,0.6667
+Dutch,Female,36,ongeval,3,understands,0
+Dutch,Male,36,ongeval,3,produces,0.3333
+Dutch,Male,36,ongeval,3,understands,0
+English (British),Female,34,accident,247,produces,0.6032
+English (British),Female,34,accident,247,understands,0
+English (British),Male,34,accident,196,produces,0.6327
+English (British),Male,34,accident,196,understands,0
+English (British),Female,35,accident,1927,produces,0.6497
+English (British),Female,35,accident,1927,understands,0
+English (British),Male,35,accident,1766,produces,0.6042
+English (British),Male,35,accident,1766,understands,0
+English (British),Female,36,accident,2650,produces,0.7064
+English (British),Female,36,accident,2650,understands,0
+English (British),Male,36,accident,2594,produces,0.6214
+English (British),Male,36,accident,2594,understands,0
+English (British),Female,37,accident,434,produces,0.6567
+English (British),Female,37,accident,434,understands,0
+English (British),Male,37,accident,472,produces,0.6504
+English (British),Male,37,accident,472,understands,0
+English (British),Female,38,accident,136,produces,0.6103
+English (British),Female,38,accident,136,understands,0
+English (British),Male,38,accident,128,produces,0.7031
+English (British),Male,38,accident,128,understands,0
+English (British),Female,39,accident,52,produces,0.7692
+English (British),Female,39,accident,52,understands,0
+English (British),Male,39,accident,47,produces,0.7872
+English (British),Male,39,accident,47,understands,0
+English (British),Female,40,accident,29,produces,0.5862
+English (British),Female,40,accident,29,understands,0
+English (British),Male,40,accident,19,produces,0.5263
+English (British),Male,40,accident,19,understands,0
+English (British),Female,41,accident,10,produces,0.8
+English (British),Female,41,accident,10,understands,0
+English (British),Male,41,accident,14,produces,0.7857
+English (British),Male,41,accident,14,understands,0
+English (British),Female,42,accident,10,produces,0.8
+English (British),Female,42,accident,10,understands,0
+English (British),Male,42,accident,13,produces,0.7692
+English (British),Male,42,accident,13,understands,0
+English (British),Female,43,accident,3,produces,0
+English (British),Female,43,accident,3,understands,0
+English (British),Male,43,accident,9,produces,1
+English (British),Male,43,accident,9,understands,0
+English (British),Female,44,accident,4,produces,0.75
+English (British),Female,44,accident,4,understands,0
+English (British),Male,44,accident,5,produces,0.6
+English (British),Male,44,accident,5,understands,0
+English (British),Female,45,accident,8,produces,0.75
+English (British),Female,45,accident,8,understands,0
+English (British),Male,45,accident,4,produces,0.75
+English (British),Male,45,accident,4,understands,0
+English (British),Female,46,accident,3,produces,0
+English (British),Female,46,accident,3,understands,0
+English (British),Male,46,accident,2,produces,0
+English (British),Male,46,accident,2,understands,0
+English (British),Female,47,accident,5,produces,0.8
+English (British),Female,47,accident,5,understands,0
+English (British),Male,47,accident,3,produces,0.6667
+English (British),Male,47,accident,3,understands,0
+Turkish,Female,16,Kaza,60,produces,0.0167
+Turkish,Female,16,Kaza,60,understands,0
+Turkish,Male,16,Kaza,49,produces,0
+Turkish,Male,16,Kaza,49,understands,0
+Turkish,Female,17,Kaza,50,produces,0.04
+Turkish,Female,17,Kaza,50,understands,0
+Turkish,Male,17,Kaza,57,produces,0.0175
+Turkish,Male,17,Kaza,57,understands,0
+Turkish,Female,18,Kaza,65,produces,0.0615
+Turkish,Female,18,Kaza,65,understands,0
+Turkish,Male,18,Kaza,63,produces,0
+Turkish,Male,18,Kaza,63,understands,0
+Turkish,Female,19,Kaza,63,produces,0.0794
+Turkish,Female,19,Kaza,63,understands,0
+Turkish,Male,19,Kaza,58,produces,0.0517
+Turkish,Male,19,Kaza,58,understands,0
+Turkish,Female,20,Kaza,60,produces,0.0333
+Turkish,Female,20,Kaza,60,understands,0
+Turkish,Male,20,Kaza,59,produces,0.0847
+Turkish,Male,20,Kaza,59,understands,0
+Turkish,Female,21,Kaza,55,produces,0.2
+Turkish,Female,21,Kaza,55,understands,0
+Turkish,Male,21,Kaza,69,produces,0.029
+Turkish,Male,21,Kaza,69,understands,0
+Turkish,Female,22,Kaza,58,produces,0.0517
+Turkish,Female,22,Kaza,58,understands,0
+Turkish,Male,22,Kaza,68,produces,0.1029
+Turkish,Male,22,Kaza,68,understands,0
+Turkish,Female,23,Kaza,71,produces,0.1268
+Turkish,Female,23,Kaza,71,understands,0
+Turkish,Male,23,Kaza,60,produces,0.1333
+Turkish,Male,23,Kaza,60,understands,0
+Turkish,Female,24,Kaza,54,produces,0.2037
+Turkish,Female,24,Kaza,54,understands,0
+Turkish,Male,24,Kaza,52,produces,0.2308
+Turkish,Male,24,Kaza,52,understands,0
+Turkish,Female,25,Kaza,63,produces,0.2698
+Turkish,Female,25,Kaza,63,understands,0
+Turkish,Male,25,Kaza,60,produces,0.3333
+Turkish,Male,25,Kaza,60,understands,0
+Turkish,Female,26,Kaza,60,produces,0.3167
+Turkish,Female,26,Kaza,60,understands,0
+Turkish,Male,26,Kaza,63,produces,0.2222
+Turkish,Male,26,Kaza,63,understands,0
+Turkish,Female,27,Kaza,56,produces,0.2679
+Turkish,Female,27,Kaza,56,understands,0
+Turkish,Male,27,Kaza,52,produces,0.3077
+Turkish,Male,27,Kaza,52,understands,0
+Turkish,Female,28,Kaza,62,produces,0.371
+Turkish,Female,28,Kaza,62,understands,0
+Turkish,Male,28,Kaza,50,produces,0.42
+Turkish,Male,28,Kaza,50,understands,0
+Turkish,Female,29,Kaza,54,produces,0.4259
+Turkish,Female,29,Kaza,54,understands,0
+Turkish,Male,29,Kaza,65,produces,0.4308
+Turkish,Male,29,Kaza,65,understands,0
+Turkish,Female,30,Kaza,56,produces,0.4286
+Turkish,Female,30,Kaza,56,understands,0
+Turkish,Male,30,Kaza,48,produces,0.6458
+Turkish,Male,30,Kaza,48,understands,0
+Turkish,Female,31,Kaza,62,produces,0.4677
+Turkish,Female,31,Kaza,62,understands,0
+Turkish,Male,31,Kaza,39,produces,0.4872
+Turkish,Male,31,Kaza,39,understands,0
+Turkish,Female,32,Kaza,56,produces,0.6071
+Turkish,Female,32,Kaza,56,understands,0
+Turkish,Male,32,Kaza,76,produces,0.5526
+Turkish,Male,32,Kaza,76,understands,0
+Turkish,Female,33,Kaza,59,produces,0.5085
+Turkish,Female,33,Kaza,59,understands,0
+Turkish,Male,33,Kaza,55,produces,0.7091
+Turkish,Male,33,Kaza,55,understands,0
+Turkish,Female,34,Kaza,56,produces,0.6071
+Turkish,Female,34,Kaza,56,understands,0
+Turkish,Male,34,Kaza,51,produces,0.6863
+Turkish,Male,34,Kaza,51,understands,0
+Turkish,Female,35,Kaza,69,produces,0.7826
+Turkish,Female,35,Kaza,69,understands,0
+Turkish,Male,35,Kaza,62,produces,0.629
+Turkish,Male,35,Kaza,62,understands,0
+Turkish,Female,36,Kaza,36,produces,0.8056
+Turkish,Female,36,Kaza,36,understands,0
+Turkish,Male,36,Kaza,41,produces,0.7561
+Turkish,Male,36,Kaza,41,understands,0

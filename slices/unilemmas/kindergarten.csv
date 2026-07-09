@@ -1,533 +1,1593 @@
-language,age,words,n,measure,prop
-Italian,7,asilo,5,produces,0
-Italian,7,asilo,5,understands,0.2
-Italian,8,asilo,34,produces,0
-Italian,8,asilo,34,understands,0.0294
-Italian,9,asilo,38,produces,0
-Italian,9,asilo,38,understands,0.0789
-Italian,10,asilo,53,produces,0
-Italian,10,asilo,53,understands,0.0755
-Italian,11,asilo,42,produces,0
-Italian,11,asilo,42,understands,0.1667
-Italian,12,asilo,69,produces,0
-Italian,12,asilo,69,understands,0.2464
-Italian,13,asilo,48,produces,0
-Italian,13,asilo,48,understands,0.25
-Italian,14,asilo,40,produces,0
-Italian,14,asilo,40,understands,0.325
-Italian,15,asilo,68,produces,0
-Italian,15,asilo,68,understands,0.3382
-Italian,16,asilo,56,produces,0.0179
-Italian,16,asilo,56,understands,0.4464
-Italian,17,asilo,48,produces,0.0417
-Italian,17,asilo,48,understands,0.7083
-Italian,18,asilo,75,produces,0.12
-Italian,18,asilo,75,understands,0.3867
-Italian,19,asilo,58,produces,0.2241
-Italian,19,asilo,58,understands,0.2931
-Italian,20,asilo,83,produces,0.1566
-Italian,20,asilo,83,understands,0.2048
-Italian,21,asilo,67,produces,0.3881
-Italian,21,asilo,67,understands,0.1642
-Italian,22,asilo,77,produces,0.4545
-Italian,22,asilo,77,understands,0.2857
-Italian,23,asilo,70,produces,0.5429
-Italian,23,asilo,70,understands,0.2286
-Italian,24,asilo,85,produces,0.6471
-Italian,24,asilo,85,understands,0.1529
-Italian,25,asilo,39,produces,0.6154
-Italian,25,asilo,39,understands,0
-Italian,26,asilo,41,produces,0.7073
-Italian,26,asilo,41,understands,0
-Italian,27,asilo,43,produces,0.7674
-Italian,27,asilo,43,understands,0
-Italian,28,asilo,44,produces,0.7727
-Italian,28,asilo,44,understands,0
-Italian,29,asilo,37,produces,0.8919
-Italian,29,asilo,37,understands,0
-Italian,30,asilo,67,produces,0.8806
-Italian,30,asilo,67,understands,0
-Italian,31,asilo,19,produces,0.7895
-Italian,31,asilo,19,understands,0
-Italian,32,asilo,23,produces,0.8696
-Italian,32,asilo,23,understands,0
-Italian,33,asilo,16,produces,1
-Italian,33,asilo,16,understands,0
-Italian,34,asilo,19,produces,0.8421
-Italian,34,asilo,19,understands,0
-Italian,35,asilo,15,produces,0.9333
-Italian,35,asilo,15,understands,0
-Italian,36,asilo,21,produces,0.9048
-Italian,36,asilo,21,understands,0
-Japanese,16,幼稚園,11,produces,0
-Japanese,16,幼稚園,11,understands,0
-Japanese,17,幼稚園,17,produces,0
-Japanese,17,幼稚園,17,understands,0
-Japanese,18,幼稚園,56,produces,0.0179
-Japanese,18,幼稚園,56,understands,0
-Japanese,19,幼稚園,35,produces,0.0286
-Japanese,19,幼稚園,35,understands,0
-Japanese,20,幼稚園,59,produces,0
-Japanese,20,幼稚園,59,understands,0
-Japanese,21,幼稚園,62,produces,0.0161
-Japanese,21,幼稚園,62,understands,0
-Japanese,22,幼稚園,31,produces,0.0645
-Japanese,22,幼稚園,31,understands,0
-Japanese,23,幼稚園,67,produces,0.0299
-Japanese,23,幼稚園,67,understands,0
-Japanese,24,幼稚園,33,produces,0.0606
-Japanese,24,幼稚園,33,understands,0
-Japanese,25,幼稚園,34,produces,0.2353
-Japanese,25,幼稚園,34,understands,0
-Japanese,26,幼稚園,33,produces,0.0909
-Japanese,26,幼稚園,33,understands,0
-Japanese,27,幼稚園,15,produces,0.0667
-Japanese,27,幼稚園,15,understands,0
-Japanese,28,幼稚園,18,produces,0.0556
-Japanese,28,幼稚園,18,understands,0
-Japanese,29,幼稚園,17,produces,0.3529
-Japanese,29,幼稚園,17,understands,0
-Japanese,30,幼稚園,18,produces,0.3889
-Japanese,30,幼稚園,18,understands,0
-Japanese,31,幼稚園,18,produces,0.2778
-Japanese,31,幼稚園,18,understands,0
-Japanese,32,幼稚園,13,produces,0.3846
-Japanese,32,幼稚園,13,understands,0
-Japanese,33,幼稚園,16,produces,0.3125
-Japanese,33,幼稚園,16,understands,0
-Japanese,34,幼稚園,13,produces,0.3846
-Japanese,34,幼稚園,13,understands,0
-Japanese,35,幼稚園,31,produces,0.4194
-Japanese,35,幼稚園,31,understands,0
-Japanese,36,幼稚園,18,produces,0.6111
-Japanese,36,幼稚園,18,understands,0
-Korean,18,유치원,88,produces,0.0795
-Korean,18,유치원,88,understands,0
-Korean,19,유치원,77,produces,0.039
-Korean,19,유치원,77,understands,0
-Korean,20,유치원,88,produces,0.0341
-Korean,20,유치원,88,understands,0
-Korean,21,유치원,79,produces,0.1392
-Korean,21,유치원,79,understands,0
-Korean,22,유치원,87,produces,0.1609
-Korean,22,유치원,87,understands,0
-Korean,23,유치원,87,produces,0.1609
-Korean,23,유치원,87,understands,0
-Korean,24,유치원,107,produces,0.1963
-Korean,24,유치원,107,understands,0
-Korean,25,유치원,95,produces,0.3474
-Korean,25,유치원,95,understands,0
-Korean,26,유치원,91,produces,0.3407
-Korean,26,유치원,91,understands,0
-Korean,27,유치원,104,produces,0.4712
-Korean,27,유치원,104,understands,0
-Korean,28,유치원,89,produces,0.573
-Korean,28,유치원,89,understands,0
-Korean,29,유치원,101,produces,0.5644
-Korean,29,유치원,101,understands,0
-Korean,30,유치원,81,produces,0.6173
-Korean,30,유치원,81,understands,0
-Korean,31,유치원,79,produces,0.6962
-Korean,31,유치원,79,understands,0
-Korean,32,유치원,70,produces,0.7571
-Korean,32,유치원,70,understands,0
-Korean,33,유치원,79,produces,0.7089
-Korean,33,유치원,79,understands,0
-Korean,34,유치원,79,produces,0.8354
-Korean,34,유치원,79,understands,0
-Korean,35,유치원,74,produces,0.7838
-Korean,35,유치원,74,understands,0
-Korean,36,유치원,75,produces,0.8533
-Korean,36,유치원,75,understands,0
-Latvian,17,bērnudārzs,27,produces,0.037
-Latvian,17,bērnudārzs,27,understands,0
-Latvian,18,bērnudārzs,21,produces,0.0476
-Latvian,18,bērnudārzs,21,understands,0
-Latvian,19,bērnudārzs,28,produces,0.0714
-Latvian,19,bērnudārzs,28,understands,0
-Latvian,20,bērnudārzs,34,produces,0.2059
-Latvian,20,bērnudārzs,34,understands,0
-Latvian,21,bērnudārzs,26,produces,0.1923
-Latvian,21,bērnudārzs,26,understands,0
-Latvian,22,bērnudārzs,32,produces,0.2188
-Latvian,22,bērnudārzs,32,understands,0
-Latvian,23,bērnudārzs,25,produces,0.36
-Latvian,23,bērnudārzs,25,understands,0
-Latvian,24,bērnudārzs,30,produces,0.6333
-Latvian,24,bērnudārzs,30,understands,0
-Latvian,25,bērnudārzs,29,produces,0.4828
-Latvian,25,bērnudārzs,29,understands,0
-Latvian,26,bērnudārzs,22,produces,0.5455
-Latvian,26,bērnudārzs,22,understands,0
-Latvian,27,bērnudārzs,18,produces,0.6667
-Latvian,27,bērnudārzs,18,understands,0
-Latvian,28,bērnudārzs,23,produces,0.6522
-Latvian,28,bērnudārzs,23,understands,0
-Latvian,29,bērnudārzs,24,produces,0.5417
-Latvian,29,bērnudārzs,24,understands,0
-Latvian,30,bērnudārzs,26,produces,0.6923
-Latvian,30,bērnudārzs,26,understands,0
-Latvian,31,bērnudārzs,19,produces,0.7895
-Latvian,31,bērnudārzs,19,understands,0
-Latvian,32,bērnudārzs,25,produces,0.76
-Latvian,32,bērnudārzs,25,understands,0
-Latvian,33,bērnudārzs,31,produces,0.8387
-Latvian,33,bērnudārzs,31,understands,0
-Latvian,34,bērnudārzs,17,produces,0.8235
-Latvian,34,bērnudārzs,17,understands,0
-Latvian,35,bērnudārzs,21,produces,0.8571
-Latvian,35,bērnudārzs,21,understands,0
-Latvian,36,bērnudārzs,22,produces,0.8182
-Latvian,36,bērnudārzs,22,understands,0
-Mandarin (Beijing),16,幼儿园/托儿所,70,produces,0
-Mandarin (Beijing),16,幼儿园/托儿所,70,understands,0
-Mandarin (Beijing),17,"幼儿园, 幼儿园/托儿所",112,produces,0.0268
-Mandarin (Beijing),17,"幼儿园, 幼儿园/托儿所",112,understands,0
-Mandarin (Beijing),18,"幼儿园, 幼儿园/托儿所",121,produces,0.0909
-Mandarin (Beijing),18,"幼儿园, 幼儿园/托儿所",121,understands,0
-Mandarin (Beijing),19,"幼儿园, 幼儿园/托儿所",120,produces,0.225
-Mandarin (Beijing),19,"幼儿园, 幼儿园/托儿所",120,understands,0
-Mandarin (Beijing),20,"幼儿园, 幼儿园/托儿所",121,produces,0.2562
-Mandarin (Beijing),20,"幼儿园, 幼儿园/托儿所",121,understands,0
-Mandarin (Beijing),21,"幼儿园, 幼儿园/托儿所",119,produces,0.3025
-Mandarin (Beijing),21,"幼儿园, 幼儿园/托儿所",119,understands,0
-Mandarin (Beijing),22,"幼儿园, 幼儿园/托儿所",117,produces,0.4444
-Mandarin (Beijing),22,"幼儿园, 幼儿园/托儿所",117,understands,0
-Mandarin (Beijing),23,"幼儿园, 幼儿园/托儿所",120,produces,0.575
-Mandarin (Beijing),23,"幼儿园, 幼儿园/托儿所",120,understands,0
-Mandarin (Beijing),24,"幼儿园, 幼儿园/托儿所",120,produces,0.625
-Mandarin (Beijing),24,"幼儿园, 幼儿园/托儿所",120,understands,0
-Mandarin (Beijing),25,"幼儿园, 幼儿园/托儿所",113,produces,0.7257
-Mandarin (Beijing),25,"幼儿园, 幼儿园/托儿所",113,understands,0
-Mandarin (Beijing),26,"幼儿园, 幼儿园/托儿所",118,produces,0.7373
-Mandarin (Beijing),26,"幼儿园, 幼儿园/托儿所",118,understands,0
-Mandarin (Beijing),27,"幼儿园, 幼儿园/托儿所",114,produces,0.8596
-Mandarin (Beijing),27,"幼儿园, 幼儿园/托儿所",114,understands,0
-Mandarin (Beijing),28,"幼儿园, 幼儿园/托儿所",114,produces,0.8596
-Mandarin (Beijing),28,"幼儿园, 幼儿园/托儿所",114,understands,0
-Mandarin (Beijing),29,"幼儿园, 幼儿园/托儿所",119,produces,0.9076
-Mandarin (Beijing),29,"幼儿园, 幼儿园/托儿所",119,understands,0
-Mandarin (Beijing),30,"幼儿园, 幼儿园/托儿所",110,produces,0.9091
-Mandarin (Beijing),30,"幼儿园, 幼儿园/托儿所",110,understands,0
-Portuguese (European),8,Escolinha (creche),126,produces,0
-Portuguese (European),8,Escolinha (creche),126,understands,0.1587
-Portuguese (European),9,Escolinha (creche),148,produces,0
-Portuguese (European),9,Escolinha (creche),148,understands,0.25
-Portuguese (European),10,Escolinha (creche),168,produces,0
-Portuguese (European),10,Escolinha (creche),168,understands,0.3214
-Portuguese (European),11,Escolinha (creche),179,produces,0
-Portuguese (European),11,Escolinha (creche),179,understands,0.2626
-Portuguese (European),12,Escolinha (creche),161,produces,0.0124
-Portuguese (European),12,Escolinha (creche),161,understands,0.4596
-Portuguese (European),13,Escolinha (creche),176,produces,0.0057
-Portuguese (European),13,Escolinha (creche),176,understands,0.4318
-Portuguese (European),14,Escolinha (creche),183,produces,0.0164
-Portuguese (European),14,Escolinha (creche),183,understands,0.5027
-Portuguese (European),15,Escolinha (creche),173,produces,0.0173
-Portuguese (European),15,Escolinha (creche),173,understands,0.526
-Portuguese (European),16,Jardim / Escolinha,144,produces,0.0208
-Portuguese (European),16,Jardim / Escolinha,144,understands,0
-Portuguese (European),17,Jardim / Escolinha,158,produces,0.0127
-Portuguese (European),17,Jardim / Escolinha,158,understands,0
-Portuguese (European),18,Jardim / Escolinha,203,produces,0.0197
-Portuguese (European),18,Jardim / Escolinha,203,understands,0
-Portuguese (European),19,Jardim / Escolinha,196,produces,0.0408
-Portuguese (European),19,Jardim / Escolinha,196,understands,0
-Portuguese (European),20,Jardim / Escolinha,218,produces,0.0826
-Portuguese (European),20,Jardim / Escolinha,218,understands,0
-Portuguese (European),21,Jardim / Escolinha,208,produces,0.1346
-Portuguese (European),21,Jardim / Escolinha,208,understands,0
-Portuguese (European),22,Jardim / Escolinha,213,produces,0.2113
-Portuguese (European),22,Jardim / Escolinha,213,understands,0
-Portuguese (European),23,Jardim / Escolinha,199,produces,0.196
-Portuguese (European),23,Jardim / Escolinha,199,understands,0
-Portuguese (European),24,Jardim / Escolinha,215,produces,0.293
-Portuguese (European),24,Jardim / Escolinha,215,understands,0
-Portuguese (European),25,Jardim / Escolinha,213,produces,0.3897
-Portuguese (European),25,Jardim / Escolinha,213,understands,0
-Portuguese (European),26,Jardim / Escolinha,218,produces,0.3945
-Portuguese (European),26,Jardim / Escolinha,218,understands,0
-Portuguese (European),27,Jardim / Escolinha,238,produces,0.5
-Portuguese (European),27,Jardim / Escolinha,238,understands,0
-Portuguese (European),28,Jardim / Escolinha,219,produces,0.5479
-Portuguese (European),28,Jardim / Escolinha,219,understands,0
-Portuguese (European),29,Jardim / Escolinha,207,produces,0.5411
-Portuguese (European),29,Jardim / Escolinha,207,understands,0
-Portuguese (European),30,Jardim / Escolinha,163,produces,0.5583
-Portuguese (European),30,Jardim / Escolinha,163,understands,0
-Russian,18,детский сад,42,produces,0
-Russian,18,детский сад,42,understands,0
-Russian,19,детский сад,41,produces,0.0976
-Russian,19,детский сад,41,understands,0
-Russian,20,детский сад,45,produces,0.0667
-Russian,20,детский сад,45,understands,0
-Russian,21,детский сад,43,produces,0.2558
-Russian,21,детский сад,43,understands,0
-Russian,22,детский сад,51,produces,0.1961
-Russian,22,детский сад,51,understands,0
-Russian,23,детский сад,56,produces,0.3214
-Russian,23,детский сад,56,understands,0
-Russian,24,детский сад,61,produces,0.377
-Russian,24,детский сад,61,understands,0
-Russian,25,детский сад,66,produces,0.4091
-Russian,25,детский сад,66,understands,0
-Russian,26,детский сад,52,produces,0.4423
-Russian,26,детский сад,52,understands,0
-Russian,27,детский сад,60,produces,0.6
-Russian,27,детский сад,60,understands,0
-Russian,28,детский сад,60,produces,0.6
-Russian,28,детский сад,60,understands,0
-Russian,29,детский сад,58,produces,0.6724
-Russian,29,детский сад,58,understands,0
-Russian,30,детский сад,77,produces,0.7273
-Russian,30,детский сад,77,understands,0
-Russian,31,детский сад,61,produces,0.623
-Russian,31,детский сад,61,understands,0
-Russian,32,детский сад,55,produces,0.8
-Russian,32,детский сад,55,understands,0
-Russian,33,детский сад,55,produces,0.8364
-Russian,33,детский сад,55,understands,0
-Russian,34,детский сад,58,produces,0.8276
-Russian,34,детский сад,58,understands,0
-Russian,35,детский сад,47,produces,0.7872
-Russian,35,детский сад,47,understands,0
-Russian,36,детский сад,49,produces,0.8163
-Russian,36,детский сад,49,understands,0
-Slovak,17,škôlka,70,produces,0.0857
-Slovak,17,škôlka,70,understands,0
-Slovak,18,škôlka,65,produces,0.0769
-Slovak,18,škôlka,65,understands,0
-Slovak,19,škôlka,56,produces,0.1429
-Slovak,19,škôlka,56,understands,0
-Slovak,20,škôlka,62,produces,0.2742
-Slovak,20,škôlka,62,understands,0
-Slovak,21,škôlka,81,produces,0.2593
-Slovak,21,škôlka,81,understands,0
-Slovak,22,škôlka,53,produces,0.3396
-Slovak,22,škôlka,53,understands,0
-Slovak,23,škôlka,59,produces,0.3559
-Slovak,23,škôlka,59,understands,0
-Slovak,24,škôlka,59,produces,0.5085
-Slovak,24,škôlka,59,understands,0
-Slovak,25,škôlka,69,produces,0.4493
-Slovak,25,škôlka,69,understands,0
-Slovak,26,škôlka,78,produces,0.6923
-Slovak,26,škôlka,78,understands,0
-Slovak,27,škôlka,62,produces,0.7258
-Slovak,27,škôlka,62,understands,0
-Slovak,28,škôlka,86,produces,0.6279
-Slovak,28,škôlka,86,understands,0
-Slovak,29,škôlka,75,produces,0.6933
-Slovak,29,škôlka,75,understands,0
-Slovak,30,škôlka,49,produces,0.6735
-Slovak,30,škôlka,49,understands,0
-Slovak,31,škôlka,29,produces,0.6552
-Slovak,31,škôlka,29,understands,0
-Slovak,32,škôlka,25,produces,0.84
-Slovak,32,škôlka,25,understands,0
-Slovak,33,škôlka,22,produces,0.8636
-Slovak,33,škôlka,22,understands,0
-Slovak,34,škôlka,27,produces,0.7407
-Slovak,34,škôlka,27,understands,0
-Slovak,35,škôlka,27,produces,0.7407
-Slovak,35,škôlka,27,understands,0
-Slovak,36,škôlka,8,produces,0.875
-Slovak,36,škôlka,8,understands,0
-Spanish (European),16,guardería,39,produces,0
-Spanish (European),16,guardería,39,understands,0
-Spanish (European),17,guardería,39,produces,0.0513
-Spanish (European),17,guardería,39,understands,0
-Spanish (European),18,guardería,50,produces,0.04
-Spanish (European),18,guardería,50,understands,0
-Spanish (European),19,guardería,27,produces,0
-Spanish (European),19,guardería,27,understands,0
-Spanish (European),20,guardería,36,produces,0.0556
-Spanish (European),20,guardería,36,understands,0
-Spanish (European),21,guardería,41,produces,0.0244
-Spanish (European),21,guardería,41,understands,0
-Spanish (European),22,guardería,38,produces,0.1579
-Spanish (European),22,guardería,38,understands,0
-Spanish (European),23,guardería,30,produces,0.2
-Spanish (European),23,guardería,30,understands,0
-Spanish (European),24,guardería,55,produces,0.2909
-Spanish (European),24,guardería,55,understands,0
-Spanish (European),25,guardería,35,produces,0.2571
-Spanish (European),25,guardería,35,understands,0
-Spanish (European),26,guardería,49,produces,0.3265
-Spanish (European),26,guardería,49,understands,0
-Spanish (European),27,guardería,34,produces,0.4412
-Spanish (European),27,guardería,34,understands,0
-Spanish (European),28,guardería,38,produces,0.4474
-Spanish (European),28,guardería,38,understands,0
-Spanish (European),29,guardería,41,produces,0.5854
-Spanish (European),29,guardería,41,understands,0
-Spanish (European),30,guardería,41,produces,0.5122
-Spanish (European),30,guardería,41,understands,0
-Swedish,8,dagis,26,produces,0
-Swedish,8,dagis,26,understands,0
-Swedish,9,dagis,2,produces,0
-Swedish,9,dagis,2,understands,0
-Swedish,10,dagis,54,produces,0
-Swedish,10,dagis,54,understands,0
-Swedish,11,dagis,3,produces,0
-Swedish,11,dagis,3,understands,0
-Swedish,12,dagis,79,produces,0
-Swedish,12,dagis,79,understands,0.0127
-Swedish,13,dagis,7,produces,0
-Swedish,13,dagis,7,understands,0
-Swedish,14,dagis,124,produces,0
-Swedish,14,dagis,124,understands,0.0726
-Swedish,15,dagis,13,produces,0
-Swedish,15,dagis,13,understands,0.0769
-Swedish,16,dagis,159,produces,0.0189
-Swedish,16,dagis,159,understands,0.1258
-Croatian,16,vrtić,13,produces,0
-Croatian,16,vrtić,13,understands,0
-Croatian,17,vrtić,25,produces,0.08
-Croatian,17,vrtić,25,understands,0
-Croatian,18,vrtić,22,produces,0
-Croatian,18,vrtić,22,understands,0
-Croatian,19,vrtić,21,produces,0.0476
-Croatian,19,vrtić,21,understands,0
-Croatian,20,vrtić,26,produces,0.1154
-Croatian,20,vrtić,26,understands,0
-Croatian,21,vrtić,29,produces,0.2414
-Croatian,21,vrtić,29,understands,0
-Croatian,22,vrtić,24,produces,0.375
-Croatian,22,vrtić,24,understands,0
-Croatian,23,vrtić,26,produces,0.3846
-Croatian,23,vrtić,26,understands,0
-Croatian,24,vrtić,30,produces,0.4333
-Croatian,24,vrtić,30,understands,0
-Croatian,25,vrtić,30,produces,0.5
-Croatian,25,vrtić,30,understands,0
-Croatian,26,vrtić,29,produces,0.6552
-Croatian,26,vrtić,29,understands,0
-Croatian,27,vrtić,25,produces,0.72
-Croatian,27,vrtić,25,understands,0
-Croatian,28,vrtić,21,produces,0.7619
-Croatian,28,vrtić,21,understands,0
-Croatian,29,vrtić,28,produces,0.7143
-Croatian,29,vrtić,28,understands,0
-Croatian,30,vrtić,28,produces,0.6786
-Croatian,30,vrtić,28,understands,0
-English (Irish),17,playschool,2,produces,0
-English (Irish),17,playschool,2,understands,0
-English (Irish),18,playschool,1,produces,0
-English (Irish),18,playschool,1,understands,0
-English (Irish),19,playschool,2,produces,0
-English (Irish),19,playschool,2,understands,0
-English (Irish),20,playschool,1,produces,0
-English (Irish),20,playschool,1,understands,0
-English (Irish),21,playschool,3,produces,0
-English (Irish),21,playschool,3,understands,0
-English (Irish),22,playschool,4,produces,0
-English (Irish),22,playschool,4,understands,0
-English (Irish),23,playschool,4,produces,0
-English (Irish),23,playschool,4,understands,0
-English (Irish),24,playschool,4,produces,0.25
-English (Irish),24,playschool,4,understands,0
-English (Irish),25,playschool,6,produces,0.1667
-English (Irish),25,playschool,6,understands,0
-English (Irish),26,playschool,10,produces,0.1
-English (Irish),26,playschool,10,understands,0
-English (Irish),27,playschool,5,produces,0
-English (Irish),27,playschool,5,understands,0
-English (Irish),28,playschool,7,produces,0
-English (Irish),28,playschool,7,understands,0
-English (Irish),29,playschool,4,produces,0
-English (Irish),29,playschool,4,understands,0
-English (Irish),30,playschool,9,produces,0.1111
-English (Irish),30,playschool,9,understands,0
-English (Irish),31,playschool,8,produces,0.25
-English (Irish),31,playschool,8,understands,0
-English (Irish),32,playschool,4,produces,0
-English (Irish),32,playschool,4,understands,0
-English (Irish),33,playschool,5,produces,0.2
-English (Irish),33,playschool,5,understands,0
-English (Irish),34,playschool,4,produces,0
-English (Irish),34,playschool,4,understands,0
-English (Irish),35,playschool,11,produces,0.0909
-English (Irish),35,playschool,11,understands,0
-English (Irish),36,playschool,5,produces,0
-English (Irish),36,playschool,5,understands,0
-Estonian,16,lasteaed,36,produces,0.0278
-Estonian,16,lasteaed,36,understands,0
-Estonian,17,lasteaed,89,produces,0
-Estonian,17,lasteaed,89,understands,0
-Estonian,18,lasteaed,103,produces,0.0485
-Estonian,18,lasteaed,103,understands,0
-Estonian,19,lasteaed,85,produces,0.0941
-Estonian,19,lasteaed,85,understands,0
-Estonian,20,lasteaed,60,produces,0.2167
-Estonian,20,lasteaed,60,understands,0
-Estonian,21,lasteaed,66,produces,0.1667
-Estonian,21,lasteaed,66,understands,0
-Estonian,22,lasteaed,76,produces,0.2368
-Estonian,22,lasteaed,76,understands,0
-Estonian,23,lasteaed,95,produces,0.4316
-Estonian,23,lasteaed,95,understands,0
-Estonian,24,lasteaed,116,produces,0.5603
-Estonian,24,lasteaed,116,understands,0
-Estonian,25,lasteaed,82,produces,0.5854
-Estonian,25,lasteaed,82,understands,0
-Estonian,26,lasteaed,84,produces,0.5595
-Estonian,26,lasteaed,84,understands,0
-Estonian,27,lasteaed,80,produces,0.7
-Estonian,27,lasteaed,80,understands,0
-Estonian,28,lasteaed,92,produces,0.837
-Estonian,28,lasteaed,92,understands,0
-Estonian,29,lasteaed,100,produces,0.9
-Estonian,29,lasteaed,100,understands,0
-Estonian,30,lasteaed,71,produces,0.8451
-Estonian,30,lasteaed,71,understands,0
-German,18,Kindergarten,85,produces,0.0235
-German,18,Kindergarten,85,understands,0
-German,19,Kindergarten,79,produces,0.1266
-German,19,Kindergarten,79,understands,0
-German,20,Kindergarten,96,produces,0.1146
-German,20,Kindergarten,96,understands,0
-German,21,Kindergarten,77,produces,0.2597
-German,21,Kindergarten,77,understands,0
-German,22,Kindergarten,95,produces,0.1895
-German,22,Kindergarten,95,understands,0
-German,23,Kindergarten,95,produces,0.2737
-German,23,Kindergarten,95,understands,0
-German,24,Kindergarten,103,produces,0.4466
-German,24,Kindergarten,103,understands,0
-German,25,Kindergarten,95,produces,0.5789
-German,25,Kindergarten,95,understands,0
-German,26,Kindergarten,92,produces,0.6522
-German,26,Kindergarten,92,understands,0
-German,27,Kindergarten,89,produces,0.5955
-German,27,Kindergarten,89,understands,0
-German,28,Kindergarten,93,produces,0.7312
-German,28,Kindergarten,93,understands,0
-German,29,Kindergarten,89,produces,0.8315
-German,29,Kindergarten,89,understands,0
-German,30,Kindergarten,93,produces,0.9247
-German,30,Kindergarten,93,understands,0
-Hebrew,25,גן (משפחתון/ פעוטון/ מעון/ גנון),82,produces,0.7927
-Hebrew,25,גן (משפחתון/ פעוטון/ מעון/ גנון),82,understands,0
-Hebrew,26,גן (משפחתון/ פעוטון/ מעון/ גנון),80,produces,0.8875
-Hebrew,26,גן (משפחתון/ פעוטון/ מעון/ גנון),80,understands,0
-Hebrew,27,גן (משפחתון/ פעוטון/ מעון/ גנון),68,produces,0.8676
-Hebrew,27,גן (משפחתון/ פעוטון/ מעון/ גנון),68,understands,0
-Hebrew,28,גן (משפחתון/ פעוטון/ מעון/ גנון),57,produces,0.9123
-Hebrew,28,גן (משפחתון/ פעוטון/ מעון/ גנון),57,understands,0
-Hebrew,29,גן (משפחתון/ פעוטון/ מעון/ גנון),47,produces,0.9574
-Hebrew,29,גן (משפחתון/ פעוטון/ מעון/ גנון),47,understands,0
-Hebrew,30,גן (משפחתון/ פעוטון/ מעון/ גנון),28,produces,0.9286
-Hebrew,30,גן (משפחתון/ פעוטון/ מעון/ גנון),28,understands,0
-Hebrew,31,גן (משפחתון/ פעוטון/ מעון/ גנון),35,produces,0.9429
-Hebrew,31,גן (משפחתון/ פעוטון/ מעון/ גנון),35,understands,0
-Hebrew,32,גן (משפחתון/ פעוטון/ מעון/ גנון),36,produces,0.9444
-Hebrew,32,גן (משפחתון/ פעוטון/ מעון/ גנון),36,understands,0
-Hebrew,33,גן (משפחתון/ פעוטון/ מעון/ גנון),21,produces,0.8571
-Hebrew,33,גן (משפחתון/ פעוטון/ מעון/ גנון),21,understands,0
-Hebrew,34,גן (משפחתון/ פעוטון/ מעון/ גנון),27,produces,0.963
-Hebrew,34,גן (משפחתון/ פעוטון/ מעון/ גנון),27,understands,0
-Hebrew,35,גן (משפחתון/ פעוטון/ מעון/ גנון),18,produces,0.8889
-Hebrew,35,גן (משפחתון/ פעוטון/ מעון/ גנון),18,understands,0
-Hebrew,36,גן (משפחתון/ פעוטון/ מעון/ גנון),5,produces,1
-Hebrew,36,גן (משפחתון/ פעוטון/ מעון/ גנון),5,understands,0
+language,sex,age,words,n,measure,prop
+Croatian,All,16,vrtić,13,produces,0
+Croatian,All,16,vrtić,13,understands,0
+Croatian,All,17,vrtić,25,produces,0.08
+Croatian,All,17,vrtić,25,understands,0
+Croatian,All,18,vrtić,22,produces,0
+Croatian,All,18,vrtić,22,understands,0
+Croatian,All,19,vrtić,21,produces,0.0476
+Croatian,All,19,vrtić,21,understands,0
+Croatian,All,20,vrtić,26,produces,0.1154
+Croatian,All,20,vrtić,26,understands,0
+Croatian,All,21,vrtić,29,produces,0.2414
+Croatian,All,21,vrtić,29,understands,0
+Croatian,All,22,vrtić,24,produces,0.375
+Croatian,All,22,vrtić,24,understands,0
+Croatian,All,23,vrtić,26,produces,0.3846
+Croatian,All,23,vrtić,26,understands,0
+Croatian,All,24,vrtić,30,produces,0.4333
+Croatian,All,24,vrtić,30,understands,0
+Croatian,All,25,vrtić,30,produces,0.5
+Croatian,All,25,vrtić,30,understands,0
+Croatian,All,26,vrtić,29,produces,0.6552
+Croatian,All,26,vrtić,29,understands,0
+Croatian,All,27,vrtić,25,produces,0.72
+Croatian,All,27,vrtić,25,understands,0
+Croatian,All,28,vrtić,21,produces,0.7619
+Croatian,All,28,vrtić,21,understands,0
+Croatian,All,29,vrtić,28,produces,0.7143
+Croatian,All,29,vrtić,28,understands,0
+Croatian,All,30,vrtić,28,produces,0.6786
+Croatian,All,30,vrtić,28,understands,0
+English (Irish),All,17,playschool,2,produces,0
+English (Irish),All,17,playschool,2,understands,0
+English (Irish),All,18,playschool,1,produces,0
+English (Irish),All,18,playschool,1,understands,0
+English (Irish),All,19,playschool,2,produces,0
+English (Irish),All,19,playschool,2,understands,0
+English (Irish),All,20,playschool,1,produces,0
+English (Irish),All,20,playschool,1,understands,0
+English (Irish),All,21,playschool,3,produces,0
+English (Irish),All,21,playschool,3,understands,0
+English (Irish),All,22,playschool,4,produces,0
+English (Irish),All,22,playschool,4,understands,0
+English (Irish),All,23,playschool,4,produces,0
+English (Irish),All,23,playschool,4,understands,0
+English (Irish),All,24,playschool,4,produces,0.25
+English (Irish),All,24,playschool,4,understands,0
+English (Irish),All,25,playschool,6,produces,0.1667
+English (Irish),All,25,playschool,6,understands,0
+English (Irish),All,26,playschool,10,produces,0.1
+English (Irish),All,26,playschool,10,understands,0
+English (Irish),All,27,playschool,5,produces,0
+English (Irish),All,27,playschool,5,understands,0
+English (Irish),All,28,playschool,7,produces,0
+English (Irish),All,28,playschool,7,understands,0
+English (Irish),All,29,playschool,4,produces,0
+English (Irish),All,29,playschool,4,understands,0
+English (Irish),All,30,playschool,9,produces,0.1111
+English (Irish),All,30,playschool,9,understands,0
+English (Irish),All,31,playschool,8,produces,0.25
+English (Irish),All,31,playschool,8,understands,0
+English (Irish),All,32,playschool,4,produces,0
+English (Irish),All,32,playschool,4,understands,0
+English (Irish),All,33,playschool,5,produces,0.2
+English (Irish),All,33,playschool,5,understands,0
+English (Irish),All,34,playschool,4,produces,0
+English (Irish),All,34,playschool,4,understands,0
+English (Irish),All,35,playschool,11,produces,0.0909
+English (Irish),All,35,playschool,11,understands,0
+English (Irish),All,36,playschool,5,produces,0
+English (Irish),All,36,playschool,5,understands,0
+Estonian,All,16,lasteaed,36,produces,0.0278
+Estonian,All,16,lasteaed,36,understands,0
+Estonian,All,17,lasteaed,89,produces,0
+Estonian,All,17,lasteaed,89,understands,0
+Estonian,All,18,lasteaed,103,produces,0.0485
+Estonian,All,18,lasteaed,103,understands,0
+Estonian,All,19,lasteaed,85,produces,0.0941
+Estonian,All,19,lasteaed,85,understands,0
+Estonian,All,20,lasteaed,60,produces,0.2167
+Estonian,All,20,lasteaed,60,understands,0
+Estonian,All,21,lasteaed,66,produces,0.1667
+Estonian,All,21,lasteaed,66,understands,0
+Estonian,All,22,lasteaed,76,produces,0.2368
+Estonian,All,22,lasteaed,76,understands,0
+Estonian,All,23,lasteaed,95,produces,0.4316
+Estonian,All,23,lasteaed,95,understands,0
+Estonian,All,24,lasteaed,116,produces,0.5603
+Estonian,All,24,lasteaed,116,understands,0
+Estonian,All,25,lasteaed,82,produces,0.5854
+Estonian,All,25,lasteaed,82,understands,0
+Estonian,All,26,lasteaed,84,produces,0.5595
+Estonian,All,26,lasteaed,84,understands,0
+Estonian,All,27,lasteaed,80,produces,0.7
+Estonian,All,27,lasteaed,80,understands,0
+Estonian,All,28,lasteaed,92,produces,0.837
+Estonian,All,28,lasteaed,92,understands,0
+Estonian,All,29,lasteaed,100,produces,0.9
+Estonian,All,29,lasteaed,100,understands,0
+Estonian,All,30,lasteaed,71,produces,0.8451
+Estonian,All,30,lasteaed,71,understands,0
+German,All,18,Kindergarten,85,produces,0.0235
+German,All,18,Kindergarten,85,understands,0
+German,All,19,Kindergarten,79,produces,0.1266
+German,All,19,Kindergarten,79,understands,0
+German,All,20,Kindergarten,96,produces,0.1146
+German,All,20,Kindergarten,96,understands,0
+German,All,21,Kindergarten,77,produces,0.2597
+German,All,21,Kindergarten,77,understands,0
+German,All,22,Kindergarten,95,produces,0.1895
+German,All,22,Kindergarten,95,understands,0
+German,All,23,Kindergarten,95,produces,0.2737
+German,All,23,Kindergarten,95,understands,0
+German,All,24,Kindergarten,103,produces,0.4466
+German,All,24,Kindergarten,103,understands,0
+German,All,25,Kindergarten,95,produces,0.5789
+German,All,25,Kindergarten,95,understands,0
+German,All,26,Kindergarten,92,produces,0.6522
+German,All,26,Kindergarten,92,understands,0
+German,All,27,Kindergarten,89,produces,0.5955
+German,All,27,Kindergarten,89,understands,0
+German,All,28,Kindergarten,93,produces,0.7312
+German,All,28,Kindergarten,93,understands,0
+German,All,29,Kindergarten,89,produces,0.8315
+German,All,29,Kindergarten,89,understands,0
+German,All,30,Kindergarten,93,produces,0.9247
+German,All,30,Kindergarten,93,understands,0
+Hebrew,All,25,גן (משפחתון/ פעוטון/ מעון/ גנון),82,produces,0.7927
+Hebrew,All,25,גן (משפחתון/ פעוטון/ מעון/ גנון),82,understands,0
+Hebrew,All,26,גן (משפחתון/ פעוטון/ מעון/ גנון),80,produces,0.8875
+Hebrew,All,26,גן (משפחתון/ פעוטון/ מעון/ גנון),80,understands,0
+Hebrew,All,27,גן (משפחתון/ פעוטון/ מעון/ גנון),68,produces,0.8676
+Hebrew,All,27,גן (משפחתון/ פעוטון/ מעון/ גנון),68,understands,0
+Hebrew,All,28,גן (משפחתון/ פעוטון/ מעון/ גנון),57,produces,0.9123
+Hebrew,All,28,גן (משפחתון/ פעוטון/ מעון/ גנון),57,understands,0
+Hebrew,All,29,גן (משפחתון/ פעוטון/ מעון/ גנון),47,produces,0.9574
+Hebrew,All,29,גן (משפחתון/ פעוטון/ מעון/ גנון),47,understands,0
+Hebrew,All,30,גן (משפחתון/ פעוטון/ מעון/ גנון),28,produces,0.9286
+Hebrew,All,30,גן (משפחתון/ פעוטון/ מעון/ גנון),28,understands,0
+Hebrew,All,31,גן (משפחתון/ פעוטון/ מעון/ גנון),35,produces,0.9429
+Hebrew,All,31,גן (משפחתון/ פעוטון/ מעון/ גנון),35,understands,0
+Hebrew,All,32,גן (משפחתון/ פעוטון/ מעון/ גנון),36,produces,0.9444
+Hebrew,All,32,גן (משפחתון/ פעוטון/ מעון/ גנון),36,understands,0
+Hebrew,All,33,גן (משפחתון/ פעוטון/ מעון/ גנון),21,produces,0.8571
+Hebrew,All,33,גן (משפחתון/ פעוטון/ מעון/ גנון),21,understands,0
+Hebrew,All,34,גן (משפחתון/ פעוטון/ מעון/ גנון),27,produces,0.963
+Hebrew,All,34,גן (משפחתון/ פעוטון/ מעון/ גנון),27,understands,0
+Hebrew,All,35,גן (משפחתון/ פעוטון/ מעון/ גנון),18,produces,0.8889
+Hebrew,All,35,גן (משפחתון/ פעוטון/ מעון/ גנון),18,understands,0
+Hebrew,All,36,גן (משפחתון/ פעוטון/ מעון/ גנון),5,produces,1
+Hebrew,All,36,גן (משפחתון/ פעוטון/ מעון/ גנון),5,understands,0
+Italian,All,7,asilo,5,produces,0
+Italian,All,7,asilo,5,understands,0.2
+Italian,All,8,asilo,34,produces,0
+Italian,All,8,asilo,34,understands,0.0294
+Italian,All,9,asilo,38,produces,0
+Italian,All,9,asilo,38,understands,0.0789
+Italian,All,10,asilo,53,produces,0
+Italian,All,10,asilo,53,understands,0.0755
+Italian,All,11,asilo,42,produces,0
+Italian,All,11,asilo,42,understands,0.1667
+Italian,All,12,asilo,69,produces,0
+Italian,All,12,asilo,69,understands,0.2464
+Italian,All,13,asilo,48,produces,0
+Italian,All,13,asilo,48,understands,0.25
+Italian,All,14,asilo,40,produces,0
+Italian,All,14,asilo,40,understands,0.325
+Italian,All,15,asilo,68,produces,0
+Italian,All,15,asilo,68,understands,0.3382
+Italian,All,16,asilo,56,produces,0.0179
+Italian,All,16,asilo,56,understands,0.4464
+Italian,All,17,asilo,48,produces,0.0417
+Italian,All,17,asilo,48,understands,0.7083
+Italian,All,18,asilo,75,produces,0.12
+Italian,All,18,asilo,75,understands,0.3867
+Italian,All,19,asilo,58,produces,0.2241
+Italian,All,19,asilo,58,understands,0.2931
+Italian,All,20,asilo,83,produces,0.1566
+Italian,All,20,asilo,83,understands,0.2048
+Italian,All,21,asilo,67,produces,0.3881
+Italian,All,21,asilo,67,understands,0.1642
+Italian,All,22,asilo,77,produces,0.4545
+Italian,All,22,asilo,77,understands,0.2857
+Italian,All,23,asilo,70,produces,0.5429
+Italian,All,23,asilo,70,understands,0.2286
+Italian,All,24,asilo,85,produces,0.6471
+Italian,All,24,asilo,85,understands,0.1529
+Italian,All,25,asilo,39,produces,0.6154
+Italian,All,25,asilo,39,understands,0
+Italian,All,26,asilo,41,produces,0.7073
+Italian,All,26,asilo,41,understands,0
+Italian,All,27,asilo,43,produces,0.7674
+Italian,All,27,asilo,43,understands,0
+Italian,All,28,asilo,44,produces,0.7727
+Italian,All,28,asilo,44,understands,0
+Italian,All,29,asilo,37,produces,0.8919
+Italian,All,29,asilo,37,understands,0
+Italian,All,30,asilo,67,produces,0.8806
+Italian,All,30,asilo,67,understands,0
+Italian,All,31,asilo,19,produces,0.7895
+Italian,All,31,asilo,19,understands,0
+Italian,All,32,asilo,23,produces,0.8696
+Italian,All,32,asilo,23,understands,0
+Italian,All,33,asilo,16,produces,1
+Italian,All,33,asilo,16,understands,0
+Italian,All,34,asilo,19,produces,0.8421
+Italian,All,34,asilo,19,understands,0
+Italian,All,35,asilo,15,produces,0.9333
+Italian,All,35,asilo,15,understands,0
+Italian,All,36,asilo,21,produces,0.9048
+Italian,All,36,asilo,21,understands,0
+Japanese,All,16,幼稚園,11,produces,0
+Japanese,All,16,幼稚園,11,understands,0
+Japanese,All,17,幼稚園,17,produces,0
+Japanese,All,17,幼稚園,17,understands,0
+Japanese,All,18,幼稚園,56,produces,0.0179
+Japanese,All,18,幼稚園,56,understands,0
+Japanese,All,19,幼稚園,35,produces,0.0286
+Japanese,All,19,幼稚園,35,understands,0
+Japanese,All,20,幼稚園,59,produces,0
+Japanese,All,20,幼稚園,59,understands,0
+Japanese,All,21,幼稚園,62,produces,0.0161
+Japanese,All,21,幼稚園,62,understands,0
+Japanese,All,22,幼稚園,31,produces,0.0645
+Japanese,All,22,幼稚園,31,understands,0
+Japanese,All,23,幼稚園,67,produces,0.0299
+Japanese,All,23,幼稚園,67,understands,0
+Japanese,All,24,幼稚園,33,produces,0.0606
+Japanese,All,24,幼稚園,33,understands,0
+Japanese,All,25,幼稚園,34,produces,0.2353
+Japanese,All,25,幼稚園,34,understands,0
+Japanese,All,26,幼稚園,33,produces,0.0909
+Japanese,All,26,幼稚園,33,understands,0
+Japanese,All,27,幼稚園,15,produces,0.0667
+Japanese,All,27,幼稚園,15,understands,0
+Japanese,All,28,幼稚園,18,produces,0.0556
+Japanese,All,28,幼稚園,18,understands,0
+Japanese,All,29,幼稚園,17,produces,0.3529
+Japanese,All,29,幼稚園,17,understands,0
+Japanese,All,30,幼稚園,18,produces,0.3889
+Japanese,All,30,幼稚園,18,understands,0
+Japanese,All,31,幼稚園,18,produces,0.2778
+Japanese,All,31,幼稚園,18,understands,0
+Japanese,All,32,幼稚園,13,produces,0.3846
+Japanese,All,32,幼稚園,13,understands,0
+Japanese,All,33,幼稚園,16,produces,0.3125
+Japanese,All,33,幼稚園,16,understands,0
+Japanese,All,34,幼稚園,13,produces,0.3846
+Japanese,All,34,幼稚園,13,understands,0
+Japanese,All,35,幼稚園,31,produces,0.4194
+Japanese,All,35,幼稚園,31,understands,0
+Japanese,All,36,幼稚園,18,produces,0.6111
+Japanese,All,36,幼稚園,18,understands,0
+Korean,All,18,유치원,88,produces,0.0795
+Korean,All,18,유치원,88,understands,0
+Korean,All,19,유치원,77,produces,0.039
+Korean,All,19,유치원,77,understands,0
+Korean,All,20,유치원,88,produces,0.0341
+Korean,All,20,유치원,88,understands,0
+Korean,All,21,유치원,79,produces,0.1392
+Korean,All,21,유치원,79,understands,0
+Korean,All,22,유치원,87,produces,0.1609
+Korean,All,22,유치원,87,understands,0
+Korean,All,23,유치원,87,produces,0.1609
+Korean,All,23,유치원,87,understands,0
+Korean,All,24,유치원,107,produces,0.1963
+Korean,All,24,유치원,107,understands,0
+Korean,All,25,유치원,95,produces,0.3474
+Korean,All,25,유치원,95,understands,0
+Korean,All,26,유치원,91,produces,0.3407
+Korean,All,26,유치원,91,understands,0
+Korean,All,27,유치원,104,produces,0.4712
+Korean,All,27,유치원,104,understands,0
+Korean,All,28,유치원,89,produces,0.573
+Korean,All,28,유치원,89,understands,0
+Korean,All,29,유치원,101,produces,0.5644
+Korean,All,29,유치원,101,understands,0
+Korean,All,30,유치원,81,produces,0.6173
+Korean,All,30,유치원,81,understands,0
+Korean,All,31,유치원,79,produces,0.6962
+Korean,All,31,유치원,79,understands,0
+Korean,All,32,유치원,70,produces,0.7571
+Korean,All,32,유치원,70,understands,0
+Korean,All,33,유치원,79,produces,0.7089
+Korean,All,33,유치원,79,understands,0
+Korean,All,34,유치원,79,produces,0.8354
+Korean,All,34,유치원,79,understands,0
+Korean,All,35,유치원,74,produces,0.7838
+Korean,All,35,유치원,74,understands,0
+Korean,All,36,유치원,75,produces,0.8533
+Korean,All,36,유치원,75,understands,0
+Latvian,All,17,bērnudārzs,27,produces,0.037
+Latvian,All,17,bērnudārzs,27,understands,0
+Latvian,All,18,bērnudārzs,21,produces,0.0476
+Latvian,All,18,bērnudārzs,21,understands,0
+Latvian,All,19,bērnudārzs,28,produces,0.0714
+Latvian,All,19,bērnudārzs,28,understands,0
+Latvian,All,20,bērnudārzs,34,produces,0.2059
+Latvian,All,20,bērnudārzs,34,understands,0
+Latvian,All,21,bērnudārzs,26,produces,0.1923
+Latvian,All,21,bērnudārzs,26,understands,0
+Latvian,All,22,bērnudārzs,32,produces,0.2188
+Latvian,All,22,bērnudārzs,32,understands,0
+Latvian,All,23,bērnudārzs,25,produces,0.36
+Latvian,All,23,bērnudārzs,25,understands,0
+Latvian,All,24,bērnudārzs,30,produces,0.6333
+Latvian,All,24,bērnudārzs,30,understands,0
+Latvian,All,25,bērnudārzs,29,produces,0.4828
+Latvian,All,25,bērnudārzs,29,understands,0
+Latvian,All,26,bērnudārzs,22,produces,0.5455
+Latvian,All,26,bērnudārzs,22,understands,0
+Latvian,All,27,bērnudārzs,18,produces,0.6667
+Latvian,All,27,bērnudārzs,18,understands,0
+Latvian,All,28,bērnudārzs,23,produces,0.6522
+Latvian,All,28,bērnudārzs,23,understands,0
+Latvian,All,29,bērnudārzs,24,produces,0.5417
+Latvian,All,29,bērnudārzs,24,understands,0
+Latvian,All,30,bērnudārzs,26,produces,0.6923
+Latvian,All,30,bērnudārzs,26,understands,0
+Latvian,All,31,bērnudārzs,19,produces,0.7895
+Latvian,All,31,bērnudārzs,19,understands,0
+Latvian,All,32,bērnudārzs,25,produces,0.76
+Latvian,All,32,bērnudārzs,25,understands,0
+Latvian,All,33,bērnudārzs,31,produces,0.8387
+Latvian,All,33,bērnudārzs,31,understands,0
+Latvian,All,34,bērnudārzs,17,produces,0.8235
+Latvian,All,34,bērnudārzs,17,understands,0
+Latvian,All,35,bērnudārzs,21,produces,0.8571
+Latvian,All,35,bērnudārzs,21,understands,0
+Latvian,All,36,bērnudārzs,22,produces,0.8182
+Latvian,All,36,bērnudārzs,22,understands,0
+Mandarin (Beijing),All,16,幼儿园/托儿所,70,produces,0
+Mandarin (Beijing),All,16,幼儿园/托儿所,70,understands,0
+Mandarin (Beijing),All,17,"幼儿园/托儿所, 幼儿园",112,produces,0.0268
+Mandarin (Beijing),All,17,"幼儿园/托儿所, 幼儿园",112,understands,0
+Mandarin (Beijing),All,18,"幼儿园/托儿所, 幼儿园",121,produces,0.0909
+Mandarin (Beijing),All,18,"幼儿园/托儿所, 幼儿园",121,understands,0
+Mandarin (Beijing),All,19,"幼儿园/托儿所, 幼儿园",120,produces,0.225
+Mandarin (Beijing),All,19,"幼儿园/托儿所, 幼儿园",120,understands,0
+Mandarin (Beijing),All,20,"幼儿园/托儿所, 幼儿园",121,produces,0.2562
+Mandarin (Beijing),All,20,"幼儿园/托儿所, 幼儿园",121,understands,0
+Mandarin (Beijing),All,21,"幼儿园/托儿所, 幼儿园",119,produces,0.3025
+Mandarin (Beijing),All,21,"幼儿园/托儿所, 幼儿园",119,understands,0
+Mandarin (Beijing),All,22,"幼儿园/托儿所, 幼儿园",117,produces,0.4444
+Mandarin (Beijing),All,22,"幼儿园/托儿所, 幼儿园",117,understands,0
+Mandarin (Beijing),All,23,"幼儿园/托儿所, 幼儿园",120,produces,0.575
+Mandarin (Beijing),All,23,"幼儿园/托儿所, 幼儿园",120,understands,0
+Mandarin (Beijing),All,24,"幼儿园/托儿所, 幼儿园",120,produces,0.625
+Mandarin (Beijing),All,24,"幼儿园/托儿所, 幼儿园",120,understands,0
+Mandarin (Beijing),All,25,"幼儿园/托儿所, 幼儿园",113,produces,0.7257
+Mandarin (Beijing),All,25,"幼儿园/托儿所, 幼儿园",113,understands,0
+Mandarin (Beijing),All,26,"幼儿园/托儿所, 幼儿园",118,produces,0.7373
+Mandarin (Beijing),All,26,"幼儿园/托儿所, 幼儿园",118,understands,0
+Mandarin (Beijing),All,27,"幼儿园/托儿所, 幼儿园",114,produces,0.8596
+Mandarin (Beijing),All,27,"幼儿园/托儿所, 幼儿园",114,understands,0
+Mandarin (Beijing),All,28,"幼儿园/托儿所, 幼儿园",114,produces,0.8596
+Mandarin (Beijing),All,28,"幼儿园/托儿所, 幼儿园",114,understands,0
+Mandarin (Beijing),All,29,"幼儿园/托儿所, 幼儿园",119,produces,0.9076
+Mandarin (Beijing),All,29,"幼儿园/托儿所, 幼儿园",119,understands,0
+Mandarin (Beijing),All,30,"幼儿园/托儿所, 幼儿园",110,produces,0.9091
+Mandarin (Beijing),All,30,"幼儿园/托儿所, 幼儿园",110,understands,0
+Portuguese (European),All,8,Escolinha (creche),126,produces,0
+Portuguese (European),All,8,Escolinha (creche),126,understands,0.1587
+Portuguese (European),All,9,Escolinha (creche),148,produces,0
+Portuguese (European),All,9,Escolinha (creche),148,understands,0.25
+Portuguese (European),All,10,Escolinha (creche),168,produces,0
+Portuguese (European),All,10,Escolinha (creche),168,understands,0.3214
+Portuguese (European),All,11,Escolinha (creche),179,produces,0
+Portuguese (European),All,11,Escolinha (creche),179,understands,0.2626
+Portuguese (European),All,12,Escolinha (creche),161,produces,0.0124
+Portuguese (European),All,12,Escolinha (creche),161,understands,0.4596
+Portuguese (European),All,13,Escolinha (creche),176,produces,0.0057
+Portuguese (European),All,13,Escolinha (creche),176,understands,0.4318
+Portuguese (European),All,14,Escolinha (creche),183,produces,0.0164
+Portuguese (European),All,14,Escolinha (creche),183,understands,0.5027
+Portuguese (European),All,15,Escolinha (creche),173,produces,0.0173
+Portuguese (European),All,15,Escolinha (creche),173,understands,0.526
+Portuguese (European),All,16,Jardim / Escolinha,144,produces,0.0208
+Portuguese (European),All,16,Jardim / Escolinha,144,understands,0
+Portuguese (European),All,17,Jardim / Escolinha,158,produces,0.0127
+Portuguese (European),All,17,Jardim / Escolinha,158,understands,0
+Portuguese (European),All,18,Jardim / Escolinha,203,produces,0.0197
+Portuguese (European),All,18,Jardim / Escolinha,203,understands,0
+Portuguese (European),All,19,Jardim / Escolinha,196,produces,0.0408
+Portuguese (European),All,19,Jardim / Escolinha,196,understands,0
+Portuguese (European),All,20,Jardim / Escolinha,218,produces,0.0826
+Portuguese (European),All,20,Jardim / Escolinha,218,understands,0
+Portuguese (European),All,21,Jardim / Escolinha,208,produces,0.1346
+Portuguese (European),All,21,Jardim / Escolinha,208,understands,0
+Portuguese (European),All,22,Jardim / Escolinha,213,produces,0.2113
+Portuguese (European),All,22,Jardim / Escolinha,213,understands,0
+Portuguese (European),All,23,Jardim / Escolinha,199,produces,0.196
+Portuguese (European),All,23,Jardim / Escolinha,199,understands,0
+Portuguese (European),All,24,Jardim / Escolinha,215,produces,0.293
+Portuguese (European),All,24,Jardim / Escolinha,215,understands,0
+Portuguese (European),All,25,Jardim / Escolinha,213,produces,0.3897
+Portuguese (European),All,25,Jardim / Escolinha,213,understands,0
+Portuguese (European),All,26,Jardim / Escolinha,218,produces,0.3945
+Portuguese (European),All,26,Jardim / Escolinha,218,understands,0
+Portuguese (European),All,27,Jardim / Escolinha,238,produces,0.5
+Portuguese (European),All,27,Jardim / Escolinha,238,understands,0
+Portuguese (European),All,28,Jardim / Escolinha,219,produces,0.5479
+Portuguese (European),All,28,Jardim / Escolinha,219,understands,0
+Portuguese (European),All,29,Jardim / Escolinha,207,produces,0.5411
+Portuguese (European),All,29,Jardim / Escolinha,207,understands,0
+Portuguese (European),All,30,Jardim / Escolinha,163,produces,0.5583
+Portuguese (European),All,30,Jardim / Escolinha,163,understands,0
+Russian,All,18,детский сад,42,produces,0
+Russian,All,18,детский сад,42,understands,0
+Russian,All,19,детский сад,41,produces,0.0976
+Russian,All,19,детский сад,41,understands,0
+Russian,All,20,детский сад,45,produces,0.0667
+Russian,All,20,детский сад,45,understands,0
+Russian,All,21,детский сад,43,produces,0.2558
+Russian,All,21,детский сад,43,understands,0
+Russian,All,22,детский сад,51,produces,0.1961
+Russian,All,22,детский сад,51,understands,0
+Russian,All,23,детский сад,56,produces,0.3214
+Russian,All,23,детский сад,56,understands,0
+Russian,All,24,детский сад,61,produces,0.377
+Russian,All,24,детский сад,61,understands,0
+Russian,All,25,детский сад,66,produces,0.4091
+Russian,All,25,детский сад,66,understands,0
+Russian,All,26,детский сад,52,produces,0.4423
+Russian,All,26,детский сад,52,understands,0
+Russian,All,27,детский сад,60,produces,0.6
+Russian,All,27,детский сад,60,understands,0
+Russian,All,28,детский сад,60,produces,0.6
+Russian,All,28,детский сад,60,understands,0
+Russian,All,29,детский сад,58,produces,0.6724
+Russian,All,29,детский сад,58,understands,0
+Russian,All,30,детский сад,77,produces,0.7273
+Russian,All,30,детский сад,77,understands,0
+Russian,All,31,детский сад,61,produces,0.623
+Russian,All,31,детский сад,61,understands,0
+Russian,All,32,детский сад,55,produces,0.8
+Russian,All,32,детский сад,55,understands,0
+Russian,All,33,детский сад,55,produces,0.8364
+Russian,All,33,детский сад,55,understands,0
+Russian,All,34,детский сад,58,produces,0.8276
+Russian,All,34,детский сад,58,understands,0
+Russian,All,35,детский сад,47,produces,0.7872
+Russian,All,35,детский сад,47,understands,0
+Russian,All,36,детский сад,49,produces,0.8163
+Russian,All,36,детский сад,49,understands,0
+Slovak,All,17,škôlka,70,produces,0.0857
+Slovak,All,17,škôlka,70,understands,0
+Slovak,All,18,škôlka,65,produces,0.0769
+Slovak,All,18,škôlka,65,understands,0
+Slovak,All,19,škôlka,56,produces,0.1429
+Slovak,All,19,škôlka,56,understands,0
+Slovak,All,20,škôlka,62,produces,0.2742
+Slovak,All,20,škôlka,62,understands,0
+Slovak,All,21,škôlka,81,produces,0.2593
+Slovak,All,21,škôlka,81,understands,0
+Slovak,All,22,škôlka,53,produces,0.3396
+Slovak,All,22,škôlka,53,understands,0
+Slovak,All,23,škôlka,59,produces,0.3559
+Slovak,All,23,škôlka,59,understands,0
+Slovak,All,24,škôlka,59,produces,0.5085
+Slovak,All,24,škôlka,59,understands,0
+Slovak,All,25,škôlka,69,produces,0.4493
+Slovak,All,25,škôlka,69,understands,0
+Slovak,All,26,škôlka,78,produces,0.6923
+Slovak,All,26,škôlka,78,understands,0
+Slovak,All,27,škôlka,62,produces,0.7258
+Slovak,All,27,škôlka,62,understands,0
+Slovak,All,28,škôlka,86,produces,0.6279
+Slovak,All,28,škôlka,86,understands,0
+Slovak,All,29,škôlka,75,produces,0.6933
+Slovak,All,29,škôlka,75,understands,0
+Slovak,All,30,škôlka,49,produces,0.6735
+Slovak,All,30,škôlka,49,understands,0
+Slovak,All,31,škôlka,29,produces,0.6552
+Slovak,All,31,škôlka,29,understands,0
+Slovak,All,32,škôlka,25,produces,0.84
+Slovak,All,32,škôlka,25,understands,0
+Slovak,All,33,škôlka,22,produces,0.8636
+Slovak,All,33,škôlka,22,understands,0
+Slovak,All,34,škôlka,27,produces,0.7407
+Slovak,All,34,škôlka,27,understands,0
+Slovak,All,35,škôlka,27,produces,0.7407
+Slovak,All,35,škôlka,27,understands,0
+Slovak,All,36,škôlka,8,produces,0.875
+Slovak,All,36,škôlka,8,understands,0
+Spanish (European),All,16,guardería,39,produces,0
+Spanish (European),All,16,guardería,39,understands,0
+Spanish (European),All,17,guardería,39,produces,0.0513
+Spanish (European),All,17,guardería,39,understands,0
+Spanish (European),All,18,guardería,50,produces,0.04
+Spanish (European),All,18,guardería,50,understands,0
+Spanish (European),All,19,guardería,27,produces,0
+Spanish (European),All,19,guardería,27,understands,0
+Spanish (European),All,20,guardería,36,produces,0.0556
+Spanish (European),All,20,guardería,36,understands,0
+Spanish (European),All,21,guardería,41,produces,0.0244
+Spanish (European),All,21,guardería,41,understands,0
+Spanish (European),All,22,guardería,38,produces,0.1579
+Spanish (European),All,22,guardería,38,understands,0
+Spanish (European),All,23,guardería,30,produces,0.2
+Spanish (European),All,23,guardería,30,understands,0
+Spanish (European),All,24,guardería,55,produces,0.2909
+Spanish (European),All,24,guardería,55,understands,0
+Spanish (European),All,25,guardería,35,produces,0.2571
+Spanish (European),All,25,guardería,35,understands,0
+Spanish (European),All,26,guardería,49,produces,0.3265
+Spanish (European),All,26,guardería,49,understands,0
+Spanish (European),All,27,guardería,34,produces,0.4412
+Spanish (European),All,27,guardería,34,understands,0
+Spanish (European),All,28,guardería,38,produces,0.4474
+Spanish (European),All,28,guardería,38,understands,0
+Spanish (European),All,29,guardería,41,produces,0.5854
+Spanish (European),All,29,guardería,41,understands,0
+Spanish (European),All,30,guardería,41,produces,0.5122
+Spanish (European),All,30,guardería,41,understands,0
+Swedish,All,8,dagis,26,produces,0
+Swedish,All,8,dagis,26,understands,0
+Swedish,All,9,dagis,2,produces,0
+Swedish,All,9,dagis,2,understands,0
+Swedish,All,10,dagis,54,produces,0
+Swedish,All,10,dagis,54,understands,0
+Swedish,All,11,dagis,3,produces,0
+Swedish,All,11,dagis,3,understands,0
+Swedish,All,12,dagis,79,produces,0
+Swedish,All,12,dagis,79,understands,0.0127
+Swedish,All,13,dagis,7,produces,0
+Swedish,All,13,dagis,7,understands,0
+Swedish,All,14,dagis,124,produces,0
+Swedish,All,14,dagis,124,understands,0.0726
+Swedish,All,15,dagis,13,produces,0
+Swedish,All,15,dagis,13,understands,0.0769
+Swedish,All,16,dagis,159,produces,0.0189
+Swedish,All,16,dagis,159,understands,0.1258
+Croatian,Female,16,vrtić,7,produces,0
+Croatian,Female,16,vrtić,7,understands,0
+Croatian,Male,16,vrtić,6,produces,0
+Croatian,Male,16,vrtić,6,understands,0
+Croatian,Female,17,vrtić,12,produces,0.0833
+Croatian,Female,17,vrtić,12,understands,0
+Croatian,Male,17,vrtić,13,produces,0.0769
+Croatian,Male,17,vrtić,13,understands,0
+Croatian,Female,18,vrtić,8,produces,0
+Croatian,Female,18,vrtić,8,understands,0
+Croatian,Male,18,vrtić,14,produces,0
+Croatian,Male,18,vrtić,14,understands,0
+Croatian,Female,19,vrtić,14,produces,0.0714
+Croatian,Female,19,vrtić,14,understands,0
+Croatian,Male,19,vrtić,7,produces,0
+Croatian,Male,19,vrtić,7,understands,0
+Croatian,Female,20,vrtić,13,produces,0.0769
+Croatian,Female,20,vrtić,13,understands,0
+Croatian,Male,20,vrtić,13,produces,0.1538
+Croatian,Male,20,vrtić,13,understands,0
+Croatian,Female,21,vrtić,13,produces,0.3077
+Croatian,Female,21,vrtić,13,understands,0
+Croatian,Male,21,vrtić,16,produces,0.1875
+Croatian,Male,21,vrtić,16,understands,0
+Croatian,Female,22,vrtić,14,produces,0.5
+Croatian,Female,22,vrtić,14,understands,0
+Croatian,Male,22,vrtić,10,produces,0.2
+Croatian,Male,22,vrtić,10,understands,0
+Croatian,Female,23,vrtić,14,produces,0.3571
+Croatian,Female,23,vrtić,14,understands,0
+Croatian,Male,23,vrtić,12,produces,0.4167
+Croatian,Male,23,vrtić,12,understands,0
+Croatian,Female,24,vrtić,14,produces,0.3571
+Croatian,Female,24,vrtić,14,understands,0
+Croatian,Male,24,vrtić,16,produces,0.5
+Croatian,Male,24,vrtić,16,understands,0
+Croatian,Female,25,vrtić,14,produces,0.8571
+Croatian,Female,25,vrtić,14,understands,0
+Croatian,Male,25,vrtić,16,produces,0.1875
+Croatian,Male,25,vrtić,16,understands,0
+Croatian,Female,26,vrtić,11,produces,0.6364
+Croatian,Female,26,vrtić,11,understands,0
+Croatian,Male,26,vrtić,18,produces,0.6667
+Croatian,Male,26,vrtić,18,understands,0
+Croatian,Female,27,vrtić,11,produces,0.6364
+Croatian,Female,27,vrtić,11,understands,0
+Croatian,Male,27,vrtić,14,produces,0.7857
+Croatian,Male,27,vrtić,14,understands,0
+Croatian,Female,28,vrtić,8,produces,0.875
+Croatian,Female,28,vrtić,8,understands,0
+Croatian,Male,28,vrtić,13,produces,0.6923
+Croatian,Male,28,vrtić,13,understands,0
+Croatian,Female,29,vrtić,15,produces,0.7333
+Croatian,Female,29,vrtić,15,understands,0
+Croatian,Male,29,vrtić,13,produces,0.6923
+Croatian,Male,29,vrtić,13,understands,0
+Croatian,Female,30,vrtić,11,produces,0.7273
+Croatian,Female,30,vrtić,11,understands,0
+Croatian,Male,30,vrtić,17,produces,0.6471
+Croatian,Male,30,vrtić,17,understands,0
+English (Irish),Female,17,playschool,1,produces,0
+English (Irish),Female,17,playschool,1,understands,0
+English (Irish),Male,17,playschool,1,produces,0
+English (Irish),Male,17,playschool,1,understands,0
+English (Irish),Female,18,playschool,1,produces,0
+English (Irish),Female,18,playschool,1,understands,0
+English (Irish),Female,19,playschool,1,produces,0
+English (Irish),Female,19,playschool,1,understands,0
+English (Irish),Male,19,playschool,1,produces,0
+English (Irish),Male,19,playschool,1,understands,0
+English (Irish),Female,20,playschool,1,produces,0
+English (Irish),Female,20,playschool,1,understands,0
+English (Irish),Female,21,playschool,2,produces,0
+English (Irish),Female,21,playschool,2,understands,0
+English (Irish),Male,21,playschool,1,produces,0
+English (Irish),Male,21,playschool,1,understands,0
+English (Irish),Female,22,playschool,3,produces,0
+English (Irish),Female,22,playschool,3,understands,0
+English (Irish),Male,22,playschool,1,produces,0
+English (Irish),Male,22,playschool,1,understands,0
+English (Irish),Female,23,playschool,2,produces,0
+English (Irish),Female,23,playschool,2,understands,0
+English (Irish),Male,23,playschool,2,produces,0
+English (Irish),Male,23,playschool,2,understands,0
+English (Irish),Female,24,playschool,2,produces,0.5
+English (Irish),Female,24,playschool,2,understands,0
+English (Irish),Male,24,playschool,2,produces,0
+English (Irish),Male,24,playschool,2,understands,0
+English (Irish),Female,25,playschool,3,produces,0
+English (Irish),Female,25,playschool,3,understands,0
+English (Irish),Male,25,playschool,3,produces,0.3333
+English (Irish),Male,25,playschool,3,understands,0
+English (Irish),Female,26,playschool,7,produces,0
+English (Irish),Female,26,playschool,7,understands,0
+English (Irish),Male,26,playschool,3,produces,0.3333
+English (Irish),Male,26,playschool,3,understands,0
+English (Irish),Female,27,playschool,1,produces,0
+English (Irish),Female,27,playschool,1,understands,0
+English (Irish),Male,27,playschool,4,produces,0
+English (Irish),Male,27,playschool,4,understands,0
+English (Irish),Female,28,playschool,4,produces,0
+English (Irish),Female,28,playschool,4,understands,0
+English (Irish),Male,28,playschool,3,produces,0
+English (Irish),Male,28,playschool,3,understands,0
+English (Irish),Female,29,playschool,1,produces,0
+English (Irish),Female,29,playschool,1,understands,0
+English (Irish),Male,29,playschool,3,produces,0
+English (Irish),Male,29,playschool,3,understands,0
+English (Irish),Female,30,playschool,5,produces,0.2
+English (Irish),Female,30,playschool,5,understands,0
+English (Irish),Male,30,playschool,4,produces,0
+English (Irish),Male,30,playschool,4,understands,0
+English (Irish),Female,31,playschool,3,produces,0.3333
+English (Irish),Female,31,playschool,3,understands,0
+English (Irish),Male,31,playschool,5,produces,0.2
+English (Irish),Male,31,playschool,5,understands,0
+English (Irish),Female,32,playschool,2,produces,0
+English (Irish),Female,32,playschool,2,understands,0
+English (Irish),Male,32,playschool,2,produces,0
+English (Irish),Male,32,playschool,2,understands,0
+English (Irish),Female,33,playschool,1,produces,0
+English (Irish),Female,33,playschool,1,understands,0
+English (Irish),Male,33,playschool,4,produces,0.25
+English (Irish),Male,33,playschool,4,understands,0
+English (Irish),Female,34,playschool,2,produces,0
+English (Irish),Female,34,playschool,2,understands,0
+English (Irish),Male,34,playschool,2,produces,0
+English (Irish),Male,34,playschool,2,understands,0
+English (Irish),Female,35,playschool,2,produces,0
+English (Irish),Female,35,playschool,2,understands,0
+English (Irish),Male,35,playschool,9,produces,0.1111
+English (Irish),Male,35,playschool,9,understands,0
+English (Irish),Female,36,playschool,3,produces,0
+English (Irish),Female,36,playschool,3,understands,0
+English (Irish),Male,36,playschool,2,produces,0
+English (Irish),Male,36,playschool,2,understands,0
+Estonian,Female,16,lasteaed,19,produces,0.0526
+Estonian,Female,16,lasteaed,19,understands,0
+Estonian,Male,16,lasteaed,17,produces,0
+Estonian,Male,16,lasteaed,17,understands,0
+Estonian,Female,17,lasteaed,42,produces,0
+Estonian,Female,17,lasteaed,42,understands,0
+Estonian,Male,17,lasteaed,47,produces,0
+Estonian,Male,17,lasteaed,47,understands,0
+Estonian,Female,18,lasteaed,52,produces,0.0577
+Estonian,Female,18,lasteaed,52,understands,0
+Estonian,Male,18,lasteaed,51,produces,0.0392
+Estonian,Male,18,lasteaed,51,understands,0
+Estonian,Female,19,lasteaed,44,produces,0.1136
+Estonian,Female,19,lasteaed,44,understands,0
+Estonian,Male,19,lasteaed,41,produces,0.0732
+Estonian,Male,19,lasteaed,41,understands,0
+Estonian,Female,20,lasteaed,36,produces,0.2778
+Estonian,Female,20,lasteaed,36,understands,0
+Estonian,Male,20,lasteaed,24,produces,0.125
+Estonian,Male,20,lasteaed,24,understands,0
+Estonian,Female,21,lasteaed,28,produces,0.3214
+Estonian,Female,21,lasteaed,28,understands,0
+Estonian,Male,21,lasteaed,38,produces,0.0526
+Estonian,Male,21,lasteaed,38,understands,0
+Estonian,Female,22,lasteaed,45,produces,0.2444
+Estonian,Female,22,lasteaed,45,understands,0
+Estonian,Male,22,lasteaed,31,produces,0.2258
+Estonian,Male,22,lasteaed,31,understands,0
+Estonian,Female,23,lasteaed,48,produces,0.5
+Estonian,Female,23,lasteaed,48,understands,0
+Estonian,Male,23,lasteaed,47,produces,0.3617
+Estonian,Male,23,lasteaed,47,understands,0
+Estonian,Female,24,lasteaed,52,produces,0.5769
+Estonian,Female,24,lasteaed,52,understands,0
+Estonian,Male,24,lasteaed,64,produces,0.5469
+Estonian,Male,24,lasteaed,64,understands,0
+Estonian,Female,25,lasteaed,45,produces,0.7111
+Estonian,Female,25,lasteaed,45,understands,0
+Estonian,Male,25,lasteaed,37,produces,0.4324
+Estonian,Male,25,lasteaed,37,understands,0
+Estonian,Female,26,lasteaed,45,produces,0.7333
+Estonian,Female,26,lasteaed,45,understands,0
+Estonian,Male,26,lasteaed,39,produces,0.359
+Estonian,Male,26,lasteaed,39,understands,0
+Estonian,Female,27,lasteaed,44,produces,0.7727
+Estonian,Female,27,lasteaed,44,understands,0
+Estonian,Male,27,lasteaed,36,produces,0.6111
+Estonian,Male,27,lasteaed,36,understands,0
+Estonian,Female,28,lasteaed,44,produces,0.8864
+Estonian,Female,28,lasteaed,44,understands,0
+Estonian,Male,28,lasteaed,48,produces,0.7917
+Estonian,Male,28,lasteaed,48,understands,0
+Estonian,Female,29,lasteaed,59,produces,0.8983
+Estonian,Female,29,lasteaed,59,understands,0
+Estonian,Male,29,lasteaed,41,produces,0.9024
+Estonian,Male,29,lasteaed,41,understands,0
+Estonian,Female,30,lasteaed,37,produces,0.9459
+Estonian,Female,30,lasteaed,37,understands,0
+Estonian,Male,30,lasteaed,34,produces,0.7353
+Estonian,Male,30,lasteaed,34,understands,0
+German,Female,18,Kindergarten,40,produces,0.05
+German,Female,18,Kindergarten,40,understands,0
+German,Male,18,Kindergarten,45,produces,0
+German,Male,18,Kindergarten,45,understands,0
+German,Female,19,Kindergarten,39,produces,0.1538
+German,Female,19,Kindergarten,39,understands,0
+German,Male,19,Kindergarten,40,produces,0.1
+German,Male,19,Kindergarten,40,understands,0
+German,Female,20,Kindergarten,39,produces,0.1795
+German,Female,20,Kindergarten,39,understands,0
+German,Male,20,Kindergarten,57,produces,0.0702
+German,Male,20,Kindergarten,57,understands,0
+German,Female,21,Kindergarten,38,produces,0.2368
+German,Female,21,Kindergarten,38,understands,0
+German,Male,21,Kindergarten,39,produces,0.2821
+German,Male,21,Kindergarten,39,understands,0
+German,Female,22,Kindergarten,52,produces,0.1538
+German,Female,22,Kindergarten,52,understands,0
+German,Male,22,Kindergarten,43,produces,0.2326
+German,Male,22,Kindergarten,43,understands,0
+German,Female,23,Kindergarten,45,produces,0.3111
+German,Female,23,Kindergarten,45,understands,0
+German,Male,23,Kindergarten,50,produces,0.24
+German,Male,23,Kindergarten,50,understands,0
+German,Female,24,Kindergarten,48,produces,0.4792
+German,Female,24,Kindergarten,48,understands,0
+German,Male,24,Kindergarten,55,produces,0.4182
+German,Male,24,Kindergarten,55,understands,0
+German,Female,25,Kindergarten,28,produces,0.7143
+German,Female,25,Kindergarten,28,understands,0
+German,Male,25,Kindergarten,67,produces,0.5224
+German,Male,25,Kindergarten,67,understands,0
+German,Female,26,Kindergarten,42,produces,0.7381
+German,Female,26,Kindergarten,42,understands,0
+German,Male,26,Kindergarten,50,produces,0.58
+German,Male,26,Kindergarten,50,understands,0
+German,Female,27,Kindergarten,41,produces,0.7561
+German,Female,27,Kindergarten,41,understands,0
+German,Male,27,Kindergarten,48,produces,0.4583
+German,Male,27,Kindergarten,48,understands,0
+German,Female,28,Kindergarten,35,produces,0.8
+German,Female,28,Kindergarten,35,understands,0
+German,Male,28,Kindergarten,58,produces,0.6897
+German,Male,28,Kindergarten,58,understands,0
+German,Female,29,Kindergarten,50,produces,0.94
+German,Female,29,Kindergarten,50,understands,0
+German,Male,29,Kindergarten,39,produces,0.6923
+German,Male,29,Kindergarten,39,understands,0
+German,Female,30,Kindergarten,54,produces,0.9259
+German,Female,30,Kindergarten,54,understands,0
+German,Male,30,Kindergarten,39,produces,0.9231
+German,Male,30,Kindergarten,39,understands,0
+Hebrew,Female,25,גן (משפחתון/ פעוטון/ מעון/ גנון),36,produces,0.8333
+Hebrew,Female,25,גן (משפחתון/ פעוטון/ מעון/ גנון),36,understands,0
+Hebrew,Male,25,גן (משפחתון/ פעוטון/ מעון/ גנון),46,produces,0.7609
+Hebrew,Male,25,גן (משפחתון/ פעוטון/ מעון/ גנון),46,understands,0
+Hebrew,Female,26,גן (משפחתון/ פעוטון/ מעון/ גנון),42,produces,0.881
+Hebrew,Female,26,גן (משפחתון/ פעוטון/ מעון/ גנון),42,understands,0
+Hebrew,Male,26,גן (משפחתון/ פעוטון/ מעון/ גנון),38,produces,0.8947
+Hebrew,Male,26,גן (משפחתון/ פעוטון/ מעון/ גנון),38,understands,0
+Hebrew,Female,27,גן (משפחתון/ פעוטון/ מעון/ גנון),36,produces,0.8611
+Hebrew,Female,27,גן (משפחתון/ פעוטון/ מעון/ גנון),36,understands,0
+Hebrew,Male,27,גן (משפחתון/ פעוטון/ מעון/ גנון),32,produces,0.875
+Hebrew,Male,27,גן (משפחתון/ פעוטון/ מעון/ גנון),32,understands,0
+Hebrew,Female,28,גן (משפחתון/ פעוטון/ מעון/ גנון),30,produces,0.9
+Hebrew,Female,28,גן (משפחתון/ פעוטון/ מעון/ גנון),30,understands,0
+Hebrew,Male,28,גן (משפחתון/ פעוטון/ מעון/ גנון),27,produces,0.9259
+Hebrew,Male,28,גן (משפחתון/ פעוטון/ מעון/ גנון),27,understands,0
+Hebrew,Female,29,גן (משפחתון/ פעוטון/ מעון/ גנון),20,produces,0.95
+Hebrew,Female,29,גן (משפחתון/ פעוטון/ מעון/ גנון),20,understands,0
+Hebrew,Male,29,גן (משפחתון/ פעוטון/ מעון/ גנון),27,produces,0.963
+Hebrew,Male,29,גן (משפחתון/ פעוטון/ מעון/ גנון),27,understands,0
+Hebrew,Female,30,גן (משפחתון/ פעוטון/ מעון/ גנון),12,produces,1
+Hebrew,Female,30,גן (משפחתון/ פעוטון/ מעון/ גנון),12,understands,0
+Hebrew,Male,30,גן (משפחתון/ פעוטון/ מעון/ גנון),16,produces,0.875
+Hebrew,Male,30,גן (משפחתון/ פעוטון/ מעון/ גנון),16,understands,0
+Hebrew,Female,31,גן (משפחתון/ פעוטון/ מעון/ גנון),18,produces,0.9444
+Hebrew,Female,31,גן (משפחתון/ פעוטון/ מעון/ גנון),18,understands,0
+Hebrew,Male,31,גן (משפחתון/ פעוטון/ מעון/ גנון),17,produces,0.9412
+Hebrew,Male,31,גן (משפחתון/ פעוטון/ מעון/ גנון),17,understands,0
+Hebrew,Female,32,גן (משפחתון/ פעוטון/ מעון/ גנון),19,produces,0.9474
+Hebrew,Female,32,גן (משפחתון/ פעוטון/ מעון/ גנון),19,understands,0
+Hebrew,Male,32,גן (משפחתון/ פעוטון/ מעון/ גנון),17,produces,0.9412
+Hebrew,Male,32,גן (משפחתון/ פעוטון/ מעון/ גנון),17,understands,0
+Hebrew,Female,33,גן (משפחתון/ פעוטון/ מעון/ גנון),10,produces,0.9
+Hebrew,Female,33,גן (משפחתון/ פעוטון/ מעון/ גנון),10,understands,0
+Hebrew,Male,33,גן (משפחתון/ פעוטון/ מעון/ גנון),11,produces,0.8182
+Hebrew,Male,33,גן (משפחתון/ פעוטון/ מעון/ גנון),11,understands,0
+Hebrew,Female,34,גן (משפחתון/ פעוטון/ מעון/ גנון),15,produces,0.9333
+Hebrew,Female,34,גן (משפחתון/ פעוטון/ מעון/ גנון),15,understands,0
+Hebrew,Male,34,גן (משפחתון/ פעוטון/ מעון/ גנון),12,produces,1
+Hebrew,Male,34,גן (משפחתון/ פעוטון/ מעון/ גנון),12,understands,0
+Hebrew,Female,35,גן (משפחתון/ פעוטון/ מעון/ גנון),6,produces,1
+Hebrew,Female,35,גן (משפחתון/ פעוטון/ מעון/ גנון),6,understands,0
+Hebrew,Male,35,גן (משפחתון/ פעוטון/ מעון/ גנון),12,produces,0.8333
+Hebrew,Male,35,גן (משפחתון/ פעוטון/ מעון/ גנון),12,understands,0
+Hebrew,Female,36,גן (משפחתון/ פעוטון/ מעון/ גנון),4,produces,1
+Hebrew,Female,36,גן (משפחתון/ פעוטון/ מעון/ גנון),4,understands,0
+Hebrew,Male,36,גן (משפחתון/ פעוטון/ מעון/ גנון),1,produces,1
+Hebrew,Male,36,גן (משפחתון/ פעוטון/ מעון/ גנון),1,understands,0
+Italian,Female,7,asilo,2,produces,0
+Italian,Female,7,asilo,2,understands,0
+Italian,Male,7,asilo,3,produces,0
+Italian,Male,7,asilo,3,understands,0.3333
+Italian,Female,8,asilo,18,produces,0
+Italian,Female,8,asilo,18,understands,0.0556
+Italian,Male,8,asilo,16,produces,0
+Italian,Male,8,asilo,16,understands,0
+Italian,Female,9,asilo,14,produces,0
+Italian,Female,9,asilo,14,understands,0.1429
+Italian,Male,9,asilo,24,produces,0
+Italian,Male,9,asilo,24,understands,0.0417
+Italian,Female,10,asilo,29,produces,0
+Italian,Female,10,asilo,29,understands,0.069
+Italian,Male,10,asilo,24,produces,0
+Italian,Male,10,asilo,24,understands,0.0833
+Italian,Female,11,asilo,22,produces,0
+Italian,Female,11,asilo,22,understands,0.0909
+Italian,Male,11,asilo,20,produces,0
+Italian,Male,11,asilo,20,understands,0.25
+Italian,Female,12,asilo,29,produces,0
+Italian,Female,12,asilo,29,understands,0.3103
+Italian,Male,12,asilo,40,produces,0
+Italian,Male,12,asilo,40,understands,0.2
+Italian,Female,13,asilo,22,produces,0
+Italian,Female,13,asilo,22,understands,0.3636
+Italian,Male,13,asilo,26,produces,0
+Italian,Male,13,asilo,26,understands,0.1538
+Italian,Female,14,asilo,21,produces,0
+Italian,Female,14,asilo,21,understands,0.4286
+Italian,Male,14,asilo,19,produces,0
+Italian,Male,14,asilo,19,understands,0.2105
+Italian,Female,15,asilo,30,produces,0
+Italian,Female,15,asilo,30,understands,0.4333
+Italian,Male,15,asilo,38,produces,0
+Italian,Male,15,asilo,38,understands,0.2632
+Italian,Female,16,asilo,27,produces,0.037
+Italian,Female,16,asilo,27,understands,0.4444
+Italian,Male,16,asilo,29,produces,0
+Italian,Male,16,asilo,29,understands,0.4483
+Italian,Female,17,asilo,20,produces,0.05
+Italian,Female,17,asilo,20,understands,0.65
+Italian,Male,17,asilo,28,produces,0.0357
+Italian,Male,17,asilo,28,understands,0.75
+Italian,Female,18,asilo,37,produces,0.1622
+Italian,Female,18,asilo,37,understands,0.3514
+Italian,Male,18,asilo,38,produces,0.0789
+Italian,Male,18,asilo,38,understands,0.4211
+Italian,Female,19,asilo,26,produces,0.1923
+Italian,Female,19,asilo,26,understands,0.1923
+Italian,Male,19,asilo,32,produces,0.25
+Italian,Male,19,asilo,32,understands,0.375
+Italian,Female,20,asilo,41,produces,0.1707
+Italian,Female,20,asilo,41,understands,0.1463
+Italian,Male,20,asilo,42,produces,0.1429
+Italian,Male,20,asilo,42,understands,0.2619
+Italian,Female,21,asilo,29,produces,0.4483
+Italian,Female,21,asilo,29,understands,0.1379
+Italian,Male,21,asilo,38,produces,0.3421
+Italian,Male,21,asilo,38,understands,0.1842
+Italian,Female,22,asilo,39,produces,0.5385
+Italian,Female,22,asilo,39,understands,0.3077
+Italian,Male,22,asilo,38,produces,0.3684
+Italian,Male,22,asilo,38,understands,0.2632
+Italian,Female,23,asilo,34,produces,0.6471
+Italian,Female,23,asilo,34,understands,0.2059
+Italian,Male,23,asilo,36,produces,0.4444
+Italian,Male,23,asilo,36,understands,0.25
+Italian,Female,24,asilo,46,produces,0.5652
+Italian,Female,24,asilo,46,understands,0.1304
+Italian,Male,24,asilo,39,produces,0.7436
+Italian,Male,24,asilo,39,understands,0.1795
+Italian,Female,25,asilo,23,produces,0.6957
+Italian,Female,25,asilo,23,understands,0
+Italian,Male,25,asilo,16,produces,0.5
+Italian,Male,25,asilo,16,understands,0
+Italian,Female,26,asilo,19,produces,0.8947
+Italian,Female,26,asilo,19,understands,0
+Italian,Male,26,asilo,22,produces,0.5455
+Italian,Male,26,asilo,22,understands,0
+Italian,Female,27,asilo,20,produces,0.7
+Italian,Female,27,asilo,20,understands,0
+Italian,Male,27,asilo,23,produces,0.8261
+Italian,Male,27,asilo,23,understands,0
+Italian,Female,28,asilo,21,produces,0.7619
+Italian,Female,28,asilo,21,understands,0
+Italian,Male,28,asilo,23,produces,0.7826
+Italian,Male,28,asilo,23,understands,0
+Italian,Female,29,asilo,21,produces,0.8095
+Italian,Female,29,asilo,21,understands,0
+Italian,Male,29,asilo,16,produces,1
+Italian,Male,29,asilo,16,understands,0
+Italian,Female,30,asilo,28,produces,0.8571
+Italian,Female,30,asilo,28,understands,0
+Italian,Male,30,asilo,39,produces,0.8974
+Italian,Male,30,asilo,39,understands,0
+Italian,Female,31,asilo,8,produces,0.875
+Italian,Female,31,asilo,8,understands,0
+Italian,Male,31,asilo,11,produces,0.7273
+Italian,Male,31,asilo,11,understands,0
+Italian,Female,32,asilo,14,produces,0.9286
+Italian,Female,32,asilo,14,understands,0
+Italian,Male,32,asilo,9,produces,0.7778
+Italian,Male,32,asilo,9,understands,0
+Italian,Female,33,asilo,5,produces,1
+Italian,Female,33,asilo,5,understands,0
+Italian,Male,33,asilo,11,produces,1
+Italian,Male,33,asilo,11,understands,0
+Italian,Female,34,asilo,12,produces,1
+Italian,Female,34,asilo,12,understands,0
+Italian,Male,34,asilo,7,produces,0.5714
+Italian,Male,34,asilo,7,understands,0
+Italian,Female,35,asilo,9,produces,1
+Italian,Female,35,asilo,9,understands,0
+Italian,Male,35,asilo,6,produces,0.8333
+Italian,Male,35,asilo,6,understands,0
+Italian,Female,36,asilo,7,produces,0.8571
+Italian,Female,36,asilo,7,understands,0
+Italian,Male,36,asilo,14,produces,0.9286
+Italian,Male,36,asilo,14,understands,0
+Japanese,Female,16,幼稚園,4,produces,0
+Japanese,Female,16,幼稚園,4,understands,0
+Japanese,Male,16,幼稚園,7,produces,0
+Japanese,Male,16,幼稚園,7,understands,0
+Japanese,Female,17,幼稚園,11,produces,0
+Japanese,Female,17,幼稚園,11,understands,0
+Japanese,Male,17,幼稚園,6,produces,0
+Japanese,Male,17,幼稚園,6,understands,0
+Japanese,Female,18,幼稚園,27,produces,0.037
+Japanese,Female,18,幼稚園,27,understands,0
+Japanese,Male,18,幼稚園,29,produces,0
+Japanese,Male,18,幼稚園,29,understands,0
+Japanese,Female,19,幼稚園,14,produces,0.0714
+Japanese,Female,19,幼稚園,14,understands,0
+Japanese,Male,19,幼稚園,21,produces,0
+Japanese,Male,19,幼稚園,21,understands,0
+Japanese,Female,20,幼稚園,27,produces,0
+Japanese,Female,20,幼稚園,27,understands,0
+Japanese,Male,20,幼稚園,32,produces,0
+Japanese,Male,20,幼稚園,32,understands,0
+Japanese,Female,21,幼稚園,29,produces,0
+Japanese,Female,21,幼稚園,29,understands,0
+Japanese,Male,21,幼稚園,33,produces,0.0303
+Japanese,Male,21,幼稚園,33,understands,0
+Japanese,Female,22,幼稚園,16,produces,0
+Japanese,Female,22,幼稚園,16,understands,0
+Japanese,Male,22,幼稚園,15,produces,0.1333
+Japanese,Male,22,幼稚園,15,understands,0
+Japanese,Female,23,幼稚園,38,produces,0.0263
+Japanese,Female,23,幼稚園,38,understands,0
+Japanese,Male,23,幼稚園,29,produces,0.0345
+Japanese,Male,23,幼稚園,29,understands,0
+Japanese,Female,24,幼稚園,18,produces,0.0556
+Japanese,Female,24,幼稚園,18,understands,0
+Japanese,Male,24,幼稚園,15,produces,0.0667
+Japanese,Male,24,幼稚園,15,understands,0
+Japanese,Female,25,幼稚園,14,produces,0.2857
+Japanese,Female,25,幼稚園,14,understands,0
+Japanese,Male,25,幼稚園,20,produces,0.2
+Japanese,Male,25,幼稚園,20,understands,0
+Japanese,Female,26,幼稚園,19,produces,0.1053
+Japanese,Female,26,幼稚園,19,understands,0
+Japanese,Male,26,幼稚園,14,produces,0.0714
+Japanese,Male,26,幼稚園,14,understands,0
+Japanese,Female,27,幼稚園,8,produces,0.125
+Japanese,Female,27,幼稚園,8,understands,0
+Japanese,Male,27,幼稚園,7,produces,0
+Japanese,Male,27,幼稚園,7,understands,0
+Japanese,Female,28,幼稚園,8,produces,0
+Japanese,Female,28,幼稚園,8,understands,0
+Japanese,Male,28,幼稚園,10,produces,0.1
+Japanese,Male,28,幼稚園,10,understands,0
+Japanese,Female,29,幼稚園,6,produces,0.1667
+Japanese,Female,29,幼稚園,6,understands,0
+Japanese,Male,29,幼稚園,11,produces,0.4545
+Japanese,Male,29,幼稚園,11,understands,0
+Japanese,Female,30,幼稚園,9,produces,0.1111
+Japanese,Female,30,幼稚園,9,understands,0
+Japanese,Male,30,幼稚園,9,produces,0.6667
+Japanese,Male,30,幼稚園,9,understands,0
+Japanese,Female,31,幼稚園,8,produces,0.25
+Japanese,Female,31,幼稚園,8,understands,0
+Japanese,Male,31,幼稚園,10,produces,0.3
+Japanese,Male,31,幼稚園,10,understands,0
+Japanese,Female,32,幼稚園,8,produces,0.375
+Japanese,Female,32,幼稚園,8,understands,0
+Japanese,Male,32,幼稚園,5,produces,0.4
+Japanese,Male,32,幼稚園,5,understands,0
+Japanese,Female,33,幼稚園,9,produces,0.3333
+Japanese,Female,33,幼稚園,9,understands,0
+Japanese,Male,33,幼稚園,7,produces,0.2857
+Japanese,Male,33,幼稚園,7,understands,0
+Japanese,Female,34,幼稚園,8,produces,0.375
+Japanese,Female,34,幼稚園,8,understands,0
+Japanese,Male,34,幼稚園,5,produces,0.4
+Japanese,Male,34,幼稚園,5,understands,0
+Japanese,Female,35,幼稚園,19,produces,0.5263
+Japanese,Female,35,幼稚園,19,understands,0
+Japanese,Male,35,幼稚園,12,produces,0.25
+Japanese,Male,35,幼稚園,12,understands,0
+Japanese,Female,36,幼稚園,4,produces,0.75
+Japanese,Female,36,幼稚園,4,understands,0
+Japanese,Male,36,幼稚園,14,produces,0.5714
+Japanese,Male,36,幼稚園,14,understands,0
+Korean,Female,18,유치원,51,produces,0.098
+Korean,Female,18,유치원,51,understands,0
+Korean,Male,18,유치원,37,produces,0.0541
+Korean,Male,18,유치원,37,understands,0
+Korean,Female,19,유치원,39,produces,0.0769
+Korean,Female,19,유치원,39,understands,0
+Korean,Male,19,유치원,38,produces,0
+Korean,Male,19,유치원,38,understands,0
+Korean,Female,20,유치원,47,produces,0.0426
+Korean,Female,20,유치원,47,understands,0
+Korean,Male,20,유치원,41,produces,0.0244
+Korean,Male,20,유치원,41,understands,0
+Korean,Female,21,유치원,38,produces,0.2368
+Korean,Female,21,유치원,38,understands,0
+Korean,Male,21,유치원,41,produces,0.0488
+Korean,Male,21,유치원,41,understands,0
+Korean,Female,22,유치원,42,produces,0.2381
+Korean,Female,22,유치원,42,understands,0
+Korean,Male,22,유치원,45,produces,0.0889
+Korean,Male,22,유치원,45,understands,0
+Korean,Female,23,유치원,42,produces,0.1667
+Korean,Female,23,유치원,42,understands,0
+Korean,Male,23,유치원,45,produces,0.1556
+Korean,Male,23,유치원,45,understands,0
+Korean,Female,24,유치원,46,produces,0.2826
+Korean,Female,24,유치원,46,understands,0
+Korean,Male,24,유치원,61,produces,0.1311
+Korean,Male,24,유치원,61,understands,0
+Korean,Female,25,유치원,46,produces,0.3913
+Korean,Female,25,유치원,46,understands,0
+Korean,Male,25,유치원,49,produces,0.3061
+Korean,Male,25,유치원,49,understands,0
+Korean,Female,26,유치원,42,produces,0.3333
+Korean,Female,26,유치원,42,understands,0
+Korean,Male,26,유치원,49,produces,0.3469
+Korean,Male,26,유치원,49,understands,0
+Korean,Female,27,유치원,46,produces,0.5435
+Korean,Female,27,유치원,46,understands,0
+Korean,Male,27,유치원,58,produces,0.4138
+Korean,Male,27,유치원,58,understands,0
+Korean,Female,28,유치원,49,produces,0.5714
+Korean,Female,28,유치원,49,understands,0
+Korean,Male,28,유치원,40,produces,0.575
+Korean,Male,28,유치원,40,understands,0
+Korean,Female,29,유치원,49,produces,0.6122
+Korean,Female,29,유치원,49,understands,0
+Korean,Male,29,유치원,51,produces,0.5294
+Korean,Male,29,유치원,51,understands,0
+Korean,Female,30,유치원,34,produces,0.7059
+Korean,Female,30,유치원,34,understands,0
+Korean,Male,30,유치원,47,produces,0.5532
+Korean,Male,30,유치원,47,understands,0
+Korean,Female,31,유치원,31,produces,0.7742
+Korean,Female,31,유치원,31,understands,0
+Korean,Male,31,유치원,48,produces,0.6458
+Korean,Male,31,유치원,48,understands,0
+Korean,Female,32,유치원,33,produces,0.8788
+Korean,Female,32,유치원,33,understands,0
+Korean,Male,32,유치원,36,produces,0.6667
+Korean,Male,32,유치원,36,understands,0
+Korean,Female,33,유치원,36,produces,0.8333
+Korean,Female,33,유치원,36,understands,0
+Korean,Male,33,유치원,43,produces,0.6047
+Korean,Male,33,유치원,43,understands,0
+Korean,Female,34,유치원,41,produces,0.9512
+Korean,Female,34,유치원,41,understands,0
+Korean,Male,34,유치원,38,produces,0.7105
+Korean,Male,34,유치원,38,understands,0
+Korean,Female,35,유치원,37,produces,0.8649
+Korean,Female,35,유치원,37,understands,0
+Korean,Male,35,유치원,37,produces,0.7027
+Korean,Male,35,유치원,37,understands,0
+Korean,Female,36,유치원,40,produces,0.875
+Korean,Female,36,유치원,40,understands,0
+Korean,Male,36,유치원,35,produces,0.8286
+Korean,Male,36,유치원,35,understands,0
+Latvian,Female,17,bērnudārzs,12,produces,0
+Latvian,Female,17,bērnudārzs,12,understands,0
+Latvian,Male,17,bērnudārzs,15,produces,0.0667
+Latvian,Male,17,bērnudārzs,15,understands,0
+Latvian,Female,18,bērnudārzs,10,produces,0
+Latvian,Female,18,bērnudārzs,10,understands,0
+Latvian,Male,18,bērnudārzs,11,produces,0.0909
+Latvian,Male,18,bērnudārzs,11,understands,0
+Latvian,Female,19,bērnudārzs,18,produces,0.0556
+Latvian,Female,19,bērnudārzs,18,understands,0
+Latvian,Male,19,bērnudārzs,10,produces,0.1
+Latvian,Male,19,bērnudārzs,10,understands,0
+Latvian,Female,20,bērnudārzs,17,produces,0.1765
+Latvian,Female,20,bērnudārzs,17,understands,0
+Latvian,Male,20,bērnudārzs,17,produces,0.2353
+Latvian,Male,20,bērnudārzs,17,understands,0
+Latvian,Female,21,bērnudārzs,15,produces,0.1333
+Latvian,Female,21,bērnudārzs,15,understands,0
+Latvian,Male,21,bērnudārzs,11,produces,0.2727
+Latvian,Male,21,bērnudārzs,11,understands,0
+Latvian,Female,22,bērnudārzs,16,produces,0.3125
+Latvian,Female,22,bērnudārzs,16,understands,0
+Latvian,Male,22,bērnudārzs,16,produces,0.125
+Latvian,Male,22,bērnudārzs,16,understands,0
+Latvian,Female,23,bērnudārzs,15,produces,0.4
+Latvian,Female,23,bērnudārzs,15,understands,0
+Latvian,Male,23,bērnudārzs,10,produces,0.3
+Latvian,Male,23,bērnudārzs,10,understands,0
+Latvian,Female,24,bērnudārzs,15,produces,0.8
+Latvian,Female,24,bērnudārzs,15,understands,0
+Latvian,Male,24,bērnudārzs,15,produces,0.4667
+Latvian,Male,24,bērnudārzs,15,understands,0
+Latvian,Female,25,bērnudārzs,16,produces,0.5625
+Latvian,Female,25,bērnudārzs,16,understands,0
+Latvian,Male,25,bērnudārzs,13,produces,0.3846
+Latvian,Male,25,bērnudārzs,13,understands,0
+Latvian,Female,26,bērnudārzs,9,produces,0.3333
+Latvian,Female,26,bērnudārzs,9,understands,0
+Latvian,Male,26,bērnudārzs,13,produces,0.6923
+Latvian,Male,26,bērnudārzs,13,understands,0
+Latvian,Female,27,bērnudārzs,10,produces,0.8
+Latvian,Female,27,bērnudārzs,10,understands,0
+Latvian,Male,27,bērnudārzs,8,produces,0.5
+Latvian,Male,27,bērnudārzs,8,understands,0
+Latvian,Female,28,bērnudārzs,11,produces,0.8182
+Latvian,Female,28,bērnudārzs,11,understands,0
+Latvian,Male,28,bērnudārzs,12,produces,0.5
+Latvian,Male,28,bērnudārzs,12,understands,0
+Latvian,Female,29,bērnudārzs,11,produces,0.5455
+Latvian,Female,29,bērnudārzs,11,understands,0
+Latvian,Male,29,bērnudārzs,13,produces,0.5385
+Latvian,Male,29,bērnudārzs,13,understands,0
+Latvian,Female,30,bērnudārzs,12,produces,0.5833
+Latvian,Female,30,bērnudārzs,12,understands,0
+Latvian,Male,30,bērnudārzs,14,produces,0.7857
+Latvian,Male,30,bērnudārzs,14,understands,0
+Latvian,Female,31,bērnudārzs,10,produces,0.8
+Latvian,Female,31,bērnudārzs,10,understands,0
+Latvian,Male,31,bērnudārzs,9,produces,0.7778
+Latvian,Male,31,bērnudārzs,9,understands,0
+Latvian,Female,32,bērnudārzs,13,produces,1
+Latvian,Female,32,bērnudārzs,13,understands,0
+Latvian,Male,32,bērnudārzs,12,produces,0.5
+Latvian,Male,32,bērnudārzs,12,understands,0
+Latvian,Female,33,bērnudārzs,17,produces,0.9412
+Latvian,Female,33,bērnudārzs,17,understands,0
+Latvian,Male,33,bērnudārzs,14,produces,0.7143
+Latvian,Male,33,bērnudārzs,14,understands,0
+Latvian,Female,34,bērnudārzs,10,produces,0.9
+Latvian,Female,34,bērnudārzs,10,understands,0
+Latvian,Male,34,bērnudārzs,7,produces,0.7143
+Latvian,Male,34,bērnudārzs,7,understands,0
+Latvian,Female,35,bērnudārzs,8,produces,0.875
+Latvian,Female,35,bērnudārzs,8,understands,0
+Latvian,Male,35,bērnudārzs,13,produces,0.8462
+Latvian,Male,35,bērnudārzs,13,understands,0
+Latvian,Female,36,bērnudārzs,12,produces,0.75
+Latvian,Female,36,bērnudārzs,12,understands,0
+Latvian,Male,36,bērnudārzs,10,produces,0.9
+Latvian,Male,36,bērnudārzs,10,understands,0
+Mandarin (Beijing),Female,16,幼儿园/托儿所,35,produces,0
+Mandarin (Beijing),Female,16,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,16,幼儿园/托儿所,35,produces,0
+Mandarin (Beijing),Male,16,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,17,幼儿园/托儿所,35,produces,0
+Mandarin (Beijing),Female,17,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,17,幼儿园/托儿所,37,produces,0.027
+Mandarin (Beijing),Male,17,幼儿园/托儿所,37,understands,0
+Mandarin (Beijing),Female,18,幼儿园/托儿所,35,produces,0.0286
+Mandarin (Beijing),Female,18,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,18,幼儿园/托儿所,36,produces,0.0833
+Mandarin (Beijing),Male,18,幼儿园/托儿所,36,understands,0
+Mandarin (Beijing),Female,19,幼儿园/托儿所,35,produces,0.2286
+Mandarin (Beijing),Female,19,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,19,幼儿园/托儿所,35,produces,0.1429
+Mandarin (Beijing),Male,19,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,20,幼儿园/托儿所,35,produces,0.3429
+Mandarin (Beijing),Female,20,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,20,幼儿园/托儿所,36,produces,0.1944
+Mandarin (Beijing),Male,20,幼儿园/托儿所,36,understands,0
+Mandarin (Beijing),Female,21,幼儿园/托儿所,35,produces,0.3714
+Mandarin (Beijing),Female,21,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,21,幼儿园/托儿所,35,produces,0.2
+Mandarin (Beijing),Male,21,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,22,幼儿园/托儿所,35,produces,0.5143
+Mandarin (Beijing),Female,22,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,22,幼儿园/托儿所,36,produces,0.3889
+Mandarin (Beijing),Male,22,幼儿园/托儿所,36,understands,0
+Mandarin (Beijing),Female,23,幼儿园/托儿所,35,produces,0.6
+Mandarin (Beijing),Female,23,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,23,幼儿园/托儿所,35,produces,0.4
+Mandarin (Beijing),Male,23,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,24,幼儿园/托儿所,35,produces,0.6857
+Mandarin (Beijing),Female,24,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,24,幼儿园/托儿所,35,produces,0.5429
+Mandarin (Beijing),Male,24,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,25,幼儿园/托儿所,35,produces,0.8857
+Mandarin (Beijing),Female,25,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,25,幼儿园/托儿所,35,produces,0.6286
+Mandarin (Beijing),Male,25,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,26,幼儿园/托儿所,36,produces,0.8611
+Mandarin (Beijing),Female,26,幼儿园/托儿所,36,understands,0
+Mandarin (Beijing),Male,26,幼儿园/托儿所,35,produces,0.6571
+Mandarin (Beijing),Male,26,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,27,幼儿园/托儿所,35,produces,0.8571
+Mandarin (Beijing),Female,27,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,27,幼儿园/托儿所,35,produces,0.8857
+Mandarin (Beijing),Male,27,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,28,幼儿园/托儿所,35,produces,0.9143
+Mandarin (Beijing),Female,28,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,28,幼儿园/托儿所,35,produces,0.7714
+Mandarin (Beijing),Male,28,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,29,幼儿园/托儿所,35,produces,0.9714
+Mandarin (Beijing),Female,29,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,29,幼儿园/托儿所,35,produces,0.9143
+Mandarin (Beijing),Male,29,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Female,30,幼儿园/托儿所,35,produces,0.9429
+Mandarin (Beijing),Female,30,幼儿园/托儿所,35,understands,0
+Mandarin (Beijing),Male,30,幼儿园/托儿所,35,produces,0.8857
+Mandarin (Beijing),Male,30,幼儿园/托儿所,35,understands,0
+Portuguese (European),Female,8,Escolinha (creche),55,produces,0
+Portuguese (European),Female,8,Escolinha (creche),55,understands,0.2
+Portuguese (European),Male,8,Escolinha (creche),71,produces,0
+Portuguese (European),Male,8,Escolinha (creche),71,understands,0.1268
+Portuguese (European),Female,9,Escolinha (creche),71,produces,0
+Portuguese (European),Female,9,Escolinha (creche),71,understands,0.2394
+Portuguese (European),Male,9,Escolinha (creche),77,produces,0
+Portuguese (European),Male,9,Escolinha (creche),77,understands,0.2597
+Portuguese (European),Female,10,Escolinha (creche),74,produces,0
+Portuguese (European),Female,10,Escolinha (creche),74,understands,0.3378
+Portuguese (European),Male,10,Escolinha (creche),94,produces,0
+Portuguese (European),Male,10,Escolinha (creche),94,understands,0.3085
+Portuguese (European),Female,11,Escolinha (creche),93,produces,0
+Portuguese (European),Female,11,Escolinha (creche),93,understands,0.2688
+Portuguese (European),Male,11,Escolinha (creche),86,produces,0
+Portuguese (European),Male,11,Escolinha (creche),86,understands,0.2558
+Portuguese (European),Female,12,Escolinha (creche),70,produces,0.0143
+Portuguese (European),Female,12,Escolinha (creche),70,understands,0.4714
+Portuguese (European),Male,12,Escolinha (creche),89,produces,0.0112
+Portuguese (European),Male,12,Escolinha (creche),89,understands,0.4494
+Portuguese (European),Female,13,Escolinha (creche),95,produces,0
+Portuguese (European),Female,13,Escolinha (creche),95,understands,0.4211
+Portuguese (European),Male,13,Escolinha (creche),80,produces,0.0125
+Portuguese (European),Male,13,Escolinha (creche),80,understands,0.45
+Portuguese (European),Female,14,Escolinha (creche),83,produces,0.0241
+Portuguese (European),Female,14,Escolinha (creche),83,understands,0.494
+Portuguese (European),Male,14,Escolinha (creche),100,produces,0.01
+Portuguese (European),Male,14,Escolinha (creche),100,understands,0.51
+Portuguese (European),Female,15,Escolinha (creche),82,produces,0.0122
+Portuguese (European),Female,15,Escolinha (creche),82,understands,0.4756
+Portuguese (European),Male,15,Escolinha (creche),90,produces,0.0222
+Portuguese (European),Male,15,Escolinha (creche),90,understands,0.5778
+Portuguese (European),Female,16,Jardim / Escolinha,71,produces,0.0282
+Portuguese (European),Female,16,Jardim / Escolinha,71,understands,0
+Portuguese (European),Male,16,Jardim / Escolinha,73,produces,0.0137
+Portuguese (European),Male,16,Jardim / Escolinha,73,understands,0
+Portuguese (European),Female,17,Jardim / Escolinha,62,produces,0.0161
+Portuguese (European),Female,17,Jardim / Escolinha,62,understands,0
+Portuguese (European),Male,17,Jardim / Escolinha,96,produces,0.0104
+Portuguese (European),Male,17,Jardim / Escolinha,96,understands,0
+Portuguese (European),Female,18,Jardim / Escolinha,102,produces,0.0294
+Portuguese (European),Female,18,Jardim / Escolinha,102,understands,0
+Portuguese (European),Male,18,Jardim / Escolinha,101,produces,0.0099
+Portuguese (European),Male,18,Jardim / Escolinha,101,understands,0
+Portuguese (European),Female,19,Jardim / Escolinha,97,produces,0.0412
+Portuguese (European),Female,19,Jardim / Escolinha,97,understands,0
+Portuguese (European),Male,19,Jardim / Escolinha,99,produces,0.0404
+Portuguese (European),Male,19,Jardim / Escolinha,99,understands,0
+Portuguese (European),Female,20,Jardim / Escolinha,115,produces,0.0783
+Portuguese (European),Female,20,Jardim / Escolinha,115,understands,0
+Portuguese (European),Male,20,Jardim / Escolinha,103,produces,0.0874
+Portuguese (European),Male,20,Jardim / Escolinha,103,understands,0
+Portuguese (European),Female,21,Jardim / Escolinha,93,produces,0.172
+Portuguese (European),Female,21,Jardim / Escolinha,93,understands,0
+Portuguese (European),Male,21,Jardim / Escolinha,115,produces,0.1043
+Portuguese (European),Male,21,Jardim / Escolinha,115,understands,0
+Portuguese (European),Female,22,Jardim / Escolinha,117,produces,0.2393
+Portuguese (European),Female,22,Jardim / Escolinha,117,understands,0
+Portuguese (European),Male,22,Jardim / Escolinha,96,produces,0.1771
+Portuguese (European),Male,22,Jardim / Escolinha,96,understands,0
+Portuguese (European),Female,23,Jardim / Escolinha,94,produces,0.2553
+Portuguese (European),Female,23,Jardim / Escolinha,94,understands,0
+Portuguese (European),Male,23,Jardim / Escolinha,105,produces,0.1429
+Portuguese (European),Male,23,Jardim / Escolinha,105,understands,0
+Portuguese (European),Female,24,Jardim / Escolinha,88,produces,0.3864
+Portuguese (European),Female,24,Jardim / Escolinha,88,understands,0
+Portuguese (European),Male,24,Jardim / Escolinha,127,produces,0.2283
+Portuguese (European),Male,24,Jardim / Escolinha,127,understands,0
+Portuguese (European),Female,25,Jardim / Escolinha,110,produces,0.4364
+Portuguese (European),Female,25,Jardim / Escolinha,110,understands,0
+Portuguese (European),Male,25,Jardim / Escolinha,103,produces,0.3398
+Portuguese (European),Male,25,Jardim / Escolinha,103,understands,0
+Portuguese (European),Female,26,Jardim / Escolinha,96,produces,0.4375
+Portuguese (European),Female,26,Jardim / Escolinha,96,understands,0
+Portuguese (European),Male,26,Jardim / Escolinha,122,produces,0.3607
+Portuguese (European),Male,26,Jardim / Escolinha,122,understands,0
+Portuguese (European),Female,27,Jardim / Escolinha,109,produces,0.6055
+Portuguese (European),Female,27,Jardim / Escolinha,109,understands,0
+Portuguese (European),Male,27,Jardim / Escolinha,129,produces,0.4109
+Portuguese (European),Male,27,Jardim / Escolinha,129,understands,0
+Portuguese (European),Female,28,Jardim / Escolinha,91,produces,0.6703
+Portuguese (European),Female,28,Jardim / Escolinha,91,understands,0
+Portuguese (European),Male,28,Jardim / Escolinha,128,produces,0.4609
+Portuguese (European),Male,28,Jardim / Escolinha,128,understands,0
+Portuguese (European),Female,29,Jardim / Escolinha,98,produces,0.5816
+Portuguese (European),Female,29,Jardim / Escolinha,98,understands,0
+Portuguese (European),Male,29,Jardim / Escolinha,109,produces,0.5046
+Portuguese (European),Male,29,Jardim / Escolinha,109,understands,0
+Portuguese (European),Female,30,Jardim / Escolinha,81,produces,0.6173
+Portuguese (European),Female,30,Jardim / Escolinha,81,understands,0
+Portuguese (European),Male,30,Jardim / Escolinha,82,produces,0.5
+Portuguese (European),Male,30,Jardim / Escolinha,82,understands,0
+Russian,Female,18,детский сад,24,produces,0
+Russian,Female,18,детский сад,24,understands,0
+Russian,Male,18,детский сад,18,produces,0
+Russian,Male,18,детский сад,18,understands,0
+Russian,Female,19,детский сад,22,produces,0.0455
+Russian,Female,19,детский сад,22,understands,0
+Russian,Male,19,детский сад,19,produces,0.1579
+Russian,Male,19,детский сад,19,understands,0
+Russian,Female,20,детский сад,18,produces,0.1111
+Russian,Female,20,детский сад,18,understands,0
+Russian,Male,20,детский сад,27,produces,0.037
+Russian,Male,20,детский сад,27,understands,0
+Russian,Female,21,детский сад,22,produces,0.3636
+Russian,Female,21,детский сад,22,understands,0
+Russian,Male,21,детский сад,21,produces,0.1429
+Russian,Male,21,детский сад,21,understands,0
+Russian,Female,22,детский сад,29,produces,0.1724
+Russian,Female,22,детский сад,29,understands,0
+Russian,Male,22,детский сад,22,produces,0.2273
+Russian,Male,22,детский сад,22,understands,0
+Russian,Female,23,детский сад,37,produces,0.2973
+Russian,Female,23,детский сад,37,understands,0
+Russian,Male,23,детский сад,19,produces,0.3684
+Russian,Male,23,детский сад,19,understands,0
+Russian,Female,24,детский сад,28,produces,0.3929
+Russian,Female,24,детский сад,28,understands,0
+Russian,Male,24,детский сад,33,produces,0.3636
+Russian,Male,24,детский сад,33,understands,0
+Russian,Female,25,детский сад,39,produces,0.5128
+Russian,Female,25,детский сад,39,understands,0
+Russian,Male,25,детский сад,27,produces,0.2593
+Russian,Male,25,детский сад,27,understands,0
+Russian,Female,26,детский сад,26,produces,0.4615
+Russian,Female,26,детский сад,26,understands,0
+Russian,Male,26,детский сад,26,produces,0.4231
+Russian,Male,26,детский сад,26,understands,0
+Russian,Female,27,детский сад,37,produces,0.5946
+Russian,Female,27,детский сад,37,understands,0
+Russian,Male,27,детский сад,23,produces,0.6087
+Russian,Male,27,детский сад,23,understands,0
+Russian,Female,28,детский сад,28,produces,0.6429
+Russian,Female,28,детский сад,28,understands,0
+Russian,Male,28,детский сад,32,produces,0.5625
+Russian,Male,28,детский сад,32,understands,0
+Russian,Female,29,детский сад,30,produces,0.6667
+Russian,Female,29,детский сад,30,understands,0
+Russian,Male,29,детский сад,27,produces,0.7037
+Russian,Male,29,детский сад,27,understands,0
+Russian,Female,30,детский сад,42,produces,0.7857
+Russian,Female,30,детский сад,42,understands,0
+Russian,Male,30,детский сад,35,produces,0.6571
+Russian,Male,30,детский сад,35,understands,0
+Russian,Female,31,детский сад,32,produces,0.6562
+Russian,Female,31,детский сад,32,understands,0
+Russian,Male,31,детский сад,29,produces,0.5862
+Russian,Male,31,детский сад,29,understands,0
+Russian,Female,32,детский сад,29,produces,0.7586
+Russian,Female,32,детский сад,29,understands,0
+Russian,Male,32,детский сад,26,produces,0.8462
+Russian,Male,32,детский сад,26,understands,0
+Russian,Female,33,детский сад,27,produces,0.8889
+Russian,Female,33,детский сад,27,understands,0
+Russian,Male,33,детский сад,28,produces,0.7857
+Russian,Male,33,детский сад,28,understands,0
+Russian,Female,34,детский сад,31,produces,0.9032
+Russian,Female,34,детский сад,31,understands,0
+Russian,Male,34,детский сад,27,produces,0.7407
+Russian,Male,34,детский сад,27,understands,0
+Russian,Female,35,детский сад,22,produces,0.9091
+Russian,Female,35,детский сад,22,understands,0
+Russian,Male,35,детский сад,25,produces,0.68
+Russian,Male,35,детский сад,25,understands,0
+Russian,Female,36,детский сад,27,produces,0.8148
+Russian,Female,36,детский сад,27,understands,0
+Russian,Male,36,детский сад,22,produces,0.8182
+Russian,Male,36,детский сад,22,understands,0
+Slovak,Female,17,škôlka,39,produces,0.0769
+Slovak,Female,17,škôlka,39,understands,0
+Slovak,Male,17,škôlka,31,produces,0.0968
+Slovak,Male,17,škôlka,31,understands,0
+Slovak,Female,18,škôlka,30,produces,0.0667
+Slovak,Female,18,škôlka,30,understands,0
+Slovak,Male,18,škôlka,35,produces,0.0857
+Slovak,Male,18,škôlka,35,understands,0
+Slovak,Female,19,škôlka,30,produces,0.2
+Slovak,Female,19,škôlka,30,understands,0
+Slovak,Male,19,škôlka,26,produces,0.0769
+Slovak,Male,19,škôlka,26,understands,0
+Slovak,Female,20,škôlka,33,produces,0.3333
+Slovak,Female,20,škôlka,33,understands,0
+Slovak,Male,20,škôlka,29,produces,0.2069
+Slovak,Male,20,škôlka,29,understands,0
+Slovak,Female,21,škôlka,40,produces,0.25
+Slovak,Female,21,škôlka,40,understands,0
+Slovak,Male,21,škôlka,41,produces,0.2683
+Slovak,Male,21,škôlka,41,understands,0
+Slovak,Female,22,škôlka,27,produces,0.4444
+Slovak,Female,22,škôlka,27,understands,0
+Slovak,Male,22,škôlka,26,produces,0.2308
+Slovak,Male,22,škôlka,26,understands,0
+Slovak,Female,23,škôlka,28,produces,0.4643
+Slovak,Female,23,škôlka,28,understands,0
+Slovak,Male,23,škôlka,31,produces,0.2581
+Slovak,Male,23,škôlka,31,understands,0
+Slovak,Female,24,škôlka,28,produces,0.5714
+Slovak,Female,24,škôlka,28,understands,0
+Slovak,Male,24,škôlka,31,produces,0.4516
+Slovak,Male,24,škôlka,31,understands,0
+Slovak,Female,25,škôlka,35,produces,0.5143
+Slovak,Female,25,škôlka,35,understands,0
+Slovak,Male,25,škôlka,34,produces,0.3824
+Slovak,Male,25,škôlka,34,understands,0
+Slovak,Female,26,škôlka,43,produces,0.7442
+Slovak,Female,26,škôlka,43,understands,0
+Slovak,Male,26,škôlka,35,produces,0.6286
+Slovak,Male,26,škôlka,35,understands,0
+Slovak,Female,27,škôlka,33,produces,0.8182
+Slovak,Female,27,škôlka,33,understands,0
+Slovak,Male,27,škôlka,29,produces,0.6207
+Slovak,Male,27,škôlka,29,understands,0
+Slovak,Female,28,škôlka,48,produces,0.625
+Slovak,Female,28,škôlka,48,understands,0
+Slovak,Male,28,škôlka,38,produces,0.6316
+Slovak,Male,28,škôlka,38,understands,0
+Slovak,Female,29,škôlka,36,produces,0.6389
+Slovak,Female,29,škôlka,36,understands,0
+Slovak,Male,29,škôlka,39,produces,0.7436
+Slovak,Male,29,škôlka,39,understands,0
+Slovak,Female,30,škôlka,19,produces,0.7895
+Slovak,Female,30,škôlka,19,understands,0
+Slovak,Male,30,škôlka,30,produces,0.6
+Slovak,Male,30,škôlka,30,understands,0
+Slovak,Female,31,škôlka,16,produces,0.625
+Slovak,Female,31,škôlka,16,understands,0
+Slovak,Male,31,škôlka,13,produces,0.6923
+Slovak,Male,31,škôlka,13,understands,0
+Slovak,Female,32,škôlka,12,produces,0.8333
+Slovak,Female,32,škôlka,12,understands,0
+Slovak,Male,32,škôlka,13,produces,0.8462
+Slovak,Male,32,škôlka,13,understands,0
+Slovak,Female,33,škôlka,12,produces,1
+Slovak,Female,33,škôlka,12,understands,0
+Slovak,Male,33,škôlka,10,produces,0.7
+Slovak,Male,33,škôlka,10,understands,0
+Slovak,Female,34,škôlka,17,produces,0.8824
+Slovak,Female,34,škôlka,17,understands,0
+Slovak,Male,34,škôlka,10,produces,0.5
+Slovak,Male,34,škôlka,10,understands,0
+Slovak,Female,35,škôlka,9,produces,1
+Slovak,Female,35,škôlka,9,understands,0
+Slovak,Male,35,škôlka,18,produces,0.6111
+Slovak,Male,35,škôlka,18,understands,0
+Slovak,Female,36,škôlka,2,produces,1
+Slovak,Female,36,škôlka,2,understands,0
+Slovak,Male,36,škôlka,6,produces,0.8333
+Slovak,Male,36,škôlka,6,understands,0
+Spanish (European),Female,16,guardería,19,produces,0
+Spanish (European),Female,16,guardería,19,understands,0
+Spanish (European),Male,16,guardería,20,produces,0
+Spanish (European),Male,16,guardería,20,understands,0
+Spanish (European),Female,17,guardería,21,produces,0.0952
+Spanish (European),Female,17,guardería,21,understands,0
+Spanish (European),Male,17,guardería,18,produces,0
+Spanish (European),Male,17,guardería,18,understands,0
+Spanish (European),Female,18,guardería,27,produces,0.037
+Spanish (European),Female,18,guardería,27,understands,0
+Spanish (European),Male,18,guardería,23,produces,0.0435
+Spanish (European),Male,18,guardería,23,understands,0
+Spanish (European),Female,19,guardería,16,produces,0
+Spanish (European),Female,19,guardería,16,understands,0
+Spanish (European),Male,19,guardería,11,produces,0
+Spanish (European),Male,19,guardería,11,understands,0
+Spanish (European),Female,20,guardería,17,produces,0.0588
+Spanish (European),Female,20,guardería,17,understands,0
+Spanish (European),Male,20,guardería,19,produces,0.0526
+Spanish (European),Male,20,guardería,19,understands,0
+Spanish (European),Female,21,guardería,23,produces,0.0435
+Spanish (European),Female,21,guardería,23,understands,0
+Spanish (European),Male,21,guardería,18,produces,0
+Spanish (European),Male,21,guardería,18,understands,0
+Spanish (European),Female,22,guardería,18,produces,0.1667
+Spanish (European),Female,22,guardería,18,understands,0
+Spanish (European),Male,22,guardería,20,produces,0.15
+Spanish (European),Male,22,guardería,20,understands,0
+Spanish (European),Female,23,guardería,15,produces,0.0667
+Spanish (European),Female,23,guardería,15,understands,0
+Spanish (European),Male,23,guardería,15,produces,0.3333
+Spanish (European),Male,23,guardería,15,understands,0
+Spanish (European),Female,24,guardería,31,produces,0.3871
+Spanish (European),Female,24,guardería,31,understands,0
+Spanish (European),Male,24,guardería,24,produces,0.1667
+Spanish (European),Male,24,guardería,24,understands,0
+Spanish (European),Female,25,guardería,16,produces,0.375
+Spanish (European),Female,25,guardería,16,understands,0
+Spanish (European),Male,25,guardería,19,produces,0.1579
+Spanish (European),Male,25,guardería,19,understands,0
+Spanish (European),Female,26,guardería,22,produces,0.2727
+Spanish (European),Female,26,guardería,22,understands,0
+Spanish (European),Male,26,guardería,27,produces,0.3704
+Spanish (European),Male,26,guardería,27,understands,0
+Spanish (European),Female,27,guardería,16,produces,0.4375
+Spanish (European),Female,27,guardería,16,understands,0
+Spanish (European),Male,27,guardería,18,produces,0.4444
+Spanish (European),Male,27,guardería,18,understands,0
+Spanish (European),Female,28,guardería,20,produces,0.35
+Spanish (European),Female,28,guardería,20,understands,0
+Spanish (European),Male,28,guardería,18,produces,0.5556
+Spanish (European),Male,28,guardería,18,understands,0
+Spanish (European),Female,29,guardería,18,produces,0.6667
+Spanish (European),Female,29,guardería,18,understands,0
+Spanish (European),Male,29,guardería,23,produces,0.5217
+Spanish (European),Male,29,guardería,23,understands,0
+Spanish (European),Female,30,guardería,17,produces,0.7059
+Spanish (European),Female,30,guardería,17,understands,0
+Spanish (European),Male,30,guardería,24,produces,0.375
+Spanish (European),Male,30,guardería,24,understands,0
+Swedish,Female,8,dagis,11,produces,0
+Swedish,Female,8,dagis,11,understands,0
+Swedish,Male,8,dagis,15,produces,0
+Swedish,Male,8,dagis,15,understands,0
+Swedish,Female,9,dagis,1,produces,0
+Swedish,Female,9,dagis,1,understands,0
+Swedish,Male,9,dagis,1,produces,0
+Swedish,Male,9,dagis,1,understands,0
+Swedish,Female,10,dagis,27,produces,0
+Swedish,Female,10,dagis,27,understands,0
+Swedish,Male,10,dagis,27,produces,0
+Swedish,Male,10,dagis,27,understands,0
+Swedish,Female,11,dagis,2,produces,0
+Swedish,Female,11,dagis,2,understands,0
+Swedish,Male,11,dagis,1,produces,0
+Swedish,Male,11,dagis,1,understands,0
+Swedish,Female,12,dagis,42,produces,0
+Swedish,Female,12,dagis,42,understands,0.0238
+Swedish,Male,12,dagis,37,produces,0
+Swedish,Male,12,dagis,37,understands,0
+Swedish,Female,13,dagis,4,produces,0
+Swedish,Female,13,dagis,4,understands,0
+Swedish,Male,13,dagis,3,produces,0
+Swedish,Male,13,dagis,3,understands,0
+Swedish,Female,14,dagis,63,produces,0
+Swedish,Female,14,dagis,63,understands,0.0794
+Swedish,Male,14,dagis,61,produces,0
+Swedish,Male,14,dagis,61,understands,0.0656
+Swedish,Female,15,dagis,10,produces,0
+Swedish,Female,15,dagis,10,understands,0.1
+Swedish,Male,15,dagis,3,produces,0
+Swedish,Male,15,dagis,3,understands,0
+Swedish,Female,16,dagis,81,produces,0.0247
+Swedish,Female,16,dagis,81,understands,0.1111
+Swedish,Male,16,dagis,76,produces,0.0132
+Swedish,Male,16,dagis,76,understands,0.1447

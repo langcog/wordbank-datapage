@@ -1,71 +1,155 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),17,杏,40,produces,0.05
-Mandarin (Beijing),17,杏,40,understands,0
-Mandarin (Beijing),18,杏,50,produces,0.06
-Mandarin (Beijing),18,杏,50,understands,0
-Mandarin (Beijing),19,杏,50,produces,0.22
-Mandarin (Beijing),19,杏,50,understands,0
-Mandarin (Beijing),20,杏,50,produces,0.16
-Mandarin (Beijing),20,杏,50,understands,0
-Mandarin (Beijing),21,杏,49,produces,0.3061
-Mandarin (Beijing),21,杏,49,understands,0
-Mandarin (Beijing),22,杏,46,produces,0.1957
-Mandarin (Beijing),22,杏,46,understands,0
-Mandarin (Beijing),23,杏,50,produces,0.52
-Mandarin (Beijing),23,杏,50,understands,0
-Mandarin (Beijing),24,杏,50,produces,0.32
-Mandarin (Beijing),24,杏,50,understands,0
-Mandarin (Beijing),25,杏,43,produces,0.4186
-Mandarin (Beijing),25,杏,43,understands,0
-Mandarin (Beijing),26,杏,47,produces,0.3191
-Mandarin (Beijing),26,杏,47,understands,0
-Mandarin (Beijing),27,杏,44,produces,0.5227
-Mandarin (Beijing),27,杏,44,understands,0
-Mandarin (Beijing),28,杏,44,produces,0.5
-Mandarin (Beijing),28,杏,44,understands,0
-Mandarin (Beijing),29,杏,49,produces,0.4694
-Mandarin (Beijing),29,杏,49,understands,0
-Mandarin (Beijing),30,杏,40,produces,0.5
-Mandarin (Beijing),30,杏,40,understands,0
-Turkish,16,Kayısı,109,produces,0.0275
-Turkish,16,Kayısı,109,understands,0
-Turkish,17,Kayısı,107,produces,0.028
-Turkish,17,Kayısı,107,understands,0
-Turkish,18,Kayısı,128,produces,0.0391
-Turkish,18,Kayısı,128,understands,0
-Turkish,19,Kayısı,121,produces,0.0413
-Turkish,19,Kayısı,121,understands,0
-Turkish,20,Kayısı,119,produces,0.1176
-Turkish,20,Kayısı,119,understands,0
-Turkish,21,Kayısı,124,produces,0.1371
-Turkish,21,Kayısı,124,understands,0
-Turkish,22,Kayısı,126,produces,0.1349
-Turkish,22,Kayısı,126,understands,0
-Turkish,23,Kayısı,131,produces,0.1527
-Turkish,23,Kayısı,131,understands,0
-Turkish,24,Kayısı,106,produces,0.2642
-Turkish,24,Kayısı,106,understands,0
-Turkish,25,Kayısı,123,produces,0.3089
-Turkish,25,Kayısı,123,understands,0
-Turkish,26,Kayısı,123,produces,0.3902
-Turkish,26,Kayısı,123,understands,0
-Turkish,27,Kayısı,108,produces,0.4167
-Turkish,27,Kayısı,108,understands,0
-Turkish,28,Kayısı,112,produces,0.5179
-Turkish,28,Kayısı,112,understands,0
-Turkish,29,Kayısı,119,produces,0.5714
-Turkish,29,Kayısı,119,understands,0
-Turkish,30,Kayısı,104,produces,0.5385
-Turkish,30,Kayısı,104,understands,0
-Turkish,31,Kayısı,101,produces,0.5743
-Turkish,31,Kayısı,101,understands,0
-Turkish,32,Kayısı,132,produces,0.6515
-Turkish,32,Kayısı,132,understands,0
-Turkish,33,Kayısı,114,produces,0.6754
-Turkish,33,Kayısı,114,understands,0
-Turkish,34,Kayısı,107,produces,0.6449
-Turkish,34,Kayısı,107,understands,0
-Turkish,35,Kayısı,131,produces,0.6947
-Turkish,35,Kayısı,131,understands,0
-Turkish,36,Kayısı,77,produces,0.8052
-Turkish,36,Kayısı,77,understands,0
+language,sex,age,words,n,measure,prop
+Mandarin (Beijing),All,17,杏,40,produces,0.05
+Mandarin (Beijing),All,17,杏,40,understands,0
+Mandarin (Beijing),All,18,杏,50,produces,0.06
+Mandarin (Beijing),All,18,杏,50,understands,0
+Mandarin (Beijing),All,19,杏,50,produces,0.22
+Mandarin (Beijing),All,19,杏,50,understands,0
+Mandarin (Beijing),All,20,杏,50,produces,0.16
+Mandarin (Beijing),All,20,杏,50,understands,0
+Mandarin (Beijing),All,21,杏,49,produces,0.3061
+Mandarin (Beijing),All,21,杏,49,understands,0
+Mandarin (Beijing),All,22,杏,46,produces,0.1957
+Mandarin (Beijing),All,22,杏,46,understands,0
+Mandarin (Beijing),All,23,杏,50,produces,0.52
+Mandarin (Beijing),All,23,杏,50,understands,0
+Mandarin (Beijing),All,24,杏,50,produces,0.32
+Mandarin (Beijing),All,24,杏,50,understands,0
+Mandarin (Beijing),All,25,杏,43,produces,0.4186
+Mandarin (Beijing),All,25,杏,43,understands,0
+Mandarin (Beijing),All,26,杏,47,produces,0.3191
+Mandarin (Beijing),All,26,杏,47,understands,0
+Mandarin (Beijing),All,27,杏,44,produces,0.5227
+Mandarin (Beijing),All,27,杏,44,understands,0
+Mandarin (Beijing),All,28,杏,44,produces,0.5
+Mandarin (Beijing),All,28,杏,44,understands,0
+Mandarin (Beijing),All,29,杏,49,produces,0.4694
+Mandarin (Beijing),All,29,杏,49,understands,0
+Mandarin (Beijing),All,30,杏,40,produces,0.5
+Mandarin (Beijing),All,30,杏,40,understands,0
+Turkish,All,16,Kayısı,109,produces,0.0275
+Turkish,All,16,Kayısı,109,understands,0
+Turkish,All,17,Kayısı,107,produces,0.028
+Turkish,All,17,Kayısı,107,understands,0
+Turkish,All,18,Kayısı,128,produces,0.0391
+Turkish,All,18,Kayısı,128,understands,0
+Turkish,All,19,Kayısı,121,produces,0.0413
+Turkish,All,19,Kayısı,121,understands,0
+Turkish,All,20,Kayısı,119,produces,0.1176
+Turkish,All,20,Kayısı,119,understands,0
+Turkish,All,21,Kayısı,124,produces,0.1371
+Turkish,All,21,Kayısı,124,understands,0
+Turkish,All,22,Kayısı,126,produces,0.1349
+Turkish,All,22,Kayısı,126,understands,0
+Turkish,All,23,Kayısı,131,produces,0.1527
+Turkish,All,23,Kayısı,131,understands,0
+Turkish,All,24,Kayısı,106,produces,0.2642
+Turkish,All,24,Kayısı,106,understands,0
+Turkish,All,25,Kayısı,123,produces,0.3089
+Turkish,All,25,Kayısı,123,understands,0
+Turkish,All,26,Kayısı,123,produces,0.3902
+Turkish,All,26,Kayısı,123,understands,0
+Turkish,All,27,Kayısı,108,produces,0.4167
+Turkish,All,27,Kayısı,108,understands,0
+Turkish,All,28,Kayısı,112,produces,0.5179
+Turkish,All,28,Kayısı,112,understands,0
+Turkish,All,29,Kayısı,119,produces,0.5714
+Turkish,All,29,Kayısı,119,understands,0
+Turkish,All,30,Kayısı,104,produces,0.5385
+Turkish,All,30,Kayısı,104,understands,0
+Turkish,All,31,Kayısı,101,produces,0.5743
+Turkish,All,31,Kayısı,101,understands,0
+Turkish,All,32,Kayısı,132,produces,0.6515
+Turkish,All,32,Kayısı,132,understands,0
+Turkish,All,33,Kayısı,114,produces,0.6754
+Turkish,All,33,Kayısı,114,understands,0
+Turkish,All,34,Kayısı,107,produces,0.6449
+Turkish,All,34,Kayısı,107,understands,0
+Turkish,All,35,Kayısı,131,produces,0.6947
+Turkish,All,35,Kayısı,131,understands,0
+Turkish,All,36,Kayısı,77,produces,0.8052
+Turkish,All,36,Kayısı,77,understands,0
+Turkish,Female,16,Kayısı,60,produces,0.0333
+Turkish,Female,16,Kayısı,60,understands,0
+Turkish,Male,16,Kayısı,49,produces,0.0204
+Turkish,Male,16,Kayısı,49,understands,0
+Turkish,Female,17,Kayısı,50,produces,0.04
+Turkish,Female,17,Kayısı,50,understands,0
+Turkish,Male,17,Kayısı,57,produces,0.0175
+Turkish,Male,17,Kayısı,57,understands,0
+Turkish,Female,18,Kayısı,65,produces,0.0615
+Turkish,Female,18,Kayısı,65,understands,0
+Turkish,Male,18,Kayısı,63,produces,0.0159
+Turkish,Male,18,Kayısı,63,understands,0
+Turkish,Female,19,Kayısı,63,produces,0.0635
+Turkish,Female,19,Kayısı,63,understands,0
+Turkish,Male,19,Kayısı,58,produces,0.0172
+Turkish,Male,19,Kayısı,58,understands,0
+Turkish,Female,20,Kayısı,60,produces,0.0833
+Turkish,Female,20,Kayısı,60,understands,0
+Turkish,Male,20,Kayısı,59,produces,0.1525
+Turkish,Male,20,Kayısı,59,understands,0
+Turkish,Female,21,Kayısı,55,produces,0.1636
+Turkish,Female,21,Kayısı,55,understands,0
+Turkish,Male,21,Kayısı,69,produces,0.1159
+Turkish,Male,21,Kayısı,69,understands,0
+Turkish,Female,22,Kayısı,58,produces,0.1207
+Turkish,Female,22,Kayısı,58,understands,0
+Turkish,Male,22,Kayısı,68,produces,0.1471
+Turkish,Male,22,Kayısı,68,understands,0
+Turkish,Female,23,Kayısı,71,produces,0.1972
+Turkish,Female,23,Kayısı,71,understands,0
+Turkish,Male,23,Kayısı,60,produces,0.1
+Turkish,Male,23,Kayısı,60,understands,0
+Turkish,Female,24,Kayısı,54,produces,0.3148
+Turkish,Female,24,Kayısı,54,understands,0
+Turkish,Male,24,Kayısı,52,produces,0.2115
+Turkish,Male,24,Kayısı,52,understands,0
+Turkish,Female,25,Kayısı,63,produces,0.3492
+Turkish,Female,25,Kayısı,63,understands,0
+Turkish,Male,25,Kayısı,60,produces,0.2667
+Turkish,Male,25,Kayısı,60,understands,0
+Turkish,Female,26,Kayısı,60,produces,0.4
+Turkish,Female,26,Kayısı,60,understands,0
+Turkish,Male,26,Kayısı,63,produces,0.381
+Turkish,Male,26,Kayısı,63,understands,0
+Turkish,Female,27,Kayısı,56,produces,0.3929
+Turkish,Female,27,Kayısı,56,understands,0
+Turkish,Male,27,Kayısı,52,produces,0.4423
+Turkish,Male,27,Kayısı,52,understands,0
+Turkish,Female,28,Kayısı,62,produces,0.4516
+Turkish,Female,28,Kayısı,62,understands,0
+Turkish,Male,28,Kayısı,50,produces,0.6
+Turkish,Male,28,Kayısı,50,understands,0
+Turkish,Female,29,Kayısı,54,produces,0.6296
+Turkish,Female,29,Kayısı,54,understands,0
+Turkish,Male,29,Kayısı,65,produces,0.5231
+Turkish,Male,29,Kayısı,65,understands,0
+Turkish,Female,30,Kayısı,56,produces,0.5714
+Turkish,Female,30,Kayısı,56,understands,0
+Turkish,Male,30,Kayısı,48,produces,0.5
+Turkish,Male,30,Kayısı,48,understands,0
+Turkish,Female,31,Kayısı,62,produces,0.5968
+Turkish,Female,31,Kayısı,62,understands,0
+Turkish,Male,31,Kayısı,39,produces,0.5385
+Turkish,Male,31,Kayısı,39,understands,0
+Turkish,Female,32,Kayısı,56,produces,0.7321
+Turkish,Female,32,Kayısı,56,understands,0
+Turkish,Male,32,Kayısı,76,produces,0.5921
+Turkish,Male,32,Kayısı,76,understands,0
+Turkish,Female,33,Kayısı,59,produces,0.661
+Turkish,Female,33,Kayısı,59,understands,0
+Turkish,Male,33,Kayısı,55,produces,0.6909
+Turkish,Male,33,Kayısı,55,understands,0
+Turkish,Female,34,Kayısı,56,produces,0.6786
+Turkish,Female,34,Kayısı,56,understands,0
+Turkish,Male,34,Kayısı,51,produces,0.6078
+Turkish,Male,34,Kayısı,51,understands,0
+Turkish,Female,35,Kayısı,69,produces,0.7391
+Turkish,Female,35,Kayısı,69,understands,0
+Turkish,Male,35,Kayısı,62,produces,0.6452
+Turkish,Male,35,Kayısı,62,understands,0
+Turkish,Female,36,Kayısı,36,produces,0.7222
+Turkish,Female,36,Kayısı,36,understands,0
+Turkish,Male,36,Kayısı,41,produces,0.878
+Turkish,Male,36,Kayısı,41,understands,0

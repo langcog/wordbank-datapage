@@ -1,69 +1,205 @@
-language,age,words,n,measure,prop
-Korean,18,회사,88,produces,0.0568
-Korean,18,회사,88,understands,0
-Korean,19,회사,77,produces,0.039
-Korean,19,회사,77,understands,0
-Korean,20,회사,88,produces,0.0682
-Korean,20,회사,88,understands,0
-Korean,21,회사,79,produces,0.1646
-Korean,21,회사,79,understands,0
-Korean,22,회사,87,produces,0.2644
-Korean,22,회사,87,understands,0
-Korean,23,회사,87,produces,0.2299
-Korean,23,회사,87,understands,0
-Korean,24,회사,107,produces,0.3458
-Korean,24,회사,107,understands,0
-Korean,25,회사,95,produces,0.4526
-Korean,25,회사,95,understands,0
-Korean,26,회사,91,produces,0.4505
-Korean,26,회사,91,understands,0
-Korean,27,회사,104,produces,0.5481
-Korean,27,회사,104,understands,0
-Korean,28,회사,89,produces,0.5843
-Korean,28,회사,89,understands,0
-Korean,29,회사,101,produces,0.604
-Korean,29,회사,101,understands,0
-Korean,30,회사,81,produces,0.6296
-Korean,30,회사,81,understands,0
-Korean,31,회사,79,produces,0.6456
-Korean,31,회사,79,understands,0
-Korean,32,회사,70,produces,0.7
-Korean,32,회사,70,understands,0
-Korean,33,회사,79,produces,0.7089
-Korean,33,회사,79,understands,0
-Korean,34,회사,79,produces,0.8481
-Korean,34,회사,79,understands,0
-Korean,35,회사,74,produces,0.8378
-Korean,35,회사,74,understands,0
-Korean,36,회사,75,produces,0.8933
-Korean,36,회사,75,understands,0
-Spanish (Mexican),16,oficina,68,produces,0.0294
-Spanish (Mexican),16,oficina,68,understands,0
-Spanish (Mexican),17,oficina,59,produces,0.0169
-Spanish (Mexican),17,oficina,59,understands,0
-Spanish (Mexican),18,oficina,75,produces,0.0133
-Spanish (Mexican),18,oficina,75,understands,0
-Spanish (Mexican),19,oficina,100,produces,0.14
-Spanish (Mexican),19,oficina,100,understands,0
-Spanish (Mexican),20,oficina,107,produces,0.0935
-Spanish (Mexican),20,oficina,107,understands,0
-Spanish (Mexican),21,oficina,84,produces,0.0833
-Spanish (Mexican),21,oficina,84,understands,0
-Spanish (Mexican),22,oficina,141,produces,0.078
-Spanish (Mexican),22,oficina,141,understands,0
-Spanish (Mexican),23,oficina,91,produces,0.0549
-Spanish (Mexican),23,oficina,91,understands,0
-Spanish (Mexican),24,oficina,126,produces,0.1667
-Spanish (Mexican),24,oficina,126,understands,0
-Spanish (Mexican),25,oficina,177,produces,0.1525
-Spanish (Mexican),25,oficina,177,understands,0
-Spanish (Mexican),26,oficina,83,produces,0.2771
-Spanish (Mexican),26,oficina,83,understands,0
-Spanish (Mexican),27,oficina,85,produces,0.2118
-Spanish (Mexican),27,oficina,85,understands,0
-Spanish (Mexican),28,oficina,89,produces,0.2247
-Spanish (Mexican),28,oficina,89,understands,0
-Spanish (Mexican),29,oficina,89,produces,0.3146
-Spanish (Mexican),29,oficina,89,understands,0
-Spanish (Mexican),30,oficina,308,produces,0.2175
-Spanish (Mexican),30,oficina,308,understands,0
+language,sex,age,words,n,measure,prop
+Korean,All,18,회사,88,produces,0.0568
+Korean,All,18,회사,88,understands,0
+Korean,All,19,회사,77,produces,0.039
+Korean,All,19,회사,77,understands,0
+Korean,All,20,회사,88,produces,0.0682
+Korean,All,20,회사,88,understands,0
+Korean,All,21,회사,79,produces,0.1646
+Korean,All,21,회사,79,understands,0
+Korean,All,22,회사,87,produces,0.2644
+Korean,All,22,회사,87,understands,0
+Korean,All,23,회사,87,produces,0.2299
+Korean,All,23,회사,87,understands,0
+Korean,All,24,회사,107,produces,0.3458
+Korean,All,24,회사,107,understands,0
+Korean,All,25,회사,95,produces,0.4526
+Korean,All,25,회사,95,understands,0
+Korean,All,26,회사,91,produces,0.4505
+Korean,All,26,회사,91,understands,0
+Korean,All,27,회사,104,produces,0.5481
+Korean,All,27,회사,104,understands,0
+Korean,All,28,회사,89,produces,0.5843
+Korean,All,28,회사,89,understands,0
+Korean,All,29,회사,101,produces,0.604
+Korean,All,29,회사,101,understands,0
+Korean,All,30,회사,81,produces,0.6296
+Korean,All,30,회사,81,understands,0
+Korean,All,31,회사,79,produces,0.6456
+Korean,All,31,회사,79,understands,0
+Korean,All,32,회사,70,produces,0.7
+Korean,All,32,회사,70,understands,0
+Korean,All,33,회사,79,produces,0.7089
+Korean,All,33,회사,79,understands,0
+Korean,All,34,회사,79,produces,0.8481
+Korean,All,34,회사,79,understands,0
+Korean,All,35,회사,74,produces,0.8378
+Korean,All,35,회사,74,understands,0
+Korean,All,36,회사,75,produces,0.8933
+Korean,All,36,회사,75,understands,0
+Spanish (Mexican),All,16,oficina,68,produces,0.0294
+Spanish (Mexican),All,16,oficina,68,understands,0
+Spanish (Mexican),All,17,oficina,59,produces,0.0169
+Spanish (Mexican),All,17,oficina,59,understands,0
+Spanish (Mexican),All,18,oficina,75,produces,0.0133
+Spanish (Mexican),All,18,oficina,75,understands,0
+Spanish (Mexican),All,19,oficina,100,produces,0.14
+Spanish (Mexican),All,19,oficina,100,understands,0
+Spanish (Mexican),All,20,oficina,107,produces,0.0935
+Spanish (Mexican),All,20,oficina,107,understands,0
+Spanish (Mexican),All,21,oficina,84,produces,0.0833
+Spanish (Mexican),All,21,oficina,84,understands,0
+Spanish (Mexican),All,22,oficina,141,produces,0.078
+Spanish (Mexican),All,22,oficina,141,understands,0
+Spanish (Mexican),All,23,oficina,91,produces,0.0549
+Spanish (Mexican),All,23,oficina,91,understands,0
+Spanish (Mexican),All,24,oficina,126,produces,0.1667
+Spanish (Mexican),All,24,oficina,126,understands,0
+Spanish (Mexican),All,25,oficina,177,produces,0.1525
+Spanish (Mexican),All,25,oficina,177,understands,0
+Spanish (Mexican),All,26,oficina,83,produces,0.2771
+Spanish (Mexican),All,26,oficina,83,understands,0
+Spanish (Mexican),All,27,oficina,85,produces,0.2118
+Spanish (Mexican),All,27,oficina,85,understands,0
+Spanish (Mexican),All,28,oficina,89,produces,0.2247
+Spanish (Mexican),All,28,oficina,89,understands,0
+Spanish (Mexican),All,29,oficina,89,produces,0.3146
+Spanish (Mexican),All,29,oficina,89,understands,0
+Spanish (Mexican),All,30,oficina,308,produces,0.2175
+Spanish (Mexican),All,30,oficina,308,understands,0
+Korean,Female,18,회사,51,produces,0.0784
+Korean,Female,18,회사,51,understands,0
+Korean,Male,18,회사,37,produces,0.027
+Korean,Male,18,회사,37,understands,0
+Korean,Female,19,회사,39,produces,0.0513
+Korean,Female,19,회사,39,understands,0
+Korean,Male,19,회사,38,produces,0.0263
+Korean,Male,19,회사,38,understands,0
+Korean,Female,20,회사,47,produces,0.0851
+Korean,Female,20,회사,47,understands,0
+Korean,Male,20,회사,41,produces,0.0488
+Korean,Male,20,회사,41,understands,0
+Korean,Female,21,회사,38,produces,0.2368
+Korean,Female,21,회사,38,understands,0
+Korean,Male,21,회사,41,produces,0.0976
+Korean,Male,21,회사,41,understands,0
+Korean,Female,22,회사,42,produces,0.4048
+Korean,Female,22,회사,42,understands,0
+Korean,Male,22,회사,45,produces,0.1333
+Korean,Male,22,회사,45,understands,0
+Korean,Female,23,회사,42,produces,0.2619
+Korean,Female,23,회사,42,understands,0
+Korean,Male,23,회사,45,produces,0.2
+Korean,Male,23,회사,45,understands,0
+Korean,Female,24,회사,46,produces,0.3478
+Korean,Female,24,회사,46,understands,0
+Korean,Male,24,회사,61,produces,0.3443
+Korean,Male,24,회사,61,understands,0
+Korean,Female,25,회사,46,produces,0.6087
+Korean,Female,25,회사,46,understands,0
+Korean,Male,25,회사,49,produces,0.3061
+Korean,Male,25,회사,49,understands,0
+Korean,Female,26,회사,42,produces,0.5476
+Korean,Female,26,회사,42,understands,0
+Korean,Male,26,회사,49,produces,0.3673
+Korean,Male,26,회사,49,understands,0
+Korean,Female,27,회사,46,produces,0.6739
+Korean,Female,27,회사,46,understands,0
+Korean,Male,27,회사,58,produces,0.4483
+Korean,Male,27,회사,58,understands,0
+Korean,Female,28,회사,49,produces,0.6327
+Korean,Female,28,회사,49,understands,0
+Korean,Male,28,회사,40,produces,0.525
+Korean,Male,28,회사,40,understands,0
+Korean,Female,29,회사,49,produces,0.5918
+Korean,Female,29,회사,49,understands,0
+Korean,Male,29,회사,51,produces,0.6275
+Korean,Male,29,회사,51,understands,0
+Korean,Female,30,회사,34,produces,0.5588
+Korean,Female,30,회사,34,understands,0
+Korean,Male,30,회사,47,produces,0.6809
+Korean,Male,30,회사,47,understands,0
+Korean,Female,31,회사,31,produces,0.7097
+Korean,Female,31,회사,31,understands,0
+Korean,Male,31,회사,48,produces,0.6042
+Korean,Male,31,회사,48,understands,0
+Korean,Female,32,회사,33,produces,0.8182
+Korean,Female,32,회사,33,understands,0
+Korean,Male,32,회사,36,produces,0.6111
+Korean,Male,32,회사,36,understands,0
+Korean,Female,33,회사,36,produces,0.6944
+Korean,Female,33,회사,36,understands,0
+Korean,Male,33,회사,43,produces,0.7209
+Korean,Male,33,회사,43,understands,0
+Korean,Female,34,회사,41,produces,0.9024
+Korean,Female,34,회사,41,understands,0
+Korean,Male,34,회사,38,produces,0.7895
+Korean,Male,34,회사,38,understands,0
+Korean,Female,35,회사,37,produces,0.8378
+Korean,Female,35,회사,37,understands,0
+Korean,Male,35,회사,37,produces,0.8378
+Korean,Male,35,회사,37,understands,0
+Korean,Female,36,회사,40,produces,0.925
+Korean,Female,36,회사,40,understands,0
+Korean,Male,36,회사,35,produces,0.8571
+Korean,Male,36,회사,35,understands,0
+Spanish (Mexican),Female,16,oficina,34,produces,0.0588
+Spanish (Mexican),Female,16,oficina,34,understands,0
+Spanish (Mexican),Male,16,oficina,34,produces,0
+Spanish (Mexican),Male,16,oficina,34,understands,0
+Spanish (Mexican),Female,17,oficina,34,produces,0.0294
+Spanish (Mexican),Female,17,oficina,34,understands,0
+Spanish (Mexican),Male,17,oficina,25,produces,0
+Spanish (Mexican),Male,17,oficina,25,understands,0
+Spanish (Mexican),Female,18,oficina,35,produces,0
+Spanish (Mexican),Female,18,oficina,35,understands,0
+Spanish (Mexican),Male,18,oficina,40,produces,0.025
+Spanish (Mexican),Male,18,oficina,40,understands,0
+Spanish (Mexican),Female,19,oficina,47,produces,0.0851
+Spanish (Mexican),Female,19,oficina,47,understands,0
+Spanish (Mexican),Male,19,oficina,53,produces,0.1887
+Spanish (Mexican),Male,19,oficina,53,understands,0
+Spanish (Mexican),Female,20,oficina,53,produces,0.1321
+Spanish (Mexican),Female,20,oficina,53,understands,0
+Spanish (Mexican),Male,20,oficina,54,produces,0.0556
+Spanish (Mexican),Male,20,oficina,54,understands,0
+Spanish (Mexican),Female,21,oficina,37,produces,0.0541
+Spanish (Mexican),Female,21,oficina,37,understands,0
+Spanish (Mexican),Male,21,oficina,47,produces,0.1064
+Spanish (Mexican),Male,21,oficina,47,understands,0
+Spanish (Mexican),Female,22,oficina,64,produces,0.0938
+Spanish (Mexican),Female,22,oficina,64,understands,0
+Spanish (Mexican),Male,22,oficina,67,produces,0.0746
+Spanish (Mexican),Male,22,oficina,67,understands,0
+Spanish (Mexican),Female,23,oficina,49,produces,0.0612
+Spanish (Mexican),Female,23,oficina,49,understands,0
+Spanish (Mexican),Male,23,oficina,42,produces,0.0476
+Spanish (Mexican),Male,23,oficina,42,understands,0
+Spanish (Mexican),Female,24,oficina,63,produces,0.1587
+Spanish (Mexican),Female,24,oficina,63,understands,0
+Spanish (Mexican),Male,24,oficina,63,produces,0.1746
+Spanish (Mexican),Male,24,oficina,63,understands,0
+Spanish (Mexican),Female,25,oficina,78,produces,0.141
+Spanish (Mexican),Female,25,oficina,78,understands,0
+Spanish (Mexican),Male,25,oficina,89,produces,0.1798
+Spanish (Mexican),Male,25,oficina,89,understands,0
+Spanish (Mexican),Female,26,oficina,38,produces,0.2632
+Spanish (Mexican),Female,26,oficina,38,understands,0
+Spanish (Mexican),Male,26,oficina,45,produces,0.2889
+Spanish (Mexican),Male,26,oficina,45,understands,0
+Spanish (Mexican),Female,27,oficina,45,produces,0.1778
+Spanish (Mexican),Female,27,oficina,45,understands,0
+Spanish (Mexican),Male,27,oficina,40,produces,0.25
+Spanish (Mexican),Male,27,oficina,40,understands,0
+Spanish (Mexican),Female,28,oficina,44,produces,0.1591
+Spanish (Mexican),Female,28,oficina,44,understands,0
+Spanish (Mexican),Male,28,oficina,45,produces,0.2889
+Spanish (Mexican),Male,28,oficina,45,understands,0
+Spanish (Mexican),Female,29,oficina,51,produces,0.3529
+Spanish (Mexican),Female,29,oficina,51,understands,0
+Spanish (Mexican),Male,29,oficina,38,produces,0.2632
+Spanish (Mexican),Male,29,oficina,38,understands,0
+Spanish (Mexican),Female,30,oficina,146,produces,0.1986
+Spanish (Mexican),Female,30,oficina,146,understands,0
+Spanish (Mexican),Male,30,oficina,152,produces,0.25
+Spanish (Mexican),Male,30,oficina,152,understands,0

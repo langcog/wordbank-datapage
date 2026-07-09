@@ -1,537 +1,1597 @@
-language,age,words,n,measure,prop
-Italian,7,zanzara,5,produces,0
-Italian,7,zanzara,5,understands,0
-Italian,8,zanzara,34,produces,0
-Italian,8,zanzara,34,understands,0
-Italian,9,zanzara,38,produces,0
-Italian,9,zanzara,38,understands,0
-Italian,10,zanzara,53,produces,0
-Italian,10,zanzara,53,understands,0
-Italian,11,zanzara,42,produces,0
-Italian,11,zanzara,42,understands,0.0238
-Italian,12,zanzara,69,produces,0
-Italian,12,zanzara,69,understands,0.029
-Italian,13,zanzara,48,produces,0
-Italian,13,zanzara,48,understands,0.0208
-Italian,14,zanzara,40,produces,0.025
-Italian,14,zanzara,40,understands,0.05
-Italian,15,zanzara,68,produces,0.0294
-Italian,15,zanzara,68,understands,0.0882
-Italian,16,zanzara,56,produces,0.0536
-Italian,16,zanzara,56,understands,0.25
-Italian,17,zanzara,48,produces,0.0417
-Italian,17,zanzara,48,understands,0.2292
-Italian,18,zanzara,75,produces,0.0933
-Italian,18,zanzara,75,understands,0.1467
-Italian,19,zanzara,58,produces,0.0517
-Italian,19,zanzara,58,understands,0.0517
-Italian,20,zanzara,83,produces,0.0843
-Italian,20,zanzara,83,understands,0.0602
-Italian,21,zanzara,67,produces,0.2239
-Italian,21,zanzara,67,understands,0.0896
-Italian,22,zanzara,77,produces,0.2597
-Italian,22,zanzara,77,understands,0.0779
-Italian,23,zanzara,70,produces,0.3143
-Italian,23,zanzara,70,understands,0.1143
-Italian,24,zanzara,85,produces,0.3529
-Italian,24,zanzara,85,understands,0.0824
-Italian,25,zanzara,39,produces,0.5128
-Italian,25,zanzara,39,understands,0
-Italian,26,zanzara,41,produces,0.6829
-Italian,26,zanzara,41,understands,0
-Italian,27,zanzara,43,produces,0.4884
-Italian,27,zanzara,43,understands,0
-Italian,28,zanzara,44,produces,0.6364
-Italian,28,zanzara,44,understands,0
-Italian,29,zanzara,37,produces,0.7027
-Italian,29,zanzara,37,understands,0
-Italian,30,zanzara,67,produces,0.7015
-Italian,30,zanzara,67,understands,0
-Italian,31,zanzara,19,produces,0.8421
-Italian,31,zanzara,19,understands,0
-Italian,32,zanzara,23,produces,0.8261
-Italian,32,zanzara,23,understands,0
-Italian,33,zanzara,16,produces,0.875
-Italian,33,zanzara,16,understands,0
-Italian,34,zanzara,19,produces,0.9474
-Italian,34,zanzara,19,understands,0
-Italian,35,zanzara,15,produces,0.8667
-Italian,35,zanzara,15,understands,0
-Italian,36,zanzara,21,produces,0.8571
-Italian,36,zanzara,21,understands,0
-Kigiriama,16,Mbu/Usunye,1,produces,0
-Kigiriama,16,Mbu/Usunye,1,understands,0
-Kigiriama,17,Mbu/Usunye,6,produces,0
-Kigiriama,17,Mbu/Usunye,6,understands,0
-Kigiriama,18,Mbu/Usunye,13,produces,0
-Kigiriama,18,Mbu/Usunye,13,understands,0
-Kigiriama,19,Mbu/Usunye,8,produces,0
-Kigiriama,19,Mbu/Usunye,8,understands,0
-Kigiriama,20,Mbu/Usunye,14,produces,0
-Kigiriama,20,Mbu/Usunye,14,understands,0
-Kigiriama,21,Mbu/Usunye,6,produces,0
-Kigiriama,21,Mbu/Usunye,6,understands,0
-Kigiriama,22,Mbu/Usunye,9,produces,0.2222
-Kigiriama,22,Mbu/Usunye,9,understands,0
-Kigiriama,23,Mbu/Usunye,4,produces,0
-Kigiriama,23,Mbu/Usunye,4,understands,0
-Kigiriama,24,Mbu/Usunye,7,produces,0.1429
-Kigiriama,24,Mbu/Usunye,7,understands,0
-Kigiriama,25,Mbu/Usunye,3,produces,0.6667
-Kigiriama,25,Mbu/Usunye,3,understands,0
-Kigiriama,26,Mbu/Usunye,6,produces,0.1667
-Kigiriama,26,Mbu/Usunye,6,understands,0
-Kigiriama,27,Mbu/Usunye,4,produces,0.75
-Kigiriama,27,Mbu/Usunye,4,understands,0
-Kigiriama,28,Mbu/Usunye,1,produces,0
-Kigiriama,28,Mbu/Usunye,1,understands,0
-Kigiriama,29,Mbu/Usunye,5,produces,0.4
-Kigiriama,29,Mbu/Usunye,5,understands,0
-Kigiriama,30,Mbu/Usunye,1,produces,1
-Kigiriama,30,Mbu/Usunye,1,understands,0
-Kiswahili,23,Mbu,2,produces,0
-Kiswahili,23,Mbu,2,understands,0
-Kiswahili,24,Mbu,12,produces,0.4167
-Kiswahili,24,Mbu,12,understands,0
-Kiswahili,25,Mbu,10,produces,0.2
-Kiswahili,25,Mbu,10,understands,0
-Kiswahili,26,Mbu,13,produces,0.1538
-Kiswahili,26,Mbu,13,understands,0
-Kiswahili,27,Mbu,8,produces,0.375
-Kiswahili,27,Mbu,8,understands,0
-Kiswahili,28,Mbu,6,produces,0.5
-Kiswahili,28,Mbu,6,understands,0
-Kiswahili,29,Mbu,6,produces,0.3333
-Kiswahili,29,Mbu,6,understands,0
-Kiswahili,30,Mbu,5,produces,0.8
-Kiswahili,30,Mbu,5,understands,0
-Mandarin (Beijing),16,蚊子,70,produces,0
-Mandarin (Beijing),16,蚊子,70,understands,0
-Mandarin (Beijing),17,蚊子,112,produces,0.0625
-Mandarin (Beijing),17,蚊子,112,understands,0
-Mandarin (Beijing),18,蚊子,121,produces,0.124
-Mandarin (Beijing),18,蚊子,121,understands,0
-Mandarin (Beijing),19,蚊子,120,produces,0.2083
-Mandarin (Beijing),19,蚊子,120,understands,0
-Mandarin (Beijing),20,蚊子,121,produces,0.3223
-Mandarin (Beijing),20,蚊子,121,understands,0
-Mandarin (Beijing),21,蚊子,119,produces,0.4202
-Mandarin (Beijing),21,蚊子,119,understands,0
-Mandarin (Beijing),22,蚊子,117,produces,0.4017
-Mandarin (Beijing),22,蚊子,117,understands,0
-Mandarin (Beijing),23,蚊子,120,produces,0.5833
-Mandarin (Beijing),23,蚊子,120,understands,0
-Mandarin (Beijing),24,蚊子,120,produces,0.6417
-Mandarin (Beijing),24,蚊子,120,understands,0
-Mandarin (Beijing),25,蚊子,113,produces,0.7168
-Mandarin (Beijing),25,蚊子,113,understands,0
-Mandarin (Beijing),26,蚊子,118,produces,0.6864
-Mandarin (Beijing),26,蚊子,118,understands,0
-Mandarin (Beijing),27,蚊子,114,produces,0.7982
-Mandarin (Beijing),27,蚊子,114,understands,0
-Mandarin (Beijing),28,蚊子,114,produces,0.7544
-Mandarin (Beijing),28,蚊子,114,understands,0
-Mandarin (Beijing),29,蚊子,119,produces,0.8571
-Mandarin (Beijing),29,蚊子,119,understands,0
-Mandarin (Beijing),30,蚊子,110,produces,0.9182
-Mandarin (Beijing),30,蚊子,110,understands,0
-Mandarin (Taiwanese),8,蚊子,86,produces,0
-Mandarin (Taiwanese),8,蚊子,86,understands,0.1628
-Mandarin (Taiwanese),9,蚊子,79,produces,0
-Mandarin (Taiwanese),9,蚊子,79,understands,0.1519
-Mandarin (Taiwanese),10,蚊子,78,produces,0
-Mandarin (Taiwanese),10,蚊子,78,understands,0.0513
-Mandarin (Taiwanese),11,蚊子,79,produces,0
-Mandarin (Taiwanese),11,蚊子,79,understands,0.0759
-Mandarin (Taiwanese),12,蚊子,80,produces,0
-Mandarin (Taiwanese),12,蚊子,80,understands,0.05
-Mandarin (Taiwanese),13,蚊子,78,produces,0.0128
-Mandarin (Taiwanese),13,蚊子,78,understands,0.1667
-Mandarin (Taiwanese),14,蚊子,81,produces,0.0123
-Mandarin (Taiwanese),14,蚊子,81,understands,0.0988
-Mandarin (Taiwanese),15,蚊子,106,produces,0.0189
-Mandarin (Taiwanese),15,蚊子,106,understands,0.217
-Mandarin (Taiwanese),16,蚊子,170,produces,0.0235
-Mandarin (Taiwanese),16,蚊子,170,understands,0.0706
-Mandarin (Taiwanese),17,蚊子,87,produces,0.092
-Mandarin (Taiwanese),17,蚊子,87,understands,0
-Mandarin (Taiwanese),18,蚊子,84,produces,0.131
-Mandarin (Taiwanese),18,蚊子,84,understands,0
-Mandarin (Taiwanese),19,蚊子,84,produces,0.2262
-Mandarin (Taiwanese),19,蚊子,84,understands,0
-Mandarin (Taiwanese),20,蚊子,84,produces,0.2619
-Mandarin (Taiwanese),20,蚊子,84,understands,0
-Mandarin (Taiwanese),21,蚊子,88,produces,0.3068
-Mandarin (Taiwanese),21,蚊子,88,understands,0
-Mandarin (Taiwanese),22,蚊子,96,produces,0.375
-Mandarin (Taiwanese),22,蚊子,96,understands,0
-Mandarin (Taiwanese),23,蚊子,105,produces,0.4952
-Mandarin (Taiwanese),23,蚊子,105,understands,0
-Mandarin (Taiwanese),24,蚊子,124,produces,0.5
-Mandarin (Taiwanese),24,蚊子,124,understands,0
-Mandarin (Taiwanese),25,蚊子,110,produces,0.4909
-Mandarin (Taiwanese),25,蚊子,110,understands,0
-Mandarin (Taiwanese),26,蚊子,87,produces,0.5977
-Mandarin (Taiwanese),26,蚊子,87,understands,0
-Mandarin (Taiwanese),27,蚊子,92,produces,0.5978
-Mandarin (Taiwanese),27,蚊子,92,understands,0
-Mandarin (Taiwanese),28,蚊子,100,produces,0.8
-Mandarin (Taiwanese),28,蚊子,100,understands,0
-Mandarin (Taiwanese),29,蚊子,88,produces,0.8409
-Mandarin (Taiwanese),29,蚊子,88,understands,0
-Mandarin (Taiwanese),30,蚊子,94,produces,0.7766
-Mandarin (Taiwanese),30,蚊子,94,understands,0
-Mandarin (Taiwanese),31,蚊子,88,produces,0.8636
-Mandarin (Taiwanese),31,蚊子,88,understands,0
-Mandarin (Taiwanese),32,蚊子,82,produces,0.7927
-Mandarin (Taiwanese),32,蚊子,82,understands,0
-Mandarin (Taiwanese),33,蚊子,85,produces,0.8588
-Mandarin (Taiwanese),33,蚊子,85,understands,0
-Mandarin (Taiwanese),34,蚊子,77,produces,0.8052
-Mandarin (Taiwanese),34,蚊子,77,understands,0
-Mandarin (Taiwanese),35,蚊子,81,produces,0.9383
-Mandarin (Taiwanese),35,蚊子,81,understands,0
-Mandarin (Taiwanese),36,蚊子,81,produces,0.9506
-Mandarin (Taiwanese),36,蚊子,81,understands,0
-Norwegian,16,mygg,98,produces,0
-Norwegian,16,mygg,98,understands,0
-Norwegian,17,mygg,218,produces,0.0046
-Norwegian,17,mygg,218,understands,0
-Norwegian,18,mygg,271,produces,0.0185
-Norwegian,18,mygg,271,understands,0
-Norwegian,19,mygg,281,produces,0.0142
-Norwegian,19,mygg,281,understands,0
-Norwegian,20,mygg,342,produces,0.0205
-Norwegian,20,mygg,342,understands,0
-Norwegian,21,mygg,418,produces,0.0502
-Norwegian,21,mygg,418,understands,0
-Norwegian,22,mygg,596,produces,0.0537
-Norwegian,22,mygg,596,understands,0
-Norwegian,23,mygg,566,produces,0.0936
-Norwegian,23,mygg,566,understands,0
-Norwegian,24,mygg,538,produces,0.1301
-Norwegian,24,mygg,538,understands,0
-Norwegian,25,mygg,656,produces,0.1646
-Norwegian,25,mygg,656,understands,0
-Norwegian,26,mygg,644,produces,0.2578
-Norwegian,26,mygg,644,understands,0
-Norwegian,27,mygg,525,produces,0.299
-Norwegian,27,mygg,525,understands,0
-Norwegian,28,mygg,544,produces,0.2978
-Norwegian,28,mygg,544,understands,0
-Norwegian,29,mygg,536,produces,0.3638
-Norwegian,29,mygg,536,understands,0
-Norwegian,30,mygg,457,produces,0.407
-Norwegian,30,mygg,457,understands,0
-Norwegian,31,mygg,479,produces,0.4635
-Norwegian,31,mygg,479,understands,0
-Norwegian,32,mygg,451,produces,0.5344
-Norwegian,32,mygg,451,understands,0
-Norwegian,33,mygg,430,produces,0.5186
-Norwegian,33,mygg,430,understands,0
-Norwegian,34,mygg,424,produces,0.5684
-Norwegian,34,mygg,424,understands,0
-Norwegian,35,mygg,422,produces,0.5806
-Norwegian,35,mygg,422,understands,0
-Norwegian,36,mygg,329,produces,0.6018
-Norwegian,36,mygg,329,understands,0
-Portuguese (European),16,"Melga, Mosquito",144,produces,0
-Portuguese (European),16,"Melga, Mosquito",144,understands,0
-Portuguese (European),17,"Melga, Mosquito",158,produces,0
-Portuguese (European),17,"Melga, Mosquito",158,understands,0
-Portuguese (European),18,"Melga, Mosquito",203,produces,0.0172
-Portuguese (European),18,"Melga, Mosquito",203,understands,0
-Portuguese (European),19,"Melga, Mosquito",196,produces,0.0051
-Portuguese (European),19,"Melga, Mosquito",196,understands,0
-Portuguese (European),20,"Melga, Mosquito",218,produces,0.0229
-Portuguese (European),20,"Melga, Mosquito",218,understands,0
-Portuguese (European),21,"Melga, Mosquito",208,produces,0.0264
-Portuguese (European),21,"Melga, Mosquito",208,understands,0
-Portuguese (European),22,"Melga, Mosquito",213,produces,0.0399
-Portuguese (European),22,"Melga, Mosquito",213,understands,0
-Portuguese (European),23,"Melga, Mosquito",199,produces,0.0402
-Portuguese (European),23,"Melga, Mosquito",199,understands,0
-Portuguese (European),24,"Melga, Mosquito",215,produces,0.1
-Portuguese (European),24,"Melga, Mosquito",215,understands,0
-Portuguese (European),25,"Melga, Mosquito",213,produces,0.1338
-Portuguese (European),25,"Melga, Mosquito",213,understands,0
-Portuguese (European),26,"Melga, Mosquito",218,produces,0.1284
-Portuguese (European),26,"Melga, Mosquito",218,understands,0
-Portuguese (European),27,"Melga, Mosquito",238,produces,0.1723
-Portuguese (European),27,"Melga, Mosquito",238,understands,0
-Portuguese (European),28,"Melga, Mosquito",219,produces,0.1986
-Portuguese (European),28,"Melga, Mosquito",219,understands,0
-Portuguese (European),29,"Melga, Mosquito",207,produces,0.244
-Portuguese (European),29,"Melga, Mosquito",207,understands,0
-Portuguese (European),30,"Melga, Mosquito",163,produces,0.227
-Portuguese (European),30,"Melga, Mosquito",163,understands,0
-Russian,18,комар,42,produces,0.0238
-Russian,18,комар,42,understands,0
-Russian,19,комар,41,produces,0.122
-Russian,19,комар,41,understands,0
-Russian,20,комар,45,produces,0.0889
-Russian,20,комар,45,understands,0
-Russian,21,комар,43,produces,0.3023
-Russian,21,комар,43,understands,0
-Russian,22,комар,51,produces,0.2549
-Russian,22,комар,51,understands,0
-Russian,23,комар,56,produces,0.4107
-Russian,23,комар,56,understands,0
-Russian,24,комар,61,produces,0.4098
-Russian,24,комар,61,understands,0
-Russian,25,комар,66,produces,0.4848
-Russian,25,комар,66,understands,0
-Russian,26,комар,52,produces,0.6346
-Russian,26,комар,52,understands,0
-Russian,27,комар,60,produces,0.5667
-Russian,27,комар,60,understands,0
-Russian,28,комар,60,produces,0.6
-Russian,28,комар,60,understands,0
-Russian,29,комар,58,produces,0.6724
-Russian,29,комар,58,understands,0
-Russian,30,комар,77,produces,0.6753
-Russian,30,комар,77,understands,0
-Russian,31,комар,61,produces,0.7213
-Russian,31,комар,61,understands,0
-Russian,32,комар,55,produces,0.8182
-Russian,32,комар,55,understands,0
-Russian,33,комар,55,produces,0.8545
-Russian,33,комар,55,understands,0
-Russian,34,комар,58,produces,0.8276
-Russian,34,комар,58,understands,0
-Russian,35,комар,47,produces,0.8723
-Russian,35,комар,47,understands,0
-Russian,36,комар,49,produces,0.7551
-Russian,36,комар,49,understands,0
-Spanish (Argentinian),16,mosquito,47,produces,0
-Spanish (Argentinian),16,mosquito,47,understands,0
-Spanish (Argentinian),17,mosquito,49,produces,0.0612
-Spanish (Argentinian),17,mosquito,49,understands,0
-Spanish (Argentinian),18,mosquito,62,produces,0.0161
-Spanish (Argentinian),18,mosquito,62,understands,0
-Spanish (Argentinian),19,mosquito,44,produces,0
-Spanish (Argentinian),19,mosquito,44,understands,0
-Spanish (Argentinian),20,mosquito,46,produces,0.0435
-Spanish (Argentinian),20,mosquito,46,understands,0
-Spanish (Argentinian),21,mosquito,41,produces,0.0488
-Spanish (Argentinian),21,mosquito,41,understands,0
-Spanish (Argentinian),22,mosquito,57,produces,0.193
-Spanish (Argentinian),22,mosquito,57,understands,0
-Spanish (Argentinian),23,mosquito,49,produces,0.1224
-Spanish (Argentinian),23,mosquito,49,understands,0
-Spanish (Argentinian),24,mosquito,75,produces,0.2533
-Spanish (Argentinian),24,mosquito,75,understands,0
-Spanish (Argentinian),25,mosquito,43,produces,0.4186
-Spanish (Argentinian),25,mosquito,43,understands,0
-Spanish (Argentinian),26,mosquito,45,produces,0.2222
-Spanish (Argentinian),26,mosquito,45,understands,0
-Spanish (Argentinian),27,mosquito,44,produces,0.4773
-Spanish (Argentinian),27,mosquito,44,understands,0
-Spanish (Argentinian),28,mosquito,42,produces,0.3571
-Spanish (Argentinian),28,mosquito,42,understands,0
-Spanish (Argentinian),29,mosquito,65,produces,0.4154
-Spanish (Argentinian),29,mosquito,65,understands,0
-Spanish (Argentinian),30,mosquito,69,produces,0.5507
-Spanish (Argentinian),30,mosquito,69,understands,0
-Spanish (Argentinian),31,mosquito,2,produces,0
-Spanish (Argentinian),31,mosquito,2,understands,0
-Spanish (Argentinian),32,mosquito,1,produces,1
-Spanish (Argentinian),32,mosquito,1,understands,0
-Spanish (Argentinian),33,mosquito,2,produces,0.5
-Spanish (Argentinian),33,mosquito,2,understands,0
-Spanish (Mexican),16,mosco,68,produces,0.0294
-Spanish (Mexican),16,mosco,68,understands,0
-Spanish (Mexican),17,mosco,59,produces,0.0847
-Spanish (Mexican),17,mosco,59,understands,0
-Spanish (Mexican),18,mosco,75,produces,0.12
-Spanish (Mexican),18,mosco,75,understands,0
-Spanish (Mexican),19,mosco,100,produces,0.2
-Spanish (Mexican),19,mosco,100,understands,0
-Spanish (Mexican),20,mosco,107,produces,0.2056
-Spanish (Mexican),20,mosco,107,understands,0
-Spanish (Mexican),21,mosco,84,produces,0.2857
-Spanish (Mexican),21,mosco,84,understands,0
-Spanish (Mexican),22,mosco,141,produces,0.1277
-Spanish (Mexican),22,mosco,141,understands,0
-Spanish (Mexican),23,mosco,91,produces,0.1978
-Spanish (Mexican),23,mosco,91,understands,0
-Spanish (Mexican),24,mosco,126,produces,0.2937
-Spanish (Mexican),24,mosco,126,understands,0
-Spanish (Mexican),25,mosco,177,produces,0.2825
-Spanish (Mexican),25,mosco,177,understands,0
-Spanish (Mexican),26,mosco,83,produces,0.3976
-Spanish (Mexican),26,mosco,83,understands,0
-Spanish (Mexican),27,mosco,85,produces,0.5059
-Spanish (Mexican),27,mosco,85,understands,0
-Spanish (Mexican),28,mosco,89,produces,0.4494
-Spanish (Mexican),28,mosco,89,understands,0
-Spanish (Mexican),29,mosco,89,produces,0.427
-Spanish (Mexican),29,mosco,89,understands,0
-Spanish (Mexican),30,mosco,308,produces,0.211
-Spanish (Mexican),30,mosco,308,understands,0
-Swedish,16,mygga,159,produces,0.0063
-Swedish,16,mygga,159,understands,0
-Swedish,19,mygga,152,produces,0.0526
-Swedish,19,mygga,152,understands,0
-Swedish,22,mygga,307,produces,0.1498
-Swedish,22,mygga,307,understands,0
-Swedish,25,mygga,143,produces,0.2657
-Swedish,25,mygga,143,understands,0
-Swedish,28,mygga,139,produces,0.3381
-Swedish,28,mygga,139,understands,0
-Arabic (Saudi),8,بعوضة (ناموسة),24,produces,0
-Arabic (Saudi),8,بعوضة (ناموسة),24,understands,0.0833
-Arabic (Saudi),9,بعوضة (ناموسة),27,produces,0
-Arabic (Saudi),9,بعوضة (ناموسة),27,understands,0.037
-Arabic (Saudi),10,بعوضة (ناموسة),35,produces,0
-Arabic (Saudi),10,بعوضة (ناموسة),35,understands,0.0857
-Arabic (Saudi),11,بعوضة (ناموسة),30,produces,0
-Arabic (Saudi),11,بعوضة (ناموسة),30,understands,0.0333
-Arabic (Saudi),12,بعوضة (ناموسة),30,produces,0.0333
-Arabic (Saudi),12,بعوضة (ناموسة),30,understands,0
-Arabic (Saudi),13,بعوضة (ناموسة),39,produces,0.0256
-Arabic (Saudi),13,بعوضة (ناموسة),39,understands,0
-Arabic (Saudi),14,بعوضة (ناموسة),25,produces,0
-Arabic (Saudi),14,بعوضة (ناموسة),25,understands,0.08
-Arabic (Saudi),15,بعوضة (ناموسة),27,produces,0.0741
-Arabic (Saudi),15,بعوضة (ناموسة),27,understands,0.1111
-Arabic (Saudi),16,بعوضة (ناموسة),21,produces,0.0476
-Arabic (Saudi),16,بعوضة (ناموسة),21,understands,0.0476
-Cantonese,16,蚊,46,produces,0
-Cantonese,16,蚊,46,understands,0
-Cantonese,17,蚊,61,produces,0.1475
-Cantonese,17,蚊,61,understands,0
-Cantonese,18,蚊,68,produces,0.1471
-Cantonese,18,蚊,68,understands,0
-Cantonese,19,蚊,66,produces,0.1818
-Cantonese,19,蚊,66,understands,0
-Cantonese,20,蚊,140,produces,0.2214
-Cantonese,20,蚊,140,understands,0
-Cantonese,21,蚊,120,produces,0.2
-Cantonese,21,蚊,120,understands,0
-Cantonese,22,蚊,68,produces,0.3529
-Cantonese,22,蚊,68,understands,0
-Cantonese,23,蚊,74,produces,0.473
-Cantonese,23,蚊,74,understands,0
-Cantonese,24,蚊,68,produces,0.4559
-Cantonese,24,蚊,68,understands,0
-Cantonese,25,蚊,65,produces,0.5692
-Cantonese,25,蚊,65,understands,0
-Cantonese,26,蚊,68,produces,0.6029
-Cantonese,26,蚊,68,understands,0
-Cantonese,27,蚊,62,produces,0.7581
-Cantonese,27,蚊,62,understands,0
-Cantonese,28,蚊,66,produces,0.7121
-Cantonese,28,蚊,66,understands,0
-Cantonese,29,蚊,72,produces,0.8194
-Cantonese,29,蚊,72,understands,0
-Cantonese,30,蚊,164,produces,0.7683
-Cantonese,30,蚊,164,understands,0
-Danish,16,myg,184,produces,0.0109
-Danish,16,myg,184,understands,0
-Danish,17,myg,176,produces,0.0114
-Danish,17,myg,176,understands,0
-Danish,18,myg,160,produces,0.0187
-Danish,18,myg,160,understands,0
-Danish,19,myg,205,produces,0.0341
-Danish,19,myg,205,understands,0
-Danish,20,myg,196,produces,0.0204
-Danish,20,myg,196,understands,0
-Danish,21,myg,236,produces,0.0678
-Danish,21,myg,236,understands,0
-Danish,22,myg,235,produces,0.1106
-Danish,22,myg,235,understands,0
-Danish,23,myg,190,produces,0.1421
-Danish,23,myg,190,understands,0
-Danish,24,myg,216,produces,0.2037
-Danish,24,myg,216,understands,0
-Danish,25,myg,138,produces,0.2536
-Danish,25,myg,138,understands,0
-Danish,26,myg,206,produces,0.3301
-Danish,26,myg,206,understands,0
-Danish,27,myg,176,produces,0.358
-Danish,27,myg,176,understands,0
-Danish,28,myg,190,produces,0.3579
-Danish,28,myg,190,understands,0
-Danish,29,myg,182,produces,0.4231
-Danish,29,myg,182,understands,0
-Danish,30,myg,173,produces,0.4335
-Danish,30,myg,173,understands,0
-Danish,31,myg,175,produces,0.6571
-Danish,31,myg,175,understands,0
-Danish,32,myg,143,produces,0.6923
-Danish,32,myg,143,understands,0
-Danish,33,myg,151,produces,0.7152
-Danish,33,myg,151,understands,0
-Danish,34,myg,143,produces,0.6993
-Danish,34,myg,143,understands,0
-Danish,35,myg,113,produces,0.7965
-Danish,35,myg,113,understands,0
-Danish,36,myg,126,produces,0.7698
-Danish,36,myg,126,understands,0
-Dutch,8,mug,7,produces,0
-Dutch,8,mug,7,understands,0
-Dutch,9,mug,94,produces,0
-Dutch,9,mug,94,understands,0
-Dutch,10,mug,128,produces,0
-Dutch,10,mug,128,understands,0.0078
-Dutch,11,mug,9,produces,0
-Dutch,11,mug,9,understands,0
-Dutch,12,mug,7,produces,0
-Dutch,12,mug,7,understands,0
-Dutch,13,mug,6,produces,0
-Dutch,13,mug,6,understands,0
-Dutch,14,mug,35,produces,0
-Dutch,14,mug,35,understands,0.0286
-Dutch,15,mug,6,produces,0
-Dutch,15,mug,6,understands,0
-Dutch,16,"mug, mug/vlieg",9,produces,0
-Dutch,16,"mug, mug/vlieg",9,understands,0
-Dutch,17,mug/vlieg,49,produces,0.0408
-Dutch,17,mug/vlieg,49,understands,0
-Dutch,18,mug/vlieg,68,produces,0.1029
-Dutch,18,mug/vlieg,68,understands,0
-Dutch,19,mug/vlieg,7,produces,0.1429
-Dutch,19,mug/vlieg,7,understands,0
-Dutch,20,mug/vlieg,7,produces,0.4286
-Dutch,20,mug/vlieg,7,understands,0
-Dutch,21,mug/vlieg,7,produces,0.1429
-Dutch,21,mug/vlieg,7,understands,0
-Dutch,22,mug/vlieg,7,produces,0.2857
-Dutch,22,mug/vlieg,7,understands,0
-Dutch,23,mug/vlieg,51,produces,0.5294
-Dutch,23,mug/vlieg,51,understands,0
-Dutch,24,mug/vlieg,31,produces,0.4516
-Dutch,24,mug/vlieg,31,understands,0
-Dutch,25,mug/vlieg,6,produces,0.6667
-Dutch,25,mug/vlieg,6,understands,0
-Dutch,26,mug/vlieg,6,produces,0.6667
-Dutch,26,mug/vlieg,6,understands,0
-Dutch,27,mug/vlieg,5,produces,0.8
-Dutch,27,mug/vlieg,5,understands,0
-Dutch,28,mug/vlieg,6,produces,1
-Dutch,28,mug/vlieg,6,understands,0
-Dutch,29,mug/vlieg,23,produces,0.913
-Dutch,29,mug/vlieg,23,understands,0
-Dutch,30,mug/vlieg,24,produces,0.9583
-Dutch,30,mug/vlieg,24,understands,0
-Dutch,31,mug/vlieg,2,produces,1
-Dutch,31,mug/vlieg,2,understands,0
-Finnish,12,hyttynen  ,35,produces,0
-Finnish,12,hyttynen  ,35,understands,0
-Finnish,15,hyttynen  ,35,produces,0
-Finnish,15,hyttynen  ,35,understands,0
-Finnish,18,hyttynen,35,produces,0.2
-Finnish,18,hyttynen,35,understands,0
-Finnish,24,hyttynen,35,produces,0.4857
-Finnish,24,hyttynen,35,understands,0
-Greek (Cypriot),18,κουνούπι,45,produces,0.0222
-Greek (Cypriot),18,κουνούπι,45,understands,0
-Greek (Cypriot),21,κουνούπι,36,produces,0
-Greek (Cypriot),21,κουνούπι,36,understands,0
-Greek (Cypriot),24,κουνούπι,32,produces,0.1875
-Greek (Cypriot),24,κουνούπι,32,understands,0
-Greek (Cypriot),27,κουνούπι,29,produces,0.3793
-Greek (Cypriot),27,κουνούπι,29,understands,0
-Greek (Cypriot),30,κουνούπι,34,produces,0.4412
-Greek (Cypriot),30,κουνούπι,34,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,بعوضة (ناموسة),24,produces,0
+Arabic (Saudi),All,8,بعوضة (ناموسة),24,understands,0.0833
+Arabic (Saudi),All,9,بعوضة (ناموسة),27,produces,0
+Arabic (Saudi),All,9,بعوضة (ناموسة),27,understands,0.037
+Arabic (Saudi),All,10,بعوضة (ناموسة),35,produces,0
+Arabic (Saudi),All,10,بعوضة (ناموسة),35,understands,0.0857
+Arabic (Saudi),All,11,بعوضة (ناموسة),30,produces,0
+Arabic (Saudi),All,11,بعوضة (ناموسة),30,understands,0.0333
+Arabic (Saudi),All,12,بعوضة (ناموسة),30,produces,0.0333
+Arabic (Saudi),All,12,بعوضة (ناموسة),30,understands,0
+Arabic (Saudi),All,13,بعوضة (ناموسة),39,produces,0.0256
+Arabic (Saudi),All,13,بعوضة (ناموسة),39,understands,0
+Arabic (Saudi),All,14,بعوضة (ناموسة),25,produces,0
+Arabic (Saudi),All,14,بعوضة (ناموسة),25,understands,0.08
+Arabic (Saudi),All,15,بعوضة (ناموسة),27,produces,0.0741
+Arabic (Saudi),All,15,بعوضة (ناموسة),27,understands,0.1111
+Arabic (Saudi),All,16,بعوضة (ناموسة),21,produces,0.0476
+Arabic (Saudi),All,16,بعوضة (ناموسة),21,understands,0.0476
+Cantonese,All,16,蚊,46,produces,0
+Cantonese,All,16,蚊,46,understands,0
+Cantonese,All,17,蚊,61,produces,0.1475
+Cantonese,All,17,蚊,61,understands,0
+Cantonese,All,18,蚊,68,produces,0.1471
+Cantonese,All,18,蚊,68,understands,0
+Cantonese,All,19,蚊,66,produces,0.1818
+Cantonese,All,19,蚊,66,understands,0
+Cantonese,All,20,蚊,140,produces,0.2214
+Cantonese,All,20,蚊,140,understands,0
+Cantonese,All,21,蚊,120,produces,0.2
+Cantonese,All,21,蚊,120,understands,0
+Cantonese,All,22,蚊,68,produces,0.3529
+Cantonese,All,22,蚊,68,understands,0
+Cantonese,All,23,蚊,74,produces,0.473
+Cantonese,All,23,蚊,74,understands,0
+Cantonese,All,24,蚊,68,produces,0.4559
+Cantonese,All,24,蚊,68,understands,0
+Cantonese,All,25,蚊,65,produces,0.5692
+Cantonese,All,25,蚊,65,understands,0
+Cantonese,All,26,蚊,68,produces,0.6029
+Cantonese,All,26,蚊,68,understands,0
+Cantonese,All,27,蚊,62,produces,0.7581
+Cantonese,All,27,蚊,62,understands,0
+Cantonese,All,28,蚊,66,produces,0.7121
+Cantonese,All,28,蚊,66,understands,0
+Cantonese,All,29,蚊,72,produces,0.8194
+Cantonese,All,29,蚊,72,understands,0
+Cantonese,All,30,蚊,164,produces,0.7683
+Cantonese,All,30,蚊,164,understands,0
+Danish,All,16,myg,184,produces,0.0109
+Danish,All,16,myg,184,understands,0
+Danish,All,17,myg,176,produces,0.0114
+Danish,All,17,myg,176,understands,0
+Danish,All,18,myg,160,produces,0.0187
+Danish,All,18,myg,160,understands,0
+Danish,All,19,myg,205,produces,0.0341
+Danish,All,19,myg,205,understands,0
+Danish,All,20,myg,196,produces,0.0204
+Danish,All,20,myg,196,understands,0
+Danish,All,21,myg,236,produces,0.0678
+Danish,All,21,myg,236,understands,0
+Danish,All,22,myg,235,produces,0.1106
+Danish,All,22,myg,235,understands,0
+Danish,All,23,myg,190,produces,0.1421
+Danish,All,23,myg,190,understands,0
+Danish,All,24,myg,216,produces,0.2037
+Danish,All,24,myg,216,understands,0
+Danish,All,25,myg,138,produces,0.2536
+Danish,All,25,myg,138,understands,0
+Danish,All,26,myg,206,produces,0.3301
+Danish,All,26,myg,206,understands,0
+Danish,All,27,myg,176,produces,0.358
+Danish,All,27,myg,176,understands,0
+Danish,All,28,myg,190,produces,0.3579
+Danish,All,28,myg,190,understands,0
+Danish,All,29,myg,182,produces,0.4231
+Danish,All,29,myg,182,understands,0
+Danish,All,30,myg,173,produces,0.4335
+Danish,All,30,myg,173,understands,0
+Danish,All,31,myg,175,produces,0.6571
+Danish,All,31,myg,175,understands,0
+Danish,All,32,myg,143,produces,0.6923
+Danish,All,32,myg,143,understands,0
+Danish,All,33,myg,151,produces,0.7152
+Danish,All,33,myg,151,understands,0
+Danish,All,34,myg,143,produces,0.6993
+Danish,All,34,myg,143,understands,0
+Danish,All,35,myg,113,produces,0.7965
+Danish,All,35,myg,113,understands,0
+Danish,All,36,myg,126,produces,0.7698
+Danish,All,36,myg,126,understands,0
+Dutch,All,8,mug,7,produces,0
+Dutch,All,8,mug,7,understands,0
+Dutch,All,9,mug,94,produces,0
+Dutch,All,9,mug,94,understands,0
+Dutch,All,10,mug,128,produces,0
+Dutch,All,10,mug,128,understands,0.0078
+Dutch,All,11,mug,9,produces,0
+Dutch,All,11,mug,9,understands,0
+Dutch,All,12,mug,7,produces,0
+Dutch,All,12,mug,7,understands,0
+Dutch,All,13,mug,6,produces,0
+Dutch,All,13,mug,6,understands,0
+Dutch,All,14,mug,35,produces,0
+Dutch,All,14,mug,35,understands,0.0286
+Dutch,All,15,mug,6,produces,0
+Dutch,All,15,mug,6,understands,0
+Dutch,All,16,"mug, mug/vlieg",9,produces,0
+Dutch,All,16,"mug, mug/vlieg",9,understands,0
+Dutch,All,17,mug/vlieg,49,produces,0.0408
+Dutch,All,17,mug/vlieg,49,understands,0
+Dutch,All,18,mug/vlieg,68,produces,0.1029
+Dutch,All,18,mug/vlieg,68,understands,0
+Dutch,All,19,mug/vlieg,7,produces,0.1429
+Dutch,All,19,mug/vlieg,7,understands,0
+Dutch,All,20,mug/vlieg,7,produces,0.4286
+Dutch,All,20,mug/vlieg,7,understands,0
+Dutch,All,21,mug/vlieg,7,produces,0.1429
+Dutch,All,21,mug/vlieg,7,understands,0
+Dutch,All,22,mug/vlieg,7,produces,0.2857
+Dutch,All,22,mug/vlieg,7,understands,0
+Dutch,All,23,mug/vlieg,51,produces,0.5294
+Dutch,All,23,mug/vlieg,51,understands,0
+Dutch,All,24,mug/vlieg,31,produces,0.4516
+Dutch,All,24,mug/vlieg,31,understands,0
+Dutch,All,25,mug/vlieg,6,produces,0.6667
+Dutch,All,25,mug/vlieg,6,understands,0
+Dutch,All,26,mug/vlieg,6,produces,0.6667
+Dutch,All,26,mug/vlieg,6,understands,0
+Dutch,All,27,mug/vlieg,5,produces,0.8
+Dutch,All,27,mug/vlieg,5,understands,0
+Dutch,All,28,mug/vlieg,6,produces,1
+Dutch,All,28,mug/vlieg,6,understands,0
+Dutch,All,29,mug/vlieg,23,produces,0.913
+Dutch,All,29,mug/vlieg,23,understands,0
+Dutch,All,30,mug/vlieg,24,produces,0.9583
+Dutch,All,30,mug/vlieg,24,understands,0
+Dutch,All,31,mug/vlieg,2,produces,1
+Dutch,All,31,mug/vlieg,2,understands,0
+Finnish,All,12,hyttynen  ,35,produces,0
+Finnish,All,12,hyttynen  ,35,understands,0
+Finnish,All,15,hyttynen  ,35,produces,0
+Finnish,All,15,hyttynen  ,35,understands,0
+Finnish,All,18,hyttynen,35,produces,0.2
+Finnish,All,18,hyttynen,35,understands,0
+Finnish,All,24,hyttynen,35,produces,0.4857
+Finnish,All,24,hyttynen,35,understands,0
+Greek (Cypriot),All,18,κουνούπι,45,produces,0.0222
+Greek (Cypriot),All,18,κουνούπι,45,understands,0
+Greek (Cypriot),All,21,κουνούπι,36,produces,0
+Greek (Cypriot),All,21,κουνούπι,36,understands,0
+Greek (Cypriot),All,24,κουνούπι,32,produces,0.1875
+Greek (Cypriot),All,24,κουνούπι,32,understands,0
+Greek (Cypriot),All,27,κουνούπι,29,produces,0.3793
+Greek (Cypriot),All,27,κουνούπι,29,understands,0
+Greek (Cypriot),All,30,κουνούπι,34,produces,0.4412
+Greek (Cypriot),All,30,κουνούπι,34,understands,0
+Italian,All,7,zanzara,5,produces,0
+Italian,All,7,zanzara,5,understands,0
+Italian,All,8,zanzara,34,produces,0
+Italian,All,8,zanzara,34,understands,0
+Italian,All,9,zanzara,38,produces,0
+Italian,All,9,zanzara,38,understands,0
+Italian,All,10,zanzara,53,produces,0
+Italian,All,10,zanzara,53,understands,0
+Italian,All,11,zanzara,42,produces,0
+Italian,All,11,zanzara,42,understands,0.0238
+Italian,All,12,zanzara,69,produces,0
+Italian,All,12,zanzara,69,understands,0.029
+Italian,All,13,zanzara,48,produces,0
+Italian,All,13,zanzara,48,understands,0.0208
+Italian,All,14,zanzara,40,produces,0.025
+Italian,All,14,zanzara,40,understands,0.05
+Italian,All,15,zanzara,68,produces,0.0294
+Italian,All,15,zanzara,68,understands,0.0882
+Italian,All,16,zanzara,56,produces,0.0536
+Italian,All,16,zanzara,56,understands,0.25
+Italian,All,17,zanzara,48,produces,0.0417
+Italian,All,17,zanzara,48,understands,0.2292
+Italian,All,18,zanzara,75,produces,0.0933
+Italian,All,18,zanzara,75,understands,0.1467
+Italian,All,19,zanzara,58,produces,0.0517
+Italian,All,19,zanzara,58,understands,0.0517
+Italian,All,20,zanzara,83,produces,0.0843
+Italian,All,20,zanzara,83,understands,0.0602
+Italian,All,21,zanzara,67,produces,0.2239
+Italian,All,21,zanzara,67,understands,0.0896
+Italian,All,22,zanzara,77,produces,0.2597
+Italian,All,22,zanzara,77,understands,0.0779
+Italian,All,23,zanzara,70,produces,0.3143
+Italian,All,23,zanzara,70,understands,0.1143
+Italian,All,24,zanzara,85,produces,0.3529
+Italian,All,24,zanzara,85,understands,0.0824
+Italian,All,25,zanzara,39,produces,0.5128
+Italian,All,25,zanzara,39,understands,0
+Italian,All,26,zanzara,41,produces,0.6829
+Italian,All,26,zanzara,41,understands,0
+Italian,All,27,zanzara,43,produces,0.4884
+Italian,All,27,zanzara,43,understands,0
+Italian,All,28,zanzara,44,produces,0.6364
+Italian,All,28,zanzara,44,understands,0
+Italian,All,29,zanzara,37,produces,0.7027
+Italian,All,29,zanzara,37,understands,0
+Italian,All,30,zanzara,67,produces,0.7015
+Italian,All,30,zanzara,67,understands,0
+Italian,All,31,zanzara,19,produces,0.8421
+Italian,All,31,zanzara,19,understands,0
+Italian,All,32,zanzara,23,produces,0.8261
+Italian,All,32,zanzara,23,understands,0
+Italian,All,33,zanzara,16,produces,0.875
+Italian,All,33,zanzara,16,understands,0
+Italian,All,34,zanzara,19,produces,0.9474
+Italian,All,34,zanzara,19,understands,0
+Italian,All,35,zanzara,15,produces,0.8667
+Italian,All,35,zanzara,15,understands,0
+Italian,All,36,zanzara,21,produces,0.8571
+Italian,All,36,zanzara,21,understands,0
+Kigiriama,All,16,Mbu/Usunye,1,produces,0
+Kigiriama,All,16,Mbu/Usunye,1,understands,0
+Kigiriama,All,17,Mbu/Usunye,6,produces,0
+Kigiriama,All,17,Mbu/Usunye,6,understands,0
+Kigiriama,All,18,Mbu/Usunye,13,produces,0
+Kigiriama,All,18,Mbu/Usunye,13,understands,0
+Kigiriama,All,19,Mbu/Usunye,8,produces,0
+Kigiriama,All,19,Mbu/Usunye,8,understands,0
+Kigiriama,All,20,Mbu/Usunye,14,produces,0
+Kigiriama,All,20,Mbu/Usunye,14,understands,0
+Kigiriama,All,21,Mbu/Usunye,6,produces,0
+Kigiriama,All,21,Mbu/Usunye,6,understands,0
+Kigiriama,All,22,Mbu/Usunye,9,produces,0.2222
+Kigiriama,All,22,Mbu/Usunye,9,understands,0
+Kigiriama,All,23,Mbu/Usunye,4,produces,0
+Kigiriama,All,23,Mbu/Usunye,4,understands,0
+Kigiriama,All,24,Mbu/Usunye,7,produces,0.1429
+Kigiriama,All,24,Mbu/Usunye,7,understands,0
+Kigiriama,All,25,Mbu/Usunye,3,produces,0.6667
+Kigiriama,All,25,Mbu/Usunye,3,understands,0
+Kigiriama,All,26,Mbu/Usunye,6,produces,0.1667
+Kigiriama,All,26,Mbu/Usunye,6,understands,0
+Kigiriama,All,27,Mbu/Usunye,4,produces,0.75
+Kigiriama,All,27,Mbu/Usunye,4,understands,0
+Kigiriama,All,28,Mbu/Usunye,1,produces,0
+Kigiriama,All,28,Mbu/Usunye,1,understands,0
+Kigiriama,All,29,Mbu/Usunye,5,produces,0.4
+Kigiriama,All,29,Mbu/Usunye,5,understands,0
+Kigiriama,All,30,Mbu/Usunye,1,produces,1
+Kigiriama,All,30,Mbu/Usunye,1,understands,0
+Kiswahili,All,23,Mbu,2,produces,0
+Kiswahili,All,23,Mbu,2,understands,0
+Kiswahili,All,24,Mbu,12,produces,0.4167
+Kiswahili,All,24,Mbu,12,understands,0
+Kiswahili,All,25,Mbu,10,produces,0.2
+Kiswahili,All,25,Mbu,10,understands,0
+Kiswahili,All,26,Mbu,13,produces,0.1538
+Kiswahili,All,26,Mbu,13,understands,0
+Kiswahili,All,27,Mbu,8,produces,0.375
+Kiswahili,All,27,Mbu,8,understands,0
+Kiswahili,All,28,Mbu,6,produces,0.5
+Kiswahili,All,28,Mbu,6,understands,0
+Kiswahili,All,29,Mbu,6,produces,0.3333
+Kiswahili,All,29,Mbu,6,understands,0
+Kiswahili,All,30,Mbu,5,produces,0.8
+Kiswahili,All,30,Mbu,5,understands,0
+Mandarin (Beijing),All,16,蚊子,70,produces,0
+Mandarin (Beijing),All,16,蚊子,70,understands,0
+Mandarin (Beijing),All,17,蚊子,112,produces,0.0625
+Mandarin (Beijing),All,17,蚊子,112,understands,0
+Mandarin (Beijing),All,18,蚊子,121,produces,0.124
+Mandarin (Beijing),All,18,蚊子,121,understands,0
+Mandarin (Beijing),All,19,蚊子,120,produces,0.2083
+Mandarin (Beijing),All,19,蚊子,120,understands,0
+Mandarin (Beijing),All,20,蚊子,121,produces,0.3223
+Mandarin (Beijing),All,20,蚊子,121,understands,0
+Mandarin (Beijing),All,21,蚊子,119,produces,0.4202
+Mandarin (Beijing),All,21,蚊子,119,understands,0
+Mandarin (Beijing),All,22,蚊子,117,produces,0.4017
+Mandarin (Beijing),All,22,蚊子,117,understands,0
+Mandarin (Beijing),All,23,蚊子,120,produces,0.5833
+Mandarin (Beijing),All,23,蚊子,120,understands,0
+Mandarin (Beijing),All,24,蚊子,120,produces,0.6417
+Mandarin (Beijing),All,24,蚊子,120,understands,0
+Mandarin (Beijing),All,25,蚊子,113,produces,0.7168
+Mandarin (Beijing),All,25,蚊子,113,understands,0
+Mandarin (Beijing),All,26,蚊子,118,produces,0.6864
+Mandarin (Beijing),All,26,蚊子,118,understands,0
+Mandarin (Beijing),All,27,蚊子,114,produces,0.7982
+Mandarin (Beijing),All,27,蚊子,114,understands,0
+Mandarin (Beijing),All,28,蚊子,114,produces,0.7544
+Mandarin (Beijing),All,28,蚊子,114,understands,0
+Mandarin (Beijing),All,29,蚊子,119,produces,0.8571
+Mandarin (Beijing),All,29,蚊子,119,understands,0
+Mandarin (Beijing),All,30,蚊子,110,produces,0.9182
+Mandarin (Beijing),All,30,蚊子,110,understands,0
+Mandarin (Taiwanese),All,8,蚊子,86,produces,0
+Mandarin (Taiwanese),All,8,蚊子,86,understands,0.1628
+Mandarin (Taiwanese),All,9,蚊子,79,produces,0
+Mandarin (Taiwanese),All,9,蚊子,79,understands,0.1519
+Mandarin (Taiwanese),All,10,蚊子,78,produces,0
+Mandarin (Taiwanese),All,10,蚊子,78,understands,0.0513
+Mandarin (Taiwanese),All,11,蚊子,79,produces,0
+Mandarin (Taiwanese),All,11,蚊子,79,understands,0.0759
+Mandarin (Taiwanese),All,12,蚊子,80,produces,0
+Mandarin (Taiwanese),All,12,蚊子,80,understands,0.05
+Mandarin (Taiwanese),All,13,蚊子,78,produces,0.0128
+Mandarin (Taiwanese),All,13,蚊子,78,understands,0.1667
+Mandarin (Taiwanese),All,14,蚊子,81,produces,0.0123
+Mandarin (Taiwanese),All,14,蚊子,81,understands,0.0988
+Mandarin (Taiwanese),All,15,蚊子,106,produces,0.0189
+Mandarin (Taiwanese),All,15,蚊子,106,understands,0.217
+Mandarin (Taiwanese),All,16,蚊子,170,produces,0.0235
+Mandarin (Taiwanese),All,16,蚊子,170,understands,0.0706
+Mandarin (Taiwanese),All,17,蚊子,87,produces,0.092
+Mandarin (Taiwanese),All,17,蚊子,87,understands,0
+Mandarin (Taiwanese),All,18,蚊子,84,produces,0.131
+Mandarin (Taiwanese),All,18,蚊子,84,understands,0
+Mandarin (Taiwanese),All,19,蚊子,84,produces,0.2262
+Mandarin (Taiwanese),All,19,蚊子,84,understands,0
+Mandarin (Taiwanese),All,20,蚊子,84,produces,0.2619
+Mandarin (Taiwanese),All,20,蚊子,84,understands,0
+Mandarin (Taiwanese),All,21,蚊子,88,produces,0.3068
+Mandarin (Taiwanese),All,21,蚊子,88,understands,0
+Mandarin (Taiwanese),All,22,蚊子,96,produces,0.375
+Mandarin (Taiwanese),All,22,蚊子,96,understands,0
+Mandarin (Taiwanese),All,23,蚊子,105,produces,0.4952
+Mandarin (Taiwanese),All,23,蚊子,105,understands,0
+Mandarin (Taiwanese),All,24,蚊子,124,produces,0.5
+Mandarin (Taiwanese),All,24,蚊子,124,understands,0
+Mandarin (Taiwanese),All,25,蚊子,110,produces,0.4909
+Mandarin (Taiwanese),All,25,蚊子,110,understands,0
+Mandarin (Taiwanese),All,26,蚊子,87,produces,0.5977
+Mandarin (Taiwanese),All,26,蚊子,87,understands,0
+Mandarin (Taiwanese),All,27,蚊子,92,produces,0.5978
+Mandarin (Taiwanese),All,27,蚊子,92,understands,0
+Mandarin (Taiwanese),All,28,蚊子,100,produces,0.8
+Mandarin (Taiwanese),All,28,蚊子,100,understands,0
+Mandarin (Taiwanese),All,29,蚊子,88,produces,0.8409
+Mandarin (Taiwanese),All,29,蚊子,88,understands,0
+Mandarin (Taiwanese),All,30,蚊子,94,produces,0.7766
+Mandarin (Taiwanese),All,30,蚊子,94,understands,0
+Mandarin (Taiwanese),All,31,蚊子,88,produces,0.8636
+Mandarin (Taiwanese),All,31,蚊子,88,understands,0
+Mandarin (Taiwanese),All,32,蚊子,82,produces,0.7927
+Mandarin (Taiwanese),All,32,蚊子,82,understands,0
+Mandarin (Taiwanese),All,33,蚊子,85,produces,0.8588
+Mandarin (Taiwanese),All,33,蚊子,85,understands,0
+Mandarin (Taiwanese),All,34,蚊子,77,produces,0.8052
+Mandarin (Taiwanese),All,34,蚊子,77,understands,0
+Mandarin (Taiwanese),All,35,蚊子,81,produces,0.9383
+Mandarin (Taiwanese),All,35,蚊子,81,understands,0
+Mandarin (Taiwanese),All,36,蚊子,81,produces,0.9506
+Mandarin (Taiwanese),All,36,蚊子,81,understands,0
+Norwegian,All,16,mygg,98,produces,0
+Norwegian,All,16,mygg,98,understands,0
+Norwegian,All,17,mygg,218,produces,0.0046
+Norwegian,All,17,mygg,218,understands,0
+Norwegian,All,18,mygg,271,produces,0.0185
+Norwegian,All,18,mygg,271,understands,0
+Norwegian,All,19,mygg,281,produces,0.0142
+Norwegian,All,19,mygg,281,understands,0
+Norwegian,All,20,mygg,342,produces,0.0205
+Norwegian,All,20,mygg,342,understands,0
+Norwegian,All,21,mygg,418,produces,0.0502
+Norwegian,All,21,mygg,418,understands,0
+Norwegian,All,22,mygg,596,produces,0.0537
+Norwegian,All,22,mygg,596,understands,0
+Norwegian,All,23,mygg,566,produces,0.0936
+Norwegian,All,23,mygg,566,understands,0
+Norwegian,All,24,mygg,538,produces,0.1301
+Norwegian,All,24,mygg,538,understands,0
+Norwegian,All,25,mygg,656,produces,0.1646
+Norwegian,All,25,mygg,656,understands,0
+Norwegian,All,26,mygg,644,produces,0.2578
+Norwegian,All,26,mygg,644,understands,0
+Norwegian,All,27,mygg,525,produces,0.299
+Norwegian,All,27,mygg,525,understands,0
+Norwegian,All,28,mygg,544,produces,0.2978
+Norwegian,All,28,mygg,544,understands,0
+Norwegian,All,29,mygg,536,produces,0.3638
+Norwegian,All,29,mygg,536,understands,0
+Norwegian,All,30,mygg,457,produces,0.407
+Norwegian,All,30,mygg,457,understands,0
+Norwegian,All,31,mygg,479,produces,0.4635
+Norwegian,All,31,mygg,479,understands,0
+Norwegian,All,32,mygg,451,produces,0.5344
+Norwegian,All,32,mygg,451,understands,0
+Norwegian,All,33,mygg,430,produces,0.5186
+Norwegian,All,33,mygg,430,understands,0
+Norwegian,All,34,mygg,424,produces,0.5684
+Norwegian,All,34,mygg,424,understands,0
+Norwegian,All,35,mygg,422,produces,0.5806
+Norwegian,All,35,mygg,422,understands,0
+Norwegian,All,36,mygg,329,produces,0.6018
+Norwegian,All,36,mygg,329,understands,0
+Portuguese (European),All,16,"Melga, Mosquito",144,produces,0
+Portuguese (European),All,16,"Melga, Mosquito",144,understands,0
+Portuguese (European),All,17,"Melga, Mosquito",158,produces,0
+Portuguese (European),All,17,"Melga, Mosquito",158,understands,0
+Portuguese (European),All,18,"Melga, Mosquito",203,produces,0.0172
+Portuguese (European),All,18,"Melga, Mosquito",203,understands,0
+Portuguese (European),All,19,"Melga, Mosquito",196,produces,0.0051
+Portuguese (European),All,19,"Melga, Mosquito",196,understands,0
+Portuguese (European),All,20,"Melga, Mosquito",218,produces,0.0229
+Portuguese (European),All,20,"Melga, Mosquito",218,understands,0
+Portuguese (European),All,21,"Melga, Mosquito",208,produces,0.0264
+Portuguese (European),All,21,"Melga, Mosquito",208,understands,0
+Portuguese (European),All,22,"Melga, Mosquito",213,produces,0.0399
+Portuguese (European),All,22,"Melga, Mosquito",213,understands,0
+Portuguese (European),All,23,"Melga, Mosquito",199,produces,0.0402
+Portuguese (European),All,23,"Melga, Mosquito",199,understands,0
+Portuguese (European),All,24,"Melga, Mosquito",215,produces,0.1
+Portuguese (European),All,24,"Melga, Mosquito",215,understands,0
+Portuguese (European),All,25,"Melga, Mosquito",213,produces,0.1338
+Portuguese (European),All,25,"Melga, Mosquito",213,understands,0
+Portuguese (European),All,26,"Melga, Mosquito",218,produces,0.1284
+Portuguese (European),All,26,"Melga, Mosquito",218,understands,0
+Portuguese (European),All,27,"Melga, Mosquito",238,produces,0.1723
+Portuguese (European),All,27,"Melga, Mosquito",238,understands,0
+Portuguese (European),All,28,"Melga, Mosquito",219,produces,0.1986
+Portuguese (European),All,28,"Melga, Mosquito",219,understands,0
+Portuguese (European),All,29,"Melga, Mosquito",207,produces,0.244
+Portuguese (European),All,29,"Melga, Mosquito",207,understands,0
+Portuguese (European),All,30,"Melga, Mosquito",163,produces,0.227
+Portuguese (European),All,30,"Melga, Mosquito",163,understands,0
+Russian,All,18,комар,42,produces,0.0238
+Russian,All,18,комар,42,understands,0
+Russian,All,19,комар,41,produces,0.122
+Russian,All,19,комар,41,understands,0
+Russian,All,20,комар,45,produces,0.0889
+Russian,All,20,комар,45,understands,0
+Russian,All,21,комар,43,produces,0.3023
+Russian,All,21,комар,43,understands,0
+Russian,All,22,комар,51,produces,0.2549
+Russian,All,22,комар,51,understands,0
+Russian,All,23,комар,56,produces,0.4107
+Russian,All,23,комар,56,understands,0
+Russian,All,24,комар,61,produces,0.4098
+Russian,All,24,комар,61,understands,0
+Russian,All,25,комар,66,produces,0.4848
+Russian,All,25,комар,66,understands,0
+Russian,All,26,комар,52,produces,0.6346
+Russian,All,26,комар,52,understands,0
+Russian,All,27,комар,60,produces,0.5667
+Russian,All,27,комар,60,understands,0
+Russian,All,28,комар,60,produces,0.6
+Russian,All,28,комар,60,understands,0
+Russian,All,29,комар,58,produces,0.6724
+Russian,All,29,комар,58,understands,0
+Russian,All,30,комар,77,produces,0.6753
+Russian,All,30,комар,77,understands,0
+Russian,All,31,комар,61,produces,0.7213
+Russian,All,31,комар,61,understands,0
+Russian,All,32,комар,55,produces,0.8182
+Russian,All,32,комар,55,understands,0
+Russian,All,33,комар,55,produces,0.8545
+Russian,All,33,комар,55,understands,0
+Russian,All,34,комар,58,produces,0.8276
+Russian,All,34,комар,58,understands,0
+Russian,All,35,комар,47,produces,0.8723
+Russian,All,35,комар,47,understands,0
+Russian,All,36,комар,49,produces,0.7551
+Russian,All,36,комар,49,understands,0
+Spanish (Argentinian),All,16,mosquito,47,produces,0
+Spanish (Argentinian),All,16,mosquito,47,understands,0
+Spanish (Argentinian),All,17,mosquito,49,produces,0.0612
+Spanish (Argentinian),All,17,mosquito,49,understands,0
+Spanish (Argentinian),All,18,mosquito,62,produces,0.0161
+Spanish (Argentinian),All,18,mosquito,62,understands,0
+Spanish (Argentinian),All,19,mosquito,44,produces,0
+Spanish (Argentinian),All,19,mosquito,44,understands,0
+Spanish (Argentinian),All,20,mosquito,46,produces,0.0435
+Spanish (Argentinian),All,20,mosquito,46,understands,0
+Spanish (Argentinian),All,21,mosquito,41,produces,0.0488
+Spanish (Argentinian),All,21,mosquito,41,understands,0
+Spanish (Argentinian),All,22,mosquito,57,produces,0.193
+Spanish (Argentinian),All,22,mosquito,57,understands,0
+Spanish (Argentinian),All,23,mosquito,49,produces,0.1224
+Spanish (Argentinian),All,23,mosquito,49,understands,0
+Spanish (Argentinian),All,24,mosquito,75,produces,0.2533
+Spanish (Argentinian),All,24,mosquito,75,understands,0
+Spanish (Argentinian),All,25,mosquito,43,produces,0.4186
+Spanish (Argentinian),All,25,mosquito,43,understands,0
+Spanish (Argentinian),All,26,mosquito,45,produces,0.2222
+Spanish (Argentinian),All,26,mosquito,45,understands,0
+Spanish (Argentinian),All,27,mosquito,44,produces,0.4773
+Spanish (Argentinian),All,27,mosquito,44,understands,0
+Spanish (Argentinian),All,28,mosquito,42,produces,0.3571
+Spanish (Argentinian),All,28,mosquito,42,understands,0
+Spanish (Argentinian),All,29,mosquito,65,produces,0.4154
+Spanish (Argentinian),All,29,mosquito,65,understands,0
+Spanish (Argentinian),All,30,mosquito,69,produces,0.5507
+Spanish (Argentinian),All,30,mosquito,69,understands,0
+Spanish (Argentinian),All,31,mosquito,2,produces,0
+Spanish (Argentinian),All,31,mosquito,2,understands,0
+Spanish (Argentinian),All,32,mosquito,1,produces,1
+Spanish (Argentinian),All,32,mosquito,1,understands,0
+Spanish (Argentinian),All,33,mosquito,2,produces,0.5
+Spanish (Argentinian),All,33,mosquito,2,understands,0
+Spanish (Mexican),All,16,mosco,68,produces,0.0294
+Spanish (Mexican),All,16,mosco,68,understands,0
+Spanish (Mexican),All,17,mosco,59,produces,0.0847
+Spanish (Mexican),All,17,mosco,59,understands,0
+Spanish (Mexican),All,18,mosco,75,produces,0.12
+Spanish (Mexican),All,18,mosco,75,understands,0
+Spanish (Mexican),All,19,mosco,100,produces,0.2
+Spanish (Mexican),All,19,mosco,100,understands,0
+Spanish (Mexican),All,20,mosco,107,produces,0.2056
+Spanish (Mexican),All,20,mosco,107,understands,0
+Spanish (Mexican),All,21,mosco,84,produces,0.2857
+Spanish (Mexican),All,21,mosco,84,understands,0
+Spanish (Mexican),All,22,mosco,141,produces,0.1277
+Spanish (Mexican),All,22,mosco,141,understands,0
+Spanish (Mexican),All,23,mosco,91,produces,0.1978
+Spanish (Mexican),All,23,mosco,91,understands,0
+Spanish (Mexican),All,24,mosco,126,produces,0.2937
+Spanish (Mexican),All,24,mosco,126,understands,0
+Spanish (Mexican),All,25,mosco,177,produces,0.2825
+Spanish (Mexican),All,25,mosco,177,understands,0
+Spanish (Mexican),All,26,mosco,83,produces,0.3976
+Spanish (Mexican),All,26,mosco,83,understands,0
+Spanish (Mexican),All,27,mosco,85,produces,0.5059
+Spanish (Mexican),All,27,mosco,85,understands,0
+Spanish (Mexican),All,28,mosco,89,produces,0.4494
+Spanish (Mexican),All,28,mosco,89,understands,0
+Spanish (Mexican),All,29,mosco,89,produces,0.427
+Spanish (Mexican),All,29,mosco,89,understands,0
+Spanish (Mexican),All,30,mosco,308,produces,0.211
+Spanish (Mexican),All,30,mosco,308,understands,0
+Swedish,All,16,mygga,159,produces,0.0063
+Swedish,All,16,mygga,159,understands,0
+Swedish,All,19,mygga,152,produces,0.0526
+Swedish,All,19,mygga,152,understands,0
+Swedish,All,22,mygga,307,produces,0.1498
+Swedish,All,22,mygga,307,understands,0
+Swedish,All,25,mygga,143,produces,0.2657
+Swedish,All,25,mygga,143,understands,0
+Swedish,All,28,mygga,139,produces,0.3381
+Swedish,All,28,mygga,139,understands,0
+Arabic (Saudi),Female,8,بعوضة (ناموسة),13,produces,0
+Arabic (Saudi),Female,8,بعوضة (ناموسة),13,understands,0.1538
+Arabic (Saudi),Male,8,بعوضة (ناموسة),11,produces,0
+Arabic (Saudi),Male,8,بعوضة (ناموسة),11,understands,0
+Arabic (Saudi),Female,9,بعوضة (ناموسة),14,produces,0
+Arabic (Saudi),Female,9,بعوضة (ناموسة),14,understands,0
+Arabic (Saudi),Male,9,بعوضة (ناموسة),13,produces,0
+Arabic (Saudi),Male,9,بعوضة (ناموسة),13,understands,0.0769
+Arabic (Saudi),Female,10,بعوضة (ناموسة),15,produces,0
+Arabic (Saudi),Female,10,بعوضة (ناموسة),15,understands,0.0667
+Arabic (Saudi),Male,10,بعوضة (ناموسة),20,produces,0
+Arabic (Saudi),Male,10,بعوضة (ناموسة),20,understands,0.1
+Arabic (Saudi),Female,11,بعوضة (ناموسة),14,produces,0
+Arabic (Saudi),Female,11,بعوضة (ناموسة),14,understands,0
+Arabic (Saudi),Male,11,بعوضة (ناموسة),16,produces,0
+Arabic (Saudi),Male,11,بعوضة (ناموسة),16,understands,0.0625
+Arabic (Saudi),Female,12,بعوضة (ناموسة),14,produces,0
+Arabic (Saudi),Female,12,بعوضة (ناموسة),14,understands,0
+Arabic (Saudi),Male,12,بعوضة (ناموسة),16,produces,0.0625
+Arabic (Saudi),Male,12,بعوضة (ناموسة),16,understands,0
+Arabic (Saudi),Female,13,بعوضة (ناموسة),17,produces,0
+Arabic (Saudi),Female,13,بعوضة (ناموسة),17,understands,0
+Arabic (Saudi),Male,13,بعوضة (ناموسة),22,produces,0.0455
+Arabic (Saudi),Male,13,بعوضة (ناموسة),22,understands,0
+Arabic (Saudi),Female,14,بعوضة (ناموسة),10,produces,0
+Arabic (Saudi),Female,14,بعوضة (ناموسة),10,understands,0
+Arabic (Saudi),Male,14,بعوضة (ناموسة),15,produces,0
+Arabic (Saudi),Male,14,بعوضة (ناموسة),15,understands,0.1333
+Arabic (Saudi),Female,15,بعوضة (ناموسة),12,produces,0
+Arabic (Saudi),Female,15,بعوضة (ناموسة),12,understands,0.1667
+Arabic (Saudi),Male,15,بعوضة (ناموسة),15,produces,0.1333
+Arabic (Saudi),Male,15,بعوضة (ناموسة),15,understands,0.0667
+Arabic (Saudi),Female,16,بعوضة (ناموسة),10,produces,0.1
+Arabic (Saudi),Female,16,بعوضة (ناموسة),10,understands,0.1
+Arabic (Saudi),Male,16,بعوضة (ناموسة),11,produces,0
+Arabic (Saudi),Male,16,بعوضة (ناموسة),11,understands,0
+Cantonese,Female,16,蚊,23,produces,0
+Cantonese,Female,16,蚊,23,understands,0
+Cantonese,Male,16,蚊,23,produces,0
+Cantonese,Male,16,蚊,23,understands,0
+Cantonese,Female,17,蚊,30,produces,0.1667
+Cantonese,Female,17,蚊,30,understands,0
+Cantonese,Male,17,蚊,31,produces,0.129
+Cantonese,Male,17,蚊,31,understands,0
+Cantonese,Female,18,蚊,33,produces,0.2727
+Cantonese,Female,18,蚊,33,understands,0
+Cantonese,Male,18,蚊,35,produces,0.0286
+Cantonese,Male,18,蚊,35,understands,0
+Cantonese,Female,19,蚊,30,produces,0.2667
+Cantonese,Female,19,蚊,30,understands,0
+Cantonese,Male,19,蚊,36,produces,0.1111
+Cantonese,Male,19,蚊,36,understands,0
+Cantonese,Female,20,蚊,62,produces,0.2742
+Cantonese,Female,20,蚊,62,understands,0
+Cantonese,Male,20,蚊,78,produces,0.1795
+Cantonese,Male,20,蚊,78,understands,0
+Cantonese,Female,21,蚊,57,produces,0.2456
+Cantonese,Female,21,蚊,57,understands,0
+Cantonese,Male,21,蚊,63,produces,0.1587
+Cantonese,Male,21,蚊,63,understands,0
+Cantonese,Female,22,蚊,34,produces,0.5
+Cantonese,Female,22,蚊,34,understands,0
+Cantonese,Male,22,蚊,34,produces,0.2059
+Cantonese,Male,22,蚊,34,understands,0
+Cantonese,Female,23,蚊,37,produces,0.6216
+Cantonese,Female,23,蚊,37,understands,0
+Cantonese,Male,23,蚊,37,produces,0.3243
+Cantonese,Male,23,蚊,37,understands,0
+Cantonese,Female,24,蚊,32,produces,0.4375
+Cantonese,Female,24,蚊,32,understands,0
+Cantonese,Male,24,蚊,36,produces,0.4722
+Cantonese,Male,24,蚊,36,understands,0
+Cantonese,Female,25,蚊,31,produces,0.6129
+Cantonese,Female,25,蚊,31,understands,0
+Cantonese,Male,25,蚊,34,produces,0.5294
+Cantonese,Male,25,蚊,34,understands,0
+Cantonese,Female,26,蚊,31,produces,0.5806
+Cantonese,Female,26,蚊,31,understands,0
+Cantonese,Male,26,蚊,37,produces,0.6216
+Cantonese,Male,26,蚊,37,understands,0
+Cantonese,Female,27,蚊,31,produces,0.7419
+Cantonese,Female,27,蚊,31,understands,0
+Cantonese,Male,27,蚊,31,produces,0.7742
+Cantonese,Male,27,蚊,31,understands,0
+Cantonese,Female,28,蚊,32,produces,0.6875
+Cantonese,Female,28,蚊,32,understands,0
+Cantonese,Male,28,蚊,34,produces,0.7353
+Cantonese,Male,28,蚊,34,understands,0
+Cantonese,Female,29,蚊,36,produces,0.8056
+Cantonese,Female,29,蚊,36,understands,0
+Cantonese,Male,29,蚊,36,produces,0.8333
+Cantonese,Male,29,蚊,36,understands,0
+Cantonese,Female,30,蚊,76,produces,0.8421
+Cantonese,Female,30,蚊,76,understands,0
+Cantonese,Male,30,蚊,88,produces,0.7045
+Cantonese,Male,30,蚊,88,understands,0
+Danish,Female,16,myg,101,produces,0.0099
+Danish,Female,16,myg,101,understands,0
+Danish,Male,16,myg,83,produces,0.012
+Danish,Male,16,myg,83,understands,0
+Danish,Female,17,myg,91,produces,0.011
+Danish,Female,17,myg,91,understands,0
+Danish,Male,17,myg,85,produces,0.0118
+Danish,Male,17,myg,85,understands,0
+Danish,Female,18,myg,87,produces,0.0345
+Danish,Female,18,myg,87,understands,0
+Danish,Male,18,myg,73,produces,0
+Danish,Male,18,myg,73,understands,0
+Danish,Female,19,myg,104,produces,0.0288
+Danish,Female,19,myg,104,understands,0
+Danish,Male,19,myg,101,produces,0.0396
+Danish,Male,19,myg,101,understands,0
+Danish,Female,20,myg,100,produces,0.02
+Danish,Female,20,myg,100,understands,0
+Danish,Male,20,myg,96,produces,0.0208
+Danish,Male,20,myg,96,understands,0
+Danish,Female,21,myg,112,produces,0.0714
+Danish,Female,21,myg,112,understands,0
+Danish,Male,21,myg,124,produces,0.0645
+Danish,Male,21,myg,124,understands,0
+Danish,Female,22,myg,125,produces,0.104
+Danish,Female,22,myg,125,understands,0
+Danish,Male,22,myg,110,produces,0.1182
+Danish,Male,22,myg,110,understands,0
+Danish,Female,23,myg,95,produces,0.1684
+Danish,Female,23,myg,95,understands,0
+Danish,Male,23,myg,95,produces,0.1158
+Danish,Male,23,myg,95,understands,0
+Danish,Female,24,myg,112,produces,0.2232
+Danish,Female,24,myg,112,understands,0
+Danish,Male,24,myg,104,produces,0.1827
+Danish,Male,24,myg,104,understands,0
+Danish,Female,25,myg,71,produces,0.2817
+Danish,Female,25,myg,71,understands,0
+Danish,Male,25,myg,67,produces,0.2239
+Danish,Male,25,myg,67,understands,0
+Danish,Female,26,myg,108,produces,0.3704
+Danish,Female,26,myg,108,understands,0
+Danish,Male,26,myg,98,produces,0.2857
+Danish,Male,26,myg,98,understands,0
+Danish,Female,27,myg,100,produces,0.33
+Danish,Female,27,myg,100,understands,0
+Danish,Male,27,myg,76,produces,0.3947
+Danish,Male,27,myg,76,understands,0
+Danish,Female,28,myg,94,produces,0.4468
+Danish,Female,28,myg,94,understands,0
+Danish,Male,28,myg,96,produces,0.2708
+Danish,Male,28,myg,96,understands,0
+Danish,Female,29,myg,102,produces,0.4804
+Danish,Female,29,myg,102,understands,0
+Danish,Male,29,myg,80,produces,0.35
+Danish,Male,29,myg,80,understands,0
+Danish,Female,30,myg,75,produces,0.44
+Danish,Female,30,myg,75,understands,0
+Danish,Male,30,myg,98,produces,0.4286
+Danish,Male,30,myg,98,understands,0
+Danish,Female,31,myg,82,produces,0.6951
+Danish,Female,31,myg,82,understands,0
+Danish,Male,31,myg,93,produces,0.6237
+Danish,Male,31,myg,93,understands,0
+Danish,Female,32,myg,74,produces,0.7027
+Danish,Female,32,myg,74,understands,0
+Danish,Male,32,myg,69,produces,0.6812
+Danish,Male,32,myg,69,understands,0
+Danish,Female,33,myg,82,produces,0.6951
+Danish,Female,33,myg,82,understands,0
+Danish,Male,33,myg,69,produces,0.7391
+Danish,Male,33,myg,69,understands,0
+Danish,Female,34,myg,68,produces,0.7059
+Danish,Female,34,myg,68,understands,0
+Danish,Male,34,myg,75,produces,0.6933
+Danish,Male,34,myg,75,understands,0
+Danish,Female,35,myg,56,produces,0.8393
+Danish,Female,35,myg,56,understands,0
+Danish,Male,35,myg,57,produces,0.7544
+Danish,Male,35,myg,57,understands,0
+Danish,Female,36,myg,61,produces,0.7541
+Danish,Female,36,myg,61,understands,0
+Danish,Male,36,myg,65,produces,0.7846
+Danish,Male,36,myg,65,understands,0
+Dutch,Female,8,mug,5,produces,0
+Dutch,Female,8,mug,5,understands,0
+Dutch,Male,8,mug,2,produces,0
+Dutch,Male,8,mug,2,understands,0
+Dutch,Female,9,mug,44,produces,0
+Dutch,Female,9,mug,44,understands,0
+Dutch,Male,9,mug,50,produces,0
+Dutch,Male,9,mug,50,understands,0
+Dutch,Female,10,mug,51,produces,0
+Dutch,Female,10,mug,51,understands,0
+Dutch,Male,10,mug,48,produces,0
+Dutch,Male,10,mug,48,understands,0.0208
+Dutch,Female,11,mug,4,produces,0
+Dutch,Female,11,mug,4,understands,0
+Dutch,Male,11,mug,5,produces,0
+Dutch,Male,11,mug,5,understands,0
+Dutch,Female,12,mug,2,produces,0
+Dutch,Female,12,mug,2,understands,0
+Dutch,Male,12,mug,5,produces,0
+Dutch,Male,12,mug,5,understands,0
+Dutch,Male,13,mug,6,produces,0
+Dutch,Male,13,mug,6,understands,0
+Dutch,Female,14,mug,1,produces,0
+Dutch,Female,14,mug,1,understands,0
+Dutch,Male,14,mug,3,produces,0
+Dutch,Male,14,mug,3,understands,0
+Dutch,Female,15,mug,2,produces,0
+Dutch,Female,15,mug,2,understands,0
+Dutch,Male,15,mug,4,produces,0
+Dutch,Male,15,mug,4,understands,0
+Dutch,Female,16,"mug, mug/vlieg",7,produces,0
+Dutch,Female,16,"mug, mug/vlieg",7,understands,0
+Dutch,Male,16,mug,2,produces,0
+Dutch,Male,16,mug,2,understands,0
+Dutch,Female,17,mug/vlieg,33,produces,0.0303
+Dutch,Female,17,mug/vlieg,33,understands,0
+Dutch,Male,17,mug/vlieg,16,produces,0.0625
+Dutch,Male,17,mug/vlieg,16,understands,0
+Dutch,Female,18,mug/vlieg,38,produces,0.1053
+Dutch,Female,18,mug/vlieg,38,understands,0
+Dutch,Male,18,mug/vlieg,30,produces,0.1
+Dutch,Male,18,mug/vlieg,30,understands,0
+Dutch,Female,19,mug/vlieg,5,produces,0.2
+Dutch,Female,19,mug/vlieg,5,understands,0
+Dutch,Male,19,mug/vlieg,2,produces,0
+Dutch,Male,19,mug/vlieg,2,understands,0
+Dutch,Female,20,mug/vlieg,6,produces,0.3333
+Dutch,Female,20,mug/vlieg,6,understands,0
+Dutch,Male,20,mug/vlieg,1,produces,1
+Dutch,Male,20,mug/vlieg,1,understands,0
+Dutch,Female,21,mug/vlieg,3,produces,0
+Dutch,Female,21,mug/vlieg,3,understands,0
+Dutch,Male,21,mug/vlieg,4,produces,0.25
+Dutch,Male,21,mug/vlieg,4,understands,0
+Dutch,Female,22,mug/vlieg,1,produces,1
+Dutch,Female,22,mug/vlieg,1,understands,0
+Dutch,Male,22,mug/vlieg,6,produces,0.1667
+Dutch,Male,22,mug/vlieg,6,understands,0
+Dutch,Female,23,mug/vlieg,25,produces,0.56
+Dutch,Female,23,mug/vlieg,25,understands,0
+Dutch,Male,23,mug/vlieg,26,produces,0.5
+Dutch,Male,23,mug/vlieg,26,understands,0
+Dutch,Female,24,mug/vlieg,16,produces,0.4375
+Dutch,Female,24,mug/vlieg,16,understands,0
+Dutch,Male,24,mug/vlieg,15,produces,0.4667
+Dutch,Male,24,mug/vlieg,15,understands,0
+Dutch,Female,25,mug/vlieg,5,produces,0.6
+Dutch,Female,25,mug/vlieg,5,understands,0
+Dutch,Male,25,mug/vlieg,1,produces,1
+Dutch,Male,25,mug/vlieg,1,understands,0
+Dutch,Female,26,mug/vlieg,1,produces,1
+Dutch,Female,26,mug/vlieg,1,understands,0
+Dutch,Male,26,mug/vlieg,5,produces,0.6
+Dutch,Male,26,mug/vlieg,5,understands,0
+Dutch,Female,27,mug/vlieg,3,produces,0.6667
+Dutch,Female,27,mug/vlieg,3,understands,0
+Dutch,Male,27,mug/vlieg,1,produces,1
+Dutch,Male,27,mug/vlieg,1,understands,0
+Dutch,Female,28,mug/vlieg,5,produces,1
+Dutch,Female,28,mug/vlieg,5,understands,0
+Dutch,Male,28,mug/vlieg,1,produces,1
+Dutch,Male,28,mug/vlieg,1,understands,0
+Dutch,Female,29,mug/vlieg,12,produces,0.9167
+Dutch,Female,29,mug/vlieg,12,understands,0
+Dutch,Male,29,mug/vlieg,11,produces,0.9091
+Dutch,Male,29,mug/vlieg,11,understands,0
+Dutch,Female,30,mug/vlieg,16,produces,0.9375
+Dutch,Female,30,mug/vlieg,16,understands,0
+Dutch,Male,30,mug/vlieg,8,produces,1
+Dutch,Male,30,mug/vlieg,8,understands,0
+Dutch,Female,31,mug/vlieg,1,produces,1
+Dutch,Female,31,mug/vlieg,1,understands,0
+Dutch,Male,31,mug/vlieg,1,produces,1
+Dutch,Male,31,mug/vlieg,1,understands,0
+Finnish,Female,12,hyttynen  ,18,produces,0
+Finnish,Female,12,hyttynen  ,18,understands,0
+Finnish,Male,12,hyttynen  ,17,produces,0
+Finnish,Male,12,hyttynen  ,17,understands,0
+Finnish,Female,15,hyttynen  ,18,produces,0
+Finnish,Female,15,hyttynen  ,18,understands,0
+Finnish,Male,15,hyttynen  ,17,produces,0
+Finnish,Male,15,hyttynen  ,17,understands,0
+Finnish,Female,18,hyttynen,18,produces,0.1111
+Finnish,Female,18,hyttynen,18,understands,0
+Finnish,Male,18,hyttynen,17,produces,0.2941
+Finnish,Male,18,hyttynen,17,understands,0
+Finnish,Female,24,hyttynen,18,produces,0.4444
+Finnish,Female,24,hyttynen,18,understands,0
+Finnish,Male,24,hyttynen,17,produces,0.5294
+Finnish,Male,24,hyttynen,17,understands,0
+Greek (Cypriot),Female,18,κουνούπι,24,produces,0
+Greek (Cypriot),Female,18,κουνούπι,24,understands,0
+Greek (Cypriot),Male,18,κουνούπι,21,produces,0.0476
+Greek (Cypriot),Male,18,κουνούπι,21,understands,0
+Greek (Cypriot),Female,21,κουνούπι,19,produces,0
+Greek (Cypriot),Female,21,κουνούπι,19,understands,0
+Greek (Cypriot),Male,21,κουνούπι,17,produces,0
+Greek (Cypriot),Male,21,κουνούπι,17,understands,0
+Greek (Cypriot),Female,24,κουνούπι,12,produces,0.0833
+Greek (Cypriot),Female,24,κουνούπι,12,understands,0
+Greek (Cypriot),Male,24,κουνούπι,20,produces,0.25
+Greek (Cypriot),Male,24,κουνούπι,20,understands,0
+Greek (Cypriot),Female,27,κουνούπι,16,produces,0.375
+Greek (Cypriot),Female,27,κουνούπι,16,understands,0
+Greek (Cypriot),Male,27,κουνούπι,13,produces,0.3846
+Greek (Cypriot),Male,27,κουνούπι,13,understands,0
+Greek (Cypriot),Female,30,κουνούπι,12,produces,0.5833
+Greek (Cypriot),Female,30,κουνούπι,12,understands,0
+Greek (Cypriot),Male,30,κουνούπι,22,produces,0.3636
+Greek (Cypriot),Male,30,κουνούπι,22,understands,0
+Italian,Female,7,zanzara,2,produces,0
+Italian,Female,7,zanzara,2,understands,0
+Italian,Male,7,zanzara,3,produces,0
+Italian,Male,7,zanzara,3,understands,0
+Italian,Female,8,zanzara,18,produces,0
+Italian,Female,8,zanzara,18,understands,0
+Italian,Male,8,zanzara,16,produces,0
+Italian,Male,8,zanzara,16,understands,0
+Italian,Female,9,zanzara,14,produces,0
+Italian,Female,9,zanzara,14,understands,0
+Italian,Male,9,zanzara,24,produces,0
+Italian,Male,9,zanzara,24,understands,0
+Italian,Female,10,zanzara,29,produces,0
+Italian,Female,10,zanzara,29,understands,0
+Italian,Male,10,zanzara,24,produces,0
+Italian,Male,10,zanzara,24,understands,0
+Italian,Female,11,zanzara,22,produces,0
+Italian,Female,11,zanzara,22,understands,0
+Italian,Male,11,zanzara,20,produces,0
+Italian,Male,11,zanzara,20,understands,0.05
+Italian,Female,12,zanzara,29,produces,0
+Italian,Female,12,zanzara,29,understands,0
+Italian,Male,12,zanzara,40,produces,0
+Italian,Male,12,zanzara,40,understands,0.05
+Italian,Female,13,zanzara,22,produces,0
+Italian,Female,13,zanzara,22,understands,0
+Italian,Male,13,zanzara,26,produces,0
+Italian,Male,13,zanzara,26,understands,0.0385
+Italian,Female,14,zanzara,21,produces,0.0476
+Italian,Female,14,zanzara,21,understands,0.0952
+Italian,Male,14,zanzara,19,produces,0
+Italian,Male,14,zanzara,19,understands,0
+Italian,Female,15,zanzara,30,produces,0
+Italian,Female,15,zanzara,30,understands,0.1
+Italian,Male,15,zanzara,38,produces,0.0526
+Italian,Male,15,zanzara,38,understands,0.0789
+Italian,Female,16,zanzara,27,produces,0.0741
+Italian,Female,16,zanzara,27,understands,0.2963
+Italian,Male,16,zanzara,29,produces,0.0345
+Italian,Male,16,zanzara,29,understands,0.2069
+Italian,Female,17,zanzara,20,produces,0.05
+Italian,Female,17,zanzara,20,understands,0.3
+Italian,Male,17,zanzara,28,produces,0.0357
+Italian,Male,17,zanzara,28,understands,0.1786
+Italian,Female,18,zanzara,37,produces,0.0811
+Italian,Female,18,zanzara,37,understands,0.1351
+Italian,Male,18,zanzara,38,produces,0.1053
+Italian,Male,18,zanzara,38,understands,0.1579
+Italian,Female,19,zanzara,26,produces,0.0385
+Italian,Female,19,zanzara,26,understands,0.0385
+Italian,Male,19,zanzara,32,produces,0.0625
+Italian,Male,19,zanzara,32,understands,0.0625
+Italian,Female,20,zanzara,41,produces,0.0976
+Italian,Female,20,zanzara,41,understands,0.0244
+Italian,Male,20,zanzara,42,produces,0.0714
+Italian,Male,20,zanzara,42,understands,0.0952
+Italian,Female,21,zanzara,29,produces,0.3448
+Italian,Female,21,zanzara,29,understands,0.069
+Italian,Male,21,zanzara,38,produces,0.1316
+Italian,Male,21,zanzara,38,understands,0.1053
+Italian,Female,22,zanzara,39,produces,0.3077
+Italian,Female,22,zanzara,39,understands,0.0769
+Italian,Male,22,zanzara,38,produces,0.2105
+Italian,Male,22,zanzara,38,understands,0.0789
+Italian,Female,23,zanzara,34,produces,0.2647
+Italian,Female,23,zanzara,34,understands,0.1176
+Italian,Male,23,zanzara,36,produces,0.3611
+Italian,Male,23,zanzara,36,understands,0.1111
+Italian,Female,24,zanzara,46,produces,0.2174
+Italian,Female,24,zanzara,46,understands,0.0435
+Italian,Male,24,zanzara,39,produces,0.5128
+Italian,Male,24,zanzara,39,understands,0.1282
+Italian,Female,25,zanzara,23,produces,0.5217
+Italian,Female,25,zanzara,23,understands,0
+Italian,Male,25,zanzara,16,produces,0.5
+Italian,Male,25,zanzara,16,understands,0
+Italian,Female,26,zanzara,19,produces,0.6842
+Italian,Female,26,zanzara,19,understands,0
+Italian,Male,26,zanzara,22,produces,0.6818
+Italian,Male,26,zanzara,22,understands,0
+Italian,Female,27,zanzara,20,produces,0.5
+Italian,Female,27,zanzara,20,understands,0
+Italian,Male,27,zanzara,23,produces,0.4783
+Italian,Male,27,zanzara,23,understands,0
+Italian,Female,28,zanzara,21,produces,0.4762
+Italian,Female,28,zanzara,21,understands,0
+Italian,Male,28,zanzara,23,produces,0.7826
+Italian,Male,28,zanzara,23,understands,0
+Italian,Female,29,zanzara,21,produces,0.6667
+Italian,Female,29,zanzara,21,understands,0
+Italian,Male,29,zanzara,16,produces,0.75
+Italian,Male,29,zanzara,16,understands,0
+Italian,Female,30,zanzara,28,produces,0.7857
+Italian,Female,30,zanzara,28,understands,0
+Italian,Male,30,zanzara,39,produces,0.641
+Italian,Male,30,zanzara,39,understands,0
+Italian,Female,31,zanzara,8,produces,1
+Italian,Female,31,zanzara,8,understands,0
+Italian,Male,31,zanzara,11,produces,0.7273
+Italian,Male,31,zanzara,11,understands,0
+Italian,Female,32,zanzara,14,produces,0.8571
+Italian,Female,32,zanzara,14,understands,0
+Italian,Male,32,zanzara,9,produces,0.7778
+Italian,Male,32,zanzara,9,understands,0
+Italian,Female,33,zanzara,5,produces,1
+Italian,Female,33,zanzara,5,understands,0
+Italian,Male,33,zanzara,11,produces,0.8182
+Italian,Male,33,zanzara,11,understands,0
+Italian,Female,34,zanzara,12,produces,1
+Italian,Female,34,zanzara,12,understands,0
+Italian,Male,34,zanzara,7,produces,0.8571
+Italian,Male,34,zanzara,7,understands,0
+Italian,Female,35,zanzara,9,produces,1
+Italian,Female,35,zanzara,9,understands,0
+Italian,Male,35,zanzara,6,produces,0.6667
+Italian,Male,35,zanzara,6,understands,0
+Italian,Female,36,zanzara,7,produces,1
+Italian,Female,36,zanzara,7,understands,0
+Italian,Male,36,zanzara,14,produces,0.7857
+Italian,Male,36,zanzara,14,understands,0
+Kigiriama,Female,16,Mbu/Usunye,1,produces,0
+Kigiriama,Female,16,Mbu/Usunye,1,understands,0
+Kigiriama,Female,17,Mbu/Usunye,5,produces,0
+Kigiriama,Female,17,Mbu/Usunye,5,understands,0
+Kigiriama,Male,17,Mbu/Usunye,1,produces,0
+Kigiriama,Male,17,Mbu/Usunye,1,understands,0
+Kigiriama,Female,18,Mbu/Usunye,6,produces,0
+Kigiriama,Female,18,Mbu/Usunye,6,understands,0
+Kigiriama,Male,18,Mbu/Usunye,6,produces,0
+Kigiriama,Male,18,Mbu/Usunye,6,understands,0
+Kigiriama,Female,19,Mbu/Usunye,3,produces,0
+Kigiriama,Female,19,Mbu/Usunye,3,understands,0
+Kigiriama,Male,19,Mbu/Usunye,5,produces,0
+Kigiriama,Male,19,Mbu/Usunye,5,understands,0
+Kigiriama,Female,20,Mbu/Usunye,5,produces,0
+Kigiriama,Female,20,Mbu/Usunye,5,understands,0
+Kigiriama,Male,20,Mbu/Usunye,8,produces,0
+Kigiriama,Male,20,Mbu/Usunye,8,understands,0
+Kigiriama,Female,21,Mbu/Usunye,3,produces,0
+Kigiriama,Female,21,Mbu/Usunye,3,understands,0
+Kigiriama,Male,21,Mbu/Usunye,3,produces,0
+Kigiriama,Male,21,Mbu/Usunye,3,understands,0
+Kigiriama,Female,22,Mbu/Usunye,7,produces,0.2857
+Kigiriama,Female,22,Mbu/Usunye,7,understands,0
+Kigiriama,Male,22,Mbu/Usunye,2,produces,0
+Kigiriama,Male,22,Mbu/Usunye,2,understands,0
+Kigiriama,Female,23,Mbu/Usunye,2,produces,0
+Kigiriama,Female,23,Mbu/Usunye,2,understands,0
+Kigiriama,Male,23,Mbu/Usunye,2,produces,0
+Kigiriama,Male,23,Mbu/Usunye,2,understands,0
+Kigiriama,Female,24,Mbu/Usunye,6,produces,0.1667
+Kigiriama,Female,24,Mbu/Usunye,6,understands,0
+Kigiriama,Male,24,Mbu/Usunye,1,produces,0
+Kigiriama,Male,24,Mbu/Usunye,1,understands,0
+Kigiriama,Female,25,Mbu/Usunye,2,produces,0.5
+Kigiriama,Female,25,Mbu/Usunye,2,understands,0
+Kigiriama,Male,25,Mbu/Usunye,1,produces,1
+Kigiriama,Male,25,Mbu/Usunye,1,understands,0
+Kigiriama,Female,26,Mbu/Usunye,4,produces,0
+Kigiriama,Female,26,Mbu/Usunye,4,understands,0
+Kigiriama,Male,26,Mbu/Usunye,2,produces,0.5
+Kigiriama,Male,26,Mbu/Usunye,2,understands,0
+Kigiriama,Female,27,Mbu/Usunye,1,produces,1
+Kigiriama,Female,27,Mbu/Usunye,1,understands,0
+Kigiriama,Male,27,Mbu/Usunye,3,produces,0.6667
+Kigiriama,Male,27,Mbu/Usunye,3,understands,0
+Kigiriama,Male,28,Mbu/Usunye,1,produces,0
+Kigiriama,Male,28,Mbu/Usunye,1,understands,0
+Kigiriama,Female,29,Mbu/Usunye,2,produces,0.5
+Kigiriama,Female,29,Mbu/Usunye,2,understands,0
+Kigiriama,Male,29,Mbu/Usunye,3,produces,0.3333
+Kigiriama,Male,29,Mbu/Usunye,3,understands,0
+Kigiriama,Male,30,Mbu/Usunye,1,produces,1
+Kigiriama,Male,30,Mbu/Usunye,1,understands,0
+Kiswahili,Female,23,Mbu,1,produces,0
+Kiswahili,Female,23,Mbu,1,understands,0
+Kiswahili,Male,23,Mbu,1,produces,0
+Kiswahili,Male,23,Mbu,1,understands,0
+Kiswahili,Female,24,Mbu,6,produces,0.5
+Kiswahili,Female,24,Mbu,6,understands,0
+Kiswahili,Male,24,Mbu,6,produces,0.3333
+Kiswahili,Male,24,Mbu,6,understands,0
+Kiswahili,Female,25,Mbu,8,produces,0.25
+Kiswahili,Female,25,Mbu,8,understands,0
+Kiswahili,Male,25,Mbu,2,produces,0
+Kiswahili,Male,25,Mbu,2,understands,0
+Kiswahili,Female,26,Mbu,3,produces,0.3333
+Kiswahili,Female,26,Mbu,3,understands,0
+Kiswahili,Male,26,Mbu,10,produces,0.1
+Kiswahili,Male,26,Mbu,10,understands,0
+Kiswahili,Female,27,Mbu,3,produces,0.6667
+Kiswahili,Female,27,Mbu,3,understands,0
+Kiswahili,Male,27,Mbu,5,produces,0.2
+Kiswahili,Male,27,Mbu,5,understands,0
+Kiswahili,Female,28,Mbu,3,produces,0.6667
+Kiswahili,Female,28,Mbu,3,understands,0
+Kiswahili,Male,28,Mbu,3,produces,0.3333
+Kiswahili,Male,28,Mbu,3,understands,0
+Kiswahili,Female,29,Mbu,3,produces,0.6667
+Kiswahili,Female,29,Mbu,3,understands,0
+Kiswahili,Male,29,Mbu,3,produces,0
+Kiswahili,Male,29,Mbu,3,understands,0
+Kiswahili,Female,30,Mbu,3,produces,0.6667
+Kiswahili,Female,30,Mbu,3,understands,0
+Kiswahili,Male,30,Mbu,2,produces,1
+Kiswahili,Male,30,Mbu,2,understands,0
+Mandarin (Beijing),Female,16,蚊子,35,produces,0
+Mandarin (Beijing),Female,16,蚊子,35,understands,0
+Mandarin (Beijing),Male,16,蚊子,35,produces,0
+Mandarin (Beijing),Male,16,蚊子,35,understands,0
+Mandarin (Beijing),Female,17,蚊子,35,produces,0.0571
+Mandarin (Beijing),Female,17,蚊子,35,understands,0
+Mandarin (Beijing),Male,17,蚊子,37,produces,0.0541
+Mandarin (Beijing),Male,17,蚊子,37,understands,0
+Mandarin (Beijing),Female,18,蚊子,35,produces,0.0571
+Mandarin (Beijing),Female,18,蚊子,35,understands,0
+Mandarin (Beijing),Male,18,蚊子,36,produces,0.1111
+Mandarin (Beijing),Male,18,蚊子,36,understands,0
+Mandarin (Beijing),Female,19,蚊子,35,produces,0.3429
+Mandarin (Beijing),Female,19,蚊子,35,understands,0
+Mandarin (Beijing),Male,19,蚊子,35,produces,0.0857
+Mandarin (Beijing),Male,19,蚊子,35,understands,0
+Mandarin (Beijing),Female,20,蚊子,35,produces,0.4
+Mandarin (Beijing),Female,20,蚊子,35,understands,0
+Mandarin (Beijing),Male,20,蚊子,36,produces,0.3056
+Mandarin (Beijing),Male,20,蚊子,36,understands,0
+Mandarin (Beijing),Female,21,蚊子,35,produces,0.4857
+Mandarin (Beijing),Female,21,蚊子,35,understands,0
+Mandarin (Beijing),Male,21,蚊子,35,produces,0.5143
+Mandarin (Beijing),Male,21,蚊子,35,understands,0
+Mandarin (Beijing),Female,22,蚊子,35,produces,0.5143
+Mandarin (Beijing),Female,22,蚊子,35,understands,0
+Mandarin (Beijing),Male,22,蚊子,36,produces,0.4167
+Mandarin (Beijing),Male,22,蚊子,36,understands,0
+Mandarin (Beijing),Female,23,蚊子,35,produces,0.5714
+Mandarin (Beijing),Female,23,蚊子,35,understands,0
+Mandarin (Beijing),Male,23,蚊子,35,produces,0.4571
+Mandarin (Beijing),Male,23,蚊子,35,understands,0
+Mandarin (Beijing),Female,24,蚊子,35,produces,0.7143
+Mandarin (Beijing),Female,24,蚊子,35,understands,0
+Mandarin (Beijing),Male,24,蚊子,35,produces,0.6857
+Mandarin (Beijing),Male,24,蚊子,35,understands,0
+Mandarin (Beijing),Female,25,蚊子,35,produces,0.6857
+Mandarin (Beijing),Female,25,蚊子,35,understands,0
+Mandarin (Beijing),Male,25,蚊子,35,produces,0.8
+Mandarin (Beijing),Male,25,蚊子,35,understands,0
+Mandarin (Beijing),Female,26,蚊子,36,produces,0.6944
+Mandarin (Beijing),Female,26,蚊子,36,understands,0
+Mandarin (Beijing),Male,26,蚊子,35,produces,0.7714
+Mandarin (Beijing),Male,26,蚊子,35,understands,0
+Mandarin (Beijing),Female,27,蚊子,35,produces,0.7714
+Mandarin (Beijing),Female,27,蚊子,35,understands,0
+Mandarin (Beijing),Male,27,蚊子,35,produces,0.8571
+Mandarin (Beijing),Male,27,蚊子,35,understands,0
+Mandarin (Beijing),Female,28,蚊子,35,produces,0.7714
+Mandarin (Beijing),Female,28,蚊子,35,understands,0
+Mandarin (Beijing),Male,28,蚊子,35,produces,0.8
+Mandarin (Beijing),Male,28,蚊子,35,understands,0
+Mandarin (Beijing),Female,29,蚊子,35,produces,0.9143
+Mandarin (Beijing),Female,29,蚊子,35,understands,0
+Mandarin (Beijing),Male,29,蚊子,35,produces,0.9143
+Mandarin (Beijing),Male,29,蚊子,35,understands,0
+Mandarin (Beijing),Female,30,蚊子,35,produces,0.9143
+Mandarin (Beijing),Female,30,蚊子,35,understands,0
+Mandarin (Beijing),Male,30,蚊子,35,produces,0.9429
+Mandarin (Beijing),Male,30,蚊子,35,understands,0
+Mandarin (Taiwanese),Female,8,蚊子,39,produces,0
+Mandarin (Taiwanese),Female,8,蚊子,39,understands,0.1538
+Mandarin (Taiwanese),Male,8,蚊子,47,produces,0
+Mandarin (Taiwanese),Male,8,蚊子,47,understands,0.1702
+Mandarin (Taiwanese),Female,9,蚊子,46,produces,0
+Mandarin (Taiwanese),Female,9,蚊子,46,understands,0.1739
+Mandarin (Taiwanese),Male,9,蚊子,33,produces,0
+Mandarin (Taiwanese),Male,9,蚊子,33,understands,0.1212
+Mandarin (Taiwanese),Female,10,蚊子,40,produces,0
+Mandarin (Taiwanese),Female,10,蚊子,40,understands,0.075
+Mandarin (Taiwanese),Male,10,蚊子,38,produces,0
+Mandarin (Taiwanese),Male,10,蚊子,38,understands,0.0263
+Mandarin (Taiwanese),Female,11,蚊子,38,produces,0
+Mandarin (Taiwanese),Female,11,蚊子,38,understands,0.1316
+Mandarin (Taiwanese),Male,11,蚊子,41,produces,0
+Mandarin (Taiwanese),Male,11,蚊子,41,understands,0.0244
+Mandarin (Taiwanese),Female,12,蚊子,42,produces,0
+Mandarin (Taiwanese),Female,12,蚊子,42,understands,0.0238
+Mandarin (Taiwanese),Male,12,蚊子,38,produces,0
+Mandarin (Taiwanese),Male,12,蚊子,38,understands,0.0789
+Mandarin (Taiwanese),Female,13,蚊子,41,produces,0
+Mandarin (Taiwanese),Female,13,蚊子,41,understands,0.0976
+Mandarin (Taiwanese),Male,13,蚊子,37,produces,0.027
+Mandarin (Taiwanese),Male,13,蚊子,37,understands,0.2432
+Mandarin (Taiwanese),Female,14,蚊子,43,produces,0.0233
+Mandarin (Taiwanese),Female,14,蚊子,43,understands,0.1628
+Mandarin (Taiwanese),Male,14,蚊子,38,produces,0
+Mandarin (Taiwanese),Male,14,蚊子,38,understands,0.0263
+Mandarin (Taiwanese),Female,15,蚊子,54,produces,0.037
+Mandarin (Taiwanese),Female,15,蚊子,54,understands,0.2222
+Mandarin (Taiwanese),Male,15,蚊子,52,produces,0
+Mandarin (Taiwanese),Male,15,蚊子,52,understands,0.2115
+Mandarin (Taiwanese),Female,16,蚊子,82,produces,0.0366
+Mandarin (Taiwanese),Female,16,蚊子,82,understands,0.0976
+Mandarin (Taiwanese),Male,16,蚊子,88,produces,0.0114
+Mandarin (Taiwanese),Male,16,蚊子,88,understands,0.0455
+Mandarin (Taiwanese),Female,17,蚊子,37,produces,0.0541
+Mandarin (Taiwanese),Female,17,蚊子,37,understands,0
+Mandarin (Taiwanese),Male,17,蚊子,50,produces,0.12
+Mandarin (Taiwanese),Male,17,蚊子,50,understands,0
+Mandarin (Taiwanese),Female,18,蚊子,49,produces,0.1633
+Mandarin (Taiwanese),Female,18,蚊子,49,understands,0
+Mandarin (Taiwanese),Male,18,蚊子,35,produces,0.0857
+Mandarin (Taiwanese),Male,18,蚊子,35,understands,0
+Mandarin (Taiwanese),Female,19,蚊子,42,produces,0.2619
+Mandarin (Taiwanese),Female,19,蚊子,42,understands,0
+Mandarin (Taiwanese),Male,19,蚊子,42,produces,0.1905
+Mandarin (Taiwanese),Male,19,蚊子,42,understands,0
+Mandarin (Taiwanese),Female,20,蚊子,40,produces,0.375
+Mandarin (Taiwanese),Female,20,蚊子,40,understands,0
+Mandarin (Taiwanese),Male,20,蚊子,44,produces,0.1591
+Mandarin (Taiwanese),Male,20,蚊子,44,understands,0
+Mandarin (Taiwanese),Female,21,蚊子,38,produces,0.3421
+Mandarin (Taiwanese),Female,21,蚊子,38,understands,0
+Mandarin (Taiwanese),Male,21,蚊子,50,produces,0.28
+Mandarin (Taiwanese),Male,21,蚊子,50,understands,0
+Mandarin (Taiwanese),Female,22,蚊子,48,produces,0.4375
+Mandarin (Taiwanese),Female,22,蚊子,48,understands,0
+Mandarin (Taiwanese),Male,22,蚊子,48,produces,0.3125
+Mandarin (Taiwanese),Male,22,蚊子,48,understands,0
+Mandarin (Taiwanese),Female,23,蚊子,50,produces,0.6
+Mandarin (Taiwanese),Female,23,蚊子,50,understands,0
+Mandarin (Taiwanese),Male,23,蚊子,55,produces,0.4
+Mandarin (Taiwanese),Male,23,蚊子,55,understands,0
+Mandarin (Taiwanese),Female,24,蚊子,65,produces,0.5692
+Mandarin (Taiwanese),Female,24,蚊子,65,understands,0
+Mandarin (Taiwanese),Male,24,蚊子,59,produces,0.4237
+Mandarin (Taiwanese),Male,24,蚊子,59,understands,0
+Mandarin (Taiwanese),Female,25,蚊子,60,produces,0.55
+Mandarin (Taiwanese),Female,25,蚊子,60,understands,0
+Mandarin (Taiwanese),Male,25,蚊子,50,produces,0.42
+Mandarin (Taiwanese),Male,25,蚊子,50,understands,0
+Mandarin (Taiwanese),Female,26,蚊子,38,produces,0.7105
+Mandarin (Taiwanese),Female,26,蚊子,38,understands,0
+Mandarin (Taiwanese),Male,26,蚊子,49,produces,0.5102
+Mandarin (Taiwanese),Male,26,蚊子,49,understands,0
+Mandarin (Taiwanese),Female,27,蚊子,49,produces,0.7551
+Mandarin (Taiwanese),Female,27,蚊子,49,understands,0
+Mandarin (Taiwanese),Male,27,蚊子,43,produces,0.4186
+Mandarin (Taiwanese),Male,27,蚊子,43,understands,0
+Mandarin (Taiwanese),Female,28,蚊子,50,produces,0.8
+Mandarin (Taiwanese),Female,28,蚊子,50,understands,0
+Mandarin (Taiwanese),Male,28,蚊子,50,produces,0.8
+Mandarin (Taiwanese),Male,28,蚊子,50,understands,0
+Mandarin (Taiwanese),Female,29,蚊子,41,produces,0.8537
+Mandarin (Taiwanese),Female,29,蚊子,41,understands,0
+Mandarin (Taiwanese),Male,29,蚊子,47,produces,0.8298
+Mandarin (Taiwanese),Male,29,蚊子,47,understands,0
+Mandarin (Taiwanese),Female,30,蚊子,44,produces,0.8636
+Mandarin (Taiwanese),Female,30,蚊子,44,understands,0
+Mandarin (Taiwanese),Male,30,蚊子,50,produces,0.7
+Mandarin (Taiwanese),Male,30,蚊子,50,understands,0
+Mandarin (Taiwanese),Female,31,蚊子,35,produces,0.8571
+Mandarin (Taiwanese),Female,31,蚊子,35,understands,0
+Mandarin (Taiwanese),Male,31,蚊子,53,produces,0.8679
+Mandarin (Taiwanese),Male,31,蚊子,53,understands,0
+Mandarin (Taiwanese),Female,32,蚊子,43,produces,0.8372
+Mandarin (Taiwanese),Female,32,蚊子,43,understands,0
+Mandarin (Taiwanese),Male,32,蚊子,39,produces,0.7436
+Mandarin (Taiwanese),Male,32,蚊子,39,understands,0
+Mandarin (Taiwanese),Female,33,蚊子,45,produces,0.8444
+Mandarin (Taiwanese),Female,33,蚊子,45,understands,0
+Mandarin (Taiwanese),Male,33,蚊子,40,produces,0.875
+Mandarin (Taiwanese),Male,33,蚊子,40,understands,0
+Mandarin (Taiwanese),Female,34,蚊子,33,produces,0.8788
+Mandarin (Taiwanese),Female,34,蚊子,33,understands,0
+Mandarin (Taiwanese),Male,34,蚊子,44,produces,0.75
+Mandarin (Taiwanese),Male,34,蚊子,44,understands,0
+Mandarin (Taiwanese),Female,35,蚊子,42,produces,0.9048
+Mandarin (Taiwanese),Female,35,蚊子,42,understands,0
+Mandarin (Taiwanese),Male,35,蚊子,39,produces,0.9744
+Mandarin (Taiwanese),Male,35,蚊子,39,understands,0
+Mandarin (Taiwanese),Female,36,蚊子,38,produces,0.9737
+Mandarin (Taiwanese),Female,36,蚊子,38,understands,0
+Mandarin (Taiwanese),Male,36,蚊子,43,produces,0.9302
+Mandarin (Taiwanese),Male,36,蚊子,43,understands,0
+Norwegian,Female,16,mygg,39,produces,0
+Norwegian,Female,16,mygg,39,understands,0
+Norwegian,Male,16,mygg,59,produces,0
+Norwegian,Male,16,mygg,59,understands,0
+Norwegian,Female,17,mygg,125,produces,0
+Norwegian,Female,17,mygg,125,understands,0
+Norwegian,Male,17,mygg,93,produces,0.0108
+Norwegian,Male,17,mygg,93,understands,0
+Norwegian,Female,18,mygg,146,produces,0.0274
+Norwegian,Female,18,mygg,146,understands,0
+Norwegian,Male,18,mygg,125,produces,0.008
+Norwegian,Male,18,mygg,125,understands,0
+Norwegian,Female,19,mygg,135,produces,0
+Norwegian,Female,19,mygg,135,understands,0
+Norwegian,Male,19,mygg,146,produces,0.0274
+Norwegian,Male,19,mygg,146,understands,0
+Norwegian,Female,20,mygg,183,produces,0.0219
+Norwegian,Female,20,mygg,183,understands,0
+Norwegian,Male,20,mygg,159,produces,0.0189
+Norwegian,Male,20,mygg,159,understands,0
+Norwegian,Female,21,mygg,218,produces,0.0642
+Norwegian,Female,21,mygg,218,understands,0
+Norwegian,Male,21,mygg,200,produces,0.035
+Norwegian,Male,21,mygg,200,understands,0
+Norwegian,Female,22,mygg,304,produces,0.0757
+Norwegian,Female,22,mygg,304,understands,0
+Norwegian,Male,22,mygg,292,produces,0.0308
+Norwegian,Male,22,mygg,292,understands,0
+Norwegian,Female,23,mygg,285,produces,0.1193
+Norwegian,Female,23,mygg,285,understands,0
+Norwegian,Male,23,mygg,281,produces,0.0676
+Norwegian,Male,23,mygg,281,understands,0
+Norwegian,Female,24,mygg,266,produces,0.1429
+Norwegian,Female,24,mygg,266,understands,0
+Norwegian,Male,24,mygg,272,produces,0.1176
+Norwegian,Male,24,mygg,272,understands,0
+Norwegian,Female,25,mygg,325,produces,0.1815
+Norwegian,Female,25,mygg,325,understands,0
+Norwegian,Male,25,mygg,331,produces,0.148
+Norwegian,Male,25,mygg,331,understands,0
+Norwegian,Female,26,mygg,301,produces,0.3289
+Norwegian,Female,26,mygg,301,understands,0
+Norwegian,Male,26,mygg,343,produces,0.1953
+Norwegian,Male,26,mygg,343,understands,0
+Norwegian,Female,27,mygg,267,produces,0.3483
+Norwegian,Female,27,mygg,267,understands,0
+Norwegian,Male,27,mygg,258,produces,0.2481
+Norwegian,Male,27,mygg,258,understands,0
+Norwegian,Female,28,mygg,281,produces,0.331
+Norwegian,Female,28,mygg,281,understands,0
+Norwegian,Male,28,mygg,263,produces,0.2624
+Norwegian,Male,28,mygg,263,understands,0
+Norwegian,Female,29,mygg,252,produces,0.4167
+Norwegian,Female,29,mygg,252,understands,0
+Norwegian,Male,29,mygg,284,produces,0.3169
+Norwegian,Male,29,mygg,284,understands,0
+Norwegian,Female,30,mygg,213,produces,0.4272
+Norwegian,Female,30,mygg,213,understands,0
+Norwegian,Male,30,mygg,244,produces,0.3893
+Norwegian,Male,30,mygg,244,understands,0
+Norwegian,Female,31,mygg,229,produces,0.5022
+Norwegian,Female,31,mygg,229,understands,0
+Norwegian,Male,31,mygg,250,produces,0.428
+Norwegian,Male,31,mygg,250,understands,0
+Norwegian,Female,32,mygg,224,produces,0.5759
+Norwegian,Female,32,mygg,224,understands,0
+Norwegian,Male,32,mygg,227,produces,0.4934
+Norwegian,Male,32,mygg,227,understands,0
+Norwegian,Female,33,mygg,213,produces,0.5352
+Norwegian,Female,33,mygg,213,understands,0
+Norwegian,Male,33,mygg,217,produces,0.5023
+Norwegian,Male,33,mygg,217,understands,0
+Norwegian,Female,34,mygg,194,produces,0.6237
+Norwegian,Female,34,mygg,194,understands,0
+Norwegian,Male,34,mygg,230,produces,0.5217
+Norwegian,Male,34,mygg,230,understands,0
+Norwegian,Female,35,mygg,230,produces,0.6043
+Norwegian,Female,35,mygg,230,understands,0
+Norwegian,Male,35,mygg,192,produces,0.5521
+Norwegian,Male,35,mygg,192,understands,0
+Norwegian,Female,36,mygg,170,produces,0.6647
+Norwegian,Female,36,mygg,170,understands,0
+Norwegian,Male,36,mygg,159,produces,0.5346
+Norwegian,Male,36,mygg,159,understands,0
+Portuguese (European),Female,16,"Melga, Mosquito",71,produces,0
+Portuguese (European),Female,16,"Melga, Mosquito",71,understands,0
+Portuguese (European),Male,16,"Melga, Mosquito",73,produces,0
+Portuguese (European),Male,16,"Melga, Mosquito",73,understands,0
+Portuguese (European),Female,17,"Melga, Mosquito",62,produces,0
+Portuguese (European),Female,17,"Melga, Mosquito",62,understands,0
+Portuguese (European),Male,17,"Melga, Mosquito",96,produces,0
+Portuguese (European),Male,17,"Melga, Mosquito",96,understands,0
+Portuguese (European),Female,18,"Melga, Mosquito",102,produces,0.0245
+Portuguese (European),Female,18,"Melga, Mosquito",102,understands,0
+Portuguese (European),Male,18,"Melga, Mosquito",101,produces,0.0099
+Portuguese (European),Male,18,"Melga, Mosquito",101,understands,0
+Portuguese (European),Female,19,"Melga, Mosquito",97,produces,0
+Portuguese (European),Female,19,"Melga, Mosquito",97,understands,0
+Portuguese (European),Male,19,"Melga, Mosquito",99,produces,0.0101
+Portuguese (European),Male,19,"Melga, Mosquito",99,understands,0
+Portuguese (European),Female,20,"Melga, Mosquito",115,produces,0.0348
+Portuguese (European),Female,20,"Melga, Mosquito",115,understands,0
+Portuguese (European),Male,20,"Melga, Mosquito",103,produces,0.0097
+Portuguese (European),Male,20,"Melga, Mosquito",103,understands,0
+Portuguese (European),Female,21,"Melga, Mosquito",93,produces,0.0538
+Portuguese (European),Female,21,"Melga, Mosquito",93,understands,0
+Portuguese (European),Male,21,"Melga, Mosquito",115,produces,0.0043
+Portuguese (European),Male,21,"Melga, Mosquito",115,understands,0
+Portuguese (European),Female,22,"Melga, Mosquito",117,produces,0.0299
+Portuguese (European),Female,22,"Melga, Mosquito",117,understands,0
+Portuguese (European),Male,22,"Melga, Mosquito",96,produces,0.0521
+Portuguese (European),Male,22,"Melga, Mosquito",96,understands,0
+Portuguese (European),Female,23,"Melga, Mosquito",94,produces,0.0745
+Portuguese (European),Female,23,"Melga, Mosquito",94,understands,0
+Portuguese (European),Male,23,"Melga, Mosquito",105,produces,0.0095
+Portuguese (European),Male,23,"Melga, Mosquito",105,understands,0
+Portuguese (European),Female,24,"Melga, Mosquito",88,produces,0.1364
+Portuguese (European),Female,24,"Melga, Mosquito",88,understands,0
+Portuguese (European),Male,24,"Melga, Mosquito",127,produces,0.0748
+Portuguese (European),Male,24,"Melga, Mosquito",127,understands,0
+Portuguese (European),Female,25,"Melga, Mosquito",110,produces,0.1364
+Portuguese (European),Female,25,"Melga, Mosquito",110,understands,0
+Portuguese (European),Male,25,"Melga, Mosquito",103,produces,0.1311
+Portuguese (European),Male,25,"Melga, Mosquito",103,understands,0
+Portuguese (European),Female,26,"Melga, Mosquito",96,produces,0.1146
+Portuguese (European),Female,26,"Melga, Mosquito",96,understands,0
+Portuguese (European),Male,26,"Melga, Mosquito",122,produces,0.1393
+Portuguese (European),Male,26,"Melga, Mosquito",122,understands,0
+Portuguese (European),Female,27,"Melga, Mosquito",109,produces,0.1743
+Portuguese (European),Female,27,"Melga, Mosquito",109,understands,0
+Portuguese (European),Male,27,"Melga, Mosquito",129,produces,0.1705
+Portuguese (European),Male,27,"Melga, Mosquito",129,understands,0
+Portuguese (European),Female,28,"Melga, Mosquito",91,produces,0.2143
+Portuguese (European),Female,28,"Melga, Mosquito",91,understands,0
+Portuguese (European),Male,28,"Melga, Mosquito",128,produces,0.1875
+Portuguese (European),Male,28,"Melga, Mosquito",128,understands,0
+Portuguese (European),Female,29,"Melga, Mosquito",98,produces,0.25
+Portuguese (European),Female,29,"Melga, Mosquito",98,understands,0
+Portuguese (European),Male,29,"Melga, Mosquito",109,produces,0.2385
+Portuguese (European),Male,29,"Melga, Mosquito",109,understands,0
+Portuguese (European),Female,30,"Melga, Mosquito",81,produces,0.284
+Portuguese (European),Female,30,"Melga, Mosquito",81,understands,0
+Portuguese (European),Male,30,"Melga, Mosquito",82,produces,0.1707
+Portuguese (European),Male,30,"Melga, Mosquito",82,understands,0
+Russian,Female,18,комар,24,produces,0
+Russian,Female,18,комар,24,understands,0
+Russian,Male,18,комар,18,produces,0.0556
+Russian,Male,18,комар,18,understands,0
+Russian,Female,19,комар,22,produces,0.1364
+Russian,Female,19,комар,22,understands,0
+Russian,Male,19,комар,19,produces,0.1053
+Russian,Male,19,комар,19,understands,0
+Russian,Female,20,комар,18,produces,0.0556
+Russian,Female,20,комар,18,understands,0
+Russian,Male,20,комар,27,produces,0.1111
+Russian,Male,20,комар,27,understands,0
+Russian,Female,21,комар,22,produces,0.3182
+Russian,Female,21,комар,22,understands,0
+Russian,Male,21,комар,21,produces,0.2857
+Russian,Male,21,комар,21,understands,0
+Russian,Female,22,комар,29,produces,0.3448
+Russian,Female,22,комар,29,understands,0
+Russian,Male,22,комар,22,produces,0.1364
+Russian,Male,22,комар,22,understands,0
+Russian,Female,23,комар,37,produces,0.4595
+Russian,Female,23,комар,37,understands,0
+Russian,Male,23,комар,19,produces,0.3158
+Russian,Male,23,комар,19,understands,0
+Russian,Female,24,комар,28,produces,0.4643
+Russian,Female,24,комар,28,understands,0
+Russian,Male,24,комар,33,produces,0.3636
+Russian,Male,24,комар,33,understands,0
+Russian,Female,25,комар,39,produces,0.5641
+Russian,Female,25,комар,39,understands,0
+Russian,Male,25,комар,27,produces,0.3704
+Russian,Male,25,комар,27,understands,0
+Russian,Female,26,комар,26,produces,0.7308
+Russian,Female,26,комар,26,understands,0
+Russian,Male,26,комар,26,produces,0.5385
+Russian,Male,26,комар,26,understands,0
+Russian,Female,27,комар,37,produces,0.6486
+Russian,Female,27,комар,37,understands,0
+Russian,Male,27,комар,23,produces,0.4348
+Russian,Male,27,комар,23,understands,0
+Russian,Female,28,комар,28,produces,0.5357
+Russian,Female,28,комар,28,understands,0
+Russian,Male,28,комар,32,produces,0.6562
+Russian,Male,28,комар,32,understands,0
+Russian,Female,29,комар,30,produces,0.7
+Russian,Female,29,комар,30,understands,0
+Russian,Male,29,комар,27,produces,0.6667
+Russian,Male,29,комар,27,understands,0
+Russian,Female,30,комар,42,produces,0.7381
+Russian,Female,30,комар,42,understands,0
+Russian,Male,30,комар,35,produces,0.6
+Russian,Male,30,комар,35,understands,0
+Russian,Female,31,комар,32,produces,0.75
+Russian,Female,31,комар,32,understands,0
+Russian,Male,31,комар,29,produces,0.6897
+Russian,Male,31,комар,29,understands,0
+Russian,Female,32,комар,29,produces,0.8276
+Russian,Female,32,комар,29,understands,0
+Russian,Male,32,комар,26,produces,0.8077
+Russian,Male,32,комар,26,understands,0
+Russian,Female,33,комар,27,produces,0.8889
+Russian,Female,33,комар,27,understands,0
+Russian,Male,33,комар,28,produces,0.8214
+Russian,Male,33,комар,28,understands,0
+Russian,Female,34,комар,31,produces,0.8387
+Russian,Female,34,комар,31,understands,0
+Russian,Male,34,комар,27,produces,0.8148
+Russian,Male,34,комар,27,understands,0
+Russian,Female,35,комар,22,produces,0.9091
+Russian,Female,35,комар,22,understands,0
+Russian,Male,35,комар,25,produces,0.84
+Russian,Male,35,комар,25,understands,0
+Russian,Female,36,комар,27,produces,0.7407
+Russian,Female,36,комар,27,understands,0
+Russian,Male,36,комар,22,produces,0.7727
+Russian,Male,36,комар,22,understands,0
+Spanish (Argentinian),Female,16,mosquito,30,produces,0
+Spanish (Argentinian),Female,16,mosquito,30,understands,0
+Spanish (Argentinian),Male,16,mosquito,17,produces,0
+Spanish (Argentinian),Male,16,mosquito,17,understands,0
+Spanish (Argentinian),Female,17,mosquito,20,produces,0.05
+Spanish (Argentinian),Female,17,mosquito,20,understands,0
+Spanish (Argentinian),Male,17,mosquito,29,produces,0.069
+Spanish (Argentinian),Male,17,mosquito,29,understands,0
+Spanish (Argentinian),Female,18,mosquito,43,produces,0.0233
+Spanish (Argentinian),Female,18,mosquito,43,understands,0
+Spanish (Argentinian),Male,18,mosquito,19,produces,0
+Spanish (Argentinian),Male,18,mosquito,19,understands,0
+Spanish (Argentinian),Female,19,mosquito,25,produces,0
+Spanish (Argentinian),Female,19,mosquito,25,understands,0
+Spanish (Argentinian),Male,19,mosquito,19,produces,0
+Spanish (Argentinian),Male,19,mosquito,19,understands,0
+Spanish (Argentinian),Female,20,mosquito,22,produces,0.0455
+Spanish (Argentinian),Female,20,mosquito,22,understands,0
+Spanish (Argentinian),Male,20,mosquito,24,produces,0.0417
+Spanish (Argentinian),Male,20,mosquito,24,understands,0
+Spanish (Argentinian),Female,21,mosquito,15,produces,0.0667
+Spanish (Argentinian),Female,21,mosquito,15,understands,0
+Spanish (Argentinian),Male,21,mosquito,26,produces,0.0385
+Spanish (Argentinian),Male,21,mosquito,26,understands,0
+Spanish (Argentinian),Female,22,mosquito,25,produces,0.2
+Spanish (Argentinian),Female,22,mosquito,25,understands,0
+Spanish (Argentinian),Male,22,mosquito,32,produces,0.1875
+Spanish (Argentinian),Male,22,mosquito,32,understands,0
+Spanish (Argentinian),Female,23,mosquito,30,produces,0.1333
+Spanish (Argentinian),Female,23,mosquito,30,understands,0
+Spanish (Argentinian),Male,23,mosquito,19,produces,0.1053
+Spanish (Argentinian),Male,23,mosquito,19,understands,0
+Spanish (Argentinian),Female,24,mosquito,44,produces,0.2727
+Spanish (Argentinian),Female,24,mosquito,44,understands,0
+Spanish (Argentinian),Male,24,mosquito,31,produces,0.2258
+Spanish (Argentinian),Male,24,mosquito,31,understands,0
+Spanish (Argentinian),Female,25,mosquito,24,produces,0.3333
+Spanish (Argentinian),Female,25,mosquito,24,understands,0
+Spanish (Argentinian),Male,25,mosquito,19,produces,0.5263
+Spanish (Argentinian),Male,25,mosquito,19,understands,0
+Spanish (Argentinian),Female,26,mosquito,17,produces,0.2941
+Spanish (Argentinian),Female,26,mosquito,17,understands,0
+Spanish (Argentinian),Male,26,mosquito,28,produces,0.1786
+Spanish (Argentinian),Male,26,mosquito,28,understands,0
+Spanish (Argentinian),Female,27,mosquito,18,produces,0.4444
+Spanish (Argentinian),Female,27,mosquito,18,understands,0
+Spanish (Argentinian),Male,27,mosquito,26,produces,0.5
+Spanish (Argentinian),Male,27,mosquito,26,understands,0
+Spanish (Argentinian),Female,28,mosquito,18,produces,0.3333
+Spanish (Argentinian),Female,28,mosquito,18,understands,0
+Spanish (Argentinian),Male,28,mosquito,24,produces,0.375
+Spanish (Argentinian),Male,28,mosquito,24,understands,0
+Spanish (Argentinian),Female,29,mosquito,36,produces,0.5
+Spanish (Argentinian),Female,29,mosquito,36,understands,0
+Spanish (Argentinian),Male,29,mosquito,29,produces,0.3103
+Spanish (Argentinian),Male,29,mosquito,29,understands,0
+Spanish (Argentinian),Female,30,mosquito,31,produces,0.6774
+Spanish (Argentinian),Female,30,mosquito,31,understands,0
+Spanish (Argentinian),Male,30,mosquito,38,produces,0.4474
+Spanish (Argentinian),Male,30,mosquito,38,understands,0
+Spanish (Argentinian),Female,31,mosquito,1,produces,0
+Spanish (Argentinian),Female,31,mosquito,1,understands,0
+Spanish (Argentinian),Male,31,mosquito,1,produces,0
+Spanish (Argentinian),Male,31,mosquito,1,understands,0
+Spanish (Argentinian),Female,32,mosquito,1,produces,1
+Spanish (Argentinian),Female,32,mosquito,1,understands,0
+Spanish (Argentinian),Male,33,mosquito,2,produces,0.5
+Spanish (Argentinian),Male,33,mosquito,2,understands,0
+Spanish (Mexican),Female,16,mosco,34,produces,0.0588
+Spanish (Mexican),Female,16,mosco,34,understands,0
+Spanish (Mexican),Male,16,mosco,34,produces,0
+Spanish (Mexican),Male,16,mosco,34,understands,0
+Spanish (Mexican),Female,17,mosco,34,produces,0.1176
+Spanish (Mexican),Female,17,mosco,34,understands,0
+Spanish (Mexican),Male,17,mosco,25,produces,0.04
+Spanish (Mexican),Male,17,mosco,25,understands,0
+Spanish (Mexican),Female,18,mosco,35,produces,0.1143
+Spanish (Mexican),Female,18,mosco,35,understands,0
+Spanish (Mexican),Male,18,mosco,40,produces,0.125
+Spanish (Mexican),Male,18,mosco,40,understands,0
+Spanish (Mexican),Female,19,mosco,47,produces,0.1277
+Spanish (Mexican),Female,19,mosco,47,understands,0
+Spanish (Mexican),Male,19,mosco,53,produces,0.2642
+Spanish (Mexican),Male,19,mosco,53,understands,0
+Spanish (Mexican),Female,20,mosco,53,produces,0.3019
+Spanish (Mexican),Female,20,mosco,53,understands,0
+Spanish (Mexican),Male,20,mosco,54,produces,0.1111
+Spanish (Mexican),Male,20,mosco,54,understands,0
+Spanish (Mexican),Female,21,mosco,37,produces,0.2703
+Spanish (Mexican),Female,21,mosco,37,understands,0
+Spanish (Mexican),Male,21,mosco,47,produces,0.2979
+Spanish (Mexican),Male,21,mosco,47,understands,0
+Spanish (Mexican),Female,22,mosco,64,produces,0.125
+Spanish (Mexican),Female,22,mosco,64,understands,0
+Spanish (Mexican),Male,22,mosco,67,produces,0.1493
+Spanish (Mexican),Male,22,mosco,67,understands,0
+Spanish (Mexican),Female,23,mosco,49,produces,0.2449
+Spanish (Mexican),Female,23,mosco,49,understands,0
+Spanish (Mexican),Male,23,mosco,42,produces,0.1429
+Spanish (Mexican),Male,23,mosco,42,understands,0
+Spanish (Mexican),Female,24,mosco,63,produces,0.3651
+Spanish (Mexican),Female,24,mosco,63,understands,0
+Spanish (Mexican),Male,24,mosco,63,produces,0.2222
+Spanish (Mexican),Male,24,mosco,63,understands,0
+Spanish (Mexican),Female,25,mosco,78,produces,0.2821
+Spanish (Mexican),Female,25,mosco,78,understands,0
+Spanish (Mexican),Male,25,mosco,89,produces,0.3146
+Spanish (Mexican),Male,25,mosco,89,understands,0
+Spanish (Mexican),Female,26,mosco,38,produces,0.4737
+Spanish (Mexican),Female,26,mosco,38,understands,0
+Spanish (Mexican),Male,26,mosco,45,produces,0.3333
+Spanish (Mexican),Male,26,mosco,45,understands,0
+Spanish (Mexican),Female,27,mosco,45,produces,0.5556
+Spanish (Mexican),Female,27,mosco,45,understands,0
+Spanish (Mexican),Male,27,mosco,40,produces,0.45
+Spanish (Mexican),Male,27,mosco,40,understands,0
+Spanish (Mexican),Female,28,mosco,44,produces,0.4773
+Spanish (Mexican),Female,28,mosco,44,understands,0
+Spanish (Mexican),Male,28,mosco,45,produces,0.4222
+Spanish (Mexican),Male,28,mosco,45,understands,0
+Spanish (Mexican),Female,29,mosco,51,produces,0.4706
+Spanish (Mexican),Female,29,mosco,51,understands,0
+Spanish (Mexican),Male,29,mosco,38,produces,0.3684
+Spanish (Mexican),Male,29,mosco,38,understands,0
+Spanish (Mexican),Female,30,mosco,146,produces,0.226
+Spanish (Mexican),Female,30,mosco,146,understands,0
+Spanish (Mexican),Male,30,mosco,152,produces,0.2105
+Spanish (Mexican),Male,30,mosco,152,understands,0
+Swedish,Female,16,mygga,90,produces,0
+Swedish,Female,16,mygga,90,understands,0
+Swedish,Male,16,mygga,66,produces,0.0152
+Swedish,Male,16,mygga,66,understands,0
+Swedish,Female,19,mygga,85,produces,0.0824
+Swedish,Female,19,mygga,85,understands,0
+Swedish,Male,19,mygga,65,produces,0.0154
+Swedish,Male,19,mygga,65,understands,0
+Swedish,Female,22,mygga,162,produces,0.179
+Swedish,Female,22,mygga,162,understands,0
+Swedish,Male,22,mygga,143,produces,0.1189
+Swedish,Male,22,mygga,143,understands,0
+Swedish,Female,25,mygga,67,produces,0.3284
+Swedish,Female,25,mygga,67,understands,0
+Swedish,Male,25,mygga,76,produces,0.2105
+Swedish,Male,25,mygga,76,understands,0
+Swedish,Female,28,mygga,69,produces,0.2754
+Swedish,Female,28,mygga,69,understands,0
+Swedish,Male,28,mygga,70,produces,0.4
+Swedish,Male,28,mygga,70,understands,0

@@ -1,235 +1,693 @@
-language,age,words,n,measure,prop
-Russian,18,лук,42,produces,0.0476
-Russian,18,лук,42,understands,0
-Russian,19,лук,41,produces,0.2195
-Russian,19,лук,41,understands,0
-Russian,20,лук,45,produces,0.2444
-Russian,20,лук,45,understands,0
-Russian,21,лук,43,produces,0.2791
-Russian,21,лук,43,understands,0
-Russian,22,лук,51,produces,0.5294
-Russian,22,лук,51,understands,0
-Russian,23,лук,56,produces,0.5536
-Russian,23,лук,56,understands,0
-Russian,24,лук,61,produces,0.5738
-Russian,24,лук,61,understands,0
-Russian,25,лук,66,produces,0.5758
-Russian,25,лук,66,understands,0
-Russian,26,лук,52,produces,0.5962
-Russian,26,лук,52,understands,0
-Russian,27,лук,60,produces,0.6667
-Russian,27,лук,60,understands,0
-Russian,28,лук,60,produces,0.8333
-Russian,28,лук,60,understands,0
-Russian,29,лук,58,produces,0.8448
-Russian,29,лук,58,understands,0
-Russian,30,лук,77,produces,0.7922
-Russian,30,лук,77,understands,0
-Russian,31,лук,61,produces,0.8525
-Russian,31,лук,61,understands,0
-Russian,32,лук,55,produces,0.8182
-Russian,32,лук,55,understands,0
-Russian,33,лук,55,produces,0.7636
-Russian,33,лук,55,understands,0
-Russian,34,лук,58,produces,0.9138
-Russian,34,лук,58,understands,0
-Russian,35,лук,47,produces,0.8511
-Russian,35,лук,47,understands,0
-Russian,36,лук,49,produces,0.9184
-Russian,36,лук,49,understands,0
-Slovak,17,cibuľa,70,produces,0.0714
-Slovak,17,cibuľa,70,understands,0
-Slovak,18,cibuľa,65,produces,0.0923
-Slovak,18,cibuľa,65,understands,0
-Slovak,19,cibuľa,56,produces,0.1071
-Slovak,19,cibuľa,56,understands,0
-Slovak,20,cibuľa,62,produces,0.2742
-Slovak,20,cibuľa,62,understands,0
-Slovak,21,cibuľa,81,produces,0.3333
-Slovak,21,cibuľa,81,understands,0
-Slovak,22,cibuľa,53,produces,0.2642
-Slovak,22,cibuľa,53,understands,0
-Slovak,23,cibuľa,59,produces,0.3898
-Slovak,23,cibuľa,59,understands,0
-Slovak,24,cibuľa,59,produces,0.4576
-Slovak,24,cibuľa,59,understands,0
-Slovak,25,cibuľa,69,produces,0.5217
-Slovak,25,cibuľa,69,understands,0
-Slovak,26,cibuľa,78,produces,0.7051
-Slovak,26,cibuľa,78,understands,0
-Slovak,27,cibuľa,62,produces,0.6935
-Slovak,27,cibuľa,62,understands,0
-Slovak,28,cibuľa,86,produces,0.5581
-Slovak,28,cibuľa,86,understands,0
-Slovak,29,cibuľa,75,produces,0.7067
-Slovak,29,cibuľa,75,understands,0
-Slovak,30,cibuľa,49,produces,0.7347
-Slovak,30,cibuľa,49,understands,0
-Slovak,31,cibuľa,29,produces,0.7586
-Slovak,31,cibuľa,29,understands,0
-Slovak,32,cibuľa,25,produces,0.88
-Slovak,32,cibuľa,25,understands,0
-Slovak,33,cibuľa,22,produces,0.9091
-Slovak,33,cibuľa,22,understands,0
-Slovak,34,cibuľa,27,produces,0.8148
-Slovak,34,cibuľa,27,understands,0
-Slovak,35,cibuľa,27,produces,0.7778
-Slovak,35,cibuľa,27,understands,0
-Slovak,36,cibuľa,8,produces,0.75
-Slovak,36,cibuľa,8,understands,0
-Turkish,16,Soğan,109,produces,0
-Turkish,16,Soğan,109,understands,0
-Turkish,17,Soğan,107,produces,0.0467
-Turkish,17,Soğan,107,understands,0
-Turkish,18,Soğan,128,produces,0.0625
-Turkish,18,Soğan,128,understands,0
-Turkish,19,Soğan,121,produces,0.0826
-Turkish,19,Soğan,121,understands,0
-Turkish,20,Soğan,119,produces,0.1176
-Turkish,20,Soğan,119,understands,0
-Turkish,21,Soğan,124,produces,0.1613
-Turkish,21,Soğan,124,understands,0
-Turkish,22,Soğan,126,produces,0.127
-Turkish,22,Soğan,126,understands,0
-Turkish,23,Soğan,131,produces,0.2214
-Turkish,23,Soğan,131,understands,0
-Turkish,24,Soğan,106,produces,0.3019
-Turkish,24,Soğan,106,understands,0
-Turkish,25,Soğan,123,produces,0.3659
-Turkish,25,Soğan,123,understands,0
-Turkish,26,Soğan,123,produces,0.4472
-Turkish,26,Soğan,123,understands,0
-Turkish,27,Soğan,108,produces,0.463
-Turkish,27,Soğan,108,understands,0
-Turkish,28,Soğan,112,produces,0.5357
-Turkish,28,Soğan,112,understands,0
-Turkish,29,Soğan,119,produces,0.563
-Turkish,29,Soğan,119,understands,0
-Turkish,30,Soğan,104,produces,0.5865
-Turkish,30,Soğan,104,understands,0
-Turkish,31,Soğan,101,produces,0.5644
-Turkish,31,Soğan,101,understands,0
-Turkish,32,Soğan,132,produces,0.6515
-Turkish,32,Soğan,132,understands,0
-Turkish,33,Soğan,114,produces,0.693
-Turkish,33,Soğan,114,understands,0
-Turkish,34,Soğan,107,produces,0.6636
-Turkish,34,Soğan,107,understands,0
-Turkish,35,Soğan,131,produces,0.7099
-Turkish,35,Soğan,131,understands,0
-Turkish,36,Soğan,77,produces,0.7922
-Turkish,36,Soğan,77,understands,0
-American Sign Language,9,ONION,4,produces,0
-American Sign Language,9,ONION,4,understands,0
-American Sign Language,10,ONION,2,produces,0
-American Sign Language,10,ONION,2,understands,0.5
-American Sign Language,11,ONION,3,produces,0
-American Sign Language,11,ONION,3,understands,0
-American Sign Language,12,ONION,2,produces,0
-American Sign Language,12,ONION,2,understands,0
-American Sign Language,13,ONION,1,produces,0
-American Sign Language,13,ONION,1,understands,0
-American Sign Language,15,ONION,2,produces,0
-American Sign Language,15,ONION,2,understands,0
-American Sign Language,16,ONION,2,produces,0
-American Sign Language,16,ONION,2,understands,0
-American Sign Language,17,ONION,3,produces,0
-American Sign Language,17,ONION,3,understands,0.3333
-American Sign Language,18,ONION,7,produces,0.2857
-American Sign Language,18,ONION,7,understands,0.7143
-American Sign Language,19,ONION,6,produces,0
-American Sign Language,19,ONION,6,understands,0.3333
-American Sign Language,20,ONION,3,produces,0
-American Sign Language,20,ONION,3,understands,0.3333
-American Sign Language,21,ONION,3,produces,0
-American Sign Language,21,ONION,3,understands,0.6667
-American Sign Language,22,ONION,10,produces,0
-American Sign Language,22,ONION,10,understands,0.1
-American Sign Language,23,ONION,3,produces,0
-American Sign Language,23,ONION,3,understands,0.3333
-American Sign Language,24,ONION,9,produces,0
-American Sign Language,24,ONION,9,understands,0.2222
-American Sign Language,25,ONION,11,produces,0.0909
-American Sign Language,25,ONION,11,understands,0.5455
-American Sign Language,26,ONION,4,produces,0
-American Sign Language,26,ONION,4,understands,0.5
-American Sign Language,27,ONION,6,produces,0.3333
-American Sign Language,27,ONION,6,understands,0.5
-American Sign Language,28,ONION,4,produces,0.25
-American Sign Language,28,ONION,4,understands,0.5
-American Sign Language,29,ONION,6,produces,0.5
-American Sign Language,29,ONION,6,understands,0.8333
-American Sign Language,30,ONION,5,produces,0.2
-American Sign Language,30,ONION,5,understands,0.4
-American Sign Language,31,ONION,7,produces,0.2857
-American Sign Language,31,ONION,7,understands,0.4286
-American Sign Language,32,ONION,9,produces,0.2222
-American Sign Language,32,ONION,9,understands,0.6667
-American Sign Language,33,ONION,4,produces,0.25
-American Sign Language,33,ONION,4,understands,0.75
-American Sign Language,34,ONION,6,produces,0.3333
-American Sign Language,34,ONION,6,understands,0.6667
-American Sign Language,35,ONION,4,produces,0.5
-American Sign Language,35,ONION,4,understands,1
-American Sign Language,36,ONION,3,produces,0.3333
-American Sign Language,36,ONION,3,understands,0.6667
-Cantonese,16,蔥,46,produces,0
-Cantonese,16,蔥,46,understands,0
-Cantonese,17,蔥,61,produces,0.0164
-Cantonese,17,蔥,61,understands,0
-Cantonese,18,蔥,68,produces,0
-Cantonese,18,蔥,68,understands,0
-Cantonese,19,蔥,66,produces,0
-Cantonese,19,蔥,66,understands,0
-Cantonese,20,蔥,140,produces,0.0357
-Cantonese,20,蔥,140,understands,0
-Cantonese,21,蔥,120,produces,0.0333
-Cantonese,21,蔥,120,understands,0
-Cantonese,22,蔥,68,produces,0.0735
-Cantonese,22,蔥,68,understands,0
-Cantonese,23,蔥,74,produces,0.0405
-Cantonese,23,蔥,74,understands,0
-Cantonese,24,蔥,68,produces,0.0441
-Cantonese,24,蔥,68,understands,0
-Cantonese,25,蔥,65,produces,0.0923
-Cantonese,25,蔥,65,understands,0
-Cantonese,26,蔥,68,produces,0.0735
-Cantonese,26,蔥,68,understands,0
-Cantonese,27,蔥,62,produces,0.1129
-Cantonese,27,蔥,62,understands,0
-Cantonese,28,蔥,66,produces,0.2727
-Cantonese,28,蔥,66,understands,0
-Cantonese,29,蔥,72,produces,0.1667
-Cantonese,29,蔥,72,understands,0
-Cantonese,30,蔥,164,produces,0.2988
-Cantonese,30,蔥,164,understands,0
-Catalan,16,ceba,24,produces,0
-Catalan,16,ceba,24,understands,0
-Catalan,17,ceba,36,produces,0
-Catalan,17,ceba,36,understands,0
-Catalan,18,ceba,51,produces,0
-Catalan,18,ceba,51,understands,0
-Catalan,19,ceba,45,produces,0.0222
-Catalan,19,ceba,45,understands,0
-Catalan,20,ceba,56,produces,0
-Catalan,20,ceba,56,understands,0
-Catalan,21,ceba,58,produces,0.1379
-Catalan,21,ceba,58,understands,0
-Catalan,22,ceba,50,produces,0.2
-Catalan,22,ceba,50,understands,0
-Catalan,23,ceba,66,produces,0.0909
-Catalan,23,ceba,66,understands,0
-Catalan,24,ceba,79,produces,0.2658
-Catalan,24,ceba,79,understands,0
-Catalan,25,ceba,60,produces,0.4333
-Catalan,25,ceba,60,understands,0
-Catalan,26,ceba,65,produces,0.2615
-Catalan,26,ceba,65,understands,0
-Catalan,27,ceba,63,produces,0.2857
-Catalan,27,ceba,63,understands,0
-Catalan,28,ceba,81,produces,0.3827
-Catalan,28,ceba,81,understands,0
-Catalan,29,ceba,50,produces,0.42
-Catalan,29,ceba,50,understands,0
-Catalan,30,ceba,75,produces,0.52
-Catalan,30,ceba,75,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,9,ONION,4,produces,0
+American Sign Language,All,9,ONION,4,understands,0
+American Sign Language,All,10,ONION,2,produces,0
+American Sign Language,All,10,ONION,2,understands,0.5
+American Sign Language,All,11,ONION,3,produces,0
+American Sign Language,All,11,ONION,3,understands,0
+American Sign Language,All,12,ONION,2,produces,0
+American Sign Language,All,12,ONION,2,understands,0
+American Sign Language,All,13,ONION,1,produces,0
+American Sign Language,All,13,ONION,1,understands,0
+American Sign Language,All,15,ONION,2,produces,0
+American Sign Language,All,15,ONION,2,understands,0
+American Sign Language,All,16,ONION,2,produces,0
+American Sign Language,All,16,ONION,2,understands,0
+American Sign Language,All,17,ONION,3,produces,0
+American Sign Language,All,17,ONION,3,understands,0.3333
+American Sign Language,All,18,ONION,7,produces,0.2857
+American Sign Language,All,18,ONION,7,understands,0.7143
+American Sign Language,All,19,ONION,6,produces,0
+American Sign Language,All,19,ONION,6,understands,0.3333
+American Sign Language,All,20,ONION,3,produces,0
+American Sign Language,All,20,ONION,3,understands,0.3333
+American Sign Language,All,21,ONION,3,produces,0
+American Sign Language,All,21,ONION,3,understands,0.6667
+American Sign Language,All,22,ONION,10,produces,0
+American Sign Language,All,22,ONION,10,understands,0.1
+American Sign Language,All,23,ONION,3,produces,0
+American Sign Language,All,23,ONION,3,understands,0.3333
+American Sign Language,All,24,ONION,9,produces,0
+American Sign Language,All,24,ONION,9,understands,0.2222
+American Sign Language,All,25,ONION,11,produces,0.0909
+American Sign Language,All,25,ONION,11,understands,0.5455
+American Sign Language,All,26,ONION,4,produces,0
+American Sign Language,All,26,ONION,4,understands,0.5
+American Sign Language,All,27,ONION,6,produces,0.3333
+American Sign Language,All,27,ONION,6,understands,0.5
+American Sign Language,All,28,ONION,4,produces,0.25
+American Sign Language,All,28,ONION,4,understands,0.5
+American Sign Language,All,29,ONION,6,produces,0.5
+American Sign Language,All,29,ONION,6,understands,0.8333
+American Sign Language,All,30,ONION,5,produces,0.2
+American Sign Language,All,30,ONION,5,understands,0.4
+American Sign Language,All,31,ONION,7,produces,0.2857
+American Sign Language,All,31,ONION,7,understands,0.4286
+American Sign Language,All,32,ONION,9,produces,0.2222
+American Sign Language,All,32,ONION,9,understands,0.6667
+American Sign Language,All,33,ONION,4,produces,0.25
+American Sign Language,All,33,ONION,4,understands,0.75
+American Sign Language,All,34,ONION,6,produces,0.3333
+American Sign Language,All,34,ONION,6,understands,0.6667
+American Sign Language,All,35,ONION,4,produces,0.5
+American Sign Language,All,35,ONION,4,understands,1
+American Sign Language,All,36,ONION,3,produces,0.3333
+American Sign Language,All,36,ONION,3,understands,0.6667
+Cantonese,All,16,蔥,46,produces,0
+Cantonese,All,16,蔥,46,understands,0
+Cantonese,All,17,蔥,61,produces,0.0164
+Cantonese,All,17,蔥,61,understands,0
+Cantonese,All,18,蔥,68,produces,0
+Cantonese,All,18,蔥,68,understands,0
+Cantonese,All,19,蔥,66,produces,0
+Cantonese,All,19,蔥,66,understands,0
+Cantonese,All,20,蔥,140,produces,0.0357
+Cantonese,All,20,蔥,140,understands,0
+Cantonese,All,21,蔥,120,produces,0.0333
+Cantonese,All,21,蔥,120,understands,0
+Cantonese,All,22,蔥,68,produces,0.0735
+Cantonese,All,22,蔥,68,understands,0
+Cantonese,All,23,蔥,74,produces,0.0405
+Cantonese,All,23,蔥,74,understands,0
+Cantonese,All,24,蔥,68,produces,0.0441
+Cantonese,All,24,蔥,68,understands,0
+Cantonese,All,25,蔥,65,produces,0.0923
+Cantonese,All,25,蔥,65,understands,0
+Cantonese,All,26,蔥,68,produces,0.0735
+Cantonese,All,26,蔥,68,understands,0
+Cantonese,All,27,蔥,62,produces,0.1129
+Cantonese,All,27,蔥,62,understands,0
+Cantonese,All,28,蔥,66,produces,0.2727
+Cantonese,All,28,蔥,66,understands,0
+Cantonese,All,29,蔥,72,produces,0.1667
+Cantonese,All,29,蔥,72,understands,0
+Cantonese,All,30,蔥,164,produces,0.2988
+Cantonese,All,30,蔥,164,understands,0
+Catalan,All,16,ceba,24,produces,0
+Catalan,All,16,ceba,24,understands,0
+Catalan,All,17,ceba,36,produces,0
+Catalan,All,17,ceba,36,understands,0
+Catalan,All,18,ceba,51,produces,0
+Catalan,All,18,ceba,51,understands,0
+Catalan,All,19,ceba,45,produces,0.0222
+Catalan,All,19,ceba,45,understands,0
+Catalan,All,20,ceba,56,produces,0
+Catalan,All,20,ceba,56,understands,0
+Catalan,All,21,ceba,58,produces,0.1379
+Catalan,All,21,ceba,58,understands,0
+Catalan,All,22,ceba,50,produces,0.2
+Catalan,All,22,ceba,50,understands,0
+Catalan,All,23,ceba,66,produces,0.0909
+Catalan,All,23,ceba,66,understands,0
+Catalan,All,24,ceba,79,produces,0.2658
+Catalan,All,24,ceba,79,understands,0
+Catalan,All,25,ceba,60,produces,0.4333
+Catalan,All,25,ceba,60,understands,0
+Catalan,All,26,ceba,65,produces,0.2615
+Catalan,All,26,ceba,65,understands,0
+Catalan,All,27,ceba,63,produces,0.2857
+Catalan,All,27,ceba,63,understands,0
+Catalan,All,28,ceba,81,produces,0.3827
+Catalan,All,28,ceba,81,understands,0
+Catalan,All,29,ceba,50,produces,0.42
+Catalan,All,29,ceba,50,understands,0
+Catalan,All,30,ceba,75,produces,0.52
+Catalan,All,30,ceba,75,understands,0
+Russian,All,18,лук,42,produces,0.0476
+Russian,All,18,лук,42,understands,0
+Russian,All,19,лук,41,produces,0.2195
+Russian,All,19,лук,41,understands,0
+Russian,All,20,лук,45,produces,0.2444
+Russian,All,20,лук,45,understands,0
+Russian,All,21,лук,43,produces,0.2791
+Russian,All,21,лук,43,understands,0
+Russian,All,22,лук,51,produces,0.5294
+Russian,All,22,лук,51,understands,0
+Russian,All,23,лук,56,produces,0.5536
+Russian,All,23,лук,56,understands,0
+Russian,All,24,лук,61,produces,0.5738
+Russian,All,24,лук,61,understands,0
+Russian,All,25,лук,66,produces,0.5758
+Russian,All,25,лук,66,understands,0
+Russian,All,26,лук,52,produces,0.5962
+Russian,All,26,лук,52,understands,0
+Russian,All,27,лук,60,produces,0.6667
+Russian,All,27,лук,60,understands,0
+Russian,All,28,лук,60,produces,0.8333
+Russian,All,28,лук,60,understands,0
+Russian,All,29,лук,58,produces,0.8448
+Russian,All,29,лук,58,understands,0
+Russian,All,30,лук,77,produces,0.7922
+Russian,All,30,лук,77,understands,0
+Russian,All,31,лук,61,produces,0.8525
+Russian,All,31,лук,61,understands,0
+Russian,All,32,лук,55,produces,0.8182
+Russian,All,32,лук,55,understands,0
+Russian,All,33,лук,55,produces,0.7636
+Russian,All,33,лук,55,understands,0
+Russian,All,34,лук,58,produces,0.9138
+Russian,All,34,лук,58,understands,0
+Russian,All,35,лук,47,produces,0.8511
+Russian,All,35,лук,47,understands,0
+Russian,All,36,лук,49,produces,0.9184
+Russian,All,36,лук,49,understands,0
+Slovak,All,17,cibuľa,70,produces,0.0714
+Slovak,All,17,cibuľa,70,understands,0
+Slovak,All,18,cibuľa,65,produces,0.0923
+Slovak,All,18,cibuľa,65,understands,0
+Slovak,All,19,cibuľa,56,produces,0.1071
+Slovak,All,19,cibuľa,56,understands,0
+Slovak,All,20,cibuľa,62,produces,0.2742
+Slovak,All,20,cibuľa,62,understands,0
+Slovak,All,21,cibuľa,81,produces,0.3333
+Slovak,All,21,cibuľa,81,understands,0
+Slovak,All,22,cibuľa,53,produces,0.2642
+Slovak,All,22,cibuľa,53,understands,0
+Slovak,All,23,cibuľa,59,produces,0.3898
+Slovak,All,23,cibuľa,59,understands,0
+Slovak,All,24,cibuľa,59,produces,0.4576
+Slovak,All,24,cibuľa,59,understands,0
+Slovak,All,25,cibuľa,69,produces,0.5217
+Slovak,All,25,cibuľa,69,understands,0
+Slovak,All,26,cibuľa,78,produces,0.7051
+Slovak,All,26,cibuľa,78,understands,0
+Slovak,All,27,cibuľa,62,produces,0.6935
+Slovak,All,27,cibuľa,62,understands,0
+Slovak,All,28,cibuľa,86,produces,0.5581
+Slovak,All,28,cibuľa,86,understands,0
+Slovak,All,29,cibuľa,75,produces,0.7067
+Slovak,All,29,cibuľa,75,understands,0
+Slovak,All,30,cibuľa,49,produces,0.7347
+Slovak,All,30,cibuľa,49,understands,0
+Slovak,All,31,cibuľa,29,produces,0.7586
+Slovak,All,31,cibuľa,29,understands,0
+Slovak,All,32,cibuľa,25,produces,0.88
+Slovak,All,32,cibuľa,25,understands,0
+Slovak,All,33,cibuľa,22,produces,0.9091
+Slovak,All,33,cibuľa,22,understands,0
+Slovak,All,34,cibuľa,27,produces,0.8148
+Slovak,All,34,cibuľa,27,understands,0
+Slovak,All,35,cibuľa,27,produces,0.7778
+Slovak,All,35,cibuľa,27,understands,0
+Slovak,All,36,cibuľa,8,produces,0.75
+Slovak,All,36,cibuľa,8,understands,0
+Turkish,All,16,Soğan,109,produces,0
+Turkish,All,16,Soğan,109,understands,0
+Turkish,All,17,Soğan,107,produces,0.0467
+Turkish,All,17,Soğan,107,understands,0
+Turkish,All,18,Soğan,128,produces,0.0625
+Turkish,All,18,Soğan,128,understands,0
+Turkish,All,19,Soğan,121,produces,0.0826
+Turkish,All,19,Soğan,121,understands,0
+Turkish,All,20,Soğan,119,produces,0.1176
+Turkish,All,20,Soğan,119,understands,0
+Turkish,All,21,Soğan,124,produces,0.1613
+Turkish,All,21,Soğan,124,understands,0
+Turkish,All,22,Soğan,126,produces,0.127
+Turkish,All,22,Soğan,126,understands,0
+Turkish,All,23,Soğan,131,produces,0.2214
+Turkish,All,23,Soğan,131,understands,0
+Turkish,All,24,Soğan,106,produces,0.3019
+Turkish,All,24,Soğan,106,understands,0
+Turkish,All,25,Soğan,123,produces,0.3659
+Turkish,All,25,Soğan,123,understands,0
+Turkish,All,26,Soğan,123,produces,0.4472
+Turkish,All,26,Soğan,123,understands,0
+Turkish,All,27,Soğan,108,produces,0.463
+Turkish,All,27,Soğan,108,understands,0
+Turkish,All,28,Soğan,112,produces,0.5357
+Turkish,All,28,Soğan,112,understands,0
+Turkish,All,29,Soğan,119,produces,0.563
+Turkish,All,29,Soğan,119,understands,0
+Turkish,All,30,Soğan,104,produces,0.5865
+Turkish,All,30,Soğan,104,understands,0
+Turkish,All,31,Soğan,101,produces,0.5644
+Turkish,All,31,Soğan,101,understands,0
+Turkish,All,32,Soğan,132,produces,0.6515
+Turkish,All,32,Soğan,132,understands,0
+Turkish,All,33,Soğan,114,produces,0.693
+Turkish,All,33,Soğan,114,understands,0
+Turkish,All,34,Soğan,107,produces,0.6636
+Turkish,All,34,Soğan,107,understands,0
+Turkish,All,35,Soğan,131,produces,0.7099
+Turkish,All,35,Soğan,131,understands,0
+Turkish,All,36,Soğan,77,produces,0.7922
+Turkish,All,36,Soğan,77,understands,0
+American Sign Language,Female,9,ONION,4,produces,0
+American Sign Language,Female,9,ONION,4,understands,0
+American Sign Language,Female,10,ONION,1,produces,0
+American Sign Language,Female,10,ONION,1,understands,1
+American Sign Language,Male,10,ONION,1,produces,0
+American Sign Language,Male,10,ONION,1,understands,0
+American Sign Language,Female,11,ONION,2,produces,0
+American Sign Language,Female,11,ONION,2,understands,0
+American Sign Language,Male,11,ONION,1,produces,0
+American Sign Language,Male,11,ONION,1,understands,0
+American Sign Language,Female,12,ONION,1,produces,0
+American Sign Language,Female,12,ONION,1,understands,0
+American Sign Language,Male,12,ONION,1,produces,0
+American Sign Language,Male,12,ONION,1,understands,0
+American Sign Language,Female,13,ONION,1,produces,0
+American Sign Language,Female,13,ONION,1,understands,0
+American Sign Language,Female,15,ONION,1,produces,0
+American Sign Language,Female,15,ONION,1,understands,0
+American Sign Language,Male,15,ONION,1,produces,0
+American Sign Language,Male,15,ONION,1,understands,0
+American Sign Language,Female,16,ONION,2,produces,0
+American Sign Language,Female,16,ONION,2,understands,0
+American Sign Language,Female,17,ONION,2,produces,0
+American Sign Language,Female,17,ONION,2,understands,0.5
+American Sign Language,Male,17,ONION,1,produces,0
+American Sign Language,Male,17,ONION,1,understands,0
+American Sign Language,Female,18,ONION,5,produces,0.4
+American Sign Language,Female,18,ONION,5,understands,0.8
+American Sign Language,Male,18,ONION,2,produces,0
+American Sign Language,Male,18,ONION,2,understands,0.5
+American Sign Language,Female,19,ONION,2,produces,0
+American Sign Language,Female,19,ONION,2,understands,0.5
+American Sign Language,Male,19,ONION,4,produces,0
+American Sign Language,Male,19,ONION,4,understands,0.25
+American Sign Language,Male,20,ONION,3,produces,0
+American Sign Language,Male,20,ONION,3,understands,0.3333
+American Sign Language,Female,21,ONION,1,produces,0
+American Sign Language,Female,21,ONION,1,understands,1
+American Sign Language,Male,21,ONION,2,produces,0
+American Sign Language,Male,21,ONION,2,understands,0.5
+American Sign Language,Female,22,ONION,9,produces,0
+American Sign Language,Female,22,ONION,9,understands,0.1111
+American Sign Language,Male,22,ONION,1,produces,0
+American Sign Language,Male,22,ONION,1,understands,0
+American Sign Language,Female,23,ONION,2,produces,0
+American Sign Language,Female,23,ONION,2,understands,0.5
+American Sign Language,Male,23,ONION,1,produces,0
+American Sign Language,Male,23,ONION,1,understands,0
+American Sign Language,Female,24,ONION,2,produces,0
+American Sign Language,Female,24,ONION,2,understands,0.5
+American Sign Language,Male,24,ONION,7,produces,0
+American Sign Language,Male,24,ONION,7,understands,0.1429
+American Sign Language,Female,25,ONION,4,produces,0
+American Sign Language,Female,25,ONION,4,understands,0.5
+American Sign Language,Male,25,ONION,7,produces,0.1429
+American Sign Language,Male,25,ONION,7,understands,0.5714
+American Sign Language,Female,26,ONION,2,produces,0
+American Sign Language,Female,26,ONION,2,understands,0.5
+American Sign Language,Male,26,ONION,2,produces,0
+American Sign Language,Male,26,ONION,2,understands,0.5
+American Sign Language,Female,27,ONION,4,produces,0.25
+American Sign Language,Female,27,ONION,4,understands,0.5
+American Sign Language,Male,27,ONION,2,produces,0.5
+American Sign Language,Male,27,ONION,2,understands,0.5
+American Sign Language,Female,28,ONION,1,produces,0
+American Sign Language,Female,28,ONION,1,understands,0
+American Sign Language,Male,28,ONION,3,produces,0.3333
+American Sign Language,Male,28,ONION,3,understands,0.6667
+American Sign Language,Female,29,ONION,1,produces,1
+American Sign Language,Female,29,ONION,1,understands,1
+American Sign Language,Male,29,ONION,5,produces,0.4
+American Sign Language,Male,29,ONION,5,understands,0.8
+American Sign Language,Female,30,ONION,3,produces,0
+American Sign Language,Female,30,ONION,3,understands,0.3333
+American Sign Language,Male,30,ONION,2,produces,0.5
+American Sign Language,Male,30,ONION,2,understands,0.5
+American Sign Language,Female,31,ONION,4,produces,0.5
+American Sign Language,Female,31,ONION,4,understands,0.5
+American Sign Language,Male,31,ONION,3,produces,0
+American Sign Language,Male,31,ONION,3,understands,0.3333
+American Sign Language,Female,32,ONION,4,produces,0
+American Sign Language,Female,32,ONION,4,understands,0.75
+American Sign Language,Male,32,ONION,5,produces,0.4
+American Sign Language,Male,32,ONION,5,understands,0.6
+American Sign Language,Female,33,ONION,2,produces,0
+American Sign Language,Female,33,ONION,2,understands,0.5
+American Sign Language,Male,33,ONION,2,produces,0.5
+American Sign Language,Male,33,ONION,2,understands,1
+American Sign Language,Female,34,ONION,1,produces,0
+American Sign Language,Female,34,ONION,1,understands,0
+American Sign Language,Male,34,ONION,5,produces,0.4
+American Sign Language,Male,34,ONION,5,understands,0.8
+American Sign Language,Female,35,ONION,2,produces,0.5
+American Sign Language,Female,35,ONION,2,understands,1
+American Sign Language,Male,35,ONION,2,produces,0.5
+American Sign Language,Male,35,ONION,2,understands,1
+American Sign Language,Female,36,ONION,3,produces,0.3333
+American Sign Language,Female,36,ONION,3,understands,0.6667
+Cantonese,Female,16,蔥,23,produces,0
+Cantonese,Female,16,蔥,23,understands,0
+Cantonese,Male,16,蔥,23,produces,0
+Cantonese,Male,16,蔥,23,understands,0
+Cantonese,Female,17,蔥,30,produces,0.0333
+Cantonese,Female,17,蔥,30,understands,0
+Cantonese,Male,17,蔥,31,produces,0
+Cantonese,Male,17,蔥,31,understands,0
+Cantonese,Female,18,蔥,33,produces,0
+Cantonese,Female,18,蔥,33,understands,0
+Cantonese,Male,18,蔥,35,produces,0
+Cantonese,Male,18,蔥,35,understands,0
+Cantonese,Female,19,蔥,30,produces,0
+Cantonese,Female,19,蔥,30,understands,0
+Cantonese,Male,19,蔥,36,produces,0
+Cantonese,Male,19,蔥,36,understands,0
+Cantonese,Female,20,蔥,62,produces,0.0484
+Cantonese,Female,20,蔥,62,understands,0
+Cantonese,Male,20,蔥,78,produces,0.0256
+Cantonese,Male,20,蔥,78,understands,0
+Cantonese,Female,21,蔥,57,produces,0.0175
+Cantonese,Female,21,蔥,57,understands,0
+Cantonese,Male,21,蔥,63,produces,0.0476
+Cantonese,Male,21,蔥,63,understands,0
+Cantonese,Female,22,蔥,34,produces,0.0588
+Cantonese,Female,22,蔥,34,understands,0
+Cantonese,Male,22,蔥,34,produces,0.0882
+Cantonese,Male,22,蔥,34,understands,0
+Cantonese,Female,23,蔥,37,produces,0.0541
+Cantonese,Female,23,蔥,37,understands,0
+Cantonese,Male,23,蔥,37,produces,0.027
+Cantonese,Male,23,蔥,37,understands,0
+Cantonese,Female,24,蔥,32,produces,0.0625
+Cantonese,Female,24,蔥,32,understands,0
+Cantonese,Male,24,蔥,36,produces,0.0278
+Cantonese,Male,24,蔥,36,understands,0
+Cantonese,Female,25,蔥,31,produces,0.129
+Cantonese,Female,25,蔥,31,understands,0
+Cantonese,Male,25,蔥,34,produces,0.0588
+Cantonese,Male,25,蔥,34,understands,0
+Cantonese,Female,26,蔥,31,produces,0.0323
+Cantonese,Female,26,蔥,31,understands,0
+Cantonese,Male,26,蔥,37,produces,0.1081
+Cantonese,Male,26,蔥,37,understands,0
+Cantonese,Female,27,蔥,31,produces,0.129
+Cantonese,Female,27,蔥,31,understands,0
+Cantonese,Male,27,蔥,31,produces,0.0968
+Cantonese,Male,27,蔥,31,understands,0
+Cantonese,Female,28,蔥,32,produces,0.3125
+Cantonese,Female,28,蔥,32,understands,0
+Cantonese,Male,28,蔥,34,produces,0.2353
+Cantonese,Male,28,蔥,34,understands,0
+Cantonese,Female,29,蔥,36,produces,0.1944
+Cantonese,Female,29,蔥,36,understands,0
+Cantonese,Male,29,蔥,36,produces,0.1389
+Cantonese,Male,29,蔥,36,understands,0
+Cantonese,Female,30,蔥,76,produces,0.3421
+Cantonese,Female,30,蔥,76,understands,0
+Cantonese,Male,30,蔥,88,produces,0.2614
+Cantonese,Male,30,蔥,88,understands,0
+Catalan,Female,16,ceba,8,produces,0
+Catalan,Female,16,ceba,8,understands,0
+Catalan,Male,16,ceba,16,produces,0
+Catalan,Male,16,ceba,16,understands,0
+Catalan,Female,17,ceba,22,produces,0
+Catalan,Female,17,ceba,22,understands,0
+Catalan,Male,17,ceba,14,produces,0
+Catalan,Male,17,ceba,14,understands,0
+Catalan,Female,18,ceba,22,produces,0
+Catalan,Female,18,ceba,22,understands,0
+Catalan,Male,18,ceba,29,produces,0
+Catalan,Male,18,ceba,29,understands,0
+Catalan,Female,19,ceba,25,produces,0
+Catalan,Female,19,ceba,25,understands,0
+Catalan,Male,19,ceba,20,produces,0.05
+Catalan,Male,19,ceba,20,understands,0
+Catalan,Female,20,ceba,28,produces,0
+Catalan,Female,20,ceba,28,understands,0
+Catalan,Male,20,ceba,28,produces,0
+Catalan,Male,20,ceba,28,understands,0
+Catalan,Female,21,ceba,32,produces,0.1875
+Catalan,Female,21,ceba,32,understands,0
+Catalan,Male,21,ceba,26,produces,0.0769
+Catalan,Male,21,ceba,26,understands,0
+Catalan,Female,22,ceba,26,produces,0.2692
+Catalan,Female,22,ceba,26,understands,0
+Catalan,Male,22,ceba,24,produces,0.125
+Catalan,Male,22,ceba,24,understands,0
+Catalan,Female,23,ceba,35,produces,0.1143
+Catalan,Female,23,ceba,35,understands,0
+Catalan,Male,23,ceba,31,produces,0.0645
+Catalan,Male,23,ceba,31,understands,0
+Catalan,Female,24,ceba,41,produces,0.4146
+Catalan,Female,24,ceba,41,understands,0
+Catalan,Male,24,ceba,38,produces,0.1053
+Catalan,Male,24,ceba,38,understands,0
+Catalan,Female,25,ceba,30,produces,0.4667
+Catalan,Female,25,ceba,30,understands,0
+Catalan,Male,25,ceba,30,produces,0.4
+Catalan,Male,25,ceba,30,understands,0
+Catalan,Female,26,ceba,35,produces,0.3143
+Catalan,Female,26,ceba,35,understands,0
+Catalan,Male,26,ceba,30,produces,0.2
+Catalan,Male,26,ceba,30,understands,0
+Catalan,Female,27,ceba,36,produces,0.25
+Catalan,Female,27,ceba,36,understands,0
+Catalan,Male,27,ceba,27,produces,0.3333
+Catalan,Male,27,ceba,27,understands,0
+Catalan,Female,28,ceba,40,produces,0.475
+Catalan,Female,28,ceba,40,understands,0
+Catalan,Male,28,ceba,41,produces,0.2927
+Catalan,Male,28,ceba,41,understands,0
+Catalan,Female,29,ceba,25,produces,0.4
+Catalan,Female,29,ceba,25,understands,0
+Catalan,Male,29,ceba,25,produces,0.44
+Catalan,Male,29,ceba,25,understands,0
+Catalan,Female,30,ceba,24,produces,0.5833
+Catalan,Female,30,ceba,24,understands,0
+Catalan,Male,30,ceba,51,produces,0.4902
+Catalan,Male,30,ceba,51,understands,0
+Russian,Female,18,лук,24,produces,0.0417
+Russian,Female,18,лук,24,understands,0
+Russian,Male,18,лук,18,produces,0.0556
+Russian,Male,18,лук,18,understands,0
+Russian,Female,19,лук,22,produces,0.1818
+Russian,Female,19,лук,22,understands,0
+Russian,Male,19,лук,19,produces,0.2632
+Russian,Male,19,лук,19,understands,0
+Russian,Female,20,лук,18,produces,0.1667
+Russian,Female,20,лук,18,understands,0
+Russian,Male,20,лук,27,produces,0.2963
+Russian,Male,20,лук,27,understands,0
+Russian,Female,21,лук,22,produces,0.3636
+Russian,Female,21,лук,22,understands,0
+Russian,Male,21,лук,21,produces,0.1905
+Russian,Male,21,лук,21,understands,0
+Russian,Female,22,лук,29,produces,0.6207
+Russian,Female,22,лук,29,understands,0
+Russian,Male,22,лук,22,produces,0.4091
+Russian,Male,22,лук,22,understands,0
+Russian,Female,23,лук,37,produces,0.5405
+Russian,Female,23,лук,37,understands,0
+Russian,Male,23,лук,19,produces,0.5789
+Russian,Male,23,лук,19,understands,0
+Russian,Female,24,лук,28,produces,0.6429
+Russian,Female,24,лук,28,understands,0
+Russian,Male,24,лук,33,produces,0.5152
+Russian,Male,24,лук,33,understands,0
+Russian,Female,25,лук,39,produces,0.6667
+Russian,Female,25,лук,39,understands,0
+Russian,Male,25,лук,27,produces,0.4444
+Russian,Male,25,лук,27,understands,0
+Russian,Female,26,лук,26,produces,0.6923
+Russian,Female,26,лук,26,understands,0
+Russian,Male,26,лук,26,produces,0.5
+Russian,Male,26,лук,26,understands,0
+Russian,Female,27,лук,37,produces,0.7297
+Russian,Female,27,лук,37,understands,0
+Russian,Male,27,лук,23,produces,0.5652
+Russian,Male,27,лук,23,understands,0
+Russian,Female,28,лук,28,produces,0.8571
+Russian,Female,28,лук,28,understands,0
+Russian,Male,28,лук,32,produces,0.8125
+Russian,Male,28,лук,32,understands,0
+Russian,Female,29,лук,30,produces,0.9333
+Russian,Female,29,лук,30,understands,0
+Russian,Male,29,лук,27,produces,0.7778
+Russian,Male,29,лук,27,understands,0
+Russian,Female,30,лук,42,produces,0.8571
+Russian,Female,30,лук,42,understands,0
+Russian,Male,30,лук,35,produces,0.7143
+Russian,Male,30,лук,35,understands,0
+Russian,Female,31,лук,32,produces,0.875
+Russian,Female,31,лук,32,understands,0
+Russian,Male,31,лук,29,produces,0.8276
+Russian,Male,31,лук,29,understands,0
+Russian,Female,32,лук,29,produces,0.7586
+Russian,Female,32,лук,29,understands,0
+Russian,Male,32,лук,26,produces,0.8846
+Russian,Male,32,лук,26,understands,0
+Russian,Female,33,лук,27,produces,0.7037
+Russian,Female,33,лук,27,understands,0
+Russian,Male,33,лук,28,produces,0.8214
+Russian,Male,33,лук,28,understands,0
+Russian,Female,34,лук,31,produces,0.9355
+Russian,Female,34,лук,31,understands,0
+Russian,Male,34,лук,27,produces,0.8889
+Russian,Male,34,лук,27,understands,0
+Russian,Female,35,лук,22,produces,0.8636
+Russian,Female,35,лук,22,understands,0
+Russian,Male,35,лук,25,produces,0.84
+Russian,Male,35,лук,25,understands,0
+Russian,Female,36,лук,27,produces,0.9259
+Russian,Female,36,лук,27,understands,0
+Russian,Male,36,лук,22,produces,0.9091
+Russian,Male,36,лук,22,understands,0
+Slovak,Female,17,cibuľa,39,produces,0.0769
+Slovak,Female,17,cibuľa,39,understands,0
+Slovak,Male,17,cibuľa,31,produces,0.0645
+Slovak,Male,17,cibuľa,31,understands,0
+Slovak,Female,18,cibuľa,30,produces,0.1
+Slovak,Female,18,cibuľa,30,understands,0
+Slovak,Male,18,cibuľa,35,produces,0.0857
+Slovak,Male,18,cibuľa,35,understands,0
+Slovak,Female,19,cibuľa,30,produces,0.2
+Slovak,Female,19,cibuľa,30,understands,0
+Slovak,Male,19,cibuľa,26,produces,0
+Slovak,Male,19,cibuľa,26,understands,0
+Slovak,Female,20,cibuľa,33,produces,0.303
+Slovak,Female,20,cibuľa,33,understands,0
+Slovak,Male,20,cibuľa,29,produces,0.2414
+Slovak,Male,20,cibuľa,29,understands,0
+Slovak,Female,21,cibuľa,40,produces,0.425
+Slovak,Female,21,cibuľa,40,understands,0
+Slovak,Male,21,cibuľa,41,produces,0.2439
+Slovak,Male,21,cibuľa,41,understands,0
+Slovak,Female,22,cibuľa,27,produces,0.4074
+Slovak,Female,22,cibuľa,27,understands,0
+Slovak,Male,22,cibuľa,26,produces,0.1154
+Slovak,Male,22,cibuľa,26,understands,0
+Slovak,Female,23,cibuľa,28,produces,0.4643
+Slovak,Female,23,cibuľa,28,understands,0
+Slovak,Male,23,cibuľa,31,produces,0.3226
+Slovak,Male,23,cibuľa,31,understands,0
+Slovak,Female,24,cibuľa,28,produces,0.5357
+Slovak,Female,24,cibuľa,28,understands,0
+Slovak,Male,24,cibuľa,31,produces,0.3871
+Slovak,Male,24,cibuľa,31,understands,0
+Slovak,Female,25,cibuľa,35,produces,0.5143
+Slovak,Female,25,cibuľa,35,understands,0
+Slovak,Male,25,cibuľa,34,produces,0.5294
+Slovak,Male,25,cibuľa,34,understands,0
+Slovak,Female,26,cibuľa,43,produces,0.7674
+Slovak,Female,26,cibuľa,43,understands,0
+Slovak,Male,26,cibuľa,35,produces,0.6286
+Slovak,Male,26,cibuľa,35,understands,0
+Slovak,Female,27,cibuľa,33,produces,0.7576
+Slovak,Female,27,cibuľa,33,understands,0
+Slovak,Male,27,cibuľa,29,produces,0.6207
+Slovak,Male,27,cibuľa,29,understands,0
+Slovak,Female,28,cibuľa,48,produces,0.5208
+Slovak,Female,28,cibuľa,48,understands,0
+Slovak,Male,28,cibuľa,38,produces,0.6053
+Slovak,Male,28,cibuľa,38,understands,0
+Slovak,Female,29,cibuľa,36,produces,0.6944
+Slovak,Female,29,cibuľa,36,understands,0
+Slovak,Male,29,cibuľa,39,produces,0.7179
+Slovak,Male,29,cibuľa,39,understands,0
+Slovak,Female,30,cibuľa,19,produces,0.7895
+Slovak,Female,30,cibuľa,19,understands,0
+Slovak,Male,30,cibuľa,30,produces,0.7
+Slovak,Male,30,cibuľa,30,understands,0
+Slovak,Female,31,cibuľa,16,produces,0.625
+Slovak,Female,31,cibuľa,16,understands,0
+Slovak,Male,31,cibuľa,13,produces,0.9231
+Slovak,Male,31,cibuľa,13,understands,0
+Slovak,Female,32,cibuľa,12,produces,0.9167
+Slovak,Female,32,cibuľa,12,understands,0
+Slovak,Male,32,cibuľa,13,produces,0.8462
+Slovak,Male,32,cibuľa,13,understands,0
+Slovak,Female,33,cibuľa,12,produces,1
+Slovak,Female,33,cibuľa,12,understands,0
+Slovak,Male,33,cibuľa,10,produces,0.8
+Slovak,Male,33,cibuľa,10,understands,0
+Slovak,Female,34,cibuľa,17,produces,0.9412
+Slovak,Female,34,cibuľa,17,understands,0
+Slovak,Male,34,cibuľa,10,produces,0.6
+Slovak,Male,34,cibuľa,10,understands,0
+Slovak,Female,35,cibuľa,9,produces,1
+Slovak,Female,35,cibuľa,9,understands,0
+Slovak,Male,35,cibuľa,18,produces,0.6667
+Slovak,Male,35,cibuľa,18,understands,0
+Slovak,Female,36,cibuľa,2,produces,1
+Slovak,Female,36,cibuľa,2,understands,0
+Slovak,Male,36,cibuľa,6,produces,0.6667
+Slovak,Male,36,cibuľa,6,understands,0
+Turkish,Female,16,Soğan,60,produces,0
+Turkish,Female,16,Soğan,60,understands,0
+Turkish,Male,16,Soğan,49,produces,0
+Turkish,Male,16,Soğan,49,understands,0
+Turkish,Female,17,Soğan,50,produces,0.08
+Turkish,Female,17,Soğan,50,understands,0
+Turkish,Male,17,Soğan,57,produces,0.0175
+Turkish,Male,17,Soğan,57,understands,0
+Turkish,Female,18,Soğan,65,produces,0.1077
+Turkish,Female,18,Soğan,65,understands,0
+Turkish,Male,18,Soğan,63,produces,0.0159
+Turkish,Male,18,Soğan,63,understands,0
+Turkish,Female,19,Soğan,63,produces,0.0794
+Turkish,Female,19,Soğan,63,understands,0
+Turkish,Male,19,Soğan,58,produces,0.0862
+Turkish,Male,19,Soğan,58,understands,0
+Turkish,Female,20,Soğan,60,produces,0.1
+Turkish,Female,20,Soğan,60,understands,0
+Turkish,Male,20,Soğan,59,produces,0.1356
+Turkish,Male,20,Soğan,59,understands,0
+Turkish,Female,21,Soğan,55,produces,0.1818
+Turkish,Female,21,Soğan,55,understands,0
+Turkish,Male,21,Soğan,69,produces,0.1449
+Turkish,Male,21,Soğan,69,understands,0
+Turkish,Female,22,Soğan,58,produces,0.1207
+Turkish,Female,22,Soğan,58,understands,0
+Turkish,Male,22,Soğan,68,produces,0.1324
+Turkish,Male,22,Soğan,68,understands,0
+Turkish,Female,23,Soğan,71,produces,0.2676
+Turkish,Female,23,Soğan,71,understands,0
+Turkish,Male,23,Soğan,60,produces,0.1667
+Turkish,Male,23,Soğan,60,understands,0
+Turkish,Female,24,Soğan,54,produces,0.3519
+Turkish,Female,24,Soğan,54,understands,0
+Turkish,Male,24,Soğan,52,produces,0.25
+Turkish,Male,24,Soğan,52,understands,0
+Turkish,Female,25,Soğan,63,produces,0.4286
+Turkish,Female,25,Soğan,63,understands,0
+Turkish,Male,25,Soğan,60,produces,0.3
+Turkish,Male,25,Soğan,60,understands,0
+Turkish,Female,26,Soğan,60,produces,0.5333
+Turkish,Female,26,Soğan,60,understands,0
+Turkish,Male,26,Soğan,63,produces,0.3651
+Turkish,Male,26,Soğan,63,understands,0
+Turkish,Female,27,Soğan,56,produces,0.4464
+Turkish,Female,27,Soğan,56,understands,0
+Turkish,Male,27,Soğan,52,produces,0.4808
+Turkish,Male,27,Soğan,52,understands,0
+Turkish,Female,28,Soğan,62,produces,0.5484
+Turkish,Female,28,Soğan,62,understands,0
+Turkish,Male,28,Soğan,50,produces,0.52
+Turkish,Male,28,Soğan,50,understands,0
+Turkish,Female,29,Soğan,54,produces,0.6481
+Turkish,Female,29,Soğan,54,understands,0
+Turkish,Male,29,Soğan,65,produces,0.4923
+Turkish,Male,29,Soğan,65,understands,0
+Turkish,Female,30,Soğan,56,produces,0.6071
+Turkish,Female,30,Soğan,56,understands,0
+Turkish,Male,30,Soğan,48,produces,0.5625
+Turkish,Male,30,Soğan,48,understands,0
+Turkish,Female,31,Soğan,62,produces,0.5806
+Turkish,Female,31,Soğan,62,understands,0
+Turkish,Male,31,Soğan,39,produces,0.5385
+Turkish,Male,31,Soğan,39,understands,0
+Turkish,Female,32,Soğan,56,produces,0.7321
+Turkish,Female,32,Soğan,56,understands,0
+Turkish,Male,32,Soğan,76,produces,0.5921
+Turkish,Male,32,Soğan,76,understands,0
+Turkish,Female,33,Soğan,59,produces,0.661
+Turkish,Female,33,Soğan,59,understands,0
+Turkish,Male,33,Soğan,55,produces,0.7273
+Turkish,Male,33,Soğan,55,understands,0
+Turkish,Female,34,Soğan,56,produces,0.7143
+Turkish,Female,34,Soğan,56,understands,0
+Turkish,Male,34,Soğan,51,produces,0.6078
+Turkish,Male,34,Soğan,51,understands,0
+Turkish,Female,35,Soğan,69,produces,0.7246
+Turkish,Female,35,Soğan,69,understands,0
+Turkish,Male,35,Soğan,62,produces,0.6935
+Turkish,Male,35,Soğan,62,understands,0
+Turkish,Female,36,Soğan,36,produces,0.8056
+Turkish,Female,36,Soğan,36,understands,0
+Turkish,Male,36,Soğan,41,produces,0.7805
+Turkish,Male,36,Soğan,41,understands,0

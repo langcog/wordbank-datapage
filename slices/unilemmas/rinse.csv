@@ -1,61 +1,181 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),16,冲,70,produces,0.0571
-Mandarin (Beijing),16,冲,70,understands,0
-Mandarin (Beijing),17,冲,72,produces,0.1806
-Mandarin (Beijing),17,冲,72,understands,0
-Mandarin (Beijing),18,冲,71,produces,0.2254
-Mandarin (Beijing),18,冲,71,understands,0
-Mandarin (Beijing),19,冲,70,produces,0.3857
-Mandarin (Beijing),19,冲,70,understands,0
-Mandarin (Beijing),20,冲,71,produces,0.4648
-Mandarin (Beijing),20,冲,71,understands,0
-Mandarin (Beijing),21,冲,70,produces,0.4429
-Mandarin (Beijing),21,冲,70,understands,0
-Mandarin (Beijing),22,冲,71,produces,0.6338
-Mandarin (Beijing),22,冲,71,understands,0
-Mandarin (Beijing),23,冲,70,produces,0.6857
-Mandarin (Beijing),23,冲,70,understands,0
-Mandarin (Beijing),24,冲,70,produces,0.6857
-Mandarin (Beijing),24,冲,70,understands,0
-Mandarin (Beijing),25,冲,70,produces,0.8429
-Mandarin (Beijing),25,冲,70,understands,0
-Mandarin (Beijing),26,冲,71,produces,0.7606
-Mandarin (Beijing),26,冲,71,understands,0
-Mandarin (Beijing),27,冲,70,produces,0.9
-Mandarin (Beijing),27,冲,70,understands,0
-Mandarin (Beijing),28,冲,70,produces,0.8857
-Mandarin (Beijing),28,冲,70,understands,0
-Mandarin (Beijing),29,冲,70,produces,0.9857
-Mandarin (Beijing),29,冲,70,understands,0
-Mandarin (Beijing),30,冲,70,produces,0.9286
-Mandarin (Beijing),30,冲,70,understands,0
-Cantonese,16,沖,46,produces,0
-Cantonese,16,沖,46,understands,0
-Cantonese,17,沖,61,produces,0.0492
-Cantonese,17,沖,61,understands,0
-Cantonese,18,沖,68,produces,0.0882
-Cantonese,18,沖,68,understands,0
-Cantonese,19,沖,66,produces,0.0303
-Cantonese,19,沖,66,understands,0
-Cantonese,20,沖,140,produces,0.15
-Cantonese,20,沖,140,understands,0
-Cantonese,21,沖,120,produces,0.225
-Cantonese,21,沖,120,understands,0
-Cantonese,22,沖,68,produces,0.2353
-Cantonese,22,沖,68,understands,0
-Cantonese,23,沖,74,produces,0.2838
-Cantonese,23,沖,74,understands,0
-Cantonese,24,沖,68,produces,0.4412
-Cantonese,24,沖,68,understands,0
-Cantonese,25,沖,65,produces,0.4923
-Cantonese,25,沖,65,understands,0
-Cantonese,26,沖,68,produces,0.6176
-Cantonese,26,沖,68,understands,0
-Cantonese,27,沖,62,produces,0.5323
-Cantonese,27,沖,62,understands,0
-Cantonese,28,沖,66,produces,0.7121
-Cantonese,28,沖,66,understands,0
-Cantonese,29,沖,72,produces,0.7222
-Cantonese,29,沖,72,understands,0
-Cantonese,30,沖,164,produces,0.7378
-Cantonese,30,沖,164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,沖,46,produces,0
+Cantonese,All,16,沖,46,understands,0
+Cantonese,All,17,沖,61,produces,0.0492
+Cantonese,All,17,沖,61,understands,0
+Cantonese,All,18,沖,68,produces,0.0882
+Cantonese,All,18,沖,68,understands,0
+Cantonese,All,19,沖,66,produces,0.0303
+Cantonese,All,19,沖,66,understands,0
+Cantonese,All,20,沖,140,produces,0.15
+Cantonese,All,20,沖,140,understands,0
+Cantonese,All,21,沖,120,produces,0.225
+Cantonese,All,21,沖,120,understands,0
+Cantonese,All,22,沖,68,produces,0.2353
+Cantonese,All,22,沖,68,understands,0
+Cantonese,All,23,沖,74,produces,0.2838
+Cantonese,All,23,沖,74,understands,0
+Cantonese,All,24,沖,68,produces,0.4412
+Cantonese,All,24,沖,68,understands,0
+Cantonese,All,25,沖,65,produces,0.4923
+Cantonese,All,25,沖,65,understands,0
+Cantonese,All,26,沖,68,produces,0.6176
+Cantonese,All,26,沖,68,understands,0
+Cantonese,All,27,沖,62,produces,0.5323
+Cantonese,All,27,沖,62,understands,0
+Cantonese,All,28,沖,66,produces,0.7121
+Cantonese,All,28,沖,66,understands,0
+Cantonese,All,29,沖,72,produces,0.7222
+Cantonese,All,29,沖,72,understands,0
+Cantonese,All,30,沖,164,produces,0.7378
+Cantonese,All,30,沖,164,understands,0
+Mandarin (Beijing),All,16,冲,70,produces,0.0571
+Mandarin (Beijing),All,16,冲,70,understands,0
+Mandarin (Beijing),All,17,冲,72,produces,0.1806
+Mandarin (Beijing),All,17,冲,72,understands,0
+Mandarin (Beijing),All,18,冲,71,produces,0.2254
+Mandarin (Beijing),All,18,冲,71,understands,0
+Mandarin (Beijing),All,19,冲,70,produces,0.3857
+Mandarin (Beijing),All,19,冲,70,understands,0
+Mandarin (Beijing),All,20,冲,71,produces,0.4648
+Mandarin (Beijing),All,20,冲,71,understands,0
+Mandarin (Beijing),All,21,冲,70,produces,0.4429
+Mandarin (Beijing),All,21,冲,70,understands,0
+Mandarin (Beijing),All,22,冲,71,produces,0.6338
+Mandarin (Beijing),All,22,冲,71,understands,0
+Mandarin (Beijing),All,23,冲,70,produces,0.6857
+Mandarin (Beijing),All,23,冲,70,understands,0
+Mandarin (Beijing),All,24,冲,70,produces,0.6857
+Mandarin (Beijing),All,24,冲,70,understands,0
+Mandarin (Beijing),All,25,冲,70,produces,0.8429
+Mandarin (Beijing),All,25,冲,70,understands,0
+Mandarin (Beijing),All,26,冲,71,produces,0.7606
+Mandarin (Beijing),All,26,冲,71,understands,0
+Mandarin (Beijing),All,27,冲,70,produces,0.9
+Mandarin (Beijing),All,27,冲,70,understands,0
+Mandarin (Beijing),All,28,冲,70,produces,0.8857
+Mandarin (Beijing),All,28,冲,70,understands,0
+Mandarin (Beijing),All,29,冲,70,produces,0.9857
+Mandarin (Beijing),All,29,冲,70,understands,0
+Mandarin (Beijing),All,30,冲,70,produces,0.9286
+Mandarin (Beijing),All,30,冲,70,understands,0
+Cantonese,Female,16,沖,23,produces,0
+Cantonese,Female,16,沖,23,understands,0
+Cantonese,Male,16,沖,23,produces,0
+Cantonese,Male,16,沖,23,understands,0
+Cantonese,Female,17,沖,30,produces,0
+Cantonese,Female,17,沖,30,understands,0
+Cantonese,Male,17,沖,31,produces,0.0968
+Cantonese,Male,17,沖,31,understands,0
+Cantonese,Female,18,沖,33,produces,0.1818
+Cantonese,Female,18,沖,33,understands,0
+Cantonese,Male,18,沖,35,produces,0
+Cantonese,Male,18,沖,35,understands,0
+Cantonese,Female,19,沖,30,produces,0
+Cantonese,Female,19,沖,30,understands,0
+Cantonese,Male,19,沖,36,produces,0.0556
+Cantonese,Male,19,沖,36,understands,0
+Cantonese,Female,20,沖,62,produces,0.1613
+Cantonese,Female,20,沖,62,understands,0
+Cantonese,Male,20,沖,78,produces,0.141
+Cantonese,Male,20,沖,78,understands,0
+Cantonese,Female,21,沖,57,produces,0.2632
+Cantonese,Female,21,沖,57,understands,0
+Cantonese,Male,21,沖,63,produces,0.1905
+Cantonese,Male,21,沖,63,understands,0
+Cantonese,Female,22,沖,34,produces,0.3824
+Cantonese,Female,22,沖,34,understands,0
+Cantonese,Male,22,沖,34,produces,0.0882
+Cantonese,Male,22,沖,34,understands,0
+Cantonese,Female,23,沖,37,produces,0.3514
+Cantonese,Female,23,沖,37,understands,0
+Cantonese,Male,23,沖,37,produces,0.2162
+Cantonese,Male,23,沖,37,understands,0
+Cantonese,Female,24,沖,32,produces,0.5
+Cantonese,Female,24,沖,32,understands,0
+Cantonese,Male,24,沖,36,produces,0.3889
+Cantonese,Male,24,沖,36,understands,0
+Cantonese,Female,25,沖,31,produces,0.5806
+Cantonese,Female,25,沖,31,understands,0
+Cantonese,Male,25,沖,34,produces,0.4118
+Cantonese,Male,25,沖,34,understands,0
+Cantonese,Female,26,沖,31,produces,0.6129
+Cantonese,Female,26,沖,31,understands,0
+Cantonese,Male,26,沖,37,produces,0.6216
+Cantonese,Male,26,沖,37,understands,0
+Cantonese,Female,27,沖,31,produces,0.6129
+Cantonese,Female,27,沖,31,understands,0
+Cantonese,Male,27,沖,31,produces,0.4516
+Cantonese,Male,27,沖,31,understands,0
+Cantonese,Female,28,沖,32,produces,0.8125
+Cantonese,Female,28,沖,32,understands,0
+Cantonese,Male,28,沖,34,produces,0.6176
+Cantonese,Male,28,沖,34,understands,0
+Cantonese,Female,29,沖,36,produces,0.6944
+Cantonese,Female,29,沖,36,understands,0
+Cantonese,Male,29,沖,36,produces,0.75
+Cantonese,Male,29,沖,36,understands,0
+Cantonese,Female,30,沖,76,produces,0.8158
+Cantonese,Female,30,沖,76,understands,0
+Cantonese,Male,30,沖,88,produces,0.6705
+Cantonese,Male,30,沖,88,understands,0
+Mandarin (Beijing),Female,16,冲,35,produces,0.0857
+Mandarin (Beijing),Female,16,冲,35,understands,0
+Mandarin (Beijing),Male,16,冲,35,produces,0.0286
+Mandarin (Beijing),Male,16,冲,35,understands,0
+Mandarin (Beijing),Female,17,冲,35,produces,0.1714
+Mandarin (Beijing),Female,17,冲,35,understands,0
+Mandarin (Beijing),Male,17,冲,37,produces,0.1892
+Mandarin (Beijing),Male,17,冲,37,understands,0
+Mandarin (Beijing),Female,18,冲,35,produces,0.2286
+Mandarin (Beijing),Female,18,冲,35,understands,0
+Mandarin (Beijing),Male,18,冲,36,produces,0.2222
+Mandarin (Beijing),Male,18,冲,36,understands,0
+Mandarin (Beijing),Female,19,冲,35,produces,0.5429
+Mandarin (Beijing),Female,19,冲,35,understands,0
+Mandarin (Beijing),Male,19,冲,35,produces,0.2286
+Mandarin (Beijing),Male,19,冲,35,understands,0
+Mandarin (Beijing),Female,20,冲,35,produces,0.4857
+Mandarin (Beijing),Female,20,冲,35,understands,0
+Mandarin (Beijing),Male,20,冲,36,produces,0.4444
+Mandarin (Beijing),Male,20,冲,36,understands,0
+Mandarin (Beijing),Female,21,冲,35,produces,0.4857
+Mandarin (Beijing),Female,21,冲,35,understands,0
+Mandarin (Beijing),Male,21,冲,35,produces,0.4
+Mandarin (Beijing),Male,21,冲,35,understands,0
+Mandarin (Beijing),Female,22,冲,35,produces,0.6857
+Mandarin (Beijing),Female,22,冲,35,understands,0
+Mandarin (Beijing),Male,22,冲,36,produces,0.5833
+Mandarin (Beijing),Male,22,冲,36,understands,0
+Mandarin (Beijing),Female,23,冲,35,produces,0.6857
+Mandarin (Beijing),Female,23,冲,35,understands,0
+Mandarin (Beijing),Male,23,冲,35,produces,0.6857
+Mandarin (Beijing),Male,23,冲,35,understands,0
+Mandarin (Beijing),Female,24,冲,35,produces,0.7143
+Mandarin (Beijing),Female,24,冲,35,understands,0
+Mandarin (Beijing),Male,24,冲,35,produces,0.6571
+Mandarin (Beijing),Male,24,冲,35,understands,0
+Mandarin (Beijing),Female,25,冲,35,produces,0.8286
+Mandarin (Beijing),Female,25,冲,35,understands,0
+Mandarin (Beijing),Male,25,冲,35,produces,0.8571
+Mandarin (Beijing),Male,25,冲,35,understands,0
+Mandarin (Beijing),Female,26,冲,36,produces,0.7222
+Mandarin (Beijing),Female,26,冲,36,understands,0
+Mandarin (Beijing),Male,26,冲,35,produces,0.8
+Mandarin (Beijing),Male,26,冲,35,understands,0
+Mandarin (Beijing),Female,27,冲,35,produces,0.8571
+Mandarin (Beijing),Female,27,冲,35,understands,0
+Mandarin (Beijing),Male,27,冲,35,produces,0.9429
+Mandarin (Beijing),Male,27,冲,35,understands,0
+Mandarin (Beijing),Female,28,冲,35,produces,0.9429
+Mandarin (Beijing),Female,28,冲,35,understands,0
+Mandarin (Beijing),Male,28,冲,35,produces,0.8286
+Mandarin (Beijing),Male,28,冲,35,understands,0
+Mandarin (Beijing),Female,29,冲,35,produces,1
+Mandarin (Beijing),Female,29,冲,35,understands,0
+Mandarin (Beijing),Male,29,冲,35,produces,0.9714
+Mandarin (Beijing),Male,29,冲,35,understands,0
+Mandarin (Beijing),Female,30,冲,35,produces,0.9429
+Mandarin (Beijing),Female,30,冲,35,understands,0
+Mandarin (Beijing),Male,30,冲,35,produces,0.9143
+Mandarin (Beijing),Male,30,冲,35,understands,0

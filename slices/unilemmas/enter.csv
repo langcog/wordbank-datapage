@@ -1,605 +1,1789 @@
-language,age,words,n,measure,prop
-Italian,18,entrare,31,produces,0.0323
-Italian,18,entrare,31,understands,0
-Italian,19,entrare,39,produces,0.0513
-Italian,19,entrare,39,understands,0
-Italian,20,entrare,64,produces,0.0938
-Italian,20,entrare,64,understands,0
-Italian,21,entrare,55,produces,0.0727
-Italian,21,entrare,55,understands,0
-Italian,22,entrare,55,produces,0.2545
-Italian,22,entrare,55,understands,0
-Italian,23,entrare,53,produces,0.3208
-Italian,23,entrare,53,understands,0
-Italian,24,entrare,71,produces,0.3521
-Italian,24,entrare,71,understands,0
-Italian,25,entrare,39,produces,0.5385
-Italian,25,entrare,39,understands,0
-Italian,26,entrare,41,produces,0.5366
-Italian,26,entrare,41,understands,0
-Italian,27,entrare,43,produces,0.5349
-Italian,27,entrare,43,understands,0
-Italian,28,entrare,44,produces,0.6818
-Italian,28,entrare,44,understands,0
-Italian,29,entrare,37,produces,0.7027
-Italian,29,entrare,37,understands,0
-Italian,30,entrare,67,produces,0.7164
-Italian,30,entrare,67,understands,0
-Italian,31,entrare,19,produces,0.7368
-Italian,31,entrare,19,understands,0
-Italian,32,entrare,23,produces,0.6522
-Italian,32,entrare,23,understands,0
-Italian,33,entrare,16,produces,0.8125
-Italian,33,entrare,16,understands,0
-Italian,34,entrare,19,produces,0.9474
-Italian,34,entrare,19,understands,0
-Italian,35,entrare,15,produces,0.8667
-Italian,35,entrare,15,understands,0
-Italian,36,entrare,21,produces,0.8095
-Italian,36,entrare,21,understands,0
-Japanese,8,はいる（入る）,6,produces,0
-Japanese,8,はいる（入る）,6,understands,0
-Japanese,9,はいる（入る）,10,produces,0
-Japanese,9,はいる（入る）,10,understands,0
-Japanese,10,はいる（入る）,8,produces,0
-Japanese,10,はいる（入る）,8,understands,0
-Japanese,11,はいる（入る）,87,produces,0
-Japanese,11,はいる（入る）,87,understands,0.023
-Japanese,12,はいる（入る）,118,produces,0
-Japanese,12,はいる（入る）,118,understands,0.0339
-Japanese,13,はいる（入る）,23,produces,0
-Japanese,13,はいる（入る）,23,understands,0.1304
-Japanese,14,はいる（入る）,26,produces,0
-Japanese,14,はいる（入る）,26,understands,0.1154
-Japanese,15,はいる（入る）,72,produces,0
-Japanese,15,はいる（入る）,72,understands,0.2083
-Japanese,16,はいる（入る）,46,produces,0.0217
-Japanese,16,はいる（入る）,46,understands,0.087
-Japanese,17,はいる（入る）,77,produces,0
-Japanese,17,はいる（入る）,77,understands,0.2597
-Japanese,18,はいる（入る）,94,produces,0.0213
-Japanese,18,はいる（入る）,94,understands,0.1383
-Japanese,19,はいる（入る）,35,produces,0
-Japanese,19,はいる（入る）,35,understands,0
-Japanese,20,はいる（入る）,59,produces,0.0678
-Japanese,20,はいる（入る）,59,understands,0
-Japanese,21,はいる（入る）,62,produces,0.0968
-Japanese,21,はいる（入る）,62,understands,0
-Japanese,22,はいる（入る）,31,produces,0.0968
-Japanese,22,はいる（入る）,31,understands,0
-Japanese,23,はいる（入る）,67,produces,0.209
-Japanese,23,はいる（入る）,67,understands,0
-Japanese,24,はいる（入る）,33,produces,0.3636
-Japanese,24,はいる（入る）,33,understands,0
-Japanese,25,はいる（入る）,34,produces,0.4118
-Japanese,25,はいる（入る）,34,understands,0
-Japanese,26,はいる（入る）,33,produces,0.3939
-Japanese,26,はいる（入る）,33,understands,0
-Japanese,27,はいる（入る）,15,produces,0.4667
-Japanese,27,はいる（入る）,15,understands,0
-Japanese,28,はいる（入る）,18,produces,0.3333
-Japanese,28,はいる（入る）,18,understands,0
-Japanese,29,はいる（入る）,17,produces,0.5882
-Japanese,29,はいる（入る）,17,understands,0
-Japanese,30,はいる（入る）,18,produces,0.3889
-Japanese,30,はいる（入る）,18,understands,0
-Japanese,31,はいる（入る）,18,produces,0.6111
-Japanese,31,はいる（入る）,18,understands,0
-Japanese,32,はいる（入る）,13,produces,0.6923
-Japanese,32,はいる（入る）,13,understands,0
-Japanese,33,はいる（入る）,16,produces,0.875
-Japanese,33,はいる（入る）,16,understands,0
-Japanese,34,はいる（入る）,13,produces,0.6154
-Japanese,34,はいる（入る）,13,understands,0
-Japanese,35,はいる（入る）,31,produces,0.7097
-Japanese,35,はいる（入る）,31,understands,0
-Japanese,36,はいる（入る）,18,produces,0.7222
-Japanese,36,はいる（入る）,18,understands,0
-Korean,18,"들어가, (차에)타",88,produces,0.1648
-Korean,18,"들어가, (차에)타",88,understands,0
-Korean,19,"들어가, (차에)타",77,produces,0.1558
-Korean,19,"들어가, (차에)타",77,understands,0
-Korean,20,"들어가, (차에)타",88,produces,0.125
-Korean,20,"들어가, (차에)타",88,understands,0
-Korean,21,"들어가, (차에)타",79,produces,0.2468
-Korean,21,"들어가, (차에)타",79,understands,0
-Korean,22,"들어가, (차에)타",87,produces,0.3218
-Korean,22,"들어가, (차에)타",87,understands,0
-Korean,23,"들어가, (차에)타",87,produces,0.3563
-Korean,23,"들어가, (차에)타",87,understands,0
-Korean,24,"들어가, (차에)타",107,produces,0.4252
-Korean,24,"들어가, (차에)타",107,understands,0
-Korean,25,"들어가, (차에)타",95,produces,0.5526
-Korean,25,"들어가, (차에)타",95,understands,0
-Korean,26,"들어가, (차에)타",91,produces,0.4945
-Korean,26,"들어가, (차에)타",91,understands,0
-Korean,27,"들어가, (차에)타",104,produces,0.5481
-Korean,27,"들어가, (차에)타",104,understands,0
-Korean,28,"들어가, (차에)타",89,produces,0.691
-Korean,28,"들어가, (차에)타",89,understands,0
-Korean,29,"들어가, (차에)타",101,produces,0.7327
-Korean,29,"들어가, (차에)타",101,understands,0
-Korean,30,"들어가, (차에)타",81,produces,0.7469
-Korean,30,"들어가, (차에)타",81,understands,0
-Korean,31,"들어가, (차에)타",79,produces,0.7532
-Korean,31,"들어가, (차에)타",79,understands,0
-Korean,32,"들어가, (차에)타",70,produces,0.7143
-Korean,32,"들어가, (차에)타",70,understands,0
-Korean,33,"들어가, (차에)타",79,produces,0.6835
-Korean,33,"들어가, (차에)타",79,understands,0
-Korean,34,"들어가, (차에)타",79,produces,0.8481
-Korean,34,"들어가, (차에)타",79,understands,0
-Korean,35,"들어가, (차에)타",74,produces,0.8176
-Korean,35,"들어가, (차에)타",74,understands,0
-Korean,36,"들어가, (차에)타",75,produces,0.8933
-Korean,36,"들어가, (차에)타",75,understands,0
-Mandarin (Beijing),16,进去,70,produces,0.0571
-Mandarin (Beijing),16,进去,70,understands,0
-Mandarin (Beijing),17,进去,72,produces,0.0833
-Mandarin (Beijing),17,进去,72,understands,0
-Mandarin (Beijing),18,进去,71,produces,0.1831
-Mandarin (Beijing),18,进去,71,understands,0
-Mandarin (Beijing),19,进去,70,produces,0.3286
-Mandarin (Beijing),19,进去,70,understands,0
-Mandarin (Beijing),20,进去,71,produces,0.4225
-Mandarin (Beijing),20,进去,71,understands,0
-Mandarin (Beijing),21,进去,70,produces,0.6286
-Mandarin (Beijing),21,进去,70,understands,0
-Mandarin (Beijing),22,进去,71,produces,0.7324
-Mandarin (Beijing),22,进去,71,understands,0
-Mandarin (Beijing),23,进去,70,produces,0.7857
-Mandarin (Beijing),23,进去,70,understands,0
-Mandarin (Beijing),24,进去,70,produces,0.8286
-Mandarin (Beijing),24,进去,70,understands,0
-Mandarin (Beijing),25,进去,70,produces,0.9286
-Mandarin (Beijing),25,进去,70,understands,0
-Mandarin (Beijing),26,进去,71,produces,0.9296
-Mandarin (Beijing),26,进去,71,understands,0
-Mandarin (Beijing),27,进去,70,produces,0.9
-Mandarin (Beijing),27,进去,70,understands,0
-Mandarin (Beijing),28,进去,70,produces,0.9286
-Mandarin (Beijing),28,进去,70,understands,0
-Mandarin (Beijing),29,进去,70,produces,0.9857
-Mandarin (Beijing),29,进去,70,understands,0
-Mandarin (Beijing),30,进去,70,produces,0.9714
-Mandarin (Beijing),30,进去,70,understands,0
-Portuguese (European),8,Entrar,126,produces,0
-Portuguese (European),8,Entrar,126,understands,0
-Portuguese (European),9,Entrar,148,produces,0
-Portuguese (European),9,Entrar,148,understands,0.0473
-Portuguese (European),10,Entrar,168,produces,0
-Portuguese (European),10,Entrar,168,understands,0.0298
-Portuguese (European),11,Entrar,179,produces,0
-Portuguese (European),11,Entrar,179,understands,0.0168
-Portuguese (European),12,Entrar,161,produces,0
-Portuguese (European),12,Entrar,161,understands,0.118
-Portuguese (European),13,Entrar,176,produces,0
-Portuguese (European),13,Entrar,176,understands,0.1705
-Portuguese (European),14,Entrar,183,produces,0
-Portuguese (European),14,Entrar,183,understands,0.2459
-Portuguese (European),15,Entrar,173,produces,0
-Portuguese (European),15,Entrar,173,understands,0.3931
-Portuguese (European),16,Entrar,144,produces,0
-Portuguese (European),16,Entrar,144,understands,0
-Portuguese (European),17,Entrar,158,produces,0.0063
-Portuguese (European),17,Entrar,158,understands,0
-Portuguese (European),18,Entrar,203,produces,0.0246
-Portuguese (European),18,Entrar,203,understands,0
-Portuguese (European),19,Entrar,196,produces,0.0408
-Portuguese (European),19,Entrar,196,understands,0
-Portuguese (European),20,Entrar,218,produces,0.078
-Portuguese (European),20,Entrar,218,understands,0
-Portuguese (European),21,Entrar,208,produces,0.0769
-Portuguese (European),21,Entrar,208,understands,0
-Portuguese (European),22,Entrar,213,produces,0.1362
-Portuguese (European),22,Entrar,213,understands,0
-Portuguese (European),23,Entrar,199,produces,0.196
-Portuguese (European),23,Entrar,199,understands,0
-Portuguese (European),24,Entrar,215,produces,0.2698
-Portuguese (European),24,Entrar,215,understands,0
-Portuguese (European),25,Entrar,213,produces,0.3615
-Portuguese (European),25,Entrar,213,understands,0
-Portuguese (European),26,Entrar,218,produces,0.3991
-Portuguese (European),26,Entrar,218,understands,0
-Portuguese (European),27,Entrar,238,produces,0.4538
-Portuguese (European),27,Entrar,238,understands,0
-Portuguese (European),28,Entrar,219,produces,0.5388
-Portuguese (European),28,Entrar,219,understands,0
-Portuguese (European),29,Entrar,207,produces,0.5652
-Portuguese (European),29,Entrar,207,understands,0
-Portuguese (European),30,Entrar,163,produces,0.6319
-Portuguese (European),30,Entrar,163,understands,0
-Spanish (Argentinian),16,entrar,47,produces,0.0213
-Spanish (Argentinian),16,entrar,47,understands,0
-Spanish (Argentinian),17,entrar,49,produces,0.0408
-Spanish (Argentinian),17,entrar,49,understands,0
-Spanish (Argentinian),18,entrar,62,produces,0.0323
-Spanish (Argentinian),18,entrar,62,understands,0
-Spanish (Argentinian),19,entrar,44,produces,0.0682
-Spanish (Argentinian),19,entrar,44,understands,0
-Spanish (Argentinian),20,entrar,46,produces,0.087
-Spanish (Argentinian),20,entrar,46,understands,0
-Spanish (Argentinian),21,entrar,41,produces,0.122
-Spanish (Argentinian),21,entrar,41,understands,0
-Spanish (Argentinian),22,entrar,57,produces,0.1053
-Spanish (Argentinian),22,entrar,57,understands,0
-Spanish (Argentinian),23,entrar,49,produces,0.102
-Spanish (Argentinian),23,entrar,49,understands,0
-Spanish (Argentinian),24,entrar,75,produces,0.24
-Spanish (Argentinian),24,entrar,75,understands,0
-Spanish (Argentinian),25,entrar,43,produces,0.4186
-Spanish (Argentinian),25,entrar,43,understands,0
-Spanish (Argentinian),26,entrar,45,produces,0.1556
-Spanish (Argentinian),26,entrar,45,understands,0
-Spanish (Argentinian),27,entrar,44,produces,0.2273
-Spanish (Argentinian),27,entrar,44,understands,0
-Spanish (Argentinian),28,entrar,42,produces,0.3095
-Spanish (Argentinian),28,entrar,42,understands,0
-Spanish (Argentinian),29,entrar,65,produces,0.3385
-Spanish (Argentinian),29,entrar,65,understands,0
-Spanish (Argentinian),30,entrar,69,produces,0.5652
-Spanish (Argentinian),30,entrar,69,understands,0
-Spanish (Argentinian),31,entrar,2,produces,0
-Spanish (Argentinian),31,entrar,2,understands,0
-Spanish (Argentinian),32,entrar,1,produces,1
-Spanish (Argentinian),32,entrar,1,understands,0
-Spanish (Argentinian),33,entrar,2,produces,0.5
-Spanish (Argentinian),33,entrar,2,understands,0
-Spanish (European),16,entrar,39,produces,0
-Spanish (European),16,entrar,39,understands,0
-Spanish (European),17,entrar,39,produces,0
-Spanish (European),17,entrar,39,understands,0
-Spanish (European),18,entrar,50,produces,0.02
-Spanish (European),18,entrar,50,understands,0
-Spanish (European),19,entrar,27,produces,0.0741
-Spanish (European),19,entrar,27,understands,0
-Spanish (European),20,entrar,36,produces,0.1111
-Spanish (European),20,entrar,36,understands,0
-Spanish (European),21,entrar,41,produces,0.1951
-Spanish (European),21,entrar,41,understands,0
-Spanish (European),22,entrar,38,produces,0.1842
-Spanish (European),22,entrar,38,understands,0
-Spanish (European),23,entrar,30,produces,0.3333
-Spanish (European),23,entrar,30,understands,0
-Spanish (European),24,entrar,55,produces,0.3636
-Spanish (European),24,entrar,55,understands,0
-Spanish (European),25,entrar,35,produces,0.3143
-Spanish (European),25,entrar,35,understands,0
-Spanish (European),26,entrar,49,produces,0.5102
-Spanish (European),26,entrar,49,understands,0
-Spanish (European),27,entrar,34,produces,0.6471
-Spanish (European),27,entrar,34,understands,0
-Spanish (European),28,entrar,38,produces,0.6053
-Spanish (European),28,entrar,38,understands,0
-Spanish (European),29,entrar,41,produces,0.6829
-Spanish (European),29,entrar,41,understands,0
-Spanish (European),30,entrar,41,produces,0.7317
-Spanish (European),30,entrar,41,understands,0
-Spanish (Mexican),16,entrar,68,produces,0.0735
-Spanish (Mexican),16,entrar,68,understands,0
-Spanish (Mexican),17,entrar,59,produces,0.0847
-Spanish (Mexican),17,entrar,59,understands,0
-Spanish (Mexican),18,entrar,75,produces,0.0533
-Spanish (Mexican),18,entrar,75,understands,0
-Spanish (Mexican),19,entrar,100,produces,0.18
-Spanish (Mexican),19,entrar,100,understands,0
-Spanish (Mexican),20,entrar,107,produces,0.1682
-Spanish (Mexican),20,entrar,107,understands,0
-Spanish (Mexican),21,entrar,84,produces,0.1429
-Spanish (Mexican),21,entrar,84,understands,0
-Spanish (Mexican),22,entrar,141,produces,0.1206
-Spanish (Mexican),22,entrar,141,understands,0
-Spanish (Mexican),23,entrar,91,produces,0.1099
-Spanish (Mexican),23,entrar,91,understands,0
-Spanish (Mexican),24,entrar,126,produces,0.3016
-Spanish (Mexican),24,entrar,126,understands,0
-Spanish (Mexican),25,entrar,177,produces,0.2429
-Spanish (Mexican),25,entrar,177,understands,0
-Spanish (Mexican),26,entrar,83,produces,0.4096
-Spanish (Mexican),26,entrar,83,understands,0
-Spanish (Mexican),27,entrar,85,produces,0.5059
-Spanish (Mexican),27,entrar,85,understands,0
-Spanish (Mexican),28,entrar,89,produces,0.4157
-Spanish (Mexican),28,entrar,89,understands,0
-Spanish (Mexican),29,entrar,89,produces,0.5618
-Spanish (Mexican),29,entrar,89,understands,0
-Spanish (Mexican),30,entrar,308,produces,0.3344
-Spanish (Mexican),30,entrar,308,understands,0
-Spanish (Peruvian),16,"caber/entrar, entrar (a alguna parte)",13,produces,0
-Spanish (Peruvian),16,"caber/entrar, entrar (a alguna parte)",13,understands,0
-Spanish (Peruvian),17,"caber/entrar, entrar (a alguna parte)",9,produces,0.1667
-Spanish (Peruvian),17,"caber/entrar, entrar (a alguna parte)",9,understands,0
-Spanish (Peruvian),18,"caber/entrar, entrar (a alguna parte)",4,produces,0
-Spanish (Peruvian),18,"caber/entrar, entrar (a alguna parte)",4,understands,0
-Spanish (Peruvian),19,"caber/entrar, entrar (a alguna parte)",12,produces,0.375
-Spanish (Peruvian),19,"caber/entrar, entrar (a alguna parte)",12,understands,0
-Spanish (Peruvian),20,"caber/entrar, entrar (a alguna parte)",1,produces,0
-Spanish (Peruvian),20,"caber/entrar, entrar (a alguna parte)",1,understands,0
-Spanish (Peruvian),21,"caber/entrar, entrar (a alguna parte)",5,produces,0.2
-Spanish (Peruvian),21,"caber/entrar, entrar (a alguna parte)",5,understands,0
-Spanish (Peruvian),22,"caber/entrar, entrar (a alguna parte)",9,produces,0.2778
-Spanish (Peruvian),22,"caber/entrar, entrar (a alguna parte)",9,understands,0
-Spanish (Peruvian),23,"caber/entrar, entrar (a alguna parte)",1,produces,1
-Spanish (Peruvian),23,"caber/entrar, entrar (a alguna parte)",1,understands,0
-Spanish (Peruvian),24,"caber/entrar, entrar (a alguna parte)",15,produces,0.1
-Spanish (Peruvian),24,"caber/entrar, entrar (a alguna parte)",15,understands,0
-Spanish (Peruvian),25,"caber/entrar, entrar (a alguna parte)",5,produces,0
-Spanish (Peruvian),25,"caber/entrar, entrar (a alguna parte)",5,understands,0
-Spanish (Peruvian),26,"caber/entrar, entrar (a alguna parte)",8,produces,0.1875
-Spanish (Peruvian),26,"caber/entrar, entrar (a alguna parte)",8,understands,0
-Spanish (Peruvian),27,"caber/entrar, entrar (a alguna parte)",7,produces,0.1429
-Spanish (Peruvian),27,"caber/entrar, entrar (a alguna parte)",7,understands,0
-Spanish (Peruvian),28,"caber/entrar, entrar (a alguna parte)",8,produces,0.5
-Spanish (Peruvian),28,"caber/entrar, entrar (a alguna parte)",8,understands,0
-Spanish (Peruvian),29,"caber/entrar, entrar (a alguna parte)",6,produces,0.3333
-Spanish (Peruvian),29,"caber/entrar, entrar (a alguna parte)",6,understands,0
-Spanish (Peruvian),30,"caber/entrar, entrar (a alguna parte)",2,produces,0.25
-Spanish (Peruvian),30,"caber/entrar, entrar (a alguna parte)",2,understands,0
-Turkish,8,Gir,140,produces,0
-Turkish,8,Gir,140,understands,0.0429
-Turkish,9,Gir,125,produces,0
-Turkish,9,Gir,125,understands,0.056
-Turkish,10,Gir,130,produces,0.0077
-Turkish,10,Gir,130,understands,0.0769
-Turkish,11,Gir,125,produces,0
-Turkish,11,Gir,125,understands,0.16
-Turkish,12,Gir,120,produces,0.0083
-Turkish,12,Gir,120,understands,0.2583
-Turkish,13,Gir,122,produces,0
-Turkish,13,Gir,122,understands,0.3033
-Turkish,14,Gir,147,produces,0.0272
-Turkish,14,Gir,147,understands,0.4286
-Turkish,15,Gir,131,produces,0.0305
-Turkish,15,Gir,131,understands,0.4733
-Turkish,16,Gir,184,produces,0.0217
-Turkish,16,Gir,184,understands,0.2283
-Turkish,17,Gir,107,produces,0.0935
-Turkish,17,Gir,107,understands,0
-Turkish,18,Gir,128,produces,0.0703
-Turkish,18,Gir,128,understands,0
-Turkish,19,Gir,121,produces,0.157
-Turkish,19,Gir,121,understands,0
-Turkish,20,Gir,119,produces,0.1681
-Turkish,20,Gir,119,understands,0
-Turkish,21,Gir,124,produces,0.25
-Turkish,21,Gir,124,understands,0
-Turkish,22,Gir,126,produces,0.246
-Turkish,22,Gir,126,understands,0
-Turkish,23,Gir,131,produces,0.2443
-Turkish,23,Gir,131,understands,0
-Turkish,24,Gir,106,produces,0.3868
-Turkish,24,Gir,106,understands,0
-Turkish,25,Gir,123,produces,0.4309
-Turkish,25,Gir,123,understands,0
-Turkish,26,Gir,123,produces,0.5285
-Turkish,26,Gir,123,understands,0
-Turkish,27,Gir,108,produces,0.5926
-Turkish,27,Gir,108,understands,0
-Turkish,28,Gir,112,produces,0.5893
-Turkish,28,Gir,112,understands,0
-Turkish,29,Gir,119,produces,0.605
-Turkish,29,Gir,119,understands,0
-Turkish,30,Gir,104,produces,0.7308
-Turkish,30,Gir,104,understands,0
-Turkish,31,Gir,101,produces,0.6733
-Turkish,31,Gir,101,understands,0
-Turkish,32,Gir,132,produces,0.75
-Turkish,32,Gir,132,understands,0
-Turkish,33,Gir,114,produces,0.7807
-Turkish,33,Gir,114,understands,0
-Turkish,34,Gir,107,produces,0.757
-Turkish,34,Gir,107,understands,0
-Turkish,35,Gir,131,produces,0.8397
-Turkish,35,Gir,131,understands,0
-Turkish,36,Gir,77,produces,0.8701
-Turkish,36,Gir,77,understands,0
-American Sign Language,8,ENTER,1,produces,0
-American Sign Language,8,ENTER,1,understands,0
-American Sign Language,9,ENTER,4,produces,0
-American Sign Language,9,ENTER,4,understands,0.25
-American Sign Language,10,ENTER,5,produces,0
-American Sign Language,10,ENTER,5,understands,0
-American Sign Language,11,ENTER,3,produces,0
-American Sign Language,11,ENTER,3,understands,0
-American Sign Language,12,ENTER,4,produces,0
-American Sign Language,12,ENTER,4,understands,0
-American Sign Language,13,ENTER,4,produces,0
-American Sign Language,13,ENTER,4,understands,0
-American Sign Language,14,ENTER,1,produces,0
-American Sign Language,14,ENTER,1,understands,0
-American Sign Language,15,ENTER,3,produces,0
-American Sign Language,15,ENTER,3,understands,0
-American Sign Language,16,ENTER,2,produces,0
-American Sign Language,16,ENTER,2,understands,0.5
-American Sign Language,17,ENTER,5,produces,0
-American Sign Language,17,ENTER,5,understands,0.4
-American Sign Language,18,ENTER,11,produces,0.0909
-American Sign Language,18,ENTER,11,understands,0.3636
-American Sign Language,19,ENTER,6,produces,0
-American Sign Language,19,ENTER,6,understands,0.1667
-American Sign Language,20,ENTER,3,produces,0
-American Sign Language,20,ENTER,3,understands,0
-American Sign Language,21,ENTER,4,produces,0
-American Sign Language,21,ENTER,4,understands,0.5
-American Sign Language,22,ENTER,10,produces,0
-American Sign Language,22,ENTER,10,understands,0.1
-American Sign Language,23,ENTER,5,produces,0
-American Sign Language,23,ENTER,5,understands,0.4
-American Sign Language,24,ENTER,9,produces,0.1111
-American Sign Language,24,ENTER,9,understands,0.1111
-American Sign Language,25,ENTER,13,produces,0
-American Sign Language,25,ENTER,13,understands,0.6923
-American Sign Language,26,ENTER,4,produces,0.25
-American Sign Language,26,ENTER,4,understands,0.75
-American Sign Language,27,ENTER,7,produces,0.1429
-American Sign Language,27,ENTER,7,understands,0.4286
-American Sign Language,28,ENTER,7,produces,0.2857
-American Sign Language,28,ENTER,7,understands,0.5714
-American Sign Language,29,ENTER,6,produces,0.3333
-American Sign Language,29,ENTER,6,understands,0.8333
-American Sign Language,30,ENTER,7,produces,0.2857
-American Sign Language,30,ENTER,7,understands,0.4286
-American Sign Language,31,ENTER,9,produces,0.1111
-American Sign Language,31,ENTER,9,understands,0.4444
-American Sign Language,32,ENTER,15,produces,0.2
-American Sign Language,32,ENTER,15,understands,0.4
-American Sign Language,33,ENTER,6,produces,0.1667
-American Sign Language,33,ENTER,6,understands,0.3333
-American Sign Language,34,ENTER,7,produces,0.7143
-American Sign Language,34,ENTER,7,understands,0.7143
-American Sign Language,35,ENTER,7,produces,0.4286
-American Sign Language,35,ENTER,7,understands,0.5714
-American Sign Language,36,ENTER,3,produces,0
-American Sign Language,36,ENTER,3,understands,0.6667
-Arabic (Saudi),8,"يدخل, ادخل/ يدخل",24,produces,0
-Arabic (Saudi),8,"يدخل, ادخل/ يدخل",24,understands,0.0833
-Arabic (Saudi),9,"يدخل, ادخل/ يدخل",27,produces,0
-Arabic (Saudi),9,"يدخل, ادخل/ يدخل",27,understands,0
-Arabic (Saudi),10,"يدخل, ادخل/ يدخل",35,produces,0
-Arabic (Saudi),10,"يدخل, ادخل/ يدخل",35,understands,0.0571
-Arabic (Saudi),11,"يدخل, ادخل/ يدخل",30,produces,0.0333
-Arabic (Saudi),11,"يدخل, ادخل/ يدخل",30,understands,0.0333
-Arabic (Saudi),12,"يدخل, ادخل/ يدخل",30,produces,0.0333
-Arabic (Saudi),12,"يدخل, ادخل/ يدخل",30,understands,0
-Arabic (Saudi),13,"يدخل, ادخل/ يدخل",39,produces,0.0769
-Arabic (Saudi),13,"يدخل, ادخل/ يدخل",39,understands,0
-Arabic (Saudi),14,"يدخل, ادخل/ يدخل",25,produces,0.16
-Arabic (Saudi),14,"يدخل, ادخل/ يدخل",25,understands,0.08
-Arabic (Saudi),15,"يدخل, ادخل/ يدخل",27,produces,0.0741
-Arabic (Saudi),15,"يدخل, ادخل/ يدخل",27,understands,0.0741
-Arabic (Saudi),16,"يدخل, ادخل/ يدخل",21,produces,0
-Arabic (Saudi),16,"يدخل, ادخل/ يدخل",21,understands,0.0952
-British Sign Language,8,enter,4,produces,0
-British Sign Language,8,enter,4,understands,0
-British Sign Language,9,enter,4,produces,0
-British Sign Language,9,enter,4,understands,0
-British Sign Language,10,enter,4,produces,0
-British Sign Language,10,enter,4,understands,0
-British Sign Language,11,enter,6,produces,0
-British Sign Language,11,enter,6,understands,0
-British Sign Language,12,enter,6,produces,0
-British Sign Language,12,enter,6,understands,0
-British Sign Language,13,enter,6,produces,0
-British Sign Language,13,enter,6,understands,0
-British Sign Language,14,enter,7,produces,0
-British Sign Language,14,enter,7,understands,0
-British Sign Language,15,enter,6,produces,0
-British Sign Language,15,enter,6,understands,0
-British Sign Language,16,enter,7,produces,0
-British Sign Language,16,enter,7,understands,0
-British Sign Language,17,enter,7,produces,0
-British Sign Language,17,enter,7,understands,0
-British Sign Language,18,enter,8,produces,0
-British Sign Language,18,enter,8,understands,0
-British Sign Language,19,enter,8,produces,0
-British Sign Language,19,enter,8,understands,0
-British Sign Language,20,enter,11,produces,0
-British Sign Language,20,enter,11,understands,0
-British Sign Language,21,enter,5,produces,0
-British Sign Language,21,enter,5,understands,0
-British Sign Language,22,enter,6,produces,0
-British Sign Language,22,enter,6,understands,0
-British Sign Language,23,enter,7,produces,0
-British Sign Language,23,enter,7,understands,0
-British Sign Language,24,enter,5,produces,0
-British Sign Language,24,enter,5,understands,0.2
-British Sign Language,25,enter,7,produces,0
-British Sign Language,25,enter,7,understands,0
-British Sign Language,26,enter,6,produces,0
-British Sign Language,26,enter,6,understands,0.1667
-British Sign Language,27,enter,6,produces,0
-British Sign Language,27,enter,6,understands,0
-British Sign Language,28,enter,3,produces,0
-British Sign Language,28,enter,3,understands,0
-British Sign Language,29,enter,7,produces,0
-British Sign Language,29,enter,7,understands,0
-British Sign Language,30,enter,5,produces,0
-British Sign Language,30,enter,5,understands,0.2
-British Sign Language,31,enter,2,produces,0
-British Sign Language,31,enter,2,understands,0
-British Sign Language,32,enter,6,produces,0.3333
-British Sign Language,32,enter,6,understands,0.3333
-British Sign Language,33,enter,5,produces,0.6
-British Sign Language,33,enter,5,understands,0.6
-British Sign Language,34,enter,2,produces,0
-British Sign Language,34,enter,2,understands,0
-British Sign Language,35,enter,2,produces,0
-British Sign Language,35,enter,2,understands,0
-British Sign Language,36,enter,3,produces,0.3333
-British Sign Language,36,enter,3,understands,1
-Cantonese,16,入(去),46,produces,0
-Cantonese,16,入(去),46,understands,0
-Cantonese,17,入(去),61,produces,0.0164
-Cantonese,17,入(去),61,understands,0
-Cantonese,18,入(去),68,produces,0.0588
-Cantonese,18,入(去),68,understands,0
-Cantonese,19,入(去),66,produces,0.0303
-Cantonese,19,入(去),66,understands,0
-Cantonese,20,入(去),140,produces,0.1786
-Cantonese,20,入(去),140,understands,0
-Cantonese,21,入(去),120,produces,0.2083
-Cantonese,21,入(去),120,understands,0
-Cantonese,22,入(去),68,produces,0.2206
-Cantonese,22,入(去),68,understands,0
-Cantonese,23,入(去),74,produces,0.2568
-Cantonese,23,入(去),74,understands,0
-Cantonese,24,入(去),68,produces,0.4265
-Cantonese,24,入(去),68,understands,0
-Cantonese,25,入(去),65,produces,0.4154
-Cantonese,25,入(去),65,understands,0
-Cantonese,26,入(去),68,produces,0.5588
-Cantonese,26,入(去),68,understands,0
-Cantonese,27,入(去),62,produces,0.6452
-Cantonese,27,入(去),62,understands,0
-Cantonese,28,入(去),66,produces,0.697
-Cantonese,28,入(去),66,understands,0
-Cantonese,29,入(去),72,produces,0.7361
-Cantonese,29,入(去),72,understands,0
-Cantonese,30,入(去),164,produces,0.8171
-Cantonese,30,入(去),164,understands,0
-Catalan,8,entrar,39,produces,0
-Catalan,8,entrar,39,understands,0
-Catalan,9,entrar,46,produces,0
-Catalan,9,entrar,46,understands,0
-Catalan,10,entrar,43,produces,0
-Catalan,10,entrar,43,understands,0.0233
-Catalan,11,entrar,43,produces,0
-Catalan,11,entrar,43,understands,0.0465
-Catalan,12,entrar,59,produces,0
-Catalan,12,entrar,59,understands,0.0847
-Catalan,13,entrar,44,produces,0
-Catalan,13,entrar,44,understands,0.1591
-Catalan,14,entrar,60,produces,0
-Catalan,14,entrar,60,understands,0.2
-Catalan,15,entrar,70,produces,0
-Catalan,15,entrar,70,understands,0.4143
-Catalan,16,entrar,73,produces,0
-Catalan,16,entrar,73,understands,0.3014
-Catalan,17,entrar,110,produces,0.0091
-Catalan,17,entrar,110,understands,0.3545
-Catalan,18,entrar,102,produces,0
-Catalan,18,entrar,102,understands,0.3529
-Catalan,19,entrar,45,produces,0
-Catalan,19,entrar,45,understands,0
-Catalan,20,entrar,56,produces,0.0179
-Catalan,20,entrar,56,understands,0
-Catalan,21,entrar,58,produces,0.1379
-Catalan,21,entrar,58,understands,0
-Catalan,22,entrar,50,produces,0.1
-Catalan,22,entrar,50,understands,0
-Catalan,23,entrar,66,produces,0.197
-Catalan,23,entrar,66,understands,0
-Catalan,24,entrar,79,produces,0.3544
-Catalan,24,entrar,79,understands,0
-Catalan,25,entrar,60,produces,0.3333
-Catalan,25,entrar,60,understands,0
-Catalan,26,entrar,65,produces,0.3692
-Catalan,26,entrar,65,understands,0
-Catalan,27,entrar,63,produces,0.6508
-Catalan,27,entrar,63,understands,0
-Catalan,28,entrar,81,produces,0.5432
-Catalan,28,entrar,81,understands,0
-Catalan,29,entrar,50,produces,0.72
-Catalan,29,entrar,50,understands,0
-Catalan,30,entrar,75,produces,0.7467
-Catalan,30,entrar,75,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,8,ENTER,1,produces,0
+American Sign Language,All,8,ENTER,1,understands,0
+American Sign Language,All,9,ENTER,4,produces,0
+American Sign Language,All,9,ENTER,4,understands,0.25
+American Sign Language,All,10,ENTER,5,produces,0
+American Sign Language,All,10,ENTER,5,understands,0
+American Sign Language,All,11,ENTER,3,produces,0
+American Sign Language,All,11,ENTER,3,understands,0
+American Sign Language,All,12,ENTER,4,produces,0
+American Sign Language,All,12,ENTER,4,understands,0
+American Sign Language,All,13,ENTER,4,produces,0
+American Sign Language,All,13,ENTER,4,understands,0
+American Sign Language,All,14,ENTER,1,produces,0
+American Sign Language,All,14,ENTER,1,understands,0
+American Sign Language,All,15,ENTER,3,produces,0
+American Sign Language,All,15,ENTER,3,understands,0
+American Sign Language,All,16,ENTER,2,produces,0
+American Sign Language,All,16,ENTER,2,understands,0.5
+American Sign Language,All,17,ENTER,5,produces,0
+American Sign Language,All,17,ENTER,5,understands,0.4
+American Sign Language,All,18,ENTER,11,produces,0.0909
+American Sign Language,All,18,ENTER,11,understands,0.3636
+American Sign Language,All,19,ENTER,6,produces,0
+American Sign Language,All,19,ENTER,6,understands,0.1667
+American Sign Language,All,20,ENTER,3,produces,0
+American Sign Language,All,20,ENTER,3,understands,0
+American Sign Language,All,21,ENTER,4,produces,0
+American Sign Language,All,21,ENTER,4,understands,0.5
+American Sign Language,All,22,ENTER,10,produces,0
+American Sign Language,All,22,ENTER,10,understands,0.1
+American Sign Language,All,23,ENTER,5,produces,0
+American Sign Language,All,23,ENTER,5,understands,0.4
+American Sign Language,All,24,ENTER,9,produces,0.1111
+American Sign Language,All,24,ENTER,9,understands,0.1111
+American Sign Language,All,25,ENTER,13,produces,0
+American Sign Language,All,25,ENTER,13,understands,0.6923
+American Sign Language,All,26,ENTER,4,produces,0.25
+American Sign Language,All,26,ENTER,4,understands,0.75
+American Sign Language,All,27,ENTER,7,produces,0.1429
+American Sign Language,All,27,ENTER,7,understands,0.4286
+American Sign Language,All,28,ENTER,7,produces,0.2857
+American Sign Language,All,28,ENTER,7,understands,0.5714
+American Sign Language,All,29,ENTER,6,produces,0.3333
+American Sign Language,All,29,ENTER,6,understands,0.8333
+American Sign Language,All,30,ENTER,7,produces,0.2857
+American Sign Language,All,30,ENTER,7,understands,0.4286
+American Sign Language,All,31,ENTER,9,produces,0.1111
+American Sign Language,All,31,ENTER,9,understands,0.4444
+American Sign Language,All,32,ENTER,15,produces,0.2
+American Sign Language,All,32,ENTER,15,understands,0.4
+American Sign Language,All,33,ENTER,6,produces,0.1667
+American Sign Language,All,33,ENTER,6,understands,0.3333
+American Sign Language,All,34,ENTER,7,produces,0.7143
+American Sign Language,All,34,ENTER,7,understands,0.7143
+American Sign Language,All,35,ENTER,7,produces,0.4286
+American Sign Language,All,35,ENTER,7,understands,0.5714
+American Sign Language,All,36,ENTER,3,produces,0
+American Sign Language,All,36,ENTER,3,understands,0.6667
+Arabic (Saudi),All,8,"يدخل, ادخل/ يدخل",24,produces,0
+Arabic (Saudi),All,8,"يدخل, ادخل/ يدخل",24,understands,0.0833
+Arabic (Saudi),All,9,"يدخل, ادخل/ يدخل",27,produces,0
+Arabic (Saudi),All,9,"يدخل, ادخل/ يدخل",27,understands,0
+Arabic (Saudi),All,10,"يدخل, ادخل/ يدخل",35,produces,0
+Arabic (Saudi),All,10,"يدخل, ادخل/ يدخل",35,understands,0.0571
+Arabic (Saudi),All,11,"يدخل, ادخل/ يدخل",30,produces,0.0333
+Arabic (Saudi),All,11,"يدخل, ادخل/ يدخل",30,understands,0.0333
+Arabic (Saudi),All,12,"يدخل, ادخل/ يدخل",30,produces,0.0333
+Arabic (Saudi),All,12,"يدخل, ادخل/ يدخل",30,understands,0
+Arabic (Saudi),All,13,"يدخل, ادخل/ يدخل",39,produces,0.0769
+Arabic (Saudi),All,13,"يدخل, ادخل/ يدخل",39,understands,0
+Arabic (Saudi),All,14,"ادخل/ يدخل, يدخل",25,produces,0.16
+Arabic (Saudi),All,14,"ادخل/ يدخل, يدخل",25,understands,0.08
+Arabic (Saudi),All,15,"يدخل, ادخل/ يدخل",27,produces,0.0741
+Arabic (Saudi),All,15,"يدخل, ادخل/ يدخل",27,understands,0.0741
+Arabic (Saudi),All,16,"يدخل, ادخل/ يدخل",21,produces,0
+Arabic (Saudi),All,16,"يدخل, ادخل/ يدخل",21,understands,0.0952
+British Sign Language,All,8,enter,4,produces,0
+British Sign Language,All,8,enter,4,understands,0
+British Sign Language,All,9,enter,4,produces,0
+British Sign Language,All,9,enter,4,understands,0
+British Sign Language,All,10,enter,4,produces,0
+British Sign Language,All,10,enter,4,understands,0
+British Sign Language,All,11,enter,6,produces,0
+British Sign Language,All,11,enter,6,understands,0
+British Sign Language,All,12,enter,6,produces,0
+British Sign Language,All,12,enter,6,understands,0
+British Sign Language,All,13,enter,6,produces,0
+British Sign Language,All,13,enter,6,understands,0
+British Sign Language,All,14,enter,7,produces,0
+British Sign Language,All,14,enter,7,understands,0
+British Sign Language,All,15,enter,6,produces,0
+British Sign Language,All,15,enter,6,understands,0
+British Sign Language,All,16,enter,7,produces,0
+British Sign Language,All,16,enter,7,understands,0
+British Sign Language,All,17,enter,7,produces,0
+British Sign Language,All,17,enter,7,understands,0
+British Sign Language,All,18,enter,8,produces,0
+British Sign Language,All,18,enter,8,understands,0
+British Sign Language,All,19,enter,8,produces,0
+British Sign Language,All,19,enter,8,understands,0
+British Sign Language,All,20,enter,11,produces,0
+British Sign Language,All,20,enter,11,understands,0
+British Sign Language,All,21,enter,5,produces,0
+British Sign Language,All,21,enter,5,understands,0
+British Sign Language,All,22,enter,6,produces,0
+British Sign Language,All,22,enter,6,understands,0
+British Sign Language,All,23,enter,7,produces,0
+British Sign Language,All,23,enter,7,understands,0
+British Sign Language,All,24,enter,5,produces,0
+British Sign Language,All,24,enter,5,understands,0.2
+British Sign Language,All,25,enter,7,produces,0
+British Sign Language,All,25,enter,7,understands,0
+British Sign Language,All,26,enter,6,produces,0
+British Sign Language,All,26,enter,6,understands,0.1667
+British Sign Language,All,27,enter,6,produces,0
+British Sign Language,All,27,enter,6,understands,0
+British Sign Language,All,28,enter,3,produces,0
+British Sign Language,All,28,enter,3,understands,0
+British Sign Language,All,29,enter,7,produces,0
+British Sign Language,All,29,enter,7,understands,0
+British Sign Language,All,30,enter,5,produces,0
+British Sign Language,All,30,enter,5,understands,0.2
+British Sign Language,All,31,enter,2,produces,0
+British Sign Language,All,31,enter,2,understands,0
+British Sign Language,All,32,enter,6,produces,0.3333
+British Sign Language,All,32,enter,6,understands,0.3333
+British Sign Language,All,33,enter,5,produces,0.6
+British Sign Language,All,33,enter,5,understands,0.6
+British Sign Language,All,34,enter,2,produces,0
+British Sign Language,All,34,enter,2,understands,0
+British Sign Language,All,35,enter,2,produces,0
+British Sign Language,All,35,enter,2,understands,0
+British Sign Language,All,36,enter,3,produces,0.3333
+British Sign Language,All,36,enter,3,understands,1
+Cantonese,All,16,入(去),46,produces,0
+Cantonese,All,16,入(去),46,understands,0
+Cantonese,All,17,入(去),61,produces,0.0164
+Cantonese,All,17,入(去),61,understands,0
+Cantonese,All,18,入(去),68,produces,0.0588
+Cantonese,All,18,入(去),68,understands,0
+Cantonese,All,19,入(去),66,produces,0.0303
+Cantonese,All,19,入(去),66,understands,0
+Cantonese,All,20,入(去),140,produces,0.1786
+Cantonese,All,20,入(去),140,understands,0
+Cantonese,All,21,入(去),120,produces,0.2083
+Cantonese,All,21,入(去),120,understands,0
+Cantonese,All,22,入(去),68,produces,0.2206
+Cantonese,All,22,入(去),68,understands,0
+Cantonese,All,23,入(去),74,produces,0.2568
+Cantonese,All,23,入(去),74,understands,0
+Cantonese,All,24,入(去),68,produces,0.4265
+Cantonese,All,24,入(去),68,understands,0
+Cantonese,All,25,入(去),65,produces,0.4154
+Cantonese,All,25,入(去),65,understands,0
+Cantonese,All,26,入(去),68,produces,0.5588
+Cantonese,All,26,入(去),68,understands,0
+Cantonese,All,27,入(去),62,produces,0.6452
+Cantonese,All,27,入(去),62,understands,0
+Cantonese,All,28,入(去),66,produces,0.697
+Cantonese,All,28,入(去),66,understands,0
+Cantonese,All,29,入(去),72,produces,0.7361
+Cantonese,All,29,入(去),72,understands,0
+Cantonese,All,30,入(去),164,produces,0.8171
+Cantonese,All,30,入(去),164,understands,0
+Catalan,All,8,entrar,39,produces,0
+Catalan,All,8,entrar,39,understands,0
+Catalan,All,9,entrar,46,produces,0
+Catalan,All,9,entrar,46,understands,0
+Catalan,All,10,entrar,43,produces,0
+Catalan,All,10,entrar,43,understands,0.0233
+Catalan,All,11,entrar,43,produces,0
+Catalan,All,11,entrar,43,understands,0.0465
+Catalan,All,12,entrar,59,produces,0
+Catalan,All,12,entrar,59,understands,0.0847
+Catalan,All,13,entrar,44,produces,0
+Catalan,All,13,entrar,44,understands,0.1591
+Catalan,All,14,entrar,60,produces,0
+Catalan,All,14,entrar,60,understands,0.2
+Catalan,All,15,entrar,70,produces,0
+Catalan,All,15,entrar,70,understands,0.4143
+Catalan,All,16,entrar,73,produces,0
+Catalan,All,16,entrar,73,understands,0.3014
+Catalan,All,17,entrar,110,produces,0.0091
+Catalan,All,17,entrar,110,understands,0.3545
+Catalan,All,18,entrar,102,produces,0
+Catalan,All,18,entrar,102,understands,0.3529
+Catalan,All,19,entrar,45,produces,0
+Catalan,All,19,entrar,45,understands,0
+Catalan,All,20,entrar,56,produces,0.0179
+Catalan,All,20,entrar,56,understands,0
+Catalan,All,21,entrar,58,produces,0.1379
+Catalan,All,21,entrar,58,understands,0
+Catalan,All,22,entrar,50,produces,0.1
+Catalan,All,22,entrar,50,understands,0
+Catalan,All,23,entrar,66,produces,0.197
+Catalan,All,23,entrar,66,understands,0
+Catalan,All,24,entrar,79,produces,0.3544
+Catalan,All,24,entrar,79,understands,0
+Catalan,All,25,entrar,60,produces,0.3333
+Catalan,All,25,entrar,60,understands,0
+Catalan,All,26,entrar,65,produces,0.3692
+Catalan,All,26,entrar,65,understands,0
+Catalan,All,27,entrar,63,produces,0.6508
+Catalan,All,27,entrar,63,understands,0
+Catalan,All,28,entrar,81,produces,0.5432
+Catalan,All,28,entrar,81,understands,0
+Catalan,All,29,entrar,50,produces,0.72
+Catalan,All,29,entrar,50,understands,0
+Catalan,All,30,entrar,75,produces,0.7467
+Catalan,All,30,entrar,75,understands,0
+Italian,All,18,entrare,31,produces,0.0323
+Italian,All,18,entrare,31,understands,0
+Italian,All,19,entrare,39,produces,0.0513
+Italian,All,19,entrare,39,understands,0
+Italian,All,20,entrare,64,produces,0.0938
+Italian,All,20,entrare,64,understands,0
+Italian,All,21,entrare,55,produces,0.0727
+Italian,All,21,entrare,55,understands,0
+Italian,All,22,entrare,55,produces,0.2545
+Italian,All,22,entrare,55,understands,0
+Italian,All,23,entrare,53,produces,0.3208
+Italian,All,23,entrare,53,understands,0
+Italian,All,24,entrare,71,produces,0.3521
+Italian,All,24,entrare,71,understands,0
+Italian,All,25,entrare,39,produces,0.5385
+Italian,All,25,entrare,39,understands,0
+Italian,All,26,entrare,41,produces,0.5366
+Italian,All,26,entrare,41,understands,0
+Italian,All,27,entrare,43,produces,0.5349
+Italian,All,27,entrare,43,understands,0
+Italian,All,28,entrare,44,produces,0.6818
+Italian,All,28,entrare,44,understands,0
+Italian,All,29,entrare,37,produces,0.7027
+Italian,All,29,entrare,37,understands,0
+Italian,All,30,entrare,67,produces,0.7164
+Italian,All,30,entrare,67,understands,0
+Italian,All,31,entrare,19,produces,0.7368
+Italian,All,31,entrare,19,understands,0
+Italian,All,32,entrare,23,produces,0.6522
+Italian,All,32,entrare,23,understands,0
+Italian,All,33,entrare,16,produces,0.8125
+Italian,All,33,entrare,16,understands,0
+Italian,All,34,entrare,19,produces,0.9474
+Italian,All,34,entrare,19,understands,0
+Italian,All,35,entrare,15,produces,0.8667
+Italian,All,35,entrare,15,understands,0
+Italian,All,36,entrare,21,produces,0.8095
+Italian,All,36,entrare,21,understands,0
+Japanese,All,8,はいる（入る）,6,produces,0
+Japanese,All,8,はいる（入る）,6,understands,0
+Japanese,All,9,はいる（入る）,10,produces,0
+Japanese,All,9,はいる（入る）,10,understands,0
+Japanese,All,10,はいる（入る）,8,produces,0
+Japanese,All,10,はいる（入る）,8,understands,0
+Japanese,All,11,はいる（入る）,87,produces,0
+Japanese,All,11,はいる（入る）,87,understands,0.023
+Japanese,All,12,はいる（入る）,118,produces,0
+Japanese,All,12,はいる（入る）,118,understands,0.0339
+Japanese,All,13,はいる（入る）,23,produces,0
+Japanese,All,13,はいる（入る）,23,understands,0.1304
+Japanese,All,14,はいる（入る）,26,produces,0
+Japanese,All,14,はいる（入る）,26,understands,0.1154
+Japanese,All,15,はいる（入る）,72,produces,0
+Japanese,All,15,はいる（入る）,72,understands,0.2083
+Japanese,All,16,はいる（入る）,46,produces,0.0217
+Japanese,All,16,はいる（入る）,46,understands,0.087
+Japanese,All,17,はいる（入る）,77,produces,0
+Japanese,All,17,はいる（入る）,77,understands,0.2597
+Japanese,All,18,はいる（入る）,94,produces,0.0213
+Japanese,All,18,はいる（入る）,94,understands,0.1383
+Japanese,All,19,はいる（入る）,35,produces,0
+Japanese,All,19,はいる（入る）,35,understands,0
+Japanese,All,20,はいる（入る）,59,produces,0.0678
+Japanese,All,20,はいる（入る）,59,understands,0
+Japanese,All,21,はいる（入る）,62,produces,0.0968
+Japanese,All,21,はいる（入る）,62,understands,0
+Japanese,All,22,はいる（入る）,31,produces,0.0968
+Japanese,All,22,はいる（入る）,31,understands,0
+Japanese,All,23,はいる（入る）,67,produces,0.209
+Japanese,All,23,はいる（入る）,67,understands,0
+Japanese,All,24,はいる（入る）,33,produces,0.3636
+Japanese,All,24,はいる（入る）,33,understands,0
+Japanese,All,25,はいる（入る）,34,produces,0.4118
+Japanese,All,25,はいる（入る）,34,understands,0
+Japanese,All,26,はいる（入る）,33,produces,0.3939
+Japanese,All,26,はいる（入る）,33,understands,0
+Japanese,All,27,はいる（入る）,15,produces,0.4667
+Japanese,All,27,はいる（入る）,15,understands,0
+Japanese,All,28,はいる（入る）,18,produces,0.3333
+Japanese,All,28,はいる（入る）,18,understands,0
+Japanese,All,29,はいる（入る）,17,produces,0.5882
+Japanese,All,29,はいる（入る）,17,understands,0
+Japanese,All,30,はいる（入る）,18,produces,0.3889
+Japanese,All,30,はいる（入る）,18,understands,0
+Japanese,All,31,はいる（入る）,18,produces,0.6111
+Japanese,All,31,はいる（入る）,18,understands,0
+Japanese,All,32,はいる（入る）,13,produces,0.6923
+Japanese,All,32,はいる（入る）,13,understands,0
+Japanese,All,33,はいる（入る）,16,produces,0.875
+Japanese,All,33,はいる（入る）,16,understands,0
+Japanese,All,34,はいる（入る）,13,produces,0.6154
+Japanese,All,34,はいる（入る）,13,understands,0
+Japanese,All,35,はいる（入る）,31,produces,0.7097
+Japanese,All,35,はいる（入る）,31,understands,0
+Japanese,All,36,はいる（入る）,18,produces,0.7222
+Japanese,All,36,はいる（入る）,18,understands,0
+Korean,All,18,"들어가, (차에)타",88,produces,0.1648
+Korean,All,18,"들어가, (차에)타",88,understands,0
+Korean,All,19,"들어가, (차에)타",77,produces,0.1558
+Korean,All,19,"들어가, (차에)타",77,understands,0
+Korean,All,20,"들어가, (차에)타",88,produces,0.125
+Korean,All,20,"들어가, (차에)타",88,understands,0
+Korean,All,21,"들어가, (차에)타",79,produces,0.2468
+Korean,All,21,"들어가, (차에)타",79,understands,0
+Korean,All,22,"들어가, (차에)타",87,produces,0.3218
+Korean,All,22,"들어가, (차에)타",87,understands,0
+Korean,All,23,"들어가, (차에)타",87,produces,0.3563
+Korean,All,23,"들어가, (차에)타",87,understands,0
+Korean,All,24,"들어가, (차에)타",107,produces,0.4252
+Korean,All,24,"들어가, (차에)타",107,understands,0
+Korean,All,25,"들어가, (차에)타",95,produces,0.5526
+Korean,All,25,"들어가, (차에)타",95,understands,0
+Korean,All,26,"들어가, (차에)타",91,produces,0.4945
+Korean,All,26,"들어가, (차에)타",91,understands,0
+Korean,All,27,"들어가, (차에)타",104,produces,0.5481
+Korean,All,27,"들어가, (차에)타",104,understands,0
+Korean,All,28,"들어가, (차에)타",89,produces,0.691
+Korean,All,28,"들어가, (차에)타",89,understands,0
+Korean,All,29,"들어가, (차에)타",101,produces,0.7327
+Korean,All,29,"들어가, (차에)타",101,understands,0
+Korean,All,30,"들어가, (차에)타",81,produces,0.7469
+Korean,All,30,"들어가, (차에)타",81,understands,0
+Korean,All,31,"들어가, (차에)타",79,produces,0.7532
+Korean,All,31,"들어가, (차에)타",79,understands,0
+Korean,All,32,"들어가, (차에)타",70,produces,0.7143
+Korean,All,32,"들어가, (차에)타",70,understands,0
+Korean,All,33,"들어가, (차에)타",79,produces,0.6835
+Korean,All,33,"들어가, (차에)타",79,understands,0
+Korean,All,34,"들어가, (차에)타",79,produces,0.8481
+Korean,All,34,"들어가, (차에)타",79,understands,0
+Korean,All,35,"들어가, (차에)타",74,produces,0.8176
+Korean,All,35,"들어가, (차에)타",74,understands,0
+Korean,All,36,"들어가, (차에)타",75,produces,0.8933
+Korean,All,36,"들어가, (차에)타",75,understands,0
+Mandarin (Beijing),All,16,进去,70,produces,0.0571
+Mandarin (Beijing),All,16,进去,70,understands,0
+Mandarin (Beijing),All,17,进去,72,produces,0.0833
+Mandarin (Beijing),All,17,进去,72,understands,0
+Mandarin (Beijing),All,18,进去,71,produces,0.1831
+Mandarin (Beijing),All,18,进去,71,understands,0
+Mandarin (Beijing),All,19,进去,70,produces,0.3286
+Mandarin (Beijing),All,19,进去,70,understands,0
+Mandarin (Beijing),All,20,进去,71,produces,0.4225
+Mandarin (Beijing),All,20,进去,71,understands,0
+Mandarin (Beijing),All,21,进去,70,produces,0.6286
+Mandarin (Beijing),All,21,进去,70,understands,0
+Mandarin (Beijing),All,22,进去,71,produces,0.7324
+Mandarin (Beijing),All,22,进去,71,understands,0
+Mandarin (Beijing),All,23,进去,70,produces,0.7857
+Mandarin (Beijing),All,23,进去,70,understands,0
+Mandarin (Beijing),All,24,进去,70,produces,0.8286
+Mandarin (Beijing),All,24,进去,70,understands,0
+Mandarin (Beijing),All,25,进去,70,produces,0.9286
+Mandarin (Beijing),All,25,进去,70,understands,0
+Mandarin (Beijing),All,26,进去,71,produces,0.9296
+Mandarin (Beijing),All,26,进去,71,understands,0
+Mandarin (Beijing),All,27,进去,70,produces,0.9
+Mandarin (Beijing),All,27,进去,70,understands,0
+Mandarin (Beijing),All,28,进去,70,produces,0.9286
+Mandarin (Beijing),All,28,进去,70,understands,0
+Mandarin (Beijing),All,29,进去,70,produces,0.9857
+Mandarin (Beijing),All,29,进去,70,understands,0
+Mandarin (Beijing),All,30,进去,70,produces,0.9714
+Mandarin (Beijing),All,30,进去,70,understands,0
+Portuguese (European),All,8,Entrar,126,produces,0
+Portuguese (European),All,8,Entrar,126,understands,0
+Portuguese (European),All,9,Entrar,148,produces,0
+Portuguese (European),All,9,Entrar,148,understands,0.0473
+Portuguese (European),All,10,Entrar,168,produces,0
+Portuguese (European),All,10,Entrar,168,understands,0.0298
+Portuguese (European),All,11,Entrar,179,produces,0
+Portuguese (European),All,11,Entrar,179,understands,0.0168
+Portuguese (European),All,12,Entrar,161,produces,0
+Portuguese (European),All,12,Entrar,161,understands,0.118
+Portuguese (European),All,13,Entrar,176,produces,0
+Portuguese (European),All,13,Entrar,176,understands,0.1705
+Portuguese (European),All,14,Entrar,183,produces,0
+Portuguese (European),All,14,Entrar,183,understands,0.2459
+Portuguese (European),All,15,Entrar,173,produces,0
+Portuguese (European),All,15,Entrar,173,understands,0.3931
+Portuguese (European),All,16,Entrar,144,produces,0
+Portuguese (European),All,16,Entrar,144,understands,0
+Portuguese (European),All,17,Entrar,158,produces,0.0063
+Portuguese (European),All,17,Entrar,158,understands,0
+Portuguese (European),All,18,Entrar,203,produces,0.0246
+Portuguese (European),All,18,Entrar,203,understands,0
+Portuguese (European),All,19,Entrar,196,produces,0.0408
+Portuguese (European),All,19,Entrar,196,understands,0
+Portuguese (European),All,20,Entrar,218,produces,0.078
+Portuguese (European),All,20,Entrar,218,understands,0
+Portuguese (European),All,21,Entrar,208,produces,0.0769
+Portuguese (European),All,21,Entrar,208,understands,0
+Portuguese (European),All,22,Entrar,213,produces,0.1362
+Portuguese (European),All,22,Entrar,213,understands,0
+Portuguese (European),All,23,Entrar,199,produces,0.196
+Portuguese (European),All,23,Entrar,199,understands,0
+Portuguese (European),All,24,Entrar,215,produces,0.2698
+Portuguese (European),All,24,Entrar,215,understands,0
+Portuguese (European),All,25,Entrar,213,produces,0.3615
+Portuguese (European),All,25,Entrar,213,understands,0
+Portuguese (European),All,26,Entrar,218,produces,0.3991
+Portuguese (European),All,26,Entrar,218,understands,0
+Portuguese (European),All,27,Entrar,238,produces,0.4538
+Portuguese (European),All,27,Entrar,238,understands,0
+Portuguese (European),All,28,Entrar,219,produces,0.5388
+Portuguese (European),All,28,Entrar,219,understands,0
+Portuguese (European),All,29,Entrar,207,produces,0.5652
+Portuguese (European),All,29,Entrar,207,understands,0
+Portuguese (European),All,30,Entrar,163,produces,0.6319
+Portuguese (European),All,30,Entrar,163,understands,0
+Spanish (Argentinian),All,16,entrar,47,produces,0.0213
+Spanish (Argentinian),All,16,entrar,47,understands,0
+Spanish (Argentinian),All,17,entrar,49,produces,0.0408
+Spanish (Argentinian),All,17,entrar,49,understands,0
+Spanish (Argentinian),All,18,entrar,62,produces,0.0323
+Spanish (Argentinian),All,18,entrar,62,understands,0
+Spanish (Argentinian),All,19,entrar,44,produces,0.0682
+Spanish (Argentinian),All,19,entrar,44,understands,0
+Spanish (Argentinian),All,20,entrar,46,produces,0.087
+Spanish (Argentinian),All,20,entrar,46,understands,0
+Spanish (Argentinian),All,21,entrar,41,produces,0.122
+Spanish (Argentinian),All,21,entrar,41,understands,0
+Spanish (Argentinian),All,22,entrar,57,produces,0.1053
+Spanish (Argentinian),All,22,entrar,57,understands,0
+Spanish (Argentinian),All,23,entrar,49,produces,0.102
+Spanish (Argentinian),All,23,entrar,49,understands,0
+Spanish (Argentinian),All,24,entrar,75,produces,0.24
+Spanish (Argentinian),All,24,entrar,75,understands,0
+Spanish (Argentinian),All,25,entrar,43,produces,0.4186
+Spanish (Argentinian),All,25,entrar,43,understands,0
+Spanish (Argentinian),All,26,entrar,45,produces,0.1556
+Spanish (Argentinian),All,26,entrar,45,understands,0
+Spanish (Argentinian),All,27,entrar,44,produces,0.2273
+Spanish (Argentinian),All,27,entrar,44,understands,0
+Spanish (Argentinian),All,28,entrar,42,produces,0.3095
+Spanish (Argentinian),All,28,entrar,42,understands,0
+Spanish (Argentinian),All,29,entrar,65,produces,0.3385
+Spanish (Argentinian),All,29,entrar,65,understands,0
+Spanish (Argentinian),All,30,entrar,69,produces,0.5652
+Spanish (Argentinian),All,30,entrar,69,understands,0
+Spanish (Argentinian),All,31,entrar,2,produces,0
+Spanish (Argentinian),All,31,entrar,2,understands,0
+Spanish (Argentinian),All,32,entrar,1,produces,1
+Spanish (Argentinian),All,32,entrar,1,understands,0
+Spanish (Argentinian),All,33,entrar,2,produces,0.5
+Spanish (Argentinian),All,33,entrar,2,understands,0
+Spanish (European),All,16,entrar,39,produces,0
+Spanish (European),All,16,entrar,39,understands,0
+Spanish (European),All,17,entrar,39,produces,0
+Spanish (European),All,17,entrar,39,understands,0
+Spanish (European),All,18,entrar,50,produces,0.02
+Spanish (European),All,18,entrar,50,understands,0
+Spanish (European),All,19,entrar,27,produces,0.0741
+Spanish (European),All,19,entrar,27,understands,0
+Spanish (European),All,20,entrar,36,produces,0.1111
+Spanish (European),All,20,entrar,36,understands,0
+Spanish (European),All,21,entrar,41,produces,0.1951
+Spanish (European),All,21,entrar,41,understands,0
+Spanish (European),All,22,entrar,38,produces,0.1842
+Spanish (European),All,22,entrar,38,understands,0
+Spanish (European),All,23,entrar,30,produces,0.3333
+Spanish (European),All,23,entrar,30,understands,0
+Spanish (European),All,24,entrar,55,produces,0.3636
+Spanish (European),All,24,entrar,55,understands,0
+Spanish (European),All,25,entrar,35,produces,0.3143
+Spanish (European),All,25,entrar,35,understands,0
+Spanish (European),All,26,entrar,49,produces,0.5102
+Spanish (European),All,26,entrar,49,understands,0
+Spanish (European),All,27,entrar,34,produces,0.6471
+Spanish (European),All,27,entrar,34,understands,0
+Spanish (European),All,28,entrar,38,produces,0.6053
+Spanish (European),All,28,entrar,38,understands,0
+Spanish (European),All,29,entrar,41,produces,0.6829
+Spanish (European),All,29,entrar,41,understands,0
+Spanish (European),All,30,entrar,41,produces,0.7317
+Spanish (European),All,30,entrar,41,understands,0
+Spanish (Mexican),All,16,entrar,68,produces,0.0735
+Spanish (Mexican),All,16,entrar,68,understands,0
+Spanish (Mexican),All,17,entrar,59,produces,0.0847
+Spanish (Mexican),All,17,entrar,59,understands,0
+Spanish (Mexican),All,18,entrar,75,produces,0.0533
+Spanish (Mexican),All,18,entrar,75,understands,0
+Spanish (Mexican),All,19,entrar,100,produces,0.18
+Spanish (Mexican),All,19,entrar,100,understands,0
+Spanish (Mexican),All,20,entrar,107,produces,0.1682
+Spanish (Mexican),All,20,entrar,107,understands,0
+Spanish (Mexican),All,21,entrar,84,produces,0.1429
+Spanish (Mexican),All,21,entrar,84,understands,0
+Spanish (Mexican),All,22,entrar,141,produces,0.1206
+Spanish (Mexican),All,22,entrar,141,understands,0
+Spanish (Mexican),All,23,entrar,91,produces,0.1099
+Spanish (Mexican),All,23,entrar,91,understands,0
+Spanish (Mexican),All,24,entrar,126,produces,0.3016
+Spanish (Mexican),All,24,entrar,126,understands,0
+Spanish (Mexican),All,25,entrar,177,produces,0.2429
+Spanish (Mexican),All,25,entrar,177,understands,0
+Spanish (Mexican),All,26,entrar,83,produces,0.4096
+Spanish (Mexican),All,26,entrar,83,understands,0
+Spanish (Mexican),All,27,entrar,85,produces,0.5059
+Spanish (Mexican),All,27,entrar,85,understands,0
+Spanish (Mexican),All,28,entrar,89,produces,0.4157
+Spanish (Mexican),All,28,entrar,89,understands,0
+Spanish (Mexican),All,29,entrar,89,produces,0.5618
+Spanish (Mexican),All,29,entrar,89,understands,0
+Spanish (Mexican),All,30,entrar,308,produces,0.3344
+Spanish (Mexican),All,30,entrar,308,understands,0
+Spanish (Peruvian),All,16,"caber/entrar, entrar (a alguna parte)",13,produces,0
+Spanish (Peruvian),All,16,"caber/entrar, entrar (a alguna parte)",13,understands,0
+Spanish (Peruvian),All,17,"caber/entrar, entrar (a alguna parte)",9,produces,0.1667
+Spanish (Peruvian),All,17,"caber/entrar, entrar (a alguna parte)",9,understands,0
+Spanish (Peruvian),All,18,"caber/entrar, entrar (a alguna parte)",4,produces,0
+Spanish (Peruvian),All,18,"caber/entrar, entrar (a alguna parte)",4,understands,0
+Spanish (Peruvian),All,19,"caber/entrar, entrar (a alguna parte)",12,produces,0.375
+Spanish (Peruvian),All,19,"caber/entrar, entrar (a alguna parte)",12,understands,0
+Spanish (Peruvian),All,20,"caber/entrar, entrar (a alguna parte)",1,produces,0
+Spanish (Peruvian),All,20,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Spanish (Peruvian),All,21,"caber/entrar, entrar (a alguna parte)",5,produces,0.2
+Spanish (Peruvian),All,21,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),All,22,"caber/entrar, entrar (a alguna parte)",9,produces,0.2778
+Spanish (Peruvian),All,22,"caber/entrar, entrar (a alguna parte)",9,understands,0
+Spanish (Peruvian),All,23,"caber/entrar, entrar (a alguna parte)",1,produces,1
+Spanish (Peruvian),All,23,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Spanish (Peruvian),All,24,"caber/entrar, entrar (a alguna parte)",15,produces,0.1
+Spanish (Peruvian),All,24,"caber/entrar, entrar (a alguna parte)",15,understands,0
+Spanish (Peruvian),All,25,"caber/entrar, entrar (a alguna parte)",5,produces,0
+Spanish (Peruvian),All,25,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),All,26,"caber/entrar, entrar (a alguna parte)",8,produces,0.1875
+Spanish (Peruvian),All,26,"caber/entrar, entrar (a alguna parte)",8,understands,0
+Spanish (Peruvian),All,27,"caber/entrar, entrar (a alguna parte)",7,produces,0.1429
+Spanish (Peruvian),All,27,"caber/entrar, entrar (a alguna parte)",7,understands,0
+Spanish (Peruvian),All,28,"caber/entrar, entrar (a alguna parte)",8,produces,0.5
+Spanish (Peruvian),All,28,"caber/entrar, entrar (a alguna parte)",8,understands,0
+Spanish (Peruvian),All,29,"caber/entrar, entrar (a alguna parte)",6,produces,0.3333
+Spanish (Peruvian),All,29,"caber/entrar, entrar (a alguna parte)",6,understands,0
+Spanish (Peruvian),All,30,"caber/entrar, entrar (a alguna parte)",2,produces,0.25
+Spanish (Peruvian),All,30,"caber/entrar, entrar (a alguna parte)",2,understands,0
+Turkish,All,8,Gir,140,produces,0
+Turkish,All,8,Gir,140,understands,0.0429
+Turkish,All,9,Gir,125,produces,0
+Turkish,All,9,Gir,125,understands,0.056
+Turkish,All,10,Gir,130,produces,0.0077
+Turkish,All,10,Gir,130,understands,0.0769
+Turkish,All,11,Gir,125,produces,0
+Turkish,All,11,Gir,125,understands,0.16
+Turkish,All,12,Gir,120,produces,0.0083
+Turkish,All,12,Gir,120,understands,0.2583
+Turkish,All,13,Gir,122,produces,0
+Turkish,All,13,Gir,122,understands,0.3033
+Turkish,All,14,Gir,147,produces,0.0272
+Turkish,All,14,Gir,147,understands,0.4286
+Turkish,All,15,Gir,131,produces,0.0305
+Turkish,All,15,Gir,131,understands,0.4733
+Turkish,All,16,Gir,184,produces,0.0217
+Turkish,All,16,Gir,184,understands,0.2283
+Turkish,All,17,Gir,107,produces,0.0935
+Turkish,All,17,Gir,107,understands,0
+Turkish,All,18,Gir,128,produces,0.0703
+Turkish,All,18,Gir,128,understands,0
+Turkish,All,19,Gir,121,produces,0.157
+Turkish,All,19,Gir,121,understands,0
+Turkish,All,20,Gir,119,produces,0.1681
+Turkish,All,20,Gir,119,understands,0
+Turkish,All,21,Gir,124,produces,0.25
+Turkish,All,21,Gir,124,understands,0
+Turkish,All,22,Gir,126,produces,0.246
+Turkish,All,22,Gir,126,understands,0
+Turkish,All,23,Gir,131,produces,0.2443
+Turkish,All,23,Gir,131,understands,0
+Turkish,All,24,Gir,106,produces,0.3868
+Turkish,All,24,Gir,106,understands,0
+Turkish,All,25,Gir,123,produces,0.4309
+Turkish,All,25,Gir,123,understands,0
+Turkish,All,26,Gir,123,produces,0.5285
+Turkish,All,26,Gir,123,understands,0
+Turkish,All,27,Gir,108,produces,0.5926
+Turkish,All,27,Gir,108,understands,0
+Turkish,All,28,Gir,112,produces,0.5893
+Turkish,All,28,Gir,112,understands,0
+Turkish,All,29,Gir,119,produces,0.605
+Turkish,All,29,Gir,119,understands,0
+Turkish,All,30,Gir,104,produces,0.7308
+Turkish,All,30,Gir,104,understands,0
+Turkish,All,31,Gir,101,produces,0.6733
+Turkish,All,31,Gir,101,understands,0
+Turkish,All,32,Gir,132,produces,0.75
+Turkish,All,32,Gir,132,understands,0
+Turkish,All,33,Gir,114,produces,0.7807
+Turkish,All,33,Gir,114,understands,0
+Turkish,All,34,Gir,107,produces,0.757
+Turkish,All,34,Gir,107,understands,0
+Turkish,All,35,Gir,131,produces,0.8397
+Turkish,All,35,Gir,131,understands,0
+Turkish,All,36,Gir,77,produces,0.8701
+Turkish,All,36,Gir,77,understands,0
+American Sign Language,Male,8,ENTER,1,produces,0
+American Sign Language,Male,8,ENTER,1,understands,0
+American Sign Language,Female,9,ENTER,4,produces,0
+American Sign Language,Female,9,ENTER,4,understands,0.25
+American Sign Language,Female,10,ENTER,3,produces,0
+American Sign Language,Female,10,ENTER,3,understands,0
+American Sign Language,Male,10,ENTER,2,produces,0
+American Sign Language,Male,10,ENTER,2,understands,0
+American Sign Language,Female,11,ENTER,2,produces,0
+American Sign Language,Female,11,ENTER,2,understands,0
+American Sign Language,Male,11,ENTER,1,produces,0
+American Sign Language,Male,11,ENTER,1,understands,0
+American Sign Language,Female,12,ENTER,2,produces,0
+American Sign Language,Female,12,ENTER,2,understands,0
+American Sign Language,Male,12,ENTER,2,produces,0
+American Sign Language,Male,12,ENTER,2,understands,0
+American Sign Language,Female,13,ENTER,3,produces,0
+American Sign Language,Female,13,ENTER,3,understands,0
+American Sign Language,Male,13,ENTER,1,produces,0
+American Sign Language,Male,13,ENTER,1,understands,0
+American Sign Language,Female,14,ENTER,1,produces,0
+American Sign Language,Female,14,ENTER,1,understands,0
+American Sign Language,Female,15,ENTER,1,produces,0
+American Sign Language,Female,15,ENTER,1,understands,0
+American Sign Language,Male,15,ENTER,2,produces,0
+American Sign Language,Male,15,ENTER,2,understands,0
+American Sign Language,Female,16,ENTER,2,produces,0
+American Sign Language,Female,16,ENTER,2,understands,0.5
+American Sign Language,Female,17,ENTER,3,produces,0
+American Sign Language,Female,17,ENTER,3,understands,0.6667
+American Sign Language,Male,17,ENTER,2,produces,0
+American Sign Language,Male,17,ENTER,2,understands,0
+American Sign Language,Female,18,ENTER,6,produces,0.1667
+American Sign Language,Female,18,ENTER,6,understands,0.5
+American Sign Language,Male,18,ENTER,5,produces,0
+American Sign Language,Male,18,ENTER,5,understands,0.2
+American Sign Language,Female,19,ENTER,2,produces,0
+American Sign Language,Female,19,ENTER,2,understands,0
+American Sign Language,Male,19,ENTER,4,produces,0
+American Sign Language,Male,19,ENTER,4,understands,0.25
+American Sign Language,Male,20,ENTER,3,produces,0
+American Sign Language,Male,20,ENTER,3,understands,0
+American Sign Language,Female,21,ENTER,2,produces,0
+American Sign Language,Female,21,ENTER,2,understands,0.5
+American Sign Language,Male,21,ENTER,2,produces,0
+American Sign Language,Male,21,ENTER,2,understands,0.5
+American Sign Language,Female,22,ENTER,9,produces,0
+American Sign Language,Female,22,ENTER,9,understands,0.1111
+American Sign Language,Male,22,ENTER,1,produces,0
+American Sign Language,Male,22,ENTER,1,understands,0
+American Sign Language,Female,23,ENTER,3,produces,0
+American Sign Language,Female,23,ENTER,3,understands,0.3333
+American Sign Language,Male,23,ENTER,2,produces,0
+American Sign Language,Male,23,ENTER,2,understands,0.5
+American Sign Language,Female,24,ENTER,2,produces,0
+American Sign Language,Female,24,ENTER,2,understands,0
+American Sign Language,Male,24,ENTER,7,produces,0.1429
+American Sign Language,Male,24,ENTER,7,understands,0.1429
+American Sign Language,Female,25,ENTER,6,produces,0
+American Sign Language,Female,25,ENTER,6,understands,0.3333
+American Sign Language,Male,25,ENTER,7,produces,0
+American Sign Language,Male,25,ENTER,7,understands,1
+American Sign Language,Female,26,ENTER,2,produces,0
+American Sign Language,Female,26,ENTER,2,understands,0.5
+American Sign Language,Male,26,ENTER,2,produces,0.5
+American Sign Language,Male,26,ENTER,2,understands,1
+American Sign Language,Female,27,ENTER,4,produces,0
+American Sign Language,Female,27,ENTER,4,understands,0.5
+American Sign Language,Male,27,ENTER,3,produces,0.3333
+American Sign Language,Male,27,ENTER,3,understands,0.3333
+American Sign Language,Female,28,ENTER,3,produces,0.3333
+American Sign Language,Female,28,ENTER,3,understands,0.6667
+American Sign Language,Male,28,ENTER,4,produces,0.25
+American Sign Language,Male,28,ENTER,4,understands,0.5
+American Sign Language,Female,29,ENTER,1,produces,0
+American Sign Language,Female,29,ENTER,1,understands,1
+American Sign Language,Male,29,ENTER,5,produces,0.4
+American Sign Language,Male,29,ENTER,5,understands,0.8
+American Sign Language,Female,30,ENTER,3,produces,0.6667
+American Sign Language,Female,30,ENTER,3,understands,0.3333
+American Sign Language,Male,30,ENTER,4,produces,0
+American Sign Language,Male,30,ENTER,4,understands,0.5
+American Sign Language,Female,31,ENTER,6,produces,0.1667
+American Sign Language,Female,31,ENTER,6,understands,0.5
+American Sign Language,Male,31,ENTER,3,produces,0
+American Sign Language,Male,31,ENTER,3,understands,0.3333
+American Sign Language,Female,32,ENTER,4,produces,0
+American Sign Language,Female,32,ENTER,4,understands,0.5
+American Sign Language,Male,32,ENTER,11,produces,0.2727
+American Sign Language,Male,32,ENTER,11,understands,0.3636
+American Sign Language,Female,33,ENTER,2,produces,0
+American Sign Language,Female,33,ENTER,2,understands,0
+American Sign Language,Male,33,ENTER,4,produces,0.25
+American Sign Language,Male,33,ENTER,4,understands,0.5
+American Sign Language,Female,34,ENTER,2,produces,1
+American Sign Language,Female,34,ENTER,2,understands,0.5
+American Sign Language,Male,34,ENTER,5,produces,0.6
+American Sign Language,Male,34,ENTER,5,understands,0.8
+American Sign Language,Female,35,ENTER,4,produces,0.5
+American Sign Language,Female,35,ENTER,4,understands,0.5
+American Sign Language,Male,35,ENTER,3,produces,0.3333
+American Sign Language,Male,35,ENTER,3,understands,0.6667
+American Sign Language,Female,36,ENTER,3,produces,0
+American Sign Language,Female,36,ENTER,3,understands,0.6667
+Arabic (Saudi),Female,8,"يدخل, ادخل/ يدخل",13,produces,0
+Arabic (Saudi),Female,8,"يدخل, ادخل/ يدخل",13,understands,0.1538
+Arabic (Saudi),Male,8,"يدخل, ادخل/ يدخل",11,produces,0
+Arabic (Saudi),Male,8,"يدخل, ادخل/ يدخل",11,understands,0
+Arabic (Saudi),Female,9,"يدخل, ادخل/ يدخل",14,produces,0
+Arabic (Saudi),Female,9,"يدخل, ادخل/ يدخل",14,understands,0
+Arabic (Saudi),Male,9,"يدخل, ادخل/ يدخل",13,produces,0
+Arabic (Saudi),Male,9,"يدخل, ادخل/ يدخل",13,understands,0
+Arabic (Saudi),Female,10,"يدخل, ادخل/ يدخل",15,produces,0
+Arabic (Saudi),Female,10,"يدخل, ادخل/ يدخل",15,understands,0
+Arabic (Saudi),Male,10,"يدخل, ادخل/ يدخل",20,produces,0
+Arabic (Saudi),Male,10,"يدخل, ادخل/ يدخل",20,understands,0.1
+Arabic (Saudi),Female,11,"يدخل, ادخل/ يدخل",14,produces,0.0714
+Arabic (Saudi),Female,11,"يدخل, ادخل/ يدخل",14,understands,0
+Arabic (Saudi),Male,11,"يدخل, ادخل/ يدخل",16,produces,0
+Arabic (Saudi),Male,11,"يدخل, ادخل/ يدخل",16,understands,0.0625
+Arabic (Saudi),Female,12,"يدخل, ادخل/ يدخل",14,produces,0.0714
+Arabic (Saudi),Female,12,"يدخل, ادخل/ يدخل",14,understands,0
+Arabic (Saudi),Male,12,"يدخل, ادخل/ يدخل",16,produces,0
+Arabic (Saudi),Male,12,"يدخل, ادخل/ يدخل",16,understands,0
+Arabic (Saudi),Female,13,"يدخل, ادخل/ يدخل",17,produces,0
+Arabic (Saudi),Female,13,"يدخل, ادخل/ يدخل",17,understands,0
+Arabic (Saudi),Male,13,"يدخل, ادخل/ يدخل",22,produces,0.1364
+Arabic (Saudi),Male,13,"يدخل, ادخل/ يدخل",22,understands,0
+Arabic (Saudi),Female,14,ادخل/ يدخل,10,produces,0
+Arabic (Saudi),Female,14,ادخل/ يدخل,10,understands,0
+Arabic (Saudi),Male,14,"يدخل, ادخل/ يدخل",15,produces,0.2667
+Arabic (Saudi),Male,14,"يدخل, ادخل/ يدخل",15,understands,0.1333
+Arabic (Saudi),Female,15,"يدخل, ادخل/ يدخل",12,produces,0
+Arabic (Saudi),Female,15,"يدخل, ادخل/ يدخل",12,understands,0.0833
+Arabic (Saudi),Male,15,"يدخل, ادخل/ يدخل",15,produces,0.1333
+Arabic (Saudi),Male,15,"يدخل, ادخل/ يدخل",15,understands,0.0667
+Arabic (Saudi),Female,16,"يدخل, ادخل/ يدخل",10,produces,0
+Arabic (Saudi),Female,16,"يدخل, ادخل/ يدخل",10,understands,0.1
+Arabic (Saudi),Male,16,"يدخل, ادخل/ يدخل",11,produces,0
+Arabic (Saudi),Male,16,"يدخل, ادخل/ يدخل",11,understands,0.0909
+British Sign Language,Female,8,enter,2,produces,0
+British Sign Language,Female,8,enter,2,understands,0
+British Sign Language,Male,8,enter,2,produces,0
+British Sign Language,Male,8,enter,2,understands,0
+British Sign Language,Female,9,enter,3,produces,0
+British Sign Language,Female,9,enter,3,understands,0
+British Sign Language,Male,9,enter,1,produces,0
+British Sign Language,Male,9,enter,1,understands,0
+British Sign Language,Female,10,enter,1,produces,0
+British Sign Language,Female,10,enter,1,understands,0
+British Sign Language,Male,10,enter,3,produces,0
+British Sign Language,Male,10,enter,3,understands,0
+British Sign Language,Female,11,enter,4,produces,0
+British Sign Language,Female,11,enter,4,understands,0
+British Sign Language,Male,11,enter,2,produces,0
+British Sign Language,Male,11,enter,2,understands,0
+British Sign Language,Female,12,enter,3,produces,0
+British Sign Language,Female,12,enter,3,understands,0
+British Sign Language,Male,12,enter,3,produces,0
+British Sign Language,Male,12,enter,3,understands,0
+British Sign Language,Female,13,enter,2,produces,0
+British Sign Language,Female,13,enter,2,understands,0
+British Sign Language,Male,13,enter,4,produces,0
+British Sign Language,Male,13,enter,4,understands,0
+British Sign Language,Female,14,enter,3,produces,0
+British Sign Language,Female,14,enter,3,understands,0
+British Sign Language,Male,14,enter,4,produces,0
+British Sign Language,Male,14,enter,4,understands,0
+British Sign Language,Female,15,enter,4,produces,0
+British Sign Language,Female,15,enter,4,understands,0
+British Sign Language,Male,15,enter,2,produces,0
+British Sign Language,Male,15,enter,2,understands,0
+British Sign Language,Female,16,enter,4,produces,0
+British Sign Language,Female,16,enter,4,understands,0
+British Sign Language,Male,16,enter,3,produces,0
+British Sign Language,Male,16,enter,3,understands,0
+British Sign Language,Female,17,enter,2,produces,0
+British Sign Language,Female,17,enter,2,understands,0
+British Sign Language,Male,17,enter,5,produces,0
+British Sign Language,Male,17,enter,5,understands,0
+British Sign Language,Female,18,enter,4,produces,0
+British Sign Language,Female,18,enter,4,understands,0
+British Sign Language,Male,18,enter,4,produces,0
+British Sign Language,Male,18,enter,4,understands,0
+British Sign Language,Female,19,enter,4,produces,0
+British Sign Language,Female,19,enter,4,understands,0
+British Sign Language,Male,19,enter,4,produces,0
+British Sign Language,Male,19,enter,4,understands,0
+British Sign Language,Female,20,enter,4,produces,0
+British Sign Language,Female,20,enter,4,understands,0
+British Sign Language,Male,20,enter,7,produces,0
+British Sign Language,Male,20,enter,7,understands,0
+British Sign Language,Female,21,enter,3,produces,0
+British Sign Language,Female,21,enter,3,understands,0
+British Sign Language,Male,21,enter,2,produces,0
+British Sign Language,Male,21,enter,2,understands,0
+British Sign Language,Female,22,enter,2,produces,0
+British Sign Language,Female,22,enter,2,understands,0
+British Sign Language,Male,22,enter,4,produces,0
+British Sign Language,Male,22,enter,4,understands,0
+British Sign Language,Female,23,enter,2,produces,0
+British Sign Language,Female,23,enter,2,understands,0
+British Sign Language,Male,23,enter,5,produces,0
+British Sign Language,Male,23,enter,5,understands,0
+British Sign Language,Female,24,enter,3,produces,0
+British Sign Language,Female,24,enter,3,understands,0.3333
+British Sign Language,Male,24,enter,2,produces,0
+British Sign Language,Male,24,enter,2,understands,0
+British Sign Language,Female,25,enter,1,produces,0
+British Sign Language,Female,25,enter,1,understands,0
+British Sign Language,Male,25,enter,6,produces,0
+British Sign Language,Male,25,enter,6,understands,0
+British Sign Language,Female,26,enter,4,produces,0
+British Sign Language,Female,26,enter,4,understands,0.25
+British Sign Language,Male,26,enter,2,produces,0
+British Sign Language,Male,26,enter,2,understands,0
+British Sign Language,Female,27,enter,1,produces,0
+British Sign Language,Female,27,enter,1,understands,0
+British Sign Language,Male,27,enter,5,produces,0
+British Sign Language,Male,27,enter,5,understands,0
+British Sign Language,Female,28,enter,1,produces,0
+British Sign Language,Female,28,enter,1,understands,0
+British Sign Language,Male,28,enter,2,produces,0
+British Sign Language,Male,28,enter,2,understands,0
+British Sign Language,Female,29,enter,2,produces,0
+British Sign Language,Female,29,enter,2,understands,0
+British Sign Language,Male,29,enter,5,produces,0
+British Sign Language,Male,29,enter,5,understands,0
+British Sign Language,Female,30,enter,1,produces,0
+British Sign Language,Female,30,enter,1,understands,0
+British Sign Language,Male,30,enter,4,produces,0
+British Sign Language,Male,30,enter,4,understands,0.25
+British Sign Language,Male,31,enter,2,produces,0
+British Sign Language,Male,31,enter,2,understands,0
+British Sign Language,Female,32,enter,2,produces,0.5
+British Sign Language,Female,32,enter,2,understands,0.5
+British Sign Language,Male,32,enter,4,produces,0.25
+British Sign Language,Male,32,enter,4,understands,0.25
+British Sign Language,Female,33,enter,1,produces,1
+British Sign Language,Female,33,enter,1,understands,1
+British Sign Language,Male,33,enter,4,produces,0.5
+British Sign Language,Male,33,enter,4,understands,0.5
+British Sign Language,Female,34,enter,1,produces,0
+British Sign Language,Female,34,enter,1,understands,0
+British Sign Language,Male,34,enter,1,produces,0
+British Sign Language,Male,34,enter,1,understands,0
+British Sign Language,Female,35,enter,1,produces,0
+British Sign Language,Female,35,enter,1,understands,0
+British Sign Language,Male,35,enter,1,produces,0
+British Sign Language,Male,35,enter,1,understands,0
+British Sign Language,Female,36,enter,1,produces,0
+British Sign Language,Female,36,enter,1,understands,1
+British Sign Language,Male,36,enter,2,produces,0.5
+British Sign Language,Male,36,enter,2,understands,1
+Cantonese,Female,16,入(去),23,produces,0
+Cantonese,Female,16,入(去),23,understands,0
+Cantonese,Male,16,入(去),23,produces,0
+Cantonese,Male,16,入(去),23,understands,0
+Cantonese,Female,17,入(去),30,produces,0.0333
+Cantonese,Female,17,入(去),30,understands,0
+Cantonese,Male,17,入(去),31,produces,0
+Cantonese,Male,17,入(去),31,understands,0
+Cantonese,Female,18,入(去),33,produces,0.1212
+Cantonese,Female,18,入(去),33,understands,0
+Cantonese,Male,18,入(去),35,produces,0
+Cantonese,Male,18,入(去),35,understands,0
+Cantonese,Female,19,入(去),30,produces,0.0333
+Cantonese,Female,19,入(去),30,understands,0
+Cantonese,Male,19,入(去),36,produces,0.0278
+Cantonese,Male,19,入(去),36,understands,0
+Cantonese,Female,20,入(去),62,produces,0.1935
+Cantonese,Female,20,入(去),62,understands,0
+Cantonese,Male,20,入(去),78,produces,0.1667
+Cantonese,Male,20,入(去),78,understands,0
+Cantonese,Female,21,入(去),57,produces,0.193
+Cantonese,Female,21,入(去),57,understands,0
+Cantonese,Male,21,入(去),63,produces,0.2222
+Cantonese,Male,21,入(去),63,understands,0
+Cantonese,Female,22,入(去),34,produces,0.3824
+Cantonese,Female,22,入(去),34,understands,0
+Cantonese,Male,22,入(去),34,produces,0.0588
+Cantonese,Male,22,入(去),34,understands,0
+Cantonese,Female,23,入(去),37,produces,0.2973
+Cantonese,Female,23,入(去),37,understands,0
+Cantonese,Male,23,入(去),37,produces,0.2162
+Cantonese,Male,23,入(去),37,understands,0
+Cantonese,Female,24,入(去),32,produces,0.4688
+Cantonese,Female,24,入(去),32,understands,0
+Cantonese,Male,24,入(去),36,produces,0.3889
+Cantonese,Male,24,入(去),36,understands,0
+Cantonese,Female,25,入(去),31,produces,0.3871
+Cantonese,Female,25,入(去),31,understands,0
+Cantonese,Male,25,入(去),34,produces,0.4412
+Cantonese,Male,25,入(去),34,understands,0
+Cantonese,Female,26,入(去),31,produces,0.6774
+Cantonese,Female,26,入(去),31,understands,0
+Cantonese,Male,26,入(去),37,produces,0.4595
+Cantonese,Male,26,入(去),37,understands,0
+Cantonese,Female,27,入(去),31,produces,0.6452
+Cantonese,Female,27,入(去),31,understands,0
+Cantonese,Male,27,入(去),31,produces,0.6452
+Cantonese,Male,27,入(去),31,understands,0
+Cantonese,Female,28,入(去),32,produces,0.75
+Cantonese,Female,28,入(去),32,understands,0
+Cantonese,Male,28,入(去),34,produces,0.6471
+Cantonese,Male,28,入(去),34,understands,0
+Cantonese,Female,29,入(去),36,produces,0.75
+Cantonese,Female,29,入(去),36,understands,0
+Cantonese,Male,29,入(去),36,produces,0.7222
+Cantonese,Male,29,入(去),36,understands,0
+Cantonese,Female,30,入(去),76,produces,0.8684
+Cantonese,Female,30,入(去),76,understands,0
+Cantonese,Male,30,入(去),88,produces,0.7727
+Cantonese,Male,30,入(去),88,understands,0
+Catalan,Female,8,entrar,17,produces,0
+Catalan,Female,8,entrar,17,understands,0
+Catalan,Male,8,entrar,22,produces,0
+Catalan,Male,8,entrar,22,understands,0
+Catalan,Female,9,entrar,19,produces,0
+Catalan,Female,9,entrar,19,understands,0
+Catalan,Male,9,entrar,27,produces,0
+Catalan,Male,9,entrar,27,understands,0
+Catalan,Female,10,entrar,23,produces,0
+Catalan,Female,10,entrar,23,understands,0
+Catalan,Male,10,entrar,20,produces,0
+Catalan,Male,10,entrar,20,understands,0.05
+Catalan,Female,11,entrar,23,produces,0
+Catalan,Female,11,entrar,23,understands,0
+Catalan,Male,11,entrar,20,produces,0
+Catalan,Male,11,entrar,20,understands,0.1
+Catalan,Female,12,entrar,29,produces,0
+Catalan,Female,12,entrar,29,understands,0.1034
+Catalan,Male,12,entrar,30,produces,0
+Catalan,Male,12,entrar,30,understands,0.0667
+Catalan,Female,13,entrar,18,produces,0
+Catalan,Female,13,entrar,18,understands,0.1667
+Catalan,Male,13,entrar,26,produces,0
+Catalan,Male,13,entrar,26,understands,0.1538
+Catalan,Female,14,entrar,31,produces,0
+Catalan,Female,14,entrar,31,understands,0.2258
+Catalan,Male,14,entrar,29,produces,0
+Catalan,Male,14,entrar,29,understands,0.1724
+Catalan,Female,15,entrar,35,produces,0
+Catalan,Female,15,entrar,35,understands,0.4571
+Catalan,Male,15,entrar,35,produces,0
+Catalan,Male,15,entrar,35,understands,0.3714
+Catalan,Female,16,entrar,33,produces,0
+Catalan,Female,16,entrar,33,understands,0.3939
+Catalan,Male,16,entrar,40,produces,0
+Catalan,Male,16,entrar,40,understands,0.225
+Catalan,Female,17,entrar,64,produces,0
+Catalan,Female,17,entrar,64,understands,0.3438
+Catalan,Male,17,entrar,46,produces,0.0217
+Catalan,Male,17,entrar,46,understands,0.3696
+Catalan,Female,18,entrar,47,produces,0
+Catalan,Female,18,entrar,47,understands,0.4043
+Catalan,Male,18,entrar,55,produces,0
+Catalan,Male,18,entrar,55,understands,0.3091
+Catalan,Female,19,entrar,25,produces,0
+Catalan,Female,19,entrar,25,understands,0
+Catalan,Male,19,entrar,20,produces,0
+Catalan,Male,19,entrar,20,understands,0
+Catalan,Female,20,entrar,28,produces,0.0357
+Catalan,Female,20,entrar,28,understands,0
+Catalan,Male,20,entrar,28,produces,0
+Catalan,Male,20,entrar,28,understands,0
+Catalan,Female,21,entrar,32,produces,0.1875
+Catalan,Female,21,entrar,32,understands,0
+Catalan,Male,21,entrar,26,produces,0.0769
+Catalan,Male,21,entrar,26,understands,0
+Catalan,Female,22,entrar,26,produces,0.1538
+Catalan,Female,22,entrar,26,understands,0
+Catalan,Male,22,entrar,24,produces,0.0417
+Catalan,Male,22,entrar,24,understands,0
+Catalan,Female,23,entrar,35,produces,0.2571
+Catalan,Female,23,entrar,35,understands,0
+Catalan,Male,23,entrar,31,produces,0.129
+Catalan,Male,23,entrar,31,understands,0
+Catalan,Female,24,entrar,41,produces,0.4878
+Catalan,Female,24,entrar,41,understands,0
+Catalan,Male,24,entrar,38,produces,0.2105
+Catalan,Male,24,entrar,38,understands,0
+Catalan,Female,25,entrar,30,produces,0.4
+Catalan,Female,25,entrar,30,understands,0
+Catalan,Male,25,entrar,30,produces,0.2667
+Catalan,Male,25,entrar,30,understands,0
+Catalan,Female,26,entrar,35,produces,0.2857
+Catalan,Female,26,entrar,35,understands,0
+Catalan,Male,26,entrar,30,produces,0.4667
+Catalan,Male,26,entrar,30,understands,0
+Catalan,Female,27,entrar,36,produces,0.6944
+Catalan,Female,27,entrar,36,understands,0
+Catalan,Male,27,entrar,27,produces,0.5926
+Catalan,Male,27,entrar,27,understands,0
+Catalan,Female,28,entrar,40,produces,0.575
+Catalan,Female,28,entrar,40,understands,0
+Catalan,Male,28,entrar,41,produces,0.5122
+Catalan,Male,28,entrar,41,understands,0
+Catalan,Female,29,entrar,25,produces,0.72
+Catalan,Female,29,entrar,25,understands,0
+Catalan,Male,29,entrar,25,produces,0.72
+Catalan,Male,29,entrar,25,understands,0
+Catalan,Female,30,entrar,24,produces,0.875
+Catalan,Female,30,entrar,24,understands,0
+Catalan,Male,30,entrar,51,produces,0.6863
+Catalan,Male,30,entrar,51,understands,0
+Italian,Female,18,entrare,18,produces,0.0556
+Italian,Female,18,entrare,18,understands,0
+Italian,Male,18,entrare,13,produces,0
+Italian,Male,18,entrare,13,understands,0
+Italian,Female,19,entrare,21,produces,0.0476
+Italian,Female,19,entrare,21,understands,0
+Italian,Male,19,entrare,18,produces,0.0556
+Italian,Male,19,entrare,18,understands,0
+Italian,Female,20,entrare,34,produces,0.0882
+Italian,Female,20,entrare,34,understands,0
+Italian,Male,20,entrare,30,produces,0.1
+Italian,Male,20,entrare,30,understands,0
+Italian,Female,21,entrare,24,produces,0.125
+Italian,Female,21,entrare,24,understands,0
+Italian,Male,21,entrare,31,produces,0.0323
+Italian,Male,21,entrare,31,understands,0
+Italian,Female,22,entrare,27,produces,0.1852
+Italian,Female,22,entrare,27,understands,0
+Italian,Male,22,entrare,28,produces,0.3214
+Italian,Male,22,entrare,28,understands,0
+Italian,Female,23,entrare,27,produces,0.2593
+Italian,Female,23,entrare,27,understands,0
+Italian,Male,23,entrare,26,produces,0.3846
+Italian,Male,23,entrare,26,understands,0
+Italian,Female,24,entrare,39,produces,0.359
+Italian,Female,24,entrare,39,understands,0
+Italian,Male,24,entrare,32,produces,0.3438
+Italian,Male,24,entrare,32,understands,0
+Italian,Female,25,entrare,23,produces,0.5217
+Italian,Female,25,entrare,23,understands,0
+Italian,Male,25,entrare,16,produces,0.5625
+Italian,Male,25,entrare,16,understands,0
+Italian,Female,26,entrare,19,produces,0.5263
+Italian,Female,26,entrare,19,understands,0
+Italian,Male,26,entrare,22,produces,0.5455
+Italian,Male,26,entrare,22,understands,0
+Italian,Female,27,entrare,20,produces,0.6
+Italian,Female,27,entrare,20,understands,0
+Italian,Male,27,entrare,23,produces,0.4783
+Italian,Male,27,entrare,23,understands,0
+Italian,Female,28,entrare,21,produces,0.619
+Italian,Female,28,entrare,21,understands,0
+Italian,Male,28,entrare,23,produces,0.7391
+Italian,Male,28,entrare,23,understands,0
+Italian,Female,29,entrare,21,produces,0.6667
+Italian,Female,29,entrare,21,understands,0
+Italian,Male,29,entrare,16,produces,0.75
+Italian,Male,29,entrare,16,understands,0
+Italian,Female,30,entrare,28,produces,0.7143
+Italian,Female,30,entrare,28,understands,0
+Italian,Male,30,entrare,39,produces,0.7179
+Italian,Male,30,entrare,39,understands,0
+Italian,Female,31,entrare,8,produces,0.75
+Italian,Female,31,entrare,8,understands,0
+Italian,Male,31,entrare,11,produces,0.7273
+Italian,Male,31,entrare,11,understands,0
+Italian,Female,32,entrare,14,produces,0.8571
+Italian,Female,32,entrare,14,understands,0
+Italian,Male,32,entrare,9,produces,0.3333
+Italian,Male,32,entrare,9,understands,0
+Italian,Female,33,entrare,5,produces,0.8
+Italian,Female,33,entrare,5,understands,0
+Italian,Male,33,entrare,11,produces,0.8182
+Italian,Male,33,entrare,11,understands,0
+Italian,Female,34,entrare,12,produces,1
+Italian,Female,34,entrare,12,understands,0
+Italian,Male,34,entrare,7,produces,0.8571
+Italian,Male,34,entrare,7,understands,0
+Italian,Female,35,entrare,9,produces,0.8889
+Italian,Female,35,entrare,9,understands,0
+Italian,Male,35,entrare,6,produces,0.8333
+Italian,Male,35,entrare,6,understands,0
+Italian,Female,36,entrare,7,produces,0.7143
+Italian,Female,36,entrare,7,understands,0
+Italian,Male,36,entrare,14,produces,0.8571
+Italian,Male,36,entrare,14,understands,0
+Japanese,Female,8,はいる（入る）,2,produces,0
+Japanese,Female,8,はいる（入る）,2,understands,0
+Japanese,Male,8,はいる（入る）,4,produces,0
+Japanese,Male,8,はいる（入る）,4,understands,0
+Japanese,Female,9,はいる（入る）,4,produces,0
+Japanese,Female,9,はいる（入る）,4,understands,0
+Japanese,Male,9,はいる（入る）,6,produces,0
+Japanese,Male,9,はいる（入る）,6,understands,0
+Japanese,Female,10,はいる（入る）,2,produces,0
+Japanese,Female,10,はいる（入る）,2,understands,0
+Japanese,Male,10,はいる（入る）,6,produces,0
+Japanese,Male,10,はいる（入る）,6,understands,0
+Japanese,Female,11,はいる（入る）,58,produces,0
+Japanese,Female,11,はいる（入る）,58,understands,0.0345
+Japanese,Male,11,はいる（入る）,29,produces,0
+Japanese,Male,11,はいる（入る）,29,understands,0
+Japanese,Female,12,はいる（入る）,56,produces,0
+Japanese,Female,12,はいる（入る）,56,understands,0.0536
+Japanese,Male,12,はいる（入る）,62,produces,0
+Japanese,Male,12,はいる（入る）,62,understands,0.0161
+Japanese,Female,13,はいる（入る）,10,produces,0
+Japanese,Female,13,はいる（入る）,10,understands,0
+Japanese,Male,13,はいる（入る）,13,produces,0
+Japanese,Male,13,はいる（入る）,13,understands,0.2308
+Japanese,Female,14,はいる（入る）,15,produces,0
+Japanese,Female,14,はいる（入る）,15,understands,0.0667
+Japanese,Male,14,はいる（入る）,11,produces,0
+Japanese,Male,14,はいる（入る）,11,understands,0.1818
+Japanese,Female,15,はいる（入る）,38,produces,0
+Japanese,Female,15,はいる（入る）,38,understands,0.2632
+Japanese,Male,15,はいる（入る）,34,produces,0
+Japanese,Male,15,はいる（入る）,34,understands,0.1471
+Japanese,Female,16,はいる（入る）,23,produces,0
+Japanese,Female,16,はいる（入る）,23,understands,0.0435
+Japanese,Male,16,はいる（入る）,23,produces,0.0435
+Japanese,Male,16,はいる（入る）,23,understands,0.1304
+Japanese,Female,17,はいる（入る）,51,produces,0
+Japanese,Female,17,はいる（入る）,51,understands,0.2549
+Japanese,Male,17,はいる（入る）,26,produces,0
+Japanese,Male,17,はいる（入る）,26,understands,0.2692
+Japanese,Female,18,はいる（入る）,47,produces,0.0426
+Japanese,Female,18,はいる（入る）,47,understands,0.1489
+Japanese,Male,18,はいる（入る）,47,produces,0
+Japanese,Male,18,はいる（入る）,47,understands,0.1277
+Japanese,Female,19,はいる（入る）,14,produces,0
+Japanese,Female,19,はいる（入る）,14,understands,0
+Japanese,Male,19,はいる（入る）,21,produces,0
+Japanese,Male,19,はいる（入る）,21,understands,0
+Japanese,Female,20,はいる（入る）,27,produces,0.037
+Japanese,Female,20,はいる（入る）,27,understands,0
+Japanese,Male,20,はいる（入る）,32,produces,0.0938
+Japanese,Male,20,はいる（入る）,32,understands,0
+Japanese,Female,21,はいる（入る）,29,produces,0.1379
+Japanese,Female,21,はいる（入る）,29,understands,0
+Japanese,Male,21,はいる（入る）,33,produces,0.0606
+Japanese,Male,21,はいる（入る）,33,understands,0
+Japanese,Female,22,はいる（入る）,16,produces,0.125
+Japanese,Female,22,はいる（入る）,16,understands,0
+Japanese,Male,22,はいる（入る）,15,produces,0.0667
+Japanese,Male,22,はいる（入る）,15,understands,0
+Japanese,Female,23,はいる（入る）,38,produces,0.2368
+Japanese,Female,23,はいる（入る）,38,understands,0
+Japanese,Male,23,はいる（入る）,29,produces,0.1724
+Japanese,Male,23,はいる（入る）,29,understands,0
+Japanese,Female,24,はいる（入る）,18,produces,0.5
+Japanese,Female,24,はいる（入る）,18,understands,0
+Japanese,Male,24,はいる（入る）,15,produces,0.2
+Japanese,Male,24,はいる（入る）,15,understands,0
+Japanese,Female,25,はいる（入る）,14,produces,0.3571
+Japanese,Female,25,はいる（入る）,14,understands,0
+Japanese,Male,25,はいる（入る）,20,produces,0.45
+Japanese,Male,25,はいる（入る）,20,understands,0
+Japanese,Female,26,はいる（入る）,19,produces,0.5263
+Japanese,Female,26,はいる（入る）,19,understands,0
+Japanese,Male,26,はいる（入る）,14,produces,0.2143
+Japanese,Male,26,はいる（入る）,14,understands,0
+Japanese,Female,27,はいる（入る）,8,produces,0.375
+Japanese,Female,27,はいる（入る）,8,understands,0
+Japanese,Male,27,はいる（入る）,7,produces,0.5714
+Japanese,Male,27,はいる（入る）,7,understands,0
+Japanese,Female,28,はいる（入る）,8,produces,0.375
+Japanese,Female,28,はいる（入る）,8,understands,0
+Japanese,Male,28,はいる（入る）,10,produces,0.3
+Japanese,Male,28,はいる（入る）,10,understands,0
+Japanese,Female,29,はいる（入る）,6,produces,0.5
+Japanese,Female,29,はいる（入る）,6,understands,0
+Japanese,Male,29,はいる（入る）,11,produces,0.6364
+Japanese,Male,29,はいる（入る）,11,understands,0
+Japanese,Female,30,はいる（入る）,9,produces,0.2222
+Japanese,Female,30,はいる（入る）,9,understands,0
+Japanese,Male,30,はいる（入る）,9,produces,0.5556
+Japanese,Male,30,はいる（入る）,9,understands,0
+Japanese,Female,31,はいる（入る）,8,produces,0.875
+Japanese,Female,31,はいる（入る）,8,understands,0
+Japanese,Male,31,はいる（入る）,10,produces,0.4
+Japanese,Male,31,はいる（入る）,10,understands,0
+Japanese,Female,32,はいる（入る）,8,produces,0.75
+Japanese,Female,32,はいる（入る）,8,understands,0
+Japanese,Male,32,はいる（入る）,5,produces,0.6
+Japanese,Male,32,はいる（入る）,5,understands,0
+Japanese,Female,33,はいる（入る）,9,produces,0.8889
+Japanese,Female,33,はいる（入る）,9,understands,0
+Japanese,Male,33,はいる（入る）,7,produces,0.8571
+Japanese,Male,33,はいる（入る）,7,understands,0
+Japanese,Female,34,はいる（入る）,8,produces,0.5
+Japanese,Female,34,はいる（入る）,8,understands,0
+Japanese,Male,34,はいる（入る）,5,produces,0.8
+Japanese,Male,34,はいる（入る）,5,understands,0
+Japanese,Female,35,はいる（入る）,19,produces,0.7895
+Japanese,Female,35,はいる（入る）,19,understands,0
+Japanese,Male,35,はいる（入る）,12,produces,0.5833
+Japanese,Male,35,はいる（入る）,12,understands,0
+Japanese,Female,36,はいる（入る）,4,produces,1
+Japanese,Female,36,はいる（入る）,4,understands,0
+Japanese,Male,36,はいる（入る）,14,produces,0.6429
+Japanese,Male,36,はいる（入る）,14,understands,0
+Korean,Female,18,"들어가, (차에)타",51,produces,0.1471
+Korean,Female,18,"들어가, (차에)타",51,understands,0
+Korean,Male,18,"들어가, (차에)타",37,produces,0.1892
+Korean,Male,18,"들어가, (차에)타",37,understands,0
+Korean,Female,19,"들어가, (차에)타",39,produces,0.1538
+Korean,Female,19,"들어가, (차에)타",39,understands,0
+Korean,Male,19,"들어가, (차에)타",38,produces,0.1579
+Korean,Male,19,"들어가, (차에)타",38,understands,0
+Korean,Female,20,"들어가, (차에)타",47,produces,0.1277
+Korean,Female,20,"들어가, (차에)타",47,understands,0
+Korean,Male,20,"들어가, (차에)타",41,produces,0.122
+Korean,Male,20,"들어가, (차에)타",41,understands,0
+Korean,Female,21,"들어가, (차에)타",38,produces,0.3026
+Korean,Female,21,"들어가, (차에)타",38,understands,0
+Korean,Male,21,"들어가, (차에)타",41,produces,0.1951
+Korean,Male,21,"들어가, (차에)타",41,understands,0
+Korean,Female,22,"들어가, (차에)타",42,produces,0.3571
+Korean,Female,22,"들어가, (차에)타",42,understands,0
+Korean,Male,22,"들어가, (차에)타",45,produces,0.2889
+Korean,Male,22,"들어가, (차에)타",45,understands,0
+Korean,Female,23,"들어가, (차에)타",42,produces,0.4643
+Korean,Female,23,"들어가, (차에)타",42,understands,0
+Korean,Male,23,"들어가, (차에)타",45,produces,0.2556
+Korean,Male,23,"들어가, (차에)타",45,understands,0
+Korean,Female,24,"들어가, (차에)타",46,produces,0.4674
+Korean,Female,24,"들어가, (차에)타",46,understands,0
+Korean,Male,24,"들어가, (차에)타",61,produces,0.3934
+Korean,Male,24,"들어가, (차에)타",61,understands,0
+Korean,Female,25,"들어가, (차에)타",46,produces,0.6739
+Korean,Female,25,"들어가, (차에)타",46,understands,0
+Korean,Male,25,"들어가, (차에)타",49,produces,0.4388
+Korean,Male,25,"들어가, (차에)타",49,understands,0
+Korean,Female,26,"들어가, (차에)타",42,produces,0.5833
+Korean,Female,26,"들어가, (차에)타",42,understands,0
+Korean,Male,26,"들어가, (차에)타",49,produces,0.4184
+Korean,Male,26,"들어가, (차에)타",49,understands,0
+Korean,Female,27,"들어가, (차에)타",46,produces,0.6087
+Korean,Female,27,"들어가, (차에)타",46,understands,0
+Korean,Male,27,"들어가, (차에)타",58,produces,0.5
+Korean,Male,27,"들어가, (차에)타",58,understands,0
+Korean,Female,28,"들어가, (차에)타",49,produces,0.7755
+Korean,Female,28,"들어가, (차에)타",49,understands,0
+Korean,Male,28,"들어가, (차에)타",40,produces,0.5875
+Korean,Male,28,"들어가, (차에)타",40,understands,0
+Korean,Female,29,"들어가, (차에)타",49,produces,0.7245
+Korean,Female,29,"들어가, (차에)타",49,understands,0
+Korean,Male,29,"들어가, (차에)타",51,produces,0.7549
+Korean,Male,29,"들어가, (차에)타",51,understands,0
+Korean,Female,30,"들어가, (차에)타",34,produces,0.7794
+Korean,Female,30,"들어가, (차에)타",34,understands,0
+Korean,Male,30,"들어가, (차에)타",47,produces,0.7234
+Korean,Male,30,"들어가, (차에)타",47,understands,0
+Korean,Female,31,"들어가, (차에)타",31,produces,0.7581
+Korean,Female,31,"들어가, (차에)타",31,understands,0
+Korean,Male,31,"들어가, (차에)타",48,produces,0.75
+Korean,Male,31,"들어가, (차에)타",48,understands,0
+Korean,Female,32,"들어가, (차에)타",33,produces,0.7879
+Korean,Female,32,"들어가, (차에)타",33,understands,0
+Korean,Male,32,"들어가, (차에)타",36,produces,0.6389
+Korean,Male,32,"들어가, (차에)타",36,understands,0
+Korean,Female,33,"들어가, (차에)타",36,produces,0.6944
+Korean,Female,33,"들어가, (차에)타",36,understands,0
+Korean,Male,33,"들어가, (차에)타",43,produces,0.6744
+Korean,Male,33,"들어가, (차에)타",43,understands,0
+Korean,Female,34,"들어가, (차에)타",41,produces,0.8902
+Korean,Female,34,"들어가, (차에)타",41,understands,0
+Korean,Male,34,"들어가, (차에)타",38,produces,0.8026
+Korean,Male,34,"들어가, (차에)타",38,understands,0
+Korean,Female,35,"들어가, (차에)타",37,produces,0.8919
+Korean,Female,35,"들어가, (차에)타",37,understands,0
+Korean,Male,35,"들어가, (차에)타",37,produces,0.7432
+Korean,Male,35,"들어가, (차에)타",37,understands,0
+Korean,Female,36,"들어가, (차에)타",40,produces,0.8625
+Korean,Female,36,"들어가, (차에)타",40,understands,0
+Korean,Male,36,"들어가, (차에)타",35,produces,0.9286
+Korean,Male,36,"들어가, (차에)타",35,understands,0
+Mandarin (Beijing),Female,16,进去,35,produces,0.0857
+Mandarin (Beijing),Female,16,进去,35,understands,0
+Mandarin (Beijing),Male,16,进去,35,produces,0.0286
+Mandarin (Beijing),Male,16,进去,35,understands,0
+Mandarin (Beijing),Female,17,进去,35,produces,0.0571
+Mandarin (Beijing),Female,17,进去,35,understands,0
+Mandarin (Beijing),Male,17,进去,37,produces,0.1081
+Mandarin (Beijing),Male,17,进去,37,understands,0
+Mandarin (Beijing),Female,18,进去,35,produces,0.2
+Mandarin (Beijing),Female,18,进去,35,understands,0
+Mandarin (Beijing),Male,18,进去,36,produces,0.1667
+Mandarin (Beijing),Male,18,进去,36,understands,0
+Mandarin (Beijing),Female,19,进去,35,produces,0.4286
+Mandarin (Beijing),Female,19,进去,35,understands,0
+Mandarin (Beijing),Male,19,进去,35,produces,0.2286
+Mandarin (Beijing),Male,19,进去,35,understands,0
+Mandarin (Beijing),Female,20,进去,35,produces,0.5143
+Mandarin (Beijing),Female,20,进去,35,understands,0
+Mandarin (Beijing),Male,20,进去,36,produces,0.3333
+Mandarin (Beijing),Male,20,进去,36,understands,0
+Mandarin (Beijing),Female,21,进去,35,produces,0.6286
+Mandarin (Beijing),Female,21,进去,35,understands,0
+Mandarin (Beijing),Male,21,进去,35,produces,0.6286
+Mandarin (Beijing),Male,21,进去,35,understands,0
+Mandarin (Beijing),Female,22,进去,35,produces,0.8286
+Mandarin (Beijing),Female,22,进去,35,understands,0
+Mandarin (Beijing),Male,22,进去,36,produces,0.6389
+Mandarin (Beijing),Male,22,进去,36,understands,0
+Mandarin (Beijing),Female,23,进去,35,produces,0.8571
+Mandarin (Beijing),Female,23,进去,35,understands,0
+Mandarin (Beijing),Male,23,进去,35,produces,0.7143
+Mandarin (Beijing),Male,23,进去,35,understands,0
+Mandarin (Beijing),Female,24,进去,35,produces,0.8857
+Mandarin (Beijing),Female,24,进去,35,understands,0
+Mandarin (Beijing),Male,24,进去,35,produces,0.7714
+Mandarin (Beijing),Male,24,进去,35,understands,0
+Mandarin (Beijing),Female,25,进去,35,produces,0.9429
+Mandarin (Beijing),Female,25,进去,35,understands,0
+Mandarin (Beijing),Male,25,进去,35,produces,0.9143
+Mandarin (Beijing),Male,25,进去,35,understands,0
+Mandarin (Beijing),Female,26,进去,36,produces,1
+Mandarin (Beijing),Female,26,进去,36,understands,0
+Mandarin (Beijing),Male,26,进去,35,produces,0.8571
+Mandarin (Beijing),Male,26,进去,35,understands,0
+Mandarin (Beijing),Female,27,进去,35,produces,0.9429
+Mandarin (Beijing),Female,27,进去,35,understands,0
+Mandarin (Beijing),Male,27,进去,35,produces,0.8571
+Mandarin (Beijing),Male,27,进去,35,understands,0
+Mandarin (Beijing),Female,28,进去,35,produces,0.9429
+Mandarin (Beijing),Female,28,进去,35,understands,0
+Mandarin (Beijing),Male,28,进去,35,produces,0.9143
+Mandarin (Beijing),Male,28,进去,35,understands,0
+Mandarin (Beijing),Female,29,进去,35,produces,0.9714
+Mandarin (Beijing),Female,29,进去,35,understands,0
+Mandarin (Beijing),Male,29,进去,35,produces,1
+Mandarin (Beijing),Male,29,进去,35,understands,0
+Mandarin (Beijing),Female,30,进去,35,produces,0.9429
+Mandarin (Beijing),Female,30,进去,35,understands,0
+Mandarin (Beijing),Male,30,进去,35,produces,1
+Mandarin (Beijing),Male,30,进去,35,understands,0
+Portuguese (European),Female,8,Entrar,55,produces,0
+Portuguese (European),Female,8,Entrar,55,understands,0
+Portuguese (European),Male,8,Entrar,71,produces,0
+Portuguese (European),Male,8,Entrar,71,understands,0
+Portuguese (European),Female,9,Entrar,71,produces,0
+Portuguese (European),Female,9,Entrar,71,understands,0.0282
+Portuguese (European),Male,9,Entrar,77,produces,0
+Portuguese (European),Male,9,Entrar,77,understands,0.0649
+Portuguese (European),Female,10,Entrar,74,produces,0
+Portuguese (European),Female,10,Entrar,74,understands,0.0405
+Portuguese (European),Male,10,Entrar,94,produces,0
+Portuguese (European),Male,10,Entrar,94,understands,0.0213
+Portuguese (European),Female,11,Entrar,93,produces,0
+Portuguese (European),Female,11,Entrar,93,understands,0.0215
+Portuguese (European),Male,11,Entrar,86,produces,0
+Portuguese (European),Male,11,Entrar,86,understands,0.0116
+Portuguese (European),Female,12,Entrar,70,produces,0
+Portuguese (European),Female,12,Entrar,70,understands,0.1571
+Portuguese (European),Male,12,Entrar,89,produces,0
+Portuguese (European),Male,12,Entrar,89,understands,0.0899
+Portuguese (European),Female,13,Entrar,95,produces,0
+Portuguese (European),Female,13,Entrar,95,understands,0.1895
+Portuguese (European),Male,13,Entrar,80,produces,0
+Portuguese (European),Male,13,Entrar,80,understands,0.1375
+Portuguese (European),Female,14,Entrar,83,produces,0
+Portuguese (European),Female,14,Entrar,83,understands,0.2048
+Portuguese (European),Male,14,Entrar,100,produces,0
+Portuguese (European),Male,14,Entrar,100,understands,0.28
+Portuguese (European),Female,15,Entrar,82,produces,0
+Portuguese (European),Female,15,Entrar,82,understands,0.4024
+Portuguese (European),Male,15,Entrar,90,produces,0
+Portuguese (European),Male,15,Entrar,90,understands,0.3778
+Portuguese (European),Female,16,Entrar,71,produces,0
+Portuguese (European),Female,16,Entrar,71,understands,0
+Portuguese (European),Male,16,Entrar,73,produces,0
+Portuguese (European),Male,16,Entrar,73,understands,0
+Portuguese (European),Female,17,Entrar,62,produces,0.0161
+Portuguese (European),Female,17,Entrar,62,understands,0
+Portuguese (European),Male,17,Entrar,96,produces,0
+Portuguese (European),Male,17,Entrar,96,understands,0
+Portuguese (European),Female,18,Entrar,102,produces,0.0294
+Portuguese (European),Female,18,Entrar,102,understands,0
+Portuguese (European),Male,18,Entrar,101,produces,0.0198
+Portuguese (European),Male,18,Entrar,101,understands,0
+Portuguese (European),Female,19,Entrar,97,produces,0.0515
+Portuguese (European),Female,19,Entrar,97,understands,0
+Portuguese (European),Male,19,Entrar,99,produces,0.0303
+Portuguese (European),Male,19,Entrar,99,understands,0
+Portuguese (European),Female,20,Entrar,115,produces,0.1043
+Portuguese (European),Female,20,Entrar,115,understands,0
+Portuguese (European),Male,20,Entrar,103,produces,0.0485
+Portuguese (European),Male,20,Entrar,103,understands,0
+Portuguese (European),Female,21,Entrar,93,produces,0.1183
+Portuguese (European),Female,21,Entrar,93,understands,0
+Portuguese (European),Male,21,Entrar,115,produces,0.0435
+Portuguese (European),Male,21,Entrar,115,understands,0
+Portuguese (European),Female,22,Entrar,117,produces,0.1709
+Portuguese (European),Female,22,Entrar,117,understands,0
+Portuguese (European),Male,22,Entrar,96,produces,0.0938
+Portuguese (European),Male,22,Entrar,96,understands,0
+Portuguese (European),Female,23,Entrar,94,produces,0.266
+Portuguese (European),Female,23,Entrar,94,understands,0
+Portuguese (European),Male,23,Entrar,105,produces,0.1333
+Portuguese (European),Male,23,Entrar,105,understands,0
+Portuguese (European),Female,24,Entrar,88,produces,0.375
+Portuguese (European),Female,24,Entrar,88,understands,0
+Portuguese (European),Male,24,Entrar,127,produces,0.1969
+Portuguese (European),Male,24,Entrar,127,understands,0
+Portuguese (European),Female,25,Entrar,110,produces,0.4091
+Portuguese (European),Female,25,Entrar,110,understands,0
+Portuguese (European),Male,25,Entrar,103,produces,0.3107
+Portuguese (European),Male,25,Entrar,103,understands,0
+Portuguese (European),Female,26,Entrar,96,produces,0.4792
+Portuguese (European),Female,26,Entrar,96,understands,0
+Portuguese (European),Male,26,Entrar,122,produces,0.3361
+Portuguese (European),Male,26,Entrar,122,understands,0
+Portuguese (European),Female,27,Entrar,109,produces,0.5321
+Portuguese (European),Female,27,Entrar,109,understands,0
+Portuguese (European),Male,27,Entrar,129,produces,0.3876
+Portuguese (European),Male,27,Entrar,129,understands,0
+Portuguese (European),Female,28,Entrar,91,produces,0.6154
+Portuguese (European),Female,28,Entrar,91,understands,0
+Portuguese (European),Male,28,Entrar,128,produces,0.4844
+Portuguese (European),Male,28,Entrar,128,understands,0
+Portuguese (European),Female,29,Entrar,98,produces,0.6531
+Portuguese (European),Female,29,Entrar,98,understands,0
+Portuguese (European),Male,29,Entrar,109,produces,0.4862
+Portuguese (European),Male,29,Entrar,109,understands,0
+Portuguese (European),Female,30,Entrar,81,produces,0.6914
+Portuguese (European),Female,30,Entrar,81,understands,0
+Portuguese (European),Male,30,Entrar,82,produces,0.5732
+Portuguese (European),Male,30,Entrar,82,understands,0
+Spanish (Argentinian),Female,16,entrar,30,produces,0
+Spanish (Argentinian),Female,16,entrar,30,understands,0
+Spanish (Argentinian),Male,16,entrar,17,produces,0.0588
+Spanish (Argentinian),Male,16,entrar,17,understands,0
+Spanish (Argentinian),Female,17,entrar,20,produces,0
+Spanish (Argentinian),Female,17,entrar,20,understands,0
+Spanish (Argentinian),Male,17,entrar,29,produces,0.069
+Spanish (Argentinian),Male,17,entrar,29,understands,0
+Spanish (Argentinian),Female,18,entrar,43,produces,0.0465
+Spanish (Argentinian),Female,18,entrar,43,understands,0
+Spanish (Argentinian),Male,18,entrar,19,produces,0
+Spanish (Argentinian),Male,18,entrar,19,understands,0
+Spanish (Argentinian),Female,19,entrar,25,produces,0.08
+Spanish (Argentinian),Female,19,entrar,25,understands,0
+Spanish (Argentinian),Male,19,entrar,19,produces,0.0526
+Spanish (Argentinian),Male,19,entrar,19,understands,0
+Spanish (Argentinian),Female,20,entrar,22,produces,0.1364
+Spanish (Argentinian),Female,20,entrar,22,understands,0
+Spanish (Argentinian),Male,20,entrar,24,produces,0.0417
+Spanish (Argentinian),Male,20,entrar,24,understands,0
+Spanish (Argentinian),Female,21,entrar,15,produces,0
+Spanish (Argentinian),Female,21,entrar,15,understands,0
+Spanish (Argentinian),Male,21,entrar,26,produces,0.1923
+Spanish (Argentinian),Male,21,entrar,26,understands,0
+Spanish (Argentinian),Female,22,entrar,25,produces,0.12
+Spanish (Argentinian),Female,22,entrar,25,understands,0
+Spanish (Argentinian),Male,22,entrar,32,produces,0.0938
+Spanish (Argentinian),Male,22,entrar,32,understands,0
+Spanish (Argentinian),Female,23,entrar,30,produces,0.1667
+Spanish (Argentinian),Female,23,entrar,30,understands,0
+Spanish (Argentinian),Male,23,entrar,19,produces,0
+Spanish (Argentinian),Male,23,entrar,19,understands,0
+Spanish (Argentinian),Female,24,entrar,44,produces,0.25
+Spanish (Argentinian),Female,24,entrar,44,understands,0
+Spanish (Argentinian),Male,24,entrar,31,produces,0.2258
+Spanish (Argentinian),Male,24,entrar,31,understands,0
+Spanish (Argentinian),Female,25,entrar,24,produces,0.4583
+Spanish (Argentinian),Female,25,entrar,24,understands,0
+Spanish (Argentinian),Male,25,entrar,19,produces,0.3684
+Spanish (Argentinian),Male,25,entrar,19,understands,0
+Spanish (Argentinian),Female,26,entrar,17,produces,0.2353
+Spanish (Argentinian),Female,26,entrar,17,understands,0
+Spanish (Argentinian),Male,26,entrar,28,produces,0.1071
+Spanish (Argentinian),Male,26,entrar,28,understands,0
+Spanish (Argentinian),Female,27,entrar,18,produces,0.3333
+Spanish (Argentinian),Female,27,entrar,18,understands,0
+Spanish (Argentinian),Male,27,entrar,26,produces,0.1538
+Spanish (Argentinian),Male,27,entrar,26,understands,0
+Spanish (Argentinian),Female,28,entrar,18,produces,0.3889
+Spanish (Argentinian),Female,28,entrar,18,understands,0
+Spanish (Argentinian),Male,28,entrar,24,produces,0.25
+Spanish (Argentinian),Male,28,entrar,24,understands,0
+Spanish (Argentinian),Female,29,entrar,36,produces,0.3889
+Spanish (Argentinian),Female,29,entrar,36,understands,0
+Spanish (Argentinian),Male,29,entrar,29,produces,0.2759
+Spanish (Argentinian),Male,29,entrar,29,understands,0
+Spanish (Argentinian),Female,30,entrar,31,produces,0.5484
+Spanish (Argentinian),Female,30,entrar,31,understands,0
+Spanish (Argentinian),Male,30,entrar,38,produces,0.5789
+Spanish (Argentinian),Male,30,entrar,38,understands,0
+Spanish (Argentinian),Female,31,entrar,1,produces,0
+Spanish (Argentinian),Female,31,entrar,1,understands,0
+Spanish (Argentinian),Male,31,entrar,1,produces,0
+Spanish (Argentinian),Male,31,entrar,1,understands,0
+Spanish (Argentinian),Female,32,entrar,1,produces,1
+Spanish (Argentinian),Female,32,entrar,1,understands,0
+Spanish (Argentinian),Male,33,entrar,2,produces,0.5
+Spanish (Argentinian),Male,33,entrar,2,understands,0
+Spanish (European),Female,16,entrar,19,produces,0
+Spanish (European),Female,16,entrar,19,understands,0
+Spanish (European),Male,16,entrar,20,produces,0
+Spanish (European),Male,16,entrar,20,understands,0
+Spanish (European),Female,17,entrar,21,produces,0
+Spanish (European),Female,17,entrar,21,understands,0
+Spanish (European),Male,17,entrar,18,produces,0
+Spanish (European),Male,17,entrar,18,understands,0
+Spanish (European),Female,18,entrar,27,produces,0.037
+Spanish (European),Female,18,entrar,27,understands,0
+Spanish (European),Male,18,entrar,23,produces,0
+Spanish (European),Male,18,entrar,23,understands,0
+Spanish (European),Female,19,entrar,16,produces,0.125
+Spanish (European),Female,19,entrar,16,understands,0
+Spanish (European),Male,19,entrar,11,produces,0
+Spanish (European),Male,19,entrar,11,understands,0
+Spanish (European),Female,20,entrar,17,produces,0.1765
+Spanish (European),Female,20,entrar,17,understands,0
+Spanish (European),Male,20,entrar,19,produces,0.0526
+Spanish (European),Male,20,entrar,19,understands,0
+Spanish (European),Female,21,entrar,23,produces,0.2174
+Spanish (European),Female,21,entrar,23,understands,0
+Spanish (European),Male,21,entrar,18,produces,0.1667
+Spanish (European),Male,21,entrar,18,understands,0
+Spanish (European),Female,22,entrar,18,produces,0.1111
+Spanish (European),Female,22,entrar,18,understands,0
+Spanish (European),Male,22,entrar,20,produces,0.25
+Spanish (European),Male,22,entrar,20,understands,0
+Spanish (European),Female,23,entrar,15,produces,0.2
+Spanish (European),Female,23,entrar,15,understands,0
+Spanish (European),Male,23,entrar,15,produces,0.4667
+Spanish (European),Male,23,entrar,15,understands,0
+Spanish (European),Female,24,entrar,31,produces,0.4839
+Spanish (European),Female,24,entrar,31,understands,0
+Spanish (European),Male,24,entrar,24,produces,0.2083
+Spanish (European),Male,24,entrar,24,understands,0
+Spanish (European),Female,25,entrar,16,produces,0.4375
+Spanish (European),Female,25,entrar,16,understands,0
+Spanish (European),Male,25,entrar,19,produces,0.2105
+Spanish (European),Male,25,entrar,19,understands,0
+Spanish (European),Female,26,entrar,22,produces,0.5909
+Spanish (European),Female,26,entrar,22,understands,0
+Spanish (European),Male,26,entrar,27,produces,0.4444
+Spanish (European),Male,26,entrar,27,understands,0
+Spanish (European),Female,27,entrar,16,produces,0.625
+Spanish (European),Female,27,entrar,16,understands,0
+Spanish (European),Male,27,entrar,18,produces,0.6667
+Spanish (European),Male,27,entrar,18,understands,0
+Spanish (European),Female,28,entrar,20,produces,0.65
+Spanish (European),Female,28,entrar,20,understands,0
+Spanish (European),Male,28,entrar,18,produces,0.5556
+Spanish (European),Male,28,entrar,18,understands,0
+Spanish (European),Female,29,entrar,18,produces,0.6667
+Spanish (European),Female,29,entrar,18,understands,0
+Spanish (European),Male,29,entrar,23,produces,0.6957
+Spanish (European),Male,29,entrar,23,understands,0
+Spanish (European),Female,30,entrar,17,produces,0.8824
+Spanish (European),Female,30,entrar,17,understands,0
+Spanish (European),Male,30,entrar,24,produces,0.625
+Spanish (European),Male,30,entrar,24,understands,0
+Spanish (Mexican),Female,16,entrar,34,produces,0.0882
+Spanish (Mexican),Female,16,entrar,34,understands,0
+Spanish (Mexican),Male,16,entrar,34,produces,0.0588
+Spanish (Mexican),Male,16,entrar,34,understands,0
+Spanish (Mexican),Female,17,entrar,34,produces,0.1176
+Spanish (Mexican),Female,17,entrar,34,understands,0
+Spanish (Mexican),Male,17,entrar,25,produces,0.04
+Spanish (Mexican),Male,17,entrar,25,understands,0
+Spanish (Mexican),Female,18,entrar,35,produces,0.0571
+Spanish (Mexican),Female,18,entrar,35,understands,0
+Spanish (Mexican),Male,18,entrar,40,produces,0.05
+Spanish (Mexican),Male,18,entrar,40,understands,0
+Spanish (Mexican),Female,19,entrar,47,produces,0.1702
+Spanish (Mexican),Female,19,entrar,47,understands,0
+Spanish (Mexican),Male,19,entrar,53,produces,0.1887
+Spanish (Mexican),Male,19,entrar,53,understands,0
+Spanish (Mexican),Female,20,entrar,53,produces,0.2453
+Spanish (Mexican),Female,20,entrar,53,understands,0
+Spanish (Mexican),Male,20,entrar,54,produces,0.0926
+Spanish (Mexican),Male,20,entrar,54,understands,0
+Spanish (Mexican),Female,21,entrar,37,produces,0.1622
+Spanish (Mexican),Female,21,entrar,37,understands,0
+Spanish (Mexican),Male,21,entrar,47,produces,0.1277
+Spanish (Mexican),Male,21,entrar,47,understands,0
+Spanish (Mexican),Female,22,entrar,64,produces,0.1406
+Spanish (Mexican),Female,22,entrar,64,understands,0
+Spanish (Mexican),Male,22,entrar,67,produces,0.1194
+Spanish (Mexican),Male,22,entrar,67,understands,0
+Spanish (Mexican),Female,23,entrar,49,produces,0.1224
+Spanish (Mexican),Female,23,entrar,49,understands,0
+Spanish (Mexican),Male,23,entrar,42,produces,0.0952
+Spanish (Mexican),Male,23,entrar,42,understands,0
+Spanish (Mexican),Female,24,entrar,63,produces,0.3492
+Spanish (Mexican),Female,24,entrar,63,understands,0
+Spanish (Mexican),Male,24,entrar,63,produces,0.254
+Spanish (Mexican),Male,24,entrar,63,understands,0
+Spanish (Mexican),Female,25,entrar,78,produces,0.2436
+Spanish (Mexican),Female,25,entrar,78,understands,0
+Spanish (Mexican),Male,25,entrar,89,produces,0.2584
+Spanish (Mexican),Male,25,entrar,89,understands,0
+Spanish (Mexican),Female,26,entrar,38,produces,0.4737
+Spanish (Mexican),Female,26,entrar,38,understands,0
+Spanish (Mexican),Male,26,entrar,45,produces,0.3556
+Spanish (Mexican),Male,26,entrar,45,understands,0
+Spanish (Mexican),Female,27,entrar,45,produces,0.5778
+Spanish (Mexican),Female,27,entrar,45,understands,0
+Spanish (Mexican),Male,27,entrar,40,produces,0.425
+Spanish (Mexican),Male,27,entrar,40,understands,0
+Spanish (Mexican),Female,28,entrar,44,produces,0.4773
+Spanish (Mexican),Female,28,entrar,44,understands,0
+Spanish (Mexican),Male,28,entrar,45,produces,0.3556
+Spanish (Mexican),Male,28,entrar,45,understands,0
+Spanish (Mexican),Female,29,entrar,51,produces,0.6078
+Spanish (Mexican),Female,29,entrar,51,understands,0
+Spanish (Mexican),Male,29,entrar,38,produces,0.5
+Spanish (Mexican),Male,29,entrar,38,understands,0
+Spanish (Mexican),Female,30,entrar,146,produces,0.3288
+Spanish (Mexican),Female,30,entrar,146,understands,0
+Spanish (Mexican),Male,30,entrar,152,produces,0.3618
+Spanish (Mexican),Male,30,entrar,152,understands,0
+Spanish (Peruvian),Female,16,"caber/entrar, entrar (a alguna parte)",6,produces,0
+Spanish (Peruvian),Female,16,"caber/entrar, entrar (a alguna parte)",6,understands,0
+Spanish (Peruvian),Male,16,"caber/entrar, entrar (a alguna parte)",7,produces,0
+Spanish (Peruvian),Male,16,"caber/entrar, entrar (a alguna parte)",7,understands,0
+Spanish (Peruvian),Female,17,"caber/entrar, entrar (a alguna parte)",5,produces,0.1
+Spanish (Peruvian),Female,17,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),Male,17,"caber/entrar, entrar (a alguna parte)",4,produces,0.25
+Spanish (Peruvian),Male,17,"caber/entrar, entrar (a alguna parte)",4,understands,0
+Spanish (Peruvian),Female,18,"caber/entrar, entrar (a alguna parte)",4,produces,0
+Spanish (Peruvian),Female,18,"caber/entrar, entrar (a alguna parte)",4,understands,0
+Spanish (Peruvian),Female,19,"caber/entrar, entrar (a alguna parte)",3,produces,0.1667
+Spanish (Peruvian),Female,19,"caber/entrar, entrar (a alguna parte)",3,understands,0
+Spanish (Peruvian),Male,19,"caber/entrar, entrar (a alguna parte)",9,produces,0.4444
+Spanish (Peruvian),Male,19,"caber/entrar, entrar (a alguna parte)",9,understands,0
+Spanish (Peruvian),Male,20,"caber/entrar, entrar (a alguna parte)",1,produces,0
+Spanish (Peruvian),Male,20,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Spanish (Peruvian),Female,21,"caber/entrar, entrar (a alguna parte)",3,produces,0.3333
+Spanish (Peruvian),Female,21,"caber/entrar, entrar (a alguna parte)",3,understands,0
+Spanish (Peruvian),Male,21,"caber/entrar, entrar (a alguna parte)",2,produces,0
+Spanish (Peruvian),Male,21,"caber/entrar, entrar (a alguna parte)",2,understands,0
+Spanish (Peruvian),Female,22,"caber/entrar, entrar (a alguna parte)",4,produces,0.25
+Spanish (Peruvian),Female,22,"caber/entrar, entrar (a alguna parte)",4,understands,0
+Spanish (Peruvian),Male,22,"caber/entrar, entrar (a alguna parte)",5,produces,0.3
+Spanish (Peruvian),Male,22,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),Female,23,"caber/entrar, entrar (a alguna parte)",1,produces,1
+Spanish (Peruvian),Female,23,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Spanish (Peruvian),Female,24,"caber/entrar, entrar (a alguna parte)",7,produces,0.1429
+Spanish (Peruvian),Female,24,"caber/entrar, entrar (a alguna parte)",7,understands,0
+Spanish (Peruvian),Male,24,"caber/entrar, entrar (a alguna parte)",8,produces,0.0625
+Spanish (Peruvian),Male,24,"caber/entrar, entrar (a alguna parte)",8,understands,0
+Spanish (Peruvian),Female,25,"caber/entrar, entrar (a alguna parte)",2,produces,0
+Spanish (Peruvian),Female,25,"caber/entrar, entrar (a alguna parte)",2,understands,0
+Spanish (Peruvian),Male,25,"caber/entrar, entrar (a alguna parte)",3,produces,0
+Spanish (Peruvian),Male,25,"caber/entrar, entrar (a alguna parte)",3,understands,0
+Spanish (Peruvian),Female,26,"caber/entrar, entrar (a alguna parte)",3,produces,0
+Spanish (Peruvian),Female,26,"caber/entrar, entrar (a alguna parte)",3,understands,0
+Spanish (Peruvian),Male,26,"caber/entrar, entrar (a alguna parte)",5,produces,0.3
+Spanish (Peruvian),Male,26,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),Female,27,"caber/entrar, entrar (a alguna parte)",3,produces,0
+Spanish (Peruvian),Female,27,"caber/entrar, entrar (a alguna parte)",3,understands,0
+Spanish (Peruvian),Male,27,"caber/entrar, entrar (a alguna parte)",4,produces,0.25
+Spanish (Peruvian),Male,27,"caber/entrar, entrar (a alguna parte)",4,understands,0
+Spanish (Peruvian),Female,28,"caber/entrar, entrar (a alguna parte)",3,produces,0.5
+Spanish (Peruvian),Female,28,"caber/entrar, entrar (a alguna parte)",3,understands,0
+Spanish (Peruvian),Male,28,"caber/entrar, entrar (a alguna parte)",5,produces,0.5
+Spanish (Peruvian),Male,28,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),Female,29,"caber/entrar, entrar (a alguna parte)",1,produces,0.5
+Spanish (Peruvian),Female,29,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Spanish (Peruvian),Male,29,"caber/entrar, entrar (a alguna parte)",5,produces,0.3
+Spanish (Peruvian),Male,29,"caber/entrar, entrar (a alguna parte)",5,understands,0
+Spanish (Peruvian),Female,30,"caber/entrar, entrar (a alguna parte)",1,produces,0.5
+Spanish (Peruvian),Female,30,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Spanish (Peruvian),Male,30,"caber/entrar, entrar (a alguna parte)",1,produces,0
+Spanish (Peruvian),Male,30,"caber/entrar, entrar (a alguna parte)",1,understands,0
+Turkish,Female,8,Gir,70,produces,0
+Turkish,Female,8,Gir,70,understands,0.0857
+Turkish,Male,8,Gir,70,produces,0
+Turkish,Male,8,Gir,70,understands,0
+Turkish,Female,9,Gir,65,produces,0
+Turkish,Female,9,Gir,65,understands,0.0615
+Turkish,Male,9,Gir,60,produces,0
+Turkish,Male,9,Gir,60,understands,0.05
+Turkish,Female,10,Gir,62,produces,0
+Turkish,Female,10,Gir,62,understands,0.0645
+Turkish,Male,10,Gir,68,produces,0.0147
+Turkish,Male,10,Gir,68,understands,0.0882
+Turkish,Female,11,Gir,65,produces,0
+Turkish,Female,11,Gir,65,understands,0.1538
+Turkish,Male,11,Gir,60,produces,0
+Turkish,Male,11,Gir,60,understands,0.1667
+Turkish,Female,12,Gir,63,produces,0.0159
+Turkish,Female,12,Gir,63,understands,0.3175
+Turkish,Male,12,Gir,57,produces,0
+Turkish,Male,12,Gir,57,understands,0.193
+Turkish,Female,13,Gir,60,produces,0
+Turkish,Female,13,Gir,60,understands,0.2833
+Turkish,Male,13,Gir,62,produces,0
+Turkish,Male,13,Gir,62,understands,0.3226
+Turkish,Female,14,Gir,74,produces,0.0405
+Turkish,Female,14,Gir,74,understands,0.4459
+Turkish,Male,14,Gir,73,produces,0.0137
+Turkish,Male,14,Gir,73,understands,0.411
+Turkish,Female,15,Gir,66,produces,0.0152
+Turkish,Female,15,Gir,66,understands,0.4242
+Turkish,Male,15,Gir,65,produces,0.0462
+Turkish,Male,15,Gir,65,understands,0.5231
+Turkish,Female,16,Gir,102,produces,0.0294
+Turkish,Female,16,Gir,102,understands,0.2549
+Turkish,Male,16,Gir,82,produces,0.0122
+Turkish,Male,16,Gir,82,understands,0.1951
+Turkish,Female,17,Gir,50,produces,0.12
+Turkish,Female,17,Gir,50,understands,0
+Turkish,Male,17,Gir,57,produces,0.0702
+Turkish,Male,17,Gir,57,understands,0
+Turkish,Female,18,Gir,65,produces,0.0923
+Turkish,Female,18,Gir,65,understands,0
+Turkish,Male,18,Gir,63,produces,0.0476
+Turkish,Male,18,Gir,63,understands,0
+Turkish,Female,19,Gir,63,produces,0.2063
+Turkish,Female,19,Gir,63,understands,0
+Turkish,Male,19,Gir,58,produces,0.1034
+Turkish,Male,19,Gir,58,understands,0
+Turkish,Female,20,Gir,60,produces,0.15
+Turkish,Female,20,Gir,60,understands,0
+Turkish,Male,20,Gir,59,produces,0.1864
+Turkish,Male,20,Gir,59,understands,0
+Turkish,Female,21,Gir,55,produces,0.3636
+Turkish,Female,21,Gir,55,understands,0
+Turkish,Male,21,Gir,69,produces,0.1594
+Turkish,Male,21,Gir,69,understands,0
+Turkish,Female,22,Gir,58,produces,0.2241
+Turkish,Female,22,Gir,58,understands,0
+Turkish,Male,22,Gir,68,produces,0.2647
+Turkish,Male,22,Gir,68,understands,0
+Turkish,Female,23,Gir,71,produces,0.2817
+Turkish,Female,23,Gir,71,understands,0
+Turkish,Male,23,Gir,60,produces,0.2
+Turkish,Male,23,Gir,60,understands,0
+Turkish,Female,24,Gir,54,produces,0.4259
+Turkish,Female,24,Gir,54,understands,0
+Turkish,Male,24,Gir,52,produces,0.3462
+Turkish,Male,24,Gir,52,understands,0
+Turkish,Female,25,Gir,63,produces,0.4286
+Turkish,Female,25,Gir,63,understands,0
+Turkish,Male,25,Gir,60,produces,0.4333
+Turkish,Male,25,Gir,60,understands,0
+Turkish,Female,26,Gir,60,produces,0.5833
+Turkish,Female,26,Gir,60,understands,0
+Turkish,Male,26,Gir,63,produces,0.4762
+Turkish,Male,26,Gir,63,understands,0
+Turkish,Female,27,Gir,56,produces,0.625
+Turkish,Female,27,Gir,56,understands,0
+Turkish,Male,27,Gir,52,produces,0.5577
+Turkish,Male,27,Gir,52,understands,0
+Turkish,Female,28,Gir,62,produces,0.5968
+Turkish,Female,28,Gir,62,understands,0
+Turkish,Male,28,Gir,50,produces,0.58
+Turkish,Male,28,Gir,50,understands,0
+Turkish,Female,29,Gir,54,produces,0.7222
+Turkish,Female,29,Gir,54,understands,0
+Turkish,Male,29,Gir,65,produces,0.5077
+Turkish,Male,29,Gir,65,understands,0
+Turkish,Female,30,Gir,56,produces,0.7321
+Turkish,Female,30,Gir,56,understands,0
+Turkish,Male,30,Gir,48,produces,0.7292
+Turkish,Male,30,Gir,48,understands,0
+Turkish,Female,31,Gir,62,produces,0.6935
+Turkish,Female,31,Gir,62,understands,0
+Turkish,Male,31,Gir,39,produces,0.641
+Turkish,Male,31,Gir,39,understands,0
+Turkish,Female,32,Gir,56,produces,0.8214
+Turkish,Female,32,Gir,56,understands,0
+Turkish,Male,32,Gir,76,produces,0.6974
+Turkish,Male,32,Gir,76,understands,0
+Turkish,Female,33,Gir,59,produces,0.7966
+Turkish,Female,33,Gir,59,understands,0
+Turkish,Male,33,Gir,55,produces,0.7636
+Turkish,Male,33,Gir,55,understands,0
+Turkish,Female,34,Gir,56,produces,0.7321
+Turkish,Female,34,Gir,56,understands,0
+Turkish,Male,34,Gir,51,produces,0.7843
+Turkish,Male,34,Gir,51,understands,0
+Turkish,Female,35,Gir,69,produces,0.8551
+Turkish,Female,35,Gir,69,understands,0
+Turkish,Male,35,Gir,62,produces,0.8226
+Turkish,Male,35,Gir,62,understands,0
+Turkish,Female,36,Gir,36,produces,0.8889
+Turkish,Female,36,Gir,36,understands,0
+Turkish,Male,36,Gir,41,produces,0.8537
+Turkish,Male,36,Gir,41,understands,0

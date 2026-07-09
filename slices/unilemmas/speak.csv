@@ -1,91 +1,271 @@
-language,age,words,n,measure,prop
-Latvian,8,runāt,16,produces,0.0625
-Latvian,8,runāt,16,understands,0.25
-Latvian,9,runāt,18,produces,0
-Latvian,9,runāt,18,understands,0.1111
-Latvian,10,runāt,26,produces,0
-Latvian,10,runāt,26,understands,0.3077
-Latvian,11,runāt,15,produces,0
-Latvian,11,runāt,15,understands,0.6
-Latvian,12,runāt,16,produces,0.125
-Latvian,12,runāt,16,understands,0.1875
-Latvian,13,runāt,22,produces,0
-Latvian,13,runāt,22,understands,0.4545
-Latvian,14,runāt,25,produces,0.12
-Latvian,14,runāt,25,understands,0.64
-Latvian,15,runāt,29,produces,0.0345
-Latvian,15,runāt,29,understands,0.3448
-Latvian,16,runāt,16,produces,0.0625
-Latvian,16,runāt,16,understands,0.5
-Latvian,17,runāt,27,produces,0.037
-Latvian,17,runāt,27,understands,0
-Latvian,18,runāt,21,produces,0.0476
-Latvian,18,runāt,21,understands,0
-Latvian,19,runāt,28,produces,0.0714
-Latvian,19,runāt,28,understands,0
-Latvian,20,runāt,34,produces,0.1471
-Latvian,20,runāt,34,understands,0
-Latvian,21,runāt,26,produces,0.2692
-Latvian,21,runāt,26,understands,0
-Latvian,22,runāt,32,produces,0.2812
-Latvian,22,runāt,32,understands,0
-Latvian,23,runāt,25,produces,0.24
-Latvian,23,runāt,25,understands,0
-Latvian,24,runāt,30,produces,0.5333
-Latvian,24,runāt,30,understands,0
-Latvian,25,runāt,29,produces,0.3448
-Latvian,25,runāt,29,understands,0
-Latvian,26,runāt,22,produces,0.5455
-Latvian,26,runāt,22,understands,0
-Latvian,27,runāt,18,produces,0.5556
-Latvian,27,runāt,18,understands,0
-Latvian,28,runāt,23,produces,0.6087
-Latvian,28,runāt,23,understands,0
-Latvian,29,runāt,24,produces,0.75
-Latvian,29,runāt,24,understands,0
-Latvian,30,runāt,26,produces,0.7692
-Latvian,30,runāt,26,understands,0
-Latvian,31,runāt,19,produces,0.6842
-Latvian,31,runāt,19,understands,0
-Latvian,32,runāt,25,produces,0.68
-Latvian,32,runāt,25,understands,0
-Latvian,33,runāt,31,produces,0.8065
-Latvian,33,runāt,31,understands,0
-Latvian,34,runāt,17,produces,0.8235
-Latvian,34,runāt,17,understands,0
-Latvian,35,runāt,21,produces,0.8571
-Latvian,35,runāt,21,understands,0
-Latvian,36,runāt,22,produces,0.7273
-Latvian,36,runāt,22,understands,0
-Swedish,16,tala,159,produces,0
-Swedish,16,tala,159,understands,0
-Swedish,19,tala,152,produces,0.0197
-Swedish,19,tala,152,understands,0
-Swedish,22,tala,307,produces,0.0717
-Swedish,22,tala,307,understands,0
-Swedish,25,tala,143,produces,0.2168
-Swedish,25,tala,143,understands,0
-Swedish,28,tala,139,produces,0.3669
-Swedish,28,tala,139,understands,0
-Arabic (Saudi),8,"يتكلم, أتكلم/ يتكلم",24,produces,0
-Arabic (Saudi),8,"يتكلم, أتكلم/ يتكلم",24,understands,0.0833
-Arabic (Saudi),9,"يتكلم, أتكلم/ يتكلم",27,produces,0
-Arabic (Saudi),9,"يتكلم, أتكلم/ يتكلم",27,understands,0
-Arabic (Saudi),10,"يتكلم, أتكلم/ يتكلم",35,produces,0.0571
-Arabic (Saudi),10,"يتكلم, أتكلم/ يتكلم",35,understands,0.0571
-Arabic (Saudi),11,"يتكلم, أتكلم/ يتكلم",30,produces,0
-Arabic (Saudi),11,"يتكلم, أتكلم/ يتكلم",30,understands,0.0333
-Arabic (Saudi),12,"يتكلم, أتكلم/ يتكلم",30,produces,0
-Arabic (Saudi),12,"يتكلم, أتكلم/ يتكلم",30,understands,0.0667
-Arabic (Saudi),13,"يتكلم, أتكلم/ يتكلم",39,produces,0
-Arabic (Saudi),13,"يتكلم, أتكلم/ يتكلم",39,understands,0
-Arabic (Saudi),14,"يتكلم, أتكلم/ يتكلم",25,produces,0
-Arabic (Saudi),14,"يتكلم, أتكلم/ يتكلم",25,understands,0.04
-Arabic (Saudi),15,"يتكلم, أتكلم/ يتكلم",27,produces,0.037
-Arabic (Saudi),15,"يتكلم, أتكلم/ يتكلم",27,understands,0.0741
-Arabic (Saudi),16,"يتكلم, أتكلم/ يتكلم",21,produces,0.0476
-Arabic (Saudi),16,"يتكلم, أتكلم/ يتكلم",21,understands,0.0952
-Finnish,18,puhua,35,produces,0
-Finnish,18,puhua,35,understands,0
-Finnish,24,puhua,35,produces,0.4571
-Finnish,24,puhua,35,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,"يتكلم, أتكلم/ يتكلم",24,produces,0
+Arabic (Saudi),All,8,"يتكلم, أتكلم/ يتكلم",24,understands,0.0833
+Arabic (Saudi),All,9,"يتكلم, أتكلم/ يتكلم",27,produces,0
+Arabic (Saudi),All,9,"يتكلم, أتكلم/ يتكلم",27,understands,0
+Arabic (Saudi),All,10,"يتكلم, أتكلم/ يتكلم",35,produces,0.0571
+Arabic (Saudi),All,10,"يتكلم, أتكلم/ يتكلم",35,understands,0.0571
+Arabic (Saudi),All,11,"يتكلم, أتكلم/ يتكلم",30,produces,0
+Arabic (Saudi),All,11,"يتكلم, أتكلم/ يتكلم",30,understands,0.0333
+Arabic (Saudi),All,12,"يتكلم, أتكلم/ يتكلم",30,produces,0
+Arabic (Saudi),All,12,"يتكلم, أتكلم/ يتكلم",30,understands,0.0667
+Arabic (Saudi),All,13,"يتكلم, أتكلم/ يتكلم",39,produces,0
+Arabic (Saudi),All,13,"يتكلم, أتكلم/ يتكلم",39,understands,0
+Arabic (Saudi),All,14,"أتكلم/ يتكلم, يتكلم",25,produces,0
+Arabic (Saudi),All,14,"أتكلم/ يتكلم, يتكلم",25,understands,0.04
+Arabic (Saudi),All,15,"يتكلم, أتكلم/ يتكلم",27,produces,0.037
+Arabic (Saudi),All,15,"يتكلم, أتكلم/ يتكلم",27,understands,0.0741
+Arabic (Saudi),All,16,"يتكلم, أتكلم/ يتكلم",21,produces,0.0476
+Arabic (Saudi),All,16,"يتكلم, أتكلم/ يتكلم",21,understands,0.0952
+Finnish,All,18,puhua,35,produces,0
+Finnish,All,18,puhua,35,understands,0
+Finnish,All,24,puhua,35,produces,0.4571
+Finnish,All,24,puhua,35,understands,0
+Latvian,All,8,runāt,16,produces,0.0625
+Latvian,All,8,runāt,16,understands,0.25
+Latvian,All,9,runāt,18,produces,0
+Latvian,All,9,runāt,18,understands,0.1111
+Latvian,All,10,runāt,26,produces,0
+Latvian,All,10,runāt,26,understands,0.3077
+Latvian,All,11,runāt,15,produces,0
+Latvian,All,11,runāt,15,understands,0.6
+Latvian,All,12,runāt,16,produces,0.125
+Latvian,All,12,runāt,16,understands,0.1875
+Latvian,All,13,runāt,22,produces,0
+Latvian,All,13,runāt,22,understands,0.4545
+Latvian,All,14,runāt,25,produces,0.12
+Latvian,All,14,runāt,25,understands,0.64
+Latvian,All,15,runāt,29,produces,0.0345
+Latvian,All,15,runāt,29,understands,0.3448
+Latvian,All,16,runāt,16,produces,0.0625
+Latvian,All,16,runāt,16,understands,0.5
+Latvian,All,17,runāt,27,produces,0.037
+Latvian,All,17,runāt,27,understands,0
+Latvian,All,18,runāt,21,produces,0.0476
+Latvian,All,18,runāt,21,understands,0
+Latvian,All,19,runāt,28,produces,0.0714
+Latvian,All,19,runāt,28,understands,0
+Latvian,All,20,runāt,34,produces,0.1471
+Latvian,All,20,runāt,34,understands,0
+Latvian,All,21,runāt,26,produces,0.2692
+Latvian,All,21,runāt,26,understands,0
+Latvian,All,22,runāt,32,produces,0.2812
+Latvian,All,22,runāt,32,understands,0
+Latvian,All,23,runāt,25,produces,0.24
+Latvian,All,23,runāt,25,understands,0
+Latvian,All,24,runāt,30,produces,0.5333
+Latvian,All,24,runāt,30,understands,0
+Latvian,All,25,runāt,29,produces,0.3448
+Latvian,All,25,runāt,29,understands,0
+Latvian,All,26,runāt,22,produces,0.5455
+Latvian,All,26,runāt,22,understands,0
+Latvian,All,27,runāt,18,produces,0.5556
+Latvian,All,27,runāt,18,understands,0
+Latvian,All,28,runāt,23,produces,0.6087
+Latvian,All,28,runāt,23,understands,0
+Latvian,All,29,runāt,24,produces,0.75
+Latvian,All,29,runāt,24,understands,0
+Latvian,All,30,runāt,26,produces,0.7692
+Latvian,All,30,runāt,26,understands,0
+Latvian,All,31,runāt,19,produces,0.6842
+Latvian,All,31,runāt,19,understands,0
+Latvian,All,32,runāt,25,produces,0.68
+Latvian,All,32,runāt,25,understands,0
+Latvian,All,33,runāt,31,produces,0.8065
+Latvian,All,33,runāt,31,understands,0
+Latvian,All,34,runāt,17,produces,0.8235
+Latvian,All,34,runāt,17,understands,0
+Latvian,All,35,runāt,21,produces,0.8571
+Latvian,All,35,runāt,21,understands,0
+Latvian,All,36,runāt,22,produces,0.7273
+Latvian,All,36,runāt,22,understands,0
+Swedish,All,16,tala,159,produces,0
+Swedish,All,16,tala,159,understands,0
+Swedish,All,19,tala,152,produces,0.0197
+Swedish,All,19,tala,152,understands,0
+Swedish,All,22,tala,307,produces,0.0717
+Swedish,All,22,tala,307,understands,0
+Swedish,All,25,tala,143,produces,0.2168
+Swedish,All,25,tala,143,understands,0
+Swedish,All,28,tala,139,produces,0.3669
+Swedish,All,28,tala,139,understands,0
+Arabic (Saudi),Female,8,"يتكلم, أتكلم/ يتكلم",13,produces,0
+Arabic (Saudi),Female,8,"يتكلم, أتكلم/ يتكلم",13,understands,0.1538
+Arabic (Saudi),Male,8,"يتكلم, أتكلم/ يتكلم",11,produces,0
+Arabic (Saudi),Male,8,"يتكلم, أتكلم/ يتكلم",11,understands,0
+Arabic (Saudi),Female,9,"يتكلم, أتكلم/ يتكلم",14,produces,0
+Arabic (Saudi),Female,9,"يتكلم, أتكلم/ يتكلم",14,understands,0
+Arabic (Saudi),Male,9,"يتكلم, أتكلم/ يتكلم",13,produces,0
+Arabic (Saudi),Male,9,"يتكلم, أتكلم/ يتكلم",13,understands,0
+Arabic (Saudi),Female,10,"يتكلم, أتكلم/ يتكلم",15,produces,0.0667
+Arabic (Saudi),Female,10,"يتكلم, أتكلم/ يتكلم",15,understands,0
+Arabic (Saudi),Male,10,"يتكلم, أتكلم/ يتكلم",20,produces,0.05
+Arabic (Saudi),Male,10,"يتكلم, أتكلم/ يتكلم",20,understands,0.1
+Arabic (Saudi),Female,11,"يتكلم, أتكلم/ يتكلم",14,produces,0
+Arabic (Saudi),Female,11,"يتكلم, أتكلم/ يتكلم",14,understands,0
+Arabic (Saudi),Male,11,"يتكلم, أتكلم/ يتكلم",16,produces,0
+Arabic (Saudi),Male,11,"يتكلم, أتكلم/ يتكلم",16,understands,0.0625
+Arabic (Saudi),Female,12,"يتكلم, أتكلم/ يتكلم",14,produces,0
+Arabic (Saudi),Female,12,"يتكلم, أتكلم/ يتكلم",14,understands,0.0714
+Arabic (Saudi),Male,12,"يتكلم, أتكلم/ يتكلم",16,produces,0
+Arabic (Saudi),Male,12,"يتكلم, أتكلم/ يتكلم",16,understands,0.0625
+Arabic (Saudi),Female,13,"يتكلم, أتكلم/ يتكلم",17,produces,0
+Arabic (Saudi),Female,13,"يتكلم, أتكلم/ يتكلم",17,understands,0
+Arabic (Saudi),Male,13,"يتكلم, أتكلم/ يتكلم",22,produces,0
+Arabic (Saudi),Male,13,"يتكلم, أتكلم/ يتكلم",22,understands,0
+Arabic (Saudi),Female,14,أتكلم/ يتكلم,10,produces,0
+Arabic (Saudi),Female,14,أتكلم/ يتكلم,10,understands,0
+Arabic (Saudi),Male,14,"يتكلم, أتكلم/ يتكلم",15,produces,0
+Arabic (Saudi),Male,14,"يتكلم, أتكلم/ يتكلم",15,understands,0.0667
+Arabic (Saudi),Female,15,"يتكلم, أتكلم/ يتكلم",12,produces,0
+Arabic (Saudi),Female,15,"يتكلم, أتكلم/ يتكلم",12,understands,0.0833
+Arabic (Saudi),Male,15,"يتكلم, أتكلم/ يتكلم",15,produces,0.0667
+Arabic (Saudi),Male,15,"يتكلم, أتكلم/ يتكلم",15,understands,0.0667
+Arabic (Saudi),Female,16,"يتكلم, أتكلم/ يتكلم",10,produces,0.1
+Arabic (Saudi),Female,16,"يتكلم, أتكلم/ يتكلم",10,understands,0.1
+Arabic (Saudi),Male,16,"يتكلم, أتكلم/ يتكلم",11,produces,0
+Arabic (Saudi),Male,16,"يتكلم, أتكلم/ يتكلم",11,understands,0.0909
+Finnish,Female,18,puhua,18,produces,0
+Finnish,Female,18,puhua,18,understands,0
+Finnish,Male,18,puhua,17,produces,0
+Finnish,Male,18,puhua,17,understands,0
+Finnish,Female,24,puhua,18,produces,0.4444
+Finnish,Female,24,puhua,18,understands,0
+Finnish,Male,24,puhua,17,produces,0.4706
+Finnish,Male,24,puhua,17,understands,0
+Latvian,Female,8,runāt,6,produces,0
+Latvian,Female,8,runāt,6,understands,0.1667
+Latvian,Male,8,runāt,10,produces,0.1
+Latvian,Male,8,runāt,10,understands,0.3
+Latvian,Female,9,runāt,7,produces,0
+Latvian,Female,9,runāt,7,understands,0.1429
+Latvian,Male,9,runāt,11,produces,0
+Latvian,Male,9,runāt,11,understands,0.0909
+Latvian,Female,10,runāt,15,produces,0
+Latvian,Female,10,runāt,15,understands,0.4
+Latvian,Male,10,runāt,11,produces,0
+Latvian,Male,10,runāt,11,understands,0.1818
+Latvian,Female,11,runāt,10,produces,0
+Latvian,Female,11,runāt,10,understands,0.7
+Latvian,Male,11,runāt,5,produces,0
+Latvian,Male,11,runāt,5,understands,0.4
+Latvian,Female,12,runāt,9,produces,0.1111
+Latvian,Female,12,runāt,9,understands,0.1111
+Latvian,Male,12,runāt,7,produces,0.1429
+Latvian,Male,12,runāt,7,understands,0.2857
+Latvian,Female,13,runāt,13,produces,0
+Latvian,Female,13,runāt,13,understands,0.3846
+Latvian,Male,13,runāt,9,produces,0
+Latvian,Male,13,runāt,9,understands,0.5556
+Latvian,Female,14,runāt,18,produces,0.1667
+Latvian,Female,14,runāt,18,understands,0.7778
+Latvian,Male,14,runāt,7,produces,0
+Latvian,Male,14,runāt,7,understands,0.2857
+Latvian,Female,15,runāt,14,produces,0.0714
+Latvian,Female,15,runāt,14,understands,0.2857
+Latvian,Male,15,runāt,15,produces,0
+Latvian,Male,15,runāt,15,understands,0.4
+Latvian,Female,16,runāt,7,produces,0
+Latvian,Female,16,runāt,7,understands,0.7143
+Latvian,Male,16,runāt,9,produces,0.1111
+Latvian,Male,16,runāt,9,understands,0.3333
+Latvian,Female,17,runāt,12,produces,0
+Latvian,Female,17,runāt,12,understands,0
+Latvian,Male,17,runāt,15,produces,0.0667
+Latvian,Male,17,runāt,15,understands,0
+Latvian,Female,18,runāt,10,produces,0
+Latvian,Female,18,runāt,10,understands,0
+Latvian,Male,18,runāt,11,produces,0.0909
+Latvian,Male,18,runāt,11,understands,0
+Latvian,Female,19,runāt,18,produces,0.1111
+Latvian,Female,19,runāt,18,understands,0
+Latvian,Male,19,runāt,10,produces,0
+Latvian,Male,19,runāt,10,understands,0
+Latvian,Female,20,runāt,17,produces,0.1176
+Latvian,Female,20,runāt,17,understands,0
+Latvian,Male,20,runāt,17,produces,0.1765
+Latvian,Male,20,runāt,17,understands,0
+Latvian,Female,21,runāt,15,produces,0.3333
+Latvian,Female,21,runāt,15,understands,0
+Latvian,Male,21,runāt,11,produces,0.1818
+Latvian,Male,21,runāt,11,understands,0
+Latvian,Female,22,runāt,16,produces,0.4375
+Latvian,Female,22,runāt,16,understands,0
+Latvian,Male,22,runāt,16,produces,0.125
+Latvian,Male,22,runāt,16,understands,0
+Latvian,Female,23,runāt,15,produces,0.2667
+Latvian,Female,23,runāt,15,understands,0
+Latvian,Male,23,runāt,10,produces,0.2
+Latvian,Male,23,runāt,10,understands,0
+Latvian,Female,24,runāt,15,produces,0.6667
+Latvian,Female,24,runāt,15,understands,0
+Latvian,Male,24,runāt,15,produces,0.4
+Latvian,Male,24,runāt,15,understands,0
+Latvian,Female,25,runāt,16,produces,0.5
+Latvian,Female,25,runāt,16,understands,0
+Latvian,Male,25,runāt,13,produces,0.1538
+Latvian,Male,25,runāt,13,understands,0
+Latvian,Female,26,runāt,9,produces,0.6667
+Latvian,Female,26,runāt,9,understands,0
+Latvian,Male,26,runāt,13,produces,0.4615
+Latvian,Male,26,runāt,13,understands,0
+Latvian,Female,27,runāt,10,produces,0.6
+Latvian,Female,27,runāt,10,understands,0
+Latvian,Male,27,runāt,8,produces,0.5
+Latvian,Male,27,runāt,8,understands,0
+Latvian,Female,28,runāt,11,produces,0.7273
+Latvian,Female,28,runāt,11,understands,0
+Latvian,Male,28,runāt,12,produces,0.5
+Latvian,Male,28,runāt,12,understands,0
+Latvian,Female,29,runāt,11,produces,1
+Latvian,Female,29,runāt,11,understands,0
+Latvian,Male,29,runāt,13,produces,0.5385
+Latvian,Male,29,runāt,13,understands,0
+Latvian,Female,30,runāt,12,produces,0.75
+Latvian,Female,30,runāt,12,understands,0
+Latvian,Male,30,runāt,14,produces,0.7857
+Latvian,Male,30,runāt,14,understands,0
+Latvian,Female,31,runāt,10,produces,0.7
+Latvian,Female,31,runāt,10,understands,0
+Latvian,Male,31,runāt,9,produces,0.6667
+Latvian,Male,31,runāt,9,understands,0
+Latvian,Female,32,runāt,13,produces,0.9231
+Latvian,Female,32,runāt,13,understands,0
+Latvian,Male,32,runāt,12,produces,0.4167
+Latvian,Male,32,runāt,12,understands,0
+Latvian,Female,33,runāt,17,produces,0.8824
+Latvian,Female,33,runāt,17,understands,0
+Latvian,Male,33,runāt,14,produces,0.7143
+Latvian,Male,33,runāt,14,understands,0
+Latvian,Female,34,runāt,10,produces,0.9
+Latvian,Female,34,runāt,10,understands,0
+Latvian,Male,34,runāt,7,produces,0.7143
+Latvian,Male,34,runāt,7,understands,0
+Latvian,Female,35,runāt,8,produces,0.875
+Latvian,Female,35,runāt,8,understands,0
+Latvian,Male,35,runāt,13,produces,0.8462
+Latvian,Male,35,runāt,13,understands,0
+Latvian,Female,36,runāt,12,produces,0.75
+Latvian,Female,36,runāt,12,understands,0
+Latvian,Male,36,runāt,10,produces,0.7
+Latvian,Male,36,runāt,10,understands,0
+Swedish,Female,16,tala,90,produces,0
+Swedish,Female,16,tala,90,understands,0
+Swedish,Male,16,tala,66,produces,0
+Swedish,Male,16,tala,66,understands,0
+Swedish,Female,19,tala,85,produces,0.0235
+Swedish,Female,19,tala,85,understands,0
+Swedish,Male,19,tala,65,produces,0.0154
+Swedish,Male,19,tala,65,understands,0
+Swedish,Female,22,tala,162,produces,0.0741
+Swedish,Female,22,tala,162,understands,0
+Swedish,Male,22,tala,143,produces,0.0699
+Swedish,Male,22,tala,143,understands,0
+Swedish,Female,25,tala,67,produces,0.2388
+Swedish,Female,25,tala,67,understands,0
+Swedish,Male,25,tala,76,produces,0.1974
+Swedish,Male,25,tala,76,understands,0
+Swedish,Female,28,tala,69,produces,0.4203
+Swedish,Female,28,tala,69,understands,0
+Swedish,Male,28,tala,70,produces,0.3143
+Swedish,Male,28,tala,70,understands,0

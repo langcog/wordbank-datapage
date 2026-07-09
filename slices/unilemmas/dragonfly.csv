@@ -1,61 +1,181 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),16,蜻蜓,70,produces,0.0286
-Mandarin (Beijing),16,蜻蜓,70,understands,0
-Mandarin (Beijing),17,蜻蜓,112,produces,0.0804
-Mandarin (Beijing),17,蜻蜓,112,understands,0
-Mandarin (Beijing),18,蜻蜓,121,produces,0.0496
-Mandarin (Beijing),18,蜻蜓,121,understands,0
-Mandarin (Beijing),19,蜻蜓,120,produces,0.1333
-Mandarin (Beijing),19,蜻蜓,120,understands,0
-Mandarin (Beijing),20,蜻蜓,121,produces,0.2314
-Mandarin (Beijing),20,蜻蜓,121,understands,0
-Mandarin (Beijing),21,蜻蜓,119,produces,0.2689
-Mandarin (Beijing),21,蜻蜓,119,understands,0
-Mandarin (Beijing),22,蜻蜓,117,produces,0.3504
-Mandarin (Beijing),22,蜻蜓,117,understands,0
-Mandarin (Beijing),23,蜻蜓,120,produces,0.45
-Mandarin (Beijing),23,蜻蜓,120,understands,0
-Mandarin (Beijing),24,蜻蜓,120,produces,0.475
-Mandarin (Beijing),24,蜻蜓,120,understands,0
-Mandarin (Beijing),25,蜻蜓,113,produces,0.5487
-Mandarin (Beijing),25,蜻蜓,113,understands,0
-Mandarin (Beijing),26,蜻蜓,118,produces,0.5847
-Mandarin (Beijing),26,蜻蜓,118,understands,0
-Mandarin (Beijing),27,蜻蜓,114,produces,0.6053
-Mandarin (Beijing),27,蜻蜓,114,understands,0
-Mandarin (Beijing),28,蜻蜓,114,produces,0.6053
-Mandarin (Beijing),28,蜻蜓,114,understands,0
-Mandarin (Beijing),29,蜻蜓,119,produces,0.7479
-Mandarin (Beijing),29,蜻蜓,119,understands,0
-Mandarin (Beijing),30,蜻蜓,110,produces,0.8545
-Mandarin (Beijing),30,蜻蜓,110,understands,0
-Cantonese,16,蜻蜓,46,produces,0
-Cantonese,16,蜻蜓,46,understands,0
-Cantonese,17,蜻蜓,61,produces,0.0328
-Cantonese,17,蜻蜓,61,understands,0
-Cantonese,18,蜻蜓,68,produces,0
-Cantonese,18,蜻蜓,68,understands,0
-Cantonese,19,蜻蜓,66,produces,0
-Cantonese,19,蜻蜓,66,understands,0
-Cantonese,20,蜻蜓,140,produces,0.0286
-Cantonese,20,蜻蜓,140,understands,0
-Cantonese,21,蜻蜓,120,produces,0.0167
-Cantonese,21,蜻蜓,120,understands,0
-Cantonese,22,蜻蜓,68,produces,0.0294
-Cantonese,22,蜻蜓,68,understands,0
-Cantonese,23,蜻蜓,74,produces,0.0811
-Cantonese,23,蜻蜓,74,understands,0
-Cantonese,24,蜻蜓,68,produces,0.0735
-Cantonese,24,蜻蜓,68,understands,0
-Cantonese,25,蜻蜓,65,produces,0.0308
-Cantonese,25,蜻蜓,65,understands,0
-Cantonese,26,蜻蜓,68,produces,0.0735
-Cantonese,26,蜻蜓,68,understands,0
-Cantonese,27,蜻蜓,62,produces,0.0484
-Cantonese,27,蜻蜓,62,understands,0
-Cantonese,28,蜻蜓,66,produces,0.1212
-Cantonese,28,蜻蜓,66,understands,0
-Cantonese,29,蜻蜓,72,produces,0.0972
-Cantonese,29,蜻蜓,72,understands,0
-Cantonese,30,蜻蜓,164,produces,0.2561
-Cantonese,30,蜻蜓,164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,蜻蜓,46,produces,0
+Cantonese,All,16,蜻蜓,46,understands,0
+Cantonese,All,17,蜻蜓,61,produces,0.0328
+Cantonese,All,17,蜻蜓,61,understands,0
+Cantonese,All,18,蜻蜓,68,produces,0
+Cantonese,All,18,蜻蜓,68,understands,0
+Cantonese,All,19,蜻蜓,66,produces,0
+Cantonese,All,19,蜻蜓,66,understands,0
+Cantonese,All,20,蜻蜓,140,produces,0.0286
+Cantonese,All,20,蜻蜓,140,understands,0
+Cantonese,All,21,蜻蜓,120,produces,0.0167
+Cantonese,All,21,蜻蜓,120,understands,0
+Cantonese,All,22,蜻蜓,68,produces,0.0294
+Cantonese,All,22,蜻蜓,68,understands,0
+Cantonese,All,23,蜻蜓,74,produces,0.0811
+Cantonese,All,23,蜻蜓,74,understands,0
+Cantonese,All,24,蜻蜓,68,produces,0.0735
+Cantonese,All,24,蜻蜓,68,understands,0
+Cantonese,All,25,蜻蜓,65,produces,0.0308
+Cantonese,All,25,蜻蜓,65,understands,0
+Cantonese,All,26,蜻蜓,68,produces,0.0735
+Cantonese,All,26,蜻蜓,68,understands,0
+Cantonese,All,27,蜻蜓,62,produces,0.0484
+Cantonese,All,27,蜻蜓,62,understands,0
+Cantonese,All,28,蜻蜓,66,produces,0.1212
+Cantonese,All,28,蜻蜓,66,understands,0
+Cantonese,All,29,蜻蜓,72,produces,0.0972
+Cantonese,All,29,蜻蜓,72,understands,0
+Cantonese,All,30,蜻蜓,164,produces,0.2561
+Cantonese,All,30,蜻蜓,164,understands,0
+Mandarin (Beijing),All,16,蜻蜓,70,produces,0.0286
+Mandarin (Beijing),All,16,蜻蜓,70,understands,0
+Mandarin (Beijing),All,17,蜻蜓,112,produces,0.0804
+Mandarin (Beijing),All,17,蜻蜓,112,understands,0
+Mandarin (Beijing),All,18,蜻蜓,121,produces,0.0496
+Mandarin (Beijing),All,18,蜻蜓,121,understands,0
+Mandarin (Beijing),All,19,蜻蜓,120,produces,0.1333
+Mandarin (Beijing),All,19,蜻蜓,120,understands,0
+Mandarin (Beijing),All,20,蜻蜓,121,produces,0.2314
+Mandarin (Beijing),All,20,蜻蜓,121,understands,0
+Mandarin (Beijing),All,21,蜻蜓,119,produces,0.2689
+Mandarin (Beijing),All,21,蜻蜓,119,understands,0
+Mandarin (Beijing),All,22,蜻蜓,117,produces,0.3504
+Mandarin (Beijing),All,22,蜻蜓,117,understands,0
+Mandarin (Beijing),All,23,蜻蜓,120,produces,0.45
+Mandarin (Beijing),All,23,蜻蜓,120,understands,0
+Mandarin (Beijing),All,24,蜻蜓,120,produces,0.475
+Mandarin (Beijing),All,24,蜻蜓,120,understands,0
+Mandarin (Beijing),All,25,蜻蜓,113,produces,0.5487
+Mandarin (Beijing),All,25,蜻蜓,113,understands,0
+Mandarin (Beijing),All,26,蜻蜓,118,produces,0.5847
+Mandarin (Beijing),All,26,蜻蜓,118,understands,0
+Mandarin (Beijing),All,27,蜻蜓,114,produces,0.6053
+Mandarin (Beijing),All,27,蜻蜓,114,understands,0
+Mandarin (Beijing),All,28,蜻蜓,114,produces,0.6053
+Mandarin (Beijing),All,28,蜻蜓,114,understands,0
+Mandarin (Beijing),All,29,蜻蜓,119,produces,0.7479
+Mandarin (Beijing),All,29,蜻蜓,119,understands,0
+Mandarin (Beijing),All,30,蜻蜓,110,produces,0.8545
+Mandarin (Beijing),All,30,蜻蜓,110,understands,0
+Cantonese,Female,16,蜻蜓,23,produces,0
+Cantonese,Female,16,蜻蜓,23,understands,0
+Cantonese,Male,16,蜻蜓,23,produces,0
+Cantonese,Male,16,蜻蜓,23,understands,0
+Cantonese,Female,17,蜻蜓,30,produces,0.0333
+Cantonese,Female,17,蜻蜓,30,understands,0
+Cantonese,Male,17,蜻蜓,31,produces,0.0323
+Cantonese,Male,17,蜻蜓,31,understands,0
+Cantonese,Female,18,蜻蜓,33,produces,0
+Cantonese,Female,18,蜻蜓,33,understands,0
+Cantonese,Male,18,蜻蜓,35,produces,0
+Cantonese,Male,18,蜻蜓,35,understands,0
+Cantonese,Female,19,蜻蜓,30,produces,0
+Cantonese,Female,19,蜻蜓,30,understands,0
+Cantonese,Male,19,蜻蜓,36,produces,0
+Cantonese,Male,19,蜻蜓,36,understands,0
+Cantonese,Female,20,蜻蜓,62,produces,0.0323
+Cantonese,Female,20,蜻蜓,62,understands,0
+Cantonese,Male,20,蜻蜓,78,produces,0.0256
+Cantonese,Male,20,蜻蜓,78,understands,0
+Cantonese,Female,21,蜻蜓,57,produces,0.0175
+Cantonese,Female,21,蜻蜓,57,understands,0
+Cantonese,Male,21,蜻蜓,63,produces,0.0159
+Cantonese,Male,21,蜻蜓,63,understands,0
+Cantonese,Female,22,蜻蜓,34,produces,0.0294
+Cantonese,Female,22,蜻蜓,34,understands,0
+Cantonese,Male,22,蜻蜓,34,produces,0.0294
+Cantonese,Male,22,蜻蜓,34,understands,0
+Cantonese,Female,23,蜻蜓,37,produces,0.1351
+Cantonese,Female,23,蜻蜓,37,understands,0
+Cantonese,Male,23,蜻蜓,37,produces,0.027
+Cantonese,Male,23,蜻蜓,37,understands,0
+Cantonese,Female,24,蜻蜓,32,produces,0.125
+Cantonese,Female,24,蜻蜓,32,understands,0
+Cantonese,Male,24,蜻蜓,36,produces,0.0278
+Cantonese,Male,24,蜻蜓,36,understands,0
+Cantonese,Female,25,蜻蜓,31,produces,0.0645
+Cantonese,Female,25,蜻蜓,31,understands,0
+Cantonese,Male,25,蜻蜓,34,produces,0
+Cantonese,Male,25,蜻蜓,34,understands,0
+Cantonese,Female,26,蜻蜓,31,produces,0.0645
+Cantonese,Female,26,蜻蜓,31,understands,0
+Cantonese,Male,26,蜻蜓,37,produces,0.0811
+Cantonese,Male,26,蜻蜓,37,understands,0
+Cantonese,Female,27,蜻蜓,31,produces,0.0645
+Cantonese,Female,27,蜻蜓,31,understands,0
+Cantonese,Male,27,蜻蜓,31,produces,0.0323
+Cantonese,Male,27,蜻蜓,31,understands,0
+Cantonese,Female,28,蜻蜓,32,produces,0.1875
+Cantonese,Female,28,蜻蜓,32,understands,0
+Cantonese,Male,28,蜻蜓,34,produces,0.0588
+Cantonese,Male,28,蜻蜓,34,understands,0
+Cantonese,Female,29,蜻蜓,36,produces,0.0556
+Cantonese,Female,29,蜻蜓,36,understands,0
+Cantonese,Male,29,蜻蜓,36,produces,0.1389
+Cantonese,Male,29,蜻蜓,36,understands,0
+Cantonese,Female,30,蜻蜓,76,produces,0.2632
+Cantonese,Female,30,蜻蜓,76,understands,0
+Cantonese,Male,30,蜻蜓,88,produces,0.25
+Cantonese,Male,30,蜻蜓,88,understands,0
+Mandarin (Beijing),Female,16,蜻蜓,35,produces,0.0286
+Mandarin (Beijing),Female,16,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,16,蜻蜓,35,produces,0.0286
+Mandarin (Beijing),Male,16,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,17,蜻蜓,35,produces,0.1143
+Mandarin (Beijing),Female,17,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,17,蜻蜓,37,produces,0.0811
+Mandarin (Beijing),Male,17,蜻蜓,37,understands,0
+Mandarin (Beijing),Female,18,蜻蜓,35,produces,0.0571
+Mandarin (Beijing),Female,18,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,18,蜻蜓,36,produces,0.0556
+Mandarin (Beijing),Male,18,蜻蜓,36,understands,0
+Mandarin (Beijing),Female,19,蜻蜓,35,produces,0.2286
+Mandarin (Beijing),Female,19,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,19,蜻蜓,35,produces,0.0857
+Mandarin (Beijing),Male,19,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,20,蜻蜓,35,produces,0.3143
+Mandarin (Beijing),Female,20,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,20,蜻蜓,36,produces,0.1667
+Mandarin (Beijing),Male,20,蜻蜓,36,understands,0
+Mandarin (Beijing),Female,21,蜻蜓,35,produces,0.3714
+Mandarin (Beijing),Female,21,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,21,蜻蜓,35,produces,0.2857
+Mandarin (Beijing),Male,21,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,22,蜻蜓,35,produces,0.5429
+Mandarin (Beijing),Female,22,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,22,蜻蜓,36,produces,0.4167
+Mandarin (Beijing),Male,22,蜻蜓,36,understands,0
+Mandarin (Beijing),Female,23,蜻蜓,35,produces,0.6
+Mandarin (Beijing),Female,23,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,23,蜻蜓,35,produces,0.4
+Mandarin (Beijing),Male,23,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,24,蜻蜓,35,produces,0.6571
+Mandarin (Beijing),Female,24,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,24,蜻蜓,35,produces,0.5143
+Mandarin (Beijing),Male,24,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,25,蜻蜓,35,produces,0.7143
+Mandarin (Beijing),Female,25,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,25,蜻蜓,35,produces,0.5429
+Mandarin (Beijing),Male,25,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,26,蜻蜓,36,produces,0.75
+Mandarin (Beijing),Female,26,蜻蜓,36,understands,0
+Mandarin (Beijing),Male,26,蜻蜓,35,produces,0.5714
+Mandarin (Beijing),Male,26,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,27,蜻蜓,35,produces,0.8
+Mandarin (Beijing),Female,27,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,27,蜻蜓,35,produces,0.6571
+Mandarin (Beijing),Male,27,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,28,蜻蜓,35,produces,0.7143
+Mandarin (Beijing),Female,28,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,28,蜻蜓,35,produces,0.7429
+Mandarin (Beijing),Male,28,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,29,蜻蜓,35,produces,0.8571
+Mandarin (Beijing),Female,29,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,29,蜻蜓,35,produces,0.8
+Mandarin (Beijing),Male,29,蜻蜓,35,understands,0
+Mandarin (Beijing),Female,30,蜻蜓,35,produces,0.8857
+Mandarin (Beijing),Female,30,蜻蜓,35,understands,0
+Mandarin (Beijing),Male,30,蜻蜓,35,produces,0.9429
+Mandarin (Beijing),Male,30,蜻蜓,35,understands,0

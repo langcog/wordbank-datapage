@@ -1,49 +1,145 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),16,回来,70,produces,0.0714
-Mandarin (Beijing),16,回来,70,understands,0
-Mandarin (Beijing),17,回来,112,produces,0.1607
-Mandarin (Beijing),17,回来,112,understands,0
-Mandarin (Beijing),18,回来,121,produces,0.1983
-Mandarin (Beijing),18,回来,121,understands,0
-Mandarin (Beijing),19,回来,120,produces,0.3417
-Mandarin (Beijing),19,回来,120,understands,0
-Mandarin (Beijing),20,回来,121,produces,0.4132
-Mandarin (Beijing),20,回来,121,understands,0
-Mandarin (Beijing),21,回来,119,produces,0.4874
-Mandarin (Beijing),21,回来,119,understands,0
-Mandarin (Beijing),22,回来,117,produces,0.641
-Mandarin (Beijing),22,回来,117,understands,0
-Mandarin (Beijing),23,回来,120,produces,0.6667
-Mandarin (Beijing),23,回来,120,understands,0
-Mandarin (Beijing),24,回来,120,produces,0.675
-Mandarin (Beijing),24,回来,120,understands,0
-Mandarin (Beijing),25,回来,113,produces,0.823
-Mandarin (Beijing),25,回来,113,understands,0
-Mandarin (Beijing),26,回来,118,produces,0.7881
-Mandarin (Beijing),26,回来,118,understands,0
-Mandarin (Beijing),27,回来,114,produces,0.7719
-Mandarin (Beijing),27,回来,114,understands,0
-Mandarin (Beijing),28,回来,114,produces,0.8421
-Mandarin (Beijing),28,回来,114,understands,0
-Mandarin (Beijing),29,回来,119,produces,0.8571
-Mandarin (Beijing),29,回来,119,understands,0
-Mandarin (Beijing),30,回来,110,produces,0.8818
-Mandarin (Beijing),30,回来,110,understands,0
-Arabic (Saudi),8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",24,produces,0
-Arabic (Saudi),8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",24,understands,0.0833
-Arabic (Saudi),9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,produces,0
-Arabic (Saudi),9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,understands,0
-Arabic (Saudi),10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",35,produces,0
-Arabic (Saudi),10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",35,understands,0.1143
-Arabic (Saudi),11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,produces,0
-Arabic (Saudi),11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,understands,0.0333
-Arabic (Saudi),12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,produces,0.0333
-Arabic (Saudi),12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,understands,0.1
-Arabic (Saudi),13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",39,produces,0.0769
-Arabic (Saudi),13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",39,understands,0
-Arabic (Saudi),14,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",25,produces,0.04
-Arabic (Saudi),14,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",25,understands,0.04
-Arabic (Saudi),15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,produces,0.0741
-Arabic (Saudi),15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,understands,0.1111
-Arabic (Saudi),16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",21,produces,0.0476
-Arabic (Saudi),16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",21,understands,0.0952
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",24,produces,0
+Arabic (Saudi),All,8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",24,understands,0.0833
+Arabic (Saudi),All,9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,produces,0
+Arabic (Saudi),All,9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,understands,0
+Arabic (Saudi),All,10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",35,produces,0
+Arabic (Saudi),All,10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",35,understands,0.1143
+Arabic (Saudi),All,11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,produces,0
+Arabic (Saudi),All,11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,understands,0.0333
+Arabic (Saudi),All,12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,produces,0.0333
+Arabic (Saudi),All,12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",30,understands,0.1
+Arabic (Saudi),All,13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",39,produces,0.0769
+Arabic (Saudi),All,13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",39,understands,0
+Arabic (Saudi),All,14,"أعيد/ يعيد/ يرجج, يعيد/ يرجّع",25,produces,0.04
+Arabic (Saudi),All,14,"أعيد/ يعيد/ يرجج, يعيد/ يرجّع",25,understands,0.04
+Arabic (Saudi),All,15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,produces,0.0741
+Arabic (Saudi),All,15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",27,understands,0.1111
+Arabic (Saudi),All,16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",21,produces,0.0476
+Arabic (Saudi),All,16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",21,understands,0.0952
+Mandarin (Beijing),All,16,回来,70,produces,0.0714
+Mandarin (Beijing),All,16,回来,70,understands,0
+Mandarin (Beijing),All,17,回来,112,produces,0.1607
+Mandarin (Beijing),All,17,回来,112,understands,0
+Mandarin (Beijing),All,18,回来,121,produces,0.1983
+Mandarin (Beijing),All,18,回来,121,understands,0
+Mandarin (Beijing),All,19,回来,120,produces,0.3417
+Mandarin (Beijing),All,19,回来,120,understands,0
+Mandarin (Beijing),All,20,回来,121,produces,0.4132
+Mandarin (Beijing),All,20,回来,121,understands,0
+Mandarin (Beijing),All,21,回来,119,produces,0.4874
+Mandarin (Beijing),All,21,回来,119,understands,0
+Mandarin (Beijing),All,22,回来,117,produces,0.641
+Mandarin (Beijing),All,22,回来,117,understands,0
+Mandarin (Beijing),All,23,回来,120,produces,0.6667
+Mandarin (Beijing),All,23,回来,120,understands,0
+Mandarin (Beijing),All,24,回来,120,produces,0.675
+Mandarin (Beijing),All,24,回来,120,understands,0
+Mandarin (Beijing),All,25,回来,113,produces,0.823
+Mandarin (Beijing),All,25,回来,113,understands,0
+Mandarin (Beijing),All,26,回来,118,produces,0.7881
+Mandarin (Beijing),All,26,回来,118,understands,0
+Mandarin (Beijing),All,27,回来,114,produces,0.7719
+Mandarin (Beijing),All,27,回来,114,understands,0
+Mandarin (Beijing),All,28,回来,114,produces,0.8421
+Mandarin (Beijing),All,28,回来,114,understands,0
+Mandarin (Beijing),All,29,回来,119,produces,0.8571
+Mandarin (Beijing),All,29,回来,119,understands,0
+Mandarin (Beijing),All,30,回来,110,produces,0.8818
+Mandarin (Beijing),All,30,回来,110,understands,0
+Arabic (Saudi),Female,8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",13,produces,0
+Arabic (Saudi),Female,8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",13,understands,0.1538
+Arabic (Saudi),Male,8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",11,produces,0
+Arabic (Saudi),Male,8,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",11,understands,0
+Arabic (Saudi),Female,9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",14,produces,0
+Arabic (Saudi),Female,9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",14,understands,0
+Arabic (Saudi),Male,9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",13,produces,0
+Arabic (Saudi),Male,9,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",13,understands,0
+Arabic (Saudi),Female,10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",15,produces,0
+Arabic (Saudi),Female,10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",15,understands,0.0667
+Arabic (Saudi),Male,10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",20,produces,0
+Arabic (Saudi),Male,10,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",20,understands,0.15
+Arabic (Saudi),Female,11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",14,produces,0
+Arabic (Saudi),Female,11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",14,understands,0
+Arabic (Saudi),Male,11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",16,produces,0
+Arabic (Saudi),Male,11,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",16,understands,0.0625
+Arabic (Saudi),Female,12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",14,produces,0.0714
+Arabic (Saudi),Female,12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",14,understands,0.2143
+Arabic (Saudi),Male,12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",16,produces,0
+Arabic (Saudi),Male,12,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",16,understands,0
+Arabic (Saudi),Female,13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",17,produces,0.0588
+Arabic (Saudi),Female,13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",17,understands,0
+Arabic (Saudi),Male,13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",22,produces,0.0909
+Arabic (Saudi),Male,13,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",22,understands,0
+Arabic (Saudi),Female,14,أعيد/ يعيد/ يرجج,10,produces,0
+Arabic (Saudi),Female,14,أعيد/ يعيد/ يرجج,10,understands,0
+Arabic (Saudi),Male,14,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",15,produces,0.0667
+Arabic (Saudi),Male,14,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",15,understands,0.0667
+Arabic (Saudi),Female,15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",12,produces,0
+Arabic (Saudi),Female,15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",12,understands,0.0833
+Arabic (Saudi),Male,15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",15,produces,0.1333
+Arabic (Saudi),Male,15,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",15,understands,0.1333
+Arabic (Saudi),Female,16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",10,produces,0.1
+Arabic (Saudi),Female,16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",10,understands,0.1
+Arabic (Saudi),Male,16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",11,produces,0
+Arabic (Saudi),Male,16,"يعيد/ يرجّع, أعيد/ يعيد/ يرجج",11,understands,0.0909
+Mandarin (Beijing),Female,16,回来,35,produces,0.1429
+Mandarin (Beijing),Female,16,回来,35,understands,0
+Mandarin (Beijing),Male,16,回来,35,produces,0
+Mandarin (Beijing),Male,16,回来,35,understands,0
+Mandarin (Beijing),Female,17,回来,35,produces,0.1429
+Mandarin (Beijing),Female,17,回来,35,understands,0
+Mandarin (Beijing),Male,17,回来,37,produces,0.1892
+Mandarin (Beijing),Male,17,回来,37,understands,0
+Mandarin (Beijing),Female,18,回来,35,produces,0.2571
+Mandarin (Beijing),Female,18,回来,35,understands,0
+Mandarin (Beijing),Male,18,回来,36,produces,0.25
+Mandarin (Beijing),Male,18,回来,36,understands,0
+Mandarin (Beijing),Female,19,回来,35,produces,0.5429
+Mandarin (Beijing),Female,19,回来,35,understands,0
+Mandarin (Beijing),Male,19,回来,35,produces,0.3143
+Mandarin (Beijing),Male,19,回来,35,understands,0
+Mandarin (Beijing),Female,20,回来,35,produces,0.6571
+Mandarin (Beijing),Female,20,回来,35,understands,0
+Mandarin (Beijing),Male,20,回来,36,produces,0.4722
+Mandarin (Beijing),Male,20,回来,36,understands,0
+Mandarin (Beijing),Female,21,回来,35,produces,0.6857
+Mandarin (Beijing),Female,21,回来,35,understands,0
+Mandarin (Beijing),Male,21,回来,35,produces,0.6286
+Mandarin (Beijing),Male,21,回来,35,understands,0
+Mandarin (Beijing),Female,22,回来,35,produces,1
+Mandarin (Beijing),Female,22,回来,35,understands,0
+Mandarin (Beijing),Male,22,回来,36,produces,0.6667
+Mandarin (Beijing),Male,22,回来,36,understands,0
+Mandarin (Beijing),Female,23,回来,35,produces,0.8571
+Mandarin (Beijing),Female,23,回来,35,understands,0
+Mandarin (Beijing),Male,23,回来,35,produces,0.6857
+Mandarin (Beijing),Male,23,回来,35,understands,0
+Mandarin (Beijing),Female,24,回来,35,produces,0.8
+Mandarin (Beijing),Female,24,回来,35,understands,0
+Mandarin (Beijing),Male,24,回来,35,produces,0.7143
+Mandarin (Beijing),Male,24,回来,35,understands,0
+Mandarin (Beijing),Female,25,回来,35,produces,0.9429
+Mandarin (Beijing),Female,25,回来,35,understands,0
+Mandarin (Beijing),Male,25,回来,35,produces,0.9429
+Mandarin (Beijing),Male,25,回来,35,understands,0
+Mandarin (Beijing),Female,26,回来,36,produces,1
+Mandarin (Beijing),Female,26,回来,36,understands,0
+Mandarin (Beijing),Male,26,回来,35,produces,0.8286
+Mandarin (Beijing),Male,26,回来,35,understands,0
+Mandarin (Beijing),Female,27,回来,35,produces,0.9429
+Mandarin (Beijing),Female,27,回来,35,understands,0
+Mandarin (Beijing),Male,27,回来,35,produces,0.8571
+Mandarin (Beijing),Male,27,回来,35,understands,0
+Mandarin (Beijing),Female,28,回来,35,produces,0.9714
+Mandarin (Beijing),Female,28,回来,35,understands,0
+Mandarin (Beijing),Male,28,回来,35,produces,0.9429
+Mandarin (Beijing),Male,28,回来,35,understands,0
+Mandarin (Beijing),Female,29,回来,35,produces,1
+Mandarin (Beijing),Female,29,回来,35,understands,0
+Mandarin (Beijing),Male,29,回来,35,produces,1
+Mandarin (Beijing),Male,29,回来,35,understands,0
+Mandarin (Beijing),Female,30,回来,35,produces,0.9429
+Mandarin (Beijing),Female,30,回来,35,understands,0
+Mandarin (Beijing),Male,30,回来,35,produces,0.9714
+Mandarin (Beijing),Male,30,回来,35,understands,0

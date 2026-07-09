@@ -1,107 +1,319 @@
-language,age,words,n,measure,prop
-Italian,7,cullare,5,produces,0
-Italian,7,cullare,5,understands,0
-Italian,8,cullare,34,produces,0
-Italian,8,cullare,34,understands,0.0588
-Italian,9,cullare,38,produces,0
-Italian,9,cullare,38,understands,0.1053
-Italian,10,cullare,53,produces,0
-Italian,10,cullare,53,understands,0.0755
-Italian,11,cullare,42,produces,0
-Italian,11,cullare,42,understands,0.1429
-Italian,12,cullare,69,produces,0
-Italian,12,cullare,69,understands,0.2319
-Italian,13,cullare,48,produces,0
-Italian,13,cullare,48,understands,0.2083
-Italian,14,cullare,40,produces,0
-Italian,14,cullare,40,understands,0.35
-Italian,15,cullare,68,produces,0
-Italian,15,cullare,68,understands,0.3088
-Italian,16,cullare,56,produces,0
-Italian,16,cullare,56,understands,0.2857
-Italian,17,cullare,48,produces,0.0625
-Italian,17,cullare,48,understands,0.4167
-Italian,18,cullare,75,produces,0.0133
-Italian,18,cullare,75,understands,0.2133
-Italian,19,cullare,58,produces,0.0172
-Italian,19,cullare,58,understands,0.069
-Italian,20,cullare,83,produces,0.0241
-Italian,20,cullare,83,understands,0.0723
-Italian,21,cullare,67,produces,0.0597
-Italian,21,cullare,67,understands,0.0746
-Italian,22,cullare,77,produces,0.0909
-Italian,22,cullare,77,understands,0.0909
-Italian,23,cullare,70,produces,0.1857
-Italian,23,cullare,70,understands,0.1286
-Italian,24,cullare,85,produces,0.1176
-Italian,24,cullare,85,understands,0.1294
-Italian,25,cullare,39,produces,0.2308
-Italian,25,cullare,39,understands,0
-Italian,26,cullare,41,produces,0.2927
-Italian,26,cullare,41,understands,0
-Italian,27,cullare,43,produces,0.2093
-Italian,27,cullare,43,understands,0
-Italian,28,cullare,44,produces,0.3636
-Italian,28,cullare,44,understands,0
-Italian,29,cullare,37,produces,0.3784
-Italian,29,cullare,37,understands,0
-Italian,30,cullare,67,produces,0.4179
-Italian,30,cullare,67,understands,0
-Italian,31,cullare,19,produces,0.2632
-Italian,31,cullare,19,understands,0
-Italian,32,cullare,23,produces,0.6522
-Italian,32,cullare,23,understands,0
-Italian,33,cullare,16,produces,0.5625
-Italian,33,cullare,16,understands,0
-Italian,34,cullare,19,produces,0.5789
-Italian,34,cullare,19,understands,0
-Italian,35,cullare,15,produces,0.7333
-Italian,35,cullare,15,understands,0
-Italian,36,cullare,21,produces,0.4762
-Italian,36,cullare,21,understands,0
-French (Quebecois),8,bercer,103,produces,0
-French (Quebecois),8,bercer,103,understands,0.0874
-French (Quebecois),9,bercer,167,produces,0
-French (Quebecois),9,bercer,167,understands,0.0479
-French (Quebecois),10,bercer,86,produces,0
-French (Quebecois),10,bercer,86,understands,0.1279
-French (Quebecois),11,bercer,81,produces,0
-French (Quebecois),11,bercer,81,understands,0.1605
-French (Quebecois),12,bercer,166,produces,0
-French (Quebecois),12,bercer,166,understands,0.1928
-French (Quebecois),13,bercer,126,produces,0
-French (Quebecois),13,bercer,126,understands,0.2222
-French (Quebecois),14,bercer,228,produces,0
-French (Quebecois),14,bercer,228,understands,0.2193
-French (Quebecois),15,bercer,101,produces,0.0099
-French (Quebecois),15,bercer,101,understands,0.3861
-French (Quebecois),16,bercer,108,produces,0.0278
-French (Quebecois),16,bercer,108,understands,0.2685
-French (Quebecois),17,bercer,62,produces,0.0161
-French (Quebecois),17,bercer,62,understands,0
-French (Quebecois),18,bercer,99,produces,0.0606
-French (Quebecois),18,bercer,99,understands,0
-French (Quebecois),19,bercer,91,produces,0.0769
-French (Quebecois),19,bercer,91,understands,0
-French (Quebecois),20,bercer,196,produces,0.0867
-French (Quebecois),20,bercer,196,understands,0
-French (Quebecois),21,bercer,109,produces,0.1743
-French (Quebecois),21,bercer,109,understands,0
-French (Quebecois),22,bercer,86,produces,0.2907
-French (Quebecois),22,bercer,86,understands,0
-French (Quebecois),23,bercer,86,produces,0.314
-French (Quebecois),23,bercer,86,understands,0
-French (Quebecois),24,bercer,132,produces,0.303
-French (Quebecois),24,bercer,132,understands,0
-French (Quebecois),25,bercer,87,produces,0.3333
-French (Quebecois),25,bercer,87,understands,0
-French (Quebecois),26,bercer,95,produces,0.4211
-French (Quebecois),26,bercer,95,understands,0
-French (Quebecois),27,bercer,74,produces,0.5676
-French (Quebecois),27,bercer,74,understands,0
-French (Quebecois),28,bercer,61,produces,0.6066
-French (Quebecois),28,bercer,61,understands,0
-French (Quebecois),29,bercer,70,produces,0.6286
-French (Quebecois),29,bercer,70,understands,0
-French (Quebecois),30,bercer,100,produces,0.48
-French (Quebecois),30,bercer,100,understands,0
+language,sex,age,words,n,measure,prop
+French (Quebecois),All,8,bercer,103,produces,0
+French (Quebecois),All,8,bercer,103,understands,0.0874
+French (Quebecois),All,9,bercer,167,produces,0
+French (Quebecois),All,9,bercer,167,understands,0.0479
+French (Quebecois),All,10,bercer,86,produces,0
+French (Quebecois),All,10,bercer,86,understands,0.1279
+French (Quebecois),All,11,bercer,81,produces,0
+French (Quebecois),All,11,bercer,81,understands,0.1605
+French (Quebecois),All,12,bercer,166,produces,0
+French (Quebecois),All,12,bercer,166,understands,0.1928
+French (Quebecois),All,13,bercer,126,produces,0
+French (Quebecois),All,13,bercer,126,understands,0.2222
+French (Quebecois),All,14,bercer,228,produces,0
+French (Quebecois),All,14,bercer,228,understands,0.2193
+French (Quebecois),All,15,bercer,101,produces,0.0099
+French (Quebecois),All,15,bercer,101,understands,0.3861
+French (Quebecois),All,16,bercer,108,produces,0.0278
+French (Quebecois),All,16,bercer,108,understands,0.2685
+French (Quebecois),All,17,bercer,62,produces,0.0161
+French (Quebecois),All,17,bercer,62,understands,0
+French (Quebecois),All,18,bercer,99,produces,0.0606
+French (Quebecois),All,18,bercer,99,understands,0
+French (Quebecois),All,19,bercer,91,produces,0.0769
+French (Quebecois),All,19,bercer,91,understands,0
+French (Quebecois),All,20,bercer,196,produces,0.0867
+French (Quebecois),All,20,bercer,196,understands,0
+French (Quebecois),All,21,bercer,109,produces,0.1743
+French (Quebecois),All,21,bercer,109,understands,0
+French (Quebecois),All,22,bercer,86,produces,0.2907
+French (Quebecois),All,22,bercer,86,understands,0
+French (Quebecois),All,23,bercer,86,produces,0.314
+French (Quebecois),All,23,bercer,86,understands,0
+French (Quebecois),All,24,bercer,132,produces,0.303
+French (Quebecois),All,24,bercer,132,understands,0
+French (Quebecois),All,25,bercer,87,produces,0.3333
+French (Quebecois),All,25,bercer,87,understands,0
+French (Quebecois),All,26,bercer,95,produces,0.4211
+French (Quebecois),All,26,bercer,95,understands,0
+French (Quebecois),All,27,bercer,74,produces,0.5676
+French (Quebecois),All,27,bercer,74,understands,0
+French (Quebecois),All,28,bercer,61,produces,0.6066
+French (Quebecois),All,28,bercer,61,understands,0
+French (Quebecois),All,29,bercer,70,produces,0.6286
+French (Quebecois),All,29,bercer,70,understands,0
+French (Quebecois),All,30,bercer,100,produces,0.48
+French (Quebecois),All,30,bercer,100,understands,0
+Italian,All,7,cullare,5,produces,0
+Italian,All,7,cullare,5,understands,0
+Italian,All,8,cullare,34,produces,0
+Italian,All,8,cullare,34,understands,0.0588
+Italian,All,9,cullare,38,produces,0
+Italian,All,9,cullare,38,understands,0.1053
+Italian,All,10,cullare,53,produces,0
+Italian,All,10,cullare,53,understands,0.0755
+Italian,All,11,cullare,42,produces,0
+Italian,All,11,cullare,42,understands,0.1429
+Italian,All,12,cullare,69,produces,0
+Italian,All,12,cullare,69,understands,0.2319
+Italian,All,13,cullare,48,produces,0
+Italian,All,13,cullare,48,understands,0.2083
+Italian,All,14,cullare,40,produces,0
+Italian,All,14,cullare,40,understands,0.35
+Italian,All,15,cullare,68,produces,0
+Italian,All,15,cullare,68,understands,0.3088
+Italian,All,16,cullare,56,produces,0
+Italian,All,16,cullare,56,understands,0.2857
+Italian,All,17,cullare,48,produces,0.0625
+Italian,All,17,cullare,48,understands,0.4167
+Italian,All,18,cullare,75,produces,0.0133
+Italian,All,18,cullare,75,understands,0.2133
+Italian,All,19,cullare,58,produces,0.0172
+Italian,All,19,cullare,58,understands,0.069
+Italian,All,20,cullare,83,produces,0.0241
+Italian,All,20,cullare,83,understands,0.0723
+Italian,All,21,cullare,67,produces,0.0597
+Italian,All,21,cullare,67,understands,0.0746
+Italian,All,22,cullare,77,produces,0.0909
+Italian,All,22,cullare,77,understands,0.0909
+Italian,All,23,cullare,70,produces,0.1857
+Italian,All,23,cullare,70,understands,0.1286
+Italian,All,24,cullare,85,produces,0.1176
+Italian,All,24,cullare,85,understands,0.1294
+Italian,All,25,cullare,39,produces,0.2308
+Italian,All,25,cullare,39,understands,0
+Italian,All,26,cullare,41,produces,0.2927
+Italian,All,26,cullare,41,understands,0
+Italian,All,27,cullare,43,produces,0.2093
+Italian,All,27,cullare,43,understands,0
+Italian,All,28,cullare,44,produces,0.3636
+Italian,All,28,cullare,44,understands,0
+Italian,All,29,cullare,37,produces,0.3784
+Italian,All,29,cullare,37,understands,0
+Italian,All,30,cullare,67,produces,0.4179
+Italian,All,30,cullare,67,understands,0
+Italian,All,31,cullare,19,produces,0.2632
+Italian,All,31,cullare,19,understands,0
+Italian,All,32,cullare,23,produces,0.6522
+Italian,All,32,cullare,23,understands,0
+Italian,All,33,cullare,16,produces,0.5625
+Italian,All,33,cullare,16,understands,0
+Italian,All,34,cullare,19,produces,0.5789
+Italian,All,34,cullare,19,understands,0
+Italian,All,35,cullare,15,produces,0.7333
+Italian,All,35,cullare,15,understands,0
+Italian,All,36,cullare,21,produces,0.4762
+Italian,All,36,cullare,21,understands,0
+French (Quebecois),Female,8,bercer,49,produces,0
+French (Quebecois),Female,8,bercer,49,understands,0.102
+French (Quebecois),Male,8,bercer,54,produces,0
+French (Quebecois),Male,8,bercer,54,understands,0.0741
+French (Quebecois),Female,9,bercer,79,produces,0
+French (Quebecois),Female,9,bercer,79,understands,0.0633
+French (Quebecois),Male,9,bercer,88,produces,0
+French (Quebecois),Male,9,bercer,88,understands,0.0341
+French (Quebecois),Female,10,bercer,40,produces,0
+French (Quebecois),Female,10,bercer,40,understands,0.2
+French (Quebecois),Male,10,bercer,46,produces,0
+French (Quebecois),Male,10,bercer,46,understands,0.0652
+French (Quebecois),Female,11,bercer,41,produces,0
+French (Quebecois),Female,11,bercer,41,understands,0.2195
+French (Quebecois),Male,11,bercer,40,produces,0
+French (Quebecois),Male,11,bercer,40,understands,0.1
+French (Quebecois),Female,12,bercer,72,produces,0
+French (Quebecois),Female,12,bercer,72,understands,0.1667
+French (Quebecois),Male,12,bercer,94,produces,0
+French (Quebecois),Male,12,bercer,94,understands,0.2128
+French (Quebecois),Female,13,bercer,49,produces,0
+French (Quebecois),Female,13,bercer,49,understands,0.2041
+French (Quebecois),Male,13,bercer,76,produces,0
+French (Quebecois),Male,13,bercer,76,understands,0.2368
+French (Quebecois),Female,14,bercer,132,produces,0
+French (Quebecois),Female,14,bercer,132,understands,0.2727
+French (Quebecois),Male,14,bercer,96,produces,0
+French (Quebecois),Male,14,bercer,96,understands,0.1458
+French (Quebecois),Female,15,bercer,39,produces,0.0256
+French (Quebecois),Female,15,bercer,39,understands,0.4103
+French (Quebecois),Male,15,bercer,62,produces,0
+French (Quebecois),Male,15,bercer,62,understands,0.371
+French (Quebecois),Female,16,bercer,57,produces,0.0526
+French (Quebecois),Female,16,bercer,57,understands,0.2632
+French (Quebecois),Male,16,bercer,51,produces,0
+French (Quebecois),Male,16,bercer,51,understands,0.2745
+French (Quebecois),Female,17,bercer,30,produces,0.0333
+French (Quebecois),Female,17,bercer,30,understands,0
+French (Quebecois),Male,17,bercer,31,produces,0
+French (Quebecois),Male,17,bercer,31,understands,0
+French (Quebecois),Female,18,bercer,53,produces,0.0566
+French (Quebecois),Female,18,bercer,53,understands,0
+French (Quebecois),Male,18,bercer,46,produces,0.0652
+French (Quebecois),Male,18,bercer,46,understands,0
+French (Quebecois),Female,19,bercer,41,produces,0.122
+French (Quebecois),Female,19,bercer,41,understands,0
+French (Quebecois),Male,19,bercer,50,produces,0.04
+French (Quebecois),Male,19,bercer,50,understands,0
+French (Quebecois),Female,20,bercer,90,produces,0.1333
+French (Quebecois),Female,20,bercer,90,understands,0
+French (Quebecois),Male,20,bercer,105,produces,0.0476
+French (Quebecois),Male,20,bercer,105,understands,0
+French (Quebecois),Female,21,bercer,56,produces,0.2143
+French (Quebecois),Female,21,bercer,56,understands,0
+French (Quebecois),Male,21,bercer,53,produces,0.1321
+French (Quebecois),Male,21,bercer,53,understands,0
+French (Quebecois),Female,22,bercer,42,produces,0.3095
+French (Quebecois),Female,22,bercer,42,understands,0
+French (Quebecois),Male,22,bercer,44,produces,0.2727
+French (Quebecois),Male,22,bercer,44,understands,0
+French (Quebecois),Female,23,bercer,41,produces,0.3902
+French (Quebecois),Female,23,bercer,41,understands,0
+French (Quebecois),Male,23,bercer,45,produces,0.2444
+French (Quebecois),Male,23,bercer,45,understands,0
+French (Quebecois),Female,24,bercer,56,produces,0.4464
+French (Quebecois),Female,24,bercer,56,understands,0
+French (Quebecois),Male,24,bercer,76,produces,0.1974
+French (Quebecois),Male,24,bercer,76,understands,0
+French (Quebecois),Female,25,bercer,41,produces,0.4634
+French (Quebecois),Female,25,bercer,41,understands,0
+French (Quebecois),Male,25,bercer,45,produces,0.2222
+French (Quebecois),Male,25,bercer,45,understands,0
+French (Quebecois),Female,26,bercer,46,produces,0.5435
+French (Quebecois),Female,26,bercer,46,understands,0
+French (Quebecois),Male,26,bercer,49,produces,0.3061
+French (Quebecois),Male,26,bercer,49,understands,0
+French (Quebecois),Female,27,bercer,40,produces,0.7
+French (Quebecois),Female,27,bercer,40,understands,0
+French (Quebecois),Male,27,bercer,34,produces,0.4118
+French (Quebecois),Male,27,bercer,34,understands,0
+French (Quebecois),Female,28,bercer,28,produces,0.75
+French (Quebecois),Female,28,bercer,28,understands,0
+French (Quebecois),Male,28,bercer,32,produces,0.5
+French (Quebecois),Male,28,bercer,32,understands,0
+French (Quebecois),Female,29,bercer,35,produces,0.6
+French (Quebecois),Female,29,bercer,35,understands,0
+French (Quebecois),Male,29,bercer,35,produces,0.6571
+French (Quebecois),Male,29,bercer,35,understands,0
+French (Quebecois),Female,30,bercer,41,produces,0.6098
+French (Quebecois),Female,30,bercer,41,understands,0
+French (Quebecois),Male,30,bercer,59,produces,0.3898
+French (Quebecois),Male,30,bercer,59,understands,0
+Italian,Female,7,cullare,2,produces,0
+Italian,Female,7,cullare,2,understands,0
+Italian,Male,7,cullare,3,produces,0
+Italian,Male,7,cullare,3,understands,0
+Italian,Female,8,cullare,18,produces,0
+Italian,Female,8,cullare,18,understands,0.1111
+Italian,Male,8,cullare,16,produces,0
+Italian,Male,8,cullare,16,understands,0
+Italian,Female,9,cullare,14,produces,0
+Italian,Female,9,cullare,14,understands,0.1429
+Italian,Male,9,cullare,24,produces,0
+Italian,Male,9,cullare,24,understands,0.0833
+Italian,Female,10,cullare,29,produces,0
+Italian,Female,10,cullare,29,understands,0.0345
+Italian,Male,10,cullare,24,produces,0
+Italian,Male,10,cullare,24,understands,0.125
+Italian,Female,11,cullare,22,produces,0
+Italian,Female,11,cullare,22,understands,0.1364
+Italian,Male,11,cullare,20,produces,0
+Italian,Male,11,cullare,20,understands,0.15
+Italian,Female,12,cullare,29,produces,0
+Italian,Female,12,cullare,29,understands,0.3793
+Italian,Male,12,cullare,40,produces,0
+Italian,Male,12,cullare,40,understands,0.125
+Italian,Female,13,cullare,22,produces,0
+Italian,Female,13,cullare,22,understands,0.2727
+Italian,Male,13,cullare,26,produces,0
+Italian,Male,13,cullare,26,understands,0.1538
+Italian,Female,14,cullare,21,produces,0
+Italian,Female,14,cullare,21,understands,0.5238
+Italian,Male,14,cullare,19,produces,0
+Italian,Male,14,cullare,19,understands,0.1579
+Italian,Female,15,cullare,30,produces,0
+Italian,Female,15,cullare,30,understands,0.4
+Italian,Male,15,cullare,38,produces,0
+Italian,Male,15,cullare,38,understands,0.2368
+Italian,Female,16,cullare,27,produces,0
+Italian,Female,16,cullare,27,understands,0.4074
+Italian,Male,16,cullare,29,produces,0
+Italian,Male,16,cullare,29,understands,0.1724
+Italian,Female,17,cullare,20,produces,0.05
+Italian,Female,17,cullare,20,understands,0.6
+Italian,Male,17,cullare,28,produces,0.0714
+Italian,Male,17,cullare,28,understands,0.2857
+Italian,Female,18,cullare,37,produces,0.027
+Italian,Female,18,cullare,37,understands,0.2703
+Italian,Male,18,cullare,38,produces,0
+Italian,Male,18,cullare,38,understands,0.1579
+Italian,Female,19,cullare,26,produces,0.0385
+Italian,Female,19,cullare,26,understands,0
+Italian,Male,19,cullare,32,produces,0
+Italian,Male,19,cullare,32,understands,0.125
+Italian,Female,20,cullare,41,produces,0.0488
+Italian,Female,20,cullare,41,understands,0.0488
+Italian,Male,20,cullare,42,produces,0
+Italian,Male,20,cullare,42,understands,0.0952
+Italian,Female,21,cullare,29,produces,0.1034
+Italian,Female,21,cullare,29,understands,0.1034
+Italian,Male,21,cullare,38,produces,0.0263
+Italian,Male,21,cullare,38,understands,0.0526
+Italian,Female,22,cullare,39,produces,0.0769
+Italian,Female,22,cullare,39,understands,0.1026
+Italian,Male,22,cullare,38,produces,0.1053
+Italian,Male,22,cullare,38,understands,0.0789
+Italian,Female,23,cullare,34,produces,0.2353
+Italian,Female,23,cullare,34,understands,0.1176
+Italian,Male,23,cullare,36,produces,0.1389
+Italian,Male,23,cullare,36,understands,0.1389
+Italian,Female,24,cullare,46,produces,0.1304
+Italian,Female,24,cullare,46,understands,0.1304
+Italian,Male,24,cullare,39,produces,0.1026
+Italian,Male,24,cullare,39,understands,0.1282
+Italian,Female,25,cullare,23,produces,0.1739
+Italian,Female,25,cullare,23,understands,0
+Italian,Male,25,cullare,16,produces,0.3125
+Italian,Male,25,cullare,16,understands,0
+Italian,Female,26,cullare,19,produces,0.4211
+Italian,Female,26,cullare,19,understands,0
+Italian,Male,26,cullare,22,produces,0.1818
+Italian,Male,26,cullare,22,understands,0
+Italian,Female,27,cullare,20,produces,0.2
+Italian,Female,27,cullare,20,understands,0
+Italian,Male,27,cullare,23,produces,0.2174
+Italian,Male,27,cullare,23,understands,0
+Italian,Female,28,cullare,21,produces,0.2857
+Italian,Female,28,cullare,21,understands,0
+Italian,Male,28,cullare,23,produces,0.4348
+Italian,Male,28,cullare,23,understands,0
+Italian,Female,29,cullare,21,produces,0.4286
+Italian,Female,29,cullare,21,understands,0
+Italian,Male,29,cullare,16,produces,0.3125
+Italian,Male,29,cullare,16,understands,0
+Italian,Female,30,cullare,28,produces,0.3929
+Italian,Female,30,cullare,28,understands,0
+Italian,Male,30,cullare,39,produces,0.4359
+Italian,Male,30,cullare,39,understands,0
+Italian,Female,31,cullare,8,produces,0.375
+Italian,Female,31,cullare,8,understands,0
+Italian,Male,31,cullare,11,produces,0.1818
+Italian,Male,31,cullare,11,understands,0
+Italian,Female,32,cullare,14,produces,0.7143
+Italian,Female,32,cullare,14,understands,0
+Italian,Male,32,cullare,9,produces,0.5556
+Italian,Male,32,cullare,9,understands,0
+Italian,Female,33,cullare,5,produces,1
+Italian,Female,33,cullare,5,understands,0
+Italian,Male,33,cullare,11,produces,0.3636
+Italian,Male,33,cullare,11,understands,0
+Italian,Female,34,cullare,12,produces,0.75
+Italian,Female,34,cullare,12,understands,0
+Italian,Male,34,cullare,7,produces,0.2857
+Italian,Male,34,cullare,7,understands,0
+Italian,Female,35,cullare,9,produces,0.7778
+Italian,Female,35,cullare,9,understands,0
+Italian,Male,35,cullare,6,produces,0.6667
+Italian,Male,35,cullare,6,understands,0
+Italian,Female,36,cullare,7,produces,0.4286
+Italian,Female,36,cullare,7,understands,0
+Italian,Male,36,cullare,14,produces,0.5
+Italian,Male,36,cullare,14,understands,0

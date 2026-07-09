@@ -1,67 +1,195 @@
-language,age,words,n,measure,prop
-Spanish (Argentinian),16,chupar,47,produces,0.0638
-Spanish (Argentinian),16,chupar,47,understands,0
-Spanish (Argentinian),17,chupar,49,produces,0.0408
-Spanish (Argentinian),17,chupar,49,understands,0
-Spanish (Argentinian),18,chupar,62,produces,0.0484
-Spanish (Argentinian),18,chupar,62,understands,0
-Spanish (Argentinian),19,chupar,44,produces,0.0455
-Spanish (Argentinian),19,chupar,44,understands,0
-Spanish (Argentinian),20,chupar,46,produces,0.0217
-Spanish (Argentinian),20,chupar,46,understands,0
-Spanish (Argentinian),21,chupar,41,produces,0.0732
-Spanish (Argentinian),21,chupar,41,understands,0
-Spanish (Argentinian),22,chupar,57,produces,0.0351
-Spanish (Argentinian),22,chupar,57,understands,0
-Spanish (Argentinian),23,chupar,49,produces,0.1224
-Spanish (Argentinian),23,chupar,49,understands,0
-Spanish (Argentinian),24,chupar,75,produces,0.1067
-Spanish (Argentinian),24,chupar,75,understands,0
-Spanish (Argentinian),25,chupar,43,produces,0.2558
-Spanish (Argentinian),25,chupar,43,understands,0
-Spanish (Argentinian),26,chupar,45,produces,0.1556
-Spanish (Argentinian),26,chupar,45,understands,0
-Spanish (Argentinian),27,chupar,44,produces,0.2045
-Spanish (Argentinian),27,chupar,44,understands,0
-Spanish (Argentinian),28,chupar,42,produces,0.2619
-Spanish (Argentinian),28,chupar,42,understands,0
-Spanish (Argentinian),29,chupar,65,produces,0.3846
-Spanish (Argentinian),29,chupar,65,understands,0
-Spanish (Argentinian),30,chupar,69,produces,0.4058
-Spanish (Argentinian),30,chupar,69,understands,0
-Spanish (Argentinian),31,chupar,2,produces,0
-Spanish (Argentinian),31,chupar,2,understands,0
-Spanish (Argentinian),32,chupar,1,produces,1
-Spanish (Argentinian),32,chupar,1,understands,0
-Spanish (Argentinian),33,chupar,2,produces,1
-Spanish (Argentinian),33,chupar,2,understands,0
-Cantonese,16,啜*(手指),46,produces,0
-Cantonese,16,啜*(手指),46,understands,0
-Cantonese,17,啜*(手指),61,produces,0.0656
-Cantonese,17,啜*(手指),61,understands,0
-Cantonese,18,啜*(手指),68,produces,0.0735
-Cantonese,18,啜*(手指),68,understands,0
-Cantonese,19,啜*(手指),66,produces,0.0303
-Cantonese,19,啜*(手指),66,understands,0
-Cantonese,20,啜*(手指),140,produces,0.1429
-Cantonese,20,啜*(手指),140,understands,0
-Cantonese,21,啜*(手指),120,produces,0.15
-Cantonese,21,啜*(手指),120,understands,0
-Cantonese,22,啜*(手指),68,produces,0.1471
-Cantonese,22,啜*(手指),68,understands,0
-Cantonese,23,啜*(手指),74,produces,0.1486
-Cantonese,23,啜*(手指),74,understands,0
-Cantonese,24,啜*(手指),68,produces,0.2353
-Cantonese,24,啜*(手指),68,understands,0
-Cantonese,25,啜*(手指),65,produces,0.2923
-Cantonese,25,啜*(手指),65,understands,0
-Cantonese,26,啜*(手指),68,produces,0.4118
-Cantonese,26,啜*(手指),68,understands,0
-Cantonese,27,啜*(手指),62,produces,0.3065
-Cantonese,27,啜*(手指),62,understands,0
-Cantonese,28,啜*(手指),66,produces,0.3182
-Cantonese,28,啜*(手指),66,understands,0
-Cantonese,29,啜*(手指),72,produces,0.5
-Cantonese,29,啜*(手指),72,understands,0
-Cantonese,30,啜*(手指),164,produces,0.5122
-Cantonese,30,啜*(手指),164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,啜*(手指),46,produces,0
+Cantonese,All,16,啜*(手指),46,understands,0
+Cantonese,All,17,啜*(手指),61,produces,0.0656
+Cantonese,All,17,啜*(手指),61,understands,0
+Cantonese,All,18,啜*(手指),68,produces,0.0735
+Cantonese,All,18,啜*(手指),68,understands,0
+Cantonese,All,19,啜*(手指),66,produces,0.0303
+Cantonese,All,19,啜*(手指),66,understands,0
+Cantonese,All,20,啜*(手指),140,produces,0.1429
+Cantonese,All,20,啜*(手指),140,understands,0
+Cantonese,All,21,啜*(手指),120,produces,0.15
+Cantonese,All,21,啜*(手指),120,understands,0
+Cantonese,All,22,啜*(手指),68,produces,0.1471
+Cantonese,All,22,啜*(手指),68,understands,0
+Cantonese,All,23,啜*(手指),74,produces,0.1486
+Cantonese,All,23,啜*(手指),74,understands,0
+Cantonese,All,24,啜*(手指),68,produces,0.2353
+Cantonese,All,24,啜*(手指),68,understands,0
+Cantonese,All,25,啜*(手指),65,produces,0.2923
+Cantonese,All,25,啜*(手指),65,understands,0
+Cantonese,All,26,啜*(手指),68,produces,0.4118
+Cantonese,All,26,啜*(手指),68,understands,0
+Cantonese,All,27,啜*(手指),62,produces,0.3065
+Cantonese,All,27,啜*(手指),62,understands,0
+Cantonese,All,28,啜*(手指),66,produces,0.3182
+Cantonese,All,28,啜*(手指),66,understands,0
+Cantonese,All,29,啜*(手指),72,produces,0.5
+Cantonese,All,29,啜*(手指),72,understands,0
+Cantonese,All,30,啜*(手指),164,produces,0.5122
+Cantonese,All,30,啜*(手指),164,understands,0
+Spanish (Argentinian),All,16,chupar,47,produces,0.0638
+Spanish (Argentinian),All,16,chupar,47,understands,0
+Spanish (Argentinian),All,17,chupar,49,produces,0.0408
+Spanish (Argentinian),All,17,chupar,49,understands,0
+Spanish (Argentinian),All,18,chupar,62,produces,0.0484
+Spanish (Argentinian),All,18,chupar,62,understands,0
+Spanish (Argentinian),All,19,chupar,44,produces,0.0455
+Spanish (Argentinian),All,19,chupar,44,understands,0
+Spanish (Argentinian),All,20,chupar,46,produces,0.0217
+Spanish (Argentinian),All,20,chupar,46,understands,0
+Spanish (Argentinian),All,21,chupar,41,produces,0.0732
+Spanish (Argentinian),All,21,chupar,41,understands,0
+Spanish (Argentinian),All,22,chupar,57,produces,0.0351
+Spanish (Argentinian),All,22,chupar,57,understands,0
+Spanish (Argentinian),All,23,chupar,49,produces,0.1224
+Spanish (Argentinian),All,23,chupar,49,understands,0
+Spanish (Argentinian),All,24,chupar,75,produces,0.1067
+Spanish (Argentinian),All,24,chupar,75,understands,0
+Spanish (Argentinian),All,25,chupar,43,produces,0.2558
+Spanish (Argentinian),All,25,chupar,43,understands,0
+Spanish (Argentinian),All,26,chupar,45,produces,0.1556
+Spanish (Argentinian),All,26,chupar,45,understands,0
+Spanish (Argentinian),All,27,chupar,44,produces,0.2045
+Spanish (Argentinian),All,27,chupar,44,understands,0
+Spanish (Argentinian),All,28,chupar,42,produces,0.2619
+Spanish (Argentinian),All,28,chupar,42,understands,0
+Spanish (Argentinian),All,29,chupar,65,produces,0.3846
+Spanish (Argentinian),All,29,chupar,65,understands,0
+Spanish (Argentinian),All,30,chupar,69,produces,0.4058
+Spanish (Argentinian),All,30,chupar,69,understands,0
+Spanish (Argentinian),All,31,chupar,2,produces,0
+Spanish (Argentinian),All,31,chupar,2,understands,0
+Spanish (Argentinian),All,32,chupar,1,produces,1
+Spanish (Argentinian),All,32,chupar,1,understands,0
+Spanish (Argentinian),All,33,chupar,2,produces,1
+Spanish (Argentinian),All,33,chupar,2,understands,0
+Cantonese,Female,16,啜*(手指),23,produces,0
+Cantonese,Female,16,啜*(手指),23,understands,0
+Cantonese,Male,16,啜*(手指),23,produces,0
+Cantonese,Male,16,啜*(手指),23,understands,0
+Cantonese,Female,17,啜*(手指),30,produces,0.0333
+Cantonese,Female,17,啜*(手指),30,understands,0
+Cantonese,Male,17,啜*(手指),31,produces,0.0968
+Cantonese,Male,17,啜*(手指),31,understands,0
+Cantonese,Female,18,啜*(手指),33,produces,0.1212
+Cantonese,Female,18,啜*(手指),33,understands,0
+Cantonese,Male,18,啜*(手指),35,produces,0.0286
+Cantonese,Male,18,啜*(手指),35,understands,0
+Cantonese,Female,19,啜*(手指),30,produces,0.0333
+Cantonese,Female,19,啜*(手指),30,understands,0
+Cantonese,Male,19,啜*(手指),36,produces,0.0278
+Cantonese,Male,19,啜*(手指),36,understands,0
+Cantonese,Female,20,啜*(手指),62,produces,0.1452
+Cantonese,Female,20,啜*(手指),62,understands,0
+Cantonese,Male,20,啜*(手指),78,produces,0.141
+Cantonese,Male,20,啜*(手指),78,understands,0
+Cantonese,Female,21,啜*(手指),57,produces,0.1754
+Cantonese,Female,21,啜*(手指),57,understands,0
+Cantonese,Male,21,啜*(手指),63,produces,0.127
+Cantonese,Male,21,啜*(手指),63,understands,0
+Cantonese,Female,22,啜*(手指),34,produces,0.2059
+Cantonese,Female,22,啜*(手指),34,understands,0
+Cantonese,Male,22,啜*(手指),34,produces,0.0882
+Cantonese,Male,22,啜*(手指),34,understands,0
+Cantonese,Female,23,啜*(手指),37,produces,0.1892
+Cantonese,Female,23,啜*(手指),37,understands,0
+Cantonese,Male,23,啜*(手指),37,produces,0.1081
+Cantonese,Male,23,啜*(手指),37,understands,0
+Cantonese,Female,24,啜*(手指),32,produces,0.3438
+Cantonese,Female,24,啜*(手指),32,understands,0
+Cantonese,Male,24,啜*(手指),36,produces,0.1389
+Cantonese,Male,24,啜*(手指),36,understands,0
+Cantonese,Female,25,啜*(手指),31,produces,0.3871
+Cantonese,Female,25,啜*(手指),31,understands,0
+Cantonese,Male,25,啜*(手指),34,produces,0.2059
+Cantonese,Male,25,啜*(手指),34,understands,0
+Cantonese,Female,26,啜*(手指),31,produces,0.4839
+Cantonese,Female,26,啜*(手指),31,understands,0
+Cantonese,Male,26,啜*(手指),37,produces,0.3514
+Cantonese,Male,26,啜*(手指),37,understands,0
+Cantonese,Female,27,啜*(手指),31,produces,0.3548
+Cantonese,Female,27,啜*(手指),31,understands,0
+Cantonese,Male,27,啜*(手指),31,produces,0.2581
+Cantonese,Male,27,啜*(手指),31,understands,0
+Cantonese,Female,28,啜*(手指),32,produces,0.25
+Cantonese,Female,28,啜*(手指),32,understands,0
+Cantonese,Male,28,啜*(手指),34,produces,0.3824
+Cantonese,Male,28,啜*(手指),34,understands,0
+Cantonese,Female,29,啜*(手指),36,produces,0.5833
+Cantonese,Female,29,啜*(手指),36,understands,0
+Cantonese,Male,29,啜*(手指),36,produces,0.4167
+Cantonese,Male,29,啜*(手指),36,understands,0
+Cantonese,Female,30,啜*(手指),76,produces,0.6053
+Cantonese,Female,30,啜*(手指),76,understands,0
+Cantonese,Male,30,啜*(手指),88,produces,0.4318
+Cantonese,Male,30,啜*(手指),88,understands,0
+Spanish (Argentinian),Female,16,chupar,30,produces,0.0667
+Spanish (Argentinian),Female,16,chupar,30,understands,0
+Spanish (Argentinian),Male,16,chupar,17,produces,0.0588
+Spanish (Argentinian),Male,16,chupar,17,understands,0
+Spanish (Argentinian),Female,17,chupar,20,produces,0.05
+Spanish (Argentinian),Female,17,chupar,20,understands,0
+Spanish (Argentinian),Male,17,chupar,29,produces,0.0345
+Spanish (Argentinian),Male,17,chupar,29,understands,0
+Spanish (Argentinian),Female,18,chupar,43,produces,0.0465
+Spanish (Argentinian),Female,18,chupar,43,understands,0
+Spanish (Argentinian),Male,18,chupar,19,produces,0.0526
+Spanish (Argentinian),Male,18,chupar,19,understands,0
+Spanish (Argentinian),Female,19,chupar,25,produces,0
+Spanish (Argentinian),Female,19,chupar,25,understands,0
+Spanish (Argentinian),Male,19,chupar,19,produces,0.1053
+Spanish (Argentinian),Male,19,chupar,19,understands,0
+Spanish (Argentinian),Female,20,chupar,22,produces,0
+Spanish (Argentinian),Female,20,chupar,22,understands,0
+Spanish (Argentinian),Male,20,chupar,24,produces,0.0417
+Spanish (Argentinian),Male,20,chupar,24,understands,0
+Spanish (Argentinian),Female,21,chupar,15,produces,0
+Spanish (Argentinian),Female,21,chupar,15,understands,0
+Spanish (Argentinian),Male,21,chupar,26,produces,0.1154
+Spanish (Argentinian),Male,21,chupar,26,understands,0
+Spanish (Argentinian),Female,22,chupar,25,produces,0.04
+Spanish (Argentinian),Female,22,chupar,25,understands,0
+Spanish (Argentinian),Male,22,chupar,32,produces,0.0312
+Spanish (Argentinian),Male,22,chupar,32,understands,0
+Spanish (Argentinian),Female,23,chupar,30,produces,0.1333
+Spanish (Argentinian),Female,23,chupar,30,understands,0
+Spanish (Argentinian),Male,23,chupar,19,produces,0.1053
+Spanish (Argentinian),Male,23,chupar,19,understands,0
+Spanish (Argentinian),Female,24,chupar,44,produces,0.0909
+Spanish (Argentinian),Female,24,chupar,44,understands,0
+Spanish (Argentinian),Male,24,chupar,31,produces,0.129
+Spanish (Argentinian),Male,24,chupar,31,understands,0
+Spanish (Argentinian),Female,25,chupar,24,produces,0.1667
+Spanish (Argentinian),Female,25,chupar,24,understands,0
+Spanish (Argentinian),Male,25,chupar,19,produces,0.3684
+Spanish (Argentinian),Male,25,chupar,19,understands,0
+Spanish (Argentinian),Female,26,chupar,17,produces,0.2941
+Spanish (Argentinian),Female,26,chupar,17,understands,0
+Spanish (Argentinian),Male,26,chupar,28,produces,0.0714
+Spanish (Argentinian),Male,26,chupar,28,understands,0
+Spanish (Argentinian),Female,27,chupar,18,produces,0.3333
+Spanish (Argentinian),Female,27,chupar,18,understands,0
+Spanish (Argentinian),Male,27,chupar,26,produces,0.1154
+Spanish (Argentinian),Male,27,chupar,26,understands,0
+Spanish (Argentinian),Female,28,chupar,18,produces,0.2222
+Spanish (Argentinian),Female,28,chupar,18,understands,0
+Spanish (Argentinian),Male,28,chupar,24,produces,0.2917
+Spanish (Argentinian),Male,28,chupar,24,understands,0
+Spanish (Argentinian),Female,29,chupar,36,produces,0.3611
+Spanish (Argentinian),Female,29,chupar,36,understands,0
+Spanish (Argentinian),Male,29,chupar,29,produces,0.4138
+Spanish (Argentinian),Male,29,chupar,29,understands,0
+Spanish (Argentinian),Female,30,chupar,31,produces,0.3871
+Spanish (Argentinian),Female,30,chupar,31,understands,0
+Spanish (Argentinian),Male,30,chupar,38,produces,0.4211
+Spanish (Argentinian),Male,30,chupar,38,understands,0
+Spanish (Argentinian),Female,31,chupar,1,produces,0
+Spanish (Argentinian),Female,31,chupar,1,understands,0
+Spanish (Argentinian),Male,31,chupar,1,produces,0
+Spanish (Argentinian),Male,31,chupar,1,understands,0
+Spanish (Argentinian),Female,32,chupar,1,produces,1
+Spanish (Argentinian),Female,32,chupar,1,understands,0
+Spanish (Argentinian),Male,33,chupar,2,produces,1
+Spanish (Argentinian),Male,33,chupar,2,understands,0

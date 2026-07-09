@@ -1,91 +1,271 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),16,扎,70,produces,0.2
-Mandarin (Beijing),16,扎,70,understands,0
-Mandarin (Beijing),17,扎,72,produces,0.375
-Mandarin (Beijing),17,扎,72,understands,0
-Mandarin (Beijing),18,扎,71,produces,0.3803
-Mandarin (Beijing),18,扎,71,understands,0
-Mandarin (Beijing),19,扎,70,produces,0.4429
-Mandarin (Beijing),19,扎,70,understands,0
-Mandarin (Beijing),20,扎,71,produces,0.6761
-Mandarin (Beijing),20,扎,71,understands,0
-Mandarin (Beijing),21,扎,70,produces,0.6857
-Mandarin (Beijing),21,扎,70,understands,0
-Mandarin (Beijing),22,扎,71,produces,0.7042
-Mandarin (Beijing),22,扎,71,understands,0
-Mandarin (Beijing),23,扎,70,produces,0.7429
-Mandarin (Beijing),23,扎,70,understands,0
-Mandarin (Beijing),24,扎,70,produces,0.8
-Mandarin (Beijing),24,扎,70,understands,0
-Mandarin (Beijing),25,扎,70,produces,0.8143
-Mandarin (Beijing),25,扎,70,understands,0
-Mandarin (Beijing),26,扎,71,produces,0.8873
-Mandarin (Beijing),26,扎,71,understands,0
-Mandarin (Beijing),27,扎,70,produces,0.9286
-Mandarin (Beijing),27,扎,70,understands,0
-Mandarin (Beijing),28,扎,70,produces,0.8857
-Mandarin (Beijing),28,扎,70,understands,0
-Mandarin (Beijing),29,扎,70,produces,0.8429
-Mandarin (Beijing),29,扎,70,understands,0
-Mandarin (Beijing),30,扎,70,produces,0.8857
-Mandarin (Beijing),30,扎,70,understands,0
-Cantonese,16,㓤* (刺),46,produces,0.0217
-Cantonese,16,㓤* (刺),46,understands,0
-Cantonese,17,㓤* (刺),61,produces,0.1639
-Cantonese,17,㓤* (刺),61,understands,0
-Cantonese,18,㓤* (刺),68,produces,0.1765
-Cantonese,18,㓤* (刺),68,understands,0
-Cantonese,19,㓤* (刺),66,produces,0.1364
-Cantonese,19,㓤* (刺),66,understands,0
-Cantonese,20,㓤* (刺),140,produces,0.2571
-Cantonese,20,㓤* (刺),140,understands,0
-Cantonese,21,㓤* (刺),120,produces,0.3
-Cantonese,21,㓤* (刺),120,understands,0
-Cantonese,22,㓤* (刺),68,produces,0.3382
-Cantonese,22,㓤* (刺),68,understands,0
-Cantonese,23,㓤* (刺),74,produces,0.3649
-Cantonese,23,㓤* (刺),74,understands,0
-Cantonese,24,㓤* (刺),68,produces,0.5147
-Cantonese,24,㓤* (刺),68,understands,0
-Cantonese,25,㓤* (刺),65,produces,0.5077
-Cantonese,25,㓤* (刺),65,understands,0
-Cantonese,26,㓤* (刺),68,produces,0.5735
-Cantonese,26,㓤* (刺),68,understands,0
-Cantonese,27,㓤* (刺),62,produces,0.629
-Cantonese,27,㓤* (刺),62,understands,0
-Cantonese,28,㓤* (刺),66,produces,0.7424
-Cantonese,28,㓤* (刺),66,understands,0
-Cantonese,29,㓤* (刺),72,produces,0.7778
-Cantonese,29,㓤* (刺),72,understands,0
-Cantonese,30,㓤* (刺),164,produces,0.6463
-Cantonese,30,㓤* (刺),164,understands,0
-Catalan,16,punxar,24,produces,0
-Catalan,16,punxar,24,understands,0
-Catalan,17,punxar,36,produces,0
-Catalan,17,punxar,36,understands,0
-Catalan,18,punxar,51,produces,0
-Catalan,18,punxar,51,understands,0
-Catalan,19,punxar,45,produces,0
-Catalan,19,punxar,45,understands,0
-Catalan,20,punxar,56,produces,0
-Catalan,20,punxar,56,understands,0
-Catalan,21,punxar,58,produces,0.1207
-Catalan,21,punxar,58,understands,0
-Catalan,22,punxar,50,produces,0.16
-Catalan,22,punxar,50,understands,0
-Catalan,23,punxar,66,produces,0.1364
-Catalan,23,punxar,66,understands,0
-Catalan,24,punxar,79,produces,0.2785
-Catalan,24,punxar,79,understands,0
-Catalan,25,punxar,60,produces,0.3333
-Catalan,25,punxar,60,understands,0
-Catalan,26,punxar,65,produces,0.3231
-Catalan,26,punxar,65,understands,0
-Catalan,27,punxar,63,produces,0.3968
-Catalan,27,punxar,63,understands,0
-Catalan,28,punxar,81,produces,0.4321
-Catalan,28,punxar,81,understands,0
-Catalan,29,punxar,50,produces,0.62
-Catalan,29,punxar,50,understands,0
-Catalan,30,punxar,75,produces,0.6133
-Catalan,30,punxar,75,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,㓤* (刺),46,produces,0.0217
+Cantonese,All,16,㓤* (刺),46,understands,0
+Cantonese,All,17,㓤* (刺),61,produces,0.1639
+Cantonese,All,17,㓤* (刺),61,understands,0
+Cantonese,All,18,㓤* (刺),68,produces,0.1765
+Cantonese,All,18,㓤* (刺),68,understands,0
+Cantonese,All,19,㓤* (刺),66,produces,0.1364
+Cantonese,All,19,㓤* (刺),66,understands,0
+Cantonese,All,20,㓤* (刺),140,produces,0.2571
+Cantonese,All,20,㓤* (刺),140,understands,0
+Cantonese,All,21,㓤* (刺),120,produces,0.3
+Cantonese,All,21,㓤* (刺),120,understands,0
+Cantonese,All,22,㓤* (刺),68,produces,0.3382
+Cantonese,All,22,㓤* (刺),68,understands,0
+Cantonese,All,23,㓤* (刺),74,produces,0.3649
+Cantonese,All,23,㓤* (刺),74,understands,0
+Cantonese,All,24,㓤* (刺),68,produces,0.5147
+Cantonese,All,24,㓤* (刺),68,understands,0
+Cantonese,All,25,㓤* (刺),65,produces,0.5077
+Cantonese,All,25,㓤* (刺),65,understands,0
+Cantonese,All,26,㓤* (刺),68,produces,0.5735
+Cantonese,All,26,㓤* (刺),68,understands,0
+Cantonese,All,27,㓤* (刺),62,produces,0.629
+Cantonese,All,27,㓤* (刺),62,understands,0
+Cantonese,All,28,㓤* (刺),66,produces,0.7424
+Cantonese,All,28,㓤* (刺),66,understands,0
+Cantonese,All,29,㓤* (刺),72,produces,0.7778
+Cantonese,All,29,㓤* (刺),72,understands,0
+Cantonese,All,30,㓤* (刺),164,produces,0.6463
+Cantonese,All,30,㓤* (刺),164,understands,0
+Catalan,All,16,punxar,24,produces,0
+Catalan,All,16,punxar,24,understands,0
+Catalan,All,17,punxar,36,produces,0
+Catalan,All,17,punxar,36,understands,0
+Catalan,All,18,punxar,51,produces,0
+Catalan,All,18,punxar,51,understands,0
+Catalan,All,19,punxar,45,produces,0
+Catalan,All,19,punxar,45,understands,0
+Catalan,All,20,punxar,56,produces,0
+Catalan,All,20,punxar,56,understands,0
+Catalan,All,21,punxar,58,produces,0.1207
+Catalan,All,21,punxar,58,understands,0
+Catalan,All,22,punxar,50,produces,0.16
+Catalan,All,22,punxar,50,understands,0
+Catalan,All,23,punxar,66,produces,0.1364
+Catalan,All,23,punxar,66,understands,0
+Catalan,All,24,punxar,79,produces,0.2785
+Catalan,All,24,punxar,79,understands,0
+Catalan,All,25,punxar,60,produces,0.3333
+Catalan,All,25,punxar,60,understands,0
+Catalan,All,26,punxar,65,produces,0.3231
+Catalan,All,26,punxar,65,understands,0
+Catalan,All,27,punxar,63,produces,0.3968
+Catalan,All,27,punxar,63,understands,0
+Catalan,All,28,punxar,81,produces,0.4321
+Catalan,All,28,punxar,81,understands,0
+Catalan,All,29,punxar,50,produces,0.62
+Catalan,All,29,punxar,50,understands,0
+Catalan,All,30,punxar,75,produces,0.6133
+Catalan,All,30,punxar,75,understands,0
+Mandarin (Beijing),All,16,扎,70,produces,0.2
+Mandarin (Beijing),All,16,扎,70,understands,0
+Mandarin (Beijing),All,17,扎,72,produces,0.375
+Mandarin (Beijing),All,17,扎,72,understands,0
+Mandarin (Beijing),All,18,扎,71,produces,0.3803
+Mandarin (Beijing),All,18,扎,71,understands,0
+Mandarin (Beijing),All,19,扎,70,produces,0.4429
+Mandarin (Beijing),All,19,扎,70,understands,0
+Mandarin (Beijing),All,20,扎,71,produces,0.6761
+Mandarin (Beijing),All,20,扎,71,understands,0
+Mandarin (Beijing),All,21,扎,70,produces,0.6857
+Mandarin (Beijing),All,21,扎,70,understands,0
+Mandarin (Beijing),All,22,扎,71,produces,0.7042
+Mandarin (Beijing),All,22,扎,71,understands,0
+Mandarin (Beijing),All,23,扎,70,produces,0.7429
+Mandarin (Beijing),All,23,扎,70,understands,0
+Mandarin (Beijing),All,24,扎,70,produces,0.8
+Mandarin (Beijing),All,24,扎,70,understands,0
+Mandarin (Beijing),All,25,扎,70,produces,0.8143
+Mandarin (Beijing),All,25,扎,70,understands,0
+Mandarin (Beijing),All,26,扎,71,produces,0.8873
+Mandarin (Beijing),All,26,扎,71,understands,0
+Mandarin (Beijing),All,27,扎,70,produces,0.9286
+Mandarin (Beijing),All,27,扎,70,understands,0
+Mandarin (Beijing),All,28,扎,70,produces,0.8857
+Mandarin (Beijing),All,28,扎,70,understands,0
+Mandarin (Beijing),All,29,扎,70,produces,0.8429
+Mandarin (Beijing),All,29,扎,70,understands,0
+Mandarin (Beijing),All,30,扎,70,produces,0.8857
+Mandarin (Beijing),All,30,扎,70,understands,0
+Cantonese,Female,16,㓤* (刺),23,produces,0.0435
+Cantonese,Female,16,㓤* (刺),23,understands,0
+Cantonese,Male,16,㓤* (刺),23,produces,0
+Cantonese,Male,16,㓤* (刺),23,understands,0
+Cantonese,Female,17,㓤* (刺),30,produces,0.1667
+Cantonese,Female,17,㓤* (刺),30,understands,0
+Cantonese,Male,17,㓤* (刺),31,produces,0.1613
+Cantonese,Male,17,㓤* (刺),31,understands,0
+Cantonese,Female,18,㓤* (刺),33,produces,0.303
+Cantonese,Female,18,㓤* (刺),33,understands,0
+Cantonese,Male,18,㓤* (刺),35,produces,0.0571
+Cantonese,Male,18,㓤* (刺),35,understands,0
+Cantonese,Female,19,㓤* (刺),30,produces,0.2
+Cantonese,Female,19,㓤* (刺),30,understands,0
+Cantonese,Male,19,㓤* (刺),36,produces,0.0833
+Cantonese,Male,19,㓤* (刺),36,understands,0
+Cantonese,Female,20,㓤* (刺),62,produces,0.2258
+Cantonese,Female,20,㓤* (刺),62,understands,0
+Cantonese,Male,20,㓤* (刺),78,produces,0.2821
+Cantonese,Male,20,㓤* (刺),78,understands,0
+Cantonese,Female,21,㓤* (刺),57,produces,0.4035
+Cantonese,Female,21,㓤* (刺),57,understands,0
+Cantonese,Male,21,㓤* (刺),63,produces,0.2063
+Cantonese,Male,21,㓤* (刺),63,understands,0
+Cantonese,Female,22,㓤* (刺),34,produces,0.4118
+Cantonese,Female,22,㓤* (刺),34,understands,0
+Cantonese,Male,22,㓤* (刺),34,produces,0.2647
+Cantonese,Male,22,㓤* (刺),34,understands,0
+Cantonese,Female,23,㓤* (刺),37,produces,0.4324
+Cantonese,Female,23,㓤* (刺),37,understands,0
+Cantonese,Male,23,㓤* (刺),37,produces,0.2973
+Cantonese,Male,23,㓤* (刺),37,understands,0
+Cantonese,Female,24,㓤* (刺),32,produces,0.5312
+Cantonese,Female,24,㓤* (刺),32,understands,0
+Cantonese,Male,24,㓤* (刺),36,produces,0.5
+Cantonese,Male,24,㓤* (刺),36,understands,0
+Cantonese,Female,25,㓤* (刺),31,produces,0.4839
+Cantonese,Female,25,㓤* (刺),31,understands,0
+Cantonese,Male,25,㓤* (刺),34,produces,0.5294
+Cantonese,Male,25,㓤* (刺),34,understands,0
+Cantonese,Female,26,㓤* (刺),31,produces,0.7097
+Cantonese,Female,26,㓤* (刺),31,understands,0
+Cantonese,Male,26,㓤* (刺),37,produces,0.4595
+Cantonese,Male,26,㓤* (刺),37,understands,0
+Cantonese,Female,27,㓤* (刺),31,produces,0.6452
+Cantonese,Female,27,㓤* (刺),31,understands,0
+Cantonese,Male,27,㓤* (刺),31,produces,0.6129
+Cantonese,Male,27,㓤* (刺),31,understands,0
+Cantonese,Female,28,㓤* (刺),32,produces,0.8125
+Cantonese,Female,28,㓤* (刺),32,understands,0
+Cantonese,Male,28,㓤* (刺),34,produces,0.6765
+Cantonese,Male,28,㓤* (刺),34,understands,0
+Cantonese,Female,29,㓤* (刺),36,produces,0.8333
+Cantonese,Female,29,㓤* (刺),36,understands,0
+Cantonese,Male,29,㓤* (刺),36,produces,0.7222
+Cantonese,Male,29,㓤* (刺),36,understands,0
+Cantonese,Female,30,㓤* (刺),76,produces,0.6711
+Cantonese,Female,30,㓤* (刺),76,understands,0
+Cantonese,Male,30,㓤* (刺),88,produces,0.625
+Cantonese,Male,30,㓤* (刺),88,understands,0
+Catalan,Female,16,punxar,8,produces,0
+Catalan,Female,16,punxar,8,understands,0
+Catalan,Male,16,punxar,16,produces,0
+Catalan,Male,16,punxar,16,understands,0
+Catalan,Female,17,punxar,22,produces,0
+Catalan,Female,17,punxar,22,understands,0
+Catalan,Male,17,punxar,14,produces,0
+Catalan,Male,17,punxar,14,understands,0
+Catalan,Female,18,punxar,22,produces,0
+Catalan,Female,18,punxar,22,understands,0
+Catalan,Male,18,punxar,29,produces,0
+Catalan,Male,18,punxar,29,understands,0
+Catalan,Female,19,punxar,25,produces,0
+Catalan,Female,19,punxar,25,understands,0
+Catalan,Male,19,punxar,20,produces,0
+Catalan,Male,19,punxar,20,understands,0
+Catalan,Female,20,punxar,28,produces,0
+Catalan,Female,20,punxar,28,understands,0
+Catalan,Male,20,punxar,28,produces,0
+Catalan,Male,20,punxar,28,understands,0
+Catalan,Female,21,punxar,32,produces,0.125
+Catalan,Female,21,punxar,32,understands,0
+Catalan,Male,21,punxar,26,produces,0.1154
+Catalan,Male,21,punxar,26,understands,0
+Catalan,Female,22,punxar,26,produces,0.2308
+Catalan,Female,22,punxar,26,understands,0
+Catalan,Male,22,punxar,24,produces,0.0833
+Catalan,Male,22,punxar,24,understands,0
+Catalan,Female,23,punxar,35,produces,0.1714
+Catalan,Female,23,punxar,35,understands,0
+Catalan,Male,23,punxar,31,produces,0.0968
+Catalan,Male,23,punxar,31,understands,0
+Catalan,Female,24,punxar,41,produces,0.3659
+Catalan,Female,24,punxar,41,understands,0
+Catalan,Male,24,punxar,38,produces,0.1842
+Catalan,Male,24,punxar,38,understands,0
+Catalan,Female,25,punxar,30,produces,0.2667
+Catalan,Female,25,punxar,30,understands,0
+Catalan,Male,25,punxar,30,produces,0.4
+Catalan,Male,25,punxar,30,understands,0
+Catalan,Female,26,punxar,35,produces,0.3714
+Catalan,Female,26,punxar,35,understands,0
+Catalan,Male,26,punxar,30,produces,0.2667
+Catalan,Male,26,punxar,30,understands,0
+Catalan,Female,27,punxar,36,produces,0.3889
+Catalan,Female,27,punxar,36,understands,0
+Catalan,Male,27,punxar,27,produces,0.4074
+Catalan,Male,27,punxar,27,understands,0
+Catalan,Female,28,punxar,40,produces,0.475
+Catalan,Female,28,punxar,40,understands,0
+Catalan,Male,28,punxar,41,produces,0.3902
+Catalan,Male,28,punxar,41,understands,0
+Catalan,Female,29,punxar,25,produces,0.6
+Catalan,Female,29,punxar,25,understands,0
+Catalan,Male,29,punxar,25,produces,0.64
+Catalan,Male,29,punxar,25,understands,0
+Catalan,Female,30,punxar,24,produces,0.7083
+Catalan,Female,30,punxar,24,understands,0
+Catalan,Male,30,punxar,51,produces,0.5686
+Catalan,Male,30,punxar,51,understands,0
+Mandarin (Beijing),Female,16,扎,35,produces,0.2
+Mandarin (Beijing),Female,16,扎,35,understands,0
+Mandarin (Beijing),Male,16,扎,35,produces,0.2
+Mandarin (Beijing),Male,16,扎,35,understands,0
+Mandarin (Beijing),Female,17,扎,35,produces,0.4286
+Mandarin (Beijing),Female,17,扎,35,understands,0
+Mandarin (Beijing),Male,17,扎,37,produces,0.3243
+Mandarin (Beijing),Male,17,扎,37,understands,0
+Mandarin (Beijing),Female,18,扎,35,produces,0.3714
+Mandarin (Beijing),Female,18,扎,35,understands,0
+Mandarin (Beijing),Male,18,扎,36,produces,0.3889
+Mandarin (Beijing),Male,18,扎,36,understands,0
+Mandarin (Beijing),Female,19,扎,35,produces,0.4571
+Mandarin (Beijing),Female,19,扎,35,understands,0
+Mandarin (Beijing),Male,19,扎,35,produces,0.4286
+Mandarin (Beijing),Male,19,扎,35,understands,0
+Mandarin (Beijing),Female,20,扎,35,produces,0.6857
+Mandarin (Beijing),Female,20,扎,35,understands,0
+Mandarin (Beijing),Male,20,扎,36,produces,0.6667
+Mandarin (Beijing),Male,20,扎,36,understands,0
+Mandarin (Beijing),Female,21,扎,35,produces,0.7429
+Mandarin (Beijing),Female,21,扎,35,understands,0
+Mandarin (Beijing),Male,21,扎,35,produces,0.6286
+Mandarin (Beijing),Male,21,扎,35,understands,0
+Mandarin (Beijing),Female,22,扎,35,produces,0.6857
+Mandarin (Beijing),Female,22,扎,35,understands,0
+Mandarin (Beijing),Male,22,扎,36,produces,0.7222
+Mandarin (Beijing),Male,22,扎,36,understands,0
+Mandarin (Beijing),Female,23,扎,35,produces,0.8
+Mandarin (Beijing),Female,23,扎,35,understands,0
+Mandarin (Beijing),Male,23,扎,35,produces,0.6857
+Mandarin (Beijing),Male,23,扎,35,understands,0
+Mandarin (Beijing),Female,24,扎,35,produces,0.8286
+Mandarin (Beijing),Female,24,扎,35,understands,0
+Mandarin (Beijing),Male,24,扎,35,produces,0.7714
+Mandarin (Beijing),Male,24,扎,35,understands,0
+Mandarin (Beijing),Female,25,扎,35,produces,0.8286
+Mandarin (Beijing),Female,25,扎,35,understands,0
+Mandarin (Beijing),Male,25,扎,35,produces,0.8
+Mandarin (Beijing),Male,25,扎,35,understands,0
+Mandarin (Beijing),Female,26,扎,36,produces,0.9722
+Mandarin (Beijing),Female,26,扎,36,understands,0
+Mandarin (Beijing),Male,26,扎,35,produces,0.8
+Mandarin (Beijing),Male,26,扎,35,understands,0
+Mandarin (Beijing),Female,27,扎,35,produces,0.9143
+Mandarin (Beijing),Female,27,扎,35,understands,0
+Mandarin (Beijing),Male,27,扎,35,produces,0.9429
+Mandarin (Beijing),Male,27,扎,35,understands,0
+Mandarin (Beijing),Female,28,扎,35,produces,0.9429
+Mandarin (Beijing),Female,28,扎,35,understands,0
+Mandarin (Beijing),Male,28,扎,35,produces,0.8286
+Mandarin (Beijing),Male,28,扎,35,understands,0
+Mandarin (Beijing),Female,29,扎,35,produces,0.8857
+Mandarin (Beijing),Female,29,扎,35,understands,0
+Mandarin (Beijing),Male,29,扎,35,produces,0.8
+Mandarin (Beijing),Male,29,扎,35,understands,0
+Mandarin (Beijing),Female,30,扎,35,produces,0.8857
+Mandarin (Beijing),Female,30,扎,35,understands,0
+Mandarin (Beijing),Male,30,扎,35,produces,0.8857
+Mandarin (Beijing),Male,30,扎,35,understands,0

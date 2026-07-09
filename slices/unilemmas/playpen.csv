@@ -1,79 +1,233 @@
-language,age,words,n,measure,prop
-Dutch,8,(baby)box/park,7,produces,0
-Dutch,8,(baby)box/park,7,understands,0
-Dutch,9,(baby)box/park,94,produces,0
-Dutch,9,(baby)box/park,94,understands,0.0851
-Dutch,10,(baby)box/park,128,produces,0.0078
-Dutch,10,(baby)box/park,128,understands,0.1016
-Dutch,11,(baby)box/park,9,produces,0
-Dutch,11,(baby)box/park,9,understands,0.2222
-Dutch,12,(baby)box/park,7,produces,0
-Dutch,12,(baby)box/park,7,understands,0
-Dutch,13,(baby)box/park,6,produces,0
-Dutch,13,(baby)box/park,6,understands,0.5
-Dutch,14,(baby)box/park,35,produces,0.0286
-Dutch,14,(baby)box/park,35,understands,0.1429
-Dutch,15,"box, (baby)box/park",9,produces,0
-Dutch,15,"box, (baby)box/park",9,understands,0.2222
-Dutch,16,"box, (baby)box/park",12,produces,0
-Dutch,16,"box, (baby)box/park",12,understands,0.1667
-Dutch,17,"box, (baby)box/park",55,produces,0.0182
-Dutch,17,"box, (baby)box/park",55,understands,0.0727
-Dutch,18,"box, (baby)box/park",198,produces,0.0253
-Dutch,18,"box, (baby)box/park",198,understands,0.197
-Dutch,19,"box, (baby)box/park",101,produces,0.0594
-Dutch,19,"box, (baby)box/park",101,understands,0.2475
-Dutch,20,"box, (baby)box/park",33,produces,0.0909
-Dutch,20,"box, (baby)box/park",33,understands,0.2727
-Dutch,21,"box, (baby)box/park",13,produces,0.0769
-Dutch,21,"box, (baby)box/park",13,understands,0.0769
-Dutch,22,(baby)box/park,7,produces,0.1429
-Dutch,22,(baby)box/park,7,understands,0
-Dutch,23,(baby)box/park,51,produces,0.3333
-Dutch,23,(baby)box/park,51,understands,0
-Dutch,24,(baby)box/park,31,produces,0.1935
-Dutch,24,(baby)box/park,31,understands,0
-Dutch,25,(baby)box/park,6,produces,0.3333
-Dutch,25,(baby)box/park,6,understands,0
-Dutch,26,(baby)box/park,6,produces,0.3333
-Dutch,26,(baby)box/park,6,understands,0
-Dutch,27,(baby)box/park,5,produces,0.6
-Dutch,27,(baby)box/park,5,understands,0
-Dutch,28,(baby)box/park,6,produces,0.8333
-Dutch,28,(baby)box/park,6,understands,0
-Dutch,29,(baby)box/park,23,produces,0.6522
-Dutch,29,(baby)box/park,23,understands,0
-Dutch,30,(baby)box/park,24,produces,0.75
-Dutch,30,(baby)box/park,24,understands,0
-Dutch,31,(baby)box/park,2,produces,1
-Dutch,31,(baby)box/park,2,understands,0
-Hungarian,16,járóka,21,produces,0
-Hungarian,16,járóka,21,understands,0
-Hungarian,17,járóka,18,produces,0
-Hungarian,17,járóka,18,understands,0
-Hungarian,18,járóka,18,produces,0
-Hungarian,18,járóka,18,understands,0
-Hungarian,19,járóka,26,produces,0.0769
-Hungarian,19,járóka,26,understands,0
-Hungarian,20,járóka,18,produces,0.1111
-Hungarian,20,járóka,18,understands,0
-Hungarian,21,járóka,36,produces,0.1111
-Hungarian,21,járóka,36,understands,0
-Hungarian,22,járóka,27,produces,0
-Hungarian,22,járóka,27,understands,0
-Hungarian,23,járóka,18,produces,0.0556
-Hungarian,23,járóka,18,understands,0
-Hungarian,24,járóka,38,produces,0.1579
-Hungarian,24,járóka,38,understands,0
-Hungarian,25,járóka,43,produces,0.186
-Hungarian,25,járóka,43,understands,0
-Hungarian,26,járóka,23,produces,0.087
-Hungarian,26,járóka,23,understands,0
-Hungarian,27,járóka,26,produces,0.2308
-Hungarian,27,járóka,26,understands,0
-Hungarian,28,járóka,30,produces,0.2667
-Hungarian,28,járóka,30,understands,0
-Hungarian,29,járóka,12,produces,0.3333
-Hungarian,29,járóka,12,understands,0
-Hungarian,30,járóka,18,produces,0.3333
-Hungarian,30,járóka,18,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,8,(baby)box/park,7,produces,0
+Dutch,All,8,(baby)box/park,7,understands,0
+Dutch,All,9,(baby)box/park,94,produces,0
+Dutch,All,9,(baby)box/park,94,understands,0.0851
+Dutch,All,10,(baby)box/park,128,produces,0.0078
+Dutch,All,10,(baby)box/park,128,understands,0.1016
+Dutch,All,11,(baby)box/park,9,produces,0
+Dutch,All,11,(baby)box/park,9,understands,0.2222
+Dutch,All,12,(baby)box/park,7,produces,0
+Dutch,All,12,(baby)box/park,7,understands,0
+Dutch,All,13,(baby)box/park,6,produces,0
+Dutch,All,13,(baby)box/park,6,understands,0.5
+Dutch,All,14,(baby)box/park,35,produces,0.0286
+Dutch,All,14,(baby)box/park,35,understands,0.1429
+Dutch,All,15,"box, (baby)box/park",9,produces,0
+Dutch,All,15,"box, (baby)box/park",9,understands,0.2222
+Dutch,All,16,"box, (baby)box/park",12,produces,0
+Dutch,All,16,"box, (baby)box/park",12,understands,0.1667
+Dutch,All,17,"box, (baby)box/park",55,produces,0.0182
+Dutch,All,17,"box, (baby)box/park",55,understands,0.0727
+Dutch,All,18,"box, (baby)box/park",198,produces,0.0253
+Dutch,All,18,"box, (baby)box/park",198,understands,0.197
+Dutch,All,19,"box, (baby)box/park",101,produces,0.0594
+Dutch,All,19,"box, (baby)box/park",101,understands,0.2475
+Dutch,All,20,"box, (baby)box/park",33,produces,0.0909
+Dutch,All,20,"box, (baby)box/park",33,understands,0.2727
+Dutch,All,21,"box, (baby)box/park",13,produces,0.0769
+Dutch,All,21,"box, (baby)box/park",13,understands,0.0769
+Dutch,All,22,(baby)box/park,7,produces,0.1429
+Dutch,All,22,(baby)box/park,7,understands,0
+Dutch,All,23,(baby)box/park,51,produces,0.3333
+Dutch,All,23,(baby)box/park,51,understands,0
+Dutch,All,24,(baby)box/park,31,produces,0.1935
+Dutch,All,24,(baby)box/park,31,understands,0
+Dutch,All,25,(baby)box/park,6,produces,0.3333
+Dutch,All,25,(baby)box/park,6,understands,0
+Dutch,All,26,(baby)box/park,6,produces,0.3333
+Dutch,All,26,(baby)box/park,6,understands,0
+Dutch,All,27,(baby)box/park,5,produces,0.6
+Dutch,All,27,(baby)box/park,5,understands,0
+Dutch,All,28,(baby)box/park,6,produces,0.8333
+Dutch,All,28,(baby)box/park,6,understands,0
+Dutch,All,29,(baby)box/park,23,produces,0.6522
+Dutch,All,29,(baby)box/park,23,understands,0
+Dutch,All,30,(baby)box/park,24,produces,0.75
+Dutch,All,30,(baby)box/park,24,understands,0
+Dutch,All,31,(baby)box/park,2,produces,1
+Dutch,All,31,(baby)box/park,2,understands,0
+Hungarian,All,16,járóka,21,produces,0
+Hungarian,All,16,járóka,21,understands,0
+Hungarian,All,17,járóka,18,produces,0
+Hungarian,All,17,járóka,18,understands,0
+Hungarian,All,18,járóka,18,produces,0
+Hungarian,All,18,járóka,18,understands,0
+Hungarian,All,19,járóka,26,produces,0.0769
+Hungarian,All,19,járóka,26,understands,0
+Hungarian,All,20,járóka,18,produces,0.1111
+Hungarian,All,20,járóka,18,understands,0
+Hungarian,All,21,járóka,36,produces,0.1111
+Hungarian,All,21,járóka,36,understands,0
+Hungarian,All,22,járóka,27,produces,0
+Hungarian,All,22,járóka,27,understands,0
+Hungarian,All,23,járóka,18,produces,0.0556
+Hungarian,All,23,járóka,18,understands,0
+Hungarian,All,24,járóka,38,produces,0.1579
+Hungarian,All,24,járóka,38,understands,0
+Hungarian,All,25,járóka,43,produces,0.186
+Hungarian,All,25,járóka,43,understands,0
+Hungarian,All,26,járóka,23,produces,0.087
+Hungarian,All,26,járóka,23,understands,0
+Hungarian,All,27,járóka,26,produces,0.2308
+Hungarian,All,27,járóka,26,understands,0
+Hungarian,All,28,járóka,30,produces,0.2667
+Hungarian,All,28,járóka,30,understands,0
+Hungarian,All,29,járóka,12,produces,0.3333
+Hungarian,All,29,járóka,12,understands,0
+Hungarian,All,30,járóka,18,produces,0.3333
+Hungarian,All,30,járóka,18,understands,0
+Dutch,Female,8,(baby)box/park,5,produces,0
+Dutch,Female,8,(baby)box/park,5,understands,0
+Dutch,Male,8,(baby)box/park,2,produces,0
+Dutch,Male,8,(baby)box/park,2,understands,0
+Dutch,Female,9,(baby)box/park,44,produces,0
+Dutch,Female,9,(baby)box/park,44,understands,0.0909
+Dutch,Male,9,(baby)box/park,50,produces,0
+Dutch,Male,9,(baby)box/park,50,understands,0.08
+Dutch,Female,10,(baby)box/park,51,produces,0.0196
+Dutch,Female,10,(baby)box/park,51,understands,0.098
+Dutch,Male,10,(baby)box/park,48,produces,0
+Dutch,Male,10,(baby)box/park,48,understands,0.1042
+Dutch,Female,11,(baby)box/park,4,produces,0
+Dutch,Female,11,(baby)box/park,4,understands,0
+Dutch,Male,11,(baby)box/park,5,produces,0
+Dutch,Male,11,(baby)box/park,5,understands,0.4
+Dutch,Female,12,(baby)box/park,2,produces,0
+Dutch,Female,12,(baby)box/park,2,understands,0
+Dutch,Male,12,(baby)box/park,5,produces,0
+Dutch,Male,12,(baby)box/park,5,understands,0
+Dutch,Male,13,(baby)box/park,6,produces,0
+Dutch,Male,13,(baby)box/park,6,understands,0.5
+Dutch,Female,14,(baby)box/park,1,produces,0
+Dutch,Female,14,(baby)box/park,1,understands,0
+Dutch,Male,14,(baby)box/park,3,produces,0
+Dutch,Male,14,(baby)box/park,3,understands,0
+Dutch,Female,15,"box, (baby)box/park",4,produces,0
+Dutch,Female,15,"box, (baby)box/park",4,understands,0
+Dutch,Male,15,"box, (baby)box/park",5,produces,0
+Dutch,Male,15,"box, (baby)box/park",5,understands,0.4
+Dutch,Female,16,"box, (baby)box/park",8,produces,0
+Dutch,Female,16,"box, (baby)box/park",8,understands,0.125
+Dutch,Male,16,"box, (baby)box/park",4,produces,0
+Dutch,Male,16,"box, (baby)box/park",4,understands,0.25
+Dutch,Female,17,"box, (baby)box/park",35,produces,0.0286
+Dutch,Female,17,"box, (baby)box/park",35,understands,0.0571
+Dutch,Male,17,"box, (baby)box/park",20,produces,0
+Dutch,Male,17,"box, (baby)box/park",20,understands,0.1
+Dutch,Female,18,"box, (baby)box/park",105,produces,0.019
+Dutch,Female,18,"box, (baby)box/park",105,understands,0.181
+Dutch,Male,18,"box, (baby)box/park",87,produces,0.0345
+Dutch,Male,18,"box, (baby)box/park",87,understands,0.2069
+Dutch,Female,19,"box, (baby)box/park",54,produces,0.037
+Dutch,Female,19,"box, (baby)box/park",54,understands,0.2222
+Dutch,Male,19,"box, (baby)box/park",47,produces,0.0851
+Dutch,Male,19,"box, (baby)box/park",47,understands,0.2766
+Dutch,Female,20,"box, (baby)box/park",19,produces,0.0526
+Dutch,Female,20,"box, (baby)box/park",19,understands,0.2632
+Dutch,Male,20,"box, (baby)box/park",14,produces,0.1429
+Dutch,Male,20,"box, (baby)box/park",14,understands,0.2857
+Dutch,Female,21,"box, (baby)box/park",6,produces,0.1667
+Dutch,Female,21,"box, (baby)box/park",6,understands,0
+Dutch,Male,21,"box, (baby)box/park",7,produces,0
+Dutch,Male,21,"box, (baby)box/park",7,understands,0.1429
+Dutch,Female,22,(baby)box/park,1,produces,0
+Dutch,Female,22,(baby)box/park,1,understands,0
+Dutch,Male,22,(baby)box/park,6,produces,0.1667
+Dutch,Male,22,(baby)box/park,6,understands,0
+Dutch,Female,23,(baby)box/park,25,produces,0.44
+Dutch,Female,23,(baby)box/park,25,understands,0
+Dutch,Male,23,(baby)box/park,26,produces,0.2308
+Dutch,Male,23,(baby)box/park,26,understands,0
+Dutch,Female,24,(baby)box/park,16,produces,0.125
+Dutch,Female,24,(baby)box/park,16,understands,0
+Dutch,Male,24,(baby)box/park,15,produces,0.2667
+Dutch,Male,24,(baby)box/park,15,understands,0
+Dutch,Female,25,(baby)box/park,5,produces,0.4
+Dutch,Female,25,(baby)box/park,5,understands,0
+Dutch,Male,25,(baby)box/park,1,produces,0
+Dutch,Male,25,(baby)box/park,1,understands,0
+Dutch,Female,26,(baby)box/park,1,produces,1
+Dutch,Female,26,(baby)box/park,1,understands,0
+Dutch,Male,26,(baby)box/park,5,produces,0.2
+Dutch,Male,26,(baby)box/park,5,understands,0
+Dutch,Female,27,(baby)box/park,3,produces,0.6667
+Dutch,Female,27,(baby)box/park,3,understands,0
+Dutch,Male,27,(baby)box/park,1,produces,1
+Dutch,Male,27,(baby)box/park,1,understands,0
+Dutch,Female,28,(baby)box/park,5,produces,0.8
+Dutch,Female,28,(baby)box/park,5,understands,0
+Dutch,Male,28,(baby)box/park,1,produces,1
+Dutch,Male,28,(baby)box/park,1,understands,0
+Dutch,Female,29,(baby)box/park,12,produces,0.6667
+Dutch,Female,29,(baby)box/park,12,understands,0
+Dutch,Male,29,(baby)box/park,11,produces,0.6364
+Dutch,Male,29,(baby)box/park,11,understands,0
+Dutch,Female,30,(baby)box/park,16,produces,0.875
+Dutch,Female,30,(baby)box/park,16,understands,0
+Dutch,Male,30,(baby)box/park,8,produces,0.5
+Dutch,Male,30,(baby)box/park,8,understands,0
+Dutch,Female,31,(baby)box/park,1,produces,1
+Dutch,Female,31,(baby)box/park,1,understands,0
+Dutch,Male,31,(baby)box/park,1,produces,1
+Dutch,Male,31,(baby)box/park,1,understands,0
+Hungarian,Female,16,járóka,11,produces,0
+Hungarian,Female,16,járóka,11,understands,0
+Hungarian,Male,16,járóka,10,produces,0
+Hungarian,Male,16,járóka,10,understands,0
+Hungarian,Female,17,járóka,11,produces,0
+Hungarian,Female,17,járóka,11,understands,0
+Hungarian,Male,17,járóka,7,produces,0
+Hungarian,Male,17,járóka,7,understands,0
+Hungarian,Female,18,járóka,9,produces,0
+Hungarian,Female,18,járóka,9,understands,0
+Hungarian,Male,18,járóka,9,produces,0
+Hungarian,Male,18,járóka,9,understands,0
+Hungarian,Female,19,járóka,13,produces,0.0769
+Hungarian,Female,19,járóka,13,understands,0
+Hungarian,Male,19,járóka,12,produces,0.0833
+Hungarian,Male,19,járóka,12,understands,0
+Hungarian,Female,20,járóka,12,produces,0.1667
+Hungarian,Female,20,járóka,12,understands,0
+Hungarian,Male,20,járóka,6,produces,0
+Hungarian,Male,20,járóka,6,understands,0
+Hungarian,Female,21,járóka,16,produces,0.125
+Hungarian,Female,21,járóka,16,understands,0
+Hungarian,Male,21,járóka,20,produces,0.1
+Hungarian,Male,21,járóka,20,understands,0
+Hungarian,Female,22,járóka,14,produces,0
+Hungarian,Female,22,járóka,14,understands,0
+Hungarian,Male,22,járóka,13,produces,0
+Hungarian,Male,22,járóka,13,understands,0
+Hungarian,Female,23,járóka,6,produces,0
+Hungarian,Female,23,járóka,6,understands,0
+Hungarian,Male,23,járóka,12,produces,0.0833
+Hungarian,Male,23,járóka,12,understands,0
+Hungarian,Female,24,járóka,14,produces,0.2857
+Hungarian,Female,24,járóka,14,understands,0
+Hungarian,Male,24,járóka,24,produces,0.0833
+Hungarian,Male,24,járóka,24,understands,0
+Hungarian,Female,25,járóka,17,produces,0.2941
+Hungarian,Female,25,járóka,17,understands,0
+Hungarian,Male,25,járóka,25,produces,0.08
+Hungarian,Male,25,járóka,25,understands,0
+Hungarian,Female,26,járóka,9,produces,0.1111
+Hungarian,Female,26,járóka,9,understands,0
+Hungarian,Male,26,járóka,14,produces,0.0714
+Hungarian,Male,26,járóka,14,understands,0
+Hungarian,Female,27,járóka,13,produces,0.1538
+Hungarian,Female,27,járóka,13,understands,0
+Hungarian,Male,27,járóka,13,produces,0.3077
+Hungarian,Male,27,járóka,13,understands,0
+Hungarian,Female,28,járóka,11,produces,0.3636
+Hungarian,Female,28,járóka,11,understands,0
+Hungarian,Male,28,járóka,18,produces,0.1667
+Hungarian,Male,28,járóka,18,understands,0
+Hungarian,Female,29,járóka,8,produces,0.375
+Hungarian,Female,29,járóka,8,understands,0
+Hungarian,Male,29,járóka,4,produces,0.25
+Hungarian,Male,29,járóka,4,understands,0
+Hungarian,Female,30,járóka,3,produces,0.3333
+Hungarian,Female,30,járóka,3,understands,0
+Hungarian,Male,30,járóka,15,produces,0.3333
+Hungarian,Male,30,járóka,15,understands,0

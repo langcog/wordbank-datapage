@@ -1,61 +1,175 @@
-language,age,words,n,measure,prop
-Spanish (Mexican),16,almorzar,68,produces,0.0441
-Spanish (Mexican),16,almorzar,68,understands,0
-Spanish (Mexican),17,almorzar,59,produces,0.0339
-Spanish (Mexican),17,almorzar,59,understands,0
-Spanish (Mexican),18,almorzar,75,produces,0.0267
-Spanish (Mexican),18,almorzar,75,understands,0
-Spanish (Mexican),19,almorzar,100,produces,0.16
-Spanish (Mexican),19,almorzar,100,understands,0
-Spanish (Mexican),20,almorzar,107,produces,0.1215
-Spanish (Mexican),20,almorzar,107,understands,0
-Spanish (Mexican),21,almorzar,84,produces,0.119
-Spanish (Mexican),21,almorzar,84,understands,0
-Spanish (Mexican),22,almorzar,141,produces,0.0922
-Spanish (Mexican),22,almorzar,141,understands,0
-Spanish (Mexican),23,almorzar,91,produces,0.0659
-Spanish (Mexican),23,almorzar,91,understands,0
-Spanish (Mexican),24,almorzar,126,produces,0.2143
-Spanish (Mexican),24,almorzar,126,understands,0
-Spanish (Mexican),25,almorzar,177,produces,0.1582
-Spanish (Mexican),25,almorzar,177,understands,0
-Spanish (Mexican),26,almorzar,83,produces,0.2169
-Spanish (Mexican),26,almorzar,83,understands,0
-Spanish (Mexican),27,almorzar,85,produces,0.1294
-Spanish (Mexican),27,almorzar,85,understands,0
-Spanish (Mexican),28,almorzar,89,produces,0.2247
-Spanish (Mexican),28,almorzar,89,understands,0
-Spanish (Mexican),29,almorzar,89,produces,0.2247
-Spanish (Mexican),29,almorzar,89,understands,0
-Spanish (Mexican),30,almorzar,308,produces,0.211
-Spanish (Mexican),30,almorzar,308,understands,0
-Spanish (Peruvian),16,"almorzar, tomar lonche",13,produces,0
-Spanish (Peruvian),16,"almorzar, tomar lonche",13,understands,0
-Spanish (Peruvian),17,"almorzar, tomar lonche",9,produces,0.1111
-Spanish (Peruvian),17,"almorzar, tomar lonche",9,understands,0
-Spanish (Peruvian),18,"almorzar, tomar lonche",4,produces,0
-Spanish (Peruvian),18,"almorzar, tomar lonche",4,understands,0
-Spanish (Peruvian),19,"almorzar, tomar lonche",12,produces,0.1667
-Spanish (Peruvian),19,"almorzar, tomar lonche",12,understands,0
-Spanish (Peruvian),20,"almorzar, tomar lonche",1,produces,0
-Spanish (Peruvian),20,"almorzar, tomar lonche",1,understands,0
-Spanish (Peruvian),21,"almorzar, tomar lonche",5,produces,0.1
-Spanish (Peruvian),21,"almorzar, tomar lonche",5,understands,0
-Spanish (Peruvian),22,"almorzar, tomar lonche",9,produces,0.0556
-Spanish (Peruvian),22,"almorzar, tomar lonche",9,understands,0
-Spanish (Peruvian),23,"almorzar, tomar lonche",1,produces,1
-Spanish (Peruvian),23,"almorzar, tomar lonche",1,understands,0
-Spanish (Peruvian),24,"almorzar, tomar lonche",15,produces,0.0667
-Spanish (Peruvian),24,"almorzar, tomar lonche",15,understands,0
-Spanish (Peruvian),25,"almorzar, tomar lonche",5,produces,0
-Spanish (Peruvian),25,"almorzar, tomar lonche",5,understands,0
-Spanish (Peruvian),26,"almorzar, tomar lonche",8,produces,0
-Spanish (Peruvian),26,"almorzar, tomar lonche",8,understands,0
-Spanish (Peruvian),27,"almorzar, tomar lonche",7,produces,0.0714
-Spanish (Peruvian),27,"almorzar, tomar lonche",7,understands,0
-Spanish (Peruvian),28,"almorzar, tomar lonche",8,produces,0.3125
-Spanish (Peruvian),28,"almorzar, tomar lonche",8,understands,0
-Spanish (Peruvian),29,"almorzar, tomar lonche",6,produces,0.3333
-Spanish (Peruvian),29,"almorzar, tomar lonche",6,understands,0
-Spanish (Peruvian),30,"almorzar, tomar lonche",2,produces,0.25
-Spanish (Peruvian),30,"almorzar, tomar lonche",2,understands,0
+language,sex,age,words,n,measure,prop
+Spanish (Mexican),All,16,almorzar,68,produces,0.0441
+Spanish (Mexican),All,16,almorzar,68,understands,0
+Spanish (Mexican),All,17,almorzar,59,produces,0.0339
+Spanish (Mexican),All,17,almorzar,59,understands,0
+Spanish (Mexican),All,18,almorzar,75,produces,0.0267
+Spanish (Mexican),All,18,almorzar,75,understands,0
+Spanish (Mexican),All,19,almorzar,100,produces,0.16
+Spanish (Mexican),All,19,almorzar,100,understands,0
+Spanish (Mexican),All,20,almorzar,107,produces,0.1215
+Spanish (Mexican),All,20,almorzar,107,understands,0
+Spanish (Mexican),All,21,almorzar,84,produces,0.119
+Spanish (Mexican),All,21,almorzar,84,understands,0
+Spanish (Mexican),All,22,almorzar,141,produces,0.0922
+Spanish (Mexican),All,22,almorzar,141,understands,0
+Spanish (Mexican),All,23,almorzar,91,produces,0.0659
+Spanish (Mexican),All,23,almorzar,91,understands,0
+Spanish (Mexican),All,24,almorzar,126,produces,0.2143
+Spanish (Mexican),All,24,almorzar,126,understands,0
+Spanish (Mexican),All,25,almorzar,177,produces,0.1582
+Spanish (Mexican),All,25,almorzar,177,understands,0
+Spanish (Mexican),All,26,almorzar,83,produces,0.2169
+Spanish (Mexican),All,26,almorzar,83,understands,0
+Spanish (Mexican),All,27,almorzar,85,produces,0.1294
+Spanish (Mexican),All,27,almorzar,85,understands,0
+Spanish (Mexican),All,28,almorzar,89,produces,0.2247
+Spanish (Mexican),All,28,almorzar,89,understands,0
+Spanish (Mexican),All,29,almorzar,89,produces,0.2247
+Spanish (Mexican),All,29,almorzar,89,understands,0
+Spanish (Mexican),All,30,almorzar,308,produces,0.211
+Spanish (Mexican),All,30,almorzar,308,understands,0
+Spanish (Peruvian),All,16,"almorzar, tomar lonche",13,produces,0
+Spanish (Peruvian),All,16,"almorzar, tomar lonche",13,understands,0
+Spanish (Peruvian),All,17,"almorzar, tomar lonche",9,produces,0.1111
+Spanish (Peruvian),All,17,"almorzar, tomar lonche",9,understands,0
+Spanish (Peruvian),All,18,"almorzar, tomar lonche",4,produces,0
+Spanish (Peruvian),All,18,"almorzar, tomar lonche",4,understands,0
+Spanish (Peruvian),All,19,"almorzar, tomar lonche",12,produces,0.1667
+Spanish (Peruvian),All,19,"almorzar, tomar lonche",12,understands,0
+Spanish (Peruvian),All,20,"almorzar, tomar lonche",1,produces,0
+Spanish (Peruvian),All,20,"almorzar, tomar lonche",1,understands,0
+Spanish (Peruvian),All,21,"almorzar, tomar lonche",5,produces,0.1
+Spanish (Peruvian),All,21,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),All,22,"almorzar, tomar lonche",9,produces,0.0556
+Spanish (Peruvian),All,22,"almorzar, tomar lonche",9,understands,0
+Spanish (Peruvian),All,23,"almorzar, tomar lonche",1,produces,1
+Spanish (Peruvian),All,23,"almorzar, tomar lonche",1,understands,0
+Spanish (Peruvian),All,24,"almorzar, tomar lonche",15,produces,0.0667
+Spanish (Peruvian),All,24,"almorzar, tomar lonche",15,understands,0
+Spanish (Peruvian),All,25,"almorzar, tomar lonche",5,produces,0
+Spanish (Peruvian),All,25,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),All,26,"almorzar, tomar lonche",8,produces,0
+Spanish (Peruvian),All,26,"almorzar, tomar lonche",8,understands,0
+Spanish (Peruvian),All,27,"almorzar, tomar lonche",7,produces,0.0714
+Spanish (Peruvian),All,27,"almorzar, tomar lonche",7,understands,0
+Spanish (Peruvian),All,28,"almorzar, tomar lonche",8,produces,0.3125
+Spanish (Peruvian),All,28,"almorzar, tomar lonche",8,understands,0
+Spanish (Peruvian),All,29,"almorzar, tomar lonche",6,produces,0.3333
+Spanish (Peruvian),All,29,"almorzar, tomar lonche",6,understands,0
+Spanish (Peruvian),All,30,"almorzar, tomar lonche",2,produces,0.25
+Spanish (Peruvian),All,30,"almorzar, tomar lonche",2,understands,0
+Spanish (Mexican),Female,16,almorzar,34,produces,0.0588
+Spanish (Mexican),Female,16,almorzar,34,understands,0
+Spanish (Mexican),Male,16,almorzar,34,produces,0.0294
+Spanish (Mexican),Male,16,almorzar,34,understands,0
+Spanish (Mexican),Female,17,almorzar,34,produces,0.0588
+Spanish (Mexican),Female,17,almorzar,34,understands,0
+Spanish (Mexican),Male,17,almorzar,25,produces,0
+Spanish (Mexican),Male,17,almorzar,25,understands,0
+Spanish (Mexican),Female,18,almorzar,35,produces,0
+Spanish (Mexican),Female,18,almorzar,35,understands,0
+Spanish (Mexican),Male,18,almorzar,40,produces,0.05
+Spanish (Mexican),Male,18,almorzar,40,understands,0
+Spanish (Mexican),Female,19,almorzar,47,produces,0.1277
+Spanish (Mexican),Female,19,almorzar,47,understands,0
+Spanish (Mexican),Male,19,almorzar,53,produces,0.1887
+Spanish (Mexican),Male,19,almorzar,53,understands,0
+Spanish (Mexican),Female,20,almorzar,53,produces,0.1698
+Spanish (Mexican),Female,20,almorzar,53,understands,0
+Spanish (Mexican),Male,20,almorzar,54,produces,0.0741
+Spanish (Mexican),Male,20,almorzar,54,understands,0
+Spanish (Mexican),Female,21,almorzar,37,produces,0.1622
+Spanish (Mexican),Female,21,almorzar,37,understands,0
+Spanish (Mexican),Male,21,almorzar,47,produces,0.0851
+Spanish (Mexican),Male,21,almorzar,47,understands,0
+Spanish (Mexican),Female,22,almorzar,64,produces,0.1094
+Spanish (Mexican),Female,22,almorzar,64,understands,0
+Spanish (Mexican),Male,22,almorzar,67,produces,0.0896
+Spanish (Mexican),Male,22,almorzar,67,understands,0
+Spanish (Mexican),Female,23,almorzar,49,produces,0.0612
+Spanish (Mexican),Female,23,almorzar,49,understands,0
+Spanish (Mexican),Male,23,almorzar,42,produces,0.0714
+Spanish (Mexican),Male,23,almorzar,42,understands,0
+Spanish (Mexican),Female,24,almorzar,63,produces,0.2381
+Spanish (Mexican),Female,24,almorzar,63,understands,0
+Spanish (Mexican),Male,24,almorzar,63,produces,0.1905
+Spanish (Mexican),Male,24,almorzar,63,understands,0
+Spanish (Mexican),Female,25,almorzar,78,produces,0.2051
+Spanish (Mexican),Female,25,almorzar,78,understands,0
+Spanish (Mexican),Male,25,almorzar,89,produces,0.1348
+Spanish (Mexican),Male,25,almorzar,89,understands,0
+Spanish (Mexican),Female,26,almorzar,38,produces,0.2368
+Spanish (Mexican),Female,26,almorzar,38,understands,0
+Spanish (Mexican),Male,26,almorzar,45,produces,0.2
+Spanish (Mexican),Male,26,almorzar,45,understands,0
+Spanish (Mexican),Female,27,almorzar,45,produces,0.1556
+Spanish (Mexican),Female,27,almorzar,45,understands,0
+Spanish (Mexican),Male,27,almorzar,40,produces,0.1
+Spanish (Mexican),Male,27,almorzar,40,understands,0
+Spanish (Mexican),Female,28,almorzar,44,produces,0.2955
+Spanish (Mexican),Female,28,almorzar,44,understands,0
+Spanish (Mexican),Male,28,almorzar,45,produces,0.1556
+Spanish (Mexican),Male,28,almorzar,45,understands,0
+Spanish (Mexican),Female,29,almorzar,51,produces,0.2745
+Spanish (Mexican),Female,29,almorzar,51,understands,0
+Spanish (Mexican),Male,29,almorzar,38,produces,0.1579
+Spanish (Mexican),Male,29,almorzar,38,understands,0
+Spanish (Mexican),Female,30,almorzar,146,produces,0.2466
+Spanish (Mexican),Female,30,almorzar,146,understands,0
+Spanish (Mexican),Male,30,almorzar,152,produces,0.1908
+Spanish (Mexican),Male,30,almorzar,152,understands,0
+Spanish (Peruvian),Female,16,"almorzar, tomar lonche",6,produces,0
+Spanish (Peruvian),Female,16,"almorzar, tomar lonche",6,understands,0
+Spanish (Peruvian),Male,16,"almorzar, tomar lonche",7,produces,0
+Spanish (Peruvian),Male,16,"almorzar, tomar lonche",7,understands,0
+Spanish (Peruvian),Female,17,"almorzar, tomar lonche",5,produces,0.1
+Spanish (Peruvian),Female,17,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),Male,17,"almorzar, tomar lonche",4,produces,0.125
+Spanish (Peruvian),Male,17,"almorzar, tomar lonche",4,understands,0
+Spanish (Peruvian),Female,18,"almorzar, tomar lonche",4,produces,0
+Spanish (Peruvian),Female,18,"almorzar, tomar lonche",4,understands,0
+Spanish (Peruvian),Female,19,"almorzar, tomar lonche",3,produces,0.3333
+Spanish (Peruvian),Female,19,"almorzar, tomar lonche",3,understands,0
+Spanish (Peruvian),Male,19,"almorzar, tomar lonche",9,produces,0.1111
+Spanish (Peruvian),Male,19,"almorzar, tomar lonche",9,understands,0
+Spanish (Peruvian),Male,20,"almorzar, tomar lonche",1,produces,0
+Spanish (Peruvian),Male,20,"almorzar, tomar lonche",1,understands,0
+Spanish (Peruvian),Female,21,"almorzar, tomar lonche",3,produces,0.1667
+Spanish (Peruvian),Female,21,"almorzar, tomar lonche",3,understands,0
+Spanish (Peruvian),Male,21,"almorzar, tomar lonche",2,produces,0
+Spanish (Peruvian),Male,21,"almorzar, tomar lonche",2,understands,0
+Spanish (Peruvian),Female,22,"almorzar, tomar lonche",4,produces,0.125
+Spanish (Peruvian),Female,22,"almorzar, tomar lonche",4,understands,0
+Spanish (Peruvian),Male,22,"almorzar, tomar lonche",5,produces,0
+Spanish (Peruvian),Male,22,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),Female,23,"almorzar, tomar lonche",1,produces,1
+Spanish (Peruvian),Female,23,"almorzar, tomar lonche",1,understands,0
+Spanish (Peruvian),Female,24,"almorzar, tomar lonche",7,produces,0.1429
+Spanish (Peruvian),Female,24,"almorzar, tomar lonche",7,understands,0
+Spanish (Peruvian),Male,24,"almorzar, tomar lonche",8,produces,0
+Spanish (Peruvian),Male,24,"almorzar, tomar lonche",8,understands,0
+Spanish (Peruvian),Female,25,"almorzar, tomar lonche",2,produces,0
+Spanish (Peruvian),Female,25,"almorzar, tomar lonche",2,understands,0
+Spanish (Peruvian),Male,25,"almorzar, tomar lonche",3,produces,0
+Spanish (Peruvian),Male,25,"almorzar, tomar lonche",3,understands,0
+Spanish (Peruvian),Female,26,"almorzar, tomar lonche",3,produces,0
+Spanish (Peruvian),Female,26,"almorzar, tomar lonche",3,understands,0
+Spanish (Peruvian),Male,26,"almorzar, tomar lonche",5,produces,0
+Spanish (Peruvian),Male,26,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),Female,27,"almorzar, tomar lonche",3,produces,0
+Spanish (Peruvian),Female,27,"almorzar, tomar lonche",3,understands,0
+Spanish (Peruvian),Male,27,"almorzar, tomar lonche",4,produces,0.125
+Spanish (Peruvian),Male,27,"almorzar, tomar lonche",4,understands,0
+Spanish (Peruvian),Female,28,"almorzar, tomar lonche",3,produces,0.1667
+Spanish (Peruvian),Female,28,"almorzar, tomar lonche",3,understands,0
+Spanish (Peruvian),Male,28,"almorzar, tomar lonche",5,produces,0.4
+Spanish (Peruvian),Male,28,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),Female,29,"almorzar, tomar lonche",1,produces,0.5
+Spanish (Peruvian),Female,29,"almorzar, tomar lonche",1,understands,0
+Spanish (Peruvian),Male,29,"almorzar, tomar lonche",5,produces,0.3
+Spanish (Peruvian),Male,29,"almorzar, tomar lonche",5,understands,0
+Spanish (Peruvian),Female,30,"almorzar, tomar lonche",1,produces,0
+Spanish (Peruvian),Female,30,"almorzar, tomar lonche",1,understands,0
+Spanish (Peruvian),Male,30,"almorzar, tomar lonche",1,produces,0.5
+Spanish (Peruvian),Male,30,"almorzar, tomar lonche",1,understands,0

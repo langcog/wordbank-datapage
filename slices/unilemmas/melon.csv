@@ -1,817 +1,2425 @@
-language,age,words,n,measure,prop
-Italian,18,melone,31,produces,0.0323
-Italian,18,melone,31,understands,0
-Italian,19,melone,39,produces,0.0513
-Italian,19,melone,39,understands,0
-Italian,20,melone,64,produces,0.0469
-Italian,20,melone,64,understands,0
-Italian,21,melone,55,produces,0.1636
-Italian,21,melone,55,understands,0
-Italian,22,melone,55,produces,0.1636
-Italian,22,melone,55,understands,0
-Italian,23,melone,53,produces,0.1887
-Italian,23,melone,53,understands,0
-Italian,24,melone,71,produces,0.2676
-Italian,24,melone,71,understands,0
-Italian,25,melone,39,produces,0.3333
-Italian,25,melone,39,understands,0
-Italian,26,melone,41,produces,0.4146
-Italian,26,melone,41,understands,0
-Italian,27,melone,43,produces,0.2558
-Italian,27,melone,43,understands,0
-Italian,28,melone,44,produces,0.4545
-Italian,28,melone,44,understands,0
-Italian,29,melone,37,produces,0.3514
-Italian,29,melone,37,understands,0
-Italian,30,melone,67,produces,0.5075
-Italian,30,melone,67,understands,0
-Italian,31,melone,19,produces,0.4737
-Italian,31,melone,19,understands,0
-Italian,32,melone,23,produces,0.6087
-Italian,32,melone,23,understands,0
-Italian,33,melone,16,produces,0.5
-Italian,33,melone,16,understands,0
-Italian,34,melone,19,produces,0.6842
-Italian,34,melone,19,understands,0
-Italian,35,melone,15,produces,0.5333
-Italian,35,melone,15,understands,0
-Italian,36,melone,21,produces,0.619
-Italian,36,melone,21,understands,0
-Japanese,16,メロン,11,produces,0.0909
-Japanese,16,メロン,11,understands,0
-Japanese,17,メロン,17,produces,0
-Japanese,17,メロン,17,understands,0
-Japanese,18,メロン,56,produces,0.0179
-Japanese,18,メロン,56,understands,0
-Japanese,19,メロン,35,produces,0
-Japanese,19,メロン,35,understands,0
-Japanese,20,メロン,59,produces,0.1525
-Japanese,20,メロン,59,understands,0
-Japanese,21,メロン,62,produces,0.1935
-Japanese,21,メロン,62,understands,0
-Japanese,22,メロン,31,produces,0.1935
-Japanese,22,メロン,31,understands,0
-Japanese,23,メロン,67,produces,0.194
-Japanese,23,メロン,67,understands,0
-Japanese,24,メロン,33,produces,0.4242
-Japanese,24,メロン,33,understands,0
-Japanese,25,メロン,34,produces,0.5882
-Japanese,25,メロン,34,understands,0
-Japanese,26,メロン,33,produces,0.6667
-Japanese,26,メロン,33,understands,0
-Japanese,27,メロン,15,produces,0.4
-Japanese,27,メロン,15,understands,0
-Japanese,28,メロン,18,produces,0.5556
-Japanese,28,メロン,18,understands,0
-Japanese,29,メロン,17,produces,0.6471
-Japanese,29,メロン,17,understands,0
-Japanese,30,メロン,18,produces,0.6667
-Japanese,30,メロン,18,understands,0
-Japanese,31,メロン,18,produces,0.6667
-Japanese,31,メロン,18,understands,0
-Japanese,32,メロン,13,produces,0.7692
-Japanese,32,メロン,13,understands,0
-Japanese,33,メロン,16,produces,0.75
-Japanese,33,メロン,16,understands,0
-Japanese,34,メロン,13,produces,0.6154
-Japanese,34,メロン,13,understands,0
-Japanese,35,メロン,31,produces,0.7419
-Japanese,35,メロン,31,understands,0
-Japanese,36,メロン,18,produces,0.7778
-Japanese,36,メロン,18,understands,0
-Korean,18,메론,88,produces,0.0227
-Korean,18,메론,88,understands,0
-Korean,19,메론,77,produces,0.039
-Korean,19,메론,77,understands,0
-Korean,20,메론,88,produces,0.0682
-Korean,20,메론,88,understands,0
-Korean,21,메론,79,produces,0.0759
-Korean,21,메론,79,understands,0
-Korean,22,메론,87,produces,0.0805
-Korean,22,메론,87,understands,0
-Korean,23,메론,87,produces,0.1149
-Korean,23,메론,87,understands,0
-Korean,24,메론,107,produces,0.1776
-Korean,24,메론,107,understands,0
-Korean,25,메론,95,produces,0.1474
-Korean,25,메론,95,understands,0
-Korean,26,메론,91,produces,0.2857
-Korean,26,메론,91,understands,0
-Korean,27,메론,104,produces,0.2692
-Korean,27,메론,104,understands,0
-Korean,28,메론,89,produces,0.3371
-Korean,28,메론,89,understands,0
-Korean,29,메론,101,produces,0.4752
-Korean,29,메론,101,understands,0
-Korean,30,메론,81,produces,0.3827
-Korean,30,메론,81,understands,0
-Korean,31,메론,79,produces,0.4051
-Korean,31,메론,79,understands,0
-Korean,32,메론,70,produces,0.3429
-Korean,32,메론,70,understands,0
-Korean,33,메론,79,produces,0.3924
-Korean,33,메론,79,understands,0
-Korean,34,메론,79,produces,0.6329
-Korean,34,메론,79,understands,0
-Korean,35,메론,74,produces,0.5811
-Korean,35,메론,74,understands,0
-Korean,36,메론,75,produces,0.4533
-Korean,36,메론,75,understands,0
-Mandarin (Beijing),16,"瓜, 瓜子",70,produces,0.1214
-Mandarin (Beijing),16,"瓜, 瓜子",70,understands,0
-Mandarin (Beijing),17,"瓜子, 瓜",112,produces,0.2391
-Mandarin (Beijing),17,"瓜子, 瓜",112,understands,0
-Mandarin (Beijing),18,"瓜子, 瓜",121,produces,0.3229
-Mandarin (Beijing),18,"瓜子, 瓜",121,understands,0
-Mandarin (Beijing),19,"瓜子, 瓜",120,produces,0.4368
-Mandarin (Beijing),19,"瓜子, 瓜",120,understands,0
-Mandarin (Beijing),20,"瓜子, 瓜",121,produces,0.5156
-Mandarin (Beijing),20,"瓜子, 瓜",121,understands,0
-Mandarin (Beijing),21,"瓜子, 瓜",119,produces,0.619
-Mandarin (Beijing),21,"瓜子, 瓜",119,understands,0
-Mandarin (Beijing),22,"瓜子, 瓜",117,produces,0.7447
-Mandarin (Beijing),22,"瓜子, 瓜",117,understands,0
-Mandarin (Beijing),23,"瓜子, 瓜",120,produces,0.8105
-Mandarin (Beijing),23,"瓜子, 瓜",120,understands,0
-Mandarin (Beijing),24,"瓜子, 瓜",120,produces,0.7737
-Mandarin (Beijing),24,"瓜子, 瓜",120,understands,0
-Mandarin (Beijing),25,"瓜子, 瓜",113,produces,0.9126
-Mandarin (Beijing),25,"瓜子, 瓜",113,understands,0
-Mandarin (Beijing),26,"瓜子, 瓜",118,produces,0.8995
-Mandarin (Beijing),26,"瓜子, 瓜",118,understands,0
-Mandarin (Beijing),27,"瓜子, 瓜",114,produces,0.9076
-Mandarin (Beijing),27,"瓜子, 瓜",114,understands,0
-Mandarin (Beijing),28,"瓜子, 瓜",114,produces,0.9239
-Mandarin (Beijing),28,"瓜子, 瓜",114,understands,0
-Mandarin (Beijing),29,"瓜子, 瓜",119,produces,0.963
-Mandarin (Beijing),29,"瓜子, 瓜",119,understands,0
-Mandarin (Beijing),30,"瓜子, 瓜",110,produces,0.9444
-Mandarin (Beijing),30,"瓜子, 瓜",110,understands,0
-Mandarin (Taiwanese),8,西瓜,86,produces,0
-Mandarin (Taiwanese),8,西瓜,86,understands,0.1395
-Mandarin (Taiwanese),9,西瓜,79,produces,0
-Mandarin (Taiwanese),9,西瓜,79,understands,0.2025
-Mandarin (Taiwanese),10,西瓜,78,produces,0
-Mandarin (Taiwanese),10,西瓜,78,understands,0.1282
-Mandarin (Taiwanese),11,西瓜,79,produces,0
-Mandarin (Taiwanese),11,西瓜,79,understands,0.0759
-Mandarin (Taiwanese),12,西瓜,80,produces,0
-Mandarin (Taiwanese),12,西瓜,80,understands,0.05
-Mandarin (Taiwanese),13,西瓜,78,produces,0
-Mandarin (Taiwanese),13,西瓜,78,understands,0.1026
-Mandarin (Taiwanese),14,西瓜,81,produces,0
-Mandarin (Taiwanese),14,西瓜,81,understands,0.0617
-Mandarin (Taiwanese),15,西瓜,106,produces,0.0377
-Mandarin (Taiwanese),15,西瓜,106,understands,0.2075
-Mandarin (Taiwanese),16,"西瓜, 香瓜(哈密瓜)",170,produces,0.02
-Mandarin (Taiwanese),16,"西瓜, 香瓜(哈密瓜)",170,understands,0.06
-Mandarin (Taiwanese),17,"西瓜, 香瓜(哈密瓜)",87,produces,0.0517
-Mandarin (Taiwanese),17,"西瓜, 香瓜(哈密瓜)",87,understands,0
-Mandarin (Taiwanese),18,"西瓜, 香瓜(哈密瓜)",84,produces,0.0774
-Mandarin (Taiwanese),18,"西瓜, 香瓜(哈密瓜)",84,understands,0
-Mandarin (Taiwanese),19,"西瓜, 香瓜(哈密瓜)",84,produces,0.125
-Mandarin (Taiwanese),19,"西瓜, 香瓜(哈密瓜)",84,understands,0
-Mandarin (Taiwanese),20,"西瓜, 香瓜(哈密瓜)",84,produces,0.1548
-Mandarin (Taiwanese),20,"西瓜, 香瓜(哈密瓜)",84,understands,0
-Mandarin (Taiwanese),21,"西瓜, 香瓜(哈密瓜)",88,produces,0.2045
-Mandarin (Taiwanese),21,"西瓜, 香瓜(哈密瓜)",88,understands,0
-Mandarin (Taiwanese),22,"西瓜, 香瓜(哈密瓜)",96,produces,0.2552
-Mandarin (Taiwanese),22,"西瓜, 香瓜(哈密瓜)",96,understands,0
-Mandarin (Taiwanese),23,"西瓜, 香瓜(哈密瓜)",105,produces,0.319
-Mandarin (Taiwanese),23,"西瓜, 香瓜(哈密瓜)",105,understands,0
-Mandarin (Taiwanese),24,"西瓜, 香瓜(哈密瓜)",124,produces,0.3185
-Mandarin (Taiwanese),24,"西瓜, 香瓜(哈密瓜)",124,understands,0
-Mandarin (Taiwanese),25,"西瓜, 香瓜(哈密瓜)",110,produces,0.4318
-Mandarin (Taiwanese),25,"西瓜, 香瓜(哈密瓜)",110,understands,0
-Mandarin (Taiwanese),26,"西瓜, 香瓜(哈密瓜)",87,produces,0.431
-Mandarin (Taiwanese),26,"西瓜, 香瓜(哈密瓜)",87,understands,0
-Mandarin (Taiwanese),27,"西瓜, 香瓜(哈密瓜)",92,produces,0.4891
-Mandarin (Taiwanese),27,"西瓜, 香瓜(哈密瓜)",92,understands,0
-Mandarin (Taiwanese),28,"西瓜, 香瓜(哈密瓜)",100,produces,0.59
-Mandarin (Taiwanese),28,"西瓜, 香瓜(哈密瓜)",100,understands,0
-Mandarin (Taiwanese),29,"西瓜, 香瓜(哈密瓜)",88,produces,0.5568
-Mandarin (Taiwanese),29,"西瓜, 香瓜(哈密瓜)",88,understands,0
-Mandarin (Taiwanese),30,"西瓜, 香瓜(哈密瓜)",94,produces,0.6064
-Mandarin (Taiwanese),30,"西瓜, 香瓜(哈密瓜)",94,understands,0
-Mandarin (Taiwanese),31,"西瓜, 香瓜(哈密瓜)",88,produces,0.6307
-Mandarin (Taiwanese),31,"西瓜, 香瓜(哈密瓜)",88,understands,0
-Mandarin (Taiwanese),32,"西瓜, 香瓜(哈密瓜)",82,produces,0.6341
-Mandarin (Taiwanese),32,"西瓜, 香瓜(哈密瓜)",82,understands,0
-Mandarin (Taiwanese),33,"西瓜, 香瓜(哈密瓜)",85,produces,0.7118
-Mandarin (Taiwanese),33,"西瓜, 香瓜(哈密瓜)",85,understands,0
-Mandarin (Taiwanese),34,"西瓜, 香瓜(哈密瓜)",77,produces,0.6883
-Mandarin (Taiwanese),34,"西瓜, 香瓜(哈密瓜)",77,understands,0
-Mandarin (Taiwanese),35,"西瓜, 香瓜(哈密瓜)",81,produces,0.7593
-Mandarin (Taiwanese),35,"西瓜, 香瓜(哈密瓜)",81,understands,0
-Mandarin (Taiwanese),36,"西瓜, 香瓜(哈密瓜)",81,produces,0.7099
-Mandarin (Taiwanese),36,"西瓜, 香瓜(哈密瓜)",81,understands,0
-Norwegian,16,melon,98,produces,0.0204
-Norwegian,16,melon,98,understands,0
-Norwegian,17,melon,218,produces,0.0183
-Norwegian,17,melon,218,understands,0
-Norwegian,18,melon,271,produces,0.0258
-Norwegian,18,melon,271,understands,0
-Norwegian,19,melon,281,produces,0.0605
-Norwegian,19,melon,281,understands,0
-Norwegian,20,melon,342,produces,0.1023
-Norwegian,20,melon,342,understands,0
-Norwegian,21,melon,418,produces,0.1244
-Norwegian,21,melon,418,understands,0
-Norwegian,22,melon,596,produces,0.1745
-Norwegian,22,melon,596,understands,0
-Norwegian,23,melon,566,produces,0.2633
-Norwegian,23,melon,566,understands,0
-Norwegian,24,melon,538,produces,0.2751
-Norwegian,24,melon,538,understands,0
-Norwegian,25,melon,656,produces,0.3887
-Norwegian,25,melon,656,understands,0
-Norwegian,26,melon,644,produces,0.4984
-Norwegian,26,melon,644,understands,0
-Norwegian,27,melon,525,produces,0.5562
-Norwegian,27,melon,525,understands,0
-Norwegian,28,melon,544,produces,0.5735
-Norwegian,28,melon,544,understands,0
-Norwegian,29,melon,536,produces,0.6101
-Norwegian,29,melon,536,understands,0
-Norwegian,30,melon,457,produces,0.6827
-Norwegian,30,melon,457,understands,0
-Norwegian,31,melon,479,produces,0.6889
-Norwegian,31,melon,479,understands,0
-Norwegian,32,melon,451,produces,0.765
-Norwegian,32,melon,451,understands,0
-Norwegian,33,melon,430,produces,0.7558
-Norwegian,33,melon,430,understands,0
-Norwegian,34,melon,424,produces,0.7877
-Norwegian,34,melon,424,understands,0
-Norwegian,35,melon,422,produces,0.7725
-Norwegian,35,melon,422,understands,0
-Norwegian,36,melon,329,produces,0.7872
-Norwegian,36,melon,329,understands,0
-Portuguese (European),16,Melão,144,produces,0
-Portuguese (European),16,Melão,144,understands,0
-Portuguese (European),17,Melão,158,produces,0.0127
-Portuguese (European),17,Melão,158,understands,0
-Portuguese (European),18,Melão,203,produces,0.0345
-Portuguese (European),18,Melão,203,understands,0
-Portuguese (European),19,Melão,196,produces,0.0306
-Portuguese (European),19,Melão,196,understands,0
-Portuguese (European),20,Melão,218,produces,0.0596
-Portuguese (European),20,Melão,218,understands,0
-Portuguese (European),21,Melão,208,produces,0.0817
-Portuguese (European),21,Melão,208,understands,0
-Portuguese (European),22,Melão,213,produces,0.1362
-Portuguese (European),22,Melão,213,understands,0
-Portuguese (European),23,Melão,199,produces,0.1005
-Portuguese (European),23,Melão,199,understands,0
-Portuguese (European),24,Melão,215,produces,0.2279
-Portuguese (European),24,Melão,215,understands,0
-Portuguese (European),25,Melão,213,produces,0.2723
-Portuguese (European),25,Melão,213,understands,0
-Portuguese (European),26,Melão,218,produces,0.289
-Portuguese (European),26,Melão,218,understands,0
-Portuguese (European),27,Melão,238,produces,0.3655
-Portuguese (European),27,Melão,238,understands,0
-Portuguese (European),28,Melão,219,produces,0.347
-Portuguese (European),28,Melão,219,understands,0
-Portuguese (European),29,Melão,207,produces,0.4493
-Portuguese (European),29,Melão,207,understands,0
-Portuguese (European),30,Melão,163,produces,0.4417
-Portuguese (European),30,Melão,163,understands,0
-Spanish (Argentinian),16,melón,47,produces,0
-Spanish (Argentinian),16,melón,47,understands,0
-Spanish (Argentinian),17,melón,49,produces,0.0204
-Spanish (Argentinian),17,melón,49,understands,0
-Spanish (Argentinian),18,melón,62,produces,0.0323
-Spanish (Argentinian),18,melón,62,understands,0
-Spanish (Argentinian),19,melón,44,produces,0.0227
-Spanish (Argentinian),19,melón,44,understands,0
-Spanish (Argentinian),20,melón,46,produces,0
-Spanish (Argentinian),20,melón,46,understands,0
-Spanish (Argentinian),21,melón,41,produces,0.122
-Spanish (Argentinian),21,melón,41,understands,0
-Spanish (Argentinian),22,melón,57,produces,0.0526
-Spanish (Argentinian),22,melón,57,understands,0
-Spanish (Argentinian),23,melón,49,produces,0.0408
-Spanish (Argentinian),23,melón,49,understands,0
-Spanish (Argentinian),24,melón,75,produces,0.1067
-Spanish (Argentinian),24,melón,75,understands,0
-Spanish (Argentinian),25,melón,43,produces,0.2791
-Spanish (Argentinian),25,melón,43,understands,0
-Spanish (Argentinian),26,melón,45,produces,0.0444
-Spanish (Argentinian),26,melón,45,understands,0
-Spanish (Argentinian),27,melón,44,produces,0.1136
-Spanish (Argentinian),27,melón,44,understands,0
-Spanish (Argentinian),28,melón,42,produces,0.0714
-Spanish (Argentinian),28,melón,42,understands,0
-Spanish (Argentinian),29,melón,65,produces,0.2308
-Spanish (Argentinian),29,melón,65,understands,0
-Spanish (Argentinian),30,melón,69,produces,0.2464
-Spanish (Argentinian),30,melón,69,understands,0
-Spanish (Argentinian),31,melón,2,produces,0
-Spanish (Argentinian),31,melón,2,understands,0
-Spanish (Argentinian),32,melón,1,produces,1
-Spanish (Argentinian),32,melón,1,understands,0
-Spanish (Argentinian),33,melón,2,produces,0
-Spanish (Argentinian),33,melón,2,understands,0
-Spanish (European),16,melón,39,produces,0.0256
-Spanish (European),16,melón,39,understands,0
-Spanish (European),17,melón,39,produces,0.0256
-Spanish (European),17,melón,39,understands,0
-Spanish (European),18,melón,50,produces,0.06
-Spanish (European),18,melón,50,understands,0
-Spanish (European),19,melón,27,produces,0.1111
-Spanish (European),19,melón,27,understands,0
-Spanish (European),20,melón,36,produces,0.0556
-Spanish (European),20,melón,36,understands,0
-Spanish (European),21,melón,41,produces,0.122
-Spanish (European),21,melón,41,understands,0
-Spanish (European),22,melón,38,produces,0.2105
-Spanish (European),22,melón,38,understands,0
-Spanish (European),23,melón,30,produces,0.1333
-Spanish (European),23,melón,30,understands,0
-Spanish (European),24,melón,55,produces,0.2182
-Spanish (European),24,melón,55,understands,0
-Spanish (European),25,melón,35,produces,0.2857
-Spanish (European),25,melón,35,understands,0
-Spanish (European),26,melón,49,produces,0.3469
-Spanish (European),26,melón,49,understands,0
-Spanish (European),27,melón,34,produces,0.4706
-Spanish (European),27,melón,34,understands,0
-Spanish (European),28,melón,38,produces,0.3947
-Spanish (European),28,melón,38,understands,0
-Spanish (European),29,melón,41,produces,0.5854
-Spanish (European),29,melón,41,understands,0
-Spanish (European),30,melón,41,produces,0.6098
-Spanish (European),30,melón,41,understands,0
-Spanish (Mexican),16,melón,68,produces,0.0441
-Spanish (Mexican),16,melón,68,understands,0
-Spanish (Mexican),17,melón,59,produces,0.1356
-Spanish (Mexican),17,melón,59,understands,0
-Spanish (Mexican),18,melón,75,produces,0.0933
-Spanish (Mexican),18,melón,75,understands,0
-Spanish (Mexican),19,melón,100,produces,0.28
-Spanish (Mexican),19,melón,100,understands,0
-Spanish (Mexican),20,melón,107,produces,0.2991
-Spanish (Mexican),20,melón,107,understands,0
-Spanish (Mexican),21,melón,84,produces,0.2024
-Spanish (Mexican),21,melón,84,understands,0
-Spanish (Mexican),22,melón,141,produces,0.2057
-Spanish (Mexican),22,melón,141,understands,0
-Spanish (Mexican),23,melón,91,produces,0.2527
-Spanish (Mexican),23,melón,91,understands,0
-Spanish (Mexican),24,melón,126,produces,0.3492
-Spanish (Mexican),24,melón,126,understands,0
-Spanish (Mexican),25,melón,177,produces,0.3107
-Spanish (Mexican),25,melón,177,understands,0
-Spanish (Mexican),26,melón,83,produces,0.4458
-Spanish (Mexican),26,melón,83,understands,0
-Spanish (Mexican),27,melón,85,produces,0.6118
-Spanish (Mexican),27,melón,85,understands,0
-Spanish (Mexican),28,melón,89,produces,0.5955
-Spanish (Mexican),28,melón,89,understands,0
-Spanish (Mexican),29,melón,89,produces,0.5955
-Spanish (Mexican),29,melón,89,understands,0
-Spanish (Mexican),30,melón,308,produces,0.3279
-Spanish (Mexican),30,melón,308,understands,0
-Spanish (Peruvian),16,melón,13,produces,0.0769
-Spanish (Peruvian),16,melón,13,understands,0
-Spanish (Peruvian),17,melón,9,produces,0
-Spanish (Peruvian),17,melón,9,understands,0
-Spanish (Peruvian),18,melón,4,produces,0
-Spanish (Peruvian),18,melón,4,understands,0
-Spanish (Peruvian),19,melón,12,produces,0
-Spanish (Peruvian),19,melón,12,understands,0
-Spanish (Peruvian),20,melón,1,produces,0
-Spanish (Peruvian),20,melón,1,understands,0
-Spanish (Peruvian),21,melón,5,produces,0
-Spanish (Peruvian),21,melón,5,understands,0
-Spanish (Peruvian),22,melón,9,produces,0
-Spanish (Peruvian),22,melón,9,understands,0
-Spanish (Peruvian),23,melón,1,produces,1
-Spanish (Peruvian),23,melón,1,understands,0
-Spanish (Peruvian),24,melón,15,produces,0.0667
-Spanish (Peruvian),24,melón,15,understands,0
-Spanish (Peruvian),25,melón,5,produces,0
-Spanish (Peruvian),25,melón,5,understands,0
-Spanish (Peruvian),26,melón,8,produces,0
-Spanish (Peruvian),26,melón,8,understands,0
-Spanish (Peruvian),27,melón,7,produces,0.1429
-Spanish (Peruvian),27,melón,7,understands,0
-Spanish (Peruvian),28,melón,8,produces,0
-Spanish (Peruvian),28,melón,8,understands,0
-Spanish (Peruvian),29,melón,6,produces,0.3333
-Spanish (Peruvian),29,melón,6,understands,0
-Spanish (Peruvian),30,melón,2,produces,0
-Spanish (Peruvian),30,melón,2,understands,0
-Swedish,16,melon,159,produces,0
-Swedish,16,melon,159,understands,0
-Swedish,19,melon,152,produces,0.0132
-Swedish,19,melon,152,understands,0
-Swedish,22,melon,307,produces,0.101
-Swedish,22,melon,307,understands,0
-Swedish,25,melon,143,produces,0.1888
-Swedish,25,melon,143,understands,0
-Swedish,28,melon,139,produces,0.2302
-Swedish,28,melon,139,understands,0
-American Sign Language,9,MELON,4,produces,0
-American Sign Language,9,MELON,4,understands,0
-American Sign Language,10,MELON,2,produces,0
-American Sign Language,10,MELON,2,understands,0
-American Sign Language,11,MELON,2,produces,0
-American Sign Language,11,MELON,2,understands,0
-American Sign Language,12,MELON,2,produces,0
-American Sign Language,12,MELON,2,understands,0
-American Sign Language,15,MELON,1,produces,0
-American Sign Language,15,MELON,1,understands,0
-American Sign Language,16,MELON,2,produces,0
-American Sign Language,16,MELON,2,understands,0
-American Sign Language,17,MELON,3,produces,0
-American Sign Language,17,MELON,3,understands,0.3333
-American Sign Language,18,MELON,7,produces,0.4286
-American Sign Language,18,MELON,7,understands,0.7143
-American Sign Language,19,MELON,5,produces,0.2
-American Sign Language,19,MELON,5,understands,0.6
-American Sign Language,20,MELON,2,produces,1
-American Sign Language,20,MELON,2,understands,1
-American Sign Language,21,MELON,2,produces,0.5
-American Sign Language,21,MELON,2,understands,1
-American Sign Language,22,MELON,8,produces,0.125
-American Sign Language,22,MELON,8,understands,0.625
-American Sign Language,23,MELON,2,produces,1
-American Sign Language,23,MELON,2,understands,1
-American Sign Language,24,MELON,6,produces,0.1667
-American Sign Language,24,MELON,6,understands,0.3333
-American Sign Language,25,MELON,11,produces,0.2727
-American Sign Language,25,MELON,11,understands,0.6364
-American Sign Language,26,MELON,4,produces,0.75
-American Sign Language,26,MELON,4,understands,1
-American Sign Language,27,MELON,5,produces,0.6
-American Sign Language,27,MELON,5,understands,0.8
-American Sign Language,28,MELON,3,produces,1
-American Sign Language,28,MELON,3,understands,1
-American Sign Language,29,MELON,6,produces,0.8333
-American Sign Language,29,MELON,6,understands,1
-American Sign Language,30,MELON,4,produces,0.75
-American Sign Language,30,MELON,4,understands,1
-American Sign Language,31,MELON,6,produces,0.5
-American Sign Language,31,MELON,6,understands,0.6667
-American Sign Language,32,MELON,7,produces,0.5714
-American Sign Language,32,MELON,7,understands,0.8571
-American Sign Language,33,MELON,4,produces,0.75
-American Sign Language,33,MELON,4,understands,1
-American Sign Language,34,MELON,5,produces,0.8
-American Sign Language,34,MELON,5,understands,1
-American Sign Language,35,MELON,4,produces,0
-American Sign Language,35,MELON,4,understands,1
-American Sign Language,36,MELON,3,produces,0
-American Sign Language,36,MELON,3,understands,0.6667
-Cantonese,16,瓜,46,produces,0.087
-Cantonese,16,瓜,46,understands,0
-Cantonese,17,瓜,61,produces,0.1639
-Cantonese,17,瓜,61,understands,0
-Cantonese,18,瓜,68,produces,0.1765
-Cantonese,18,瓜,68,understands,0
-Cantonese,19,瓜,66,produces,0.2273
-Cantonese,19,瓜,66,understands,0
-Cantonese,20,瓜,140,produces,0.3143
-Cantonese,20,瓜,140,understands,0
-Cantonese,21,瓜,120,produces,0.2917
-Cantonese,21,瓜,120,understands,0
-Cantonese,22,瓜,68,produces,0.4853
-Cantonese,22,瓜,68,understands,0
-Cantonese,23,瓜,74,produces,0.3649
-Cantonese,23,瓜,74,understands,0
-Cantonese,24,瓜,68,produces,0.4706
-Cantonese,24,瓜,68,understands,0
-Cantonese,25,瓜,65,produces,0.6462
-Cantonese,25,瓜,65,understands,0
-Cantonese,26,瓜,68,produces,0.4559
-Cantonese,26,瓜,68,understands,0
-Cantonese,27,瓜,62,produces,0.5484
-Cantonese,27,瓜,62,understands,0
-Cantonese,28,瓜,66,produces,0.697
-Cantonese,28,瓜,66,understands,0
-Cantonese,29,瓜,72,produces,0.6389
-Cantonese,29,瓜,72,understands,0
-Cantonese,30,瓜,164,produces,0.7866
-Cantonese,30,瓜,164,understands,0
-Catalan,16,melo,24,produces,0
-Catalan,16,melo,24,understands,0
-Catalan,17,melo,36,produces,0
-Catalan,17,melo,36,understands,0
-Catalan,18,melo,51,produces,0.0588
-Catalan,18,melo,51,understands,0
-Catalan,19,melo,45,produces,0.0667
-Catalan,19,melo,45,understands,0
-Catalan,20,melo,56,produces,0.1071
-Catalan,20,melo,56,understands,0
-Catalan,21,melo,58,produces,0.2069
-Catalan,21,melo,58,understands,0
-Catalan,22,melo,50,produces,0.3
-Catalan,22,melo,50,understands,0
-Catalan,23,melo,66,produces,0.2121
-Catalan,23,melo,66,understands,0
-Catalan,24,melo,79,produces,0.3038
-Catalan,24,melo,79,understands,0
-Catalan,25,melo,60,produces,0.45
-Catalan,25,melo,60,understands,0
-Catalan,26,melo,65,produces,0.5385
-Catalan,26,melo,65,understands,0
-Catalan,27,melo,63,produces,0.619
-Catalan,27,melo,63,understands,0
-Catalan,28,melo,81,produces,0.5926
-Catalan,28,melo,81,understands,0
-Catalan,29,melo,50,produces,0.74
-Catalan,29,melo,50,understands,0
-Catalan,30,melo,75,produces,0.7467
-Catalan,30,melo,75,understands,0
-Czech,16,meloun,29,produces,0.0345
-Czech,16,meloun,29,understands,0
-Czech,17,meloun,29,produces,0
-Czech,17,meloun,29,understands,0
-Czech,18,meloun,45,produces,0.0889
-Czech,18,meloun,45,understands,0
-Czech,19,meloun,27,produces,0.037
-Czech,19,meloun,27,understands,0
-Czech,20,meloun,26,produces,0.1923
-Czech,20,meloun,26,understands,0
-Czech,21,meloun,34,produces,0.1176
-Czech,21,meloun,34,understands,0
-Czech,22,meloun,36,produces,0.3611
-Czech,22,meloun,36,understands,0
-Czech,23,meloun,46,produces,0.2826
-Czech,23,meloun,46,understands,0
-Czech,24,meloun,35,produces,0.3429
-Czech,24,meloun,35,understands,0
-Czech,25,meloun,35,produces,0.4
-Czech,25,meloun,35,understands,0
-Czech,26,meloun,22,produces,0.3636
-Czech,26,meloun,22,understands,0
-Czech,27,meloun,37,produces,0.4324
-Czech,27,meloun,37,understands,0
-Czech,28,meloun,26,produces,0.7692
-Czech,28,meloun,26,understands,0
-Czech,29,meloun,39,produces,0.5641
-Czech,29,meloun,39,understands,0
-Czech,30,meloun,27,produces,0.5556
-Czech,30,meloun,27,understands,0
-Danish,16,melon,184,produces,0.0109
-Danish,16,melon,184,understands,0
-Danish,17,melon,176,produces,0.0114
-Danish,17,melon,176,understands,0
-Danish,18,melon,160,produces,0.0187
-Danish,18,melon,160,understands,0
-Danish,19,melon,205,produces,0.0244
-Danish,19,melon,205,understands,0
-Danish,20,melon,196,produces,0.051
-Danish,20,melon,196,understands,0
-Danish,21,melon,236,produces,0.0508
-Danish,21,melon,236,understands,0
-Danish,22,melon,235,produces,0.1702
-Danish,22,melon,235,understands,0
-Danish,23,melon,190,produces,0.2
-Danish,23,melon,190,understands,0
-Danish,24,melon,216,produces,0.2269
-Danish,24,melon,216,understands,0
-Danish,25,melon,138,produces,0.2536
-Danish,25,melon,138,understands,0
-Danish,26,melon,206,produces,0.3107
-Danish,26,melon,206,understands,0
-Danish,27,melon,176,produces,0.3636
-Danish,27,melon,176,understands,0
-Danish,28,melon,190,produces,0.3158
-Danish,28,melon,190,understands,0
-Danish,29,melon,182,produces,0.4066
-Danish,29,melon,182,understands,0
-Danish,30,melon,173,produces,0.526
-Danish,30,melon,173,understands,0
-Danish,31,melon,175,produces,0.5943
-Danish,31,melon,175,understands,0
-Danish,32,melon,143,produces,0.6294
-Danish,32,melon,143,understands,0
-Danish,33,melon,151,produces,0.6954
-Danish,33,melon,151,understands,0
-Danish,34,melon,143,produces,0.6713
-Danish,34,melon,143,understands,0
-Danish,35,melon,113,produces,0.7611
-Danish,35,melon,113,understands,0
-Danish,36,melon,126,produces,0.6984
-Danish,36,melon,126,understands,0
-Dutch,16,meloen,4,produces,0
-Dutch,16,meloen,4,understands,0
-Dutch,17,meloen,49,produces,0.0204
-Dutch,17,meloen,49,understands,0
-Dutch,18,meloen,68,produces,0.0294
-Dutch,18,meloen,68,understands,0
-Dutch,19,meloen,7,produces,0
-Dutch,19,meloen,7,understands,0
-Dutch,20,meloen,7,produces,0.2857
-Dutch,20,meloen,7,understands,0
-Dutch,21,meloen,7,produces,0.1429
-Dutch,21,meloen,7,understands,0
-Dutch,22,meloen,7,produces,0.4286
-Dutch,22,meloen,7,understands,0
-Dutch,23,meloen,51,produces,0.451
-Dutch,23,meloen,51,understands,0
-Dutch,24,meloen,31,produces,0.4516
-Dutch,24,meloen,31,understands,0
-Dutch,25,meloen,6,produces,1
-Dutch,25,meloen,6,understands,0
-Dutch,26,meloen,6,produces,0.5
-Dutch,26,meloen,6,understands,0
-Dutch,27,meloen,5,produces,0.8
-Dutch,27,meloen,5,understands,0
-Dutch,28,meloen,6,produces,0.8333
-Dutch,28,meloen,6,understands,0
-Dutch,29,meloen,23,produces,0.8261
-Dutch,29,meloen,23,understands,0
-Dutch,30,meloen,24,produces,0.7917
-Dutch,30,meloen,24,understands,0
-Dutch,31,meloen,2,produces,1
-Dutch,31,meloen,2,understands,0
-English (American),16,melon,930,produces,0.0237
-English (American),16,melon,930,understands,0
-English (American),17,melon,458,produces,0.0546
-English (American),17,melon,458,understands,0
-English (American),18,melon,641,produces,0.0624
-English (American),18,melon,641,understands,0
-English (American),19,melon,570,produces,0.0912
-English (American),19,melon,570,understands,0
-English (American),20,melon,537,produces,0.1043
-English (American),20,melon,537,understands,0
-English (American),21,melon,366,produces,0.1694
-English (American),21,melon,366,understands,0
-English (American),22,melon,454,produces,0.1828
-English (American),22,melon,454,understands,0
-English (American),23,melon,470,produces,0.2574
-English (American),23,melon,470,understands,0
-English (American),24,melon,985,produces,0.2944
-English (American),24,melon,985,understands,0
-English (American),25,melon,757,produces,0.321
-English (American),25,melon,757,understands,0
-English (American),26,melon,435,produces,0.3609
-English (American),26,melon,435,understands,0
-English (American),27,melon,361,produces,0.3989
-English (American),27,melon,361,understands,0
-English (American),28,melon,954,produces,0.5377
-English (American),28,melon,954,understands,0
-English (American),29,melon,390,produces,0.4231
-English (American),29,melon,390,understands,0
-English (American),30,melon,785,produces,0.4955
-English (American),30,melon,785,understands,0
-French (French),8,melon,54,produces,0
-French (French),8,melon,54,understands,0
-French (French),9,melon,11,produces,0
-French (French),9,melon,11,understands,0
-French (French),10,melon,13,produces,0
-French (French),10,melon,13,understands,0
-French (French),11,melon,42,produces,0
-French (French),11,melon,42,understands,0
-French (French),12,melon,64,produces,0
-French (French),12,melon,64,understands,0
-French (French),13,melon,116,produces,0
-French (French),13,melon,116,understands,0.0086
-French (French),14,melon,40,produces,0
-French (French),14,melon,40,understands,0.025
-French (French),15,melon,26,produces,0
-French (French),15,melon,26,understands,0
-French (French),16,melon,98,produces,0.0306
-French (French),16,melon,98,understands,0
-French (French),17,melon,52,produces,0.0192
-French (French),17,melon,52,understands,0
-French (French),18,melon,54,produces,0.1296
-French (French),18,melon,54,understands,0
-French (French),19,melon,42,produces,0.0476
-French (French),19,melon,42,understands,0
-French (French),20,melon,81,produces,0.0864
-French (French),20,melon,81,understands,0
-French (French),21,melon,102,produces,0.1471
-French (French),21,melon,102,understands,0
-French (French),22,melon,103,produces,0.1359
-French (French),22,melon,103,understands,0
-French (French),23,melon,118,produces,0.178
-French (French),23,melon,118,understands,0
-French (French),24,melon,173,produces,0.2197
-French (French),24,melon,173,understands,0
-French (French),25,melon,87,produces,0.2874
-French (French),25,melon,87,understands,0
-French (French),26,melon,64,produces,0.2188
-French (French),26,melon,64,understands,0
-French (French),27,melon,54,produces,0.2778
-French (French),27,melon,54,understands,0
-French (French),28,melon,76,produces,0.3947
-French (French),28,melon,76,understands,0
-French (French),29,melon,67,produces,0.403
-French (French),29,melon,67,understands,0
-French (French),30,melon,68,produces,0.2941
-French (French),30,melon,68,understands,0
-French (Quebecois),16,melon,47,produces,0.0638
-French (Quebecois),16,melon,47,understands,0
-French (Quebecois),17,melon,62,produces,0.0806
-French (Quebecois),17,melon,62,understands,0
-French (Quebecois),18,melon,99,produces,0.0909
-French (Quebecois),18,melon,99,understands,0
-French (Quebecois),19,melon,91,produces,0.1319
-French (Quebecois),19,melon,91,understands,0
-French (Quebecois),20,melon,196,produces,0.1684
-French (Quebecois),20,melon,196,understands,0
-French (Quebecois),21,melon,109,produces,0.2752
-French (Quebecois),21,melon,109,understands,0
-French (Quebecois),22,melon,86,produces,0.3953
-French (Quebecois),22,melon,86,understands,0
-French (Quebecois),23,melon,86,produces,0.4186
-French (Quebecois),23,melon,86,understands,0
-French (Quebecois),24,melon,132,produces,0.3636
-French (Quebecois),24,melon,132,understands,0
-French (Quebecois),25,melon,87,produces,0.4598
-French (Quebecois),25,melon,87,understands,0
-French (Quebecois),26,melon,95,produces,0.5053
-French (Quebecois),26,melon,95,understands,0
-French (Quebecois),27,melon,74,produces,0.4595
-French (Quebecois),27,melon,74,understands,0
-French (Quebecois),28,melon,61,produces,0.6557
-French (Quebecois),28,melon,61,understands,0
-French (Quebecois),29,melon,70,produces,0.7286
-French (Quebecois),29,melon,70,understands,0
-French (Quebecois),30,melon,100,produces,0.57
-French (Quebecois),30,melon,100,understands,0
-German,18,Melone,85,produces,0.0235
-German,18,Melone,85,understands,0
-German,19,Melone,79,produces,0.1013
-German,19,Melone,79,understands,0
-German,20,Melone,96,produces,0.0312
-German,20,Melone,96,understands,0
-German,21,Melone,77,produces,0.1558
-German,21,Melone,77,understands,0
-German,22,Melone,95,produces,0.1158
-German,22,Melone,95,understands,0
-German,23,Melone,95,produces,0.2316
-German,23,Melone,95,understands,0
-German,24,Melone,103,produces,0.2136
-German,24,Melone,103,understands,0
-German,25,Melone,95,produces,0.3158
-German,25,Melone,95,understands,0
-German,26,Melone,92,produces,0.3478
-German,26,Melone,92,understands,0
-German,27,Melone,89,produces,0.3933
-German,27,Melone,89,understands,0
-German,28,Melone,93,produces,0.3871
-German,28,Melone,93,understands,0
-German,29,Melone,89,produces,0.5393
-German,29,Melone,89,understands,0
-German,30,Melone,93,produces,0.5806
-German,30,Melone,93,understands,0
-Hebrew,25,מלון,82,produces,0.5244
-Hebrew,25,מלון,82,understands,0
-Hebrew,26,מלון,80,produces,0.6
-Hebrew,26,מלון,80,understands,0
-Hebrew,27,מלון,68,produces,0.6765
-Hebrew,27,מלון,68,understands,0
-Hebrew,28,מלון,57,produces,0.7719
-Hebrew,28,מלון,57,understands,0
-Hebrew,29,מלון,47,produces,0.7021
-Hebrew,29,מלון,47,understands,0
-Hebrew,30,מלון,28,produces,0.6429
-Hebrew,30,מלון,28,understands,0
-Hebrew,31,מלון,35,produces,0.7429
-Hebrew,31,מלון,35,understands,0
-Hebrew,32,מלון,36,produces,0.75
-Hebrew,32,מלון,36,understands,0
-Hebrew,33,מלון,21,produces,0.7619
-Hebrew,33,מלון,21,understands,0
-Hebrew,34,מלון,27,produces,0.7778
-Hebrew,34,מלון,27,understands,0
-Hebrew,35,מלון,18,produces,0.7778
-Hebrew,35,מלון,18,understands,0
-Hebrew,36,מלון,5,produces,0.8
-Hebrew,36,מלון,5,understands,0
-Hungarian,16,dinnye,21,produces,0
-Hungarian,16,dinnye,21,understands,0
-Hungarian,17,dinnye,18,produces,0.1667
-Hungarian,17,dinnye,18,understands,0
-Hungarian,18,dinnye,18,produces,0.1667
-Hungarian,18,dinnye,18,understands,0
-Hungarian,19,dinnye,26,produces,0.2308
-Hungarian,19,dinnye,26,understands,0
-Hungarian,20,dinnye,18,produces,0.1667
-Hungarian,20,dinnye,18,understands,0
-Hungarian,21,dinnye,36,produces,0.4167
-Hungarian,21,dinnye,36,understands,0
-Hungarian,22,dinnye,27,produces,0.3704
-Hungarian,22,dinnye,27,understands,0
-Hungarian,23,dinnye,18,produces,0.3333
-Hungarian,23,dinnye,18,understands,0
-Hungarian,24,dinnye,38,produces,0.2895
-Hungarian,24,dinnye,38,understands,0
-Hungarian,25,dinnye,43,produces,0.6047
-Hungarian,25,dinnye,43,understands,0
-Hungarian,26,dinnye,23,produces,0.5652
-Hungarian,26,dinnye,23,understands,0
-Hungarian,27,dinnye,26,produces,0.5385
-Hungarian,27,dinnye,26,understands,0
-Hungarian,28,dinnye,30,produces,0.5667
-Hungarian,28,dinnye,30,understands,0
-Hungarian,29,dinnye,12,produces,0.75
-Hungarian,29,dinnye,12,understands,0
-Hungarian,30,dinnye,18,produces,0.6111
-Hungarian,30,dinnye,18,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,9,MELON,4,produces,0
+American Sign Language,All,9,MELON,4,understands,0
+American Sign Language,All,10,MELON,2,produces,0
+American Sign Language,All,10,MELON,2,understands,0
+American Sign Language,All,11,MELON,2,produces,0
+American Sign Language,All,11,MELON,2,understands,0
+American Sign Language,All,12,MELON,2,produces,0
+American Sign Language,All,12,MELON,2,understands,0
+American Sign Language,All,15,MELON,1,produces,0
+American Sign Language,All,15,MELON,1,understands,0
+American Sign Language,All,16,MELON,2,produces,0
+American Sign Language,All,16,MELON,2,understands,0
+American Sign Language,All,17,MELON,3,produces,0
+American Sign Language,All,17,MELON,3,understands,0.3333
+American Sign Language,All,18,MELON,7,produces,0.4286
+American Sign Language,All,18,MELON,7,understands,0.7143
+American Sign Language,All,19,MELON,5,produces,0.2
+American Sign Language,All,19,MELON,5,understands,0.6
+American Sign Language,All,20,MELON,2,produces,1
+American Sign Language,All,20,MELON,2,understands,1
+American Sign Language,All,21,MELON,2,produces,0.5
+American Sign Language,All,21,MELON,2,understands,1
+American Sign Language,All,22,MELON,8,produces,0.125
+American Sign Language,All,22,MELON,8,understands,0.625
+American Sign Language,All,23,MELON,2,produces,1
+American Sign Language,All,23,MELON,2,understands,1
+American Sign Language,All,24,MELON,6,produces,0.1667
+American Sign Language,All,24,MELON,6,understands,0.3333
+American Sign Language,All,25,MELON,11,produces,0.2727
+American Sign Language,All,25,MELON,11,understands,0.6364
+American Sign Language,All,26,MELON,4,produces,0.75
+American Sign Language,All,26,MELON,4,understands,1
+American Sign Language,All,27,MELON,5,produces,0.6
+American Sign Language,All,27,MELON,5,understands,0.8
+American Sign Language,All,28,MELON,3,produces,1
+American Sign Language,All,28,MELON,3,understands,1
+American Sign Language,All,29,MELON,6,produces,0.8333
+American Sign Language,All,29,MELON,6,understands,1
+American Sign Language,All,30,MELON,4,produces,0.75
+American Sign Language,All,30,MELON,4,understands,1
+American Sign Language,All,31,MELON,6,produces,0.5
+American Sign Language,All,31,MELON,6,understands,0.6667
+American Sign Language,All,32,MELON,7,produces,0.5714
+American Sign Language,All,32,MELON,7,understands,0.8571
+American Sign Language,All,33,MELON,4,produces,0.75
+American Sign Language,All,33,MELON,4,understands,1
+American Sign Language,All,34,MELON,5,produces,0.8
+American Sign Language,All,34,MELON,5,understands,1
+American Sign Language,All,35,MELON,4,produces,0
+American Sign Language,All,35,MELON,4,understands,1
+American Sign Language,All,36,MELON,3,produces,0
+American Sign Language,All,36,MELON,3,understands,0.6667
+Cantonese,All,16,瓜,46,produces,0.087
+Cantonese,All,16,瓜,46,understands,0
+Cantonese,All,17,瓜,61,produces,0.1639
+Cantonese,All,17,瓜,61,understands,0
+Cantonese,All,18,瓜,68,produces,0.1765
+Cantonese,All,18,瓜,68,understands,0
+Cantonese,All,19,瓜,66,produces,0.2273
+Cantonese,All,19,瓜,66,understands,0
+Cantonese,All,20,瓜,140,produces,0.3143
+Cantonese,All,20,瓜,140,understands,0
+Cantonese,All,21,瓜,120,produces,0.2917
+Cantonese,All,21,瓜,120,understands,0
+Cantonese,All,22,瓜,68,produces,0.4853
+Cantonese,All,22,瓜,68,understands,0
+Cantonese,All,23,瓜,74,produces,0.3649
+Cantonese,All,23,瓜,74,understands,0
+Cantonese,All,24,瓜,68,produces,0.4706
+Cantonese,All,24,瓜,68,understands,0
+Cantonese,All,25,瓜,65,produces,0.6462
+Cantonese,All,25,瓜,65,understands,0
+Cantonese,All,26,瓜,68,produces,0.4559
+Cantonese,All,26,瓜,68,understands,0
+Cantonese,All,27,瓜,62,produces,0.5484
+Cantonese,All,27,瓜,62,understands,0
+Cantonese,All,28,瓜,66,produces,0.697
+Cantonese,All,28,瓜,66,understands,0
+Cantonese,All,29,瓜,72,produces,0.6389
+Cantonese,All,29,瓜,72,understands,0
+Cantonese,All,30,瓜,164,produces,0.7866
+Cantonese,All,30,瓜,164,understands,0
+Catalan,All,16,melo,24,produces,0
+Catalan,All,16,melo,24,understands,0
+Catalan,All,17,melo,36,produces,0
+Catalan,All,17,melo,36,understands,0
+Catalan,All,18,melo,51,produces,0.0588
+Catalan,All,18,melo,51,understands,0
+Catalan,All,19,melo,45,produces,0.0667
+Catalan,All,19,melo,45,understands,0
+Catalan,All,20,melo,56,produces,0.1071
+Catalan,All,20,melo,56,understands,0
+Catalan,All,21,melo,58,produces,0.2069
+Catalan,All,21,melo,58,understands,0
+Catalan,All,22,melo,50,produces,0.3
+Catalan,All,22,melo,50,understands,0
+Catalan,All,23,melo,66,produces,0.2121
+Catalan,All,23,melo,66,understands,0
+Catalan,All,24,melo,79,produces,0.3038
+Catalan,All,24,melo,79,understands,0
+Catalan,All,25,melo,60,produces,0.45
+Catalan,All,25,melo,60,understands,0
+Catalan,All,26,melo,65,produces,0.5385
+Catalan,All,26,melo,65,understands,0
+Catalan,All,27,melo,63,produces,0.619
+Catalan,All,27,melo,63,understands,0
+Catalan,All,28,melo,81,produces,0.5926
+Catalan,All,28,melo,81,understands,0
+Catalan,All,29,melo,50,produces,0.74
+Catalan,All,29,melo,50,understands,0
+Catalan,All,30,melo,75,produces,0.7467
+Catalan,All,30,melo,75,understands,0
+Czech,All,16,meloun,29,produces,0.0345
+Czech,All,16,meloun,29,understands,0
+Czech,All,17,meloun,29,produces,0
+Czech,All,17,meloun,29,understands,0
+Czech,All,18,meloun,45,produces,0.0889
+Czech,All,18,meloun,45,understands,0
+Czech,All,19,meloun,27,produces,0.037
+Czech,All,19,meloun,27,understands,0
+Czech,All,20,meloun,26,produces,0.1923
+Czech,All,20,meloun,26,understands,0
+Czech,All,21,meloun,34,produces,0.1176
+Czech,All,21,meloun,34,understands,0
+Czech,All,22,meloun,36,produces,0.3611
+Czech,All,22,meloun,36,understands,0
+Czech,All,23,meloun,46,produces,0.2826
+Czech,All,23,meloun,46,understands,0
+Czech,All,24,meloun,35,produces,0.3429
+Czech,All,24,meloun,35,understands,0
+Czech,All,25,meloun,35,produces,0.4
+Czech,All,25,meloun,35,understands,0
+Czech,All,26,meloun,22,produces,0.3636
+Czech,All,26,meloun,22,understands,0
+Czech,All,27,meloun,37,produces,0.4324
+Czech,All,27,meloun,37,understands,0
+Czech,All,28,meloun,26,produces,0.7692
+Czech,All,28,meloun,26,understands,0
+Czech,All,29,meloun,39,produces,0.5641
+Czech,All,29,meloun,39,understands,0
+Czech,All,30,meloun,27,produces,0.5556
+Czech,All,30,meloun,27,understands,0
+Danish,All,16,melon,184,produces,0.0109
+Danish,All,16,melon,184,understands,0
+Danish,All,17,melon,176,produces,0.0114
+Danish,All,17,melon,176,understands,0
+Danish,All,18,melon,160,produces,0.0187
+Danish,All,18,melon,160,understands,0
+Danish,All,19,melon,205,produces,0.0244
+Danish,All,19,melon,205,understands,0
+Danish,All,20,melon,196,produces,0.051
+Danish,All,20,melon,196,understands,0
+Danish,All,21,melon,236,produces,0.0508
+Danish,All,21,melon,236,understands,0
+Danish,All,22,melon,235,produces,0.1702
+Danish,All,22,melon,235,understands,0
+Danish,All,23,melon,190,produces,0.2
+Danish,All,23,melon,190,understands,0
+Danish,All,24,melon,216,produces,0.2269
+Danish,All,24,melon,216,understands,0
+Danish,All,25,melon,138,produces,0.2536
+Danish,All,25,melon,138,understands,0
+Danish,All,26,melon,206,produces,0.3107
+Danish,All,26,melon,206,understands,0
+Danish,All,27,melon,176,produces,0.3636
+Danish,All,27,melon,176,understands,0
+Danish,All,28,melon,190,produces,0.3158
+Danish,All,28,melon,190,understands,0
+Danish,All,29,melon,182,produces,0.4066
+Danish,All,29,melon,182,understands,0
+Danish,All,30,melon,173,produces,0.526
+Danish,All,30,melon,173,understands,0
+Danish,All,31,melon,175,produces,0.5943
+Danish,All,31,melon,175,understands,0
+Danish,All,32,melon,143,produces,0.6294
+Danish,All,32,melon,143,understands,0
+Danish,All,33,melon,151,produces,0.6954
+Danish,All,33,melon,151,understands,0
+Danish,All,34,melon,143,produces,0.6713
+Danish,All,34,melon,143,understands,0
+Danish,All,35,melon,113,produces,0.7611
+Danish,All,35,melon,113,understands,0
+Danish,All,36,melon,126,produces,0.6984
+Danish,All,36,melon,126,understands,0
+Dutch,All,16,meloen,4,produces,0
+Dutch,All,16,meloen,4,understands,0
+Dutch,All,17,meloen,49,produces,0.0204
+Dutch,All,17,meloen,49,understands,0
+Dutch,All,18,meloen,68,produces,0.0294
+Dutch,All,18,meloen,68,understands,0
+Dutch,All,19,meloen,7,produces,0
+Dutch,All,19,meloen,7,understands,0
+Dutch,All,20,meloen,7,produces,0.2857
+Dutch,All,20,meloen,7,understands,0
+Dutch,All,21,meloen,7,produces,0.1429
+Dutch,All,21,meloen,7,understands,0
+Dutch,All,22,meloen,7,produces,0.4286
+Dutch,All,22,meloen,7,understands,0
+Dutch,All,23,meloen,51,produces,0.451
+Dutch,All,23,meloen,51,understands,0
+Dutch,All,24,meloen,31,produces,0.4516
+Dutch,All,24,meloen,31,understands,0
+Dutch,All,25,meloen,6,produces,1
+Dutch,All,25,meloen,6,understands,0
+Dutch,All,26,meloen,6,produces,0.5
+Dutch,All,26,meloen,6,understands,0
+Dutch,All,27,meloen,5,produces,0.8
+Dutch,All,27,meloen,5,understands,0
+Dutch,All,28,meloen,6,produces,0.8333
+Dutch,All,28,meloen,6,understands,0
+Dutch,All,29,meloen,23,produces,0.8261
+Dutch,All,29,meloen,23,understands,0
+Dutch,All,30,meloen,24,produces,0.7917
+Dutch,All,30,meloen,24,understands,0
+Dutch,All,31,meloen,2,produces,1
+Dutch,All,31,meloen,2,understands,0
+English (American),All,16,melon,930,produces,0.0237
+English (American),All,16,melon,930,understands,0
+English (American),All,17,melon,458,produces,0.0546
+English (American),All,17,melon,458,understands,0
+English (American),All,18,melon,641,produces,0.0624
+English (American),All,18,melon,641,understands,0
+English (American),All,19,melon,570,produces,0.0912
+English (American),All,19,melon,570,understands,0
+English (American),All,20,melon,537,produces,0.1043
+English (American),All,20,melon,537,understands,0
+English (American),All,21,melon,366,produces,0.1694
+English (American),All,21,melon,366,understands,0
+English (American),All,22,melon,454,produces,0.1828
+English (American),All,22,melon,454,understands,0
+English (American),All,23,melon,470,produces,0.2574
+English (American),All,23,melon,470,understands,0
+English (American),All,24,melon,985,produces,0.2944
+English (American),All,24,melon,985,understands,0
+English (American),All,25,melon,757,produces,0.321
+English (American),All,25,melon,757,understands,0
+English (American),All,26,melon,435,produces,0.3609
+English (American),All,26,melon,435,understands,0
+English (American),All,27,melon,361,produces,0.3989
+English (American),All,27,melon,361,understands,0
+English (American),All,28,melon,954,produces,0.5377
+English (American),All,28,melon,954,understands,0
+English (American),All,29,melon,390,produces,0.4231
+English (American),All,29,melon,390,understands,0
+English (American),All,30,melon,785,produces,0.4955
+English (American),All,30,melon,785,understands,0
+French (French),All,8,melon,54,produces,0
+French (French),All,8,melon,54,understands,0
+French (French),All,9,melon,11,produces,0
+French (French),All,9,melon,11,understands,0
+French (French),All,10,melon,13,produces,0
+French (French),All,10,melon,13,understands,0
+French (French),All,11,melon,42,produces,0
+French (French),All,11,melon,42,understands,0
+French (French),All,12,melon,64,produces,0
+French (French),All,12,melon,64,understands,0
+French (French),All,13,melon,116,produces,0
+French (French),All,13,melon,116,understands,0.0086
+French (French),All,14,melon,40,produces,0
+French (French),All,14,melon,40,understands,0.025
+French (French),All,15,melon,26,produces,0
+French (French),All,15,melon,26,understands,0
+French (French),All,16,melon,98,produces,0.0306
+French (French),All,16,melon,98,understands,0
+French (French),All,17,melon,52,produces,0.0192
+French (French),All,17,melon,52,understands,0
+French (French),All,18,melon,54,produces,0.1296
+French (French),All,18,melon,54,understands,0
+French (French),All,19,melon,42,produces,0.0476
+French (French),All,19,melon,42,understands,0
+French (French),All,20,melon,81,produces,0.0864
+French (French),All,20,melon,81,understands,0
+French (French),All,21,melon,102,produces,0.1471
+French (French),All,21,melon,102,understands,0
+French (French),All,22,melon,103,produces,0.1359
+French (French),All,22,melon,103,understands,0
+French (French),All,23,melon,118,produces,0.178
+French (French),All,23,melon,118,understands,0
+French (French),All,24,melon,173,produces,0.2197
+French (French),All,24,melon,173,understands,0
+French (French),All,25,melon,87,produces,0.2874
+French (French),All,25,melon,87,understands,0
+French (French),All,26,melon,64,produces,0.2188
+French (French),All,26,melon,64,understands,0
+French (French),All,27,melon,54,produces,0.2778
+French (French),All,27,melon,54,understands,0
+French (French),All,28,melon,76,produces,0.3947
+French (French),All,28,melon,76,understands,0
+French (French),All,29,melon,67,produces,0.403
+French (French),All,29,melon,67,understands,0
+French (French),All,30,melon,68,produces,0.2941
+French (French),All,30,melon,68,understands,0
+French (Quebecois),All,16,melon,47,produces,0.0638
+French (Quebecois),All,16,melon,47,understands,0
+French (Quebecois),All,17,melon,62,produces,0.0806
+French (Quebecois),All,17,melon,62,understands,0
+French (Quebecois),All,18,melon,99,produces,0.0909
+French (Quebecois),All,18,melon,99,understands,0
+French (Quebecois),All,19,melon,91,produces,0.1319
+French (Quebecois),All,19,melon,91,understands,0
+French (Quebecois),All,20,melon,196,produces,0.1684
+French (Quebecois),All,20,melon,196,understands,0
+French (Quebecois),All,21,melon,109,produces,0.2752
+French (Quebecois),All,21,melon,109,understands,0
+French (Quebecois),All,22,melon,86,produces,0.3953
+French (Quebecois),All,22,melon,86,understands,0
+French (Quebecois),All,23,melon,86,produces,0.4186
+French (Quebecois),All,23,melon,86,understands,0
+French (Quebecois),All,24,melon,132,produces,0.3636
+French (Quebecois),All,24,melon,132,understands,0
+French (Quebecois),All,25,melon,87,produces,0.4598
+French (Quebecois),All,25,melon,87,understands,0
+French (Quebecois),All,26,melon,95,produces,0.5053
+French (Quebecois),All,26,melon,95,understands,0
+French (Quebecois),All,27,melon,74,produces,0.4595
+French (Quebecois),All,27,melon,74,understands,0
+French (Quebecois),All,28,melon,61,produces,0.6557
+French (Quebecois),All,28,melon,61,understands,0
+French (Quebecois),All,29,melon,70,produces,0.7286
+French (Quebecois),All,29,melon,70,understands,0
+French (Quebecois),All,30,melon,100,produces,0.57
+French (Quebecois),All,30,melon,100,understands,0
+German,All,18,Melone,85,produces,0.0235
+German,All,18,Melone,85,understands,0
+German,All,19,Melone,79,produces,0.1013
+German,All,19,Melone,79,understands,0
+German,All,20,Melone,96,produces,0.0312
+German,All,20,Melone,96,understands,0
+German,All,21,Melone,77,produces,0.1558
+German,All,21,Melone,77,understands,0
+German,All,22,Melone,95,produces,0.1158
+German,All,22,Melone,95,understands,0
+German,All,23,Melone,95,produces,0.2316
+German,All,23,Melone,95,understands,0
+German,All,24,Melone,103,produces,0.2136
+German,All,24,Melone,103,understands,0
+German,All,25,Melone,95,produces,0.3158
+German,All,25,Melone,95,understands,0
+German,All,26,Melone,92,produces,0.3478
+German,All,26,Melone,92,understands,0
+German,All,27,Melone,89,produces,0.3933
+German,All,27,Melone,89,understands,0
+German,All,28,Melone,93,produces,0.3871
+German,All,28,Melone,93,understands,0
+German,All,29,Melone,89,produces,0.5393
+German,All,29,Melone,89,understands,0
+German,All,30,Melone,93,produces,0.5806
+German,All,30,Melone,93,understands,0
+Hebrew,All,25,מלון,82,produces,0.5244
+Hebrew,All,25,מלון,82,understands,0
+Hebrew,All,26,מלון,80,produces,0.6
+Hebrew,All,26,מלון,80,understands,0
+Hebrew,All,27,מלון,68,produces,0.6765
+Hebrew,All,27,מלון,68,understands,0
+Hebrew,All,28,מלון,57,produces,0.7719
+Hebrew,All,28,מלון,57,understands,0
+Hebrew,All,29,מלון,47,produces,0.7021
+Hebrew,All,29,מלון,47,understands,0
+Hebrew,All,30,מלון,28,produces,0.6429
+Hebrew,All,30,מלון,28,understands,0
+Hebrew,All,31,מלון,35,produces,0.7429
+Hebrew,All,31,מלון,35,understands,0
+Hebrew,All,32,מלון,36,produces,0.75
+Hebrew,All,32,מלון,36,understands,0
+Hebrew,All,33,מלון,21,produces,0.7619
+Hebrew,All,33,מלון,21,understands,0
+Hebrew,All,34,מלון,27,produces,0.7778
+Hebrew,All,34,מלון,27,understands,0
+Hebrew,All,35,מלון,18,produces,0.7778
+Hebrew,All,35,מלון,18,understands,0
+Hebrew,All,36,מלון,5,produces,0.8
+Hebrew,All,36,מלון,5,understands,0
+Hungarian,All,16,dinnye,21,produces,0
+Hungarian,All,16,dinnye,21,understands,0
+Hungarian,All,17,dinnye,18,produces,0.1667
+Hungarian,All,17,dinnye,18,understands,0
+Hungarian,All,18,dinnye,18,produces,0.1667
+Hungarian,All,18,dinnye,18,understands,0
+Hungarian,All,19,dinnye,26,produces,0.2308
+Hungarian,All,19,dinnye,26,understands,0
+Hungarian,All,20,dinnye,18,produces,0.1667
+Hungarian,All,20,dinnye,18,understands,0
+Hungarian,All,21,dinnye,36,produces,0.4167
+Hungarian,All,21,dinnye,36,understands,0
+Hungarian,All,22,dinnye,27,produces,0.3704
+Hungarian,All,22,dinnye,27,understands,0
+Hungarian,All,23,dinnye,18,produces,0.3333
+Hungarian,All,23,dinnye,18,understands,0
+Hungarian,All,24,dinnye,38,produces,0.2895
+Hungarian,All,24,dinnye,38,understands,0
+Hungarian,All,25,dinnye,43,produces,0.6047
+Hungarian,All,25,dinnye,43,understands,0
+Hungarian,All,26,dinnye,23,produces,0.5652
+Hungarian,All,26,dinnye,23,understands,0
+Hungarian,All,27,dinnye,26,produces,0.5385
+Hungarian,All,27,dinnye,26,understands,0
+Hungarian,All,28,dinnye,30,produces,0.5667
+Hungarian,All,28,dinnye,30,understands,0
+Hungarian,All,29,dinnye,12,produces,0.75
+Hungarian,All,29,dinnye,12,understands,0
+Hungarian,All,30,dinnye,18,produces,0.6111
+Hungarian,All,30,dinnye,18,understands,0
+Italian,All,18,melone,31,produces,0.0323
+Italian,All,18,melone,31,understands,0
+Italian,All,19,melone,39,produces,0.0513
+Italian,All,19,melone,39,understands,0
+Italian,All,20,melone,64,produces,0.0469
+Italian,All,20,melone,64,understands,0
+Italian,All,21,melone,55,produces,0.1636
+Italian,All,21,melone,55,understands,0
+Italian,All,22,melone,55,produces,0.1636
+Italian,All,22,melone,55,understands,0
+Italian,All,23,melone,53,produces,0.1887
+Italian,All,23,melone,53,understands,0
+Italian,All,24,melone,71,produces,0.2676
+Italian,All,24,melone,71,understands,0
+Italian,All,25,melone,39,produces,0.3333
+Italian,All,25,melone,39,understands,0
+Italian,All,26,melone,41,produces,0.4146
+Italian,All,26,melone,41,understands,0
+Italian,All,27,melone,43,produces,0.2558
+Italian,All,27,melone,43,understands,0
+Italian,All,28,melone,44,produces,0.4545
+Italian,All,28,melone,44,understands,0
+Italian,All,29,melone,37,produces,0.3514
+Italian,All,29,melone,37,understands,0
+Italian,All,30,melone,67,produces,0.5075
+Italian,All,30,melone,67,understands,0
+Italian,All,31,melone,19,produces,0.4737
+Italian,All,31,melone,19,understands,0
+Italian,All,32,melone,23,produces,0.6087
+Italian,All,32,melone,23,understands,0
+Italian,All,33,melone,16,produces,0.5
+Italian,All,33,melone,16,understands,0
+Italian,All,34,melone,19,produces,0.6842
+Italian,All,34,melone,19,understands,0
+Italian,All,35,melone,15,produces,0.5333
+Italian,All,35,melone,15,understands,0
+Italian,All,36,melone,21,produces,0.619
+Italian,All,36,melone,21,understands,0
+Japanese,All,16,メロン,11,produces,0.0909
+Japanese,All,16,メロン,11,understands,0
+Japanese,All,17,メロン,17,produces,0
+Japanese,All,17,メロン,17,understands,0
+Japanese,All,18,メロン,56,produces,0.0179
+Japanese,All,18,メロン,56,understands,0
+Japanese,All,19,メロン,35,produces,0
+Japanese,All,19,メロン,35,understands,0
+Japanese,All,20,メロン,59,produces,0.1525
+Japanese,All,20,メロン,59,understands,0
+Japanese,All,21,メロン,62,produces,0.1935
+Japanese,All,21,メロン,62,understands,0
+Japanese,All,22,メロン,31,produces,0.1935
+Japanese,All,22,メロン,31,understands,0
+Japanese,All,23,メロン,67,produces,0.194
+Japanese,All,23,メロン,67,understands,0
+Japanese,All,24,メロン,33,produces,0.4242
+Japanese,All,24,メロン,33,understands,0
+Japanese,All,25,メロン,34,produces,0.5882
+Japanese,All,25,メロン,34,understands,0
+Japanese,All,26,メロン,33,produces,0.6667
+Japanese,All,26,メロン,33,understands,0
+Japanese,All,27,メロン,15,produces,0.4
+Japanese,All,27,メロン,15,understands,0
+Japanese,All,28,メロン,18,produces,0.5556
+Japanese,All,28,メロン,18,understands,0
+Japanese,All,29,メロン,17,produces,0.6471
+Japanese,All,29,メロン,17,understands,0
+Japanese,All,30,メロン,18,produces,0.6667
+Japanese,All,30,メロン,18,understands,0
+Japanese,All,31,メロン,18,produces,0.6667
+Japanese,All,31,メロン,18,understands,0
+Japanese,All,32,メロン,13,produces,0.7692
+Japanese,All,32,メロン,13,understands,0
+Japanese,All,33,メロン,16,produces,0.75
+Japanese,All,33,メロン,16,understands,0
+Japanese,All,34,メロン,13,produces,0.6154
+Japanese,All,34,メロン,13,understands,0
+Japanese,All,35,メロン,31,produces,0.7419
+Japanese,All,35,メロン,31,understands,0
+Japanese,All,36,メロン,18,produces,0.7778
+Japanese,All,36,メロン,18,understands,0
+Korean,All,18,메론,88,produces,0.0227
+Korean,All,18,메론,88,understands,0
+Korean,All,19,메론,77,produces,0.039
+Korean,All,19,메론,77,understands,0
+Korean,All,20,메론,88,produces,0.0682
+Korean,All,20,메론,88,understands,0
+Korean,All,21,메론,79,produces,0.0759
+Korean,All,21,메론,79,understands,0
+Korean,All,22,메론,87,produces,0.0805
+Korean,All,22,메론,87,understands,0
+Korean,All,23,메론,87,produces,0.1149
+Korean,All,23,메론,87,understands,0
+Korean,All,24,메론,107,produces,0.1776
+Korean,All,24,메론,107,understands,0
+Korean,All,25,메론,95,produces,0.1474
+Korean,All,25,메론,95,understands,0
+Korean,All,26,메론,91,produces,0.2857
+Korean,All,26,메론,91,understands,0
+Korean,All,27,메론,104,produces,0.2692
+Korean,All,27,메론,104,understands,0
+Korean,All,28,메론,89,produces,0.3371
+Korean,All,28,메론,89,understands,0
+Korean,All,29,메론,101,produces,0.4752
+Korean,All,29,메론,101,understands,0
+Korean,All,30,메론,81,produces,0.3827
+Korean,All,30,메론,81,understands,0
+Korean,All,31,메론,79,produces,0.4051
+Korean,All,31,메론,79,understands,0
+Korean,All,32,메론,70,produces,0.3429
+Korean,All,32,메론,70,understands,0
+Korean,All,33,메론,79,produces,0.3924
+Korean,All,33,메론,79,understands,0
+Korean,All,34,메론,79,produces,0.6329
+Korean,All,34,메론,79,understands,0
+Korean,All,35,메론,74,produces,0.5811
+Korean,All,35,메론,74,understands,0
+Korean,All,36,메론,75,produces,0.4533
+Korean,All,36,메론,75,understands,0
+Mandarin (Beijing),All,16,"瓜, 瓜子",70,produces,0.1214
+Mandarin (Beijing),All,16,"瓜, 瓜子",70,understands,0
+Mandarin (Beijing),All,17,"瓜, 瓜子",112,produces,0.2391
+Mandarin (Beijing),All,17,"瓜, 瓜子",112,understands,0
+Mandarin (Beijing),All,18,"瓜, 瓜子",121,produces,0.3229
+Mandarin (Beijing),All,18,"瓜, 瓜子",121,understands,0
+Mandarin (Beijing),All,19,"瓜, 瓜子",120,produces,0.4368
+Mandarin (Beijing),All,19,"瓜, 瓜子",120,understands,0
+Mandarin (Beijing),All,20,"瓜, 瓜子",121,produces,0.5156
+Mandarin (Beijing),All,20,"瓜, 瓜子",121,understands,0
+Mandarin (Beijing),All,21,"瓜, 瓜子",119,produces,0.619
+Mandarin (Beijing),All,21,"瓜, 瓜子",119,understands,0
+Mandarin (Beijing),All,22,"瓜, 瓜子",117,produces,0.7447
+Mandarin (Beijing),All,22,"瓜, 瓜子",117,understands,0
+Mandarin (Beijing),All,23,"瓜, 瓜子",120,produces,0.8105
+Mandarin (Beijing),All,23,"瓜, 瓜子",120,understands,0
+Mandarin (Beijing),All,24,"瓜, 瓜子",120,produces,0.7737
+Mandarin (Beijing),All,24,"瓜, 瓜子",120,understands,0
+Mandarin (Beijing),All,25,"瓜, 瓜子",113,produces,0.9126
+Mandarin (Beijing),All,25,"瓜, 瓜子",113,understands,0
+Mandarin (Beijing),All,26,"瓜, 瓜子",118,produces,0.8995
+Mandarin (Beijing),All,26,"瓜, 瓜子",118,understands,0
+Mandarin (Beijing),All,27,"瓜, 瓜子",114,produces,0.9076
+Mandarin (Beijing),All,27,"瓜, 瓜子",114,understands,0
+Mandarin (Beijing),All,28,"瓜, 瓜子",114,produces,0.9239
+Mandarin (Beijing),All,28,"瓜, 瓜子",114,understands,0
+Mandarin (Beijing),All,29,"瓜, 瓜子",119,produces,0.963
+Mandarin (Beijing),All,29,"瓜, 瓜子",119,understands,0
+Mandarin (Beijing),All,30,"瓜, 瓜子",110,produces,0.9444
+Mandarin (Beijing),All,30,"瓜, 瓜子",110,understands,0
+Mandarin (Taiwanese),All,8,西瓜,86,produces,0
+Mandarin (Taiwanese),All,8,西瓜,86,understands,0.1395
+Mandarin (Taiwanese),All,9,西瓜,79,produces,0
+Mandarin (Taiwanese),All,9,西瓜,79,understands,0.2025
+Mandarin (Taiwanese),All,10,西瓜,78,produces,0
+Mandarin (Taiwanese),All,10,西瓜,78,understands,0.1282
+Mandarin (Taiwanese),All,11,西瓜,79,produces,0
+Mandarin (Taiwanese),All,11,西瓜,79,understands,0.0759
+Mandarin (Taiwanese),All,12,西瓜,80,produces,0
+Mandarin (Taiwanese),All,12,西瓜,80,understands,0.05
+Mandarin (Taiwanese),All,13,西瓜,78,produces,0
+Mandarin (Taiwanese),All,13,西瓜,78,understands,0.1026
+Mandarin (Taiwanese),All,14,西瓜,81,produces,0
+Mandarin (Taiwanese),All,14,西瓜,81,understands,0.0617
+Mandarin (Taiwanese),All,15,西瓜,106,produces,0.0377
+Mandarin (Taiwanese),All,15,西瓜,106,understands,0.2075
+Mandarin (Taiwanese),All,16,"西瓜, 香瓜(哈密瓜)",170,produces,0.02
+Mandarin (Taiwanese),All,16,"西瓜, 香瓜(哈密瓜)",170,understands,0.06
+Mandarin (Taiwanese),All,17,"西瓜, 香瓜(哈密瓜)",87,produces,0.0517
+Mandarin (Taiwanese),All,17,"西瓜, 香瓜(哈密瓜)",87,understands,0
+Mandarin (Taiwanese),All,18,"西瓜, 香瓜(哈密瓜)",84,produces,0.0774
+Mandarin (Taiwanese),All,18,"西瓜, 香瓜(哈密瓜)",84,understands,0
+Mandarin (Taiwanese),All,19,"西瓜, 香瓜(哈密瓜)",84,produces,0.125
+Mandarin (Taiwanese),All,19,"西瓜, 香瓜(哈密瓜)",84,understands,0
+Mandarin (Taiwanese),All,20,"西瓜, 香瓜(哈密瓜)",84,produces,0.1548
+Mandarin (Taiwanese),All,20,"西瓜, 香瓜(哈密瓜)",84,understands,0
+Mandarin (Taiwanese),All,21,"西瓜, 香瓜(哈密瓜)",88,produces,0.2045
+Mandarin (Taiwanese),All,21,"西瓜, 香瓜(哈密瓜)",88,understands,0
+Mandarin (Taiwanese),All,22,"西瓜, 香瓜(哈密瓜)",96,produces,0.2552
+Mandarin (Taiwanese),All,22,"西瓜, 香瓜(哈密瓜)",96,understands,0
+Mandarin (Taiwanese),All,23,"西瓜, 香瓜(哈密瓜)",105,produces,0.319
+Mandarin (Taiwanese),All,23,"西瓜, 香瓜(哈密瓜)",105,understands,0
+Mandarin (Taiwanese),All,24,"西瓜, 香瓜(哈密瓜)",124,produces,0.3185
+Mandarin (Taiwanese),All,24,"西瓜, 香瓜(哈密瓜)",124,understands,0
+Mandarin (Taiwanese),All,25,"西瓜, 香瓜(哈密瓜)",110,produces,0.4318
+Mandarin (Taiwanese),All,25,"西瓜, 香瓜(哈密瓜)",110,understands,0
+Mandarin (Taiwanese),All,26,"西瓜, 香瓜(哈密瓜)",87,produces,0.431
+Mandarin (Taiwanese),All,26,"西瓜, 香瓜(哈密瓜)",87,understands,0
+Mandarin (Taiwanese),All,27,"西瓜, 香瓜(哈密瓜)",92,produces,0.4891
+Mandarin (Taiwanese),All,27,"西瓜, 香瓜(哈密瓜)",92,understands,0
+Mandarin (Taiwanese),All,28,"西瓜, 香瓜(哈密瓜)",100,produces,0.59
+Mandarin (Taiwanese),All,28,"西瓜, 香瓜(哈密瓜)",100,understands,0
+Mandarin (Taiwanese),All,29,"西瓜, 香瓜(哈密瓜)",88,produces,0.5568
+Mandarin (Taiwanese),All,29,"西瓜, 香瓜(哈密瓜)",88,understands,0
+Mandarin (Taiwanese),All,30,"西瓜, 香瓜(哈密瓜)",94,produces,0.6064
+Mandarin (Taiwanese),All,30,"西瓜, 香瓜(哈密瓜)",94,understands,0
+Mandarin (Taiwanese),All,31,"西瓜, 香瓜(哈密瓜)",88,produces,0.6307
+Mandarin (Taiwanese),All,31,"西瓜, 香瓜(哈密瓜)",88,understands,0
+Mandarin (Taiwanese),All,32,"西瓜, 香瓜(哈密瓜)",82,produces,0.6341
+Mandarin (Taiwanese),All,32,"西瓜, 香瓜(哈密瓜)",82,understands,0
+Mandarin (Taiwanese),All,33,"西瓜, 香瓜(哈密瓜)",85,produces,0.7118
+Mandarin (Taiwanese),All,33,"西瓜, 香瓜(哈密瓜)",85,understands,0
+Mandarin (Taiwanese),All,34,"西瓜, 香瓜(哈密瓜)",77,produces,0.6883
+Mandarin (Taiwanese),All,34,"西瓜, 香瓜(哈密瓜)",77,understands,0
+Mandarin (Taiwanese),All,35,"西瓜, 香瓜(哈密瓜)",81,produces,0.7593
+Mandarin (Taiwanese),All,35,"西瓜, 香瓜(哈密瓜)",81,understands,0
+Mandarin (Taiwanese),All,36,"西瓜, 香瓜(哈密瓜)",81,produces,0.7099
+Mandarin (Taiwanese),All,36,"西瓜, 香瓜(哈密瓜)",81,understands,0
+Norwegian,All,16,melon,98,produces,0.0204
+Norwegian,All,16,melon,98,understands,0
+Norwegian,All,17,melon,218,produces,0.0183
+Norwegian,All,17,melon,218,understands,0
+Norwegian,All,18,melon,271,produces,0.0258
+Norwegian,All,18,melon,271,understands,0
+Norwegian,All,19,melon,281,produces,0.0605
+Norwegian,All,19,melon,281,understands,0
+Norwegian,All,20,melon,342,produces,0.1023
+Norwegian,All,20,melon,342,understands,0
+Norwegian,All,21,melon,418,produces,0.1244
+Norwegian,All,21,melon,418,understands,0
+Norwegian,All,22,melon,596,produces,0.1745
+Norwegian,All,22,melon,596,understands,0
+Norwegian,All,23,melon,566,produces,0.2633
+Norwegian,All,23,melon,566,understands,0
+Norwegian,All,24,melon,538,produces,0.2751
+Norwegian,All,24,melon,538,understands,0
+Norwegian,All,25,melon,656,produces,0.3887
+Norwegian,All,25,melon,656,understands,0
+Norwegian,All,26,melon,644,produces,0.4984
+Norwegian,All,26,melon,644,understands,0
+Norwegian,All,27,melon,525,produces,0.5562
+Norwegian,All,27,melon,525,understands,0
+Norwegian,All,28,melon,544,produces,0.5735
+Norwegian,All,28,melon,544,understands,0
+Norwegian,All,29,melon,536,produces,0.6101
+Norwegian,All,29,melon,536,understands,0
+Norwegian,All,30,melon,457,produces,0.6827
+Norwegian,All,30,melon,457,understands,0
+Norwegian,All,31,melon,479,produces,0.6889
+Norwegian,All,31,melon,479,understands,0
+Norwegian,All,32,melon,451,produces,0.765
+Norwegian,All,32,melon,451,understands,0
+Norwegian,All,33,melon,430,produces,0.7558
+Norwegian,All,33,melon,430,understands,0
+Norwegian,All,34,melon,424,produces,0.7877
+Norwegian,All,34,melon,424,understands,0
+Norwegian,All,35,melon,422,produces,0.7725
+Norwegian,All,35,melon,422,understands,0
+Norwegian,All,36,melon,329,produces,0.7872
+Norwegian,All,36,melon,329,understands,0
+Portuguese (European),All,16,Melão,144,produces,0
+Portuguese (European),All,16,Melão,144,understands,0
+Portuguese (European),All,17,Melão,158,produces,0.0127
+Portuguese (European),All,17,Melão,158,understands,0
+Portuguese (European),All,18,Melão,203,produces,0.0345
+Portuguese (European),All,18,Melão,203,understands,0
+Portuguese (European),All,19,Melão,196,produces,0.0306
+Portuguese (European),All,19,Melão,196,understands,0
+Portuguese (European),All,20,Melão,218,produces,0.0596
+Portuguese (European),All,20,Melão,218,understands,0
+Portuguese (European),All,21,Melão,208,produces,0.0817
+Portuguese (European),All,21,Melão,208,understands,0
+Portuguese (European),All,22,Melão,213,produces,0.1362
+Portuguese (European),All,22,Melão,213,understands,0
+Portuguese (European),All,23,Melão,199,produces,0.1005
+Portuguese (European),All,23,Melão,199,understands,0
+Portuguese (European),All,24,Melão,215,produces,0.2279
+Portuguese (European),All,24,Melão,215,understands,0
+Portuguese (European),All,25,Melão,213,produces,0.2723
+Portuguese (European),All,25,Melão,213,understands,0
+Portuguese (European),All,26,Melão,218,produces,0.289
+Portuguese (European),All,26,Melão,218,understands,0
+Portuguese (European),All,27,Melão,238,produces,0.3655
+Portuguese (European),All,27,Melão,238,understands,0
+Portuguese (European),All,28,Melão,219,produces,0.347
+Portuguese (European),All,28,Melão,219,understands,0
+Portuguese (European),All,29,Melão,207,produces,0.4493
+Portuguese (European),All,29,Melão,207,understands,0
+Portuguese (European),All,30,Melão,163,produces,0.4417
+Portuguese (European),All,30,Melão,163,understands,0
+Spanish (Argentinian),All,16,melón,47,produces,0
+Spanish (Argentinian),All,16,melón,47,understands,0
+Spanish (Argentinian),All,17,melón,49,produces,0.0204
+Spanish (Argentinian),All,17,melón,49,understands,0
+Spanish (Argentinian),All,18,melón,62,produces,0.0323
+Spanish (Argentinian),All,18,melón,62,understands,0
+Spanish (Argentinian),All,19,melón,44,produces,0.0227
+Spanish (Argentinian),All,19,melón,44,understands,0
+Spanish (Argentinian),All,20,melón,46,produces,0
+Spanish (Argentinian),All,20,melón,46,understands,0
+Spanish (Argentinian),All,21,melón,41,produces,0.122
+Spanish (Argentinian),All,21,melón,41,understands,0
+Spanish (Argentinian),All,22,melón,57,produces,0.0526
+Spanish (Argentinian),All,22,melón,57,understands,0
+Spanish (Argentinian),All,23,melón,49,produces,0.0408
+Spanish (Argentinian),All,23,melón,49,understands,0
+Spanish (Argentinian),All,24,melón,75,produces,0.1067
+Spanish (Argentinian),All,24,melón,75,understands,0
+Spanish (Argentinian),All,25,melón,43,produces,0.2791
+Spanish (Argentinian),All,25,melón,43,understands,0
+Spanish (Argentinian),All,26,melón,45,produces,0.0444
+Spanish (Argentinian),All,26,melón,45,understands,0
+Spanish (Argentinian),All,27,melón,44,produces,0.1136
+Spanish (Argentinian),All,27,melón,44,understands,0
+Spanish (Argentinian),All,28,melón,42,produces,0.0714
+Spanish (Argentinian),All,28,melón,42,understands,0
+Spanish (Argentinian),All,29,melón,65,produces,0.2308
+Spanish (Argentinian),All,29,melón,65,understands,0
+Spanish (Argentinian),All,30,melón,69,produces,0.2464
+Spanish (Argentinian),All,30,melón,69,understands,0
+Spanish (Argentinian),All,31,melón,2,produces,0
+Spanish (Argentinian),All,31,melón,2,understands,0
+Spanish (Argentinian),All,32,melón,1,produces,1
+Spanish (Argentinian),All,32,melón,1,understands,0
+Spanish (Argentinian),All,33,melón,2,produces,0
+Spanish (Argentinian),All,33,melón,2,understands,0
+Spanish (European),All,16,melón,39,produces,0.0256
+Spanish (European),All,16,melón,39,understands,0
+Spanish (European),All,17,melón,39,produces,0.0256
+Spanish (European),All,17,melón,39,understands,0
+Spanish (European),All,18,melón,50,produces,0.06
+Spanish (European),All,18,melón,50,understands,0
+Spanish (European),All,19,melón,27,produces,0.1111
+Spanish (European),All,19,melón,27,understands,0
+Spanish (European),All,20,melón,36,produces,0.0556
+Spanish (European),All,20,melón,36,understands,0
+Spanish (European),All,21,melón,41,produces,0.122
+Spanish (European),All,21,melón,41,understands,0
+Spanish (European),All,22,melón,38,produces,0.2105
+Spanish (European),All,22,melón,38,understands,0
+Spanish (European),All,23,melón,30,produces,0.1333
+Spanish (European),All,23,melón,30,understands,0
+Spanish (European),All,24,melón,55,produces,0.2182
+Spanish (European),All,24,melón,55,understands,0
+Spanish (European),All,25,melón,35,produces,0.2857
+Spanish (European),All,25,melón,35,understands,0
+Spanish (European),All,26,melón,49,produces,0.3469
+Spanish (European),All,26,melón,49,understands,0
+Spanish (European),All,27,melón,34,produces,0.4706
+Spanish (European),All,27,melón,34,understands,0
+Spanish (European),All,28,melón,38,produces,0.3947
+Spanish (European),All,28,melón,38,understands,0
+Spanish (European),All,29,melón,41,produces,0.5854
+Spanish (European),All,29,melón,41,understands,0
+Spanish (European),All,30,melón,41,produces,0.6098
+Spanish (European),All,30,melón,41,understands,0
+Spanish (Mexican),All,16,melón,68,produces,0.0441
+Spanish (Mexican),All,16,melón,68,understands,0
+Spanish (Mexican),All,17,melón,59,produces,0.1356
+Spanish (Mexican),All,17,melón,59,understands,0
+Spanish (Mexican),All,18,melón,75,produces,0.0933
+Spanish (Mexican),All,18,melón,75,understands,0
+Spanish (Mexican),All,19,melón,100,produces,0.28
+Spanish (Mexican),All,19,melón,100,understands,0
+Spanish (Mexican),All,20,melón,107,produces,0.2991
+Spanish (Mexican),All,20,melón,107,understands,0
+Spanish (Mexican),All,21,melón,84,produces,0.2024
+Spanish (Mexican),All,21,melón,84,understands,0
+Spanish (Mexican),All,22,melón,141,produces,0.2057
+Spanish (Mexican),All,22,melón,141,understands,0
+Spanish (Mexican),All,23,melón,91,produces,0.2527
+Spanish (Mexican),All,23,melón,91,understands,0
+Spanish (Mexican),All,24,melón,126,produces,0.3492
+Spanish (Mexican),All,24,melón,126,understands,0
+Spanish (Mexican),All,25,melón,177,produces,0.3107
+Spanish (Mexican),All,25,melón,177,understands,0
+Spanish (Mexican),All,26,melón,83,produces,0.4458
+Spanish (Mexican),All,26,melón,83,understands,0
+Spanish (Mexican),All,27,melón,85,produces,0.6118
+Spanish (Mexican),All,27,melón,85,understands,0
+Spanish (Mexican),All,28,melón,89,produces,0.5955
+Spanish (Mexican),All,28,melón,89,understands,0
+Spanish (Mexican),All,29,melón,89,produces,0.5955
+Spanish (Mexican),All,29,melón,89,understands,0
+Spanish (Mexican),All,30,melón,308,produces,0.3279
+Spanish (Mexican),All,30,melón,308,understands,0
+Spanish (Peruvian),All,16,melón,13,produces,0.0769
+Spanish (Peruvian),All,16,melón,13,understands,0
+Spanish (Peruvian),All,17,melón,9,produces,0
+Spanish (Peruvian),All,17,melón,9,understands,0
+Spanish (Peruvian),All,18,melón,4,produces,0
+Spanish (Peruvian),All,18,melón,4,understands,0
+Spanish (Peruvian),All,19,melón,12,produces,0
+Spanish (Peruvian),All,19,melón,12,understands,0
+Spanish (Peruvian),All,20,melón,1,produces,0
+Spanish (Peruvian),All,20,melón,1,understands,0
+Spanish (Peruvian),All,21,melón,5,produces,0
+Spanish (Peruvian),All,21,melón,5,understands,0
+Spanish (Peruvian),All,22,melón,9,produces,0
+Spanish (Peruvian),All,22,melón,9,understands,0
+Spanish (Peruvian),All,23,melón,1,produces,1
+Spanish (Peruvian),All,23,melón,1,understands,0
+Spanish (Peruvian),All,24,melón,15,produces,0.0667
+Spanish (Peruvian),All,24,melón,15,understands,0
+Spanish (Peruvian),All,25,melón,5,produces,0
+Spanish (Peruvian),All,25,melón,5,understands,0
+Spanish (Peruvian),All,26,melón,8,produces,0
+Spanish (Peruvian),All,26,melón,8,understands,0
+Spanish (Peruvian),All,27,melón,7,produces,0.1429
+Spanish (Peruvian),All,27,melón,7,understands,0
+Spanish (Peruvian),All,28,melón,8,produces,0
+Spanish (Peruvian),All,28,melón,8,understands,0
+Spanish (Peruvian),All,29,melón,6,produces,0.3333
+Spanish (Peruvian),All,29,melón,6,understands,0
+Spanish (Peruvian),All,30,melón,2,produces,0
+Spanish (Peruvian),All,30,melón,2,understands,0
+Swedish,All,16,melon,159,produces,0
+Swedish,All,16,melon,159,understands,0
+Swedish,All,19,melon,152,produces,0.0132
+Swedish,All,19,melon,152,understands,0
+Swedish,All,22,melon,307,produces,0.101
+Swedish,All,22,melon,307,understands,0
+Swedish,All,25,melon,143,produces,0.1888
+Swedish,All,25,melon,143,understands,0
+Swedish,All,28,melon,139,produces,0.2302
+Swedish,All,28,melon,139,understands,0
+American Sign Language,Female,9,MELON,4,produces,0
+American Sign Language,Female,9,MELON,4,understands,0
+American Sign Language,Female,10,MELON,1,produces,0
+American Sign Language,Female,10,MELON,1,understands,0
+American Sign Language,Male,10,MELON,1,produces,0
+American Sign Language,Male,10,MELON,1,understands,0
+American Sign Language,Female,11,MELON,1,produces,0
+American Sign Language,Female,11,MELON,1,understands,0
+American Sign Language,Male,11,MELON,1,produces,0
+American Sign Language,Male,11,MELON,1,understands,0
+American Sign Language,Female,12,MELON,1,produces,0
+American Sign Language,Female,12,MELON,1,understands,0
+American Sign Language,Male,12,MELON,1,produces,0
+American Sign Language,Male,12,MELON,1,understands,0
+American Sign Language,Male,15,MELON,1,produces,0
+American Sign Language,Male,15,MELON,1,understands,0
+American Sign Language,Female,16,MELON,2,produces,0
+American Sign Language,Female,16,MELON,2,understands,0
+American Sign Language,Female,17,MELON,2,produces,0
+American Sign Language,Female,17,MELON,2,understands,0.5
+American Sign Language,Male,17,MELON,1,produces,0
+American Sign Language,Male,17,MELON,1,understands,0
+American Sign Language,Female,18,MELON,5,produces,0.4
+American Sign Language,Female,18,MELON,5,understands,0.8
+American Sign Language,Male,18,MELON,2,produces,0.5
+American Sign Language,Male,18,MELON,2,understands,0.5
+American Sign Language,Female,19,MELON,2,produces,0
+American Sign Language,Female,19,MELON,2,understands,0.5
+American Sign Language,Male,19,MELON,3,produces,0.3333
+American Sign Language,Male,19,MELON,3,understands,0.6667
+American Sign Language,Male,20,MELON,2,produces,1
+American Sign Language,Male,20,MELON,2,understands,1
+American Sign Language,Female,21,MELON,1,produces,1
+American Sign Language,Female,21,MELON,1,understands,1
+American Sign Language,Male,21,MELON,1,produces,0
+American Sign Language,Male,21,MELON,1,understands,1
+American Sign Language,Female,22,MELON,8,produces,0.125
+American Sign Language,Female,22,MELON,8,understands,0.625
+American Sign Language,Female,23,MELON,1,produces,1
+American Sign Language,Female,23,MELON,1,understands,1
+American Sign Language,Male,23,MELON,1,produces,1
+American Sign Language,Male,23,MELON,1,understands,1
+American Sign Language,Female,24,MELON,1,produces,0
+American Sign Language,Female,24,MELON,1,understands,1
+American Sign Language,Male,24,MELON,5,produces,0.2
+American Sign Language,Male,24,MELON,5,understands,0.2
+American Sign Language,Female,25,MELON,4,produces,0.5
+American Sign Language,Female,25,MELON,4,understands,0.75
+American Sign Language,Male,25,MELON,7,produces,0.1429
+American Sign Language,Male,25,MELON,7,understands,0.5714
+American Sign Language,Female,26,MELON,2,produces,0.5
+American Sign Language,Female,26,MELON,2,understands,1
+American Sign Language,Male,26,MELON,2,produces,1
+American Sign Language,Male,26,MELON,2,understands,1
+American Sign Language,Female,27,MELON,4,produces,0.5
+American Sign Language,Female,27,MELON,4,understands,0.75
+American Sign Language,Male,27,MELON,1,produces,1
+American Sign Language,Male,27,MELON,1,understands,1
+American Sign Language,Female,28,MELON,1,produces,1
+American Sign Language,Female,28,MELON,1,understands,1
+American Sign Language,Male,28,MELON,2,produces,1
+American Sign Language,Male,28,MELON,2,understands,1
+American Sign Language,Female,29,MELON,1,produces,1
+American Sign Language,Female,29,MELON,1,understands,1
+American Sign Language,Male,29,MELON,5,produces,0.8
+American Sign Language,Male,29,MELON,5,understands,1
+American Sign Language,Female,30,MELON,2,produces,1
+American Sign Language,Female,30,MELON,2,understands,1
+American Sign Language,Male,30,MELON,2,produces,0.5
+American Sign Language,Male,30,MELON,2,understands,1
+American Sign Language,Female,31,MELON,3,produces,0.6667
+American Sign Language,Female,31,MELON,3,understands,0.6667
+American Sign Language,Male,31,MELON,3,produces,0.3333
+American Sign Language,Male,31,MELON,3,understands,0.6667
+American Sign Language,Female,32,MELON,3,produces,0.3333
+American Sign Language,Female,32,MELON,3,understands,0.6667
+American Sign Language,Male,32,MELON,4,produces,0.75
+American Sign Language,Male,32,MELON,4,understands,1
+American Sign Language,Female,33,MELON,2,produces,0.5
+American Sign Language,Female,33,MELON,2,understands,1
+American Sign Language,Male,33,MELON,2,produces,1
+American Sign Language,Male,33,MELON,2,understands,1
+American Sign Language,Female,34,MELON,1,produces,1
+American Sign Language,Female,34,MELON,1,understands,1
+American Sign Language,Male,34,MELON,4,produces,0.75
+American Sign Language,Male,34,MELON,4,understands,1
+American Sign Language,Female,35,MELON,2,produces,0
+American Sign Language,Female,35,MELON,2,understands,1
+American Sign Language,Male,35,MELON,2,produces,0
+American Sign Language,Male,35,MELON,2,understands,1
+American Sign Language,Female,36,MELON,3,produces,0
+American Sign Language,Female,36,MELON,3,understands,0.6667
+Cantonese,Female,16,瓜,23,produces,0.1304
+Cantonese,Female,16,瓜,23,understands,0
+Cantonese,Male,16,瓜,23,produces,0.0435
+Cantonese,Male,16,瓜,23,understands,0
+Cantonese,Female,17,瓜,30,produces,0.2333
+Cantonese,Female,17,瓜,30,understands,0
+Cantonese,Male,17,瓜,31,produces,0.0968
+Cantonese,Male,17,瓜,31,understands,0
+Cantonese,Female,18,瓜,33,produces,0.2121
+Cantonese,Female,18,瓜,33,understands,0
+Cantonese,Male,18,瓜,35,produces,0.1429
+Cantonese,Male,18,瓜,35,understands,0
+Cantonese,Female,19,瓜,30,produces,0.3333
+Cantonese,Female,19,瓜,30,understands,0
+Cantonese,Male,19,瓜,36,produces,0.1389
+Cantonese,Male,19,瓜,36,understands,0
+Cantonese,Female,20,瓜,62,produces,0.3065
+Cantonese,Female,20,瓜,62,understands,0
+Cantonese,Male,20,瓜,78,produces,0.3205
+Cantonese,Male,20,瓜,78,understands,0
+Cantonese,Female,21,瓜,57,produces,0.3684
+Cantonese,Female,21,瓜,57,understands,0
+Cantonese,Male,21,瓜,63,produces,0.2222
+Cantonese,Male,21,瓜,63,understands,0
+Cantonese,Female,22,瓜,34,produces,0.6471
+Cantonese,Female,22,瓜,34,understands,0
+Cantonese,Male,22,瓜,34,produces,0.3235
+Cantonese,Male,22,瓜,34,understands,0
+Cantonese,Female,23,瓜,37,produces,0.4054
+Cantonese,Female,23,瓜,37,understands,0
+Cantonese,Male,23,瓜,37,produces,0.3243
+Cantonese,Male,23,瓜,37,understands,0
+Cantonese,Female,24,瓜,32,produces,0.5
+Cantonese,Female,24,瓜,32,understands,0
+Cantonese,Male,24,瓜,36,produces,0.4444
+Cantonese,Male,24,瓜,36,understands,0
+Cantonese,Female,25,瓜,31,produces,0.6774
+Cantonese,Female,25,瓜,31,understands,0
+Cantonese,Male,25,瓜,34,produces,0.6176
+Cantonese,Male,25,瓜,34,understands,0
+Cantonese,Female,26,瓜,31,produces,0.5484
+Cantonese,Female,26,瓜,31,understands,0
+Cantonese,Male,26,瓜,37,produces,0.3784
+Cantonese,Male,26,瓜,37,understands,0
+Cantonese,Female,27,瓜,31,produces,0.5484
+Cantonese,Female,27,瓜,31,understands,0
+Cantonese,Male,27,瓜,31,produces,0.5484
+Cantonese,Male,27,瓜,31,understands,0
+Cantonese,Female,28,瓜,32,produces,0.75
+Cantonese,Female,28,瓜,32,understands,0
+Cantonese,Male,28,瓜,34,produces,0.6471
+Cantonese,Male,28,瓜,34,understands,0
+Cantonese,Female,29,瓜,36,produces,0.75
+Cantonese,Female,29,瓜,36,understands,0
+Cantonese,Male,29,瓜,36,produces,0.5278
+Cantonese,Male,29,瓜,36,understands,0
+Cantonese,Female,30,瓜,76,produces,0.8289
+Cantonese,Female,30,瓜,76,understands,0
+Cantonese,Male,30,瓜,88,produces,0.75
+Cantonese,Male,30,瓜,88,understands,0
+Catalan,Female,16,melo,8,produces,0
+Catalan,Female,16,melo,8,understands,0
+Catalan,Male,16,melo,16,produces,0
+Catalan,Male,16,melo,16,understands,0
+Catalan,Female,17,melo,22,produces,0
+Catalan,Female,17,melo,22,understands,0
+Catalan,Male,17,melo,14,produces,0
+Catalan,Male,17,melo,14,understands,0
+Catalan,Female,18,melo,22,produces,0.0909
+Catalan,Female,18,melo,22,understands,0
+Catalan,Male,18,melo,29,produces,0.0345
+Catalan,Male,18,melo,29,understands,0
+Catalan,Female,19,melo,25,produces,0.08
+Catalan,Female,19,melo,25,understands,0
+Catalan,Male,19,melo,20,produces,0.05
+Catalan,Male,19,melo,20,understands,0
+Catalan,Female,20,melo,28,produces,0.0714
+Catalan,Female,20,melo,28,understands,0
+Catalan,Male,20,melo,28,produces,0.1429
+Catalan,Male,20,melo,28,understands,0
+Catalan,Female,21,melo,32,produces,0.1562
+Catalan,Female,21,melo,32,understands,0
+Catalan,Male,21,melo,26,produces,0.2692
+Catalan,Male,21,melo,26,understands,0
+Catalan,Female,22,melo,26,produces,0.3846
+Catalan,Female,22,melo,26,understands,0
+Catalan,Male,22,melo,24,produces,0.2083
+Catalan,Male,22,melo,24,understands,0
+Catalan,Female,23,melo,35,produces,0.1429
+Catalan,Female,23,melo,35,understands,0
+Catalan,Male,23,melo,31,produces,0.2903
+Catalan,Male,23,melo,31,understands,0
+Catalan,Female,24,melo,41,produces,0.3659
+Catalan,Female,24,melo,41,understands,0
+Catalan,Male,24,melo,38,produces,0.2368
+Catalan,Male,24,melo,38,understands,0
+Catalan,Female,25,melo,30,produces,0.3667
+Catalan,Female,25,melo,30,understands,0
+Catalan,Male,25,melo,30,produces,0.5333
+Catalan,Male,25,melo,30,understands,0
+Catalan,Female,26,melo,35,produces,0.5714
+Catalan,Female,26,melo,35,understands,0
+Catalan,Male,26,melo,30,produces,0.5
+Catalan,Male,26,melo,30,understands,0
+Catalan,Female,27,melo,36,produces,0.5833
+Catalan,Female,27,melo,36,understands,0
+Catalan,Male,27,melo,27,produces,0.6667
+Catalan,Male,27,melo,27,understands,0
+Catalan,Female,28,melo,40,produces,0.625
+Catalan,Female,28,melo,40,understands,0
+Catalan,Male,28,melo,41,produces,0.561
+Catalan,Male,28,melo,41,understands,0
+Catalan,Female,29,melo,25,produces,0.72
+Catalan,Female,29,melo,25,understands,0
+Catalan,Male,29,melo,25,produces,0.76
+Catalan,Male,29,melo,25,understands,0
+Catalan,Female,30,melo,24,produces,0.7083
+Catalan,Female,30,melo,24,understands,0
+Catalan,Male,30,melo,51,produces,0.7647
+Catalan,Male,30,melo,51,understands,0
+Czech,Female,16,meloun,13,produces,0.0769
+Czech,Female,16,meloun,13,understands,0
+Czech,Male,16,meloun,16,produces,0
+Czech,Male,16,meloun,16,understands,0
+Czech,Female,17,meloun,16,produces,0
+Czech,Female,17,meloun,16,understands,0
+Czech,Male,17,meloun,13,produces,0
+Czech,Male,17,meloun,13,understands,0
+Czech,Female,18,meloun,18,produces,0.1667
+Czech,Female,18,meloun,18,understands,0
+Czech,Male,18,meloun,27,produces,0.037
+Czech,Male,18,meloun,27,understands,0
+Czech,Female,19,meloun,17,produces,0.0588
+Czech,Female,19,meloun,17,understands,0
+Czech,Male,19,meloun,10,produces,0
+Czech,Male,19,meloun,10,understands,0
+Czech,Female,20,meloun,15,produces,0.2667
+Czech,Female,20,meloun,15,understands,0
+Czech,Male,20,meloun,11,produces,0.0909
+Czech,Male,20,meloun,11,understands,0
+Czech,Female,21,meloun,18,produces,0.1111
+Czech,Female,21,meloun,18,understands,0
+Czech,Male,21,meloun,16,produces,0.125
+Czech,Male,21,meloun,16,understands,0
+Czech,Female,22,meloun,17,produces,0.4706
+Czech,Female,22,meloun,17,understands,0
+Czech,Male,22,meloun,19,produces,0.2632
+Czech,Male,22,meloun,19,understands,0
+Czech,Female,23,meloun,21,produces,0.381
+Czech,Female,23,meloun,21,understands,0
+Czech,Male,23,meloun,25,produces,0.2
+Czech,Male,23,meloun,25,understands,0
+Czech,Female,24,meloun,16,produces,0.4375
+Czech,Female,24,meloun,16,understands,0
+Czech,Male,24,meloun,19,produces,0.2632
+Czech,Male,24,meloun,19,understands,0
+Czech,Female,25,meloun,17,produces,0.4706
+Czech,Female,25,meloun,17,understands,0
+Czech,Male,25,meloun,18,produces,0.3333
+Czech,Male,25,meloun,18,understands,0
+Czech,Female,26,meloun,14,produces,0.3571
+Czech,Female,26,meloun,14,understands,0
+Czech,Male,26,meloun,8,produces,0.375
+Czech,Male,26,meloun,8,understands,0
+Czech,Female,27,meloun,23,produces,0.4348
+Czech,Female,27,meloun,23,understands,0
+Czech,Male,27,meloun,14,produces,0.4286
+Czech,Male,27,meloun,14,understands,0
+Czech,Female,28,meloun,16,produces,0.8125
+Czech,Female,28,meloun,16,understands,0
+Czech,Male,28,meloun,10,produces,0.7
+Czech,Male,28,meloun,10,understands,0
+Czech,Female,29,meloun,18,produces,0.7222
+Czech,Female,29,meloun,18,understands,0
+Czech,Male,29,meloun,21,produces,0.4286
+Czech,Male,29,meloun,21,understands,0
+Czech,Female,30,meloun,16,produces,0.5625
+Czech,Female,30,meloun,16,understands,0
+Czech,Male,30,meloun,11,produces,0.5455
+Czech,Male,30,meloun,11,understands,0
+Danish,Female,16,melon,101,produces,0.0099
+Danish,Female,16,melon,101,understands,0
+Danish,Male,16,melon,83,produces,0.012
+Danish,Male,16,melon,83,understands,0
+Danish,Female,17,melon,91,produces,0.022
+Danish,Female,17,melon,91,understands,0
+Danish,Male,17,melon,85,produces,0
+Danish,Male,17,melon,85,understands,0
+Danish,Female,18,melon,87,produces,0.0115
+Danish,Female,18,melon,87,understands,0
+Danish,Male,18,melon,73,produces,0.0274
+Danish,Male,18,melon,73,understands,0
+Danish,Female,19,melon,104,produces,0.0481
+Danish,Female,19,melon,104,understands,0
+Danish,Male,19,melon,101,produces,0
+Danish,Male,19,melon,101,understands,0
+Danish,Female,20,melon,100,produces,0.06
+Danish,Female,20,melon,100,understands,0
+Danish,Male,20,melon,96,produces,0.0417
+Danish,Male,20,melon,96,understands,0
+Danish,Female,21,melon,112,produces,0.0625
+Danish,Female,21,melon,112,understands,0
+Danish,Male,21,melon,124,produces,0.0403
+Danish,Male,21,melon,124,understands,0
+Danish,Female,22,melon,125,produces,0.184
+Danish,Female,22,melon,125,understands,0
+Danish,Male,22,melon,110,produces,0.1545
+Danish,Male,22,melon,110,understands,0
+Danish,Female,23,melon,95,produces,0.2105
+Danish,Female,23,melon,95,understands,0
+Danish,Male,23,melon,95,produces,0.1895
+Danish,Male,23,melon,95,understands,0
+Danish,Female,24,melon,112,produces,0.2411
+Danish,Female,24,melon,112,understands,0
+Danish,Male,24,melon,104,produces,0.2115
+Danish,Male,24,melon,104,understands,0
+Danish,Female,25,melon,71,produces,0.3239
+Danish,Female,25,melon,71,understands,0
+Danish,Male,25,melon,67,produces,0.1791
+Danish,Male,25,melon,67,understands,0
+Danish,Female,26,melon,108,produces,0.3611
+Danish,Female,26,melon,108,understands,0
+Danish,Male,26,melon,98,produces,0.2551
+Danish,Male,26,melon,98,understands,0
+Danish,Female,27,melon,100,produces,0.39
+Danish,Female,27,melon,100,understands,0
+Danish,Male,27,melon,76,produces,0.3289
+Danish,Male,27,melon,76,understands,0
+Danish,Female,28,melon,94,produces,0.3511
+Danish,Female,28,melon,94,understands,0
+Danish,Male,28,melon,96,produces,0.2812
+Danish,Male,28,melon,96,understands,0
+Danish,Female,29,melon,102,produces,0.451
+Danish,Female,29,melon,102,understands,0
+Danish,Male,29,melon,80,produces,0.35
+Danish,Male,29,melon,80,understands,0
+Danish,Female,30,melon,75,produces,0.5067
+Danish,Female,30,melon,75,understands,0
+Danish,Male,30,melon,98,produces,0.5408
+Danish,Male,30,melon,98,understands,0
+Danish,Female,31,melon,82,produces,0.6341
+Danish,Female,31,melon,82,understands,0
+Danish,Male,31,melon,93,produces,0.5591
+Danish,Male,31,melon,93,understands,0
+Danish,Female,32,melon,74,produces,0.6757
+Danish,Female,32,melon,74,understands,0
+Danish,Male,32,melon,69,produces,0.5797
+Danish,Male,32,melon,69,understands,0
+Danish,Female,33,melon,82,produces,0.7683
+Danish,Female,33,melon,82,understands,0
+Danish,Male,33,melon,69,produces,0.6087
+Danish,Male,33,melon,69,understands,0
+Danish,Female,34,melon,68,produces,0.7206
+Danish,Female,34,melon,68,understands,0
+Danish,Male,34,melon,75,produces,0.6267
+Danish,Male,34,melon,75,understands,0
+Danish,Female,35,melon,56,produces,0.7679
+Danish,Female,35,melon,56,understands,0
+Danish,Male,35,melon,57,produces,0.7544
+Danish,Male,35,melon,57,understands,0
+Danish,Female,36,melon,61,produces,0.7377
+Danish,Female,36,melon,61,understands,0
+Danish,Male,36,melon,65,produces,0.6615
+Danish,Male,36,melon,65,understands,0
+Dutch,Female,16,meloen,4,produces,0
+Dutch,Female,16,meloen,4,understands,0
+Dutch,Female,17,meloen,33,produces,0.0303
+Dutch,Female,17,meloen,33,understands,0
+Dutch,Male,17,meloen,16,produces,0
+Dutch,Male,17,meloen,16,understands,0
+Dutch,Female,18,meloen,38,produces,0.0526
+Dutch,Female,18,meloen,38,understands,0
+Dutch,Male,18,meloen,30,produces,0
+Dutch,Male,18,meloen,30,understands,0
+Dutch,Female,19,meloen,5,produces,0
+Dutch,Female,19,meloen,5,understands,0
+Dutch,Male,19,meloen,2,produces,0
+Dutch,Male,19,meloen,2,understands,0
+Dutch,Female,20,meloen,6,produces,0.1667
+Dutch,Female,20,meloen,6,understands,0
+Dutch,Male,20,meloen,1,produces,1
+Dutch,Male,20,meloen,1,understands,0
+Dutch,Female,21,meloen,3,produces,0.3333
+Dutch,Female,21,meloen,3,understands,0
+Dutch,Male,21,meloen,4,produces,0
+Dutch,Male,21,meloen,4,understands,0
+Dutch,Female,22,meloen,1,produces,1
+Dutch,Female,22,meloen,1,understands,0
+Dutch,Male,22,meloen,6,produces,0.3333
+Dutch,Male,22,meloen,6,understands,0
+Dutch,Female,23,meloen,25,produces,0.48
+Dutch,Female,23,meloen,25,understands,0
+Dutch,Male,23,meloen,26,produces,0.4231
+Dutch,Male,23,meloen,26,understands,0
+Dutch,Female,24,meloen,16,produces,0.5
+Dutch,Female,24,meloen,16,understands,0
+Dutch,Male,24,meloen,15,produces,0.4
+Dutch,Male,24,meloen,15,understands,0
+Dutch,Female,25,meloen,5,produces,1
+Dutch,Female,25,meloen,5,understands,0
+Dutch,Male,25,meloen,1,produces,1
+Dutch,Male,25,meloen,1,understands,0
+Dutch,Female,26,meloen,1,produces,1
+Dutch,Female,26,meloen,1,understands,0
+Dutch,Male,26,meloen,5,produces,0.4
+Dutch,Male,26,meloen,5,understands,0
+Dutch,Female,27,meloen,3,produces,1
+Dutch,Female,27,meloen,3,understands,0
+Dutch,Male,27,meloen,1,produces,0
+Dutch,Male,27,meloen,1,understands,0
+Dutch,Female,28,meloen,5,produces,1
+Dutch,Female,28,meloen,5,understands,0
+Dutch,Male,28,meloen,1,produces,0
+Dutch,Male,28,meloen,1,understands,0
+Dutch,Female,29,meloen,12,produces,0.9167
+Dutch,Female,29,meloen,12,understands,0
+Dutch,Male,29,meloen,11,produces,0.7273
+Dutch,Male,29,meloen,11,understands,0
+Dutch,Female,30,meloen,16,produces,0.8125
+Dutch,Female,30,meloen,16,understands,0
+Dutch,Male,30,meloen,8,produces,0.75
+Dutch,Male,30,meloen,8,understands,0
+Dutch,Female,31,meloen,1,produces,1
+Dutch,Female,31,meloen,1,understands,0
+Dutch,Male,31,meloen,1,produces,1
+Dutch,Male,31,meloen,1,understands,0
+English (American),Female,16,melon,392,produces,0.0255
+English (American),Female,16,melon,392,understands,0
+English (American),Male,16,melon,431,produces,0.0232
+English (American),Male,16,melon,431,understands,0
+English (American),Female,17,melon,152,produces,0.0658
+English (American),Female,17,melon,152,understands,0
+English (American),Male,17,melon,169,produces,0.0533
+English (American),Male,17,melon,169,understands,0
+English (American),Female,18,melon,256,produces,0.0742
+English (American),Female,18,melon,256,understands,0
+English (American),Male,18,melon,263,produces,0.0608
+English (American),Male,18,melon,263,understands,0
+English (American),Female,19,melon,231,produces,0.1126
+English (American),Female,19,melon,231,understands,0
+English (American),Male,19,melon,224,produces,0.0759
+English (American),Male,19,melon,224,understands,0
+English (American),Female,20,melon,205,produces,0.1366
+English (American),Female,20,melon,205,understands,0
+English (American),Male,20,melon,222,produces,0.0901
+English (American),Male,20,melon,222,understands,0
+English (American),Female,21,melon,127,produces,0.189
+English (American),Female,21,melon,127,understands,0
+English (American),Male,21,melon,142,produces,0.1831
+English (American),Male,21,melon,142,understands,0
+English (American),Female,22,melon,186,produces,0.1882
+English (American),Female,22,melon,186,understands,0
+English (American),Male,22,melon,162,produces,0.1728
+English (American),Male,22,melon,162,understands,0
+English (American),Female,23,melon,177,produces,0.2825
+English (American),Female,23,melon,177,understands,0
+English (American),Male,23,melon,196,produces,0.2755
+English (American),Male,23,melon,196,understands,0
+English (American),Female,24,melon,365,produces,0.3479
+English (American),Female,24,melon,365,understands,0
+English (American),Male,24,melon,453,produces,0.2561
+English (American),Male,24,melon,453,understands,0
+English (American),Female,25,melon,299,produces,0.4013
+English (American),Female,25,melon,299,understands,0
+English (American),Male,25,melon,336,produces,0.2679
+English (American),Male,25,melon,336,understands,0
+English (American),Female,26,melon,173,produces,0.4104
+English (American),Female,26,melon,173,understands,0
+English (American),Male,26,melon,197,produces,0.3401
+English (American),Male,26,melon,197,understands,0
+English (American),Female,27,melon,158,produces,0.4114
+English (American),Female,27,melon,158,understands,0
+English (American),Male,27,melon,154,produces,0.3831
+English (American),Male,27,melon,154,understands,0
+English (American),Female,28,melon,416,produces,0.5793
+English (American),Female,28,melon,416,understands,0
+English (American),Male,28,melon,492,produces,0.5102
+English (American),Male,28,melon,492,understands,0
+English (American),Female,29,melon,166,produces,0.4277
+English (American),Female,29,melon,166,understands,0
+English (American),Male,29,melon,167,produces,0.4371
+English (American),Male,29,melon,167,understands,0
+English (American),Female,30,melon,323,produces,0.5325
+English (American),Female,30,melon,323,understands,0
+English (American),Male,30,melon,368,produces,0.4728
+English (American),Male,30,melon,368,understands,0
+French (French),Female,8,melon,2,produces,0
+French (French),Female,8,melon,2,understands,0
+French (French),Male,8,melon,5,produces,0
+French (French),Male,8,melon,5,understands,0
+French (French),Female,9,melon,2,produces,0
+French (French),Female,9,melon,2,understands,0
+French (French),Male,9,melon,5,produces,0
+French (French),Male,9,melon,5,understands,0
+French (French),Female,10,melon,7,produces,0
+French (French),Female,10,melon,7,understands,0
+French (French),Male,10,melon,6,produces,0
+French (French),Male,10,melon,6,understands,0
+French (French),Female,11,melon,8,produces,0
+French (French),Female,11,melon,8,understands,0
+French (French),Male,11,melon,6,produces,0
+French (French),Male,11,melon,6,understands,0
+French (French),Female,12,melon,19,produces,0
+French (French),Female,12,melon,19,understands,0
+French (French),Male,12,melon,19,produces,0
+French (French),Male,12,melon,19,understands,0
+French (French),Female,13,melon,36,produces,0
+French (French),Female,13,melon,36,understands,0.0278
+French (French),Male,13,melon,30,produces,0
+French (French),Male,13,melon,30,understands,0
+French (French),Female,14,melon,17,produces,0
+French (French),Female,14,melon,17,understands,0.0588
+French (French),Male,14,melon,20,produces,0
+French (French),Male,14,melon,20,understands,0
+French (French),Female,15,melon,11,produces,0
+French (French),Female,15,melon,11,understands,0
+French (French),Male,15,melon,13,produces,0
+French (French),Male,15,melon,13,understands,0
+French (French),Female,16,melon,25,produces,0.08
+French (French),Female,16,melon,25,understands,0
+French (French),Male,16,melon,27,produces,0
+French (French),Male,16,melon,27,understands,0
+French (French),Female,17,melon,25,produces,0
+French (French),Female,17,melon,25,understands,0
+French (French),Male,17,melon,23,produces,0.0435
+French (French),Male,17,melon,23,understands,0
+French (French),Female,18,melon,27,produces,0.1111
+French (French),Female,18,melon,27,understands,0
+French (French),Male,18,melon,21,produces,0.1429
+French (French),Male,18,melon,21,understands,0
+French (French),Female,19,melon,22,produces,0.0909
+French (French),Female,19,melon,22,understands,0
+French (French),Male,19,melon,17,produces,0
+French (French),Male,19,melon,17,understands,0
+French (French),Female,20,melon,42,produces,0.119
+French (French),Female,20,melon,42,understands,0
+French (French),Male,20,melon,35,produces,0.0571
+French (French),Male,20,melon,35,understands,0
+French (French),Female,21,melon,55,produces,0.1455
+French (French),Female,21,melon,55,understands,0
+French (French),Male,21,melon,38,produces,0.1316
+French (French),Male,21,melon,38,understands,0
+French (French),Female,22,melon,60,produces,0.1167
+French (French),Female,22,melon,60,understands,0
+French (French),Male,22,melon,38,produces,0.1316
+French (French),Male,22,melon,38,understands,0
+French (French),Female,23,melon,40,produces,0.2
+French (French),Female,23,melon,40,understands,0
+French (French),Male,23,melon,44,produces,0.1364
+French (French),Male,23,melon,44,understands,0
+French (French),Female,24,melon,65,produces,0.2
+French (French),Female,24,melon,65,understands,0
+French (French),Male,24,melon,72,produces,0.1806
+French (French),Male,24,melon,72,understands,0
+French (French),Female,25,melon,39,produces,0.359
+French (French),Female,25,melon,39,understands,0
+French (French),Male,25,melon,46,produces,0.2391
+French (French),Male,25,melon,46,understands,0
+French (French),Female,26,melon,31,produces,0.2903
+French (French),Female,26,melon,31,understands,0
+French (French),Male,26,melon,32,produces,0.1562
+French (French),Male,26,melon,32,understands,0
+French (French),Female,27,melon,28,produces,0.3214
+French (French),Female,27,melon,28,understands,0
+French (French),Male,27,melon,24,produces,0.2083
+French (French),Male,27,melon,24,understands,0
+French (French),Female,28,melon,33,produces,0.3636
+French (French),Female,28,melon,33,understands,0
+French (French),Male,28,melon,43,produces,0.4186
+French (French),Male,28,melon,43,understands,0
+French (French),Female,29,melon,32,produces,0.4375
+French (French),Female,29,melon,32,understands,0
+French (French),Male,29,melon,33,produces,0.3939
+French (French),Male,29,melon,33,understands,0
+French (French),Female,30,melon,34,produces,0.2941
+French (French),Female,30,melon,34,understands,0
+French (French),Male,30,melon,33,produces,0.303
+French (French),Male,30,melon,33,understands,0
+French (Quebecois),Female,16,melon,26,produces,0.0769
+French (Quebecois),Female,16,melon,26,understands,0
+French (Quebecois),Male,16,melon,21,produces,0.0476
+French (Quebecois),Male,16,melon,21,understands,0
+French (Quebecois),Female,17,melon,30,produces,0.1
+French (Quebecois),Female,17,melon,30,understands,0
+French (Quebecois),Male,17,melon,31,produces,0.0645
+French (Quebecois),Male,17,melon,31,understands,0
+French (Quebecois),Female,18,melon,53,produces,0.1321
+French (Quebecois),Female,18,melon,53,understands,0
+French (Quebecois),Male,18,melon,46,produces,0.0435
+French (Quebecois),Male,18,melon,46,understands,0
+French (Quebecois),Female,19,melon,41,produces,0.2195
+French (Quebecois),Female,19,melon,41,understands,0
+French (Quebecois),Male,19,melon,50,produces,0.06
+French (Quebecois),Male,19,melon,50,understands,0
+French (Quebecois),Female,20,melon,90,produces,0.2
+French (Quebecois),Female,20,melon,90,understands,0
+French (Quebecois),Male,20,melon,105,produces,0.1429
+French (Quebecois),Male,20,melon,105,understands,0
+French (Quebecois),Female,21,melon,56,produces,0.3036
+French (Quebecois),Female,21,melon,56,understands,0
+French (Quebecois),Male,21,melon,53,produces,0.2453
+French (Quebecois),Male,21,melon,53,understands,0
+French (Quebecois),Female,22,melon,42,produces,0.5
+French (Quebecois),Female,22,melon,42,understands,0
+French (Quebecois),Male,22,melon,44,produces,0.2955
+French (Quebecois),Male,22,melon,44,understands,0
+French (Quebecois),Female,23,melon,41,produces,0.4634
+French (Quebecois),Female,23,melon,41,understands,0
+French (Quebecois),Male,23,melon,45,produces,0.3778
+French (Quebecois),Male,23,melon,45,understands,0
+French (Quebecois),Female,24,melon,56,produces,0.4464
+French (Quebecois),Female,24,melon,56,understands,0
+French (Quebecois),Male,24,melon,76,produces,0.3026
+French (Quebecois),Male,24,melon,76,understands,0
+French (Quebecois),Female,25,melon,41,produces,0.5122
+French (Quebecois),Female,25,melon,41,understands,0
+French (Quebecois),Male,25,melon,45,produces,0.4222
+French (Quebecois),Male,25,melon,45,understands,0
+French (Quebecois),Female,26,melon,46,produces,0.587
+French (Quebecois),Female,26,melon,46,understands,0
+French (Quebecois),Male,26,melon,49,produces,0.4286
+French (Quebecois),Male,26,melon,49,understands,0
+French (Quebecois),Female,27,melon,40,produces,0.575
+French (Quebecois),Female,27,melon,40,understands,0
+French (Quebecois),Male,27,melon,34,produces,0.3235
+French (Quebecois),Male,27,melon,34,understands,0
+French (Quebecois),Female,28,melon,28,produces,0.6429
+French (Quebecois),Female,28,melon,28,understands,0
+French (Quebecois),Male,28,melon,32,produces,0.6562
+French (Quebecois),Male,28,melon,32,understands,0
+French (Quebecois),Female,29,melon,35,produces,0.6857
+French (Quebecois),Female,29,melon,35,understands,0
+French (Quebecois),Male,29,melon,35,produces,0.7714
+French (Quebecois),Male,29,melon,35,understands,0
+French (Quebecois),Female,30,melon,41,produces,0.561
+French (Quebecois),Female,30,melon,41,understands,0
+French (Quebecois),Male,30,melon,59,produces,0.5763
+French (Quebecois),Male,30,melon,59,understands,0
+German,Female,18,Melone,40,produces,0.05
+German,Female,18,Melone,40,understands,0
+German,Male,18,Melone,45,produces,0
+German,Male,18,Melone,45,understands,0
+German,Female,19,Melone,39,produces,0.1282
+German,Female,19,Melone,39,understands,0
+German,Male,19,Melone,40,produces,0.075
+German,Male,19,Melone,40,understands,0
+German,Female,20,Melone,39,produces,0.0513
+German,Female,20,Melone,39,understands,0
+German,Male,20,Melone,57,produces,0.0175
+German,Male,20,Melone,57,understands,0
+German,Female,21,Melone,38,produces,0.2632
+German,Female,21,Melone,38,understands,0
+German,Male,21,Melone,39,produces,0.0513
+German,Male,21,Melone,39,understands,0
+German,Female,22,Melone,52,produces,0.1154
+German,Female,22,Melone,52,understands,0
+German,Male,22,Melone,43,produces,0.1163
+German,Male,22,Melone,43,understands,0
+German,Female,23,Melone,45,produces,0.1778
+German,Female,23,Melone,45,understands,0
+German,Male,23,Melone,50,produces,0.28
+German,Male,23,Melone,50,understands,0
+German,Female,24,Melone,48,produces,0.2292
+German,Female,24,Melone,48,understands,0
+German,Male,24,Melone,55,produces,0.2
+German,Male,24,Melone,55,understands,0
+German,Female,25,Melone,28,produces,0.4286
+German,Female,25,Melone,28,understands,0
+German,Male,25,Melone,67,produces,0.2687
+German,Male,25,Melone,67,understands,0
+German,Female,26,Melone,42,produces,0.3095
+German,Female,26,Melone,42,understands,0
+German,Male,26,Melone,50,produces,0.38
+German,Male,26,Melone,50,understands,0
+German,Female,27,Melone,41,produces,0.4146
+German,Female,27,Melone,41,understands,0
+German,Male,27,Melone,48,produces,0.375
+German,Male,27,Melone,48,understands,0
+German,Female,28,Melone,35,produces,0.4571
+German,Female,28,Melone,35,understands,0
+German,Male,28,Melone,58,produces,0.3448
+German,Male,28,Melone,58,understands,0
+German,Female,29,Melone,50,produces,0.62
+German,Female,29,Melone,50,understands,0
+German,Male,29,Melone,39,produces,0.4359
+German,Male,29,Melone,39,understands,0
+German,Female,30,Melone,54,produces,0.5741
+German,Female,30,Melone,54,understands,0
+German,Male,30,Melone,39,produces,0.5897
+German,Male,30,Melone,39,understands,0
+Hebrew,Female,25,מלון,36,produces,0.5556
+Hebrew,Female,25,מלון,36,understands,0
+Hebrew,Male,25,מלון,46,produces,0.5
+Hebrew,Male,25,מלון,46,understands,0
+Hebrew,Female,26,מלון,42,produces,0.6667
+Hebrew,Female,26,מלון,42,understands,0
+Hebrew,Male,26,מלון,38,produces,0.5263
+Hebrew,Male,26,מלון,38,understands,0
+Hebrew,Female,27,מלון,36,produces,0.5556
+Hebrew,Female,27,מלון,36,understands,0
+Hebrew,Male,27,מלון,32,produces,0.8125
+Hebrew,Male,27,מלון,32,understands,0
+Hebrew,Female,28,מלון,30,produces,0.7667
+Hebrew,Female,28,מלון,30,understands,0
+Hebrew,Male,28,מלון,27,produces,0.7778
+Hebrew,Male,28,מלון,27,understands,0
+Hebrew,Female,29,מלון,20,produces,0.65
+Hebrew,Female,29,מלון,20,understands,0
+Hebrew,Male,29,מלון,27,produces,0.7407
+Hebrew,Male,29,מלון,27,understands,0
+Hebrew,Female,30,מלון,12,produces,0.5833
+Hebrew,Female,30,מלון,12,understands,0
+Hebrew,Male,30,מלון,16,produces,0.6875
+Hebrew,Male,30,מלון,16,understands,0
+Hebrew,Female,31,מלון,18,produces,0.7222
+Hebrew,Female,31,מלון,18,understands,0
+Hebrew,Male,31,מלון,17,produces,0.7647
+Hebrew,Male,31,מלון,17,understands,0
+Hebrew,Female,32,מלון,19,produces,0.7895
+Hebrew,Female,32,מלון,19,understands,0
+Hebrew,Male,32,מלון,17,produces,0.7059
+Hebrew,Male,32,מלון,17,understands,0
+Hebrew,Female,33,מלון,10,produces,0.8
+Hebrew,Female,33,מלון,10,understands,0
+Hebrew,Male,33,מלון,11,produces,0.7273
+Hebrew,Male,33,מלון,11,understands,0
+Hebrew,Female,34,מלון,15,produces,0.6667
+Hebrew,Female,34,מלון,15,understands,0
+Hebrew,Male,34,מלון,12,produces,0.9167
+Hebrew,Male,34,מלון,12,understands,0
+Hebrew,Female,35,מלון,6,produces,0.8333
+Hebrew,Female,35,מלון,6,understands,0
+Hebrew,Male,35,מלון,12,produces,0.75
+Hebrew,Male,35,מלון,12,understands,0
+Hebrew,Female,36,מלון,4,produces,0.75
+Hebrew,Female,36,מלון,4,understands,0
+Hebrew,Male,36,מלון,1,produces,1
+Hebrew,Male,36,מלון,1,understands,0
+Hungarian,Female,16,dinnye,11,produces,0
+Hungarian,Female,16,dinnye,11,understands,0
+Hungarian,Male,16,dinnye,10,produces,0
+Hungarian,Male,16,dinnye,10,understands,0
+Hungarian,Female,17,dinnye,11,produces,0.1818
+Hungarian,Female,17,dinnye,11,understands,0
+Hungarian,Male,17,dinnye,7,produces,0.1429
+Hungarian,Male,17,dinnye,7,understands,0
+Hungarian,Female,18,dinnye,9,produces,0.3333
+Hungarian,Female,18,dinnye,9,understands,0
+Hungarian,Male,18,dinnye,9,produces,0
+Hungarian,Male,18,dinnye,9,understands,0
+Hungarian,Female,19,dinnye,13,produces,0.1538
+Hungarian,Female,19,dinnye,13,understands,0
+Hungarian,Male,19,dinnye,12,produces,0.3333
+Hungarian,Male,19,dinnye,12,understands,0
+Hungarian,Female,20,dinnye,12,produces,0.1667
+Hungarian,Female,20,dinnye,12,understands,0
+Hungarian,Male,20,dinnye,6,produces,0.1667
+Hungarian,Male,20,dinnye,6,understands,0
+Hungarian,Female,21,dinnye,16,produces,0.5
+Hungarian,Female,21,dinnye,16,understands,0
+Hungarian,Male,21,dinnye,20,produces,0.35
+Hungarian,Male,21,dinnye,20,understands,0
+Hungarian,Female,22,dinnye,14,produces,0.2857
+Hungarian,Female,22,dinnye,14,understands,0
+Hungarian,Male,22,dinnye,13,produces,0.4615
+Hungarian,Male,22,dinnye,13,understands,0
+Hungarian,Female,23,dinnye,6,produces,0.5
+Hungarian,Female,23,dinnye,6,understands,0
+Hungarian,Male,23,dinnye,12,produces,0.25
+Hungarian,Male,23,dinnye,12,understands,0
+Hungarian,Female,24,dinnye,14,produces,0.2143
+Hungarian,Female,24,dinnye,14,understands,0
+Hungarian,Male,24,dinnye,24,produces,0.3333
+Hungarian,Male,24,dinnye,24,understands,0
+Hungarian,Female,25,dinnye,17,produces,0.3529
+Hungarian,Female,25,dinnye,17,understands,0
+Hungarian,Male,25,dinnye,25,produces,0.76
+Hungarian,Male,25,dinnye,25,understands,0
+Hungarian,Female,26,dinnye,9,produces,0.4444
+Hungarian,Female,26,dinnye,9,understands,0
+Hungarian,Male,26,dinnye,14,produces,0.6429
+Hungarian,Male,26,dinnye,14,understands,0
+Hungarian,Female,27,dinnye,13,produces,0.4615
+Hungarian,Female,27,dinnye,13,understands,0
+Hungarian,Male,27,dinnye,13,produces,0.6154
+Hungarian,Male,27,dinnye,13,understands,0
+Hungarian,Female,28,dinnye,11,produces,0.6364
+Hungarian,Female,28,dinnye,11,understands,0
+Hungarian,Male,28,dinnye,18,produces,0.5
+Hungarian,Male,28,dinnye,18,understands,0
+Hungarian,Female,29,dinnye,8,produces,0.875
+Hungarian,Female,29,dinnye,8,understands,0
+Hungarian,Male,29,dinnye,4,produces,0.5
+Hungarian,Male,29,dinnye,4,understands,0
+Hungarian,Female,30,dinnye,3,produces,0.3333
+Hungarian,Female,30,dinnye,3,understands,0
+Hungarian,Male,30,dinnye,15,produces,0.6667
+Hungarian,Male,30,dinnye,15,understands,0
+Italian,Female,18,melone,18,produces,0
+Italian,Female,18,melone,18,understands,0
+Italian,Male,18,melone,13,produces,0.0769
+Italian,Male,18,melone,13,understands,0
+Italian,Female,19,melone,21,produces,0.0476
+Italian,Female,19,melone,21,understands,0
+Italian,Male,19,melone,18,produces,0.0556
+Italian,Male,19,melone,18,understands,0
+Italian,Female,20,melone,34,produces,0.0882
+Italian,Female,20,melone,34,understands,0
+Italian,Male,20,melone,30,produces,0
+Italian,Male,20,melone,30,understands,0
+Italian,Female,21,melone,24,produces,0.2083
+Italian,Female,21,melone,24,understands,0
+Italian,Male,21,melone,31,produces,0.129
+Italian,Male,21,melone,31,understands,0
+Italian,Female,22,melone,27,produces,0.2222
+Italian,Female,22,melone,27,understands,0
+Italian,Male,22,melone,28,produces,0.1071
+Italian,Male,22,melone,28,understands,0
+Italian,Female,23,melone,27,produces,0.1852
+Italian,Female,23,melone,27,understands,0
+Italian,Male,23,melone,26,produces,0.1923
+Italian,Male,23,melone,26,understands,0
+Italian,Female,24,melone,39,produces,0.2308
+Italian,Female,24,melone,39,understands,0
+Italian,Male,24,melone,32,produces,0.3125
+Italian,Male,24,melone,32,understands,0
+Italian,Female,25,melone,23,produces,0.3913
+Italian,Female,25,melone,23,understands,0
+Italian,Male,25,melone,16,produces,0.25
+Italian,Male,25,melone,16,understands,0
+Italian,Female,26,melone,19,produces,0.4737
+Italian,Female,26,melone,19,understands,0
+Italian,Male,26,melone,22,produces,0.3636
+Italian,Male,26,melone,22,understands,0
+Italian,Female,27,melone,20,produces,0.3
+Italian,Female,27,melone,20,understands,0
+Italian,Male,27,melone,23,produces,0.2174
+Italian,Male,27,melone,23,understands,0
+Italian,Female,28,melone,21,produces,0.381
+Italian,Female,28,melone,21,understands,0
+Italian,Male,28,melone,23,produces,0.5217
+Italian,Male,28,melone,23,understands,0
+Italian,Female,29,melone,21,produces,0.381
+Italian,Female,29,melone,21,understands,0
+Italian,Male,29,melone,16,produces,0.3125
+Italian,Male,29,melone,16,understands,0
+Italian,Female,30,melone,28,produces,0.5
+Italian,Female,30,melone,28,understands,0
+Italian,Male,30,melone,39,produces,0.5128
+Italian,Male,30,melone,39,understands,0
+Italian,Female,31,melone,8,produces,0.5
+Italian,Female,31,melone,8,understands,0
+Italian,Male,31,melone,11,produces,0.4545
+Italian,Male,31,melone,11,understands,0
+Italian,Female,32,melone,14,produces,0.7143
+Italian,Female,32,melone,14,understands,0
+Italian,Male,32,melone,9,produces,0.4444
+Italian,Male,32,melone,9,understands,0
+Italian,Female,33,melone,5,produces,0.4
+Italian,Female,33,melone,5,understands,0
+Italian,Male,33,melone,11,produces,0.5455
+Italian,Male,33,melone,11,understands,0
+Italian,Female,34,melone,12,produces,0.9167
+Italian,Female,34,melone,12,understands,0
+Italian,Male,34,melone,7,produces,0.2857
+Italian,Male,34,melone,7,understands,0
+Italian,Female,35,melone,9,produces,0.5556
+Italian,Female,35,melone,9,understands,0
+Italian,Male,35,melone,6,produces,0.5
+Italian,Male,35,melone,6,understands,0
+Italian,Female,36,melone,7,produces,0.7143
+Italian,Female,36,melone,7,understands,0
+Italian,Male,36,melone,14,produces,0.5714
+Italian,Male,36,melone,14,understands,0
+Japanese,Female,16,メロン,4,produces,0
+Japanese,Female,16,メロン,4,understands,0
+Japanese,Male,16,メロン,7,produces,0.1429
+Japanese,Male,16,メロン,7,understands,0
+Japanese,Female,17,メロン,11,produces,0
+Japanese,Female,17,メロン,11,understands,0
+Japanese,Male,17,メロン,6,produces,0
+Japanese,Male,17,メロン,6,understands,0
+Japanese,Female,18,メロン,27,produces,0.037
+Japanese,Female,18,メロン,27,understands,0
+Japanese,Male,18,メロン,29,produces,0
+Japanese,Male,18,メロン,29,understands,0
+Japanese,Female,19,メロン,14,produces,0
+Japanese,Female,19,メロン,14,understands,0
+Japanese,Male,19,メロン,21,produces,0
+Japanese,Male,19,メロン,21,understands,0
+Japanese,Female,20,メロン,27,produces,0.1481
+Japanese,Female,20,メロン,27,understands,0
+Japanese,Male,20,メロン,32,produces,0.1562
+Japanese,Male,20,メロン,32,understands,0
+Japanese,Female,21,メロン,29,produces,0.2414
+Japanese,Female,21,メロン,29,understands,0
+Japanese,Male,21,メロン,33,produces,0.1515
+Japanese,Male,21,メロン,33,understands,0
+Japanese,Female,22,メロン,16,produces,0.25
+Japanese,Female,22,メロン,16,understands,0
+Japanese,Male,22,メロン,15,produces,0.1333
+Japanese,Male,22,メロン,15,understands,0
+Japanese,Female,23,メロン,38,produces,0.1579
+Japanese,Female,23,メロン,38,understands,0
+Japanese,Male,23,メロン,29,produces,0.2414
+Japanese,Male,23,メロン,29,understands,0
+Japanese,Female,24,メロン,18,produces,0.6111
+Japanese,Female,24,メロン,18,understands,0
+Japanese,Male,24,メロン,15,produces,0.2
+Japanese,Male,24,メロン,15,understands,0
+Japanese,Female,25,メロン,14,produces,0.7143
+Japanese,Female,25,メロン,14,understands,0
+Japanese,Male,25,メロン,20,produces,0.5
+Japanese,Male,25,メロン,20,understands,0
+Japanese,Female,26,メロン,19,produces,0.7368
+Japanese,Female,26,メロン,19,understands,0
+Japanese,Male,26,メロン,14,produces,0.5714
+Japanese,Male,26,メロン,14,understands,0
+Japanese,Female,27,メロン,8,produces,0.5
+Japanese,Female,27,メロン,8,understands,0
+Japanese,Male,27,メロン,7,produces,0.2857
+Japanese,Male,27,メロン,7,understands,0
+Japanese,Female,28,メロン,8,produces,0.625
+Japanese,Female,28,メロン,8,understands,0
+Japanese,Male,28,メロン,10,produces,0.5
+Japanese,Male,28,メロン,10,understands,0
+Japanese,Female,29,メロン,6,produces,0.6667
+Japanese,Female,29,メロン,6,understands,0
+Japanese,Male,29,メロン,11,produces,0.6364
+Japanese,Male,29,メロン,11,understands,0
+Japanese,Female,30,メロン,9,produces,0.5556
+Japanese,Female,30,メロン,9,understands,0
+Japanese,Male,30,メロン,9,produces,0.7778
+Japanese,Male,30,メロン,9,understands,0
+Japanese,Female,31,メロン,8,produces,0.75
+Japanese,Female,31,メロン,8,understands,0
+Japanese,Male,31,メロン,10,produces,0.6
+Japanese,Male,31,メロン,10,understands,0
+Japanese,Female,32,メロン,8,produces,0.875
+Japanese,Female,32,メロン,8,understands,0
+Japanese,Male,32,メロン,5,produces,0.6
+Japanese,Male,32,メロン,5,understands,0
+Japanese,Female,33,メロン,9,produces,0.7778
+Japanese,Female,33,メロン,9,understands,0
+Japanese,Male,33,メロン,7,produces,0.7143
+Japanese,Male,33,メロン,7,understands,0
+Japanese,Female,34,メロン,8,produces,0.625
+Japanese,Female,34,メロン,8,understands,0
+Japanese,Male,34,メロン,5,produces,0.6
+Japanese,Male,34,メロン,5,understands,0
+Japanese,Female,35,メロン,19,produces,0.7368
+Japanese,Female,35,メロン,19,understands,0
+Japanese,Male,35,メロン,12,produces,0.75
+Japanese,Male,35,メロン,12,understands,0
+Japanese,Female,36,メロン,4,produces,1
+Japanese,Female,36,メロン,4,understands,0
+Japanese,Male,36,メロン,14,produces,0.7143
+Japanese,Male,36,メロン,14,understands,0
+Korean,Female,18,메론,51,produces,0.0196
+Korean,Female,18,메론,51,understands,0
+Korean,Male,18,메론,37,produces,0.027
+Korean,Male,18,메론,37,understands,0
+Korean,Female,19,메론,39,produces,0.0256
+Korean,Female,19,메론,39,understands,0
+Korean,Male,19,메론,38,produces,0.0526
+Korean,Male,19,메론,38,understands,0
+Korean,Female,20,메론,47,produces,0.1064
+Korean,Female,20,메론,47,understands,0
+Korean,Male,20,메론,41,produces,0.0244
+Korean,Male,20,메론,41,understands,0
+Korean,Female,21,메론,38,produces,0.0526
+Korean,Female,21,메론,38,understands,0
+Korean,Male,21,메론,41,produces,0.0976
+Korean,Male,21,메론,41,understands,0
+Korean,Female,22,메론,42,produces,0.0714
+Korean,Female,22,메론,42,understands,0
+Korean,Male,22,메론,45,produces,0.0889
+Korean,Male,22,메론,45,understands,0
+Korean,Female,23,메론,42,produces,0.0714
+Korean,Female,23,메론,42,understands,0
+Korean,Male,23,메론,45,produces,0.1556
+Korean,Male,23,메론,45,understands,0
+Korean,Female,24,메론,46,produces,0.2174
+Korean,Female,24,메론,46,understands,0
+Korean,Male,24,메론,61,produces,0.1475
+Korean,Male,24,메론,61,understands,0
+Korean,Female,25,메론,46,produces,0.1739
+Korean,Female,25,메론,46,understands,0
+Korean,Male,25,메론,49,produces,0.1224
+Korean,Male,25,메론,49,understands,0
+Korean,Female,26,메론,42,produces,0.2857
+Korean,Female,26,메론,42,understands,0
+Korean,Male,26,메론,49,produces,0.2857
+Korean,Male,26,메론,49,understands,0
+Korean,Female,27,메론,46,produces,0.2174
+Korean,Female,27,메론,46,understands,0
+Korean,Male,27,메론,58,produces,0.3103
+Korean,Male,27,메론,58,understands,0
+Korean,Female,28,메론,49,produces,0.4286
+Korean,Female,28,메론,49,understands,0
+Korean,Male,28,메론,40,produces,0.225
+Korean,Male,28,메론,40,understands,0
+Korean,Female,29,메론,49,produces,0.4898
+Korean,Female,29,메론,49,understands,0
+Korean,Male,29,메론,51,produces,0.4706
+Korean,Male,29,메론,51,understands,0
+Korean,Female,30,메론,34,produces,0.5
+Korean,Female,30,메론,34,understands,0
+Korean,Male,30,메론,47,produces,0.2979
+Korean,Male,30,메론,47,understands,0
+Korean,Female,31,메론,31,produces,0.3548
+Korean,Female,31,메론,31,understands,0
+Korean,Male,31,메론,48,produces,0.4375
+Korean,Male,31,메론,48,understands,0
+Korean,Female,32,메론,33,produces,0.3333
+Korean,Female,32,메론,33,understands,0
+Korean,Male,32,메론,36,produces,0.3333
+Korean,Male,32,메론,36,understands,0
+Korean,Female,33,메론,36,produces,0.3056
+Korean,Female,33,메론,36,understands,0
+Korean,Male,33,메론,43,produces,0.4651
+Korean,Male,33,메론,43,understands,0
+Korean,Female,34,메론,41,produces,0.7073
+Korean,Female,34,메론,41,understands,0
+Korean,Male,34,메론,38,produces,0.5526
+Korean,Male,34,메론,38,understands,0
+Korean,Female,35,메론,37,produces,0.5676
+Korean,Female,35,메론,37,understands,0
+Korean,Male,35,메론,37,produces,0.5946
+Korean,Male,35,메론,37,understands,0
+Korean,Female,36,메론,40,produces,0.375
+Korean,Female,36,메론,40,understands,0
+Korean,Male,36,메론,35,produces,0.5429
+Korean,Male,36,메론,35,understands,0
+Mandarin (Beijing),Female,16,"瓜, 瓜子",35,produces,0.0857
+Mandarin (Beijing),Female,16,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,16,"瓜, 瓜子",35,produces,0.1571
+Mandarin (Beijing),Male,16,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,17,"瓜, 瓜子",35,produces,0.3
+Mandarin (Beijing),Female,17,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,17,"瓜, 瓜子",37,produces,0.2432
+Mandarin (Beijing),Male,17,"瓜, 瓜子",37,understands,0
+Mandarin (Beijing),Female,18,"瓜, 瓜子",35,produces,0.3143
+Mandarin (Beijing),Female,18,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,18,"瓜, 瓜子",36,produces,0.3611
+Mandarin (Beijing),Male,18,"瓜, 瓜子",36,understands,0
+Mandarin (Beijing),Female,19,"瓜, 瓜子",35,produces,0.5286
+Mandarin (Beijing),Female,19,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,19,"瓜, 瓜子",35,produces,0.4286
+Mandarin (Beijing),Male,19,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,20,"瓜, 瓜子",35,produces,0.7143
+Mandarin (Beijing),Female,20,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,20,"瓜, 瓜子",36,produces,0.4306
+Mandarin (Beijing),Male,20,"瓜, 瓜子",36,understands,0
+Mandarin (Beijing),Female,21,"瓜, 瓜子",35,produces,0.7
+Mandarin (Beijing),Female,21,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,21,"瓜, 瓜子",35,produces,0.6714
+Mandarin (Beijing),Male,21,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,22,"瓜, 瓜子",35,produces,0.9
+Mandarin (Beijing),Female,22,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,22,"瓜, 瓜子",36,produces,0.7917
+Mandarin (Beijing),Male,22,"瓜, 瓜子",36,understands,0
+Mandarin (Beijing),Female,23,"瓜, 瓜子",35,produces,0.9429
+Mandarin (Beijing),Female,23,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,23,"瓜, 瓜子",35,produces,0.7429
+Mandarin (Beijing),Male,23,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,24,"瓜, 瓜子",35,produces,0.9
+Mandarin (Beijing),Female,24,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,24,"瓜, 瓜子",35,produces,0.8143
+Mandarin (Beijing),Male,24,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,25,"瓜, 瓜子",35,produces,0.9714
+Mandarin (Beijing),Female,25,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,25,"瓜, 瓜子",35,produces,0.9571
+Mandarin (Beijing),Male,25,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,26,"瓜, 瓜子",36,produces,0.9722
+Mandarin (Beijing),Female,26,"瓜, 瓜子",36,understands,0
+Mandarin (Beijing),Male,26,"瓜, 瓜子",35,produces,0.9143
+Mandarin (Beijing),Male,26,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,27,"瓜, 瓜子",35,produces,0.9286
+Mandarin (Beijing),Female,27,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,27,"瓜, 瓜子",35,produces,0.9571
+Mandarin (Beijing),Male,27,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,28,"瓜, 瓜子",35,produces,0.9571
+Mandarin (Beijing),Female,28,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,28,"瓜, 瓜子",35,produces,0.9571
+Mandarin (Beijing),Male,28,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,29,"瓜, 瓜子",35,produces,1
+Mandarin (Beijing),Female,29,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,29,"瓜, 瓜子",35,produces,0.9857
+Mandarin (Beijing),Male,29,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Female,30,"瓜, 瓜子",35,produces,0.9286
+Mandarin (Beijing),Female,30,"瓜, 瓜子",35,understands,0
+Mandarin (Beijing),Male,30,"瓜, 瓜子",35,produces,0.9857
+Mandarin (Beijing),Male,30,"瓜, 瓜子",35,understands,0
+Mandarin (Taiwanese),Female,8,西瓜,39,produces,0
+Mandarin (Taiwanese),Female,8,西瓜,39,understands,0.1026
+Mandarin (Taiwanese),Male,8,西瓜,47,produces,0
+Mandarin (Taiwanese),Male,8,西瓜,47,understands,0.1702
+Mandarin (Taiwanese),Female,9,西瓜,46,produces,0
+Mandarin (Taiwanese),Female,9,西瓜,46,understands,0.1957
+Mandarin (Taiwanese),Male,9,西瓜,33,produces,0
+Mandarin (Taiwanese),Male,9,西瓜,33,understands,0.2121
+Mandarin (Taiwanese),Female,10,西瓜,40,produces,0
+Mandarin (Taiwanese),Female,10,西瓜,40,understands,0.15
+Mandarin (Taiwanese),Male,10,西瓜,38,produces,0
+Mandarin (Taiwanese),Male,10,西瓜,38,understands,0.1053
+Mandarin (Taiwanese),Female,11,西瓜,38,produces,0
+Mandarin (Taiwanese),Female,11,西瓜,38,understands,0.1316
+Mandarin (Taiwanese),Male,11,西瓜,41,produces,0
+Mandarin (Taiwanese),Male,11,西瓜,41,understands,0.0244
+Mandarin (Taiwanese),Female,12,西瓜,42,produces,0
+Mandarin (Taiwanese),Female,12,西瓜,42,understands,0.0476
+Mandarin (Taiwanese),Male,12,西瓜,38,produces,0
+Mandarin (Taiwanese),Male,12,西瓜,38,understands,0.0526
+Mandarin (Taiwanese),Female,13,西瓜,41,produces,0
+Mandarin (Taiwanese),Female,13,西瓜,41,understands,0.0732
+Mandarin (Taiwanese),Male,13,西瓜,37,produces,0
+Mandarin (Taiwanese),Male,13,西瓜,37,understands,0.1351
+Mandarin (Taiwanese),Female,14,西瓜,43,produces,0
+Mandarin (Taiwanese),Female,14,西瓜,43,understands,0.0698
+Mandarin (Taiwanese),Male,14,西瓜,38,produces,0
+Mandarin (Taiwanese),Male,14,西瓜,38,understands,0.0526
+Mandarin (Taiwanese),Female,15,西瓜,54,produces,0.0556
+Mandarin (Taiwanese),Female,15,西瓜,54,understands,0.2222
+Mandarin (Taiwanese),Male,15,西瓜,52,produces,0.0192
+Mandarin (Taiwanese),Male,15,西瓜,52,understands,0.1923
+Mandarin (Taiwanese),Female,16,"西瓜, 香瓜(哈密瓜)",82,produces,0.0331
+Mandarin (Taiwanese),Female,16,"西瓜, 香瓜(哈密瓜)",82,understands,0.0579
+Mandarin (Taiwanese),Male,16,"西瓜, 香瓜(哈密瓜)",88,produces,0.0078
+Mandarin (Taiwanese),Male,16,"西瓜, 香瓜(哈密瓜)",88,understands,0.062
+Mandarin (Taiwanese),Female,17,"西瓜, 香瓜(哈密瓜)",37,produces,0.0405
+Mandarin (Taiwanese),Female,17,"西瓜, 香瓜(哈密瓜)",37,understands,0
+Mandarin (Taiwanese),Male,17,"西瓜, 香瓜(哈密瓜)",50,produces,0.06
+Mandarin (Taiwanese),Male,17,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Female,18,"西瓜, 香瓜(哈密瓜)",49,produces,0.102
+Mandarin (Taiwanese),Female,18,"西瓜, 香瓜(哈密瓜)",49,understands,0
+Mandarin (Taiwanese),Male,18,"西瓜, 香瓜(哈密瓜)",35,produces,0.0429
+Mandarin (Taiwanese),Male,18,"西瓜, 香瓜(哈密瓜)",35,understands,0
+Mandarin (Taiwanese),Female,19,"西瓜, 香瓜(哈密瓜)",42,produces,0.131
+Mandarin (Taiwanese),Female,19,"西瓜, 香瓜(哈密瓜)",42,understands,0
+Mandarin (Taiwanese),Male,19,"西瓜, 香瓜(哈密瓜)",42,produces,0.119
+Mandarin (Taiwanese),Male,19,"西瓜, 香瓜(哈密瓜)",42,understands,0
+Mandarin (Taiwanese),Female,20,"西瓜, 香瓜(哈密瓜)",40,produces,0.15
+Mandarin (Taiwanese),Female,20,"西瓜, 香瓜(哈密瓜)",40,understands,0
+Mandarin (Taiwanese),Male,20,"西瓜, 香瓜(哈密瓜)",44,produces,0.1591
+Mandarin (Taiwanese),Male,20,"西瓜, 香瓜(哈密瓜)",44,understands,0
+Mandarin (Taiwanese),Female,21,"西瓜, 香瓜(哈密瓜)",38,produces,0.2368
+Mandarin (Taiwanese),Female,21,"西瓜, 香瓜(哈密瓜)",38,understands,0
+Mandarin (Taiwanese),Male,21,"西瓜, 香瓜(哈密瓜)",50,produces,0.18
+Mandarin (Taiwanese),Male,21,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Female,22,"西瓜, 香瓜(哈密瓜)",48,produces,0.2604
+Mandarin (Taiwanese),Female,22,"西瓜, 香瓜(哈密瓜)",48,understands,0
+Mandarin (Taiwanese),Male,22,"西瓜, 香瓜(哈密瓜)",48,produces,0.25
+Mandarin (Taiwanese),Male,22,"西瓜, 香瓜(哈密瓜)",48,understands,0
+Mandarin (Taiwanese),Female,23,"西瓜, 香瓜(哈密瓜)",50,produces,0.33
+Mandarin (Taiwanese),Female,23,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Male,23,"西瓜, 香瓜(哈密瓜)",55,produces,0.3091
+Mandarin (Taiwanese),Male,23,"西瓜, 香瓜(哈密瓜)",55,understands,0
+Mandarin (Taiwanese),Female,24,"西瓜, 香瓜(哈密瓜)",65,produces,0.3462
+Mandarin (Taiwanese),Female,24,"西瓜, 香瓜(哈密瓜)",65,understands,0
+Mandarin (Taiwanese),Male,24,"西瓜, 香瓜(哈密瓜)",59,produces,0.2881
+Mandarin (Taiwanese),Male,24,"西瓜, 香瓜(哈密瓜)",59,understands,0
+Mandarin (Taiwanese),Female,25,"西瓜, 香瓜(哈密瓜)",60,produces,0.4917
+Mandarin (Taiwanese),Female,25,"西瓜, 香瓜(哈密瓜)",60,understands,0
+Mandarin (Taiwanese),Male,25,"西瓜, 香瓜(哈密瓜)",50,produces,0.36
+Mandarin (Taiwanese),Male,25,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Female,26,"西瓜, 香瓜(哈密瓜)",38,produces,0.5526
+Mandarin (Taiwanese),Female,26,"西瓜, 香瓜(哈密瓜)",38,understands,0
+Mandarin (Taiwanese),Male,26,"西瓜, 香瓜(哈密瓜)",49,produces,0.3367
+Mandarin (Taiwanese),Male,26,"西瓜, 香瓜(哈密瓜)",49,understands,0
+Mandarin (Taiwanese),Female,27,"西瓜, 香瓜(哈密瓜)",49,produces,0.5102
+Mandarin (Taiwanese),Female,27,"西瓜, 香瓜(哈密瓜)",49,understands,0
+Mandarin (Taiwanese),Male,27,"西瓜, 香瓜(哈密瓜)",43,produces,0.4651
+Mandarin (Taiwanese),Male,27,"西瓜, 香瓜(哈密瓜)",43,understands,0
+Mandarin (Taiwanese),Female,28,"西瓜, 香瓜(哈密瓜)",50,produces,0.64
+Mandarin (Taiwanese),Female,28,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Male,28,"西瓜, 香瓜(哈密瓜)",50,produces,0.54
+Mandarin (Taiwanese),Male,28,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Female,29,"西瓜, 香瓜(哈密瓜)",41,produces,0.561
+Mandarin (Taiwanese),Female,29,"西瓜, 香瓜(哈密瓜)",41,understands,0
+Mandarin (Taiwanese),Male,29,"西瓜, 香瓜(哈密瓜)",47,produces,0.5532
+Mandarin (Taiwanese),Male,29,"西瓜, 香瓜(哈密瓜)",47,understands,0
+Mandarin (Taiwanese),Female,30,"西瓜, 香瓜(哈密瓜)",44,produces,0.625
+Mandarin (Taiwanese),Female,30,"西瓜, 香瓜(哈密瓜)",44,understands,0
+Mandarin (Taiwanese),Male,30,"西瓜, 香瓜(哈密瓜)",50,produces,0.59
+Mandarin (Taiwanese),Male,30,"西瓜, 香瓜(哈密瓜)",50,understands,0
+Mandarin (Taiwanese),Female,31,"西瓜, 香瓜(哈密瓜)",35,produces,0.6286
+Mandarin (Taiwanese),Female,31,"西瓜, 香瓜(哈密瓜)",35,understands,0
+Mandarin (Taiwanese),Male,31,"西瓜, 香瓜(哈密瓜)",53,produces,0.6321
+Mandarin (Taiwanese),Male,31,"西瓜, 香瓜(哈密瓜)",53,understands,0
+Mandarin (Taiwanese),Female,32,"西瓜, 香瓜(哈密瓜)",43,produces,0.6279
+Mandarin (Taiwanese),Female,32,"西瓜, 香瓜(哈密瓜)",43,understands,0
+Mandarin (Taiwanese),Male,32,"西瓜, 香瓜(哈密瓜)",39,produces,0.641
+Mandarin (Taiwanese),Male,32,"西瓜, 香瓜(哈密瓜)",39,understands,0
+Mandarin (Taiwanese),Female,33,"西瓜, 香瓜(哈密瓜)",45,produces,0.7333
+Mandarin (Taiwanese),Female,33,"西瓜, 香瓜(哈密瓜)",45,understands,0
+Mandarin (Taiwanese),Male,33,"西瓜, 香瓜(哈密瓜)",40,produces,0.6875
+Mandarin (Taiwanese),Male,33,"西瓜, 香瓜(哈密瓜)",40,understands,0
+Mandarin (Taiwanese),Female,34,"西瓜, 香瓜(哈密瓜)",33,produces,0.6515
+Mandarin (Taiwanese),Female,34,"西瓜, 香瓜(哈密瓜)",33,understands,0
+Mandarin (Taiwanese),Male,34,"西瓜, 香瓜(哈密瓜)",44,produces,0.7159
+Mandarin (Taiwanese),Male,34,"西瓜, 香瓜(哈密瓜)",44,understands,0
+Mandarin (Taiwanese),Female,35,"西瓜, 香瓜(哈密瓜)",42,produces,0.7619
+Mandarin (Taiwanese),Female,35,"西瓜, 香瓜(哈密瓜)",42,understands,0
+Mandarin (Taiwanese),Male,35,"西瓜, 香瓜(哈密瓜)",39,produces,0.7564
+Mandarin (Taiwanese),Male,35,"西瓜, 香瓜(哈密瓜)",39,understands,0
+Mandarin (Taiwanese),Female,36,"西瓜, 香瓜(哈密瓜)",38,produces,0.7368
+Mandarin (Taiwanese),Female,36,"西瓜, 香瓜(哈密瓜)",38,understands,0
+Mandarin (Taiwanese),Male,36,"西瓜, 香瓜(哈密瓜)",43,produces,0.686
+Mandarin (Taiwanese),Male,36,"西瓜, 香瓜(哈密瓜)",43,understands,0
+Norwegian,Female,16,melon,39,produces,0.0256
+Norwegian,Female,16,melon,39,understands,0
+Norwegian,Male,16,melon,59,produces,0.0169
+Norwegian,Male,16,melon,59,understands,0
+Norwegian,Female,17,melon,125,produces,0
+Norwegian,Female,17,melon,125,understands,0
+Norwegian,Male,17,melon,93,produces,0.043
+Norwegian,Male,17,melon,93,understands,0
+Norwegian,Female,18,melon,146,produces,0.0342
+Norwegian,Female,18,melon,146,understands,0
+Norwegian,Male,18,melon,125,produces,0.016
+Norwegian,Male,18,melon,125,understands,0
+Norwegian,Female,19,melon,135,produces,0.0741
+Norwegian,Female,19,melon,135,understands,0
+Norwegian,Male,19,melon,146,produces,0.0479
+Norwegian,Male,19,melon,146,understands,0
+Norwegian,Female,20,melon,183,produces,0.1038
+Norwegian,Female,20,melon,183,understands,0
+Norwegian,Male,20,melon,159,produces,0.1006
+Norwegian,Male,20,melon,159,understands,0
+Norwegian,Female,21,melon,218,produces,0.1606
+Norwegian,Female,21,melon,218,understands,0
+Norwegian,Male,21,melon,200,produces,0.085
+Norwegian,Male,21,melon,200,understands,0
+Norwegian,Female,22,melon,304,produces,0.2237
+Norwegian,Female,22,melon,304,understands,0
+Norwegian,Male,22,melon,292,produces,0.1233
+Norwegian,Male,22,melon,292,understands,0
+Norwegian,Female,23,melon,285,produces,0.2982
+Norwegian,Female,23,melon,285,understands,0
+Norwegian,Male,23,melon,281,produces,0.2278
+Norwegian,Male,23,melon,281,understands,0
+Norwegian,Female,24,melon,266,produces,0.2632
+Norwegian,Female,24,melon,266,understands,0
+Norwegian,Male,24,melon,272,produces,0.2868
+Norwegian,Male,24,melon,272,understands,0
+Norwegian,Female,25,melon,325,produces,0.4062
+Norwegian,Female,25,melon,325,understands,0
+Norwegian,Male,25,melon,331,produces,0.3716
+Norwegian,Male,25,melon,331,understands,0
+Norwegian,Female,26,melon,301,produces,0.5748
+Norwegian,Female,26,melon,301,understands,0
+Norwegian,Male,26,melon,343,produces,0.4315
+Norwegian,Male,26,melon,343,understands,0
+Norwegian,Female,27,melon,267,produces,0.618
+Norwegian,Female,27,melon,267,understands,0
+Norwegian,Male,27,melon,258,produces,0.4922
+Norwegian,Male,27,melon,258,understands,0
+Norwegian,Female,28,melon,281,produces,0.6619
+Norwegian,Female,28,melon,281,understands,0
+Norwegian,Male,28,melon,263,produces,0.4791
+Norwegian,Male,28,melon,263,understands,0
+Norwegian,Female,29,melon,252,produces,0.6627
+Norwegian,Female,29,melon,252,understands,0
+Norwegian,Male,29,melon,284,produces,0.5634
+Norwegian,Male,29,melon,284,understands,0
+Norwegian,Female,30,melon,213,produces,0.723
+Norwegian,Female,30,melon,213,understands,0
+Norwegian,Male,30,melon,244,produces,0.6475
+Norwegian,Male,30,melon,244,understands,0
+Norwegian,Female,31,melon,229,produces,0.7511
+Norwegian,Female,31,melon,229,understands,0
+Norwegian,Male,31,melon,250,produces,0.632
+Norwegian,Male,31,melon,250,understands,0
+Norwegian,Female,32,melon,224,produces,0.8482
+Norwegian,Female,32,melon,224,understands,0
+Norwegian,Male,32,melon,227,produces,0.6828
+Norwegian,Male,32,melon,227,understands,0
+Norwegian,Female,33,melon,213,produces,0.8075
+Norwegian,Female,33,melon,213,understands,0
+Norwegian,Male,33,melon,217,produces,0.7051
+Norwegian,Male,33,melon,217,understands,0
+Norwegian,Female,34,melon,194,produces,0.8454
+Norwegian,Female,34,melon,194,understands,0
+Norwegian,Male,34,melon,230,produces,0.7391
+Norwegian,Male,34,melon,230,understands,0
+Norwegian,Female,35,melon,230,produces,0.8391
+Norwegian,Female,35,melon,230,understands,0
+Norwegian,Male,35,melon,192,produces,0.6927
+Norwegian,Male,35,melon,192,understands,0
+Norwegian,Female,36,melon,170,produces,0.8529
+Norwegian,Female,36,melon,170,understands,0
+Norwegian,Male,36,melon,159,produces,0.717
+Norwegian,Male,36,melon,159,understands,0
+Portuguese (European),Female,16,Melão,71,produces,0
+Portuguese (European),Female,16,Melão,71,understands,0
+Portuguese (European),Male,16,Melão,73,produces,0
+Portuguese (European),Male,16,Melão,73,understands,0
+Portuguese (European),Female,17,Melão,62,produces,0
+Portuguese (European),Female,17,Melão,62,understands,0
+Portuguese (European),Male,17,Melão,96,produces,0.0208
+Portuguese (European),Male,17,Melão,96,understands,0
+Portuguese (European),Female,18,Melão,102,produces,0.0294
+Portuguese (European),Female,18,Melão,102,understands,0
+Portuguese (European),Male,18,Melão,101,produces,0.0396
+Portuguese (European),Male,18,Melão,101,understands,0
+Portuguese (European),Female,19,Melão,97,produces,0.0206
+Portuguese (European),Female,19,Melão,97,understands,0
+Portuguese (European),Male,19,Melão,99,produces,0.0404
+Portuguese (European),Male,19,Melão,99,understands,0
+Portuguese (European),Female,20,Melão,115,produces,0.0783
+Portuguese (European),Female,20,Melão,115,understands,0
+Portuguese (European),Male,20,Melão,103,produces,0.0388
+Portuguese (European),Male,20,Melão,103,understands,0
+Portuguese (European),Female,21,Melão,93,produces,0.1075
+Portuguese (European),Female,21,Melão,93,understands,0
+Portuguese (European),Male,21,Melão,115,produces,0.0609
+Portuguese (European),Male,21,Melão,115,understands,0
+Portuguese (European),Female,22,Melão,117,produces,0.1197
+Portuguese (European),Female,22,Melão,117,understands,0
+Portuguese (European),Male,22,Melão,96,produces,0.1562
+Portuguese (European),Male,22,Melão,96,understands,0
+Portuguese (European),Female,23,Melão,94,produces,0.117
+Portuguese (European),Female,23,Melão,94,understands,0
+Portuguese (European),Male,23,Melão,105,produces,0.0857
+Portuguese (European),Male,23,Melão,105,understands,0
+Portuguese (European),Female,24,Melão,88,produces,0.3068
+Portuguese (European),Female,24,Melão,88,understands,0
+Portuguese (European),Male,24,Melão,127,produces,0.1732
+Portuguese (European),Male,24,Melão,127,understands,0
+Portuguese (European),Female,25,Melão,110,produces,0.3091
+Portuguese (European),Female,25,Melão,110,understands,0
+Portuguese (European),Male,25,Melão,103,produces,0.233
+Portuguese (European),Male,25,Melão,103,understands,0
+Portuguese (European),Female,26,Melão,96,produces,0.3125
+Portuguese (European),Female,26,Melão,96,understands,0
+Portuguese (European),Male,26,Melão,122,produces,0.2705
+Portuguese (European),Male,26,Melão,122,understands,0
+Portuguese (European),Female,27,Melão,109,produces,0.4128
+Portuguese (European),Female,27,Melão,109,understands,0
+Portuguese (European),Male,27,Melão,129,produces,0.3256
+Portuguese (European),Male,27,Melão,129,understands,0
+Portuguese (European),Female,28,Melão,91,produces,0.4066
+Portuguese (European),Female,28,Melão,91,understands,0
+Portuguese (European),Male,28,Melão,128,produces,0.3047
+Portuguese (European),Male,28,Melão,128,understands,0
+Portuguese (European),Female,29,Melão,98,produces,0.4796
+Portuguese (European),Female,29,Melão,98,understands,0
+Portuguese (European),Male,29,Melão,109,produces,0.422
+Portuguese (European),Male,29,Melão,109,understands,0
+Portuguese (European),Female,30,Melão,81,produces,0.4815
+Portuguese (European),Female,30,Melão,81,understands,0
+Portuguese (European),Male,30,Melão,82,produces,0.4024
+Portuguese (European),Male,30,Melão,82,understands,0
+Spanish (Argentinian),Female,16,melón,30,produces,0
+Spanish (Argentinian),Female,16,melón,30,understands,0
+Spanish (Argentinian),Male,16,melón,17,produces,0
+Spanish (Argentinian),Male,16,melón,17,understands,0
+Spanish (Argentinian),Female,17,melón,20,produces,0
+Spanish (Argentinian),Female,17,melón,20,understands,0
+Spanish (Argentinian),Male,17,melón,29,produces,0.0345
+Spanish (Argentinian),Male,17,melón,29,understands,0
+Spanish (Argentinian),Female,18,melón,43,produces,0.0465
+Spanish (Argentinian),Female,18,melón,43,understands,0
+Spanish (Argentinian),Male,18,melón,19,produces,0
+Spanish (Argentinian),Male,18,melón,19,understands,0
+Spanish (Argentinian),Female,19,melón,25,produces,0
+Spanish (Argentinian),Female,19,melón,25,understands,0
+Spanish (Argentinian),Male,19,melón,19,produces,0.0526
+Spanish (Argentinian),Male,19,melón,19,understands,0
+Spanish (Argentinian),Female,20,melón,22,produces,0
+Spanish (Argentinian),Female,20,melón,22,understands,0
+Spanish (Argentinian),Male,20,melón,24,produces,0
+Spanish (Argentinian),Male,20,melón,24,understands,0
+Spanish (Argentinian),Female,21,melón,15,produces,0.1333
+Spanish (Argentinian),Female,21,melón,15,understands,0
+Spanish (Argentinian),Male,21,melón,26,produces,0.1154
+Spanish (Argentinian),Male,21,melón,26,understands,0
+Spanish (Argentinian),Female,22,melón,25,produces,0.04
+Spanish (Argentinian),Female,22,melón,25,understands,0
+Spanish (Argentinian),Male,22,melón,32,produces,0.0625
+Spanish (Argentinian),Male,22,melón,32,understands,0
+Spanish (Argentinian),Female,23,melón,30,produces,0.0333
+Spanish (Argentinian),Female,23,melón,30,understands,0
+Spanish (Argentinian),Male,23,melón,19,produces,0.0526
+Spanish (Argentinian),Male,23,melón,19,understands,0
+Spanish (Argentinian),Female,24,melón,44,produces,0.1364
+Spanish (Argentinian),Female,24,melón,44,understands,0
+Spanish (Argentinian),Male,24,melón,31,produces,0.0645
+Spanish (Argentinian),Male,24,melón,31,understands,0
+Spanish (Argentinian),Female,25,melón,24,produces,0.2083
+Spanish (Argentinian),Female,25,melón,24,understands,0
+Spanish (Argentinian),Male,25,melón,19,produces,0.3684
+Spanish (Argentinian),Male,25,melón,19,understands,0
+Spanish (Argentinian),Female,26,melón,17,produces,0.1176
+Spanish (Argentinian),Female,26,melón,17,understands,0
+Spanish (Argentinian),Male,26,melón,28,produces,0
+Spanish (Argentinian),Male,26,melón,28,understands,0
+Spanish (Argentinian),Female,27,melón,18,produces,0.1111
+Spanish (Argentinian),Female,27,melón,18,understands,0
+Spanish (Argentinian),Male,27,melón,26,produces,0.1154
+Spanish (Argentinian),Male,27,melón,26,understands,0
+Spanish (Argentinian),Female,28,melón,18,produces,0.0556
+Spanish (Argentinian),Female,28,melón,18,understands,0
+Spanish (Argentinian),Male,28,melón,24,produces,0.0833
+Spanish (Argentinian),Male,28,melón,24,understands,0
+Spanish (Argentinian),Female,29,melón,36,produces,0.25
+Spanish (Argentinian),Female,29,melón,36,understands,0
+Spanish (Argentinian),Male,29,melón,29,produces,0.2069
+Spanish (Argentinian),Male,29,melón,29,understands,0
+Spanish (Argentinian),Female,30,melón,31,produces,0.2903
+Spanish (Argentinian),Female,30,melón,31,understands,0
+Spanish (Argentinian),Male,30,melón,38,produces,0.2105
+Spanish (Argentinian),Male,30,melón,38,understands,0
+Spanish (Argentinian),Female,31,melón,1,produces,0
+Spanish (Argentinian),Female,31,melón,1,understands,0
+Spanish (Argentinian),Male,31,melón,1,produces,0
+Spanish (Argentinian),Male,31,melón,1,understands,0
+Spanish (Argentinian),Female,32,melón,1,produces,1
+Spanish (Argentinian),Female,32,melón,1,understands,0
+Spanish (Argentinian),Male,33,melón,2,produces,0
+Spanish (Argentinian),Male,33,melón,2,understands,0
+Spanish (European),Female,16,melón,19,produces,0.0526
+Spanish (European),Female,16,melón,19,understands,0
+Spanish (European),Male,16,melón,20,produces,0
+Spanish (European),Male,16,melón,20,understands,0
+Spanish (European),Female,17,melón,21,produces,0
+Spanish (European),Female,17,melón,21,understands,0
+Spanish (European),Male,17,melón,18,produces,0.0556
+Spanish (European),Male,17,melón,18,understands,0
+Spanish (European),Female,18,melón,27,produces,0.1111
+Spanish (European),Female,18,melón,27,understands,0
+Spanish (European),Male,18,melón,23,produces,0
+Spanish (European),Male,18,melón,23,understands,0
+Spanish (European),Female,19,melón,16,produces,0.1875
+Spanish (European),Female,19,melón,16,understands,0
+Spanish (European),Male,19,melón,11,produces,0
+Spanish (European),Male,19,melón,11,understands,0
+Spanish (European),Female,20,melón,17,produces,0.0588
+Spanish (European),Female,20,melón,17,understands,0
+Spanish (European),Male,20,melón,19,produces,0.0526
+Spanish (European),Male,20,melón,19,understands,0
+Spanish (European),Female,21,melón,23,produces,0.1739
+Spanish (European),Female,21,melón,23,understands,0
+Spanish (European),Male,21,melón,18,produces,0.0556
+Spanish (European),Male,21,melón,18,understands,0
+Spanish (European),Female,22,melón,18,produces,0.2222
+Spanish (European),Female,22,melón,18,understands,0
+Spanish (European),Male,22,melón,20,produces,0.2
+Spanish (European),Male,22,melón,20,understands,0
+Spanish (European),Female,23,melón,15,produces,0.1333
+Spanish (European),Female,23,melón,15,understands,0
+Spanish (European),Male,23,melón,15,produces,0.1333
+Spanish (European),Male,23,melón,15,understands,0
+Spanish (European),Female,24,melón,31,produces,0.2581
+Spanish (European),Female,24,melón,31,understands,0
+Spanish (European),Male,24,melón,24,produces,0.1667
+Spanish (European),Male,24,melón,24,understands,0
+Spanish (European),Female,25,melón,16,produces,0.5
+Spanish (European),Female,25,melón,16,understands,0
+Spanish (European),Male,25,melón,19,produces,0.1053
+Spanish (European),Male,25,melón,19,understands,0
+Spanish (European),Female,26,melón,22,produces,0.3636
+Spanish (European),Female,26,melón,22,understands,0
+Spanish (European),Male,26,melón,27,produces,0.3333
+Spanish (European),Male,26,melón,27,understands,0
+Spanish (European),Female,27,melón,16,produces,0.4375
+Spanish (European),Female,27,melón,16,understands,0
+Spanish (European),Male,27,melón,18,produces,0.5
+Spanish (European),Male,27,melón,18,understands,0
+Spanish (European),Female,28,melón,20,produces,0.4
+Spanish (European),Female,28,melón,20,understands,0
+Spanish (European),Male,28,melón,18,produces,0.3889
+Spanish (European),Male,28,melón,18,understands,0
+Spanish (European),Female,29,melón,18,produces,0.6111
+Spanish (European),Female,29,melón,18,understands,0
+Spanish (European),Male,29,melón,23,produces,0.5652
+Spanish (European),Male,29,melón,23,understands,0
+Spanish (European),Female,30,melón,17,produces,0.7059
+Spanish (European),Female,30,melón,17,understands,0
+Spanish (European),Male,30,melón,24,produces,0.5417
+Spanish (European),Male,30,melón,24,understands,0
+Spanish (Mexican),Female,16,melón,34,produces,0.0882
+Spanish (Mexican),Female,16,melón,34,understands,0
+Spanish (Mexican),Male,16,melón,34,produces,0
+Spanish (Mexican),Male,16,melón,34,understands,0
+Spanish (Mexican),Female,17,melón,34,produces,0.2059
+Spanish (Mexican),Female,17,melón,34,understands,0
+Spanish (Mexican),Male,17,melón,25,produces,0.04
+Spanish (Mexican),Male,17,melón,25,understands,0
+Spanish (Mexican),Female,18,melón,35,produces,0.0571
+Spanish (Mexican),Female,18,melón,35,understands,0
+Spanish (Mexican),Male,18,melón,40,produces,0.125
+Spanish (Mexican),Male,18,melón,40,understands,0
+Spanish (Mexican),Female,19,melón,47,produces,0.2979
+Spanish (Mexican),Female,19,melón,47,understands,0
+Spanish (Mexican),Male,19,melón,53,produces,0.2642
+Spanish (Mexican),Male,19,melón,53,understands,0
+Spanish (Mexican),Female,20,melón,53,produces,0.3774
+Spanish (Mexican),Female,20,melón,53,understands,0
+Spanish (Mexican),Male,20,melón,54,produces,0.2222
+Spanish (Mexican),Male,20,melón,54,understands,0
+Spanish (Mexican),Female,21,melón,37,produces,0.2432
+Spanish (Mexican),Female,21,melón,37,understands,0
+Spanish (Mexican),Male,21,melón,47,produces,0.1702
+Spanish (Mexican),Male,21,melón,47,understands,0
+Spanish (Mexican),Female,22,melón,64,produces,0.25
+Spanish (Mexican),Female,22,melón,64,understands,0
+Spanish (Mexican),Male,22,melón,67,produces,0.1791
+Spanish (Mexican),Male,22,melón,67,understands,0
+Spanish (Mexican),Female,23,melón,49,produces,0.2245
+Spanish (Mexican),Female,23,melón,49,understands,0
+Spanish (Mexican),Male,23,melón,42,produces,0.2857
+Spanish (Mexican),Male,23,melón,42,understands,0
+Spanish (Mexican),Female,24,melón,63,produces,0.4286
+Spanish (Mexican),Female,24,melón,63,understands,0
+Spanish (Mexican),Male,24,melón,63,produces,0.2698
+Spanish (Mexican),Male,24,melón,63,understands,0
+Spanish (Mexican),Female,25,melón,78,produces,0.2949
+Spanish (Mexican),Female,25,melón,78,understands,0
+Spanish (Mexican),Male,25,melón,89,produces,0.3596
+Spanish (Mexican),Male,25,melón,89,understands,0
+Spanish (Mexican),Female,26,melón,38,produces,0.4737
+Spanish (Mexican),Female,26,melón,38,understands,0
+Spanish (Mexican),Male,26,melón,45,produces,0.4222
+Spanish (Mexican),Male,26,melón,45,understands,0
+Spanish (Mexican),Female,27,melón,45,produces,0.6
+Spanish (Mexican),Female,27,melón,45,understands,0
+Spanish (Mexican),Male,27,melón,40,produces,0.625
+Spanish (Mexican),Male,27,melón,40,understands,0
+Spanish (Mexican),Female,28,melón,44,produces,0.7045
+Spanish (Mexican),Female,28,melón,44,understands,0
+Spanish (Mexican),Male,28,melón,45,produces,0.4889
+Spanish (Mexican),Male,28,melón,45,understands,0
+Spanish (Mexican),Female,29,melón,51,produces,0.6863
+Spanish (Mexican),Female,29,melón,51,understands,0
+Spanish (Mexican),Male,29,melón,38,produces,0.4737
+Spanish (Mexican),Male,29,melón,38,understands,0
+Spanish (Mexican),Female,30,melón,146,produces,0.3425
+Spanish (Mexican),Female,30,melón,146,understands,0
+Spanish (Mexican),Male,30,melón,152,produces,0.3355
+Spanish (Mexican),Male,30,melón,152,understands,0
+Spanish (Peruvian),Female,16,melón,6,produces,0
+Spanish (Peruvian),Female,16,melón,6,understands,0
+Spanish (Peruvian),Male,16,melón,7,produces,0.1429
+Spanish (Peruvian),Male,16,melón,7,understands,0
+Spanish (Peruvian),Female,17,melón,5,produces,0
+Spanish (Peruvian),Female,17,melón,5,understands,0
+Spanish (Peruvian),Male,17,melón,4,produces,0
+Spanish (Peruvian),Male,17,melón,4,understands,0
+Spanish (Peruvian),Female,18,melón,4,produces,0
+Spanish (Peruvian),Female,18,melón,4,understands,0
+Spanish (Peruvian),Female,19,melón,3,produces,0
+Spanish (Peruvian),Female,19,melón,3,understands,0
+Spanish (Peruvian),Male,19,melón,9,produces,0
+Spanish (Peruvian),Male,19,melón,9,understands,0
+Spanish (Peruvian),Male,20,melón,1,produces,0
+Spanish (Peruvian),Male,20,melón,1,understands,0
+Spanish (Peruvian),Female,21,melón,3,produces,0
+Spanish (Peruvian),Female,21,melón,3,understands,0
+Spanish (Peruvian),Male,21,melón,2,produces,0
+Spanish (Peruvian),Male,21,melón,2,understands,0
+Spanish (Peruvian),Female,22,melón,4,produces,0
+Spanish (Peruvian),Female,22,melón,4,understands,0
+Spanish (Peruvian),Male,22,melón,5,produces,0
+Spanish (Peruvian),Male,22,melón,5,understands,0
+Spanish (Peruvian),Female,23,melón,1,produces,1
+Spanish (Peruvian),Female,23,melón,1,understands,0
+Spanish (Peruvian),Female,24,melón,7,produces,0.1429
+Spanish (Peruvian),Female,24,melón,7,understands,0
+Spanish (Peruvian),Male,24,melón,8,produces,0
+Spanish (Peruvian),Male,24,melón,8,understands,0
+Spanish (Peruvian),Female,25,melón,2,produces,0
+Spanish (Peruvian),Female,25,melón,2,understands,0
+Spanish (Peruvian),Male,25,melón,3,produces,0
+Spanish (Peruvian),Male,25,melón,3,understands,0
+Spanish (Peruvian),Female,26,melón,3,produces,0
+Spanish (Peruvian),Female,26,melón,3,understands,0
+Spanish (Peruvian),Male,26,melón,5,produces,0
+Spanish (Peruvian),Male,26,melón,5,understands,0
+Spanish (Peruvian),Female,27,melón,3,produces,0
+Spanish (Peruvian),Female,27,melón,3,understands,0
+Spanish (Peruvian),Male,27,melón,4,produces,0.25
+Spanish (Peruvian),Male,27,melón,4,understands,0
+Spanish (Peruvian),Female,28,melón,3,produces,0
+Spanish (Peruvian),Female,28,melón,3,understands,0
+Spanish (Peruvian),Male,28,melón,5,produces,0
+Spanish (Peruvian),Male,28,melón,5,understands,0
+Spanish (Peruvian),Female,29,melón,1,produces,1
+Spanish (Peruvian),Female,29,melón,1,understands,0
+Spanish (Peruvian),Male,29,melón,5,produces,0.2
+Spanish (Peruvian),Male,29,melón,5,understands,0
+Spanish (Peruvian),Female,30,melón,1,produces,0
+Spanish (Peruvian),Female,30,melón,1,understands,0
+Spanish (Peruvian),Male,30,melón,1,produces,0
+Spanish (Peruvian),Male,30,melón,1,understands,0
+Swedish,Female,16,melon,90,produces,0
+Swedish,Female,16,melon,90,understands,0
+Swedish,Male,16,melon,66,produces,0
+Swedish,Male,16,melon,66,understands,0
+Swedish,Female,19,melon,85,produces,0.0235
+Swedish,Female,19,melon,85,understands,0
+Swedish,Male,19,melon,65,produces,0
+Swedish,Male,19,melon,65,understands,0
+Swedish,Female,22,melon,162,produces,0.1358
+Swedish,Female,22,melon,162,understands,0
+Swedish,Male,22,melon,143,produces,0.0629
+Swedish,Male,22,melon,143,understands,0
+Swedish,Female,25,melon,67,produces,0.209
+Swedish,Female,25,melon,67,understands,0
+Swedish,Male,25,melon,76,produces,0.1711
+Swedish,Male,25,melon,76,understands,0
+Swedish,Female,28,melon,69,produces,0.2174
+Swedish,Female,28,melon,69,understands,0
+Swedish,Male,28,melon,70,produces,0.2429
+Swedish,Male,28,melon,70,understands,0

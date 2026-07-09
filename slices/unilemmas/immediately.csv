@@ -1,65 +1,193 @@
-language,age,words,n,measure,prop
-Dutch,15,dadelijk,3,produces,0
-Dutch,15,dadelijk,3,understands,0
-Dutch,16,"dadelijk, dadelijk/seffens",7,produces,0
-Dutch,16,"dadelijk, dadelijk/seffens",7,understands,0
-Dutch,17,"dadelijk, dadelijk/seffens",55,produces,0
-Dutch,17,"dadelijk, dadelijk/seffens",55,understands,0.0364
-Dutch,18,"dadelijk, dadelijk/seffens",198,produces,0.0202
-Dutch,18,"dadelijk, dadelijk/seffens",198,understands,0.0909
-Dutch,19,"dadelijk, dadelijk/seffens",101,produces,0.1089
-Dutch,19,"dadelijk, dadelijk/seffens",101,understands,0.2475
-Dutch,20,"dadelijk, dadelijk/seffens",33,produces,0.0606
-Dutch,20,"dadelijk, dadelijk/seffens",33,understands,0.1818
-Dutch,21,"dadelijk, dadelijk/seffens",13,produces,0
-Dutch,21,"dadelijk, dadelijk/seffens",13,understands,0
-Dutch,22,dadelijk/seffens,7,produces,0.1429
-Dutch,22,dadelijk/seffens,7,understands,0
-Dutch,23,dadelijk/seffens,51,produces,0.0392
-Dutch,23,dadelijk/seffens,51,understands,0
-Dutch,24,dadelijk/seffens,31,produces,0
-Dutch,24,dadelijk/seffens,31,understands,0
-Dutch,25,dadelijk/seffens,6,produces,0
-Dutch,25,dadelijk/seffens,6,understands,0
-Dutch,26,dadelijk/seffens,6,produces,0.1667
-Dutch,26,dadelijk/seffens,6,understands,0
-Dutch,27,dadelijk/seffens,5,produces,0.2
-Dutch,27,dadelijk/seffens,5,understands,0
-Dutch,28,dadelijk/seffens,6,produces,0.5
-Dutch,28,dadelijk/seffens,6,understands,0
-Dutch,29,dadelijk/seffens,23,produces,0.3913
-Dutch,29,dadelijk/seffens,23,understands,0
-Dutch,30,dadelijk/seffens,24,produces,0.4583
-Dutch,30,dadelijk/seffens,24,understands,0
-Dutch,31,dadelijk/seffens,2,produces,0.5
-Dutch,31,dadelijk/seffens,2,understands,0
-Estonian,16,kohe,36,produces,0.0556
-Estonian,16,kohe,36,understands,0
-Estonian,17,kohe,89,produces,0.0112
-Estonian,17,kohe,89,understands,0
-Estonian,18,kohe,103,produces,0.0194
-Estonian,18,kohe,103,understands,0
-Estonian,19,kohe,85,produces,0.0471
-Estonian,19,kohe,85,understands,0
-Estonian,20,kohe,60,produces,0.1
-Estonian,20,kohe,60,understands,0
-Estonian,21,kohe,66,produces,0.0909
-Estonian,21,kohe,66,understands,0
-Estonian,22,kohe,76,produces,0.1316
-Estonian,22,kohe,76,understands,0
-Estonian,23,kohe,95,produces,0.3158
-Estonian,23,kohe,95,understands,0
-Estonian,24,kohe,116,produces,0.3362
-Estonian,24,kohe,116,understands,0
-Estonian,25,kohe,82,produces,0.3902
-Estonian,25,kohe,82,understands,0
-Estonian,26,kohe,84,produces,0.4286
-Estonian,26,kohe,84,understands,0
-Estonian,27,kohe,80,produces,0.4625
-Estonian,27,kohe,80,understands,0
-Estonian,28,kohe,92,produces,0.5652
-Estonian,28,kohe,92,understands,0
-Estonian,29,kohe,100,produces,0.64
-Estonian,29,kohe,100,understands,0
-Estonian,30,kohe,71,produces,0.662
-Estonian,30,kohe,71,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,15,dadelijk,3,produces,0
+Dutch,All,15,dadelijk,3,understands,0
+Dutch,All,16,"dadelijk, dadelijk/seffens",7,produces,0
+Dutch,All,16,"dadelijk, dadelijk/seffens",7,understands,0
+Dutch,All,17,"dadelijk, dadelijk/seffens",55,produces,0
+Dutch,All,17,"dadelijk, dadelijk/seffens",55,understands,0.0364
+Dutch,All,18,"dadelijk, dadelijk/seffens",198,produces,0.0202
+Dutch,All,18,"dadelijk, dadelijk/seffens",198,understands,0.0909
+Dutch,All,19,"dadelijk, dadelijk/seffens",101,produces,0.1089
+Dutch,All,19,"dadelijk, dadelijk/seffens",101,understands,0.2475
+Dutch,All,20,"dadelijk, dadelijk/seffens",33,produces,0.0606
+Dutch,All,20,"dadelijk, dadelijk/seffens",33,understands,0.1818
+Dutch,All,21,"dadelijk, dadelijk/seffens",13,produces,0
+Dutch,All,21,"dadelijk, dadelijk/seffens",13,understands,0
+Dutch,All,22,dadelijk/seffens,7,produces,0.1429
+Dutch,All,22,dadelijk/seffens,7,understands,0
+Dutch,All,23,dadelijk/seffens,51,produces,0.0392
+Dutch,All,23,dadelijk/seffens,51,understands,0
+Dutch,All,24,dadelijk/seffens,31,produces,0
+Dutch,All,24,dadelijk/seffens,31,understands,0
+Dutch,All,25,dadelijk/seffens,6,produces,0
+Dutch,All,25,dadelijk/seffens,6,understands,0
+Dutch,All,26,dadelijk/seffens,6,produces,0.1667
+Dutch,All,26,dadelijk/seffens,6,understands,0
+Dutch,All,27,dadelijk/seffens,5,produces,0.2
+Dutch,All,27,dadelijk/seffens,5,understands,0
+Dutch,All,28,dadelijk/seffens,6,produces,0.5
+Dutch,All,28,dadelijk/seffens,6,understands,0
+Dutch,All,29,dadelijk/seffens,23,produces,0.3913
+Dutch,All,29,dadelijk/seffens,23,understands,0
+Dutch,All,30,dadelijk/seffens,24,produces,0.4583
+Dutch,All,30,dadelijk/seffens,24,understands,0
+Dutch,All,31,dadelijk/seffens,2,produces,0.5
+Dutch,All,31,dadelijk/seffens,2,understands,0
+Estonian,All,16,kohe,36,produces,0.0556
+Estonian,All,16,kohe,36,understands,0
+Estonian,All,17,kohe,89,produces,0.0112
+Estonian,All,17,kohe,89,understands,0
+Estonian,All,18,kohe,103,produces,0.0194
+Estonian,All,18,kohe,103,understands,0
+Estonian,All,19,kohe,85,produces,0.0471
+Estonian,All,19,kohe,85,understands,0
+Estonian,All,20,kohe,60,produces,0.1
+Estonian,All,20,kohe,60,understands,0
+Estonian,All,21,kohe,66,produces,0.0909
+Estonian,All,21,kohe,66,understands,0
+Estonian,All,22,kohe,76,produces,0.1316
+Estonian,All,22,kohe,76,understands,0
+Estonian,All,23,kohe,95,produces,0.3158
+Estonian,All,23,kohe,95,understands,0
+Estonian,All,24,kohe,116,produces,0.3362
+Estonian,All,24,kohe,116,understands,0
+Estonian,All,25,kohe,82,produces,0.3902
+Estonian,All,25,kohe,82,understands,0
+Estonian,All,26,kohe,84,produces,0.4286
+Estonian,All,26,kohe,84,understands,0
+Estonian,All,27,kohe,80,produces,0.4625
+Estonian,All,27,kohe,80,understands,0
+Estonian,All,28,kohe,92,produces,0.5652
+Estonian,All,28,kohe,92,understands,0
+Estonian,All,29,kohe,100,produces,0.64
+Estonian,All,29,kohe,100,understands,0
+Estonian,All,30,kohe,71,produces,0.662
+Estonian,All,30,kohe,71,understands,0
+Dutch,Female,15,dadelijk,2,produces,0
+Dutch,Female,15,dadelijk,2,understands,0
+Dutch,Male,15,dadelijk,1,produces,0
+Dutch,Male,15,dadelijk,1,understands,0
+Dutch,Female,16,"dadelijk, dadelijk/seffens",5,produces,0
+Dutch,Female,16,"dadelijk, dadelijk/seffens",5,understands,0
+Dutch,Male,16,dadelijk,2,produces,0
+Dutch,Male,16,dadelijk,2,understands,0
+Dutch,Female,17,"dadelijk, dadelijk/seffens",35,produces,0
+Dutch,Female,17,"dadelijk, dadelijk/seffens",35,understands,0
+Dutch,Male,17,"dadelijk, dadelijk/seffens",20,produces,0
+Dutch,Male,17,"dadelijk, dadelijk/seffens",20,understands,0.1
+Dutch,Female,18,"dadelijk, dadelijk/seffens",105,produces,0.0286
+Dutch,Female,18,"dadelijk, dadelijk/seffens",105,understands,0.0667
+Dutch,Male,18,"dadelijk, dadelijk/seffens",87,produces,0.0115
+Dutch,Male,18,"dadelijk, dadelijk/seffens",87,understands,0.1264
+Dutch,Female,19,"dadelijk, dadelijk/seffens",54,produces,0.1296
+Dutch,Female,19,"dadelijk, dadelijk/seffens",54,understands,0.2778
+Dutch,Male,19,"dadelijk, dadelijk/seffens",47,produces,0.0851
+Dutch,Male,19,"dadelijk, dadelijk/seffens",47,understands,0.2128
+Dutch,Female,20,"dadelijk, dadelijk/seffens",19,produces,0.0526
+Dutch,Female,20,"dadelijk, dadelijk/seffens",19,understands,0.2105
+Dutch,Male,20,"dadelijk, dadelijk/seffens",14,produces,0.0714
+Dutch,Male,20,"dadelijk, dadelijk/seffens",14,understands,0.1429
+Dutch,Female,21,"dadelijk, dadelijk/seffens",6,produces,0
+Dutch,Female,21,"dadelijk, dadelijk/seffens",6,understands,0
+Dutch,Male,21,"dadelijk, dadelijk/seffens",7,produces,0
+Dutch,Male,21,"dadelijk, dadelijk/seffens",7,understands,0
+Dutch,Female,22,dadelijk/seffens,1,produces,0
+Dutch,Female,22,dadelijk/seffens,1,understands,0
+Dutch,Male,22,dadelijk/seffens,6,produces,0.1667
+Dutch,Male,22,dadelijk/seffens,6,understands,0
+Dutch,Female,23,dadelijk/seffens,25,produces,0.04
+Dutch,Female,23,dadelijk/seffens,25,understands,0
+Dutch,Male,23,dadelijk/seffens,26,produces,0.0385
+Dutch,Male,23,dadelijk/seffens,26,understands,0
+Dutch,Female,24,dadelijk/seffens,16,produces,0
+Dutch,Female,24,dadelijk/seffens,16,understands,0
+Dutch,Male,24,dadelijk/seffens,15,produces,0
+Dutch,Male,24,dadelijk/seffens,15,understands,0
+Dutch,Female,25,dadelijk/seffens,5,produces,0
+Dutch,Female,25,dadelijk/seffens,5,understands,0
+Dutch,Male,25,dadelijk/seffens,1,produces,0
+Dutch,Male,25,dadelijk/seffens,1,understands,0
+Dutch,Female,26,dadelijk/seffens,1,produces,0
+Dutch,Female,26,dadelijk/seffens,1,understands,0
+Dutch,Male,26,dadelijk/seffens,5,produces,0.2
+Dutch,Male,26,dadelijk/seffens,5,understands,0
+Dutch,Female,27,dadelijk/seffens,3,produces,0.3333
+Dutch,Female,27,dadelijk/seffens,3,understands,0
+Dutch,Male,27,dadelijk/seffens,1,produces,0
+Dutch,Male,27,dadelijk/seffens,1,understands,0
+Dutch,Female,28,dadelijk/seffens,5,produces,0.4
+Dutch,Female,28,dadelijk/seffens,5,understands,0
+Dutch,Male,28,dadelijk/seffens,1,produces,1
+Dutch,Male,28,dadelijk/seffens,1,understands,0
+Dutch,Female,29,dadelijk/seffens,12,produces,0.5833
+Dutch,Female,29,dadelijk/seffens,12,understands,0
+Dutch,Male,29,dadelijk/seffens,11,produces,0.1818
+Dutch,Male,29,dadelijk/seffens,11,understands,0
+Dutch,Female,30,dadelijk/seffens,16,produces,0.5
+Dutch,Female,30,dadelijk/seffens,16,understands,0
+Dutch,Male,30,dadelijk/seffens,8,produces,0.375
+Dutch,Male,30,dadelijk/seffens,8,understands,0
+Dutch,Female,31,dadelijk/seffens,1,produces,1
+Dutch,Female,31,dadelijk/seffens,1,understands,0
+Dutch,Male,31,dadelijk/seffens,1,produces,0
+Dutch,Male,31,dadelijk/seffens,1,understands,0
+Estonian,Female,16,kohe,19,produces,0.1053
+Estonian,Female,16,kohe,19,understands,0
+Estonian,Male,16,kohe,17,produces,0
+Estonian,Male,16,kohe,17,understands,0
+Estonian,Female,17,kohe,42,produces,0.0238
+Estonian,Female,17,kohe,42,understands,0
+Estonian,Male,17,kohe,47,produces,0
+Estonian,Male,17,kohe,47,understands,0
+Estonian,Female,18,kohe,52,produces,0.0385
+Estonian,Female,18,kohe,52,understands,0
+Estonian,Male,18,kohe,51,produces,0
+Estonian,Male,18,kohe,51,understands,0
+Estonian,Female,19,kohe,44,produces,0
+Estonian,Female,19,kohe,44,understands,0
+Estonian,Male,19,kohe,41,produces,0.0976
+Estonian,Male,19,kohe,41,understands,0
+Estonian,Female,20,kohe,36,produces,0.1389
+Estonian,Female,20,kohe,36,understands,0
+Estonian,Male,20,kohe,24,produces,0.0417
+Estonian,Male,20,kohe,24,understands,0
+Estonian,Female,21,kohe,28,produces,0.1786
+Estonian,Female,21,kohe,28,understands,0
+Estonian,Male,21,kohe,38,produces,0.0263
+Estonian,Male,21,kohe,38,understands,0
+Estonian,Female,22,kohe,45,produces,0.1556
+Estonian,Female,22,kohe,45,understands,0
+Estonian,Male,22,kohe,31,produces,0.0968
+Estonian,Male,22,kohe,31,understands,0
+Estonian,Female,23,kohe,48,produces,0.4167
+Estonian,Female,23,kohe,48,understands,0
+Estonian,Male,23,kohe,47,produces,0.2128
+Estonian,Male,23,kohe,47,understands,0
+Estonian,Female,24,kohe,52,produces,0.4615
+Estonian,Female,24,kohe,52,understands,0
+Estonian,Male,24,kohe,64,produces,0.2344
+Estonian,Male,24,kohe,64,understands,0
+Estonian,Female,25,kohe,45,produces,0.4667
+Estonian,Female,25,kohe,45,understands,0
+Estonian,Male,25,kohe,37,produces,0.2973
+Estonian,Male,25,kohe,37,understands,0
+Estonian,Female,26,kohe,45,produces,0.6
+Estonian,Female,26,kohe,45,understands,0
+Estonian,Male,26,kohe,39,produces,0.2308
+Estonian,Male,26,kohe,39,understands,0
+Estonian,Female,27,kohe,44,produces,0.5227
+Estonian,Female,27,kohe,44,understands,0
+Estonian,Male,27,kohe,36,produces,0.3889
+Estonian,Male,27,kohe,36,understands,0
+Estonian,Female,28,kohe,44,produces,0.6136
+Estonian,Female,28,kohe,44,understands,0
+Estonian,Male,28,kohe,48,produces,0.5208
+Estonian,Male,28,kohe,48,understands,0
+Estonian,Female,29,kohe,59,produces,0.6441
+Estonian,Female,29,kohe,59,understands,0
+Estonian,Male,29,kohe,41,produces,0.6341
+Estonian,Male,29,kohe,41,understands,0
+Estonian,Female,30,kohe,37,produces,0.7297
+Estonian,Female,30,kohe,37,understands,0
+Estonian,Male,30,kohe,34,produces,0.5882
+Estonian,Male,30,kohe,34,understands,0

@@ -1,83 +1,243 @@
-language,age,words,n,measure,prop
-Japanese,16,わき,11,produces,0
-Japanese,16,わき,11,understands,0
-Japanese,17,わき,17,produces,0
-Japanese,17,わき,17,understands,0
-Japanese,18,わき,56,produces,0
-Japanese,18,わき,56,understands,0
-Japanese,19,わき,35,produces,0
-Japanese,19,わき,35,understands,0
-Japanese,20,わき,59,produces,0
-Japanese,20,わき,59,understands,0
-Japanese,21,わき,62,produces,0
-Japanese,21,わき,62,understands,0
-Japanese,22,わき,31,produces,0
-Japanese,22,わき,31,understands,0
-Japanese,23,わき,67,produces,0
-Japanese,23,わき,67,understands,0
-Japanese,24,わき,33,produces,0.0303
-Japanese,24,わき,33,understands,0
-Japanese,25,わき,34,produces,0
-Japanese,25,わき,34,understands,0
-Japanese,26,わき,33,produces,0.0909
-Japanese,26,わき,33,understands,0
-Japanese,27,わき,15,produces,0
-Japanese,27,わき,15,understands,0
-Japanese,28,わき,18,produces,0
-Japanese,28,わき,18,understands,0
-Japanese,29,わき,17,produces,0
-Japanese,29,わき,17,understands,0
-Japanese,30,わき,18,produces,0
-Japanese,30,わき,18,understands,0
-Japanese,31,わき,18,produces,0.0556
-Japanese,31,わき,18,understands,0
-Japanese,32,わき,13,produces,0.2308
-Japanese,32,わき,13,understands,0
-Japanese,33,わき,16,produces,0.0625
-Japanese,33,わき,16,understands,0
-Japanese,34,わき,13,produces,0.2308
-Japanese,34,わき,13,understands,0
-Japanese,35,わき,31,produces,0.0323
-Japanese,35,わき,31,understands,0
-Japanese,36,わき,18,produces,0.1111
-Japanese,36,わき,18,understands,0
-English (Irish),17,side,2,produces,0
-English (Irish),17,side,2,understands,0
-English (Irish),18,side,1,produces,0
-English (Irish),18,side,1,understands,0
-English (Irish),19,side,2,produces,0
-English (Irish),19,side,2,understands,0
-English (Irish),20,side,1,produces,0
-English (Irish),20,side,1,understands,0
-English (Irish),21,side,3,produces,0
-English (Irish),21,side,3,understands,0
-English (Irish),22,side,4,produces,0
-English (Irish),22,side,4,understands,0
-English (Irish),23,side,4,produces,0
-English (Irish),23,side,4,understands,0
-English (Irish),24,side,4,produces,0
-English (Irish),24,side,4,understands,0
-English (Irish),25,side,6,produces,0
-English (Irish),25,side,6,understands,0
-English (Irish),26,side,10,produces,0
-English (Irish),26,side,10,understands,0
-English (Irish),27,side,5,produces,0.2
-English (Irish),27,side,5,understands,0
-English (Irish),28,side,7,produces,0
-English (Irish),28,side,7,understands,0
-English (Irish),29,side,4,produces,0.25
-English (Irish),29,side,4,understands,0
-English (Irish),30,side,9,produces,0.1111
-English (Irish),30,side,9,understands,0
-English (Irish),31,side,8,produces,0.125
-English (Irish),31,side,8,understands,0
-English (Irish),32,side,4,produces,0.25
-English (Irish),32,side,4,understands,0
-English (Irish),33,side,5,produces,0.2
-English (Irish),33,side,5,understands,0
-English (Irish),34,side,4,produces,0
-English (Irish),34,side,4,understands,0
-English (Irish),35,side,11,produces,0.2727
-English (Irish),35,side,11,understands,0
-English (Irish),36,side,5,produces,0
-English (Irish),36,side,5,understands,0
+language,sex,age,words,n,measure,prop
+English (Irish),All,17,side,2,produces,0
+English (Irish),All,17,side,2,understands,0
+English (Irish),All,18,side,1,produces,0
+English (Irish),All,18,side,1,understands,0
+English (Irish),All,19,side,2,produces,0
+English (Irish),All,19,side,2,understands,0
+English (Irish),All,20,side,1,produces,0
+English (Irish),All,20,side,1,understands,0
+English (Irish),All,21,side,3,produces,0
+English (Irish),All,21,side,3,understands,0
+English (Irish),All,22,side,4,produces,0
+English (Irish),All,22,side,4,understands,0
+English (Irish),All,23,side,4,produces,0
+English (Irish),All,23,side,4,understands,0
+English (Irish),All,24,side,4,produces,0
+English (Irish),All,24,side,4,understands,0
+English (Irish),All,25,side,6,produces,0
+English (Irish),All,25,side,6,understands,0
+English (Irish),All,26,side,10,produces,0
+English (Irish),All,26,side,10,understands,0
+English (Irish),All,27,side,5,produces,0.2
+English (Irish),All,27,side,5,understands,0
+English (Irish),All,28,side,7,produces,0
+English (Irish),All,28,side,7,understands,0
+English (Irish),All,29,side,4,produces,0.25
+English (Irish),All,29,side,4,understands,0
+English (Irish),All,30,side,9,produces,0.1111
+English (Irish),All,30,side,9,understands,0
+English (Irish),All,31,side,8,produces,0.125
+English (Irish),All,31,side,8,understands,0
+English (Irish),All,32,side,4,produces,0.25
+English (Irish),All,32,side,4,understands,0
+English (Irish),All,33,side,5,produces,0.2
+English (Irish),All,33,side,5,understands,0
+English (Irish),All,34,side,4,produces,0
+English (Irish),All,34,side,4,understands,0
+English (Irish),All,35,side,11,produces,0.2727
+English (Irish),All,35,side,11,understands,0
+English (Irish),All,36,side,5,produces,0
+English (Irish),All,36,side,5,understands,0
+Japanese,All,16,わき,11,produces,0
+Japanese,All,16,わき,11,understands,0
+Japanese,All,17,わき,17,produces,0
+Japanese,All,17,わき,17,understands,0
+Japanese,All,18,わき,56,produces,0
+Japanese,All,18,わき,56,understands,0
+Japanese,All,19,わき,35,produces,0
+Japanese,All,19,わき,35,understands,0
+Japanese,All,20,わき,59,produces,0
+Japanese,All,20,わき,59,understands,0
+Japanese,All,21,わき,62,produces,0
+Japanese,All,21,わき,62,understands,0
+Japanese,All,22,わき,31,produces,0
+Japanese,All,22,わき,31,understands,0
+Japanese,All,23,わき,67,produces,0
+Japanese,All,23,わき,67,understands,0
+Japanese,All,24,わき,33,produces,0.0303
+Japanese,All,24,わき,33,understands,0
+Japanese,All,25,わき,34,produces,0
+Japanese,All,25,わき,34,understands,0
+Japanese,All,26,わき,33,produces,0.0909
+Japanese,All,26,わき,33,understands,0
+Japanese,All,27,わき,15,produces,0
+Japanese,All,27,わき,15,understands,0
+Japanese,All,28,わき,18,produces,0
+Japanese,All,28,わき,18,understands,0
+Japanese,All,29,わき,17,produces,0
+Japanese,All,29,わき,17,understands,0
+Japanese,All,30,わき,18,produces,0
+Japanese,All,30,わき,18,understands,0
+Japanese,All,31,わき,18,produces,0.0556
+Japanese,All,31,わき,18,understands,0
+Japanese,All,32,わき,13,produces,0.2308
+Japanese,All,32,わき,13,understands,0
+Japanese,All,33,わき,16,produces,0.0625
+Japanese,All,33,わき,16,understands,0
+Japanese,All,34,わき,13,produces,0.2308
+Japanese,All,34,わき,13,understands,0
+Japanese,All,35,わき,31,produces,0.0323
+Japanese,All,35,わき,31,understands,0
+Japanese,All,36,わき,18,produces,0.1111
+Japanese,All,36,わき,18,understands,0
+English (Irish),Female,17,side,1,produces,0
+English (Irish),Female,17,side,1,understands,0
+English (Irish),Male,17,side,1,produces,0
+English (Irish),Male,17,side,1,understands,0
+English (Irish),Female,18,side,1,produces,0
+English (Irish),Female,18,side,1,understands,0
+English (Irish),Female,19,side,1,produces,0
+English (Irish),Female,19,side,1,understands,0
+English (Irish),Male,19,side,1,produces,0
+English (Irish),Male,19,side,1,understands,0
+English (Irish),Female,20,side,1,produces,0
+English (Irish),Female,20,side,1,understands,0
+English (Irish),Female,21,side,2,produces,0
+English (Irish),Female,21,side,2,understands,0
+English (Irish),Male,21,side,1,produces,0
+English (Irish),Male,21,side,1,understands,0
+English (Irish),Female,22,side,3,produces,0
+English (Irish),Female,22,side,3,understands,0
+English (Irish),Male,22,side,1,produces,0
+English (Irish),Male,22,side,1,understands,0
+English (Irish),Female,23,side,2,produces,0
+English (Irish),Female,23,side,2,understands,0
+English (Irish),Male,23,side,2,produces,0
+English (Irish),Male,23,side,2,understands,0
+English (Irish),Female,24,side,2,produces,0
+English (Irish),Female,24,side,2,understands,0
+English (Irish),Male,24,side,2,produces,0
+English (Irish),Male,24,side,2,understands,0
+English (Irish),Female,25,side,3,produces,0
+English (Irish),Female,25,side,3,understands,0
+English (Irish),Male,25,side,3,produces,0
+English (Irish),Male,25,side,3,understands,0
+English (Irish),Female,26,side,7,produces,0
+English (Irish),Female,26,side,7,understands,0
+English (Irish),Male,26,side,3,produces,0
+English (Irish),Male,26,side,3,understands,0
+English (Irish),Female,27,side,1,produces,1
+English (Irish),Female,27,side,1,understands,0
+English (Irish),Male,27,side,4,produces,0
+English (Irish),Male,27,side,4,understands,0
+English (Irish),Female,28,side,4,produces,0
+English (Irish),Female,28,side,4,understands,0
+English (Irish),Male,28,side,3,produces,0
+English (Irish),Male,28,side,3,understands,0
+English (Irish),Female,29,side,1,produces,0
+English (Irish),Female,29,side,1,understands,0
+English (Irish),Male,29,side,3,produces,0.3333
+English (Irish),Male,29,side,3,understands,0
+English (Irish),Female,30,side,5,produces,0.2
+English (Irish),Female,30,side,5,understands,0
+English (Irish),Male,30,side,4,produces,0
+English (Irish),Male,30,side,4,understands,0
+English (Irish),Female,31,side,3,produces,0.3333
+English (Irish),Female,31,side,3,understands,0
+English (Irish),Male,31,side,5,produces,0
+English (Irish),Male,31,side,5,understands,0
+English (Irish),Female,32,side,2,produces,0.5
+English (Irish),Female,32,side,2,understands,0
+English (Irish),Male,32,side,2,produces,0
+English (Irish),Male,32,side,2,understands,0
+English (Irish),Female,33,side,1,produces,0
+English (Irish),Female,33,side,1,understands,0
+English (Irish),Male,33,side,4,produces,0.25
+English (Irish),Male,33,side,4,understands,0
+English (Irish),Female,34,side,2,produces,0
+English (Irish),Female,34,side,2,understands,0
+English (Irish),Male,34,side,2,produces,0
+English (Irish),Male,34,side,2,understands,0
+English (Irish),Female,35,side,2,produces,0
+English (Irish),Female,35,side,2,understands,0
+English (Irish),Male,35,side,9,produces,0.3333
+English (Irish),Male,35,side,9,understands,0
+English (Irish),Female,36,side,3,produces,0
+English (Irish),Female,36,side,3,understands,0
+English (Irish),Male,36,side,2,produces,0
+English (Irish),Male,36,side,2,understands,0
+Japanese,Female,16,わき,4,produces,0
+Japanese,Female,16,わき,4,understands,0
+Japanese,Male,16,わき,7,produces,0
+Japanese,Male,16,わき,7,understands,0
+Japanese,Female,17,わき,11,produces,0
+Japanese,Female,17,わき,11,understands,0
+Japanese,Male,17,わき,6,produces,0
+Japanese,Male,17,わき,6,understands,0
+Japanese,Female,18,わき,27,produces,0
+Japanese,Female,18,わき,27,understands,0
+Japanese,Male,18,わき,29,produces,0
+Japanese,Male,18,わき,29,understands,0
+Japanese,Female,19,わき,14,produces,0
+Japanese,Female,19,わき,14,understands,0
+Japanese,Male,19,わき,21,produces,0
+Japanese,Male,19,わき,21,understands,0
+Japanese,Female,20,わき,27,produces,0
+Japanese,Female,20,わき,27,understands,0
+Japanese,Male,20,わき,32,produces,0
+Japanese,Male,20,わき,32,understands,0
+Japanese,Female,21,わき,29,produces,0
+Japanese,Female,21,わき,29,understands,0
+Japanese,Male,21,わき,33,produces,0
+Japanese,Male,21,わき,33,understands,0
+Japanese,Female,22,わき,16,produces,0
+Japanese,Female,22,わき,16,understands,0
+Japanese,Male,22,わき,15,produces,0
+Japanese,Male,22,わき,15,understands,0
+Japanese,Female,23,わき,38,produces,0
+Japanese,Female,23,わき,38,understands,0
+Japanese,Male,23,わき,29,produces,0
+Japanese,Male,23,わき,29,understands,0
+Japanese,Female,24,わき,18,produces,0.0556
+Japanese,Female,24,わき,18,understands,0
+Japanese,Male,24,わき,15,produces,0
+Japanese,Male,24,わき,15,understands,0
+Japanese,Female,25,わき,14,produces,0
+Japanese,Female,25,わき,14,understands,0
+Japanese,Male,25,わき,20,produces,0
+Japanese,Male,25,わき,20,understands,0
+Japanese,Female,26,わき,19,produces,0.1579
+Japanese,Female,26,わき,19,understands,0
+Japanese,Male,26,わき,14,produces,0
+Japanese,Male,26,わき,14,understands,0
+Japanese,Female,27,わき,8,produces,0
+Japanese,Female,27,わき,8,understands,0
+Japanese,Male,27,わき,7,produces,0
+Japanese,Male,27,わき,7,understands,0
+Japanese,Female,28,わき,8,produces,0
+Japanese,Female,28,わき,8,understands,0
+Japanese,Male,28,わき,10,produces,0
+Japanese,Male,28,わき,10,understands,0
+Japanese,Female,29,わき,6,produces,0
+Japanese,Female,29,わき,6,understands,0
+Japanese,Male,29,わき,11,produces,0
+Japanese,Male,29,わき,11,understands,0
+Japanese,Female,30,わき,9,produces,0
+Japanese,Female,30,わき,9,understands,0
+Japanese,Male,30,わき,9,produces,0
+Japanese,Male,30,わき,9,understands,0
+Japanese,Female,31,わき,8,produces,0
+Japanese,Female,31,わき,8,understands,0
+Japanese,Male,31,わき,10,produces,0.1
+Japanese,Male,31,わき,10,understands,0
+Japanese,Female,32,わき,8,produces,0.25
+Japanese,Female,32,わき,8,understands,0
+Japanese,Male,32,わき,5,produces,0.2
+Japanese,Male,32,わき,5,understands,0
+Japanese,Female,33,わき,9,produces,0.1111
+Japanese,Female,33,わき,9,understands,0
+Japanese,Male,33,わき,7,produces,0
+Japanese,Male,33,わき,7,understands,0
+Japanese,Female,34,わき,8,produces,0.125
+Japanese,Female,34,わき,8,understands,0
+Japanese,Male,34,わき,5,produces,0.4
+Japanese,Male,34,わき,5,understands,0
+Japanese,Female,35,わき,19,produces,0.0526
+Japanese,Female,35,わき,19,understands,0
+Japanese,Male,35,わき,12,produces,0
+Japanese,Male,35,わき,12,understands,0
+Japanese,Female,36,わき,4,produces,0.5
+Japanese,Female,36,わき,4,understands,0
+Japanese,Male,36,わき,14,produces,0
+Japanese,Male,36,わき,14,understands,0

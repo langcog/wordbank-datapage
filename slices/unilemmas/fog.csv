@@ -1,119 +1,347 @@
-language,age,words,n,measure,prop
-Italian,18,nebbia,31,produces,0.0323
-Italian,18,nebbia,31,understands,0
-Italian,19,nebbia,39,produces,0
-Italian,19,nebbia,39,understands,0
-Italian,20,nebbia,64,produces,0.0156
-Italian,20,nebbia,64,understands,0
-Italian,21,nebbia,55,produces,0.0909
-Italian,21,nebbia,55,understands,0
-Italian,22,nebbia,55,produces,0.1455
-Italian,22,nebbia,55,understands,0
-Italian,23,nebbia,53,produces,0.0755
-Italian,23,nebbia,53,understands,0
-Italian,24,nebbia,71,produces,0.1127
-Italian,24,nebbia,71,understands,0
-Italian,25,nebbia,39,produces,0.2051
-Italian,25,nebbia,39,understands,0
-Italian,26,nebbia,41,produces,0.2927
-Italian,26,nebbia,41,understands,0
-Italian,27,nebbia,43,produces,0.2326
-Italian,27,nebbia,43,understands,0
-Italian,28,nebbia,44,produces,0.3636
-Italian,28,nebbia,44,understands,0
-Italian,29,nebbia,37,produces,0.2973
-Italian,29,nebbia,37,understands,0
-Italian,30,nebbia,67,produces,0.3881
-Italian,30,nebbia,67,understands,0
-Italian,31,nebbia,19,produces,0.4211
-Italian,31,nebbia,19,understands,0
-Italian,32,nebbia,23,produces,0.4348
-Italian,32,nebbia,23,understands,0
-Italian,33,nebbia,16,produces,0.5
-Italian,33,nebbia,16,understands,0
-Italian,34,nebbia,19,produces,0.3684
-Italian,34,nebbia,19,understands,0
-Italian,35,nebbia,15,produces,0.6
-Italian,35,nebbia,15,understands,0
-Italian,36,nebbia,21,produces,0.4286
-Italian,36,nebbia,21,understands,0
-English (Irish),17,fog,2,produces,0
-English (Irish),17,fog,2,understands,0
-English (Irish),18,fog,1,produces,1
-English (Irish),18,fog,1,understands,0
-English (Irish),19,fog,2,produces,0
-English (Irish),19,fog,2,understands,0
-English (Irish),20,fog,1,produces,0
-English (Irish),20,fog,1,understands,0
-English (Irish),21,fog,3,produces,0
-English (Irish),21,fog,3,understands,0
-English (Irish),22,fog,4,produces,0.25
-English (Irish),22,fog,4,understands,0
-English (Irish),23,fog,4,produces,0
-English (Irish),23,fog,4,understands,0
-English (Irish),24,fog,4,produces,0
-English (Irish),24,fog,4,understands,0
-English (Irish),25,fog,6,produces,0.1667
-English (Irish),25,fog,6,understands,0
-English (Irish),26,fog,10,produces,0
-English (Irish),26,fog,10,understands,0
-English (Irish),27,fog,5,produces,0
-English (Irish),27,fog,5,understands,0
-English (Irish),28,fog,7,produces,0
-English (Irish),28,fog,7,understands,0
-English (Irish),29,fog,4,produces,0
-English (Irish),29,fog,4,understands,0
-English (Irish),30,fog,9,produces,0
-English (Irish),30,fog,9,understands,0
-English (Irish),31,fog,8,produces,0.125
-English (Irish),31,fog,8,understands,0
-English (Irish),32,fog,4,produces,0.25
-English (Irish),32,fog,4,understands,0
-English (Irish),33,fog,5,produces,0.2
-English (Irish),33,fog,5,understands,0
-English (Irish),34,fog,4,produces,0.5
-English (Irish),34,fog,4,understands,0
-English (Irish),35,fog,11,produces,0.1818
-English (Irish),35,fog,11,understands,0
-English (Irish),36,fog,5,produces,0
-English (Irish),36,fog,5,understands,0
-Irish,17,ceo,2,produces,0
-Irish,17,ceo,2,understands,0
-Irish,18,ceo,1,produces,0
-Irish,18,ceo,1,understands,0
-Irish,19,ceo,2,produces,0
-Irish,19,ceo,2,understands,0
-Irish,20,ceo,1,produces,0
-Irish,20,ceo,1,understands,0
-Irish,21,ceo,3,produces,0
-Irish,21,ceo,3,understands,0
-Irish,22,ceo,4,produces,0
-Irish,22,ceo,4,understands,0
-Irish,23,ceo,4,produces,0.25
-Irish,23,ceo,4,understands,0
-Irish,24,ceo,4,produces,0.5
-Irish,24,ceo,4,understands,0
-Irish,25,ceo,6,produces,0.1667
-Irish,25,ceo,6,understands,0
-Irish,26,ceo,10,produces,0
-Irish,26,ceo,10,understands,0
-Irish,27,ceo,5,produces,0.2
-Irish,27,ceo,5,understands,0
-Irish,28,ceo,7,produces,0.1429
-Irish,28,ceo,7,understands,0
-Irish,29,ceo,4,produces,0.25
-Irish,29,ceo,4,understands,0
-Irish,30,ceo,9,produces,0.2222
-Irish,30,ceo,9,understands,0
-Irish,31,ceo,8,produces,0.25
-Irish,31,ceo,8,understands,0
-Irish,32,ceo,4,produces,0
-Irish,32,ceo,4,understands,0
-Irish,33,ceo,5,produces,0.4
-Irish,33,ceo,5,understands,0
-Irish,34,ceo,4,produces,0.25
-Irish,34,ceo,4,understands,0
-Irish,35,ceo,11,produces,0.1818
-Irish,35,ceo,11,understands,0
-Irish,36,ceo,5,produces,0.2
-Irish,36,ceo,5,understands,0
+language,sex,age,words,n,measure,prop
+English (Irish),All,17,fog,2,produces,0
+English (Irish),All,17,fog,2,understands,0
+English (Irish),All,18,fog,1,produces,1
+English (Irish),All,18,fog,1,understands,0
+English (Irish),All,19,fog,2,produces,0
+English (Irish),All,19,fog,2,understands,0
+English (Irish),All,20,fog,1,produces,0
+English (Irish),All,20,fog,1,understands,0
+English (Irish),All,21,fog,3,produces,0
+English (Irish),All,21,fog,3,understands,0
+English (Irish),All,22,fog,4,produces,0.25
+English (Irish),All,22,fog,4,understands,0
+English (Irish),All,23,fog,4,produces,0
+English (Irish),All,23,fog,4,understands,0
+English (Irish),All,24,fog,4,produces,0
+English (Irish),All,24,fog,4,understands,0
+English (Irish),All,25,fog,6,produces,0.1667
+English (Irish),All,25,fog,6,understands,0
+English (Irish),All,26,fog,10,produces,0
+English (Irish),All,26,fog,10,understands,0
+English (Irish),All,27,fog,5,produces,0
+English (Irish),All,27,fog,5,understands,0
+English (Irish),All,28,fog,7,produces,0
+English (Irish),All,28,fog,7,understands,0
+English (Irish),All,29,fog,4,produces,0
+English (Irish),All,29,fog,4,understands,0
+English (Irish),All,30,fog,9,produces,0
+English (Irish),All,30,fog,9,understands,0
+English (Irish),All,31,fog,8,produces,0.125
+English (Irish),All,31,fog,8,understands,0
+English (Irish),All,32,fog,4,produces,0.25
+English (Irish),All,32,fog,4,understands,0
+English (Irish),All,33,fog,5,produces,0.2
+English (Irish),All,33,fog,5,understands,0
+English (Irish),All,34,fog,4,produces,0.5
+English (Irish),All,34,fog,4,understands,0
+English (Irish),All,35,fog,11,produces,0.1818
+English (Irish),All,35,fog,11,understands,0
+English (Irish),All,36,fog,5,produces,0
+English (Irish),All,36,fog,5,understands,0
+Irish,All,17,ceo,2,produces,0
+Irish,All,17,ceo,2,understands,0
+Irish,All,18,ceo,1,produces,0
+Irish,All,18,ceo,1,understands,0
+Irish,All,19,ceo,2,produces,0
+Irish,All,19,ceo,2,understands,0
+Irish,All,20,ceo,1,produces,0
+Irish,All,20,ceo,1,understands,0
+Irish,All,21,ceo,3,produces,0
+Irish,All,21,ceo,3,understands,0
+Irish,All,22,ceo,4,produces,0
+Irish,All,22,ceo,4,understands,0
+Irish,All,23,ceo,4,produces,0.25
+Irish,All,23,ceo,4,understands,0
+Irish,All,24,ceo,4,produces,0.5
+Irish,All,24,ceo,4,understands,0
+Irish,All,25,ceo,6,produces,0.1667
+Irish,All,25,ceo,6,understands,0
+Irish,All,26,ceo,10,produces,0
+Irish,All,26,ceo,10,understands,0
+Irish,All,27,ceo,5,produces,0.2
+Irish,All,27,ceo,5,understands,0
+Irish,All,28,ceo,7,produces,0.1429
+Irish,All,28,ceo,7,understands,0
+Irish,All,29,ceo,4,produces,0.25
+Irish,All,29,ceo,4,understands,0
+Irish,All,30,ceo,9,produces,0.2222
+Irish,All,30,ceo,9,understands,0
+Irish,All,31,ceo,8,produces,0.25
+Irish,All,31,ceo,8,understands,0
+Irish,All,32,ceo,4,produces,0
+Irish,All,32,ceo,4,understands,0
+Irish,All,33,ceo,5,produces,0.4
+Irish,All,33,ceo,5,understands,0
+Irish,All,34,ceo,4,produces,0.25
+Irish,All,34,ceo,4,understands,0
+Irish,All,35,ceo,11,produces,0.1818
+Irish,All,35,ceo,11,understands,0
+Irish,All,36,ceo,5,produces,0.2
+Irish,All,36,ceo,5,understands,0
+Italian,All,18,nebbia,31,produces,0.0323
+Italian,All,18,nebbia,31,understands,0
+Italian,All,19,nebbia,39,produces,0
+Italian,All,19,nebbia,39,understands,0
+Italian,All,20,nebbia,64,produces,0.0156
+Italian,All,20,nebbia,64,understands,0
+Italian,All,21,nebbia,55,produces,0.0909
+Italian,All,21,nebbia,55,understands,0
+Italian,All,22,nebbia,55,produces,0.1455
+Italian,All,22,nebbia,55,understands,0
+Italian,All,23,nebbia,53,produces,0.0755
+Italian,All,23,nebbia,53,understands,0
+Italian,All,24,nebbia,71,produces,0.1127
+Italian,All,24,nebbia,71,understands,0
+Italian,All,25,nebbia,39,produces,0.2051
+Italian,All,25,nebbia,39,understands,0
+Italian,All,26,nebbia,41,produces,0.2927
+Italian,All,26,nebbia,41,understands,0
+Italian,All,27,nebbia,43,produces,0.2326
+Italian,All,27,nebbia,43,understands,0
+Italian,All,28,nebbia,44,produces,0.3636
+Italian,All,28,nebbia,44,understands,0
+Italian,All,29,nebbia,37,produces,0.2973
+Italian,All,29,nebbia,37,understands,0
+Italian,All,30,nebbia,67,produces,0.3881
+Italian,All,30,nebbia,67,understands,0
+Italian,All,31,nebbia,19,produces,0.4211
+Italian,All,31,nebbia,19,understands,0
+Italian,All,32,nebbia,23,produces,0.4348
+Italian,All,32,nebbia,23,understands,0
+Italian,All,33,nebbia,16,produces,0.5
+Italian,All,33,nebbia,16,understands,0
+Italian,All,34,nebbia,19,produces,0.3684
+Italian,All,34,nebbia,19,understands,0
+Italian,All,35,nebbia,15,produces,0.6
+Italian,All,35,nebbia,15,understands,0
+Italian,All,36,nebbia,21,produces,0.4286
+Italian,All,36,nebbia,21,understands,0
+English (Irish),Female,17,fog,1,produces,0
+English (Irish),Female,17,fog,1,understands,0
+English (Irish),Male,17,fog,1,produces,0
+English (Irish),Male,17,fog,1,understands,0
+English (Irish),Female,18,fog,1,produces,1
+English (Irish),Female,18,fog,1,understands,0
+English (Irish),Female,19,fog,1,produces,0
+English (Irish),Female,19,fog,1,understands,0
+English (Irish),Male,19,fog,1,produces,0
+English (Irish),Male,19,fog,1,understands,0
+English (Irish),Female,20,fog,1,produces,0
+English (Irish),Female,20,fog,1,understands,0
+English (Irish),Female,21,fog,2,produces,0
+English (Irish),Female,21,fog,2,understands,0
+English (Irish),Male,21,fog,1,produces,0
+English (Irish),Male,21,fog,1,understands,0
+English (Irish),Female,22,fog,3,produces,0.3333
+English (Irish),Female,22,fog,3,understands,0
+English (Irish),Male,22,fog,1,produces,0
+English (Irish),Male,22,fog,1,understands,0
+English (Irish),Female,23,fog,2,produces,0
+English (Irish),Female,23,fog,2,understands,0
+English (Irish),Male,23,fog,2,produces,0
+English (Irish),Male,23,fog,2,understands,0
+English (Irish),Female,24,fog,2,produces,0
+English (Irish),Female,24,fog,2,understands,0
+English (Irish),Male,24,fog,2,produces,0
+English (Irish),Male,24,fog,2,understands,0
+English (Irish),Female,25,fog,3,produces,0
+English (Irish),Female,25,fog,3,understands,0
+English (Irish),Male,25,fog,3,produces,0.3333
+English (Irish),Male,25,fog,3,understands,0
+English (Irish),Female,26,fog,7,produces,0
+English (Irish),Female,26,fog,7,understands,0
+English (Irish),Male,26,fog,3,produces,0
+English (Irish),Male,26,fog,3,understands,0
+English (Irish),Female,27,fog,1,produces,0
+English (Irish),Female,27,fog,1,understands,0
+English (Irish),Male,27,fog,4,produces,0
+English (Irish),Male,27,fog,4,understands,0
+English (Irish),Female,28,fog,4,produces,0
+English (Irish),Female,28,fog,4,understands,0
+English (Irish),Male,28,fog,3,produces,0
+English (Irish),Male,28,fog,3,understands,0
+English (Irish),Female,29,fog,1,produces,0
+English (Irish),Female,29,fog,1,understands,0
+English (Irish),Male,29,fog,3,produces,0
+English (Irish),Male,29,fog,3,understands,0
+English (Irish),Female,30,fog,5,produces,0
+English (Irish),Female,30,fog,5,understands,0
+English (Irish),Male,30,fog,4,produces,0
+English (Irish),Male,30,fog,4,understands,0
+English (Irish),Female,31,fog,3,produces,0
+English (Irish),Female,31,fog,3,understands,0
+English (Irish),Male,31,fog,5,produces,0.2
+English (Irish),Male,31,fog,5,understands,0
+English (Irish),Female,32,fog,2,produces,0.5
+English (Irish),Female,32,fog,2,understands,0
+English (Irish),Male,32,fog,2,produces,0
+English (Irish),Male,32,fog,2,understands,0
+English (Irish),Female,33,fog,1,produces,0
+English (Irish),Female,33,fog,1,understands,0
+English (Irish),Male,33,fog,4,produces,0.25
+English (Irish),Male,33,fog,4,understands,0
+English (Irish),Female,34,fog,2,produces,1
+English (Irish),Female,34,fog,2,understands,0
+English (Irish),Male,34,fog,2,produces,0
+English (Irish),Male,34,fog,2,understands,0
+English (Irish),Female,35,fog,2,produces,0
+English (Irish),Female,35,fog,2,understands,0
+English (Irish),Male,35,fog,9,produces,0.2222
+English (Irish),Male,35,fog,9,understands,0
+English (Irish),Female,36,fog,3,produces,0
+English (Irish),Female,36,fog,3,understands,0
+English (Irish),Male,36,fog,2,produces,0
+English (Irish),Male,36,fog,2,understands,0
+Irish,Female,17,ceo,1,produces,0
+Irish,Female,17,ceo,1,understands,0
+Irish,Male,17,ceo,1,produces,0
+Irish,Male,17,ceo,1,understands,0
+Irish,Female,18,ceo,1,produces,0
+Irish,Female,18,ceo,1,understands,0
+Irish,Female,19,ceo,1,produces,0
+Irish,Female,19,ceo,1,understands,0
+Irish,Male,19,ceo,1,produces,0
+Irish,Male,19,ceo,1,understands,0
+Irish,Female,20,ceo,1,produces,0
+Irish,Female,20,ceo,1,understands,0
+Irish,Female,21,ceo,2,produces,0
+Irish,Female,21,ceo,2,understands,0
+Irish,Male,21,ceo,1,produces,0
+Irish,Male,21,ceo,1,understands,0
+Irish,Female,22,ceo,3,produces,0
+Irish,Female,22,ceo,3,understands,0
+Irish,Male,22,ceo,1,produces,0
+Irish,Male,22,ceo,1,understands,0
+Irish,Female,23,ceo,2,produces,0
+Irish,Female,23,ceo,2,understands,0
+Irish,Male,23,ceo,2,produces,0.5
+Irish,Male,23,ceo,2,understands,0
+Irish,Female,24,ceo,2,produces,0.5
+Irish,Female,24,ceo,2,understands,0
+Irish,Male,24,ceo,2,produces,0.5
+Irish,Male,24,ceo,2,understands,0
+Irish,Female,25,ceo,3,produces,0
+Irish,Female,25,ceo,3,understands,0
+Irish,Male,25,ceo,3,produces,0.3333
+Irish,Male,25,ceo,3,understands,0
+Irish,Female,26,ceo,7,produces,0
+Irish,Female,26,ceo,7,understands,0
+Irish,Male,26,ceo,3,produces,0
+Irish,Male,26,ceo,3,understands,0
+Irish,Female,27,ceo,1,produces,0
+Irish,Female,27,ceo,1,understands,0
+Irish,Male,27,ceo,4,produces,0.25
+Irish,Male,27,ceo,4,understands,0
+Irish,Female,28,ceo,4,produces,0.25
+Irish,Female,28,ceo,4,understands,0
+Irish,Male,28,ceo,3,produces,0
+Irish,Male,28,ceo,3,understands,0
+Irish,Female,29,ceo,1,produces,1
+Irish,Female,29,ceo,1,understands,0
+Irish,Male,29,ceo,3,produces,0
+Irish,Male,29,ceo,3,understands,0
+Irish,Female,30,ceo,5,produces,0.2
+Irish,Female,30,ceo,5,understands,0
+Irish,Male,30,ceo,4,produces,0.25
+Irish,Male,30,ceo,4,understands,0
+Irish,Female,31,ceo,3,produces,0.3333
+Irish,Female,31,ceo,3,understands,0
+Irish,Male,31,ceo,5,produces,0.2
+Irish,Male,31,ceo,5,understands,0
+Irish,Female,32,ceo,2,produces,0
+Irish,Female,32,ceo,2,understands,0
+Irish,Male,32,ceo,2,produces,0
+Irish,Male,32,ceo,2,understands,0
+Irish,Female,33,ceo,1,produces,1
+Irish,Female,33,ceo,1,understands,0
+Irish,Male,33,ceo,4,produces,0.25
+Irish,Male,33,ceo,4,understands,0
+Irish,Female,34,ceo,2,produces,0.5
+Irish,Female,34,ceo,2,understands,0
+Irish,Male,34,ceo,2,produces,0
+Irish,Male,34,ceo,2,understands,0
+Irish,Female,35,ceo,2,produces,0
+Irish,Female,35,ceo,2,understands,0
+Irish,Male,35,ceo,9,produces,0.2222
+Irish,Male,35,ceo,9,understands,0
+Irish,Female,36,ceo,3,produces,0
+Irish,Female,36,ceo,3,understands,0
+Irish,Male,36,ceo,2,produces,0.5
+Irish,Male,36,ceo,2,understands,0
+Italian,Female,18,nebbia,18,produces,0.0556
+Italian,Female,18,nebbia,18,understands,0
+Italian,Male,18,nebbia,13,produces,0
+Italian,Male,18,nebbia,13,understands,0
+Italian,Female,19,nebbia,21,produces,0
+Italian,Female,19,nebbia,21,understands,0
+Italian,Male,19,nebbia,18,produces,0
+Italian,Male,19,nebbia,18,understands,0
+Italian,Female,20,nebbia,34,produces,0.0294
+Italian,Female,20,nebbia,34,understands,0
+Italian,Male,20,nebbia,30,produces,0
+Italian,Male,20,nebbia,30,understands,0
+Italian,Female,21,nebbia,24,produces,0.1667
+Italian,Female,21,nebbia,24,understands,0
+Italian,Male,21,nebbia,31,produces,0.0323
+Italian,Male,21,nebbia,31,understands,0
+Italian,Female,22,nebbia,27,produces,0.1111
+Italian,Female,22,nebbia,27,understands,0
+Italian,Male,22,nebbia,28,produces,0.1786
+Italian,Male,22,nebbia,28,understands,0
+Italian,Female,23,nebbia,27,produces,0
+Italian,Female,23,nebbia,27,understands,0
+Italian,Male,23,nebbia,26,produces,0.1538
+Italian,Male,23,nebbia,26,understands,0
+Italian,Female,24,nebbia,39,produces,0.1026
+Italian,Female,24,nebbia,39,understands,0
+Italian,Male,24,nebbia,32,produces,0.125
+Italian,Male,24,nebbia,32,understands,0
+Italian,Female,25,nebbia,23,produces,0.2174
+Italian,Female,25,nebbia,23,understands,0
+Italian,Male,25,nebbia,16,produces,0.1875
+Italian,Male,25,nebbia,16,understands,0
+Italian,Female,26,nebbia,19,produces,0.4737
+Italian,Female,26,nebbia,19,understands,0
+Italian,Male,26,nebbia,22,produces,0.1364
+Italian,Male,26,nebbia,22,understands,0
+Italian,Female,27,nebbia,20,produces,0.15
+Italian,Female,27,nebbia,20,understands,0
+Italian,Male,27,nebbia,23,produces,0.3043
+Italian,Male,27,nebbia,23,understands,0
+Italian,Female,28,nebbia,21,produces,0.381
+Italian,Female,28,nebbia,21,understands,0
+Italian,Male,28,nebbia,23,produces,0.3478
+Italian,Male,28,nebbia,23,understands,0
+Italian,Female,29,nebbia,21,produces,0.2381
+Italian,Female,29,nebbia,21,understands,0
+Italian,Male,29,nebbia,16,produces,0.375
+Italian,Male,29,nebbia,16,understands,0
+Italian,Female,30,nebbia,28,produces,0.3214
+Italian,Female,30,nebbia,28,understands,0
+Italian,Male,30,nebbia,39,produces,0.4359
+Italian,Male,30,nebbia,39,understands,0
+Italian,Female,31,nebbia,8,produces,0.375
+Italian,Female,31,nebbia,8,understands,0
+Italian,Male,31,nebbia,11,produces,0.4545
+Italian,Male,31,nebbia,11,understands,0
+Italian,Female,32,nebbia,14,produces,0.5714
+Italian,Female,32,nebbia,14,understands,0
+Italian,Male,32,nebbia,9,produces,0.2222
+Italian,Male,32,nebbia,9,understands,0
+Italian,Female,33,nebbia,5,produces,0.6
+Italian,Female,33,nebbia,5,understands,0
+Italian,Male,33,nebbia,11,produces,0.4545
+Italian,Male,33,nebbia,11,understands,0
+Italian,Female,34,nebbia,12,produces,0.3333
+Italian,Female,34,nebbia,12,understands,0
+Italian,Male,34,nebbia,7,produces,0.4286
+Italian,Male,34,nebbia,7,understands,0
+Italian,Female,35,nebbia,9,produces,0.5556
+Italian,Female,35,nebbia,9,understands,0
+Italian,Male,35,nebbia,6,produces,0.6667
+Italian,Male,35,nebbia,6,understands,0
+Italian,Female,36,nebbia,7,produces,0.4286
+Italian,Female,36,nebbia,7,understands,0
+Italian,Male,36,nebbia,14,produces,0.4286
+Italian,Male,36,nebbia,14,understands,0

@@ -1,347 +1,1025 @@
-language,age,words,n,measure,prop
-Italian,18,pistola,31,produces,0.0645
-Italian,18,pistola,31,understands,0
-Italian,19,pistola,39,produces,0.1282
-Italian,19,pistola,39,understands,0
-Italian,20,pistola,64,produces,0.0625
-Italian,20,pistola,64,understands,0
-Italian,21,pistola,55,produces,0.1636
-Italian,21,pistola,55,understands,0
-Italian,22,pistola,55,produces,0.2364
-Italian,22,pistola,55,understands,0
-Italian,23,pistola,53,produces,0.283
-Italian,23,pistola,53,understands,0
-Italian,24,pistola,71,produces,0.4507
-Italian,24,pistola,71,understands,0
-Italian,25,pistola,39,produces,0.4103
-Italian,25,pistola,39,understands,0
-Italian,26,pistola,41,produces,0.5854
-Italian,26,pistola,41,understands,0
-Italian,27,pistola,43,produces,0.3488
-Italian,27,pistola,43,understands,0
-Italian,28,pistola,44,produces,0.6591
-Italian,28,pistola,44,understands,0
-Italian,29,pistola,37,produces,0.7297
-Italian,29,pistola,37,understands,0
-Italian,30,pistola,67,produces,0.7313
-Italian,30,pistola,67,understands,0
-Italian,31,pistola,19,produces,0.7368
-Italian,31,pistola,19,understands,0
-Italian,32,pistola,23,produces,0.6522
-Italian,32,pistola,23,understands,0
-Italian,33,pistola,16,produces,0.9375
-Italian,33,pistola,16,understands,0
-Italian,34,pistola,19,produces,0.8421
-Italian,34,pistola,19,understands,0
-Italian,35,pistola,15,produces,0.9333
-Italian,35,pistola,15,understands,0
-Italian,36,pistola,21,produces,0.8571
-Italian,36,pistola,21,understands,0
-Kigiriama,16,Bunduki,1,produces,0
-Kigiriama,16,Bunduki,1,understands,0
-Kigiriama,17,Bunduki,6,produces,0
-Kigiriama,17,Bunduki,6,understands,0
-Kigiriama,18,Bunduki,13,produces,0
-Kigiriama,18,Bunduki,13,understands,0
-Kigiriama,19,Bunduki,8,produces,0
-Kigiriama,19,Bunduki,8,understands,0
-Kigiriama,20,Bunduki,14,produces,0
-Kigiriama,20,Bunduki,14,understands,0
-Kigiriama,21,Bunduki,6,produces,0
-Kigiriama,21,Bunduki,6,understands,0
-Kigiriama,22,Bunduki,9,produces,0
-Kigiriama,22,Bunduki,9,understands,0
-Kigiriama,23,Bunduki,4,produces,0.25
-Kigiriama,23,Bunduki,4,understands,0
-Kigiriama,24,Bunduki,7,produces,0.1429
-Kigiriama,24,Bunduki,7,understands,0
-Kigiriama,25,Bunduki,3,produces,0
-Kigiriama,25,Bunduki,3,understands,0
-Kigiriama,26,Bunduki,6,produces,0
-Kigiriama,26,Bunduki,6,understands,0
-Kigiriama,27,Bunduki,4,produces,0.5
-Kigiriama,27,Bunduki,4,understands,0
-Kigiriama,28,Bunduki,1,produces,0
-Kigiriama,28,Bunduki,1,understands,0
-Kigiriama,29,Bunduki,5,produces,0.2
-Kigiriama,29,Bunduki,5,understands,0
-Kigiriama,30,Bunduki,1,produces,1
-Kigiriama,30,Bunduki,1,understands,0
-Kiswahili,23,Gun,2,produces,0
-Kiswahili,23,Gun,2,understands,0
-Kiswahili,24,Gun,12,produces,0.1667
-Kiswahili,24,Gun,12,understands,0
-Kiswahili,25,Gun,10,produces,0
-Kiswahili,25,Gun,10,understands,0
-Kiswahili,26,Gun,13,produces,0.2308
-Kiswahili,26,Gun,13,understands,0
-Kiswahili,27,Gun,8,produces,0.125
-Kiswahili,27,Gun,8,understands,0
-Kiswahili,28,Gun,6,produces,0.1667
-Kiswahili,28,Gun,6,understands,0
-Kiswahili,29,Gun,6,produces,0
-Kiswahili,29,Gun,6,understands,0
-Kiswahili,30,Gun,5,produces,0.8
-Kiswahili,30,Gun,5,understands,0
-Korean,18,총,88,produces,0.0795
-Korean,18,총,88,understands,0
-Korean,19,총,77,produces,0.1169
-Korean,19,총,77,understands,0
-Korean,20,총,88,produces,0.1023
-Korean,20,총,88,understands,0
-Korean,21,총,79,produces,0.1139
-Korean,21,총,79,understands,0
-Korean,22,총,87,produces,0.1954
-Korean,22,총,87,understands,0
-Korean,23,총,87,produces,0.1724
-Korean,23,총,87,understands,0
-Korean,24,총,107,produces,0.2804
-Korean,24,총,107,understands,0
-Korean,25,총,95,produces,0.3684
-Korean,25,총,95,understands,0
-Korean,26,총,91,produces,0.3407
-Korean,26,총,91,understands,0
-Korean,27,총,104,produces,0.4615
-Korean,27,총,104,understands,0
-Korean,28,총,89,produces,0.4831
-Korean,28,총,89,understands,0
-Korean,29,총,101,produces,0.5446
-Korean,29,총,101,understands,0
-Korean,30,총,81,produces,0.6173
-Korean,30,총,81,understands,0
-Korean,31,총,79,produces,0.7722
-Korean,31,총,79,understands,0
-Korean,32,총,70,produces,0.7
-Korean,32,총,70,understands,0
-Korean,33,총,79,produces,0.7468
-Korean,33,총,79,understands,0
-Korean,34,총,79,produces,0.7468
-Korean,34,총,79,understands,0
-Korean,35,총,74,produces,0.7162
-Korean,35,총,74,understands,0
-Korean,36,총,75,produces,0.88
-Korean,36,총,75,understands,0
-Mandarin (Beijing),16,枪,70,produces,0.0857
-Mandarin (Beijing),16,枪,70,understands,0
-Mandarin (Beijing),17,"水枪, 枪",112,produces,0.2143
-Mandarin (Beijing),17,"水枪, 枪",112,understands,0
-Mandarin (Beijing),18,"水枪, 枪",121,produces,0.2066
-Mandarin (Beijing),18,"水枪, 枪",121,understands,0
-Mandarin (Beijing),19,"水枪, 枪",120,produces,0.2833
-Mandarin (Beijing),19,"水枪, 枪",120,understands,0
-Mandarin (Beijing),20,"水枪, 枪",121,produces,0.4215
-Mandarin (Beijing),20,"水枪, 枪",121,understands,0
-Mandarin (Beijing),21,"水枪, 枪",119,produces,0.4706
-Mandarin (Beijing),21,"水枪, 枪",119,understands,0
-Mandarin (Beijing),22,"水枪, 枪",117,produces,0.5214
-Mandarin (Beijing),22,"水枪, 枪",117,understands,0
-Mandarin (Beijing),23,"水枪, 枪",120,produces,0.65
-Mandarin (Beijing),23,"水枪, 枪",120,understands,0
-Mandarin (Beijing),24,"水枪, 枪",120,produces,0.625
-Mandarin (Beijing),24,"水枪, 枪",120,understands,0
-Mandarin (Beijing),25,"水枪, 枪",113,produces,0.7434
-Mandarin (Beijing),25,"水枪, 枪",113,understands,0
-Mandarin (Beijing),26,"水枪, 枪",118,produces,0.7119
-Mandarin (Beijing),26,"水枪, 枪",118,understands,0
-Mandarin (Beijing),27,"水枪, 枪",114,produces,0.7544
-Mandarin (Beijing),27,"水枪, 枪",114,understands,0
-Mandarin (Beijing),28,"水枪, 枪",114,produces,0.8246
-Mandarin (Beijing),28,"水枪, 枪",114,understands,0
-Mandarin (Beijing),29,"水枪, 枪",119,produces,0.8571
-Mandarin (Beijing),29,"水枪, 枪",119,understands,0
-Mandarin (Beijing),30,"水枪, 枪",110,produces,0.8545
-Mandarin (Beijing),30,"水枪, 枪",110,understands,0
-Mandarin (Taiwanese),16,手槍,80,produces,0.0125
-Mandarin (Taiwanese),16,手槍,80,understands,0
-Mandarin (Taiwanese),17,手槍,87,produces,0.0115
-Mandarin (Taiwanese),17,手槍,87,understands,0
-Mandarin (Taiwanese),18,手槍,84,produces,0.0119
-Mandarin (Taiwanese),18,手槍,84,understands,0
-Mandarin (Taiwanese),19,手槍,84,produces,0.0238
-Mandarin (Taiwanese),19,手槍,84,understands,0
-Mandarin (Taiwanese),20,手槍,84,produces,0.0119
-Mandarin (Taiwanese),20,手槍,84,understands,0
-Mandarin (Taiwanese),21,手槍,88,produces,0.0568
-Mandarin (Taiwanese),21,手槍,88,understands,0
-Mandarin (Taiwanese),22,手槍,96,produces,0.1146
-Mandarin (Taiwanese),22,手槍,96,understands,0
-Mandarin (Taiwanese),23,手槍,105,produces,0.2
-Mandarin (Taiwanese),23,手槍,105,understands,0
-Mandarin (Taiwanese),24,手槍,124,produces,0.121
-Mandarin (Taiwanese),24,手槍,124,understands,0
-Mandarin (Taiwanese),25,手槍,110,produces,0.1182
-Mandarin (Taiwanese),25,手槍,110,understands,0
-Mandarin (Taiwanese),26,手槍,87,produces,0.2184
-Mandarin (Taiwanese),26,手槍,87,understands,0
-Mandarin (Taiwanese),27,手槍,92,produces,0.2826
-Mandarin (Taiwanese),27,手槍,92,understands,0
-Mandarin (Taiwanese),28,手槍,100,produces,0.37
-Mandarin (Taiwanese),28,手槍,100,understands,0
-Mandarin (Taiwanese),29,手槍,88,produces,0.3182
-Mandarin (Taiwanese),29,手槍,88,understands,0
-Mandarin (Taiwanese),30,手槍,94,produces,0.3723
-Mandarin (Taiwanese),30,手槍,94,understands,0
-Mandarin (Taiwanese),31,手槍,88,produces,0.4318
-Mandarin (Taiwanese),31,手槍,88,understands,0
-Mandarin (Taiwanese),32,手槍,82,produces,0.4024
-Mandarin (Taiwanese),32,手槍,82,understands,0
-Mandarin (Taiwanese),33,手槍,85,produces,0.5059
-Mandarin (Taiwanese),33,手槍,85,understands,0
-Mandarin (Taiwanese),34,手槍,77,produces,0.6364
-Mandarin (Taiwanese),34,手槍,77,understands,0
-Mandarin (Taiwanese),35,手槍,81,produces,0.679
-Mandarin (Taiwanese),35,手槍,81,understands,0
-Mandarin (Taiwanese),36,手槍,81,produces,0.6049
-Mandarin (Taiwanese),36,手槍,81,understands,0
-Turkish,16,Tüfek,109,produces,0
-Turkish,16,Tüfek,109,understands,0
-Turkish,17,Tüfek,107,produces,0.0467
-Turkish,17,Tüfek,107,understands,0
-Turkish,18,Tüfek,128,produces,0.0625
-Turkish,18,Tüfek,128,understands,0
-Turkish,19,Tüfek,121,produces,0.0579
-Turkish,19,Tüfek,121,understands,0
-Turkish,20,Tüfek,119,produces,0.0924
-Turkish,20,Tüfek,119,understands,0
-Turkish,21,Tüfek,124,produces,0.121
-Turkish,21,Tüfek,124,understands,0
-Turkish,22,Tüfek,126,produces,0.1508
-Turkish,22,Tüfek,126,understands,0
-Turkish,23,Tüfek,131,produces,0.0916
-Turkish,23,Tüfek,131,understands,0
-Turkish,24,Tüfek,106,produces,0.1698
-Turkish,24,Tüfek,106,understands,0
-Turkish,25,Tüfek,123,produces,0.2683
-Turkish,25,Tüfek,123,understands,0
-Turkish,26,Tüfek,123,produces,0.2683
-Turkish,26,Tüfek,123,understands,0
-Turkish,27,Tüfek,108,produces,0.2407
-Turkish,27,Tüfek,108,understands,0
-Turkish,28,Tüfek,112,produces,0.3661
-Turkish,28,Tüfek,112,understands,0
-Turkish,29,Tüfek,119,produces,0.3529
-Turkish,29,Tüfek,119,understands,0
-Turkish,30,Tüfek,104,produces,0.4712
-Turkish,30,Tüfek,104,understands,0
-Turkish,31,Tüfek,101,produces,0.4158
-Turkish,31,Tüfek,101,understands,0
-Turkish,32,Tüfek,132,produces,0.5758
-Turkish,32,Tüfek,132,understands,0
-Turkish,33,Tüfek,114,produces,0.5175
-Turkish,33,Tüfek,114,understands,0
-Turkish,34,Tüfek,107,produces,0.514
-Turkish,34,Tüfek,107,understands,0
-Turkish,35,Tüfek,131,produces,0.5954
-Turkish,35,Tüfek,131,understands,0
-Turkish,36,Tüfek,77,produces,0.7013
-Turkish,36,Tüfek,77,understands,0
-Cantonese,16,槍,46,produces,0.0217
-Cantonese,16,槍,46,understands,0
-Cantonese,17,槍,61,produces,0.0328
-Cantonese,17,槍,61,understands,0
-Cantonese,18,槍,68,produces,0.0588
-Cantonese,18,槍,68,understands,0
-Cantonese,19,槍,66,produces,0.1515
-Cantonese,19,槍,66,understands,0
-Cantonese,20,槍,140,produces,0.1357
-Cantonese,20,槍,140,understands,0
-Cantonese,21,槍,120,produces,0.1833
-Cantonese,21,槍,120,understands,0
-Cantonese,22,槍,68,produces,0.2206
-Cantonese,22,槍,68,understands,0
-Cantonese,23,槍,74,produces,0.4054
-Cantonese,23,槍,74,understands,0
-Cantonese,24,槍,68,produces,0.4559
-Cantonese,24,槍,68,understands,0
-Cantonese,25,槍,65,produces,0.5077
-Cantonese,25,槍,65,understands,0
-Cantonese,26,槍,68,produces,0.4706
-Cantonese,26,槍,68,understands,0
-Cantonese,27,槍,62,produces,0.6452
-Cantonese,27,槍,62,understands,0
-Cantonese,28,槍,66,produces,0.6667
-Cantonese,28,槍,66,understands,0
-Cantonese,29,槍,72,produces,0.7639
-Cantonese,29,槍,72,understands,0
-Cantonese,30,槍,164,produces,0.6585
-Cantonese,30,槍,164,understands,0
-English (Irish),17,gun,2,produces,0
-English (Irish),17,gun,2,understands,0
-English (Irish),18,gun,1,produces,0
-English (Irish),18,gun,1,understands,0
-English (Irish),19,gun,2,produces,0
-English (Irish),19,gun,2,understands,0
-English (Irish),20,gun,1,produces,0
-English (Irish),20,gun,1,understands,0
-English (Irish),21,gun,3,produces,0
-English (Irish),21,gun,3,understands,0
-English (Irish),22,gun,4,produces,0
-English (Irish),22,gun,4,understands,0
-English (Irish),23,gun,4,produces,0
-English (Irish),23,gun,4,understands,0
-English (Irish),24,gun,4,produces,0
-English (Irish),24,gun,4,understands,0
-English (Irish),25,gun,6,produces,0
-English (Irish),25,gun,6,understands,0
-English (Irish),26,gun,10,produces,0.1
-English (Irish),26,gun,10,understands,0
-English (Irish),27,gun,5,produces,0
-English (Irish),27,gun,5,understands,0
-English (Irish),28,gun,7,produces,0.2857
-English (Irish),28,gun,7,understands,0
-English (Irish),29,gun,4,produces,0.5
-English (Irish),29,gun,4,understands,0
-English (Irish),30,gun,9,produces,0.1111
-English (Irish),30,gun,9,understands,0
-English (Irish),31,gun,8,produces,0.125
-English (Irish),31,gun,8,understands,0
-English (Irish),32,gun,4,produces,0
-English (Irish),32,gun,4,understands,0
-English (Irish),33,gun,5,produces,0.2
-English (Irish),33,gun,5,understands,0
-English (Irish),34,gun,4,produces,0
-English (Irish),34,gun,4,understands,0
-English (Irish),35,gun,11,produces,0.0909
-English (Irish),35,gun,11,understands,0
-English (Irish),36,gun,5,produces,0
-English (Irish),36,gun,5,understands,0
-Irish,17,gunna,2,produces,0
-Irish,17,gunna,2,understands,0
-Irish,18,gunna,1,produces,1
-Irish,18,gunna,1,understands,0
-Irish,19,gunna,2,produces,0
-Irish,19,gunna,2,understands,0
-Irish,20,gunna,1,produces,0
-Irish,20,gunna,1,understands,0
-Irish,21,gunna,3,produces,0
-Irish,21,gunna,3,understands,0
-Irish,22,gunna,4,produces,0.25
-Irish,22,gunna,4,understands,0
-Irish,23,gunna,4,produces,0
-Irish,23,gunna,4,understands,0
-Irish,24,gunna,4,produces,0.25
-Irish,24,gunna,4,understands,0
-Irish,25,gunna,6,produces,0.5
-Irish,25,gunna,6,understands,0
-Irish,26,gunna,10,produces,0.4
-Irish,26,gunna,10,understands,0
-Irish,27,gunna,5,produces,0.2
-Irish,27,gunna,5,understands,0
-Irish,28,gunna,7,produces,0.2857
-Irish,28,gunna,7,understands,0
-Irish,29,gunna,4,produces,0.5
-Irish,29,gunna,4,understands,0
-Irish,30,gunna,9,produces,0.6667
-Irish,30,gunna,9,understands,0
-Irish,31,gunna,8,produces,0.25
-Irish,31,gunna,8,understands,0
-Irish,32,gunna,4,produces,0.75
-Irish,32,gunna,4,understands,0
-Irish,33,gunna,5,produces,0.6
-Irish,33,gunna,5,understands,0
-Irish,34,gunna,4,produces,0.25
-Irish,34,gunna,4,understands,0
-Irish,35,gunna,11,produces,0.5455
-Irish,35,gunna,11,understands,0
-Irish,36,gunna,5,produces,0.4
-Irish,36,gunna,5,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,槍,46,produces,0.0217
+Cantonese,All,16,槍,46,understands,0
+Cantonese,All,17,槍,61,produces,0.0328
+Cantonese,All,17,槍,61,understands,0
+Cantonese,All,18,槍,68,produces,0.0588
+Cantonese,All,18,槍,68,understands,0
+Cantonese,All,19,槍,66,produces,0.1515
+Cantonese,All,19,槍,66,understands,0
+Cantonese,All,20,槍,140,produces,0.1357
+Cantonese,All,20,槍,140,understands,0
+Cantonese,All,21,槍,120,produces,0.1833
+Cantonese,All,21,槍,120,understands,0
+Cantonese,All,22,槍,68,produces,0.2206
+Cantonese,All,22,槍,68,understands,0
+Cantonese,All,23,槍,74,produces,0.4054
+Cantonese,All,23,槍,74,understands,0
+Cantonese,All,24,槍,68,produces,0.4559
+Cantonese,All,24,槍,68,understands,0
+Cantonese,All,25,槍,65,produces,0.5077
+Cantonese,All,25,槍,65,understands,0
+Cantonese,All,26,槍,68,produces,0.4706
+Cantonese,All,26,槍,68,understands,0
+Cantonese,All,27,槍,62,produces,0.6452
+Cantonese,All,27,槍,62,understands,0
+Cantonese,All,28,槍,66,produces,0.6667
+Cantonese,All,28,槍,66,understands,0
+Cantonese,All,29,槍,72,produces,0.7639
+Cantonese,All,29,槍,72,understands,0
+Cantonese,All,30,槍,164,produces,0.6585
+Cantonese,All,30,槍,164,understands,0
+English (Irish),All,17,gun,2,produces,0
+English (Irish),All,17,gun,2,understands,0
+English (Irish),All,18,gun,1,produces,0
+English (Irish),All,18,gun,1,understands,0
+English (Irish),All,19,gun,2,produces,0
+English (Irish),All,19,gun,2,understands,0
+English (Irish),All,20,gun,1,produces,0
+English (Irish),All,20,gun,1,understands,0
+English (Irish),All,21,gun,3,produces,0
+English (Irish),All,21,gun,3,understands,0
+English (Irish),All,22,gun,4,produces,0
+English (Irish),All,22,gun,4,understands,0
+English (Irish),All,23,gun,4,produces,0
+English (Irish),All,23,gun,4,understands,0
+English (Irish),All,24,gun,4,produces,0
+English (Irish),All,24,gun,4,understands,0
+English (Irish),All,25,gun,6,produces,0
+English (Irish),All,25,gun,6,understands,0
+English (Irish),All,26,gun,10,produces,0.1
+English (Irish),All,26,gun,10,understands,0
+English (Irish),All,27,gun,5,produces,0
+English (Irish),All,27,gun,5,understands,0
+English (Irish),All,28,gun,7,produces,0.2857
+English (Irish),All,28,gun,7,understands,0
+English (Irish),All,29,gun,4,produces,0.5
+English (Irish),All,29,gun,4,understands,0
+English (Irish),All,30,gun,9,produces,0.1111
+English (Irish),All,30,gun,9,understands,0
+English (Irish),All,31,gun,8,produces,0.125
+English (Irish),All,31,gun,8,understands,0
+English (Irish),All,32,gun,4,produces,0
+English (Irish),All,32,gun,4,understands,0
+English (Irish),All,33,gun,5,produces,0.2
+English (Irish),All,33,gun,5,understands,0
+English (Irish),All,34,gun,4,produces,0
+English (Irish),All,34,gun,4,understands,0
+English (Irish),All,35,gun,11,produces,0.0909
+English (Irish),All,35,gun,11,understands,0
+English (Irish),All,36,gun,5,produces,0
+English (Irish),All,36,gun,5,understands,0
+Irish,All,17,gunna,2,produces,0
+Irish,All,17,gunna,2,understands,0
+Irish,All,18,gunna,1,produces,1
+Irish,All,18,gunna,1,understands,0
+Irish,All,19,gunna,2,produces,0
+Irish,All,19,gunna,2,understands,0
+Irish,All,20,gunna,1,produces,0
+Irish,All,20,gunna,1,understands,0
+Irish,All,21,gunna,3,produces,0
+Irish,All,21,gunna,3,understands,0
+Irish,All,22,gunna,4,produces,0.25
+Irish,All,22,gunna,4,understands,0
+Irish,All,23,gunna,4,produces,0
+Irish,All,23,gunna,4,understands,0
+Irish,All,24,gunna,4,produces,0.25
+Irish,All,24,gunna,4,understands,0
+Irish,All,25,gunna,6,produces,0.5
+Irish,All,25,gunna,6,understands,0
+Irish,All,26,gunna,10,produces,0.4
+Irish,All,26,gunna,10,understands,0
+Irish,All,27,gunna,5,produces,0.2
+Irish,All,27,gunna,5,understands,0
+Irish,All,28,gunna,7,produces,0.2857
+Irish,All,28,gunna,7,understands,0
+Irish,All,29,gunna,4,produces,0.5
+Irish,All,29,gunna,4,understands,0
+Irish,All,30,gunna,9,produces,0.6667
+Irish,All,30,gunna,9,understands,0
+Irish,All,31,gunna,8,produces,0.25
+Irish,All,31,gunna,8,understands,0
+Irish,All,32,gunna,4,produces,0.75
+Irish,All,32,gunna,4,understands,0
+Irish,All,33,gunna,5,produces,0.6
+Irish,All,33,gunna,5,understands,0
+Irish,All,34,gunna,4,produces,0.25
+Irish,All,34,gunna,4,understands,0
+Irish,All,35,gunna,11,produces,0.5455
+Irish,All,35,gunna,11,understands,0
+Irish,All,36,gunna,5,produces,0.4
+Irish,All,36,gunna,5,understands,0
+Italian,All,18,pistola,31,produces,0.0645
+Italian,All,18,pistola,31,understands,0
+Italian,All,19,pistola,39,produces,0.1282
+Italian,All,19,pistola,39,understands,0
+Italian,All,20,pistola,64,produces,0.0625
+Italian,All,20,pistola,64,understands,0
+Italian,All,21,pistola,55,produces,0.1636
+Italian,All,21,pistola,55,understands,0
+Italian,All,22,pistola,55,produces,0.2364
+Italian,All,22,pistola,55,understands,0
+Italian,All,23,pistola,53,produces,0.283
+Italian,All,23,pistola,53,understands,0
+Italian,All,24,pistola,71,produces,0.4507
+Italian,All,24,pistola,71,understands,0
+Italian,All,25,pistola,39,produces,0.4103
+Italian,All,25,pistola,39,understands,0
+Italian,All,26,pistola,41,produces,0.5854
+Italian,All,26,pistola,41,understands,0
+Italian,All,27,pistola,43,produces,0.3488
+Italian,All,27,pistola,43,understands,0
+Italian,All,28,pistola,44,produces,0.6591
+Italian,All,28,pistola,44,understands,0
+Italian,All,29,pistola,37,produces,0.7297
+Italian,All,29,pistola,37,understands,0
+Italian,All,30,pistola,67,produces,0.7313
+Italian,All,30,pistola,67,understands,0
+Italian,All,31,pistola,19,produces,0.7368
+Italian,All,31,pistola,19,understands,0
+Italian,All,32,pistola,23,produces,0.6522
+Italian,All,32,pistola,23,understands,0
+Italian,All,33,pistola,16,produces,0.9375
+Italian,All,33,pistola,16,understands,0
+Italian,All,34,pistola,19,produces,0.8421
+Italian,All,34,pistola,19,understands,0
+Italian,All,35,pistola,15,produces,0.9333
+Italian,All,35,pistola,15,understands,0
+Italian,All,36,pistola,21,produces,0.8571
+Italian,All,36,pistola,21,understands,0
+Kigiriama,All,16,Bunduki,1,produces,0
+Kigiriama,All,16,Bunduki,1,understands,0
+Kigiriama,All,17,Bunduki,6,produces,0
+Kigiriama,All,17,Bunduki,6,understands,0
+Kigiriama,All,18,Bunduki,13,produces,0
+Kigiriama,All,18,Bunduki,13,understands,0
+Kigiriama,All,19,Bunduki,8,produces,0
+Kigiriama,All,19,Bunduki,8,understands,0
+Kigiriama,All,20,Bunduki,14,produces,0
+Kigiriama,All,20,Bunduki,14,understands,0
+Kigiriama,All,21,Bunduki,6,produces,0
+Kigiriama,All,21,Bunduki,6,understands,0
+Kigiriama,All,22,Bunduki,9,produces,0
+Kigiriama,All,22,Bunduki,9,understands,0
+Kigiriama,All,23,Bunduki,4,produces,0.25
+Kigiriama,All,23,Bunduki,4,understands,0
+Kigiriama,All,24,Bunduki,7,produces,0.1429
+Kigiriama,All,24,Bunduki,7,understands,0
+Kigiriama,All,25,Bunduki,3,produces,0
+Kigiriama,All,25,Bunduki,3,understands,0
+Kigiriama,All,26,Bunduki,6,produces,0
+Kigiriama,All,26,Bunduki,6,understands,0
+Kigiriama,All,27,Bunduki,4,produces,0.5
+Kigiriama,All,27,Bunduki,4,understands,0
+Kigiriama,All,28,Bunduki,1,produces,0
+Kigiriama,All,28,Bunduki,1,understands,0
+Kigiriama,All,29,Bunduki,5,produces,0.2
+Kigiriama,All,29,Bunduki,5,understands,0
+Kigiriama,All,30,Bunduki,1,produces,1
+Kigiriama,All,30,Bunduki,1,understands,0
+Kiswahili,All,23,Gun,2,produces,0
+Kiswahili,All,23,Gun,2,understands,0
+Kiswahili,All,24,Gun,12,produces,0.1667
+Kiswahili,All,24,Gun,12,understands,0
+Kiswahili,All,25,Gun,10,produces,0
+Kiswahili,All,25,Gun,10,understands,0
+Kiswahili,All,26,Gun,13,produces,0.2308
+Kiswahili,All,26,Gun,13,understands,0
+Kiswahili,All,27,Gun,8,produces,0.125
+Kiswahili,All,27,Gun,8,understands,0
+Kiswahili,All,28,Gun,6,produces,0.1667
+Kiswahili,All,28,Gun,6,understands,0
+Kiswahili,All,29,Gun,6,produces,0
+Kiswahili,All,29,Gun,6,understands,0
+Kiswahili,All,30,Gun,5,produces,0.8
+Kiswahili,All,30,Gun,5,understands,0
+Korean,All,18,총,88,produces,0.0795
+Korean,All,18,총,88,understands,0
+Korean,All,19,총,77,produces,0.1169
+Korean,All,19,총,77,understands,0
+Korean,All,20,총,88,produces,0.1023
+Korean,All,20,총,88,understands,0
+Korean,All,21,총,79,produces,0.1139
+Korean,All,21,총,79,understands,0
+Korean,All,22,총,87,produces,0.1954
+Korean,All,22,총,87,understands,0
+Korean,All,23,총,87,produces,0.1724
+Korean,All,23,총,87,understands,0
+Korean,All,24,총,107,produces,0.2804
+Korean,All,24,총,107,understands,0
+Korean,All,25,총,95,produces,0.3684
+Korean,All,25,총,95,understands,0
+Korean,All,26,총,91,produces,0.3407
+Korean,All,26,총,91,understands,0
+Korean,All,27,총,104,produces,0.4615
+Korean,All,27,총,104,understands,0
+Korean,All,28,총,89,produces,0.4831
+Korean,All,28,총,89,understands,0
+Korean,All,29,총,101,produces,0.5446
+Korean,All,29,총,101,understands,0
+Korean,All,30,총,81,produces,0.6173
+Korean,All,30,총,81,understands,0
+Korean,All,31,총,79,produces,0.7722
+Korean,All,31,총,79,understands,0
+Korean,All,32,총,70,produces,0.7
+Korean,All,32,총,70,understands,0
+Korean,All,33,총,79,produces,0.7468
+Korean,All,33,총,79,understands,0
+Korean,All,34,총,79,produces,0.7468
+Korean,All,34,총,79,understands,0
+Korean,All,35,총,74,produces,0.7162
+Korean,All,35,총,74,understands,0
+Korean,All,36,총,75,produces,0.88
+Korean,All,36,총,75,understands,0
+Mandarin (Beijing),All,16,枪,70,produces,0.0857
+Mandarin (Beijing),All,16,枪,70,understands,0
+Mandarin (Beijing),All,17,"枪, 水枪",112,produces,0.2143
+Mandarin (Beijing),All,17,"枪, 水枪",112,understands,0
+Mandarin (Beijing),All,18,"枪, 水枪",121,produces,0.2066
+Mandarin (Beijing),All,18,"枪, 水枪",121,understands,0
+Mandarin (Beijing),All,19,"枪, 水枪",120,produces,0.2833
+Mandarin (Beijing),All,19,"枪, 水枪",120,understands,0
+Mandarin (Beijing),All,20,"枪, 水枪",121,produces,0.4215
+Mandarin (Beijing),All,20,"枪, 水枪",121,understands,0
+Mandarin (Beijing),All,21,"枪, 水枪",119,produces,0.4706
+Mandarin (Beijing),All,21,"枪, 水枪",119,understands,0
+Mandarin (Beijing),All,22,"枪, 水枪",117,produces,0.5214
+Mandarin (Beijing),All,22,"枪, 水枪",117,understands,0
+Mandarin (Beijing),All,23,"枪, 水枪",120,produces,0.65
+Mandarin (Beijing),All,23,"枪, 水枪",120,understands,0
+Mandarin (Beijing),All,24,"枪, 水枪",120,produces,0.625
+Mandarin (Beijing),All,24,"枪, 水枪",120,understands,0
+Mandarin (Beijing),All,25,"枪, 水枪",113,produces,0.7434
+Mandarin (Beijing),All,25,"枪, 水枪",113,understands,0
+Mandarin (Beijing),All,26,"枪, 水枪",118,produces,0.7119
+Mandarin (Beijing),All,26,"枪, 水枪",118,understands,0
+Mandarin (Beijing),All,27,"枪, 水枪",114,produces,0.7544
+Mandarin (Beijing),All,27,"枪, 水枪",114,understands,0
+Mandarin (Beijing),All,28,"枪, 水枪",114,produces,0.8246
+Mandarin (Beijing),All,28,"枪, 水枪",114,understands,0
+Mandarin (Beijing),All,29,"枪, 水枪",119,produces,0.8571
+Mandarin (Beijing),All,29,"枪, 水枪",119,understands,0
+Mandarin (Beijing),All,30,"枪, 水枪",110,produces,0.8545
+Mandarin (Beijing),All,30,"枪, 水枪",110,understands,0
+Mandarin (Taiwanese),All,16,手槍,80,produces,0.0125
+Mandarin (Taiwanese),All,16,手槍,80,understands,0
+Mandarin (Taiwanese),All,17,手槍,87,produces,0.0115
+Mandarin (Taiwanese),All,17,手槍,87,understands,0
+Mandarin (Taiwanese),All,18,手槍,84,produces,0.0119
+Mandarin (Taiwanese),All,18,手槍,84,understands,0
+Mandarin (Taiwanese),All,19,手槍,84,produces,0.0238
+Mandarin (Taiwanese),All,19,手槍,84,understands,0
+Mandarin (Taiwanese),All,20,手槍,84,produces,0.0119
+Mandarin (Taiwanese),All,20,手槍,84,understands,0
+Mandarin (Taiwanese),All,21,手槍,88,produces,0.0568
+Mandarin (Taiwanese),All,21,手槍,88,understands,0
+Mandarin (Taiwanese),All,22,手槍,96,produces,0.1146
+Mandarin (Taiwanese),All,22,手槍,96,understands,0
+Mandarin (Taiwanese),All,23,手槍,105,produces,0.2
+Mandarin (Taiwanese),All,23,手槍,105,understands,0
+Mandarin (Taiwanese),All,24,手槍,124,produces,0.121
+Mandarin (Taiwanese),All,24,手槍,124,understands,0
+Mandarin (Taiwanese),All,25,手槍,110,produces,0.1182
+Mandarin (Taiwanese),All,25,手槍,110,understands,0
+Mandarin (Taiwanese),All,26,手槍,87,produces,0.2184
+Mandarin (Taiwanese),All,26,手槍,87,understands,0
+Mandarin (Taiwanese),All,27,手槍,92,produces,0.2826
+Mandarin (Taiwanese),All,27,手槍,92,understands,0
+Mandarin (Taiwanese),All,28,手槍,100,produces,0.37
+Mandarin (Taiwanese),All,28,手槍,100,understands,0
+Mandarin (Taiwanese),All,29,手槍,88,produces,0.3182
+Mandarin (Taiwanese),All,29,手槍,88,understands,0
+Mandarin (Taiwanese),All,30,手槍,94,produces,0.3723
+Mandarin (Taiwanese),All,30,手槍,94,understands,0
+Mandarin (Taiwanese),All,31,手槍,88,produces,0.4318
+Mandarin (Taiwanese),All,31,手槍,88,understands,0
+Mandarin (Taiwanese),All,32,手槍,82,produces,0.4024
+Mandarin (Taiwanese),All,32,手槍,82,understands,0
+Mandarin (Taiwanese),All,33,手槍,85,produces,0.5059
+Mandarin (Taiwanese),All,33,手槍,85,understands,0
+Mandarin (Taiwanese),All,34,手槍,77,produces,0.6364
+Mandarin (Taiwanese),All,34,手槍,77,understands,0
+Mandarin (Taiwanese),All,35,手槍,81,produces,0.679
+Mandarin (Taiwanese),All,35,手槍,81,understands,0
+Mandarin (Taiwanese),All,36,手槍,81,produces,0.6049
+Mandarin (Taiwanese),All,36,手槍,81,understands,0
+Turkish,All,16,Tüfek,109,produces,0
+Turkish,All,16,Tüfek,109,understands,0
+Turkish,All,17,Tüfek,107,produces,0.0467
+Turkish,All,17,Tüfek,107,understands,0
+Turkish,All,18,Tüfek,128,produces,0.0625
+Turkish,All,18,Tüfek,128,understands,0
+Turkish,All,19,Tüfek,121,produces,0.0579
+Turkish,All,19,Tüfek,121,understands,0
+Turkish,All,20,Tüfek,119,produces,0.0924
+Turkish,All,20,Tüfek,119,understands,0
+Turkish,All,21,Tüfek,124,produces,0.121
+Turkish,All,21,Tüfek,124,understands,0
+Turkish,All,22,Tüfek,126,produces,0.1508
+Turkish,All,22,Tüfek,126,understands,0
+Turkish,All,23,Tüfek,131,produces,0.0916
+Turkish,All,23,Tüfek,131,understands,0
+Turkish,All,24,Tüfek,106,produces,0.1698
+Turkish,All,24,Tüfek,106,understands,0
+Turkish,All,25,Tüfek,123,produces,0.2683
+Turkish,All,25,Tüfek,123,understands,0
+Turkish,All,26,Tüfek,123,produces,0.2683
+Turkish,All,26,Tüfek,123,understands,0
+Turkish,All,27,Tüfek,108,produces,0.2407
+Turkish,All,27,Tüfek,108,understands,0
+Turkish,All,28,Tüfek,112,produces,0.3661
+Turkish,All,28,Tüfek,112,understands,0
+Turkish,All,29,Tüfek,119,produces,0.3529
+Turkish,All,29,Tüfek,119,understands,0
+Turkish,All,30,Tüfek,104,produces,0.4712
+Turkish,All,30,Tüfek,104,understands,0
+Turkish,All,31,Tüfek,101,produces,0.4158
+Turkish,All,31,Tüfek,101,understands,0
+Turkish,All,32,Tüfek,132,produces,0.5758
+Turkish,All,32,Tüfek,132,understands,0
+Turkish,All,33,Tüfek,114,produces,0.5175
+Turkish,All,33,Tüfek,114,understands,0
+Turkish,All,34,Tüfek,107,produces,0.514
+Turkish,All,34,Tüfek,107,understands,0
+Turkish,All,35,Tüfek,131,produces,0.5954
+Turkish,All,35,Tüfek,131,understands,0
+Turkish,All,36,Tüfek,77,produces,0.7013
+Turkish,All,36,Tüfek,77,understands,0
+Cantonese,Female,16,槍,23,produces,0.0435
+Cantonese,Female,16,槍,23,understands,0
+Cantonese,Male,16,槍,23,produces,0
+Cantonese,Male,16,槍,23,understands,0
+Cantonese,Female,17,槍,30,produces,0.0333
+Cantonese,Female,17,槍,30,understands,0
+Cantonese,Male,17,槍,31,produces,0.0323
+Cantonese,Male,17,槍,31,understands,0
+Cantonese,Female,18,槍,33,produces,0.0909
+Cantonese,Female,18,槍,33,understands,0
+Cantonese,Male,18,槍,35,produces,0.0286
+Cantonese,Male,18,槍,35,understands,0
+Cantonese,Female,19,槍,30,produces,0.1333
+Cantonese,Female,19,槍,30,understands,0
+Cantonese,Male,19,槍,36,produces,0.1667
+Cantonese,Male,19,槍,36,understands,0
+Cantonese,Female,20,槍,62,produces,0.0806
+Cantonese,Female,20,槍,62,understands,0
+Cantonese,Male,20,槍,78,produces,0.1795
+Cantonese,Male,20,槍,78,understands,0
+Cantonese,Female,21,槍,57,produces,0.1754
+Cantonese,Female,21,槍,57,understands,0
+Cantonese,Male,21,槍,63,produces,0.1905
+Cantonese,Male,21,槍,63,understands,0
+Cantonese,Female,22,槍,34,produces,0.2941
+Cantonese,Female,22,槍,34,understands,0
+Cantonese,Male,22,槍,34,produces,0.1471
+Cantonese,Male,22,槍,34,understands,0
+Cantonese,Female,23,槍,37,produces,0.4865
+Cantonese,Female,23,槍,37,understands,0
+Cantonese,Male,23,槍,37,produces,0.3243
+Cantonese,Male,23,槍,37,understands,0
+Cantonese,Female,24,槍,32,produces,0.5
+Cantonese,Female,24,槍,32,understands,0
+Cantonese,Male,24,槍,36,produces,0.4167
+Cantonese,Male,24,槍,36,understands,0
+Cantonese,Female,25,槍,31,produces,0.4839
+Cantonese,Female,25,槍,31,understands,0
+Cantonese,Male,25,槍,34,produces,0.5294
+Cantonese,Male,25,槍,34,understands,0
+Cantonese,Female,26,槍,31,produces,0.3548
+Cantonese,Female,26,槍,31,understands,0
+Cantonese,Male,26,槍,37,produces,0.5676
+Cantonese,Male,26,槍,37,understands,0
+Cantonese,Female,27,槍,31,produces,0.6774
+Cantonese,Female,27,槍,31,understands,0
+Cantonese,Male,27,槍,31,produces,0.6129
+Cantonese,Male,27,槍,31,understands,0
+Cantonese,Female,28,槍,32,produces,0.6875
+Cantonese,Female,28,槍,32,understands,0
+Cantonese,Male,28,槍,34,produces,0.6471
+Cantonese,Male,28,槍,34,understands,0
+Cantonese,Female,29,槍,36,produces,0.75
+Cantonese,Female,29,槍,36,understands,0
+Cantonese,Male,29,槍,36,produces,0.7778
+Cantonese,Male,29,槍,36,understands,0
+Cantonese,Female,30,槍,76,produces,0.6053
+Cantonese,Female,30,槍,76,understands,0
+Cantonese,Male,30,槍,88,produces,0.7045
+Cantonese,Male,30,槍,88,understands,0
+English (Irish),Female,17,gun,1,produces,0
+English (Irish),Female,17,gun,1,understands,0
+English (Irish),Male,17,gun,1,produces,0
+English (Irish),Male,17,gun,1,understands,0
+English (Irish),Female,18,gun,1,produces,0
+English (Irish),Female,18,gun,1,understands,0
+English (Irish),Female,19,gun,1,produces,0
+English (Irish),Female,19,gun,1,understands,0
+English (Irish),Male,19,gun,1,produces,0
+English (Irish),Male,19,gun,1,understands,0
+English (Irish),Female,20,gun,1,produces,0
+English (Irish),Female,20,gun,1,understands,0
+English (Irish),Female,21,gun,2,produces,0
+English (Irish),Female,21,gun,2,understands,0
+English (Irish),Male,21,gun,1,produces,0
+English (Irish),Male,21,gun,1,understands,0
+English (Irish),Female,22,gun,3,produces,0
+English (Irish),Female,22,gun,3,understands,0
+English (Irish),Male,22,gun,1,produces,0
+English (Irish),Male,22,gun,1,understands,0
+English (Irish),Female,23,gun,2,produces,0
+English (Irish),Female,23,gun,2,understands,0
+English (Irish),Male,23,gun,2,produces,0
+English (Irish),Male,23,gun,2,understands,0
+English (Irish),Female,24,gun,2,produces,0
+English (Irish),Female,24,gun,2,understands,0
+English (Irish),Male,24,gun,2,produces,0
+English (Irish),Male,24,gun,2,understands,0
+English (Irish),Female,25,gun,3,produces,0
+English (Irish),Female,25,gun,3,understands,0
+English (Irish),Male,25,gun,3,produces,0
+English (Irish),Male,25,gun,3,understands,0
+English (Irish),Female,26,gun,7,produces,0
+English (Irish),Female,26,gun,7,understands,0
+English (Irish),Male,26,gun,3,produces,0.3333
+English (Irish),Male,26,gun,3,understands,0
+English (Irish),Female,27,gun,1,produces,0
+English (Irish),Female,27,gun,1,understands,0
+English (Irish),Male,27,gun,4,produces,0
+English (Irish),Male,27,gun,4,understands,0
+English (Irish),Female,28,gun,4,produces,0.25
+English (Irish),Female,28,gun,4,understands,0
+English (Irish),Male,28,gun,3,produces,0.3333
+English (Irish),Male,28,gun,3,understands,0
+English (Irish),Female,29,gun,1,produces,0
+English (Irish),Female,29,gun,1,understands,0
+English (Irish),Male,29,gun,3,produces,0.6667
+English (Irish),Male,29,gun,3,understands,0
+English (Irish),Female,30,gun,5,produces,0.2
+English (Irish),Female,30,gun,5,understands,0
+English (Irish),Male,30,gun,4,produces,0
+English (Irish),Male,30,gun,4,understands,0
+English (Irish),Female,31,gun,3,produces,0
+English (Irish),Female,31,gun,3,understands,0
+English (Irish),Male,31,gun,5,produces,0.2
+English (Irish),Male,31,gun,5,understands,0
+English (Irish),Female,32,gun,2,produces,0
+English (Irish),Female,32,gun,2,understands,0
+English (Irish),Male,32,gun,2,produces,0
+English (Irish),Male,32,gun,2,understands,0
+English (Irish),Female,33,gun,1,produces,0
+English (Irish),Female,33,gun,1,understands,0
+English (Irish),Male,33,gun,4,produces,0.25
+English (Irish),Male,33,gun,4,understands,0
+English (Irish),Female,34,gun,2,produces,0
+English (Irish),Female,34,gun,2,understands,0
+English (Irish),Male,34,gun,2,produces,0
+English (Irish),Male,34,gun,2,understands,0
+English (Irish),Female,35,gun,2,produces,0
+English (Irish),Female,35,gun,2,understands,0
+English (Irish),Male,35,gun,9,produces,0.1111
+English (Irish),Male,35,gun,9,understands,0
+English (Irish),Female,36,gun,3,produces,0
+English (Irish),Female,36,gun,3,understands,0
+English (Irish),Male,36,gun,2,produces,0
+English (Irish),Male,36,gun,2,understands,0
+Irish,Female,17,gunna,1,produces,0
+Irish,Female,17,gunna,1,understands,0
+Irish,Male,17,gunna,1,produces,0
+Irish,Male,17,gunna,1,understands,0
+Irish,Female,18,gunna,1,produces,1
+Irish,Female,18,gunna,1,understands,0
+Irish,Female,19,gunna,1,produces,0
+Irish,Female,19,gunna,1,understands,0
+Irish,Male,19,gunna,1,produces,0
+Irish,Male,19,gunna,1,understands,0
+Irish,Female,20,gunna,1,produces,0
+Irish,Female,20,gunna,1,understands,0
+Irish,Female,21,gunna,2,produces,0
+Irish,Female,21,gunna,2,understands,0
+Irish,Male,21,gunna,1,produces,0
+Irish,Male,21,gunna,1,understands,0
+Irish,Female,22,gunna,3,produces,0.3333
+Irish,Female,22,gunna,3,understands,0
+Irish,Male,22,gunna,1,produces,0
+Irish,Male,22,gunna,1,understands,0
+Irish,Female,23,gunna,2,produces,0
+Irish,Female,23,gunna,2,understands,0
+Irish,Male,23,gunna,2,produces,0
+Irish,Male,23,gunna,2,understands,0
+Irish,Female,24,gunna,2,produces,0.5
+Irish,Female,24,gunna,2,understands,0
+Irish,Male,24,gunna,2,produces,0
+Irish,Male,24,gunna,2,understands,0
+Irish,Female,25,gunna,3,produces,0.6667
+Irish,Female,25,gunna,3,understands,0
+Irish,Male,25,gunna,3,produces,0.3333
+Irish,Male,25,gunna,3,understands,0
+Irish,Female,26,gunna,7,produces,0.4286
+Irish,Female,26,gunna,7,understands,0
+Irish,Male,26,gunna,3,produces,0.3333
+Irish,Male,26,gunna,3,understands,0
+Irish,Female,27,gunna,1,produces,0
+Irish,Female,27,gunna,1,understands,0
+Irish,Male,27,gunna,4,produces,0.25
+Irish,Male,27,gunna,4,understands,0
+Irish,Female,28,gunna,4,produces,0.25
+Irish,Female,28,gunna,4,understands,0
+Irish,Male,28,gunna,3,produces,0.3333
+Irish,Male,28,gunna,3,understands,0
+Irish,Female,29,gunna,1,produces,0
+Irish,Female,29,gunna,1,understands,0
+Irish,Male,29,gunna,3,produces,0.6667
+Irish,Male,29,gunna,3,understands,0
+Irish,Female,30,gunna,5,produces,0.8
+Irish,Female,30,gunna,5,understands,0
+Irish,Male,30,gunna,4,produces,0.5
+Irish,Male,30,gunna,4,understands,0
+Irish,Female,31,gunna,3,produces,0.3333
+Irish,Female,31,gunna,3,understands,0
+Irish,Male,31,gunna,5,produces,0.2
+Irish,Male,31,gunna,5,understands,0
+Irish,Female,32,gunna,2,produces,1
+Irish,Female,32,gunna,2,understands,0
+Irish,Male,32,gunna,2,produces,0.5
+Irish,Male,32,gunna,2,understands,0
+Irish,Female,33,gunna,1,produces,0
+Irish,Female,33,gunna,1,understands,0
+Irish,Male,33,gunna,4,produces,0.75
+Irish,Male,33,gunna,4,understands,0
+Irish,Female,34,gunna,2,produces,0
+Irish,Female,34,gunna,2,understands,0
+Irish,Male,34,gunna,2,produces,0.5
+Irish,Male,34,gunna,2,understands,0
+Irish,Female,35,gunna,2,produces,0.5
+Irish,Female,35,gunna,2,understands,0
+Irish,Male,35,gunna,9,produces,0.5556
+Irish,Male,35,gunna,9,understands,0
+Irish,Female,36,gunna,3,produces,0.3333
+Irish,Female,36,gunna,3,understands,0
+Irish,Male,36,gunna,2,produces,0.5
+Irish,Male,36,gunna,2,understands,0
+Italian,Female,18,pistola,18,produces,0
+Italian,Female,18,pistola,18,understands,0
+Italian,Male,18,pistola,13,produces,0.1538
+Italian,Male,18,pistola,13,understands,0
+Italian,Female,19,pistola,21,produces,0.0476
+Italian,Female,19,pistola,21,understands,0
+Italian,Male,19,pistola,18,produces,0.2222
+Italian,Male,19,pistola,18,understands,0
+Italian,Female,20,pistola,34,produces,0.0588
+Italian,Female,20,pistola,34,understands,0
+Italian,Male,20,pistola,30,produces,0.0667
+Italian,Male,20,pistola,30,understands,0
+Italian,Female,21,pistola,24,produces,0.125
+Italian,Female,21,pistola,24,understands,0
+Italian,Male,21,pistola,31,produces,0.1935
+Italian,Male,21,pistola,31,understands,0
+Italian,Female,22,pistola,27,produces,0.2593
+Italian,Female,22,pistola,27,understands,0
+Italian,Male,22,pistola,28,produces,0.2143
+Italian,Male,22,pistola,28,understands,0
+Italian,Female,23,pistola,27,produces,0.2222
+Italian,Female,23,pistola,27,understands,0
+Italian,Male,23,pistola,26,produces,0.3462
+Italian,Male,23,pistola,26,understands,0
+Italian,Female,24,pistola,39,produces,0.359
+Italian,Female,24,pistola,39,understands,0
+Italian,Male,24,pistola,32,produces,0.5625
+Italian,Male,24,pistola,32,understands,0
+Italian,Female,25,pistola,23,produces,0.3478
+Italian,Female,25,pistola,23,understands,0
+Italian,Male,25,pistola,16,produces,0.5
+Italian,Male,25,pistola,16,understands,0
+Italian,Female,26,pistola,19,produces,0.5789
+Italian,Female,26,pistola,19,understands,0
+Italian,Male,26,pistola,22,produces,0.5909
+Italian,Male,26,pistola,22,understands,0
+Italian,Female,27,pistola,20,produces,0.3
+Italian,Female,27,pistola,20,understands,0
+Italian,Male,27,pistola,23,produces,0.3913
+Italian,Male,27,pistola,23,understands,0
+Italian,Female,28,pistola,21,produces,0.619
+Italian,Female,28,pistola,21,understands,0
+Italian,Male,28,pistola,23,produces,0.6957
+Italian,Male,28,pistola,23,understands,0
+Italian,Female,29,pistola,21,produces,0.7143
+Italian,Female,29,pistola,21,understands,0
+Italian,Male,29,pistola,16,produces,0.75
+Italian,Male,29,pistola,16,understands,0
+Italian,Female,30,pistola,28,produces,0.6071
+Italian,Female,30,pistola,28,understands,0
+Italian,Male,30,pistola,39,produces,0.8205
+Italian,Male,30,pistola,39,understands,0
+Italian,Female,31,pistola,8,produces,0.5
+Italian,Female,31,pistola,8,understands,0
+Italian,Male,31,pistola,11,produces,0.9091
+Italian,Male,31,pistola,11,understands,0
+Italian,Female,32,pistola,14,produces,0.5714
+Italian,Female,32,pistola,14,understands,0
+Italian,Male,32,pistola,9,produces,0.7778
+Italian,Male,32,pistola,9,understands,0
+Italian,Female,33,pistola,5,produces,0.8
+Italian,Female,33,pistola,5,understands,0
+Italian,Male,33,pistola,11,produces,1
+Italian,Male,33,pistola,11,understands,0
+Italian,Female,34,pistola,12,produces,0.8333
+Italian,Female,34,pistola,12,understands,0
+Italian,Male,34,pistola,7,produces,0.8571
+Italian,Male,34,pistola,7,understands,0
+Italian,Female,35,pistola,9,produces,1
+Italian,Female,35,pistola,9,understands,0
+Italian,Male,35,pistola,6,produces,0.8333
+Italian,Male,35,pistola,6,understands,0
+Italian,Female,36,pistola,7,produces,0.8571
+Italian,Female,36,pistola,7,understands,0
+Italian,Male,36,pistola,14,produces,0.8571
+Italian,Male,36,pistola,14,understands,0
+Kigiriama,Female,16,Bunduki,1,produces,0
+Kigiriama,Female,16,Bunduki,1,understands,0
+Kigiriama,Female,17,Bunduki,5,produces,0
+Kigiriama,Female,17,Bunduki,5,understands,0
+Kigiriama,Male,17,Bunduki,1,produces,0
+Kigiriama,Male,17,Bunduki,1,understands,0
+Kigiriama,Female,18,Bunduki,6,produces,0
+Kigiriama,Female,18,Bunduki,6,understands,0
+Kigiriama,Male,18,Bunduki,6,produces,0
+Kigiriama,Male,18,Bunduki,6,understands,0
+Kigiriama,Female,19,Bunduki,3,produces,0
+Kigiriama,Female,19,Bunduki,3,understands,0
+Kigiriama,Male,19,Bunduki,5,produces,0
+Kigiriama,Male,19,Bunduki,5,understands,0
+Kigiriama,Female,20,Bunduki,5,produces,0
+Kigiriama,Female,20,Bunduki,5,understands,0
+Kigiriama,Male,20,Bunduki,8,produces,0
+Kigiriama,Male,20,Bunduki,8,understands,0
+Kigiriama,Female,21,Bunduki,3,produces,0
+Kigiriama,Female,21,Bunduki,3,understands,0
+Kigiriama,Male,21,Bunduki,3,produces,0
+Kigiriama,Male,21,Bunduki,3,understands,0
+Kigiriama,Female,22,Bunduki,7,produces,0
+Kigiriama,Female,22,Bunduki,7,understands,0
+Kigiriama,Male,22,Bunduki,2,produces,0
+Kigiriama,Male,22,Bunduki,2,understands,0
+Kigiriama,Female,23,Bunduki,2,produces,0
+Kigiriama,Female,23,Bunduki,2,understands,0
+Kigiriama,Male,23,Bunduki,2,produces,0.5
+Kigiriama,Male,23,Bunduki,2,understands,0
+Kigiriama,Female,24,Bunduki,6,produces,0
+Kigiriama,Female,24,Bunduki,6,understands,0
+Kigiriama,Male,24,Bunduki,1,produces,1
+Kigiriama,Male,24,Bunduki,1,understands,0
+Kigiriama,Female,25,Bunduki,2,produces,0
+Kigiriama,Female,25,Bunduki,2,understands,0
+Kigiriama,Male,25,Bunduki,1,produces,0
+Kigiriama,Male,25,Bunduki,1,understands,0
+Kigiriama,Female,26,Bunduki,4,produces,0
+Kigiriama,Female,26,Bunduki,4,understands,0
+Kigiriama,Male,26,Bunduki,2,produces,0
+Kigiriama,Male,26,Bunduki,2,understands,0
+Kigiriama,Female,27,Bunduki,1,produces,1
+Kigiriama,Female,27,Bunduki,1,understands,0
+Kigiriama,Male,27,Bunduki,3,produces,0.3333
+Kigiriama,Male,27,Bunduki,3,understands,0
+Kigiriama,Male,28,Bunduki,1,produces,0
+Kigiriama,Male,28,Bunduki,1,understands,0
+Kigiriama,Female,29,Bunduki,2,produces,0
+Kigiriama,Female,29,Bunduki,2,understands,0
+Kigiriama,Male,29,Bunduki,3,produces,0.3333
+Kigiriama,Male,29,Bunduki,3,understands,0
+Kigiriama,Male,30,Bunduki,1,produces,1
+Kigiriama,Male,30,Bunduki,1,understands,0
+Kiswahili,Female,23,Gun,1,produces,0
+Kiswahili,Female,23,Gun,1,understands,0
+Kiswahili,Male,23,Gun,1,produces,0
+Kiswahili,Male,23,Gun,1,understands,0
+Kiswahili,Female,24,Gun,6,produces,0
+Kiswahili,Female,24,Gun,6,understands,0
+Kiswahili,Male,24,Gun,6,produces,0.3333
+Kiswahili,Male,24,Gun,6,understands,0
+Kiswahili,Female,25,Gun,8,produces,0
+Kiswahili,Female,25,Gun,8,understands,0
+Kiswahili,Male,25,Gun,2,produces,0
+Kiswahili,Male,25,Gun,2,understands,0
+Kiswahili,Female,26,Gun,3,produces,0.3333
+Kiswahili,Female,26,Gun,3,understands,0
+Kiswahili,Male,26,Gun,10,produces,0.2
+Kiswahili,Male,26,Gun,10,understands,0
+Kiswahili,Female,27,Gun,3,produces,0
+Kiswahili,Female,27,Gun,3,understands,0
+Kiswahili,Male,27,Gun,5,produces,0.2
+Kiswahili,Male,27,Gun,5,understands,0
+Kiswahili,Female,28,Gun,3,produces,0
+Kiswahili,Female,28,Gun,3,understands,0
+Kiswahili,Male,28,Gun,3,produces,0.3333
+Kiswahili,Male,28,Gun,3,understands,0
+Kiswahili,Female,29,Gun,3,produces,0
+Kiswahili,Female,29,Gun,3,understands,0
+Kiswahili,Male,29,Gun,3,produces,0
+Kiswahili,Male,29,Gun,3,understands,0
+Kiswahili,Female,30,Gun,3,produces,0.6667
+Kiswahili,Female,30,Gun,3,understands,0
+Kiswahili,Male,30,Gun,2,produces,1
+Kiswahili,Male,30,Gun,2,understands,0
+Korean,Female,18,총,51,produces,0.0784
+Korean,Female,18,총,51,understands,0
+Korean,Male,18,총,37,produces,0.0811
+Korean,Male,18,총,37,understands,0
+Korean,Female,19,총,39,produces,0.0513
+Korean,Female,19,총,39,understands,0
+Korean,Male,19,총,38,produces,0.1842
+Korean,Male,19,총,38,understands,0
+Korean,Female,20,총,47,produces,0.1064
+Korean,Female,20,총,47,understands,0
+Korean,Male,20,총,41,produces,0.0976
+Korean,Male,20,총,41,understands,0
+Korean,Female,21,총,38,produces,0.0789
+Korean,Female,21,총,38,understands,0
+Korean,Male,21,총,41,produces,0.1463
+Korean,Male,21,총,41,understands,0
+Korean,Female,22,총,42,produces,0.2143
+Korean,Female,22,총,42,understands,0
+Korean,Male,22,총,45,produces,0.1778
+Korean,Male,22,총,45,understands,0
+Korean,Female,23,총,42,produces,0.1429
+Korean,Female,23,총,42,understands,0
+Korean,Male,23,총,45,produces,0.2
+Korean,Male,23,총,45,understands,0
+Korean,Female,24,총,46,produces,0.2609
+Korean,Female,24,총,46,understands,0
+Korean,Male,24,총,61,produces,0.2951
+Korean,Male,24,총,61,understands,0
+Korean,Female,25,총,46,produces,0.3261
+Korean,Female,25,총,46,understands,0
+Korean,Male,25,총,49,produces,0.4082
+Korean,Male,25,총,49,understands,0
+Korean,Female,26,총,42,produces,0.3095
+Korean,Female,26,총,42,understands,0
+Korean,Male,26,총,49,produces,0.3673
+Korean,Male,26,총,49,understands,0
+Korean,Female,27,총,46,produces,0.413
+Korean,Female,27,총,46,understands,0
+Korean,Male,27,총,58,produces,0.5
+Korean,Male,27,총,58,understands,0
+Korean,Female,28,총,49,produces,0.3878
+Korean,Female,28,총,49,understands,0
+Korean,Male,28,총,40,produces,0.6
+Korean,Male,28,총,40,understands,0
+Korean,Female,29,총,49,produces,0.4898
+Korean,Female,29,총,49,understands,0
+Korean,Male,29,총,51,produces,0.6078
+Korean,Male,29,총,51,understands,0
+Korean,Female,30,총,34,produces,0.5
+Korean,Female,30,총,34,understands,0
+Korean,Male,30,총,47,produces,0.7021
+Korean,Male,30,총,47,understands,0
+Korean,Female,31,총,31,produces,0.6774
+Korean,Female,31,총,31,understands,0
+Korean,Male,31,총,48,produces,0.8333
+Korean,Male,31,총,48,understands,0
+Korean,Female,32,총,33,produces,0.6364
+Korean,Female,32,총,33,understands,0
+Korean,Male,32,총,36,produces,0.75
+Korean,Male,32,총,36,understands,0
+Korean,Female,33,총,36,produces,0.6944
+Korean,Female,33,총,36,understands,0
+Korean,Male,33,총,43,produces,0.7907
+Korean,Male,33,총,43,understands,0
+Korean,Female,34,총,41,produces,0.8293
+Korean,Female,34,총,41,understands,0
+Korean,Male,34,총,38,produces,0.6579
+Korean,Male,34,총,38,understands,0
+Korean,Female,35,총,37,produces,0.6757
+Korean,Female,35,총,37,understands,0
+Korean,Male,35,총,37,produces,0.7568
+Korean,Male,35,총,37,understands,0
+Korean,Female,36,총,40,produces,0.825
+Korean,Female,36,총,40,understands,0
+Korean,Male,36,총,35,produces,0.9429
+Korean,Male,36,총,35,understands,0
+Mandarin (Beijing),Female,16,枪,35,produces,0.0571
+Mandarin (Beijing),Female,16,枪,35,understands,0
+Mandarin (Beijing),Male,16,枪,35,produces,0.1143
+Mandarin (Beijing),Male,16,枪,35,understands,0
+Mandarin (Beijing),Female,17,枪,35,produces,0.2857
+Mandarin (Beijing),Female,17,枪,35,understands,0
+Mandarin (Beijing),Male,17,枪,37,produces,0.3514
+Mandarin (Beijing),Male,17,枪,37,understands,0
+Mandarin (Beijing),Female,18,枪,35,produces,0.2286
+Mandarin (Beijing),Female,18,枪,35,understands,0
+Mandarin (Beijing),Male,18,枪,36,produces,0.3889
+Mandarin (Beijing),Male,18,枪,36,understands,0
+Mandarin (Beijing),Female,19,枪,35,produces,0.4571
+Mandarin (Beijing),Female,19,枪,35,understands,0
+Mandarin (Beijing),Male,19,枪,35,produces,0.4286
+Mandarin (Beijing),Male,19,枪,35,understands,0
+Mandarin (Beijing),Female,20,枪,35,produces,0.6571
+Mandarin (Beijing),Female,20,枪,35,understands,0
+Mandarin (Beijing),Male,20,枪,36,produces,0.6389
+Mandarin (Beijing),Male,20,枪,36,understands,0
+Mandarin (Beijing),Female,21,枪,35,produces,0.6571
+Mandarin (Beijing),Female,21,枪,35,understands,0
+Mandarin (Beijing),Male,21,枪,35,produces,0.7714
+Mandarin (Beijing),Male,21,枪,35,understands,0
+Mandarin (Beijing),Female,22,枪,35,produces,0.7714
+Mandarin (Beijing),Female,22,枪,35,understands,0
+Mandarin (Beijing),Male,22,枪,36,produces,0.7778
+Mandarin (Beijing),Male,22,枪,36,understands,0
+Mandarin (Beijing),Female,23,枪,35,produces,0.8857
+Mandarin (Beijing),Female,23,枪,35,understands,0
+Mandarin (Beijing),Male,23,枪,35,produces,0.8286
+Mandarin (Beijing),Male,23,枪,35,understands,0
+Mandarin (Beijing),Female,24,枪,35,produces,0.8857
+Mandarin (Beijing),Female,24,枪,35,understands,0
+Mandarin (Beijing),Male,24,枪,35,produces,0.8286
+Mandarin (Beijing),Male,24,枪,35,understands,0
+Mandarin (Beijing),Female,25,枪,35,produces,0.9714
+Mandarin (Beijing),Female,25,枪,35,understands,0
+Mandarin (Beijing),Male,25,枪,35,produces,0.9714
+Mandarin (Beijing),Male,25,枪,35,understands,0
+Mandarin (Beijing),Female,26,枪,36,produces,0.9167
+Mandarin (Beijing),Female,26,枪,36,understands,0
+Mandarin (Beijing),Male,26,枪,35,produces,0.9714
+Mandarin (Beijing),Male,26,枪,35,understands,0
+Mandarin (Beijing),Female,27,枪,35,produces,0.8857
+Mandarin (Beijing),Female,27,枪,35,understands,0
+Mandarin (Beijing),Male,27,枪,35,produces,0.9429
+Mandarin (Beijing),Male,27,枪,35,understands,0
+Mandarin (Beijing),Female,28,枪,35,produces,0.9429
+Mandarin (Beijing),Female,28,枪,35,understands,0
+Mandarin (Beijing),Male,28,枪,35,produces,0.9714
+Mandarin (Beijing),Male,28,枪,35,understands,0
+Mandarin (Beijing),Female,29,枪,35,produces,0.9714
+Mandarin (Beijing),Female,29,枪,35,understands,0
+Mandarin (Beijing),Male,29,枪,35,produces,1
+Mandarin (Beijing),Male,29,枪,35,understands,0
+Mandarin (Beijing),Female,30,枪,35,produces,0.9714
+Mandarin (Beijing),Female,30,枪,35,understands,0
+Mandarin (Beijing),Male,30,枪,35,produces,1
+Mandarin (Beijing),Male,30,枪,35,understands,0
+Mandarin (Taiwanese),Female,16,手槍,39,produces,0
+Mandarin (Taiwanese),Female,16,手槍,39,understands,0
+Mandarin (Taiwanese),Male,16,手槍,41,produces,0.0244
+Mandarin (Taiwanese),Male,16,手槍,41,understands,0
+Mandarin (Taiwanese),Female,17,手槍,37,produces,0
+Mandarin (Taiwanese),Female,17,手槍,37,understands,0
+Mandarin (Taiwanese),Male,17,手槍,50,produces,0.02
+Mandarin (Taiwanese),Male,17,手槍,50,understands,0
+Mandarin (Taiwanese),Female,18,手槍,49,produces,0.0204
+Mandarin (Taiwanese),Female,18,手槍,49,understands,0
+Mandarin (Taiwanese),Male,18,手槍,35,produces,0
+Mandarin (Taiwanese),Male,18,手槍,35,understands,0
+Mandarin (Taiwanese),Female,19,手槍,42,produces,0.0238
+Mandarin (Taiwanese),Female,19,手槍,42,understands,0
+Mandarin (Taiwanese),Male,19,手槍,42,produces,0.0238
+Mandarin (Taiwanese),Male,19,手槍,42,understands,0
+Mandarin (Taiwanese),Female,20,手槍,40,produces,0
+Mandarin (Taiwanese),Female,20,手槍,40,understands,0
+Mandarin (Taiwanese),Male,20,手槍,44,produces,0.0227
+Mandarin (Taiwanese),Male,20,手槍,44,understands,0
+Mandarin (Taiwanese),Female,21,手槍,38,produces,0.0263
+Mandarin (Taiwanese),Female,21,手槍,38,understands,0
+Mandarin (Taiwanese),Male,21,手槍,50,produces,0.08
+Mandarin (Taiwanese),Male,21,手槍,50,understands,0
+Mandarin (Taiwanese),Female,22,手槍,48,produces,0.125
+Mandarin (Taiwanese),Female,22,手槍,48,understands,0
+Mandarin (Taiwanese),Male,22,手槍,48,produces,0.1042
+Mandarin (Taiwanese),Male,22,手槍,48,understands,0
+Mandarin (Taiwanese),Female,23,手槍,50,produces,0.12
+Mandarin (Taiwanese),Female,23,手槍,50,understands,0
+Mandarin (Taiwanese),Male,23,手槍,55,produces,0.2727
+Mandarin (Taiwanese),Male,23,手槍,55,understands,0
+Mandarin (Taiwanese),Female,24,手槍,65,produces,0.1231
+Mandarin (Taiwanese),Female,24,手槍,65,understands,0
+Mandarin (Taiwanese),Male,24,手槍,59,produces,0.1186
+Mandarin (Taiwanese),Male,24,手槍,59,understands,0
+Mandarin (Taiwanese),Female,25,手槍,60,produces,0.0833
+Mandarin (Taiwanese),Female,25,手槍,60,understands,0
+Mandarin (Taiwanese),Male,25,手槍,50,produces,0.16
+Mandarin (Taiwanese),Male,25,手槍,50,understands,0
+Mandarin (Taiwanese),Female,26,手槍,38,produces,0.1842
+Mandarin (Taiwanese),Female,26,手槍,38,understands,0
+Mandarin (Taiwanese),Male,26,手槍,49,produces,0.2449
+Mandarin (Taiwanese),Male,26,手槍,49,understands,0
+Mandarin (Taiwanese),Female,27,手槍,49,produces,0.2041
+Mandarin (Taiwanese),Female,27,手槍,49,understands,0
+Mandarin (Taiwanese),Male,27,手槍,43,produces,0.3721
+Mandarin (Taiwanese),Male,27,手槍,43,understands,0
+Mandarin (Taiwanese),Female,28,手槍,50,produces,0.28
+Mandarin (Taiwanese),Female,28,手槍,50,understands,0
+Mandarin (Taiwanese),Male,28,手槍,50,produces,0.46
+Mandarin (Taiwanese),Male,28,手槍,50,understands,0
+Mandarin (Taiwanese),Female,29,手槍,41,produces,0.2195
+Mandarin (Taiwanese),Female,29,手槍,41,understands,0
+Mandarin (Taiwanese),Male,29,手槍,47,produces,0.4043
+Mandarin (Taiwanese),Male,29,手槍,47,understands,0
+Mandarin (Taiwanese),Female,30,手槍,44,produces,0.2955
+Mandarin (Taiwanese),Female,30,手槍,44,understands,0
+Mandarin (Taiwanese),Male,30,手槍,50,produces,0.44
+Mandarin (Taiwanese),Male,30,手槍,50,understands,0
+Mandarin (Taiwanese),Female,31,手槍,35,produces,0.4
+Mandarin (Taiwanese),Female,31,手槍,35,understands,0
+Mandarin (Taiwanese),Male,31,手槍,53,produces,0.4528
+Mandarin (Taiwanese),Male,31,手槍,53,understands,0
+Mandarin (Taiwanese),Female,32,手槍,43,produces,0.2791
+Mandarin (Taiwanese),Female,32,手槍,43,understands,0
+Mandarin (Taiwanese),Male,32,手槍,39,produces,0.5385
+Mandarin (Taiwanese),Male,32,手槍,39,understands,0
+Mandarin (Taiwanese),Female,33,手槍,45,produces,0.4222
+Mandarin (Taiwanese),Female,33,手槍,45,understands,0
+Mandarin (Taiwanese),Male,33,手槍,40,produces,0.6
+Mandarin (Taiwanese),Male,33,手槍,40,understands,0
+Mandarin (Taiwanese),Female,34,手槍,33,produces,0.5152
+Mandarin (Taiwanese),Female,34,手槍,33,understands,0
+Mandarin (Taiwanese),Male,34,手槍,44,produces,0.7273
+Mandarin (Taiwanese),Male,34,手槍,44,understands,0
+Mandarin (Taiwanese),Female,35,手槍,42,produces,0.5714
+Mandarin (Taiwanese),Female,35,手槍,42,understands,0
+Mandarin (Taiwanese),Male,35,手槍,39,produces,0.7949
+Mandarin (Taiwanese),Male,35,手槍,39,understands,0
+Mandarin (Taiwanese),Female,36,手槍,38,produces,0.5
+Mandarin (Taiwanese),Female,36,手槍,38,understands,0
+Mandarin (Taiwanese),Male,36,手槍,43,produces,0.6977
+Mandarin (Taiwanese),Male,36,手槍,43,understands,0
+Turkish,Female,16,Tüfek,60,produces,0
+Turkish,Female,16,Tüfek,60,understands,0
+Turkish,Male,16,Tüfek,49,produces,0
+Turkish,Male,16,Tüfek,49,understands,0
+Turkish,Female,17,Tüfek,50,produces,0.06
+Turkish,Female,17,Tüfek,50,understands,0
+Turkish,Male,17,Tüfek,57,produces,0.0351
+Turkish,Male,17,Tüfek,57,understands,0
+Turkish,Female,18,Tüfek,65,produces,0.0615
+Turkish,Female,18,Tüfek,65,understands,0
+Turkish,Male,18,Tüfek,63,produces,0.0635
+Turkish,Male,18,Tüfek,63,understands,0
+Turkish,Female,19,Tüfek,63,produces,0.0317
+Turkish,Female,19,Tüfek,63,understands,0
+Turkish,Male,19,Tüfek,58,produces,0.0862
+Turkish,Male,19,Tüfek,58,understands,0
+Turkish,Female,20,Tüfek,60,produces,0.1
+Turkish,Female,20,Tüfek,60,understands,0
+Turkish,Male,20,Tüfek,59,produces,0.0847
+Turkish,Male,20,Tüfek,59,understands,0
+Turkish,Female,21,Tüfek,55,produces,0.1455
+Turkish,Female,21,Tüfek,55,understands,0
+Turkish,Male,21,Tüfek,69,produces,0.1014
+Turkish,Male,21,Tüfek,69,understands,0
+Turkish,Female,22,Tüfek,58,produces,0.1034
+Turkish,Female,22,Tüfek,58,understands,0
+Turkish,Male,22,Tüfek,68,produces,0.1912
+Turkish,Male,22,Tüfek,68,understands,0
+Turkish,Female,23,Tüfek,71,produces,0.0845
+Turkish,Female,23,Tüfek,71,understands,0
+Turkish,Male,23,Tüfek,60,produces,0.1
+Turkish,Male,23,Tüfek,60,understands,0
+Turkish,Female,24,Tüfek,54,produces,0.1667
+Turkish,Female,24,Tüfek,54,understands,0
+Turkish,Male,24,Tüfek,52,produces,0.1731
+Turkish,Male,24,Tüfek,52,understands,0
+Turkish,Female,25,Tüfek,63,produces,0.3016
+Turkish,Female,25,Tüfek,63,understands,0
+Turkish,Male,25,Tüfek,60,produces,0.2333
+Turkish,Male,25,Tüfek,60,understands,0
+Turkish,Female,26,Tüfek,60,produces,0.25
+Turkish,Female,26,Tüfek,60,understands,0
+Turkish,Male,26,Tüfek,63,produces,0.2857
+Turkish,Male,26,Tüfek,63,understands,0
+Turkish,Female,27,Tüfek,56,produces,0.2321
+Turkish,Female,27,Tüfek,56,understands,0
+Turkish,Male,27,Tüfek,52,produces,0.25
+Turkish,Male,27,Tüfek,52,understands,0
+Turkish,Female,28,Tüfek,62,produces,0.3226
+Turkish,Female,28,Tüfek,62,understands,0
+Turkish,Male,28,Tüfek,50,produces,0.42
+Turkish,Male,28,Tüfek,50,understands,0
+Turkish,Female,29,Tüfek,54,produces,0.3704
+Turkish,Female,29,Tüfek,54,understands,0
+Turkish,Male,29,Tüfek,65,produces,0.3385
+Turkish,Male,29,Tüfek,65,understands,0
+Turkish,Female,30,Tüfek,56,produces,0.3929
+Turkish,Female,30,Tüfek,56,understands,0
+Turkish,Male,30,Tüfek,48,produces,0.5625
+Turkish,Male,30,Tüfek,48,understands,0
+Turkish,Female,31,Tüfek,62,produces,0.3871
+Turkish,Female,31,Tüfek,62,understands,0
+Turkish,Male,31,Tüfek,39,produces,0.4615
+Turkish,Male,31,Tüfek,39,understands,0
+Turkish,Female,32,Tüfek,56,produces,0.6786
+Turkish,Female,32,Tüfek,56,understands,0
+Turkish,Male,32,Tüfek,76,produces,0.5
+Turkish,Male,32,Tüfek,76,understands,0
+Turkish,Female,33,Tüfek,59,produces,0.3729
+Turkish,Female,33,Tüfek,59,understands,0
+Turkish,Male,33,Tüfek,55,produces,0.6727
+Turkish,Male,33,Tüfek,55,understands,0
+Turkish,Female,34,Tüfek,56,produces,0.5
+Turkish,Female,34,Tüfek,56,understands,0
+Turkish,Male,34,Tüfek,51,produces,0.5294
+Turkish,Male,34,Tüfek,51,understands,0
+Turkish,Female,35,Tüfek,69,produces,0.5652
+Turkish,Female,35,Tüfek,69,understands,0
+Turkish,Male,35,Tüfek,62,produces,0.629
+Turkish,Male,35,Tüfek,62,understands,0
+Turkish,Female,36,Tüfek,36,produces,0.5278
+Turkish,Female,36,Tüfek,36,understands,0
+Turkish,Male,36,Tüfek,41,produces,0.8537
+Turkish,Male,36,Tüfek,41,understands,0

@@ -1,699 +1,2039 @@
-language,age,words,n,measure,prop
-Japanese,8,洋服,6,produces,0
-Japanese,8,洋服,6,understands,0
-Japanese,9,洋服,10,produces,0
-Japanese,9,洋服,10,understands,0
-Japanese,10,洋服,8,produces,0
-Japanese,10,洋服,8,understands,0
-Japanese,11,洋服,87,produces,0
-Japanese,11,洋服,87,understands,0.0575
-Japanese,12,洋服,118,produces,0
-Japanese,12,洋服,118,understands,0.0424
-Japanese,13,洋服,23,produces,0
-Japanese,13,洋服,23,understands,0.0435
-Japanese,14,洋服,26,produces,0
-Japanese,14,洋服,26,understands,0.1154
-Japanese,15,洋服,72,produces,0
-Japanese,15,洋服,72,understands,0.125
-Japanese,16,洋服,46,produces,0
-Japanese,16,洋服,46,understands,0.0652
-Japanese,17,洋服,77,produces,0
-Japanese,17,洋服,77,understands,0.2727
-Japanese,18,洋服,94,produces,0.0213
-Japanese,18,洋服,94,understands,0.0851
-Japanese,19,洋服,35,produces,0.0857
-Japanese,19,洋服,35,understands,0
-Japanese,20,洋服,59,produces,0.0339
-Japanese,20,洋服,59,understands,0
-Japanese,21,洋服,62,produces,0.0806
-Japanese,21,洋服,62,understands,0
-Japanese,22,洋服,31,produces,0.0968
-Japanese,22,洋服,31,understands,0
-Japanese,23,洋服,67,produces,0.1194
-Japanese,23,洋服,67,understands,0
-Japanese,24,洋服,33,produces,0.1212
-Japanese,24,洋服,33,understands,0
-Japanese,25,洋服,34,produces,0.2941
-Japanese,25,洋服,34,understands,0
-Japanese,26,洋服,33,produces,0.4242
-Japanese,26,洋服,33,understands,0
-Japanese,27,洋服,15,produces,0.2667
-Japanese,27,洋服,15,understands,0
-Japanese,28,洋服,18,produces,0.2778
-Japanese,28,洋服,18,understands,0
-Japanese,29,洋服,17,produces,0.5294
-Japanese,29,洋服,17,understands,0
-Japanese,30,洋服,18,produces,0.6111
-Japanese,30,洋服,18,understands,0
-Japanese,31,洋服,18,produces,0.3333
-Japanese,31,洋服,18,understands,0
-Japanese,32,洋服,13,produces,0.3846
-Japanese,32,洋服,13,understands,0
-Japanese,33,洋服,16,produces,0.5625
-Japanese,33,洋服,16,understands,0
-Japanese,34,洋服,13,produces,0.6154
-Japanese,34,洋服,13,understands,0
-Japanese,35,洋服,31,produces,0.6452
-Japanese,35,洋服,31,understands,0
-Japanese,36,洋服,18,produces,0.6667
-Japanese,36,洋服,18,understands,0
-Kigiriama,8,Nguo,5,produces,0.2
-Kigiriama,8,Nguo,5,understands,0.4
-Kigiriama,9,Nguo,22,produces,0
-Kigiriama,9,Nguo,22,understands,0.1364
-Kigiriama,10,Nguo,5,produces,0
-Kigiriama,10,Nguo,5,understands,0.4
-Kigiriama,11,Nguo,7,produces,0
-Kigiriama,11,Nguo,7,understands,0.5714
-Kigiriama,12,Nguo,30,produces,0
-Kigiriama,12,Nguo,30,understands,0.6667
-Kigiriama,13,Nguo,18,produces,0.0556
-Kigiriama,13,Nguo,18,understands,0.6111
-Kigiriama,14,Nguo,16,produces,0
-Kigiriama,14,Nguo,16,understands,0.4375
-Kigiriama,15,Nguo,16,produces,0.0625
-Kigiriama,15,Nguo,16,understands,0.5
-Kigiriama,16,Nguo,1,produces,1
-Kigiriama,16,Nguo,1,understands,0
-Kigiriama,17,Nguo,6,produces,0.5
-Kigiriama,17,Nguo,6,understands,0
-Kigiriama,18,Nguo,13,produces,0.4615
-Kigiriama,18,Nguo,13,understands,0
-Kigiriama,19,Nguo,8,produces,0.375
-Kigiriama,19,Nguo,8,understands,0
-Kigiriama,20,Nguo,14,produces,0.5714
-Kigiriama,20,Nguo,14,understands,0
-Kigiriama,21,Nguo,6,produces,0.5
-Kigiriama,21,Nguo,6,understands,0
-Kigiriama,22,Nguo,9,produces,0.8889
-Kigiriama,22,Nguo,9,understands,0
-Kigiriama,23,Nguo,4,produces,0.25
-Kigiriama,23,Nguo,4,understands,0
-Kigiriama,24,Nguo,7,produces,0.7143
-Kigiriama,24,Nguo,7,understands,0
-Kigiriama,25,Nguo,3,produces,1
-Kigiriama,25,Nguo,3,understands,0
-Kigiriama,26,Nguo,6,produces,1
-Kigiriama,26,Nguo,6,understands,0
-Kigiriama,27,Nguo,4,produces,1
-Kigiriama,27,Nguo,4,understands,0
-Kigiriama,28,Nguo,1,produces,1
-Kigiriama,28,Nguo,1,understands,0
-Kigiriama,29,Nguo,5,produces,1
-Kigiriama,29,Nguo,5,understands,0
-Kigiriama,30,Nguo,1,produces,1
-Kigiriama,30,Nguo,1,understands,0
-Kiswahili,8,Nguo,1,produces,0
-Kiswahili,8,Nguo,1,understands,0
-Kiswahili,9,Nguo,5,produces,0
-Kiswahili,9,Nguo,5,understands,0
-Kiswahili,10,Nguo,5,produces,0
-Kiswahili,10,Nguo,5,understands,0
-Kiswahili,11,Nguo,9,produces,0
-Kiswahili,11,Nguo,9,understands,0.2222
-Kiswahili,12,Nguo,6,produces,0
-Kiswahili,12,Nguo,6,understands,0.3333
-Kiswahili,13,Nguo,6,produces,0
-Kiswahili,13,Nguo,6,understands,0.8333
-Kiswahili,14,Nguo,4,produces,0
-Kiswahili,14,Nguo,4,understands,0.75
-Kiswahili,15,Nguo,5,produces,0.2
-Kiswahili,15,Nguo,5,understands,0.8
-Kiswahili,23,Nguo,2,produces,0
-Kiswahili,23,Nguo,2,understands,0
-Kiswahili,24,Nguo,12,produces,0.75
-Kiswahili,24,Nguo,12,understands,0
-Kiswahili,25,Nguo,10,produces,0.6
-Kiswahili,25,Nguo,10,understands,0
-Kiswahili,26,Nguo,13,produces,0.7692
-Kiswahili,26,Nguo,13,understands,0
-Kiswahili,27,Nguo,8,produces,0.75
-Kiswahili,27,Nguo,8,understands,0
-Kiswahili,28,Nguo,6,produces,0.8333
-Kiswahili,28,Nguo,6,understands,0
-Kiswahili,29,Nguo,6,produces,0.5
-Kiswahili,29,Nguo,6,understands,0
-Kiswahili,30,Nguo,5,produces,1
-Kiswahili,30,Nguo,5,understands,0
-Latvian,17,apģērbs,27,produces,0.037
-Latvian,17,apģērbs,27,understands,0
-Latvian,18,apģērbs,21,produces,0.0476
-Latvian,18,apģērbs,21,understands,0
-Latvian,19,apģērbs,28,produces,0.0357
-Latvian,19,apģērbs,28,understands,0
-Latvian,20,apģērbs,34,produces,0.0588
-Latvian,20,apģērbs,34,understands,0
-Latvian,21,apģērbs,26,produces,0.1923
-Latvian,21,apģērbs,26,understands,0
-Latvian,22,apģērbs,32,produces,0.0938
-Latvian,22,apģērbs,32,understands,0
-Latvian,23,apģērbs,25,produces,0.36
-Latvian,23,apģērbs,25,understands,0
-Latvian,24,apģērbs,30,produces,0.1333
-Latvian,24,apģērbs,30,understands,0
-Latvian,25,apģērbs,29,produces,0.1724
-Latvian,25,apģērbs,29,understands,0
-Latvian,26,apģērbs,22,produces,0.1364
-Latvian,26,apģērbs,22,understands,0
-Latvian,27,apģērbs,18,produces,0.2778
-Latvian,27,apģērbs,18,understands,0
-Latvian,28,apģērbs,23,produces,0.2174
-Latvian,28,apģērbs,23,understands,0
-Latvian,29,apģērbs,24,produces,0.2083
-Latvian,29,apģērbs,24,understands,0
-Latvian,30,apģērbs,26,produces,0.3846
-Latvian,30,apģērbs,26,understands,0
-Latvian,31,apģērbs,19,produces,0.3684
-Latvian,31,apģērbs,19,understands,0
-Latvian,32,apģērbs,25,produces,0.32
-Latvian,32,apģērbs,25,understands,0
-Latvian,33,apģērbs,31,produces,0.3226
-Latvian,33,apģērbs,31,understands,0
-Latvian,34,apģērbs,17,produces,0.4706
-Latvian,34,apģērbs,17,understands,0
-Latvian,35,apģērbs,21,produces,0.4762
-Latvian,35,apģērbs,21,understands,0
-Latvian,36,apģērbs,22,produces,0.5455
-Latvian,36,apģērbs,22,understands,0
-Mandarin (Beijing),12,衣服,45,produces,0.0222
-Mandarin (Beijing),12,衣服,45,understands,0.7333
-Mandarin (Beijing),13,衣服,50,produces,0
-Mandarin (Beijing),13,衣服,50,understands,0.58
-Mandarin (Beijing),14,衣服,48,produces,0.0625
-Mandarin (Beijing),14,衣服,48,understands,0.6875
-Mandarin (Beijing),15,衣服,46,produces,0.0652
-Mandarin (Beijing),15,衣服,46,understands,0.8261
-Mandarin (Beijing),16,"衣服, 衣服/衣裳",111,produces,0.0991
-Mandarin (Beijing),16,"衣服, 衣服/衣裳",111,understands,0.3243
-Mandarin (Beijing),17,"衣服, 衣服/衣裳",112,produces,0.2946
-Mandarin (Beijing),17,"衣服, 衣服/衣裳",112,understands,0
-Mandarin (Beijing),18,"衣服, 衣服/衣裳",121,produces,0.3884
-Mandarin (Beijing),18,"衣服, 衣服/衣裳",121,understands,0
-Mandarin (Beijing),19,"衣服, 衣服/衣裳",120,produces,0.5083
-Mandarin (Beijing),19,"衣服, 衣服/衣裳",120,understands,0
-Mandarin (Beijing),20,"衣服, 衣服/衣裳",121,produces,0.5868
-Mandarin (Beijing),20,"衣服, 衣服/衣裳",121,understands,0
-Mandarin (Beijing),21,"衣服, 衣服/衣裳",119,produces,0.6891
-Mandarin (Beijing),21,"衣服, 衣服/衣裳",119,understands,0
-Mandarin (Beijing),22,"衣服, 衣服/衣裳",117,produces,0.7692
-Mandarin (Beijing),22,"衣服, 衣服/衣裳",117,understands,0
-Mandarin (Beijing),23,"衣服, 衣服/衣裳",120,produces,0.875
-Mandarin (Beijing),23,"衣服, 衣服/衣裳",120,understands,0
-Mandarin (Beijing),24,"衣服, 衣服/衣裳",120,produces,0.825
-Mandarin (Beijing),24,"衣服, 衣服/衣裳",120,understands,0
-Mandarin (Beijing),25,"衣服, 衣服/衣裳",113,produces,0.8761
-Mandarin (Beijing),25,"衣服, 衣服/衣裳",113,understands,0
-Mandarin (Beijing),26,"衣服, 衣服/衣裳",118,produces,0.9492
-Mandarin (Beijing),26,"衣服, 衣服/衣裳",118,understands,0
-Mandarin (Beijing),27,"衣服, 衣服/衣裳",114,produces,0.9474
-Mandarin (Beijing),27,"衣服, 衣服/衣裳",114,understands,0
-Mandarin (Beijing),28,"衣服, 衣服/衣裳",114,produces,0.9561
-Mandarin (Beijing),28,"衣服, 衣服/衣裳",114,understands,0
-Mandarin (Beijing),29,"衣服, 衣服/衣裳",119,produces,0.958
-Mandarin (Beijing),29,"衣服, 衣服/衣裳",119,understands,0
-Mandarin (Beijing),30,"衣服, 衣服/衣裳",110,produces,0.9727
-Mandarin (Beijing),30,"衣服, 衣服/衣裳",110,understands,0
-Portuguese (European),8,Roupa,126,produces,0.0079
-Portuguese (European),8,Roupa,126,understands,0.0556
-Portuguese (European),9,Roupa,148,produces,0
-Portuguese (European),9,Roupa,148,understands,0.0676
-Portuguese (European),10,Roupa,168,produces,0
-Portuguese (European),10,Roupa,168,understands,0.0655
-Portuguese (European),11,Roupa,179,produces,0
-Portuguese (European),11,Roupa,179,understands,0.1173
-Portuguese (European),12,Roupa,161,produces,0
-Portuguese (European),12,Roupa,161,understands,0.2236
-Portuguese (European),13,Roupa,176,produces,0
-Portuguese (European),13,Roupa,176,understands,0.1818
-Portuguese (European),14,Roupa,183,produces,0
-Portuguese (European),14,Roupa,183,understands,0.2623
-Portuguese (European),15,Roupa,173,produces,0.0058
-Portuguese (European),15,Roupa,173,understands,0.3121
-Portuguese (European),16,Roupa,144,produces,0.0069
-Portuguese (European),16,Roupa,144,understands,0
-Portuguese (European),17,Roupa,158,produces,0.0127
-Portuguese (European),17,Roupa,158,understands,0
-Portuguese (European),18,Roupa,203,produces,0.0591
-Portuguese (European),18,Roupa,203,understands,0
-Portuguese (European),19,Roupa,196,produces,0.0612
-Portuguese (European),19,Roupa,196,understands,0
-Portuguese (European),20,Roupa,218,produces,0.1284
-Portuguese (European),20,Roupa,218,understands,0
-Portuguese (European),21,Roupa,208,produces,0.1635
-Portuguese (European),21,Roupa,208,understands,0
-Portuguese (European),22,Roupa,213,produces,0.2582
-Portuguese (European),22,Roupa,213,understands,0
-Portuguese (European),23,Roupa,199,produces,0.2814
-Portuguese (European),23,Roupa,199,understands,0
-Portuguese (European),24,Roupa,215,produces,0.3767
-Portuguese (European),24,Roupa,215,understands,0
-Portuguese (European),25,Roupa,213,produces,0.5446
-Portuguese (European),25,Roupa,213,understands,0
-Portuguese (European),26,Roupa,218,produces,0.5459
-Portuguese (European),26,Roupa,218,understands,0
-Portuguese (European),27,Roupa,238,produces,0.6261
-Portuguese (European),27,Roupa,238,understands,0
-Portuguese (European),28,Roupa,219,produces,0.6256
-Portuguese (European),28,Roupa,219,understands,0
-Portuguese (European),29,Roupa,207,produces,0.6715
-Portuguese (European),29,Roupa,207,understands,0
-Portuguese (European),30,Roupa,163,produces,0.7117
-Portuguese (European),30,Roupa,163,understands,0
-Russian,18,одежда,42,produces,0
-Russian,18,одежда,42,understands,0
-Russian,19,одежда,41,produces,0
-Russian,19,одежда,41,understands,0
-Russian,20,одежда,45,produces,0.0222
-Russian,20,одежда,45,understands,0
-Russian,21,одежда,43,produces,0.0698
-Russian,21,одежда,43,understands,0
-Russian,22,одежда,51,produces,0.0784
-Russian,22,одежда,51,understands,0
-Russian,23,одежда,56,produces,0.1429
-Russian,23,одежда,56,understands,0
-Russian,24,одежда,61,produces,0.1967
-Russian,24,одежда,61,understands,0
-Russian,25,одежда,66,produces,0.2576
-Russian,25,одежда,66,understands,0
-Russian,26,одежда,52,produces,0.1923
-Russian,26,одежда,52,understands,0
-Russian,27,одежда,60,produces,0.3333
-Russian,27,одежда,60,understands,0
-Russian,28,одежда,60,produces,0.4167
-Russian,28,одежда,60,understands,0
-Russian,29,одежда,58,produces,0.4828
-Russian,29,одежда,58,understands,0
-Russian,30,одежда,77,produces,0.4416
-Russian,30,одежда,77,understands,0
-Russian,31,одежда,61,produces,0.5574
-Russian,31,одежда,61,understands,0
-Russian,32,одежда,55,produces,0.6182
-Russian,32,одежда,55,understands,0
-Russian,33,одежда,55,produces,0.6364
-Russian,33,одежда,55,understands,0
-Russian,34,одежда,58,produces,0.6207
-Russian,34,одежда,58,understands,0
-Russian,35,одежда,47,produces,0.6383
-Russian,35,одежда,47,understands,0
-Russian,36,одежда,49,produces,0.7755
-Russian,36,одежда,49,understands,0
-Slovak,17,oblečenie,70,produces,0.0429
-Slovak,17,oblečenie,70,understands,0
-Slovak,18,oblečenie,65,produces,0.0923
-Slovak,18,oblečenie,65,understands,0
-Slovak,19,oblečenie,56,produces,0.0714
-Slovak,19,oblečenie,56,understands,0
-Slovak,20,oblečenie,62,produces,0.1613
-Slovak,20,oblečenie,62,understands,0
-Slovak,21,oblečenie,81,produces,0.2099
-Slovak,21,oblečenie,81,understands,0
-Slovak,22,oblečenie,53,produces,0.2264
-Slovak,22,oblečenie,53,understands,0
-Slovak,23,oblečenie,59,produces,0.2881
-Slovak,23,oblečenie,59,understands,0
-Slovak,24,oblečenie,59,produces,0.4237
-Slovak,24,oblečenie,59,understands,0
-Slovak,25,oblečenie,69,produces,0.4058
-Slovak,25,oblečenie,69,understands,0
-Slovak,26,oblečenie,78,produces,0.6538
-Slovak,26,oblečenie,78,understands,0
-Slovak,27,oblečenie,62,produces,0.6129
-Slovak,27,oblečenie,62,understands,0
-Slovak,28,oblečenie,86,produces,0.5465
-Slovak,28,oblečenie,86,understands,0
-Slovak,29,oblečenie,75,produces,0.6267
-Slovak,29,oblečenie,75,understands,0
-Slovak,30,oblečenie,49,produces,0.6327
-Slovak,30,oblečenie,49,understands,0
-Slovak,31,oblečenie,29,produces,0.6897
-Slovak,31,oblečenie,29,understands,0
-Slovak,32,oblečenie,25,produces,0.8
-Slovak,32,oblečenie,25,understands,0
-Slovak,33,oblečenie,22,produces,0.9091
-Slovak,33,oblečenie,22,understands,0
-Slovak,34,oblečenie,27,produces,0.7778
-Slovak,34,oblečenie,27,understands,0
-Slovak,35,oblečenie,27,produces,0.8148
-Slovak,35,oblečenie,27,understands,0
-Slovak,36,oblečenie,8,produces,0.875
-Slovak,36,oblečenie,8,understands,0
-Spanish (Argentinian),16,ropa,47,produces,0.1489
-Spanish (Argentinian),16,ropa,47,understands,0
-Spanish (Argentinian),17,ropa,49,produces,0.1429
-Spanish (Argentinian),17,ropa,49,understands,0
-Spanish (Argentinian),18,ropa,62,produces,0.0806
-Spanish (Argentinian),18,ropa,62,understands,0
-Spanish (Argentinian),19,ropa,44,produces,0.1364
-Spanish (Argentinian),19,ropa,44,understands,0
-Spanish (Argentinian),20,ropa,46,produces,0.2174
-Spanish (Argentinian),20,ropa,46,understands,0
-Spanish (Argentinian),21,ropa,41,produces,0.2439
-Spanish (Argentinian),21,ropa,41,understands,0
-Spanish (Argentinian),22,ropa,57,produces,0.3333
-Spanish (Argentinian),22,ropa,57,understands,0
-Spanish (Argentinian),23,ropa,49,produces,0.4082
-Spanish (Argentinian),23,ropa,49,understands,0
-Spanish (Argentinian),24,ropa,75,produces,0.4
-Spanish (Argentinian),24,ropa,75,understands,0
-Spanish (Argentinian),25,ropa,43,produces,0.3953
-Spanish (Argentinian),25,ropa,43,understands,0
-Spanish (Argentinian),26,ropa,45,produces,0.4
-Spanish (Argentinian),26,ropa,45,understands,0
-Spanish (Argentinian),27,ropa,44,produces,0.4318
-Spanish (Argentinian),27,ropa,44,understands,0
-Spanish (Argentinian),28,ropa,42,produces,0.5476
-Spanish (Argentinian),28,ropa,42,understands,0
-Spanish (Argentinian),29,ropa,65,produces,0.5846
-Spanish (Argentinian),29,ropa,65,understands,0
-Spanish (Argentinian),30,ropa,69,produces,0.7391
-Spanish (Argentinian),30,ropa,69,understands,0
-Spanish (Argentinian),31,ropa,2,produces,0.5
-Spanish (Argentinian),31,ropa,2,understands,0
-Spanish (Argentinian),32,ropa,1,produces,1
-Spanish (Argentinian),32,ropa,1,understands,0
-Spanish (Argentinian),33,ropa,2,produces,0.5
-Spanish (Argentinian),33,ropa,2,understands,0
-Spanish (European),8,ropa,52,produces,0
-Spanish (European),8,ropa,52,understands,0
-Spanish (European),9,ropa,45,produces,0
-Spanish (European),9,ropa,45,understands,0.1333
-Spanish (European),10,ropa,49,produces,0
-Spanish (European),10,ropa,49,understands,0
-Spanish (European),11,ropa,36,produces,0
-Spanish (European),11,ropa,36,understands,0.1389
-Spanish (European),12,ropa,52,produces,0
-Spanish (European),12,ropa,52,understands,0.0769
-Spanish (European),13,ropa,58,produces,0
-Spanish (European),13,ropa,58,understands,0.2069
-Spanish (European),14,ropa,55,produces,0.0364
-Spanish (European),14,ropa,55,understands,0.3273
-Spanish (European),15,ropa,65,produces,0.0308
-Spanish (European),15,ropa,65,understands,0.4308
-Spanish (European),16,ropa,39,produces,0.0256
-Spanish (European),16,ropa,39,understands,0
-Spanish (European),17,ropa,39,produces,0.0256
-Spanish (European),17,ropa,39,understands,0
-Spanish (European),18,ropa,50,produces,0
-Spanish (European),18,ropa,50,understands,0
-Spanish (European),19,ropa,27,produces,0.0741
-Spanish (European),19,ropa,27,understands,0
-Spanish (European),20,ropa,36,produces,0.1111
-Spanish (European),20,ropa,36,understands,0
-Spanish (European),21,ropa,41,produces,0.1463
-Spanish (European),21,ropa,41,understands,0
-Spanish (European),22,ropa,38,produces,0.1842
-Spanish (European),22,ropa,38,understands,0
-Spanish (European),23,ropa,30,produces,0.3333
-Spanish (European),23,ropa,30,understands,0
-Spanish (European),24,ropa,55,produces,0.3636
-Spanish (European),24,ropa,55,understands,0
-Spanish (European),25,ropa,35,produces,0.3143
-Spanish (European),25,ropa,35,understands,0
-Spanish (European),26,ropa,49,produces,0.5102
-Spanish (European),26,ropa,49,understands,0
-Spanish (European),27,ropa,34,produces,0.6765
-Spanish (European),27,ropa,34,understands,0
-Spanish (European),28,ropa,38,produces,0.5526
-Spanish (European),28,ropa,38,understands,0
-Spanish (European),29,ropa,41,produces,0.7561
-Spanish (European),29,ropa,41,understands,0
-Spanish (European),30,ropa,41,produces,0.7073
-Spanish (European),30,ropa,41,understands,0
-Spanish (Mexican),16,ropa,68,produces,0.1324
-Spanish (Mexican),16,ropa,68,understands,0
-Spanish (Mexican),17,ropa,59,produces,0.1017
-Spanish (Mexican),17,ropa,59,understands,0
-Spanish (Mexican),18,ropa,75,produces,0.1867
-Spanish (Mexican),18,ropa,75,understands,0
-Spanish (Mexican),19,ropa,100,produces,0.34
-Spanish (Mexican),19,ropa,100,understands,0
-Spanish (Mexican),20,ropa,107,produces,0.2991
-Spanish (Mexican),20,ropa,107,understands,0
-Spanish (Mexican),21,ropa,84,produces,0.3452
-Spanish (Mexican),21,ropa,84,understands,0
-Spanish (Mexican),22,ropa,141,produces,0.2766
-Spanish (Mexican),22,ropa,141,understands,0
-Spanish (Mexican),23,ropa,91,produces,0.3297
-Spanish (Mexican),23,ropa,91,understands,0
-Spanish (Mexican),24,ropa,126,produces,0.5
-Spanish (Mexican),24,ropa,126,understands,0
-Spanish (Mexican),25,ropa,177,produces,0.4237
-Spanish (Mexican),25,ropa,177,understands,0
-Spanish (Mexican),26,ropa,83,produces,0.5904
-Spanish (Mexican),26,ropa,83,understands,0
-Spanish (Mexican),27,ropa,85,produces,0.7647
-Spanish (Mexican),27,ropa,85,understands,0
-Spanish (Mexican),28,ropa,89,produces,0.6742
-Spanish (Mexican),28,ropa,89,understands,0
-Spanish (Mexican),29,ropa,89,produces,0.7191
-Spanish (Mexican),29,ropa,89,understands,0
-Spanish (Mexican),30,ropa,308,produces,0.5682
-Spanish (Mexican),30,ropa,308,understands,0
-Spanish (Peruvian),8,ropa,9,produces,0
-Spanish (Peruvian),8,ropa,9,understands,0.3333
-Spanish (Peruvian),9,ropa,12,produces,0
-Spanish (Peruvian),9,ropa,12,understands,0.3333
-Spanish (Peruvian),10,ropa,7,produces,0
-Spanish (Peruvian),10,ropa,7,understands,0.4286
-Spanish (Peruvian),11,ropa,18,produces,0
-Spanish (Peruvian),11,ropa,18,understands,0.4444
-Spanish (Peruvian),12,ropa,14,produces,0
-Spanish (Peruvian),12,ropa,14,understands,0.4286
-Spanish (Peruvian),13,ropa,9,produces,0
-Spanish (Peruvian),13,ropa,9,understands,0.5556
-Spanish (Peruvian),14,ropa,8,produces,0
-Spanish (Peruvian),14,ropa,8,understands,0.375
-Spanish (Peruvian),15,ropa,10,produces,0
-Spanish (Peruvian),15,ropa,10,understands,0.4
-Spanish (Peruvian),16,ropa,13,produces,0.0769
-Spanish (Peruvian),16,ropa,13,understands,0
-Spanish (Peruvian),17,ropa,9,produces,0.3333
-Spanish (Peruvian),17,ropa,9,understands,0
-Spanish (Peruvian),18,ropa,4,produces,0.25
-Spanish (Peruvian),18,ropa,4,understands,0
-Spanish (Peruvian),19,ropa,12,produces,0.5
-Spanish (Peruvian),19,ropa,12,understands,0
-Spanish (Peruvian),20,ropa,1,produces,0
-Spanish (Peruvian),20,ropa,1,understands,0
-Spanish (Peruvian),21,ropa,5,produces,0.6
-Spanish (Peruvian),21,ropa,5,understands,0
-Spanish (Peruvian),22,ropa,9,produces,0.2222
-Spanish (Peruvian),22,ropa,9,understands,0
-Spanish (Peruvian),23,ropa,1,produces,1
-Spanish (Peruvian),23,ropa,1,understands,0
-Spanish (Peruvian),24,ropa,15,produces,0.2
-Spanish (Peruvian),24,ropa,15,understands,0
-Spanish (Peruvian),25,ropa,5,produces,0
-Spanish (Peruvian),25,ropa,5,understands,0
-Spanish (Peruvian),26,ropa,8,produces,0.25
-Spanish (Peruvian),26,ropa,8,understands,0
-Spanish (Peruvian),27,ropa,7,produces,0.2857
-Spanish (Peruvian),27,ropa,7,understands,0
-Spanish (Peruvian),28,ropa,8,produces,0.625
-Spanish (Peruvian),28,ropa,8,understands,0
-Spanish (Peruvian),29,ropa,6,produces,0.6667
-Spanish (Peruvian),29,ropa,6,understands,0
-Spanish (Peruvian),30,ropa,2,produces,0.5
-Spanish (Peruvian),30,ropa,2,understands,0
-Swedish,16,kläder,159,produces,0.0126
-Swedish,16,kläder,159,understands,0
-Swedish,19,kläder,152,produces,0.1382
-Swedish,19,kläder,152,understands,0
-Swedish,22,kläder,307,produces,0.355
-Swedish,22,kläder,307,understands,0
-Swedish,25,kläder,143,produces,0.5804
-Swedish,25,kläder,143,understands,0
-Swedish,28,kläder,139,produces,0.777
-Swedish,28,kläder,139,understands,0
-American Sign Language,9,CLOTHES,4,produces,0
-American Sign Language,9,CLOTHES,4,understands,0.5
-American Sign Language,10,CLOTHES,2,produces,0
-American Sign Language,10,CLOTHES,2,understands,0
-American Sign Language,11,CLOTHES,2,produces,0
-American Sign Language,11,CLOTHES,2,understands,0.5
-American Sign Language,12,CLOTHES,2,produces,0
-American Sign Language,12,CLOTHES,2,understands,0
-American Sign Language,15,CLOTHES,1,produces,0
-American Sign Language,15,CLOTHES,1,understands,1
-American Sign Language,16,CLOTHES,2,produces,0
-American Sign Language,16,CLOTHES,2,understands,1
-American Sign Language,17,CLOTHES,3,produces,0
-American Sign Language,17,CLOTHES,3,understands,0.3333
-American Sign Language,18,CLOTHES,7,produces,0.4286
-American Sign Language,18,CLOTHES,7,understands,0.7143
-American Sign Language,19,CLOTHES,5,produces,0.2
-American Sign Language,19,CLOTHES,5,understands,0.8
-American Sign Language,20,CLOTHES,2,produces,0
-American Sign Language,20,CLOTHES,2,understands,0.5
-American Sign Language,21,CLOTHES,2,produces,0.5
-American Sign Language,21,CLOTHES,2,understands,0.5
-American Sign Language,22,CLOTHES,8,produces,0.5
-American Sign Language,22,CLOTHES,8,understands,0.875
-American Sign Language,23,CLOTHES,2,produces,0.5
-American Sign Language,23,CLOTHES,2,understands,1
-American Sign Language,24,CLOTHES,6,produces,0.1667
-American Sign Language,24,CLOTHES,6,understands,0.3333
-American Sign Language,25,CLOTHES,11,produces,0.3636
-American Sign Language,25,CLOTHES,11,understands,0.9091
-American Sign Language,26,CLOTHES,4,produces,0.5
-American Sign Language,26,CLOTHES,4,understands,0.5
-American Sign Language,27,CLOTHES,5,produces,0.4
-American Sign Language,27,CLOTHES,5,understands,0.4
-American Sign Language,28,CLOTHES,3,produces,1
-American Sign Language,28,CLOTHES,3,understands,1
-American Sign Language,29,CLOTHES,6,produces,0.6667
-American Sign Language,29,CLOTHES,6,understands,1
-American Sign Language,30,CLOTHES,4,produces,1
-American Sign Language,30,CLOTHES,4,understands,1
-American Sign Language,31,CLOTHES,6,produces,0.5
-American Sign Language,31,CLOTHES,6,understands,0.5
-American Sign Language,32,CLOTHES,7,produces,1
-American Sign Language,32,CLOTHES,7,understands,1
-American Sign Language,33,CLOTHES,4,produces,0.75
-American Sign Language,33,CLOTHES,4,understands,0.75
-American Sign Language,34,CLOTHES,5,produces,0.8
-American Sign Language,34,CLOTHES,5,understands,1
-American Sign Language,35,CLOTHES,4,produces,0.25
-American Sign Language,35,CLOTHES,4,understands,1
-American Sign Language,36,CLOTHES,3,produces,0.3333
-American Sign Language,36,CLOTHES,3,understands,0.6667
-Cantonese,16,衫,46,produces,0.1087
-Cantonese,16,衫,46,understands,0
-Cantonese,17,衫,61,produces,0.1639
-Cantonese,17,衫,61,understands,0
-Cantonese,18,衫,68,produces,0.3088
-Cantonese,18,衫,68,understands,0
-Cantonese,19,衫,66,produces,0.2424
-Cantonese,19,衫,66,understands,0
-Cantonese,20,衫,140,produces,0.5071
-Cantonese,20,衫,140,understands,0
-Cantonese,21,衫,120,produces,0.5417
-Cantonese,21,衫,120,understands,0
-Cantonese,22,衫,68,produces,0.5735
-Cantonese,22,衫,68,understands,0
-Cantonese,23,衫,74,produces,0.6757
-Cantonese,23,衫,74,understands,0
-Cantonese,24,衫,68,produces,0.7794
-Cantonese,24,衫,68,understands,0
-Cantonese,25,衫,65,produces,0.8923
-Cantonese,25,衫,65,understands,0
-Cantonese,26,衫,68,produces,0.8676
-Cantonese,26,衫,68,understands,0
-Cantonese,27,衫,62,produces,0.9516
-Cantonese,27,衫,62,understands,0
-Cantonese,28,衫,66,produces,0.9545
-Cantonese,28,衫,66,understands,0
-Cantonese,29,衫,72,produces,0.9444
-Cantonese,29,衫,72,understands,0
-Cantonese,30,衫,164,produces,0.9451
-Cantonese,30,衫,164,understands,0
-Czech,16,oblečení,29,produces,0
-Czech,16,oblečení,29,understands,0
-Czech,17,oblečení,29,produces,0
-Czech,17,oblečení,29,understands,0
-Czech,18,oblečení,45,produces,0
-Czech,18,oblečení,45,understands,0
-Czech,19,oblečení,27,produces,0
-Czech,19,oblečení,27,understands,0
-Czech,20,oblečení,26,produces,0.1154
-Czech,20,oblečení,26,understands,0
-Czech,21,oblečení,34,produces,0.0882
-Czech,21,oblečení,34,understands,0
-Czech,22,oblečení,36,produces,0.1111
-Czech,22,oblečení,36,understands,0
-Czech,23,oblečení,46,produces,0.1304
-Czech,23,oblečení,46,understands,0
-Czech,24,oblečení,35,produces,0.0857
-Czech,24,oblečení,35,understands,0
-Czech,25,oblečení,35,produces,0.2857
-Czech,25,oblečení,35,understands,0
-Czech,26,oblečení,22,produces,0.3182
-Czech,26,oblečení,22,understands,0
-Czech,27,oblečení,37,produces,0.2973
-Czech,27,oblečení,37,understands,0
-Czech,28,oblečení,26,produces,0.4231
-Czech,28,oblečení,26,understands,0
-Czech,29,oblečení,39,produces,0.4359
-Czech,29,oblečení,39,understands,0
-Czech,30,oblečení,27,produces,0.6296
-Czech,30,oblečení,27,understands,0
-English (Irish),17,clothes,2,produces,0
-English (Irish),17,clothes,2,understands,0
-English (Irish),18,clothes,1,produces,1
-English (Irish),18,clothes,1,understands,0
-English (Irish),19,clothes,2,produces,0
-English (Irish),19,clothes,2,understands,0
-English (Irish),20,clothes,1,produces,0
-English (Irish),20,clothes,1,understands,0
-English (Irish),21,clothes,3,produces,0
-English (Irish),21,clothes,3,understands,0
-English (Irish),22,clothes,4,produces,0.25
-English (Irish),22,clothes,4,understands,0
-English (Irish),23,clothes,4,produces,0
-English (Irish),23,clothes,4,understands,0
-English (Irish),24,clothes,4,produces,0.25
-English (Irish),24,clothes,4,understands,0
-English (Irish),25,clothes,6,produces,0
-English (Irish),25,clothes,6,understands,0
-English (Irish),26,clothes,10,produces,0.1
-English (Irish),26,clothes,10,understands,0
-English (Irish),27,clothes,5,produces,0
-English (Irish),27,clothes,5,understands,0
-English (Irish),28,clothes,7,produces,0.1429
-English (Irish),28,clothes,7,understands,0
-English (Irish),29,clothes,4,produces,0.25
-English (Irish),29,clothes,4,understands,0
-English (Irish),30,clothes,9,produces,0.1111
-English (Irish),30,clothes,9,understands,0
-English (Irish),31,clothes,8,produces,0.125
-English (Irish),31,clothes,8,understands,0
-English (Irish),32,clothes,4,produces,0.75
-English (Irish),32,clothes,4,understands,0
-English (Irish),33,clothes,5,produces,0.4
-English (Irish),33,clothes,5,understands,0
-English (Irish),34,clothes,4,produces,0.5
-English (Irish),34,clothes,4,understands,0
-English (Irish),35,clothes,11,produces,0.3636
-English (Irish),35,clothes,11,understands,0
-English (Irish),36,clothes,5,produces,0.2
-English (Irish),36,clothes,5,understands,0
-Irish,17,éadaí,2,produces,0.5
-Irish,17,éadaí,2,understands,0
-Irish,18,éadaí,1,produces,0
-Irish,18,éadaí,1,understands,0
-Irish,19,éadaí,2,produces,1
-Irish,19,éadaí,2,understands,0
-Irish,20,éadaí,1,produces,1
-Irish,20,éadaí,1,understands,0
-Irish,21,éadaí,3,produces,0
-Irish,21,éadaí,3,understands,0
-Irish,22,éadaí,4,produces,0.25
-Irish,22,éadaí,4,understands,0
-Irish,23,éadaí,4,produces,0.25
-Irish,23,éadaí,4,understands,0
-Irish,24,éadaí,4,produces,0.75
-Irish,24,éadaí,4,understands,0
-Irish,25,éadaí,6,produces,0.6667
-Irish,25,éadaí,6,understands,0
-Irish,26,éadaí,10,produces,1
-Irish,26,éadaí,10,understands,0
-Irish,27,éadaí,5,produces,0.8
-Irish,27,éadaí,5,understands,0
-Irish,28,éadaí,7,produces,1
-Irish,28,éadaí,7,understands,0
-Irish,29,éadaí,4,produces,1
-Irish,29,éadaí,4,understands,0
-Irish,30,éadaí,9,produces,0.8889
-Irish,30,éadaí,9,understands,0
-Irish,31,éadaí,8,produces,0.75
-Irish,31,éadaí,8,understands,0
-Irish,32,éadaí,4,produces,0.75
-Irish,32,éadaí,4,understands,0
-Irish,33,éadaí,5,produces,1
-Irish,33,éadaí,5,understands,0
-Irish,34,éadaí,4,produces,1
-Irish,34,éadaí,4,understands,0
-Irish,35,éadaí,11,produces,1
-Irish,35,éadaí,11,understands,0
-Irish,36,éadaí,5,produces,1
-Irish,36,éadaí,5,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,9,CLOTHES,4,produces,0
+American Sign Language,All,9,CLOTHES,4,understands,0.5
+American Sign Language,All,10,CLOTHES,2,produces,0
+American Sign Language,All,10,CLOTHES,2,understands,0
+American Sign Language,All,11,CLOTHES,2,produces,0
+American Sign Language,All,11,CLOTHES,2,understands,0.5
+American Sign Language,All,12,CLOTHES,2,produces,0
+American Sign Language,All,12,CLOTHES,2,understands,0
+American Sign Language,All,15,CLOTHES,1,produces,0
+American Sign Language,All,15,CLOTHES,1,understands,1
+American Sign Language,All,16,CLOTHES,2,produces,0
+American Sign Language,All,16,CLOTHES,2,understands,1
+American Sign Language,All,17,CLOTHES,3,produces,0
+American Sign Language,All,17,CLOTHES,3,understands,0.3333
+American Sign Language,All,18,CLOTHES,7,produces,0.4286
+American Sign Language,All,18,CLOTHES,7,understands,0.7143
+American Sign Language,All,19,CLOTHES,5,produces,0.2
+American Sign Language,All,19,CLOTHES,5,understands,0.8
+American Sign Language,All,20,CLOTHES,2,produces,0
+American Sign Language,All,20,CLOTHES,2,understands,0.5
+American Sign Language,All,21,CLOTHES,2,produces,0.5
+American Sign Language,All,21,CLOTHES,2,understands,0.5
+American Sign Language,All,22,CLOTHES,8,produces,0.5
+American Sign Language,All,22,CLOTHES,8,understands,0.875
+American Sign Language,All,23,CLOTHES,2,produces,0.5
+American Sign Language,All,23,CLOTHES,2,understands,1
+American Sign Language,All,24,CLOTHES,6,produces,0.1667
+American Sign Language,All,24,CLOTHES,6,understands,0.3333
+American Sign Language,All,25,CLOTHES,11,produces,0.3636
+American Sign Language,All,25,CLOTHES,11,understands,0.9091
+American Sign Language,All,26,CLOTHES,4,produces,0.5
+American Sign Language,All,26,CLOTHES,4,understands,0.5
+American Sign Language,All,27,CLOTHES,5,produces,0.4
+American Sign Language,All,27,CLOTHES,5,understands,0.4
+American Sign Language,All,28,CLOTHES,3,produces,1
+American Sign Language,All,28,CLOTHES,3,understands,1
+American Sign Language,All,29,CLOTHES,6,produces,0.6667
+American Sign Language,All,29,CLOTHES,6,understands,1
+American Sign Language,All,30,CLOTHES,4,produces,1
+American Sign Language,All,30,CLOTHES,4,understands,1
+American Sign Language,All,31,CLOTHES,6,produces,0.5
+American Sign Language,All,31,CLOTHES,6,understands,0.5
+American Sign Language,All,32,CLOTHES,7,produces,1
+American Sign Language,All,32,CLOTHES,7,understands,1
+American Sign Language,All,33,CLOTHES,4,produces,0.75
+American Sign Language,All,33,CLOTHES,4,understands,0.75
+American Sign Language,All,34,CLOTHES,5,produces,0.8
+American Sign Language,All,34,CLOTHES,5,understands,1
+American Sign Language,All,35,CLOTHES,4,produces,0.25
+American Sign Language,All,35,CLOTHES,4,understands,1
+American Sign Language,All,36,CLOTHES,3,produces,0.3333
+American Sign Language,All,36,CLOTHES,3,understands,0.6667
+Cantonese,All,16,衫,46,produces,0.1087
+Cantonese,All,16,衫,46,understands,0
+Cantonese,All,17,衫,61,produces,0.1639
+Cantonese,All,17,衫,61,understands,0
+Cantonese,All,18,衫,68,produces,0.3088
+Cantonese,All,18,衫,68,understands,0
+Cantonese,All,19,衫,66,produces,0.2424
+Cantonese,All,19,衫,66,understands,0
+Cantonese,All,20,衫,140,produces,0.5071
+Cantonese,All,20,衫,140,understands,0
+Cantonese,All,21,衫,120,produces,0.5417
+Cantonese,All,21,衫,120,understands,0
+Cantonese,All,22,衫,68,produces,0.5735
+Cantonese,All,22,衫,68,understands,0
+Cantonese,All,23,衫,74,produces,0.6757
+Cantonese,All,23,衫,74,understands,0
+Cantonese,All,24,衫,68,produces,0.7794
+Cantonese,All,24,衫,68,understands,0
+Cantonese,All,25,衫,65,produces,0.8923
+Cantonese,All,25,衫,65,understands,0
+Cantonese,All,26,衫,68,produces,0.8676
+Cantonese,All,26,衫,68,understands,0
+Cantonese,All,27,衫,62,produces,0.9516
+Cantonese,All,27,衫,62,understands,0
+Cantonese,All,28,衫,66,produces,0.9545
+Cantonese,All,28,衫,66,understands,0
+Cantonese,All,29,衫,72,produces,0.9444
+Cantonese,All,29,衫,72,understands,0
+Cantonese,All,30,衫,164,produces,0.9451
+Cantonese,All,30,衫,164,understands,0
+Czech,All,16,oblečení,29,produces,0
+Czech,All,16,oblečení,29,understands,0
+Czech,All,17,oblečení,29,produces,0
+Czech,All,17,oblečení,29,understands,0
+Czech,All,18,oblečení,45,produces,0
+Czech,All,18,oblečení,45,understands,0
+Czech,All,19,oblečení,27,produces,0
+Czech,All,19,oblečení,27,understands,0
+Czech,All,20,oblečení,26,produces,0.1154
+Czech,All,20,oblečení,26,understands,0
+Czech,All,21,oblečení,34,produces,0.0882
+Czech,All,21,oblečení,34,understands,0
+Czech,All,22,oblečení,36,produces,0.1111
+Czech,All,22,oblečení,36,understands,0
+Czech,All,23,oblečení,46,produces,0.1304
+Czech,All,23,oblečení,46,understands,0
+Czech,All,24,oblečení,35,produces,0.0857
+Czech,All,24,oblečení,35,understands,0
+Czech,All,25,oblečení,35,produces,0.2857
+Czech,All,25,oblečení,35,understands,0
+Czech,All,26,oblečení,22,produces,0.3182
+Czech,All,26,oblečení,22,understands,0
+Czech,All,27,oblečení,37,produces,0.2973
+Czech,All,27,oblečení,37,understands,0
+Czech,All,28,oblečení,26,produces,0.4231
+Czech,All,28,oblečení,26,understands,0
+Czech,All,29,oblečení,39,produces,0.4359
+Czech,All,29,oblečení,39,understands,0
+Czech,All,30,oblečení,27,produces,0.6296
+Czech,All,30,oblečení,27,understands,0
+English (Irish),All,17,clothes,2,produces,0
+English (Irish),All,17,clothes,2,understands,0
+English (Irish),All,18,clothes,1,produces,1
+English (Irish),All,18,clothes,1,understands,0
+English (Irish),All,19,clothes,2,produces,0
+English (Irish),All,19,clothes,2,understands,0
+English (Irish),All,20,clothes,1,produces,0
+English (Irish),All,20,clothes,1,understands,0
+English (Irish),All,21,clothes,3,produces,0
+English (Irish),All,21,clothes,3,understands,0
+English (Irish),All,22,clothes,4,produces,0.25
+English (Irish),All,22,clothes,4,understands,0
+English (Irish),All,23,clothes,4,produces,0
+English (Irish),All,23,clothes,4,understands,0
+English (Irish),All,24,clothes,4,produces,0.25
+English (Irish),All,24,clothes,4,understands,0
+English (Irish),All,25,clothes,6,produces,0
+English (Irish),All,25,clothes,6,understands,0
+English (Irish),All,26,clothes,10,produces,0.1
+English (Irish),All,26,clothes,10,understands,0
+English (Irish),All,27,clothes,5,produces,0
+English (Irish),All,27,clothes,5,understands,0
+English (Irish),All,28,clothes,7,produces,0.1429
+English (Irish),All,28,clothes,7,understands,0
+English (Irish),All,29,clothes,4,produces,0.25
+English (Irish),All,29,clothes,4,understands,0
+English (Irish),All,30,clothes,9,produces,0.1111
+English (Irish),All,30,clothes,9,understands,0
+English (Irish),All,31,clothes,8,produces,0.125
+English (Irish),All,31,clothes,8,understands,0
+English (Irish),All,32,clothes,4,produces,0.75
+English (Irish),All,32,clothes,4,understands,0
+English (Irish),All,33,clothes,5,produces,0.4
+English (Irish),All,33,clothes,5,understands,0
+English (Irish),All,34,clothes,4,produces,0.5
+English (Irish),All,34,clothes,4,understands,0
+English (Irish),All,35,clothes,11,produces,0.3636
+English (Irish),All,35,clothes,11,understands,0
+English (Irish),All,36,clothes,5,produces,0.2
+English (Irish),All,36,clothes,5,understands,0
+Irish,All,17,éadaí,2,produces,0.5
+Irish,All,17,éadaí,2,understands,0
+Irish,All,18,éadaí,1,produces,0
+Irish,All,18,éadaí,1,understands,0
+Irish,All,19,éadaí,2,produces,1
+Irish,All,19,éadaí,2,understands,0
+Irish,All,20,éadaí,1,produces,1
+Irish,All,20,éadaí,1,understands,0
+Irish,All,21,éadaí,3,produces,0
+Irish,All,21,éadaí,3,understands,0
+Irish,All,22,éadaí,4,produces,0.25
+Irish,All,22,éadaí,4,understands,0
+Irish,All,23,éadaí,4,produces,0.25
+Irish,All,23,éadaí,4,understands,0
+Irish,All,24,éadaí,4,produces,0.75
+Irish,All,24,éadaí,4,understands,0
+Irish,All,25,éadaí,6,produces,0.6667
+Irish,All,25,éadaí,6,understands,0
+Irish,All,26,éadaí,10,produces,1
+Irish,All,26,éadaí,10,understands,0
+Irish,All,27,éadaí,5,produces,0.8
+Irish,All,27,éadaí,5,understands,0
+Irish,All,28,éadaí,7,produces,1
+Irish,All,28,éadaí,7,understands,0
+Irish,All,29,éadaí,4,produces,1
+Irish,All,29,éadaí,4,understands,0
+Irish,All,30,éadaí,9,produces,0.8889
+Irish,All,30,éadaí,9,understands,0
+Irish,All,31,éadaí,8,produces,0.75
+Irish,All,31,éadaí,8,understands,0
+Irish,All,32,éadaí,4,produces,0.75
+Irish,All,32,éadaí,4,understands,0
+Irish,All,33,éadaí,5,produces,1
+Irish,All,33,éadaí,5,understands,0
+Irish,All,34,éadaí,4,produces,1
+Irish,All,34,éadaí,4,understands,0
+Irish,All,35,éadaí,11,produces,1
+Irish,All,35,éadaí,11,understands,0
+Irish,All,36,éadaí,5,produces,1
+Irish,All,36,éadaí,5,understands,0
+Japanese,All,8,洋服,6,produces,0
+Japanese,All,8,洋服,6,understands,0
+Japanese,All,9,洋服,10,produces,0
+Japanese,All,9,洋服,10,understands,0
+Japanese,All,10,洋服,8,produces,0
+Japanese,All,10,洋服,8,understands,0
+Japanese,All,11,洋服,87,produces,0
+Japanese,All,11,洋服,87,understands,0.0575
+Japanese,All,12,洋服,118,produces,0
+Japanese,All,12,洋服,118,understands,0.0424
+Japanese,All,13,洋服,23,produces,0
+Japanese,All,13,洋服,23,understands,0.0435
+Japanese,All,14,洋服,26,produces,0
+Japanese,All,14,洋服,26,understands,0.1154
+Japanese,All,15,洋服,72,produces,0
+Japanese,All,15,洋服,72,understands,0.125
+Japanese,All,16,洋服,46,produces,0
+Japanese,All,16,洋服,46,understands,0.0652
+Japanese,All,17,洋服,77,produces,0
+Japanese,All,17,洋服,77,understands,0.2727
+Japanese,All,18,洋服,94,produces,0.0213
+Japanese,All,18,洋服,94,understands,0.0851
+Japanese,All,19,洋服,35,produces,0.0857
+Japanese,All,19,洋服,35,understands,0
+Japanese,All,20,洋服,59,produces,0.0339
+Japanese,All,20,洋服,59,understands,0
+Japanese,All,21,洋服,62,produces,0.0806
+Japanese,All,21,洋服,62,understands,0
+Japanese,All,22,洋服,31,produces,0.0968
+Japanese,All,22,洋服,31,understands,0
+Japanese,All,23,洋服,67,produces,0.1194
+Japanese,All,23,洋服,67,understands,0
+Japanese,All,24,洋服,33,produces,0.1212
+Japanese,All,24,洋服,33,understands,0
+Japanese,All,25,洋服,34,produces,0.2941
+Japanese,All,25,洋服,34,understands,0
+Japanese,All,26,洋服,33,produces,0.4242
+Japanese,All,26,洋服,33,understands,0
+Japanese,All,27,洋服,15,produces,0.2667
+Japanese,All,27,洋服,15,understands,0
+Japanese,All,28,洋服,18,produces,0.2778
+Japanese,All,28,洋服,18,understands,0
+Japanese,All,29,洋服,17,produces,0.5294
+Japanese,All,29,洋服,17,understands,0
+Japanese,All,30,洋服,18,produces,0.6111
+Japanese,All,30,洋服,18,understands,0
+Japanese,All,31,洋服,18,produces,0.3333
+Japanese,All,31,洋服,18,understands,0
+Japanese,All,32,洋服,13,produces,0.3846
+Japanese,All,32,洋服,13,understands,0
+Japanese,All,33,洋服,16,produces,0.5625
+Japanese,All,33,洋服,16,understands,0
+Japanese,All,34,洋服,13,produces,0.6154
+Japanese,All,34,洋服,13,understands,0
+Japanese,All,35,洋服,31,produces,0.6452
+Japanese,All,35,洋服,31,understands,0
+Japanese,All,36,洋服,18,produces,0.6667
+Japanese,All,36,洋服,18,understands,0
+Kigiriama,All,8,Nguo,5,produces,0.2
+Kigiriama,All,8,Nguo,5,understands,0.4
+Kigiriama,All,9,Nguo,22,produces,0
+Kigiriama,All,9,Nguo,22,understands,0.1364
+Kigiriama,All,10,Nguo,5,produces,0
+Kigiriama,All,10,Nguo,5,understands,0.4
+Kigiriama,All,11,Nguo,7,produces,0
+Kigiriama,All,11,Nguo,7,understands,0.5714
+Kigiriama,All,12,Nguo,30,produces,0
+Kigiriama,All,12,Nguo,30,understands,0.6667
+Kigiriama,All,13,Nguo,18,produces,0.0556
+Kigiriama,All,13,Nguo,18,understands,0.6111
+Kigiriama,All,14,Nguo,16,produces,0
+Kigiriama,All,14,Nguo,16,understands,0.4375
+Kigiriama,All,15,Nguo,16,produces,0.0625
+Kigiriama,All,15,Nguo,16,understands,0.5
+Kigiriama,All,16,Nguo,1,produces,1
+Kigiriama,All,16,Nguo,1,understands,0
+Kigiriama,All,17,Nguo,6,produces,0.5
+Kigiriama,All,17,Nguo,6,understands,0
+Kigiriama,All,18,Nguo,13,produces,0.4615
+Kigiriama,All,18,Nguo,13,understands,0
+Kigiriama,All,19,Nguo,8,produces,0.375
+Kigiriama,All,19,Nguo,8,understands,0
+Kigiriama,All,20,Nguo,14,produces,0.5714
+Kigiriama,All,20,Nguo,14,understands,0
+Kigiriama,All,21,Nguo,6,produces,0.5
+Kigiriama,All,21,Nguo,6,understands,0
+Kigiriama,All,22,Nguo,9,produces,0.8889
+Kigiriama,All,22,Nguo,9,understands,0
+Kigiriama,All,23,Nguo,4,produces,0.25
+Kigiriama,All,23,Nguo,4,understands,0
+Kigiriama,All,24,Nguo,7,produces,0.7143
+Kigiriama,All,24,Nguo,7,understands,0
+Kigiriama,All,25,Nguo,3,produces,1
+Kigiriama,All,25,Nguo,3,understands,0
+Kigiriama,All,26,Nguo,6,produces,1
+Kigiriama,All,26,Nguo,6,understands,0
+Kigiriama,All,27,Nguo,4,produces,1
+Kigiriama,All,27,Nguo,4,understands,0
+Kigiriama,All,28,Nguo,1,produces,1
+Kigiriama,All,28,Nguo,1,understands,0
+Kigiriama,All,29,Nguo,5,produces,1
+Kigiriama,All,29,Nguo,5,understands,0
+Kigiriama,All,30,Nguo,1,produces,1
+Kigiriama,All,30,Nguo,1,understands,0
+Kiswahili,All,8,Nguo,1,produces,0
+Kiswahili,All,8,Nguo,1,understands,0
+Kiswahili,All,9,Nguo,5,produces,0
+Kiswahili,All,9,Nguo,5,understands,0
+Kiswahili,All,10,Nguo,5,produces,0
+Kiswahili,All,10,Nguo,5,understands,0
+Kiswahili,All,11,Nguo,9,produces,0
+Kiswahili,All,11,Nguo,9,understands,0.2222
+Kiswahili,All,12,Nguo,6,produces,0
+Kiswahili,All,12,Nguo,6,understands,0.3333
+Kiswahili,All,13,Nguo,6,produces,0
+Kiswahili,All,13,Nguo,6,understands,0.8333
+Kiswahili,All,14,Nguo,4,produces,0
+Kiswahili,All,14,Nguo,4,understands,0.75
+Kiswahili,All,15,Nguo,5,produces,0.2
+Kiswahili,All,15,Nguo,5,understands,0.8
+Kiswahili,All,23,Nguo,2,produces,0
+Kiswahili,All,23,Nguo,2,understands,0
+Kiswahili,All,24,Nguo,12,produces,0.75
+Kiswahili,All,24,Nguo,12,understands,0
+Kiswahili,All,25,Nguo,10,produces,0.6
+Kiswahili,All,25,Nguo,10,understands,0
+Kiswahili,All,26,Nguo,13,produces,0.7692
+Kiswahili,All,26,Nguo,13,understands,0
+Kiswahili,All,27,Nguo,8,produces,0.75
+Kiswahili,All,27,Nguo,8,understands,0
+Kiswahili,All,28,Nguo,6,produces,0.8333
+Kiswahili,All,28,Nguo,6,understands,0
+Kiswahili,All,29,Nguo,6,produces,0.5
+Kiswahili,All,29,Nguo,6,understands,0
+Kiswahili,All,30,Nguo,5,produces,1
+Kiswahili,All,30,Nguo,5,understands,0
+Latvian,All,17,apģērbs,27,produces,0.037
+Latvian,All,17,apģērbs,27,understands,0
+Latvian,All,18,apģērbs,21,produces,0.0476
+Latvian,All,18,apģērbs,21,understands,0
+Latvian,All,19,apģērbs,28,produces,0.0357
+Latvian,All,19,apģērbs,28,understands,0
+Latvian,All,20,apģērbs,34,produces,0.0588
+Latvian,All,20,apģērbs,34,understands,0
+Latvian,All,21,apģērbs,26,produces,0.1923
+Latvian,All,21,apģērbs,26,understands,0
+Latvian,All,22,apģērbs,32,produces,0.0938
+Latvian,All,22,apģērbs,32,understands,0
+Latvian,All,23,apģērbs,25,produces,0.36
+Latvian,All,23,apģērbs,25,understands,0
+Latvian,All,24,apģērbs,30,produces,0.1333
+Latvian,All,24,apģērbs,30,understands,0
+Latvian,All,25,apģērbs,29,produces,0.1724
+Latvian,All,25,apģērbs,29,understands,0
+Latvian,All,26,apģērbs,22,produces,0.1364
+Latvian,All,26,apģērbs,22,understands,0
+Latvian,All,27,apģērbs,18,produces,0.2778
+Latvian,All,27,apģērbs,18,understands,0
+Latvian,All,28,apģērbs,23,produces,0.2174
+Latvian,All,28,apģērbs,23,understands,0
+Latvian,All,29,apģērbs,24,produces,0.2083
+Latvian,All,29,apģērbs,24,understands,0
+Latvian,All,30,apģērbs,26,produces,0.3846
+Latvian,All,30,apģērbs,26,understands,0
+Latvian,All,31,apģērbs,19,produces,0.3684
+Latvian,All,31,apģērbs,19,understands,0
+Latvian,All,32,apģērbs,25,produces,0.32
+Latvian,All,32,apģērbs,25,understands,0
+Latvian,All,33,apģērbs,31,produces,0.3226
+Latvian,All,33,apģērbs,31,understands,0
+Latvian,All,34,apģērbs,17,produces,0.4706
+Latvian,All,34,apģērbs,17,understands,0
+Latvian,All,35,apģērbs,21,produces,0.4762
+Latvian,All,35,apģērbs,21,understands,0
+Latvian,All,36,apģērbs,22,produces,0.5455
+Latvian,All,36,apģērbs,22,understands,0
+Mandarin (Beijing),All,12,衣服,45,produces,0.0222
+Mandarin (Beijing),All,12,衣服,45,understands,0.7333
+Mandarin (Beijing),All,13,衣服,50,produces,0
+Mandarin (Beijing),All,13,衣服,50,understands,0.58
+Mandarin (Beijing),All,14,衣服,48,produces,0.0625
+Mandarin (Beijing),All,14,衣服,48,understands,0.6875
+Mandarin (Beijing),All,15,衣服,46,produces,0.0652
+Mandarin (Beijing),All,15,衣服,46,understands,0.8261
+Mandarin (Beijing),All,16,"衣服/衣裳, 衣服",111,produces,0.0991
+Mandarin (Beijing),All,16,"衣服/衣裳, 衣服",111,understands,0.3243
+Mandarin (Beijing),All,17,"衣服/衣裳, 衣服",112,produces,0.2946
+Mandarin (Beijing),All,17,"衣服/衣裳, 衣服",112,understands,0
+Mandarin (Beijing),All,18,"衣服/衣裳, 衣服",121,produces,0.3884
+Mandarin (Beijing),All,18,"衣服/衣裳, 衣服",121,understands,0
+Mandarin (Beijing),All,19,"衣服/衣裳, 衣服",120,produces,0.5083
+Mandarin (Beijing),All,19,"衣服/衣裳, 衣服",120,understands,0
+Mandarin (Beijing),All,20,"衣服/衣裳, 衣服",121,produces,0.5868
+Mandarin (Beijing),All,20,"衣服/衣裳, 衣服",121,understands,0
+Mandarin (Beijing),All,21,"衣服/衣裳, 衣服",119,produces,0.6891
+Mandarin (Beijing),All,21,"衣服/衣裳, 衣服",119,understands,0
+Mandarin (Beijing),All,22,"衣服/衣裳, 衣服",117,produces,0.7692
+Mandarin (Beijing),All,22,"衣服/衣裳, 衣服",117,understands,0
+Mandarin (Beijing),All,23,"衣服/衣裳, 衣服",120,produces,0.875
+Mandarin (Beijing),All,23,"衣服/衣裳, 衣服",120,understands,0
+Mandarin (Beijing),All,24,"衣服/衣裳, 衣服",120,produces,0.825
+Mandarin (Beijing),All,24,"衣服/衣裳, 衣服",120,understands,0
+Mandarin (Beijing),All,25,"衣服/衣裳, 衣服",113,produces,0.8761
+Mandarin (Beijing),All,25,"衣服/衣裳, 衣服",113,understands,0
+Mandarin (Beijing),All,26,"衣服/衣裳, 衣服",118,produces,0.9492
+Mandarin (Beijing),All,26,"衣服/衣裳, 衣服",118,understands,0
+Mandarin (Beijing),All,27,"衣服/衣裳, 衣服",114,produces,0.9474
+Mandarin (Beijing),All,27,"衣服/衣裳, 衣服",114,understands,0
+Mandarin (Beijing),All,28,"衣服/衣裳, 衣服",114,produces,0.9561
+Mandarin (Beijing),All,28,"衣服/衣裳, 衣服",114,understands,0
+Mandarin (Beijing),All,29,"衣服/衣裳, 衣服",119,produces,0.958
+Mandarin (Beijing),All,29,"衣服/衣裳, 衣服",119,understands,0
+Mandarin (Beijing),All,30,"衣服/衣裳, 衣服",110,produces,0.9727
+Mandarin (Beijing),All,30,"衣服/衣裳, 衣服",110,understands,0
+Portuguese (European),All,8,Roupa,126,produces,0.0079
+Portuguese (European),All,8,Roupa,126,understands,0.0556
+Portuguese (European),All,9,Roupa,148,produces,0
+Portuguese (European),All,9,Roupa,148,understands,0.0676
+Portuguese (European),All,10,Roupa,168,produces,0
+Portuguese (European),All,10,Roupa,168,understands,0.0655
+Portuguese (European),All,11,Roupa,179,produces,0
+Portuguese (European),All,11,Roupa,179,understands,0.1173
+Portuguese (European),All,12,Roupa,161,produces,0
+Portuguese (European),All,12,Roupa,161,understands,0.2236
+Portuguese (European),All,13,Roupa,176,produces,0
+Portuguese (European),All,13,Roupa,176,understands,0.1818
+Portuguese (European),All,14,Roupa,183,produces,0
+Portuguese (European),All,14,Roupa,183,understands,0.2623
+Portuguese (European),All,15,Roupa,173,produces,0.0058
+Portuguese (European),All,15,Roupa,173,understands,0.3121
+Portuguese (European),All,16,Roupa,144,produces,0.0069
+Portuguese (European),All,16,Roupa,144,understands,0
+Portuguese (European),All,17,Roupa,158,produces,0.0127
+Portuguese (European),All,17,Roupa,158,understands,0
+Portuguese (European),All,18,Roupa,203,produces,0.0591
+Portuguese (European),All,18,Roupa,203,understands,0
+Portuguese (European),All,19,Roupa,196,produces,0.0612
+Portuguese (European),All,19,Roupa,196,understands,0
+Portuguese (European),All,20,Roupa,218,produces,0.1284
+Portuguese (European),All,20,Roupa,218,understands,0
+Portuguese (European),All,21,Roupa,208,produces,0.1635
+Portuguese (European),All,21,Roupa,208,understands,0
+Portuguese (European),All,22,Roupa,213,produces,0.2582
+Portuguese (European),All,22,Roupa,213,understands,0
+Portuguese (European),All,23,Roupa,199,produces,0.2814
+Portuguese (European),All,23,Roupa,199,understands,0
+Portuguese (European),All,24,Roupa,215,produces,0.3767
+Portuguese (European),All,24,Roupa,215,understands,0
+Portuguese (European),All,25,Roupa,213,produces,0.5446
+Portuguese (European),All,25,Roupa,213,understands,0
+Portuguese (European),All,26,Roupa,218,produces,0.5459
+Portuguese (European),All,26,Roupa,218,understands,0
+Portuguese (European),All,27,Roupa,238,produces,0.6261
+Portuguese (European),All,27,Roupa,238,understands,0
+Portuguese (European),All,28,Roupa,219,produces,0.6256
+Portuguese (European),All,28,Roupa,219,understands,0
+Portuguese (European),All,29,Roupa,207,produces,0.6715
+Portuguese (European),All,29,Roupa,207,understands,0
+Portuguese (European),All,30,Roupa,163,produces,0.7117
+Portuguese (European),All,30,Roupa,163,understands,0
+Russian,All,18,одежда,42,produces,0
+Russian,All,18,одежда,42,understands,0
+Russian,All,19,одежда,41,produces,0
+Russian,All,19,одежда,41,understands,0
+Russian,All,20,одежда,45,produces,0.0222
+Russian,All,20,одежда,45,understands,0
+Russian,All,21,одежда,43,produces,0.0698
+Russian,All,21,одежда,43,understands,0
+Russian,All,22,одежда,51,produces,0.0784
+Russian,All,22,одежда,51,understands,0
+Russian,All,23,одежда,56,produces,0.1429
+Russian,All,23,одежда,56,understands,0
+Russian,All,24,одежда,61,produces,0.1967
+Russian,All,24,одежда,61,understands,0
+Russian,All,25,одежда,66,produces,0.2576
+Russian,All,25,одежда,66,understands,0
+Russian,All,26,одежда,52,produces,0.1923
+Russian,All,26,одежда,52,understands,0
+Russian,All,27,одежда,60,produces,0.3333
+Russian,All,27,одежда,60,understands,0
+Russian,All,28,одежда,60,produces,0.4167
+Russian,All,28,одежда,60,understands,0
+Russian,All,29,одежда,58,produces,0.4828
+Russian,All,29,одежда,58,understands,0
+Russian,All,30,одежда,77,produces,0.4416
+Russian,All,30,одежда,77,understands,0
+Russian,All,31,одежда,61,produces,0.5574
+Russian,All,31,одежда,61,understands,0
+Russian,All,32,одежда,55,produces,0.6182
+Russian,All,32,одежда,55,understands,0
+Russian,All,33,одежда,55,produces,0.6364
+Russian,All,33,одежда,55,understands,0
+Russian,All,34,одежда,58,produces,0.6207
+Russian,All,34,одежда,58,understands,0
+Russian,All,35,одежда,47,produces,0.6383
+Russian,All,35,одежда,47,understands,0
+Russian,All,36,одежда,49,produces,0.7755
+Russian,All,36,одежда,49,understands,0
+Slovak,All,17,oblečenie,70,produces,0.0429
+Slovak,All,17,oblečenie,70,understands,0
+Slovak,All,18,oblečenie,65,produces,0.0923
+Slovak,All,18,oblečenie,65,understands,0
+Slovak,All,19,oblečenie,56,produces,0.0714
+Slovak,All,19,oblečenie,56,understands,0
+Slovak,All,20,oblečenie,62,produces,0.1613
+Slovak,All,20,oblečenie,62,understands,0
+Slovak,All,21,oblečenie,81,produces,0.2099
+Slovak,All,21,oblečenie,81,understands,0
+Slovak,All,22,oblečenie,53,produces,0.2264
+Slovak,All,22,oblečenie,53,understands,0
+Slovak,All,23,oblečenie,59,produces,0.2881
+Slovak,All,23,oblečenie,59,understands,0
+Slovak,All,24,oblečenie,59,produces,0.4237
+Slovak,All,24,oblečenie,59,understands,0
+Slovak,All,25,oblečenie,69,produces,0.4058
+Slovak,All,25,oblečenie,69,understands,0
+Slovak,All,26,oblečenie,78,produces,0.6538
+Slovak,All,26,oblečenie,78,understands,0
+Slovak,All,27,oblečenie,62,produces,0.6129
+Slovak,All,27,oblečenie,62,understands,0
+Slovak,All,28,oblečenie,86,produces,0.5465
+Slovak,All,28,oblečenie,86,understands,0
+Slovak,All,29,oblečenie,75,produces,0.6267
+Slovak,All,29,oblečenie,75,understands,0
+Slovak,All,30,oblečenie,49,produces,0.6327
+Slovak,All,30,oblečenie,49,understands,0
+Slovak,All,31,oblečenie,29,produces,0.6897
+Slovak,All,31,oblečenie,29,understands,0
+Slovak,All,32,oblečenie,25,produces,0.8
+Slovak,All,32,oblečenie,25,understands,0
+Slovak,All,33,oblečenie,22,produces,0.9091
+Slovak,All,33,oblečenie,22,understands,0
+Slovak,All,34,oblečenie,27,produces,0.7778
+Slovak,All,34,oblečenie,27,understands,0
+Slovak,All,35,oblečenie,27,produces,0.8148
+Slovak,All,35,oblečenie,27,understands,0
+Slovak,All,36,oblečenie,8,produces,0.875
+Slovak,All,36,oblečenie,8,understands,0
+Spanish (Argentinian),All,16,ropa,47,produces,0.1489
+Spanish (Argentinian),All,16,ropa,47,understands,0
+Spanish (Argentinian),All,17,ropa,49,produces,0.1429
+Spanish (Argentinian),All,17,ropa,49,understands,0
+Spanish (Argentinian),All,18,ropa,62,produces,0.0806
+Spanish (Argentinian),All,18,ropa,62,understands,0
+Spanish (Argentinian),All,19,ropa,44,produces,0.1364
+Spanish (Argentinian),All,19,ropa,44,understands,0
+Spanish (Argentinian),All,20,ropa,46,produces,0.2174
+Spanish (Argentinian),All,20,ropa,46,understands,0
+Spanish (Argentinian),All,21,ropa,41,produces,0.2439
+Spanish (Argentinian),All,21,ropa,41,understands,0
+Spanish (Argentinian),All,22,ropa,57,produces,0.3333
+Spanish (Argentinian),All,22,ropa,57,understands,0
+Spanish (Argentinian),All,23,ropa,49,produces,0.4082
+Spanish (Argentinian),All,23,ropa,49,understands,0
+Spanish (Argentinian),All,24,ropa,75,produces,0.4
+Spanish (Argentinian),All,24,ropa,75,understands,0
+Spanish (Argentinian),All,25,ropa,43,produces,0.3953
+Spanish (Argentinian),All,25,ropa,43,understands,0
+Spanish (Argentinian),All,26,ropa,45,produces,0.4
+Spanish (Argentinian),All,26,ropa,45,understands,0
+Spanish (Argentinian),All,27,ropa,44,produces,0.4318
+Spanish (Argentinian),All,27,ropa,44,understands,0
+Spanish (Argentinian),All,28,ropa,42,produces,0.5476
+Spanish (Argentinian),All,28,ropa,42,understands,0
+Spanish (Argentinian),All,29,ropa,65,produces,0.5846
+Spanish (Argentinian),All,29,ropa,65,understands,0
+Spanish (Argentinian),All,30,ropa,69,produces,0.7391
+Spanish (Argentinian),All,30,ropa,69,understands,0
+Spanish (Argentinian),All,31,ropa,2,produces,0.5
+Spanish (Argentinian),All,31,ropa,2,understands,0
+Spanish (Argentinian),All,32,ropa,1,produces,1
+Spanish (Argentinian),All,32,ropa,1,understands,0
+Spanish (Argentinian),All,33,ropa,2,produces,0.5
+Spanish (Argentinian),All,33,ropa,2,understands,0
+Spanish (European),All,8,ropa,52,produces,0
+Spanish (European),All,8,ropa,52,understands,0
+Spanish (European),All,9,ropa,45,produces,0
+Spanish (European),All,9,ropa,45,understands,0.1333
+Spanish (European),All,10,ropa,49,produces,0
+Spanish (European),All,10,ropa,49,understands,0
+Spanish (European),All,11,ropa,36,produces,0
+Spanish (European),All,11,ropa,36,understands,0.1389
+Spanish (European),All,12,ropa,52,produces,0
+Spanish (European),All,12,ropa,52,understands,0.0769
+Spanish (European),All,13,ropa,58,produces,0
+Spanish (European),All,13,ropa,58,understands,0.2069
+Spanish (European),All,14,ropa,55,produces,0.0364
+Spanish (European),All,14,ropa,55,understands,0.3273
+Spanish (European),All,15,ropa,65,produces,0.0308
+Spanish (European),All,15,ropa,65,understands,0.4308
+Spanish (European),All,16,ropa,39,produces,0.0256
+Spanish (European),All,16,ropa,39,understands,0
+Spanish (European),All,17,ropa,39,produces,0.0256
+Spanish (European),All,17,ropa,39,understands,0
+Spanish (European),All,18,ropa,50,produces,0
+Spanish (European),All,18,ropa,50,understands,0
+Spanish (European),All,19,ropa,27,produces,0.0741
+Spanish (European),All,19,ropa,27,understands,0
+Spanish (European),All,20,ropa,36,produces,0.1111
+Spanish (European),All,20,ropa,36,understands,0
+Spanish (European),All,21,ropa,41,produces,0.1463
+Spanish (European),All,21,ropa,41,understands,0
+Spanish (European),All,22,ropa,38,produces,0.1842
+Spanish (European),All,22,ropa,38,understands,0
+Spanish (European),All,23,ropa,30,produces,0.3333
+Spanish (European),All,23,ropa,30,understands,0
+Spanish (European),All,24,ropa,55,produces,0.3636
+Spanish (European),All,24,ropa,55,understands,0
+Spanish (European),All,25,ropa,35,produces,0.3143
+Spanish (European),All,25,ropa,35,understands,0
+Spanish (European),All,26,ropa,49,produces,0.5102
+Spanish (European),All,26,ropa,49,understands,0
+Spanish (European),All,27,ropa,34,produces,0.6765
+Spanish (European),All,27,ropa,34,understands,0
+Spanish (European),All,28,ropa,38,produces,0.5526
+Spanish (European),All,28,ropa,38,understands,0
+Spanish (European),All,29,ropa,41,produces,0.7561
+Spanish (European),All,29,ropa,41,understands,0
+Spanish (European),All,30,ropa,41,produces,0.7073
+Spanish (European),All,30,ropa,41,understands,0
+Spanish (Mexican),All,16,ropa,68,produces,0.1324
+Spanish (Mexican),All,16,ropa,68,understands,0
+Spanish (Mexican),All,17,ropa,59,produces,0.1017
+Spanish (Mexican),All,17,ropa,59,understands,0
+Spanish (Mexican),All,18,ropa,75,produces,0.1867
+Spanish (Mexican),All,18,ropa,75,understands,0
+Spanish (Mexican),All,19,ropa,100,produces,0.34
+Spanish (Mexican),All,19,ropa,100,understands,0
+Spanish (Mexican),All,20,ropa,107,produces,0.2991
+Spanish (Mexican),All,20,ropa,107,understands,0
+Spanish (Mexican),All,21,ropa,84,produces,0.3452
+Spanish (Mexican),All,21,ropa,84,understands,0
+Spanish (Mexican),All,22,ropa,141,produces,0.2766
+Spanish (Mexican),All,22,ropa,141,understands,0
+Spanish (Mexican),All,23,ropa,91,produces,0.3297
+Spanish (Mexican),All,23,ropa,91,understands,0
+Spanish (Mexican),All,24,ropa,126,produces,0.5
+Spanish (Mexican),All,24,ropa,126,understands,0
+Spanish (Mexican),All,25,ropa,177,produces,0.4237
+Spanish (Mexican),All,25,ropa,177,understands,0
+Spanish (Mexican),All,26,ropa,83,produces,0.5904
+Spanish (Mexican),All,26,ropa,83,understands,0
+Spanish (Mexican),All,27,ropa,85,produces,0.7647
+Spanish (Mexican),All,27,ropa,85,understands,0
+Spanish (Mexican),All,28,ropa,89,produces,0.6742
+Spanish (Mexican),All,28,ropa,89,understands,0
+Spanish (Mexican),All,29,ropa,89,produces,0.7191
+Spanish (Mexican),All,29,ropa,89,understands,0
+Spanish (Mexican),All,30,ropa,308,produces,0.5682
+Spanish (Mexican),All,30,ropa,308,understands,0
+Spanish (Peruvian),All,8,ropa,9,produces,0
+Spanish (Peruvian),All,8,ropa,9,understands,0.3333
+Spanish (Peruvian),All,9,ropa,12,produces,0
+Spanish (Peruvian),All,9,ropa,12,understands,0.3333
+Spanish (Peruvian),All,10,ropa,7,produces,0
+Spanish (Peruvian),All,10,ropa,7,understands,0.4286
+Spanish (Peruvian),All,11,ropa,18,produces,0
+Spanish (Peruvian),All,11,ropa,18,understands,0.4444
+Spanish (Peruvian),All,12,ropa,14,produces,0
+Spanish (Peruvian),All,12,ropa,14,understands,0.4286
+Spanish (Peruvian),All,13,ropa,9,produces,0
+Spanish (Peruvian),All,13,ropa,9,understands,0.5556
+Spanish (Peruvian),All,14,ropa,8,produces,0
+Spanish (Peruvian),All,14,ropa,8,understands,0.375
+Spanish (Peruvian),All,15,ropa,10,produces,0
+Spanish (Peruvian),All,15,ropa,10,understands,0.4
+Spanish (Peruvian),All,16,ropa,13,produces,0.0769
+Spanish (Peruvian),All,16,ropa,13,understands,0
+Spanish (Peruvian),All,17,ropa,9,produces,0.3333
+Spanish (Peruvian),All,17,ropa,9,understands,0
+Spanish (Peruvian),All,18,ropa,4,produces,0.25
+Spanish (Peruvian),All,18,ropa,4,understands,0
+Spanish (Peruvian),All,19,ropa,12,produces,0.5
+Spanish (Peruvian),All,19,ropa,12,understands,0
+Spanish (Peruvian),All,20,ropa,1,produces,0
+Spanish (Peruvian),All,20,ropa,1,understands,0
+Spanish (Peruvian),All,21,ropa,5,produces,0.6
+Spanish (Peruvian),All,21,ropa,5,understands,0
+Spanish (Peruvian),All,22,ropa,9,produces,0.2222
+Spanish (Peruvian),All,22,ropa,9,understands,0
+Spanish (Peruvian),All,23,ropa,1,produces,1
+Spanish (Peruvian),All,23,ropa,1,understands,0
+Spanish (Peruvian),All,24,ropa,15,produces,0.2
+Spanish (Peruvian),All,24,ropa,15,understands,0
+Spanish (Peruvian),All,25,ropa,5,produces,0
+Spanish (Peruvian),All,25,ropa,5,understands,0
+Spanish (Peruvian),All,26,ropa,8,produces,0.25
+Spanish (Peruvian),All,26,ropa,8,understands,0
+Spanish (Peruvian),All,27,ropa,7,produces,0.2857
+Spanish (Peruvian),All,27,ropa,7,understands,0
+Spanish (Peruvian),All,28,ropa,8,produces,0.625
+Spanish (Peruvian),All,28,ropa,8,understands,0
+Spanish (Peruvian),All,29,ropa,6,produces,0.6667
+Spanish (Peruvian),All,29,ropa,6,understands,0
+Spanish (Peruvian),All,30,ropa,2,produces,0.5
+Spanish (Peruvian),All,30,ropa,2,understands,0
+Swedish,All,16,kläder,159,produces,0.0126
+Swedish,All,16,kläder,159,understands,0
+Swedish,All,19,kläder,152,produces,0.1382
+Swedish,All,19,kläder,152,understands,0
+Swedish,All,22,kläder,307,produces,0.355
+Swedish,All,22,kläder,307,understands,0
+Swedish,All,25,kläder,143,produces,0.5804
+Swedish,All,25,kläder,143,understands,0
+Swedish,All,28,kläder,139,produces,0.777
+Swedish,All,28,kläder,139,understands,0
+American Sign Language,Female,9,CLOTHES,4,produces,0
+American Sign Language,Female,9,CLOTHES,4,understands,0.5
+American Sign Language,Female,10,CLOTHES,1,produces,0
+American Sign Language,Female,10,CLOTHES,1,understands,0
+American Sign Language,Male,10,CLOTHES,1,produces,0
+American Sign Language,Male,10,CLOTHES,1,understands,0
+American Sign Language,Female,11,CLOTHES,1,produces,0
+American Sign Language,Female,11,CLOTHES,1,understands,1
+American Sign Language,Male,11,CLOTHES,1,produces,0
+American Sign Language,Male,11,CLOTHES,1,understands,0
+American Sign Language,Female,12,CLOTHES,1,produces,0
+American Sign Language,Female,12,CLOTHES,1,understands,0
+American Sign Language,Male,12,CLOTHES,1,produces,0
+American Sign Language,Male,12,CLOTHES,1,understands,0
+American Sign Language,Male,15,CLOTHES,1,produces,0
+American Sign Language,Male,15,CLOTHES,1,understands,1
+American Sign Language,Female,16,CLOTHES,2,produces,0
+American Sign Language,Female,16,CLOTHES,2,understands,1
+American Sign Language,Female,17,CLOTHES,2,produces,0
+American Sign Language,Female,17,CLOTHES,2,understands,0.5
+American Sign Language,Male,17,CLOTHES,1,produces,0
+American Sign Language,Male,17,CLOTHES,1,understands,0
+American Sign Language,Female,18,CLOTHES,5,produces,0.4
+American Sign Language,Female,18,CLOTHES,5,understands,0.6
+American Sign Language,Male,18,CLOTHES,2,produces,0.5
+American Sign Language,Male,18,CLOTHES,2,understands,1
+American Sign Language,Female,19,CLOTHES,2,produces,0
+American Sign Language,Female,19,CLOTHES,2,understands,1
+American Sign Language,Male,19,CLOTHES,3,produces,0.3333
+American Sign Language,Male,19,CLOTHES,3,understands,0.6667
+American Sign Language,Male,20,CLOTHES,2,produces,0
+American Sign Language,Male,20,CLOTHES,2,understands,0.5
+American Sign Language,Female,21,CLOTHES,1,produces,0
+American Sign Language,Female,21,CLOTHES,1,understands,0
+American Sign Language,Male,21,CLOTHES,1,produces,1
+American Sign Language,Male,21,CLOTHES,1,understands,1
+American Sign Language,Female,22,CLOTHES,8,produces,0.5
+American Sign Language,Female,22,CLOTHES,8,understands,0.875
+American Sign Language,Female,23,CLOTHES,1,produces,0
+American Sign Language,Female,23,CLOTHES,1,understands,1
+American Sign Language,Male,23,CLOTHES,1,produces,1
+American Sign Language,Male,23,CLOTHES,1,understands,1
+American Sign Language,Female,24,CLOTHES,1,produces,0
+American Sign Language,Female,24,CLOTHES,1,understands,1
+American Sign Language,Male,24,CLOTHES,5,produces,0.2
+American Sign Language,Male,24,CLOTHES,5,understands,0.2
+American Sign Language,Female,25,CLOTHES,4,produces,0.25
+American Sign Language,Female,25,CLOTHES,4,understands,0.75
+American Sign Language,Male,25,CLOTHES,7,produces,0.4286
+American Sign Language,Male,25,CLOTHES,7,understands,1
+American Sign Language,Female,26,CLOTHES,2,produces,0.5
+American Sign Language,Female,26,CLOTHES,2,understands,0.5
+American Sign Language,Male,26,CLOTHES,2,produces,0.5
+American Sign Language,Male,26,CLOTHES,2,understands,0.5
+American Sign Language,Female,27,CLOTHES,4,produces,0.25
+American Sign Language,Female,27,CLOTHES,4,understands,0.25
+American Sign Language,Male,27,CLOTHES,1,produces,1
+American Sign Language,Male,27,CLOTHES,1,understands,1
+American Sign Language,Female,28,CLOTHES,1,produces,1
+American Sign Language,Female,28,CLOTHES,1,understands,1
+American Sign Language,Male,28,CLOTHES,2,produces,1
+American Sign Language,Male,28,CLOTHES,2,understands,1
+American Sign Language,Female,29,CLOTHES,1,produces,1
+American Sign Language,Female,29,CLOTHES,1,understands,1
+American Sign Language,Male,29,CLOTHES,5,produces,0.6
+American Sign Language,Male,29,CLOTHES,5,understands,1
+American Sign Language,Female,30,CLOTHES,2,produces,1
+American Sign Language,Female,30,CLOTHES,2,understands,1
+American Sign Language,Male,30,CLOTHES,2,produces,1
+American Sign Language,Male,30,CLOTHES,2,understands,1
+American Sign Language,Female,31,CLOTHES,3,produces,0.3333
+American Sign Language,Female,31,CLOTHES,3,understands,0.3333
+American Sign Language,Male,31,CLOTHES,3,produces,0.6667
+American Sign Language,Male,31,CLOTHES,3,understands,0.6667
+American Sign Language,Female,32,CLOTHES,3,produces,1
+American Sign Language,Female,32,CLOTHES,3,understands,1
+American Sign Language,Male,32,CLOTHES,4,produces,1
+American Sign Language,Male,32,CLOTHES,4,understands,1
+American Sign Language,Female,33,CLOTHES,2,produces,0.5
+American Sign Language,Female,33,CLOTHES,2,understands,0.5
+American Sign Language,Male,33,CLOTHES,2,produces,1
+American Sign Language,Male,33,CLOTHES,2,understands,1
+American Sign Language,Female,34,CLOTHES,1,produces,1
+American Sign Language,Female,34,CLOTHES,1,understands,1
+American Sign Language,Male,34,CLOTHES,4,produces,0.75
+American Sign Language,Male,34,CLOTHES,4,understands,1
+American Sign Language,Female,35,CLOTHES,2,produces,0
+American Sign Language,Female,35,CLOTHES,2,understands,1
+American Sign Language,Male,35,CLOTHES,2,produces,0.5
+American Sign Language,Male,35,CLOTHES,2,understands,1
+American Sign Language,Female,36,CLOTHES,3,produces,0.3333
+American Sign Language,Female,36,CLOTHES,3,understands,0.6667
+Cantonese,Female,16,衫,23,produces,0.0435
+Cantonese,Female,16,衫,23,understands,0
+Cantonese,Male,16,衫,23,produces,0.1739
+Cantonese,Male,16,衫,23,understands,0
+Cantonese,Female,17,衫,30,produces,0.2
+Cantonese,Female,17,衫,30,understands,0
+Cantonese,Male,17,衫,31,produces,0.129
+Cantonese,Male,17,衫,31,understands,0
+Cantonese,Female,18,衫,33,produces,0.4848
+Cantonese,Female,18,衫,33,understands,0
+Cantonese,Male,18,衫,35,produces,0.1429
+Cantonese,Male,18,衫,35,understands,0
+Cantonese,Female,19,衫,30,produces,0.2
+Cantonese,Female,19,衫,30,understands,0
+Cantonese,Male,19,衫,36,produces,0.2778
+Cantonese,Male,19,衫,36,understands,0
+Cantonese,Female,20,衫,62,produces,0.5645
+Cantonese,Female,20,衫,62,understands,0
+Cantonese,Male,20,衫,78,produces,0.4615
+Cantonese,Male,20,衫,78,understands,0
+Cantonese,Female,21,衫,57,produces,0.6491
+Cantonese,Female,21,衫,57,understands,0
+Cantonese,Male,21,衫,63,produces,0.4444
+Cantonese,Male,21,衫,63,understands,0
+Cantonese,Female,22,衫,34,produces,0.7353
+Cantonese,Female,22,衫,34,understands,0
+Cantonese,Male,22,衫,34,produces,0.4118
+Cantonese,Male,22,衫,34,understands,0
+Cantonese,Female,23,衫,37,produces,0.7838
+Cantonese,Female,23,衫,37,understands,0
+Cantonese,Male,23,衫,37,produces,0.5676
+Cantonese,Male,23,衫,37,understands,0
+Cantonese,Female,24,衫,32,produces,0.8438
+Cantonese,Female,24,衫,32,understands,0
+Cantonese,Male,24,衫,36,produces,0.7222
+Cantonese,Male,24,衫,36,understands,0
+Cantonese,Female,25,衫,31,produces,0.9032
+Cantonese,Female,25,衫,31,understands,0
+Cantonese,Male,25,衫,34,produces,0.8824
+Cantonese,Male,25,衫,34,understands,0
+Cantonese,Female,26,衫,31,produces,0.871
+Cantonese,Female,26,衫,31,understands,0
+Cantonese,Male,26,衫,37,produces,0.8649
+Cantonese,Male,26,衫,37,understands,0
+Cantonese,Female,27,衫,31,produces,0.9677
+Cantonese,Female,27,衫,31,understands,0
+Cantonese,Male,27,衫,31,produces,0.9355
+Cantonese,Male,27,衫,31,understands,0
+Cantonese,Female,28,衫,32,produces,1
+Cantonese,Female,28,衫,32,understands,0
+Cantonese,Male,28,衫,34,produces,0.9118
+Cantonese,Male,28,衫,34,understands,0
+Cantonese,Female,29,衫,36,produces,0.9444
+Cantonese,Female,29,衫,36,understands,0
+Cantonese,Male,29,衫,36,produces,0.9444
+Cantonese,Male,29,衫,36,understands,0
+Cantonese,Female,30,衫,76,produces,0.9868
+Cantonese,Female,30,衫,76,understands,0
+Cantonese,Male,30,衫,88,produces,0.9091
+Cantonese,Male,30,衫,88,understands,0
+Czech,Female,16,oblečení,13,produces,0
+Czech,Female,16,oblečení,13,understands,0
+Czech,Male,16,oblečení,16,produces,0
+Czech,Male,16,oblečení,16,understands,0
+Czech,Female,17,oblečení,16,produces,0
+Czech,Female,17,oblečení,16,understands,0
+Czech,Male,17,oblečení,13,produces,0
+Czech,Male,17,oblečení,13,understands,0
+Czech,Female,18,oblečení,18,produces,0
+Czech,Female,18,oblečení,18,understands,0
+Czech,Male,18,oblečení,27,produces,0
+Czech,Male,18,oblečení,27,understands,0
+Czech,Female,19,oblečení,17,produces,0
+Czech,Female,19,oblečení,17,understands,0
+Czech,Male,19,oblečení,10,produces,0
+Czech,Male,19,oblečení,10,understands,0
+Czech,Female,20,oblečení,15,produces,0.1333
+Czech,Female,20,oblečení,15,understands,0
+Czech,Male,20,oblečení,11,produces,0.0909
+Czech,Male,20,oblečení,11,understands,0
+Czech,Female,21,oblečení,18,produces,0.0556
+Czech,Female,21,oblečení,18,understands,0
+Czech,Male,21,oblečení,16,produces,0.125
+Czech,Male,21,oblečení,16,understands,0
+Czech,Female,22,oblečení,17,produces,0.2353
+Czech,Female,22,oblečení,17,understands,0
+Czech,Male,22,oblečení,19,produces,0
+Czech,Male,22,oblečení,19,understands,0
+Czech,Female,23,oblečení,21,produces,0.1905
+Czech,Female,23,oblečení,21,understands,0
+Czech,Male,23,oblečení,25,produces,0.08
+Czech,Male,23,oblečení,25,understands,0
+Czech,Female,24,oblečení,16,produces,0.0625
+Czech,Female,24,oblečení,16,understands,0
+Czech,Male,24,oblečení,19,produces,0.1053
+Czech,Male,24,oblečení,19,understands,0
+Czech,Female,25,oblečení,17,produces,0.4118
+Czech,Female,25,oblečení,17,understands,0
+Czech,Male,25,oblečení,18,produces,0.1667
+Czech,Male,25,oblečení,18,understands,0
+Czech,Female,26,oblečení,14,produces,0.4286
+Czech,Female,26,oblečení,14,understands,0
+Czech,Male,26,oblečení,8,produces,0.125
+Czech,Male,26,oblečení,8,understands,0
+Czech,Female,27,oblečení,23,produces,0.3478
+Czech,Female,27,oblečení,23,understands,0
+Czech,Male,27,oblečení,14,produces,0.2143
+Czech,Male,27,oblečení,14,understands,0
+Czech,Female,28,oblečení,16,produces,0.5
+Czech,Female,28,oblečení,16,understands,0
+Czech,Male,28,oblečení,10,produces,0.3
+Czech,Male,28,oblečení,10,understands,0
+Czech,Female,29,oblečení,18,produces,0.6111
+Czech,Female,29,oblečení,18,understands,0
+Czech,Male,29,oblečení,21,produces,0.2857
+Czech,Male,29,oblečení,21,understands,0
+Czech,Female,30,oblečení,16,produces,0.75
+Czech,Female,30,oblečení,16,understands,0
+Czech,Male,30,oblečení,11,produces,0.4545
+Czech,Male,30,oblečení,11,understands,0
+English (Irish),Female,17,clothes,1,produces,0
+English (Irish),Female,17,clothes,1,understands,0
+English (Irish),Male,17,clothes,1,produces,0
+English (Irish),Male,17,clothes,1,understands,0
+English (Irish),Female,18,clothes,1,produces,1
+English (Irish),Female,18,clothes,1,understands,0
+English (Irish),Female,19,clothes,1,produces,0
+English (Irish),Female,19,clothes,1,understands,0
+English (Irish),Male,19,clothes,1,produces,0
+English (Irish),Male,19,clothes,1,understands,0
+English (Irish),Female,20,clothes,1,produces,0
+English (Irish),Female,20,clothes,1,understands,0
+English (Irish),Female,21,clothes,2,produces,0
+English (Irish),Female,21,clothes,2,understands,0
+English (Irish),Male,21,clothes,1,produces,0
+English (Irish),Male,21,clothes,1,understands,0
+English (Irish),Female,22,clothes,3,produces,0.3333
+English (Irish),Female,22,clothes,3,understands,0
+English (Irish),Male,22,clothes,1,produces,0
+English (Irish),Male,22,clothes,1,understands,0
+English (Irish),Female,23,clothes,2,produces,0
+English (Irish),Female,23,clothes,2,understands,0
+English (Irish),Male,23,clothes,2,produces,0
+English (Irish),Male,23,clothes,2,understands,0
+English (Irish),Female,24,clothes,2,produces,0.5
+English (Irish),Female,24,clothes,2,understands,0
+English (Irish),Male,24,clothes,2,produces,0
+English (Irish),Male,24,clothes,2,understands,0
+English (Irish),Female,25,clothes,3,produces,0
+English (Irish),Female,25,clothes,3,understands,0
+English (Irish),Male,25,clothes,3,produces,0
+English (Irish),Male,25,clothes,3,understands,0
+English (Irish),Female,26,clothes,7,produces,0
+English (Irish),Female,26,clothes,7,understands,0
+English (Irish),Male,26,clothes,3,produces,0.3333
+English (Irish),Male,26,clothes,3,understands,0
+English (Irish),Female,27,clothes,1,produces,0
+English (Irish),Female,27,clothes,1,understands,0
+English (Irish),Male,27,clothes,4,produces,0
+English (Irish),Male,27,clothes,4,understands,0
+English (Irish),Female,28,clothes,4,produces,0.25
+English (Irish),Female,28,clothes,4,understands,0
+English (Irish),Male,28,clothes,3,produces,0
+English (Irish),Male,28,clothes,3,understands,0
+English (Irish),Female,29,clothes,1,produces,0
+English (Irish),Female,29,clothes,1,understands,0
+English (Irish),Male,29,clothes,3,produces,0.3333
+English (Irish),Male,29,clothes,3,understands,0
+English (Irish),Female,30,clothes,5,produces,0.2
+English (Irish),Female,30,clothes,5,understands,0
+English (Irish),Male,30,clothes,4,produces,0
+English (Irish),Male,30,clothes,4,understands,0
+English (Irish),Female,31,clothes,3,produces,0
+English (Irish),Female,31,clothes,3,understands,0
+English (Irish),Male,31,clothes,5,produces,0.2
+English (Irish),Male,31,clothes,5,understands,0
+English (Irish),Female,32,clothes,2,produces,1
+English (Irish),Female,32,clothes,2,understands,0
+English (Irish),Male,32,clothes,2,produces,0.5
+English (Irish),Male,32,clothes,2,understands,0
+English (Irish),Female,33,clothes,1,produces,0
+English (Irish),Female,33,clothes,1,understands,0
+English (Irish),Male,33,clothes,4,produces,0.5
+English (Irish),Male,33,clothes,4,understands,0
+English (Irish),Female,34,clothes,2,produces,0.5
+English (Irish),Female,34,clothes,2,understands,0
+English (Irish),Male,34,clothes,2,produces,0.5
+English (Irish),Male,34,clothes,2,understands,0
+English (Irish),Female,35,clothes,2,produces,0
+English (Irish),Female,35,clothes,2,understands,0
+English (Irish),Male,35,clothes,9,produces,0.4444
+English (Irish),Male,35,clothes,9,understands,0
+English (Irish),Female,36,clothes,3,produces,0.3333
+English (Irish),Female,36,clothes,3,understands,0
+English (Irish),Male,36,clothes,2,produces,0
+English (Irish),Male,36,clothes,2,understands,0
+Irish,Female,17,éadaí,1,produces,1
+Irish,Female,17,éadaí,1,understands,0
+Irish,Male,17,éadaí,1,produces,0
+Irish,Male,17,éadaí,1,understands,0
+Irish,Female,18,éadaí,1,produces,0
+Irish,Female,18,éadaí,1,understands,0
+Irish,Female,19,éadaí,1,produces,1
+Irish,Female,19,éadaí,1,understands,0
+Irish,Male,19,éadaí,1,produces,1
+Irish,Male,19,éadaí,1,understands,0
+Irish,Female,20,éadaí,1,produces,1
+Irish,Female,20,éadaí,1,understands,0
+Irish,Female,21,éadaí,2,produces,0
+Irish,Female,21,éadaí,2,understands,0
+Irish,Male,21,éadaí,1,produces,0
+Irish,Male,21,éadaí,1,understands,0
+Irish,Female,22,éadaí,3,produces,0.3333
+Irish,Female,22,éadaí,3,understands,0
+Irish,Male,22,éadaí,1,produces,0
+Irish,Male,22,éadaí,1,understands,0
+Irish,Female,23,éadaí,2,produces,0.5
+Irish,Female,23,éadaí,2,understands,0
+Irish,Male,23,éadaí,2,produces,0
+Irish,Male,23,éadaí,2,understands,0
+Irish,Female,24,éadaí,2,produces,0.5
+Irish,Female,24,éadaí,2,understands,0
+Irish,Male,24,éadaí,2,produces,1
+Irish,Male,24,éadaí,2,understands,0
+Irish,Female,25,éadaí,3,produces,0.6667
+Irish,Female,25,éadaí,3,understands,0
+Irish,Male,25,éadaí,3,produces,0.6667
+Irish,Male,25,éadaí,3,understands,0
+Irish,Female,26,éadaí,7,produces,1
+Irish,Female,26,éadaí,7,understands,0
+Irish,Male,26,éadaí,3,produces,1
+Irish,Male,26,éadaí,3,understands,0
+Irish,Female,27,éadaí,1,produces,0
+Irish,Female,27,éadaí,1,understands,0
+Irish,Male,27,éadaí,4,produces,1
+Irish,Male,27,éadaí,4,understands,0
+Irish,Female,28,éadaí,4,produces,1
+Irish,Female,28,éadaí,4,understands,0
+Irish,Male,28,éadaí,3,produces,1
+Irish,Male,28,éadaí,3,understands,0
+Irish,Female,29,éadaí,1,produces,1
+Irish,Female,29,éadaí,1,understands,0
+Irish,Male,29,éadaí,3,produces,1
+Irish,Male,29,éadaí,3,understands,0
+Irish,Female,30,éadaí,5,produces,1
+Irish,Female,30,éadaí,5,understands,0
+Irish,Male,30,éadaí,4,produces,0.75
+Irish,Male,30,éadaí,4,understands,0
+Irish,Female,31,éadaí,3,produces,1
+Irish,Female,31,éadaí,3,understands,0
+Irish,Male,31,éadaí,5,produces,0.6
+Irish,Male,31,éadaí,5,understands,0
+Irish,Female,32,éadaí,2,produces,0.5
+Irish,Female,32,éadaí,2,understands,0
+Irish,Male,32,éadaí,2,produces,1
+Irish,Male,32,éadaí,2,understands,0
+Irish,Female,33,éadaí,1,produces,1
+Irish,Female,33,éadaí,1,understands,0
+Irish,Male,33,éadaí,4,produces,1
+Irish,Male,33,éadaí,4,understands,0
+Irish,Female,34,éadaí,2,produces,1
+Irish,Female,34,éadaí,2,understands,0
+Irish,Male,34,éadaí,2,produces,1
+Irish,Male,34,éadaí,2,understands,0
+Irish,Female,35,éadaí,2,produces,1
+Irish,Female,35,éadaí,2,understands,0
+Irish,Male,35,éadaí,9,produces,1
+Irish,Male,35,éadaí,9,understands,0
+Irish,Female,36,éadaí,3,produces,1
+Irish,Female,36,éadaí,3,understands,0
+Irish,Male,36,éadaí,2,produces,1
+Irish,Male,36,éadaí,2,understands,0
+Japanese,Female,8,洋服,2,produces,0
+Japanese,Female,8,洋服,2,understands,0
+Japanese,Male,8,洋服,4,produces,0
+Japanese,Male,8,洋服,4,understands,0
+Japanese,Female,9,洋服,4,produces,0
+Japanese,Female,9,洋服,4,understands,0
+Japanese,Male,9,洋服,6,produces,0
+Japanese,Male,9,洋服,6,understands,0
+Japanese,Female,10,洋服,2,produces,0
+Japanese,Female,10,洋服,2,understands,0
+Japanese,Male,10,洋服,6,produces,0
+Japanese,Male,10,洋服,6,understands,0
+Japanese,Female,11,洋服,58,produces,0
+Japanese,Female,11,洋服,58,understands,0.0862
+Japanese,Male,11,洋服,29,produces,0
+Japanese,Male,11,洋服,29,understands,0
+Japanese,Female,12,洋服,56,produces,0
+Japanese,Female,12,洋服,56,understands,0.0714
+Japanese,Male,12,洋服,62,produces,0
+Japanese,Male,12,洋服,62,understands,0.0161
+Japanese,Female,13,洋服,10,produces,0
+Japanese,Female,13,洋服,10,understands,0
+Japanese,Male,13,洋服,13,produces,0
+Japanese,Male,13,洋服,13,understands,0.0769
+Japanese,Female,14,洋服,15,produces,0
+Japanese,Female,14,洋服,15,understands,0.1333
+Japanese,Male,14,洋服,11,produces,0
+Japanese,Male,14,洋服,11,understands,0.0909
+Japanese,Female,15,洋服,38,produces,0
+Japanese,Female,15,洋服,38,understands,0.1316
+Japanese,Male,15,洋服,34,produces,0
+Japanese,Male,15,洋服,34,understands,0.1176
+Japanese,Female,16,洋服,23,produces,0
+Japanese,Female,16,洋服,23,understands,0.087
+Japanese,Male,16,洋服,23,produces,0
+Japanese,Male,16,洋服,23,understands,0.0435
+Japanese,Female,17,洋服,51,produces,0
+Japanese,Female,17,洋服,51,understands,0.3137
+Japanese,Male,17,洋服,26,produces,0
+Japanese,Male,17,洋服,26,understands,0.1923
+Japanese,Female,18,洋服,47,produces,0.0426
+Japanese,Female,18,洋服,47,understands,0.1277
+Japanese,Male,18,洋服,47,produces,0
+Japanese,Male,18,洋服,47,understands,0.0426
+Japanese,Female,19,洋服,14,produces,0.1429
+Japanese,Female,19,洋服,14,understands,0
+Japanese,Male,19,洋服,21,produces,0.0476
+Japanese,Male,19,洋服,21,understands,0
+Japanese,Female,20,洋服,27,produces,0.0741
+Japanese,Female,20,洋服,27,understands,0
+Japanese,Male,20,洋服,32,produces,0
+Japanese,Male,20,洋服,32,understands,0
+Japanese,Female,21,洋服,29,produces,0.1379
+Japanese,Female,21,洋服,29,understands,0
+Japanese,Male,21,洋服,33,produces,0.0303
+Japanese,Male,21,洋服,33,understands,0
+Japanese,Female,22,洋服,16,produces,0.125
+Japanese,Female,22,洋服,16,understands,0
+Japanese,Male,22,洋服,15,produces,0.0667
+Japanese,Male,22,洋服,15,understands,0
+Japanese,Female,23,洋服,38,produces,0.1053
+Japanese,Female,23,洋服,38,understands,0
+Japanese,Male,23,洋服,29,produces,0.1379
+Japanese,Male,23,洋服,29,understands,0
+Japanese,Female,24,洋服,18,produces,0.1667
+Japanese,Female,24,洋服,18,understands,0
+Japanese,Male,24,洋服,15,produces,0.0667
+Japanese,Male,24,洋服,15,understands,0
+Japanese,Female,25,洋服,14,produces,0.3571
+Japanese,Female,25,洋服,14,understands,0
+Japanese,Male,25,洋服,20,produces,0.25
+Japanese,Male,25,洋服,20,understands,0
+Japanese,Female,26,洋服,19,produces,0.5789
+Japanese,Female,26,洋服,19,understands,0
+Japanese,Male,26,洋服,14,produces,0.2143
+Japanese,Male,26,洋服,14,understands,0
+Japanese,Female,27,洋服,8,produces,0.25
+Japanese,Female,27,洋服,8,understands,0
+Japanese,Male,27,洋服,7,produces,0.2857
+Japanese,Male,27,洋服,7,understands,0
+Japanese,Female,28,洋服,8,produces,0.375
+Japanese,Female,28,洋服,8,understands,0
+Japanese,Male,28,洋服,10,produces,0.2
+Japanese,Male,28,洋服,10,understands,0
+Japanese,Female,29,洋服,6,produces,0.5
+Japanese,Female,29,洋服,6,understands,0
+Japanese,Male,29,洋服,11,produces,0.5455
+Japanese,Male,29,洋服,11,understands,0
+Japanese,Female,30,洋服,9,produces,0.4444
+Japanese,Female,30,洋服,9,understands,0
+Japanese,Male,30,洋服,9,produces,0.7778
+Japanese,Male,30,洋服,9,understands,0
+Japanese,Female,31,洋服,8,produces,0.625
+Japanese,Female,31,洋服,8,understands,0
+Japanese,Male,31,洋服,10,produces,0.1
+Japanese,Male,31,洋服,10,understands,0
+Japanese,Female,32,洋服,8,produces,0.375
+Japanese,Female,32,洋服,8,understands,0
+Japanese,Male,32,洋服,5,produces,0.4
+Japanese,Male,32,洋服,5,understands,0
+Japanese,Female,33,洋服,9,produces,0.7778
+Japanese,Female,33,洋服,9,understands,0
+Japanese,Male,33,洋服,7,produces,0.2857
+Japanese,Male,33,洋服,7,understands,0
+Japanese,Female,34,洋服,8,produces,0.75
+Japanese,Female,34,洋服,8,understands,0
+Japanese,Male,34,洋服,5,produces,0.4
+Japanese,Male,34,洋服,5,understands,0
+Japanese,Female,35,洋服,19,produces,0.7368
+Japanese,Female,35,洋服,19,understands,0
+Japanese,Male,35,洋服,12,produces,0.5
+Japanese,Male,35,洋服,12,understands,0
+Japanese,Female,36,洋服,4,produces,1
+Japanese,Female,36,洋服,4,understands,0
+Japanese,Male,36,洋服,14,produces,0.5714
+Japanese,Male,36,洋服,14,understands,0
+Kigiriama,Female,8,Nguo,5,produces,0.2
+Kigiriama,Female,8,Nguo,5,understands,0.4
+Kigiriama,Female,9,Nguo,10,produces,0
+Kigiriama,Female,9,Nguo,10,understands,0.2
+Kigiriama,Male,9,Nguo,12,produces,0
+Kigiriama,Male,9,Nguo,12,understands,0.0833
+Kigiriama,Female,10,Nguo,3,produces,0
+Kigiriama,Female,10,Nguo,3,understands,0.3333
+Kigiriama,Male,10,Nguo,2,produces,0
+Kigiriama,Male,10,Nguo,2,understands,0.5
+Kigiriama,Female,11,Nguo,5,produces,0
+Kigiriama,Female,11,Nguo,5,understands,0.6
+Kigiriama,Male,11,Nguo,2,produces,0
+Kigiriama,Male,11,Nguo,2,understands,0.5
+Kigiriama,Female,12,Nguo,19,produces,0
+Kigiriama,Female,12,Nguo,19,understands,0.5789
+Kigiriama,Male,12,Nguo,11,produces,0
+Kigiriama,Male,12,Nguo,11,understands,0.8182
+Kigiriama,Female,13,Nguo,7,produces,0
+Kigiriama,Female,13,Nguo,7,understands,0.5714
+Kigiriama,Male,13,Nguo,11,produces,0.0909
+Kigiriama,Male,13,Nguo,11,understands,0.6364
+Kigiriama,Female,14,Nguo,8,produces,0
+Kigiriama,Female,14,Nguo,8,understands,0.625
+Kigiriama,Male,14,Nguo,8,produces,0
+Kigiriama,Male,14,Nguo,8,understands,0.25
+Kigiriama,Female,15,Nguo,6,produces,0
+Kigiriama,Female,15,Nguo,6,understands,0.3333
+Kigiriama,Male,15,Nguo,10,produces,0.1
+Kigiriama,Male,15,Nguo,10,understands,0.6
+Kigiriama,Female,16,Nguo,1,produces,1
+Kigiriama,Female,16,Nguo,1,understands,0
+Kigiriama,Female,17,Nguo,5,produces,0.6
+Kigiriama,Female,17,Nguo,5,understands,0
+Kigiriama,Male,17,Nguo,1,produces,0
+Kigiriama,Male,17,Nguo,1,understands,0
+Kigiriama,Female,18,Nguo,6,produces,0.5
+Kigiriama,Female,18,Nguo,6,understands,0
+Kigiriama,Male,18,Nguo,6,produces,0.3333
+Kigiriama,Male,18,Nguo,6,understands,0
+Kigiriama,Female,19,Nguo,3,produces,0.6667
+Kigiriama,Female,19,Nguo,3,understands,0
+Kigiriama,Male,19,Nguo,5,produces,0.2
+Kigiriama,Male,19,Nguo,5,understands,0
+Kigiriama,Female,20,Nguo,5,produces,0.8
+Kigiriama,Female,20,Nguo,5,understands,0
+Kigiriama,Male,20,Nguo,8,produces,0.5
+Kigiriama,Male,20,Nguo,8,understands,0
+Kigiriama,Female,21,Nguo,3,produces,0.6667
+Kigiriama,Female,21,Nguo,3,understands,0
+Kigiriama,Male,21,Nguo,3,produces,0.3333
+Kigiriama,Male,21,Nguo,3,understands,0
+Kigiriama,Female,22,Nguo,7,produces,0.8571
+Kigiriama,Female,22,Nguo,7,understands,0
+Kigiriama,Male,22,Nguo,2,produces,1
+Kigiriama,Male,22,Nguo,2,understands,0
+Kigiriama,Female,23,Nguo,2,produces,0
+Kigiriama,Female,23,Nguo,2,understands,0
+Kigiriama,Male,23,Nguo,2,produces,0.5
+Kigiriama,Male,23,Nguo,2,understands,0
+Kigiriama,Female,24,Nguo,6,produces,0.6667
+Kigiriama,Female,24,Nguo,6,understands,0
+Kigiriama,Male,24,Nguo,1,produces,1
+Kigiriama,Male,24,Nguo,1,understands,0
+Kigiriama,Female,25,Nguo,2,produces,1
+Kigiriama,Female,25,Nguo,2,understands,0
+Kigiriama,Male,25,Nguo,1,produces,1
+Kigiriama,Male,25,Nguo,1,understands,0
+Kigiriama,Female,26,Nguo,4,produces,1
+Kigiriama,Female,26,Nguo,4,understands,0
+Kigiriama,Male,26,Nguo,2,produces,1
+Kigiriama,Male,26,Nguo,2,understands,0
+Kigiriama,Female,27,Nguo,1,produces,1
+Kigiriama,Female,27,Nguo,1,understands,0
+Kigiriama,Male,27,Nguo,3,produces,1
+Kigiriama,Male,27,Nguo,3,understands,0
+Kigiriama,Male,28,Nguo,1,produces,1
+Kigiriama,Male,28,Nguo,1,understands,0
+Kigiriama,Female,29,Nguo,2,produces,1
+Kigiriama,Female,29,Nguo,2,understands,0
+Kigiriama,Male,29,Nguo,3,produces,1
+Kigiriama,Male,29,Nguo,3,understands,0
+Kigiriama,Male,30,Nguo,1,produces,1
+Kigiriama,Male,30,Nguo,1,understands,0
+Kiswahili,Male,8,Nguo,1,produces,0
+Kiswahili,Male,8,Nguo,1,understands,0
+Kiswahili,Female,9,Nguo,1,produces,0
+Kiswahili,Female,9,Nguo,1,understands,0
+Kiswahili,Male,9,Nguo,4,produces,0
+Kiswahili,Male,9,Nguo,4,understands,0
+Kiswahili,Female,10,Nguo,3,produces,0
+Kiswahili,Female,10,Nguo,3,understands,0
+Kiswahili,Male,10,Nguo,2,produces,0
+Kiswahili,Male,10,Nguo,2,understands,0
+Kiswahili,Female,11,Nguo,5,produces,0
+Kiswahili,Female,11,Nguo,5,understands,0.2
+Kiswahili,Male,11,Nguo,4,produces,0
+Kiswahili,Male,11,Nguo,4,understands,0.25
+Kiswahili,Female,12,Nguo,5,produces,0
+Kiswahili,Female,12,Nguo,5,understands,0.2
+Kiswahili,Male,12,Nguo,1,produces,0
+Kiswahili,Male,12,Nguo,1,understands,1
+Kiswahili,Female,13,Nguo,5,produces,0
+Kiswahili,Female,13,Nguo,5,understands,0.8
+Kiswahili,Male,13,Nguo,1,produces,0
+Kiswahili,Male,13,Nguo,1,understands,1
+Kiswahili,Female,14,Nguo,2,produces,0
+Kiswahili,Female,14,Nguo,2,understands,0.5
+Kiswahili,Male,14,Nguo,2,produces,0
+Kiswahili,Male,14,Nguo,2,understands,1
+Kiswahili,Female,15,Nguo,2,produces,0
+Kiswahili,Female,15,Nguo,2,understands,0.5
+Kiswahili,Male,15,Nguo,3,produces,0.3333
+Kiswahili,Male,15,Nguo,3,understands,1
+Kiswahili,Female,23,Nguo,1,produces,0
+Kiswahili,Female,23,Nguo,1,understands,0
+Kiswahili,Male,23,Nguo,1,produces,0
+Kiswahili,Male,23,Nguo,1,understands,0
+Kiswahili,Female,24,Nguo,6,produces,0.8333
+Kiswahili,Female,24,Nguo,6,understands,0
+Kiswahili,Male,24,Nguo,6,produces,0.6667
+Kiswahili,Male,24,Nguo,6,understands,0
+Kiswahili,Female,25,Nguo,8,produces,0.75
+Kiswahili,Female,25,Nguo,8,understands,0
+Kiswahili,Male,25,Nguo,2,produces,0
+Kiswahili,Male,25,Nguo,2,understands,0
+Kiswahili,Female,26,Nguo,3,produces,1
+Kiswahili,Female,26,Nguo,3,understands,0
+Kiswahili,Male,26,Nguo,10,produces,0.7
+Kiswahili,Male,26,Nguo,10,understands,0
+Kiswahili,Female,27,Nguo,3,produces,0.6667
+Kiswahili,Female,27,Nguo,3,understands,0
+Kiswahili,Male,27,Nguo,5,produces,0.8
+Kiswahili,Male,27,Nguo,5,understands,0
+Kiswahili,Female,28,Nguo,3,produces,0.6667
+Kiswahili,Female,28,Nguo,3,understands,0
+Kiswahili,Male,28,Nguo,3,produces,1
+Kiswahili,Male,28,Nguo,3,understands,0
+Kiswahili,Female,29,Nguo,3,produces,0.3333
+Kiswahili,Female,29,Nguo,3,understands,0
+Kiswahili,Male,29,Nguo,3,produces,0.6667
+Kiswahili,Male,29,Nguo,3,understands,0
+Kiswahili,Female,30,Nguo,3,produces,1
+Kiswahili,Female,30,Nguo,3,understands,0
+Kiswahili,Male,30,Nguo,2,produces,1
+Kiswahili,Male,30,Nguo,2,understands,0
+Latvian,Female,17,apģērbs,12,produces,0
+Latvian,Female,17,apģērbs,12,understands,0
+Latvian,Male,17,apģērbs,15,produces,0.0667
+Latvian,Male,17,apģērbs,15,understands,0
+Latvian,Female,18,apģērbs,10,produces,0
+Latvian,Female,18,apģērbs,10,understands,0
+Latvian,Male,18,apģērbs,11,produces,0.0909
+Latvian,Male,18,apģērbs,11,understands,0
+Latvian,Female,19,apģērbs,18,produces,0.0556
+Latvian,Female,19,apģērbs,18,understands,0
+Latvian,Male,19,apģērbs,10,produces,0
+Latvian,Male,19,apģērbs,10,understands,0
+Latvian,Female,20,apģērbs,17,produces,0
+Latvian,Female,20,apģērbs,17,understands,0
+Latvian,Male,20,apģērbs,17,produces,0.1176
+Latvian,Male,20,apģērbs,17,understands,0
+Latvian,Female,21,apģērbs,15,produces,0.1333
+Latvian,Female,21,apģērbs,15,understands,0
+Latvian,Male,21,apģērbs,11,produces,0.2727
+Latvian,Male,21,apģērbs,11,understands,0
+Latvian,Female,22,apģērbs,16,produces,0.125
+Latvian,Female,22,apģērbs,16,understands,0
+Latvian,Male,22,apģērbs,16,produces,0.0625
+Latvian,Male,22,apģērbs,16,understands,0
+Latvian,Female,23,apģērbs,15,produces,0.4
+Latvian,Female,23,apģērbs,15,understands,0
+Latvian,Male,23,apģērbs,10,produces,0.3
+Latvian,Male,23,apģērbs,10,understands,0
+Latvian,Female,24,apģērbs,15,produces,0.2667
+Latvian,Female,24,apģērbs,15,understands,0
+Latvian,Male,24,apģērbs,15,produces,0
+Latvian,Male,24,apģērbs,15,understands,0
+Latvian,Female,25,apģērbs,16,produces,0.3125
+Latvian,Female,25,apģērbs,16,understands,0
+Latvian,Male,25,apģērbs,13,produces,0
+Latvian,Male,25,apģērbs,13,understands,0
+Latvian,Female,26,apģērbs,9,produces,0.1111
+Latvian,Female,26,apģērbs,9,understands,0
+Latvian,Male,26,apģērbs,13,produces,0.1538
+Latvian,Male,26,apģērbs,13,understands,0
+Latvian,Female,27,apģērbs,10,produces,0.2
+Latvian,Female,27,apģērbs,10,understands,0
+Latvian,Male,27,apģērbs,8,produces,0.375
+Latvian,Male,27,apģērbs,8,understands,0
+Latvian,Female,28,apģērbs,11,produces,0.3636
+Latvian,Female,28,apģērbs,11,understands,0
+Latvian,Male,28,apģērbs,12,produces,0.0833
+Latvian,Male,28,apģērbs,12,understands,0
+Latvian,Female,29,apģērbs,11,produces,0.2727
+Latvian,Female,29,apģērbs,11,understands,0
+Latvian,Male,29,apģērbs,13,produces,0.1538
+Latvian,Male,29,apģērbs,13,understands,0
+Latvian,Female,30,apģērbs,12,produces,0.4167
+Latvian,Female,30,apģērbs,12,understands,0
+Latvian,Male,30,apģērbs,14,produces,0.3571
+Latvian,Male,30,apģērbs,14,understands,0
+Latvian,Female,31,apģērbs,10,produces,0.5
+Latvian,Female,31,apģērbs,10,understands,0
+Latvian,Male,31,apģērbs,9,produces,0.2222
+Latvian,Male,31,apģērbs,9,understands,0
+Latvian,Female,32,apģērbs,13,produces,0.5385
+Latvian,Female,32,apģērbs,13,understands,0
+Latvian,Male,32,apģērbs,12,produces,0.0833
+Latvian,Male,32,apģērbs,12,understands,0
+Latvian,Female,33,apģērbs,17,produces,0.4118
+Latvian,Female,33,apģērbs,17,understands,0
+Latvian,Male,33,apģērbs,14,produces,0.2143
+Latvian,Male,33,apģērbs,14,understands,0
+Latvian,Female,34,apģērbs,10,produces,0.6
+Latvian,Female,34,apģērbs,10,understands,0
+Latvian,Male,34,apģērbs,7,produces,0.2857
+Latvian,Male,34,apģērbs,7,understands,0
+Latvian,Female,35,apģērbs,8,produces,0.5
+Latvian,Female,35,apģērbs,8,understands,0
+Latvian,Male,35,apģērbs,13,produces,0.4615
+Latvian,Male,35,apģērbs,13,understands,0
+Latvian,Female,36,apģērbs,12,produces,0.6667
+Latvian,Female,36,apģērbs,12,understands,0
+Latvian,Male,36,apģērbs,10,produces,0.4
+Latvian,Male,36,apģērbs,10,understands,0
+Mandarin (Beijing),Female,16,衣服/衣裳,35,produces,0.2
+Mandarin (Beijing),Female,16,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,16,衣服/衣裳,35,produces,0.0857
+Mandarin (Beijing),Male,16,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,17,衣服/衣裳,35,produces,0.2571
+Mandarin (Beijing),Female,17,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,17,衣服/衣裳,37,produces,0.3243
+Mandarin (Beijing),Male,17,衣服/衣裳,37,understands,0
+Mandarin (Beijing),Female,18,衣服/衣裳,35,produces,0.4286
+Mandarin (Beijing),Female,18,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,18,衣服/衣裳,36,produces,0.3611
+Mandarin (Beijing),Male,18,衣服/衣裳,36,understands,0
+Mandarin (Beijing),Female,19,衣服/衣裳,35,produces,0.5429
+Mandarin (Beijing),Female,19,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,19,衣服/衣裳,35,produces,0.4286
+Mandarin (Beijing),Male,19,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,20,衣服/衣裳,35,produces,0.7143
+Mandarin (Beijing),Female,20,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,20,衣服/衣裳,36,produces,0.5
+Mandarin (Beijing),Male,20,衣服/衣裳,36,understands,0
+Mandarin (Beijing),Female,21,衣服/衣裳,35,produces,0.7143
+Mandarin (Beijing),Female,21,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,21,衣服/衣裳,35,produces,0.6857
+Mandarin (Beijing),Male,21,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,22,衣服/衣裳,35,produces,0.8286
+Mandarin (Beijing),Female,22,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,22,衣服/衣裳,36,produces,0.7778
+Mandarin (Beijing),Male,22,衣服/衣裳,36,understands,0
+Mandarin (Beijing),Female,23,衣服/衣裳,35,produces,0.9714
+Mandarin (Beijing),Female,23,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,23,衣服/衣裳,35,produces,0.7429
+Mandarin (Beijing),Male,23,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,24,衣服/衣裳,35,produces,0.8857
+Mandarin (Beijing),Female,24,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,24,衣服/衣裳,35,produces,0.7429
+Mandarin (Beijing),Male,24,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,25,衣服/衣裳,35,produces,0.9143
+Mandarin (Beijing),Female,25,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,25,衣服/衣裳,35,produces,0.9143
+Mandarin (Beijing),Male,25,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,26,衣服/衣裳,36,produces,1
+Mandarin (Beijing),Female,26,衣服/衣裳,36,understands,0
+Mandarin (Beijing),Male,26,衣服/衣裳,35,produces,0.9143
+Mandarin (Beijing),Male,26,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,27,衣服/衣裳,35,produces,0.9429
+Mandarin (Beijing),Female,27,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,27,衣服/衣裳,35,produces,0.9429
+Mandarin (Beijing),Male,27,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,28,衣服/衣裳,35,produces,0.9714
+Mandarin (Beijing),Female,28,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,28,衣服/衣裳,35,produces,0.9714
+Mandarin (Beijing),Male,28,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,29,衣服/衣裳,35,produces,0.9714
+Mandarin (Beijing),Female,29,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,29,衣服/衣裳,35,produces,0.9714
+Mandarin (Beijing),Male,29,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Female,30,衣服/衣裳,35,produces,0.9429
+Mandarin (Beijing),Female,30,衣服/衣裳,35,understands,0
+Mandarin (Beijing),Male,30,衣服/衣裳,35,produces,1
+Mandarin (Beijing),Male,30,衣服/衣裳,35,understands,0
+Portuguese (European),Female,8,Roupa,55,produces,0.0182
+Portuguese (European),Female,8,Roupa,55,understands,0.0364
+Portuguese (European),Male,8,Roupa,71,produces,0
+Portuguese (European),Male,8,Roupa,71,understands,0.0704
+Portuguese (European),Female,9,Roupa,71,produces,0
+Portuguese (European),Female,9,Roupa,71,understands,0.0845
+Portuguese (European),Male,9,Roupa,77,produces,0
+Portuguese (European),Male,9,Roupa,77,understands,0.0519
+Portuguese (European),Female,10,Roupa,74,produces,0
+Portuguese (European),Female,10,Roupa,74,understands,0.0541
+Portuguese (European),Male,10,Roupa,94,produces,0
+Portuguese (European),Male,10,Roupa,94,understands,0.0745
+Portuguese (European),Female,11,Roupa,93,produces,0
+Portuguese (European),Female,11,Roupa,93,understands,0.1613
+Portuguese (European),Male,11,Roupa,86,produces,0
+Portuguese (European),Male,11,Roupa,86,understands,0.0698
+Portuguese (European),Female,12,Roupa,70,produces,0
+Portuguese (European),Female,12,Roupa,70,understands,0.2571
+Portuguese (European),Male,12,Roupa,89,produces,0
+Portuguese (European),Male,12,Roupa,89,understands,0.2022
+Portuguese (European),Female,13,Roupa,95,produces,0
+Portuguese (European),Female,13,Roupa,95,understands,0.2211
+Portuguese (European),Male,13,Roupa,80,produces,0
+Portuguese (European),Male,13,Roupa,80,understands,0.1375
+Portuguese (European),Female,14,Roupa,83,produces,0
+Portuguese (European),Female,14,Roupa,83,understands,0.2892
+Portuguese (European),Male,14,Roupa,100,produces,0
+Portuguese (European),Male,14,Roupa,100,understands,0.24
+Portuguese (European),Female,15,Roupa,82,produces,0
+Portuguese (European),Female,15,Roupa,82,understands,0.3537
+Portuguese (European),Male,15,Roupa,90,produces,0.0111
+Portuguese (European),Male,15,Roupa,90,understands,0.2667
+Portuguese (European),Female,16,Roupa,71,produces,0
+Portuguese (European),Female,16,Roupa,71,understands,0
+Portuguese (European),Male,16,Roupa,73,produces,0.0137
+Portuguese (European),Male,16,Roupa,73,understands,0
+Portuguese (European),Female,17,Roupa,62,produces,0.0161
+Portuguese (European),Female,17,Roupa,62,understands,0
+Portuguese (European),Male,17,Roupa,96,produces,0.0104
+Portuguese (European),Male,17,Roupa,96,understands,0
+Portuguese (European),Female,18,Roupa,102,produces,0.098
+Portuguese (European),Female,18,Roupa,102,understands,0
+Portuguese (European),Male,18,Roupa,101,produces,0.0198
+Portuguese (European),Male,18,Roupa,101,understands,0
+Portuguese (European),Female,19,Roupa,97,produces,0.0825
+Portuguese (European),Female,19,Roupa,97,understands,0
+Portuguese (European),Male,19,Roupa,99,produces,0.0404
+Portuguese (European),Male,19,Roupa,99,understands,0
+Portuguese (European),Female,20,Roupa,115,produces,0.1565
+Portuguese (European),Female,20,Roupa,115,understands,0
+Portuguese (European),Male,20,Roupa,103,produces,0.0971
+Portuguese (European),Male,20,Roupa,103,understands,0
+Portuguese (European),Female,21,Roupa,93,produces,0.2258
+Portuguese (European),Female,21,Roupa,93,understands,0
+Portuguese (European),Male,21,Roupa,115,produces,0.113
+Portuguese (European),Male,21,Roupa,115,understands,0
+Portuguese (European),Female,22,Roupa,117,produces,0.2564
+Portuguese (European),Female,22,Roupa,117,understands,0
+Portuguese (European),Male,22,Roupa,96,produces,0.2604
+Portuguese (European),Male,22,Roupa,96,understands,0
+Portuguese (European),Female,23,Roupa,94,produces,0.3511
+Portuguese (European),Female,23,Roupa,94,understands,0
+Portuguese (European),Male,23,Roupa,105,produces,0.219
+Portuguese (European),Male,23,Roupa,105,understands,0
+Portuguese (European),Female,24,Roupa,88,produces,0.5
+Portuguese (European),Female,24,Roupa,88,understands,0
+Portuguese (European),Male,24,Roupa,127,produces,0.2913
+Portuguese (European),Male,24,Roupa,127,understands,0
+Portuguese (European),Female,25,Roupa,110,produces,0.6273
+Portuguese (European),Female,25,Roupa,110,understands,0
+Portuguese (European),Male,25,Roupa,103,produces,0.4563
+Portuguese (European),Male,25,Roupa,103,understands,0
+Portuguese (European),Female,26,Roupa,96,produces,0.5938
+Portuguese (European),Female,26,Roupa,96,understands,0
+Portuguese (European),Male,26,Roupa,122,produces,0.5082
+Portuguese (European),Male,26,Roupa,122,understands,0
+Portuguese (European),Female,27,Roupa,109,produces,0.7706
+Portuguese (European),Female,27,Roupa,109,understands,0
+Portuguese (European),Male,27,Roupa,129,produces,0.5039
+Portuguese (European),Male,27,Roupa,129,understands,0
+Portuguese (European),Female,28,Roupa,91,produces,0.6484
+Portuguese (European),Female,28,Roupa,91,understands,0
+Portuguese (European),Male,28,Roupa,128,produces,0.6094
+Portuguese (European),Male,28,Roupa,128,understands,0
+Portuguese (European),Female,29,Roupa,98,produces,0.7857
+Portuguese (European),Female,29,Roupa,98,understands,0
+Portuguese (European),Male,29,Roupa,109,produces,0.5688
+Portuguese (European),Male,29,Roupa,109,understands,0
+Portuguese (European),Female,30,Roupa,81,produces,0.8025
+Portuguese (European),Female,30,Roupa,81,understands,0
+Portuguese (European),Male,30,Roupa,82,produces,0.622
+Portuguese (European),Male,30,Roupa,82,understands,0
+Russian,Female,18,одежда,24,produces,0
+Russian,Female,18,одежда,24,understands,0
+Russian,Male,18,одежда,18,produces,0
+Russian,Male,18,одежда,18,understands,0
+Russian,Female,19,одежда,22,produces,0
+Russian,Female,19,одежда,22,understands,0
+Russian,Male,19,одежда,19,produces,0
+Russian,Male,19,одежда,19,understands,0
+Russian,Female,20,одежда,18,produces,0.0556
+Russian,Female,20,одежда,18,understands,0
+Russian,Male,20,одежда,27,produces,0
+Russian,Male,20,одежда,27,understands,0
+Russian,Female,21,одежда,22,produces,0.0455
+Russian,Female,21,одежда,22,understands,0
+Russian,Male,21,одежда,21,produces,0.0952
+Russian,Male,21,одежда,21,understands,0
+Russian,Female,22,одежда,29,produces,0.1379
+Russian,Female,22,одежда,29,understands,0
+Russian,Male,22,одежда,22,produces,0
+Russian,Male,22,одежда,22,understands,0
+Russian,Female,23,одежда,37,produces,0.1892
+Russian,Female,23,одежда,37,understands,0
+Russian,Male,23,одежда,19,produces,0.0526
+Russian,Male,23,одежда,19,understands,0
+Russian,Female,24,одежда,28,produces,0.2143
+Russian,Female,24,одежда,28,understands,0
+Russian,Male,24,одежда,33,produces,0.1818
+Russian,Male,24,одежда,33,understands,0
+Russian,Female,25,одежда,39,produces,0.3846
+Russian,Female,25,одежда,39,understands,0
+Russian,Male,25,одежда,27,produces,0.0741
+Russian,Male,25,одежда,27,understands,0
+Russian,Female,26,одежда,26,produces,0.2308
+Russian,Female,26,одежда,26,understands,0
+Russian,Male,26,одежда,26,produces,0.1538
+Russian,Male,26,одежда,26,understands,0
+Russian,Female,27,одежда,37,produces,0.3514
+Russian,Female,27,одежда,37,understands,0
+Russian,Male,27,одежда,23,produces,0.3043
+Russian,Male,27,одежда,23,understands,0
+Russian,Female,28,одежда,28,produces,0.5357
+Russian,Female,28,одежда,28,understands,0
+Russian,Male,28,одежда,32,produces,0.3125
+Russian,Male,28,одежда,32,understands,0
+Russian,Female,29,одежда,30,produces,0.6
+Russian,Female,29,одежда,30,understands,0
+Russian,Male,29,одежда,27,produces,0.3704
+Russian,Male,29,одежда,27,understands,0
+Russian,Female,30,одежда,42,produces,0.4762
+Russian,Female,30,одежда,42,understands,0
+Russian,Male,30,одежда,35,produces,0.4
+Russian,Male,30,одежда,35,understands,0
+Russian,Female,31,одежда,32,produces,0.625
+Russian,Female,31,одежда,32,understands,0
+Russian,Male,31,одежда,29,produces,0.4828
+Russian,Male,31,одежда,29,understands,0
+Russian,Female,32,одежда,29,produces,0.6552
+Russian,Female,32,одежда,29,understands,0
+Russian,Male,32,одежда,26,produces,0.5769
+Russian,Male,32,одежда,26,understands,0
+Russian,Female,33,одежда,27,produces,0.6667
+Russian,Female,33,одежда,27,understands,0
+Russian,Male,33,одежда,28,produces,0.6071
+Russian,Male,33,одежда,28,understands,0
+Russian,Female,34,одежда,31,produces,0.7419
+Russian,Female,34,одежда,31,understands,0
+Russian,Male,34,одежда,27,produces,0.4815
+Russian,Male,34,одежда,27,understands,0
+Russian,Female,35,одежда,22,produces,0.7273
+Russian,Female,35,одежда,22,understands,0
+Russian,Male,35,одежда,25,produces,0.56
+Russian,Male,35,одежда,25,understands,0
+Russian,Female,36,одежда,27,produces,0.7778
+Russian,Female,36,одежда,27,understands,0
+Russian,Male,36,одежда,22,produces,0.7727
+Russian,Male,36,одежда,22,understands,0
+Slovak,Female,17,oblečenie,39,produces,0.0513
+Slovak,Female,17,oblečenie,39,understands,0
+Slovak,Male,17,oblečenie,31,produces,0.0323
+Slovak,Male,17,oblečenie,31,understands,0
+Slovak,Female,18,oblečenie,30,produces,0.1
+Slovak,Female,18,oblečenie,30,understands,0
+Slovak,Male,18,oblečenie,35,produces,0.0857
+Slovak,Male,18,oblečenie,35,understands,0
+Slovak,Female,19,oblečenie,30,produces,0.1333
+Slovak,Female,19,oblečenie,30,understands,0
+Slovak,Male,19,oblečenie,26,produces,0
+Slovak,Male,19,oblečenie,26,understands,0
+Slovak,Female,20,oblečenie,33,produces,0.1818
+Slovak,Female,20,oblečenie,33,understands,0
+Slovak,Male,20,oblečenie,29,produces,0.1379
+Slovak,Male,20,oblečenie,29,understands,0
+Slovak,Female,21,oblečenie,40,produces,0.25
+Slovak,Female,21,oblečenie,40,understands,0
+Slovak,Male,21,oblečenie,41,produces,0.1707
+Slovak,Male,21,oblečenie,41,understands,0
+Slovak,Female,22,oblečenie,27,produces,0.2593
+Slovak,Female,22,oblečenie,27,understands,0
+Slovak,Male,22,oblečenie,26,produces,0.1923
+Slovak,Male,22,oblečenie,26,understands,0
+Slovak,Female,23,oblečenie,28,produces,0.3929
+Slovak,Female,23,oblečenie,28,understands,0
+Slovak,Male,23,oblečenie,31,produces,0.1935
+Slovak,Male,23,oblečenie,31,understands,0
+Slovak,Female,24,oblečenie,28,produces,0.6071
+Slovak,Female,24,oblečenie,28,understands,0
+Slovak,Male,24,oblečenie,31,produces,0.2581
+Slovak,Male,24,oblečenie,31,understands,0
+Slovak,Female,25,oblečenie,35,produces,0.4
+Slovak,Female,25,oblečenie,35,understands,0
+Slovak,Male,25,oblečenie,34,produces,0.4118
+Slovak,Male,25,oblečenie,34,understands,0
+Slovak,Female,26,oblečenie,43,produces,0.6977
+Slovak,Female,26,oblečenie,43,understands,0
+Slovak,Male,26,oblečenie,35,produces,0.6
+Slovak,Male,26,oblečenie,35,understands,0
+Slovak,Female,27,oblečenie,33,produces,0.6667
+Slovak,Female,27,oblečenie,33,understands,0
+Slovak,Male,27,oblečenie,29,produces,0.5517
+Slovak,Male,27,oblečenie,29,understands,0
+Slovak,Female,28,oblečenie,48,produces,0.5
+Slovak,Female,28,oblečenie,48,understands,0
+Slovak,Male,28,oblečenie,38,produces,0.6053
+Slovak,Male,28,oblečenie,38,understands,0
+Slovak,Female,29,oblečenie,36,produces,0.6944
+Slovak,Female,29,oblečenie,36,understands,0
+Slovak,Male,29,oblečenie,39,produces,0.5641
+Slovak,Male,29,oblečenie,39,understands,0
+Slovak,Female,30,oblečenie,19,produces,0.6842
+Slovak,Female,30,oblečenie,19,understands,0
+Slovak,Male,30,oblečenie,30,produces,0.6
+Slovak,Male,30,oblečenie,30,understands,0
+Slovak,Female,31,oblečenie,16,produces,0.625
+Slovak,Female,31,oblečenie,16,understands,0
+Slovak,Male,31,oblečenie,13,produces,0.7692
+Slovak,Male,31,oblečenie,13,understands,0
+Slovak,Female,32,oblečenie,12,produces,0.9167
+Slovak,Female,32,oblečenie,12,understands,0
+Slovak,Male,32,oblečenie,13,produces,0.6923
+Slovak,Male,32,oblečenie,13,understands,0
+Slovak,Female,33,oblečenie,12,produces,1
+Slovak,Female,33,oblečenie,12,understands,0
+Slovak,Male,33,oblečenie,10,produces,0.8
+Slovak,Male,33,oblečenie,10,understands,0
+Slovak,Female,34,oblečenie,17,produces,0.7647
+Slovak,Female,34,oblečenie,17,understands,0
+Slovak,Male,34,oblečenie,10,produces,0.8
+Slovak,Male,34,oblečenie,10,understands,0
+Slovak,Female,35,oblečenie,9,produces,1
+Slovak,Female,35,oblečenie,9,understands,0
+Slovak,Male,35,oblečenie,18,produces,0.7222
+Slovak,Male,35,oblečenie,18,understands,0
+Slovak,Female,36,oblečenie,2,produces,1
+Slovak,Female,36,oblečenie,2,understands,0
+Slovak,Male,36,oblečenie,6,produces,0.8333
+Slovak,Male,36,oblečenie,6,understands,0
+Spanish (Argentinian),Female,16,ropa,30,produces,0.2333
+Spanish (Argentinian),Female,16,ropa,30,understands,0
+Spanish (Argentinian),Male,16,ropa,17,produces,0
+Spanish (Argentinian),Male,16,ropa,17,understands,0
+Spanish (Argentinian),Female,17,ropa,20,produces,0.1
+Spanish (Argentinian),Female,17,ropa,20,understands,0
+Spanish (Argentinian),Male,17,ropa,29,produces,0.1724
+Spanish (Argentinian),Male,17,ropa,29,understands,0
+Spanish (Argentinian),Female,18,ropa,43,produces,0.093
+Spanish (Argentinian),Female,18,ropa,43,understands,0
+Spanish (Argentinian),Male,18,ropa,19,produces,0.0526
+Spanish (Argentinian),Male,18,ropa,19,understands,0
+Spanish (Argentinian),Female,19,ropa,25,produces,0.12
+Spanish (Argentinian),Female,19,ropa,25,understands,0
+Spanish (Argentinian),Male,19,ropa,19,produces,0.1579
+Spanish (Argentinian),Male,19,ropa,19,understands,0
+Spanish (Argentinian),Female,20,ropa,22,produces,0.1818
+Spanish (Argentinian),Female,20,ropa,22,understands,0
+Spanish (Argentinian),Male,20,ropa,24,produces,0.25
+Spanish (Argentinian),Male,20,ropa,24,understands,0
+Spanish (Argentinian),Female,21,ropa,15,produces,0.2
+Spanish (Argentinian),Female,21,ropa,15,understands,0
+Spanish (Argentinian),Male,21,ropa,26,produces,0.2692
+Spanish (Argentinian),Male,21,ropa,26,understands,0
+Spanish (Argentinian),Female,22,ropa,25,produces,0.32
+Spanish (Argentinian),Female,22,ropa,25,understands,0
+Spanish (Argentinian),Male,22,ropa,32,produces,0.3438
+Spanish (Argentinian),Male,22,ropa,32,understands,0
+Spanish (Argentinian),Female,23,ropa,30,produces,0.5
+Spanish (Argentinian),Female,23,ropa,30,understands,0
+Spanish (Argentinian),Male,23,ropa,19,produces,0.2632
+Spanish (Argentinian),Male,23,ropa,19,understands,0
+Spanish (Argentinian),Female,24,ropa,44,produces,0.4545
+Spanish (Argentinian),Female,24,ropa,44,understands,0
+Spanish (Argentinian),Male,24,ropa,31,produces,0.3226
+Spanish (Argentinian),Male,24,ropa,31,understands,0
+Spanish (Argentinian),Female,25,ropa,24,produces,0.375
+Spanish (Argentinian),Female,25,ropa,24,understands,0
+Spanish (Argentinian),Male,25,ropa,19,produces,0.4211
+Spanish (Argentinian),Male,25,ropa,19,understands,0
+Spanish (Argentinian),Female,26,ropa,17,produces,0.5294
+Spanish (Argentinian),Female,26,ropa,17,understands,0
+Spanish (Argentinian),Male,26,ropa,28,produces,0.3214
+Spanish (Argentinian),Male,26,ropa,28,understands,0
+Spanish (Argentinian),Female,27,ropa,18,produces,0.4444
+Spanish (Argentinian),Female,27,ropa,18,understands,0
+Spanish (Argentinian),Male,27,ropa,26,produces,0.4231
+Spanish (Argentinian),Male,27,ropa,26,understands,0
+Spanish (Argentinian),Female,28,ropa,18,produces,0.7222
+Spanish (Argentinian),Female,28,ropa,18,understands,0
+Spanish (Argentinian),Male,28,ropa,24,produces,0.4167
+Spanish (Argentinian),Male,28,ropa,24,understands,0
+Spanish (Argentinian),Female,29,ropa,36,produces,0.6111
+Spanish (Argentinian),Female,29,ropa,36,understands,0
+Spanish (Argentinian),Male,29,ropa,29,produces,0.5517
+Spanish (Argentinian),Male,29,ropa,29,understands,0
+Spanish (Argentinian),Female,30,ropa,31,produces,0.7419
+Spanish (Argentinian),Female,30,ropa,31,understands,0
+Spanish (Argentinian),Male,30,ropa,38,produces,0.7368
+Spanish (Argentinian),Male,30,ropa,38,understands,0
+Spanish (Argentinian),Female,31,ropa,1,produces,0
+Spanish (Argentinian),Female,31,ropa,1,understands,0
+Spanish (Argentinian),Male,31,ropa,1,produces,1
+Spanish (Argentinian),Male,31,ropa,1,understands,0
+Spanish (Argentinian),Female,32,ropa,1,produces,1
+Spanish (Argentinian),Female,32,ropa,1,understands,0
+Spanish (Argentinian),Male,33,ropa,2,produces,0.5
+Spanish (Argentinian),Male,33,ropa,2,understands,0
+Spanish (European),Female,8,ropa,30,produces,0
+Spanish (European),Female,8,ropa,30,understands,0
+Spanish (European),Male,8,ropa,22,produces,0
+Spanish (European),Male,8,ropa,22,understands,0
+Spanish (European),Female,9,ropa,25,produces,0
+Spanish (European),Female,9,ropa,25,understands,0.16
+Spanish (European),Male,9,ropa,20,produces,0
+Spanish (European),Male,9,ropa,20,understands,0.1
+Spanish (European),Female,10,ropa,31,produces,0
+Spanish (European),Female,10,ropa,31,understands,0
+Spanish (European),Male,10,ropa,18,produces,0
+Spanish (European),Male,10,ropa,18,understands,0
+Spanish (European),Female,11,ropa,19,produces,0
+Spanish (European),Female,11,ropa,19,understands,0.1053
+Spanish (European),Male,11,ropa,17,produces,0
+Spanish (European),Male,11,ropa,17,understands,0.1765
+Spanish (European),Female,12,ropa,28,produces,0
+Spanish (European),Female,12,ropa,28,understands,0.0714
+Spanish (European),Male,12,ropa,24,produces,0
+Spanish (European),Male,12,ropa,24,understands,0.0833
+Spanish (European),Female,13,ropa,29,produces,0
+Spanish (European),Female,13,ropa,29,understands,0.2414
+Spanish (European),Male,13,ropa,29,produces,0
+Spanish (European),Male,13,ropa,29,understands,0.1724
+Spanish (European),Female,14,ropa,29,produces,0.069
+Spanish (European),Female,14,ropa,29,understands,0.3448
+Spanish (European),Male,14,ropa,26,produces,0
+Spanish (European),Male,14,ropa,26,understands,0.3077
+Spanish (European),Female,15,ropa,32,produces,0.0312
+Spanish (European),Female,15,ropa,32,understands,0.5
+Spanish (European),Male,15,ropa,33,produces,0.0303
+Spanish (European),Male,15,ropa,33,understands,0.3636
+Spanish (European),Female,16,ropa,19,produces,0
+Spanish (European),Female,16,ropa,19,understands,0
+Spanish (European),Male,16,ropa,20,produces,0.05
+Spanish (European),Male,16,ropa,20,understands,0
+Spanish (European),Female,17,ropa,21,produces,0.0476
+Spanish (European),Female,17,ropa,21,understands,0
+Spanish (European),Male,17,ropa,18,produces,0
+Spanish (European),Male,17,ropa,18,understands,0
+Spanish (European),Female,18,ropa,27,produces,0
+Spanish (European),Female,18,ropa,27,understands,0
+Spanish (European),Male,18,ropa,23,produces,0
+Spanish (European),Male,18,ropa,23,understands,0
+Spanish (European),Female,19,ropa,16,produces,0.125
+Spanish (European),Female,19,ropa,16,understands,0
+Spanish (European),Male,19,ropa,11,produces,0
+Spanish (European),Male,19,ropa,11,understands,0
+Spanish (European),Female,20,ropa,17,produces,0.1176
+Spanish (European),Female,20,ropa,17,understands,0
+Spanish (European),Male,20,ropa,19,produces,0.1053
+Spanish (European),Male,20,ropa,19,understands,0
+Spanish (European),Female,21,ropa,23,produces,0.2609
+Spanish (European),Female,21,ropa,23,understands,0
+Spanish (European),Male,21,ropa,18,produces,0
+Spanish (European),Male,21,ropa,18,understands,0
+Spanish (European),Female,22,ropa,18,produces,0.2222
+Spanish (European),Female,22,ropa,18,understands,0
+Spanish (European),Male,22,ropa,20,produces,0.15
+Spanish (European),Male,22,ropa,20,understands,0
+Spanish (European),Female,23,ropa,15,produces,0.2667
+Spanish (European),Female,23,ropa,15,understands,0
+Spanish (European),Male,23,ropa,15,produces,0.4
+Spanish (European),Male,23,ropa,15,understands,0
+Spanish (European),Female,24,ropa,31,produces,0.4839
+Spanish (European),Female,24,ropa,31,understands,0
+Spanish (European),Male,24,ropa,24,produces,0.2083
+Spanish (European),Male,24,ropa,24,understands,0
+Spanish (European),Female,25,ropa,16,produces,0.5
+Spanish (European),Female,25,ropa,16,understands,0
+Spanish (European),Male,25,ropa,19,produces,0.1579
+Spanish (European),Male,25,ropa,19,understands,0
+Spanish (European),Female,26,ropa,22,produces,0.5
+Spanish (European),Female,26,ropa,22,understands,0
+Spanish (European),Male,26,ropa,27,produces,0.5185
+Spanish (European),Male,26,ropa,27,understands,0
+Spanish (European),Female,27,ropa,16,produces,0.6875
+Spanish (European),Female,27,ropa,16,understands,0
+Spanish (European),Male,27,ropa,18,produces,0.6667
+Spanish (European),Male,27,ropa,18,understands,0
+Spanish (European),Female,28,ropa,20,produces,0.55
+Spanish (European),Female,28,ropa,20,understands,0
+Spanish (European),Male,28,ropa,18,produces,0.5556
+Spanish (European),Male,28,ropa,18,understands,0
+Spanish (European),Female,29,ropa,18,produces,0.9444
+Spanish (European),Female,29,ropa,18,understands,0
+Spanish (European),Male,29,ropa,23,produces,0.6087
+Spanish (European),Male,29,ropa,23,understands,0
+Spanish (European),Female,30,ropa,17,produces,0.7059
+Spanish (European),Female,30,ropa,17,understands,0
+Spanish (European),Male,30,ropa,24,produces,0.7083
+Spanish (European),Male,30,ropa,24,understands,0
+Spanish (Mexican),Female,16,ropa,34,produces,0.2059
+Spanish (Mexican),Female,16,ropa,34,understands,0
+Spanish (Mexican),Male,16,ropa,34,produces,0.0588
+Spanish (Mexican),Male,16,ropa,34,understands,0
+Spanish (Mexican),Female,17,ropa,34,produces,0.1176
+Spanish (Mexican),Female,17,ropa,34,understands,0
+Spanish (Mexican),Male,17,ropa,25,produces,0.08
+Spanish (Mexican),Male,17,ropa,25,understands,0
+Spanish (Mexican),Female,18,ropa,35,produces,0.1714
+Spanish (Mexican),Female,18,ropa,35,understands,0
+Spanish (Mexican),Male,18,ropa,40,produces,0.2
+Spanish (Mexican),Male,18,ropa,40,understands,0
+Spanish (Mexican),Female,19,ropa,47,produces,0.4043
+Spanish (Mexican),Female,19,ropa,47,understands,0
+Spanish (Mexican),Male,19,ropa,53,produces,0.283
+Spanish (Mexican),Male,19,ropa,53,understands,0
+Spanish (Mexican),Female,20,ropa,53,produces,0.4151
+Spanish (Mexican),Female,20,ropa,53,understands,0
+Spanish (Mexican),Male,20,ropa,54,produces,0.1852
+Spanish (Mexican),Male,20,ropa,54,understands,0
+Spanish (Mexican),Female,21,ropa,37,produces,0.3784
+Spanish (Mexican),Female,21,ropa,37,understands,0
+Spanish (Mexican),Male,21,ropa,47,produces,0.3191
+Spanish (Mexican),Male,21,ropa,47,understands,0
+Spanish (Mexican),Female,22,ropa,64,produces,0.2188
+Spanish (Mexican),Female,22,ropa,64,understands,0
+Spanish (Mexican),Male,22,ropa,67,produces,0.3582
+Spanish (Mexican),Male,22,ropa,67,understands,0
+Spanish (Mexican),Female,23,ropa,49,produces,0.3265
+Spanish (Mexican),Female,23,ropa,49,understands,0
+Spanish (Mexican),Male,23,ropa,42,produces,0.3333
+Spanish (Mexican),Male,23,ropa,42,understands,0
+Spanish (Mexican),Female,24,ropa,63,produces,0.5556
+Spanish (Mexican),Female,24,ropa,63,understands,0
+Spanish (Mexican),Male,24,ropa,63,produces,0.4444
+Spanish (Mexican),Male,24,ropa,63,understands,0
+Spanish (Mexican),Female,25,ropa,78,produces,0.4231
+Spanish (Mexican),Female,25,ropa,78,understands,0
+Spanish (Mexican),Male,25,ropa,89,produces,0.4607
+Spanish (Mexican),Male,25,ropa,89,understands,0
+Spanish (Mexican),Female,26,ropa,38,produces,0.6316
+Spanish (Mexican),Female,26,ropa,38,understands,0
+Spanish (Mexican),Male,26,ropa,45,produces,0.5556
+Spanish (Mexican),Male,26,ropa,45,understands,0
+Spanish (Mexican),Female,27,ropa,45,produces,0.7333
+Spanish (Mexican),Female,27,ropa,45,understands,0
+Spanish (Mexican),Male,27,ropa,40,produces,0.8
+Spanish (Mexican),Male,27,ropa,40,understands,0
+Spanish (Mexican),Female,28,ropa,44,produces,0.8636
+Spanish (Mexican),Female,28,ropa,44,understands,0
+Spanish (Mexican),Male,28,ropa,45,produces,0.4889
+Spanish (Mexican),Male,28,ropa,45,understands,0
+Spanish (Mexican),Female,29,ropa,51,produces,0.8039
+Spanish (Mexican),Female,29,ropa,51,understands,0
+Spanish (Mexican),Male,29,ropa,38,produces,0.6053
+Spanish (Mexican),Male,29,ropa,38,understands,0
+Spanish (Mexican),Female,30,ropa,146,produces,0.6164
+Spanish (Mexican),Female,30,ropa,146,understands,0
+Spanish (Mexican),Male,30,ropa,152,produces,0.5592
+Spanish (Mexican),Male,30,ropa,152,understands,0
+Spanish (Peruvian),Female,8,ropa,6,produces,0
+Spanish (Peruvian),Female,8,ropa,6,understands,0.1667
+Spanish (Peruvian),Male,8,ropa,3,produces,0
+Spanish (Peruvian),Male,8,ropa,3,understands,0.6667
+Spanish (Peruvian),Female,9,ropa,8,produces,0
+Spanish (Peruvian),Female,9,ropa,8,understands,0.375
+Spanish (Peruvian),Male,9,ropa,4,produces,0
+Spanish (Peruvian),Male,9,ropa,4,understands,0.25
+Spanish (Peruvian),Female,10,ropa,4,produces,0
+Spanish (Peruvian),Female,10,ropa,4,understands,0.75
+Spanish (Peruvian),Male,10,ropa,3,produces,0
+Spanish (Peruvian),Male,10,ropa,3,understands,0
+Spanish (Peruvian),Female,11,ropa,12,produces,0
+Spanish (Peruvian),Female,11,ropa,12,understands,0.5
+Spanish (Peruvian),Male,11,ropa,6,produces,0
+Spanish (Peruvian),Male,11,ropa,6,understands,0.3333
+Spanish (Peruvian),Female,12,ropa,7,produces,0
+Spanish (Peruvian),Female,12,ropa,7,understands,0.1429
+Spanish (Peruvian),Male,12,ropa,7,produces,0
+Spanish (Peruvian),Male,12,ropa,7,understands,0.7143
+Spanish (Peruvian),Female,13,ropa,2,produces,0
+Spanish (Peruvian),Female,13,ropa,2,understands,1
+Spanish (Peruvian),Male,13,ropa,7,produces,0
+Spanish (Peruvian),Male,13,ropa,7,understands,0.4286
+Spanish (Peruvian),Female,14,ropa,3,produces,0
+Spanish (Peruvian),Female,14,ropa,3,understands,0
+Spanish (Peruvian),Male,14,ropa,5,produces,0
+Spanish (Peruvian),Male,14,ropa,5,understands,0.6
+Spanish (Peruvian),Female,15,ropa,4,produces,0
+Spanish (Peruvian),Female,15,ropa,4,understands,0.5
+Spanish (Peruvian),Male,15,ropa,6,produces,0
+Spanish (Peruvian),Male,15,ropa,6,understands,0.3333
+Spanish (Peruvian),Female,16,ropa,6,produces,0.1667
+Spanish (Peruvian),Female,16,ropa,6,understands,0
+Spanish (Peruvian),Male,16,ropa,7,produces,0
+Spanish (Peruvian),Male,16,ropa,7,understands,0
+Spanish (Peruvian),Female,17,ropa,5,produces,0.4
+Spanish (Peruvian),Female,17,ropa,5,understands,0
+Spanish (Peruvian),Male,17,ropa,4,produces,0.25
+Spanish (Peruvian),Male,17,ropa,4,understands,0
+Spanish (Peruvian),Female,18,ropa,4,produces,0.25
+Spanish (Peruvian),Female,18,ropa,4,understands,0
+Spanish (Peruvian),Female,19,ropa,3,produces,0.3333
+Spanish (Peruvian),Female,19,ropa,3,understands,0
+Spanish (Peruvian),Male,19,ropa,9,produces,0.5556
+Spanish (Peruvian),Male,19,ropa,9,understands,0
+Spanish (Peruvian),Male,20,ropa,1,produces,0
+Spanish (Peruvian),Male,20,ropa,1,understands,0
+Spanish (Peruvian),Female,21,ropa,3,produces,0.6667
+Spanish (Peruvian),Female,21,ropa,3,understands,0
+Spanish (Peruvian),Male,21,ropa,2,produces,0.5
+Spanish (Peruvian),Male,21,ropa,2,understands,0
+Spanish (Peruvian),Female,22,ropa,4,produces,0.25
+Spanish (Peruvian),Female,22,ropa,4,understands,0
+Spanish (Peruvian),Male,22,ropa,5,produces,0.2
+Spanish (Peruvian),Male,22,ropa,5,understands,0
+Spanish (Peruvian),Female,23,ropa,1,produces,1
+Spanish (Peruvian),Female,23,ropa,1,understands,0
+Spanish (Peruvian),Female,24,ropa,7,produces,0.2857
+Spanish (Peruvian),Female,24,ropa,7,understands,0
+Spanish (Peruvian),Male,24,ropa,8,produces,0.125
+Spanish (Peruvian),Male,24,ropa,8,understands,0
+Spanish (Peruvian),Female,25,ropa,2,produces,0
+Spanish (Peruvian),Female,25,ropa,2,understands,0
+Spanish (Peruvian),Male,25,ropa,3,produces,0
+Spanish (Peruvian),Male,25,ropa,3,understands,0
+Spanish (Peruvian),Female,26,ropa,3,produces,0
+Spanish (Peruvian),Female,26,ropa,3,understands,0
+Spanish (Peruvian),Male,26,ropa,5,produces,0.4
+Spanish (Peruvian),Male,26,ropa,5,understands,0
+Spanish (Peruvian),Female,27,ropa,3,produces,0
+Spanish (Peruvian),Female,27,ropa,3,understands,0
+Spanish (Peruvian),Male,27,ropa,4,produces,0.5
+Spanish (Peruvian),Male,27,ropa,4,understands,0
+Spanish (Peruvian),Female,28,ropa,3,produces,0.6667
+Spanish (Peruvian),Female,28,ropa,3,understands,0
+Spanish (Peruvian),Male,28,ropa,5,produces,0.6
+Spanish (Peruvian),Male,28,ropa,5,understands,0
+Spanish (Peruvian),Female,29,ropa,1,produces,1
+Spanish (Peruvian),Female,29,ropa,1,understands,0
+Spanish (Peruvian),Male,29,ropa,5,produces,0.6
+Spanish (Peruvian),Male,29,ropa,5,understands,0
+Spanish (Peruvian),Female,30,ropa,1,produces,0
+Spanish (Peruvian),Female,30,ropa,1,understands,0
+Spanish (Peruvian),Male,30,ropa,1,produces,1
+Spanish (Peruvian),Male,30,ropa,1,understands,0
+Swedish,Female,16,kläder,90,produces,0.0222
+Swedish,Female,16,kläder,90,understands,0
+Swedish,Male,16,kläder,66,produces,0
+Swedish,Male,16,kläder,66,understands,0
+Swedish,Female,19,kläder,85,produces,0.1765
+Swedish,Female,19,kläder,85,understands,0
+Swedish,Male,19,kläder,65,produces,0.0923
+Swedish,Male,19,kläder,65,understands,0
+Swedish,Female,22,kläder,162,produces,0.4198
+Swedish,Female,22,kläder,162,understands,0
+Swedish,Male,22,kläder,143,produces,0.2727
+Swedish,Male,22,kläder,143,understands,0
+Swedish,Female,25,kläder,67,produces,0.6716
+Swedish,Female,25,kläder,67,understands,0
+Swedish,Male,25,kläder,76,produces,0.5
+Swedish,Male,25,kläder,76,understands,0
+Swedish,Female,28,kläder,69,produces,0.8406
+Swedish,Female,28,kläder,69,understands,0
+Swedish,Male,28,kläder,70,produces,0.7143
+Swedish,Male,28,kläder,70,understands,0

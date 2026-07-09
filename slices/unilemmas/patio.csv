@@ -1,103 +1,307 @@
-language,age,words,n,measure,prop
-Spanish (Mexican),16,patio (outside),68,produces,0.1029
-Spanish (Mexican),16,patio (outside),68,understands,0
-Spanish (Mexican),17,patio (outside),59,produces,0.1186
-Spanish (Mexican),17,patio (outside),59,understands,0
-Spanish (Mexican),18,patio (outside),75,produces,0.0933
-Spanish (Mexican),18,patio (outside),75,understands,0
-Spanish (Mexican),19,patio (outside),100,produces,0.23
-Spanish (Mexican),19,patio (outside),100,understands,0
-Spanish (Mexican),20,patio (outside),107,produces,0.2056
-Spanish (Mexican),20,patio (outside),107,understands,0
-Spanish (Mexican),21,patio (outside),84,produces,0.2143
-Spanish (Mexican),21,patio (outside),84,understands,0
-Spanish (Mexican),22,patio (outside),141,produces,0.1844
-Spanish (Mexican),22,patio (outside),141,understands,0
-Spanish (Mexican),23,patio (outside),91,produces,0.2198
-Spanish (Mexican),23,patio (outside),91,understands,0
-Spanish (Mexican),24,patio (outside),126,produces,0.3571
-Spanish (Mexican),24,patio (outside),126,understands,0
-Spanish (Mexican),25,patio (outside),177,produces,0.2655
-Spanish (Mexican),25,patio (outside),177,understands,0
-Spanish (Mexican),26,patio (outside),83,produces,0.4096
-Spanish (Mexican),26,patio (outside),83,understands,0
-Spanish (Mexican),27,patio (outside),85,produces,0.5294
-Spanish (Mexican),27,patio (outside),85,understands,0
-Spanish (Mexican),28,patio (outside),89,produces,0.5843
-Spanish (Mexican),28,patio (outside),89,understands,0
-Spanish (Mexican),29,patio (outside),89,produces,0.5281
-Spanish (Mexican),29,patio (outside),89,understands,0
-Spanish (Mexican),30,patio (outside),308,produces,0.25
-Spanish (Mexican),30,patio (outside),308,understands,0
-Catalan,8,pati,39,produces,0
-Catalan,8,pati,39,understands,0
-Catalan,9,pati,46,produces,0
-Catalan,9,pati,46,understands,0.0435
-Catalan,10,pati,43,produces,0
-Catalan,10,pati,43,understands,0
-Catalan,11,pati,43,produces,0
-Catalan,11,pati,43,understands,0
-Catalan,12,pati,59,produces,0
-Catalan,12,pati,59,understands,0.0508
-Catalan,13,pati,44,produces,0
-Catalan,13,pati,44,understands,0.1364
-Catalan,14,pati,60,produces,0.0167
-Catalan,14,pati,60,understands,0.1833
-Catalan,15,pati,70,produces,0.0143
-Catalan,15,pati,70,understands,0.3571
-Catalan,16,pati,73,produces,0.0137
-Catalan,16,pati,73,understands,0.2877
-Catalan,17,pati,110,produces,0.0545
-Catalan,17,pati,110,understands,0.3455
-Catalan,18,pati,102,produces,0.0784
-Catalan,18,pati,102,understands,0.2941
-Catalan,19,pati,45,produces,0.0889
-Catalan,19,pati,45,understands,0
-Catalan,20,pati,56,produces,0.1429
-Catalan,20,pati,56,understands,0
-Catalan,21,pati,58,produces,0.2586
-Catalan,21,pati,58,understands,0
-Catalan,22,pati,50,produces,0.42
-Catalan,22,pati,50,understands,0
-Catalan,23,pati,66,produces,0.3939
-Catalan,23,pati,66,understands,0
-Catalan,24,pati,79,produces,0.5823
-Catalan,24,pati,79,understands,0
-Catalan,25,pati,60,produces,0.5833
-Catalan,25,pati,60,understands,0
-Catalan,26,pati,65,produces,0.7077
-Catalan,26,pati,65,understands,0
-Catalan,27,pati,63,produces,0.6825
-Catalan,27,pati,63,understands,0
-Catalan,28,pati,81,produces,0.679
-Catalan,28,pati,81,understands,0
-Catalan,29,pati,50,produces,0.76
-Catalan,29,pati,50,understands,0
-Catalan,30,pati,75,produces,0.7467
-Catalan,30,pati,75,understands,0
-German,18,Terasse,85,produces,0
-German,18,Terasse,85,understands,0
-German,19,Terasse,79,produces,0.038
-German,19,Terasse,79,understands,0
-German,20,Terasse,96,produces,0.0312
-German,20,Terasse,96,understands,0
-German,21,Terasse,77,produces,0.039
-German,21,Terasse,77,understands,0
-German,22,Terasse,95,produces,0.0421
-German,22,Terasse,95,understands,0
-German,23,Terasse,95,produces,0.0842
-German,23,Terasse,95,understands,0
-German,24,Terasse,103,produces,0.0971
-German,24,Terasse,103,understands,0
-German,25,Terasse,95,produces,0.1684
-German,25,Terasse,95,understands,0
-German,26,Terasse,92,produces,0.25
-German,26,Terasse,92,understands,0
-German,27,Terasse,89,produces,0.2135
-German,27,Terasse,89,understands,0
-German,28,Terasse,93,produces,0.2581
-German,28,Terasse,93,understands,0
-German,29,Terasse,89,produces,0.3371
-German,29,Terasse,89,understands,0
-German,30,Terasse,93,produces,0.5269
-German,30,Terasse,93,understands,0
+language,sex,age,words,n,measure,prop
+Catalan,All,8,pati,39,produces,0
+Catalan,All,8,pati,39,understands,0
+Catalan,All,9,pati,46,produces,0
+Catalan,All,9,pati,46,understands,0.0435
+Catalan,All,10,pati,43,produces,0
+Catalan,All,10,pati,43,understands,0
+Catalan,All,11,pati,43,produces,0
+Catalan,All,11,pati,43,understands,0
+Catalan,All,12,pati,59,produces,0
+Catalan,All,12,pati,59,understands,0.0508
+Catalan,All,13,pati,44,produces,0
+Catalan,All,13,pati,44,understands,0.1364
+Catalan,All,14,pati,60,produces,0.0167
+Catalan,All,14,pati,60,understands,0.1833
+Catalan,All,15,pati,70,produces,0.0143
+Catalan,All,15,pati,70,understands,0.3571
+Catalan,All,16,pati,73,produces,0.0137
+Catalan,All,16,pati,73,understands,0.2877
+Catalan,All,17,pati,110,produces,0.0545
+Catalan,All,17,pati,110,understands,0.3455
+Catalan,All,18,pati,102,produces,0.0784
+Catalan,All,18,pati,102,understands,0.2941
+Catalan,All,19,pati,45,produces,0.0889
+Catalan,All,19,pati,45,understands,0
+Catalan,All,20,pati,56,produces,0.1429
+Catalan,All,20,pati,56,understands,0
+Catalan,All,21,pati,58,produces,0.2586
+Catalan,All,21,pati,58,understands,0
+Catalan,All,22,pati,50,produces,0.42
+Catalan,All,22,pati,50,understands,0
+Catalan,All,23,pati,66,produces,0.3939
+Catalan,All,23,pati,66,understands,0
+Catalan,All,24,pati,79,produces,0.5823
+Catalan,All,24,pati,79,understands,0
+Catalan,All,25,pati,60,produces,0.5833
+Catalan,All,25,pati,60,understands,0
+Catalan,All,26,pati,65,produces,0.7077
+Catalan,All,26,pati,65,understands,0
+Catalan,All,27,pati,63,produces,0.6825
+Catalan,All,27,pati,63,understands,0
+Catalan,All,28,pati,81,produces,0.679
+Catalan,All,28,pati,81,understands,0
+Catalan,All,29,pati,50,produces,0.76
+Catalan,All,29,pati,50,understands,0
+Catalan,All,30,pati,75,produces,0.7467
+Catalan,All,30,pati,75,understands,0
+German,All,18,Terasse,85,produces,0
+German,All,18,Terasse,85,understands,0
+German,All,19,Terasse,79,produces,0.038
+German,All,19,Terasse,79,understands,0
+German,All,20,Terasse,96,produces,0.0312
+German,All,20,Terasse,96,understands,0
+German,All,21,Terasse,77,produces,0.039
+German,All,21,Terasse,77,understands,0
+German,All,22,Terasse,95,produces,0.0421
+German,All,22,Terasse,95,understands,0
+German,All,23,Terasse,95,produces,0.0842
+German,All,23,Terasse,95,understands,0
+German,All,24,Terasse,103,produces,0.0971
+German,All,24,Terasse,103,understands,0
+German,All,25,Terasse,95,produces,0.1684
+German,All,25,Terasse,95,understands,0
+German,All,26,Terasse,92,produces,0.25
+German,All,26,Terasse,92,understands,0
+German,All,27,Terasse,89,produces,0.2135
+German,All,27,Terasse,89,understands,0
+German,All,28,Terasse,93,produces,0.2581
+German,All,28,Terasse,93,understands,0
+German,All,29,Terasse,89,produces,0.3371
+German,All,29,Terasse,89,understands,0
+German,All,30,Terasse,93,produces,0.5269
+German,All,30,Terasse,93,understands,0
+Spanish (Mexican),All,16,patio (outside),68,produces,0.1029
+Spanish (Mexican),All,16,patio (outside),68,understands,0
+Spanish (Mexican),All,17,patio (outside),59,produces,0.1186
+Spanish (Mexican),All,17,patio (outside),59,understands,0
+Spanish (Mexican),All,18,patio (outside),75,produces,0.0933
+Spanish (Mexican),All,18,patio (outside),75,understands,0
+Spanish (Mexican),All,19,patio (outside),100,produces,0.23
+Spanish (Mexican),All,19,patio (outside),100,understands,0
+Spanish (Mexican),All,20,patio (outside),107,produces,0.2056
+Spanish (Mexican),All,20,patio (outside),107,understands,0
+Spanish (Mexican),All,21,patio (outside),84,produces,0.2143
+Spanish (Mexican),All,21,patio (outside),84,understands,0
+Spanish (Mexican),All,22,patio (outside),141,produces,0.1844
+Spanish (Mexican),All,22,patio (outside),141,understands,0
+Spanish (Mexican),All,23,patio (outside),91,produces,0.2198
+Spanish (Mexican),All,23,patio (outside),91,understands,0
+Spanish (Mexican),All,24,patio (outside),126,produces,0.3571
+Spanish (Mexican),All,24,patio (outside),126,understands,0
+Spanish (Mexican),All,25,patio (outside),177,produces,0.2655
+Spanish (Mexican),All,25,patio (outside),177,understands,0
+Spanish (Mexican),All,26,patio (outside),83,produces,0.4096
+Spanish (Mexican),All,26,patio (outside),83,understands,0
+Spanish (Mexican),All,27,patio (outside),85,produces,0.5294
+Spanish (Mexican),All,27,patio (outside),85,understands,0
+Spanish (Mexican),All,28,patio (outside),89,produces,0.5843
+Spanish (Mexican),All,28,patio (outside),89,understands,0
+Spanish (Mexican),All,29,patio (outside),89,produces,0.5281
+Spanish (Mexican),All,29,patio (outside),89,understands,0
+Spanish (Mexican),All,30,patio (outside),308,produces,0.25
+Spanish (Mexican),All,30,patio (outside),308,understands,0
+Catalan,Female,8,pati,17,produces,0
+Catalan,Female,8,pati,17,understands,0
+Catalan,Male,8,pati,22,produces,0
+Catalan,Male,8,pati,22,understands,0
+Catalan,Female,9,pati,19,produces,0
+Catalan,Female,9,pati,19,understands,0.0526
+Catalan,Male,9,pati,27,produces,0
+Catalan,Male,9,pati,27,understands,0.037
+Catalan,Female,10,pati,23,produces,0
+Catalan,Female,10,pati,23,understands,0
+Catalan,Male,10,pati,20,produces,0
+Catalan,Male,10,pati,20,understands,0
+Catalan,Female,11,pati,23,produces,0
+Catalan,Female,11,pati,23,understands,0
+Catalan,Male,11,pati,20,produces,0
+Catalan,Male,11,pati,20,understands,0
+Catalan,Female,12,pati,29,produces,0
+Catalan,Female,12,pati,29,understands,0.0345
+Catalan,Male,12,pati,30,produces,0
+Catalan,Male,12,pati,30,understands,0.0667
+Catalan,Female,13,pati,18,produces,0
+Catalan,Female,13,pati,18,understands,0.1667
+Catalan,Male,13,pati,26,produces,0
+Catalan,Male,13,pati,26,understands,0.1154
+Catalan,Female,14,pati,31,produces,0.0323
+Catalan,Female,14,pati,31,understands,0.2903
+Catalan,Male,14,pati,29,produces,0
+Catalan,Male,14,pati,29,understands,0.069
+Catalan,Female,15,pati,35,produces,0.0286
+Catalan,Female,15,pati,35,understands,0.4571
+Catalan,Male,15,pati,35,produces,0
+Catalan,Male,15,pati,35,understands,0.2571
+Catalan,Female,16,pati,33,produces,0.0303
+Catalan,Female,16,pati,33,understands,0.3636
+Catalan,Male,16,pati,40,produces,0
+Catalan,Male,16,pati,40,understands,0.225
+Catalan,Female,17,pati,64,produces,0.0938
+Catalan,Female,17,pati,64,understands,0.3438
+Catalan,Male,17,pati,46,produces,0
+Catalan,Male,17,pati,46,understands,0.3478
+Catalan,Female,18,pati,47,produces,0.0638
+Catalan,Female,18,pati,47,understands,0.3191
+Catalan,Male,18,pati,55,produces,0.0909
+Catalan,Male,18,pati,55,understands,0.2727
+Catalan,Female,19,pati,25,produces,0.04
+Catalan,Female,19,pati,25,understands,0
+Catalan,Male,19,pati,20,produces,0.15
+Catalan,Male,19,pati,20,understands,0
+Catalan,Female,20,pati,28,produces,0.1071
+Catalan,Female,20,pati,28,understands,0
+Catalan,Male,20,pati,28,produces,0.1786
+Catalan,Male,20,pati,28,understands,0
+Catalan,Female,21,pati,32,produces,0.3125
+Catalan,Female,21,pati,32,understands,0
+Catalan,Male,21,pati,26,produces,0.1923
+Catalan,Male,21,pati,26,understands,0
+Catalan,Female,22,pati,26,produces,0.5
+Catalan,Female,22,pati,26,understands,0
+Catalan,Male,22,pati,24,produces,0.3333
+Catalan,Male,22,pati,24,understands,0
+Catalan,Female,23,pati,35,produces,0.4571
+Catalan,Female,23,pati,35,understands,0
+Catalan,Male,23,pati,31,produces,0.3226
+Catalan,Male,23,pati,31,understands,0
+Catalan,Female,24,pati,41,produces,0.6585
+Catalan,Female,24,pati,41,understands,0
+Catalan,Male,24,pati,38,produces,0.5
+Catalan,Male,24,pati,38,understands,0
+Catalan,Female,25,pati,30,produces,0.6333
+Catalan,Female,25,pati,30,understands,0
+Catalan,Male,25,pati,30,produces,0.5333
+Catalan,Male,25,pati,30,understands,0
+Catalan,Female,26,pati,35,produces,0.7143
+Catalan,Female,26,pati,35,understands,0
+Catalan,Male,26,pati,30,produces,0.7
+Catalan,Male,26,pati,30,understands,0
+Catalan,Female,27,pati,36,produces,0.6389
+Catalan,Female,27,pati,36,understands,0
+Catalan,Male,27,pati,27,produces,0.7407
+Catalan,Male,27,pati,27,understands,0
+Catalan,Female,28,pati,40,produces,0.8
+Catalan,Female,28,pati,40,understands,0
+Catalan,Male,28,pati,41,produces,0.561
+Catalan,Male,28,pati,41,understands,0
+Catalan,Female,29,pati,25,produces,0.8
+Catalan,Female,29,pati,25,understands,0
+Catalan,Male,29,pati,25,produces,0.72
+Catalan,Male,29,pati,25,understands,0
+Catalan,Female,30,pati,24,produces,0.7917
+Catalan,Female,30,pati,24,understands,0
+Catalan,Male,30,pati,51,produces,0.7255
+Catalan,Male,30,pati,51,understands,0
+German,Female,18,Terasse,40,produces,0
+German,Female,18,Terasse,40,understands,0
+German,Male,18,Terasse,45,produces,0
+German,Male,18,Terasse,45,understands,0
+German,Female,19,Terasse,39,produces,0.0256
+German,Female,19,Terasse,39,understands,0
+German,Male,19,Terasse,40,produces,0.05
+German,Male,19,Terasse,40,understands,0
+German,Female,20,Terasse,39,produces,0.0513
+German,Female,20,Terasse,39,understands,0
+German,Male,20,Terasse,57,produces,0.0175
+German,Male,20,Terasse,57,understands,0
+German,Female,21,Terasse,38,produces,0.0789
+German,Female,21,Terasse,38,understands,0
+German,Male,21,Terasse,39,produces,0
+German,Male,21,Terasse,39,understands,0
+German,Female,22,Terasse,52,produces,0.0385
+German,Female,22,Terasse,52,understands,0
+German,Male,22,Terasse,43,produces,0.0465
+German,Male,22,Terasse,43,understands,0
+German,Female,23,Terasse,45,produces,0.0889
+German,Female,23,Terasse,45,understands,0
+German,Male,23,Terasse,50,produces,0.08
+German,Male,23,Terasse,50,understands,0
+German,Female,24,Terasse,48,produces,0.125
+German,Female,24,Terasse,48,understands,0
+German,Male,24,Terasse,55,produces,0.0727
+German,Male,24,Terasse,55,understands,0
+German,Female,25,Terasse,28,produces,0.25
+German,Female,25,Terasse,28,understands,0
+German,Male,25,Terasse,67,produces,0.1343
+German,Male,25,Terasse,67,understands,0
+German,Female,26,Terasse,42,produces,0.2381
+German,Female,26,Terasse,42,understands,0
+German,Male,26,Terasse,50,produces,0.26
+German,Male,26,Terasse,50,understands,0
+German,Female,27,Terasse,41,produces,0.2683
+German,Female,27,Terasse,41,understands,0
+German,Male,27,Terasse,48,produces,0.1667
+German,Male,27,Terasse,48,understands,0
+German,Female,28,Terasse,35,produces,0.3429
+German,Female,28,Terasse,35,understands,0
+German,Male,28,Terasse,58,produces,0.2069
+German,Male,28,Terasse,58,understands,0
+German,Female,29,Terasse,50,produces,0.46
+German,Female,29,Terasse,50,understands,0
+German,Male,29,Terasse,39,produces,0.1795
+German,Male,29,Terasse,39,understands,0
+German,Female,30,Terasse,54,produces,0.4815
+German,Female,30,Terasse,54,understands,0
+German,Male,30,Terasse,39,produces,0.5897
+German,Male,30,Terasse,39,understands,0
+Spanish (Mexican),Female,16,patio (outside),34,produces,0.1765
+Spanish (Mexican),Female,16,patio (outside),34,understands,0
+Spanish (Mexican),Male,16,patio (outside),34,produces,0.0294
+Spanish (Mexican),Male,16,patio (outside),34,understands,0
+Spanish (Mexican),Female,17,patio (outside),34,produces,0.1471
+Spanish (Mexican),Female,17,patio (outside),34,understands,0
+Spanish (Mexican),Male,17,patio (outside),25,produces,0.08
+Spanish (Mexican),Male,17,patio (outside),25,understands,0
+Spanish (Mexican),Female,18,patio (outside),35,produces,0.0857
+Spanish (Mexican),Female,18,patio (outside),35,understands,0
+Spanish (Mexican),Male,18,patio (outside),40,produces,0.1
+Spanish (Mexican),Male,18,patio (outside),40,understands,0
+Spanish (Mexican),Female,19,patio (outside),47,produces,0.1702
+Spanish (Mexican),Female,19,patio (outside),47,understands,0
+Spanish (Mexican),Male,19,patio (outside),53,produces,0.283
+Spanish (Mexican),Male,19,patio (outside),53,understands,0
+Spanish (Mexican),Female,20,patio (outside),53,produces,0.2642
+Spanish (Mexican),Female,20,patio (outside),53,understands,0
+Spanish (Mexican),Male,20,patio (outside),54,produces,0.1481
+Spanish (Mexican),Male,20,patio (outside),54,understands,0
+Spanish (Mexican),Female,21,patio (outside),37,produces,0.1892
+Spanish (Mexican),Female,21,patio (outside),37,understands,0
+Spanish (Mexican),Male,21,patio (outside),47,produces,0.234
+Spanish (Mexican),Male,21,patio (outside),47,understands,0
+Spanish (Mexican),Female,22,patio (outside),64,produces,0.1875
+Spanish (Mexican),Female,22,patio (outside),64,understands,0
+Spanish (Mexican),Male,22,patio (outside),67,produces,0.209
+Spanish (Mexican),Male,22,patio (outside),67,understands,0
+Spanish (Mexican),Female,23,patio (outside),49,produces,0.2041
+Spanish (Mexican),Female,23,patio (outside),49,understands,0
+Spanish (Mexican),Male,23,patio (outside),42,produces,0.2381
+Spanish (Mexican),Male,23,patio (outside),42,understands,0
+Spanish (Mexican),Female,24,patio (outside),63,produces,0.3492
+Spanish (Mexican),Female,24,patio (outside),63,understands,0
+Spanish (Mexican),Male,24,patio (outside),63,produces,0.3651
+Spanish (Mexican),Male,24,patio (outside),63,understands,0
+Spanish (Mexican),Female,25,patio (outside),78,produces,0.2436
+Spanish (Mexican),Female,25,patio (outside),78,understands,0
+Spanish (Mexican),Male,25,patio (outside),89,produces,0.3146
+Spanish (Mexican),Male,25,patio (outside),89,understands,0
+Spanish (Mexican),Female,26,patio (outside),38,produces,0.4474
+Spanish (Mexican),Female,26,patio (outside),38,understands,0
+Spanish (Mexican),Male,26,patio (outside),45,produces,0.3778
+Spanish (Mexican),Male,26,patio (outside),45,understands,0
+Spanish (Mexican),Female,27,patio (outside),45,produces,0.6667
+Spanish (Mexican),Female,27,patio (outside),45,understands,0
+Spanish (Mexican),Male,27,patio (outside),40,produces,0.375
+Spanish (Mexican),Male,27,patio (outside),40,understands,0
+Spanish (Mexican),Female,28,patio (outside),44,produces,0.7045
+Spanish (Mexican),Female,28,patio (outside),44,understands,0
+Spanish (Mexican),Male,28,patio (outside),45,produces,0.4667
+Spanish (Mexican),Male,28,patio (outside),45,understands,0
+Spanish (Mexican),Female,29,patio (outside),51,produces,0.549
+Spanish (Mexican),Female,29,patio (outside),51,understands,0
+Spanish (Mexican),Male,29,patio (outside),38,produces,0.5
+Spanish (Mexican),Male,29,patio (outside),38,understands,0
+Spanish (Mexican),Female,30,patio (outside),146,produces,0.2603
+Spanish (Mexican),Female,30,patio (outside),146,understands,0
+Spanish (Mexican),Male,30,patio (outside),152,produces,0.2566
+Spanish (Mexican),Male,30,patio (outside),152,understands,0

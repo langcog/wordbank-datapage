@@ -1,49 +1,145 @@
-language,age,words,n,measure,prop
-Spanish (European),16,coco,39,produces,0.1026
-Spanish (European),16,coco,39,understands,0
-Spanish (European),17,coco,39,produces,0.1795
-Spanish (European),17,coco,39,understands,0
-Spanish (European),18,coco,50,produces,0.08
-Spanish (European),18,coco,50,understands,0
-Spanish (European),19,coco,27,produces,0.1481
-Spanish (European),19,coco,27,understands,0
-Spanish (European),20,coco,36,produces,0.2778
-Spanish (European),20,coco,36,understands,0
-Spanish (European),21,coco,41,produces,0.3171
-Spanish (European),21,coco,41,understands,0
-Spanish (European),22,coco,38,produces,0.2368
-Spanish (European),22,coco,38,understands,0
-Spanish (European),23,coco,30,produces,0.3
-Spanish (European),23,coco,30,understands,0
-Spanish (European),24,coco,55,produces,0.3273
-Spanish (European),24,coco,55,understands,0
-Spanish (European),25,coco,35,produces,0.3429
-Spanish (European),25,coco,35,understands,0
-Spanish (European),26,coco,49,produces,0.4898
-Spanish (European),26,coco,49,understands,0
-Spanish (European),27,coco,34,produces,0.4706
-Spanish (European),27,coco,34,understands,0
-Spanish (European),28,coco,38,produces,0.5263
-Spanish (European),28,coco,38,understands,0
-Spanish (European),29,coco,41,produces,0.561
-Spanish (European),29,coco,41,understands,0
-Spanish (European),30,coco,41,produces,0.4878
-Spanish (European),30,coco,41,understands,0
-Turkish,8,Öcü,140,produces,0.0143
-Turkish,8,Öcü,140,understands,0.1
-Turkish,9,Öcü,125,produces,0
-Turkish,9,Öcü,125,understands,0.192
-Turkish,10,Öcü,130,produces,0.0231
-Turkish,10,Öcü,130,understands,0.1231
-Turkish,11,Öcü,125,produces,0.008
-Turkish,11,Öcü,125,understands,0.224
-Turkish,12,Öcü,120,produces,0.0333
-Turkish,12,Öcü,120,understands,0.275
-Turkish,13,Öcü,122,produces,0.0328
-Turkish,13,Öcü,122,understands,0.2869
-Turkish,14,Öcü,147,produces,0.0884
-Turkish,14,Öcü,147,understands,0.3197
-Turkish,15,Öcü,131,produces,0.145
-Turkish,15,Öcü,131,understands,0.3969
-Turkish,16,Öcü,75,produces,0.1467
-Turkish,16,Öcü,75,understands,0.36
+language,sex,age,words,n,measure,prop
+Spanish (European),All,16,coco,39,produces,0.1026
+Spanish (European),All,16,coco,39,understands,0
+Spanish (European),All,17,coco,39,produces,0.1795
+Spanish (European),All,17,coco,39,understands,0
+Spanish (European),All,18,coco,50,produces,0.08
+Spanish (European),All,18,coco,50,understands,0
+Spanish (European),All,19,coco,27,produces,0.1481
+Spanish (European),All,19,coco,27,understands,0
+Spanish (European),All,20,coco,36,produces,0.2778
+Spanish (European),All,20,coco,36,understands,0
+Spanish (European),All,21,coco,41,produces,0.3171
+Spanish (European),All,21,coco,41,understands,0
+Spanish (European),All,22,coco,38,produces,0.2368
+Spanish (European),All,22,coco,38,understands,0
+Spanish (European),All,23,coco,30,produces,0.3
+Spanish (European),All,23,coco,30,understands,0
+Spanish (European),All,24,coco,55,produces,0.3273
+Spanish (European),All,24,coco,55,understands,0
+Spanish (European),All,25,coco,35,produces,0.3429
+Spanish (European),All,25,coco,35,understands,0
+Spanish (European),All,26,coco,49,produces,0.4898
+Spanish (European),All,26,coco,49,understands,0
+Spanish (European),All,27,coco,34,produces,0.4706
+Spanish (European),All,27,coco,34,understands,0
+Spanish (European),All,28,coco,38,produces,0.5263
+Spanish (European),All,28,coco,38,understands,0
+Spanish (European),All,29,coco,41,produces,0.561
+Spanish (European),All,29,coco,41,understands,0
+Spanish (European),All,30,coco,41,produces,0.4878
+Spanish (European),All,30,coco,41,understands,0
+Turkish,All,8,Öcü,140,produces,0.0143
+Turkish,All,8,Öcü,140,understands,0.1
+Turkish,All,9,Öcü,125,produces,0
+Turkish,All,9,Öcü,125,understands,0.192
+Turkish,All,10,Öcü,130,produces,0.0231
+Turkish,All,10,Öcü,130,understands,0.1231
+Turkish,All,11,Öcü,125,produces,0.008
+Turkish,All,11,Öcü,125,understands,0.224
+Turkish,All,12,Öcü,120,produces,0.0333
+Turkish,All,12,Öcü,120,understands,0.275
+Turkish,All,13,Öcü,122,produces,0.0328
+Turkish,All,13,Öcü,122,understands,0.2869
+Turkish,All,14,Öcü,147,produces,0.0884
+Turkish,All,14,Öcü,147,understands,0.3197
+Turkish,All,15,Öcü,131,produces,0.145
+Turkish,All,15,Öcü,131,understands,0.3969
+Turkish,All,16,Öcü,75,produces,0.1467
+Turkish,All,16,Öcü,75,understands,0.36
+Spanish (European),Female,16,coco,19,produces,0.1579
+Spanish (European),Female,16,coco,19,understands,0
+Spanish (European),Male,16,coco,20,produces,0.05
+Spanish (European),Male,16,coco,20,understands,0
+Spanish (European),Female,17,coco,21,produces,0.1905
+Spanish (European),Female,17,coco,21,understands,0
+Spanish (European),Male,17,coco,18,produces,0.1667
+Spanish (European),Male,17,coco,18,understands,0
+Spanish (European),Female,18,coco,27,produces,0.0741
+Spanish (European),Female,18,coco,27,understands,0
+Spanish (European),Male,18,coco,23,produces,0.087
+Spanish (European),Male,18,coco,23,understands,0
+Spanish (European),Female,19,coco,16,produces,0.125
+Spanish (European),Female,19,coco,16,understands,0
+Spanish (European),Male,19,coco,11,produces,0.1818
+Spanish (European),Male,19,coco,11,understands,0
+Spanish (European),Female,20,coco,17,produces,0.4118
+Spanish (European),Female,20,coco,17,understands,0
+Spanish (European),Male,20,coco,19,produces,0.1579
+Spanish (European),Male,20,coco,19,understands,0
+Spanish (European),Female,21,coco,23,produces,0.2609
+Spanish (European),Female,21,coco,23,understands,0
+Spanish (European),Male,21,coco,18,produces,0.3889
+Spanish (European),Male,21,coco,18,understands,0
+Spanish (European),Female,22,coco,18,produces,0.3333
+Spanish (European),Female,22,coco,18,understands,0
+Spanish (European),Male,22,coco,20,produces,0.15
+Spanish (European),Male,22,coco,20,understands,0
+Spanish (European),Female,23,coco,15,produces,0.4
+Spanish (European),Female,23,coco,15,understands,0
+Spanish (European),Male,23,coco,15,produces,0.2
+Spanish (European),Male,23,coco,15,understands,0
+Spanish (European),Female,24,coco,31,produces,0.3871
+Spanish (European),Female,24,coco,31,understands,0
+Spanish (European),Male,24,coco,24,produces,0.25
+Spanish (European),Male,24,coco,24,understands,0
+Spanish (European),Female,25,coco,16,produces,0.375
+Spanish (European),Female,25,coco,16,understands,0
+Spanish (European),Male,25,coco,19,produces,0.3158
+Spanish (European),Male,25,coco,19,understands,0
+Spanish (European),Female,26,coco,22,produces,0.5909
+Spanish (European),Female,26,coco,22,understands,0
+Spanish (European),Male,26,coco,27,produces,0.4074
+Spanish (European),Male,26,coco,27,understands,0
+Spanish (European),Female,27,coco,16,produces,0.5625
+Spanish (European),Female,27,coco,16,understands,0
+Spanish (European),Male,27,coco,18,produces,0.3889
+Spanish (European),Male,27,coco,18,understands,0
+Spanish (European),Female,28,coco,20,produces,0.45
+Spanish (European),Female,28,coco,20,understands,0
+Spanish (European),Male,28,coco,18,produces,0.6111
+Spanish (European),Male,28,coco,18,understands,0
+Spanish (European),Female,29,coco,18,produces,0.6111
+Spanish (European),Female,29,coco,18,understands,0
+Spanish (European),Male,29,coco,23,produces,0.5217
+Spanish (European),Male,29,coco,23,understands,0
+Spanish (European),Female,30,coco,17,produces,0.4706
+Spanish (European),Female,30,coco,17,understands,0
+Spanish (European),Male,30,coco,24,produces,0.5
+Spanish (European),Male,30,coco,24,understands,0
+Turkish,Female,8,Öcü,70,produces,0.0143
+Turkish,Female,8,Öcü,70,understands,0.1429
+Turkish,Male,8,Öcü,70,produces,0.0143
+Turkish,Male,8,Öcü,70,understands,0.0571
+Turkish,Female,9,Öcü,65,produces,0
+Turkish,Female,9,Öcü,65,understands,0.2154
+Turkish,Male,9,Öcü,60,produces,0
+Turkish,Male,9,Öcü,60,understands,0.1667
+Turkish,Female,10,Öcü,62,produces,0.0323
+Turkish,Female,10,Öcü,62,understands,0.1613
+Turkish,Male,10,Öcü,68,produces,0.0147
+Turkish,Male,10,Öcü,68,understands,0.0882
+Turkish,Female,11,Öcü,65,produces,0
+Turkish,Female,11,Öcü,65,understands,0.1846
+Turkish,Male,11,Öcü,60,produces,0.0167
+Turkish,Male,11,Öcü,60,understands,0.2667
+Turkish,Female,12,Öcü,63,produces,0.0159
+Turkish,Female,12,Öcü,63,understands,0.3175
+Turkish,Male,12,Öcü,57,produces,0.0526
+Turkish,Male,12,Öcü,57,understands,0.2281
+Turkish,Female,13,Öcü,60,produces,0.0167
+Turkish,Female,13,Öcü,60,understands,0.1833
+Turkish,Male,13,Öcü,62,produces,0.0484
+Turkish,Male,13,Öcü,62,understands,0.3871
+Turkish,Female,14,Öcü,74,produces,0.1081
+Turkish,Female,14,Öcü,74,understands,0.3784
+Turkish,Male,14,Öcü,73,produces,0.0685
+Turkish,Male,14,Öcü,73,understands,0.2603
+Turkish,Female,15,Öcü,66,produces,0.1515
+Turkish,Female,15,Öcü,66,understands,0.3636
+Turkish,Male,15,Öcü,65,produces,0.1385
+Turkish,Male,15,Öcü,65,understands,0.4308
+Turkish,Female,16,Öcü,42,produces,0.1905
+Turkish,Female,16,Öcü,42,understands,0.4524
+Turkish,Male,16,Öcü,33,produces,0.0909
+Turkish,Male,16,Öcü,33,understands,0.2424

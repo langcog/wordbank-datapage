@@ -1,397 +1,1179 @@
-language,age,words,n,measure,prop
-Italian,18,poltrona,31,produces,0.0645
-Italian,18,poltrona,31,understands,0
-Italian,19,poltrona,39,produces,0.0769
-Italian,19,poltrona,39,understands,0
-Italian,20,poltrona,64,produces,0
-Italian,20,poltrona,64,understands,0
-Italian,21,poltrona,55,produces,0.0545
-Italian,21,poltrona,55,understands,0
-Italian,22,poltrona,55,produces,0.1636
-Italian,22,poltrona,55,understands,0
-Italian,23,poltrona,53,produces,0.1132
-Italian,23,poltrona,53,understands,0
-Italian,24,poltrona,71,produces,0.1972
-Italian,24,poltrona,71,understands,0
-Italian,25,poltrona,39,produces,0.3077
-Italian,25,poltrona,39,understands,0
-Italian,26,poltrona,41,produces,0.3415
-Italian,26,poltrona,41,understands,0
-Italian,27,poltrona,43,produces,0.2093
-Italian,27,poltrona,43,understands,0
-Italian,28,poltrona,44,produces,0.4318
-Italian,28,poltrona,44,understands,0
-Italian,29,poltrona,37,produces,0.5405
-Italian,29,poltrona,37,understands,0
-Italian,30,poltrona,67,produces,0.5373
-Italian,30,poltrona,67,understands,0
-Italian,31,poltrona,19,produces,0.5789
-Italian,31,poltrona,19,understands,0
-Italian,32,poltrona,23,produces,0.5652
-Italian,32,poltrona,23,understands,0
-Italian,33,poltrona,16,produces,0.8125
-Italian,33,poltrona,16,understands,0
-Italian,34,poltrona,19,produces,0.7895
-Italian,34,poltrona,19,understands,0
-Italian,35,poltrona,15,produces,0.6
-Italian,35,poltrona,15,understands,0
-Italian,36,poltrona,21,produces,0.6667
-Italian,36,poltrona,21,understands,0
-Russian,8,кресло,59,produces,0
-Russian,8,кресло,59,understands,0.0169
-Russian,9,кресло,42,produces,0
-Russian,9,кресло,42,understands,0.0238
-Russian,10,кресло,63,produces,0
-Russian,10,кресло,63,understands,0.0159
-Russian,11,кресло,71,produces,0
-Russian,11,кресло,71,understands,0.1127
-Russian,12,кресло,76,produces,0
-Russian,12,кресло,76,understands,0.0658
-Russian,13,кресло,73,produces,0
-Russian,13,кресло,73,understands,0.1918
-Russian,14,кресло,79,produces,0
-Russian,14,кресло,79,understands,0.3291
-Russian,15,кресло,81,produces,0.0123
-Russian,15,кресло,81,understands,0.3951
-Russian,16,кресло,81,produces,0.0123
-Russian,16,кресло,81,understands,0.4568
-Russian,17,кресло,80,produces,0.05
-Russian,17,кресло,80,understands,0.5625
-Russian,18,кресло,105,produces,0.0286
-Russian,18,кресло,105,understands,0.3524
-Russian,19,кресло,41,produces,0.1463
-Russian,19,кресло,41,understands,0
-Russian,20,кресло,45,produces,0.0889
-Russian,20,кресло,45,understands,0
-Russian,21,кресло,43,produces,0.1395
-Russian,21,кресло,43,understands,0
-Russian,22,кресло,51,produces,0.2157
-Russian,22,кресло,51,understands,0
-Russian,23,кресло,56,produces,0.2143
-Russian,23,кресло,56,understands,0
-Russian,24,кресло,61,produces,0.3443
-Russian,24,кресло,61,understands,0
-Russian,25,кресло,66,produces,0.3939
-Russian,25,кресло,66,understands,0
-Russian,26,кресло,52,produces,0.3269
-Russian,26,кресло,52,understands,0
-Russian,27,кресло,60,produces,0.5
-Russian,27,кресло,60,understands,0
-Russian,28,кресло,60,produces,0.5333
-Russian,28,кресло,60,understands,0
-Russian,29,кресло,58,produces,0.6207
-Russian,29,кресло,58,understands,0
-Russian,30,кресло,77,produces,0.5714
-Russian,30,кресло,77,understands,0
-Russian,31,кресло,61,produces,0.623
-Russian,31,кресло,61,understands,0
-Russian,32,кресло,55,produces,0.6909
-Russian,32,кресло,55,understands,0
-Russian,33,кресло,55,produces,0.7455
-Russian,33,кресло,55,understands,0
-Russian,34,кресло,58,produces,0.7241
-Russian,34,кресло,58,understands,0
-Russian,35,кресло,47,produces,0.7021
-Russian,35,кресло,47,understands,0
-Russian,36,кресло,49,produces,0.7143
-Russian,36,кресло,49,understands,0
-Turkish,8,Koltuk,140,produces,0.0071
-Turkish,8,Koltuk,140,understands,0.05
-Turkish,9,Koltuk,125,produces,0
-Turkish,9,Koltuk,125,understands,0.168
-Turkish,10,Koltuk,130,produces,0.0077
-Turkish,10,Koltuk,130,understands,0.1769
-Turkish,11,Koltuk,125,produces,0
-Turkish,11,Koltuk,125,understands,0.208
-Turkish,12,Koltuk,120,produces,0
-Turkish,12,Koltuk,120,understands,0.2833
-Turkish,13,Koltuk,122,produces,0
-Turkish,13,Koltuk,122,understands,0.4098
-Turkish,14,Koltuk,147,produces,0.0136
-Turkish,14,Koltuk,147,understands,0.483
-Turkish,15,Koltuk,131,produces,0.0229
-Turkish,15,Koltuk,131,understands,0.5573
-Turkish,16,Koltuk,184,produces,0.0435
-Turkish,16,Koltuk,184,understands,0.2935
-Turkish,17,Koltuk,107,produces,0.0467
-Turkish,17,Koltuk,107,understands,0
-Turkish,18,Koltuk,128,produces,0.1094
-Turkish,18,Koltuk,128,understands,0
-Turkish,19,Koltuk,121,produces,0.1157
-Turkish,19,Koltuk,121,understands,0
-Turkish,20,Koltuk,119,produces,0.2017
-Turkish,20,Koltuk,119,understands,0
-Turkish,21,Koltuk,124,produces,0.2177
-Turkish,21,Koltuk,124,understands,0
-Turkish,22,Koltuk,126,produces,0.2698
-Turkish,22,Koltuk,126,understands,0
-Turkish,23,Koltuk,131,produces,0.3817
-Turkish,23,Koltuk,131,understands,0
-Turkish,24,Koltuk,106,produces,0.4528
-Turkish,24,Koltuk,106,understands,0
-Turkish,25,Koltuk,123,produces,0.5122
-Turkish,25,Koltuk,123,understands,0
-Turkish,26,Koltuk,123,produces,0.5691
-Turkish,26,Koltuk,123,understands,0
-Turkish,27,Koltuk,108,produces,0.6204
-Turkish,27,Koltuk,108,understands,0
-Turkish,28,Koltuk,112,produces,0.6339
-Turkish,28,Koltuk,112,understands,0
-Turkish,29,Koltuk,119,produces,0.6807
-Turkish,29,Koltuk,119,understands,0
-Turkish,30,Koltuk,104,produces,0.7692
-Turkish,30,Koltuk,104,understands,0
-Turkish,31,Koltuk,101,produces,0.8317
-Turkish,31,Koltuk,101,understands,0
-Turkish,32,Koltuk,132,produces,0.8106
-Turkish,32,Koltuk,132,understands,0
-Turkish,33,Koltuk,114,produces,0.886
-Turkish,33,Koltuk,114,understands,0
-Turkish,34,Koltuk,107,produces,0.8598
-Turkish,34,Koltuk,107,understands,0
-Turkish,35,Koltuk,131,produces,0.8626
-Turkish,35,Koltuk,131,understands,0
-Turkish,36,Koltuk,77,produces,0.9481
-Turkish,36,Koltuk,77,understands,0
-Croatian,8,fotelja,23,produces,0
-Croatian,8,fotelja,23,understands,0
-Croatian,9,fotelja,25,produces,0
-Croatian,9,fotelja,25,understands,0.04
-Croatian,10,fotelja,22,produces,0
-Croatian,10,fotelja,22,understands,0.0455
-Croatian,11,fotelja,25,produces,0
-Croatian,11,fotelja,25,understands,0.04
-Croatian,12,fotelja,35,produces,0
-Croatian,12,fotelja,35,understands,0.0857
-Croatian,13,fotelja,34,produces,0
-Croatian,13,fotelja,34,understands,0.1765
-Croatian,14,fotelja,28,produces,0
-Croatian,14,fotelja,28,understands,0.3571
-Croatian,15,fotelja,24,produces,0
-Croatian,15,fotelja,24,understands,0.25
-Croatian,16,fotelja,47,produces,0.0426
-Croatian,16,fotelja,47,understands,0.3617
-Croatian,17,fotelja,25,produces,0
-Croatian,17,fotelja,25,understands,0
-Croatian,18,fotelja,22,produces,0
-Croatian,18,fotelja,22,understands,0
-Croatian,19,fotelja,21,produces,0.0476
-Croatian,19,fotelja,21,understands,0
-Croatian,20,fotelja,26,produces,0.0385
-Croatian,20,fotelja,26,understands,0
-Croatian,21,fotelja,29,produces,0.0345
-Croatian,21,fotelja,29,understands,0
-Croatian,22,fotelja,24,produces,0
-Croatian,22,fotelja,24,understands,0
-Croatian,23,fotelja,26,produces,0.0385
-Croatian,23,fotelja,26,understands,0
-Croatian,24,fotelja,30,produces,0.0333
-Croatian,24,fotelja,30,understands,0
-Croatian,25,fotelja,30,produces,0.0333
-Croatian,25,fotelja,30,understands,0
-Croatian,26,fotelja,29,produces,0.1034
-Croatian,26,fotelja,29,understands,0
-Croatian,27,fotelja,25,produces,0.2
-Croatian,27,fotelja,25,understands,0
-Croatian,28,fotelja,21,produces,0.0952
-Croatian,28,fotelja,21,understands,0
-Croatian,29,fotelja,28,produces,0.0714
-Croatian,29,fotelja,28,understands,0
-Croatian,30,fotelja,28,produces,0.1786
-Croatian,30,fotelja,28,understands,0
-Czech,16,křeslo,29,produces,0
-Czech,16,křeslo,29,understands,0
-Czech,17,křeslo,29,produces,0
-Czech,17,křeslo,29,understands,0
-Czech,18,křeslo,45,produces,0.0222
-Czech,18,křeslo,45,understands,0
-Czech,19,křeslo,27,produces,0
-Czech,19,křeslo,27,understands,0
-Czech,20,křeslo,26,produces,0.0769
-Czech,20,křeslo,26,understands,0
-Czech,21,křeslo,34,produces,0
-Czech,21,křeslo,34,understands,0
-Czech,22,křeslo,36,produces,0.1111
-Czech,22,křeslo,36,understands,0
-Czech,23,křeslo,46,produces,0.1304
-Czech,23,křeslo,46,understands,0
-Czech,24,křeslo,35,produces,0.1143
-Czech,24,křeslo,35,understands,0
-Czech,25,křeslo,35,produces,0.1429
-Czech,25,křeslo,35,understands,0
-Czech,26,křeslo,22,produces,0.4545
-Czech,26,křeslo,22,understands,0
-Czech,27,křeslo,37,produces,0.2703
-Czech,27,křeslo,37,understands,0
-Czech,28,křeslo,26,produces,0.5
-Czech,28,křeslo,26,understands,0
-Czech,29,křeslo,39,produces,0.2564
-Czech,29,křeslo,39,understands,0
-Czech,30,křeslo,27,produces,0.4444
-Czech,30,křeslo,27,understands,0
-Finnish,18,nojatuoli,35,produces,0
-Finnish,18,nojatuoli,35,understands,0
-Finnish,24,nojatuoli,35,produces,0.1429
-Finnish,24,nojatuoli,35,understands,0
-French (French),8,fauteuil,54,produces,0
-French (French),8,fauteuil,54,understands,0
-French (French),9,fauteuil,11,produces,0.0909
-French (French),9,fauteuil,11,understands,0.1818
-French (French),10,fauteuil,13,produces,0
-French (French),10,fauteuil,13,understands,0
-French (French),11,fauteuil,42,produces,0
-French (French),11,fauteuil,42,understands,0.0476
-French (French),12,fauteuil,64,produces,0.0312
-French (French),12,fauteuil,64,understands,0.0625
-French (French),13,fauteuil,116,produces,0
-French (French),13,fauteuil,116,understands,0.0172
-French (French),14,fauteuil,40,produces,0.05
-French (French),14,fauteuil,40,understands,0.075
-French (French),15,fauteuil,26,produces,0.1923
-French (French),15,fauteuil,26,understands,0.2308
-French (French),16,fauteuil,98,produces,0.0306
-French (French),16,fauteuil,98,understands,0.0102
-French (French),17,fauteuil,52,produces,0
-French (French),17,fauteuil,52,understands,0
-French (French),18,fauteuil,54,produces,0.1852
-French (French),18,fauteuil,54,understands,0
-French (French),19,fauteuil,42,produces,0.1667
-French (French),19,fauteuil,42,understands,0
-French (French),20,fauteuil,81,produces,0.1852
-French (French),20,fauteuil,81,understands,0
-French (French),21,fauteuil,102,produces,0.2255
-French (French),21,fauteuil,102,understands,0
-French (French),22,fauteuil,103,produces,0.2427
-French (French),22,fauteuil,103,understands,0
-French (French),23,fauteuil,118,produces,0.1695
-French (French),23,fauteuil,118,understands,0
-French (French),24,fauteuil,173,produces,0.3006
-French (French),24,fauteuil,173,understands,0
-French (French),25,fauteuil,87,produces,0.3908
-French (French),25,fauteuil,87,understands,0
-French (French),26,fauteuil,64,produces,0.4531
-French (French),26,fauteuil,64,understands,0
-French (French),27,fauteuil,54,produces,0.4444
-French (French),27,fauteuil,54,understands,0
-French (French),28,fauteuil,76,produces,0.5921
-French (French),28,fauteuil,76,understands,0
-French (French),29,fauteuil,67,produces,0.5522
-French (French),29,fauteuil,67,understands,0
-French (French),30,fauteuil,68,produces,0.5147
-French (French),30,fauteuil,68,understands,0
-German,18,Sessel,85,produces,0.0353
-German,18,Sessel,85,understands,0
-German,19,Sessel,79,produces,0.0633
-German,19,Sessel,79,understands,0
-German,20,Sessel,96,produces,0.1042
-German,20,Sessel,96,understands,0
-German,21,Sessel,77,produces,0.1299
-German,21,Sessel,77,understands,0
-German,22,Sessel,95,produces,0.1474
-German,22,Sessel,95,understands,0
-German,23,Sessel,95,produces,0.2947
-German,23,Sessel,95,understands,0
-German,24,Sessel,103,produces,0.2913
-German,24,Sessel,103,understands,0
-German,25,Sessel,95,produces,0.3474
-German,25,Sessel,95,understands,0
-German,26,Sessel,92,produces,0.4891
-German,26,Sessel,92,understands,0
-German,27,Sessel,89,produces,0.4719
-German,27,Sessel,89,understands,0
-German,28,Sessel,93,produces,0.5484
-German,28,Sessel,93,understands,0
-German,29,Sessel,89,produces,0.6404
-German,29,Sessel,89,understands,0
-German,30,Sessel,93,produces,0.6882
-German,30,Sessel,93,understands,0
-Greek (Cypriot),18,πολυθρόνα,45,produces,0.0222
-Greek (Cypriot),18,πολυθρόνα,45,understands,0
-Greek (Cypriot),21,πολυθρόνα,36,produces,0.0278
-Greek (Cypriot),21,πολυθρόνα,36,understands,0
-Greek (Cypriot),24,πολυθρόνα,32,produces,0.125
-Greek (Cypriot),24,πολυθρόνα,32,understands,0
-Greek (Cypriot),27,πολυθρόνα,29,produces,0.2759
-Greek (Cypriot),27,πολυθρόνα,29,understands,0
-Greek (Cypriot),30,πολυθρόνα,34,produces,0.2941
-Greek (Cypriot),30,πολυθρόνα,34,understands,0
-Hebrew,11,כורסה,1,produces,0
-Hebrew,11,כורסה,1,understands,0
-Hebrew,12,כורסה,4,produces,0
-Hebrew,12,כורסה,4,understands,0
-Hebrew,13,כורסה,4,produces,0
-Hebrew,13,כורסה,4,understands,0
-Hebrew,14,כורסה,1,produces,0
-Hebrew,14,כורסה,1,understands,0
-Hebrew,15,כורסה,2,produces,0
-Hebrew,15,כורסה,2,understands,0
-Hebrew,16,כורסה,6,produces,0
-Hebrew,16,כורסה,6,understands,0.1667
-Hebrew,17,כורסה,3,produces,0
-Hebrew,17,כורסה,3,understands,0
-Hebrew,19,כורסה,4,produces,0
-Hebrew,19,כורסה,4,understands,0
-Hebrew,20,כורסה,9,produces,0.1111
-Hebrew,20,כורסה,9,understands,0.5556
-Hebrew,21,כורסה,4,produces,0
-Hebrew,21,כורסה,4,understands,0.25
-Hebrew,22,כורסה,3,produces,0
-Hebrew,22,כורסה,3,understands,0.3333
-Hebrew,23,כורסה,7,produces,0
-Hebrew,23,כורסה,7,understands,0.4286
-Hebrew,24,כורסה,11,produces,0.6364
-Hebrew,24,כורסה,11,understands,0.7273
-Hebrew,25,כורסה,84,produces,0.381
-Hebrew,25,כורסה,84,understands,0.0119
-Hebrew,26,כורסה,80,produces,0.45
-Hebrew,26,כורסה,80,understands,0
-Hebrew,27,כורסה,68,produces,0.3824
-Hebrew,27,כורסה,68,understands,0
-Hebrew,28,כורסה,57,produces,0.4912
-Hebrew,28,כורסה,57,understands,0
-Hebrew,29,כורסה,47,produces,0.5319
-Hebrew,29,כורסה,47,understands,0
-Hebrew,30,כורסה,28,produces,0.4643
-Hebrew,30,כורסה,28,understands,0
-Hebrew,31,כורסה,35,produces,0.5143
-Hebrew,31,כורסה,35,understands,0
-Hebrew,32,כורסה,36,produces,0.5833
-Hebrew,32,כורסה,36,understands,0
-Hebrew,33,כורסה,21,produces,0.5238
-Hebrew,33,כורסה,21,understands,0
-Hebrew,34,כורסה,27,produces,0.5556
-Hebrew,34,כורסה,27,understands,0
-Hebrew,35,כורסה,18,produces,0.5556
-Hebrew,35,כורסה,18,understands,0
-Hebrew,36,כורסה,5,produces,0.2
-Hebrew,36,כורסה,5,understands,0
-Hungarian,16,fotel,21,produces,0
-Hungarian,16,fotel,21,understands,0
-Hungarian,17,fotel,18,produces,0.0556
-Hungarian,17,fotel,18,understands,0
-Hungarian,18,fotel,18,produces,0
-Hungarian,18,fotel,18,understands,0
-Hungarian,19,fotel,26,produces,0.1923
-Hungarian,19,fotel,26,understands,0
-Hungarian,20,fotel,18,produces,0.0556
-Hungarian,20,fotel,18,understands,0
-Hungarian,21,fotel,36,produces,0.25
-Hungarian,21,fotel,36,understands,0
-Hungarian,22,fotel,27,produces,0.2222
-Hungarian,22,fotel,27,understands,0
-Hungarian,23,fotel,18,produces,0.1667
-Hungarian,23,fotel,18,understands,0
-Hungarian,24,fotel,38,produces,0.2632
-Hungarian,24,fotel,38,understands,0
-Hungarian,25,fotel,43,produces,0.5116
-Hungarian,25,fotel,43,understands,0
-Hungarian,26,fotel,23,produces,0.5652
-Hungarian,26,fotel,23,understands,0
-Hungarian,27,fotel,26,produces,0.5385
-Hungarian,27,fotel,26,understands,0
-Hungarian,28,fotel,30,produces,0.6
-Hungarian,28,fotel,30,understands,0
-Hungarian,29,fotel,12,produces,0.5833
-Hungarian,29,fotel,12,understands,0
-Hungarian,30,fotel,18,produces,0.5556
-Hungarian,30,fotel,18,understands,0
+language,sex,age,words,n,measure,prop
+Croatian,All,8,fotelja,23,produces,0
+Croatian,All,8,fotelja,23,understands,0
+Croatian,All,9,fotelja,25,produces,0
+Croatian,All,9,fotelja,25,understands,0.04
+Croatian,All,10,fotelja,22,produces,0
+Croatian,All,10,fotelja,22,understands,0.0455
+Croatian,All,11,fotelja,25,produces,0
+Croatian,All,11,fotelja,25,understands,0.04
+Croatian,All,12,fotelja,35,produces,0
+Croatian,All,12,fotelja,35,understands,0.0857
+Croatian,All,13,fotelja,34,produces,0
+Croatian,All,13,fotelja,34,understands,0.1765
+Croatian,All,14,fotelja,28,produces,0
+Croatian,All,14,fotelja,28,understands,0.3571
+Croatian,All,15,fotelja,24,produces,0
+Croatian,All,15,fotelja,24,understands,0.25
+Croatian,All,16,fotelja,47,produces,0.0426
+Croatian,All,16,fotelja,47,understands,0.3617
+Croatian,All,17,fotelja,25,produces,0
+Croatian,All,17,fotelja,25,understands,0
+Croatian,All,18,fotelja,22,produces,0
+Croatian,All,18,fotelja,22,understands,0
+Croatian,All,19,fotelja,21,produces,0.0476
+Croatian,All,19,fotelja,21,understands,0
+Croatian,All,20,fotelja,26,produces,0.0385
+Croatian,All,20,fotelja,26,understands,0
+Croatian,All,21,fotelja,29,produces,0.0345
+Croatian,All,21,fotelja,29,understands,0
+Croatian,All,22,fotelja,24,produces,0
+Croatian,All,22,fotelja,24,understands,0
+Croatian,All,23,fotelja,26,produces,0.0385
+Croatian,All,23,fotelja,26,understands,0
+Croatian,All,24,fotelja,30,produces,0.0333
+Croatian,All,24,fotelja,30,understands,0
+Croatian,All,25,fotelja,30,produces,0.0333
+Croatian,All,25,fotelja,30,understands,0
+Croatian,All,26,fotelja,29,produces,0.1034
+Croatian,All,26,fotelja,29,understands,0
+Croatian,All,27,fotelja,25,produces,0.2
+Croatian,All,27,fotelja,25,understands,0
+Croatian,All,28,fotelja,21,produces,0.0952
+Croatian,All,28,fotelja,21,understands,0
+Croatian,All,29,fotelja,28,produces,0.0714
+Croatian,All,29,fotelja,28,understands,0
+Croatian,All,30,fotelja,28,produces,0.1786
+Croatian,All,30,fotelja,28,understands,0
+Czech,All,16,křeslo,29,produces,0
+Czech,All,16,křeslo,29,understands,0
+Czech,All,17,křeslo,29,produces,0
+Czech,All,17,křeslo,29,understands,0
+Czech,All,18,křeslo,45,produces,0.0222
+Czech,All,18,křeslo,45,understands,0
+Czech,All,19,křeslo,27,produces,0
+Czech,All,19,křeslo,27,understands,0
+Czech,All,20,křeslo,26,produces,0.0769
+Czech,All,20,křeslo,26,understands,0
+Czech,All,21,křeslo,34,produces,0
+Czech,All,21,křeslo,34,understands,0
+Czech,All,22,křeslo,36,produces,0.1111
+Czech,All,22,křeslo,36,understands,0
+Czech,All,23,křeslo,46,produces,0.1304
+Czech,All,23,křeslo,46,understands,0
+Czech,All,24,křeslo,35,produces,0.1143
+Czech,All,24,křeslo,35,understands,0
+Czech,All,25,křeslo,35,produces,0.1429
+Czech,All,25,křeslo,35,understands,0
+Czech,All,26,křeslo,22,produces,0.4545
+Czech,All,26,křeslo,22,understands,0
+Czech,All,27,křeslo,37,produces,0.2703
+Czech,All,27,křeslo,37,understands,0
+Czech,All,28,křeslo,26,produces,0.5
+Czech,All,28,křeslo,26,understands,0
+Czech,All,29,křeslo,39,produces,0.2564
+Czech,All,29,křeslo,39,understands,0
+Czech,All,30,křeslo,27,produces,0.4444
+Czech,All,30,křeslo,27,understands,0
+Finnish,All,18,nojatuoli,35,produces,0
+Finnish,All,18,nojatuoli,35,understands,0
+Finnish,All,24,nojatuoli,35,produces,0.1429
+Finnish,All,24,nojatuoli,35,understands,0
+French (French),All,8,fauteuil,54,produces,0
+French (French),All,8,fauteuil,54,understands,0
+French (French),All,9,fauteuil,11,produces,0.0909
+French (French),All,9,fauteuil,11,understands,0.1818
+French (French),All,10,fauteuil,13,produces,0
+French (French),All,10,fauteuil,13,understands,0
+French (French),All,11,fauteuil,42,produces,0
+French (French),All,11,fauteuil,42,understands,0.0476
+French (French),All,12,fauteuil,64,produces,0.0312
+French (French),All,12,fauteuil,64,understands,0.0625
+French (French),All,13,fauteuil,116,produces,0
+French (French),All,13,fauteuil,116,understands,0.0172
+French (French),All,14,fauteuil,40,produces,0.05
+French (French),All,14,fauteuil,40,understands,0.075
+French (French),All,15,fauteuil,26,produces,0.1923
+French (French),All,15,fauteuil,26,understands,0.2308
+French (French),All,16,fauteuil,98,produces,0.0306
+French (French),All,16,fauteuil,98,understands,0.0102
+French (French),All,17,fauteuil,52,produces,0
+French (French),All,17,fauteuil,52,understands,0
+French (French),All,18,fauteuil,54,produces,0.1852
+French (French),All,18,fauteuil,54,understands,0
+French (French),All,19,fauteuil,42,produces,0.1667
+French (French),All,19,fauteuil,42,understands,0
+French (French),All,20,fauteuil,81,produces,0.1852
+French (French),All,20,fauteuil,81,understands,0
+French (French),All,21,fauteuil,102,produces,0.2255
+French (French),All,21,fauteuil,102,understands,0
+French (French),All,22,fauteuil,103,produces,0.2427
+French (French),All,22,fauteuil,103,understands,0
+French (French),All,23,fauteuil,118,produces,0.1695
+French (French),All,23,fauteuil,118,understands,0
+French (French),All,24,fauteuil,173,produces,0.3006
+French (French),All,24,fauteuil,173,understands,0
+French (French),All,25,fauteuil,87,produces,0.3908
+French (French),All,25,fauteuil,87,understands,0
+French (French),All,26,fauteuil,64,produces,0.4531
+French (French),All,26,fauteuil,64,understands,0
+French (French),All,27,fauteuil,54,produces,0.4444
+French (French),All,27,fauteuil,54,understands,0
+French (French),All,28,fauteuil,76,produces,0.5921
+French (French),All,28,fauteuil,76,understands,0
+French (French),All,29,fauteuil,67,produces,0.5522
+French (French),All,29,fauteuil,67,understands,0
+French (French),All,30,fauteuil,68,produces,0.5147
+French (French),All,30,fauteuil,68,understands,0
+German,All,18,Sessel,85,produces,0.0353
+German,All,18,Sessel,85,understands,0
+German,All,19,Sessel,79,produces,0.0633
+German,All,19,Sessel,79,understands,0
+German,All,20,Sessel,96,produces,0.1042
+German,All,20,Sessel,96,understands,0
+German,All,21,Sessel,77,produces,0.1299
+German,All,21,Sessel,77,understands,0
+German,All,22,Sessel,95,produces,0.1474
+German,All,22,Sessel,95,understands,0
+German,All,23,Sessel,95,produces,0.2947
+German,All,23,Sessel,95,understands,0
+German,All,24,Sessel,103,produces,0.2913
+German,All,24,Sessel,103,understands,0
+German,All,25,Sessel,95,produces,0.3474
+German,All,25,Sessel,95,understands,0
+German,All,26,Sessel,92,produces,0.4891
+German,All,26,Sessel,92,understands,0
+German,All,27,Sessel,89,produces,0.4719
+German,All,27,Sessel,89,understands,0
+German,All,28,Sessel,93,produces,0.5484
+German,All,28,Sessel,93,understands,0
+German,All,29,Sessel,89,produces,0.6404
+German,All,29,Sessel,89,understands,0
+German,All,30,Sessel,93,produces,0.6882
+German,All,30,Sessel,93,understands,0
+Greek (Cypriot),All,18,πολυθρόνα,45,produces,0.0222
+Greek (Cypriot),All,18,πολυθρόνα,45,understands,0
+Greek (Cypriot),All,21,πολυθρόνα,36,produces,0.0278
+Greek (Cypriot),All,21,πολυθρόνα,36,understands,0
+Greek (Cypriot),All,24,πολυθρόνα,32,produces,0.125
+Greek (Cypriot),All,24,πολυθρόνα,32,understands,0
+Greek (Cypriot),All,27,πολυθρόνα,29,produces,0.2759
+Greek (Cypriot),All,27,πολυθρόνα,29,understands,0
+Greek (Cypriot),All,30,πολυθρόνα,34,produces,0.2941
+Greek (Cypriot),All,30,πολυθρόνα,34,understands,0
+Hebrew,All,11,כורסה,1,produces,0
+Hebrew,All,11,כורסה,1,understands,0
+Hebrew,All,12,כורסה,4,produces,0
+Hebrew,All,12,כורסה,4,understands,0
+Hebrew,All,13,כורסה,4,produces,0
+Hebrew,All,13,כורסה,4,understands,0
+Hebrew,All,14,כורסה,1,produces,0
+Hebrew,All,14,כורסה,1,understands,0
+Hebrew,All,15,כורסה,2,produces,0
+Hebrew,All,15,כורסה,2,understands,0
+Hebrew,All,16,כורסה,6,produces,0
+Hebrew,All,16,כורסה,6,understands,0.1667
+Hebrew,All,17,כורסה,3,produces,0
+Hebrew,All,17,כורסה,3,understands,0
+Hebrew,All,19,כורסה,4,produces,0
+Hebrew,All,19,כורסה,4,understands,0
+Hebrew,All,20,כורסה,9,produces,0.1111
+Hebrew,All,20,כורסה,9,understands,0.5556
+Hebrew,All,21,כורסה,4,produces,0
+Hebrew,All,21,כורסה,4,understands,0.25
+Hebrew,All,22,כורסה,3,produces,0
+Hebrew,All,22,כורסה,3,understands,0.3333
+Hebrew,All,23,כורסה,7,produces,0
+Hebrew,All,23,כורסה,7,understands,0.4286
+Hebrew,All,24,כורסה,11,produces,0.6364
+Hebrew,All,24,כורסה,11,understands,0.7273
+Hebrew,All,25,כורסה,84,produces,0.381
+Hebrew,All,25,כורסה,84,understands,0.0119
+Hebrew,All,26,כורסה,80,produces,0.45
+Hebrew,All,26,כורסה,80,understands,0
+Hebrew,All,27,כורסה,68,produces,0.3824
+Hebrew,All,27,כורסה,68,understands,0
+Hebrew,All,28,כורסה,57,produces,0.4912
+Hebrew,All,28,כורסה,57,understands,0
+Hebrew,All,29,כורסה,47,produces,0.5319
+Hebrew,All,29,כורסה,47,understands,0
+Hebrew,All,30,כורסה,28,produces,0.4643
+Hebrew,All,30,כורסה,28,understands,0
+Hebrew,All,31,כורסה,35,produces,0.5143
+Hebrew,All,31,כורסה,35,understands,0
+Hebrew,All,32,כורסה,36,produces,0.5833
+Hebrew,All,32,כורסה,36,understands,0
+Hebrew,All,33,כורסה,21,produces,0.5238
+Hebrew,All,33,כורסה,21,understands,0
+Hebrew,All,34,כורסה,27,produces,0.5556
+Hebrew,All,34,כורסה,27,understands,0
+Hebrew,All,35,כורסה,18,produces,0.5556
+Hebrew,All,35,כורסה,18,understands,0
+Hebrew,All,36,כורסה,5,produces,0.2
+Hebrew,All,36,כורסה,5,understands,0
+Hungarian,All,16,fotel,21,produces,0
+Hungarian,All,16,fotel,21,understands,0
+Hungarian,All,17,fotel,18,produces,0.0556
+Hungarian,All,17,fotel,18,understands,0
+Hungarian,All,18,fotel,18,produces,0
+Hungarian,All,18,fotel,18,understands,0
+Hungarian,All,19,fotel,26,produces,0.1923
+Hungarian,All,19,fotel,26,understands,0
+Hungarian,All,20,fotel,18,produces,0.0556
+Hungarian,All,20,fotel,18,understands,0
+Hungarian,All,21,fotel,36,produces,0.25
+Hungarian,All,21,fotel,36,understands,0
+Hungarian,All,22,fotel,27,produces,0.2222
+Hungarian,All,22,fotel,27,understands,0
+Hungarian,All,23,fotel,18,produces,0.1667
+Hungarian,All,23,fotel,18,understands,0
+Hungarian,All,24,fotel,38,produces,0.2632
+Hungarian,All,24,fotel,38,understands,0
+Hungarian,All,25,fotel,43,produces,0.5116
+Hungarian,All,25,fotel,43,understands,0
+Hungarian,All,26,fotel,23,produces,0.5652
+Hungarian,All,26,fotel,23,understands,0
+Hungarian,All,27,fotel,26,produces,0.5385
+Hungarian,All,27,fotel,26,understands,0
+Hungarian,All,28,fotel,30,produces,0.6
+Hungarian,All,28,fotel,30,understands,0
+Hungarian,All,29,fotel,12,produces,0.5833
+Hungarian,All,29,fotel,12,understands,0
+Hungarian,All,30,fotel,18,produces,0.5556
+Hungarian,All,30,fotel,18,understands,0
+Italian,All,18,poltrona,31,produces,0.0645
+Italian,All,18,poltrona,31,understands,0
+Italian,All,19,poltrona,39,produces,0.0769
+Italian,All,19,poltrona,39,understands,0
+Italian,All,20,poltrona,64,produces,0
+Italian,All,20,poltrona,64,understands,0
+Italian,All,21,poltrona,55,produces,0.0545
+Italian,All,21,poltrona,55,understands,0
+Italian,All,22,poltrona,55,produces,0.1636
+Italian,All,22,poltrona,55,understands,0
+Italian,All,23,poltrona,53,produces,0.1132
+Italian,All,23,poltrona,53,understands,0
+Italian,All,24,poltrona,71,produces,0.1972
+Italian,All,24,poltrona,71,understands,0
+Italian,All,25,poltrona,39,produces,0.3077
+Italian,All,25,poltrona,39,understands,0
+Italian,All,26,poltrona,41,produces,0.3415
+Italian,All,26,poltrona,41,understands,0
+Italian,All,27,poltrona,43,produces,0.2093
+Italian,All,27,poltrona,43,understands,0
+Italian,All,28,poltrona,44,produces,0.4318
+Italian,All,28,poltrona,44,understands,0
+Italian,All,29,poltrona,37,produces,0.5405
+Italian,All,29,poltrona,37,understands,0
+Italian,All,30,poltrona,67,produces,0.5373
+Italian,All,30,poltrona,67,understands,0
+Italian,All,31,poltrona,19,produces,0.5789
+Italian,All,31,poltrona,19,understands,0
+Italian,All,32,poltrona,23,produces,0.5652
+Italian,All,32,poltrona,23,understands,0
+Italian,All,33,poltrona,16,produces,0.8125
+Italian,All,33,poltrona,16,understands,0
+Italian,All,34,poltrona,19,produces,0.7895
+Italian,All,34,poltrona,19,understands,0
+Italian,All,35,poltrona,15,produces,0.6
+Italian,All,35,poltrona,15,understands,0
+Italian,All,36,poltrona,21,produces,0.6667
+Italian,All,36,poltrona,21,understands,0
+Russian,All,8,кресло,59,produces,0
+Russian,All,8,кресло,59,understands,0.0169
+Russian,All,9,кресло,42,produces,0
+Russian,All,9,кресло,42,understands,0.0238
+Russian,All,10,кресло,63,produces,0
+Russian,All,10,кресло,63,understands,0.0159
+Russian,All,11,кресло,71,produces,0
+Russian,All,11,кресло,71,understands,0.1127
+Russian,All,12,кресло,76,produces,0
+Russian,All,12,кресло,76,understands,0.0658
+Russian,All,13,кресло,73,produces,0
+Russian,All,13,кресло,73,understands,0.1918
+Russian,All,14,кресло,79,produces,0
+Russian,All,14,кресло,79,understands,0.3291
+Russian,All,15,кресло,81,produces,0.0123
+Russian,All,15,кресло,81,understands,0.3951
+Russian,All,16,кресло,81,produces,0.0123
+Russian,All,16,кресло,81,understands,0.4568
+Russian,All,17,кресло,80,produces,0.05
+Russian,All,17,кресло,80,understands,0.5625
+Russian,All,18,кресло,105,produces,0.0286
+Russian,All,18,кресло,105,understands,0.3524
+Russian,All,19,кресло,41,produces,0.1463
+Russian,All,19,кресло,41,understands,0
+Russian,All,20,кресло,45,produces,0.0889
+Russian,All,20,кресло,45,understands,0
+Russian,All,21,кресло,43,produces,0.1395
+Russian,All,21,кресло,43,understands,0
+Russian,All,22,кресло,51,produces,0.2157
+Russian,All,22,кресло,51,understands,0
+Russian,All,23,кресло,56,produces,0.2143
+Russian,All,23,кресло,56,understands,0
+Russian,All,24,кресло,61,produces,0.3443
+Russian,All,24,кресло,61,understands,0
+Russian,All,25,кресло,66,produces,0.3939
+Russian,All,25,кресло,66,understands,0
+Russian,All,26,кресло,52,produces,0.3269
+Russian,All,26,кресло,52,understands,0
+Russian,All,27,кресло,60,produces,0.5
+Russian,All,27,кресло,60,understands,0
+Russian,All,28,кресло,60,produces,0.5333
+Russian,All,28,кресло,60,understands,0
+Russian,All,29,кресло,58,produces,0.6207
+Russian,All,29,кресло,58,understands,0
+Russian,All,30,кресло,77,produces,0.5714
+Russian,All,30,кресло,77,understands,0
+Russian,All,31,кресло,61,produces,0.623
+Russian,All,31,кресло,61,understands,0
+Russian,All,32,кресло,55,produces,0.6909
+Russian,All,32,кресло,55,understands,0
+Russian,All,33,кресло,55,produces,0.7455
+Russian,All,33,кресло,55,understands,0
+Russian,All,34,кресло,58,produces,0.7241
+Russian,All,34,кресло,58,understands,0
+Russian,All,35,кресло,47,produces,0.7021
+Russian,All,35,кресло,47,understands,0
+Russian,All,36,кресло,49,produces,0.7143
+Russian,All,36,кресло,49,understands,0
+Turkish,All,8,Koltuk,140,produces,0.0071
+Turkish,All,8,Koltuk,140,understands,0.05
+Turkish,All,9,Koltuk,125,produces,0
+Turkish,All,9,Koltuk,125,understands,0.168
+Turkish,All,10,Koltuk,130,produces,0.0077
+Turkish,All,10,Koltuk,130,understands,0.1769
+Turkish,All,11,Koltuk,125,produces,0
+Turkish,All,11,Koltuk,125,understands,0.208
+Turkish,All,12,Koltuk,120,produces,0
+Turkish,All,12,Koltuk,120,understands,0.2833
+Turkish,All,13,Koltuk,122,produces,0
+Turkish,All,13,Koltuk,122,understands,0.4098
+Turkish,All,14,Koltuk,147,produces,0.0136
+Turkish,All,14,Koltuk,147,understands,0.483
+Turkish,All,15,Koltuk,131,produces,0.0229
+Turkish,All,15,Koltuk,131,understands,0.5573
+Turkish,All,16,Koltuk,184,produces,0.0435
+Turkish,All,16,Koltuk,184,understands,0.2935
+Turkish,All,17,Koltuk,107,produces,0.0467
+Turkish,All,17,Koltuk,107,understands,0
+Turkish,All,18,Koltuk,128,produces,0.1094
+Turkish,All,18,Koltuk,128,understands,0
+Turkish,All,19,Koltuk,121,produces,0.1157
+Turkish,All,19,Koltuk,121,understands,0
+Turkish,All,20,Koltuk,119,produces,0.2017
+Turkish,All,20,Koltuk,119,understands,0
+Turkish,All,21,Koltuk,124,produces,0.2177
+Turkish,All,21,Koltuk,124,understands,0
+Turkish,All,22,Koltuk,126,produces,0.2698
+Turkish,All,22,Koltuk,126,understands,0
+Turkish,All,23,Koltuk,131,produces,0.3817
+Turkish,All,23,Koltuk,131,understands,0
+Turkish,All,24,Koltuk,106,produces,0.4528
+Turkish,All,24,Koltuk,106,understands,0
+Turkish,All,25,Koltuk,123,produces,0.5122
+Turkish,All,25,Koltuk,123,understands,0
+Turkish,All,26,Koltuk,123,produces,0.5691
+Turkish,All,26,Koltuk,123,understands,0
+Turkish,All,27,Koltuk,108,produces,0.6204
+Turkish,All,27,Koltuk,108,understands,0
+Turkish,All,28,Koltuk,112,produces,0.6339
+Turkish,All,28,Koltuk,112,understands,0
+Turkish,All,29,Koltuk,119,produces,0.6807
+Turkish,All,29,Koltuk,119,understands,0
+Turkish,All,30,Koltuk,104,produces,0.7692
+Turkish,All,30,Koltuk,104,understands,0
+Turkish,All,31,Koltuk,101,produces,0.8317
+Turkish,All,31,Koltuk,101,understands,0
+Turkish,All,32,Koltuk,132,produces,0.8106
+Turkish,All,32,Koltuk,132,understands,0
+Turkish,All,33,Koltuk,114,produces,0.886
+Turkish,All,33,Koltuk,114,understands,0
+Turkish,All,34,Koltuk,107,produces,0.8598
+Turkish,All,34,Koltuk,107,understands,0
+Turkish,All,35,Koltuk,131,produces,0.8626
+Turkish,All,35,Koltuk,131,understands,0
+Turkish,All,36,Koltuk,77,produces,0.9481
+Turkish,All,36,Koltuk,77,understands,0
+Croatian,Female,8,fotelja,9,produces,0
+Croatian,Female,8,fotelja,9,understands,0
+Croatian,Male,8,fotelja,14,produces,0
+Croatian,Male,8,fotelja,14,understands,0
+Croatian,Female,9,fotelja,16,produces,0
+Croatian,Female,9,fotelja,16,understands,0.0625
+Croatian,Male,9,fotelja,9,produces,0
+Croatian,Male,9,fotelja,9,understands,0
+Croatian,Female,10,fotelja,10,produces,0
+Croatian,Female,10,fotelja,10,understands,0
+Croatian,Male,10,fotelja,12,produces,0
+Croatian,Male,10,fotelja,12,understands,0.0833
+Croatian,Female,11,fotelja,11,produces,0
+Croatian,Female,11,fotelja,11,understands,0.0909
+Croatian,Male,11,fotelja,14,produces,0
+Croatian,Male,11,fotelja,14,understands,0
+Croatian,Female,12,fotelja,14,produces,0
+Croatian,Female,12,fotelja,14,understands,0.1429
+Croatian,Male,12,fotelja,21,produces,0
+Croatian,Male,12,fotelja,21,understands,0.0476
+Croatian,Female,13,fotelja,15,produces,0
+Croatian,Female,13,fotelja,15,understands,0.2
+Croatian,Male,13,fotelja,19,produces,0
+Croatian,Male,13,fotelja,19,understands,0.1579
+Croatian,Female,14,fotelja,14,produces,0
+Croatian,Female,14,fotelja,14,understands,0.4286
+Croatian,Male,14,fotelja,14,produces,0
+Croatian,Male,14,fotelja,14,understands,0.2857
+Croatian,Female,15,fotelja,16,produces,0
+Croatian,Female,15,fotelja,16,understands,0.3125
+Croatian,Male,15,fotelja,8,produces,0
+Croatian,Male,15,fotelja,8,understands,0.125
+Croatian,Female,16,fotelja,27,produces,0.0741
+Croatian,Female,16,fotelja,27,understands,0.4074
+Croatian,Male,16,fotelja,20,produces,0
+Croatian,Male,16,fotelja,20,understands,0.3
+Croatian,Female,17,fotelja,12,produces,0
+Croatian,Female,17,fotelja,12,understands,0
+Croatian,Male,17,fotelja,13,produces,0
+Croatian,Male,17,fotelja,13,understands,0
+Croatian,Female,18,fotelja,8,produces,0
+Croatian,Female,18,fotelja,8,understands,0
+Croatian,Male,18,fotelja,14,produces,0
+Croatian,Male,18,fotelja,14,understands,0
+Croatian,Female,19,fotelja,14,produces,0.0714
+Croatian,Female,19,fotelja,14,understands,0
+Croatian,Male,19,fotelja,7,produces,0
+Croatian,Male,19,fotelja,7,understands,0
+Croatian,Female,20,fotelja,13,produces,0
+Croatian,Female,20,fotelja,13,understands,0
+Croatian,Male,20,fotelja,13,produces,0.0769
+Croatian,Male,20,fotelja,13,understands,0
+Croatian,Female,21,fotelja,13,produces,0.0769
+Croatian,Female,21,fotelja,13,understands,0
+Croatian,Male,21,fotelja,16,produces,0
+Croatian,Male,21,fotelja,16,understands,0
+Croatian,Female,22,fotelja,14,produces,0
+Croatian,Female,22,fotelja,14,understands,0
+Croatian,Male,22,fotelja,10,produces,0
+Croatian,Male,22,fotelja,10,understands,0
+Croatian,Female,23,fotelja,14,produces,0.0714
+Croatian,Female,23,fotelja,14,understands,0
+Croatian,Male,23,fotelja,12,produces,0
+Croatian,Male,23,fotelja,12,understands,0
+Croatian,Female,24,fotelja,14,produces,0
+Croatian,Female,24,fotelja,14,understands,0
+Croatian,Male,24,fotelja,16,produces,0.0625
+Croatian,Male,24,fotelja,16,understands,0
+Croatian,Female,25,fotelja,14,produces,0.0714
+Croatian,Female,25,fotelja,14,understands,0
+Croatian,Male,25,fotelja,16,produces,0
+Croatian,Male,25,fotelja,16,understands,0
+Croatian,Female,26,fotelja,11,produces,0.1818
+Croatian,Female,26,fotelja,11,understands,0
+Croatian,Male,26,fotelja,18,produces,0.0556
+Croatian,Male,26,fotelja,18,understands,0
+Croatian,Female,27,fotelja,11,produces,0.1818
+Croatian,Female,27,fotelja,11,understands,0
+Croatian,Male,27,fotelja,14,produces,0.2143
+Croatian,Male,27,fotelja,14,understands,0
+Croatian,Female,28,fotelja,8,produces,0.125
+Croatian,Female,28,fotelja,8,understands,0
+Croatian,Male,28,fotelja,13,produces,0.0769
+Croatian,Male,28,fotelja,13,understands,0
+Croatian,Female,29,fotelja,15,produces,0
+Croatian,Female,29,fotelja,15,understands,0
+Croatian,Male,29,fotelja,13,produces,0.1538
+Croatian,Male,29,fotelja,13,understands,0
+Croatian,Female,30,fotelja,11,produces,0.0909
+Croatian,Female,30,fotelja,11,understands,0
+Croatian,Male,30,fotelja,17,produces,0.2353
+Croatian,Male,30,fotelja,17,understands,0
+Czech,Female,16,křeslo,13,produces,0
+Czech,Female,16,křeslo,13,understands,0
+Czech,Male,16,křeslo,16,produces,0
+Czech,Male,16,křeslo,16,understands,0
+Czech,Female,17,křeslo,16,produces,0
+Czech,Female,17,křeslo,16,understands,0
+Czech,Male,17,křeslo,13,produces,0
+Czech,Male,17,křeslo,13,understands,0
+Czech,Female,18,křeslo,18,produces,0
+Czech,Female,18,křeslo,18,understands,0
+Czech,Male,18,křeslo,27,produces,0.037
+Czech,Male,18,křeslo,27,understands,0
+Czech,Female,19,křeslo,17,produces,0
+Czech,Female,19,křeslo,17,understands,0
+Czech,Male,19,křeslo,10,produces,0
+Czech,Male,19,křeslo,10,understands,0
+Czech,Female,20,křeslo,15,produces,0.0667
+Czech,Female,20,křeslo,15,understands,0
+Czech,Male,20,křeslo,11,produces,0.0909
+Czech,Male,20,křeslo,11,understands,0
+Czech,Female,21,křeslo,18,produces,0
+Czech,Female,21,křeslo,18,understands,0
+Czech,Male,21,křeslo,16,produces,0
+Czech,Male,21,křeslo,16,understands,0
+Czech,Female,22,křeslo,17,produces,0.1765
+Czech,Female,22,křeslo,17,understands,0
+Czech,Male,22,křeslo,19,produces,0.0526
+Czech,Male,22,křeslo,19,understands,0
+Czech,Female,23,křeslo,21,produces,0.1905
+Czech,Female,23,křeslo,21,understands,0
+Czech,Male,23,křeslo,25,produces,0.08
+Czech,Male,23,křeslo,25,understands,0
+Czech,Female,24,křeslo,16,produces,0.125
+Czech,Female,24,křeslo,16,understands,0
+Czech,Male,24,křeslo,19,produces,0.1053
+Czech,Male,24,křeslo,19,understands,0
+Czech,Female,25,křeslo,17,produces,0.2353
+Czech,Female,25,křeslo,17,understands,0
+Czech,Male,25,křeslo,18,produces,0.0556
+Czech,Male,25,křeslo,18,understands,0
+Czech,Female,26,křeslo,14,produces,0.5
+Czech,Female,26,křeslo,14,understands,0
+Czech,Male,26,křeslo,8,produces,0.375
+Czech,Male,26,křeslo,8,understands,0
+Czech,Female,27,křeslo,23,produces,0.3043
+Czech,Female,27,křeslo,23,understands,0
+Czech,Male,27,křeslo,14,produces,0.2143
+Czech,Male,27,křeslo,14,understands,0
+Czech,Female,28,křeslo,16,produces,0.5
+Czech,Female,28,křeslo,16,understands,0
+Czech,Male,28,křeslo,10,produces,0.5
+Czech,Male,28,křeslo,10,understands,0
+Czech,Female,29,křeslo,18,produces,0.2778
+Czech,Female,29,křeslo,18,understands,0
+Czech,Male,29,křeslo,21,produces,0.2381
+Czech,Male,29,křeslo,21,understands,0
+Czech,Female,30,křeslo,16,produces,0.375
+Czech,Female,30,křeslo,16,understands,0
+Czech,Male,30,křeslo,11,produces,0.5455
+Czech,Male,30,křeslo,11,understands,0
+Finnish,Female,18,nojatuoli,18,produces,0
+Finnish,Female,18,nojatuoli,18,understands,0
+Finnish,Male,18,nojatuoli,17,produces,0
+Finnish,Male,18,nojatuoli,17,understands,0
+Finnish,Female,24,nojatuoli,18,produces,0.1667
+Finnish,Female,24,nojatuoli,18,understands,0
+Finnish,Male,24,nojatuoli,17,produces,0.1176
+Finnish,Male,24,nojatuoli,17,understands,0
+French (French),Female,8,fauteuil,2,produces,0
+French (French),Female,8,fauteuil,2,understands,0
+French (French),Male,8,fauteuil,5,produces,0
+French (French),Male,8,fauteuil,5,understands,0
+French (French),Female,9,fauteuil,2,produces,0.5
+French (French),Female,9,fauteuil,2,understands,0.5
+French (French),Male,9,fauteuil,5,produces,0
+French (French),Male,9,fauteuil,5,understands,0
+French (French),Female,10,fauteuil,7,produces,0
+French (French),Female,10,fauteuil,7,understands,0
+French (French),Male,10,fauteuil,6,produces,0
+French (French),Male,10,fauteuil,6,understands,0
+French (French),Female,11,fauteuil,8,produces,0
+French (French),Female,11,fauteuil,8,understands,0
+French (French),Male,11,fauteuil,6,produces,0
+French (French),Male,11,fauteuil,6,understands,0
+French (French),Female,12,fauteuil,19,produces,0.1053
+French (French),Female,12,fauteuil,19,understands,0.1053
+French (French),Male,12,fauteuil,19,produces,0
+French (French),Male,12,fauteuil,19,understands,0
+French (French),Female,13,fauteuil,36,produces,0
+French (French),Female,13,fauteuil,36,understands,0.0278
+French (French),Male,13,fauteuil,30,produces,0
+French (French),Male,13,fauteuil,30,understands,0
+French (French),Female,14,fauteuil,17,produces,0
+French (French),Female,14,fauteuil,17,understands,0.0588
+French (French),Male,14,fauteuil,20,produces,0.1
+French (French),Male,14,fauteuil,20,understands,0.1
+French (French),Female,15,fauteuil,11,produces,0.1818
+French (French),Female,15,fauteuil,11,understands,0.1818
+French (French),Male,15,fauteuil,13,produces,0.2308
+French (French),Male,15,fauteuil,13,understands,0.2308
+French (French),Female,16,fauteuil,25,produces,0.04
+French (French),Female,16,fauteuil,25,understands,0
+French (French),Male,16,fauteuil,27,produces,0.037
+French (French),Male,16,fauteuil,27,understands,0.037
+French (French),Female,17,fauteuil,25,produces,0
+French (French),Female,17,fauteuil,25,understands,0
+French (French),Male,17,fauteuil,23,produces,0
+French (French),Male,17,fauteuil,23,understands,0
+French (French),Female,18,fauteuil,27,produces,0.1481
+French (French),Female,18,fauteuil,27,understands,0
+French (French),Male,18,fauteuil,21,produces,0.1429
+French (French),Male,18,fauteuil,21,understands,0
+French (French),Female,19,fauteuil,22,produces,0.0909
+French (French),Female,19,fauteuil,22,understands,0
+French (French),Male,19,fauteuil,17,produces,0.1765
+French (French),Male,19,fauteuil,17,understands,0
+French (French),Female,20,fauteuil,42,produces,0.1905
+French (French),Female,20,fauteuil,42,understands,0
+French (French),Male,20,fauteuil,35,produces,0.1429
+French (French),Male,20,fauteuil,35,understands,0
+French (French),Female,21,fauteuil,55,produces,0.2
+French (French),Female,21,fauteuil,55,understands,0
+French (French),Male,21,fauteuil,38,produces,0.1316
+French (French),Male,21,fauteuil,38,understands,0
+French (French),Female,22,fauteuil,60,produces,0.2667
+French (French),Female,22,fauteuil,60,understands,0
+French (French),Male,22,fauteuil,38,produces,0.1842
+French (French),Male,22,fauteuil,38,understands,0
+French (French),Female,23,fauteuil,40,produces,0.15
+French (French),Female,23,fauteuil,40,understands,0
+French (French),Male,23,fauteuil,44,produces,0.1591
+French (French),Male,23,fauteuil,44,understands,0
+French (French),Female,24,fauteuil,65,produces,0.3077
+French (French),Female,24,fauteuil,65,understands,0
+French (French),Male,24,fauteuil,72,produces,0.3056
+French (French),Male,24,fauteuil,72,understands,0
+French (French),Female,25,fauteuil,39,produces,0.4359
+French (French),Female,25,fauteuil,39,understands,0
+French (French),Male,25,fauteuil,46,produces,0.3696
+French (French),Male,25,fauteuil,46,understands,0
+French (French),Female,26,fauteuil,31,produces,0.5161
+French (French),Female,26,fauteuil,31,understands,0
+French (French),Male,26,fauteuil,32,produces,0.4062
+French (French),Male,26,fauteuil,32,understands,0
+French (French),Female,27,fauteuil,28,produces,0.5
+French (French),Female,27,fauteuil,28,understands,0
+French (French),Male,27,fauteuil,24,produces,0.375
+French (French),Male,27,fauteuil,24,understands,0
+French (French),Female,28,fauteuil,33,produces,0.6667
+French (French),Female,28,fauteuil,33,understands,0
+French (French),Male,28,fauteuil,43,produces,0.5349
+French (French),Male,28,fauteuil,43,understands,0
+French (French),Female,29,fauteuil,32,produces,0.6875
+French (French),Female,29,fauteuil,32,understands,0
+French (French),Male,29,fauteuil,33,produces,0.4545
+French (French),Male,29,fauteuil,33,understands,0
+French (French),Female,30,fauteuil,34,produces,0.5294
+French (French),Female,30,fauteuil,34,understands,0
+French (French),Male,30,fauteuil,33,produces,0.5152
+French (French),Male,30,fauteuil,33,understands,0
+German,Female,18,Sessel,40,produces,0.075
+German,Female,18,Sessel,40,understands,0
+German,Male,18,Sessel,45,produces,0
+German,Male,18,Sessel,45,understands,0
+German,Female,19,Sessel,39,produces,0.0769
+German,Female,19,Sessel,39,understands,0
+German,Male,19,Sessel,40,produces,0.05
+German,Male,19,Sessel,40,understands,0
+German,Female,20,Sessel,39,produces,0.1282
+German,Female,20,Sessel,39,understands,0
+German,Male,20,Sessel,57,produces,0.0877
+German,Male,20,Sessel,57,understands,0
+German,Female,21,Sessel,38,produces,0.1842
+German,Female,21,Sessel,38,understands,0
+German,Male,21,Sessel,39,produces,0.0769
+German,Male,21,Sessel,39,understands,0
+German,Female,22,Sessel,52,produces,0.1346
+German,Female,22,Sessel,52,understands,0
+German,Male,22,Sessel,43,produces,0.1628
+German,Male,22,Sessel,43,understands,0
+German,Female,23,Sessel,45,produces,0.3111
+German,Female,23,Sessel,45,understands,0
+German,Male,23,Sessel,50,produces,0.28
+German,Male,23,Sessel,50,understands,0
+German,Female,24,Sessel,48,produces,0.375
+German,Female,24,Sessel,48,understands,0
+German,Male,24,Sessel,55,produces,0.2182
+German,Male,24,Sessel,55,understands,0
+German,Female,25,Sessel,28,produces,0.4643
+German,Female,25,Sessel,28,understands,0
+German,Male,25,Sessel,67,produces,0.2985
+German,Male,25,Sessel,67,understands,0
+German,Female,26,Sessel,42,produces,0.5714
+German,Female,26,Sessel,42,understands,0
+German,Male,26,Sessel,50,produces,0.42
+German,Male,26,Sessel,50,understands,0
+German,Female,27,Sessel,41,produces,0.5854
+German,Female,27,Sessel,41,understands,0
+German,Male,27,Sessel,48,produces,0.375
+German,Male,27,Sessel,48,understands,0
+German,Female,28,Sessel,35,produces,0.6
+German,Female,28,Sessel,35,understands,0
+German,Male,28,Sessel,58,produces,0.5172
+German,Male,28,Sessel,58,understands,0
+German,Female,29,Sessel,50,produces,0.72
+German,Female,29,Sessel,50,understands,0
+German,Male,29,Sessel,39,produces,0.5385
+German,Male,29,Sessel,39,understands,0
+German,Female,30,Sessel,54,produces,0.7222
+German,Female,30,Sessel,54,understands,0
+German,Male,30,Sessel,39,produces,0.641
+German,Male,30,Sessel,39,understands,0
+Greek (Cypriot),Female,18,πολυθρόνα,24,produces,0.0417
+Greek (Cypriot),Female,18,πολυθρόνα,24,understands,0
+Greek (Cypriot),Male,18,πολυθρόνα,21,produces,0
+Greek (Cypriot),Male,18,πολυθρόνα,21,understands,0
+Greek (Cypriot),Female,21,πολυθρόνα,19,produces,0.0526
+Greek (Cypriot),Female,21,πολυθρόνα,19,understands,0
+Greek (Cypriot),Male,21,πολυθρόνα,17,produces,0
+Greek (Cypriot),Male,21,πολυθρόνα,17,understands,0
+Greek (Cypriot),Female,24,πολυθρόνα,12,produces,0.0833
+Greek (Cypriot),Female,24,πολυθρόνα,12,understands,0
+Greek (Cypriot),Male,24,πολυθρόνα,20,produces,0.15
+Greek (Cypriot),Male,24,πολυθρόνα,20,understands,0
+Greek (Cypriot),Female,27,πολυθρόνα,16,produces,0.3125
+Greek (Cypriot),Female,27,πολυθρόνα,16,understands,0
+Greek (Cypriot),Male,27,πολυθρόνα,13,produces,0.2308
+Greek (Cypriot),Male,27,πολυθρόνα,13,understands,0
+Greek (Cypriot),Female,30,πολυθρόνα,12,produces,0.3333
+Greek (Cypriot),Female,30,πολυθρόνα,12,understands,0
+Greek (Cypriot),Male,30,πολυθρόνα,22,produces,0.2727
+Greek (Cypriot),Male,30,πολυθρόνα,22,understands,0
+Hebrew,Male,11,כורסה,1,produces,0
+Hebrew,Male,11,כורסה,1,understands,0
+Hebrew,Female,12,כורסה,1,produces,0
+Hebrew,Female,12,כורסה,1,understands,0
+Hebrew,Male,12,כורסה,3,produces,0
+Hebrew,Male,12,כורסה,3,understands,0
+Hebrew,Male,13,כורסה,4,produces,0
+Hebrew,Male,13,כורסה,4,understands,0
+Hebrew,Male,14,כורסה,1,produces,0
+Hebrew,Male,14,כורסה,1,understands,0
+Hebrew,Male,15,כורסה,2,produces,0
+Hebrew,Male,15,כורסה,2,understands,0
+Hebrew,Female,16,כורסה,4,produces,0
+Hebrew,Female,16,כורסה,4,understands,0.25
+Hebrew,Male,16,כורסה,2,produces,0
+Hebrew,Male,16,כורסה,2,understands,0
+Hebrew,Female,17,כורסה,2,produces,0
+Hebrew,Female,17,כורסה,2,understands,0
+Hebrew,Male,17,כורסה,1,produces,0
+Hebrew,Male,17,כורסה,1,understands,0
+Hebrew,Female,19,כורסה,1,produces,0
+Hebrew,Female,19,כורסה,1,understands,0
+Hebrew,Male,19,כורסה,3,produces,0
+Hebrew,Male,19,כורסה,3,understands,0
+Hebrew,Female,20,כורסה,1,produces,0
+Hebrew,Female,20,כורסה,1,understands,1
+Hebrew,Male,20,כורסה,8,produces,0.125
+Hebrew,Male,20,כורסה,8,understands,0.5
+Hebrew,Female,21,כורסה,1,produces,0
+Hebrew,Female,21,כורסה,1,understands,1
+Hebrew,Male,21,כורסה,3,produces,0
+Hebrew,Male,21,כורסה,3,understands,0
+Hebrew,Male,22,כורסה,3,produces,0
+Hebrew,Male,22,כורסה,3,understands,0.3333
+Hebrew,Female,23,כורסה,3,produces,0
+Hebrew,Female,23,כורסה,3,understands,0.6667
+Hebrew,Male,23,כורסה,4,produces,0
+Hebrew,Male,23,כורסה,4,understands,0.25
+Hebrew,Female,24,כורסה,1,produces,1
+Hebrew,Female,24,כורסה,1,understands,1
+Hebrew,Male,24,כורסה,10,produces,0.6
+Hebrew,Male,24,כורסה,10,understands,0.7
+Hebrew,Female,25,כורסה,36,produces,0.3611
+Hebrew,Female,25,כורסה,36,understands,0
+Hebrew,Male,25,כורסה,48,produces,0.3958
+Hebrew,Male,25,כורסה,48,understands,0.0208
+Hebrew,Female,26,כורסה,42,produces,0.4762
+Hebrew,Female,26,כורסה,42,understands,0
+Hebrew,Male,26,כורסה,38,produces,0.4211
+Hebrew,Male,26,כורסה,38,understands,0
+Hebrew,Female,27,כורסה,36,produces,0.3611
+Hebrew,Female,27,כורסה,36,understands,0
+Hebrew,Male,27,כורסה,32,produces,0.4062
+Hebrew,Male,27,כורסה,32,understands,0
+Hebrew,Female,28,כורסה,30,produces,0.4333
+Hebrew,Female,28,כורסה,30,understands,0
+Hebrew,Male,28,כורסה,27,produces,0.5556
+Hebrew,Male,28,כורסה,27,understands,0
+Hebrew,Female,29,כורסה,20,produces,0.5
+Hebrew,Female,29,כורסה,20,understands,0
+Hebrew,Male,29,כורסה,27,produces,0.5556
+Hebrew,Male,29,כורסה,27,understands,0
+Hebrew,Female,30,כורסה,12,produces,0.4167
+Hebrew,Female,30,כורסה,12,understands,0
+Hebrew,Male,30,כורסה,16,produces,0.5
+Hebrew,Male,30,כורסה,16,understands,0
+Hebrew,Female,31,כורסה,18,produces,0.5556
+Hebrew,Female,31,כורסה,18,understands,0
+Hebrew,Male,31,כורסה,17,produces,0.4706
+Hebrew,Male,31,כורסה,17,understands,0
+Hebrew,Female,32,כורסה,19,produces,0.6316
+Hebrew,Female,32,כורסה,19,understands,0
+Hebrew,Male,32,כורסה,17,produces,0.5294
+Hebrew,Male,32,כורסה,17,understands,0
+Hebrew,Female,33,כורסה,10,produces,0.5
+Hebrew,Female,33,כורסה,10,understands,0
+Hebrew,Male,33,כורסה,11,produces,0.5455
+Hebrew,Male,33,כורסה,11,understands,0
+Hebrew,Female,34,כורסה,15,produces,0.4667
+Hebrew,Female,34,כורסה,15,understands,0
+Hebrew,Male,34,כורסה,12,produces,0.6667
+Hebrew,Male,34,כורסה,12,understands,0
+Hebrew,Female,35,כורסה,6,produces,0.6667
+Hebrew,Female,35,כורסה,6,understands,0
+Hebrew,Male,35,כורסה,12,produces,0.5
+Hebrew,Male,35,כורסה,12,understands,0
+Hebrew,Female,36,כורסה,4,produces,0.25
+Hebrew,Female,36,כורסה,4,understands,0
+Hebrew,Male,36,כורסה,1,produces,0
+Hebrew,Male,36,כורסה,1,understands,0
+Hungarian,Female,16,fotel,11,produces,0
+Hungarian,Female,16,fotel,11,understands,0
+Hungarian,Male,16,fotel,10,produces,0
+Hungarian,Male,16,fotel,10,understands,0
+Hungarian,Female,17,fotel,11,produces,0.0909
+Hungarian,Female,17,fotel,11,understands,0
+Hungarian,Male,17,fotel,7,produces,0
+Hungarian,Male,17,fotel,7,understands,0
+Hungarian,Female,18,fotel,9,produces,0
+Hungarian,Female,18,fotel,9,understands,0
+Hungarian,Male,18,fotel,9,produces,0
+Hungarian,Male,18,fotel,9,understands,0
+Hungarian,Female,19,fotel,13,produces,0.2308
+Hungarian,Female,19,fotel,13,understands,0
+Hungarian,Male,19,fotel,12,produces,0.1667
+Hungarian,Male,19,fotel,12,understands,0
+Hungarian,Female,20,fotel,12,produces,0.0833
+Hungarian,Female,20,fotel,12,understands,0
+Hungarian,Male,20,fotel,6,produces,0
+Hungarian,Male,20,fotel,6,understands,0
+Hungarian,Female,21,fotel,16,produces,0.25
+Hungarian,Female,21,fotel,16,understands,0
+Hungarian,Male,21,fotel,20,produces,0.25
+Hungarian,Male,21,fotel,20,understands,0
+Hungarian,Female,22,fotel,14,produces,0.3571
+Hungarian,Female,22,fotel,14,understands,0
+Hungarian,Male,22,fotel,13,produces,0.0769
+Hungarian,Male,22,fotel,13,understands,0
+Hungarian,Female,23,fotel,6,produces,0
+Hungarian,Female,23,fotel,6,understands,0
+Hungarian,Male,23,fotel,12,produces,0.25
+Hungarian,Male,23,fotel,12,understands,0
+Hungarian,Female,24,fotel,14,produces,0.2143
+Hungarian,Female,24,fotel,14,understands,0
+Hungarian,Male,24,fotel,24,produces,0.2917
+Hungarian,Male,24,fotel,24,understands,0
+Hungarian,Female,25,fotel,17,produces,0.4118
+Hungarian,Female,25,fotel,17,understands,0
+Hungarian,Male,25,fotel,25,produces,0.56
+Hungarian,Male,25,fotel,25,understands,0
+Hungarian,Female,26,fotel,9,produces,0.4444
+Hungarian,Female,26,fotel,9,understands,0
+Hungarian,Male,26,fotel,14,produces,0.6429
+Hungarian,Male,26,fotel,14,understands,0
+Hungarian,Female,27,fotel,13,produces,0.5385
+Hungarian,Female,27,fotel,13,understands,0
+Hungarian,Male,27,fotel,13,produces,0.5385
+Hungarian,Male,27,fotel,13,understands,0
+Hungarian,Female,28,fotel,11,produces,0.7273
+Hungarian,Female,28,fotel,11,understands,0
+Hungarian,Male,28,fotel,18,produces,0.5
+Hungarian,Male,28,fotel,18,understands,0
+Hungarian,Female,29,fotel,8,produces,0.625
+Hungarian,Female,29,fotel,8,understands,0
+Hungarian,Male,29,fotel,4,produces,0.5
+Hungarian,Male,29,fotel,4,understands,0
+Hungarian,Female,30,fotel,3,produces,0.6667
+Hungarian,Female,30,fotel,3,understands,0
+Hungarian,Male,30,fotel,15,produces,0.5333
+Hungarian,Male,30,fotel,15,understands,0
+Italian,Female,18,poltrona,18,produces,0.1111
+Italian,Female,18,poltrona,18,understands,0
+Italian,Male,18,poltrona,13,produces,0
+Italian,Male,18,poltrona,13,understands,0
+Italian,Female,19,poltrona,21,produces,0.0952
+Italian,Female,19,poltrona,21,understands,0
+Italian,Male,19,poltrona,18,produces,0.0556
+Italian,Male,19,poltrona,18,understands,0
+Italian,Female,20,poltrona,34,produces,0
+Italian,Female,20,poltrona,34,understands,0
+Italian,Male,20,poltrona,30,produces,0
+Italian,Male,20,poltrona,30,understands,0
+Italian,Female,21,poltrona,24,produces,0.0833
+Italian,Female,21,poltrona,24,understands,0
+Italian,Male,21,poltrona,31,produces,0.0323
+Italian,Male,21,poltrona,31,understands,0
+Italian,Female,22,poltrona,27,produces,0.1481
+Italian,Female,22,poltrona,27,understands,0
+Italian,Male,22,poltrona,28,produces,0.1786
+Italian,Male,22,poltrona,28,understands,0
+Italian,Female,23,poltrona,27,produces,0.1111
+Italian,Female,23,poltrona,27,understands,0
+Italian,Male,23,poltrona,26,produces,0.1154
+Italian,Male,23,poltrona,26,understands,0
+Italian,Female,24,poltrona,39,produces,0.2051
+Italian,Female,24,poltrona,39,understands,0
+Italian,Male,24,poltrona,32,produces,0.1875
+Italian,Male,24,poltrona,32,understands,0
+Italian,Female,25,poltrona,23,produces,0.3043
+Italian,Female,25,poltrona,23,understands,0
+Italian,Male,25,poltrona,16,produces,0.3125
+Italian,Male,25,poltrona,16,understands,0
+Italian,Female,26,poltrona,19,produces,0.4737
+Italian,Female,26,poltrona,19,understands,0
+Italian,Male,26,poltrona,22,produces,0.2273
+Italian,Male,26,poltrona,22,understands,0
+Italian,Female,27,poltrona,20,produces,0.2
+Italian,Female,27,poltrona,20,understands,0
+Italian,Male,27,poltrona,23,produces,0.2174
+Italian,Male,27,poltrona,23,understands,0
+Italian,Female,28,poltrona,21,produces,0.2857
+Italian,Female,28,poltrona,21,understands,0
+Italian,Male,28,poltrona,23,produces,0.5652
+Italian,Male,28,poltrona,23,understands,0
+Italian,Female,29,poltrona,21,produces,0.4762
+Italian,Female,29,poltrona,21,understands,0
+Italian,Male,29,poltrona,16,produces,0.625
+Italian,Male,29,poltrona,16,understands,0
+Italian,Female,30,poltrona,28,produces,0.5357
+Italian,Female,30,poltrona,28,understands,0
+Italian,Male,30,poltrona,39,produces,0.5385
+Italian,Male,30,poltrona,39,understands,0
+Italian,Female,31,poltrona,8,produces,0.875
+Italian,Female,31,poltrona,8,understands,0
+Italian,Male,31,poltrona,11,produces,0.3636
+Italian,Male,31,poltrona,11,understands,0
+Italian,Female,32,poltrona,14,produces,0.6429
+Italian,Female,32,poltrona,14,understands,0
+Italian,Male,32,poltrona,9,produces,0.4444
+Italian,Male,32,poltrona,9,understands,0
+Italian,Female,33,poltrona,5,produces,0.8
+Italian,Female,33,poltrona,5,understands,0
+Italian,Male,33,poltrona,11,produces,0.8182
+Italian,Male,33,poltrona,11,understands,0
+Italian,Female,34,poltrona,12,produces,0.9167
+Italian,Female,34,poltrona,12,understands,0
+Italian,Male,34,poltrona,7,produces,0.5714
+Italian,Male,34,poltrona,7,understands,0
+Italian,Female,35,poltrona,9,produces,0.5556
+Italian,Female,35,poltrona,9,understands,0
+Italian,Male,35,poltrona,6,produces,0.6667
+Italian,Male,35,poltrona,6,understands,0
+Italian,Female,36,poltrona,7,produces,0.4286
+Italian,Female,36,poltrona,7,understands,0
+Italian,Male,36,poltrona,14,produces,0.7857
+Italian,Male,36,poltrona,14,understands,0
+Russian,Female,8,кресло,25,produces,0
+Russian,Female,8,кресло,25,understands,0.04
+Russian,Male,8,кресло,34,produces,0
+Russian,Male,8,кресло,34,understands,0
+Russian,Female,9,кресло,21,produces,0
+Russian,Female,9,кресло,21,understands,0
+Russian,Male,9,кресло,21,produces,0
+Russian,Male,9,кресло,21,understands,0.0476
+Russian,Female,10,кресло,28,produces,0
+Russian,Female,10,кресло,28,understands,0
+Russian,Male,10,кресло,35,produces,0
+Russian,Male,10,кресло,35,understands,0.0286
+Russian,Female,11,кресло,27,produces,0
+Russian,Female,11,кресло,27,understands,0.1481
+Russian,Male,11,кресло,44,produces,0
+Russian,Male,11,кресло,44,understands,0.0909
+Russian,Female,12,кресло,37,produces,0
+Russian,Female,12,кресло,37,understands,0.1081
+Russian,Male,12,кресло,39,produces,0
+Russian,Male,12,кресло,39,understands,0.0256
+Russian,Female,13,кресло,34,produces,0
+Russian,Female,13,кресло,34,understands,0.2353
+Russian,Male,13,кресло,39,produces,0
+Russian,Male,13,кресло,39,understands,0.1538
+Russian,Female,14,кресло,43,produces,0
+Russian,Female,14,кресло,43,understands,0.3256
+Russian,Male,14,кресло,36,produces,0
+Russian,Male,14,кресло,36,understands,0.3333
+Russian,Female,15,кресло,39,produces,0.0256
+Russian,Female,15,кресло,39,understands,0.4103
+Russian,Male,15,кресло,42,produces,0
+Russian,Male,15,кресло,42,understands,0.381
+Russian,Female,16,кресло,37,produces,0.027
+Russian,Female,16,кресло,37,understands,0.4595
+Russian,Male,16,кресло,43,produces,0
+Russian,Male,16,кресло,43,understands,0.4651
+Russian,Female,17,кресло,36,produces,0.0556
+Russian,Female,17,кресло,36,understands,0.6667
+Russian,Male,17,кресло,44,produces,0.0455
+Russian,Male,17,кресло,44,understands,0.4773
+Russian,Female,18,кресло,48,produces,0.0417
+Russian,Female,18,кресло,48,understands,0.2917
+Russian,Male,18,кресло,57,produces,0.0175
+Russian,Male,18,кресло,57,understands,0.4035
+Russian,Female,19,кресло,22,produces,0.0909
+Russian,Female,19,кресло,22,understands,0
+Russian,Male,19,кресло,19,produces,0.2105
+Russian,Male,19,кресло,19,understands,0
+Russian,Female,20,кресло,18,produces,0.0556
+Russian,Female,20,кресло,18,understands,0
+Russian,Male,20,кресло,27,produces,0.1111
+Russian,Male,20,кресло,27,understands,0
+Russian,Female,21,кресло,22,produces,0.1364
+Russian,Female,21,кресло,22,understands,0
+Russian,Male,21,кресло,21,produces,0.1429
+Russian,Male,21,кресло,21,understands,0
+Russian,Female,22,кресло,29,produces,0.2759
+Russian,Female,22,кресло,29,understands,0
+Russian,Male,22,кресло,22,produces,0.1364
+Russian,Male,22,кресло,22,understands,0
+Russian,Female,23,кресло,37,produces,0.1892
+Russian,Female,23,кресло,37,understands,0
+Russian,Male,23,кресло,19,produces,0.2632
+Russian,Male,23,кресло,19,understands,0
+Russian,Female,24,кресло,28,produces,0.3929
+Russian,Female,24,кресло,28,understands,0
+Russian,Male,24,кресло,33,produces,0.303
+Russian,Male,24,кресло,33,understands,0
+Russian,Female,25,кресло,39,produces,0.5128
+Russian,Female,25,кресло,39,understands,0
+Russian,Male,25,кресло,27,produces,0.2222
+Russian,Male,25,кресло,27,understands,0
+Russian,Female,26,кресло,26,produces,0.3462
+Russian,Female,26,кресло,26,understands,0
+Russian,Male,26,кресло,26,produces,0.3077
+Russian,Male,26,кресло,26,understands,0
+Russian,Female,27,кресло,37,produces,0.5405
+Russian,Female,27,кресло,37,understands,0
+Russian,Male,27,кресло,23,produces,0.4348
+Russian,Male,27,кресло,23,understands,0
+Russian,Female,28,кресло,28,produces,0.7143
+Russian,Female,28,кресло,28,understands,0
+Russian,Male,28,кресло,32,produces,0.375
+Russian,Male,28,кресло,32,understands,0
+Russian,Female,29,кресло,30,produces,0.6667
+Russian,Female,29,кресло,30,understands,0
+Russian,Male,29,кресло,27,produces,0.5926
+Russian,Male,29,кресло,27,understands,0
+Russian,Female,30,кресло,42,produces,0.619
+Russian,Female,30,кресло,42,understands,0
+Russian,Male,30,кресло,35,produces,0.5143
+Russian,Male,30,кресло,35,understands,0
+Russian,Female,31,кресло,32,produces,0.7188
+Russian,Female,31,кресло,32,understands,0
+Russian,Male,31,кресло,29,produces,0.5172
+Russian,Male,31,кресло,29,understands,0
+Russian,Female,32,кресло,29,produces,0.6897
+Russian,Female,32,кресло,29,understands,0
+Russian,Male,32,кресло,26,produces,0.6923
+Russian,Male,32,кресло,26,understands,0
+Russian,Female,33,кресло,27,produces,0.8148
+Russian,Female,33,кресло,27,understands,0
+Russian,Male,33,кресло,28,produces,0.6786
+Russian,Male,33,кресло,28,understands,0
+Russian,Female,34,кресло,31,produces,0.7097
+Russian,Female,34,кресло,31,understands,0
+Russian,Male,34,кресло,27,produces,0.7407
+Russian,Male,34,кресло,27,understands,0
+Russian,Female,35,кресло,22,produces,0.7273
+Russian,Female,35,кресло,22,understands,0
+Russian,Male,35,кресло,25,produces,0.68
+Russian,Male,35,кресло,25,understands,0
+Russian,Female,36,кресло,27,produces,0.7037
+Russian,Female,36,кресло,27,understands,0
+Russian,Male,36,кресло,22,produces,0.7273
+Russian,Male,36,кресло,22,understands,0
+Turkish,Female,8,Koltuk,70,produces,0.0143
+Turkish,Female,8,Koltuk,70,understands,0.0429
+Turkish,Male,8,Koltuk,70,produces,0
+Turkish,Male,8,Koltuk,70,understands,0.0571
+Turkish,Female,9,Koltuk,65,produces,0
+Turkish,Female,9,Koltuk,65,understands,0.2
+Turkish,Male,9,Koltuk,60,produces,0
+Turkish,Male,9,Koltuk,60,understands,0.1333
+Turkish,Female,10,Koltuk,62,produces,0
+Turkish,Female,10,Koltuk,62,understands,0.2258
+Turkish,Male,10,Koltuk,68,produces,0.0147
+Turkish,Male,10,Koltuk,68,understands,0.1324
+Turkish,Female,11,Koltuk,65,produces,0
+Turkish,Female,11,Koltuk,65,understands,0.2462
+Turkish,Male,11,Koltuk,60,produces,0
+Turkish,Male,11,Koltuk,60,understands,0.1667
+Turkish,Female,12,Koltuk,63,produces,0
+Turkish,Female,12,Koltuk,63,understands,0.3492
+Turkish,Male,12,Koltuk,57,produces,0
+Turkish,Male,12,Koltuk,57,understands,0.2105
+Turkish,Female,13,Koltuk,60,produces,0
+Turkish,Female,13,Koltuk,60,understands,0.3833
+Turkish,Male,13,Koltuk,62,produces,0
+Turkish,Male,13,Koltuk,62,understands,0.4355
+Turkish,Female,14,Koltuk,74,produces,0.0135
+Turkish,Female,14,Koltuk,74,understands,0.473
+Turkish,Male,14,Koltuk,73,produces,0.0137
+Turkish,Male,14,Koltuk,73,understands,0.4932
+Turkish,Female,15,Koltuk,66,produces,0
+Turkish,Female,15,Koltuk,66,understands,0.5606
+Turkish,Male,15,Koltuk,65,produces,0.0462
+Turkish,Male,15,Koltuk,65,understands,0.5538
+Turkish,Female,16,Koltuk,102,produces,0.0686
+Turkish,Female,16,Koltuk,102,understands,0.3039
+Turkish,Male,16,Koltuk,82,produces,0.0122
+Turkish,Male,16,Koltuk,82,understands,0.2805
+Turkish,Female,17,Koltuk,50,produces,0.08
+Turkish,Female,17,Koltuk,50,understands,0
+Turkish,Male,17,Koltuk,57,produces,0.0175
+Turkish,Male,17,Koltuk,57,understands,0
+Turkish,Female,18,Koltuk,65,produces,0.1385
+Turkish,Female,18,Koltuk,65,understands,0
+Turkish,Male,18,Koltuk,63,produces,0.0794
+Turkish,Male,18,Koltuk,63,understands,0
+Turkish,Female,19,Koltuk,63,produces,0.0794
+Turkish,Female,19,Koltuk,63,understands,0
+Turkish,Male,19,Koltuk,58,produces,0.1552
+Turkish,Male,19,Koltuk,58,understands,0
+Turkish,Female,20,Koltuk,60,produces,0.1833
+Turkish,Female,20,Koltuk,60,understands,0
+Turkish,Male,20,Koltuk,59,produces,0.2203
+Turkish,Male,20,Koltuk,59,understands,0
+Turkish,Female,21,Koltuk,55,produces,0.2727
+Turkish,Female,21,Koltuk,55,understands,0
+Turkish,Male,21,Koltuk,69,produces,0.1739
+Turkish,Male,21,Koltuk,69,understands,0
+Turkish,Female,22,Koltuk,58,produces,0.3103
+Turkish,Female,22,Koltuk,58,understands,0
+Turkish,Male,22,Koltuk,68,produces,0.2353
+Turkish,Male,22,Koltuk,68,understands,0
+Turkish,Female,23,Koltuk,71,produces,0.4085
+Turkish,Female,23,Koltuk,71,understands,0
+Turkish,Male,23,Koltuk,60,produces,0.35
+Turkish,Male,23,Koltuk,60,understands,0
+Turkish,Female,24,Koltuk,54,produces,0.4815
+Turkish,Female,24,Koltuk,54,understands,0
+Turkish,Male,24,Koltuk,52,produces,0.4231
+Turkish,Male,24,Koltuk,52,understands,0
+Turkish,Female,25,Koltuk,63,produces,0.5714
+Turkish,Female,25,Koltuk,63,understands,0
+Turkish,Male,25,Koltuk,60,produces,0.45
+Turkish,Male,25,Koltuk,60,understands,0
+Turkish,Female,26,Koltuk,60,produces,0.6333
+Turkish,Female,26,Koltuk,60,understands,0
+Turkish,Male,26,Koltuk,63,produces,0.5079
+Turkish,Male,26,Koltuk,63,understands,0
+Turkish,Female,27,Koltuk,56,produces,0.6071
+Turkish,Female,27,Koltuk,56,understands,0
+Turkish,Male,27,Koltuk,52,produces,0.6346
+Turkish,Male,27,Koltuk,52,understands,0
+Turkish,Female,28,Koltuk,62,produces,0.6613
+Turkish,Female,28,Koltuk,62,understands,0
+Turkish,Male,28,Koltuk,50,produces,0.6
+Turkish,Male,28,Koltuk,50,understands,0
+Turkish,Female,29,Koltuk,54,produces,0.7778
+Turkish,Female,29,Koltuk,54,understands,0
+Turkish,Male,29,Koltuk,65,produces,0.6
+Turkish,Male,29,Koltuk,65,understands,0
+Turkish,Female,30,Koltuk,56,produces,0.7857
+Turkish,Female,30,Koltuk,56,understands,0
+Turkish,Male,30,Koltuk,48,produces,0.75
+Turkish,Male,30,Koltuk,48,understands,0
+Turkish,Female,31,Koltuk,62,produces,0.871
+Turkish,Female,31,Koltuk,62,understands,0
+Turkish,Male,31,Koltuk,39,produces,0.7692
+Turkish,Male,31,Koltuk,39,understands,0
+Turkish,Female,32,Koltuk,56,produces,0.8571
+Turkish,Female,32,Koltuk,56,understands,0
+Turkish,Male,32,Koltuk,76,produces,0.7763
+Turkish,Male,32,Koltuk,76,understands,0
+Turkish,Female,33,Koltuk,59,produces,0.8814
+Turkish,Female,33,Koltuk,59,understands,0
+Turkish,Male,33,Koltuk,55,produces,0.8909
+Turkish,Male,33,Koltuk,55,understands,0
+Turkish,Female,34,Koltuk,56,produces,0.8929
+Turkish,Female,34,Koltuk,56,understands,0
+Turkish,Male,34,Koltuk,51,produces,0.8235
+Turkish,Male,34,Koltuk,51,understands,0
+Turkish,Female,35,Koltuk,69,produces,0.913
+Turkish,Female,35,Koltuk,69,understands,0
+Turkish,Male,35,Koltuk,62,produces,0.8065
+Turkish,Male,35,Koltuk,62,understands,0
+Turkish,Female,36,Koltuk,36,produces,0.9444
+Turkish,Female,36,Koltuk,36,understands,0
+Turkish,Male,36,Koltuk,41,produces,0.9512
+Turkish,Male,36,Koltuk,41,understands,0

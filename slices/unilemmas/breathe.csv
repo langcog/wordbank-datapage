@@ -1,79 +1,231 @@
-language,age,words,n,measure,prop
-Norwegian,16,puste,98,produces,0
-Norwegian,16,puste,98,understands,0
-Norwegian,17,puste,218,produces,0.0046
-Norwegian,17,puste,218,understands,0
-Norwegian,18,puste,271,produces,0.0074
-Norwegian,18,puste,271,understands,0
-Norwegian,19,puste,281,produces,0.0107
-Norwegian,19,puste,281,understands,0
-Norwegian,20,puste,342,produces,0.0088
-Norwegian,20,puste,342,understands,0
-Norwegian,21,puste,418,produces,0.0287
-Norwegian,21,puste,418,understands,0
-Norwegian,22,puste,596,produces,0.0654
-Norwegian,22,puste,596,understands,0
-Norwegian,23,puste,566,produces,0.0654
-Norwegian,23,puste,566,understands,0
-Norwegian,24,puste,538,produces,0.1059
-Norwegian,24,puste,538,understands,0
-Norwegian,25,puste,656,produces,0.1509
-Norwegian,25,puste,656,understands,0
-Norwegian,26,puste,644,produces,0.236
-Norwegian,26,puste,644,understands,0
-Norwegian,27,puste,525,produces,0.3143
-Norwegian,27,puste,525,understands,0
-Norwegian,28,puste,544,produces,0.3327
-Norwegian,28,puste,544,understands,0
-Norwegian,29,puste,536,produces,0.4104
-Norwegian,29,puste,536,understands,0
-Norwegian,30,puste,457,produces,0.4661
-Norwegian,30,puste,457,understands,0
-Norwegian,31,puste,479,produces,0.5177
-Norwegian,31,puste,479,understands,0
-Norwegian,32,puste,451,produces,0.5965
-Norwegian,32,puste,451,understands,0
-Norwegian,33,puste,430,produces,0.6442
-Norwegian,33,puste,430,understands,0
-Norwegian,34,puste,424,produces,0.6745
-Norwegian,34,puste,424,understands,0
-Norwegian,35,puste,422,produces,0.7062
-Norwegian,35,puste,422,understands,0
-Norwegian,36,puste,329,produces,0.7416
-Norwegian,36,puste,329,understands,0
-Spanish (Argentinian),16,respirar,47,produces,0
-Spanish (Argentinian),16,respirar,47,understands,0
-Spanish (Argentinian),17,respirar,49,produces,0.0204
-Spanish (Argentinian),17,respirar,49,understands,0
-Spanish (Argentinian),18,respirar,62,produces,0.0161
-Spanish (Argentinian),18,respirar,62,understands,0
-Spanish (Argentinian),19,respirar,44,produces,0.0227
-Spanish (Argentinian),19,respirar,44,understands,0
-Spanish (Argentinian),20,respirar,46,produces,0
-Spanish (Argentinian),20,respirar,46,understands,0
-Spanish (Argentinian),21,respirar,41,produces,0.0244
-Spanish (Argentinian),21,respirar,41,understands,0
-Spanish (Argentinian),22,respirar,57,produces,0.0175
-Spanish (Argentinian),22,respirar,57,understands,0
-Spanish (Argentinian),23,respirar,49,produces,0.0408
-Spanish (Argentinian),23,respirar,49,understands,0
-Spanish (Argentinian),24,respirar,75,produces,0.0667
-Spanish (Argentinian),24,respirar,75,understands,0
-Spanish (Argentinian),25,respirar,43,produces,0.1395
-Spanish (Argentinian),25,respirar,43,understands,0
-Spanish (Argentinian),26,respirar,45,produces,0.0667
-Spanish (Argentinian),26,respirar,45,understands,0
-Spanish (Argentinian),27,respirar,44,produces,0.0909
-Spanish (Argentinian),27,respirar,44,understands,0
-Spanish (Argentinian),28,respirar,42,produces,0.1905
-Spanish (Argentinian),28,respirar,42,understands,0
-Spanish (Argentinian),29,respirar,65,produces,0.1385
-Spanish (Argentinian),29,respirar,65,understands,0
-Spanish (Argentinian),30,respirar,69,produces,0.2029
-Spanish (Argentinian),30,respirar,69,understands,0
-Spanish (Argentinian),31,respirar,2,produces,0
-Spanish (Argentinian),31,respirar,2,understands,0
-Spanish (Argentinian),32,respirar,1,produces,0
-Spanish (Argentinian),32,respirar,1,understands,0
-Spanish (Argentinian),33,respirar,2,produces,0
-Spanish (Argentinian),33,respirar,2,understands,0
+language,sex,age,words,n,measure,prop
+Norwegian,All,16,puste,98,produces,0
+Norwegian,All,16,puste,98,understands,0
+Norwegian,All,17,puste,218,produces,0.0046
+Norwegian,All,17,puste,218,understands,0
+Norwegian,All,18,puste,271,produces,0.0074
+Norwegian,All,18,puste,271,understands,0
+Norwegian,All,19,puste,281,produces,0.0107
+Norwegian,All,19,puste,281,understands,0
+Norwegian,All,20,puste,342,produces,0.0088
+Norwegian,All,20,puste,342,understands,0
+Norwegian,All,21,puste,418,produces,0.0287
+Norwegian,All,21,puste,418,understands,0
+Norwegian,All,22,puste,596,produces,0.0654
+Norwegian,All,22,puste,596,understands,0
+Norwegian,All,23,puste,566,produces,0.0654
+Norwegian,All,23,puste,566,understands,0
+Norwegian,All,24,puste,538,produces,0.1059
+Norwegian,All,24,puste,538,understands,0
+Norwegian,All,25,puste,656,produces,0.1509
+Norwegian,All,25,puste,656,understands,0
+Norwegian,All,26,puste,644,produces,0.236
+Norwegian,All,26,puste,644,understands,0
+Norwegian,All,27,puste,525,produces,0.3143
+Norwegian,All,27,puste,525,understands,0
+Norwegian,All,28,puste,544,produces,0.3327
+Norwegian,All,28,puste,544,understands,0
+Norwegian,All,29,puste,536,produces,0.4104
+Norwegian,All,29,puste,536,understands,0
+Norwegian,All,30,puste,457,produces,0.4661
+Norwegian,All,30,puste,457,understands,0
+Norwegian,All,31,puste,479,produces,0.5177
+Norwegian,All,31,puste,479,understands,0
+Norwegian,All,32,puste,451,produces,0.5965
+Norwegian,All,32,puste,451,understands,0
+Norwegian,All,33,puste,430,produces,0.6442
+Norwegian,All,33,puste,430,understands,0
+Norwegian,All,34,puste,424,produces,0.6745
+Norwegian,All,34,puste,424,understands,0
+Norwegian,All,35,puste,422,produces,0.7062
+Norwegian,All,35,puste,422,understands,0
+Norwegian,All,36,puste,329,produces,0.7416
+Norwegian,All,36,puste,329,understands,0
+Spanish (Argentinian),All,16,respirar,47,produces,0
+Spanish (Argentinian),All,16,respirar,47,understands,0
+Spanish (Argentinian),All,17,respirar,49,produces,0.0204
+Spanish (Argentinian),All,17,respirar,49,understands,0
+Spanish (Argentinian),All,18,respirar,62,produces,0.0161
+Spanish (Argentinian),All,18,respirar,62,understands,0
+Spanish (Argentinian),All,19,respirar,44,produces,0.0227
+Spanish (Argentinian),All,19,respirar,44,understands,0
+Spanish (Argentinian),All,20,respirar,46,produces,0
+Spanish (Argentinian),All,20,respirar,46,understands,0
+Spanish (Argentinian),All,21,respirar,41,produces,0.0244
+Spanish (Argentinian),All,21,respirar,41,understands,0
+Spanish (Argentinian),All,22,respirar,57,produces,0.0175
+Spanish (Argentinian),All,22,respirar,57,understands,0
+Spanish (Argentinian),All,23,respirar,49,produces,0.0408
+Spanish (Argentinian),All,23,respirar,49,understands,0
+Spanish (Argentinian),All,24,respirar,75,produces,0.0667
+Spanish (Argentinian),All,24,respirar,75,understands,0
+Spanish (Argentinian),All,25,respirar,43,produces,0.1395
+Spanish (Argentinian),All,25,respirar,43,understands,0
+Spanish (Argentinian),All,26,respirar,45,produces,0.0667
+Spanish (Argentinian),All,26,respirar,45,understands,0
+Spanish (Argentinian),All,27,respirar,44,produces,0.0909
+Spanish (Argentinian),All,27,respirar,44,understands,0
+Spanish (Argentinian),All,28,respirar,42,produces,0.1905
+Spanish (Argentinian),All,28,respirar,42,understands,0
+Spanish (Argentinian),All,29,respirar,65,produces,0.1385
+Spanish (Argentinian),All,29,respirar,65,understands,0
+Spanish (Argentinian),All,30,respirar,69,produces,0.2029
+Spanish (Argentinian),All,30,respirar,69,understands,0
+Spanish (Argentinian),All,31,respirar,2,produces,0
+Spanish (Argentinian),All,31,respirar,2,understands,0
+Spanish (Argentinian),All,32,respirar,1,produces,0
+Spanish (Argentinian),All,32,respirar,1,understands,0
+Spanish (Argentinian),All,33,respirar,2,produces,0
+Spanish (Argentinian),All,33,respirar,2,understands,0
+Norwegian,Female,16,puste,39,produces,0
+Norwegian,Female,16,puste,39,understands,0
+Norwegian,Male,16,puste,59,produces,0
+Norwegian,Male,16,puste,59,understands,0
+Norwegian,Female,17,puste,125,produces,0
+Norwegian,Female,17,puste,125,understands,0
+Norwegian,Male,17,puste,93,produces,0.0108
+Norwegian,Male,17,puste,93,understands,0
+Norwegian,Female,18,puste,146,produces,0.0137
+Norwegian,Female,18,puste,146,understands,0
+Norwegian,Male,18,puste,125,produces,0
+Norwegian,Male,18,puste,125,understands,0
+Norwegian,Female,19,puste,135,produces,0.0074
+Norwegian,Female,19,puste,135,understands,0
+Norwegian,Male,19,puste,146,produces,0.0137
+Norwegian,Male,19,puste,146,understands,0
+Norwegian,Female,20,puste,183,produces,0.0109
+Norwegian,Female,20,puste,183,understands,0
+Norwegian,Male,20,puste,159,produces,0.0063
+Norwegian,Male,20,puste,159,understands,0
+Norwegian,Female,21,puste,218,produces,0.0367
+Norwegian,Female,21,puste,218,understands,0
+Norwegian,Male,21,puste,200,produces,0.02
+Norwegian,Male,21,puste,200,understands,0
+Norwegian,Female,22,puste,304,produces,0.0757
+Norwegian,Female,22,puste,304,understands,0
+Norwegian,Male,22,puste,292,produces,0.0548
+Norwegian,Male,22,puste,292,understands,0
+Norwegian,Female,23,puste,285,produces,0.0947
+Norwegian,Female,23,puste,285,understands,0
+Norwegian,Male,23,puste,281,produces,0.0356
+Norwegian,Male,23,puste,281,understands,0
+Norwegian,Female,24,puste,266,produces,0.1278
+Norwegian,Female,24,puste,266,understands,0
+Norwegian,Male,24,puste,272,produces,0.0846
+Norwegian,Male,24,puste,272,understands,0
+Norwegian,Female,25,puste,325,produces,0.16
+Norwegian,Female,25,puste,325,understands,0
+Norwegian,Male,25,puste,331,produces,0.142
+Norwegian,Male,25,puste,331,understands,0
+Norwegian,Female,26,puste,301,produces,0.3355
+Norwegian,Female,26,puste,301,understands,0
+Norwegian,Male,26,puste,343,produces,0.1487
+Norwegian,Male,26,puste,343,understands,0
+Norwegian,Female,27,puste,267,produces,0.3858
+Norwegian,Female,27,puste,267,understands,0
+Norwegian,Male,27,puste,258,produces,0.2403
+Norwegian,Male,27,puste,258,understands,0
+Norwegian,Female,28,puste,281,produces,0.3986
+Norwegian,Female,28,puste,281,understands,0
+Norwegian,Male,28,puste,263,produces,0.2624
+Norwegian,Male,28,puste,263,understands,0
+Norwegian,Female,29,puste,252,produces,0.4722
+Norwegian,Female,29,puste,252,understands,0
+Norwegian,Male,29,puste,284,produces,0.3556
+Norwegian,Male,29,puste,284,understands,0
+Norwegian,Female,30,puste,213,produces,0.5164
+Norwegian,Female,30,puste,213,understands,0
+Norwegian,Male,30,puste,244,produces,0.4221
+Norwegian,Male,30,puste,244,understands,0
+Norwegian,Female,31,puste,229,produces,0.6245
+Norwegian,Female,31,puste,229,understands,0
+Norwegian,Male,31,puste,250,produces,0.42
+Norwegian,Male,31,puste,250,understands,0
+Norwegian,Female,32,puste,224,produces,0.6741
+Norwegian,Female,32,puste,224,understands,0
+Norwegian,Male,32,puste,227,produces,0.5198
+Norwegian,Male,32,puste,227,understands,0
+Norwegian,Female,33,puste,213,produces,0.7136
+Norwegian,Female,33,puste,213,understands,0
+Norwegian,Male,33,puste,217,produces,0.576
+Norwegian,Male,33,puste,217,understands,0
+Norwegian,Female,34,puste,194,produces,0.7629
+Norwegian,Female,34,puste,194,understands,0
+Norwegian,Male,34,puste,230,produces,0.6
+Norwegian,Male,34,puste,230,understands,0
+Norwegian,Female,35,puste,230,produces,0.7478
+Norwegian,Female,35,puste,230,understands,0
+Norwegian,Male,35,puste,192,produces,0.6562
+Norwegian,Male,35,puste,192,understands,0
+Norwegian,Female,36,puste,170,produces,0.8176
+Norwegian,Female,36,puste,170,understands,0
+Norwegian,Male,36,puste,159,produces,0.6604
+Norwegian,Male,36,puste,159,understands,0
+Spanish (Argentinian),Female,16,respirar,30,produces,0
+Spanish (Argentinian),Female,16,respirar,30,understands,0
+Spanish (Argentinian),Male,16,respirar,17,produces,0
+Spanish (Argentinian),Male,16,respirar,17,understands,0
+Spanish (Argentinian),Female,17,respirar,20,produces,0
+Spanish (Argentinian),Female,17,respirar,20,understands,0
+Spanish (Argentinian),Male,17,respirar,29,produces,0.0345
+Spanish (Argentinian),Male,17,respirar,29,understands,0
+Spanish (Argentinian),Female,18,respirar,43,produces,0.0233
+Spanish (Argentinian),Female,18,respirar,43,understands,0
+Spanish (Argentinian),Male,18,respirar,19,produces,0
+Spanish (Argentinian),Male,18,respirar,19,understands,0
+Spanish (Argentinian),Female,19,respirar,25,produces,0
+Spanish (Argentinian),Female,19,respirar,25,understands,0
+Spanish (Argentinian),Male,19,respirar,19,produces,0.0526
+Spanish (Argentinian),Male,19,respirar,19,understands,0
+Spanish (Argentinian),Female,20,respirar,22,produces,0
+Spanish (Argentinian),Female,20,respirar,22,understands,0
+Spanish (Argentinian),Male,20,respirar,24,produces,0
+Spanish (Argentinian),Male,20,respirar,24,understands,0
+Spanish (Argentinian),Female,21,respirar,15,produces,0
+Spanish (Argentinian),Female,21,respirar,15,understands,0
+Spanish (Argentinian),Male,21,respirar,26,produces,0.0385
+Spanish (Argentinian),Male,21,respirar,26,understands,0
+Spanish (Argentinian),Female,22,respirar,25,produces,0
+Spanish (Argentinian),Female,22,respirar,25,understands,0
+Spanish (Argentinian),Male,22,respirar,32,produces,0.0312
+Spanish (Argentinian),Male,22,respirar,32,understands,0
+Spanish (Argentinian),Female,23,respirar,30,produces,0.0333
+Spanish (Argentinian),Female,23,respirar,30,understands,0
+Spanish (Argentinian),Male,23,respirar,19,produces,0.0526
+Spanish (Argentinian),Male,23,respirar,19,understands,0
+Spanish (Argentinian),Female,24,respirar,44,produces,0.0455
+Spanish (Argentinian),Female,24,respirar,44,understands,0
+Spanish (Argentinian),Male,24,respirar,31,produces,0.0968
+Spanish (Argentinian),Male,24,respirar,31,understands,0
+Spanish (Argentinian),Female,25,respirar,24,produces,0.125
+Spanish (Argentinian),Female,25,respirar,24,understands,0
+Spanish (Argentinian),Male,25,respirar,19,produces,0.1579
+Spanish (Argentinian),Male,25,respirar,19,understands,0
+Spanish (Argentinian),Female,26,respirar,17,produces,0.0588
+Spanish (Argentinian),Female,26,respirar,17,understands,0
+Spanish (Argentinian),Male,26,respirar,28,produces,0.0714
+Spanish (Argentinian),Male,26,respirar,28,understands,0
+Spanish (Argentinian),Female,27,respirar,18,produces,0.1111
+Spanish (Argentinian),Female,27,respirar,18,understands,0
+Spanish (Argentinian),Male,27,respirar,26,produces,0.0769
+Spanish (Argentinian),Male,27,respirar,26,understands,0
+Spanish (Argentinian),Female,28,respirar,18,produces,0.2222
+Spanish (Argentinian),Female,28,respirar,18,understands,0
+Spanish (Argentinian),Male,28,respirar,24,produces,0.1667
+Spanish (Argentinian),Male,28,respirar,24,understands,0
+Spanish (Argentinian),Female,29,respirar,36,produces,0.1944
+Spanish (Argentinian),Female,29,respirar,36,understands,0
+Spanish (Argentinian),Male,29,respirar,29,produces,0.069
+Spanish (Argentinian),Male,29,respirar,29,understands,0
+Spanish (Argentinian),Female,30,respirar,31,produces,0.2581
+Spanish (Argentinian),Female,30,respirar,31,understands,0
+Spanish (Argentinian),Male,30,respirar,38,produces,0.1579
+Spanish (Argentinian),Male,30,respirar,38,understands,0
+Spanish (Argentinian),Female,31,respirar,1,produces,0
+Spanish (Argentinian),Female,31,respirar,1,understands,0
+Spanish (Argentinian),Male,31,respirar,1,produces,0
+Spanish (Argentinian),Male,31,respirar,1,understands,0
+Spanish (Argentinian),Female,32,respirar,1,produces,0
+Spanish (Argentinian),Female,32,respirar,1,understands,0
+Spanish (Argentinian),Male,33,respirar,2,produces,0
+Spanish (Argentinian),Male,33,respirar,2,understands,0

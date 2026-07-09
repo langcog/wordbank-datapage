@@ -1,99 +1,277 @@
-language,age,words,n,measure,prop
-Kigiriama,16,Ndema,1,produces,0
-Kigiriama,16,Ndema,1,understands,0
-Kigiriama,17,Ndema,6,produces,0
-Kigiriama,17,Ndema,6,understands,0
-Kigiriama,18,Ndema,13,produces,0
-Kigiriama,18,Ndema,13,understands,0
-Kigiriama,19,Ndema,8,produces,0
-Kigiriama,19,Ndema,8,understands,0
-Kigiriama,20,Ndema,14,produces,0
-Kigiriama,20,Ndema,14,understands,0
-Kigiriama,21,Ndema,6,produces,0
-Kigiriama,21,Ndema,6,understands,0
-Kigiriama,22,Ndema,9,produces,0.2222
-Kigiriama,22,Ndema,9,understands,0
-Kigiriama,23,Ndema,4,produces,0
-Kigiriama,23,Ndema,4,understands,0
-Kigiriama,24,Ndema,7,produces,0
-Kigiriama,24,Ndema,7,understands,0
-Kigiriama,25,Ndema,3,produces,0
-Kigiriama,25,Ndema,3,understands,0
-Kigiriama,26,Ndema,6,produces,0.1667
-Kigiriama,26,Ndema,6,understands,0
-Kigiriama,27,Ndema,4,produces,0.25
-Kigiriama,27,Ndema,4,understands,0
-Kigiriama,28,Ndema,1,produces,0
-Kigiriama,28,Ndema,1,understands,0
-Kigiriama,29,Ndema,5,produces,0
-Kigiriama,29,Ndema,5,understands,0
-Kigiriama,30,Ndema,1,produces,1
-Kigiriama,30,Ndema,1,understands,0
-Kiswahili,23,Popo,2,produces,0
-Kiswahili,23,Popo,2,understands,0
-Kiswahili,24,Popo,12,produces,0
-Kiswahili,24,Popo,12,understands,0
-Kiswahili,25,Popo,10,produces,0
-Kiswahili,25,Popo,10,understands,0
-Kiswahili,26,Popo,13,produces,0
-Kiswahili,26,Popo,13,understands,0
-Kiswahili,27,Popo,8,produces,0
-Kiswahili,27,Popo,8,understands,0
-Kiswahili,28,Popo,6,produces,0.1667
-Kiswahili,28,Popo,6,understands,0
-Kiswahili,29,Popo,6,produces,0
-Kiswahili,29,Popo,6,understands,0
-Kiswahili,30,Popo,5,produces,0.2
-Kiswahili,30,Popo,5,understands,0
-American Sign Language,9,BAT_1,4,produces,0
-American Sign Language,9,BAT_1,4,understands,0
-American Sign Language,10,BAT_1,2,produces,0
-American Sign Language,10,BAT_1,2,understands,0
-American Sign Language,11,BAT_1,2,produces,0
-American Sign Language,11,BAT_1,2,understands,0
-American Sign Language,12,BAT_1,2,produces,0
-American Sign Language,12,BAT_1,2,understands,0
-American Sign Language,15,BAT_1,1,produces,0
-American Sign Language,15,BAT_1,1,understands,1
-American Sign Language,16,BAT_1,2,produces,0
-American Sign Language,16,BAT_1,2,understands,0
-American Sign Language,17,BAT_1,3,produces,0
-American Sign Language,17,BAT_1,3,understands,0.3333
-American Sign Language,18,BAT_1,7,produces,0.2857
-American Sign Language,18,BAT_1,7,understands,0.4286
-American Sign Language,19,BAT_1,5,produces,0.2
-American Sign Language,19,BAT_1,5,understands,0.4
-American Sign Language,20,BAT_1,2,produces,0
-American Sign Language,20,BAT_1,2,understands,0
-American Sign Language,21,BAT_1,2,produces,0
-American Sign Language,21,BAT_1,2,understands,0.5
-American Sign Language,22,BAT_1,8,produces,0.25
-American Sign Language,22,BAT_1,8,understands,0.375
-American Sign Language,23,BAT_1,2,produces,0.5
-American Sign Language,23,BAT_1,2,understands,1
-American Sign Language,24,BAT_1,6,produces,0.1667
-American Sign Language,24,BAT_1,6,understands,0.1667
-American Sign Language,25,BAT_1,11,produces,0.0909
-American Sign Language,25,BAT_1,11,understands,0.2727
-American Sign Language,26,BAT_1,4,produces,0.25
-American Sign Language,26,BAT_1,4,understands,0.75
-American Sign Language,27,BAT_1,5,produces,0.2
-American Sign Language,27,BAT_1,5,understands,0.2
-American Sign Language,28,BAT_1,3,produces,0.6667
-American Sign Language,28,BAT_1,3,understands,1
-American Sign Language,29,BAT_1,6,produces,0.3333
-American Sign Language,29,BAT_1,6,understands,0.8333
-American Sign Language,30,BAT_1,4,produces,0.5
-American Sign Language,30,BAT_1,4,understands,0.75
-American Sign Language,31,BAT_1,6,produces,0.3333
-American Sign Language,31,BAT_1,6,understands,0.6667
-American Sign Language,32,BAT_1,7,produces,0.4286
-American Sign Language,32,BAT_1,7,understands,0.5714
-American Sign Language,33,BAT_1,4,produces,0.75
-American Sign Language,33,BAT_1,4,understands,0.75
-American Sign Language,34,BAT_1,5,produces,0.8
-American Sign Language,34,BAT_1,5,understands,0.8
-American Sign Language,35,BAT_1,4,produces,0.75
-American Sign Language,35,BAT_1,4,understands,1
-American Sign Language,36,BAT_1,3,produces,0
-American Sign Language,36,BAT_1,3,understands,0.6667
+language,sex,age,words,n,measure,prop
+American Sign Language,All,9,BAT_1,4,produces,0
+American Sign Language,All,9,BAT_1,4,understands,0
+American Sign Language,All,10,BAT_1,2,produces,0
+American Sign Language,All,10,BAT_1,2,understands,0
+American Sign Language,All,11,BAT_1,2,produces,0
+American Sign Language,All,11,BAT_1,2,understands,0
+American Sign Language,All,12,BAT_1,2,produces,0
+American Sign Language,All,12,BAT_1,2,understands,0
+American Sign Language,All,15,BAT_1,1,produces,0
+American Sign Language,All,15,BAT_1,1,understands,1
+American Sign Language,All,16,BAT_1,2,produces,0
+American Sign Language,All,16,BAT_1,2,understands,0
+American Sign Language,All,17,BAT_1,3,produces,0
+American Sign Language,All,17,BAT_1,3,understands,0.3333
+American Sign Language,All,18,BAT_1,7,produces,0.2857
+American Sign Language,All,18,BAT_1,7,understands,0.4286
+American Sign Language,All,19,BAT_1,5,produces,0.2
+American Sign Language,All,19,BAT_1,5,understands,0.4
+American Sign Language,All,20,BAT_1,2,produces,0
+American Sign Language,All,20,BAT_1,2,understands,0
+American Sign Language,All,21,BAT_1,2,produces,0
+American Sign Language,All,21,BAT_1,2,understands,0.5
+American Sign Language,All,22,BAT_1,8,produces,0.25
+American Sign Language,All,22,BAT_1,8,understands,0.375
+American Sign Language,All,23,BAT_1,2,produces,0.5
+American Sign Language,All,23,BAT_1,2,understands,1
+American Sign Language,All,24,BAT_1,6,produces,0.1667
+American Sign Language,All,24,BAT_1,6,understands,0.1667
+American Sign Language,All,25,BAT_1,11,produces,0.0909
+American Sign Language,All,25,BAT_1,11,understands,0.2727
+American Sign Language,All,26,BAT_1,4,produces,0.25
+American Sign Language,All,26,BAT_1,4,understands,0.75
+American Sign Language,All,27,BAT_1,5,produces,0.2
+American Sign Language,All,27,BAT_1,5,understands,0.2
+American Sign Language,All,28,BAT_1,3,produces,0.6667
+American Sign Language,All,28,BAT_1,3,understands,1
+American Sign Language,All,29,BAT_1,6,produces,0.3333
+American Sign Language,All,29,BAT_1,6,understands,0.8333
+American Sign Language,All,30,BAT_1,4,produces,0.5
+American Sign Language,All,30,BAT_1,4,understands,0.75
+American Sign Language,All,31,BAT_1,6,produces,0.3333
+American Sign Language,All,31,BAT_1,6,understands,0.6667
+American Sign Language,All,32,BAT_1,7,produces,0.4286
+American Sign Language,All,32,BAT_1,7,understands,0.5714
+American Sign Language,All,33,BAT_1,4,produces,0.75
+American Sign Language,All,33,BAT_1,4,understands,0.75
+American Sign Language,All,34,BAT_1,5,produces,0.8
+American Sign Language,All,34,BAT_1,5,understands,0.8
+American Sign Language,All,35,BAT_1,4,produces,0.75
+American Sign Language,All,35,BAT_1,4,understands,1
+American Sign Language,All,36,BAT_1,3,produces,0
+American Sign Language,All,36,BAT_1,3,understands,0.6667
+Kigiriama,All,16,Ndema,1,produces,0
+Kigiriama,All,16,Ndema,1,understands,0
+Kigiriama,All,17,Ndema,6,produces,0
+Kigiriama,All,17,Ndema,6,understands,0
+Kigiriama,All,18,Ndema,13,produces,0
+Kigiriama,All,18,Ndema,13,understands,0
+Kigiriama,All,19,Ndema,8,produces,0
+Kigiriama,All,19,Ndema,8,understands,0
+Kigiriama,All,20,Ndema,14,produces,0
+Kigiriama,All,20,Ndema,14,understands,0
+Kigiriama,All,21,Ndema,6,produces,0
+Kigiriama,All,21,Ndema,6,understands,0
+Kigiriama,All,22,Ndema,9,produces,0.2222
+Kigiriama,All,22,Ndema,9,understands,0
+Kigiriama,All,23,Ndema,4,produces,0
+Kigiriama,All,23,Ndema,4,understands,0
+Kigiriama,All,24,Ndema,7,produces,0
+Kigiriama,All,24,Ndema,7,understands,0
+Kigiriama,All,25,Ndema,3,produces,0
+Kigiriama,All,25,Ndema,3,understands,0
+Kigiriama,All,26,Ndema,6,produces,0.1667
+Kigiriama,All,26,Ndema,6,understands,0
+Kigiriama,All,27,Ndema,4,produces,0.25
+Kigiriama,All,27,Ndema,4,understands,0
+Kigiriama,All,28,Ndema,1,produces,0
+Kigiriama,All,28,Ndema,1,understands,0
+Kigiriama,All,29,Ndema,5,produces,0
+Kigiriama,All,29,Ndema,5,understands,0
+Kigiriama,All,30,Ndema,1,produces,1
+Kigiriama,All,30,Ndema,1,understands,0
+Kiswahili,All,23,Popo,2,produces,0
+Kiswahili,All,23,Popo,2,understands,0
+Kiswahili,All,24,Popo,12,produces,0
+Kiswahili,All,24,Popo,12,understands,0
+Kiswahili,All,25,Popo,10,produces,0
+Kiswahili,All,25,Popo,10,understands,0
+Kiswahili,All,26,Popo,13,produces,0
+Kiswahili,All,26,Popo,13,understands,0
+Kiswahili,All,27,Popo,8,produces,0
+Kiswahili,All,27,Popo,8,understands,0
+Kiswahili,All,28,Popo,6,produces,0.1667
+Kiswahili,All,28,Popo,6,understands,0
+Kiswahili,All,29,Popo,6,produces,0
+Kiswahili,All,29,Popo,6,understands,0
+Kiswahili,All,30,Popo,5,produces,0.2
+Kiswahili,All,30,Popo,5,understands,0
+American Sign Language,Female,9,BAT_1,4,produces,0
+American Sign Language,Female,9,BAT_1,4,understands,0
+American Sign Language,Female,10,BAT_1,1,produces,0
+American Sign Language,Female,10,BAT_1,1,understands,0
+American Sign Language,Male,10,BAT_1,1,produces,0
+American Sign Language,Male,10,BAT_1,1,understands,0
+American Sign Language,Female,11,BAT_1,1,produces,0
+American Sign Language,Female,11,BAT_1,1,understands,0
+American Sign Language,Male,11,BAT_1,1,produces,0
+American Sign Language,Male,11,BAT_1,1,understands,0
+American Sign Language,Female,12,BAT_1,1,produces,0
+American Sign Language,Female,12,BAT_1,1,understands,0
+American Sign Language,Male,12,BAT_1,1,produces,0
+American Sign Language,Male,12,BAT_1,1,understands,0
+American Sign Language,Male,15,BAT_1,1,produces,0
+American Sign Language,Male,15,BAT_1,1,understands,1
+American Sign Language,Female,16,BAT_1,2,produces,0
+American Sign Language,Female,16,BAT_1,2,understands,0
+American Sign Language,Female,17,BAT_1,2,produces,0
+American Sign Language,Female,17,BAT_1,2,understands,0.5
+American Sign Language,Male,17,BAT_1,1,produces,0
+American Sign Language,Male,17,BAT_1,1,understands,0
+American Sign Language,Female,18,BAT_1,5,produces,0.4
+American Sign Language,Female,18,BAT_1,5,understands,0.4
+American Sign Language,Male,18,BAT_1,2,produces,0
+American Sign Language,Male,18,BAT_1,2,understands,0.5
+American Sign Language,Female,19,BAT_1,2,produces,0.5
+American Sign Language,Female,19,BAT_1,2,understands,0.5
+American Sign Language,Male,19,BAT_1,3,produces,0
+American Sign Language,Male,19,BAT_1,3,understands,0.3333
+American Sign Language,Male,20,BAT_1,2,produces,0
+American Sign Language,Male,20,BAT_1,2,understands,0
+American Sign Language,Female,21,BAT_1,1,produces,0
+American Sign Language,Female,21,BAT_1,1,understands,0
+American Sign Language,Male,21,BAT_1,1,produces,0
+American Sign Language,Male,21,BAT_1,1,understands,1
+American Sign Language,Female,22,BAT_1,8,produces,0.25
+American Sign Language,Female,22,BAT_1,8,understands,0.375
+American Sign Language,Female,23,BAT_1,1,produces,1
+American Sign Language,Female,23,BAT_1,1,understands,1
+American Sign Language,Male,23,BAT_1,1,produces,0
+American Sign Language,Male,23,BAT_1,1,understands,1
+American Sign Language,Female,24,BAT_1,1,produces,0
+American Sign Language,Female,24,BAT_1,1,understands,0
+American Sign Language,Male,24,BAT_1,5,produces,0.2
+American Sign Language,Male,24,BAT_1,5,understands,0.2
+American Sign Language,Female,25,BAT_1,4,produces,0
+American Sign Language,Female,25,BAT_1,4,understands,0.25
+American Sign Language,Male,25,BAT_1,7,produces,0.1429
+American Sign Language,Male,25,BAT_1,7,understands,0.2857
+American Sign Language,Female,26,BAT_1,2,produces,0
+American Sign Language,Female,26,BAT_1,2,understands,1
+American Sign Language,Male,26,BAT_1,2,produces,0.5
+American Sign Language,Male,26,BAT_1,2,understands,0.5
+American Sign Language,Female,27,BAT_1,4,produces,0
+American Sign Language,Female,27,BAT_1,4,understands,0
+American Sign Language,Male,27,BAT_1,1,produces,1
+American Sign Language,Male,27,BAT_1,1,understands,1
+American Sign Language,Female,28,BAT_1,1,produces,0
+American Sign Language,Female,28,BAT_1,1,understands,1
+American Sign Language,Male,28,BAT_1,2,produces,1
+American Sign Language,Male,28,BAT_1,2,understands,1
+American Sign Language,Female,29,BAT_1,1,produces,0
+American Sign Language,Female,29,BAT_1,1,understands,1
+American Sign Language,Male,29,BAT_1,5,produces,0.4
+American Sign Language,Male,29,BAT_1,5,understands,0.8
+American Sign Language,Female,30,BAT_1,2,produces,0
+American Sign Language,Female,30,BAT_1,2,understands,0.5
+American Sign Language,Male,30,BAT_1,2,produces,1
+American Sign Language,Male,30,BAT_1,2,understands,1
+American Sign Language,Female,31,BAT_1,3,produces,0.3333
+American Sign Language,Female,31,BAT_1,3,understands,0.6667
+American Sign Language,Male,31,BAT_1,3,produces,0.3333
+American Sign Language,Male,31,BAT_1,3,understands,0.6667
+American Sign Language,Female,32,BAT_1,3,produces,0.3333
+American Sign Language,Female,32,BAT_1,3,understands,0.6667
+American Sign Language,Male,32,BAT_1,4,produces,0.5
+American Sign Language,Male,32,BAT_1,4,understands,0.5
+American Sign Language,Female,33,BAT_1,2,produces,1
+American Sign Language,Female,33,BAT_1,2,understands,1
+American Sign Language,Male,33,BAT_1,2,produces,0.5
+American Sign Language,Male,33,BAT_1,2,understands,0.5
+American Sign Language,Female,34,BAT_1,1,produces,1
+American Sign Language,Female,34,BAT_1,1,understands,1
+American Sign Language,Male,34,BAT_1,4,produces,0.75
+American Sign Language,Male,34,BAT_1,4,understands,0.75
+American Sign Language,Female,35,BAT_1,2,produces,0.5
+American Sign Language,Female,35,BAT_1,2,understands,1
+American Sign Language,Male,35,BAT_1,2,produces,1
+American Sign Language,Male,35,BAT_1,2,understands,1
+American Sign Language,Female,36,BAT_1,3,produces,0
+American Sign Language,Female,36,BAT_1,3,understands,0.6667
+Kigiriama,Female,16,Ndema,1,produces,0
+Kigiriama,Female,16,Ndema,1,understands,0
+Kigiriama,Female,17,Ndema,5,produces,0
+Kigiriama,Female,17,Ndema,5,understands,0
+Kigiriama,Male,17,Ndema,1,produces,0
+Kigiriama,Male,17,Ndema,1,understands,0
+Kigiriama,Female,18,Ndema,6,produces,0
+Kigiriama,Female,18,Ndema,6,understands,0
+Kigiriama,Male,18,Ndema,6,produces,0
+Kigiriama,Male,18,Ndema,6,understands,0
+Kigiriama,Female,19,Ndema,3,produces,0
+Kigiriama,Female,19,Ndema,3,understands,0
+Kigiriama,Male,19,Ndema,5,produces,0
+Kigiriama,Male,19,Ndema,5,understands,0
+Kigiriama,Female,20,Ndema,5,produces,0
+Kigiriama,Female,20,Ndema,5,understands,0
+Kigiriama,Male,20,Ndema,8,produces,0
+Kigiriama,Male,20,Ndema,8,understands,0
+Kigiriama,Female,21,Ndema,3,produces,0
+Kigiriama,Female,21,Ndema,3,understands,0
+Kigiriama,Male,21,Ndema,3,produces,0
+Kigiriama,Male,21,Ndema,3,understands,0
+Kigiriama,Female,22,Ndema,7,produces,0.2857
+Kigiriama,Female,22,Ndema,7,understands,0
+Kigiriama,Male,22,Ndema,2,produces,0
+Kigiriama,Male,22,Ndema,2,understands,0
+Kigiriama,Female,23,Ndema,2,produces,0
+Kigiriama,Female,23,Ndema,2,understands,0
+Kigiriama,Male,23,Ndema,2,produces,0
+Kigiriama,Male,23,Ndema,2,understands,0
+Kigiriama,Female,24,Ndema,6,produces,0
+Kigiriama,Female,24,Ndema,6,understands,0
+Kigiriama,Male,24,Ndema,1,produces,0
+Kigiriama,Male,24,Ndema,1,understands,0
+Kigiriama,Female,25,Ndema,2,produces,0
+Kigiriama,Female,25,Ndema,2,understands,0
+Kigiriama,Male,25,Ndema,1,produces,0
+Kigiriama,Male,25,Ndema,1,understands,0
+Kigiriama,Female,26,Ndema,4,produces,0
+Kigiriama,Female,26,Ndema,4,understands,0
+Kigiriama,Male,26,Ndema,2,produces,0.5
+Kigiriama,Male,26,Ndema,2,understands,0
+Kigiriama,Female,27,Ndema,1,produces,0
+Kigiriama,Female,27,Ndema,1,understands,0
+Kigiriama,Male,27,Ndema,3,produces,0.3333
+Kigiriama,Male,27,Ndema,3,understands,0
+Kigiriama,Male,28,Ndema,1,produces,0
+Kigiriama,Male,28,Ndema,1,understands,0
+Kigiriama,Female,29,Ndema,2,produces,0
+Kigiriama,Female,29,Ndema,2,understands,0
+Kigiriama,Male,29,Ndema,3,produces,0
+Kigiriama,Male,29,Ndema,3,understands,0
+Kigiriama,Male,30,Ndema,1,produces,1
+Kigiriama,Male,30,Ndema,1,understands,0
+Kiswahili,Female,23,Popo,1,produces,0
+Kiswahili,Female,23,Popo,1,understands,0
+Kiswahili,Male,23,Popo,1,produces,0
+Kiswahili,Male,23,Popo,1,understands,0
+Kiswahili,Female,24,Popo,6,produces,0
+Kiswahili,Female,24,Popo,6,understands,0
+Kiswahili,Male,24,Popo,6,produces,0
+Kiswahili,Male,24,Popo,6,understands,0
+Kiswahili,Female,25,Popo,8,produces,0
+Kiswahili,Female,25,Popo,8,understands,0
+Kiswahili,Male,25,Popo,2,produces,0
+Kiswahili,Male,25,Popo,2,understands,0
+Kiswahili,Female,26,Popo,3,produces,0
+Kiswahili,Female,26,Popo,3,understands,0
+Kiswahili,Male,26,Popo,10,produces,0
+Kiswahili,Male,26,Popo,10,understands,0
+Kiswahili,Female,27,Popo,3,produces,0
+Kiswahili,Female,27,Popo,3,understands,0
+Kiswahili,Male,27,Popo,5,produces,0
+Kiswahili,Male,27,Popo,5,understands,0
+Kiswahili,Female,28,Popo,3,produces,0.3333
+Kiswahili,Female,28,Popo,3,understands,0
+Kiswahili,Male,28,Popo,3,produces,0
+Kiswahili,Male,28,Popo,3,understands,0
+Kiswahili,Female,29,Popo,3,produces,0
+Kiswahili,Female,29,Popo,3,understands,0
+Kiswahili,Male,29,Popo,3,produces,0
+Kiswahili,Male,29,Popo,3,understands,0
+Kiswahili,Female,30,Popo,3,produces,0.3333
+Kiswahili,Female,30,Popo,3,understands,0
+Kiswahili,Male,30,Popo,2,produces,0
+Kiswahili,Male,30,Popo,2,understands,0

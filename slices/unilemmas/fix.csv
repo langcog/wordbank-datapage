@@ -1,855 +1,2533 @@
-language,age,words,n,measure,prop
-Italian,18,aggiustare,31,produces,0.0323
-Italian,18,aggiustare,31,understands,0
-Italian,19,aggiustare,39,produces,0.0513
-Italian,19,aggiustare,39,understands,0
-Italian,20,aggiustare,64,produces,0.0625
-Italian,20,aggiustare,64,understands,0
-Italian,21,aggiustare,55,produces,0.1455
-Italian,21,aggiustare,55,understands,0
-Italian,22,aggiustare,55,produces,0.2545
-Italian,22,aggiustare,55,understands,0
-Italian,23,aggiustare,53,produces,0.2075
-Italian,23,aggiustare,53,understands,0
-Italian,24,aggiustare,71,produces,0.3662
-Italian,24,aggiustare,71,understands,0
-Italian,25,aggiustare,39,produces,0.4872
-Italian,25,aggiustare,39,understands,0
-Italian,26,aggiustare,41,produces,0.561
-Italian,26,aggiustare,41,understands,0
-Italian,27,aggiustare,43,produces,0.3953
-Italian,27,aggiustare,43,understands,0
-Italian,28,aggiustare,44,produces,0.6136
-Italian,28,aggiustare,44,understands,0
-Italian,29,aggiustare,37,produces,0.5946
-Italian,29,aggiustare,37,understands,0
-Italian,30,aggiustare,67,produces,0.6866
-Italian,30,aggiustare,67,understands,0
-Italian,31,aggiustare,19,produces,0.5789
-Italian,31,aggiustare,19,understands,0
-Italian,32,aggiustare,23,produces,0.6522
-Italian,32,aggiustare,23,understands,0
-Italian,33,aggiustare,16,produces,0.6875
-Italian,33,aggiustare,16,understands,0
-Italian,34,aggiustare,19,produces,1
-Italian,34,aggiustare,19,understands,0
-Italian,35,aggiustare,15,produces,0.7333
-Italian,35,aggiustare,15,understands,0
-Italian,36,aggiustare,21,produces,0.7619
-Italian,36,aggiustare,21,understands,0
-Japanese,16,なおす,11,produces,0
-Japanese,16,なおす,11,understands,0
-Japanese,17,なおす,17,produces,0
-Japanese,17,なおす,17,understands,0
-Japanese,18,なおす,56,produces,0.0357
-Japanese,18,なおす,56,understands,0
-Japanese,19,なおす,35,produces,0.0286
-Japanese,19,なおす,35,understands,0
-Japanese,20,なおす,59,produces,0.0339
-Japanese,20,なおす,59,understands,0
-Japanese,21,なおす,62,produces,0.0484
-Japanese,21,なおす,62,understands,0
-Japanese,22,なおす,31,produces,0.0323
-Japanese,22,なおす,31,understands,0
-Japanese,23,なおす,67,produces,0.0896
-Japanese,23,なおす,67,understands,0
-Japanese,24,なおす,33,produces,0.1212
-Japanese,24,なおす,33,understands,0
-Japanese,25,なおす,34,produces,0.2059
-Japanese,25,なおす,34,understands,0
-Japanese,26,なおす,33,produces,0.4242
-Japanese,26,なおす,33,understands,0
-Japanese,27,なおす,15,produces,0.0667
-Japanese,27,なおす,15,understands,0
-Japanese,28,なおす,18,produces,0.3333
-Japanese,28,なおす,18,understands,0
-Japanese,29,なおす,17,produces,0.3529
-Japanese,29,なおす,17,understands,0
-Japanese,30,なおす,18,produces,0.3889
-Japanese,30,なおす,18,understands,0
-Japanese,31,なおす,18,produces,0.4444
-Japanese,31,なおす,18,understands,0
-Japanese,32,なおす,13,produces,0.6154
-Japanese,32,なおす,13,understands,0
-Japanese,33,なおす,16,produces,0.8125
-Japanese,33,なおす,16,understands,0
-Japanese,34,なおす,13,produces,0.5385
-Japanese,34,なおす,13,understands,0
-Japanese,35,なおす,31,produces,0.7419
-Japanese,35,なおす,31,understands,0
-Japanese,36,なおす,18,produces,0.6667
-Japanese,36,なおす,18,understands,0
-Korean,18,고쳐,88,produces,0.0114
-Korean,18,고쳐,88,understands,0
-Korean,19,고쳐,77,produces,0.026
-Korean,19,고쳐,77,understands,0
-Korean,20,고쳐,88,produces,0
-Korean,20,고쳐,88,understands,0
-Korean,21,고쳐,79,produces,0.0633
-Korean,21,고쳐,79,understands,0
-Korean,22,고쳐,87,produces,0.046
-Korean,22,고쳐,87,understands,0
-Korean,23,고쳐,87,produces,0.092
-Korean,23,고쳐,87,understands,0
-Korean,24,고쳐,107,produces,0.1589
-Korean,24,고쳐,107,understands,0
-Korean,25,고쳐,95,produces,0.1895
-Korean,25,고쳐,95,understands,0
-Korean,26,고쳐,91,produces,0.2308
-Korean,26,고쳐,91,understands,0
-Korean,27,고쳐,104,produces,0.2788
-Korean,27,고쳐,104,understands,0
-Korean,28,고쳐,89,produces,0.382
-Korean,28,고쳐,89,understands,0
-Korean,29,고쳐,101,produces,0.4059
-Korean,29,고쳐,101,understands,0
-Korean,30,고쳐,81,produces,0.4568
-Korean,30,고쳐,81,understands,0
-Korean,31,고쳐,79,produces,0.5316
-Korean,31,고쳐,79,understands,0
-Korean,32,고쳐,70,produces,0.4286
-Korean,32,고쳐,70,understands,0
-Korean,33,고쳐,79,produces,0.481
-Korean,33,고쳐,79,understands,0
-Korean,34,고쳐,79,produces,0.6835
-Korean,34,고쳐,79,understands,0
-Korean,35,고쳐,74,produces,0.5946
-Korean,35,고쳐,74,understands,0
-Korean,36,고쳐,75,produces,0.6933
-Korean,36,고쳐,75,understands,0
-Mandarin (Beijing),16,修,70,produces,0.0143
-Mandarin (Beijing),16,修,70,understands,0
-Mandarin (Beijing),17,修,112,produces,0.1429
-Mandarin (Beijing),17,修,112,understands,0
-Mandarin (Beijing),18,修,121,produces,0.1653
-Mandarin (Beijing),18,修,121,understands,0
-Mandarin (Beijing),19,修,120,produces,0.275
-Mandarin (Beijing),19,修,120,understands,0
-Mandarin (Beijing),20,修,121,produces,0.3471
-Mandarin (Beijing),20,修,121,understands,0
-Mandarin (Beijing),21,修,119,produces,0.3613
-Mandarin (Beijing),21,修,119,understands,0
-Mandarin (Beijing),22,修,117,produces,0.4701
-Mandarin (Beijing),22,修,117,understands,0
-Mandarin (Beijing),23,修,120,produces,0.5833
-Mandarin (Beijing),23,修,120,understands,0
-Mandarin (Beijing),24,修,120,produces,0.575
-Mandarin (Beijing),24,修,120,understands,0
-Mandarin (Beijing),25,修,113,produces,0.708
-Mandarin (Beijing),25,修,113,understands,0
-Mandarin (Beijing),26,修,118,produces,0.7119
-Mandarin (Beijing),26,修,118,understands,0
-Mandarin (Beijing),27,修,114,produces,0.7105
-Mandarin (Beijing),27,修,114,understands,0
-Mandarin (Beijing),28,修,114,produces,0.7807
-Mandarin (Beijing),28,修,114,understands,0
-Mandarin (Beijing),29,修,119,produces,0.7899
-Mandarin (Beijing),29,修,119,understands,0
-Mandarin (Beijing),30,修,110,produces,0.8364
-Mandarin (Beijing),30,修,110,understands,0
-Slovak,17,opraviť,70,produces,0.0429
-Slovak,17,opraviť,70,understands,0
-Slovak,18,opraviť,65,produces,0.0615
-Slovak,18,opraviť,65,understands,0
-Slovak,19,opraviť,56,produces,0.1429
-Slovak,19,opraviť,56,understands,0
-Slovak,20,opraviť,62,produces,0.2258
-Slovak,20,opraviť,62,understands,0
-Slovak,21,opraviť,81,produces,0.2593
-Slovak,21,opraviť,81,understands,0
-Slovak,22,opraviť,53,produces,0.3019
-Slovak,22,opraviť,53,understands,0
-Slovak,23,opraviť,59,produces,0.3898
-Slovak,23,opraviť,59,understands,0
-Slovak,24,opraviť,59,produces,0.6102
-Slovak,24,opraviť,59,understands,0
-Slovak,25,opraviť,69,produces,0.5362
-Slovak,25,opraviť,69,understands,0
-Slovak,26,opraviť,78,produces,0.7564
-Slovak,26,opraviť,78,understands,0
-Slovak,27,opraviť,62,produces,0.7419
-Slovak,27,opraviť,62,understands,0
-Slovak,28,opraviť,86,produces,0.6977
-Slovak,28,opraviť,86,understands,0
-Slovak,29,opraviť,75,produces,0.7333
-Slovak,29,opraviť,75,understands,0
-Slovak,30,opraviť,49,produces,0.7755
-Slovak,30,opraviť,49,understands,0
-Slovak,31,opraviť,29,produces,0.6552
-Slovak,31,opraviť,29,understands,0
-Slovak,32,opraviť,25,produces,0.88
-Slovak,32,opraviť,25,understands,0
-Slovak,33,opraviť,22,produces,0.9091
-Slovak,33,opraviť,22,understands,0
-Slovak,34,opraviť,27,produces,0.8889
-Slovak,34,opraviť,27,understands,0
-Slovak,35,opraviť,27,produces,0.7778
-Slovak,35,opraviť,27,understands,0
-Slovak,36,opraviť,8,produces,0.75
-Slovak,36,opraviť,8,understands,0
-Spanish (Argentinian),16,arreglar_se,47,produces,0
-Spanish (Argentinian),16,arreglar_se,47,understands,0
-Spanish (Argentinian),17,arreglar_se,49,produces,0.0204
-Spanish (Argentinian),17,arreglar_se,49,understands,0
-Spanish (Argentinian),18,arreglar_se,62,produces,0
-Spanish (Argentinian),18,arreglar_se,62,understands,0
-Spanish (Argentinian),19,arreglar_se,44,produces,0.0455
-Spanish (Argentinian),19,arreglar_se,44,understands,0
-Spanish (Argentinian),20,arreglar_se,46,produces,0
-Spanish (Argentinian),20,arreglar_se,46,understands,0
-Spanish (Argentinian),21,arreglar_se,41,produces,0.0732
-Spanish (Argentinian),21,arreglar_se,41,understands,0
-Spanish (Argentinian),22,arreglar_se,57,produces,0.0351
-Spanish (Argentinian),22,arreglar_se,57,understands,0
-Spanish (Argentinian),23,arreglar_se,49,produces,0.0204
-Spanish (Argentinian),23,arreglar_se,49,understands,0
-Spanish (Argentinian),24,arreglar_se,75,produces,0.0933
-Spanish (Argentinian),24,arreglar_se,75,understands,0
-Spanish (Argentinian),25,arreglar_se,43,produces,0.1395
-Spanish (Argentinian),25,arreglar_se,43,understands,0
-Spanish (Argentinian),26,arreglar_se,45,produces,0.1333
-Spanish (Argentinian),26,arreglar_se,45,understands,0
-Spanish (Argentinian),27,arreglar_se,44,produces,0.1591
-Spanish (Argentinian),27,arreglar_se,44,understands,0
-Spanish (Argentinian),28,arreglar_se,42,produces,0.2381
-Spanish (Argentinian),28,arreglar_se,42,understands,0
-Spanish (Argentinian),29,arreglar_se,65,produces,0.3077
-Spanish (Argentinian),29,arreglar_se,65,understands,0
-Spanish (Argentinian),30,arreglar_se,69,produces,0.3333
-Spanish (Argentinian),30,arreglar_se,69,understands,0
-Spanish (Argentinian),31,arreglar_se,2,produces,0
-Spanish (Argentinian),31,arreglar_se,2,understands,0
-Spanish (Argentinian),32,arreglar_se,1,produces,0
-Spanish (Argentinian),32,arreglar_se,1,understands,0
-Spanish (Argentinian),33,arreglar_se,2,produces,0
-Spanish (Argentinian),33,arreglar_se,2,understands,0
-Spanish (Mexican),16,arreglar(se),68,produces,0.0147
-Spanish (Mexican),16,arreglar(se),68,understands,0
-Spanish (Mexican),17,arreglar(se),59,produces,0.0169
-Spanish (Mexican),17,arreglar(se),59,understands,0
-Spanish (Mexican),18,arreglar(se),75,produces,0.08
-Spanish (Mexican),18,arreglar(se),75,understands,0
-Spanish (Mexican),19,arreglar(se),100,produces,0.13
-Spanish (Mexican),19,arreglar(se),100,understands,0
-Spanish (Mexican),20,arreglar(se),107,produces,0.1308
-Spanish (Mexican),20,arreglar(se),107,understands,0
-Spanish (Mexican),21,arreglar(se),84,produces,0.1071
-Spanish (Mexican),21,arreglar(se),84,understands,0
-Spanish (Mexican),22,arreglar(se),141,produces,0.0496
-Spanish (Mexican),22,arreglar(se),141,understands,0
-Spanish (Mexican),23,arreglar(se),91,produces,0.0769
-Spanish (Mexican),23,arreglar(se),91,understands,0
-Spanish (Mexican),24,arreglar(se),126,produces,0.1825
-Spanish (Mexican),24,arreglar(se),126,understands,0
-Spanish (Mexican),25,arreglar(se),177,produces,0.1582
-Spanish (Mexican),25,arreglar(se),177,understands,0
-Spanish (Mexican),26,arreglar(se),83,produces,0.2892
-Spanish (Mexican),26,arreglar(se),83,understands,0
-Spanish (Mexican),27,arreglar(se),85,produces,0.2118
-Spanish (Mexican),27,arreglar(se),85,understands,0
-Spanish (Mexican),28,arreglar(se),89,produces,0.3371
-Spanish (Mexican),28,arreglar(se),89,understands,0
-Spanish (Mexican),29,arreglar(se),89,produces,0.3596
-Spanish (Mexican),29,arreglar(se),89,understands,0
-Spanish (Mexican),30,arreglar(se),308,produces,0.2045
-Spanish (Mexican),30,arreglar(se),308,understands,0
-Swedish,16,laga,159,produces,0.0063
-Swedish,16,laga,159,understands,0
-Swedish,19,laga,152,produces,0.0395
-Swedish,19,laga,152,understands,0
-Swedish,22,laga,307,produces,0.2248
-Swedish,22,laga,307,understands,0
-Swedish,25,laga,143,produces,0.5035
-Swedish,25,laga,143,understands,0
-Swedish,28,laga,139,produces,0.7122
-Swedish,28,laga,139,understands,0
-American Sign Language,8,FIX,1,produces,0
-American Sign Language,8,FIX,1,understands,0
-American Sign Language,9,FIX,4,produces,0
-American Sign Language,9,FIX,4,understands,0.25
-American Sign Language,10,FIX,5,produces,0
-American Sign Language,10,FIX,5,understands,0
-American Sign Language,11,FIX,3,produces,0
-American Sign Language,11,FIX,3,understands,0
-American Sign Language,12,FIX,4,produces,0
-American Sign Language,12,FIX,4,understands,0
-American Sign Language,13,FIX,4,produces,0
-American Sign Language,13,FIX,4,understands,0
-American Sign Language,14,FIX,1,produces,0
-American Sign Language,14,FIX,1,understands,0
-American Sign Language,15,FIX,3,produces,0
-American Sign Language,15,FIX,3,understands,0
-American Sign Language,16,FIX,2,produces,0
-American Sign Language,16,FIX,2,understands,0
-American Sign Language,17,FIX,5,produces,0.2
-American Sign Language,17,FIX,5,understands,0.4
-American Sign Language,18,FIX,11,produces,0.1818
-American Sign Language,18,FIX,11,understands,0.4545
-American Sign Language,19,FIX,6,produces,0.1667
-American Sign Language,19,FIX,6,understands,0.3333
-American Sign Language,20,FIX,3,produces,0
-American Sign Language,20,FIX,3,understands,0.3333
-American Sign Language,21,FIX,4,produces,0.5
-American Sign Language,21,FIX,4,understands,0.75
-American Sign Language,22,FIX,10,produces,0
-American Sign Language,22,FIX,10,understands,0.3
-American Sign Language,23,FIX,5,produces,0.2
-American Sign Language,23,FIX,5,understands,0.2
-American Sign Language,24,FIX,9,produces,0.1111
-American Sign Language,24,FIX,9,understands,0.2222
-American Sign Language,25,FIX,13,produces,0.2308
-American Sign Language,25,FIX,13,understands,0.4615
-American Sign Language,26,FIX,4,produces,0.25
-American Sign Language,26,FIX,4,understands,0.5
-American Sign Language,27,FIX,7,produces,0.1429
-American Sign Language,27,FIX,7,understands,0.1429
-American Sign Language,28,FIX,7,produces,1
-American Sign Language,28,FIX,7,understands,0.5714
-American Sign Language,29,FIX,6,produces,0.6667
-American Sign Language,29,FIX,6,understands,0.8333
-American Sign Language,30,FIX,7,produces,0.5714
-American Sign Language,30,FIX,7,understands,0.5714
-American Sign Language,31,FIX,9,produces,0.6667
-American Sign Language,31,FIX,9,understands,0.5556
-American Sign Language,32,FIX,15,produces,0.6
-American Sign Language,32,FIX,15,understands,0.3333
-American Sign Language,33,FIX,6,produces,0.6667
-American Sign Language,33,FIX,6,understands,0.6667
-American Sign Language,34,FIX,7,produces,0.7143
-American Sign Language,34,FIX,7,understands,0.5714
-American Sign Language,35,FIX,7,produces,0.7143
-American Sign Language,35,FIX,7,understands,0.5714
-American Sign Language,36,FIX,3,produces,0.3333
-American Sign Language,36,FIX,3,understands,1
-Arabic (Saudi),8,أصلح/ يصلح,19,produces,0
-Arabic (Saudi),8,أصلح/ يصلح,19,understands,0
-Arabic (Saudi),9,أصلح/ يصلح,18,produces,0
-Arabic (Saudi),9,أصلح/ يصلح,18,understands,0
-Arabic (Saudi),10,أصلح/ يصلح,25,produces,0.08
-Arabic (Saudi),10,أصلح/ يصلح,25,understands,0
-Arabic (Saudi),11,أصلح/ يصلح,21,produces,0
-Arabic (Saudi),11,أصلح/ يصلح,21,understands,0
-Arabic (Saudi),12,أصلح/ يصلح,19,produces,0
-Arabic (Saudi),12,أصلح/ يصلح,19,understands,0
-Arabic (Saudi),13,أصلح/ يصلح,36,produces,0.0278
-Arabic (Saudi),13,أصلح/ يصلح,36,understands,0
-Arabic (Saudi),14,أصلح/ يصلح,20,produces,0
-Arabic (Saudi),14,أصلح/ يصلح,20,understands,0
-Arabic (Saudi),15,أصلح/ يصلح,19,produces,0
-Arabic (Saudi),15,أصلح/ يصلح,19,understands,0
-Arabic (Saudi),16,أصلح/ يصلح,18,produces,0.0556
-Arabic (Saudi),16,أصلح/ يصلح,18,understands,0
-British Sign Language,8,fix,4,produces,0
-British Sign Language,8,fix,4,understands,0
-British Sign Language,9,fix,4,produces,0
-British Sign Language,9,fix,4,understands,0
-British Sign Language,10,fix,4,produces,0
-British Sign Language,10,fix,4,understands,0
-British Sign Language,11,fix,6,produces,0
-British Sign Language,11,fix,6,understands,0
-British Sign Language,12,fix,6,produces,0
-British Sign Language,12,fix,6,understands,0
-British Sign Language,13,fix,6,produces,0
-British Sign Language,13,fix,6,understands,0
-British Sign Language,14,fix,7,produces,0
-British Sign Language,14,fix,7,understands,0
-British Sign Language,15,fix,6,produces,0
-British Sign Language,15,fix,6,understands,0
-British Sign Language,16,fix,7,produces,0
-British Sign Language,16,fix,7,understands,0
-British Sign Language,17,fix,7,produces,0
-British Sign Language,17,fix,7,understands,0
-British Sign Language,18,fix,8,produces,0
-British Sign Language,18,fix,8,understands,0
-British Sign Language,19,fix,8,produces,0.125
-British Sign Language,19,fix,8,understands,0.125
-British Sign Language,20,fix,11,produces,0
-British Sign Language,20,fix,11,understands,0
-British Sign Language,21,fix,5,produces,0
-British Sign Language,21,fix,5,understands,0
-British Sign Language,22,fix,6,produces,0.1667
-British Sign Language,22,fix,6,understands,0.1667
-British Sign Language,23,fix,7,produces,0.1429
-British Sign Language,23,fix,7,understands,0.1429
-British Sign Language,24,fix,5,produces,0.2
-British Sign Language,24,fix,5,understands,0.2
-British Sign Language,25,fix,7,produces,0.1429
-British Sign Language,25,fix,7,understands,0.1429
-British Sign Language,26,fix,6,produces,0.3333
-British Sign Language,26,fix,6,understands,0.3333
-British Sign Language,27,fix,6,produces,0
-British Sign Language,27,fix,6,understands,0
-British Sign Language,28,fix,3,produces,0
-British Sign Language,28,fix,3,understands,0
-British Sign Language,29,fix,7,produces,0.1429
-British Sign Language,29,fix,7,understands,0.4286
-British Sign Language,30,fix,5,produces,0
-British Sign Language,30,fix,5,understands,0.2
-British Sign Language,31,fix,2,produces,0.5
-British Sign Language,31,fix,2,understands,0.5
-British Sign Language,32,fix,6,produces,0.3333
-British Sign Language,32,fix,6,understands,0.5
-British Sign Language,33,fix,5,produces,0.6
-British Sign Language,33,fix,5,understands,0.6
-British Sign Language,34,fix,2,produces,0
-British Sign Language,34,fix,2,understands,0
-British Sign Language,35,fix,2,produces,0.5
-British Sign Language,35,fix,2,understands,0.5
-British Sign Language,36,fix,3,produces,0.6667
-British Sign Language,36,fix,3,understands,1
-Cantonese,16,"修理, 整(嘢)",46,produces,0
-Cantonese,16,"修理, 整(嘢)",46,understands,0
-Cantonese,17,"修理, 整(嘢)",61,produces,0
-Cantonese,17,"修理, 整(嘢)",61,understands,0
-Cantonese,18,"修理, 整(嘢)",68,produces,0.0074
-Cantonese,18,"修理, 整(嘢)",68,understands,0
-Cantonese,19,"修理, 整(嘢)",66,produces,0.0152
-Cantonese,19,"修理, 整(嘢)",66,understands,0
-Cantonese,20,"修理, 整(嘢)",140,produces,0.075
-Cantonese,20,"修理, 整(嘢)",140,understands,0
-Cantonese,21,"修理, 整(嘢)",120,produces,0.0708
-Cantonese,21,"修理, 整(嘢)",120,understands,0
-Cantonese,22,"修理, 整(嘢)",68,produces,0.1176
-Cantonese,22,"修理, 整(嘢)",68,understands,0
-Cantonese,23,"修理, 整(嘢)",74,produces,0.1419
-Cantonese,23,"修理, 整(嘢)",74,understands,0
-Cantonese,24,"修理, 整(嘢)",68,produces,0.1691
-Cantonese,24,"修理, 整(嘢)",68,understands,0
-Cantonese,25,"修理, 整(嘢)",65,produces,0.2
-Cantonese,25,"修理, 整(嘢)",65,understands,0
-Cantonese,26,"修理, 整(嘢)",68,produces,0.2794
-Cantonese,26,"修理, 整(嘢)",68,understands,0
-Cantonese,27,"修理, 整(嘢)",62,produces,0.2903
-Cantonese,27,"修理, 整(嘢)",62,understands,0
-Cantonese,28,"修理, 整(嘢)",66,produces,0.3712
-Cantonese,28,"修理, 整(嘢)",66,understands,0
-Cantonese,29,"修理, 整(嘢)",72,produces,0.5
-Cantonese,29,"修理, 整(嘢)",72,understands,0
-Cantonese,30,"修理, 整(嘢)",164,produces,0.5
-Cantonese,30,"修理, 整(嘢)",164,understands,0
-Czech,16,opravovat,29,produces,0
-Czech,16,opravovat,29,understands,0
-Czech,17,opravovat,29,produces,0
-Czech,17,opravovat,29,understands,0
-Czech,18,opravovat,45,produces,0
-Czech,18,opravovat,45,understands,0
-Czech,19,opravovat,27,produces,0
-Czech,19,opravovat,27,understands,0
-Czech,20,opravovat,26,produces,0.0769
-Czech,20,opravovat,26,understands,0
-Czech,21,opravovat,34,produces,0.0588
-Czech,21,opravovat,34,understands,0
-Czech,22,opravovat,36,produces,0.0833
-Czech,22,opravovat,36,understands,0
-Czech,23,opravovat,46,produces,0.1304
-Czech,23,opravovat,46,understands,0
-Czech,24,opravovat,35,produces,0.1714
-Czech,24,opravovat,35,understands,0
-Czech,25,opravovat,35,produces,0.2
-Czech,25,opravovat,35,understands,0
-Czech,26,opravovat,22,produces,0.3182
-Czech,26,opravovat,22,understands,0
-Czech,27,opravovat,37,produces,0.2703
-Czech,27,opravovat,37,understands,0
-Czech,28,opravovat,26,produces,0.5
-Czech,28,opravovat,26,understands,0
-Czech,29,opravovat,39,produces,0.5128
-Czech,29,opravovat,39,understands,0
-Czech,30,opravovat,27,produces,0.5556
-Czech,30,opravovat,27,understands,0
-Danish,16,ordne,184,produces,0.0054
-Danish,16,ordne,184,understands,0
-Danish,17,ordne,176,produces,0
-Danish,17,ordne,176,understands,0
-Danish,18,ordne,160,produces,0.0125
-Danish,18,ordne,160,understands,0
-Danish,19,ordne,205,produces,0
-Danish,19,ordne,205,understands,0
-Danish,20,ordne,196,produces,0.0102
-Danish,20,ordne,196,understands,0
-Danish,21,ordne,236,produces,0.0297
-Danish,21,ordne,236,understands,0
-Danish,22,ordne,235,produces,0.0426
-Danish,22,ordne,235,understands,0
-Danish,23,ordne,190,produces,0.0421
-Danish,23,ordne,190,understands,0
-Danish,24,ordne,216,produces,0.1204
-Danish,24,ordne,216,understands,0
-Danish,25,ordne,138,produces,0.1449
-Danish,25,ordne,138,understands,0
-Danish,26,ordne,206,produces,0.2136
-Danish,26,ordne,206,understands,0
-Danish,27,ordne,176,produces,0.2557
-Danish,27,ordne,176,understands,0
-Danish,28,ordne,190,produces,0.2632
-Danish,28,ordne,190,understands,0
-Danish,29,ordne,182,produces,0.3407
-Danish,29,ordne,182,understands,0
-Danish,30,ordne,173,produces,0.4104
-Danish,30,ordne,173,understands,0
-Danish,31,ordne,175,produces,0.48
-Danish,31,ordne,175,understands,0
-Danish,32,ordne,143,produces,0.5245
-Danish,32,ordne,143,understands,0
-Danish,33,ordne,151,produces,0.6556
-Danish,33,ordne,151,understands,0
-Danish,34,ordne,143,produces,0.6154
-Danish,34,ordne,143,understands,0
-Danish,35,ordne,113,produces,0.6991
-Danish,35,ordne,113,understands,0
-Danish,36,ordne,126,produces,0.7222
-Danish,36,ordne,126,understands,0
-Dutch,16,"herstellen/maken/repareren, vastmaken",4,produces,0
-Dutch,16,"herstellen/maken/repareren, vastmaken",4,understands,0
-Dutch,17,"herstellen/maken/repareren, vastmaken",49,produces,0.0102
-Dutch,17,"herstellen/maken/repareren, vastmaken",49,understands,0
-Dutch,18,"herstellen/maken/repareren, vastmaken",68,produces,0.0294
-Dutch,18,"herstellen/maken/repareren, vastmaken",68,understands,0
-Dutch,19,"herstellen/maken/repareren, vastmaken",7,produces,0
-Dutch,19,"herstellen/maken/repareren, vastmaken",7,understands,0
-Dutch,20,"herstellen/maken/repareren, vastmaken",7,produces,0.3571
-Dutch,20,"herstellen/maken/repareren, vastmaken",7,understands,0
-Dutch,21,"herstellen/maken/repareren, vastmaken",7,produces,0.1429
-Dutch,21,"herstellen/maken/repareren, vastmaken",7,understands,0
-Dutch,22,"herstellen/maken/repareren, vastmaken",7,produces,0.4286
-Dutch,22,"herstellen/maken/repareren, vastmaken",7,understands,0
-Dutch,23,"herstellen/maken/repareren, vastmaken",51,produces,0.3529
-Dutch,23,"herstellen/maken/repareren, vastmaken",51,understands,0
-Dutch,24,"herstellen/maken/repareren, vastmaken",31,produces,0.4194
-Dutch,24,"herstellen/maken/repareren, vastmaken",31,understands,0
-Dutch,25,"herstellen/maken/repareren, vastmaken",6,produces,0.8333
-Dutch,25,"herstellen/maken/repareren, vastmaken",6,understands,0
-Dutch,26,"herstellen/maken/repareren, vastmaken",6,produces,0.5
-Dutch,26,"herstellen/maken/repareren, vastmaken",6,understands,0
-Dutch,27,"herstellen/maken/repareren, vastmaken",5,produces,0.5
-Dutch,27,"herstellen/maken/repareren, vastmaken",5,understands,0
-Dutch,28,"vastmaken, herstellen/maken/repareren",7,produces,1
-Dutch,28,"vastmaken, herstellen/maken/repareren",7,understands,0
-Dutch,29,"vastmaken, herstellen/maken/repareren",71,produces,0.8191
-Dutch,29,"vastmaken, herstellen/maken/repareren",71,understands,0
-Dutch,30,"vastmaken, herstellen/maken/repareren",45,produces,0.8261
-Dutch,30,"vastmaken, herstellen/maken/repareren",45,understands,0
-Dutch,31,"vastmaken, herstellen/maken/repareren",7,produces,0.8889
-Dutch,31,"vastmaken, herstellen/maken/repareren",7,understands,0
-Dutch,32,vastmaken,5,produces,0.6
-Dutch,32,vastmaken,5,understands,0
-Dutch,33,vastmaken,3,produces,1
-Dutch,33,vastmaken,3,understands,0
-Dutch,34,vastmaken,5,produces,1
-Dutch,34,vastmaken,5,understands,0
-Dutch,35,vastmaken,3,produces,0.6667
-Dutch,35,vastmaken,3,understands,0
-Dutch,36,vastmaken,6,produces,0.8333
-Dutch,36,vastmaken,6,understands,0
-English (American),16,fix,930,produces,0.0129
-English (American),16,fix,930,understands,0
-English (American),17,fix,458,produces,0.0262
-English (American),17,fix,458,understands,0
-English (American),18,fix,641,produces,0.0452
-English (American),18,fix,641,understands,0
-English (American),19,fix,570,produces,0.1281
-English (American),19,fix,570,understands,0
-English (American),20,fix,537,produces,0.1173
-English (American),20,fix,537,understands,0
-English (American),21,fix,366,produces,0.1776
-English (American),21,fix,366,understands,0
-English (American),22,fix,454,produces,0.2379
-English (American),22,fix,454,understands,0
-English (American),23,fix,470,produces,0.3489
-English (American),23,fix,470,understands,0
-English (American),24,fix,985,produces,0.4081
-English (American),24,fix,985,understands,0
-English (American),25,fix,757,produces,0.5007
-English (American),25,fix,757,understands,0
-English (American),26,fix,435,produces,0.5448
-English (American),26,fix,435,understands,0
-English (American),27,fix,361,produces,0.5956
-English (American),27,fix,361,understands,0
-English (American),28,fix,954,produces,0.7851
-English (American),28,fix,954,understands,0
-English (American),29,fix,390,produces,0.6641
-English (American),29,fix,390,understands,0
-English (American),30,fix,785,produces,0.7032
-English (American),30,fix,785,understands,0
-English (Australian),12,fix,71,produces,0
-English (Australian),12,fix,71,understands,0
-English (Australian),13,fix,64,produces,0
-English (Australian),13,fix,64,understands,0
-English (Australian),14,fix,111,produces,0.027
-English (Australian),14,fix,111,understands,0
-English (Australian),15,fix,69,produces,0.0435
-English (Australian),15,fix,69,understands,0
-English (Australian),16,fix,60,produces,0.05
-English (Australian),16,fix,60,understands,0
-English (Australian),17,fix,104,produces,0.0385
-English (Australian),17,fix,104,understands,0
-English (Australian),18,fix,109,produces,0.0183
-English (Australian),18,fix,109,understands,0
-English (Australian),19,fix,124,produces,0.1129
-English (Australian),19,fix,124,understands,0
-English (Australian),20,fix,78,produces,0.1923
-English (Australian),20,fix,78,understands,0
-English (Australian),21,fix,68,produces,0.1618
-English (Australian),21,fix,68,understands,0
-English (Australian),22,fix,73,produces,0.3699
-English (Australian),22,fix,73,understands,0
-English (Australian),23,fix,71,produces,0.5211
-English (Australian),23,fix,71,understands,0
-English (Australian),24,fix,76,produces,0.4211
-English (Australian),24,fix,76,understands,0
-English (Australian),25,fix,85,produces,0.4706
-English (Australian),25,fix,85,understands,0
-English (Australian),26,fix,77,produces,0.5974
-English (Australian),26,fix,77,understands,0
-English (Australian),27,fix,72,produces,0.7639
-English (Australian),27,fix,72,understands,0
-English (Australian),28,fix,67,produces,0.6716
-English (Australian),28,fix,67,understands,0
-English (Australian),29,fix,65,produces,0.7538
-English (Australian),29,fix,65,understands,0
-English (Australian),30,fix,53,produces,0.8302
-English (Australian),30,fix,53,understands,0
-English (Irish),17,fix,2,produces,0
-English (Irish),17,fix,2,understands,0
-English (Irish),18,fix,1,produces,0
-English (Irish),18,fix,1,understands,0
-English (Irish),19,fix,2,produces,0
-English (Irish),19,fix,2,understands,0
-English (Irish),20,fix,1,produces,0
-English (Irish),20,fix,1,understands,0
-English (Irish),21,fix,3,produces,0
-English (Irish),21,fix,3,understands,0
-English (Irish),22,fix,4,produces,0
-English (Irish),22,fix,4,understands,0
-English (Irish),23,fix,4,produces,0
-English (Irish),23,fix,4,understands,0
-English (Irish),24,fix,4,produces,0
-English (Irish),24,fix,4,understands,0
-English (Irish),25,fix,6,produces,0
-English (Irish),25,fix,6,understands,0
-English (Irish),26,fix,10,produces,0
-English (Irish),26,fix,10,understands,0
-English (Irish),27,fix,5,produces,0
-English (Irish),27,fix,5,understands,0
-English (Irish),28,fix,7,produces,0.1429
-English (Irish),28,fix,7,understands,0
-English (Irish),29,fix,4,produces,0.5
-English (Irish),29,fix,4,understands,0
-English (Irish),30,fix,9,produces,0.1111
-English (Irish),30,fix,9,understands,0
-English (Irish),31,fix,8,produces,0.125
-English (Irish),31,fix,8,understands,0
-English (Irish),32,fix,4,produces,0.25
-English (Irish),32,fix,4,understands,0
-English (Irish),33,fix,5,produces,0
-English (Irish),33,fix,5,understands,0
-English (Irish),34,fix,4,produces,0.25
-English (Irish),34,fix,4,understands,0
-English (Irish),35,fix,11,produces,0.5455
-English (Irish),35,fix,11,understands,0
-English (Irish),36,fix,5,produces,0.4
-English (Irish),36,fix,5,understands,0
-Estonian,16,parandama,36,produces,0
-Estonian,16,parandama,36,understands,0
-Estonian,17,parandama,89,produces,0.0112
-Estonian,17,parandama,89,understands,0
-Estonian,18,parandama,103,produces,0.0194
-Estonian,18,parandama,103,understands,0
-Estonian,19,parandama,85,produces,0.0471
-Estonian,19,parandama,85,understands,0
-Estonian,20,parandama,60,produces,0.0667
-Estonian,20,parandama,60,understands,0
-Estonian,21,parandama,66,produces,0.0606
-Estonian,21,parandama,66,understands,0
-Estonian,22,parandama,76,produces,0.0921
-Estonian,22,parandama,76,understands,0
-Estonian,23,parandama,95,produces,0.1895
-Estonian,23,parandama,95,understands,0
-Estonian,24,parandama,116,produces,0.3017
-Estonian,24,parandama,116,understands,0
-Estonian,25,parandama,82,produces,0.2439
-Estonian,25,parandama,82,understands,0
-Estonian,26,parandama,84,produces,0.3095
-Estonian,26,parandama,84,understands,0
-Estonian,27,parandama,80,produces,0.2875
-Estonian,27,parandama,80,understands,0
-Estonian,28,parandama,92,produces,0.4674
-Estonian,28,parandama,92,understands,0
-Estonian,29,parandama,100,produces,0.5
-Estonian,29,parandama,100,understands,0
-Estonian,30,parandama,71,produces,0.5775
-Estonian,30,parandama,71,understands,0
-Finnish,12,korjata ,35,produces,0
-Finnish,12,korjata ,35,understands,0
-Finnish,15,korjata ,35,produces,0
-Finnish,15,korjata ,35,understands,0
-Finnish,18,"kiinnittää, korjata",35,produces,0.0429
-Finnish,18,"kiinnittää, korjata",35,understands,0
-Finnish,24,"kiinnittää, korjata",35,produces,0.3714
-Finnish,24,"kiinnittää, korjata",35,understands,0
-French (French),8,réparer,54,produces,0
-French (French),8,réparer,54,understands,0
-French (French),9,réparer,11,produces,0
-French (French),9,réparer,11,understands,0
-French (French),10,réparer,13,produces,0
-French (French),10,réparer,13,understands,0
-French (French),11,réparer,42,produces,0
-French (French),11,réparer,42,understands,0
-French (French),12,réparer,64,produces,0
-French (French),12,réparer,64,understands,0
-French (French),13,réparer,116,produces,0
-French (French),13,réparer,116,understands,0.0086
-French (French),14,réparer,40,produces,0
-French (French),14,réparer,40,understands,0
-French (French),15,réparer,26,produces,0
-French (French),15,réparer,26,understands,0
-French (French),16,réparer,98,produces,0.0102
-French (French),16,réparer,98,understands,0
-French (French),17,réparer,52,produces,0
-French (French),17,réparer,52,understands,0
-French (French),18,réparer,54,produces,0.1111
-French (French),18,réparer,54,understands,0
-French (French),19,réparer,42,produces,0.119
-French (French),19,réparer,42,understands,0
-French (French),20,réparer,81,produces,0.0864
-French (French),20,réparer,81,understands,0
-French (French),21,réparer,102,produces,0.1569
-French (French),21,réparer,102,understands,0
-French (French),22,réparer,103,produces,0.1359
-French (French),22,réparer,103,understands,0
-French (French),23,réparer,118,produces,0.161
-French (French),23,réparer,118,understands,0
-French (French),24,réparer,173,produces,0.1792
-French (French),24,réparer,173,understands,0
-French (French),25,réparer,87,produces,0.3103
-French (French),25,réparer,87,understands,0
-French (French),26,réparer,64,produces,0.3594
-French (French),26,réparer,64,understands,0
-French (French),27,réparer,54,produces,0.4444
-French (French),27,réparer,54,understands,0
-French (French),28,réparer,76,produces,0.4605
-French (French),28,réparer,76,understands,0
-French (French),29,réparer,67,produces,0.6119
-French (French),29,réparer,67,understands,0
-French (French),30,réparer,68,produces,0.5
-French (French),30,réparer,68,understands,0
-French (Quebecois),16,réparer,47,produces,0
-French (Quebecois),16,réparer,47,understands,0
-French (Quebecois),17,réparer,62,produces,0.0161
-French (Quebecois),17,réparer,62,understands,0
-French (Quebecois),18,réparer,99,produces,0.0101
-French (Quebecois),18,réparer,99,understands,0
-French (Quebecois),19,réparer,91,produces,0
-French (Quebecois),19,réparer,91,understands,0
-French (Quebecois),20,réparer,196,produces,0.0204
-French (Quebecois),20,réparer,196,understands,0
-French (Quebecois),21,réparer,109,produces,0.055
-French (Quebecois),21,réparer,109,understands,0
-French (Quebecois),22,réparer,86,produces,0.1279
-French (Quebecois),22,réparer,86,understands,0
-French (Quebecois),23,réparer,86,produces,0.2093
-French (Quebecois),23,réparer,86,understands,0
-French (Quebecois),24,réparer,132,produces,0.1818
-French (Quebecois),24,réparer,132,understands,0
-French (Quebecois),25,réparer,87,produces,0.2989
-French (Quebecois),25,réparer,87,understands,0
-French (Quebecois),26,réparer,95,produces,0.3263
-French (Quebecois),26,réparer,95,understands,0
-French (Quebecois),27,réparer,74,produces,0.4324
-French (Quebecois),27,réparer,74,understands,0
-French (Quebecois),28,réparer,61,produces,0.4262
-French (Quebecois),28,réparer,61,understands,0
-French (Quebecois),29,réparer,70,produces,0.6143
-French (Quebecois),29,réparer,70,understands,0
-French (Quebecois),30,réparer,100,produces,0.55
-French (Quebecois),30,réparer,100,understands,0
-German,18,heile machen,85,produces,0.0353
-German,18,heile machen,85,understands,0
-German,19,heile machen,79,produces,0.0506
-German,19,heile machen,79,understands,0
-German,20,heile machen,96,produces,0.1042
-German,20,heile machen,96,understands,0
-German,21,heile machen,77,produces,0.1558
-German,21,heile machen,77,understands,0
-German,22,heile machen,95,produces,0.1579
-German,22,heile machen,95,understands,0
-German,23,heile machen,95,produces,0.3474
-German,23,heile machen,95,understands,0
-German,24,heile machen,103,produces,0.3883
-German,24,heile machen,103,understands,0
-German,25,heile machen,95,produces,0.5053
-German,25,heile machen,95,understands,0
-German,26,heile machen,92,produces,0.5217
-German,26,heile machen,92,understands,0
-German,27,heile machen,89,produces,0.5506
-German,27,heile machen,89,understands,0
-German,28,heile machen,93,produces,0.5806
-German,28,heile machen,93,understands,0
-German,29,heile machen,89,produces,0.7191
-German,29,heile machen,89,understands,0
-German,30,heile machen,93,produces,0.8172
-German,30,heile machen,93,understands,0
-Hebrew,25,לתקן,82,produces,0.4268
-Hebrew,25,לתקן,82,understands,0
-Hebrew,26,לתקן,80,produces,0.6
-Hebrew,26,לתקן,80,understands,0
-Hebrew,27,לתקן,68,produces,0.5735
-Hebrew,27,לתקן,68,understands,0
-Hebrew,28,לתקן,57,produces,0.6842
-Hebrew,28,לתקן,57,understands,0
-Hebrew,29,לתקן,47,produces,0.7447
-Hebrew,29,לתקן,47,understands,0
-Hebrew,30,לתקן,28,produces,0.6429
-Hebrew,30,לתקן,28,understands,0
-Hebrew,31,לתקן,35,produces,0.8571
-Hebrew,31,לתקן,35,understands,0
-Hebrew,32,לתקן,36,produces,0.6944
-Hebrew,32,לתקן,36,understands,0
-Hebrew,33,לתקן,21,produces,0.7619
-Hebrew,33,לתקן,21,understands,0
-Hebrew,34,לתקן,27,produces,0.8148
-Hebrew,34,לתקן,27,understands,0
-Hebrew,35,לתקן,18,produces,0.7222
-Hebrew,35,לתקן,18,understands,0
-Hebrew,36,לתקן,5,produces,0.4
-Hebrew,36,לתקן,5,understands,0
-Irish,17,socraigh,2,produces,0
-Irish,17,socraigh,2,understands,0
-Irish,18,socraigh,1,produces,0
-Irish,18,socraigh,1,understands,0
-Irish,19,socraigh,2,produces,0
-Irish,19,socraigh,2,understands,0
-Irish,20,socraigh,1,produces,0
-Irish,20,socraigh,1,understands,0
-Irish,21,socraigh,3,produces,0
-Irish,21,socraigh,3,understands,0
-Irish,22,socraigh,4,produces,0
-Irish,22,socraigh,4,understands,0
-Irish,23,socraigh,4,produces,0.25
-Irish,23,socraigh,4,understands,0
-Irish,24,socraigh,4,produces,0.5
-Irish,24,socraigh,4,understands,0
-Irish,25,socraigh,6,produces,0.1667
-Irish,25,socraigh,6,understands,0
-Irish,26,socraigh,10,produces,0.1
-Irish,26,socraigh,10,understands,0
-Irish,27,socraigh,5,produces,0.2
-Irish,27,socraigh,5,understands,0
-Irish,28,socraigh,7,produces,0
-Irish,28,socraigh,7,understands,0
-Irish,29,socraigh,4,produces,0
-Irish,29,socraigh,4,understands,0
-Irish,30,socraigh,9,produces,0.4444
-Irish,30,socraigh,9,understands,0
-Irish,31,socraigh,8,produces,0.125
-Irish,31,socraigh,8,understands,0
-Irish,32,socraigh,4,produces,0.25
-Irish,32,socraigh,4,understands,0
-Irish,33,socraigh,5,produces,0.6
-Irish,33,socraigh,5,understands,0
-Irish,34,socraigh,4,produces,0.75
-Irish,34,socraigh,4,understands,0
-Irish,35,socraigh,11,produces,0.7273
-Irish,35,socraigh,11,understands,0
-Irish,36,socraigh,5,produces,0.6
-Irish,36,socraigh,5,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,8,FIX,1,produces,0
+American Sign Language,All,8,FIX,1,understands,0
+American Sign Language,All,9,FIX,4,produces,0
+American Sign Language,All,9,FIX,4,understands,0.25
+American Sign Language,All,10,FIX,5,produces,0
+American Sign Language,All,10,FIX,5,understands,0
+American Sign Language,All,11,FIX,3,produces,0
+American Sign Language,All,11,FIX,3,understands,0
+American Sign Language,All,12,FIX,4,produces,0
+American Sign Language,All,12,FIX,4,understands,0
+American Sign Language,All,13,FIX,4,produces,0
+American Sign Language,All,13,FIX,4,understands,0
+American Sign Language,All,14,FIX,1,produces,0
+American Sign Language,All,14,FIX,1,understands,0
+American Sign Language,All,15,FIX,3,produces,0
+American Sign Language,All,15,FIX,3,understands,0
+American Sign Language,All,16,FIX,2,produces,0
+American Sign Language,All,16,FIX,2,understands,0
+American Sign Language,All,17,FIX,5,produces,0.2
+American Sign Language,All,17,FIX,5,understands,0.4
+American Sign Language,All,18,FIX,11,produces,0.1818
+American Sign Language,All,18,FIX,11,understands,0.4545
+American Sign Language,All,19,FIX,6,produces,0.1667
+American Sign Language,All,19,FIX,6,understands,0.3333
+American Sign Language,All,20,FIX,3,produces,0
+American Sign Language,All,20,FIX,3,understands,0.3333
+American Sign Language,All,21,FIX,4,produces,0.5
+American Sign Language,All,21,FIX,4,understands,0.75
+American Sign Language,All,22,FIX,10,produces,0
+American Sign Language,All,22,FIX,10,understands,0.3
+American Sign Language,All,23,FIX,5,produces,0.2
+American Sign Language,All,23,FIX,5,understands,0.2
+American Sign Language,All,24,FIX,9,produces,0.1111
+American Sign Language,All,24,FIX,9,understands,0.2222
+American Sign Language,All,25,FIX,13,produces,0.2308
+American Sign Language,All,25,FIX,13,understands,0.4615
+American Sign Language,All,26,FIX,4,produces,0.25
+American Sign Language,All,26,FIX,4,understands,0.5
+American Sign Language,All,27,FIX,7,produces,0.1429
+American Sign Language,All,27,FIX,7,understands,0.1429
+American Sign Language,All,28,FIX,7,produces,1
+American Sign Language,All,28,FIX,7,understands,0.5714
+American Sign Language,All,29,FIX,6,produces,0.6667
+American Sign Language,All,29,FIX,6,understands,0.8333
+American Sign Language,All,30,FIX,7,produces,0.5714
+American Sign Language,All,30,FIX,7,understands,0.5714
+American Sign Language,All,31,FIX,9,produces,0.6667
+American Sign Language,All,31,FIX,9,understands,0.5556
+American Sign Language,All,32,FIX,15,produces,0.6
+American Sign Language,All,32,FIX,15,understands,0.3333
+American Sign Language,All,33,FIX,6,produces,0.6667
+American Sign Language,All,33,FIX,6,understands,0.6667
+American Sign Language,All,34,FIX,7,produces,0.7143
+American Sign Language,All,34,FIX,7,understands,0.5714
+American Sign Language,All,35,FIX,7,produces,0.7143
+American Sign Language,All,35,FIX,7,understands,0.5714
+American Sign Language,All,36,FIX,3,produces,0.3333
+American Sign Language,All,36,FIX,3,understands,1
+Arabic (Saudi),All,8,أصلح/ يصلح,19,produces,0
+Arabic (Saudi),All,8,أصلح/ يصلح,19,understands,0
+Arabic (Saudi),All,9,أصلح/ يصلح,18,produces,0
+Arabic (Saudi),All,9,أصلح/ يصلح,18,understands,0
+Arabic (Saudi),All,10,أصلح/ يصلح,25,produces,0.08
+Arabic (Saudi),All,10,أصلح/ يصلح,25,understands,0
+Arabic (Saudi),All,11,أصلح/ يصلح,21,produces,0
+Arabic (Saudi),All,11,أصلح/ يصلح,21,understands,0
+Arabic (Saudi),All,12,أصلح/ يصلح,19,produces,0
+Arabic (Saudi),All,12,أصلح/ يصلح,19,understands,0
+Arabic (Saudi),All,13,أصلح/ يصلح,36,produces,0.0278
+Arabic (Saudi),All,13,أصلح/ يصلح,36,understands,0
+Arabic (Saudi),All,14,أصلح/ يصلح,20,produces,0
+Arabic (Saudi),All,14,أصلح/ يصلح,20,understands,0
+Arabic (Saudi),All,15,أصلح/ يصلح,19,produces,0
+Arabic (Saudi),All,15,أصلح/ يصلح,19,understands,0
+Arabic (Saudi),All,16,أصلح/ يصلح,18,produces,0.0556
+Arabic (Saudi),All,16,أصلح/ يصلح,18,understands,0
+British Sign Language,All,8,fix,4,produces,0
+British Sign Language,All,8,fix,4,understands,0
+British Sign Language,All,9,fix,4,produces,0
+British Sign Language,All,9,fix,4,understands,0
+British Sign Language,All,10,fix,4,produces,0
+British Sign Language,All,10,fix,4,understands,0
+British Sign Language,All,11,fix,6,produces,0
+British Sign Language,All,11,fix,6,understands,0
+British Sign Language,All,12,fix,6,produces,0
+British Sign Language,All,12,fix,6,understands,0
+British Sign Language,All,13,fix,6,produces,0
+British Sign Language,All,13,fix,6,understands,0
+British Sign Language,All,14,fix,7,produces,0
+British Sign Language,All,14,fix,7,understands,0
+British Sign Language,All,15,fix,6,produces,0
+British Sign Language,All,15,fix,6,understands,0
+British Sign Language,All,16,fix,7,produces,0
+British Sign Language,All,16,fix,7,understands,0
+British Sign Language,All,17,fix,7,produces,0
+British Sign Language,All,17,fix,7,understands,0
+British Sign Language,All,18,fix,8,produces,0
+British Sign Language,All,18,fix,8,understands,0
+British Sign Language,All,19,fix,8,produces,0.125
+British Sign Language,All,19,fix,8,understands,0.125
+British Sign Language,All,20,fix,11,produces,0
+British Sign Language,All,20,fix,11,understands,0
+British Sign Language,All,21,fix,5,produces,0
+British Sign Language,All,21,fix,5,understands,0
+British Sign Language,All,22,fix,6,produces,0.1667
+British Sign Language,All,22,fix,6,understands,0.1667
+British Sign Language,All,23,fix,7,produces,0.1429
+British Sign Language,All,23,fix,7,understands,0.1429
+British Sign Language,All,24,fix,5,produces,0.2
+British Sign Language,All,24,fix,5,understands,0.2
+British Sign Language,All,25,fix,7,produces,0.1429
+British Sign Language,All,25,fix,7,understands,0.1429
+British Sign Language,All,26,fix,6,produces,0.3333
+British Sign Language,All,26,fix,6,understands,0.3333
+British Sign Language,All,27,fix,6,produces,0
+British Sign Language,All,27,fix,6,understands,0
+British Sign Language,All,28,fix,3,produces,0
+British Sign Language,All,28,fix,3,understands,0
+British Sign Language,All,29,fix,7,produces,0.1429
+British Sign Language,All,29,fix,7,understands,0.4286
+British Sign Language,All,30,fix,5,produces,0
+British Sign Language,All,30,fix,5,understands,0.2
+British Sign Language,All,31,fix,2,produces,0.5
+British Sign Language,All,31,fix,2,understands,0.5
+British Sign Language,All,32,fix,6,produces,0.3333
+British Sign Language,All,32,fix,6,understands,0.5
+British Sign Language,All,33,fix,5,produces,0.6
+British Sign Language,All,33,fix,5,understands,0.6
+British Sign Language,All,34,fix,2,produces,0
+British Sign Language,All,34,fix,2,understands,0
+British Sign Language,All,35,fix,2,produces,0.5
+British Sign Language,All,35,fix,2,understands,0.5
+British Sign Language,All,36,fix,3,produces,0.6667
+British Sign Language,All,36,fix,3,understands,1
+Cantonese,All,16,"修理, 整(嘢)",46,produces,0
+Cantonese,All,16,"修理, 整(嘢)",46,understands,0
+Cantonese,All,17,"修理, 整(嘢)",61,produces,0
+Cantonese,All,17,"修理, 整(嘢)",61,understands,0
+Cantonese,All,18,"修理, 整(嘢)",68,produces,0.0074
+Cantonese,All,18,"修理, 整(嘢)",68,understands,0
+Cantonese,All,19,"修理, 整(嘢)",66,produces,0.0152
+Cantonese,All,19,"修理, 整(嘢)",66,understands,0
+Cantonese,All,20,"修理, 整(嘢)",140,produces,0.075
+Cantonese,All,20,"修理, 整(嘢)",140,understands,0
+Cantonese,All,21,"修理, 整(嘢)",120,produces,0.0708
+Cantonese,All,21,"修理, 整(嘢)",120,understands,0
+Cantonese,All,22,"修理, 整(嘢)",68,produces,0.1176
+Cantonese,All,22,"修理, 整(嘢)",68,understands,0
+Cantonese,All,23,"修理, 整(嘢)",74,produces,0.1419
+Cantonese,All,23,"修理, 整(嘢)",74,understands,0
+Cantonese,All,24,"修理, 整(嘢)",68,produces,0.1691
+Cantonese,All,24,"修理, 整(嘢)",68,understands,0
+Cantonese,All,25,"修理, 整(嘢)",65,produces,0.2
+Cantonese,All,25,"修理, 整(嘢)",65,understands,0
+Cantonese,All,26,"修理, 整(嘢)",68,produces,0.2794
+Cantonese,All,26,"修理, 整(嘢)",68,understands,0
+Cantonese,All,27,"修理, 整(嘢)",62,produces,0.2903
+Cantonese,All,27,"修理, 整(嘢)",62,understands,0
+Cantonese,All,28,"修理, 整(嘢)",66,produces,0.3712
+Cantonese,All,28,"修理, 整(嘢)",66,understands,0
+Cantonese,All,29,"修理, 整(嘢)",72,produces,0.5
+Cantonese,All,29,"修理, 整(嘢)",72,understands,0
+Cantonese,All,30,"修理, 整(嘢)",164,produces,0.5
+Cantonese,All,30,"修理, 整(嘢)",164,understands,0
+Czech,All,16,opravovat,29,produces,0
+Czech,All,16,opravovat,29,understands,0
+Czech,All,17,opravovat,29,produces,0
+Czech,All,17,opravovat,29,understands,0
+Czech,All,18,opravovat,45,produces,0
+Czech,All,18,opravovat,45,understands,0
+Czech,All,19,opravovat,27,produces,0
+Czech,All,19,opravovat,27,understands,0
+Czech,All,20,opravovat,26,produces,0.0769
+Czech,All,20,opravovat,26,understands,0
+Czech,All,21,opravovat,34,produces,0.0588
+Czech,All,21,opravovat,34,understands,0
+Czech,All,22,opravovat,36,produces,0.0833
+Czech,All,22,opravovat,36,understands,0
+Czech,All,23,opravovat,46,produces,0.1304
+Czech,All,23,opravovat,46,understands,0
+Czech,All,24,opravovat,35,produces,0.1714
+Czech,All,24,opravovat,35,understands,0
+Czech,All,25,opravovat,35,produces,0.2
+Czech,All,25,opravovat,35,understands,0
+Czech,All,26,opravovat,22,produces,0.3182
+Czech,All,26,opravovat,22,understands,0
+Czech,All,27,opravovat,37,produces,0.2703
+Czech,All,27,opravovat,37,understands,0
+Czech,All,28,opravovat,26,produces,0.5
+Czech,All,28,opravovat,26,understands,0
+Czech,All,29,opravovat,39,produces,0.5128
+Czech,All,29,opravovat,39,understands,0
+Czech,All,30,opravovat,27,produces,0.5556
+Czech,All,30,opravovat,27,understands,0
+Danish,All,16,ordne,184,produces,0.0054
+Danish,All,16,ordne,184,understands,0
+Danish,All,17,ordne,176,produces,0
+Danish,All,17,ordne,176,understands,0
+Danish,All,18,ordne,160,produces,0.0125
+Danish,All,18,ordne,160,understands,0
+Danish,All,19,ordne,205,produces,0
+Danish,All,19,ordne,205,understands,0
+Danish,All,20,ordne,196,produces,0.0102
+Danish,All,20,ordne,196,understands,0
+Danish,All,21,ordne,236,produces,0.0297
+Danish,All,21,ordne,236,understands,0
+Danish,All,22,ordne,235,produces,0.0426
+Danish,All,22,ordne,235,understands,0
+Danish,All,23,ordne,190,produces,0.0421
+Danish,All,23,ordne,190,understands,0
+Danish,All,24,ordne,216,produces,0.1204
+Danish,All,24,ordne,216,understands,0
+Danish,All,25,ordne,138,produces,0.1449
+Danish,All,25,ordne,138,understands,0
+Danish,All,26,ordne,206,produces,0.2136
+Danish,All,26,ordne,206,understands,0
+Danish,All,27,ordne,176,produces,0.2557
+Danish,All,27,ordne,176,understands,0
+Danish,All,28,ordne,190,produces,0.2632
+Danish,All,28,ordne,190,understands,0
+Danish,All,29,ordne,182,produces,0.3407
+Danish,All,29,ordne,182,understands,0
+Danish,All,30,ordne,173,produces,0.4104
+Danish,All,30,ordne,173,understands,0
+Danish,All,31,ordne,175,produces,0.48
+Danish,All,31,ordne,175,understands,0
+Danish,All,32,ordne,143,produces,0.5245
+Danish,All,32,ordne,143,understands,0
+Danish,All,33,ordne,151,produces,0.6556
+Danish,All,33,ordne,151,understands,0
+Danish,All,34,ordne,143,produces,0.6154
+Danish,All,34,ordne,143,understands,0
+Danish,All,35,ordne,113,produces,0.6991
+Danish,All,35,ordne,113,understands,0
+Danish,All,36,ordne,126,produces,0.7222
+Danish,All,36,ordne,126,understands,0
+Dutch,All,16,"herstellen/maken/repareren, vastmaken",4,produces,0
+Dutch,All,16,"herstellen/maken/repareren, vastmaken",4,understands,0
+Dutch,All,17,"herstellen/maken/repareren, vastmaken",49,produces,0.0102
+Dutch,All,17,"herstellen/maken/repareren, vastmaken",49,understands,0
+Dutch,All,18,"herstellen/maken/repareren, vastmaken",68,produces,0.0294
+Dutch,All,18,"herstellen/maken/repareren, vastmaken",68,understands,0
+Dutch,All,19,"herstellen/maken/repareren, vastmaken",7,produces,0
+Dutch,All,19,"herstellen/maken/repareren, vastmaken",7,understands,0
+Dutch,All,20,"herstellen/maken/repareren, vastmaken",7,produces,0.3571
+Dutch,All,20,"herstellen/maken/repareren, vastmaken",7,understands,0
+Dutch,All,21,"herstellen/maken/repareren, vastmaken",7,produces,0.1429
+Dutch,All,21,"herstellen/maken/repareren, vastmaken",7,understands,0
+Dutch,All,22,"herstellen/maken/repareren, vastmaken",7,produces,0.4286
+Dutch,All,22,"herstellen/maken/repareren, vastmaken",7,understands,0
+Dutch,All,23,"herstellen/maken/repareren, vastmaken",51,produces,0.3529
+Dutch,All,23,"herstellen/maken/repareren, vastmaken",51,understands,0
+Dutch,All,24,"herstellen/maken/repareren, vastmaken",31,produces,0.4194
+Dutch,All,24,"herstellen/maken/repareren, vastmaken",31,understands,0
+Dutch,All,25,"herstellen/maken/repareren, vastmaken",6,produces,0.8333
+Dutch,All,25,"herstellen/maken/repareren, vastmaken",6,understands,0
+Dutch,All,26,"herstellen/maken/repareren, vastmaken",6,produces,0.5
+Dutch,All,26,"herstellen/maken/repareren, vastmaken",6,understands,0
+Dutch,All,27,"herstellen/maken/repareren, vastmaken",5,produces,0.5
+Dutch,All,27,"herstellen/maken/repareren, vastmaken",5,understands,0
+Dutch,All,28,"herstellen/maken/repareren, vastmaken",7,produces,1
+Dutch,All,28,"herstellen/maken/repareren, vastmaken",7,understands,0
+Dutch,All,29,"vastmaken, herstellen/maken/repareren",71,produces,0.8191
+Dutch,All,29,"vastmaken, herstellen/maken/repareren",71,understands,0
+Dutch,All,30,"vastmaken, herstellen/maken/repareren",45,produces,0.8261
+Dutch,All,30,"vastmaken, herstellen/maken/repareren",45,understands,0
+Dutch,All,31,"vastmaken, herstellen/maken/repareren",7,produces,0.8889
+Dutch,All,31,"vastmaken, herstellen/maken/repareren",7,understands,0
+Dutch,All,32,vastmaken,5,produces,0.6
+Dutch,All,32,vastmaken,5,understands,0
+Dutch,All,33,vastmaken,3,produces,1
+Dutch,All,33,vastmaken,3,understands,0
+Dutch,All,34,vastmaken,5,produces,1
+Dutch,All,34,vastmaken,5,understands,0
+Dutch,All,35,vastmaken,3,produces,0.6667
+Dutch,All,35,vastmaken,3,understands,0
+Dutch,All,36,vastmaken,6,produces,0.8333
+Dutch,All,36,vastmaken,6,understands,0
+English (American),All,16,fix,930,produces,0.0129
+English (American),All,16,fix,930,understands,0
+English (American),All,17,fix,458,produces,0.0262
+English (American),All,17,fix,458,understands,0
+English (American),All,18,fix,641,produces,0.0452
+English (American),All,18,fix,641,understands,0
+English (American),All,19,fix,570,produces,0.1281
+English (American),All,19,fix,570,understands,0
+English (American),All,20,fix,537,produces,0.1173
+English (American),All,20,fix,537,understands,0
+English (American),All,21,fix,366,produces,0.1776
+English (American),All,21,fix,366,understands,0
+English (American),All,22,fix,454,produces,0.2379
+English (American),All,22,fix,454,understands,0
+English (American),All,23,fix,470,produces,0.3489
+English (American),All,23,fix,470,understands,0
+English (American),All,24,fix,985,produces,0.4081
+English (American),All,24,fix,985,understands,0
+English (American),All,25,fix,757,produces,0.5007
+English (American),All,25,fix,757,understands,0
+English (American),All,26,fix,435,produces,0.5448
+English (American),All,26,fix,435,understands,0
+English (American),All,27,fix,361,produces,0.5956
+English (American),All,27,fix,361,understands,0
+English (American),All,28,fix,954,produces,0.7851
+English (American),All,28,fix,954,understands,0
+English (American),All,29,fix,390,produces,0.6641
+English (American),All,29,fix,390,understands,0
+English (American),All,30,fix,785,produces,0.7032
+English (American),All,30,fix,785,understands,0
+English (Australian),All,12,fix,71,produces,0
+English (Australian),All,12,fix,71,understands,0
+English (Australian),All,13,fix,64,produces,0
+English (Australian),All,13,fix,64,understands,0
+English (Australian),All,14,fix,111,produces,0.027
+English (Australian),All,14,fix,111,understands,0
+English (Australian),All,15,fix,69,produces,0.0435
+English (Australian),All,15,fix,69,understands,0
+English (Australian),All,16,fix,60,produces,0.05
+English (Australian),All,16,fix,60,understands,0
+English (Australian),All,17,fix,104,produces,0.0385
+English (Australian),All,17,fix,104,understands,0
+English (Australian),All,18,fix,109,produces,0.0183
+English (Australian),All,18,fix,109,understands,0
+English (Australian),All,19,fix,124,produces,0.1129
+English (Australian),All,19,fix,124,understands,0
+English (Australian),All,20,fix,78,produces,0.1923
+English (Australian),All,20,fix,78,understands,0
+English (Australian),All,21,fix,68,produces,0.1618
+English (Australian),All,21,fix,68,understands,0
+English (Australian),All,22,fix,73,produces,0.3699
+English (Australian),All,22,fix,73,understands,0
+English (Australian),All,23,fix,71,produces,0.5211
+English (Australian),All,23,fix,71,understands,0
+English (Australian),All,24,fix,76,produces,0.4211
+English (Australian),All,24,fix,76,understands,0
+English (Australian),All,25,fix,85,produces,0.4706
+English (Australian),All,25,fix,85,understands,0
+English (Australian),All,26,fix,77,produces,0.5974
+English (Australian),All,26,fix,77,understands,0
+English (Australian),All,27,fix,72,produces,0.7639
+English (Australian),All,27,fix,72,understands,0
+English (Australian),All,28,fix,67,produces,0.6716
+English (Australian),All,28,fix,67,understands,0
+English (Australian),All,29,fix,65,produces,0.7538
+English (Australian),All,29,fix,65,understands,0
+English (Australian),All,30,fix,53,produces,0.8302
+English (Australian),All,30,fix,53,understands,0
+English (Irish),All,17,fix,2,produces,0
+English (Irish),All,17,fix,2,understands,0
+English (Irish),All,18,fix,1,produces,0
+English (Irish),All,18,fix,1,understands,0
+English (Irish),All,19,fix,2,produces,0
+English (Irish),All,19,fix,2,understands,0
+English (Irish),All,20,fix,1,produces,0
+English (Irish),All,20,fix,1,understands,0
+English (Irish),All,21,fix,3,produces,0
+English (Irish),All,21,fix,3,understands,0
+English (Irish),All,22,fix,4,produces,0
+English (Irish),All,22,fix,4,understands,0
+English (Irish),All,23,fix,4,produces,0
+English (Irish),All,23,fix,4,understands,0
+English (Irish),All,24,fix,4,produces,0
+English (Irish),All,24,fix,4,understands,0
+English (Irish),All,25,fix,6,produces,0
+English (Irish),All,25,fix,6,understands,0
+English (Irish),All,26,fix,10,produces,0
+English (Irish),All,26,fix,10,understands,0
+English (Irish),All,27,fix,5,produces,0
+English (Irish),All,27,fix,5,understands,0
+English (Irish),All,28,fix,7,produces,0.1429
+English (Irish),All,28,fix,7,understands,0
+English (Irish),All,29,fix,4,produces,0.5
+English (Irish),All,29,fix,4,understands,0
+English (Irish),All,30,fix,9,produces,0.1111
+English (Irish),All,30,fix,9,understands,0
+English (Irish),All,31,fix,8,produces,0.125
+English (Irish),All,31,fix,8,understands,0
+English (Irish),All,32,fix,4,produces,0.25
+English (Irish),All,32,fix,4,understands,0
+English (Irish),All,33,fix,5,produces,0
+English (Irish),All,33,fix,5,understands,0
+English (Irish),All,34,fix,4,produces,0.25
+English (Irish),All,34,fix,4,understands,0
+English (Irish),All,35,fix,11,produces,0.5455
+English (Irish),All,35,fix,11,understands,0
+English (Irish),All,36,fix,5,produces,0.4
+English (Irish),All,36,fix,5,understands,0
+Estonian,All,16,parandama,36,produces,0
+Estonian,All,16,parandama,36,understands,0
+Estonian,All,17,parandama,89,produces,0.0112
+Estonian,All,17,parandama,89,understands,0
+Estonian,All,18,parandama,103,produces,0.0194
+Estonian,All,18,parandama,103,understands,0
+Estonian,All,19,parandama,85,produces,0.0471
+Estonian,All,19,parandama,85,understands,0
+Estonian,All,20,parandama,60,produces,0.0667
+Estonian,All,20,parandama,60,understands,0
+Estonian,All,21,parandama,66,produces,0.0606
+Estonian,All,21,parandama,66,understands,0
+Estonian,All,22,parandama,76,produces,0.0921
+Estonian,All,22,parandama,76,understands,0
+Estonian,All,23,parandama,95,produces,0.1895
+Estonian,All,23,parandama,95,understands,0
+Estonian,All,24,parandama,116,produces,0.3017
+Estonian,All,24,parandama,116,understands,0
+Estonian,All,25,parandama,82,produces,0.2439
+Estonian,All,25,parandama,82,understands,0
+Estonian,All,26,parandama,84,produces,0.3095
+Estonian,All,26,parandama,84,understands,0
+Estonian,All,27,parandama,80,produces,0.2875
+Estonian,All,27,parandama,80,understands,0
+Estonian,All,28,parandama,92,produces,0.4674
+Estonian,All,28,parandama,92,understands,0
+Estonian,All,29,parandama,100,produces,0.5
+Estonian,All,29,parandama,100,understands,0
+Estonian,All,30,parandama,71,produces,0.5775
+Estonian,All,30,parandama,71,understands,0
+Finnish,All,12,korjata ,35,produces,0
+Finnish,All,12,korjata ,35,understands,0
+Finnish,All,15,korjata ,35,produces,0
+Finnish,All,15,korjata ,35,understands,0
+Finnish,All,18,"kiinnittää, korjata",35,produces,0.0429
+Finnish,All,18,"kiinnittää, korjata",35,understands,0
+Finnish,All,24,"kiinnittää, korjata",35,produces,0.3714
+Finnish,All,24,"kiinnittää, korjata",35,understands,0
+French (French),All,8,réparer,54,produces,0
+French (French),All,8,réparer,54,understands,0
+French (French),All,9,réparer,11,produces,0
+French (French),All,9,réparer,11,understands,0
+French (French),All,10,réparer,13,produces,0
+French (French),All,10,réparer,13,understands,0
+French (French),All,11,réparer,42,produces,0
+French (French),All,11,réparer,42,understands,0
+French (French),All,12,réparer,64,produces,0
+French (French),All,12,réparer,64,understands,0
+French (French),All,13,réparer,116,produces,0
+French (French),All,13,réparer,116,understands,0.0086
+French (French),All,14,réparer,40,produces,0
+French (French),All,14,réparer,40,understands,0
+French (French),All,15,réparer,26,produces,0
+French (French),All,15,réparer,26,understands,0
+French (French),All,16,réparer,98,produces,0.0102
+French (French),All,16,réparer,98,understands,0
+French (French),All,17,réparer,52,produces,0
+French (French),All,17,réparer,52,understands,0
+French (French),All,18,réparer,54,produces,0.1111
+French (French),All,18,réparer,54,understands,0
+French (French),All,19,réparer,42,produces,0.119
+French (French),All,19,réparer,42,understands,0
+French (French),All,20,réparer,81,produces,0.0864
+French (French),All,20,réparer,81,understands,0
+French (French),All,21,réparer,102,produces,0.1569
+French (French),All,21,réparer,102,understands,0
+French (French),All,22,réparer,103,produces,0.1359
+French (French),All,22,réparer,103,understands,0
+French (French),All,23,réparer,118,produces,0.161
+French (French),All,23,réparer,118,understands,0
+French (French),All,24,réparer,173,produces,0.1792
+French (French),All,24,réparer,173,understands,0
+French (French),All,25,réparer,87,produces,0.3103
+French (French),All,25,réparer,87,understands,0
+French (French),All,26,réparer,64,produces,0.3594
+French (French),All,26,réparer,64,understands,0
+French (French),All,27,réparer,54,produces,0.4444
+French (French),All,27,réparer,54,understands,0
+French (French),All,28,réparer,76,produces,0.4605
+French (French),All,28,réparer,76,understands,0
+French (French),All,29,réparer,67,produces,0.6119
+French (French),All,29,réparer,67,understands,0
+French (French),All,30,réparer,68,produces,0.5
+French (French),All,30,réparer,68,understands,0
+French (Quebecois),All,16,réparer,47,produces,0
+French (Quebecois),All,16,réparer,47,understands,0
+French (Quebecois),All,17,réparer,62,produces,0.0161
+French (Quebecois),All,17,réparer,62,understands,0
+French (Quebecois),All,18,réparer,99,produces,0.0101
+French (Quebecois),All,18,réparer,99,understands,0
+French (Quebecois),All,19,réparer,91,produces,0
+French (Quebecois),All,19,réparer,91,understands,0
+French (Quebecois),All,20,réparer,196,produces,0.0204
+French (Quebecois),All,20,réparer,196,understands,0
+French (Quebecois),All,21,réparer,109,produces,0.055
+French (Quebecois),All,21,réparer,109,understands,0
+French (Quebecois),All,22,réparer,86,produces,0.1279
+French (Quebecois),All,22,réparer,86,understands,0
+French (Quebecois),All,23,réparer,86,produces,0.2093
+French (Quebecois),All,23,réparer,86,understands,0
+French (Quebecois),All,24,réparer,132,produces,0.1818
+French (Quebecois),All,24,réparer,132,understands,0
+French (Quebecois),All,25,réparer,87,produces,0.2989
+French (Quebecois),All,25,réparer,87,understands,0
+French (Quebecois),All,26,réparer,95,produces,0.3263
+French (Quebecois),All,26,réparer,95,understands,0
+French (Quebecois),All,27,réparer,74,produces,0.4324
+French (Quebecois),All,27,réparer,74,understands,0
+French (Quebecois),All,28,réparer,61,produces,0.4262
+French (Quebecois),All,28,réparer,61,understands,0
+French (Quebecois),All,29,réparer,70,produces,0.6143
+French (Quebecois),All,29,réparer,70,understands,0
+French (Quebecois),All,30,réparer,100,produces,0.55
+French (Quebecois),All,30,réparer,100,understands,0
+German,All,18,heile machen,85,produces,0.0353
+German,All,18,heile machen,85,understands,0
+German,All,19,heile machen,79,produces,0.0506
+German,All,19,heile machen,79,understands,0
+German,All,20,heile machen,96,produces,0.1042
+German,All,20,heile machen,96,understands,0
+German,All,21,heile machen,77,produces,0.1558
+German,All,21,heile machen,77,understands,0
+German,All,22,heile machen,95,produces,0.1579
+German,All,22,heile machen,95,understands,0
+German,All,23,heile machen,95,produces,0.3474
+German,All,23,heile machen,95,understands,0
+German,All,24,heile machen,103,produces,0.3883
+German,All,24,heile machen,103,understands,0
+German,All,25,heile machen,95,produces,0.5053
+German,All,25,heile machen,95,understands,0
+German,All,26,heile machen,92,produces,0.5217
+German,All,26,heile machen,92,understands,0
+German,All,27,heile machen,89,produces,0.5506
+German,All,27,heile machen,89,understands,0
+German,All,28,heile machen,93,produces,0.5806
+German,All,28,heile machen,93,understands,0
+German,All,29,heile machen,89,produces,0.7191
+German,All,29,heile machen,89,understands,0
+German,All,30,heile machen,93,produces,0.8172
+German,All,30,heile machen,93,understands,0
+Hebrew,All,25,לתקן,82,produces,0.4268
+Hebrew,All,25,לתקן,82,understands,0
+Hebrew,All,26,לתקן,80,produces,0.6
+Hebrew,All,26,לתקן,80,understands,0
+Hebrew,All,27,לתקן,68,produces,0.5735
+Hebrew,All,27,לתקן,68,understands,0
+Hebrew,All,28,לתקן,57,produces,0.6842
+Hebrew,All,28,לתקן,57,understands,0
+Hebrew,All,29,לתקן,47,produces,0.7447
+Hebrew,All,29,לתקן,47,understands,0
+Hebrew,All,30,לתקן,28,produces,0.6429
+Hebrew,All,30,לתקן,28,understands,0
+Hebrew,All,31,לתקן,35,produces,0.8571
+Hebrew,All,31,לתקן,35,understands,0
+Hebrew,All,32,לתקן,36,produces,0.6944
+Hebrew,All,32,לתקן,36,understands,0
+Hebrew,All,33,לתקן,21,produces,0.7619
+Hebrew,All,33,לתקן,21,understands,0
+Hebrew,All,34,לתקן,27,produces,0.8148
+Hebrew,All,34,לתקן,27,understands,0
+Hebrew,All,35,לתקן,18,produces,0.7222
+Hebrew,All,35,לתקן,18,understands,0
+Hebrew,All,36,לתקן,5,produces,0.4
+Hebrew,All,36,לתקן,5,understands,0
+Irish,All,17,socraigh,2,produces,0
+Irish,All,17,socraigh,2,understands,0
+Irish,All,18,socraigh,1,produces,0
+Irish,All,18,socraigh,1,understands,0
+Irish,All,19,socraigh,2,produces,0
+Irish,All,19,socraigh,2,understands,0
+Irish,All,20,socraigh,1,produces,0
+Irish,All,20,socraigh,1,understands,0
+Irish,All,21,socraigh,3,produces,0
+Irish,All,21,socraigh,3,understands,0
+Irish,All,22,socraigh,4,produces,0
+Irish,All,22,socraigh,4,understands,0
+Irish,All,23,socraigh,4,produces,0.25
+Irish,All,23,socraigh,4,understands,0
+Irish,All,24,socraigh,4,produces,0.5
+Irish,All,24,socraigh,4,understands,0
+Irish,All,25,socraigh,6,produces,0.1667
+Irish,All,25,socraigh,6,understands,0
+Irish,All,26,socraigh,10,produces,0.1
+Irish,All,26,socraigh,10,understands,0
+Irish,All,27,socraigh,5,produces,0.2
+Irish,All,27,socraigh,5,understands,0
+Irish,All,28,socraigh,7,produces,0
+Irish,All,28,socraigh,7,understands,0
+Irish,All,29,socraigh,4,produces,0
+Irish,All,29,socraigh,4,understands,0
+Irish,All,30,socraigh,9,produces,0.4444
+Irish,All,30,socraigh,9,understands,0
+Irish,All,31,socraigh,8,produces,0.125
+Irish,All,31,socraigh,8,understands,0
+Irish,All,32,socraigh,4,produces,0.25
+Irish,All,32,socraigh,4,understands,0
+Irish,All,33,socraigh,5,produces,0.6
+Irish,All,33,socraigh,5,understands,0
+Irish,All,34,socraigh,4,produces,0.75
+Irish,All,34,socraigh,4,understands,0
+Irish,All,35,socraigh,11,produces,0.7273
+Irish,All,35,socraigh,11,understands,0
+Irish,All,36,socraigh,5,produces,0.6
+Irish,All,36,socraigh,5,understands,0
+Italian,All,18,aggiustare,31,produces,0.0323
+Italian,All,18,aggiustare,31,understands,0
+Italian,All,19,aggiustare,39,produces,0.0513
+Italian,All,19,aggiustare,39,understands,0
+Italian,All,20,aggiustare,64,produces,0.0625
+Italian,All,20,aggiustare,64,understands,0
+Italian,All,21,aggiustare,55,produces,0.1455
+Italian,All,21,aggiustare,55,understands,0
+Italian,All,22,aggiustare,55,produces,0.2545
+Italian,All,22,aggiustare,55,understands,0
+Italian,All,23,aggiustare,53,produces,0.2075
+Italian,All,23,aggiustare,53,understands,0
+Italian,All,24,aggiustare,71,produces,0.3662
+Italian,All,24,aggiustare,71,understands,0
+Italian,All,25,aggiustare,39,produces,0.4872
+Italian,All,25,aggiustare,39,understands,0
+Italian,All,26,aggiustare,41,produces,0.561
+Italian,All,26,aggiustare,41,understands,0
+Italian,All,27,aggiustare,43,produces,0.3953
+Italian,All,27,aggiustare,43,understands,0
+Italian,All,28,aggiustare,44,produces,0.6136
+Italian,All,28,aggiustare,44,understands,0
+Italian,All,29,aggiustare,37,produces,0.5946
+Italian,All,29,aggiustare,37,understands,0
+Italian,All,30,aggiustare,67,produces,0.6866
+Italian,All,30,aggiustare,67,understands,0
+Italian,All,31,aggiustare,19,produces,0.5789
+Italian,All,31,aggiustare,19,understands,0
+Italian,All,32,aggiustare,23,produces,0.6522
+Italian,All,32,aggiustare,23,understands,0
+Italian,All,33,aggiustare,16,produces,0.6875
+Italian,All,33,aggiustare,16,understands,0
+Italian,All,34,aggiustare,19,produces,1
+Italian,All,34,aggiustare,19,understands,0
+Italian,All,35,aggiustare,15,produces,0.7333
+Italian,All,35,aggiustare,15,understands,0
+Italian,All,36,aggiustare,21,produces,0.7619
+Italian,All,36,aggiustare,21,understands,0
+Japanese,All,16,なおす,11,produces,0
+Japanese,All,16,なおす,11,understands,0
+Japanese,All,17,なおす,17,produces,0
+Japanese,All,17,なおす,17,understands,0
+Japanese,All,18,なおす,56,produces,0.0357
+Japanese,All,18,なおす,56,understands,0
+Japanese,All,19,なおす,35,produces,0.0286
+Japanese,All,19,なおす,35,understands,0
+Japanese,All,20,なおす,59,produces,0.0339
+Japanese,All,20,なおす,59,understands,0
+Japanese,All,21,なおす,62,produces,0.0484
+Japanese,All,21,なおす,62,understands,0
+Japanese,All,22,なおす,31,produces,0.0323
+Japanese,All,22,なおす,31,understands,0
+Japanese,All,23,なおす,67,produces,0.0896
+Japanese,All,23,なおす,67,understands,0
+Japanese,All,24,なおす,33,produces,0.1212
+Japanese,All,24,なおす,33,understands,0
+Japanese,All,25,なおす,34,produces,0.2059
+Japanese,All,25,なおす,34,understands,0
+Japanese,All,26,なおす,33,produces,0.4242
+Japanese,All,26,なおす,33,understands,0
+Japanese,All,27,なおす,15,produces,0.0667
+Japanese,All,27,なおす,15,understands,0
+Japanese,All,28,なおす,18,produces,0.3333
+Japanese,All,28,なおす,18,understands,0
+Japanese,All,29,なおす,17,produces,0.3529
+Japanese,All,29,なおす,17,understands,0
+Japanese,All,30,なおす,18,produces,0.3889
+Japanese,All,30,なおす,18,understands,0
+Japanese,All,31,なおす,18,produces,0.4444
+Japanese,All,31,なおす,18,understands,0
+Japanese,All,32,なおす,13,produces,0.6154
+Japanese,All,32,なおす,13,understands,0
+Japanese,All,33,なおす,16,produces,0.8125
+Japanese,All,33,なおす,16,understands,0
+Japanese,All,34,なおす,13,produces,0.5385
+Japanese,All,34,なおす,13,understands,0
+Japanese,All,35,なおす,31,produces,0.7419
+Japanese,All,35,なおす,31,understands,0
+Japanese,All,36,なおす,18,produces,0.6667
+Japanese,All,36,なおす,18,understands,0
+Korean,All,18,고쳐,88,produces,0.0114
+Korean,All,18,고쳐,88,understands,0
+Korean,All,19,고쳐,77,produces,0.026
+Korean,All,19,고쳐,77,understands,0
+Korean,All,20,고쳐,88,produces,0
+Korean,All,20,고쳐,88,understands,0
+Korean,All,21,고쳐,79,produces,0.0633
+Korean,All,21,고쳐,79,understands,0
+Korean,All,22,고쳐,87,produces,0.046
+Korean,All,22,고쳐,87,understands,0
+Korean,All,23,고쳐,87,produces,0.092
+Korean,All,23,고쳐,87,understands,0
+Korean,All,24,고쳐,107,produces,0.1589
+Korean,All,24,고쳐,107,understands,0
+Korean,All,25,고쳐,95,produces,0.1895
+Korean,All,25,고쳐,95,understands,0
+Korean,All,26,고쳐,91,produces,0.2308
+Korean,All,26,고쳐,91,understands,0
+Korean,All,27,고쳐,104,produces,0.2788
+Korean,All,27,고쳐,104,understands,0
+Korean,All,28,고쳐,89,produces,0.382
+Korean,All,28,고쳐,89,understands,0
+Korean,All,29,고쳐,101,produces,0.4059
+Korean,All,29,고쳐,101,understands,0
+Korean,All,30,고쳐,81,produces,0.4568
+Korean,All,30,고쳐,81,understands,0
+Korean,All,31,고쳐,79,produces,0.5316
+Korean,All,31,고쳐,79,understands,0
+Korean,All,32,고쳐,70,produces,0.4286
+Korean,All,32,고쳐,70,understands,0
+Korean,All,33,고쳐,79,produces,0.481
+Korean,All,33,고쳐,79,understands,0
+Korean,All,34,고쳐,79,produces,0.6835
+Korean,All,34,고쳐,79,understands,0
+Korean,All,35,고쳐,74,produces,0.5946
+Korean,All,35,고쳐,74,understands,0
+Korean,All,36,고쳐,75,produces,0.6933
+Korean,All,36,고쳐,75,understands,0
+Mandarin (Beijing),All,16,修,70,produces,0.0143
+Mandarin (Beijing),All,16,修,70,understands,0
+Mandarin (Beijing),All,17,修,112,produces,0.1429
+Mandarin (Beijing),All,17,修,112,understands,0
+Mandarin (Beijing),All,18,修,121,produces,0.1653
+Mandarin (Beijing),All,18,修,121,understands,0
+Mandarin (Beijing),All,19,修,120,produces,0.275
+Mandarin (Beijing),All,19,修,120,understands,0
+Mandarin (Beijing),All,20,修,121,produces,0.3471
+Mandarin (Beijing),All,20,修,121,understands,0
+Mandarin (Beijing),All,21,修,119,produces,0.3613
+Mandarin (Beijing),All,21,修,119,understands,0
+Mandarin (Beijing),All,22,修,117,produces,0.4701
+Mandarin (Beijing),All,22,修,117,understands,0
+Mandarin (Beijing),All,23,修,120,produces,0.5833
+Mandarin (Beijing),All,23,修,120,understands,0
+Mandarin (Beijing),All,24,修,120,produces,0.575
+Mandarin (Beijing),All,24,修,120,understands,0
+Mandarin (Beijing),All,25,修,113,produces,0.708
+Mandarin (Beijing),All,25,修,113,understands,0
+Mandarin (Beijing),All,26,修,118,produces,0.7119
+Mandarin (Beijing),All,26,修,118,understands,0
+Mandarin (Beijing),All,27,修,114,produces,0.7105
+Mandarin (Beijing),All,27,修,114,understands,0
+Mandarin (Beijing),All,28,修,114,produces,0.7807
+Mandarin (Beijing),All,28,修,114,understands,0
+Mandarin (Beijing),All,29,修,119,produces,0.7899
+Mandarin (Beijing),All,29,修,119,understands,0
+Mandarin (Beijing),All,30,修,110,produces,0.8364
+Mandarin (Beijing),All,30,修,110,understands,0
+Slovak,All,17,opraviť,70,produces,0.0429
+Slovak,All,17,opraviť,70,understands,0
+Slovak,All,18,opraviť,65,produces,0.0615
+Slovak,All,18,opraviť,65,understands,0
+Slovak,All,19,opraviť,56,produces,0.1429
+Slovak,All,19,opraviť,56,understands,0
+Slovak,All,20,opraviť,62,produces,0.2258
+Slovak,All,20,opraviť,62,understands,0
+Slovak,All,21,opraviť,81,produces,0.2593
+Slovak,All,21,opraviť,81,understands,0
+Slovak,All,22,opraviť,53,produces,0.3019
+Slovak,All,22,opraviť,53,understands,0
+Slovak,All,23,opraviť,59,produces,0.3898
+Slovak,All,23,opraviť,59,understands,0
+Slovak,All,24,opraviť,59,produces,0.6102
+Slovak,All,24,opraviť,59,understands,0
+Slovak,All,25,opraviť,69,produces,0.5362
+Slovak,All,25,opraviť,69,understands,0
+Slovak,All,26,opraviť,78,produces,0.7564
+Slovak,All,26,opraviť,78,understands,0
+Slovak,All,27,opraviť,62,produces,0.7419
+Slovak,All,27,opraviť,62,understands,0
+Slovak,All,28,opraviť,86,produces,0.6977
+Slovak,All,28,opraviť,86,understands,0
+Slovak,All,29,opraviť,75,produces,0.7333
+Slovak,All,29,opraviť,75,understands,0
+Slovak,All,30,opraviť,49,produces,0.7755
+Slovak,All,30,opraviť,49,understands,0
+Slovak,All,31,opraviť,29,produces,0.6552
+Slovak,All,31,opraviť,29,understands,0
+Slovak,All,32,opraviť,25,produces,0.88
+Slovak,All,32,opraviť,25,understands,0
+Slovak,All,33,opraviť,22,produces,0.9091
+Slovak,All,33,opraviť,22,understands,0
+Slovak,All,34,opraviť,27,produces,0.8889
+Slovak,All,34,opraviť,27,understands,0
+Slovak,All,35,opraviť,27,produces,0.7778
+Slovak,All,35,opraviť,27,understands,0
+Slovak,All,36,opraviť,8,produces,0.75
+Slovak,All,36,opraviť,8,understands,0
+Spanish (Argentinian),All,16,arreglar_se,47,produces,0
+Spanish (Argentinian),All,16,arreglar_se,47,understands,0
+Spanish (Argentinian),All,17,arreglar_se,49,produces,0.0204
+Spanish (Argentinian),All,17,arreglar_se,49,understands,0
+Spanish (Argentinian),All,18,arreglar_se,62,produces,0
+Spanish (Argentinian),All,18,arreglar_se,62,understands,0
+Spanish (Argentinian),All,19,arreglar_se,44,produces,0.0455
+Spanish (Argentinian),All,19,arreglar_se,44,understands,0
+Spanish (Argentinian),All,20,arreglar_se,46,produces,0
+Spanish (Argentinian),All,20,arreglar_se,46,understands,0
+Spanish (Argentinian),All,21,arreglar_se,41,produces,0.0732
+Spanish (Argentinian),All,21,arreglar_se,41,understands,0
+Spanish (Argentinian),All,22,arreglar_se,57,produces,0.0351
+Spanish (Argentinian),All,22,arreglar_se,57,understands,0
+Spanish (Argentinian),All,23,arreglar_se,49,produces,0.0204
+Spanish (Argentinian),All,23,arreglar_se,49,understands,0
+Spanish (Argentinian),All,24,arreglar_se,75,produces,0.0933
+Spanish (Argentinian),All,24,arreglar_se,75,understands,0
+Spanish (Argentinian),All,25,arreglar_se,43,produces,0.1395
+Spanish (Argentinian),All,25,arreglar_se,43,understands,0
+Spanish (Argentinian),All,26,arreglar_se,45,produces,0.1333
+Spanish (Argentinian),All,26,arreglar_se,45,understands,0
+Spanish (Argentinian),All,27,arreglar_se,44,produces,0.1591
+Spanish (Argentinian),All,27,arreglar_se,44,understands,0
+Spanish (Argentinian),All,28,arreglar_se,42,produces,0.2381
+Spanish (Argentinian),All,28,arreglar_se,42,understands,0
+Spanish (Argentinian),All,29,arreglar_se,65,produces,0.3077
+Spanish (Argentinian),All,29,arreglar_se,65,understands,0
+Spanish (Argentinian),All,30,arreglar_se,69,produces,0.3333
+Spanish (Argentinian),All,30,arreglar_se,69,understands,0
+Spanish (Argentinian),All,31,arreglar_se,2,produces,0
+Spanish (Argentinian),All,31,arreglar_se,2,understands,0
+Spanish (Argentinian),All,32,arreglar_se,1,produces,0
+Spanish (Argentinian),All,32,arreglar_se,1,understands,0
+Spanish (Argentinian),All,33,arreglar_se,2,produces,0
+Spanish (Argentinian),All,33,arreglar_se,2,understands,0
+Spanish (Mexican),All,16,arreglar(se),68,produces,0.0147
+Spanish (Mexican),All,16,arreglar(se),68,understands,0
+Spanish (Mexican),All,17,arreglar(se),59,produces,0.0169
+Spanish (Mexican),All,17,arreglar(se),59,understands,0
+Spanish (Mexican),All,18,arreglar(se),75,produces,0.08
+Spanish (Mexican),All,18,arreglar(se),75,understands,0
+Spanish (Mexican),All,19,arreglar(se),100,produces,0.13
+Spanish (Mexican),All,19,arreglar(se),100,understands,0
+Spanish (Mexican),All,20,arreglar(se),107,produces,0.1308
+Spanish (Mexican),All,20,arreglar(se),107,understands,0
+Spanish (Mexican),All,21,arreglar(se),84,produces,0.1071
+Spanish (Mexican),All,21,arreglar(se),84,understands,0
+Spanish (Mexican),All,22,arreglar(se),141,produces,0.0496
+Spanish (Mexican),All,22,arreglar(se),141,understands,0
+Spanish (Mexican),All,23,arreglar(se),91,produces,0.0769
+Spanish (Mexican),All,23,arreglar(se),91,understands,0
+Spanish (Mexican),All,24,arreglar(se),126,produces,0.1825
+Spanish (Mexican),All,24,arreglar(se),126,understands,0
+Spanish (Mexican),All,25,arreglar(se),177,produces,0.1582
+Spanish (Mexican),All,25,arreglar(se),177,understands,0
+Spanish (Mexican),All,26,arreglar(se),83,produces,0.2892
+Spanish (Mexican),All,26,arreglar(se),83,understands,0
+Spanish (Mexican),All,27,arreglar(se),85,produces,0.2118
+Spanish (Mexican),All,27,arreglar(se),85,understands,0
+Spanish (Mexican),All,28,arreglar(se),89,produces,0.3371
+Spanish (Mexican),All,28,arreglar(se),89,understands,0
+Spanish (Mexican),All,29,arreglar(se),89,produces,0.3596
+Spanish (Mexican),All,29,arreglar(se),89,understands,0
+Spanish (Mexican),All,30,arreglar(se),308,produces,0.2045
+Spanish (Mexican),All,30,arreglar(se),308,understands,0
+Swedish,All,16,laga,159,produces,0.0063
+Swedish,All,16,laga,159,understands,0
+Swedish,All,19,laga,152,produces,0.0395
+Swedish,All,19,laga,152,understands,0
+Swedish,All,22,laga,307,produces,0.2248
+Swedish,All,22,laga,307,understands,0
+Swedish,All,25,laga,143,produces,0.5035
+Swedish,All,25,laga,143,understands,0
+Swedish,All,28,laga,139,produces,0.7122
+Swedish,All,28,laga,139,understands,0
+American Sign Language,Male,8,FIX,1,produces,0
+American Sign Language,Male,8,FIX,1,understands,0
+American Sign Language,Female,9,FIX,4,produces,0
+American Sign Language,Female,9,FIX,4,understands,0.25
+American Sign Language,Female,10,FIX,3,produces,0
+American Sign Language,Female,10,FIX,3,understands,0
+American Sign Language,Male,10,FIX,2,produces,0
+American Sign Language,Male,10,FIX,2,understands,0
+American Sign Language,Female,11,FIX,2,produces,0
+American Sign Language,Female,11,FIX,2,understands,0
+American Sign Language,Male,11,FIX,1,produces,0
+American Sign Language,Male,11,FIX,1,understands,0
+American Sign Language,Female,12,FIX,2,produces,0
+American Sign Language,Female,12,FIX,2,understands,0
+American Sign Language,Male,12,FIX,2,produces,0
+American Sign Language,Male,12,FIX,2,understands,0
+American Sign Language,Female,13,FIX,3,produces,0
+American Sign Language,Female,13,FIX,3,understands,0
+American Sign Language,Male,13,FIX,1,produces,0
+American Sign Language,Male,13,FIX,1,understands,0
+American Sign Language,Female,14,FIX,1,produces,0
+American Sign Language,Female,14,FIX,1,understands,0
+American Sign Language,Female,15,FIX,1,produces,0
+American Sign Language,Female,15,FIX,1,understands,0
+American Sign Language,Male,15,FIX,2,produces,0
+American Sign Language,Male,15,FIX,2,understands,0
+American Sign Language,Female,16,FIX,2,produces,0
+American Sign Language,Female,16,FIX,2,understands,0
+American Sign Language,Female,17,FIX,3,produces,0.3333
+American Sign Language,Female,17,FIX,3,understands,0.6667
+American Sign Language,Male,17,FIX,2,produces,0
+American Sign Language,Male,17,FIX,2,understands,0
+American Sign Language,Female,18,FIX,6,produces,0.3333
+American Sign Language,Female,18,FIX,6,understands,0.6667
+American Sign Language,Male,18,FIX,5,produces,0
+American Sign Language,Male,18,FIX,5,understands,0.2
+American Sign Language,Female,19,FIX,2,produces,0
+American Sign Language,Female,19,FIX,2,understands,0
+American Sign Language,Male,19,FIX,4,produces,0.25
+American Sign Language,Male,19,FIX,4,understands,0.5
+American Sign Language,Male,20,FIX,3,produces,0
+American Sign Language,Male,20,FIX,3,understands,0.3333
+American Sign Language,Female,21,FIX,2,produces,0.5
+American Sign Language,Female,21,FIX,2,understands,1
+American Sign Language,Male,21,FIX,2,produces,0.5
+American Sign Language,Male,21,FIX,2,understands,0.5
+American Sign Language,Female,22,FIX,9,produces,0
+American Sign Language,Female,22,FIX,9,understands,0.3333
+American Sign Language,Male,22,FIX,1,produces,0
+American Sign Language,Male,22,FIX,1,understands,0
+American Sign Language,Female,23,FIX,3,produces,0.3333
+American Sign Language,Female,23,FIX,3,understands,0.3333
+American Sign Language,Male,23,FIX,2,produces,0
+American Sign Language,Male,23,FIX,2,understands,0
+American Sign Language,Female,24,FIX,2,produces,0
+American Sign Language,Female,24,FIX,2,understands,0.5
+American Sign Language,Male,24,FIX,7,produces,0.1429
+American Sign Language,Male,24,FIX,7,understands,0.1429
+American Sign Language,Female,25,FIX,6,produces,0.1667
+American Sign Language,Female,25,FIX,6,understands,0.1667
+American Sign Language,Male,25,FIX,7,produces,0.2857
+American Sign Language,Male,25,FIX,7,understands,0.7143
+American Sign Language,Female,26,FIX,2,produces,0.5
+American Sign Language,Female,26,FIX,2,understands,0.5
+American Sign Language,Male,26,FIX,2,produces,0
+American Sign Language,Male,26,FIX,2,understands,0.5
+American Sign Language,Female,27,FIX,4,produces,0
+American Sign Language,Female,27,FIX,4,understands,0
+American Sign Language,Male,27,FIX,3,produces,0.3333
+American Sign Language,Male,27,FIX,3,understands,0.3333
+American Sign Language,Female,28,FIX,3,produces,1
+American Sign Language,Female,28,FIX,3,understands,0.6667
+American Sign Language,Male,28,FIX,4,produces,1
+American Sign Language,Male,28,FIX,4,understands,0.5
+American Sign Language,Female,29,FIX,1,produces,0
+American Sign Language,Female,29,FIX,1,understands,1
+American Sign Language,Male,29,FIX,5,produces,0.8
+American Sign Language,Male,29,FIX,5,understands,0.8
+American Sign Language,Female,30,FIX,3,produces,0.6667
+American Sign Language,Female,30,FIX,3,understands,0.6667
+American Sign Language,Male,30,FIX,4,produces,0.5
+American Sign Language,Male,30,FIX,4,understands,0.5
+American Sign Language,Female,31,FIX,6,produces,1
+American Sign Language,Female,31,FIX,6,understands,0.5
+American Sign Language,Male,31,FIX,3,produces,0
+American Sign Language,Male,31,FIX,3,understands,0.6667
+American Sign Language,Female,32,FIX,4,produces,0.25
+American Sign Language,Female,32,FIX,4,understands,0.5
+American Sign Language,Male,32,FIX,11,produces,0.7273
+American Sign Language,Male,32,FIX,11,understands,0.2727
+American Sign Language,Female,33,FIX,2,produces,0.5
+American Sign Language,Female,33,FIX,2,understands,0.5
+American Sign Language,Male,33,FIX,4,produces,0.75
+American Sign Language,Male,33,FIX,4,understands,0.75
+American Sign Language,Female,34,FIX,2,produces,0.5
+American Sign Language,Female,34,FIX,2,understands,0
+American Sign Language,Male,34,FIX,5,produces,0.8
+American Sign Language,Male,34,FIX,5,understands,0.8
+American Sign Language,Female,35,FIX,4,produces,0.75
+American Sign Language,Female,35,FIX,4,understands,0.5
+American Sign Language,Male,35,FIX,3,produces,0.6667
+American Sign Language,Male,35,FIX,3,understands,0.6667
+American Sign Language,Female,36,FIX,3,produces,0.3333
+American Sign Language,Female,36,FIX,3,understands,1
+Arabic (Saudi),Female,8,أصلح/ يصلح,9,produces,0
+Arabic (Saudi),Female,8,أصلح/ يصلح,9,understands,0
+Arabic (Saudi),Male,8,أصلح/ يصلح,10,produces,0
+Arabic (Saudi),Male,8,أصلح/ يصلح,10,understands,0
+Arabic (Saudi),Female,9,أصلح/ يصلح,10,produces,0
+Arabic (Saudi),Female,9,أصلح/ يصلح,10,understands,0
+Arabic (Saudi),Male,9,أصلح/ يصلح,8,produces,0
+Arabic (Saudi),Male,9,أصلح/ يصلح,8,understands,0
+Arabic (Saudi),Female,10,أصلح/ يصلح,11,produces,0.0909
+Arabic (Saudi),Female,10,أصلح/ يصلح,11,understands,0
+Arabic (Saudi),Male,10,أصلح/ يصلح,14,produces,0.0714
+Arabic (Saudi),Male,10,أصلح/ يصلح,14,understands,0
+Arabic (Saudi),Female,11,أصلح/ يصلح,9,produces,0
+Arabic (Saudi),Female,11,أصلح/ يصلح,9,understands,0
+Arabic (Saudi),Male,11,أصلح/ يصلح,12,produces,0
+Arabic (Saudi),Male,11,أصلح/ يصلح,12,understands,0
+Arabic (Saudi),Female,12,أصلح/ يصلح,8,produces,0
+Arabic (Saudi),Female,12,أصلح/ يصلح,8,understands,0
+Arabic (Saudi),Male,12,أصلح/ يصلح,11,produces,0
+Arabic (Saudi),Male,12,أصلح/ يصلح,11,understands,0
+Arabic (Saudi),Female,13,أصلح/ يصلح,16,produces,0
+Arabic (Saudi),Female,13,أصلح/ يصلح,16,understands,0
+Arabic (Saudi),Male,13,أصلح/ يصلح,20,produces,0.05
+Arabic (Saudi),Male,13,أصلح/ يصلح,20,understands,0
+Arabic (Saudi),Female,14,أصلح/ يصلح,10,produces,0
+Arabic (Saudi),Female,14,أصلح/ يصلح,10,understands,0
+Arabic (Saudi),Male,14,أصلح/ يصلح,10,produces,0
+Arabic (Saudi),Male,14,أصلح/ يصلح,10,understands,0
+Arabic (Saudi),Female,15,أصلح/ يصلح,7,produces,0
+Arabic (Saudi),Female,15,أصلح/ يصلح,7,understands,0
+Arabic (Saudi),Male,15,أصلح/ يصلح,12,produces,0
+Arabic (Saudi),Male,15,أصلح/ يصلح,12,understands,0
+Arabic (Saudi),Female,16,أصلح/ يصلح,9,produces,0.1111
+Arabic (Saudi),Female,16,أصلح/ يصلح,9,understands,0
+Arabic (Saudi),Male,16,أصلح/ يصلح,9,produces,0
+Arabic (Saudi),Male,16,أصلح/ يصلح,9,understands,0
+British Sign Language,Female,8,fix,2,produces,0
+British Sign Language,Female,8,fix,2,understands,0
+British Sign Language,Male,8,fix,2,produces,0
+British Sign Language,Male,8,fix,2,understands,0
+British Sign Language,Female,9,fix,3,produces,0
+British Sign Language,Female,9,fix,3,understands,0
+British Sign Language,Male,9,fix,1,produces,0
+British Sign Language,Male,9,fix,1,understands,0
+British Sign Language,Female,10,fix,1,produces,0
+British Sign Language,Female,10,fix,1,understands,0
+British Sign Language,Male,10,fix,3,produces,0
+British Sign Language,Male,10,fix,3,understands,0
+British Sign Language,Female,11,fix,4,produces,0
+British Sign Language,Female,11,fix,4,understands,0
+British Sign Language,Male,11,fix,2,produces,0
+British Sign Language,Male,11,fix,2,understands,0
+British Sign Language,Female,12,fix,3,produces,0
+British Sign Language,Female,12,fix,3,understands,0
+British Sign Language,Male,12,fix,3,produces,0
+British Sign Language,Male,12,fix,3,understands,0
+British Sign Language,Female,13,fix,2,produces,0
+British Sign Language,Female,13,fix,2,understands,0
+British Sign Language,Male,13,fix,4,produces,0
+British Sign Language,Male,13,fix,4,understands,0
+British Sign Language,Female,14,fix,3,produces,0
+British Sign Language,Female,14,fix,3,understands,0
+British Sign Language,Male,14,fix,4,produces,0
+British Sign Language,Male,14,fix,4,understands,0
+British Sign Language,Female,15,fix,4,produces,0
+British Sign Language,Female,15,fix,4,understands,0
+British Sign Language,Male,15,fix,2,produces,0
+British Sign Language,Male,15,fix,2,understands,0
+British Sign Language,Female,16,fix,4,produces,0
+British Sign Language,Female,16,fix,4,understands,0
+British Sign Language,Male,16,fix,3,produces,0
+British Sign Language,Male,16,fix,3,understands,0
+British Sign Language,Female,17,fix,2,produces,0
+British Sign Language,Female,17,fix,2,understands,0
+British Sign Language,Male,17,fix,5,produces,0
+British Sign Language,Male,17,fix,5,understands,0
+British Sign Language,Female,18,fix,4,produces,0
+British Sign Language,Female,18,fix,4,understands,0
+British Sign Language,Male,18,fix,4,produces,0
+British Sign Language,Male,18,fix,4,understands,0
+British Sign Language,Female,19,fix,4,produces,0
+British Sign Language,Female,19,fix,4,understands,0
+British Sign Language,Male,19,fix,4,produces,0.25
+British Sign Language,Male,19,fix,4,understands,0.25
+British Sign Language,Female,20,fix,4,produces,0
+British Sign Language,Female,20,fix,4,understands,0
+British Sign Language,Male,20,fix,7,produces,0
+British Sign Language,Male,20,fix,7,understands,0
+British Sign Language,Female,21,fix,3,produces,0
+British Sign Language,Female,21,fix,3,understands,0
+British Sign Language,Male,21,fix,2,produces,0
+British Sign Language,Male,21,fix,2,understands,0
+British Sign Language,Female,22,fix,2,produces,0
+British Sign Language,Female,22,fix,2,understands,0
+British Sign Language,Male,22,fix,4,produces,0.25
+British Sign Language,Male,22,fix,4,understands,0.25
+British Sign Language,Female,23,fix,2,produces,0.5
+British Sign Language,Female,23,fix,2,understands,0.5
+British Sign Language,Male,23,fix,5,produces,0
+British Sign Language,Male,23,fix,5,understands,0
+British Sign Language,Female,24,fix,3,produces,0.3333
+British Sign Language,Female,24,fix,3,understands,0.3333
+British Sign Language,Male,24,fix,2,produces,0
+British Sign Language,Male,24,fix,2,understands,0
+British Sign Language,Female,25,fix,1,produces,0
+British Sign Language,Female,25,fix,1,understands,0
+British Sign Language,Male,25,fix,6,produces,0.1667
+British Sign Language,Male,25,fix,6,understands,0.1667
+British Sign Language,Female,26,fix,4,produces,0.5
+British Sign Language,Female,26,fix,4,understands,0.5
+British Sign Language,Male,26,fix,2,produces,0
+British Sign Language,Male,26,fix,2,understands,0
+British Sign Language,Female,27,fix,1,produces,0
+British Sign Language,Female,27,fix,1,understands,0
+British Sign Language,Male,27,fix,5,produces,0
+British Sign Language,Male,27,fix,5,understands,0
+British Sign Language,Female,28,fix,1,produces,0
+British Sign Language,Female,28,fix,1,understands,0
+British Sign Language,Male,28,fix,2,produces,0
+British Sign Language,Male,28,fix,2,understands,0
+British Sign Language,Female,29,fix,2,produces,0.5
+British Sign Language,Female,29,fix,2,understands,0.5
+British Sign Language,Male,29,fix,5,produces,0
+British Sign Language,Male,29,fix,5,understands,0.4
+British Sign Language,Female,30,fix,1,produces,0
+British Sign Language,Female,30,fix,1,understands,0
+British Sign Language,Male,30,fix,4,produces,0
+British Sign Language,Male,30,fix,4,understands,0.25
+British Sign Language,Male,31,fix,2,produces,0.5
+British Sign Language,Male,31,fix,2,understands,0.5
+British Sign Language,Female,32,fix,2,produces,0.5
+British Sign Language,Female,32,fix,2,understands,0.5
+British Sign Language,Male,32,fix,4,produces,0.25
+British Sign Language,Male,32,fix,4,understands,0.5
+British Sign Language,Female,33,fix,1,produces,1
+British Sign Language,Female,33,fix,1,understands,1
+British Sign Language,Male,33,fix,4,produces,0.5
+British Sign Language,Male,33,fix,4,understands,0.5
+British Sign Language,Female,34,fix,1,produces,0
+British Sign Language,Female,34,fix,1,understands,0
+British Sign Language,Male,34,fix,1,produces,0
+British Sign Language,Male,34,fix,1,understands,0
+British Sign Language,Female,35,fix,1,produces,1
+British Sign Language,Female,35,fix,1,understands,1
+British Sign Language,Male,35,fix,1,produces,0
+British Sign Language,Male,35,fix,1,understands,0
+British Sign Language,Female,36,fix,1,produces,1
+British Sign Language,Female,36,fix,1,understands,1
+British Sign Language,Male,36,fix,2,produces,0.5
+British Sign Language,Male,36,fix,2,understands,1
+Cantonese,Female,16,"修理, 整(嘢)",23,produces,0
+Cantonese,Female,16,"修理, 整(嘢)",23,understands,0
+Cantonese,Male,16,"修理, 整(嘢)",23,produces,0
+Cantonese,Male,16,"修理, 整(嘢)",23,understands,0
+Cantonese,Female,17,"修理, 整(嘢)",30,produces,0
+Cantonese,Female,17,"修理, 整(嘢)",30,understands,0
+Cantonese,Male,17,"修理, 整(嘢)",31,produces,0
+Cantonese,Male,17,"修理, 整(嘢)",31,understands,0
+Cantonese,Female,18,"修理, 整(嘢)",33,produces,0.0152
+Cantonese,Female,18,"修理, 整(嘢)",33,understands,0
+Cantonese,Male,18,"修理, 整(嘢)",35,produces,0
+Cantonese,Male,18,"修理, 整(嘢)",35,understands,0
+Cantonese,Female,19,"修理, 整(嘢)",30,produces,0
+Cantonese,Female,19,"修理, 整(嘢)",30,understands,0
+Cantonese,Male,19,"修理, 整(嘢)",36,produces,0.0278
+Cantonese,Male,19,"修理, 整(嘢)",36,understands,0
+Cantonese,Female,20,"修理, 整(嘢)",62,produces,0.0645
+Cantonese,Female,20,"修理, 整(嘢)",62,understands,0
+Cantonese,Male,20,"修理, 整(嘢)",78,produces,0.0833
+Cantonese,Male,20,"修理, 整(嘢)",78,understands,0
+Cantonese,Female,21,"修理, 整(嘢)",57,produces,0.0877
+Cantonese,Female,21,"修理, 整(嘢)",57,understands,0
+Cantonese,Male,21,"修理, 整(嘢)",63,produces,0.0556
+Cantonese,Male,21,"修理, 整(嘢)",63,understands,0
+Cantonese,Female,22,"修理, 整(嘢)",34,produces,0.1765
+Cantonese,Female,22,"修理, 整(嘢)",34,understands,0
+Cantonese,Male,22,"修理, 整(嘢)",34,produces,0.0588
+Cantonese,Male,22,"修理, 整(嘢)",34,understands,0
+Cantonese,Female,23,"修理, 整(嘢)",37,produces,0.1757
+Cantonese,Female,23,"修理, 整(嘢)",37,understands,0
+Cantonese,Male,23,"修理, 整(嘢)",37,produces,0.1081
+Cantonese,Male,23,"修理, 整(嘢)",37,understands,0
+Cantonese,Female,24,"修理, 整(嘢)",32,produces,0.1875
+Cantonese,Female,24,"修理, 整(嘢)",32,understands,0
+Cantonese,Male,24,"修理, 整(嘢)",36,produces,0.1528
+Cantonese,Male,24,"修理, 整(嘢)",36,understands,0
+Cantonese,Female,25,"修理, 整(嘢)",31,produces,0.1774
+Cantonese,Female,25,"修理, 整(嘢)",31,understands,0
+Cantonese,Male,25,"修理, 整(嘢)",34,produces,0.2206
+Cantonese,Male,25,"修理, 整(嘢)",34,understands,0
+Cantonese,Female,26,"修理, 整(嘢)",31,produces,0.3226
+Cantonese,Female,26,"修理, 整(嘢)",31,understands,0
+Cantonese,Male,26,"修理, 整(嘢)",37,produces,0.2432
+Cantonese,Male,26,"修理, 整(嘢)",37,understands,0
+Cantonese,Female,27,"修理, 整(嘢)",31,produces,0.3226
+Cantonese,Female,27,"修理, 整(嘢)",31,understands,0
+Cantonese,Male,27,"修理, 整(嘢)",31,produces,0.2581
+Cantonese,Male,27,"修理, 整(嘢)",31,understands,0
+Cantonese,Female,28,"修理, 整(嘢)",32,produces,0.4531
+Cantonese,Female,28,"修理, 整(嘢)",32,understands,0
+Cantonese,Male,28,"修理, 整(嘢)",34,produces,0.2941
+Cantonese,Male,28,"修理, 整(嘢)",34,understands,0
+Cantonese,Female,29,"修理, 整(嘢)",36,produces,0.4722
+Cantonese,Female,29,"修理, 整(嘢)",36,understands,0
+Cantonese,Male,29,"修理, 整(嘢)",36,produces,0.5278
+Cantonese,Male,29,"修理, 整(嘢)",36,understands,0
+Cantonese,Female,30,"修理, 整(嘢)",76,produces,0.4934
+Cantonese,Female,30,"修理, 整(嘢)",76,understands,0
+Cantonese,Male,30,"修理, 整(嘢)",88,produces,0.5057
+Cantonese,Male,30,"修理, 整(嘢)",88,understands,0
+Czech,Female,16,opravovat,13,produces,0
+Czech,Female,16,opravovat,13,understands,0
+Czech,Male,16,opravovat,16,produces,0
+Czech,Male,16,opravovat,16,understands,0
+Czech,Female,17,opravovat,16,produces,0
+Czech,Female,17,opravovat,16,understands,0
+Czech,Male,17,opravovat,13,produces,0
+Czech,Male,17,opravovat,13,understands,0
+Czech,Female,18,opravovat,18,produces,0
+Czech,Female,18,opravovat,18,understands,0
+Czech,Male,18,opravovat,27,produces,0
+Czech,Male,18,opravovat,27,understands,0
+Czech,Female,19,opravovat,17,produces,0
+Czech,Female,19,opravovat,17,understands,0
+Czech,Male,19,opravovat,10,produces,0
+Czech,Male,19,opravovat,10,understands,0
+Czech,Female,20,opravovat,15,produces,0.0667
+Czech,Female,20,opravovat,15,understands,0
+Czech,Male,20,opravovat,11,produces,0.0909
+Czech,Male,20,opravovat,11,understands,0
+Czech,Female,21,opravovat,18,produces,0
+Czech,Female,21,opravovat,18,understands,0
+Czech,Male,21,opravovat,16,produces,0.125
+Czech,Male,21,opravovat,16,understands,0
+Czech,Female,22,opravovat,17,produces,0.1176
+Czech,Female,22,opravovat,17,understands,0
+Czech,Male,22,opravovat,19,produces,0.0526
+Czech,Male,22,opravovat,19,understands,0
+Czech,Female,23,opravovat,21,produces,0.0952
+Czech,Female,23,opravovat,21,understands,0
+Czech,Male,23,opravovat,25,produces,0.16
+Czech,Male,23,opravovat,25,understands,0
+Czech,Female,24,opravovat,16,produces,0
+Czech,Female,24,opravovat,16,understands,0
+Czech,Male,24,opravovat,19,produces,0.3158
+Czech,Male,24,opravovat,19,understands,0
+Czech,Female,25,opravovat,17,produces,0.2353
+Czech,Female,25,opravovat,17,understands,0
+Czech,Male,25,opravovat,18,produces,0.1667
+Czech,Male,25,opravovat,18,understands,0
+Czech,Female,26,opravovat,14,produces,0.2143
+Czech,Female,26,opravovat,14,understands,0
+Czech,Male,26,opravovat,8,produces,0.5
+Czech,Male,26,opravovat,8,understands,0
+Czech,Female,27,opravovat,23,produces,0.2609
+Czech,Female,27,opravovat,23,understands,0
+Czech,Male,27,opravovat,14,produces,0.2857
+Czech,Male,27,opravovat,14,understands,0
+Czech,Female,28,opravovat,16,produces,0.625
+Czech,Female,28,opravovat,16,understands,0
+Czech,Male,28,opravovat,10,produces,0.3
+Czech,Male,28,opravovat,10,understands,0
+Czech,Female,29,opravovat,18,produces,0.3889
+Czech,Female,29,opravovat,18,understands,0
+Czech,Male,29,opravovat,21,produces,0.619
+Czech,Male,29,opravovat,21,understands,0
+Czech,Female,30,opravovat,16,produces,0.5
+Czech,Female,30,opravovat,16,understands,0
+Czech,Male,30,opravovat,11,produces,0.6364
+Czech,Male,30,opravovat,11,understands,0
+Danish,Female,16,ordne,101,produces,0
+Danish,Female,16,ordne,101,understands,0
+Danish,Male,16,ordne,83,produces,0.012
+Danish,Male,16,ordne,83,understands,0
+Danish,Female,17,ordne,91,produces,0
+Danish,Female,17,ordne,91,understands,0
+Danish,Male,17,ordne,85,produces,0
+Danish,Male,17,ordne,85,understands,0
+Danish,Female,18,ordne,87,produces,0
+Danish,Female,18,ordne,87,understands,0
+Danish,Male,18,ordne,73,produces,0.0274
+Danish,Male,18,ordne,73,understands,0
+Danish,Female,19,ordne,104,produces,0
+Danish,Female,19,ordne,104,understands,0
+Danish,Male,19,ordne,101,produces,0
+Danish,Male,19,ordne,101,understands,0
+Danish,Female,20,ordne,100,produces,0.02
+Danish,Female,20,ordne,100,understands,0
+Danish,Male,20,ordne,96,produces,0
+Danish,Male,20,ordne,96,understands,0
+Danish,Female,21,ordne,112,produces,0.0446
+Danish,Female,21,ordne,112,understands,0
+Danish,Male,21,ordne,124,produces,0.0161
+Danish,Male,21,ordne,124,understands,0
+Danish,Female,22,ordne,125,produces,0.048
+Danish,Female,22,ordne,125,understands,0
+Danish,Male,22,ordne,110,produces,0.0364
+Danish,Male,22,ordne,110,understands,0
+Danish,Female,23,ordne,95,produces,0.0632
+Danish,Female,23,ordne,95,understands,0
+Danish,Male,23,ordne,95,produces,0.0211
+Danish,Male,23,ordne,95,understands,0
+Danish,Female,24,ordne,112,produces,0.1429
+Danish,Female,24,ordne,112,understands,0
+Danish,Male,24,ordne,104,produces,0.0962
+Danish,Male,24,ordne,104,understands,0
+Danish,Female,25,ordne,71,produces,0.1831
+Danish,Female,25,ordne,71,understands,0
+Danish,Male,25,ordne,67,produces,0.1045
+Danish,Male,25,ordne,67,understands,0
+Danish,Female,26,ordne,108,produces,0.2778
+Danish,Female,26,ordne,108,understands,0
+Danish,Male,26,ordne,98,produces,0.1429
+Danish,Male,26,ordne,98,understands,0
+Danish,Female,27,ordne,100,produces,0.26
+Danish,Female,27,ordne,100,understands,0
+Danish,Male,27,ordne,76,produces,0.25
+Danish,Male,27,ordne,76,understands,0
+Danish,Female,28,ordne,94,produces,0.2979
+Danish,Female,28,ordne,94,understands,0
+Danish,Male,28,ordne,96,produces,0.2292
+Danish,Male,28,ordne,96,understands,0
+Danish,Female,29,ordne,102,produces,0.3725
+Danish,Female,29,ordne,102,understands,0
+Danish,Male,29,ordne,80,produces,0.3
+Danish,Male,29,ordne,80,understands,0
+Danish,Female,30,ordne,75,produces,0.4667
+Danish,Female,30,ordne,75,understands,0
+Danish,Male,30,ordne,98,produces,0.3673
+Danish,Male,30,ordne,98,understands,0
+Danish,Female,31,ordne,82,produces,0.5366
+Danish,Female,31,ordne,82,understands,0
+Danish,Male,31,ordne,93,produces,0.4301
+Danish,Male,31,ordne,93,understands,0
+Danish,Female,32,ordne,74,produces,0.5811
+Danish,Female,32,ordne,74,understands,0
+Danish,Male,32,ordne,69,produces,0.4638
+Danish,Male,32,ordne,69,understands,0
+Danish,Female,33,ordne,82,produces,0.6951
+Danish,Female,33,ordne,82,understands,0
+Danish,Male,33,ordne,69,produces,0.6087
+Danish,Male,33,ordne,69,understands,0
+Danish,Female,34,ordne,68,produces,0.6618
+Danish,Female,34,ordne,68,understands,0
+Danish,Male,34,ordne,75,produces,0.5733
+Danish,Male,34,ordne,75,understands,0
+Danish,Female,35,ordne,56,produces,0.75
+Danish,Female,35,ordne,56,understands,0
+Danish,Male,35,ordne,57,produces,0.6491
+Danish,Male,35,ordne,57,understands,0
+Danish,Female,36,ordne,61,produces,0.7377
+Danish,Female,36,ordne,61,understands,0
+Danish,Male,36,ordne,65,produces,0.7077
+Danish,Male,36,ordne,65,understands,0
+Dutch,Female,16,"herstellen/maken/repareren, vastmaken",4,produces,0
+Dutch,Female,16,"herstellen/maken/repareren, vastmaken",4,understands,0
+Dutch,Female,17,"herstellen/maken/repareren, vastmaken",33,produces,0
+Dutch,Female,17,"herstellen/maken/repareren, vastmaken",33,understands,0
+Dutch,Male,17,"herstellen/maken/repareren, vastmaken",16,produces,0.0312
+Dutch,Male,17,"herstellen/maken/repareren, vastmaken",16,understands,0
+Dutch,Female,18,"herstellen/maken/repareren, vastmaken",38,produces,0.0395
+Dutch,Female,18,"herstellen/maken/repareren, vastmaken",38,understands,0
+Dutch,Male,18,"herstellen/maken/repareren, vastmaken",30,produces,0.0167
+Dutch,Male,18,"herstellen/maken/repareren, vastmaken",30,understands,0
+Dutch,Female,19,"herstellen/maken/repareren, vastmaken",5,produces,0
+Dutch,Female,19,"herstellen/maken/repareren, vastmaken",5,understands,0
+Dutch,Male,19,"herstellen/maken/repareren, vastmaken",2,produces,0
+Dutch,Male,19,"herstellen/maken/repareren, vastmaken",2,understands,0
+Dutch,Female,20,"herstellen/maken/repareren, vastmaken",6,produces,0.25
+Dutch,Female,20,"herstellen/maken/repareren, vastmaken",6,understands,0
+Dutch,Male,20,"herstellen/maken/repareren, vastmaken",1,produces,1
+Dutch,Male,20,"herstellen/maken/repareren, vastmaken",1,understands,0
+Dutch,Female,21,"herstellen/maken/repareren, vastmaken",3,produces,0.1667
+Dutch,Female,21,"herstellen/maken/repareren, vastmaken",3,understands,0
+Dutch,Male,21,"herstellen/maken/repareren, vastmaken",4,produces,0.125
+Dutch,Male,21,"herstellen/maken/repareren, vastmaken",4,understands,0
+Dutch,Female,22,"herstellen/maken/repareren, vastmaken",1,produces,1
+Dutch,Female,22,"herstellen/maken/repareren, vastmaken",1,understands,0
+Dutch,Male,22,"herstellen/maken/repareren, vastmaken",6,produces,0.3333
+Dutch,Male,22,"herstellen/maken/repareren, vastmaken",6,understands,0
+Dutch,Female,23,"herstellen/maken/repareren, vastmaken",25,produces,0.32
+Dutch,Female,23,"herstellen/maken/repareren, vastmaken",25,understands,0
+Dutch,Male,23,"herstellen/maken/repareren, vastmaken",26,produces,0.3846
+Dutch,Male,23,"herstellen/maken/repareren, vastmaken",26,understands,0
+Dutch,Female,24,"herstellen/maken/repareren, vastmaken",16,produces,0.5312
+Dutch,Female,24,"herstellen/maken/repareren, vastmaken",16,understands,0
+Dutch,Male,24,"herstellen/maken/repareren, vastmaken",15,produces,0.3
+Dutch,Male,24,"herstellen/maken/repareren, vastmaken",15,understands,0
+Dutch,Female,25,"herstellen/maken/repareren, vastmaken",5,produces,0.8
+Dutch,Female,25,"herstellen/maken/repareren, vastmaken",5,understands,0
+Dutch,Male,25,"herstellen/maken/repareren, vastmaken",1,produces,1
+Dutch,Male,25,"herstellen/maken/repareren, vastmaken",1,understands,0
+Dutch,Female,26,"herstellen/maken/repareren, vastmaken",1,produces,1
+Dutch,Female,26,"herstellen/maken/repareren, vastmaken",1,understands,0
+Dutch,Male,26,"herstellen/maken/repareren, vastmaken",5,produces,0.4
+Dutch,Male,26,"herstellen/maken/repareren, vastmaken",5,understands,0
+Dutch,Female,27,"herstellen/maken/repareren, vastmaken",3,produces,0.6667
+Dutch,Female,27,"herstellen/maken/repareren, vastmaken",3,understands,0
+Dutch,Male,27,"herstellen/maken/repareren, vastmaken",1,produces,0
+Dutch,Male,27,"herstellen/maken/repareren, vastmaken",1,understands,0
+Dutch,Female,28,"herstellen/maken/repareren, vastmaken",5,produces,1
+Dutch,Female,28,"herstellen/maken/repareren, vastmaken",5,understands,0
+Dutch,Male,28,"vastmaken, herstellen/maken/repareren",2,produces,1
+Dutch,Male,28,"vastmaken, herstellen/maken/repareren",2,understands,0
+Dutch,Female,29,"vastmaken, herstellen/maken/repareren",27,produces,0.7692
+Dutch,Female,29,"vastmaken, herstellen/maken/repareren",27,understands,0
+Dutch,Male,29,"vastmaken, herstellen/maken/repareren",23,produces,0.8235
+Dutch,Male,29,"vastmaken, herstellen/maken/repareren",23,understands,0
+Dutch,Female,30,"vastmaken, herstellen/maken/repareren",20,produces,0.8889
+Dutch,Female,30,"vastmaken, herstellen/maken/repareren",20,understands,0
+Dutch,Male,30,"vastmaken, herstellen/maken/repareren",11,produces,0.6316
+Dutch,Male,30,"vastmaken, herstellen/maken/repareren",11,understands,0
+Dutch,Female,31,"vastmaken, herstellen/maken/repareren",3,produces,1
+Dutch,Female,31,"vastmaken, herstellen/maken/repareren",3,understands,0
+Dutch,Male,31,"vastmaken, herstellen/maken/repareren",4,produces,0.8
+Dutch,Male,31,"vastmaken, herstellen/maken/repareren",4,understands,0
+Dutch,Female,32,vastmaken,1,produces,0
+Dutch,Female,32,vastmaken,1,understands,0
+Dutch,Male,32,vastmaken,4,produces,0.75
+Dutch,Male,32,vastmaken,4,understands,0
+Dutch,Female,33,vastmaken,1,produces,1
+Dutch,Female,33,vastmaken,1,understands,0
+Dutch,Male,33,vastmaken,2,produces,1
+Dutch,Male,33,vastmaken,2,understands,0
+Dutch,Male,34,vastmaken,4,produces,1
+Dutch,Male,34,vastmaken,4,understands,0
+Dutch,Female,35,vastmaken,1,produces,1
+Dutch,Female,35,vastmaken,1,understands,0
+Dutch,Male,35,vastmaken,2,produces,0.5
+Dutch,Male,35,vastmaken,2,understands,0
+Dutch,Female,36,vastmaken,3,produces,1
+Dutch,Female,36,vastmaken,3,understands,0
+Dutch,Male,36,vastmaken,3,produces,0.6667
+Dutch,Male,36,vastmaken,3,understands,0
+English (American),Female,16,fix,392,produces,0.0102
+English (American),Female,16,fix,392,understands,0
+English (American),Male,16,fix,431,produces,0.0116
+English (American),Male,16,fix,431,understands,0
+English (American),Female,17,fix,152,produces,0.0263
+English (American),Female,17,fix,152,understands,0
+English (American),Male,17,fix,169,produces,0.0355
+English (American),Male,17,fix,169,understands,0
+English (American),Female,18,fix,256,produces,0.0391
+English (American),Female,18,fix,256,understands,0
+English (American),Male,18,fix,263,produces,0.0418
+English (American),Male,18,fix,263,understands,0
+English (American),Female,19,fix,231,produces,0.1385
+English (American),Female,19,fix,231,understands,0
+English (American),Male,19,fix,224,produces,0.1116
+English (American),Male,19,fix,224,understands,0
+English (American),Female,20,fix,205,produces,0.1463
+English (American),Female,20,fix,205,understands,0
+English (American),Male,20,fix,222,produces,0.0901
+English (American),Male,20,fix,222,understands,0
+English (American),Female,21,fix,127,produces,0.2205
+English (American),Female,21,fix,127,understands,0
+English (American),Male,21,fix,142,produces,0.1479
+English (American),Male,21,fix,142,understands,0
+English (American),Female,22,fix,186,produces,0.2581
+English (American),Female,22,fix,186,understands,0
+English (American),Male,22,fix,162,produces,0.2346
+English (American),Male,22,fix,162,understands,0
+English (American),Female,23,fix,177,produces,0.3672
+English (American),Female,23,fix,177,understands,0
+English (American),Male,23,fix,196,produces,0.3469
+English (American),Male,23,fix,196,understands,0
+English (American),Female,24,fix,365,produces,0.4384
+English (American),Female,24,fix,365,understands,0
+English (American),Male,24,fix,453,produces,0.3863
+English (American),Male,24,fix,453,understands,0
+English (American),Female,25,fix,299,produces,0.5418
+English (American),Female,25,fix,299,understands,0
+English (American),Male,25,fix,336,produces,0.4792
+English (American),Male,25,fix,336,understands,0
+English (American),Female,26,fix,173,produces,0.5838
+English (American),Female,26,fix,173,understands,0
+English (American),Male,26,fix,197,produces,0.5076
+English (American),Male,26,fix,197,understands,0
+English (American),Female,27,fix,158,produces,0.6013
+English (American),Female,27,fix,158,understands,0
+English (American),Male,27,fix,154,produces,0.5909
+English (American),Male,27,fix,154,understands,0
+English (American),Female,28,fix,416,produces,0.8005
+English (American),Female,28,fix,416,understands,0
+English (American),Male,28,fix,492,produces,0.7724
+English (American),Male,28,fix,492,understands,0
+English (American),Female,29,fix,166,produces,0.6867
+English (American),Female,29,fix,166,understands,0
+English (American),Male,29,fix,167,produces,0.6407
+English (American),Male,29,fix,167,understands,0
+English (American),Female,30,fix,323,produces,0.7214
+English (American),Female,30,fix,323,understands,0
+English (American),Male,30,fix,368,produces,0.6848
+English (American),Male,30,fix,368,understands,0
+English (Australian),Female,12,fix,27,produces,0
+English (Australian),Female,12,fix,27,understands,0
+English (Australian),Male,12,fix,44,produces,0
+English (Australian),Male,12,fix,44,understands,0
+English (Australian),Female,13,fix,35,produces,0
+English (Australian),Female,13,fix,35,understands,0
+English (Australian),Male,13,fix,29,produces,0
+English (Australian),Male,13,fix,29,understands,0
+English (Australian),Female,14,fix,51,produces,0.0392
+English (Australian),Female,14,fix,51,understands,0
+English (Australian),Male,14,fix,60,produces,0.0167
+English (Australian),Male,14,fix,60,understands,0
+English (Australian),Female,15,fix,31,produces,0.0323
+English (Australian),Female,15,fix,31,understands,0
+English (Australian),Male,15,fix,38,produces,0.0526
+English (Australian),Male,15,fix,38,understands,0
+English (Australian),Female,16,fix,32,produces,0.0625
+English (Australian),Female,16,fix,32,understands,0
+English (Australian),Male,16,fix,28,produces,0.0357
+English (Australian),Male,16,fix,28,understands,0
+English (Australian),Female,17,fix,56,produces,0.0357
+English (Australian),Female,17,fix,56,understands,0
+English (Australian),Male,17,fix,48,produces,0.0417
+English (Australian),Male,17,fix,48,understands,0
+English (Australian),Female,18,fix,52,produces,0.0192
+English (Australian),Female,18,fix,52,understands,0
+English (Australian),Male,18,fix,57,produces,0.0175
+English (Australian),Male,18,fix,57,understands,0
+English (Australian),Female,19,fix,72,produces,0.1667
+English (Australian),Female,19,fix,72,understands,0
+English (Australian),Male,19,fix,52,produces,0.0385
+English (Australian),Male,19,fix,52,understands,0
+English (Australian),Female,20,fix,40,produces,0.225
+English (Australian),Female,20,fix,40,understands,0
+English (Australian),Male,20,fix,38,produces,0.1579
+English (Australian),Male,20,fix,38,understands,0
+English (Australian),Female,21,fix,39,produces,0.1795
+English (Australian),Female,21,fix,39,understands,0
+English (Australian),Male,21,fix,25,produces,0.12
+English (Australian),Male,21,fix,25,understands,0
+English (Australian),Female,22,fix,27,produces,0.3333
+English (Australian),Female,22,fix,27,understands,0
+English (Australian),Male,22,fix,46,produces,0.3913
+English (Australian),Male,22,fix,46,understands,0
+English (Australian),Female,23,fix,39,produces,0.5385
+English (Australian),Female,23,fix,39,understands,0
+English (Australian),Male,23,fix,32,produces,0.5
+English (Australian),Male,23,fix,32,understands,0
+English (Australian),Female,24,fix,36,produces,0.3056
+English (Australian),Female,24,fix,36,understands,0
+English (Australian),Male,24,fix,40,produces,0.525
+English (Australian),Male,24,fix,40,understands,0
+English (Australian),Female,25,fix,44,produces,0.6364
+English (Australian),Female,25,fix,44,understands,0
+English (Australian),Male,25,fix,41,produces,0.2927
+English (Australian),Male,25,fix,41,understands,0
+English (Australian),Female,26,fix,40,produces,0.65
+English (Australian),Female,26,fix,40,understands,0
+English (Australian),Male,26,fix,37,produces,0.5405
+English (Australian),Male,26,fix,37,understands,0
+English (Australian),Female,27,fix,36,produces,0.8333
+English (Australian),Female,27,fix,36,understands,0
+English (Australian),Male,27,fix,36,produces,0.6944
+English (Australian),Male,27,fix,36,understands,0
+English (Australian),Female,28,fix,27,produces,0.6296
+English (Australian),Female,28,fix,27,understands,0
+English (Australian),Male,28,fix,40,produces,0.7
+English (Australian),Male,28,fix,40,understands,0
+English (Australian),Female,29,fix,33,produces,0.8182
+English (Australian),Female,29,fix,33,understands,0
+English (Australian),Male,29,fix,32,produces,0.6875
+English (Australian),Male,29,fix,32,understands,0
+English (Australian),Female,30,fix,28,produces,0.7857
+English (Australian),Female,30,fix,28,understands,0
+English (Australian),Male,30,fix,25,produces,0.88
+English (Australian),Male,30,fix,25,understands,0
+English (Irish),Female,17,fix,1,produces,0
+English (Irish),Female,17,fix,1,understands,0
+English (Irish),Male,17,fix,1,produces,0
+English (Irish),Male,17,fix,1,understands,0
+English (Irish),Female,18,fix,1,produces,0
+English (Irish),Female,18,fix,1,understands,0
+English (Irish),Female,19,fix,1,produces,0
+English (Irish),Female,19,fix,1,understands,0
+English (Irish),Male,19,fix,1,produces,0
+English (Irish),Male,19,fix,1,understands,0
+English (Irish),Female,20,fix,1,produces,0
+English (Irish),Female,20,fix,1,understands,0
+English (Irish),Female,21,fix,2,produces,0
+English (Irish),Female,21,fix,2,understands,0
+English (Irish),Male,21,fix,1,produces,0
+English (Irish),Male,21,fix,1,understands,0
+English (Irish),Female,22,fix,3,produces,0
+English (Irish),Female,22,fix,3,understands,0
+English (Irish),Male,22,fix,1,produces,0
+English (Irish),Male,22,fix,1,understands,0
+English (Irish),Female,23,fix,2,produces,0
+English (Irish),Female,23,fix,2,understands,0
+English (Irish),Male,23,fix,2,produces,0
+English (Irish),Male,23,fix,2,understands,0
+English (Irish),Female,24,fix,2,produces,0
+English (Irish),Female,24,fix,2,understands,0
+English (Irish),Male,24,fix,2,produces,0
+English (Irish),Male,24,fix,2,understands,0
+English (Irish),Female,25,fix,3,produces,0
+English (Irish),Female,25,fix,3,understands,0
+English (Irish),Male,25,fix,3,produces,0
+English (Irish),Male,25,fix,3,understands,0
+English (Irish),Female,26,fix,7,produces,0
+English (Irish),Female,26,fix,7,understands,0
+English (Irish),Male,26,fix,3,produces,0
+English (Irish),Male,26,fix,3,understands,0
+English (Irish),Female,27,fix,1,produces,0
+English (Irish),Female,27,fix,1,understands,0
+English (Irish),Male,27,fix,4,produces,0
+English (Irish),Male,27,fix,4,understands,0
+English (Irish),Female,28,fix,4,produces,0.25
+English (Irish),Female,28,fix,4,understands,0
+English (Irish),Male,28,fix,3,produces,0
+English (Irish),Male,28,fix,3,understands,0
+English (Irish),Female,29,fix,1,produces,0
+English (Irish),Female,29,fix,1,understands,0
+English (Irish),Male,29,fix,3,produces,0.6667
+English (Irish),Male,29,fix,3,understands,0
+English (Irish),Female,30,fix,5,produces,0.2
+English (Irish),Female,30,fix,5,understands,0
+English (Irish),Male,30,fix,4,produces,0
+English (Irish),Male,30,fix,4,understands,0
+English (Irish),Female,31,fix,3,produces,0
+English (Irish),Female,31,fix,3,understands,0
+English (Irish),Male,31,fix,5,produces,0.2
+English (Irish),Male,31,fix,5,understands,0
+English (Irish),Female,32,fix,2,produces,0
+English (Irish),Female,32,fix,2,understands,0
+English (Irish),Male,32,fix,2,produces,0.5
+English (Irish),Male,32,fix,2,understands,0
+English (Irish),Female,33,fix,1,produces,0
+English (Irish),Female,33,fix,1,understands,0
+English (Irish),Male,33,fix,4,produces,0
+English (Irish),Male,33,fix,4,understands,0
+English (Irish),Female,34,fix,2,produces,0
+English (Irish),Female,34,fix,2,understands,0
+English (Irish),Male,34,fix,2,produces,0.5
+English (Irish),Male,34,fix,2,understands,0
+English (Irish),Female,35,fix,2,produces,0.5
+English (Irish),Female,35,fix,2,understands,0
+English (Irish),Male,35,fix,9,produces,0.5556
+English (Irish),Male,35,fix,9,understands,0
+English (Irish),Female,36,fix,3,produces,0.6667
+English (Irish),Female,36,fix,3,understands,0
+English (Irish),Male,36,fix,2,produces,0
+English (Irish),Male,36,fix,2,understands,0
+Estonian,Female,16,parandama,19,produces,0
+Estonian,Female,16,parandama,19,understands,0
+Estonian,Male,16,parandama,17,produces,0
+Estonian,Male,16,parandama,17,understands,0
+Estonian,Female,17,parandama,42,produces,0.0238
+Estonian,Female,17,parandama,42,understands,0
+Estonian,Male,17,parandama,47,produces,0
+Estonian,Male,17,parandama,47,understands,0
+Estonian,Female,18,parandama,52,produces,0.0192
+Estonian,Female,18,parandama,52,understands,0
+Estonian,Male,18,parandama,51,produces,0.0196
+Estonian,Male,18,parandama,51,understands,0
+Estonian,Female,19,parandama,44,produces,0.0227
+Estonian,Female,19,parandama,44,understands,0
+Estonian,Male,19,parandama,41,produces,0.0732
+Estonian,Male,19,parandama,41,understands,0
+Estonian,Female,20,parandama,36,produces,0.0278
+Estonian,Female,20,parandama,36,understands,0
+Estonian,Male,20,parandama,24,produces,0.125
+Estonian,Male,20,parandama,24,understands,0
+Estonian,Female,21,parandama,28,produces,0.1071
+Estonian,Female,21,parandama,28,understands,0
+Estonian,Male,21,parandama,38,produces,0.0263
+Estonian,Male,21,parandama,38,understands,0
+Estonian,Female,22,parandama,45,produces,0.0889
+Estonian,Female,22,parandama,45,understands,0
+Estonian,Male,22,parandama,31,produces,0.0968
+Estonian,Male,22,parandama,31,understands,0
+Estonian,Female,23,parandama,48,produces,0.1875
+Estonian,Female,23,parandama,48,understands,0
+Estonian,Male,23,parandama,47,produces,0.1915
+Estonian,Male,23,parandama,47,understands,0
+Estonian,Female,24,parandama,52,produces,0.3462
+Estonian,Female,24,parandama,52,understands,0
+Estonian,Male,24,parandama,64,produces,0.2656
+Estonian,Male,24,parandama,64,understands,0
+Estonian,Female,25,parandama,45,produces,0.2667
+Estonian,Female,25,parandama,45,understands,0
+Estonian,Male,25,parandama,37,produces,0.2162
+Estonian,Male,25,parandama,37,understands,0
+Estonian,Female,26,parandama,45,produces,0.4222
+Estonian,Female,26,parandama,45,understands,0
+Estonian,Male,26,parandama,39,produces,0.1795
+Estonian,Male,26,parandama,39,understands,0
+Estonian,Female,27,parandama,44,produces,0.3409
+Estonian,Female,27,parandama,44,understands,0
+Estonian,Male,27,parandama,36,produces,0.2222
+Estonian,Male,27,parandama,36,understands,0
+Estonian,Female,28,parandama,44,produces,0.5
+Estonian,Female,28,parandama,44,understands,0
+Estonian,Male,28,parandama,48,produces,0.4375
+Estonian,Male,28,parandama,48,understands,0
+Estonian,Female,29,parandama,59,produces,0.5254
+Estonian,Female,29,parandama,59,understands,0
+Estonian,Male,29,parandama,41,produces,0.4634
+Estonian,Male,29,parandama,41,understands,0
+Estonian,Female,30,parandama,37,produces,0.6216
+Estonian,Female,30,parandama,37,understands,0
+Estonian,Male,30,parandama,34,produces,0.5294
+Estonian,Male,30,parandama,34,understands,0
+Finnish,Female,12,korjata ,18,produces,0
+Finnish,Female,12,korjata ,18,understands,0
+Finnish,Male,12,korjata ,17,produces,0
+Finnish,Male,12,korjata ,17,understands,0
+Finnish,Female,15,korjata ,18,produces,0
+Finnish,Female,15,korjata ,18,understands,0
+Finnish,Male,15,korjata ,17,produces,0
+Finnish,Male,15,korjata ,17,understands,0
+Finnish,Female,18,"kiinnittää, korjata",18,produces,0
+Finnish,Female,18,"kiinnittää, korjata",18,understands,0
+Finnish,Male,18,"kiinnittää, korjata",17,produces,0.0882
+Finnish,Male,18,"kiinnittää, korjata",17,understands,0
+Finnish,Female,24,"kiinnittää, korjata",18,produces,0.3333
+Finnish,Female,24,"kiinnittää, korjata",18,understands,0
+Finnish,Male,24,"kiinnittää, korjata",17,produces,0.4118
+Finnish,Male,24,"kiinnittää, korjata",17,understands,0
+French (French),Female,8,réparer,2,produces,0
+French (French),Female,8,réparer,2,understands,0
+French (French),Male,8,réparer,5,produces,0
+French (French),Male,8,réparer,5,understands,0
+French (French),Female,9,réparer,2,produces,0
+French (French),Female,9,réparer,2,understands,0
+French (French),Male,9,réparer,5,produces,0
+French (French),Male,9,réparer,5,understands,0
+French (French),Female,10,réparer,7,produces,0
+French (French),Female,10,réparer,7,understands,0
+French (French),Male,10,réparer,6,produces,0
+French (French),Male,10,réparer,6,understands,0
+French (French),Female,11,réparer,8,produces,0
+French (French),Female,11,réparer,8,understands,0
+French (French),Male,11,réparer,6,produces,0
+French (French),Male,11,réparer,6,understands,0
+French (French),Female,12,réparer,19,produces,0
+French (French),Female,12,réparer,19,understands,0
+French (French),Male,12,réparer,19,produces,0
+French (French),Male,12,réparer,19,understands,0
+French (French),Female,13,réparer,36,produces,0
+French (French),Female,13,réparer,36,understands,0.0278
+French (French),Male,13,réparer,30,produces,0
+French (French),Male,13,réparer,30,understands,0
+French (French),Female,14,réparer,17,produces,0
+French (French),Female,14,réparer,17,understands,0
+French (French),Male,14,réparer,20,produces,0
+French (French),Male,14,réparer,20,understands,0
+French (French),Female,15,réparer,11,produces,0
+French (French),Female,15,réparer,11,understands,0
+French (French),Male,15,réparer,13,produces,0
+French (French),Male,15,réparer,13,understands,0
+French (French),Female,16,réparer,25,produces,0.04
+French (French),Female,16,réparer,25,understands,0
+French (French),Male,16,réparer,27,produces,0
+French (French),Male,16,réparer,27,understands,0
+French (French),Female,17,réparer,25,produces,0
+French (French),Female,17,réparer,25,understands,0
+French (French),Male,17,réparer,23,produces,0
+French (French),Male,17,réparer,23,understands,0
+French (French),Female,18,réparer,27,produces,0.1111
+French (French),Female,18,réparer,27,understands,0
+French (French),Male,18,réparer,21,produces,0.0952
+French (French),Male,18,réparer,21,understands,0
+French (French),Female,19,réparer,22,produces,0.0455
+French (French),Female,19,réparer,22,understands,0
+French (French),Male,19,réparer,17,produces,0.1176
+French (French),Male,19,réparer,17,understands,0
+French (French),Female,20,réparer,42,produces,0.0952
+French (French),Female,20,réparer,42,understands,0
+French (French),Male,20,réparer,35,produces,0.0857
+French (French),Male,20,réparer,35,understands,0
+French (French),Female,21,réparer,55,produces,0.1455
+French (French),Female,21,réparer,55,understands,0
+French (French),Male,21,réparer,38,produces,0.1316
+French (French),Male,21,réparer,38,understands,0
+French (French),Female,22,réparer,60,produces,0.1
+French (French),Female,22,réparer,60,understands,0
+French (French),Male,22,réparer,38,produces,0.1316
+French (French),Male,22,réparer,38,understands,0
+French (French),Female,23,réparer,40,produces,0.15
+French (French),Female,23,réparer,40,understands,0
+French (French),Male,23,réparer,44,produces,0.2045
+French (French),Male,23,réparer,44,understands,0
+French (French),Female,24,réparer,65,produces,0.2154
+French (French),Female,24,réparer,65,understands,0
+French (French),Male,24,réparer,72,produces,0.1528
+French (French),Male,24,réparer,72,understands,0
+French (French),Female,25,réparer,39,produces,0.2821
+French (French),Female,25,réparer,39,understands,0
+French (French),Male,25,réparer,46,produces,0.3478
+French (French),Male,25,réparer,46,understands,0
+French (French),Female,26,réparer,31,produces,0.5161
+French (French),Female,26,réparer,31,understands,0
+French (French),Male,26,réparer,32,produces,0.2188
+French (French),Male,26,réparer,32,understands,0
+French (French),Female,27,réparer,28,produces,0.4643
+French (French),Female,27,réparer,28,understands,0
+French (French),Male,27,réparer,24,produces,0.4167
+French (French),Male,27,réparer,24,understands,0
+French (French),Female,28,réparer,33,produces,0.4545
+French (French),Female,28,réparer,33,understands,0
+French (French),Male,28,réparer,43,produces,0.4651
+French (French),Male,28,réparer,43,understands,0
+French (French),Female,29,réparer,32,produces,0.5938
+French (French),Female,29,réparer,32,understands,0
+French (French),Male,29,réparer,33,produces,0.6667
+French (French),Male,29,réparer,33,understands,0
+French (French),Female,30,réparer,34,produces,0.4706
+French (French),Female,30,réparer,34,understands,0
+French (French),Male,30,réparer,33,produces,0.5455
+French (French),Male,30,réparer,33,understands,0
+French (Quebecois),Female,16,réparer,26,produces,0
+French (Quebecois),Female,16,réparer,26,understands,0
+French (Quebecois),Male,16,réparer,21,produces,0
+French (Quebecois),Male,16,réparer,21,understands,0
+French (Quebecois),Female,17,réparer,30,produces,0
+French (Quebecois),Female,17,réparer,30,understands,0
+French (Quebecois),Male,17,réparer,31,produces,0.0323
+French (Quebecois),Male,17,réparer,31,understands,0
+French (Quebecois),Female,18,réparer,53,produces,0.0189
+French (Quebecois),Female,18,réparer,53,understands,0
+French (Quebecois),Male,18,réparer,46,produces,0
+French (Quebecois),Male,18,réparer,46,understands,0
+French (Quebecois),Female,19,réparer,41,produces,0
+French (Quebecois),Female,19,réparer,41,understands,0
+French (Quebecois),Male,19,réparer,50,produces,0
+French (Quebecois),Male,19,réparer,50,understands,0
+French (Quebecois),Female,20,réparer,90,produces,0.0333
+French (Quebecois),Female,20,réparer,90,understands,0
+French (Quebecois),Male,20,réparer,105,produces,0.0095
+French (Quebecois),Male,20,réparer,105,understands,0
+French (Quebecois),Female,21,réparer,56,produces,0.0536
+French (Quebecois),Female,21,réparer,56,understands,0
+French (Quebecois),Male,21,réparer,53,produces,0.0566
+French (Quebecois),Male,21,réparer,53,understands,0
+French (Quebecois),Female,22,réparer,42,produces,0.1667
+French (Quebecois),Female,22,réparer,42,understands,0
+French (Quebecois),Male,22,réparer,44,produces,0.0909
+French (Quebecois),Male,22,réparer,44,understands,0
+French (Quebecois),Female,23,réparer,41,produces,0.2195
+French (Quebecois),Female,23,réparer,41,understands,0
+French (Quebecois),Male,23,réparer,45,produces,0.2
+French (Quebecois),Male,23,réparer,45,understands,0
+French (Quebecois),Female,24,réparer,56,produces,0.2143
+French (Quebecois),Female,24,réparer,56,understands,0
+French (Quebecois),Male,24,réparer,76,produces,0.1579
+French (Quebecois),Male,24,réparer,76,understands,0
+French (Quebecois),Female,25,réparer,41,produces,0.3659
+French (Quebecois),Female,25,réparer,41,understands,0
+French (Quebecois),Male,25,réparer,45,produces,0.2444
+French (Quebecois),Male,25,réparer,45,understands,0
+French (Quebecois),Female,26,réparer,46,produces,0.3478
+French (Quebecois),Female,26,réparer,46,understands,0
+French (Quebecois),Male,26,réparer,49,produces,0.3061
+French (Quebecois),Male,26,réparer,49,understands,0
+French (Quebecois),Female,27,réparer,40,produces,0.475
+French (Quebecois),Female,27,réparer,40,understands,0
+French (Quebecois),Male,27,réparer,34,produces,0.3824
+French (Quebecois),Male,27,réparer,34,understands,0
+French (Quebecois),Female,28,réparer,28,produces,0.4286
+French (Quebecois),Female,28,réparer,28,understands,0
+French (Quebecois),Male,28,réparer,32,produces,0.4375
+French (Quebecois),Male,28,réparer,32,understands,0
+French (Quebecois),Female,29,réparer,35,produces,0.4286
+French (Quebecois),Female,29,réparer,35,understands,0
+French (Quebecois),Male,29,réparer,35,produces,0.8
+French (Quebecois),Male,29,réparer,35,understands,0
+French (Quebecois),Female,30,réparer,41,produces,0.6341
+French (Quebecois),Female,30,réparer,41,understands,0
+French (Quebecois),Male,30,réparer,59,produces,0.4915
+French (Quebecois),Male,30,réparer,59,understands,0
+German,Female,18,heile machen,40,produces,0.05
+German,Female,18,heile machen,40,understands,0
+German,Male,18,heile machen,45,produces,0.0222
+German,Male,18,heile machen,45,understands,0
+German,Female,19,heile machen,39,produces,0.1026
+German,Female,19,heile machen,39,understands,0
+German,Male,19,heile machen,40,produces,0
+German,Male,19,heile machen,40,understands,0
+German,Female,20,heile machen,39,produces,0.1026
+German,Female,20,heile machen,39,understands,0
+German,Male,20,heile machen,57,produces,0.1053
+German,Male,20,heile machen,57,understands,0
+German,Female,21,heile machen,38,produces,0.1842
+German,Female,21,heile machen,38,understands,0
+German,Male,21,heile machen,39,produces,0.1282
+German,Male,21,heile machen,39,understands,0
+German,Female,22,heile machen,52,produces,0.0962
+German,Female,22,heile machen,52,understands,0
+German,Male,22,heile machen,43,produces,0.2326
+German,Male,22,heile machen,43,understands,0
+German,Female,23,heile machen,45,produces,0.4444
+German,Female,23,heile machen,45,understands,0
+German,Male,23,heile machen,50,produces,0.26
+German,Male,23,heile machen,50,understands,0
+German,Female,24,heile machen,48,produces,0.4792
+German,Female,24,heile machen,48,understands,0
+German,Male,24,heile machen,55,produces,0.3091
+German,Male,24,heile machen,55,understands,0
+German,Female,25,heile machen,28,produces,0.5714
+German,Female,25,heile machen,28,understands,0
+German,Male,25,heile machen,67,produces,0.4776
+German,Male,25,heile machen,67,understands,0
+German,Female,26,heile machen,42,produces,0.5238
+German,Female,26,heile machen,42,understands,0
+German,Male,26,heile machen,50,produces,0.52
+German,Male,26,heile machen,50,understands,0
+German,Female,27,heile machen,41,produces,0.6341
+German,Female,27,heile machen,41,understands,0
+German,Male,27,heile machen,48,produces,0.4792
+German,Male,27,heile machen,48,understands,0
+German,Female,28,heile machen,35,produces,0.6857
+German,Female,28,heile machen,35,understands,0
+German,Male,28,heile machen,58,produces,0.5172
+German,Male,28,heile machen,58,understands,0
+German,Female,29,heile machen,50,produces,0.76
+German,Female,29,heile machen,50,understands,0
+German,Male,29,heile machen,39,produces,0.6667
+German,Male,29,heile machen,39,understands,0
+German,Female,30,heile machen,54,produces,0.7963
+German,Female,30,heile machen,54,understands,0
+German,Male,30,heile machen,39,produces,0.8462
+German,Male,30,heile machen,39,understands,0
+Hebrew,Female,25,לתקן,36,produces,0.5278
+Hebrew,Female,25,לתקן,36,understands,0
+Hebrew,Male,25,לתקן,46,produces,0.3478
+Hebrew,Male,25,לתקן,46,understands,0
+Hebrew,Female,26,לתקן,42,produces,0.6667
+Hebrew,Female,26,לתקן,42,understands,0
+Hebrew,Male,26,לתקן,38,produces,0.5263
+Hebrew,Male,26,לתקן,38,understands,0
+Hebrew,Female,27,לתקן,36,produces,0.4167
+Hebrew,Female,27,לתקן,36,understands,0
+Hebrew,Male,27,לתקן,32,produces,0.75
+Hebrew,Male,27,לתקן,32,understands,0
+Hebrew,Female,28,לתקן,30,produces,0.6333
+Hebrew,Female,28,לתקן,30,understands,0
+Hebrew,Male,28,לתקן,27,produces,0.7407
+Hebrew,Male,28,לתקן,27,understands,0
+Hebrew,Female,29,לתקן,20,produces,0.8
+Hebrew,Female,29,לתקן,20,understands,0
+Hebrew,Male,29,לתקן,27,produces,0.7037
+Hebrew,Male,29,לתקן,27,understands,0
+Hebrew,Female,30,לתקן,12,produces,0.5833
+Hebrew,Female,30,לתקן,12,understands,0
+Hebrew,Male,30,לתקן,16,produces,0.6875
+Hebrew,Male,30,לתקן,16,understands,0
+Hebrew,Female,31,לתקן,18,produces,0.8889
+Hebrew,Female,31,לתקן,18,understands,0
+Hebrew,Male,31,לתקן,17,produces,0.8235
+Hebrew,Male,31,לתקן,17,understands,0
+Hebrew,Female,32,לתקן,19,produces,0.6842
+Hebrew,Female,32,לתקן,19,understands,0
+Hebrew,Male,32,לתקן,17,produces,0.7059
+Hebrew,Male,32,לתקן,17,understands,0
+Hebrew,Female,33,לתקן,10,produces,0.8
+Hebrew,Female,33,לתקן,10,understands,0
+Hebrew,Male,33,לתקן,11,produces,0.7273
+Hebrew,Male,33,לתקן,11,understands,0
+Hebrew,Female,34,לתקן,15,produces,0.8
+Hebrew,Female,34,לתקן,15,understands,0
+Hebrew,Male,34,לתקן,12,produces,0.8333
+Hebrew,Male,34,לתקן,12,understands,0
+Hebrew,Female,35,לתקן,6,produces,0.8333
+Hebrew,Female,35,לתקן,6,understands,0
+Hebrew,Male,35,לתקן,12,produces,0.6667
+Hebrew,Male,35,לתקן,12,understands,0
+Hebrew,Female,36,לתקן,4,produces,0.5
+Hebrew,Female,36,לתקן,4,understands,0
+Hebrew,Male,36,לתקן,1,produces,0
+Hebrew,Male,36,לתקן,1,understands,0
+Irish,Female,17,socraigh,1,produces,0
+Irish,Female,17,socraigh,1,understands,0
+Irish,Male,17,socraigh,1,produces,0
+Irish,Male,17,socraigh,1,understands,0
+Irish,Female,18,socraigh,1,produces,0
+Irish,Female,18,socraigh,1,understands,0
+Irish,Female,19,socraigh,1,produces,0
+Irish,Female,19,socraigh,1,understands,0
+Irish,Male,19,socraigh,1,produces,0
+Irish,Male,19,socraigh,1,understands,0
+Irish,Female,20,socraigh,1,produces,0
+Irish,Female,20,socraigh,1,understands,0
+Irish,Female,21,socraigh,2,produces,0
+Irish,Female,21,socraigh,2,understands,0
+Irish,Male,21,socraigh,1,produces,0
+Irish,Male,21,socraigh,1,understands,0
+Irish,Female,22,socraigh,3,produces,0
+Irish,Female,22,socraigh,3,understands,0
+Irish,Male,22,socraigh,1,produces,0
+Irish,Male,22,socraigh,1,understands,0
+Irish,Female,23,socraigh,2,produces,0
+Irish,Female,23,socraigh,2,understands,0
+Irish,Male,23,socraigh,2,produces,0.5
+Irish,Male,23,socraigh,2,understands,0
+Irish,Female,24,socraigh,2,produces,1
+Irish,Female,24,socraigh,2,understands,0
+Irish,Male,24,socraigh,2,produces,0
+Irish,Male,24,socraigh,2,understands,0
+Irish,Female,25,socraigh,3,produces,0
+Irish,Female,25,socraigh,3,understands,0
+Irish,Male,25,socraigh,3,produces,0.3333
+Irish,Male,25,socraigh,3,understands,0
+Irish,Female,26,socraigh,7,produces,0
+Irish,Female,26,socraigh,7,understands,0
+Irish,Male,26,socraigh,3,produces,0.3333
+Irish,Male,26,socraigh,3,understands,0
+Irish,Female,27,socraigh,1,produces,0
+Irish,Female,27,socraigh,1,understands,0
+Irish,Male,27,socraigh,4,produces,0.25
+Irish,Male,27,socraigh,4,understands,0
+Irish,Female,28,socraigh,4,produces,0
+Irish,Female,28,socraigh,4,understands,0
+Irish,Male,28,socraigh,3,produces,0
+Irish,Male,28,socraigh,3,understands,0
+Irish,Female,29,socraigh,1,produces,0
+Irish,Female,29,socraigh,1,understands,0
+Irish,Male,29,socraigh,3,produces,0
+Irish,Male,29,socraigh,3,understands,0
+Irish,Female,30,socraigh,5,produces,0.4
+Irish,Female,30,socraigh,5,understands,0
+Irish,Male,30,socraigh,4,produces,0.5
+Irish,Male,30,socraigh,4,understands,0
+Irish,Female,31,socraigh,3,produces,0
+Irish,Female,31,socraigh,3,understands,0
+Irish,Male,31,socraigh,5,produces,0.2
+Irish,Male,31,socraigh,5,understands,0
+Irish,Female,32,socraigh,2,produces,0.5
+Irish,Female,32,socraigh,2,understands,0
+Irish,Male,32,socraigh,2,produces,0
+Irish,Male,32,socraigh,2,understands,0
+Irish,Female,33,socraigh,1,produces,1
+Irish,Female,33,socraigh,1,understands,0
+Irish,Male,33,socraigh,4,produces,0.5
+Irish,Male,33,socraigh,4,understands,0
+Irish,Female,34,socraigh,2,produces,0.5
+Irish,Female,34,socraigh,2,understands,0
+Irish,Male,34,socraigh,2,produces,1
+Irish,Male,34,socraigh,2,understands,0
+Irish,Female,35,socraigh,2,produces,0.5
+Irish,Female,35,socraigh,2,understands,0
+Irish,Male,35,socraigh,9,produces,0.7778
+Irish,Male,35,socraigh,9,understands,0
+Irish,Female,36,socraigh,3,produces,0.6667
+Irish,Female,36,socraigh,3,understands,0
+Irish,Male,36,socraigh,2,produces,0.5
+Irish,Male,36,socraigh,2,understands,0
+Italian,Female,18,aggiustare,18,produces,0.0556
+Italian,Female,18,aggiustare,18,understands,0
+Italian,Male,18,aggiustare,13,produces,0
+Italian,Male,18,aggiustare,13,understands,0
+Italian,Female,19,aggiustare,21,produces,0.0952
+Italian,Female,19,aggiustare,21,understands,0
+Italian,Male,19,aggiustare,18,produces,0
+Italian,Male,19,aggiustare,18,understands,0
+Italian,Female,20,aggiustare,34,produces,0.0294
+Italian,Female,20,aggiustare,34,understands,0
+Italian,Male,20,aggiustare,30,produces,0.1
+Italian,Male,20,aggiustare,30,understands,0
+Italian,Female,21,aggiustare,24,produces,0.125
+Italian,Female,21,aggiustare,24,understands,0
+Italian,Male,21,aggiustare,31,produces,0.1613
+Italian,Male,21,aggiustare,31,understands,0
+Italian,Female,22,aggiustare,27,produces,0.2963
+Italian,Female,22,aggiustare,27,understands,0
+Italian,Male,22,aggiustare,28,produces,0.2143
+Italian,Male,22,aggiustare,28,understands,0
+Italian,Female,23,aggiustare,27,produces,0.2593
+Italian,Female,23,aggiustare,27,understands,0
+Italian,Male,23,aggiustare,26,produces,0.1538
+Italian,Male,23,aggiustare,26,understands,0
+Italian,Female,24,aggiustare,39,produces,0.2821
+Italian,Female,24,aggiustare,39,understands,0
+Italian,Male,24,aggiustare,32,produces,0.4688
+Italian,Male,24,aggiustare,32,understands,0
+Italian,Female,25,aggiustare,23,produces,0.4783
+Italian,Female,25,aggiustare,23,understands,0
+Italian,Male,25,aggiustare,16,produces,0.5
+Italian,Male,25,aggiustare,16,understands,0
+Italian,Female,26,aggiustare,19,produces,0.5789
+Italian,Female,26,aggiustare,19,understands,0
+Italian,Male,26,aggiustare,22,produces,0.5455
+Italian,Male,26,aggiustare,22,understands,0
+Italian,Female,27,aggiustare,20,produces,0.4
+Italian,Female,27,aggiustare,20,understands,0
+Italian,Male,27,aggiustare,23,produces,0.3913
+Italian,Male,27,aggiustare,23,understands,0
+Italian,Female,28,aggiustare,21,produces,0.5714
+Italian,Female,28,aggiustare,21,understands,0
+Italian,Male,28,aggiustare,23,produces,0.6522
+Italian,Male,28,aggiustare,23,understands,0
+Italian,Female,29,aggiustare,21,produces,0.5238
+Italian,Female,29,aggiustare,21,understands,0
+Italian,Male,29,aggiustare,16,produces,0.6875
+Italian,Male,29,aggiustare,16,understands,0
+Italian,Female,30,aggiustare,28,produces,0.6786
+Italian,Female,30,aggiustare,28,understands,0
+Italian,Male,30,aggiustare,39,produces,0.6923
+Italian,Male,30,aggiustare,39,understands,0
+Italian,Female,31,aggiustare,8,produces,0.375
+Italian,Female,31,aggiustare,8,understands,0
+Italian,Male,31,aggiustare,11,produces,0.7273
+Italian,Male,31,aggiustare,11,understands,0
+Italian,Female,32,aggiustare,14,produces,0.7143
+Italian,Female,32,aggiustare,14,understands,0
+Italian,Male,32,aggiustare,9,produces,0.5556
+Italian,Male,32,aggiustare,9,understands,0
+Italian,Female,33,aggiustare,5,produces,0.6
+Italian,Female,33,aggiustare,5,understands,0
+Italian,Male,33,aggiustare,11,produces,0.7273
+Italian,Male,33,aggiustare,11,understands,0
+Italian,Female,34,aggiustare,12,produces,1
+Italian,Female,34,aggiustare,12,understands,0
+Italian,Male,34,aggiustare,7,produces,1
+Italian,Male,34,aggiustare,7,understands,0
+Italian,Female,35,aggiustare,9,produces,0.7778
+Italian,Female,35,aggiustare,9,understands,0
+Italian,Male,35,aggiustare,6,produces,0.6667
+Italian,Male,35,aggiustare,6,understands,0
+Italian,Female,36,aggiustare,7,produces,0.8571
+Italian,Female,36,aggiustare,7,understands,0
+Italian,Male,36,aggiustare,14,produces,0.7143
+Italian,Male,36,aggiustare,14,understands,0
+Japanese,Female,16,なおす,4,produces,0
+Japanese,Female,16,なおす,4,understands,0
+Japanese,Male,16,なおす,7,produces,0
+Japanese,Male,16,なおす,7,understands,0
+Japanese,Female,17,なおす,11,produces,0
+Japanese,Female,17,なおす,11,understands,0
+Japanese,Male,17,なおす,6,produces,0
+Japanese,Male,17,なおす,6,understands,0
+Japanese,Female,18,なおす,27,produces,0.037
+Japanese,Female,18,なおす,27,understands,0
+Japanese,Male,18,なおす,29,produces,0.0345
+Japanese,Male,18,なおす,29,understands,0
+Japanese,Female,19,なおす,14,produces,0.0714
+Japanese,Female,19,なおす,14,understands,0
+Japanese,Male,19,なおす,21,produces,0
+Japanese,Male,19,なおす,21,understands,0
+Japanese,Female,20,なおす,27,produces,0.037
+Japanese,Female,20,なおす,27,understands,0
+Japanese,Male,20,なおす,32,produces,0.0312
+Japanese,Male,20,なおす,32,understands,0
+Japanese,Female,21,なおす,29,produces,0.0345
+Japanese,Female,21,なおす,29,understands,0
+Japanese,Male,21,なおす,33,produces,0.0606
+Japanese,Male,21,なおす,33,understands,0
+Japanese,Female,22,なおす,16,produces,0
+Japanese,Female,22,なおす,16,understands,0
+Japanese,Male,22,なおす,15,produces,0.0667
+Japanese,Male,22,なおす,15,understands,0
+Japanese,Female,23,なおす,38,produces,0.0789
+Japanese,Female,23,なおす,38,understands,0
+Japanese,Male,23,なおす,29,produces,0.1034
+Japanese,Male,23,なおす,29,understands,0
+Japanese,Female,24,なおす,18,produces,0.2222
+Japanese,Female,24,なおす,18,understands,0
+Japanese,Male,24,なおす,15,produces,0
+Japanese,Male,24,なおす,15,understands,0
+Japanese,Female,25,なおす,14,produces,0.2143
+Japanese,Female,25,なおす,14,understands,0
+Japanese,Male,25,なおす,20,produces,0.2
+Japanese,Male,25,なおす,20,understands,0
+Japanese,Female,26,なおす,19,produces,0.5789
+Japanese,Female,26,なおす,19,understands,0
+Japanese,Male,26,なおす,14,produces,0.2143
+Japanese,Male,26,なおす,14,understands,0
+Japanese,Female,27,なおす,8,produces,0
+Japanese,Female,27,なおす,8,understands,0
+Japanese,Male,27,なおす,7,produces,0.1429
+Japanese,Male,27,なおす,7,understands,0
+Japanese,Female,28,なおす,8,produces,0.5
+Japanese,Female,28,なおす,8,understands,0
+Japanese,Male,28,なおす,10,produces,0.2
+Japanese,Male,28,なおす,10,understands,0
+Japanese,Female,29,なおす,6,produces,0.1667
+Japanese,Female,29,なおす,6,understands,0
+Japanese,Male,29,なおす,11,produces,0.4545
+Japanese,Male,29,なおす,11,understands,0
+Japanese,Female,30,なおす,9,produces,0.2222
+Japanese,Female,30,なおす,9,understands,0
+Japanese,Male,30,なおす,9,produces,0.5556
+Japanese,Male,30,なおす,9,understands,0
+Japanese,Female,31,なおす,8,produces,0.75
+Japanese,Female,31,なおす,8,understands,0
+Japanese,Male,31,なおす,10,produces,0.2
+Japanese,Male,31,なおす,10,understands,0
+Japanese,Female,32,なおす,8,produces,0.625
+Japanese,Female,32,なおす,8,understands,0
+Japanese,Male,32,なおす,5,produces,0.6
+Japanese,Male,32,なおす,5,understands,0
+Japanese,Female,33,なおす,9,produces,1
+Japanese,Female,33,なおす,9,understands,0
+Japanese,Male,33,なおす,7,produces,0.5714
+Japanese,Male,33,なおす,7,understands,0
+Japanese,Female,34,なおす,8,produces,0.5
+Japanese,Female,34,なおす,8,understands,0
+Japanese,Male,34,なおす,5,produces,0.6
+Japanese,Male,34,なおす,5,understands,0
+Japanese,Female,35,なおす,19,produces,0.8947
+Japanese,Female,35,なおす,19,understands,0
+Japanese,Male,35,なおす,12,produces,0.5
+Japanese,Male,35,なおす,12,understands,0
+Japanese,Female,36,なおす,4,produces,1
+Japanese,Female,36,なおす,4,understands,0
+Japanese,Male,36,なおす,14,produces,0.5714
+Japanese,Male,36,なおす,14,understands,0
+Korean,Female,18,고쳐,51,produces,0.0196
+Korean,Female,18,고쳐,51,understands,0
+Korean,Male,18,고쳐,37,produces,0
+Korean,Male,18,고쳐,37,understands,0
+Korean,Female,19,고쳐,39,produces,0.0513
+Korean,Female,19,고쳐,39,understands,0
+Korean,Male,19,고쳐,38,produces,0
+Korean,Male,19,고쳐,38,understands,0
+Korean,Female,20,고쳐,47,produces,0
+Korean,Female,20,고쳐,47,understands,0
+Korean,Male,20,고쳐,41,produces,0
+Korean,Male,20,고쳐,41,understands,0
+Korean,Female,21,고쳐,38,produces,0.1053
+Korean,Female,21,고쳐,38,understands,0
+Korean,Male,21,고쳐,41,produces,0.0244
+Korean,Male,21,고쳐,41,understands,0
+Korean,Female,22,고쳐,42,produces,0.0952
+Korean,Female,22,고쳐,42,understands,0
+Korean,Male,22,고쳐,45,produces,0
+Korean,Male,22,고쳐,45,understands,0
+Korean,Female,23,고쳐,42,produces,0.1429
+Korean,Female,23,고쳐,42,understands,0
+Korean,Male,23,고쳐,45,produces,0.0444
+Korean,Male,23,고쳐,45,understands,0
+Korean,Female,24,고쳐,46,produces,0.1304
+Korean,Female,24,고쳐,46,understands,0
+Korean,Male,24,고쳐,61,produces,0.1803
+Korean,Male,24,고쳐,61,understands,0
+Korean,Female,25,고쳐,46,produces,0.2391
+Korean,Female,25,고쳐,46,understands,0
+Korean,Male,25,고쳐,49,produces,0.1429
+Korean,Male,25,고쳐,49,understands,0
+Korean,Female,26,고쳐,42,produces,0.1667
+Korean,Female,26,고쳐,42,understands,0
+Korean,Male,26,고쳐,49,produces,0.2857
+Korean,Male,26,고쳐,49,understands,0
+Korean,Female,27,고쳐,46,produces,0.2609
+Korean,Female,27,고쳐,46,understands,0
+Korean,Male,27,고쳐,58,produces,0.2931
+Korean,Male,27,고쳐,58,understands,0
+Korean,Female,28,고쳐,49,produces,0.4694
+Korean,Female,28,고쳐,49,understands,0
+Korean,Male,28,고쳐,40,produces,0.275
+Korean,Male,28,고쳐,40,understands,0
+Korean,Female,29,고쳐,49,produces,0.449
+Korean,Female,29,고쳐,49,understands,0
+Korean,Male,29,고쳐,51,produces,0.3725
+Korean,Male,29,고쳐,51,understands,0
+Korean,Female,30,고쳐,34,produces,0.4412
+Korean,Female,30,고쳐,34,understands,0
+Korean,Male,30,고쳐,47,produces,0.4681
+Korean,Male,30,고쳐,47,understands,0
+Korean,Female,31,고쳐,31,produces,0.4194
+Korean,Female,31,고쳐,31,understands,0
+Korean,Male,31,고쳐,48,produces,0.6042
+Korean,Male,31,고쳐,48,understands,0
+Korean,Female,32,고쳐,33,produces,0.5152
+Korean,Female,32,고쳐,33,understands,0
+Korean,Male,32,고쳐,36,produces,0.3611
+Korean,Male,32,고쳐,36,understands,0
+Korean,Female,33,고쳐,36,produces,0.6111
+Korean,Female,33,고쳐,36,understands,0
+Korean,Male,33,고쳐,43,produces,0.3721
+Korean,Male,33,고쳐,43,understands,0
+Korean,Female,34,고쳐,41,produces,0.8049
+Korean,Female,34,고쳐,41,understands,0
+Korean,Male,34,고쳐,38,produces,0.5526
+Korean,Male,34,고쳐,38,understands,0
+Korean,Female,35,고쳐,37,produces,0.5135
+Korean,Female,35,고쳐,37,understands,0
+Korean,Male,35,고쳐,37,produces,0.6757
+Korean,Male,35,고쳐,37,understands,0
+Korean,Female,36,고쳐,40,produces,0.7
+Korean,Female,36,고쳐,40,understands,0
+Korean,Male,36,고쳐,35,produces,0.6857
+Korean,Male,36,고쳐,35,understands,0
+Mandarin (Beijing),Female,16,修,35,produces,0
+Mandarin (Beijing),Female,16,修,35,understands,0
+Mandarin (Beijing),Male,16,修,35,produces,0.0286
+Mandarin (Beijing),Male,16,修,35,understands,0
+Mandarin (Beijing),Female,17,修,35,produces,0.1714
+Mandarin (Beijing),Female,17,修,35,understands,0
+Mandarin (Beijing),Male,17,修,37,produces,0.1351
+Mandarin (Beijing),Male,17,修,37,understands,0
+Mandarin (Beijing),Female,18,修,35,produces,0.2286
+Mandarin (Beijing),Female,18,修,35,understands,0
+Mandarin (Beijing),Male,18,修,36,produces,0.2222
+Mandarin (Beijing),Male,18,修,36,understands,0
+Mandarin (Beijing),Female,19,修,35,produces,0.3714
+Mandarin (Beijing),Female,19,修,35,understands,0
+Mandarin (Beijing),Male,19,修,35,produces,0.2857
+Mandarin (Beijing),Male,19,修,35,understands,0
+Mandarin (Beijing),Female,20,修,35,produces,0.5143
+Mandarin (Beijing),Female,20,修,35,understands,0
+Mandarin (Beijing),Male,20,修,36,produces,0.5278
+Mandarin (Beijing),Male,20,修,36,understands,0
+Mandarin (Beijing),Female,21,修,35,produces,0.6
+Mandarin (Beijing),Female,21,修,35,understands,0
+Mandarin (Beijing),Male,21,修,35,produces,0.4286
+Mandarin (Beijing),Male,21,修,35,understands,0
+Mandarin (Beijing),Female,22,修,35,produces,0.6571
+Mandarin (Beijing),Female,22,修,35,understands,0
+Mandarin (Beijing),Male,22,修,36,produces,0.6389
+Mandarin (Beijing),Male,22,修,36,understands,0
+Mandarin (Beijing),Female,23,修,35,produces,0.7143
+Mandarin (Beijing),Female,23,修,35,understands,0
+Mandarin (Beijing),Male,23,修,35,produces,0.7143
+Mandarin (Beijing),Male,23,修,35,understands,0
+Mandarin (Beijing),Female,24,修,35,produces,0.8286
+Mandarin (Beijing),Female,24,修,35,understands,0
+Mandarin (Beijing),Male,24,修,35,produces,0.7429
+Mandarin (Beijing),Male,24,修,35,understands,0
+Mandarin (Beijing),Female,25,修,35,produces,0.9143
+Mandarin (Beijing),Female,25,修,35,understands,0
+Mandarin (Beijing),Male,25,修,35,produces,0.9143
+Mandarin (Beijing),Male,25,修,35,understands,0
+Mandarin (Beijing),Female,26,修,36,produces,0.8889
+Mandarin (Beijing),Female,26,修,36,understands,0
+Mandarin (Beijing),Male,26,修,35,produces,0.8857
+Mandarin (Beijing),Male,26,修,35,understands,0
+Mandarin (Beijing),Female,27,修,35,produces,0.8286
+Mandarin (Beijing),Female,27,修,35,understands,0
+Mandarin (Beijing),Male,27,修,35,produces,0.8857
+Mandarin (Beijing),Male,27,修,35,understands,0
+Mandarin (Beijing),Female,28,修,35,produces,0.9429
+Mandarin (Beijing),Female,28,修,35,understands,0
+Mandarin (Beijing),Male,28,修,35,produces,0.9143
+Mandarin (Beijing),Male,28,修,35,understands,0
+Mandarin (Beijing),Female,29,修,35,produces,0.9714
+Mandarin (Beijing),Female,29,修,35,understands,0
+Mandarin (Beijing),Male,29,修,35,produces,0.9429
+Mandarin (Beijing),Male,29,修,35,understands,0
+Mandarin (Beijing),Female,30,修,35,produces,0.9143
+Mandarin (Beijing),Female,30,修,35,understands,0
+Mandarin (Beijing),Male,30,修,35,produces,1
+Mandarin (Beijing),Male,30,修,35,understands,0
+Slovak,Female,17,opraviť,39,produces,0.0256
+Slovak,Female,17,opraviť,39,understands,0
+Slovak,Male,17,opraviť,31,produces,0.0645
+Slovak,Male,17,opraviť,31,understands,0
+Slovak,Female,18,opraviť,30,produces,0.0333
+Slovak,Female,18,opraviť,30,understands,0
+Slovak,Male,18,opraviť,35,produces,0.0857
+Slovak,Male,18,opraviť,35,understands,0
+Slovak,Female,19,opraviť,30,produces,0.2
+Slovak,Female,19,opraviť,30,understands,0
+Slovak,Male,19,opraviť,26,produces,0.0769
+Slovak,Male,19,opraviť,26,understands,0
+Slovak,Female,20,opraviť,33,produces,0.2424
+Slovak,Female,20,opraviť,33,understands,0
+Slovak,Male,20,opraviť,29,produces,0.2069
+Slovak,Male,20,opraviť,29,understands,0
+Slovak,Female,21,opraviť,40,produces,0.3
+Slovak,Female,21,opraviť,40,understands,0
+Slovak,Male,21,opraviť,41,produces,0.2195
+Slovak,Male,21,opraviť,41,understands,0
+Slovak,Female,22,opraviť,27,produces,0.4815
+Slovak,Female,22,opraviť,27,understands,0
+Slovak,Male,22,opraviť,26,produces,0.1154
+Slovak,Male,22,opraviť,26,understands,0
+Slovak,Female,23,opraviť,28,produces,0.3929
+Slovak,Female,23,opraviť,28,understands,0
+Slovak,Male,23,opraviť,31,produces,0.3871
+Slovak,Male,23,opraviť,31,understands,0
+Slovak,Female,24,opraviť,28,produces,0.6786
+Slovak,Female,24,opraviť,28,understands,0
+Slovak,Male,24,opraviť,31,produces,0.5484
+Slovak,Male,24,opraviť,31,understands,0
+Slovak,Female,25,opraviť,35,produces,0.5429
+Slovak,Female,25,opraviť,35,understands,0
+Slovak,Male,25,opraviť,34,produces,0.5294
+Slovak,Male,25,opraviť,34,understands,0
+Slovak,Female,26,opraviť,43,produces,0.7907
+Slovak,Female,26,opraviť,43,understands,0
+Slovak,Male,26,opraviť,35,produces,0.7143
+Slovak,Male,26,opraviť,35,understands,0
+Slovak,Female,27,opraviť,33,produces,0.7879
+Slovak,Female,27,opraviť,33,understands,0
+Slovak,Male,27,opraviť,29,produces,0.6897
+Slovak,Male,27,opraviť,29,understands,0
+Slovak,Female,28,opraviť,48,produces,0.6875
+Slovak,Female,28,opraviť,48,understands,0
+Slovak,Male,28,opraviť,38,produces,0.7105
+Slovak,Male,28,opraviť,38,understands,0
+Slovak,Female,29,opraviť,36,produces,0.8056
+Slovak,Female,29,opraviť,36,understands,0
+Slovak,Male,29,opraviť,39,produces,0.6667
+Slovak,Male,29,opraviť,39,understands,0
+Slovak,Female,30,opraviť,19,produces,0.7895
+Slovak,Female,30,opraviť,19,understands,0
+Slovak,Male,30,opraviť,30,produces,0.7667
+Slovak,Male,30,opraviť,30,understands,0
+Slovak,Female,31,opraviť,16,produces,0.625
+Slovak,Female,31,opraviť,16,understands,0
+Slovak,Male,31,opraviť,13,produces,0.6923
+Slovak,Male,31,opraviť,13,understands,0
+Slovak,Female,32,opraviť,12,produces,0.9167
+Slovak,Female,32,opraviť,12,understands,0
+Slovak,Male,32,opraviť,13,produces,0.8462
+Slovak,Male,32,opraviť,13,understands,0
+Slovak,Female,33,opraviť,12,produces,0.9167
+Slovak,Female,33,opraviť,12,understands,0
+Slovak,Male,33,opraviť,10,produces,0.9
+Slovak,Male,33,opraviť,10,understands,0
+Slovak,Female,34,opraviť,17,produces,0.9412
+Slovak,Female,34,opraviť,17,understands,0
+Slovak,Male,34,opraviť,10,produces,0.8
+Slovak,Male,34,opraviť,10,understands,0
+Slovak,Female,35,opraviť,9,produces,1
+Slovak,Female,35,opraviť,9,understands,0
+Slovak,Male,35,opraviť,18,produces,0.6667
+Slovak,Male,35,opraviť,18,understands,0
+Slovak,Female,36,opraviť,2,produces,1
+Slovak,Female,36,opraviť,2,understands,0
+Slovak,Male,36,opraviť,6,produces,0.6667
+Slovak,Male,36,opraviť,6,understands,0
+Spanish (Argentinian),Female,16,arreglar_se,30,produces,0
+Spanish (Argentinian),Female,16,arreglar_se,30,understands,0
+Spanish (Argentinian),Male,16,arreglar_se,17,produces,0
+Spanish (Argentinian),Male,16,arreglar_se,17,understands,0
+Spanish (Argentinian),Female,17,arreglar_se,20,produces,0
+Spanish (Argentinian),Female,17,arreglar_se,20,understands,0
+Spanish (Argentinian),Male,17,arreglar_se,29,produces,0.0345
+Spanish (Argentinian),Male,17,arreglar_se,29,understands,0
+Spanish (Argentinian),Female,18,arreglar_se,43,produces,0
+Spanish (Argentinian),Female,18,arreglar_se,43,understands,0
+Spanish (Argentinian),Male,18,arreglar_se,19,produces,0
+Spanish (Argentinian),Male,18,arreglar_se,19,understands,0
+Spanish (Argentinian),Female,19,arreglar_se,25,produces,0.04
+Spanish (Argentinian),Female,19,arreglar_se,25,understands,0
+Spanish (Argentinian),Male,19,arreglar_se,19,produces,0.0526
+Spanish (Argentinian),Male,19,arreglar_se,19,understands,0
+Spanish (Argentinian),Female,20,arreglar_se,22,produces,0
+Spanish (Argentinian),Female,20,arreglar_se,22,understands,0
+Spanish (Argentinian),Male,20,arreglar_se,24,produces,0
+Spanish (Argentinian),Male,20,arreglar_se,24,understands,0
+Spanish (Argentinian),Female,21,arreglar_se,15,produces,0
+Spanish (Argentinian),Female,21,arreglar_se,15,understands,0
+Spanish (Argentinian),Male,21,arreglar_se,26,produces,0.1154
+Spanish (Argentinian),Male,21,arreglar_se,26,understands,0
+Spanish (Argentinian),Female,22,arreglar_se,25,produces,0.08
+Spanish (Argentinian),Female,22,arreglar_se,25,understands,0
+Spanish (Argentinian),Male,22,arreglar_se,32,produces,0
+Spanish (Argentinian),Male,22,arreglar_se,32,understands,0
+Spanish (Argentinian),Female,23,arreglar_se,30,produces,0.0333
+Spanish (Argentinian),Female,23,arreglar_se,30,understands,0
+Spanish (Argentinian),Male,23,arreglar_se,19,produces,0
+Spanish (Argentinian),Male,23,arreglar_se,19,understands,0
+Spanish (Argentinian),Female,24,arreglar_se,44,produces,0.0227
+Spanish (Argentinian),Female,24,arreglar_se,44,understands,0
+Spanish (Argentinian),Male,24,arreglar_se,31,produces,0.1935
+Spanish (Argentinian),Male,24,arreglar_se,31,understands,0
+Spanish (Argentinian),Female,25,arreglar_se,24,produces,0.1667
+Spanish (Argentinian),Female,25,arreglar_se,24,understands,0
+Spanish (Argentinian),Male,25,arreglar_se,19,produces,0.1053
+Spanish (Argentinian),Male,25,arreglar_se,19,understands,0
+Spanish (Argentinian),Female,26,arreglar_se,17,produces,0.1765
+Spanish (Argentinian),Female,26,arreglar_se,17,understands,0
+Spanish (Argentinian),Male,26,arreglar_se,28,produces,0.1071
+Spanish (Argentinian),Male,26,arreglar_se,28,understands,0
+Spanish (Argentinian),Female,27,arreglar_se,18,produces,0.1111
+Spanish (Argentinian),Female,27,arreglar_se,18,understands,0
+Spanish (Argentinian),Male,27,arreglar_se,26,produces,0.1923
+Spanish (Argentinian),Male,27,arreglar_se,26,understands,0
+Spanish (Argentinian),Female,28,arreglar_se,18,produces,0.1667
+Spanish (Argentinian),Female,28,arreglar_se,18,understands,0
+Spanish (Argentinian),Male,28,arreglar_se,24,produces,0.2917
+Spanish (Argentinian),Male,28,arreglar_se,24,understands,0
+Spanish (Argentinian),Female,29,arreglar_se,36,produces,0.3333
+Spanish (Argentinian),Female,29,arreglar_se,36,understands,0
+Spanish (Argentinian),Male,29,arreglar_se,29,produces,0.2759
+Spanish (Argentinian),Male,29,arreglar_se,29,understands,0
+Spanish (Argentinian),Female,30,arreglar_se,31,produces,0.3871
+Spanish (Argentinian),Female,30,arreglar_se,31,understands,0
+Spanish (Argentinian),Male,30,arreglar_se,38,produces,0.2895
+Spanish (Argentinian),Male,30,arreglar_se,38,understands,0
+Spanish (Argentinian),Female,31,arreglar_se,1,produces,0
+Spanish (Argentinian),Female,31,arreglar_se,1,understands,0
+Spanish (Argentinian),Male,31,arreglar_se,1,produces,0
+Spanish (Argentinian),Male,31,arreglar_se,1,understands,0
+Spanish (Argentinian),Female,32,arreglar_se,1,produces,0
+Spanish (Argentinian),Female,32,arreglar_se,1,understands,0
+Spanish (Argentinian),Male,33,arreglar_se,2,produces,0
+Spanish (Argentinian),Male,33,arreglar_se,2,understands,0
+Spanish (Mexican),Female,16,arreglar(se),34,produces,0.0294
+Spanish (Mexican),Female,16,arreglar(se),34,understands,0
+Spanish (Mexican),Male,16,arreglar(se),34,produces,0
+Spanish (Mexican),Male,16,arreglar(se),34,understands,0
+Spanish (Mexican),Female,17,arreglar(se),34,produces,0.0294
+Spanish (Mexican),Female,17,arreglar(se),34,understands,0
+Spanish (Mexican),Male,17,arreglar(se),25,produces,0
+Spanish (Mexican),Male,17,arreglar(se),25,understands,0
+Spanish (Mexican),Female,18,arreglar(se),35,produces,0.0571
+Spanish (Mexican),Female,18,arreglar(se),35,understands,0
+Spanish (Mexican),Male,18,arreglar(se),40,produces,0.1
+Spanish (Mexican),Male,18,arreglar(se),40,understands,0
+Spanish (Mexican),Female,19,arreglar(se),47,produces,0.1064
+Spanish (Mexican),Female,19,arreglar(se),47,understands,0
+Spanish (Mexican),Male,19,arreglar(se),53,produces,0.1509
+Spanish (Mexican),Male,19,arreglar(se),53,understands,0
+Spanish (Mexican),Female,20,arreglar(se),53,produces,0.2264
+Spanish (Mexican),Female,20,arreglar(se),53,understands,0
+Spanish (Mexican),Male,20,arreglar(se),54,produces,0.037
+Spanish (Mexican),Male,20,arreglar(se),54,understands,0
+Spanish (Mexican),Female,21,arreglar(se),37,produces,0.1351
+Spanish (Mexican),Female,21,arreglar(se),37,understands,0
+Spanish (Mexican),Male,21,arreglar(se),47,produces,0.0851
+Spanish (Mexican),Male,21,arreglar(se),47,understands,0
+Spanish (Mexican),Female,22,arreglar(se),64,produces,0.0625
+Spanish (Mexican),Female,22,arreglar(se),64,understands,0
+Spanish (Mexican),Male,22,arreglar(se),67,produces,0.0448
+Spanish (Mexican),Male,22,arreglar(se),67,understands,0
+Spanish (Mexican),Female,23,arreglar(se),49,produces,0.0408
+Spanish (Mexican),Female,23,arreglar(se),49,understands,0
+Spanish (Mexican),Male,23,arreglar(se),42,produces,0.119
+Spanish (Mexican),Male,23,arreglar(se),42,understands,0
+Spanish (Mexican),Female,24,arreglar(se),63,produces,0.2381
+Spanish (Mexican),Female,24,arreglar(se),63,understands,0
+Spanish (Mexican),Male,24,arreglar(se),63,produces,0.127
+Spanish (Mexican),Male,24,arreglar(se),63,understands,0
+Spanish (Mexican),Female,25,arreglar(se),78,produces,0.141
+Spanish (Mexican),Female,25,arreglar(se),78,understands,0
+Spanish (Mexican),Male,25,arreglar(se),89,produces,0.191
+Spanish (Mexican),Male,25,arreglar(se),89,understands,0
+Spanish (Mexican),Female,26,arreglar(se),38,produces,0.3421
+Spanish (Mexican),Female,26,arreglar(se),38,understands,0
+Spanish (Mexican),Male,26,arreglar(se),45,produces,0.2444
+Spanish (Mexican),Male,26,arreglar(se),45,understands,0
+Spanish (Mexican),Female,27,arreglar(se),45,produces,0.2667
+Spanish (Mexican),Female,27,arreglar(se),45,understands,0
+Spanish (Mexican),Male,27,arreglar(se),40,produces,0.15
+Spanish (Mexican),Male,27,arreglar(se),40,understands,0
+Spanish (Mexican),Female,28,arreglar(se),44,produces,0.4773
+Spanish (Mexican),Female,28,arreglar(se),44,understands,0
+Spanish (Mexican),Male,28,arreglar(se),45,produces,0.2
+Spanish (Mexican),Male,28,arreglar(se),45,understands,0
+Spanish (Mexican),Female,29,arreglar(se),51,produces,0.4706
+Spanish (Mexican),Female,29,arreglar(se),51,understands,0
+Spanish (Mexican),Male,29,arreglar(se),38,produces,0.2105
+Spanish (Mexican),Male,29,arreglar(se),38,understands,0
+Spanish (Mexican),Female,30,arreglar(se),146,produces,0.2397
+Spanish (Mexican),Female,30,arreglar(se),146,understands,0
+Spanish (Mexican),Male,30,arreglar(se),152,produces,0.1842
+Spanish (Mexican),Male,30,arreglar(se),152,understands,0
+Swedish,Female,16,laga,90,produces,0
+Swedish,Female,16,laga,90,understands,0
+Swedish,Male,16,laga,66,produces,0.0152
+Swedish,Male,16,laga,66,understands,0
+Swedish,Female,19,laga,85,produces,0.0118
+Swedish,Female,19,laga,85,understands,0
+Swedish,Male,19,laga,65,produces,0.0769
+Swedish,Male,19,laga,65,understands,0
+Swedish,Female,22,laga,162,produces,0.2037
+Swedish,Female,22,laga,162,understands,0
+Swedish,Male,22,laga,143,produces,0.2448
+Swedish,Male,22,laga,143,understands,0
+Swedish,Female,25,laga,67,produces,0.5373
+Swedish,Female,25,laga,67,understands,0
+Swedish,Male,25,laga,76,produces,0.4737
+Swedish,Male,25,laga,76,understands,0
+Swedish,Female,28,laga,69,produces,0.7826
+Swedish,Female,28,laga,69,understands,0
+Swedish,Male,28,laga,70,produces,0.6429
+Swedish,Male,28,laga,70,understands,0

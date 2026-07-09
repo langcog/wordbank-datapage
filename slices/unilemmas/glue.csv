@@ -1,49 +1,145 @@
-language,age,words,n,measure,prop
-Arabic (Saudi),8,صمغ/ غراء (غرا),24,produces,0
-Arabic (Saudi),8,صمغ/ غراء (غرا),24,understands,0.0833
-Arabic (Saudi),9,صمغ/ غراء (غرا),27,produces,0
-Arabic (Saudi),9,صمغ/ غراء (غرا),27,understands,0.037
-Arabic (Saudi),10,صمغ/ غراء (غرا),35,produces,0.0286
-Arabic (Saudi),10,صمغ/ غراء (غرا),35,understands,0.0857
-Arabic (Saudi),11,صمغ/ غراء (غرا),30,produces,0
-Arabic (Saudi),11,صمغ/ غراء (غرا),30,understands,0.0333
-Arabic (Saudi),12,صمغ/ غراء (غرا),30,produces,0
-Arabic (Saudi),12,صمغ/ غراء (غرا),30,understands,0
-Arabic (Saudi),13,صمغ/ غراء (غرا),39,produces,0
-Arabic (Saudi),13,صمغ/ غراء (غرا),39,understands,0
-Arabic (Saudi),14,صمغ/ غراء (غرا),25,produces,0
-Arabic (Saudi),14,صمغ/ غراء (غرا),25,understands,0
-Arabic (Saudi),15,صمغ/ غراء (غرا),27,produces,0.037
-Arabic (Saudi),15,صمغ/ غراء (غرا),27,understands,0.1111
-Arabic (Saudi),16,صمغ/ غراء (غرا),21,produces,0
-Arabic (Saudi),16,صمغ/ غراء (غرا),21,understands,0.0476
-Estonian,16,liim,36,produces,0
-Estonian,16,liim,36,understands,0
-Estonian,17,liim,89,produces,0.0112
-Estonian,17,liim,89,understands,0
-Estonian,18,liim,103,produces,0.0388
-Estonian,18,liim,103,understands,0
-Estonian,19,liim,85,produces,0.0353
-Estonian,19,liim,85,understands,0
-Estonian,20,liim,60,produces,0.1167
-Estonian,20,liim,60,understands,0
-Estonian,21,liim,66,produces,0.0606
-Estonian,21,liim,66,understands,0
-Estonian,22,liim,76,produces,0.0658
-Estonian,22,liim,76,understands,0
-Estonian,23,liim,95,produces,0.2
-Estonian,23,liim,95,understands,0
-Estonian,24,liim,116,produces,0.2328
-Estonian,24,liim,116,understands,0
-Estonian,25,liim,82,produces,0.3293
-Estonian,25,liim,82,understands,0
-Estonian,26,liim,84,produces,0.2976
-Estonian,26,liim,84,understands,0
-Estonian,27,liim,80,produces,0.3625
-Estonian,27,liim,80,understands,0
-Estonian,28,liim,92,produces,0.4565
-Estonian,28,liim,92,understands,0
-Estonian,29,liim,100,produces,0.44
-Estonian,29,liim,100,understands,0
-Estonian,30,liim,71,produces,0.493
-Estonian,30,liim,71,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,صمغ/ غراء (غرا),24,produces,0
+Arabic (Saudi),All,8,صمغ/ غراء (غرا),24,understands,0.0833
+Arabic (Saudi),All,9,صمغ/ غراء (غرا),27,produces,0
+Arabic (Saudi),All,9,صمغ/ غراء (غرا),27,understands,0.037
+Arabic (Saudi),All,10,صمغ/ غراء (غرا),35,produces,0.0286
+Arabic (Saudi),All,10,صمغ/ غراء (غرا),35,understands,0.0857
+Arabic (Saudi),All,11,صمغ/ غراء (غرا),30,produces,0
+Arabic (Saudi),All,11,صمغ/ غراء (غرا),30,understands,0.0333
+Arabic (Saudi),All,12,صمغ/ غراء (غرا),30,produces,0
+Arabic (Saudi),All,12,صمغ/ غراء (غرا),30,understands,0
+Arabic (Saudi),All,13,صمغ/ غراء (غرا),39,produces,0
+Arabic (Saudi),All,13,صمغ/ غراء (غرا),39,understands,0
+Arabic (Saudi),All,14,صمغ/ غراء (غرا),25,produces,0
+Arabic (Saudi),All,14,صمغ/ غراء (غرا),25,understands,0
+Arabic (Saudi),All,15,صمغ/ غراء (غرا),27,produces,0.037
+Arabic (Saudi),All,15,صمغ/ غراء (غرا),27,understands,0.1111
+Arabic (Saudi),All,16,صمغ/ غراء (غرا),21,produces,0
+Arabic (Saudi),All,16,صمغ/ غراء (غرا),21,understands,0.0476
+Estonian,All,16,liim,36,produces,0
+Estonian,All,16,liim,36,understands,0
+Estonian,All,17,liim,89,produces,0.0112
+Estonian,All,17,liim,89,understands,0
+Estonian,All,18,liim,103,produces,0.0388
+Estonian,All,18,liim,103,understands,0
+Estonian,All,19,liim,85,produces,0.0353
+Estonian,All,19,liim,85,understands,0
+Estonian,All,20,liim,60,produces,0.1167
+Estonian,All,20,liim,60,understands,0
+Estonian,All,21,liim,66,produces,0.0606
+Estonian,All,21,liim,66,understands,0
+Estonian,All,22,liim,76,produces,0.0658
+Estonian,All,22,liim,76,understands,0
+Estonian,All,23,liim,95,produces,0.2
+Estonian,All,23,liim,95,understands,0
+Estonian,All,24,liim,116,produces,0.2328
+Estonian,All,24,liim,116,understands,0
+Estonian,All,25,liim,82,produces,0.3293
+Estonian,All,25,liim,82,understands,0
+Estonian,All,26,liim,84,produces,0.2976
+Estonian,All,26,liim,84,understands,0
+Estonian,All,27,liim,80,produces,0.3625
+Estonian,All,27,liim,80,understands,0
+Estonian,All,28,liim,92,produces,0.4565
+Estonian,All,28,liim,92,understands,0
+Estonian,All,29,liim,100,produces,0.44
+Estonian,All,29,liim,100,understands,0
+Estonian,All,30,liim,71,produces,0.493
+Estonian,All,30,liim,71,understands,0
+Arabic (Saudi),Female,8,صمغ/ غراء (غرا),13,produces,0
+Arabic (Saudi),Female,8,صمغ/ غراء (غرا),13,understands,0.1538
+Arabic (Saudi),Male,8,صمغ/ غراء (غرا),11,produces,0
+Arabic (Saudi),Male,8,صمغ/ غراء (غرا),11,understands,0
+Arabic (Saudi),Female,9,صمغ/ غراء (غرا),14,produces,0
+Arabic (Saudi),Female,9,صمغ/ غراء (غرا),14,understands,0
+Arabic (Saudi),Male,9,صمغ/ غراء (غرا),13,produces,0
+Arabic (Saudi),Male,9,صمغ/ غراء (غرا),13,understands,0.0769
+Arabic (Saudi),Female,10,صمغ/ غراء (غرا),15,produces,0
+Arabic (Saudi),Female,10,صمغ/ غراء (غرا),15,understands,0.0667
+Arabic (Saudi),Male,10,صمغ/ غراء (غرا),20,produces,0.05
+Arabic (Saudi),Male,10,صمغ/ غراء (غرا),20,understands,0.1
+Arabic (Saudi),Female,11,صمغ/ غراء (غرا),14,produces,0
+Arabic (Saudi),Female,11,صمغ/ غراء (غرا),14,understands,0
+Arabic (Saudi),Male,11,صمغ/ غراء (غرا),16,produces,0
+Arabic (Saudi),Male,11,صمغ/ غراء (غرا),16,understands,0.0625
+Arabic (Saudi),Female,12,صمغ/ غراء (غرا),14,produces,0
+Arabic (Saudi),Female,12,صمغ/ غراء (غرا),14,understands,0
+Arabic (Saudi),Male,12,صمغ/ غراء (غرا),16,produces,0
+Arabic (Saudi),Male,12,صمغ/ غراء (غرا),16,understands,0
+Arabic (Saudi),Female,13,صمغ/ غراء (غرا),17,produces,0
+Arabic (Saudi),Female,13,صمغ/ غراء (غرا),17,understands,0
+Arabic (Saudi),Male,13,صمغ/ غراء (غرا),22,produces,0
+Arabic (Saudi),Male,13,صمغ/ غراء (غرا),22,understands,0
+Arabic (Saudi),Female,14,صمغ/ غراء (غرا),10,produces,0
+Arabic (Saudi),Female,14,صمغ/ غراء (غرا),10,understands,0
+Arabic (Saudi),Male,14,صمغ/ غراء (غرا),15,produces,0
+Arabic (Saudi),Male,14,صمغ/ غراء (غرا),15,understands,0
+Arabic (Saudi),Female,15,صمغ/ غراء (غرا),12,produces,0
+Arabic (Saudi),Female,15,صمغ/ غراء (غرا),12,understands,0.1667
+Arabic (Saudi),Male,15,صمغ/ غراء (غرا),15,produces,0.0667
+Arabic (Saudi),Male,15,صمغ/ غراء (غرا),15,understands,0.0667
+Arabic (Saudi),Female,16,صمغ/ غراء (غرا),10,produces,0
+Arabic (Saudi),Female,16,صمغ/ غراء (غرا),10,understands,0.1
+Arabic (Saudi),Male,16,صمغ/ غراء (غرا),11,produces,0
+Arabic (Saudi),Male,16,صمغ/ غراء (غرا),11,understands,0
+Estonian,Female,16,liim,19,produces,0
+Estonian,Female,16,liim,19,understands,0
+Estonian,Male,16,liim,17,produces,0
+Estonian,Male,16,liim,17,understands,0
+Estonian,Female,17,liim,42,produces,0.0238
+Estonian,Female,17,liim,42,understands,0
+Estonian,Male,17,liim,47,produces,0
+Estonian,Male,17,liim,47,understands,0
+Estonian,Female,18,liim,52,produces,0.0577
+Estonian,Female,18,liim,52,understands,0
+Estonian,Male,18,liim,51,produces,0.0196
+Estonian,Male,18,liim,51,understands,0
+Estonian,Female,19,liim,44,produces,0
+Estonian,Female,19,liim,44,understands,0
+Estonian,Male,19,liim,41,produces,0.0732
+Estonian,Male,19,liim,41,understands,0
+Estonian,Female,20,liim,36,produces,0.1111
+Estonian,Female,20,liim,36,understands,0
+Estonian,Male,20,liim,24,produces,0.125
+Estonian,Male,20,liim,24,understands,0
+Estonian,Female,21,liim,28,produces,0.1071
+Estonian,Female,21,liim,28,understands,0
+Estonian,Male,21,liim,38,produces,0.0263
+Estonian,Male,21,liim,38,understands,0
+Estonian,Female,22,liim,45,produces,0.1111
+Estonian,Female,22,liim,45,understands,0
+Estonian,Male,22,liim,31,produces,0
+Estonian,Male,22,liim,31,understands,0
+Estonian,Female,23,liim,48,produces,0.2083
+Estonian,Female,23,liim,48,understands,0
+Estonian,Male,23,liim,47,produces,0.1915
+Estonian,Male,23,liim,47,understands,0
+Estonian,Female,24,liim,52,produces,0.2308
+Estonian,Female,24,liim,52,understands,0
+Estonian,Male,24,liim,64,produces,0.2344
+Estonian,Male,24,liim,64,understands,0
+Estonian,Female,25,liim,45,produces,0.3556
+Estonian,Female,25,liim,45,understands,0
+Estonian,Male,25,liim,37,produces,0.2973
+Estonian,Male,25,liim,37,understands,0
+Estonian,Female,26,liim,45,produces,0.4
+Estonian,Female,26,liim,45,understands,0
+Estonian,Male,26,liim,39,produces,0.1795
+Estonian,Male,26,liim,39,understands,0
+Estonian,Female,27,liim,44,produces,0.4545
+Estonian,Female,27,liim,44,understands,0
+Estonian,Male,27,liim,36,produces,0.25
+Estonian,Male,27,liim,36,understands,0
+Estonian,Female,28,liim,44,produces,0.5909
+Estonian,Female,28,liim,44,understands,0
+Estonian,Male,28,liim,48,produces,0.3333
+Estonian,Male,28,liim,48,understands,0
+Estonian,Female,29,liim,59,produces,0.5085
+Estonian,Female,29,liim,59,understands,0
+Estonian,Male,29,liim,41,produces,0.3415
+Estonian,Male,29,liim,41,understands,0
+Estonian,Female,30,liim,37,produces,0.4865
+Estonian,Female,30,liim,37,understands,0
+Estonian,Male,30,liim,34,produces,0.5
+Estonian,Male,30,liim,34,understands,0

@@ -1,81 +1,233 @@
-language,age,words,n,measure,prop
-English (Irish),17,foggy,2,produces,0
-English (Irish),17,foggy,2,understands,0
-English (Irish),18,foggy,1,produces,0
-English (Irish),18,foggy,1,understands,0
-English (Irish),19,foggy,2,produces,0
-English (Irish),19,foggy,2,understands,0
-English (Irish),20,foggy,1,produces,0
-English (Irish),20,foggy,1,understands,0
-English (Irish),21,foggy,3,produces,0
-English (Irish),21,foggy,3,understands,0
-English (Irish),22,foggy,4,produces,0
-English (Irish),22,foggy,4,understands,0
-English (Irish),23,foggy,4,produces,0
-English (Irish),23,foggy,4,understands,0
-English (Irish),24,foggy,4,produces,0
-English (Irish),24,foggy,4,understands,0
-English (Irish),25,foggy,6,produces,0
-English (Irish),25,foggy,6,understands,0
-English (Irish),26,foggy,10,produces,0
-English (Irish),26,foggy,10,understands,0
-English (Irish),27,foggy,5,produces,0
-English (Irish),27,foggy,5,understands,0
-English (Irish),28,foggy,7,produces,0.1429
-English (Irish),28,foggy,7,understands,0
-English (Irish),29,foggy,4,produces,0
-English (Irish),29,foggy,4,understands,0
-English (Irish),30,foggy,9,produces,0.1111
-English (Irish),30,foggy,9,understands,0
-English (Irish),31,foggy,8,produces,0
-English (Irish),31,foggy,8,understands,0
-English (Irish),32,foggy,4,produces,0.25
-English (Irish),32,foggy,4,understands,0
-English (Irish),33,foggy,5,produces,0
-English (Irish),33,foggy,5,understands,0
-English (Irish),34,foggy,4,produces,0
-English (Irish),34,foggy,4,understands,0
-English (Irish),35,foggy,11,produces,0.0909
-English (Irish),35,foggy,11,understands,0
-English (Irish),36,foggy,5,produces,0
-English (Irish),36,foggy,5,understands,0
-Irish,17,ceomhar,2,produces,0
-Irish,17,ceomhar,2,understands,0
-Irish,18,ceomhar,1,produces,0
-Irish,18,ceomhar,1,understands,0
-Irish,19,ceomhar,2,produces,0
-Irish,19,ceomhar,2,understands,0
-Irish,20,ceomhar,1,produces,0
-Irish,20,ceomhar,1,understands,0
-Irish,21,ceomhar,3,produces,0
-Irish,21,ceomhar,3,understands,0
-Irish,22,ceomhar,4,produces,0
-Irish,22,ceomhar,4,understands,0
-Irish,23,ceomhar,4,produces,0
-Irish,23,ceomhar,4,understands,0
-Irish,24,ceomhar,4,produces,0.25
-Irish,24,ceomhar,4,understands,0
-Irish,25,ceomhar,6,produces,0
-Irish,25,ceomhar,6,understands,0
-Irish,26,ceomhar,10,produces,0
-Irish,26,ceomhar,10,understands,0
-Irish,27,ceomhar,5,produces,0.2
-Irish,27,ceomhar,5,understands,0
-Irish,28,ceomhar,7,produces,0
-Irish,28,ceomhar,7,understands,0
-Irish,29,ceomhar,4,produces,0.25
-Irish,29,ceomhar,4,understands,0
-Irish,30,ceomhar,9,produces,0.1111
-Irish,30,ceomhar,9,understands,0
-Irish,31,ceomhar,8,produces,0.25
-Irish,31,ceomhar,8,understands,0
-Irish,32,ceomhar,4,produces,0
-Irish,32,ceomhar,4,understands,0
-Irish,33,ceomhar,5,produces,0.4
-Irish,33,ceomhar,5,understands,0
-Irish,34,ceomhar,4,produces,0
-Irish,34,ceomhar,4,understands,0
-Irish,35,ceomhar,11,produces,0.1818
-Irish,35,ceomhar,11,understands,0
-Irish,36,ceomhar,5,produces,0.2
-Irish,36,ceomhar,5,understands,0
+language,sex,age,words,n,measure,prop
+English (Irish),All,17,foggy,2,produces,0
+English (Irish),All,17,foggy,2,understands,0
+English (Irish),All,18,foggy,1,produces,0
+English (Irish),All,18,foggy,1,understands,0
+English (Irish),All,19,foggy,2,produces,0
+English (Irish),All,19,foggy,2,understands,0
+English (Irish),All,20,foggy,1,produces,0
+English (Irish),All,20,foggy,1,understands,0
+English (Irish),All,21,foggy,3,produces,0
+English (Irish),All,21,foggy,3,understands,0
+English (Irish),All,22,foggy,4,produces,0
+English (Irish),All,22,foggy,4,understands,0
+English (Irish),All,23,foggy,4,produces,0
+English (Irish),All,23,foggy,4,understands,0
+English (Irish),All,24,foggy,4,produces,0
+English (Irish),All,24,foggy,4,understands,0
+English (Irish),All,25,foggy,6,produces,0
+English (Irish),All,25,foggy,6,understands,0
+English (Irish),All,26,foggy,10,produces,0
+English (Irish),All,26,foggy,10,understands,0
+English (Irish),All,27,foggy,5,produces,0
+English (Irish),All,27,foggy,5,understands,0
+English (Irish),All,28,foggy,7,produces,0.1429
+English (Irish),All,28,foggy,7,understands,0
+English (Irish),All,29,foggy,4,produces,0
+English (Irish),All,29,foggy,4,understands,0
+English (Irish),All,30,foggy,9,produces,0.1111
+English (Irish),All,30,foggy,9,understands,0
+English (Irish),All,31,foggy,8,produces,0
+English (Irish),All,31,foggy,8,understands,0
+English (Irish),All,32,foggy,4,produces,0.25
+English (Irish),All,32,foggy,4,understands,0
+English (Irish),All,33,foggy,5,produces,0
+English (Irish),All,33,foggy,5,understands,0
+English (Irish),All,34,foggy,4,produces,0
+English (Irish),All,34,foggy,4,understands,0
+English (Irish),All,35,foggy,11,produces,0.0909
+English (Irish),All,35,foggy,11,understands,0
+English (Irish),All,36,foggy,5,produces,0
+English (Irish),All,36,foggy,5,understands,0
+Irish,All,17,ceomhar,2,produces,0
+Irish,All,17,ceomhar,2,understands,0
+Irish,All,18,ceomhar,1,produces,0
+Irish,All,18,ceomhar,1,understands,0
+Irish,All,19,ceomhar,2,produces,0
+Irish,All,19,ceomhar,2,understands,0
+Irish,All,20,ceomhar,1,produces,0
+Irish,All,20,ceomhar,1,understands,0
+Irish,All,21,ceomhar,3,produces,0
+Irish,All,21,ceomhar,3,understands,0
+Irish,All,22,ceomhar,4,produces,0
+Irish,All,22,ceomhar,4,understands,0
+Irish,All,23,ceomhar,4,produces,0
+Irish,All,23,ceomhar,4,understands,0
+Irish,All,24,ceomhar,4,produces,0.25
+Irish,All,24,ceomhar,4,understands,0
+Irish,All,25,ceomhar,6,produces,0
+Irish,All,25,ceomhar,6,understands,0
+Irish,All,26,ceomhar,10,produces,0
+Irish,All,26,ceomhar,10,understands,0
+Irish,All,27,ceomhar,5,produces,0.2
+Irish,All,27,ceomhar,5,understands,0
+Irish,All,28,ceomhar,7,produces,0
+Irish,All,28,ceomhar,7,understands,0
+Irish,All,29,ceomhar,4,produces,0.25
+Irish,All,29,ceomhar,4,understands,0
+Irish,All,30,ceomhar,9,produces,0.1111
+Irish,All,30,ceomhar,9,understands,0
+Irish,All,31,ceomhar,8,produces,0.25
+Irish,All,31,ceomhar,8,understands,0
+Irish,All,32,ceomhar,4,produces,0
+Irish,All,32,ceomhar,4,understands,0
+Irish,All,33,ceomhar,5,produces,0.4
+Irish,All,33,ceomhar,5,understands,0
+Irish,All,34,ceomhar,4,produces,0
+Irish,All,34,ceomhar,4,understands,0
+Irish,All,35,ceomhar,11,produces,0.1818
+Irish,All,35,ceomhar,11,understands,0
+Irish,All,36,ceomhar,5,produces,0.2
+Irish,All,36,ceomhar,5,understands,0
+English (Irish),Female,17,foggy,1,produces,0
+English (Irish),Female,17,foggy,1,understands,0
+English (Irish),Male,17,foggy,1,produces,0
+English (Irish),Male,17,foggy,1,understands,0
+English (Irish),Female,18,foggy,1,produces,0
+English (Irish),Female,18,foggy,1,understands,0
+English (Irish),Female,19,foggy,1,produces,0
+English (Irish),Female,19,foggy,1,understands,0
+English (Irish),Male,19,foggy,1,produces,0
+English (Irish),Male,19,foggy,1,understands,0
+English (Irish),Female,20,foggy,1,produces,0
+English (Irish),Female,20,foggy,1,understands,0
+English (Irish),Female,21,foggy,2,produces,0
+English (Irish),Female,21,foggy,2,understands,0
+English (Irish),Male,21,foggy,1,produces,0
+English (Irish),Male,21,foggy,1,understands,0
+English (Irish),Female,22,foggy,3,produces,0
+English (Irish),Female,22,foggy,3,understands,0
+English (Irish),Male,22,foggy,1,produces,0
+English (Irish),Male,22,foggy,1,understands,0
+English (Irish),Female,23,foggy,2,produces,0
+English (Irish),Female,23,foggy,2,understands,0
+English (Irish),Male,23,foggy,2,produces,0
+English (Irish),Male,23,foggy,2,understands,0
+English (Irish),Female,24,foggy,2,produces,0
+English (Irish),Female,24,foggy,2,understands,0
+English (Irish),Male,24,foggy,2,produces,0
+English (Irish),Male,24,foggy,2,understands,0
+English (Irish),Female,25,foggy,3,produces,0
+English (Irish),Female,25,foggy,3,understands,0
+English (Irish),Male,25,foggy,3,produces,0
+English (Irish),Male,25,foggy,3,understands,0
+English (Irish),Female,26,foggy,7,produces,0
+English (Irish),Female,26,foggy,7,understands,0
+English (Irish),Male,26,foggy,3,produces,0
+English (Irish),Male,26,foggy,3,understands,0
+English (Irish),Female,27,foggy,1,produces,0
+English (Irish),Female,27,foggy,1,understands,0
+English (Irish),Male,27,foggy,4,produces,0
+English (Irish),Male,27,foggy,4,understands,0
+English (Irish),Female,28,foggy,4,produces,0
+English (Irish),Female,28,foggy,4,understands,0
+English (Irish),Male,28,foggy,3,produces,0.3333
+English (Irish),Male,28,foggy,3,understands,0
+English (Irish),Female,29,foggy,1,produces,0
+English (Irish),Female,29,foggy,1,understands,0
+English (Irish),Male,29,foggy,3,produces,0
+English (Irish),Male,29,foggy,3,understands,0
+English (Irish),Female,30,foggy,5,produces,0.2
+English (Irish),Female,30,foggy,5,understands,0
+English (Irish),Male,30,foggy,4,produces,0
+English (Irish),Male,30,foggy,4,understands,0
+English (Irish),Female,31,foggy,3,produces,0
+English (Irish),Female,31,foggy,3,understands,0
+English (Irish),Male,31,foggy,5,produces,0
+English (Irish),Male,31,foggy,5,understands,0
+English (Irish),Female,32,foggy,2,produces,0.5
+English (Irish),Female,32,foggy,2,understands,0
+English (Irish),Male,32,foggy,2,produces,0
+English (Irish),Male,32,foggy,2,understands,0
+English (Irish),Female,33,foggy,1,produces,0
+English (Irish),Female,33,foggy,1,understands,0
+English (Irish),Male,33,foggy,4,produces,0
+English (Irish),Male,33,foggy,4,understands,0
+English (Irish),Female,34,foggy,2,produces,0
+English (Irish),Female,34,foggy,2,understands,0
+English (Irish),Male,34,foggy,2,produces,0
+English (Irish),Male,34,foggy,2,understands,0
+English (Irish),Female,35,foggy,2,produces,0
+English (Irish),Female,35,foggy,2,understands,0
+English (Irish),Male,35,foggy,9,produces,0.1111
+English (Irish),Male,35,foggy,9,understands,0
+English (Irish),Female,36,foggy,3,produces,0
+English (Irish),Female,36,foggy,3,understands,0
+English (Irish),Male,36,foggy,2,produces,0
+English (Irish),Male,36,foggy,2,understands,0
+Irish,Female,17,ceomhar,1,produces,0
+Irish,Female,17,ceomhar,1,understands,0
+Irish,Male,17,ceomhar,1,produces,0
+Irish,Male,17,ceomhar,1,understands,0
+Irish,Female,18,ceomhar,1,produces,0
+Irish,Female,18,ceomhar,1,understands,0
+Irish,Female,19,ceomhar,1,produces,0
+Irish,Female,19,ceomhar,1,understands,0
+Irish,Male,19,ceomhar,1,produces,0
+Irish,Male,19,ceomhar,1,understands,0
+Irish,Female,20,ceomhar,1,produces,0
+Irish,Female,20,ceomhar,1,understands,0
+Irish,Female,21,ceomhar,2,produces,0
+Irish,Female,21,ceomhar,2,understands,0
+Irish,Male,21,ceomhar,1,produces,0
+Irish,Male,21,ceomhar,1,understands,0
+Irish,Female,22,ceomhar,3,produces,0
+Irish,Female,22,ceomhar,3,understands,0
+Irish,Male,22,ceomhar,1,produces,0
+Irish,Male,22,ceomhar,1,understands,0
+Irish,Female,23,ceomhar,2,produces,0
+Irish,Female,23,ceomhar,2,understands,0
+Irish,Male,23,ceomhar,2,produces,0
+Irish,Male,23,ceomhar,2,understands,0
+Irish,Female,24,ceomhar,2,produces,0.5
+Irish,Female,24,ceomhar,2,understands,0
+Irish,Male,24,ceomhar,2,produces,0
+Irish,Male,24,ceomhar,2,understands,0
+Irish,Female,25,ceomhar,3,produces,0
+Irish,Female,25,ceomhar,3,understands,0
+Irish,Male,25,ceomhar,3,produces,0
+Irish,Male,25,ceomhar,3,understands,0
+Irish,Female,26,ceomhar,7,produces,0
+Irish,Female,26,ceomhar,7,understands,0
+Irish,Male,26,ceomhar,3,produces,0
+Irish,Male,26,ceomhar,3,understands,0
+Irish,Female,27,ceomhar,1,produces,0
+Irish,Female,27,ceomhar,1,understands,0
+Irish,Male,27,ceomhar,4,produces,0.25
+Irish,Male,27,ceomhar,4,understands,0
+Irish,Female,28,ceomhar,4,produces,0
+Irish,Female,28,ceomhar,4,understands,0
+Irish,Male,28,ceomhar,3,produces,0
+Irish,Male,28,ceomhar,3,understands,0
+Irish,Female,29,ceomhar,1,produces,1
+Irish,Female,29,ceomhar,1,understands,0
+Irish,Male,29,ceomhar,3,produces,0
+Irish,Male,29,ceomhar,3,understands,0
+Irish,Female,30,ceomhar,5,produces,0.2
+Irish,Female,30,ceomhar,5,understands,0
+Irish,Male,30,ceomhar,4,produces,0
+Irish,Male,30,ceomhar,4,understands,0
+Irish,Female,31,ceomhar,3,produces,0.3333
+Irish,Female,31,ceomhar,3,understands,0
+Irish,Male,31,ceomhar,5,produces,0.2
+Irish,Male,31,ceomhar,5,understands,0
+Irish,Female,32,ceomhar,2,produces,0
+Irish,Female,32,ceomhar,2,understands,0
+Irish,Male,32,ceomhar,2,produces,0
+Irish,Male,32,ceomhar,2,understands,0
+Irish,Female,33,ceomhar,1,produces,1
+Irish,Female,33,ceomhar,1,understands,0
+Irish,Male,33,ceomhar,4,produces,0.25
+Irish,Male,33,ceomhar,4,understands,0
+Irish,Female,34,ceomhar,2,produces,0
+Irish,Female,34,ceomhar,2,understands,0
+Irish,Male,34,ceomhar,2,produces,0
+Irish,Male,34,ceomhar,2,understands,0
+Irish,Female,35,ceomhar,2,produces,0
+Irish,Female,35,ceomhar,2,understands,0
+Irish,Male,35,ceomhar,9,produces,0.2222
+Irish,Male,35,ceomhar,9,understands,0
+Irish,Female,36,ceomhar,3,produces,0
+Irish,Female,36,ceomhar,3,understands,0
+Irish,Male,36,ceomhar,2,produces,0.5
+Irish,Male,36,ceomhar,2,understands,0

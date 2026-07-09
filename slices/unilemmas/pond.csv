@@ -1,95 +1,277 @@
-language,age,words,n,measure,prop
-Dutch,8,vijver,7,produces,0
-Dutch,8,vijver,7,understands,0
-Dutch,9,vijver,94,produces,0
-Dutch,9,vijver,94,understands,0
-Dutch,10,vijver,128,produces,0
-Dutch,10,vijver,128,understands,0.0078
-Dutch,11,vijver,9,produces,0
-Dutch,11,vijver,9,understands,0
-Dutch,12,vijver,7,produces,0
-Dutch,12,vijver,7,understands,0
-Dutch,13,vijver,6,produces,0
-Dutch,13,vijver,6,understands,0
-Dutch,14,vijver,35,produces,0
-Dutch,14,vijver,35,understands,0.0286
-Dutch,15,vijver,9,produces,0
-Dutch,15,vijver,9,understands,0
-Dutch,16,vijver,8,produces,0
-Dutch,16,vijver,8,understands,0
-Dutch,17,vijver,6,produces,0
-Dutch,17,vijver,6,understands,0
-Dutch,18,vijver,130,produces,0
-Dutch,18,vijver,130,understands,0.0077
-Dutch,19,vijver,94,produces,0.0106
-Dutch,19,vijver,94,understands,0.0745
-Dutch,20,vijver,26,produces,0
-Dutch,20,vijver,26,understands,0
-Dutch,21,vijver,6,produces,0
-Dutch,21,vijver,6,understands,0.1667
-English (Irish),17,pond,2,produces,0
-English (Irish),17,pond,2,understands,0
-English (Irish),18,pond,1,produces,0
-English (Irish),18,pond,1,understands,0
-English (Irish),19,pond,2,produces,0
-English (Irish),19,pond,2,understands,0
-English (Irish),20,pond,1,produces,0
-English (Irish),20,pond,1,understands,0
-English (Irish),21,pond,3,produces,0
-English (Irish),21,pond,3,understands,0
-English (Irish),22,pond,4,produces,0
-English (Irish),22,pond,4,understands,0
-English (Irish),23,pond,4,produces,0
-English (Irish),23,pond,4,understands,0
-English (Irish),24,pond,4,produces,0
-English (Irish),24,pond,4,understands,0
-English (Irish),25,pond,6,produces,0
-English (Irish),25,pond,6,understands,0
-English (Irish),26,pond,10,produces,0.1
-English (Irish),26,pond,10,understands,0
-English (Irish),27,pond,5,produces,0
-English (Irish),27,pond,5,understands,0
-English (Irish),28,pond,7,produces,0
-English (Irish),28,pond,7,understands,0
-English (Irish),29,pond,4,produces,0
-English (Irish),29,pond,4,understands,0
-English (Irish),30,pond,9,produces,0.1111
-English (Irish),30,pond,9,understands,0
-English (Irish),31,pond,8,produces,0
-English (Irish),31,pond,8,understands,0
-English (Irish),32,pond,4,produces,0
-English (Irish),32,pond,4,understands,0
-English (Irish),33,pond,5,produces,0
-English (Irish),33,pond,5,understands,0
-English (Irish),34,pond,4,produces,0
-English (Irish),34,pond,4,understands,0
-English (Irish),35,pond,11,produces,0.1818
-English (Irish),35,pond,11,understands,0
-English (Irish),36,pond,5,produces,0
-English (Irish),36,pond,5,understands,0
-German,18,Teich,85,produces,0.0118
-German,18,Teich,85,understands,0
-German,19,Teich,79,produces,0.0253
-German,19,Teich,79,understands,0
-German,20,Teich,96,produces,0.0208
-German,20,Teich,96,understands,0
-German,21,Teich,77,produces,0.039
-German,21,Teich,77,understands,0
-German,22,Teich,95,produces,0.0526
-German,22,Teich,95,understands,0
-German,23,Teich,95,produces,0.1474
-German,23,Teich,95,understands,0
-German,24,Teich,103,produces,0.1845
-German,24,Teich,103,understands,0
-German,25,Teich,95,produces,0.2211
-German,25,Teich,95,understands,0
-German,26,Teich,92,produces,0.2065
-German,26,Teich,92,understands,0
-German,27,Teich,89,produces,0.2697
-German,27,Teich,89,understands,0
-German,28,Teich,93,produces,0.2366
-German,28,Teich,93,understands,0
-German,29,Teich,89,produces,0.4719
-German,29,Teich,89,understands,0
-German,30,Teich,93,produces,0.3871
-German,30,Teich,93,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,8,vijver,7,produces,0
+Dutch,All,8,vijver,7,understands,0
+Dutch,All,9,vijver,94,produces,0
+Dutch,All,9,vijver,94,understands,0
+Dutch,All,10,vijver,128,produces,0
+Dutch,All,10,vijver,128,understands,0.0078
+Dutch,All,11,vijver,9,produces,0
+Dutch,All,11,vijver,9,understands,0
+Dutch,All,12,vijver,7,produces,0
+Dutch,All,12,vijver,7,understands,0
+Dutch,All,13,vijver,6,produces,0
+Dutch,All,13,vijver,6,understands,0
+Dutch,All,14,vijver,35,produces,0
+Dutch,All,14,vijver,35,understands,0.0286
+Dutch,All,15,vijver,9,produces,0
+Dutch,All,15,vijver,9,understands,0
+Dutch,All,16,vijver,8,produces,0
+Dutch,All,16,vijver,8,understands,0
+Dutch,All,17,vijver,6,produces,0
+Dutch,All,17,vijver,6,understands,0
+Dutch,All,18,vijver,130,produces,0
+Dutch,All,18,vijver,130,understands,0.0077
+Dutch,All,19,vijver,94,produces,0.0106
+Dutch,All,19,vijver,94,understands,0.0745
+Dutch,All,20,vijver,26,produces,0
+Dutch,All,20,vijver,26,understands,0
+Dutch,All,21,vijver,6,produces,0
+Dutch,All,21,vijver,6,understands,0.1667
+English (Irish),All,17,pond,2,produces,0
+English (Irish),All,17,pond,2,understands,0
+English (Irish),All,18,pond,1,produces,0
+English (Irish),All,18,pond,1,understands,0
+English (Irish),All,19,pond,2,produces,0
+English (Irish),All,19,pond,2,understands,0
+English (Irish),All,20,pond,1,produces,0
+English (Irish),All,20,pond,1,understands,0
+English (Irish),All,21,pond,3,produces,0
+English (Irish),All,21,pond,3,understands,0
+English (Irish),All,22,pond,4,produces,0
+English (Irish),All,22,pond,4,understands,0
+English (Irish),All,23,pond,4,produces,0
+English (Irish),All,23,pond,4,understands,0
+English (Irish),All,24,pond,4,produces,0
+English (Irish),All,24,pond,4,understands,0
+English (Irish),All,25,pond,6,produces,0
+English (Irish),All,25,pond,6,understands,0
+English (Irish),All,26,pond,10,produces,0.1
+English (Irish),All,26,pond,10,understands,0
+English (Irish),All,27,pond,5,produces,0
+English (Irish),All,27,pond,5,understands,0
+English (Irish),All,28,pond,7,produces,0
+English (Irish),All,28,pond,7,understands,0
+English (Irish),All,29,pond,4,produces,0
+English (Irish),All,29,pond,4,understands,0
+English (Irish),All,30,pond,9,produces,0.1111
+English (Irish),All,30,pond,9,understands,0
+English (Irish),All,31,pond,8,produces,0
+English (Irish),All,31,pond,8,understands,0
+English (Irish),All,32,pond,4,produces,0
+English (Irish),All,32,pond,4,understands,0
+English (Irish),All,33,pond,5,produces,0
+English (Irish),All,33,pond,5,understands,0
+English (Irish),All,34,pond,4,produces,0
+English (Irish),All,34,pond,4,understands,0
+English (Irish),All,35,pond,11,produces,0.1818
+English (Irish),All,35,pond,11,understands,0
+English (Irish),All,36,pond,5,produces,0
+English (Irish),All,36,pond,5,understands,0
+German,All,18,Teich,85,produces,0.0118
+German,All,18,Teich,85,understands,0
+German,All,19,Teich,79,produces,0.0253
+German,All,19,Teich,79,understands,0
+German,All,20,Teich,96,produces,0.0208
+German,All,20,Teich,96,understands,0
+German,All,21,Teich,77,produces,0.039
+German,All,21,Teich,77,understands,0
+German,All,22,Teich,95,produces,0.0526
+German,All,22,Teich,95,understands,0
+German,All,23,Teich,95,produces,0.1474
+German,All,23,Teich,95,understands,0
+German,All,24,Teich,103,produces,0.1845
+German,All,24,Teich,103,understands,0
+German,All,25,Teich,95,produces,0.2211
+German,All,25,Teich,95,understands,0
+German,All,26,Teich,92,produces,0.2065
+German,All,26,Teich,92,understands,0
+German,All,27,Teich,89,produces,0.2697
+German,All,27,Teich,89,understands,0
+German,All,28,Teich,93,produces,0.2366
+German,All,28,Teich,93,understands,0
+German,All,29,Teich,89,produces,0.4719
+German,All,29,Teich,89,understands,0
+German,All,30,Teich,93,produces,0.3871
+German,All,30,Teich,93,understands,0
+Dutch,Female,8,vijver,5,produces,0
+Dutch,Female,8,vijver,5,understands,0
+Dutch,Male,8,vijver,2,produces,0
+Dutch,Male,8,vijver,2,understands,0
+Dutch,Female,9,vijver,44,produces,0
+Dutch,Female,9,vijver,44,understands,0
+Dutch,Male,9,vijver,50,produces,0
+Dutch,Male,9,vijver,50,understands,0
+Dutch,Female,10,vijver,51,produces,0
+Dutch,Female,10,vijver,51,understands,0
+Dutch,Male,10,vijver,48,produces,0
+Dutch,Male,10,vijver,48,understands,0.0208
+Dutch,Female,11,vijver,4,produces,0
+Dutch,Female,11,vijver,4,understands,0
+Dutch,Male,11,vijver,5,produces,0
+Dutch,Male,11,vijver,5,understands,0
+Dutch,Female,12,vijver,2,produces,0
+Dutch,Female,12,vijver,2,understands,0
+Dutch,Male,12,vijver,5,produces,0
+Dutch,Male,12,vijver,5,understands,0
+Dutch,Male,13,vijver,6,produces,0
+Dutch,Male,13,vijver,6,understands,0
+Dutch,Female,14,vijver,1,produces,0
+Dutch,Female,14,vijver,1,understands,0
+Dutch,Male,14,vijver,3,produces,0
+Dutch,Male,14,vijver,3,understands,0
+Dutch,Female,15,vijver,4,produces,0
+Dutch,Female,15,vijver,4,understands,0
+Dutch,Male,15,vijver,5,produces,0
+Dutch,Male,15,vijver,5,understands,0
+Dutch,Female,16,vijver,4,produces,0
+Dutch,Female,16,vijver,4,understands,0
+Dutch,Male,16,vijver,4,produces,0
+Dutch,Male,16,vijver,4,understands,0
+Dutch,Female,17,vijver,2,produces,0
+Dutch,Female,17,vijver,2,understands,0
+Dutch,Male,17,vijver,4,produces,0
+Dutch,Male,17,vijver,4,understands,0
+Dutch,Female,18,vijver,67,produces,0
+Dutch,Female,18,vijver,67,understands,0.0149
+Dutch,Male,18,vijver,57,produces,0
+Dutch,Male,18,vijver,57,understands,0
+Dutch,Female,19,vijver,49,produces,0
+Dutch,Female,19,vijver,49,understands,0.0816
+Dutch,Male,19,vijver,45,produces,0.0222
+Dutch,Male,19,vijver,45,understands,0.0667
+Dutch,Female,20,vijver,13,produces,0
+Dutch,Female,20,vijver,13,understands,0
+Dutch,Male,20,vijver,13,produces,0
+Dutch,Male,20,vijver,13,understands,0
+Dutch,Female,21,vijver,3,produces,0
+Dutch,Female,21,vijver,3,understands,0.3333
+Dutch,Male,21,vijver,3,produces,0
+Dutch,Male,21,vijver,3,understands,0
+English (Irish),Female,17,pond,1,produces,0
+English (Irish),Female,17,pond,1,understands,0
+English (Irish),Male,17,pond,1,produces,0
+English (Irish),Male,17,pond,1,understands,0
+English (Irish),Female,18,pond,1,produces,0
+English (Irish),Female,18,pond,1,understands,0
+English (Irish),Female,19,pond,1,produces,0
+English (Irish),Female,19,pond,1,understands,0
+English (Irish),Male,19,pond,1,produces,0
+English (Irish),Male,19,pond,1,understands,0
+English (Irish),Female,20,pond,1,produces,0
+English (Irish),Female,20,pond,1,understands,0
+English (Irish),Female,21,pond,2,produces,0
+English (Irish),Female,21,pond,2,understands,0
+English (Irish),Male,21,pond,1,produces,0
+English (Irish),Male,21,pond,1,understands,0
+English (Irish),Female,22,pond,3,produces,0
+English (Irish),Female,22,pond,3,understands,0
+English (Irish),Male,22,pond,1,produces,0
+English (Irish),Male,22,pond,1,understands,0
+English (Irish),Female,23,pond,2,produces,0
+English (Irish),Female,23,pond,2,understands,0
+English (Irish),Male,23,pond,2,produces,0
+English (Irish),Male,23,pond,2,understands,0
+English (Irish),Female,24,pond,2,produces,0
+English (Irish),Female,24,pond,2,understands,0
+English (Irish),Male,24,pond,2,produces,0
+English (Irish),Male,24,pond,2,understands,0
+English (Irish),Female,25,pond,3,produces,0
+English (Irish),Female,25,pond,3,understands,0
+English (Irish),Male,25,pond,3,produces,0
+English (Irish),Male,25,pond,3,understands,0
+English (Irish),Female,26,pond,7,produces,0.1429
+English (Irish),Female,26,pond,7,understands,0
+English (Irish),Male,26,pond,3,produces,0
+English (Irish),Male,26,pond,3,understands,0
+English (Irish),Female,27,pond,1,produces,0
+English (Irish),Female,27,pond,1,understands,0
+English (Irish),Male,27,pond,4,produces,0
+English (Irish),Male,27,pond,4,understands,0
+English (Irish),Female,28,pond,4,produces,0
+English (Irish),Female,28,pond,4,understands,0
+English (Irish),Male,28,pond,3,produces,0
+English (Irish),Male,28,pond,3,understands,0
+English (Irish),Female,29,pond,1,produces,0
+English (Irish),Female,29,pond,1,understands,0
+English (Irish),Male,29,pond,3,produces,0
+English (Irish),Male,29,pond,3,understands,0
+English (Irish),Female,30,pond,5,produces,0.2
+English (Irish),Female,30,pond,5,understands,0
+English (Irish),Male,30,pond,4,produces,0
+English (Irish),Male,30,pond,4,understands,0
+English (Irish),Female,31,pond,3,produces,0
+English (Irish),Female,31,pond,3,understands,0
+English (Irish),Male,31,pond,5,produces,0
+English (Irish),Male,31,pond,5,understands,0
+English (Irish),Female,32,pond,2,produces,0
+English (Irish),Female,32,pond,2,understands,0
+English (Irish),Male,32,pond,2,produces,0
+English (Irish),Male,32,pond,2,understands,0
+English (Irish),Female,33,pond,1,produces,0
+English (Irish),Female,33,pond,1,understands,0
+English (Irish),Male,33,pond,4,produces,0
+English (Irish),Male,33,pond,4,understands,0
+English (Irish),Female,34,pond,2,produces,0
+English (Irish),Female,34,pond,2,understands,0
+English (Irish),Male,34,pond,2,produces,0
+English (Irish),Male,34,pond,2,understands,0
+English (Irish),Female,35,pond,2,produces,0
+English (Irish),Female,35,pond,2,understands,0
+English (Irish),Male,35,pond,9,produces,0.2222
+English (Irish),Male,35,pond,9,understands,0
+English (Irish),Female,36,pond,3,produces,0
+English (Irish),Female,36,pond,3,understands,0
+English (Irish),Male,36,pond,2,produces,0
+English (Irish),Male,36,pond,2,understands,0
+German,Female,18,Teich,40,produces,0.025
+German,Female,18,Teich,40,understands,0
+German,Male,18,Teich,45,produces,0
+German,Male,18,Teich,45,understands,0
+German,Female,19,Teich,39,produces,0.0513
+German,Female,19,Teich,39,understands,0
+German,Male,19,Teich,40,produces,0
+German,Male,19,Teich,40,understands,0
+German,Female,20,Teich,39,produces,0
+German,Female,20,Teich,39,understands,0
+German,Male,20,Teich,57,produces,0.0351
+German,Male,20,Teich,57,understands,0
+German,Female,21,Teich,38,produces,0.0789
+German,Female,21,Teich,38,understands,0
+German,Male,21,Teich,39,produces,0
+German,Male,21,Teich,39,understands,0
+German,Female,22,Teich,52,produces,0.0385
+German,Female,22,Teich,52,understands,0
+German,Male,22,Teich,43,produces,0.0698
+German,Male,22,Teich,43,understands,0
+German,Female,23,Teich,45,produces,0.2222
+German,Female,23,Teich,45,understands,0
+German,Male,23,Teich,50,produces,0.08
+German,Male,23,Teich,50,understands,0
+German,Female,24,Teich,48,produces,0.2708
+German,Female,24,Teich,48,understands,0
+German,Male,24,Teich,55,produces,0.1091
+German,Male,24,Teich,55,understands,0
+German,Female,25,Teich,28,produces,0.2857
+German,Female,25,Teich,28,understands,0
+German,Male,25,Teich,67,produces,0.194
+German,Male,25,Teich,67,understands,0
+German,Female,26,Teich,42,produces,0.2619
+German,Female,26,Teich,42,understands,0
+German,Male,26,Teich,50,produces,0.16
+German,Male,26,Teich,50,understands,0
+German,Female,27,Teich,41,produces,0.2439
+German,Female,27,Teich,41,understands,0
+German,Male,27,Teich,48,produces,0.2917
+German,Male,27,Teich,48,understands,0
+German,Female,28,Teich,35,produces,0.2857
+German,Female,28,Teich,35,understands,0
+German,Male,28,Teich,58,produces,0.2069
+German,Male,28,Teich,58,understands,0
+German,Female,29,Teich,50,produces,0.5
+German,Female,29,Teich,50,understands,0
+German,Male,29,Teich,39,produces,0.4359
+German,Male,29,Teich,39,understands,0
+German,Female,30,Teich,54,produces,0.4259
+German,Female,30,Teich,54,understands,0
+German,Male,30,Teich,39,produces,0.3333
+German,Male,30,Teich,39,understands,0

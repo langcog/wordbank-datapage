@@ -1,97 +1,289 @@
-language,age,words,n,measure,prop
-Latvian,17,griesti,27,produces,0
-Latvian,17,griesti,27,understands,0
-Latvian,18,griesti,21,produces,0.0476
-Latvian,18,griesti,21,understands,0
-Latvian,19,griesti,28,produces,0
-Latvian,19,griesti,28,understands,0
-Latvian,20,griesti,34,produces,0.0588
-Latvian,20,griesti,34,understands,0
-Latvian,21,griesti,26,produces,0.1154
-Latvian,21,griesti,26,understands,0
-Latvian,22,griesti,32,produces,0.2188
-Latvian,22,griesti,32,understands,0
-Latvian,23,griesti,25,produces,0.24
-Latvian,23,griesti,25,understands,0
-Latvian,24,griesti,30,produces,0.4
-Latvian,24,griesti,30,understands,0
-Latvian,25,griesti,29,produces,0.1034
-Latvian,25,griesti,29,understands,0
-Latvian,26,griesti,22,produces,0.3636
-Latvian,26,griesti,22,understands,0
-Latvian,27,griesti,18,produces,0.4444
-Latvian,27,griesti,18,understands,0
-Latvian,28,griesti,23,produces,0.3043
-Latvian,28,griesti,23,understands,0
-Latvian,29,griesti,24,produces,0.2917
-Latvian,29,griesti,24,understands,0
-Latvian,30,griesti,26,produces,0.3462
-Latvian,30,griesti,26,understands,0
-Latvian,31,griesti,19,produces,0.6316
-Latvian,31,griesti,19,understands,0
-Latvian,32,griesti,25,produces,0.48
-Latvian,32,griesti,25,understands,0
-Latvian,33,griesti,31,produces,0.5806
-Latvian,33,griesti,31,understands,0
-Latvian,34,griesti,17,produces,0.7647
-Latvian,34,griesti,17,understands,0
-Latvian,35,griesti,21,produces,0.7619
-Latvian,35,griesti,21,understands,0
-Latvian,36,griesti,22,produces,0.5455
-Latvian,36,griesti,22,understands,0
-Arabic (Saudi),8,سقف,24,produces,0
-Arabic (Saudi),8,سقف,24,understands,0.0833
-Arabic (Saudi),9,سقف,27,produces,0
-Arabic (Saudi),9,سقف,27,understands,0
-Arabic (Saudi),10,سقف,35,produces,0
-Arabic (Saudi),10,سقف,35,understands,0.0571
-Arabic (Saudi),11,سقف,30,produces,0.0333
-Arabic (Saudi),11,سقف,30,understands,0.0333
-Arabic (Saudi),12,سقف,30,produces,0.0333
-Arabic (Saudi),12,سقف,30,understands,0
-Arabic (Saudi),13,سقف,39,produces,0.0256
-Arabic (Saudi),13,سقف,39,understands,0
-Arabic (Saudi),14,سقف,25,produces,0
-Arabic (Saudi),14,سقف,25,understands,0
-Arabic (Saudi),15,سقف,27,produces,0.037
-Arabic (Saudi),15,سقف,27,understands,0.0741
-Arabic (Saudi),16,سقف,21,produces,0
-Arabic (Saudi),16,سقف,21,understands,0.0476
-Cantonese,16,天花(板),46,produces,0
-Cantonese,16,天花(板),46,understands,0
-Cantonese,17,天花(板),61,produces,0
-Cantonese,17,天花(板),61,understands,0
-Cantonese,18,天花(板),68,produces,0
-Cantonese,18,天花(板),68,understands,0
-Cantonese,19,天花(板),66,produces,0
-Cantonese,19,天花(板),66,understands,0
-Cantonese,20,天花(板),140,produces,0.0143
-Cantonese,20,天花(板),140,understands,0
-Cantonese,21,天花(板),120,produces,0.025
-Cantonese,21,天花(板),120,understands,0
-Cantonese,22,天花(板),68,produces,0.0147
-Cantonese,22,天花(板),68,understands,0
-Cantonese,23,天花(板),74,produces,0.0541
-Cantonese,23,天花(板),74,understands,0
-Cantonese,24,天花(板),68,produces,0.0588
-Cantonese,24,天花(板),68,understands,0
-Cantonese,25,天花(板),65,produces,0.0308
-Cantonese,25,天花(板),65,understands,0
-Cantonese,26,天花(板),68,produces,0.1176
-Cantonese,26,天花(板),68,understands,0
-Cantonese,27,天花(板),62,produces,0.0806
-Cantonese,27,天花(板),62,understands,0
-Cantonese,28,天花(板),66,produces,0.1212
-Cantonese,28,天花(板),66,understands,0
-Cantonese,29,天花(板),72,produces,0.2222
-Cantonese,29,天花(板),72,understands,0
-Cantonese,30,天花(板),164,produces,0.2195
-Cantonese,30,天花(板),164,understands,0
-Finnish,12,katto  ,35,produces,0
-Finnish,12,katto  ,35,understands,0
-Finnish,15,katto  ,35,produces,0
-Finnish,15,katto  ,35,understands,0
-Finnish,18,katto,35,produces,0.0571
-Finnish,18,katto,35,understands,0
-Finnish,24,katto,35,produces,0.5143
-Finnish,24,katto,35,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,سقف,24,produces,0
+Arabic (Saudi),All,8,سقف,24,understands,0.0833
+Arabic (Saudi),All,9,سقف,27,produces,0
+Arabic (Saudi),All,9,سقف,27,understands,0
+Arabic (Saudi),All,10,سقف,35,produces,0
+Arabic (Saudi),All,10,سقف,35,understands,0.0571
+Arabic (Saudi),All,11,سقف,30,produces,0.0333
+Arabic (Saudi),All,11,سقف,30,understands,0.0333
+Arabic (Saudi),All,12,سقف,30,produces,0.0333
+Arabic (Saudi),All,12,سقف,30,understands,0
+Arabic (Saudi),All,13,سقف,39,produces,0.0256
+Arabic (Saudi),All,13,سقف,39,understands,0
+Arabic (Saudi),All,14,سقف,25,produces,0
+Arabic (Saudi),All,14,سقف,25,understands,0
+Arabic (Saudi),All,15,سقف,27,produces,0.037
+Arabic (Saudi),All,15,سقف,27,understands,0.0741
+Arabic (Saudi),All,16,سقف,21,produces,0
+Arabic (Saudi),All,16,سقف,21,understands,0.0476
+Cantonese,All,16,天花(板),46,produces,0
+Cantonese,All,16,天花(板),46,understands,0
+Cantonese,All,17,天花(板),61,produces,0
+Cantonese,All,17,天花(板),61,understands,0
+Cantonese,All,18,天花(板),68,produces,0
+Cantonese,All,18,天花(板),68,understands,0
+Cantonese,All,19,天花(板),66,produces,0
+Cantonese,All,19,天花(板),66,understands,0
+Cantonese,All,20,天花(板),140,produces,0.0143
+Cantonese,All,20,天花(板),140,understands,0
+Cantonese,All,21,天花(板),120,produces,0.025
+Cantonese,All,21,天花(板),120,understands,0
+Cantonese,All,22,天花(板),68,produces,0.0147
+Cantonese,All,22,天花(板),68,understands,0
+Cantonese,All,23,天花(板),74,produces,0.0541
+Cantonese,All,23,天花(板),74,understands,0
+Cantonese,All,24,天花(板),68,produces,0.0588
+Cantonese,All,24,天花(板),68,understands,0
+Cantonese,All,25,天花(板),65,produces,0.0308
+Cantonese,All,25,天花(板),65,understands,0
+Cantonese,All,26,天花(板),68,produces,0.1176
+Cantonese,All,26,天花(板),68,understands,0
+Cantonese,All,27,天花(板),62,produces,0.0806
+Cantonese,All,27,天花(板),62,understands,0
+Cantonese,All,28,天花(板),66,produces,0.1212
+Cantonese,All,28,天花(板),66,understands,0
+Cantonese,All,29,天花(板),72,produces,0.2222
+Cantonese,All,29,天花(板),72,understands,0
+Cantonese,All,30,天花(板),164,produces,0.2195
+Cantonese,All,30,天花(板),164,understands,0
+Finnish,All,12,katto  ,35,produces,0
+Finnish,All,12,katto  ,35,understands,0
+Finnish,All,15,katto  ,35,produces,0
+Finnish,All,15,katto  ,35,understands,0
+Finnish,All,18,katto,35,produces,0.0571
+Finnish,All,18,katto,35,understands,0
+Finnish,All,24,katto,35,produces,0.5143
+Finnish,All,24,katto,35,understands,0
+Latvian,All,17,griesti,27,produces,0
+Latvian,All,17,griesti,27,understands,0
+Latvian,All,18,griesti,21,produces,0.0476
+Latvian,All,18,griesti,21,understands,0
+Latvian,All,19,griesti,28,produces,0
+Latvian,All,19,griesti,28,understands,0
+Latvian,All,20,griesti,34,produces,0.0588
+Latvian,All,20,griesti,34,understands,0
+Latvian,All,21,griesti,26,produces,0.1154
+Latvian,All,21,griesti,26,understands,0
+Latvian,All,22,griesti,32,produces,0.2188
+Latvian,All,22,griesti,32,understands,0
+Latvian,All,23,griesti,25,produces,0.24
+Latvian,All,23,griesti,25,understands,0
+Latvian,All,24,griesti,30,produces,0.4
+Latvian,All,24,griesti,30,understands,0
+Latvian,All,25,griesti,29,produces,0.1034
+Latvian,All,25,griesti,29,understands,0
+Latvian,All,26,griesti,22,produces,0.3636
+Latvian,All,26,griesti,22,understands,0
+Latvian,All,27,griesti,18,produces,0.4444
+Latvian,All,27,griesti,18,understands,0
+Latvian,All,28,griesti,23,produces,0.3043
+Latvian,All,28,griesti,23,understands,0
+Latvian,All,29,griesti,24,produces,0.2917
+Latvian,All,29,griesti,24,understands,0
+Latvian,All,30,griesti,26,produces,0.3462
+Latvian,All,30,griesti,26,understands,0
+Latvian,All,31,griesti,19,produces,0.6316
+Latvian,All,31,griesti,19,understands,0
+Latvian,All,32,griesti,25,produces,0.48
+Latvian,All,32,griesti,25,understands,0
+Latvian,All,33,griesti,31,produces,0.5806
+Latvian,All,33,griesti,31,understands,0
+Latvian,All,34,griesti,17,produces,0.7647
+Latvian,All,34,griesti,17,understands,0
+Latvian,All,35,griesti,21,produces,0.7619
+Latvian,All,35,griesti,21,understands,0
+Latvian,All,36,griesti,22,produces,0.5455
+Latvian,All,36,griesti,22,understands,0
+Arabic (Saudi),Female,8,سقف,13,produces,0
+Arabic (Saudi),Female,8,سقف,13,understands,0.1538
+Arabic (Saudi),Male,8,سقف,11,produces,0
+Arabic (Saudi),Male,8,سقف,11,understands,0
+Arabic (Saudi),Female,9,سقف,14,produces,0
+Arabic (Saudi),Female,9,سقف,14,understands,0
+Arabic (Saudi),Male,9,سقف,13,produces,0
+Arabic (Saudi),Male,9,سقف,13,understands,0
+Arabic (Saudi),Female,10,سقف,15,produces,0
+Arabic (Saudi),Female,10,سقف,15,understands,0
+Arabic (Saudi),Male,10,سقف,20,produces,0
+Arabic (Saudi),Male,10,سقف,20,understands,0.1
+Arabic (Saudi),Female,11,سقف,14,produces,0
+Arabic (Saudi),Female,11,سقف,14,understands,0
+Arabic (Saudi),Male,11,سقف,16,produces,0.0625
+Arabic (Saudi),Male,11,سقف,16,understands,0.0625
+Arabic (Saudi),Female,12,سقف,14,produces,0
+Arabic (Saudi),Female,12,سقف,14,understands,0
+Arabic (Saudi),Male,12,سقف,16,produces,0.0625
+Arabic (Saudi),Male,12,سقف,16,understands,0
+Arabic (Saudi),Female,13,سقف,17,produces,0
+Arabic (Saudi),Female,13,سقف,17,understands,0
+Arabic (Saudi),Male,13,سقف,22,produces,0.0455
+Arabic (Saudi),Male,13,سقف,22,understands,0
+Arabic (Saudi),Female,14,سقف,10,produces,0
+Arabic (Saudi),Female,14,سقف,10,understands,0
+Arabic (Saudi),Male,14,سقف,15,produces,0
+Arabic (Saudi),Male,14,سقف,15,understands,0
+Arabic (Saudi),Female,15,سقف,12,produces,0
+Arabic (Saudi),Female,15,سقف,12,understands,0.0833
+Arabic (Saudi),Male,15,سقف,15,produces,0.0667
+Arabic (Saudi),Male,15,سقف,15,understands,0.0667
+Arabic (Saudi),Female,16,سقف,10,produces,0
+Arabic (Saudi),Female,16,سقف,10,understands,0.1
+Arabic (Saudi),Male,16,سقف,11,produces,0
+Arabic (Saudi),Male,16,سقف,11,understands,0
+Cantonese,Female,16,天花(板),23,produces,0
+Cantonese,Female,16,天花(板),23,understands,0
+Cantonese,Male,16,天花(板),23,produces,0
+Cantonese,Male,16,天花(板),23,understands,0
+Cantonese,Female,17,天花(板),30,produces,0
+Cantonese,Female,17,天花(板),30,understands,0
+Cantonese,Male,17,天花(板),31,produces,0
+Cantonese,Male,17,天花(板),31,understands,0
+Cantonese,Female,18,天花(板),33,produces,0
+Cantonese,Female,18,天花(板),33,understands,0
+Cantonese,Male,18,天花(板),35,produces,0
+Cantonese,Male,18,天花(板),35,understands,0
+Cantonese,Female,19,天花(板),30,produces,0
+Cantonese,Female,19,天花(板),30,understands,0
+Cantonese,Male,19,天花(板),36,produces,0
+Cantonese,Male,19,天花(板),36,understands,0
+Cantonese,Female,20,天花(板),62,produces,0
+Cantonese,Female,20,天花(板),62,understands,0
+Cantonese,Male,20,天花(板),78,produces,0.0256
+Cantonese,Male,20,天花(板),78,understands,0
+Cantonese,Female,21,天花(板),57,produces,0.0351
+Cantonese,Female,21,天花(板),57,understands,0
+Cantonese,Male,21,天花(板),63,produces,0.0159
+Cantonese,Male,21,天花(板),63,understands,0
+Cantonese,Female,22,天花(板),34,produces,0.0294
+Cantonese,Female,22,天花(板),34,understands,0
+Cantonese,Male,22,天花(板),34,produces,0
+Cantonese,Male,22,天花(板),34,understands,0
+Cantonese,Female,23,天花(板),37,produces,0.0811
+Cantonese,Female,23,天花(板),37,understands,0
+Cantonese,Male,23,天花(板),37,produces,0.027
+Cantonese,Male,23,天花(板),37,understands,0
+Cantonese,Female,24,天花(板),32,produces,0.0625
+Cantonese,Female,24,天花(板),32,understands,0
+Cantonese,Male,24,天花(板),36,produces,0.0556
+Cantonese,Male,24,天花(板),36,understands,0
+Cantonese,Female,25,天花(板),31,produces,0.0645
+Cantonese,Female,25,天花(板),31,understands,0
+Cantonese,Male,25,天花(板),34,produces,0
+Cantonese,Male,25,天花(板),34,understands,0
+Cantonese,Female,26,天花(板),31,produces,0.1613
+Cantonese,Female,26,天花(板),31,understands,0
+Cantonese,Male,26,天花(板),37,produces,0.0811
+Cantonese,Male,26,天花(板),37,understands,0
+Cantonese,Female,27,天花(板),31,produces,0.0645
+Cantonese,Female,27,天花(板),31,understands,0
+Cantonese,Male,27,天花(板),31,produces,0.0968
+Cantonese,Male,27,天花(板),31,understands,0
+Cantonese,Female,28,天花(板),32,produces,0.1875
+Cantonese,Female,28,天花(板),32,understands,0
+Cantonese,Male,28,天花(板),34,produces,0.0588
+Cantonese,Male,28,天花(板),34,understands,0
+Cantonese,Female,29,天花(板),36,produces,0.1389
+Cantonese,Female,29,天花(板),36,understands,0
+Cantonese,Male,29,天花(板),36,produces,0.3056
+Cantonese,Male,29,天花(板),36,understands,0
+Cantonese,Female,30,天花(板),76,produces,0.1974
+Cantonese,Female,30,天花(板),76,understands,0
+Cantonese,Male,30,天花(板),88,produces,0.2386
+Cantonese,Male,30,天花(板),88,understands,0
+Finnish,Female,12,katto  ,18,produces,0
+Finnish,Female,12,katto  ,18,understands,0
+Finnish,Male,12,katto  ,17,produces,0
+Finnish,Male,12,katto  ,17,understands,0
+Finnish,Female,15,katto  ,18,produces,0
+Finnish,Female,15,katto  ,18,understands,0
+Finnish,Male,15,katto  ,17,produces,0
+Finnish,Male,15,katto  ,17,understands,0
+Finnish,Female,18,katto,18,produces,0.0556
+Finnish,Female,18,katto,18,understands,0
+Finnish,Male,18,katto,17,produces,0.0588
+Finnish,Male,18,katto,17,understands,0
+Finnish,Female,24,katto,18,produces,0.5556
+Finnish,Female,24,katto,18,understands,0
+Finnish,Male,24,katto,17,produces,0.4706
+Finnish,Male,24,katto,17,understands,0
+Latvian,Female,17,griesti,12,produces,0
+Latvian,Female,17,griesti,12,understands,0
+Latvian,Male,17,griesti,15,produces,0
+Latvian,Male,17,griesti,15,understands,0
+Latvian,Female,18,griesti,10,produces,0
+Latvian,Female,18,griesti,10,understands,0
+Latvian,Male,18,griesti,11,produces,0.0909
+Latvian,Male,18,griesti,11,understands,0
+Latvian,Female,19,griesti,18,produces,0
+Latvian,Female,19,griesti,18,understands,0
+Latvian,Male,19,griesti,10,produces,0
+Latvian,Male,19,griesti,10,understands,0
+Latvian,Female,20,griesti,17,produces,0.0588
+Latvian,Female,20,griesti,17,understands,0
+Latvian,Male,20,griesti,17,produces,0.0588
+Latvian,Male,20,griesti,17,understands,0
+Latvian,Female,21,griesti,15,produces,0.1333
+Latvian,Female,21,griesti,15,understands,0
+Latvian,Male,21,griesti,11,produces,0.0909
+Latvian,Male,21,griesti,11,understands,0
+Latvian,Female,22,griesti,16,produces,0.25
+Latvian,Female,22,griesti,16,understands,0
+Latvian,Male,22,griesti,16,produces,0.1875
+Latvian,Male,22,griesti,16,understands,0
+Latvian,Female,23,griesti,15,produces,0.3333
+Latvian,Female,23,griesti,15,understands,0
+Latvian,Male,23,griesti,10,produces,0.1
+Latvian,Male,23,griesti,10,understands,0
+Latvian,Female,24,griesti,15,produces,0.5333
+Latvian,Female,24,griesti,15,understands,0
+Latvian,Male,24,griesti,15,produces,0.2667
+Latvian,Male,24,griesti,15,understands,0
+Latvian,Female,25,griesti,16,produces,0.125
+Latvian,Female,25,griesti,16,understands,0
+Latvian,Male,25,griesti,13,produces,0.0769
+Latvian,Male,25,griesti,13,understands,0
+Latvian,Female,26,griesti,9,produces,0.3333
+Latvian,Female,26,griesti,9,understands,0
+Latvian,Male,26,griesti,13,produces,0.3846
+Latvian,Male,26,griesti,13,understands,0
+Latvian,Female,27,griesti,10,produces,0.6
+Latvian,Female,27,griesti,10,understands,0
+Latvian,Male,27,griesti,8,produces,0.25
+Latvian,Male,27,griesti,8,understands,0
+Latvian,Female,28,griesti,11,produces,0.4545
+Latvian,Female,28,griesti,11,understands,0
+Latvian,Male,28,griesti,12,produces,0.1667
+Latvian,Male,28,griesti,12,understands,0
+Latvian,Female,29,griesti,11,produces,0.2727
+Latvian,Female,29,griesti,11,understands,0
+Latvian,Male,29,griesti,13,produces,0.3077
+Latvian,Male,29,griesti,13,understands,0
+Latvian,Female,30,griesti,12,produces,0.25
+Latvian,Female,30,griesti,12,understands,0
+Latvian,Male,30,griesti,14,produces,0.4286
+Latvian,Male,30,griesti,14,understands,0
+Latvian,Female,31,griesti,10,produces,0.7
+Latvian,Female,31,griesti,10,understands,0
+Latvian,Male,31,griesti,9,produces,0.5556
+Latvian,Male,31,griesti,9,understands,0
+Latvian,Female,32,griesti,13,produces,0.6923
+Latvian,Female,32,griesti,13,understands,0
+Latvian,Male,32,griesti,12,produces,0.25
+Latvian,Male,32,griesti,12,understands,0
+Latvian,Female,33,griesti,17,produces,0.6471
+Latvian,Female,33,griesti,17,understands,0
+Latvian,Male,33,griesti,14,produces,0.5
+Latvian,Male,33,griesti,14,understands,0
+Latvian,Female,34,griesti,10,produces,0.9
+Latvian,Female,34,griesti,10,understands,0
+Latvian,Male,34,griesti,7,produces,0.5714
+Latvian,Male,34,griesti,7,understands,0
+Latvian,Female,35,griesti,8,produces,0.875
+Latvian,Female,35,griesti,8,understands,0
+Latvian,Male,35,griesti,13,produces,0.6923
+Latvian,Male,35,griesti,13,understands,0
+Latvian,Female,36,griesti,12,produces,0.5
+Latvian,Female,36,griesti,12,understands,0
+Latvian,Male,36,griesti,10,produces,0.6
+Latvian,Male,36,griesti,10,understands,0

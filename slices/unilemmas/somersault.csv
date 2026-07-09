@@ -1,87 +1,259 @@
-language,age,words,n,measure,prop
-Turkish,8,Takla,140,produces,0
-Turkish,8,Takla,140,understands,0.0286
-Turkish,9,Takla,125,produces,0
-Turkish,9,Takla,125,understands,0.048
-Turkish,10,Takla,130,produces,0.0077
-Turkish,10,Takla,130,understands,0.0231
-Turkish,11,Takla,125,produces,0
-Turkish,11,Takla,125,understands,0.032
-Turkish,12,Takla,120,produces,0
-Turkish,12,Takla,120,understands,0.0833
-Turkish,13,Takla,122,produces,0
-Turkish,13,Takla,122,understands,0.0656
-Turkish,14,Takla,147,produces,0
-Turkish,14,Takla,147,understands,0.1429
-Turkish,15,Takla,131,produces,0.0229
-Turkish,15,Takla,131,understands,0.1756
-Turkish,16,Takla,184,produces,0.0054
-Turkish,16,Takla,184,understands,0.0815
-Turkish,17,Takla,107,produces,0.028
-Turkish,17,Takla,107,understands,0
-Turkish,18,Takla,128,produces,0.0391
-Turkish,18,Takla,128,understands,0
-Turkish,19,Takla,121,produces,0.0744
-Turkish,19,Takla,121,understands,0
-Turkish,20,Takla,119,produces,0.084
-Turkish,20,Takla,119,understands,0
-Turkish,21,Takla,124,produces,0.129
-Turkish,21,Takla,124,understands,0
-Turkish,22,Takla,126,produces,0.119
-Turkish,22,Takla,126,understands,0
-Turkish,23,Takla,131,produces,0.1069
-Turkish,23,Takla,131,understands,0
-Turkish,24,Takla,106,produces,0.217
-Turkish,24,Takla,106,understands,0
-Turkish,25,Takla,123,produces,0.2683
-Turkish,25,Takla,123,understands,0
-Turkish,26,Takla,123,produces,0.2764
-Turkish,26,Takla,123,understands,0
-Turkish,27,Takla,108,produces,0.3333
-Turkish,27,Takla,108,understands,0
-Turkish,28,Takla,112,produces,0.3839
-Turkish,28,Takla,112,understands,0
-Turkish,29,Takla,119,produces,0.4202
-Turkish,29,Takla,119,understands,0
-Turkish,30,Takla,104,produces,0.5385
-Turkish,30,Takla,104,understands,0
-Turkish,31,Takla,101,produces,0.5545
-Turkish,31,Takla,101,understands,0
-Turkish,32,Takla,132,produces,0.5606
-Turkish,32,Takla,132,understands,0
-Turkish,33,Takla,114,produces,0.6491
-Turkish,33,Takla,114,understands,0
-Turkish,34,Takla,107,produces,0.6168
-Turkish,34,Takla,107,understands,0
-Turkish,35,Takla,131,produces,0.7176
-Turkish,35,Takla,131,understands,0
-Turkish,36,Takla,77,produces,0.7922
-Turkish,36,Takla,77,understands,0
-English (British),34,somersault,443,produces,0.2348
-English (British),34,somersault,443,understands,0
-English (British),35,somersault,3693,produces,0.2085
-English (British),35,somersault,3693,understands,0
-English (British),36,somersault,5244,produces,0.2214
-English (British),36,somersault,5244,understands,0
-English (British),37,somersault,906,produces,0.2075
-English (British),37,somersault,906,understands,0
-English (British),38,somersault,264,produces,0.2235
-English (British),38,somersault,264,understands,0
-English (British),39,somersault,99,produces,0.3131
-English (British),39,somersault,99,understands,0
-English (British),40,somersault,48,produces,0.2292
-English (British),40,somersault,48,understands,0
-English (British),41,somersault,24,produces,0.25
-English (British),41,somersault,24,understands,0
-English (British),42,somersault,23,produces,0.3478
-English (British),42,somersault,23,understands,0
-English (British),43,somersault,12,produces,0.25
-English (British),43,somersault,12,understands,0
-English (British),44,somersault,9,produces,0.3333
-English (British),44,somersault,9,understands,0
-English (British),45,somersault,12,produces,0.4167
-English (British),45,somersault,12,understands,0
-English (British),46,somersault,5,produces,0
-English (British),46,somersault,5,understands,0
-English (British),47,somersault,8,produces,0.375
-English (British),47,somersault,8,understands,0
+language,sex,age,words,n,measure,prop
+English (British),All,34,somersault,443,produces,0.2348
+English (British),All,34,somersault,443,understands,0
+English (British),All,35,somersault,3693,produces,0.2085
+English (British),All,35,somersault,3693,understands,0
+English (British),All,36,somersault,5244,produces,0.2214
+English (British),All,36,somersault,5244,understands,0
+English (British),All,37,somersault,906,produces,0.2075
+English (British),All,37,somersault,906,understands,0
+English (British),All,38,somersault,264,produces,0.2235
+English (British),All,38,somersault,264,understands,0
+English (British),All,39,somersault,99,produces,0.3131
+English (British),All,39,somersault,99,understands,0
+English (British),All,40,somersault,48,produces,0.2292
+English (British),All,40,somersault,48,understands,0
+English (British),All,41,somersault,24,produces,0.25
+English (British),All,41,somersault,24,understands,0
+English (British),All,42,somersault,23,produces,0.3478
+English (British),All,42,somersault,23,understands,0
+English (British),All,43,somersault,12,produces,0.25
+English (British),All,43,somersault,12,understands,0
+English (British),All,44,somersault,9,produces,0.3333
+English (British),All,44,somersault,9,understands,0
+English (British),All,45,somersault,12,produces,0.4167
+English (British),All,45,somersault,12,understands,0
+English (British),All,46,somersault,5,produces,0
+English (British),All,46,somersault,5,understands,0
+English (British),All,47,somersault,8,produces,0.375
+English (British),All,47,somersault,8,understands,0
+Turkish,All,8,Takla,140,produces,0
+Turkish,All,8,Takla,140,understands,0.0286
+Turkish,All,9,Takla,125,produces,0
+Turkish,All,9,Takla,125,understands,0.048
+Turkish,All,10,Takla,130,produces,0.0077
+Turkish,All,10,Takla,130,understands,0.0231
+Turkish,All,11,Takla,125,produces,0
+Turkish,All,11,Takla,125,understands,0.032
+Turkish,All,12,Takla,120,produces,0
+Turkish,All,12,Takla,120,understands,0.0833
+Turkish,All,13,Takla,122,produces,0
+Turkish,All,13,Takla,122,understands,0.0656
+Turkish,All,14,Takla,147,produces,0
+Turkish,All,14,Takla,147,understands,0.1429
+Turkish,All,15,Takla,131,produces,0.0229
+Turkish,All,15,Takla,131,understands,0.1756
+Turkish,All,16,Takla,184,produces,0.0054
+Turkish,All,16,Takla,184,understands,0.0815
+Turkish,All,17,Takla,107,produces,0.028
+Turkish,All,17,Takla,107,understands,0
+Turkish,All,18,Takla,128,produces,0.0391
+Turkish,All,18,Takla,128,understands,0
+Turkish,All,19,Takla,121,produces,0.0744
+Turkish,All,19,Takla,121,understands,0
+Turkish,All,20,Takla,119,produces,0.084
+Turkish,All,20,Takla,119,understands,0
+Turkish,All,21,Takla,124,produces,0.129
+Turkish,All,21,Takla,124,understands,0
+Turkish,All,22,Takla,126,produces,0.119
+Turkish,All,22,Takla,126,understands,0
+Turkish,All,23,Takla,131,produces,0.1069
+Turkish,All,23,Takla,131,understands,0
+Turkish,All,24,Takla,106,produces,0.217
+Turkish,All,24,Takla,106,understands,0
+Turkish,All,25,Takla,123,produces,0.2683
+Turkish,All,25,Takla,123,understands,0
+Turkish,All,26,Takla,123,produces,0.2764
+Turkish,All,26,Takla,123,understands,0
+Turkish,All,27,Takla,108,produces,0.3333
+Turkish,All,27,Takla,108,understands,0
+Turkish,All,28,Takla,112,produces,0.3839
+Turkish,All,28,Takla,112,understands,0
+Turkish,All,29,Takla,119,produces,0.4202
+Turkish,All,29,Takla,119,understands,0
+Turkish,All,30,Takla,104,produces,0.5385
+Turkish,All,30,Takla,104,understands,0
+Turkish,All,31,Takla,101,produces,0.5545
+Turkish,All,31,Takla,101,understands,0
+Turkish,All,32,Takla,132,produces,0.5606
+Turkish,All,32,Takla,132,understands,0
+Turkish,All,33,Takla,114,produces,0.6491
+Turkish,All,33,Takla,114,understands,0
+Turkish,All,34,Takla,107,produces,0.6168
+Turkish,All,34,Takla,107,understands,0
+Turkish,All,35,Takla,131,produces,0.7176
+Turkish,All,35,Takla,131,understands,0
+Turkish,All,36,Takla,77,produces,0.7922
+Turkish,All,36,Takla,77,understands,0
+English (British),Female,34,somersault,247,produces,0.2308
+English (British),Female,34,somersault,247,understands,0
+English (British),Male,34,somersault,196,produces,0.2398
+English (British),Male,34,somersault,196,understands,0
+English (British),Female,35,somersault,1927,produces,0.2226
+English (British),Female,35,somersault,1927,understands,0
+English (British),Male,35,somersault,1766,produces,0.1931
+English (British),Male,35,somersault,1766,understands,0
+English (British),Female,36,somersault,2650,produces,0.2464
+English (British),Female,36,somersault,2650,understands,0
+English (British),Male,36,somersault,2594,produces,0.1958
+English (British),Male,36,somersault,2594,understands,0
+English (British),Female,37,somersault,434,produces,0.2281
+English (British),Female,37,somersault,434,understands,0
+English (British),Male,37,somersault,472,produces,0.1886
+English (British),Male,37,somersault,472,understands,0
+English (British),Female,38,somersault,136,produces,0.1691
+English (British),Female,38,somersault,136,understands,0
+English (British),Male,38,somersault,128,produces,0.2812
+English (British),Male,38,somersault,128,understands,0
+English (British),Female,39,somersault,52,produces,0.2308
+English (British),Female,39,somersault,52,understands,0
+English (British),Male,39,somersault,47,produces,0.4043
+English (British),Male,39,somersault,47,understands,0
+English (British),Female,40,somersault,29,produces,0.1724
+English (British),Female,40,somersault,29,understands,0
+English (British),Male,40,somersault,19,produces,0.3158
+English (British),Male,40,somersault,19,understands,0
+English (British),Female,41,somersault,10,produces,0.3
+English (British),Female,41,somersault,10,understands,0
+English (British),Male,41,somersault,14,produces,0.2143
+English (British),Male,41,somersault,14,understands,0
+English (British),Female,42,somersault,10,produces,0.3
+English (British),Female,42,somersault,10,understands,0
+English (British),Male,42,somersault,13,produces,0.3846
+English (British),Male,42,somersault,13,understands,0
+English (British),Female,43,somersault,3,produces,0.3333
+English (British),Female,43,somersault,3,understands,0
+English (British),Male,43,somersault,9,produces,0.2222
+English (British),Male,43,somersault,9,understands,0
+English (British),Female,44,somersault,4,produces,0.25
+English (British),Female,44,somersault,4,understands,0
+English (British),Male,44,somersault,5,produces,0.4
+English (British),Male,44,somersault,5,understands,0
+English (British),Female,45,somersault,8,produces,0.25
+English (British),Female,45,somersault,8,understands,0
+English (British),Male,45,somersault,4,produces,0.75
+English (British),Male,45,somersault,4,understands,0
+English (British),Female,46,somersault,3,produces,0
+English (British),Female,46,somersault,3,understands,0
+English (British),Male,46,somersault,2,produces,0
+English (British),Male,46,somersault,2,understands,0
+English (British),Female,47,somersault,5,produces,0.4
+English (British),Female,47,somersault,5,understands,0
+English (British),Male,47,somersault,3,produces,0.3333
+English (British),Male,47,somersault,3,understands,0
+Turkish,Female,8,Takla,70,produces,0
+Turkish,Female,8,Takla,70,understands,0.0286
+Turkish,Male,8,Takla,70,produces,0
+Turkish,Male,8,Takla,70,understands,0.0286
+Turkish,Female,9,Takla,65,produces,0
+Turkish,Female,9,Takla,65,understands,0.0462
+Turkish,Male,9,Takla,60,produces,0
+Turkish,Male,9,Takla,60,understands,0.05
+Turkish,Female,10,Takla,62,produces,0
+Turkish,Female,10,Takla,62,understands,0.0161
+Turkish,Male,10,Takla,68,produces,0.0147
+Turkish,Male,10,Takla,68,understands,0.0294
+Turkish,Female,11,Takla,65,produces,0
+Turkish,Female,11,Takla,65,understands,0.0308
+Turkish,Male,11,Takla,60,produces,0
+Turkish,Male,11,Takla,60,understands,0.0333
+Turkish,Female,12,Takla,63,produces,0
+Turkish,Female,12,Takla,63,understands,0.0952
+Turkish,Male,12,Takla,57,produces,0
+Turkish,Male,12,Takla,57,understands,0.0702
+Turkish,Female,13,Takla,60,produces,0
+Turkish,Female,13,Takla,60,understands,0.05
+Turkish,Male,13,Takla,62,produces,0
+Turkish,Male,13,Takla,62,understands,0.0806
+Turkish,Female,14,Takla,74,produces,0
+Turkish,Female,14,Takla,74,understands,0.1351
+Turkish,Male,14,Takla,73,produces,0
+Turkish,Male,14,Takla,73,understands,0.1507
+Turkish,Female,15,Takla,66,produces,0
+Turkish,Female,15,Takla,66,understands,0.1515
+Turkish,Male,15,Takla,65,produces,0.0462
+Turkish,Male,15,Takla,65,understands,0.2
+Turkish,Female,16,Takla,102,produces,0.0098
+Turkish,Female,16,Takla,102,understands,0.098
+Turkish,Male,16,Takla,82,produces,0
+Turkish,Male,16,Takla,82,understands,0.061
+Turkish,Female,17,Takla,50,produces,0.04
+Turkish,Female,17,Takla,50,understands,0
+Turkish,Male,17,Takla,57,produces,0.0175
+Turkish,Male,17,Takla,57,understands,0
+Turkish,Female,18,Takla,65,produces,0.0462
+Turkish,Female,18,Takla,65,understands,0
+Turkish,Male,18,Takla,63,produces,0.0317
+Turkish,Male,18,Takla,63,understands,0
+Turkish,Female,19,Takla,63,produces,0.0635
+Turkish,Female,19,Takla,63,understands,0
+Turkish,Male,19,Takla,58,produces,0.0862
+Turkish,Male,19,Takla,58,understands,0
+Turkish,Female,20,Takla,60,produces,0.05
+Turkish,Female,20,Takla,60,understands,0
+Turkish,Male,20,Takla,59,produces,0.1186
+Turkish,Male,20,Takla,59,understands,0
+Turkish,Female,21,Takla,55,produces,0.2182
+Turkish,Female,21,Takla,55,understands,0
+Turkish,Male,21,Takla,69,produces,0.058
+Turkish,Male,21,Takla,69,understands,0
+Turkish,Female,22,Takla,58,produces,0.1207
+Turkish,Female,22,Takla,58,understands,0
+Turkish,Male,22,Takla,68,produces,0.1176
+Turkish,Male,22,Takla,68,understands,0
+Turkish,Female,23,Takla,71,produces,0.0986
+Turkish,Female,23,Takla,71,understands,0
+Turkish,Male,23,Takla,60,produces,0.1167
+Turkish,Male,23,Takla,60,understands,0
+Turkish,Female,24,Takla,54,produces,0.2593
+Turkish,Female,24,Takla,54,understands,0
+Turkish,Male,24,Takla,52,produces,0.1731
+Turkish,Male,24,Takla,52,understands,0
+Turkish,Female,25,Takla,63,produces,0.2698
+Turkish,Female,25,Takla,63,understands,0
+Turkish,Male,25,Takla,60,produces,0.2667
+Turkish,Male,25,Takla,60,understands,0
+Turkish,Female,26,Takla,60,produces,0.2667
+Turkish,Female,26,Takla,60,understands,0
+Turkish,Male,26,Takla,63,produces,0.2857
+Turkish,Male,26,Takla,63,understands,0
+Turkish,Female,27,Takla,56,produces,0.3036
+Turkish,Female,27,Takla,56,understands,0
+Turkish,Male,27,Takla,52,produces,0.3654
+Turkish,Male,27,Takla,52,understands,0
+Turkish,Female,28,Takla,62,produces,0.3548
+Turkish,Female,28,Takla,62,understands,0
+Turkish,Male,28,Takla,50,produces,0.42
+Turkish,Male,28,Takla,50,understands,0
+Turkish,Female,29,Takla,54,produces,0.5185
+Turkish,Female,29,Takla,54,understands,0
+Turkish,Male,29,Takla,65,produces,0.3385
+Turkish,Male,29,Takla,65,understands,0
+Turkish,Female,30,Takla,56,produces,0.4821
+Turkish,Female,30,Takla,56,understands,0
+Turkish,Male,30,Takla,48,produces,0.6042
+Turkish,Male,30,Takla,48,understands,0
+Turkish,Female,31,Takla,62,produces,0.5484
+Turkish,Female,31,Takla,62,understands,0
+Turkish,Male,31,Takla,39,produces,0.5641
+Turkish,Male,31,Takla,39,understands,0
+Turkish,Female,32,Takla,56,produces,0.625
+Turkish,Female,32,Takla,56,understands,0
+Turkish,Male,32,Takla,76,produces,0.5132
+Turkish,Male,32,Takla,76,understands,0
+Turkish,Female,33,Takla,59,produces,0.5932
+Turkish,Female,33,Takla,59,understands,0
+Turkish,Male,33,Takla,55,produces,0.7091
+Turkish,Male,33,Takla,55,understands,0
+Turkish,Female,34,Takla,56,produces,0.6607
+Turkish,Female,34,Takla,56,understands,0
+Turkish,Male,34,Takla,51,produces,0.5686
+Turkish,Male,34,Takla,51,understands,0
+Turkish,Female,35,Takla,69,produces,0.7826
+Turkish,Female,35,Takla,69,understands,0
+Turkish,Male,35,Takla,62,produces,0.6452
+Turkish,Male,35,Takla,62,understands,0
+Turkish,Female,36,Takla,36,produces,0.7778
+Turkish,Female,36,Takla,36,understands,0
+Turkish,Male,36,Takla,41,produces,0.8049
+Turkish,Male,36,Takla,41,understands,0

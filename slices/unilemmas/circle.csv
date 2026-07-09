@@ -1,65 +1,189 @@
-language,age,words,n,measure,prop
-Arabic (Saudi),8,دائرة,19,produces,0
-Arabic (Saudi),8,دائرة,19,understands,0
-Arabic (Saudi),9,دائرة,18,produces,0
-Arabic (Saudi),9,دائرة,18,understands,0
-Arabic (Saudi),10,دائرة,25,produces,0
-Arabic (Saudi),10,دائرة,25,understands,0
-Arabic (Saudi),11,دائرة,21,produces,0.0476
-Arabic (Saudi),11,دائرة,21,understands,0
-Arabic (Saudi),12,دائرة,19,produces,0
-Arabic (Saudi),12,دائرة,19,understands,0
-Arabic (Saudi),13,دائرة,36,produces,0.1667
-Arabic (Saudi),13,دائرة,36,understands,0
-Arabic (Saudi),14,دائرة,20,produces,0
-Arabic (Saudi),14,دائرة,20,understands,0
-Arabic (Saudi),15,دائرة,19,produces,0.0526
-Arabic (Saudi),15,دائرة,19,understands,0
-Arabic (Saudi),16,دائرة,18,produces,0
-Arabic (Saudi),16,دائرة,18,understands,0
-Dutch,28,cirkel,1,produces,0
-Dutch,28,cirkel,1,understands,0
-Dutch,29,cirkel,48,produces,0.4583
-Dutch,29,cirkel,48,understands,0
-Dutch,30,cirkel,21,produces,0.4286
-Dutch,30,cirkel,21,understands,0
-Dutch,31,cirkel,5,produces,0.6
-Dutch,31,cirkel,5,understands,0
-Dutch,32,cirkel,5,produces,0.8
-Dutch,32,cirkel,5,understands,0
-Dutch,33,cirkel,3,produces,0.6667
-Dutch,33,cirkel,3,understands,0
-Dutch,34,cirkel,5,produces,1
-Dutch,34,cirkel,5,understands,0
-Dutch,35,cirkel,3,produces,0.3333
-Dutch,35,cirkel,3,understands,0
-Dutch,36,cirkel,6,produces,1
-Dutch,36,cirkel,6,understands,0
-English (British),34,circle,443,produces,0.7472
-English (British),34,circle,443,understands,0
-English (British),35,circle,3693,produces,0.791
-English (British),35,circle,3693,understands,0
-English (British),36,circle,5244,produces,0.8145
-English (British),36,circle,5244,understands,0
-English (British),37,circle,906,produces,0.7826
-English (British),37,circle,906,understands,0
-English (British),38,circle,264,produces,0.7462
-English (British),38,circle,264,understands,0
-English (British),39,circle,99,produces,0.8788
-English (British),39,circle,99,understands,0
-English (British),40,circle,48,produces,0.7083
-English (British),40,circle,48,understands,0
-English (British),41,circle,24,produces,0.8333
-English (British),41,circle,24,understands,0
-English (British),42,circle,23,produces,0.7826
-English (British),42,circle,23,understands,0
-English (British),43,circle,12,produces,0.9167
-English (British),43,circle,12,understands,0
-English (British),44,circle,9,produces,0.6667
-English (British),44,circle,9,understands,0
-English (British),45,circle,12,produces,0.75
-English (British),45,circle,12,understands,0
-English (British),46,circle,5,produces,0
-English (British),46,circle,5,understands,0
-English (British),47,circle,8,produces,0.75
-English (British),47,circle,8,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,دائرة,19,produces,0
+Arabic (Saudi),All,8,دائرة,19,understands,0
+Arabic (Saudi),All,9,دائرة,18,produces,0
+Arabic (Saudi),All,9,دائرة,18,understands,0
+Arabic (Saudi),All,10,دائرة,25,produces,0
+Arabic (Saudi),All,10,دائرة,25,understands,0
+Arabic (Saudi),All,11,دائرة,21,produces,0.0476
+Arabic (Saudi),All,11,دائرة,21,understands,0
+Arabic (Saudi),All,12,دائرة,19,produces,0
+Arabic (Saudi),All,12,دائرة,19,understands,0
+Arabic (Saudi),All,13,دائرة,36,produces,0.1667
+Arabic (Saudi),All,13,دائرة,36,understands,0
+Arabic (Saudi),All,14,دائرة,20,produces,0
+Arabic (Saudi),All,14,دائرة,20,understands,0
+Arabic (Saudi),All,15,دائرة,19,produces,0.0526
+Arabic (Saudi),All,15,دائرة,19,understands,0
+Arabic (Saudi),All,16,دائرة,18,produces,0
+Arabic (Saudi),All,16,دائرة,18,understands,0
+Dutch,All,28,cirkel,1,produces,0
+Dutch,All,28,cirkel,1,understands,0
+Dutch,All,29,cirkel,48,produces,0.4583
+Dutch,All,29,cirkel,48,understands,0
+Dutch,All,30,cirkel,21,produces,0.4286
+Dutch,All,30,cirkel,21,understands,0
+Dutch,All,31,cirkel,5,produces,0.6
+Dutch,All,31,cirkel,5,understands,0
+Dutch,All,32,cirkel,5,produces,0.8
+Dutch,All,32,cirkel,5,understands,0
+Dutch,All,33,cirkel,3,produces,0.6667
+Dutch,All,33,cirkel,3,understands,0
+Dutch,All,34,cirkel,5,produces,1
+Dutch,All,34,cirkel,5,understands,0
+Dutch,All,35,cirkel,3,produces,0.3333
+Dutch,All,35,cirkel,3,understands,0
+Dutch,All,36,cirkel,6,produces,1
+Dutch,All,36,cirkel,6,understands,0
+English (British),All,34,circle,443,produces,0.7472
+English (British),All,34,circle,443,understands,0
+English (British),All,35,circle,3693,produces,0.791
+English (British),All,35,circle,3693,understands,0
+English (British),All,36,circle,5244,produces,0.8145
+English (British),All,36,circle,5244,understands,0
+English (British),All,37,circle,906,produces,0.7826
+English (British),All,37,circle,906,understands,0
+English (British),All,38,circle,264,produces,0.7462
+English (British),All,38,circle,264,understands,0
+English (British),All,39,circle,99,produces,0.8788
+English (British),All,39,circle,99,understands,0
+English (British),All,40,circle,48,produces,0.7083
+English (British),All,40,circle,48,understands,0
+English (British),All,41,circle,24,produces,0.8333
+English (British),All,41,circle,24,understands,0
+English (British),All,42,circle,23,produces,0.7826
+English (British),All,42,circle,23,understands,0
+English (British),All,43,circle,12,produces,0.9167
+English (British),All,43,circle,12,understands,0
+English (British),All,44,circle,9,produces,0.6667
+English (British),All,44,circle,9,understands,0
+English (British),All,45,circle,12,produces,0.75
+English (British),All,45,circle,12,understands,0
+English (British),All,46,circle,5,produces,0
+English (British),All,46,circle,5,understands,0
+English (British),All,47,circle,8,produces,0.75
+English (British),All,47,circle,8,understands,0
+Arabic (Saudi),Female,8,دائرة,9,produces,0
+Arabic (Saudi),Female,8,دائرة,9,understands,0
+Arabic (Saudi),Male,8,دائرة,10,produces,0
+Arabic (Saudi),Male,8,دائرة,10,understands,0
+Arabic (Saudi),Female,9,دائرة,10,produces,0
+Arabic (Saudi),Female,9,دائرة,10,understands,0
+Arabic (Saudi),Male,9,دائرة,8,produces,0
+Arabic (Saudi),Male,9,دائرة,8,understands,0
+Arabic (Saudi),Female,10,دائرة,11,produces,0
+Arabic (Saudi),Female,10,دائرة,11,understands,0
+Arabic (Saudi),Male,10,دائرة,14,produces,0
+Arabic (Saudi),Male,10,دائرة,14,understands,0
+Arabic (Saudi),Female,11,دائرة,9,produces,0.1111
+Arabic (Saudi),Female,11,دائرة,9,understands,0
+Arabic (Saudi),Male,11,دائرة,12,produces,0
+Arabic (Saudi),Male,11,دائرة,12,understands,0
+Arabic (Saudi),Female,12,دائرة,8,produces,0
+Arabic (Saudi),Female,12,دائرة,8,understands,0
+Arabic (Saudi),Male,12,دائرة,11,produces,0
+Arabic (Saudi),Male,12,دائرة,11,understands,0
+Arabic (Saudi),Female,13,دائرة,16,produces,0.1875
+Arabic (Saudi),Female,13,دائرة,16,understands,0
+Arabic (Saudi),Male,13,دائرة,20,produces,0.15
+Arabic (Saudi),Male,13,دائرة,20,understands,0
+Arabic (Saudi),Female,14,دائرة,10,produces,0
+Arabic (Saudi),Female,14,دائرة,10,understands,0
+Arabic (Saudi),Male,14,دائرة,10,produces,0
+Arabic (Saudi),Male,14,دائرة,10,understands,0
+Arabic (Saudi),Female,15,دائرة,7,produces,0
+Arabic (Saudi),Female,15,دائرة,7,understands,0
+Arabic (Saudi),Male,15,دائرة,12,produces,0.0833
+Arabic (Saudi),Male,15,دائرة,12,understands,0
+Arabic (Saudi),Female,16,دائرة,9,produces,0
+Arabic (Saudi),Female,16,دائرة,9,understands,0
+Arabic (Saudi),Male,16,دائرة,9,produces,0
+Arabic (Saudi),Male,16,دائرة,9,understands,0
+Dutch,Male,28,cirkel,1,produces,0
+Dutch,Male,28,cirkel,1,understands,0
+Dutch,Female,29,cirkel,15,produces,0.5333
+Dutch,Female,29,cirkel,15,understands,0
+Dutch,Male,29,cirkel,12,produces,0.4167
+Dutch,Male,29,cirkel,12,understands,0
+Dutch,Female,30,cirkel,4,produces,0.25
+Dutch,Female,30,cirkel,4,understands,0
+Dutch,Male,30,cirkel,3,produces,0.3333
+Dutch,Male,30,cirkel,3,understands,0
+Dutch,Female,31,cirkel,2,produces,0.5
+Dutch,Female,31,cirkel,2,understands,0
+Dutch,Male,31,cirkel,3,produces,0.6667
+Dutch,Male,31,cirkel,3,understands,0
+Dutch,Female,32,cirkel,1,produces,0
+Dutch,Female,32,cirkel,1,understands,0
+Dutch,Male,32,cirkel,4,produces,1
+Dutch,Male,32,cirkel,4,understands,0
+Dutch,Female,33,cirkel,1,produces,1
+Dutch,Female,33,cirkel,1,understands,0
+Dutch,Male,33,cirkel,2,produces,0.5
+Dutch,Male,33,cirkel,2,understands,0
+Dutch,Male,34,cirkel,4,produces,1
+Dutch,Male,34,cirkel,4,understands,0
+Dutch,Female,35,cirkel,1,produces,1
+Dutch,Female,35,cirkel,1,understands,0
+Dutch,Male,35,cirkel,2,produces,0
+Dutch,Male,35,cirkel,2,understands,0
+Dutch,Female,36,cirkel,3,produces,1
+Dutch,Female,36,cirkel,3,understands,0
+Dutch,Male,36,cirkel,3,produces,1
+Dutch,Male,36,cirkel,3,understands,0
+English (British),Female,34,circle,247,produces,0.7328
+English (British),Female,34,circle,247,understands,0
+English (British),Male,34,circle,196,produces,0.7653
+English (British),Male,34,circle,196,understands,0
+English (British),Female,35,circle,1927,produces,0.808
+English (British),Female,35,circle,1927,understands,0
+English (British),Male,35,circle,1766,produces,0.7724
+English (British),Male,35,circle,1766,understands,0
+English (British),Female,36,circle,2650,produces,0.8438
+English (British),Female,36,circle,2650,understands,0
+English (British),Male,36,circle,2594,produces,0.7845
+English (British),Male,36,circle,2594,understands,0
+English (British),Female,37,circle,434,produces,0.8272
+English (British),Female,37,circle,434,understands,0
+English (British),Male,37,circle,472,produces,0.7415
+English (British),Male,37,circle,472,understands,0
+English (British),Female,38,circle,136,produces,0.7426
+English (British),Female,38,circle,136,understands,0
+English (British),Male,38,circle,128,produces,0.75
+English (British),Male,38,circle,128,understands,0
+English (British),Female,39,circle,52,produces,0.8846
+English (British),Female,39,circle,52,understands,0
+English (British),Male,39,circle,47,produces,0.8723
+English (British),Male,39,circle,47,understands,0
+English (British),Female,40,circle,29,produces,0.7586
+English (British),Female,40,circle,29,understands,0
+English (British),Male,40,circle,19,produces,0.6316
+English (British),Male,40,circle,19,understands,0
+English (British),Female,41,circle,10,produces,0.9
+English (British),Female,41,circle,10,understands,0
+English (British),Male,41,circle,14,produces,0.7857
+English (British),Male,41,circle,14,understands,0
+English (British),Female,42,circle,10,produces,0.8
+English (British),Female,42,circle,10,understands,0
+English (British),Male,42,circle,13,produces,0.7692
+English (British),Male,42,circle,13,understands,0
+English (British),Female,43,circle,3,produces,0.6667
+English (British),Female,43,circle,3,understands,0
+English (British),Male,43,circle,9,produces,1
+English (British),Male,43,circle,9,understands,0
+English (British),Female,44,circle,4,produces,0.75
+English (British),Female,44,circle,4,understands,0
+English (British),Male,44,circle,5,produces,0.6
+English (British),Male,44,circle,5,understands,0
+English (British),Female,45,circle,8,produces,0.75
+English (British),Female,45,circle,8,understands,0
+English (British),Male,45,circle,4,produces,0.75
+English (British),Male,45,circle,4,understands,0
+English (British),Female,46,circle,3,produces,0
+English (British),Female,46,circle,3,understands,0
+English (British),Male,46,circle,2,produces,0
+English (British),Male,46,circle,2,understands,0
+English (British),Female,47,circle,5,produces,0.8
+English (British),Female,47,circle,5,understands,0
+English (British),Male,47,circle,3,produces,0.6667
+English (British),Male,47,circle,3,understands,0

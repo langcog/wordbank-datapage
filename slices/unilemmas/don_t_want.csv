@@ -1,89 +1,265 @@
-language,age,words,n,measure,prop
-Latvian,17,negribu,27,produces,0.1481
-Latvian,17,negribu,27,understands,0
-Latvian,18,negribu,21,produces,0.0476
-Latvian,18,negribu,21,understands,0
-Latvian,19,negribu,28,produces,0.1429
-Latvian,19,negribu,28,understands,0
-Latvian,20,negribu,34,produces,0.3235
-Latvian,20,negribu,34,understands,0
-Latvian,21,negribu,26,produces,0.4231
-Latvian,21,negribu,26,understands,0
-Latvian,22,negribu,32,produces,0.3438
-Latvian,22,negribu,32,understands,0
-Latvian,23,negribu,25,produces,0.48
-Latvian,23,negribu,25,understands,0
-Latvian,24,negribu,30,produces,0.5333
-Latvian,24,negribu,30,understands,0
-Latvian,25,negribu,29,produces,0.4828
-Latvian,25,negribu,29,understands,0
-Latvian,26,negribu,22,produces,0.7273
-Latvian,26,negribu,22,understands,0
-Latvian,27,negribu,18,produces,0.6111
-Latvian,27,negribu,18,understands,0
-Latvian,28,negribu,23,produces,0.6522
-Latvian,28,negribu,23,understands,0
-Latvian,29,negribu,24,produces,0.75
-Latvian,29,negribu,24,understands,0
-Latvian,30,negribu,26,produces,0.8077
-Latvian,30,negribu,26,understands,0
-Latvian,31,negribu,19,produces,0.6842
-Latvian,31,negribu,19,understands,0
-Latvian,32,negribu,25,produces,0.76
-Latvian,32,negribu,25,understands,0
-Latvian,33,negribu,31,produces,0.8387
-Latvian,33,negribu,31,understands,0
-Latvian,34,negribu,17,produces,0.8824
-Latvian,34,negribu,17,understands,0
-Latvian,35,negribu,21,produces,0.8571
-Latvian,35,negribu,21,understands,0
-Latvian,36,negribu,22,produces,0.8182
-Latvian,36,negribu,22,understands,0
-Arabic (Saudi),8,ما/ ما أبغى,24,produces,0
-Arabic (Saudi),8,ما/ ما أبغى,24,understands,0.0833
-Arabic (Saudi),9,ما/ ما أبغى,27,produces,0
-Arabic (Saudi),9,ما/ ما أبغى,27,understands,0
-Arabic (Saudi),10,ما/ ما أبغى,35,produces,0
-Arabic (Saudi),10,ما/ ما أبغى,35,understands,0.1143
-Arabic (Saudi),11,ما/ ما أبغى,30,produces,0.0333
-Arabic (Saudi),11,ما/ ما أبغى,30,understands,0.0667
-Arabic (Saudi),12,ما/ ما أبغى,30,produces,0.0333
-Arabic (Saudi),12,ما/ ما أبغى,30,understands,0.0667
-Arabic (Saudi),13,ما/ ما أبغى,39,produces,0
-Arabic (Saudi),13,ما/ ما أبغى,39,understands,0
-Arabic (Saudi),14,ما/ ما أبغى,25,produces,0
-Arabic (Saudi),14,ما/ ما أبغى,25,understands,0
-Arabic (Saudi),15,ما/ ما أبغى,27,produces,0.1111
-Arabic (Saudi),15,ما/ ما أبغى,27,understands,0.1111
-Arabic (Saudi),16,ما/ ما أبغى,21,produces,0.1429
-Arabic (Saudi),16,ما/ ما أبغى,21,understands,0.0952
-Cantonese,16,唔要,46,produces,0.1087
-Cantonese,16,唔要,46,understands,0
-Cantonese,17,唔要,61,produces,0.1639
-Cantonese,17,唔要,61,understands,0
-Cantonese,18,唔要,68,produces,0.1765
-Cantonese,18,唔要,68,understands,0
-Cantonese,19,唔要,66,produces,0.2424
-Cantonese,19,唔要,66,understands,0
-Cantonese,20,唔要,140,produces,0.5143
-Cantonese,20,唔要,140,understands,0
-Cantonese,21,唔要,120,produces,0.5167
-Cantonese,21,唔要,120,understands,0
-Cantonese,22,唔要,68,produces,0.5
-Cantonese,22,唔要,68,understands,0
-Cantonese,23,唔要,74,produces,0.6351
-Cantonese,23,唔要,74,understands,0
-Cantonese,24,唔要,68,produces,0.7206
-Cantonese,24,唔要,68,understands,0
-Cantonese,25,唔要,65,produces,0.7538
-Cantonese,25,唔要,65,understands,0
-Cantonese,26,唔要,68,produces,0.7941
-Cantonese,26,唔要,68,understands,0
-Cantonese,27,唔要,62,produces,0.8226
-Cantonese,27,唔要,62,understands,0
-Cantonese,28,唔要,66,produces,0.9091
-Cantonese,28,唔要,66,understands,0
-Cantonese,29,唔要,72,produces,0.9167
-Cantonese,29,唔要,72,understands,0
-Cantonese,30,唔要,164,produces,0.9207
-Cantonese,30,唔要,164,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,ما/ ما أبغى,24,produces,0
+Arabic (Saudi),All,8,ما/ ما أبغى,24,understands,0.0833
+Arabic (Saudi),All,9,ما/ ما أبغى,27,produces,0
+Arabic (Saudi),All,9,ما/ ما أبغى,27,understands,0
+Arabic (Saudi),All,10,ما/ ما أبغى,35,produces,0
+Arabic (Saudi),All,10,ما/ ما أبغى,35,understands,0.1143
+Arabic (Saudi),All,11,ما/ ما أبغى,30,produces,0.0333
+Arabic (Saudi),All,11,ما/ ما أبغى,30,understands,0.0667
+Arabic (Saudi),All,12,ما/ ما أبغى,30,produces,0.0333
+Arabic (Saudi),All,12,ما/ ما أبغى,30,understands,0.0667
+Arabic (Saudi),All,13,ما/ ما أبغى,39,produces,0
+Arabic (Saudi),All,13,ما/ ما أبغى,39,understands,0
+Arabic (Saudi),All,14,ما/ ما أبغى,25,produces,0
+Arabic (Saudi),All,14,ما/ ما أبغى,25,understands,0
+Arabic (Saudi),All,15,ما/ ما أبغى,27,produces,0.1111
+Arabic (Saudi),All,15,ما/ ما أبغى,27,understands,0.1111
+Arabic (Saudi),All,16,ما/ ما أبغى,21,produces,0.1429
+Arabic (Saudi),All,16,ما/ ما أبغى,21,understands,0.0952
+Cantonese,All,16,唔要,46,produces,0.1087
+Cantonese,All,16,唔要,46,understands,0
+Cantonese,All,17,唔要,61,produces,0.1639
+Cantonese,All,17,唔要,61,understands,0
+Cantonese,All,18,唔要,68,produces,0.1765
+Cantonese,All,18,唔要,68,understands,0
+Cantonese,All,19,唔要,66,produces,0.2424
+Cantonese,All,19,唔要,66,understands,0
+Cantonese,All,20,唔要,140,produces,0.5143
+Cantonese,All,20,唔要,140,understands,0
+Cantonese,All,21,唔要,120,produces,0.5167
+Cantonese,All,21,唔要,120,understands,0
+Cantonese,All,22,唔要,68,produces,0.5
+Cantonese,All,22,唔要,68,understands,0
+Cantonese,All,23,唔要,74,produces,0.6351
+Cantonese,All,23,唔要,74,understands,0
+Cantonese,All,24,唔要,68,produces,0.7206
+Cantonese,All,24,唔要,68,understands,0
+Cantonese,All,25,唔要,65,produces,0.7538
+Cantonese,All,25,唔要,65,understands,0
+Cantonese,All,26,唔要,68,produces,0.7941
+Cantonese,All,26,唔要,68,understands,0
+Cantonese,All,27,唔要,62,produces,0.8226
+Cantonese,All,27,唔要,62,understands,0
+Cantonese,All,28,唔要,66,produces,0.9091
+Cantonese,All,28,唔要,66,understands,0
+Cantonese,All,29,唔要,72,produces,0.9167
+Cantonese,All,29,唔要,72,understands,0
+Cantonese,All,30,唔要,164,produces,0.9207
+Cantonese,All,30,唔要,164,understands,0
+Latvian,All,17,negribu,27,produces,0.1481
+Latvian,All,17,negribu,27,understands,0
+Latvian,All,18,negribu,21,produces,0.0476
+Latvian,All,18,negribu,21,understands,0
+Latvian,All,19,negribu,28,produces,0.1429
+Latvian,All,19,negribu,28,understands,0
+Latvian,All,20,negribu,34,produces,0.3235
+Latvian,All,20,negribu,34,understands,0
+Latvian,All,21,negribu,26,produces,0.4231
+Latvian,All,21,negribu,26,understands,0
+Latvian,All,22,negribu,32,produces,0.3438
+Latvian,All,22,negribu,32,understands,0
+Latvian,All,23,negribu,25,produces,0.48
+Latvian,All,23,negribu,25,understands,0
+Latvian,All,24,negribu,30,produces,0.5333
+Latvian,All,24,negribu,30,understands,0
+Latvian,All,25,negribu,29,produces,0.4828
+Latvian,All,25,negribu,29,understands,0
+Latvian,All,26,negribu,22,produces,0.7273
+Latvian,All,26,negribu,22,understands,0
+Latvian,All,27,negribu,18,produces,0.6111
+Latvian,All,27,negribu,18,understands,0
+Latvian,All,28,negribu,23,produces,0.6522
+Latvian,All,28,negribu,23,understands,0
+Latvian,All,29,negribu,24,produces,0.75
+Latvian,All,29,negribu,24,understands,0
+Latvian,All,30,negribu,26,produces,0.8077
+Latvian,All,30,negribu,26,understands,0
+Latvian,All,31,negribu,19,produces,0.6842
+Latvian,All,31,negribu,19,understands,0
+Latvian,All,32,negribu,25,produces,0.76
+Latvian,All,32,negribu,25,understands,0
+Latvian,All,33,negribu,31,produces,0.8387
+Latvian,All,33,negribu,31,understands,0
+Latvian,All,34,negribu,17,produces,0.8824
+Latvian,All,34,negribu,17,understands,0
+Latvian,All,35,negribu,21,produces,0.8571
+Latvian,All,35,negribu,21,understands,0
+Latvian,All,36,negribu,22,produces,0.8182
+Latvian,All,36,negribu,22,understands,0
+Arabic (Saudi),Female,8,ما/ ما أبغى,13,produces,0
+Arabic (Saudi),Female,8,ما/ ما أبغى,13,understands,0.1538
+Arabic (Saudi),Male,8,ما/ ما أبغى,11,produces,0
+Arabic (Saudi),Male,8,ما/ ما أبغى,11,understands,0
+Arabic (Saudi),Female,9,ما/ ما أبغى,14,produces,0
+Arabic (Saudi),Female,9,ما/ ما أبغى,14,understands,0
+Arabic (Saudi),Male,9,ما/ ما أبغى,13,produces,0
+Arabic (Saudi),Male,9,ما/ ما أبغى,13,understands,0
+Arabic (Saudi),Female,10,ما/ ما أبغى,15,produces,0
+Arabic (Saudi),Female,10,ما/ ما أبغى,15,understands,0.2
+Arabic (Saudi),Male,10,ما/ ما أبغى,20,produces,0
+Arabic (Saudi),Male,10,ما/ ما أبغى,20,understands,0.05
+Arabic (Saudi),Female,11,ما/ ما أبغى,14,produces,0
+Arabic (Saudi),Female,11,ما/ ما أبغى,14,understands,0.0714
+Arabic (Saudi),Male,11,ما/ ما أبغى,16,produces,0.0625
+Arabic (Saudi),Male,11,ما/ ما أبغى,16,understands,0.0625
+Arabic (Saudi),Female,12,ما/ ما أبغى,14,produces,0
+Arabic (Saudi),Female,12,ما/ ما أبغى,14,understands,0.0714
+Arabic (Saudi),Male,12,ما/ ما أبغى,16,produces,0.0625
+Arabic (Saudi),Male,12,ما/ ما أبغى,16,understands,0.0625
+Arabic (Saudi),Female,13,ما/ ما أبغى,17,produces,0
+Arabic (Saudi),Female,13,ما/ ما أبغى,17,understands,0
+Arabic (Saudi),Male,13,ما/ ما أبغى,22,produces,0
+Arabic (Saudi),Male,13,ما/ ما أبغى,22,understands,0
+Arabic (Saudi),Female,14,ما/ ما أبغى,10,produces,0
+Arabic (Saudi),Female,14,ما/ ما أبغى,10,understands,0
+Arabic (Saudi),Male,14,ما/ ما أبغى,15,produces,0
+Arabic (Saudi),Male,14,ما/ ما أبغى,15,understands,0
+Arabic (Saudi),Female,15,ما/ ما أبغى,12,produces,0
+Arabic (Saudi),Female,15,ما/ ما أبغى,12,understands,0.1667
+Arabic (Saudi),Male,15,ما/ ما أبغى,15,produces,0.2
+Arabic (Saudi),Male,15,ما/ ما أبغى,15,understands,0.0667
+Arabic (Saudi),Female,16,ما/ ما أبغى,10,produces,0.2
+Arabic (Saudi),Female,16,ما/ ما أبغى,10,understands,0.1
+Arabic (Saudi),Male,16,ما/ ما أبغى,11,produces,0.0909
+Arabic (Saudi),Male,16,ما/ ما أبغى,11,understands,0.0909
+Cantonese,Female,16,唔要,23,produces,0.087
+Cantonese,Female,16,唔要,23,understands,0
+Cantonese,Male,16,唔要,23,produces,0.1304
+Cantonese,Male,16,唔要,23,understands,0
+Cantonese,Female,17,唔要,30,produces,0.2
+Cantonese,Female,17,唔要,30,understands,0
+Cantonese,Male,17,唔要,31,produces,0.129
+Cantonese,Male,17,唔要,31,understands,0
+Cantonese,Female,18,唔要,33,produces,0.2727
+Cantonese,Female,18,唔要,33,understands,0
+Cantonese,Male,18,唔要,35,produces,0.0857
+Cantonese,Male,18,唔要,35,understands,0
+Cantonese,Female,19,唔要,30,produces,0.2
+Cantonese,Female,19,唔要,30,understands,0
+Cantonese,Male,19,唔要,36,produces,0.2778
+Cantonese,Male,19,唔要,36,understands,0
+Cantonese,Female,20,唔要,62,produces,0.5968
+Cantonese,Female,20,唔要,62,understands,0
+Cantonese,Male,20,唔要,78,produces,0.4487
+Cantonese,Male,20,唔要,78,understands,0
+Cantonese,Female,21,唔要,57,produces,0.5614
+Cantonese,Female,21,唔要,57,understands,0
+Cantonese,Male,21,唔要,63,produces,0.4762
+Cantonese,Male,21,唔要,63,understands,0
+Cantonese,Female,22,唔要,34,produces,0.5882
+Cantonese,Female,22,唔要,34,understands,0
+Cantonese,Male,22,唔要,34,produces,0.4118
+Cantonese,Male,22,唔要,34,understands,0
+Cantonese,Female,23,唔要,37,produces,0.7027
+Cantonese,Female,23,唔要,37,understands,0
+Cantonese,Male,23,唔要,37,produces,0.5676
+Cantonese,Male,23,唔要,37,understands,0
+Cantonese,Female,24,唔要,32,produces,0.7188
+Cantonese,Female,24,唔要,32,understands,0
+Cantonese,Male,24,唔要,36,produces,0.7222
+Cantonese,Male,24,唔要,36,understands,0
+Cantonese,Female,25,唔要,31,produces,0.7419
+Cantonese,Female,25,唔要,31,understands,0
+Cantonese,Male,25,唔要,34,produces,0.7647
+Cantonese,Male,25,唔要,34,understands,0
+Cantonese,Female,26,唔要,31,produces,0.8387
+Cantonese,Female,26,唔要,31,understands,0
+Cantonese,Male,26,唔要,37,produces,0.7568
+Cantonese,Male,26,唔要,37,understands,0
+Cantonese,Female,27,唔要,31,produces,0.7742
+Cantonese,Female,27,唔要,31,understands,0
+Cantonese,Male,27,唔要,31,produces,0.871
+Cantonese,Male,27,唔要,31,understands,0
+Cantonese,Female,28,唔要,32,produces,0.9688
+Cantonese,Female,28,唔要,32,understands,0
+Cantonese,Male,28,唔要,34,produces,0.8529
+Cantonese,Male,28,唔要,34,understands,0
+Cantonese,Female,29,唔要,36,produces,0.9167
+Cantonese,Female,29,唔要,36,understands,0
+Cantonese,Male,29,唔要,36,produces,0.9167
+Cantonese,Male,29,唔要,36,understands,0
+Cantonese,Female,30,唔要,76,produces,0.9605
+Cantonese,Female,30,唔要,76,understands,0
+Cantonese,Male,30,唔要,88,produces,0.8864
+Cantonese,Male,30,唔要,88,understands,0
+Latvian,Female,17,negribu,12,produces,0.0833
+Latvian,Female,17,negribu,12,understands,0
+Latvian,Male,17,negribu,15,produces,0.2
+Latvian,Male,17,negribu,15,understands,0
+Latvian,Female,18,negribu,10,produces,0
+Latvian,Female,18,negribu,10,understands,0
+Latvian,Male,18,negribu,11,produces,0.0909
+Latvian,Male,18,negribu,11,understands,0
+Latvian,Female,19,negribu,18,produces,0.1111
+Latvian,Female,19,negribu,18,understands,0
+Latvian,Male,19,negribu,10,produces,0.2
+Latvian,Male,19,negribu,10,understands,0
+Latvian,Female,20,negribu,17,produces,0.2941
+Latvian,Female,20,negribu,17,understands,0
+Latvian,Male,20,negribu,17,produces,0.3529
+Latvian,Male,20,negribu,17,understands,0
+Latvian,Female,21,negribu,15,produces,0.5333
+Latvian,Female,21,negribu,15,understands,0
+Latvian,Male,21,negribu,11,produces,0.2727
+Latvian,Male,21,negribu,11,understands,0
+Latvian,Female,22,negribu,16,produces,0.375
+Latvian,Female,22,negribu,16,understands,0
+Latvian,Male,22,negribu,16,produces,0.3125
+Latvian,Male,22,negribu,16,understands,0
+Latvian,Female,23,negribu,15,produces,0.5333
+Latvian,Female,23,negribu,15,understands,0
+Latvian,Male,23,negribu,10,produces,0.4
+Latvian,Male,23,negribu,10,understands,0
+Latvian,Female,24,negribu,15,produces,0.6
+Latvian,Female,24,negribu,15,understands,0
+Latvian,Male,24,negribu,15,produces,0.4667
+Latvian,Male,24,negribu,15,understands,0
+Latvian,Female,25,negribu,16,produces,0.5
+Latvian,Female,25,negribu,16,understands,0
+Latvian,Male,25,negribu,13,produces,0.4615
+Latvian,Male,25,negribu,13,understands,0
+Latvian,Female,26,negribu,9,produces,0.6667
+Latvian,Female,26,negribu,9,understands,0
+Latvian,Male,26,negribu,13,produces,0.7692
+Latvian,Male,26,negribu,13,understands,0
+Latvian,Female,27,negribu,10,produces,0.8
+Latvian,Female,27,negribu,10,understands,0
+Latvian,Male,27,negribu,8,produces,0.375
+Latvian,Male,27,negribu,8,understands,0
+Latvian,Female,28,negribu,11,produces,0.7273
+Latvian,Female,28,negribu,11,understands,0
+Latvian,Male,28,negribu,12,produces,0.5833
+Latvian,Male,28,negribu,12,understands,0
+Latvian,Female,29,negribu,11,produces,0.9091
+Latvian,Female,29,negribu,11,understands,0
+Latvian,Male,29,negribu,13,produces,0.6154
+Latvian,Male,29,negribu,13,understands,0
+Latvian,Female,30,negribu,12,produces,0.6667
+Latvian,Female,30,negribu,12,understands,0
+Latvian,Male,30,negribu,14,produces,0.9286
+Latvian,Male,30,negribu,14,understands,0
+Latvian,Female,31,negribu,10,produces,0.8
+Latvian,Female,31,negribu,10,understands,0
+Latvian,Male,31,negribu,9,produces,0.5556
+Latvian,Male,31,negribu,9,understands,0
+Latvian,Female,32,negribu,13,produces,1
+Latvian,Female,32,negribu,13,understands,0
+Latvian,Male,32,negribu,12,produces,0.5
+Latvian,Male,32,negribu,12,understands,0
+Latvian,Female,33,negribu,17,produces,0.8824
+Latvian,Female,33,negribu,17,understands,0
+Latvian,Male,33,negribu,14,produces,0.7857
+Latvian,Male,33,negribu,14,understands,0
+Latvian,Female,34,negribu,10,produces,1
+Latvian,Female,34,negribu,10,understands,0
+Latvian,Male,34,negribu,7,produces,0.7143
+Latvian,Male,34,negribu,7,understands,0
+Latvian,Female,35,negribu,8,produces,0.875
+Latvian,Female,35,negribu,8,understands,0
+Latvian,Male,35,negribu,13,produces,0.8462
+Latvian,Male,35,negribu,13,understands,0
+Latvian,Female,36,negribu,12,produces,0.75
+Latvian,Female,36,negribu,12,understands,0
+Latvian,Male,36,negribu,10,produces,0.9
+Latvian,Male,36,negribu,10,understands,0

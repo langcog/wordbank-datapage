@@ -1,593 +1,1715 @@
-language,age,words,n,measure,prop
-Italian,18,donna,31,produces,0
-Italian,18,donna,31,understands,0
-Italian,19,donna,39,produces,0.0513
-Italian,19,donna,39,understands,0
-Italian,20,donna,64,produces,0.0312
-Italian,20,donna,64,understands,0
-Italian,21,donna,55,produces,0.0727
-Italian,21,donna,55,understands,0
-Italian,22,donna,55,produces,0.1455
-Italian,22,donna,55,understands,0
-Italian,23,donna,53,produces,0.0943
-Italian,23,donna,53,understands,0
-Italian,24,donna,71,produces,0.1268
-Italian,24,donna,71,understands,0
-Italian,25,donna,39,produces,0.2051
-Italian,25,donna,39,understands,0
-Italian,26,donna,41,produces,0.2683
-Italian,26,donna,41,understands,0
-Italian,27,donna,43,produces,0.2093
-Italian,27,donna,43,understands,0
-Italian,28,donna,44,produces,0.2727
-Italian,28,donna,44,understands,0
-Italian,29,donna,37,produces,0.3514
-Italian,29,donna,37,understands,0
-Italian,30,donna,67,produces,0.4627
-Italian,30,donna,67,understands,0
-Italian,31,donna,19,produces,0.4737
-Italian,31,donna,19,understands,0
-Italian,32,donna,23,produces,0.3913
-Italian,32,donna,23,understands,0
-Italian,33,donna,16,produces,0.625
-Italian,33,donna,16,understands,0
-Italian,34,donna,19,produces,0.6316
-Italian,34,donna,19,understands,0
-Italian,35,donna,15,produces,0.4667
-Italian,35,donna,15,understands,0
-Italian,36,donna,21,produces,0.4762
-Italian,36,donna,21,understands,0
-Korean,8,아줌마,57,produces,0
-Korean,8,아줌마,57,understands,0.0526
-Korean,9,아줌마,73,produces,0
-Korean,9,아줌마,73,understands,0
-Korean,10,아줌마,77,produces,0
-Korean,10,아줌마,77,understands,0.026
-Korean,11,아줌마,80,produces,0
-Korean,11,아줌마,80,understands,0.025
-Korean,12,아줌마,74,produces,0.0135
-Korean,12,아줌마,74,understands,0.027
-Korean,13,아줌마,127,produces,0
-Korean,13,아줌마,127,understands,0.0787
-Korean,14,아줌마,87,produces,0.023
-Korean,14,아줌마,87,understands,0.1609
-Korean,15,아줌마,85,produces,0.0118
-Korean,15,아줌마,85,understands,0.1059
-Korean,16,아줌마,86,produces,0.0233
-Korean,16,아줌마,86,understands,0.1977
-Korean,17,아줌마,63,produces,0.0635
-Korean,17,아줌마,63,understands,0.3651
-Korean,18,"아줌마, 여자",88,produces,0.0568
-Korean,18,"아줌마, 여자",88,understands,0
-Korean,19,"아줌마, 여자",77,produces,0.0519
-Korean,19,"아줌마, 여자",77,understands,0
-Korean,20,"아줌마, 여자",88,produces,0.0682
-Korean,20,"아줌마, 여자",88,understands,0
-Korean,21,"아줌마, 여자",79,produces,0.057
-Korean,21,"아줌마, 여자",79,understands,0
-Korean,22,"아줌마, 여자",87,produces,0.1897
-Korean,22,"아줌마, 여자",87,understands,0
-Korean,23,"아줌마, 여자",87,produces,0.1437
-Korean,23,"아줌마, 여자",87,understands,0
-Korean,24,"아줌마, 여자",107,produces,0.257
-Korean,24,"아줌마, 여자",107,understands,0
-Korean,25,"아줌마, 여자",95,produces,0.3211
-Korean,25,"아줌마, 여자",95,understands,0
-Korean,26,"아줌마, 여자",91,produces,0.3626
-Korean,26,"아줌마, 여자",91,understands,0
-Korean,27,"아줌마, 여자",104,produces,0.4183
-Korean,27,"아줌마, 여자",104,understands,0
-Korean,28,"아줌마, 여자",89,produces,0.5393
-Korean,28,"아줌마, 여자",89,understands,0
-Korean,29,"아줌마, 여자",101,produces,0.5149
-Korean,29,"아줌마, 여자",101,understands,0
-Korean,30,"아줌마, 여자",81,produces,0.6235
-Korean,30,"아줌마, 여자",81,understands,0
-Korean,31,"아줌마, 여자",79,produces,0.7089
-Korean,31,"아줌마, 여자",79,understands,0
-Korean,32,"아줌마, 여자",70,produces,0.6143
-Korean,32,"아줌마, 여자",70,understands,0
-Korean,33,"아줌마, 여자",79,produces,0.6899
-Korean,33,"아줌마, 여자",79,understands,0
-Korean,34,"아줌마, 여자",79,produces,0.7975
-Korean,34,"아줌마, 여자",79,understands,0
-Korean,35,"아줌마, 여자",74,produces,0.7703
-Korean,35,"아줌마, 여자",74,understands,0
-Korean,36,"아줌마, 여자",75,produces,0.86
-Korean,36,"아줌마, 여자",75,understands,0
-Persian,8,خانم/ زن,7,produces,0
-Persian,8,خانم/ زن,7,understands,0.2857
-Persian,9,خانم/ زن,21,produces,0
-Persian,9,خانم/ زن,21,understands,0.0952
-Persian,10,خانم/ زن,16,produces,0
-Persian,10,خانم/ زن,16,understands,0.3125
-Persian,11,خانم/ زن,13,produces,0
-Persian,11,خانم/ زن,13,understands,0.0769
-Persian,12,خانم/ زن,11,produces,0
-Persian,12,خانم/ زن,11,understands,0.1818
-Persian,13,خانم/ زن,14,produces,0
-Persian,13,خانم/ زن,14,understands,0.2143
-Persian,14,خانم/ زن,15,produces,0
-Persian,14,خانم/ زن,15,understands,0.4667
-Persian,15,خانم/ زن,12,produces,0
-Persian,15,خانم/ زن,12,understands,0.4167
-Persian,16,خانم/ زن,4,produces,0
-Persian,16,خانم/ زن,4,understands,0.25
-Portuguese (European),8,Senhora,126,produces,0
-Portuguese (European),8,Senhora,126,understands,0.0317
-Portuguese (European),9,Senhora,148,produces,0
-Portuguese (European),9,Senhora,148,understands,0.0405
-Portuguese (European),10,Senhora,168,produces,0
-Portuguese (European),10,Senhora,168,understands,0.0298
-Portuguese (European),11,Senhora,179,produces,0
-Portuguese (European),11,Senhora,179,understands,0.0447
-Portuguese (European),12,Senhora,161,produces,0
-Portuguese (European),12,Senhora,161,understands,0.118
-Portuguese (European),13,Senhora,176,produces,0
-Portuguese (European),13,Senhora,176,understands,0.142
-Portuguese (European),14,Senhora,183,produces,0.0055
-Portuguese (European),14,Senhora,183,understands,0.1421
-Portuguese (European),15,Senhora,173,produces,0
-Portuguese (European),15,Senhora,173,understands,0.2023
-Portuguese (European),16,"Mulher, Senhora",144,produces,0
-Portuguese (European),16,"Mulher, Senhora",144,understands,0
-Portuguese (European),17,"Mulher, Senhora",158,produces,0.0095
-Portuguese (European),17,"Mulher, Senhora",158,understands,0
-Portuguese (European),18,"Mulher, Senhora",203,produces,0.0099
-Portuguese (European),18,"Mulher, Senhora",203,understands,0
-Portuguese (European),19,"Mulher, Senhora",196,produces,0.0306
-Portuguese (European),19,"Mulher, Senhora",196,understands,0
-Portuguese (European),20,"Mulher, Senhora",218,produces,0.0619
-Portuguese (European),20,"Mulher, Senhora",218,understands,0
-Portuguese (European),21,"Mulher, Senhora",208,produces,0.0649
-Portuguese (European),21,"Mulher, Senhora",208,understands,0
-Portuguese (European),22,"Mulher, Senhora",213,produces,0.1009
-Portuguese (European),22,"Mulher, Senhora",213,understands,0
-Portuguese (European),23,"Mulher, Senhora",199,produces,0.1382
-Portuguese (European),23,"Mulher, Senhora",199,understands,0
-Portuguese (European),24,"Mulher, Senhora",215,produces,0.2023
-Portuguese (European),24,"Mulher, Senhora",215,understands,0
-Portuguese (European),25,"Mulher, Senhora",213,produces,0.2723
-Portuguese (European),25,"Mulher, Senhora",213,understands,0
-Portuguese (European),26,"Mulher, Senhora",218,produces,0.2821
-Portuguese (European),26,"Mulher, Senhora",218,understands,0
-Portuguese (European),27,"Mulher, Senhora",238,produces,0.355
-Portuguese (European),27,"Mulher, Senhora",238,understands,0
-Portuguese (European),28,"Mulher, Senhora",219,produces,0.3767
-Portuguese (European),28,"Mulher, Senhora",219,understands,0
-Portuguese (European),29,"Mulher, Senhora",207,produces,0.3937
-Portuguese (European),29,"Mulher, Senhora",207,understands,0
-Portuguese (European),30,"Mulher, Senhora",163,produces,0.4448
-Portuguese (European),30,"Mulher, Senhora",163,understands,0
-Spanish (Argentinian),16,señora,47,produces,0.0213
-Spanish (Argentinian),16,señora,47,understands,0
-Spanish (Argentinian),17,señora,49,produces,0.0204
-Spanish (Argentinian),17,señora,49,understands,0
-Spanish (Argentinian),18,señora,62,produces,0
-Spanish (Argentinian),18,señora,62,understands,0
-Spanish (Argentinian),19,señora,44,produces,0.0455
-Spanish (Argentinian),19,señora,44,understands,0
-Spanish (Argentinian),20,señora,46,produces,0.0652
-Spanish (Argentinian),20,señora,46,understands,0
-Spanish (Argentinian),21,señora,41,produces,0.0732
-Spanish (Argentinian),21,señora,41,understands,0
-Spanish (Argentinian),22,señora,57,produces,0
-Spanish (Argentinian),22,señora,57,understands,0
-Spanish (Argentinian),23,señora,49,produces,0.0612
-Spanish (Argentinian),23,señora,49,understands,0
-Spanish (Argentinian),24,señora,75,produces,0.1333
-Spanish (Argentinian),24,señora,75,understands,0
-Spanish (Argentinian),25,señora,43,produces,0.2326
-Spanish (Argentinian),25,señora,43,understands,0
-Spanish (Argentinian),26,señora,45,produces,0.1111
-Spanish (Argentinian),26,señora,45,understands,0
-Spanish (Argentinian),27,señora,44,produces,0.1364
-Spanish (Argentinian),27,señora,44,understands,0
-Spanish (Argentinian),28,señora,42,produces,0.1905
-Spanish (Argentinian),28,señora,42,understands,0
-Spanish (Argentinian),29,señora,65,produces,0.2
-Spanish (Argentinian),29,señora,65,understands,0
-Spanish (Argentinian),30,señora,69,produces,0.4058
-Spanish (Argentinian),30,señora,69,understands,0
-Spanish (Argentinian),31,señora,2,produces,0
-Spanish (Argentinian),31,señora,2,understands,0
-Spanish (Argentinian),32,señora,1,produces,1
-Spanish (Argentinian),32,señora,1,understands,0
-Spanish (Argentinian),33,señora,2,produces,0
-Spanish (Argentinian),33,señora,2,understands,0
-Spanish (Mexican),8,señora,40,produces,0
-Spanish (Mexican),8,señora,40,understands,0.075
-Spanish (Mexican),9,señora,64,produces,0
-Spanish (Mexican),9,señora,64,understands,0.0781
-Spanish (Mexican),10,señora,71,produces,0
-Spanish (Mexican),10,señora,71,understands,0.0282
-Spanish (Mexican),11,señora,67,produces,0
-Spanish (Mexican),11,señora,67,understands,0.1343
-Spanish (Mexican),12,señora,89,produces,0
-Spanish (Mexican),12,señora,89,understands,0.1011
-Spanish (Mexican),13,señora,83,produces,0.0241
-Spanish (Mexican),13,señora,83,understands,0.0964
-Spanish (Mexican),14,señora,76,produces,0.0263
-Spanish (Mexican),14,señora,76,understands,0.1711
-Spanish (Mexican),15,señora,61,produces,0.0164
-Spanish (Mexican),15,señora,61,understands,0.1803
-Spanish (Mexican),16,señora,152,produces,0.0724
-Spanish (Mexican),16,señora,152,understands,0.1513
-Spanish (Mexican),17,señora,124,produces,0.1048
-Spanish (Mexican),17,señora,124,understands,0.2177
-Spanish (Mexican),18,señora,163,produces,0.1411
-Spanish (Mexican),18,señora,163,understands,0.2147
-Spanish (Mexican),19,señora,100,produces,0.16
-Spanish (Mexican),19,señora,100,understands,0
-Spanish (Mexican),20,señora,107,produces,0.2056
-Spanish (Mexican),20,señora,107,understands,0
-Spanish (Mexican),21,señora,84,produces,0.2024
-Spanish (Mexican),21,señora,84,understands,0
-Spanish (Mexican),22,señora,141,produces,0.1915
-Spanish (Mexican),22,señora,141,understands,0
-Spanish (Mexican),23,señora,91,produces,0.1978
-Spanish (Mexican),23,señora,91,understands,0
-Spanish (Mexican),24,señora,126,produces,0.3651
-Spanish (Mexican),24,señora,126,understands,0
-Spanish (Mexican),25,señora,177,produces,0.2712
-Spanish (Mexican),25,señora,177,understands,0
-Spanish (Mexican),26,señora,83,produces,0.3855
-Spanish (Mexican),26,señora,83,understands,0
-Spanish (Mexican),27,señora,85,produces,0.5529
-Spanish (Mexican),27,señora,85,understands,0
-Spanish (Mexican),28,señora,89,produces,0.5169
-Spanish (Mexican),28,señora,89,understands,0
-Spanish (Mexican),29,señora,89,produces,0.5506
-Spanish (Mexican),29,señora,89,understands,0
-Spanish (Mexican),30,señora,308,produces,0.3669
-Spanish (Mexican),30,señora,308,understands,0
-Turkish,16,Kadın,109,produces,0.0275
-Turkish,16,Kadın,109,understands,0
-Turkish,17,Kadın,107,produces,0.0467
-Turkish,17,Kadın,107,understands,0
-Turkish,18,Kadın,128,produces,0.0234
-Turkish,18,Kadın,128,understands,0
-Turkish,19,Kadın,121,produces,0.0661
-Turkish,19,Kadın,121,understands,0
-Turkish,20,Kadın,119,produces,0.0924
-Turkish,20,Kadın,119,understands,0
-Turkish,21,Kadın,124,produces,0.1129
-Turkish,21,Kadın,124,understands,0
-Turkish,22,Kadın,126,produces,0.1111
-Turkish,22,Kadın,126,understands,0
-Turkish,23,Kadın,131,produces,0.1908
-Turkish,23,Kadın,131,understands,0
-Turkish,24,Kadın,106,produces,0.2547
-Turkish,24,Kadın,106,understands,0
-Turkish,25,Kadın,123,produces,0.3659
-Turkish,25,Kadın,123,understands,0
-Turkish,26,Kadın,123,produces,0.3659
-Turkish,26,Kadın,123,understands,0
-Turkish,27,Kadın,108,produces,0.3426
-Turkish,27,Kadın,108,understands,0
-Turkish,28,Kadın,112,produces,0.5089
-Turkish,28,Kadın,112,understands,0
-Turkish,29,Kadın,119,produces,0.5462
-Turkish,29,Kadın,119,understands,0
-Turkish,30,Kadın,104,produces,0.5769
-Turkish,30,Kadın,104,understands,0
-Turkish,31,Kadın,101,produces,0.6139
-Turkish,31,Kadın,101,understands,0
-Turkish,32,Kadın,132,produces,0.6439
-Turkish,32,Kadın,132,understands,0
-Turkish,33,Kadın,114,produces,0.693
-Turkish,33,Kadın,114,understands,0
-Turkish,34,Kadın,107,produces,0.7103
-Turkish,34,Kadın,107,understands,0
-Turkish,35,Kadın,131,produces,0.7252
-Turkish,35,Kadın,131,understands,0
-Turkish,36,Kadın,77,produces,0.7922
-Turkish,36,Kadın,77,understands,0
-American Sign Language,8,WOMAN,1,produces,0
-American Sign Language,8,WOMAN,1,understands,0
-American Sign Language,9,WOMAN,4,produces,0
-American Sign Language,9,WOMAN,4,understands,0
-American Sign Language,10,WOMAN,5,produces,0.2
-American Sign Language,10,WOMAN,5,understands,0.2
-American Sign Language,11,WOMAN,3,produces,0
-American Sign Language,11,WOMAN,3,understands,0
-American Sign Language,12,WOMAN,4,produces,0
-American Sign Language,12,WOMAN,4,understands,0.5
-American Sign Language,13,WOMAN,4,produces,0
-American Sign Language,13,WOMAN,4,understands,0
-American Sign Language,14,WOMAN,1,produces,0
-American Sign Language,14,WOMAN,1,understands,0
-American Sign Language,15,WOMAN,3,produces,0
-American Sign Language,15,WOMAN,3,understands,0
-American Sign Language,16,WOMAN,2,produces,0
-American Sign Language,16,WOMAN,2,understands,0
-American Sign Language,17,WOMAN,5,produces,0
-American Sign Language,17,WOMAN,5,understands,0
-American Sign Language,18,WOMAN,11,produces,0.2727
-American Sign Language,18,WOMAN,11,understands,0.5455
-American Sign Language,19,WOMAN,6,produces,0
-American Sign Language,19,WOMAN,6,understands,0.1429
-American Sign Language,20,WOMAN,3,produces,0.25
-American Sign Language,20,WOMAN,3,understands,0.25
-American Sign Language,21,WOMAN,4,produces,0.2
-American Sign Language,21,WOMAN,4,understands,0.6
-American Sign Language,22,WOMAN,10,produces,0
-American Sign Language,22,WOMAN,10,understands,0.1667
-American Sign Language,23,WOMAN,5,produces,0.5
-American Sign Language,23,WOMAN,5,understands,0.3333
-American Sign Language,24,WOMAN,9,produces,0.0833
-American Sign Language,24,WOMAN,9,understands,0.25
-American Sign Language,25,WOMAN,13,produces,0.2308
-American Sign Language,25,WOMAN,13,understands,0.6154
-American Sign Language,26,WOMAN,4,produces,0.25
-American Sign Language,26,WOMAN,4,understands,0.75
-American Sign Language,27,WOMAN,7,produces,0.375
-American Sign Language,27,WOMAN,7,understands,0.375
-American Sign Language,28,WOMAN,7,produces,0.5
-American Sign Language,28,WOMAN,7,understands,0.5
-American Sign Language,29,WOMAN,6,produces,0.3333
-American Sign Language,29,WOMAN,6,understands,0.6667
-American Sign Language,30,WOMAN,7,produces,0.25
-American Sign Language,30,WOMAN,7,understands,0.25
-American Sign Language,31,WOMAN,9,produces,0.2
-American Sign Language,31,WOMAN,9,understands,0.2
-American Sign Language,32,WOMAN,15,produces,0.4706
-American Sign Language,32,WOMAN,15,understands,0.4118
-American Sign Language,33,WOMAN,6,produces,0.5
-American Sign Language,33,WOMAN,6,understands,0.5
-American Sign Language,34,WOMAN,7,produces,0.25
-American Sign Language,34,WOMAN,7,understands,0.25
-American Sign Language,35,WOMAN,7,produces,0.5714
-American Sign Language,35,WOMAN,7,understands,0.5714
-American Sign Language,36,WOMAN,3,produces,0
-American Sign Language,36,WOMAN,3,understands,0.6667
-Arabic (Saudi),8,ست/ حرمة,24,produces,0
-Arabic (Saudi),8,ست/ حرمة,24,understands,0.0833
-Arabic (Saudi),9,ست/ حرمة,27,produces,0
-Arabic (Saudi),9,ست/ حرمة,27,understands,0
-Arabic (Saudi),10,ست/ حرمة,35,produces,0.0286
-Arabic (Saudi),10,ست/ حرمة,35,understands,0.0571
-Arabic (Saudi),11,ست/ حرمة,30,produces,0
-Arabic (Saudi),11,ست/ حرمة,30,understands,0.0333
-Arabic (Saudi),12,ست/ حرمة,30,produces,0
-Arabic (Saudi),12,ست/ حرمة,30,understands,0
-Arabic (Saudi),13,ست/ حرمة,39,produces,0
-Arabic (Saudi),13,ست/ حرمة,39,understands,0
-Arabic (Saudi),14,ست/ حرمة,25,produces,0
-Arabic (Saudi),14,ست/ حرمة,25,understands,0
-Arabic (Saudi),15,ست/ حرمة,27,produces,0.037
-Arabic (Saudi),15,ست/ حرمة,27,understands,0.0741
-Arabic (Saudi),16,ست/ حرمة,21,produces,0
-Arabic (Saudi),16,ست/ حرمة,21,understands,0.0476
-British Sign Language,8,woman,4,produces,0
-British Sign Language,8,woman,4,understands,0
-British Sign Language,9,woman,4,produces,0
-British Sign Language,9,woman,4,understands,0
-British Sign Language,10,woman,4,produces,0
-British Sign Language,10,woman,4,understands,0
-British Sign Language,11,woman,6,produces,0
-British Sign Language,11,woman,6,understands,0
-British Sign Language,12,woman,6,produces,0
-British Sign Language,12,woman,6,understands,0
-British Sign Language,13,woman,6,produces,0
-British Sign Language,13,woman,6,understands,0
-British Sign Language,14,woman,7,produces,0
-British Sign Language,14,woman,7,understands,0
-British Sign Language,15,woman,6,produces,0
-British Sign Language,15,woman,6,understands,0
-British Sign Language,16,woman,7,produces,0.1429
-British Sign Language,16,woman,7,understands,0.1429
-British Sign Language,17,woman,7,produces,0.1429
-British Sign Language,17,woman,7,understands,0.2857
-British Sign Language,18,woman,8,produces,0
-British Sign Language,18,woman,8,understands,0
-British Sign Language,19,woman,8,produces,0.125
-British Sign Language,19,woman,8,understands,0.25
-British Sign Language,20,woman,11,produces,0.2727
-British Sign Language,20,woman,11,understands,0.4545
-British Sign Language,21,woman,5,produces,0
-British Sign Language,21,woman,5,understands,0
-British Sign Language,22,woman,6,produces,0.1667
-British Sign Language,22,woman,6,understands,0.1667
-British Sign Language,23,woman,7,produces,0.4286
-British Sign Language,23,woman,7,understands,0.4286
-British Sign Language,24,woman,5,produces,0.4
-British Sign Language,24,woman,5,understands,0.4
-British Sign Language,25,woman,7,produces,0.1429
-British Sign Language,25,woman,7,understands,0.1429
-British Sign Language,26,woman,6,produces,0.6667
-British Sign Language,26,woman,6,understands,0.8333
-British Sign Language,27,woman,6,produces,0.3333
-British Sign Language,27,woman,6,understands,0.3333
-British Sign Language,28,woman,3,produces,0.3333
-British Sign Language,28,woman,3,understands,0.3333
-British Sign Language,29,woman,7,produces,0.8571
-British Sign Language,29,woman,7,understands,0.8571
-British Sign Language,30,woman,5,produces,0.6
-British Sign Language,30,woman,5,understands,0.6
-British Sign Language,31,woman,2,produces,0.5
-British Sign Language,31,woman,2,understands,0.5
-British Sign Language,32,woman,6,produces,0.8333
-British Sign Language,32,woman,6,understands,1
-British Sign Language,33,woman,5,produces,0.8
-British Sign Language,33,woman,5,understands,0.8
-British Sign Language,34,woman,2,produces,0
-British Sign Language,34,woman,2,understands,0
-British Sign Language,35,woman,2,produces,1
-British Sign Language,35,woman,2,understands,1
-British Sign Language,36,woman,3,produces,1
-British Sign Language,36,woman,3,understands,1
-Catalan,8,dona,39,produces,0
-Catalan,8,dona,39,understands,0.0513
-Catalan,9,dona,46,produces,0
-Catalan,9,dona,46,understands,0
-Catalan,10,dona,43,produces,0
-Catalan,10,dona,43,understands,0.0233
-Catalan,11,dona,43,produces,0
-Catalan,11,dona,43,understands,0.0465
-Catalan,12,dona,59,produces,0
-Catalan,12,dona,59,understands,0.1017
-Catalan,13,dona,44,produces,0
-Catalan,13,dona,44,understands,0.0227
-Catalan,14,dona,60,produces,0
-Catalan,14,dona,60,understands,0.0833
-Catalan,15,dona,70,produces,0.0143
-Catalan,15,dona,70,understands,0.1714
-Catalan,16,dona,73,produces,0
-Catalan,16,dona,73,understands,0.137
-Catalan,17,dona,110,produces,0.0091
-Catalan,17,dona,110,understands,0.1727
-Catalan,18,dona,102,produces,0.0392
-Catalan,18,dona,102,understands,0.1667
-Catalan,19,dona,45,produces,0
-Catalan,19,dona,45,understands,0
-Catalan,20,dona,56,produces,0.0357
-Catalan,20,dona,56,understands,0
-Catalan,21,dona,58,produces,0.0517
-Catalan,21,dona,58,understands,0
-Catalan,22,dona,50,produces,0.1
-Catalan,22,dona,50,understands,0
-Catalan,23,dona,66,produces,0.1364
-Catalan,23,dona,66,understands,0
-Catalan,24,dona,79,produces,0.2532
-Catalan,24,dona,79,understands,0
-Catalan,25,dona,60,produces,0.2833
-Catalan,25,dona,60,understands,0
-Catalan,26,dona,65,produces,0.2769
-Catalan,26,dona,65,understands,0
-Catalan,27,dona,63,produces,0.3175
-Catalan,27,dona,63,understands,0
-Catalan,28,dona,81,produces,0.2716
-Catalan,28,dona,81,understands,0
-Catalan,29,dona,50,produces,0.42
-Catalan,29,dona,50,understands,0
-Catalan,30,dona,75,produces,0.5867
-Catalan,30,dona,75,understands,0
-English (Irish),17,woman,2,produces,0
-English (Irish),17,woman,2,understands,0
-English (Irish),18,woman,1,produces,0
-English (Irish),18,woman,1,understands,0
-English (Irish),19,woman,2,produces,0
-English (Irish),19,woman,2,understands,0
-English (Irish),20,woman,1,produces,0
-English (Irish),20,woman,1,understands,0
-English (Irish),21,woman,3,produces,0
-English (Irish),21,woman,3,understands,0
-English (Irish),22,woman,4,produces,0
-English (Irish),22,woman,4,understands,0
-English (Irish),23,woman,4,produces,0
-English (Irish),23,woman,4,understands,0
-English (Irish),24,woman,4,produces,0.25
-English (Irish),24,woman,4,understands,0
-English (Irish),25,woman,6,produces,0
-English (Irish),25,woman,6,understands,0
-English (Irish),26,woman,10,produces,0.1
-English (Irish),26,woman,10,understands,0
-English (Irish),27,woman,5,produces,0.2
-English (Irish),27,woman,5,understands,0
-English (Irish),28,woman,7,produces,0.1429
-English (Irish),28,woman,7,understands,0
-English (Irish),29,woman,4,produces,0.5
-English (Irish),29,woman,4,understands,0
-English (Irish),30,woman,9,produces,0.1111
-English (Irish),30,woman,9,understands,0
-English (Irish),31,woman,8,produces,0.125
-English (Irish),31,woman,8,understands,0
-English (Irish),32,woman,4,produces,0.25
-English (Irish),32,woman,4,understands,0
-English (Irish),33,woman,5,produces,0.2
-English (Irish),33,woman,5,understands,0
-English (Irish),34,woman,4,produces,0
-English (Irish),34,woman,4,understands,0
-English (Irish),35,woman,11,produces,0.3636
-English (Irish),35,woman,11,understands,0
-English (Irish),36,woman,5,produces,0
-English (Irish),36,woman,5,understands,0
-Estonian,16,naine,36,produces,0.0556
-Estonian,16,naine,36,understands,0
-Estonian,17,naine,89,produces,0.0112
-Estonian,17,naine,89,understands,0
-Estonian,18,naine,103,produces,0.1165
-Estonian,18,naine,103,understands,0
-Estonian,19,naine,85,produces,0.0353
-Estonian,19,naine,85,understands,0
-Estonian,20,naine,60,produces,0.0667
-Estonian,20,naine,60,understands,0
-Estonian,21,naine,66,produces,0.0455
-Estonian,21,naine,66,understands,0
-Estonian,22,naine,76,produces,0.0658
-Estonian,22,naine,76,understands,0
-Estonian,23,naine,95,produces,0.1895
-Estonian,23,naine,95,understands,0
-Estonian,24,naine,116,produces,0.1983
-Estonian,24,naine,116,understands,0
-Estonian,25,naine,82,produces,0.1585
-Estonian,25,naine,82,understands,0
-Estonian,26,naine,84,produces,0.25
-Estonian,26,naine,84,understands,0
-Estonian,27,naine,80,produces,0.2625
-Estonian,27,naine,80,understands,0
-Estonian,28,naine,92,produces,0.2391
-Estonian,28,naine,92,understands,0
-Estonian,29,naine,100,produces,0.24
-Estonian,29,naine,100,understands,0
-Estonian,30,naine,71,produces,0.3099
-Estonian,30,naine,71,understands,0
-Finnish,12,nainen ,35,produces,0
-Finnish,12,nainen ,35,understands,0
-Finnish,15,nainen ,35,produces,0
-Finnish,15,nainen ,35,understands,0
-Finnish,18,nainen,35,produces,0
-Finnish,18,nainen,35,understands,0
-Finnish,24,nainen,35,produces,0.1143
-Finnish,24,nainen,35,understands,0
-Greek (Cypriot),18,γυναίκα,45,produces,0.0222
-Greek (Cypriot),18,γυναίκα,45,understands,0
-Greek (Cypriot),21,γυναίκα,36,produces,0.0833
-Greek (Cypriot),21,γυναίκα,36,understands,0
-Greek (Cypriot),24,γυναίκα,32,produces,0.2188
-Greek (Cypriot),24,γυναίκα,32,understands,0
-Greek (Cypriot),27,γυναίκα,29,produces,0.2414
-Greek (Cypriot),27,γυναίκα,29,understands,0
-Greek (Cypriot),30,γυναίκα,34,produces,0.3235
-Greek (Cypriot),30,γυναίκα,34,understands,0
-Irish,17,bean,2,produces,0
-Irish,17,bean,2,understands,0
-Irish,18,bean,1,produces,1
-Irish,18,bean,1,understands,0
-Irish,19,bean,2,produces,0.5
-Irish,19,bean,2,understands,0
-Irish,20,bean,1,produces,0
-Irish,20,bean,1,understands,0
-Irish,21,bean,3,produces,0
-Irish,21,bean,3,understands,0
-Irish,22,bean,4,produces,0.5
-Irish,22,bean,4,understands,0
-Irish,23,bean,4,produces,0.25
-Irish,23,bean,4,understands,0
-Irish,24,bean,4,produces,0.75
-Irish,24,bean,4,understands,0
-Irish,25,bean,6,produces,0.5
-Irish,25,bean,6,understands,0
-Irish,26,bean,10,produces,0.5
-Irish,26,bean,10,understands,0
-Irish,27,bean,5,produces,0.6
-Irish,27,bean,5,understands,0
-Irish,28,bean,7,produces,0.7143
-Irish,28,bean,7,understands,0
-Irish,29,bean,4,produces,0.5
-Irish,29,bean,4,understands,0
-Irish,30,bean,9,produces,0.6667
-Irish,30,bean,9,understands,0
-Irish,31,bean,8,produces,0.75
-Irish,31,bean,8,understands,0
-Irish,32,bean,4,produces,0.75
-Irish,32,bean,4,understands,0
-Irish,33,bean,5,produces,0.6
-Irish,33,bean,5,understands,0
-Irish,34,bean,4,produces,0.75
-Irish,34,bean,4,understands,0
-Irish,35,bean,11,produces,1
-Irish,35,bean,11,understands,0
-Irish,36,bean,5,produces,0.8
-Irish,36,bean,5,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,8,WOMAN,1,produces,0
+American Sign Language,All,8,WOMAN,1,understands,0
+American Sign Language,All,9,WOMAN,4,produces,0
+American Sign Language,All,9,WOMAN,4,understands,0
+American Sign Language,All,10,WOMAN,5,produces,0.2
+American Sign Language,All,10,WOMAN,5,understands,0.2
+American Sign Language,All,11,WOMAN,3,produces,0
+American Sign Language,All,11,WOMAN,3,understands,0
+American Sign Language,All,12,WOMAN,4,produces,0
+American Sign Language,All,12,WOMAN,4,understands,0.5
+American Sign Language,All,13,WOMAN,4,produces,0
+American Sign Language,All,13,WOMAN,4,understands,0
+American Sign Language,All,14,WOMAN,1,produces,0
+American Sign Language,All,14,WOMAN,1,understands,0
+American Sign Language,All,15,WOMAN,3,produces,0
+American Sign Language,All,15,WOMAN,3,understands,0
+American Sign Language,All,16,WOMAN,2,produces,0
+American Sign Language,All,16,WOMAN,2,understands,0
+American Sign Language,All,17,WOMAN,5,produces,0
+American Sign Language,All,17,WOMAN,5,understands,0
+American Sign Language,All,18,WOMAN,11,produces,0.2727
+American Sign Language,All,18,WOMAN,11,understands,0.5455
+American Sign Language,All,19,WOMAN,6,produces,0
+American Sign Language,All,19,WOMAN,6,understands,0.1429
+American Sign Language,All,20,WOMAN,3,produces,0.25
+American Sign Language,All,20,WOMAN,3,understands,0.25
+American Sign Language,All,21,WOMAN,4,produces,0.2
+American Sign Language,All,21,WOMAN,4,understands,0.6
+American Sign Language,All,22,WOMAN,10,produces,0
+American Sign Language,All,22,WOMAN,10,understands,0.1667
+American Sign Language,All,23,WOMAN,5,produces,0.5
+American Sign Language,All,23,WOMAN,5,understands,0.3333
+American Sign Language,All,24,WOMAN,9,produces,0.0833
+American Sign Language,All,24,WOMAN,9,understands,0.25
+American Sign Language,All,25,WOMAN,13,produces,0.2308
+American Sign Language,All,25,WOMAN,13,understands,0.6154
+American Sign Language,All,26,WOMAN,4,produces,0.25
+American Sign Language,All,26,WOMAN,4,understands,0.75
+American Sign Language,All,27,WOMAN,7,produces,0.375
+American Sign Language,All,27,WOMAN,7,understands,0.375
+American Sign Language,All,28,WOMAN,7,produces,0.5
+American Sign Language,All,28,WOMAN,7,understands,0.5
+American Sign Language,All,29,WOMAN,6,produces,0.3333
+American Sign Language,All,29,WOMAN,6,understands,0.6667
+American Sign Language,All,30,WOMAN,7,produces,0.25
+American Sign Language,All,30,WOMAN,7,understands,0.25
+American Sign Language,All,31,WOMAN,9,produces,0.2
+American Sign Language,All,31,WOMAN,9,understands,0.2
+American Sign Language,All,32,WOMAN,15,produces,0.4706
+American Sign Language,All,32,WOMAN,15,understands,0.4118
+American Sign Language,All,33,WOMAN,6,produces,0.5
+American Sign Language,All,33,WOMAN,6,understands,0.5
+American Sign Language,All,34,WOMAN,7,produces,0.25
+American Sign Language,All,34,WOMAN,7,understands,0.25
+American Sign Language,All,35,WOMAN,7,produces,0.5714
+American Sign Language,All,35,WOMAN,7,understands,0.5714
+American Sign Language,All,36,WOMAN,3,produces,0
+American Sign Language,All,36,WOMAN,3,understands,0.6667
+Arabic (Saudi),All,8,ست/ حرمة,24,produces,0
+Arabic (Saudi),All,8,ست/ حرمة,24,understands,0.0833
+Arabic (Saudi),All,9,ست/ حرمة,27,produces,0
+Arabic (Saudi),All,9,ست/ حرمة,27,understands,0
+Arabic (Saudi),All,10,ست/ حرمة,35,produces,0.0286
+Arabic (Saudi),All,10,ست/ حرمة,35,understands,0.0571
+Arabic (Saudi),All,11,ست/ حرمة,30,produces,0
+Arabic (Saudi),All,11,ست/ حرمة,30,understands,0.0333
+Arabic (Saudi),All,12,ست/ حرمة,30,produces,0
+Arabic (Saudi),All,12,ست/ حرمة,30,understands,0
+Arabic (Saudi),All,13,ست/ حرمة,39,produces,0
+Arabic (Saudi),All,13,ست/ حرمة,39,understands,0
+Arabic (Saudi),All,14,ست/ حرمة,25,produces,0
+Arabic (Saudi),All,14,ست/ حرمة,25,understands,0
+Arabic (Saudi),All,15,ست/ حرمة,27,produces,0.037
+Arabic (Saudi),All,15,ست/ حرمة,27,understands,0.0741
+Arabic (Saudi),All,16,ست/ حرمة,21,produces,0
+Arabic (Saudi),All,16,ست/ حرمة,21,understands,0.0476
+British Sign Language,All,8,woman,4,produces,0
+British Sign Language,All,8,woman,4,understands,0
+British Sign Language,All,9,woman,4,produces,0
+British Sign Language,All,9,woman,4,understands,0
+British Sign Language,All,10,woman,4,produces,0
+British Sign Language,All,10,woman,4,understands,0
+British Sign Language,All,11,woman,6,produces,0
+British Sign Language,All,11,woman,6,understands,0
+British Sign Language,All,12,woman,6,produces,0
+British Sign Language,All,12,woman,6,understands,0
+British Sign Language,All,13,woman,6,produces,0
+British Sign Language,All,13,woman,6,understands,0
+British Sign Language,All,14,woman,7,produces,0
+British Sign Language,All,14,woman,7,understands,0
+British Sign Language,All,15,woman,6,produces,0
+British Sign Language,All,15,woman,6,understands,0
+British Sign Language,All,16,woman,7,produces,0.1429
+British Sign Language,All,16,woman,7,understands,0.1429
+British Sign Language,All,17,woman,7,produces,0.1429
+British Sign Language,All,17,woman,7,understands,0.2857
+British Sign Language,All,18,woman,8,produces,0
+British Sign Language,All,18,woman,8,understands,0
+British Sign Language,All,19,woman,8,produces,0.125
+British Sign Language,All,19,woman,8,understands,0.25
+British Sign Language,All,20,woman,11,produces,0.2727
+British Sign Language,All,20,woman,11,understands,0.4545
+British Sign Language,All,21,woman,5,produces,0
+British Sign Language,All,21,woman,5,understands,0
+British Sign Language,All,22,woman,6,produces,0.1667
+British Sign Language,All,22,woman,6,understands,0.1667
+British Sign Language,All,23,woman,7,produces,0.4286
+British Sign Language,All,23,woman,7,understands,0.4286
+British Sign Language,All,24,woman,5,produces,0.4
+British Sign Language,All,24,woman,5,understands,0.4
+British Sign Language,All,25,woman,7,produces,0.1429
+British Sign Language,All,25,woman,7,understands,0.1429
+British Sign Language,All,26,woman,6,produces,0.6667
+British Sign Language,All,26,woman,6,understands,0.8333
+British Sign Language,All,27,woman,6,produces,0.3333
+British Sign Language,All,27,woman,6,understands,0.3333
+British Sign Language,All,28,woman,3,produces,0.3333
+British Sign Language,All,28,woman,3,understands,0.3333
+British Sign Language,All,29,woman,7,produces,0.8571
+British Sign Language,All,29,woman,7,understands,0.8571
+British Sign Language,All,30,woman,5,produces,0.6
+British Sign Language,All,30,woman,5,understands,0.6
+British Sign Language,All,31,woman,2,produces,0.5
+British Sign Language,All,31,woman,2,understands,0.5
+British Sign Language,All,32,woman,6,produces,0.8333
+British Sign Language,All,32,woman,6,understands,1
+British Sign Language,All,33,woman,5,produces,0.8
+British Sign Language,All,33,woman,5,understands,0.8
+British Sign Language,All,34,woman,2,produces,0
+British Sign Language,All,34,woman,2,understands,0
+British Sign Language,All,35,woman,2,produces,1
+British Sign Language,All,35,woman,2,understands,1
+British Sign Language,All,36,woman,3,produces,1
+British Sign Language,All,36,woman,3,understands,1
+Catalan,All,8,dona,39,produces,0
+Catalan,All,8,dona,39,understands,0.0513
+Catalan,All,9,dona,46,produces,0
+Catalan,All,9,dona,46,understands,0
+Catalan,All,10,dona,43,produces,0
+Catalan,All,10,dona,43,understands,0.0233
+Catalan,All,11,dona,43,produces,0
+Catalan,All,11,dona,43,understands,0.0465
+Catalan,All,12,dona,59,produces,0
+Catalan,All,12,dona,59,understands,0.1017
+Catalan,All,13,dona,44,produces,0
+Catalan,All,13,dona,44,understands,0.0227
+Catalan,All,14,dona,60,produces,0
+Catalan,All,14,dona,60,understands,0.0833
+Catalan,All,15,dona,70,produces,0.0143
+Catalan,All,15,dona,70,understands,0.1714
+Catalan,All,16,dona,73,produces,0
+Catalan,All,16,dona,73,understands,0.137
+Catalan,All,17,dona,110,produces,0.0091
+Catalan,All,17,dona,110,understands,0.1727
+Catalan,All,18,dona,102,produces,0.0392
+Catalan,All,18,dona,102,understands,0.1667
+Catalan,All,19,dona,45,produces,0
+Catalan,All,19,dona,45,understands,0
+Catalan,All,20,dona,56,produces,0.0357
+Catalan,All,20,dona,56,understands,0
+Catalan,All,21,dona,58,produces,0.0517
+Catalan,All,21,dona,58,understands,0
+Catalan,All,22,dona,50,produces,0.1
+Catalan,All,22,dona,50,understands,0
+Catalan,All,23,dona,66,produces,0.1364
+Catalan,All,23,dona,66,understands,0
+Catalan,All,24,dona,79,produces,0.2532
+Catalan,All,24,dona,79,understands,0
+Catalan,All,25,dona,60,produces,0.2833
+Catalan,All,25,dona,60,understands,0
+Catalan,All,26,dona,65,produces,0.2769
+Catalan,All,26,dona,65,understands,0
+Catalan,All,27,dona,63,produces,0.3175
+Catalan,All,27,dona,63,understands,0
+Catalan,All,28,dona,81,produces,0.2716
+Catalan,All,28,dona,81,understands,0
+Catalan,All,29,dona,50,produces,0.42
+Catalan,All,29,dona,50,understands,0
+Catalan,All,30,dona,75,produces,0.5867
+Catalan,All,30,dona,75,understands,0
+English (Irish),All,17,woman,2,produces,0
+English (Irish),All,17,woman,2,understands,0
+English (Irish),All,18,woman,1,produces,0
+English (Irish),All,18,woman,1,understands,0
+English (Irish),All,19,woman,2,produces,0
+English (Irish),All,19,woman,2,understands,0
+English (Irish),All,20,woman,1,produces,0
+English (Irish),All,20,woman,1,understands,0
+English (Irish),All,21,woman,3,produces,0
+English (Irish),All,21,woman,3,understands,0
+English (Irish),All,22,woman,4,produces,0
+English (Irish),All,22,woman,4,understands,0
+English (Irish),All,23,woman,4,produces,0
+English (Irish),All,23,woman,4,understands,0
+English (Irish),All,24,woman,4,produces,0.25
+English (Irish),All,24,woman,4,understands,0
+English (Irish),All,25,woman,6,produces,0
+English (Irish),All,25,woman,6,understands,0
+English (Irish),All,26,woman,10,produces,0.1
+English (Irish),All,26,woman,10,understands,0
+English (Irish),All,27,woman,5,produces,0.2
+English (Irish),All,27,woman,5,understands,0
+English (Irish),All,28,woman,7,produces,0.1429
+English (Irish),All,28,woman,7,understands,0
+English (Irish),All,29,woman,4,produces,0.5
+English (Irish),All,29,woman,4,understands,0
+English (Irish),All,30,woman,9,produces,0.1111
+English (Irish),All,30,woman,9,understands,0
+English (Irish),All,31,woman,8,produces,0.125
+English (Irish),All,31,woman,8,understands,0
+English (Irish),All,32,woman,4,produces,0.25
+English (Irish),All,32,woman,4,understands,0
+English (Irish),All,33,woman,5,produces,0.2
+English (Irish),All,33,woman,5,understands,0
+English (Irish),All,34,woman,4,produces,0
+English (Irish),All,34,woman,4,understands,0
+English (Irish),All,35,woman,11,produces,0.3636
+English (Irish),All,35,woman,11,understands,0
+English (Irish),All,36,woman,5,produces,0
+English (Irish),All,36,woman,5,understands,0
+Estonian,All,16,naine,36,produces,0.0556
+Estonian,All,16,naine,36,understands,0
+Estonian,All,17,naine,89,produces,0.0112
+Estonian,All,17,naine,89,understands,0
+Estonian,All,18,naine,103,produces,0.1165
+Estonian,All,18,naine,103,understands,0
+Estonian,All,19,naine,85,produces,0.0353
+Estonian,All,19,naine,85,understands,0
+Estonian,All,20,naine,60,produces,0.0667
+Estonian,All,20,naine,60,understands,0
+Estonian,All,21,naine,66,produces,0.0455
+Estonian,All,21,naine,66,understands,0
+Estonian,All,22,naine,76,produces,0.0658
+Estonian,All,22,naine,76,understands,0
+Estonian,All,23,naine,95,produces,0.1895
+Estonian,All,23,naine,95,understands,0
+Estonian,All,24,naine,116,produces,0.1983
+Estonian,All,24,naine,116,understands,0
+Estonian,All,25,naine,82,produces,0.1585
+Estonian,All,25,naine,82,understands,0
+Estonian,All,26,naine,84,produces,0.25
+Estonian,All,26,naine,84,understands,0
+Estonian,All,27,naine,80,produces,0.2625
+Estonian,All,27,naine,80,understands,0
+Estonian,All,28,naine,92,produces,0.2391
+Estonian,All,28,naine,92,understands,0
+Estonian,All,29,naine,100,produces,0.24
+Estonian,All,29,naine,100,understands,0
+Estonian,All,30,naine,71,produces,0.3099
+Estonian,All,30,naine,71,understands,0
+Finnish,All,12,nainen ,35,produces,0
+Finnish,All,12,nainen ,35,understands,0
+Finnish,All,15,nainen ,35,produces,0
+Finnish,All,15,nainen ,35,understands,0
+Finnish,All,18,nainen,35,produces,0
+Finnish,All,18,nainen,35,understands,0
+Finnish,All,24,nainen,35,produces,0.1143
+Finnish,All,24,nainen,35,understands,0
+Greek (Cypriot),All,18,γυναίκα,45,produces,0.0222
+Greek (Cypriot),All,18,γυναίκα,45,understands,0
+Greek (Cypriot),All,21,γυναίκα,36,produces,0.0833
+Greek (Cypriot),All,21,γυναίκα,36,understands,0
+Greek (Cypriot),All,24,γυναίκα,32,produces,0.2188
+Greek (Cypriot),All,24,γυναίκα,32,understands,0
+Greek (Cypriot),All,27,γυναίκα,29,produces,0.2414
+Greek (Cypriot),All,27,γυναίκα,29,understands,0
+Greek (Cypriot),All,30,γυναίκα,34,produces,0.3235
+Greek (Cypriot),All,30,γυναίκα,34,understands,0
+Irish,All,17,bean,2,produces,0
+Irish,All,17,bean,2,understands,0
+Irish,All,18,bean,1,produces,1
+Irish,All,18,bean,1,understands,0
+Irish,All,19,bean,2,produces,0.5
+Irish,All,19,bean,2,understands,0
+Irish,All,20,bean,1,produces,0
+Irish,All,20,bean,1,understands,0
+Irish,All,21,bean,3,produces,0
+Irish,All,21,bean,3,understands,0
+Irish,All,22,bean,4,produces,0.5
+Irish,All,22,bean,4,understands,0
+Irish,All,23,bean,4,produces,0.25
+Irish,All,23,bean,4,understands,0
+Irish,All,24,bean,4,produces,0.75
+Irish,All,24,bean,4,understands,0
+Irish,All,25,bean,6,produces,0.5
+Irish,All,25,bean,6,understands,0
+Irish,All,26,bean,10,produces,0.5
+Irish,All,26,bean,10,understands,0
+Irish,All,27,bean,5,produces,0.6
+Irish,All,27,bean,5,understands,0
+Irish,All,28,bean,7,produces,0.7143
+Irish,All,28,bean,7,understands,0
+Irish,All,29,bean,4,produces,0.5
+Irish,All,29,bean,4,understands,0
+Irish,All,30,bean,9,produces,0.6667
+Irish,All,30,bean,9,understands,0
+Irish,All,31,bean,8,produces,0.75
+Irish,All,31,bean,8,understands,0
+Irish,All,32,bean,4,produces,0.75
+Irish,All,32,bean,4,understands,0
+Irish,All,33,bean,5,produces,0.6
+Irish,All,33,bean,5,understands,0
+Irish,All,34,bean,4,produces,0.75
+Irish,All,34,bean,4,understands,0
+Irish,All,35,bean,11,produces,1
+Irish,All,35,bean,11,understands,0
+Irish,All,36,bean,5,produces,0.8
+Irish,All,36,bean,5,understands,0
+Italian,All,18,donna,31,produces,0
+Italian,All,18,donna,31,understands,0
+Italian,All,19,donna,39,produces,0.0513
+Italian,All,19,donna,39,understands,0
+Italian,All,20,donna,64,produces,0.0312
+Italian,All,20,donna,64,understands,0
+Italian,All,21,donna,55,produces,0.0727
+Italian,All,21,donna,55,understands,0
+Italian,All,22,donna,55,produces,0.1455
+Italian,All,22,donna,55,understands,0
+Italian,All,23,donna,53,produces,0.0943
+Italian,All,23,donna,53,understands,0
+Italian,All,24,donna,71,produces,0.1268
+Italian,All,24,donna,71,understands,0
+Italian,All,25,donna,39,produces,0.2051
+Italian,All,25,donna,39,understands,0
+Italian,All,26,donna,41,produces,0.2683
+Italian,All,26,donna,41,understands,0
+Italian,All,27,donna,43,produces,0.2093
+Italian,All,27,donna,43,understands,0
+Italian,All,28,donna,44,produces,0.2727
+Italian,All,28,donna,44,understands,0
+Italian,All,29,donna,37,produces,0.3514
+Italian,All,29,donna,37,understands,0
+Italian,All,30,donna,67,produces,0.4627
+Italian,All,30,donna,67,understands,0
+Italian,All,31,donna,19,produces,0.4737
+Italian,All,31,donna,19,understands,0
+Italian,All,32,donna,23,produces,0.3913
+Italian,All,32,donna,23,understands,0
+Italian,All,33,donna,16,produces,0.625
+Italian,All,33,donna,16,understands,0
+Italian,All,34,donna,19,produces,0.6316
+Italian,All,34,donna,19,understands,0
+Italian,All,35,donna,15,produces,0.4667
+Italian,All,35,donna,15,understands,0
+Italian,All,36,donna,21,produces,0.4762
+Italian,All,36,donna,21,understands,0
+Korean,All,8,아줌마,57,produces,0
+Korean,All,8,아줌마,57,understands,0.0526
+Korean,All,9,아줌마,73,produces,0
+Korean,All,9,아줌마,73,understands,0
+Korean,All,10,아줌마,77,produces,0
+Korean,All,10,아줌마,77,understands,0.026
+Korean,All,11,아줌마,80,produces,0
+Korean,All,11,아줌마,80,understands,0.025
+Korean,All,12,아줌마,74,produces,0.0135
+Korean,All,12,아줌마,74,understands,0.027
+Korean,All,13,아줌마,127,produces,0
+Korean,All,13,아줌마,127,understands,0.0787
+Korean,All,14,아줌마,87,produces,0.023
+Korean,All,14,아줌마,87,understands,0.1609
+Korean,All,15,아줌마,85,produces,0.0118
+Korean,All,15,아줌마,85,understands,0.1059
+Korean,All,16,아줌마,86,produces,0.0233
+Korean,All,16,아줌마,86,understands,0.1977
+Korean,All,17,아줌마,63,produces,0.0635
+Korean,All,17,아줌마,63,understands,0.3651
+Korean,All,18,"아줌마, 여자",88,produces,0.0568
+Korean,All,18,"아줌마, 여자",88,understands,0
+Korean,All,19,"아줌마, 여자",77,produces,0.0519
+Korean,All,19,"아줌마, 여자",77,understands,0
+Korean,All,20,"아줌마, 여자",88,produces,0.0682
+Korean,All,20,"아줌마, 여자",88,understands,0
+Korean,All,21,"아줌마, 여자",79,produces,0.057
+Korean,All,21,"아줌마, 여자",79,understands,0
+Korean,All,22,"아줌마, 여자",87,produces,0.1897
+Korean,All,22,"아줌마, 여자",87,understands,0
+Korean,All,23,"아줌마, 여자",87,produces,0.1437
+Korean,All,23,"아줌마, 여자",87,understands,0
+Korean,All,24,"아줌마, 여자",107,produces,0.257
+Korean,All,24,"아줌마, 여자",107,understands,0
+Korean,All,25,"아줌마, 여자",95,produces,0.3211
+Korean,All,25,"아줌마, 여자",95,understands,0
+Korean,All,26,"아줌마, 여자",91,produces,0.3626
+Korean,All,26,"아줌마, 여자",91,understands,0
+Korean,All,27,"아줌마, 여자",104,produces,0.4183
+Korean,All,27,"아줌마, 여자",104,understands,0
+Korean,All,28,"아줌마, 여자",89,produces,0.5393
+Korean,All,28,"아줌마, 여자",89,understands,0
+Korean,All,29,"아줌마, 여자",101,produces,0.5149
+Korean,All,29,"아줌마, 여자",101,understands,0
+Korean,All,30,"아줌마, 여자",81,produces,0.6235
+Korean,All,30,"아줌마, 여자",81,understands,0
+Korean,All,31,"아줌마, 여자",79,produces,0.7089
+Korean,All,31,"아줌마, 여자",79,understands,0
+Korean,All,32,"아줌마, 여자",70,produces,0.6143
+Korean,All,32,"아줌마, 여자",70,understands,0
+Korean,All,33,"아줌마, 여자",79,produces,0.6899
+Korean,All,33,"아줌마, 여자",79,understands,0
+Korean,All,34,"아줌마, 여자",79,produces,0.7975
+Korean,All,34,"아줌마, 여자",79,understands,0
+Korean,All,35,"아줌마, 여자",74,produces,0.7703
+Korean,All,35,"아줌마, 여자",74,understands,0
+Korean,All,36,"아줌마, 여자",75,produces,0.86
+Korean,All,36,"아줌마, 여자",75,understands,0
+Persian,All,8,خانم/ زن,7,produces,0
+Persian,All,8,خانم/ زن,7,understands,0.2857
+Persian,All,9,خانم/ زن,21,produces,0
+Persian,All,9,خانم/ زن,21,understands,0.0952
+Persian,All,10,خانم/ زن,16,produces,0
+Persian,All,10,خانم/ زن,16,understands,0.3125
+Persian,All,11,خانم/ زن,13,produces,0
+Persian,All,11,خانم/ زن,13,understands,0.0769
+Persian,All,12,خانم/ زن,11,produces,0
+Persian,All,12,خانم/ زن,11,understands,0.1818
+Persian,All,13,خانم/ زن,14,produces,0
+Persian,All,13,خانم/ زن,14,understands,0.2143
+Persian,All,14,خانم/ زن,15,produces,0
+Persian,All,14,خانم/ زن,15,understands,0.4667
+Persian,All,15,خانم/ زن,12,produces,0
+Persian,All,15,خانم/ زن,12,understands,0.4167
+Persian,All,16,خانم/ زن,4,produces,0
+Persian,All,16,خانم/ زن,4,understands,0.25
+Portuguese (European),All,8,Senhora,126,produces,0
+Portuguese (European),All,8,Senhora,126,understands,0.0317
+Portuguese (European),All,9,Senhora,148,produces,0
+Portuguese (European),All,9,Senhora,148,understands,0.0405
+Portuguese (European),All,10,Senhora,168,produces,0
+Portuguese (European),All,10,Senhora,168,understands,0.0298
+Portuguese (European),All,11,Senhora,179,produces,0
+Portuguese (European),All,11,Senhora,179,understands,0.0447
+Portuguese (European),All,12,Senhora,161,produces,0
+Portuguese (European),All,12,Senhora,161,understands,0.118
+Portuguese (European),All,13,Senhora,176,produces,0
+Portuguese (European),All,13,Senhora,176,understands,0.142
+Portuguese (European),All,14,Senhora,183,produces,0.0055
+Portuguese (European),All,14,Senhora,183,understands,0.1421
+Portuguese (European),All,15,Senhora,173,produces,0
+Portuguese (European),All,15,Senhora,173,understands,0.2023
+Portuguese (European),All,16,"Mulher, Senhora",144,produces,0
+Portuguese (European),All,16,"Mulher, Senhora",144,understands,0
+Portuguese (European),All,17,"Mulher, Senhora",158,produces,0.0095
+Portuguese (European),All,17,"Mulher, Senhora",158,understands,0
+Portuguese (European),All,18,"Mulher, Senhora",203,produces,0.0099
+Portuguese (European),All,18,"Mulher, Senhora",203,understands,0
+Portuguese (European),All,19,"Mulher, Senhora",196,produces,0.0306
+Portuguese (European),All,19,"Mulher, Senhora",196,understands,0
+Portuguese (European),All,20,"Mulher, Senhora",218,produces,0.0619
+Portuguese (European),All,20,"Mulher, Senhora",218,understands,0
+Portuguese (European),All,21,"Mulher, Senhora",208,produces,0.0649
+Portuguese (European),All,21,"Mulher, Senhora",208,understands,0
+Portuguese (European),All,22,"Mulher, Senhora",213,produces,0.1009
+Portuguese (European),All,22,"Mulher, Senhora",213,understands,0
+Portuguese (European),All,23,"Mulher, Senhora",199,produces,0.1382
+Portuguese (European),All,23,"Mulher, Senhora",199,understands,0
+Portuguese (European),All,24,"Mulher, Senhora",215,produces,0.2023
+Portuguese (European),All,24,"Mulher, Senhora",215,understands,0
+Portuguese (European),All,25,"Mulher, Senhora",213,produces,0.2723
+Portuguese (European),All,25,"Mulher, Senhora",213,understands,0
+Portuguese (European),All,26,"Mulher, Senhora",218,produces,0.2821
+Portuguese (European),All,26,"Mulher, Senhora",218,understands,0
+Portuguese (European),All,27,"Mulher, Senhora",238,produces,0.355
+Portuguese (European),All,27,"Mulher, Senhora",238,understands,0
+Portuguese (European),All,28,"Mulher, Senhora",219,produces,0.3767
+Portuguese (European),All,28,"Mulher, Senhora",219,understands,0
+Portuguese (European),All,29,"Mulher, Senhora",207,produces,0.3937
+Portuguese (European),All,29,"Mulher, Senhora",207,understands,0
+Portuguese (European),All,30,"Mulher, Senhora",163,produces,0.4448
+Portuguese (European),All,30,"Mulher, Senhora",163,understands,0
+Spanish (Argentinian),All,16,señora,47,produces,0.0213
+Spanish (Argentinian),All,16,señora,47,understands,0
+Spanish (Argentinian),All,17,señora,49,produces,0.0204
+Spanish (Argentinian),All,17,señora,49,understands,0
+Spanish (Argentinian),All,18,señora,62,produces,0
+Spanish (Argentinian),All,18,señora,62,understands,0
+Spanish (Argentinian),All,19,señora,44,produces,0.0455
+Spanish (Argentinian),All,19,señora,44,understands,0
+Spanish (Argentinian),All,20,señora,46,produces,0.0652
+Spanish (Argentinian),All,20,señora,46,understands,0
+Spanish (Argentinian),All,21,señora,41,produces,0.0732
+Spanish (Argentinian),All,21,señora,41,understands,0
+Spanish (Argentinian),All,22,señora,57,produces,0
+Spanish (Argentinian),All,22,señora,57,understands,0
+Spanish (Argentinian),All,23,señora,49,produces,0.0612
+Spanish (Argentinian),All,23,señora,49,understands,0
+Spanish (Argentinian),All,24,señora,75,produces,0.1333
+Spanish (Argentinian),All,24,señora,75,understands,0
+Spanish (Argentinian),All,25,señora,43,produces,0.2326
+Spanish (Argentinian),All,25,señora,43,understands,0
+Spanish (Argentinian),All,26,señora,45,produces,0.1111
+Spanish (Argentinian),All,26,señora,45,understands,0
+Spanish (Argentinian),All,27,señora,44,produces,0.1364
+Spanish (Argentinian),All,27,señora,44,understands,0
+Spanish (Argentinian),All,28,señora,42,produces,0.1905
+Spanish (Argentinian),All,28,señora,42,understands,0
+Spanish (Argentinian),All,29,señora,65,produces,0.2
+Spanish (Argentinian),All,29,señora,65,understands,0
+Spanish (Argentinian),All,30,señora,69,produces,0.4058
+Spanish (Argentinian),All,30,señora,69,understands,0
+Spanish (Argentinian),All,31,señora,2,produces,0
+Spanish (Argentinian),All,31,señora,2,understands,0
+Spanish (Argentinian),All,32,señora,1,produces,1
+Spanish (Argentinian),All,32,señora,1,understands,0
+Spanish (Argentinian),All,33,señora,2,produces,0
+Spanish (Argentinian),All,33,señora,2,understands,0
+Spanish (Mexican),All,8,señora,40,produces,0
+Spanish (Mexican),All,8,señora,40,understands,0.075
+Spanish (Mexican),All,9,señora,64,produces,0
+Spanish (Mexican),All,9,señora,64,understands,0.0781
+Spanish (Mexican),All,10,señora,71,produces,0
+Spanish (Mexican),All,10,señora,71,understands,0.0282
+Spanish (Mexican),All,11,señora,67,produces,0
+Spanish (Mexican),All,11,señora,67,understands,0.1343
+Spanish (Mexican),All,12,señora,89,produces,0
+Spanish (Mexican),All,12,señora,89,understands,0.1011
+Spanish (Mexican),All,13,señora,83,produces,0.0241
+Spanish (Mexican),All,13,señora,83,understands,0.0964
+Spanish (Mexican),All,14,señora,76,produces,0.0263
+Spanish (Mexican),All,14,señora,76,understands,0.1711
+Spanish (Mexican),All,15,señora,61,produces,0.0164
+Spanish (Mexican),All,15,señora,61,understands,0.1803
+Spanish (Mexican),All,16,señora,152,produces,0.0724
+Spanish (Mexican),All,16,señora,152,understands,0.1513
+Spanish (Mexican),All,17,señora,124,produces,0.1048
+Spanish (Mexican),All,17,señora,124,understands,0.2177
+Spanish (Mexican),All,18,señora,163,produces,0.1411
+Spanish (Mexican),All,18,señora,163,understands,0.2147
+Spanish (Mexican),All,19,señora,100,produces,0.16
+Spanish (Mexican),All,19,señora,100,understands,0
+Spanish (Mexican),All,20,señora,107,produces,0.2056
+Spanish (Mexican),All,20,señora,107,understands,0
+Spanish (Mexican),All,21,señora,84,produces,0.2024
+Spanish (Mexican),All,21,señora,84,understands,0
+Spanish (Mexican),All,22,señora,141,produces,0.1915
+Spanish (Mexican),All,22,señora,141,understands,0
+Spanish (Mexican),All,23,señora,91,produces,0.1978
+Spanish (Mexican),All,23,señora,91,understands,0
+Spanish (Mexican),All,24,señora,126,produces,0.3651
+Spanish (Mexican),All,24,señora,126,understands,0
+Spanish (Mexican),All,25,señora,177,produces,0.2712
+Spanish (Mexican),All,25,señora,177,understands,0
+Spanish (Mexican),All,26,señora,83,produces,0.3855
+Spanish (Mexican),All,26,señora,83,understands,0
+Spanish (Mexican),All,27,señora,85,produces,0.5529
+Spanish (Mexican),All,27,señora,85,understands,0
+Spanish (Mexican),All,28,señora,89,produces,0.5169
+Spanish (Mexican),All,28,señora,89,understands,0
+Spanish (Mexican),All,29,señora,89,produces,0.5506
+Spanish (Mexican),All,29,señora,89,understands,0
+Spanish (Mexican),All,30,señora,308,produces,0.3669
+Spanish (Mexican),All,30,señora,308,understands,0
+Turkish,All,16,Kadın,109,produces,0.0275
+Turkish,All,16,Kadın,109,understands,0
+Turkish,All,17,Kadın,107,produces,0.0467
+Turkish,All,17,Kadın,107,understands,0
+Turkish,All,18,Kadın,128,produces,0.0234
+Turkish,All,18,Kadın,128,understands,0
+Turkish,All,19,Kadın,121,produces,0.0661
+Turkish,All,19,Kadın,121,understands,0
+Turkish,All,20,Kadın,119,produces,0.0924
+Turkish,All,20,Kadın,119,understands,0
+Turkish,All,21,Kadın,124,produces,0.1129
+Turkish,All,21,Kadın,124,understands,0
+Turkish,All,22,Kadın,126,produces,0.1111
+Turkish,All,22,Kadın,126,understands,0
+Turkish,All,23,Kadın,131,produces,0.1908
+Turkish,All,23,Kadın,131,understands,0
+Turkish,All,24,Kadın,106,produces,0.2547
+Turkish,All,24,Kadın,106,understands,0
+Turkish,All,25,Kadın,123,produces,0.3659
+Turkish,All,25,Kadın,123,understands,0
+Turkish,All,26,Kadın,123,produces,0.3659
+Turkish,All,26,Kadın,123,understands,0
+Turkish,All,27,Kadın,108,produces,0.3426
+Turkish,All,27,Kadın,108,understands,0
+Turkish,All,28,Kadın,112,produces,0.5089
+Turkish,All,28,Kadın,112,understands,0
+Turkish,All,29,Kadın,119,produces,0.5462
+Turkish,All,29,Kadın,119,understands,0
+Turkish,All,30,Kadın,104,produces,0.5769
+Turkish,All,30,Kadın,104,understands,0
+Turkish,All,31,Kadın,101,produces,0.6139
+Turkish,All,31,Kadın,101,understands,0
+Turkish,All,32,Kadın,132,produces,0.6439
+Turkish,All,32,Kadın,132,understands,0
+Turkish,All,33,Kadın,114,produces,0.693
+Turkish,All,33,Kadın,114,understands,0
+Turkish,All,34,Kadın,107,produces,0.7103
+Turkish,All,34,Kadın,107,understands,0
+Turkish,All,35,Kadın,131,produces,0.7252
+Turkish,All,35,Kadın,131,understands,0
+Turkish,All,36,Kadın,77,produces,0.7922
+Turkish,All,36,Kadın,77,understands,0
+American Sign Language,Male,8,WOMAN,1,produces,0
+American Sign Language,Male,8,WOMAN,1,understands,0
+American Sign Language,Female,9,WOMAN,4,produces,0
+American Sign Language,Female,9,WOMAN,4,understands,0
+American Sign Language,Female,10,WOMAN,3,produces,0.3333
+American Sign Language,Female,10,WOMAN,3,understands,0.3333
+American Sign Language,Male,10,WOMAN,2,produces,0
+American Sign Language,Male,10,WOMAN,2,understands,0
+American Sign Language,Female,11,WOMAN,2,produces,0
+American Sign Language,Female,11,WOMAN,2,understands,0
+American Sign Language,Male,11,WOMAN,1,produces,0
+American Sign Language,Male,11,WOMAN,1,understands,0
+American Sign Language,Female,12,WOMAN,2,produces,0
+American Sign Language,Female,12,WOMAN,2,understands,0.5
+American Sign Language,Male,12,WOMAN,2,produces,0
+American Sign Language,Male,12,WOMAN,2,understands,0.5
+American Sign Language,Female,13,WOMAN,3,produces,0
+American Sign Language,Female,13,WOMAN,3,understands,0
+American Sign Language,Male,13,WOMAN,1,produces,0
+American Sign Language,Male,13,WOMAN,1,understands,0
+American Sign Language,Female,14,WOMAN,1,produces,0
+American Sign Language,Female,14,WOMAN,1,understands,0
+American Sign Language,Female,15,WOMAN,1,produces,0
+American Sign Language,Female,15,WOMAN,1,understands,0
+American Sign Language,Male,15,WOMAN,2,produces,0
+American Sign Language,Male,15,WOMAN,2,understands,0
+American Sign Language,Female,16,WOMAN,2,produces,0
+American Sign Language,Female,16,WOMAN,2,understands,0
+American Sign Language,Female,17,WOMAN,3,produces,0
+American Sign Language,Female,17,WOMAN,3,understands,0
+American Sign Language,Male,17,WOMAN,2,produces,0
+American Sign Language,Male,17,WOMAN,2,understands,0
+American Sign Language,Female,18,WOMAN,6,produces,0.3333
+American Sign Language,Female,18,WOMAN,6,understands,0.8333
+American Sign Language,Male,18,WOMAN,5,produces,0.2
+American Sign Language,Male,18,WOMAN,5,understands,0.2
+American Sign Language,Female,19,WOMAN,2,produces,0
+American Sign Language,Female,19,WOMAN,2,understands,0
+American Sign Language,Male,19,WOMAN,4,produces,0
+American Sign Language,Male,19,WOMAN,4,understands,0.2
+American Sign Language,Male,20,WOMAN,3,produces,0.25
+American Sign Language,Male,20,WOMAN,3,understands,0.25
+American Sign Language,Female,21,WOMAN,2,produces,0
+American Sign Language,Female,21,WOMAN,2,understands,1
+American Sign Language,Male,21,WOMAN,2,produces,0.3333
+American Sign Language,Male,21,WOMAN,2,understands,0.3333
+American Sign Language,Female,22,WOMAN,9,produces,0
+American Sign Language,Female,22,WOMAN,9,understands,0.2
+American Sign Language,Male,22,WOMAN,1,produces,0
+American Sign Language,Male,22,WOMAN,1,understands,0
+American Sign Language,Female,23,WOMAN,3,produces,0.5
+American Sign Language,Female,23,WOMAN,3,understands,0.25
+American Sign Language,Male,23,WOMAN,2,produces,0.5
+American Sign Language,Male,23,WOMAN,2,understands,0.5
+American Sign Language,Female,24,WOMAN,2,produces,0
+American Sign Language,Female,24,WOMAN,2,understands,0.3333
+American Sign Language,Male,24,WOMAN,7,produces,0.1111
+American Sign Language,Male,24,WOMAN,7,understands,0.2222
+American Sign Language,Female,25,WOMAN,6,produces,0.1667
+American Sign Language,Female,25,WOMAN,6,understands,0.5
+American Sign Language,Male,25,WOMAN,7,produces,0.2857
+American Sign Language,Male,25,WOMAN,7,understands,0.7143
+American Sign Language,Female,26,WOMAN,2,produces,0
+American Sign Language,Female,26,WOMAN,2,understands,1
+American Sign Language,Male,26,WOMAN,2,produces,0.5
+American Sign Language,Male,26,WOMAN,2,understands,0.5
+American Sign Language,Female,27,WOMAN,4,produces,0.25
+American Sign Language,Female,27,WOMAN,4,understands,0.5
+American Sign Language,Male,27,WOMAN,3,produces,0.5
+American Sign Language,Male,27,WOMAN,3,understands,0.25
+American Sign Language,Female,28,WOMAN,3,produces,1
+American Sign Language,Female,28,WOMAN,3,understands,0.6667
+American Sign Language,Male,28,WOMAN,4,produces,0.2
+American Sign Language,Male,28,WOMAN,4,understands,0.4
+American Sign Language,Female,29,WOMAN,1,produces,0
+American Sign Language,Female,29,WOMAN,1,understands,1
+American Sign Language,Male,29,WOMAN,5,produces,0.4
+American Sign Language,Male,29,WOMAN,5,understands,0.6
+American Sign Language,Female,30,WOMAN,3,produces,0.25
+American Sign Language,Female,30,WOMAN,3,understands,0.25
+American Sign Language,Male,30,WOMAN,4,produces,0.25
+American Sign Language,Male,30,WOMAN,4,understands,0.25
+American Sign Language,Female,31,WOMAN,6,produces,0.2857
+American Sign Language,Female,31,WOMAN,6,understands,0.1429
+American Sign Language,Male,31,WOMAN,3,produces,0
+American Sign Language,Male,31,WOMAN,3,understands,0.3333
+American Sign Language,Female,32,WOMAN,4,produces,0.2
+American Sign Language,Female,32,WOMAN,4,understands,0.6
+American Sign Language,Male,32,WOMAN,11,produces,0.5833
+American Sign Language,Male,32,WOMAN,11,understands,0.3333
+American Sign Language,Female,33,WOMAN,2,produces,0
+American Sign Language,Female,33,WOMAN,2,understands,0
+American Sign Language,Male,33,WOMAN,4,produces,0.75
+American Sign Language,Male,33,WOMAN,4,understands,0.75
+American Sign Language,Female,34,WOMAN,2,produces,0.5
+American Sign Language,Female,34,WOMAN,2,understands,0
+American Sign Language,Male,34,WOMAN,5,produces,0.1667
+American Sign Language,Male,34,WOMAN,5,understands,0.3333
+American Sign Language,Female,35,WOMAN,4,produces,0.5
+American Sign Language,Female,35,WOMAN,4,understands,0.5
+American Sign Language,Male,35,WOMAN,3,produces,0.6667
+American Sign Language,Male,35,WOMAN,3,understands,0.6667
+American Sign Language,Female,36,WOMAN,3,produces,0
+American Sign Language,Female,36,WOMAN,3,understands,0.6667
+Arabic (Saudi),Female,8,ست/ حرمة,13,produces,0
+Arabic (Saudi),Female,8,ست/ حرمة,13,understands,0.1538
+Arabic (Saudi),Male,8,ست/ حرمة,11,produces,0
+Arabic (Saudi),Male,8,ست/ حرمة,11,understands,0
+Arabic (Saudi),Female,9,ست/ حرمة,14,produces,0
+Arabic (Saudi),Female,9,ست/ حرمة,14,understands,0
+Arabic (Saudi),Male,9,ست/ حرمة,13,produces,0
+Arabic (Saudi),Male,9,ست/ حرمة,13,understands,0
+Arabic (Saudi),Female,10,ست/ حرمة,15,produces,0
+Arabic (Saudi),Female,10,ست/ حرمة,15,understands,0
+Arabic (Saudi),Male,10,ست/ حرمة,20,produces,0.05
+Arabic (Saudi),Male,10,ست/ حرمة,20,understands,0.1
+Arabic (Saudi),Female,11,ست/ حرمة,14,produces,0
+Arabic (Saudi),Female,11,ست/ حرمة,14,understands,0
+Arabic (Saudi),Male,11,ست/ حرمة,16,produces,0
+Arabic (Saudi),Male,11,ست/ حرمة,16,understands,0.0625
+Arabic (Saudi),Female,12,ست/ حرمة,14,produces,0
+Arabic (Saudi),Female,12,ست/ حرمة,14,understands,0
+Arabic (Saudi),Male,12,ست/ حرمة,16,produces,0
+Arabic (Saudi),Male,12,ست/ حرمة,16,understands,0
+Arabic (Saudi),Female,13,ست/ حرمة,17,produces,0
+Arabic (Saudi),Female,13,ست/ حرمة,17,understands,0
+Arabic (Saudi),Male,13,ست/ حرمة,22,produces,0
+Arabic (Saudi),Male,13,ست/ حرمة,22,understands,0
+Arabic (Saudi),Female,14,ست/ حرمة,10,produces,0
+Arabic (Saudi),Female,14,ست/ حرمة,10,understands,0
+Arabic (Saudi),Male,14,ست/ حرمة,15,produces,0
+Arabic (Saudi),Male,14,ست/ حرمة,15,understands,0
+Arabic (Saudi),Female,15,ست/ حرمة,12,produces,0
+Arabic (Saudi),Female,15,ست/ حرمة,12,understands,0.0833
+Arabic (Saudi),Male,15,ست/ حرمة,15,produces,0.0667
+Arabic (Saudi),Male,15,ست/ حرمة,15,understands,0.0667
+Arabic (Saudi),Female,16,ست/ حرمة,10,produces,0
+Arabic (Saudi),Female,16,ست/ حرمة,10,understands,0.1
+Arabic (Saudi),Male,16,ست/ حرمة,11,produces,0
+Arabic (Saudi),Male,16,ست/ حرمة,11,understands,0
+British Sign Language,Female,8,woman,2,produces,0
+British Sign Language,Female,8,woman,2,understands,0
+British Sign Language,Male,8,woman,2,produces,0
+British Sign Language,Male,8,woman,2,understands,0
+British Sign Language,Female,9,woman,3,produces,0
+British Sign Language,Female,9,woman,3,understands,0
+British Sign Language,Male,9,woman,1,produces,0
+British Sign Language,Male,9,woman,1,understands,0
+British Sign Language,Female,10,woman,1,produces,0
+British Sign Language,Female,10,woman,1,understands,0
+British Sign Language,Male,10,woman,3,produces,0
+British Sign Language,Male,10,woman,3,understands,0
+British Sign Language,Female,11,woman,4,produces,0
+British Sign Language,Female,11,woman,4,understands,0
+British Sign Language,Male,11,woman,2,produces,0
+British Sign Language,Male,11,woman,2,understands,0
+British Sign Language,Female,12,woman,3,produces,0
+British Sign Language,Female,12,woman,3,understands,0
+British Sign Language,Male,12,woman,3,produces,0
+British Sign Language,Male,12,woman,3,understands,0
+British Sign Language,Female,13,woman,2,produces,0
+British Sign Language,Female,13,woman,2,understands,0
+British Sign Language,Male,13,woman,4,produces,0
+British Sign Language,Male,13,woman,4,understands,0
+British Sign Language,Female,14,woman,3,produces,0
+British Sign Language,Female,14,woman,3,understands,0
+British Sign Language,Male,14,woman,4,produces,0
+British Sign Language,Male,14,woman,4,understands,0
+British Sign Language,Female,15,woman,4,produces,0
+British Sign Language,Female,15,woman,4,understands,0
+British Sign Language,Male,15,woman,2,produces,0
+British Sign Language,Male,15,woman,2,understands,0
+British Sign Language,Female,16,woman,4,produces,0.25
+British Sign Language,Female,16,woman,4,understands,0.25
+British Sign Language,Male,16,woman,3,produces,0
+British Sign Language,Male,16,woman,3,understands,0
+British Sign Language,Female,17,woman,2,produces,0.5
+British Sign Language,Female,17,woman,2,understands,0.5
+British Sign Language,Male,17,woman,5,produces,0
+British Sign Language,Male,17,woman,5,understands,0.2
+British Sign Language,Female,18,woman,4,produces,0
+British Sign Language,Female,18,woman,4,understands,0
+British Sign Language,Male,18,woman,4,produces,0
+British Sign Language,Male,18,woman,4,understands,0
+British Sign Language,Female,19,woman,4,produces,0.25
+British Sign Language,Female,19,woman,4,understands,0.25
+British Sign Language,Male,19,woman,4,produces,0
+British Sign Language,Male,19,woman,4,understands,0.25
+British Sign Language,Female,20,woman,4,produces,0.25
+British Sign Language,Female,20,woman,4,understands,0.5
+British Sign Language,Male,20,woman,7,produces,0.2857
+British Sign Language,Male,20,woman,7,understands,0.4286
+British Sign Language,Female,21,woman,3,produces,0
+British Sign Language,Female,21,woman,3,understands,0
+British Sign Language,Male,21,woman,2,produces,0
+British Sign Language,Male,21,woman,2,understands,0
+British Sign Language,Female,22,woman,2,produces,0
+British Sign Language,Female,22,woman,2,understands,0
+British Sign Language,Male,22,woman,4,produces,0.25
+British Sign Language,Male,22,woman,4,understands,0.25
+British Sign Language,Female,23,woman,2,produces,1
+British Sign Language,Female,23,woman,2,understands,1
+British Sign Language,Male,23,woman,5,produces,0.2
+British Sign Language,Male,23,woman,5,understands,0.2
+British Sign Language,Female,24,woman,3,produces,0.6667
+British Sign Language,Female,24,woman,3,understands,0.6667
+British Sign Language,Male,24,woman,2,produces,0
+British Sign Language,Male,24,woman,2,understands,0
+British Sign Language,Female,25,woman,1,produces,0
+British Sign Language,Female,25,woman,1,understands,0
+British Sign Language,Male,25,woman,6,produces,0.1667
+British Sign Language,Male,25,woman,6,understands,0.1667
+British Sign Language,Female,26,woman,4,produces,0.75
+British Sign Language,Female,26,woman,4,understands,0.75
+British Sign Language,Male,26,woman,2,produces,0.5
+British Sign Language,Male,26,woman,2,understands,1
+British Sign Language,Female,27,woman,1,produces,1
+British Sign Language,Female,27,woman,1,understands,1
+British Sign Language,Male,27,woman,5,produces,0.2
+British Sign Language,Male,27,woman,5,understands,0.2
+British Sign Language,Female,28,woman,1,produces,0
+British Sign Language,Female,28,woman,1,understands,0
+British Sign Language,Male,28,woman,2,produces,0.5
+British Sign Language,Male,28,woman,2,understands,0.5
+British Sign Language,Female,29,woman,2,produces,1
+British Sign Language,Female,29,woman,2,understands,1
+British Sign Language,Male,29,woman,5,produces,0.8
+British Sign Language,Male,29,woman,5,understands,0.8
+British Sign Language,Female,30,woman,1,produces,1
+British Sign Language,Female,30,woman,1,understands,1
+British Sign Language,Male,30,woman,4,produces,0.5
+British Sign Language,Male,30,woman,4,understands,0.5
+British Sign Language,Male,31,woman,2,produces,0.5
+British Sign Language,Male,31,woman,2,understands,0.5
+British Sign Language,Female,32,woman,2,produces,1
+British Sign Language,Female,32,woman,2,understands,1
+British Sign Language,Male,32,woman,4,produces,0.75
+British Sign Language,Male,32,woman,4,understands,1
+British Sign Language,Female,33,woman,1,produces,1
+British Sign Language,Female,33,woman,1,understands,1
+British Sign Language,Male,33,woman,4,produces,0.75
+British Sign Language,Male,33,woman,4,understands,0.75
+British Sign Language,Female,34,woman,1,produces,0
+British Sign Language,Female,34,woman,1,understands,0
+British Sign Language,Male,34,woman,1,produces,0
+British Sign Language,Male,34,woman,1,understands,0
+British Sign Language,Female,35,woman,1,produces,1
+British Sign Language,Female,35,woman,1,understands,1
+British Sign Language,Male,35,woman,1,produces,1
+British Sign Language,Male,35,woman,1,understands,1
+British Sign Language,Female,36,woman,1,produces,1
+British Sign Language,Female,36,woman,1,understands,1
+British Sign Language,Male,36,woman,2,produces,1
+British Sign Language,Male,36,woman,2,understands,1
+Catalan,Female,8,dona,17,produces,0
+Catalan,Female,8,dona,17,understands,0.1176
+Catalan,Male,8,dona,22,produces,0
+Catalan,Male,8,dona,22,understands,0
+Catalan,Female,9,dona,19,produces,0
+Catalan,Female,9,dona,19,understands,0
+Catalan,Male,9,dona,27,produces,0
+Catalan,Male,9,dona,27,understands,0
+Catalan,Female,10,dona,23,produces,0
+Catalan,Female,10,dona,23,understands,0
+Catalan,Male,10,dona,20,produces,0
+Catalan,Male,10,dona,20,understands,0.05
+Catalan,Female,11,dona,23,produces,0
+Catalan,Female,11,dona,23,understands,0.0435
+Catalan,Male,11,dona,20,produces,0
+Catalan,Male,11,dona,20,understands,0.05
+Catalan,Female,12,dona,29,produces,0
+Catalan,Female,12,dona,29,understands,0.1724
+Catalan,Male,12,dona,30,produces,0
+Catalan,Male,12,dona,30,understands,0.0333
+Catalan,Female,13,dona,18,produces,0
+Catalan,Female,13,dona,18,understands,0.0556
+Catalan,Male,13,dona,26,produces,0
+Catalan,Male,13,dona,26,understands,0
+Catalan,Female,14,dona,31,produces,0
+Catalan,Female,14,dona,31,understands,0.0968
+Catalan,Male,14,dona,29,produces,0
+Catalan,Male,14,dona,29,understands,0.069
+Catalan,Female,15,dona,35,produces,0.0286
+Catalan,Female,15,dona,35,understands,0.2
+Catalan,Male,15,dona,35,produces,0
+Catalan,Male,15,dona,35,understands,0.1429
+Catalan,Female,16,dona,33,produces,0
+Catalan,Female,16,dona,33,understands,0.1212
+Catalan,Male,16,dona,40,produces,0
+Catalan,Male,16,dona,40,understands,0.15
+Catalan,Female,17,dona,64,produces,0
+Catalan,Female,17,dona,64,understands,0.1406
+Catalan,Male,17,dona,46,produces,0.0217
+Catalan,Male,17,dona,46,understands,0.2174
+Catalan,Female,18,dona,47,produces,0.0213
+Catalan,Female,18,dona,47,understands,0.1915
+Catalan,Male,18,dona,55,produces,0.0545
+Catalan,Male,18,dona,55,understands,0.1455
+Catalan,Female,19,dona,25,produces,0
+Catalan,Female,19,dona,25,understands,0
+Catalan,Male,19,dona,20,produces,0
+Catalan,Male,19,dona,20,understands,0
+Catalan,Female,20,dona,28,produces,0.0357
+Catalan,Female,20,dona,28,understands,0
+Catalan,Male,20,dona,28,produces,0.0357
+Catalan,Male,20,dona,28,understands,0
+Catalan,Female,21,dona,32,produces,0.0625
+Catalan,Female,21,dona,32,understands,0
+Catalan,Male,21,dona,26,produces,0.0385
+Catalan,Male,21,dona,26,understands,0
+Catalan,Female,22,dona,26,produces,0.1538
+Catalan,Female,22,dona,26,understands,0
+Catalan,Male,22,dona,24,produces,0.0417
+Catalan,Male,22,dona,24,understands,0
+Catalan,Female,23,dona,35,produces,0.1143
+Catalan,Female,23,dona,35,understands,0
+Catalan,Male,23,dona,31,produces,0.1613
+Catalan,Male,23,dona,31,understands,0
+Catalan,Female,24,dona,41,produces,0.2927
+Catalan,Female,24,dona,41,understands,0
+Catalan,Male,24,dona,38,produces,0.2105
+Catalan,Male,24,dona,38,understands,0
+Catalan,Female,25,dona,30,produces,0.3333
+Catalan,Female,25,dona,30,understands,0
+Catalan,Male,25,dona,30,produces,0.2333
+Catalan,Male,25,dona,30,understands,0
+Catalan,Female,26,dona,35,produces,0.2857
+Catalan,Female,26,dona,35,understands,0
+Catalan,Male,26,dona,30,produces,0.2667
+Catalan,Male,26,dona,30,understands,0
+Catalan,Female,27,dona,36,produces,0.3333
+Catalan,Female,27,dona,36,understands,0
+Catalan,Male,27,dona,27,produces,0.2963
+Catalan,Male,27,dona,27,understands,0
+Catalan,Female,28,dona,40,produces,0.4
+Catalan,Female,28,dona,40,understands,0
+Catalan,Male,28,dona,41,produces,0.1463
+Catalan,Male,28,dona,41,understands,0
+Catalan,Female,29,dona,25,produces,0.48
+Catalan,Female,29,dona,25,understands,0
+Catalan,Male,29,dona,25,produces,0.36
+Catalan,Male,29,dona,25,understands,0
+Catalan,Female,30,dona,24,produces,0.5417
+Catalan,Female,30,dona,24,understands,0
+Catalan,Male,30,dona,51,produces,0.6078
+Catalan,Male,30,dona,51,understands,0
+English (Irish),Female,17,woman,1,produces,0
+English (Irish),Female,17,woman,1,understands,0
+English (Irish),Male,17,woman,1,produces,0
+English (Irish),Male,17,woman,1,understands,0
+English (Irish),Female,18,woman,1,produces,0
+English (Irish),Female,18,woman,1,understands,0
+English (Irish),Female,19,woman,1,produces,0
+English (Irish),Female,19,woman,1,understands,0
+English (Irish),Male,19,woman,1,produces,0
+English (Irish),Male,19,woman,1,understands,0
+English (Irish),Female,20,woman,1,produces,0
+English (Irish),Female,20,woman,1,understands,0
+English (Irish),Female,21,woman,2,produces,0
+English (Irish),Female,21,woman,2,understands,0
+English (Irish),Male,21,woman,1,produces,0
+English (Irish),Male,21,woman,1,understands,0
+English (Irish),Female,22,woman,3,produces,0
+English (Irish),Female,22,woman,3,understands,0
+English (Irish),Male,22,woman,1,produces,0
+English (Irish),Male,22,woman,1,understands,0
+English (Irish),Female,23,woman,2,produces,0
+English (Irish),Female,23,woman,2,understands,0
+English (Irish),Male,23,woman,2,produces,0
+English (Irish),Male,23,woman,2,understands,0
+English (Irish),Female,24,woman,2,produces,0.5
+English (Irish),Female,24,woman,2,understands,0
+English (Irish),Male,24,woman,2,produces,0
+English (Irish),Male,24,woman,2,understands,0
+English (Irish),Female,25,woman,3,produces,0
+English (Irish),Female,25,woman,3,understands,0
+English (Irish),Male,25,woman,3,produces,0
+English (Irish),Male,25,woman,3,understands,0
+English (Irish),Female,26,woman,7,produces,0
+English (Irish),Female,26,woman,7,understands,0
+English (Irish),Male,26,woman,3,produces,0.3333
+English (Irish),Male,26,woman,3,understands,0
+English (Irish),Female,27,woman,1,produces,1
+English (Irish),Female,27,woman,1,understands,0
+English (Irish),Male,27,woman,4,produces,0
+English (Irish),Male,27,woman,4,understands,0
+English (Irish),Female,28,woman,4,produces,0
+English (Irish),Female,28,woman,4,understands,0
+English (Irish),Male,28,woman,3,produces,0.3333
+English (Irish),Male,28,woman,3,understands,0
+English (Irish),Female,29,woman,1,produces,0
+English (Irish),Female,29,woman,1,understands,0
+English (Irish),Male,29,woman,3,produces,0.6667
+English (Irish),Male,29,woman,3,understands,0
+English (Irish),Female,30,woman,5,produces,0.2
+English (Irish),Female,30,woman,5,understands,0
+English (Irish),Male,30,woman,4,produces,0
+English (Irish),Male,30,woman,4,understands,0
+English (Irish),Female,31,woman,3,produces,0
+English (Irish),Female,31,woman,3,understands,0
+English (Irish),Male,31,woman,5,produces,0.2
+English (Irish),Male,31,woman,5,understands,0
+English (Irish),Female,32,woman,2,produces,0.5
+English (Irish),Female,32,woman,2,understands,0
+English (Irish),Male,32,woman,2,produces,0
+English (Irish),Male,32,woman,2,understands,0
+English (Irish),Female,33,woman,1,produces,0
+English (Irish),Female,33,woman,1,understands,0
+English (Irish),Male,33,woman,4,produces,0.25
+English (Irish),Male,33,woman,4,understands,0
+English (Irish),Female,34,woman,2,produces,0
+English (Irish),Female,34,woman,2,understands,0
+English (Irish),Male,34,woman,2,produces,0
+English (Irish),Male,34,woman,2,understands,0
+English (Irish),Female,35,woman,2,produces,0
+English (Irish),Female,35,woman,2,understands,0
+English (Irish),Male,35,woman,9,produces,0.4444
+English (Irish),Male,35,woman,9,understands,0
+English (Irish),Female,36,woman,3,produces,0
+English (Irish),Female,36,woman,3,understands,0
+English (Irish),Male,36,woman,2,produces,0
+English (Irish),Male,36,woman,2,understands,0
+Estonian,Female,16,naine,19,produces,0
+Estonian,Female,16,naine,19,understands,0
+Estonian,Male,16,naine,17,produces,0.1176
+Estonian,Male,16,naine,17,understands,0
+Estonian,Female,17,naine,42,produces,0.0238
+Estonian,Female,17,naine,42,understands,0
+Estonian,Male,17,naine,47,produces,0
+Estonian,Male,17,naine,47,understands,0
+Estonian,Female,18,naine,52,produces,0.1538
+Estonian,Female,18,naine,52,understands,0
+Estonian,Male,18,naine,51,produces,0.0784
+Estonian,Male,18,naine,51,understands,0
+Estonian,Female,19,naine,44,produces,0.0227
+Estonian,Female,19,naine,44,understands,0
+Estonian,Male,19,naine,41,produces,0.0488
+Estonian,Male,19,naine,41,understands,0
+Estonian,Female,20,naine,36,produces,0.0833
+Estonian,Female,20,naine,36,understands,0
+Estonian,Male,20,naine,24,produces,0.0417
+Estonian,Male,20,naine,24,understands,0
+Estonian,Female,21,naine,28,produces,0.0714
+Estonian,Female,21,naine,28,understands,0
+Estonian,Male,21,naine,38,produces,0.0263
+Estonian,Male,21,naine,38,understands,0
+Estonian,Female,22,naine,45,produces,0.0889
+Estonian,Female,22,naine,45,understands,0
+Estonian,Male,22,naine,31,produces,0.0323
+Estonian,Male,22,naine,31,understands,0
+Estonian,Female,23,naine,48,produces,0.2292
+Estonian,Female,23,naine,48,understands,0
+Estonian,Male,23,naine,47,produces,0.1489
+Estonian,Male,23,naine,47,understands,0
+Estonian,Female,24,naine,52,produces,0.2885
+Estonian,Female,24,naine,52,understands,0
+Estonian,Male,24,naine,64,produces,0.125
+Estonian,Male,24,naine,64,understands,0
+Estonian,Female,25,naine,45,produces,0.2222
+Estonian,Female,25,naine,45,understands,0
+Estonian,Male,25,naine,37,produces,0.0811
+Estonian,Male,25,naine,37,understands,0
+Estonian,Female,26,naine,45,produces,0.3111
+Estonian,Female,26,naine,45,understands,0
+Estonian,Male,26,naine,39,produces,0.1795
+Estonian,Male,26,naine,39,understands,0
+Estonian,Female,27,naine,44,produces,0.3409
+Estonian,Female,27,naine,44,understands,0
+Estonian,Male,27,naine,36,produces,0.1667
+Estonian,Male,27,naine,36,understands,0
+Estonian,Female,28,naine,44,produces,0.2727
+Estonian,Female,28,naine,44,understands,0
+Estonian,Male,28,naine,48,produces,0.2083
+Estonian,Male,28,naine,48,understands,0
+Estonian,Female,29,naine,59,produces,0.2373
+Estonian,Female,29,naine,59,understands,0
+Estonian,Male,29,naine,41,produces,0.2439
+Estonian,Male,29,naine,41,understands,0
+Estonian,Female,30,naine,37,produces,0.2973
+Estonian,Female,30,naine,37,understands,0
+Estonian,Male,30,naine,34,produces,0.3235
+Estonian,Male,30,naine,34,understands,0
+Finnish,Female,12,nainen ,18,produces,0
+Finnish,Female,12,nainen ,18,understands,0
+Finnish,Male,12,nainen ,17,produces,0
+Finnish,Male,12,nainen ,17,understands,0
+Finnish,Female,15,nainen ,18,produces,0
+Finnish,Female,15,nainen ,18,understands,0
+Finnish,Male,15,nainen ,17,produces,0
+Finnish,Male,15,nainen ,17,understands,0
+Finnish,Female,18,nainen,18,produces,0
+Finnish,Female,18,nainen,18,understands,0
+Finnish,Male,18,nainen,17,produces,0
+Finnish,Male,18,nainen,17,understands,0
+Finnish,Female,24,nainen,18,produces,0.1111
+Finnish,Female,24,nainen,18,understands,0
+Finnish,Male,24,nainen,17,produces,0.1176
+Finnish,Male,24,nainen,17,understands,0
+Greek (Cypriot),Female,18,γυναίκα,24,produces,0.0417
+Greek (Cypriot),Female,18,γυναίκα,24,understands,0
+Greek (Cypriot),Male,18,γυναίκα,21,produces,0
+Greek (Cypriot),Male,18,γυναίκα,21,understands,0
+Greek (Cypriot),Female,21,γυναίκα,19,produces,0.1579
+Greek (Cypriot),Female,21,γυναίκα,19,understands,0
+Greek (Cypriot),Male,21,γυναίκα,17,produces,0
+Greek (Cypriot),Male,21,γυναίκα,17,understands,0
+Greek (Cypriot),Female,24,γυναίκα,12,produces,0.3333
+Greek (Cypriot),Female,24,γυναίκα,12,understands,0
+Greek (Cypriot),Male,24,γυναίκα,20,produces,0.15
+Greek (Cypriot),Male,24,γυναίκα,20,understands,0
+Greek (Cypriot),Female,27,γυναίκα,16,produces,0.3125
+Greek (Cypriot),Female,27,γυναίκα,16,understands,0
+Greek (Cypriot),Male,27,γυναίκα,13,produces,0.1538
+Greek (Cypriot),Male,27,γυναίκα,13,understands,0
+Greek (Cypriot),Female,30,γυναίκα,12,produces,0.25
+Greek (Cypriot),Female,30,γυναίκα,12,understands,0
+Greek (Cypriot),Male,30,γυναίκα,22,produces,0.3636
+Greek (Cypriot),Male,30,γυναίκα,22,understands,0
+Irish,Female,17,bean,1,produces,0
+Irish,Female,17,bean,1,understands,0
+Irish,Male,17,bean,1,produces,0
+Irish,Male,17,bean,1,understands,0
+Irish,Female,18,bean,1,produces,1
+Irish,Female,18,bean,1,understands,0
+Irish,Female,19,bean,1,produces,1
+Irish,Female,19,bean,1,understands,0
+Irish,Male,19,bean,1,produces,0
+Irish,Male,19,bean,1,understands,0
+Irish,Female,20,bean,1,produces,0
+Irish,Female,20,bean,1,understands,0
+Irish,Female,21,bean,2,produces,0
+Irish,Female,21,bean,2,understands,0
+Irish,Male,21,bean,1,produces,0
+Irish,Male,21,bean,1,understands,0
+Irish,Female,22,bean,3,produces,0.6667
+Irish,Female,22,bean,3,understands,0
+Irish,Male,22,bean,1,produces,0
+Irish,Male,22,bean,1,understands,0
+Irish,Female,23,bean,2,produces,0
+Irish,Female,23,bean,2,understands,0
+Irish,Male,23,bean,2,produces,0.5
+Irish,Male,23,bean,2,understands,0
+Irish,Female,24,bean,2,produces,1
+Irish,Female,24,bean,2,understands,0
+Irish,Male,24,bean,2,produces,0.5
+Irish,Male,24,bean,2,understands,0
+Irish,Female,25,bean,3,produces,0.3333
+Irish,Female,25,bean,3,understands,0
+Irish,Male,25,bean,3,produces,0.6667
+Irish,Male,25,bean,3,understands,0
+Irish,Female,26,bean,7,produces,0.4286
+Irish,Female,26,bean,7,understands,0
+Irish,Male,26,bean,3,produces,0.6667
+Irish,Male,26,bean,3,understands,0
+Irish,Female,27,bean,1,produces,0
+Irish,Female,27,bean,1,understands,0
+Irish,Male,27,bean,4,produces,0.75
+Irish,Male,27,bean,4,understands,0
+Irish,Female,28,bean,4,produces,0.75
+Irish,Female,28,bean,4,understands,0
+Irish,Male,28,bean,3,produces,0.6667
+Irish,Male,28,bean,3,understands,0
+Irish,Female,29,bean,1,produces,1
+Irish,Female,29,bean,1,understands,0
+Irish,Male,29,bean,3,produces,0.3333
+Irish,Male,29,bean,3,understands,0
+Irish,Female,30,bean,5,produces,0.6
+Irish,Female,30,bean,5,understands,0
+Irish,Male,30,bean,4,produces,0.75
+Irish,Male,30,bean,4,understands,0
+Irish,Female,31,bean,3,produces,0.6667
+Irish,Female,31,bean,3,understands,0
+Irish,Male,31,bean,5,produces,0.8
+Irish,Male,31,bean,5,understands,0
+Irish,Female,32,bean,2,produces,0.5
+Irish,Female,32,bean,2,understands,0
+Irish,Male,32,bean,2,produces,1
+Irish,Male,32,bean,2,understands,0
+Irish,Female,33,bean,1,produces,1
+Irish,Female,33,bean,1,understands,0
+Irish,Male,33,bean,4,produces,0.5
+Irish,Male,33,bean,4,understands,0
+Irish,Female,34,bean,2,produces,1
+Irish,Female,34,bean,2,understands,0
+Irish,Male,34,bean,2,produces,0.5
+Irish,Male,34,bean,2,understands,0
+Irish,Female,35,bean,2,produces,1
+Irish,Female,35,bean,2,understands,0
+Irish,Male,35,bean,9,produces,1
+Irish,Male,35,bean,9,understands,0
+Irish,Female,36,bean,3,produces,0.6667
+Irish,Female,36,bean,3,understands,0
+Irish,Male,36,bean,2,produces,1
+Irish,Male,36,bean,2,understands,0
+Italian,Female,18,donna,18,produces,0
+Italian,Female,18,donna,18,understands,0
+Italian,Male,18,donna,13,produces,0
+Italian,Male,18,donna,13,understands,0
+Italian,Female,19,donna,21,produces,0.0476
+Italian,Female,19,donna,21,understands,0
+Italian,Male,19,donna,18,produces,0.0556
+Italian,Male,19,donna,18,understands,0
+Italian,Female,20,donna,34,produces,0.0588
+Italian,Female,20,donna,34,understands,0
+Italian,Male,20,donna,30,produces,0
+Italian,Male,20,donna,30,understands,0
+Italian,Female,21,donna,24,produces,0.125
+Italian,Female,21,donna,24,understands,0
+Italian,Male,21,donna,31,produces,0.0323
+Italian,Male,21,donna,31,understands,0
+Italian,Female,22,donna,27,produces,0.1111
+Italian,Female,22,donna,27,understands,0
+Italian,Male,22,donna,28,produces,0.1786
+Italian,Male,22,donna,28,understands,0
+Italian,Female,23,donna,27,produces,0.0741
+Italian,Female,23,donna,27,understands,0
+Italian,Male,23,donna,26,produces,0.1154
+Italian,Male,23,donna,26,understands,0
+Italian,Female,24,donna,39,produces,0.1282
+Italian,Female,24,donna,39,understands,0
+Italian,Male,24,donna,32,produces,0.125
+Italian,Male,24,donna,32,understands,0
+Italian,Female,25,donna,23,produces,0.1304
+Italian,Female,25,donna,23,understands,0
+Italian,Male,25,donna,16,produces,0.3125
+Italian,Male,25,donna,16,understands,0
+Italian,Female,26,donna,19,produces,0.4211
+Italian,Female,26,donna,19,understands,0
+Italian,Male,26,donna,22,produces,0.1364
+Italian,Male,26,donna,22,understands,0
+Italian,Female,27,donna,20,produces,0.15
+Italian,Female,27,donna,20,understands,0
+Italian,Male,27,donna,23,produces,0.2609
+Italian,Male,27,donna,23,understands,0
+Italian,Female,28,donna,21,produces,0.2381
+Italian,Female,28,donna,21,understands,0
+Italian,Male,28,donna,23,produces,0.3043
+Italian,Male,28,donna,23,understands,0
+Italian,Female,29,donna,21,produces,0.4762
+Italian,Female,29,donna,21,understands,0
+Italian,Male,29,donna,16,produces,0.1875
+Italian,Male,29,donna,16,understands,0
+Italian,Female,30,donna,28,produces,0.4286
+Italian,Female,30,donna,28,understands,0
+Italian,Male,30,donna,39,produces,0.4872
+Italian,Male,30,donna,39,understands,0
+Italian,Female,31,donna,8,produces,0.5
+Italian,Female,31,donna,8,understands,0
+Italian,Male,31,donna,11,produces,0.4545
+Italian,Male,31,donna,11,understands,0
+Italian,Female,32,donna,14,produces,0.5714
+Italian,Female,32,donna,14,understands,0
+Italian,Male,32,donna,9,produces,0.1111
+Italian,Male,32,donna,9,understands,0
+Italian,Female,33,donna,5,produces,0.6
+Italian,Female,33,donna,5,understands,0
+Italian,Male,33,donna,11,produces,0.6364
+Italian,Male,33,donna,11,understands,0
+Italian,Female,34,donna,12,produces,0.75
+Italian,Female,34,donna,12,understands,0
+Italian,Male,34,donna,7,produces,0.4286
+Italian,Male,34,donna,7,understands,0
+Italian,Female,35,donna,9,produces,0.3333
+Italian,Female,35,donna,9,understands,0
+Italian,Male,35,donna,6,produces,0.6667
+Italian,Male,35,donna,6,understands,0
+Italian,Female,36,donna,7,produces,0.4286
+Italian,Female,36,donna,7,understands,0
+Italian,Male,36,donna,14,produces,0.5
+Italian,Male,36,donna,14,understands,0
+Korean,Female,8,아줌마,38,produces,0
+Korean,Female,8,아줌마,38,understands,0.0526
+Korean,Male,8,아줌마,19,produces,0
+Korean,Male,8,아줌마,19,understands,0.0526
+Korean,Female,9,아줌마,37,produces,0
+Korean,Female,9,아줌마,37,understands,0
+Korean,Male,9,아줌마,36,produces,0
+Korean,Male,9,아줌마,36,understands,0
+Korean,Female,10,아줌마,34,produces,0
+Korean,Female,10,아줌마,34,understands,0.0294
+Korean,Male,10,아줌마,43,produces,0
+Korean,Male,10,아줌마,43,understands,0.0233
+Korean,Female,11,아줌마,42,produces,0
+Korean,Female,11,아줌마,42,understands,0.0476
+Korean,Male,11,아줌마,38,produces,0
+Korean,Male,11,아줌마,38,understands,0
+Korean,Female,12,아줌마,40,produces,0
+Korean,Female,12,아줌마,40,understands,0.025
+Korean,Male,12,아줌마,34,produces,0.0294
+Korean,Male,12,아줌마,34,understands,0.0294
+Korean,Female,13,아줌마,62,produces,0
+Korean,Female,13,아줌마,62,understands,0.0806
+Korean,Male,13,아줌마,65,produces,0
+Korean,Male,13,아줌마,65,understands,0.0769
+Korean,Female,14,아줌마,47,produces,0.0213
+Korean,Female,14,아줌마,47,understands,0.1702
+Korean,Male,14,아줌마,40,produces,0.025
+Korean,Male,14,아줌마,40,understands,0.15
+Korean,Female,15,아줌마,47,produces,0.0213
+Korean,Female,15,아줌마,47,understands,0.1064
+Korean,Male,15,아줌마,38,produces,0
+Korean,Male,15,아줌마,38,understands,0.1053
+Korean,Female,16,아줌마,41,produces,0.0244
+Korean,Female,16,아줌마,41,understands,0.2195
+Korean,Male,16,아줌마,45,produces,0.0222
+Korean,Male,16,아줌마,45,understands,0.1778
+Korean,Female,17,아줌마,34,produces,0.0882
+Korean,Female,17,아줌마,34,understands,0.3529
+Korean,Male,17,아줌마,29,produces,0.0345
+Korean,Male,17,아줌마,29,understands,0.3793
+Korean,Female,18,"아줌마, 여자",51,produces,0.0882
+Korean,Female,18,"아줌마, 여자",51,understands,0
+Korean,Male,18,"아줌마, 여자",37,produces,0.0135
+Korean,Male,18,"아줌마, 여자",37,understands,0
+Korean,Female,19,"아줌마, 여자",39,produces,0.0769
+Korean,Female,19,"아줌마, 여자",39,understands,0
+Korean,Male,19,"아줌마, 여자",38,produces,0.0263
+Korean,Male,19,"아줌마, 여자",38,understands,0
+Korean,Female,20,"아줌마, 여자",47,produces,0.0851
+Korean,Female,20,"아줌마, 여자",47,understands,0
+Korean,Male,20,"아줌마, 여자",41,produces,0.0488
+Korean,Male,20,"아줌마, 여자",41,understands,0
+Korean,Female,21,"아줌마, 여자",38,produces,0.1053
+Korean,Female,21,"아줌마, 여자",38,understands,0
+Korean,Male,21,"아줌마, 여자",41,produces,0.0122
+Korean,Male,21,"아줌마, 여자",41,understands,0
+Korean,Female,22,"아줌마, 여자",42,produces,0.2857
+Korean,Female,22,"아줌마, 여자",42,understands,0
+Korean,Male,22,"아줌마, 여자",45,produces,0.1
+Korean,Male,22,"아줌마, 여자",45,understands,0
+Korean,Female,23,"아줌마, 여자",42,produces,0.2024
+Korean,Female,23,"아줌마, 여자",42,understands,0
+Korean,Male,23,"아줌마, 여자",45,produces,0.0889
+Korean,Male,23,"아줌마, 여자",45,understands,0
+Korean,Female,24,"아줌마, 여자",46,produces,0.3261
+Korean,Female,24,"아줌마, 여자",46,understands,0
+Korean,Male,24,"아줌마, 여자",61,produces,0.2049
+Korean,Male,24,"아줌마, 여자",61,understands,0
+Korean,Female,25,"아줌마, 여자",46,produces,0.4022
+Korean,Female,25,"아줌마, 여자",46,understands,0
+Korean,Male,25,"아줌마, 여자",49,produces,0.2449
+Korean,Male,25,"아줌마, 여자",49,understands,0
+Korean,Female,26,"아줌마, 여자",42,produces,0.4524
+Korean,Female,26,"아줌마, 여자",42,understands,0
+Korean,Male,26,"아줌마, 여자",49,produces,0.2857
+Korean,Male,26,"아줌마, 여자",49,understands,0
+Korean,Female,27,"아줌마, 여자",46,produces,0.4891
+Korean,Female,27,"아줌마, 여자",46,understands,0
+Korean,Male,27,"아줌마, 여자",58,produces,0.3621
+Korean,Male,27,"아줌마, 여자",58,understands,0
+Korean,Female,28,"아줌마, 여자",49,produces,0.6327
+Korean,Female,28,"아줌마, 여자",49,understands,0
+Korean,Male,28,"아줌마, 여자",40,produces,0.425
+Korean,Male,28,"아줌마, 여자",40,understands,0
+Korean,Female,29,"아줌마, 여자",49,produces,0.5612
+Korean,Female,29,"아줌마, 여자",49,understands,0
+Korean,Male,29,"아줌마, 여자",51,produces,0.4804
+Korean,Male,29,"아줌마, 여자",51,understands,0
+Korean,Female,30,"아줌마, 여자",34,produces,0.6324
+Korean,Female,30,"아줌마, 여자",34,understands,0
+Korean,Male,30,"아줌마, 여자",47,produces,0.617
+Korean,Male,30,"아줌마, 여자",47,understands,0
+Korean,Female,31,"아줌마, 여자",31,produces,0.7581
+Korean,Female,31,"아줌마, 여자",31,understands,0
+Korean,Male,31,"아줌마, 여자",48,produces,0.6771
+Korean,Male,31,"아줌마, 여자",48,understands,0
+Korean,Female,32,"아줌마, 여자",33,produces,0.7727
+Korean,Female,32,"아줌마, 여자",33,understands,0
+Korean,Male,32,"아줌마, 여자",36,produces,0.4722
+Korean,Male,32,"아줌마, 여자",36,understands,0
+Korean,Female,33,"아줌마, 여자",36,produces,0.8056
+Korean,Female,33,"아줌마, 여자",36,understands,0
+Korean,Male,33,"아줌마, 여자",43,produces,0.593
+Korean,Male,33,"아줌마, 여자",43,understands,0
+Korean,Female,34,"아줌마, 여자",41,produces,0.878
+Korean,Female,34,"아줌마, 여자",41,understands,0
+Korean,Male,34,"아줌마, 여자",38,produces,0.7105
+Korean,Male,34,"아줌마, 여자",38,understands,0
+Korean,Female,35,"아줌마, 여자",37,produces,0.8108
+Korean,Female,35,"아줌마, 여자",37,understands,0
+Korean,Male,35,"아줌마, 여자",37,produces,0.7297
+Korean,Male,35,"아줌마, 여자",37,understands,0
+Korean,Female,36,"아줌마, 여자",40,produces,0.95
+Korean,Female,36,"아줌마, 여자",40,understands,0
+Korean,Male,36,"아줌마, 여자",35,produces,0.7571
+Korean,Male,36,"아줌마, 여자",35,understands,0
+Portuguese (European),Female,8,Senhora,55,produces,0
+Portuguese (European),Female,8,Senhora,55,understands,0.0545
+Portuguese (European),Male,8,Senhora,71,produces,0
+Portuguese (European),Male,8,Senhora,71,understands,0.0141
+Portuguese (European),Female,9,Senhora,71,produces,0
+Portuguese (European),Female,9,Senhora,71,understands,0.0563
+Portuguese (European),Male,9,Senhora,77,produces,0
+Portuguese (European),Male,9,Senhora,77,understands,0.026
+Portuguese (European),Female,10,Senhora,74,produces,0
+Portuguese (European),Female,10,Senhora,74,understands,0.027
+Portuguese (European),Male,10,Senhora,94,produces,0
+Portuguese (European),Male,10,Senhora,94,understands,0.0319
+Portuguese (European),Female,11,Senhora,93,produces,0
+Portuguese (European),Female,11,Senhora,93,understands,0.0645
+Portuguese (European),Male,11,Senhora,86,produces,0
+Portuguese (European),Male,11,Senhora,86,understands,0.0233
+Portuguese (European),Female,12,Senhora,70,produces,0
+Portuguese (European),Female,12,Senhora,70,understands,0.1429
+Portuguese (European),Male,12,Senhora,89,produces,0
+Portuguese (European),Male,12,Senhora,89,understands,0.1011
+Portuguese (European),Female,13,Senhora,95,produces,0
+Portuguese (European),Female,13,Senhora,95,understands,0.1684
+Portuguese (European),Male,13,Senhora,80,produces,0
+Portuguese (European),Male,13,Senhora,80,understands,0.1125
+Portuguese (European),Female,14,Senhora,83,produces,0.012
+Portuguese (European),Female,14,Senhora,83,understands,0.1205
+Portuguese (European),Male,14,Senhora,100,produces,0
+Portuguese (European),Male,14,Senhora,100,understands,0.16
+Portuguese (European),Female,15,Senhora,82,produces,0
+Portuguese (European),Female,15,Senhora,82,understands,0.2317
+Portuguese (European),Male,15,Senhora,90,produces,0
+Portuguese (European),Male,15,Senhora,90,understands,0.1667
+Portuguese (European),Female,16,"Mulher, Senhora",71,produces,0
+Portuguese (European),Female,16,"Mulher, Senhora",71,understands,0
+Portuguese (European),Male,16,"Mulher, Senhora",73,produces,0
+Portuguese (European),Male,16,"Mulher, Senhora",73,understands,0
+Portuguese (European),Female,17,"Mulher, Senhora",62,produces,0.0242
+Portuguese (European),Female,17,"Mulher, Senhora",62,understands,0
+Portuguese (European),Male,17,"Mulher, Senhora",96,produces,0
+Portuguese (European),Male,17,"Mulher, Senhora",96,understands,0
+Portuguese (European),Female,18,"Mulher, Senhora",102,produces,0.0147
+Portuguese (European),Female,18,"Mulher, Senhora",102,understands,0
+Portuguese (European),Male,18,"Mulher, Senhora",101,produces,0.005
+Portuguese (European),Male,18,"Mulher, Senhora",101,understands,0
+Portuguese (European),Female,19,"Mulher, Senhora",97,produces,0.0412
+Portuguese (European),Female,19,"Mulher, Senhora",97,understands,0
+Portuguese (European),Male,19,"Mulher, Senhora",99,produces,0.0202
+Portuguese (European),Male,19,"Mulher, Senhora",99,understands,0
+Portuguese (European),Female,20,"Mulher, Senhora",115,produces,0.087
+Portuguese (European),Female,20,"Mulher, Senhora",115,understands,0
+Portuguese (European),Male,20,"Mulher, Senhora",103,produces,0.034
+Portuguese (European),Male,20,"Mulher, Senhora",103,understands,0
+Portuguese (European),Female,21,"Mulher, Senhora",93,produces,0.1022
+Portuguese (European),Female,21,"Mulher, Senhora",93,understands,0
+Portuguese (European),Male,21,"Mulher, Senhora",115,produces,0.0348
+Portuguese (European),Male,21,"Mulher, Senhora",115,understands,0
+Portuguese (European),Female,22,"Mulher, Senhora",117,produces,0.0855
+Portuguese (European),Female,22,"Mulher, Senhora",117,understands,0
+Portuguese (European),Male,22,"Mulher, Senhora",96,produces,0.1198
+Portuguese (European),Male,22,"Mulher, Senhora",96,understands,0
+Portuguese (European),Female,23,"Mulher, Senhora",94,produces,0.1915
+Portuguese (European),Female,23,"Mulher, Senhora",94,understands,0
+Portuguese (European),Male,23,"Mulher, Senhora",105,produces,0.0905
+Portuguese (European),Male,23,"Mulher, Senhora",105,understands,0
+Portuguese (European),Female,24,"Mulher, Senhora",88,produces,0.2784
+Portuguese (European),Female,24,"Mulher, Senhora",88,understands,0
+Portuguese (European),Male,24,"Mulher, Senhora",127,produces,0.1496
+Portuguese (European),Male,24,"Mulher, Senhora",127,understands,0
+Portuguese (European),Female,25,"Mulher, Senhora",110,produces,0.3091
+Portuguese (European),Female,25,"Mulher, Senhora",110,understands,0
+Portuguese (European),Male,25,"Mulher, Senhora",103,produces,0.233
+Portuguese (European),Male,25,"Mulher, Senhora",103,understands,0
+Portuguese (European),Female,26,"Mulher, Senhora",96,produces,0.2865
+Portuguese (European),Female,26,"Mulher, Senhora",96,understands,0
+Portuguese (European),Male,26,"Mulher, Senhora",122,produces,0.2787
+Portuguese (European),Male,26,"Mulher, Senhora",122,understands,0
+Portuguese (European),Female,27,"Mulher, Senhora",109,produces,0.3899
+Portuguese (European),Female,27,"Mulher, Senhora",109,understands,0
+Portuguese (European),Male,27,"Mulher, Senhora",129,produces,0.3256
+Portuguese (European),Male,27,"Mulher, Senhora",129,understands,0
+Portuguese (European),Female,28,"Mulher, Senhora",91,produces,0.4286
+Portuguese (European),Female,28,"Mulher, Senhora",91,understands,0
+Portuguese (European),Male,28,"Mulher, Senhora",128,produces,0.3398
+Portuguese (European),Male,28,"Mulher, Senhora",128,understands,0
+Portuguese (European),Female,29,"Mulher, Senhora",98,produces,0.449
+Portuguese (European),Female,29,"Mulher, Senhora",98,understands,0
+Portuguese (European),Male,29,"Mulher, Senhora",109,produces,0.344
+Portuguese (European),Male,29,"Mulher, Senhora",109,understands,0
+Portuguese (European),Female,30,"Mulher, Senhora",81,produces,0.5247
+Portuguese (European),Female,30,"Mulher, Senhora",81,understands,0
+Portuguese (European),Male,30,"Mulher, Senhora",82,produces,0.3659
+Portuguese (European),Male,30,"Mulher, Senhora",82,understands,0
+Spanish (Argentinian),Female,16,señora,30,produces,0
+Spanish (Argentinian),Female,16,señora,30,understands,0
+Spanish (Argentinian),Male,16,señora,17,produces,0.0588
+Spanish (Argentinian),Male,16,señora,17,understands,0
+Spanish (Argentinian),Female,17,señora,20,produces,0
+Spanish (Argentinian),Female,17,señora,20,understands,0
+Spanish (Argentinian),Male,17,señora,29,produces,0.0345
+Spanish (Argentinian),Male,17,señora,29,understands,0
+Spanish (Argentinian),Female,18,señora,43,produces,0
+Spanish (Argentinian),Female,18,señora,43,understands,0
+Spanish (Argentinian),Male,18,señora,19,produces,0
+Spanish (Argentinian),Male,18,señora,19,understands,0
+Spanish (Argentinian),Female,19,señora,25,produces,0.04
+Spanish (Argentinian),Female,19,señora,25,understands,0
+Spanish (Argentinian),Male,19,señora,19,produces,0.0526
+Spanish (Argentinian),Male,19,señora,19,understands,0
+Spanish (Argentinian),Female,20,señora,22,produces,0.0455
+Spanish (Argentinian),Female,20,señora,22,understands,0
+Spanish (Argentinian),Male,20,señora,24,produces,0.0833
+Spanish (Argentinian),Male,20,señora,24,understands,0
+Spanish (Argentinian),Female,21,señora,15,produces,0.1333
+Spanish (Argentinian),Female,21,señora,15,understands,0
+Spanish (Argentinian),Male,21,señora,26,produces,0.0385
+Spanish (Argentinian),Male,21,señora,26,understands,0
+Spanish (Argentinian),Female,22,señora,25,produces,0
+Spanish (Argentinian),Female,22,señora,25,understands,0
+Spanish (Argentinian),Male,22,señora,32,produces,0
+Spanish (Argentinian),Male,22,señora,32,understands,0
+Spanish (Argentinian),Female,23,señora,30,produces,0.0667
+Spanish (Argentinian),Female,23,señora,30,understands,0
+Spanish (Argentinian),Male,23,señora,19,produces,0.0526
+Spanish (Argentinian),Male,23,señora,19,understands,0
+Spanish (Argentinian),Female,24,señora,44,produces,0.1136
+Spanish (Argentinian),Female,24,señora,44,understands,0
+Spanish (Argentinian),Male,24,señora,31,produces,0.1613
+Spanish (Argentinian),Male,24,señora,31,understands,0
+Spanish (Argentinian),Female,25,señora,24,produces,0.1667
+Spanish (Argentinian),Female,25,señora,24,understands,0
+Spanish (Argentinian),Male,25,señora,19,produces,0.3158
+Spanish (Argentinian),Male,25,señora,19,understands,0
+Spanish (Argentinian),Female,26,señora,17,produces,0.1176
+Spanish (Argentinian),Female,26,señora,17,understands,0
+Spanish (Argentinian),Male,26,señora,28,produces,0.1071
+Spanish (Argentinian),Male,26,señora,28,understands,0
+Spanish (Argentinian),Female,27,señora,18,produces,0.2222
+Spanish (Argentinian),Female,27,señora,18,understands,0
+Spanish (Argentinian),Male,27,señora,26,produces,0.0769
+Spanish (Argentinian),Male,27,señora,26,understands,0
+Spanish (Argentinian),Female,28,señora,18,produces,0.1111
+Spanish (Argentinian),Female,28,señora,18,understands,0
+Spanish (Argentinian),Male,28,señora,24,produces,0.25
+Spanish (Argentinian),Male,28,señora,24,understands,0
+Spanish (Argentinian),Female,29,señora,36,produces,0.2778
+Spanish (Argentinian),Female,29,señora,36,understands,0
+Spanish (Argentinian),Male,29,señora,29,produces,0.1034
+Spanish (Argentinian),Male,29,señora,29,understands,0
+Spanish (Argentinian),Female,30,señora,31,produces,0.4839
+Spanish (Argentinian),Female,30,señora,31,understands,0
+Spanish (Argentinian),Male,30,señora,38,produces,0.3421
+Spanish (Argentinian),Male,30,señora,38,understands,0
+Spanish (Argentinian),Female,31,señora,1,produces,0
+Spanish (Argentinian),Female,31,señora,1,understands,0
+Spanish (Argentinian),Male,31,señora,1,produces,0
+Spanish (Argentinian),Male,31,señora,1,understands,0
+Spanish (Argentinian),Female,32,señora,1,produces,1
+Spanish (Argentinian),Female,32,señora,1,understands,0
+Spanish (Argentinian),Male,33,señora,2,produces,0
+Spanish (Argentinian),Male,33,señora,2,understands,0
+Spanish (Mexican),Female,8,señora,18,produces,0
+Spanish (Mexican),Female,8,señora,18,understands,0.0556
+Spanish (Mexican),Male,8,señora,22,produces,0
+Spanish (Mexican),Male,8,señora,22,understands,0.0909
+Spanish (Mexican),Female,9,señora,31,produces,0
+Spanish (Mexican),Female,9,señora,31,understands,0.0968
+Spanish (Mexican),Male,9,señora,33,produces,0
+Spanish (Mexican),Male,9,señora,33,understands,0.0606
+Spanish (Mexican),Female,10,señora,30,produces,0
+Spanish (Mexican),Female,10,señora,30,understands,0.0667
+Spanish (Mexican),Male,10,señora,41,produces,0
+Spanish (Mexican),Male,10,señora,41,understands,0
+Spanish (Mexican),Female,11,señora,34,produces,0
+Spanish (Mexican),Female,11,señora,34,understands,0.1176
+Spanish (Mexican),Male,11,señora,33,produces,0
+Spanish (Mexican),Male,11,señora,33,understands,0.1515
+Spanish (Mexican),Female,12,señora,38,produces,0
+Spanish (Mexican),Female,12,señora,38,understands,0.1053
+Spanish (Mexican),Male,12,señora,51,produces,0
+Spanish (Mexican),Male,12,señora,51,understands,0.098
+Spanish (Mexican),Female,13,señora,44,produces,0
+Spanish (Mexican),Female,13,señora,44,understands,0.0909
+Spanish (Mexican),Male,13,señora,39,produces,0.0513
+Spanish (Mexican),Male,13,señora,39,understands,0.1026
+Spanish (Mexican),Female,14,señora,45,produces,0
+Spanish (Mexican),Female,14,señora,45,understands,0.1778
+Spanish (Mexican),Male,14,señora,31,produces,0.0645
+Spanish (Mexican),Male,14,señora,31,understands,0.1613
+Spanish (Mexican),Female,15,señora,28,produces,0
+Spanish (Mexican),Female,15,señora,28,understands,0.1429
+Spanish (Mexican),Male,15,señora,33,produces,0.0303
+Spanish (Mexican),Male,15,señora,33,understands,0.2121
+Spanish (Mexican),Female,16,señora,74,produces,0.0811
+Spanish (Mexican),Female,16,señora,74,understands,0.1757
+Spanish (Mexican),Male,16,señora,78,produces,0.0641
+Spanish (Mexican),Male,16,señora,78,understands,0.1282
+Spanish (Mexican),Female,17,señora,66,produces,0.1212
+Spanish (Mexican),Female,17,señora,66,understands,0.1667
+Spanish (Mexican),Male,17,señora,58,produces,0.0862
+Spanish (Mexican),Male,17,señora,58,understands,0.2759
+Spanish (Mexican),Female,18,señora,79,produces,0.1772
+Spanish (Mexican),Female,18,señora,79,understands,0.2785
+Spanish (Mexican),Male,18,señora,84,produces,0.1071
+Spanish (Mexican),Male,18,señora,84,understands,0.1548
+Spanish (Mexican),Female,19,señora,47,produces,0.1489
+Spanish (Mexican),Female,19,señora,47,understands,0
+Spanish (Mexican),Male,19,señora,53,produces,0.1698
+Spanish (Mexican),Male,19,señora,53,understands,0
+Spanish (Mexican),Female,20,señora,53,produces,0.2642
+Spanish (Mexican),Female,20,señora,53,understands,0
+Spanish (Mexican),Male,20,señora,54,produces,0.1481
+Spanish (Mexican),Male,20,señora,54,understands,0
+Spanish (Mexican),Female,21,señora,37,produces,0.2703
+Spanish (Mexican),Female,21,señora,37,understands,0
+Spanish (Mexican),Male,21,señora,47,produces,0.1489
+Spanish (Mexican),Male,21,señora,47,understands,0
+Spanish (Mexican),Female,22,señora,64,produces,0.2188
+Spanish (Mexican),Female,22,señora,64,understands,0
+Spanish (Mexican),Male,22,señora,67,produces,0.194
+Spanish (Mexican),Male,22,señora,67,understands,0
+Spanish (Mexican),Female,23,señora,49,produces,0.1633
+Spanish (Mexican),Female,23,señora,49,understands,0
+Spanish (Mexican),Male,23,señora,42,produces,0.2381
+Spanish (Mexican),Male,23,señora,42,understands,0
+Spanish (Mexican),Female,24,señora,63,produces,0.4127
+Spanish (Mexican),Female,24,señora,63,understands,0
+Spanish (Mexican),Male,24,señora,63,produces,0.3175
+Spanish (Mexican),Male,24,señora,63,understands,0
+Spanish (Mexican),Female,25,señora,78,produces,0.2821
+Spanish (Mexican),Female,25,señora,78,understands,0
+Spanish (Mexican),Male,25,señora,89,produces,0.2809
+Spanish (Mexican),Male,25,señora,89,understands,0
+Spanish (Mexican),Female,26,señora,38,produces,0.4474
+Spanish (Mexican),Female,26,señora,38,understands,0
+Spanish (Mexican),Male,26,señora,45,produces,0.3333
+Spanish (Mexican),Male,26,señora,45,understands,0
+Spanish (Mexican),Female,27,señora,45,produces,0.6222
+Spanish (Mexican),Female,27,señora,45,understands,0
+Spanish (Mexican),Male,27,señora,40,produces,0.475
+Spanish (Mexican),Male,27,señora,40,understands,0
+Spanish (Mexican),Female,28,señora,44,produces,0.5909
+Spanish (Mexican),Female,28,señora,44,understands,0
+Spanish (Mexican),Male,28,señora,45,produces,0.4444
+Spanish (Mexican),Male,28,señora,45,understands,0
+Spanish (Mexican),Female,29,señora,51,produces,0.6275
+Spanish (Mexican),Female,29,señora,51,understands,0
+Spanish (Mexican),Male,29,señora,38,produces,0.4474
+Spanish (Mexican),Male,29,señora,38,understands,0
+Spanish (Mexican),Female,30,señora,146,produces,0.3973
+Spanish (Mexican),Female,30,señora,146,understands,0
+Spanish (Mexican),Male,30,señora,152,produces,0.3618
+Spanish (Mexican),Male,30,señora,152,understands,0
+Turkish,Female,16,Kadın,60,produces,0.0333
+Turkish,Female,16,Kadın,60,understands,0
+Turkish,Male,16,Kadın,49,produces,0.0204
+Turkish,Male,16,Kadın,49,understands,0
+Turkish,Female,17,Kadın,50,produces,0.08
+Turkish,Female,17,Kadın,50,understands,0
+Turkish,Male,17,Kadın,57,produces,0.0175
+Turkish,Male,17,Kadın,57,understands,0
+Turkish,Female,18,Kadın,65,produces,0.0308
+Turkish,Female,18,Kadın,65,understands,0
+Turkish,Male,18,Kadın,63,produces,0.0159
+Turkish,Male,18,Kadın,63,understands,0
+Turkish,Female,19,Kadın,63,produces,0.0635
+Turkish,Female,19,Kadın,63,understands,0
+Turkish,Male,19,Kadın,58,produces,0.069
+Turkish,Male,19,Kadın,58,understands,0
+Turkish,Female,20,Kadın,60,produces,0.1167
+Turkish,Female,20,Kadın,60,understands,0
+Turkish,Male,20,Kadın,59,produces,0.0678
+Turkish,Male,20,Kadın,59,understands,0
+Turkish,Female,21,Kadın,55,produces,0.2182
+Turkish,Female,21,Kadın,55,understands,0
+Turkish,Male,21,Kadın,69,produces,0.029
+Turkish,Male,21,Kadın,69,understands,0
+Turkish,Female,22,Kadın,58,produces,0.1379
+Turkish,Female,22,Kadın,58,understands,0
+Turkish,Male,22,Kadın,68,produces,0.0882
+Turkish,Male,22,Kadın,68,understands,0
+Turkish,Female,23,Kadın,71,produces,0.2535
+Turkish,Female,23,Kadın,71,understands,0
+Turkish,Male,23,Kadın,60,produces,0.1167
+Turkish,Male,23,Kadın,60,understands,0
+Turkish,Female,24,Kadın,54,produces,0.2963
+Turkish,Female,24,Kadın,54,understands,0
+Turkish,Male,24,Kadın,52,produces,0.2115
+Turkish,Male,24,Kadın,52,understands,0
+Turkish,Female,25,Kadın,63,produces,0.4603
+Turkish,Female,25,Kadın,63,understands,0
+Turkish,Male,25,Kadın,60,produces,0.2667
+Turkish,Male,25,Kadın,60,understands,0
+Turkish,Female,26,Kadın,60,produces,0.4
+Turkish,Female,26,Kadın,60,understands,0
+Turkish,Male,26,Kadın,63,produces,0.3333
+Turkish,Male,26,Kadın,63,understands,0
+Turkish,Female,27,Kadın,56,produces,0.3571
+Turkish,Female,27,Kadın,56,understands,0
+Turkish,Male,27,Kadın,52,produces,0.3269
+Turkish,Male,27,Kadın,52,understands,0
+Turkish,Female,28,Kadın,62,produces,0.4677
+Turkish,Female,28,Kadın,62,understands,0
+Turkish,Male,28,Kadın,50,produces,0.56
+Turkish,Male,28,Kadın,50,understands,0
+Turkish,Female,29,Kadın,54,produces,0.5926
+Turkish,Female,29,Kadın,54,understands,0
+Turkish,Male,29,Kadın,65,produces,0.5077
+Turkish,Male,29,Kadın,65,understands,0
+Turkish,Female,30,Kadın,56,produces,0.5357
+Turkish,Female,30,Kadın,56,understands,0
+Turkish,Male,30,Kadın,48,produces,0.625
+Turkish,Male,30,Kadın,48,understands,0
+Turkish,Female,31,Kadın,62,produces,0.6129
+Turkish,Female,31,Kadın,62,understands,0
+Turkish,Male,31,Kadın,39,produces,0.6154
+Turkish,Male,31,Kadın,39,understands,0
+Turkish,Female,32,Kadın,56,produces,0.75
+Turkish,Female,32,Kadın,56,understands,0
+Turkish,Male,32,Kadın,76,produces,0.5658
+Turkish,Male,32,Kadın,76,understands,0
+Turkish,Female,33,Kadın,59,produces,0.6949
+Turkish,Female,33,Kadın,59,understands,0
+Turkish,Male,33,Kadın,55,produces,0.6909
+Turkish,Male,33,Kadın,55,understands,0
+Turkish,Female,34,Kadın,56,produces,0.7321
+Turkish,Female,34,Kadın,56,understands,0
+Turkish,Male,34,Kadın,51,produces,0.6863
+Turkish,Male,34,Kadın,51,understands,0
+Turkish,Female,35,Kadın,69,produces,0.7681
+Turkish,Female,35,Kadın,69,understands,0
+Turkish,Male,35,Kadın,62,produces,0.6774
+Turkish,Male,35,Kadın,62,understands,0
+Turkish,Female,36,Kadın,36,produces,0.75
+Turkish,Female,36,Kadın,36,understands,0
+Turkish,Male,36,Kadın,41,produces,0.8293
+Turkish,Male,36,Kadın,41,understands,0

@@ -1,103 +1,307 @@
-language,age,words,n,measure,prop
-Japanese,16,枝,11,produces,0
-Japanese,16,枝,11,understands,0
-Japanese,17,枝,17,produces,0
-Japanese,17,枝,17,understands,0
-Japanese,18,枝,56,produces,0
-Japanese,18,枝,56,understands,0
-Japanese,19,枝,35,produces,0
-Japanese,19,枝,35,understands,0
-Japanese,20,枝,59,produces,0.0169
-Japanese,20,枝,59,understands,0
-Japanese,21,枝,62,produces,0
-Japanese,21,枝,62,understands,0
-Japanese,22,枝,31,produces,0
-Japanese,22,枝,31,understands,0
-Japanese,23,枝,67,produces,0.0299
-Japanese,23,枝,67,understands,0
-Japanese,24,枝,33,produces,0.0909
-Japanese,24,枝,33,understands,0
-Japanese,25,枝,34,produces,0.1765
-Japanese,25,枝,34,understands,0
-Japanese,26,枝,33,produces,0.1212
-Japanese,26,枝,33,understands,0
-Japanese,27,枝,15,produces,0.1333
-Japanese,27,枝,15,understands,0
-Japanese,28,枝,18,produces,0.1667
-Japanese,28,枝,18,understands,0
-Japanese,29,枝,17,produces,0.2941
-Japanese,29,枝,17,understands,0
-Japanese,30,枝,18,produces,0.2222
-Japanese,30,枝,18,understands,0
-Japanese,31,枝,18,produces,0.4444
-Japanese,31,枝,18,understands,0
-Japanese,32,枝,13,produces,0.3846
-Japanese,32,枝,13,understands,0
-Japanese,33,枝,16,produces,0.3125
-Japanese,33,枝,16,understands,0
-Japanese,34,枝,13,produces,0.3846
-Japanese,34,枝,13,understands,0
-Japanese,35,枝,31,produces,0.4516
-Japanese,35,枝,31,understands,0
-Japanese,36,枝,18,produces,0.2778
-Japanese,36,枝,18,understands,0
-Mandarin (Beijing),16,树枝,70,produces,0.0143
-Mandarin (Beijing),16,树枝,70,understands,0
-Mandarin (Beijing),17,树枝,72,produces,0.0417
-Mandarin (Beijing),17,树枝,72,understands,0
-Mandarin (Beijing),18,树枝,71,produces,0.0282
-Mandarin (Beijing),18,树枝,71,understands,0
-Mandarin (Beijing),19,树枝,70,produces,0.1143
-Mandarin (Beijing),19,树枝,70,understands,0
-Mandarin (Beijing),20,树枝,71,produces,0.169
-Mandarin (Beijing),20,树枝,71,understands,0
-Mandarin (Beijing),21,树枝,70,produces,0.2143
-Mandarin (Beijing),21,树枝,70,understands,0
-Mandarin (Beijing),22,树枝,71,produces,0.3803
-Mandarin (Beijing),22,树枝,71,understands,0
-Mandarin (Beijing),23,树枝,70,produces,0.4571
-Mandarin (Beijing),23,树枝,70,understands,0
-Mandarin (Beijing),24,树枝,70,produces,0.5571
-Mandarin (Beijing),24,树枝,70,understands,0
-Mandarin (Beijing),25,树枝,70,produces,0.5714
-Mandarin (Beijing),25,树枝,70,understands,0
-Mandarin (Beijing),26,树枝,71,produces,0.5775
-Mandarin (Beijing),26,树枝,71,understands,0
-Mandarin (Beijing),27,树枝,70,produces,0.6857
-Mandarin (Beijing),27,树枝,70,understands,0
-Mandarin (Beijing),28,树枝,70,produces,0.6429
-Mandarin (Beijing),28,树枝,70,understands,0
-Mandarin (Beijing),29,树枝,70,produces,0.7
-Mandarin (Beijing),29,树枝,70,understands,0
-Mandarin (Beijing),30,树枝,70,produces,0.8143
-Mandarin (Beijing),30,树枝,70,understands,0
-Czech,16,větev,29,produces,0
-Czech,16,větev,29,understands,0
-Czech,17,větev,29,produces,0.0345
-Czech,17,větev,29,understands,0
-Czech,18,větev,45,produces,0.0222
-Czech,18,větev,45,understands,0
-Czech,19,větev,27,produces,0
-Czech,19,větev,27,understands,0
-Czech,20,větev,26,produces,0
-Czech,20,větev,26,understands,0
-Czech,21,větev,34,produces,0.0294
-Czech,21,větev,34,understands,0
-Czech,22,větev,36,produces,0.0278
-Czech,22,větev,36,understands,0
-Czech,23,větev,46,produces,0.087
-Czech,23,větev,46,understands,0
-Czech,24,větev,35,produces,0.1143
-Czech,24,větev,35,understands,0
-Czech,25,větev,35,produces,0.1143
-Czech,25,větev,35,understands,0
-Czech,26,větev,22,produces,0.2727
-Czech,26,větev,22,understands,0
-Czech,27,větev,37,produces,0.2703
-Czech,27,větev,37,understands,0
-Czech,28,větev,26,produces,0.2308
-Czech,28,větev,26,understands,0
-Czech,29,větev,39,produces,0.2821
-Czech,29,větev,39,understands,0
-Czech,30,větev,27,produces,0.3704
-Czech,30,větev,27,understands,0
+language,sex,age,words,n,measure,prop
+Czech,All,16,větev,29,produces,0
+Czech,All,16,větev,29,understands,0
+Czech,All,17,větev,29,produces,0.0345
+Czech,All,17,větev,29,understands,0
+Czech,All,18,větev,45,produces,0.0222
+Czech,All,18,větev,45,understands,0
+Czech,All,19,větev,27,produces,0
+Czech,All,19,větev,27,understands,0
+Czech,All,20,větev,26,produces,0
+Czech,All,20,větev,26,understands,0
+Czech,All,21,větev,34,produces,0.0294
+Czech,All,21,větev,34,understands,0
+Czech,All,22,větev,36,produces,0.0278
+Czech,All,22,větev,36,understands,0
+Czech,All,23,větev,46,produces,0.087
+Czech,All,23,větev,46,understands,0
+Czech,All,24,větev,35,produces,0.1143
+Czech,All,24,větev,35,understands,0
+Czech,All,25,větev,35,produces,0.1143
+Czech,All,25,větev,35,understands,0
+Czech,All,26,větev,22,produces,0.2727
+Czech,All,26,větev,22,understands,0
+Czech,All,27,větev,37,produces,0.2703
+Czech,All,27,větev,37,understands,0
+Czech,All,28,větev,26,produces,0.2308
+Czech,All,28,větev,26,understands,0
+Czech,All,29,větev,39,produces,0.2821
+Czech,All,29,větev,39,understands,0
+Czech,All,30,větev,27,produces,0.3704
+Czech,All,30,větev,27,understands,0
+Japanese,All,16,枝,11,produces,0
+Japanese,All,16,枝,11,understands,0
+Japanese,All,17,枝,17,produces,0
+Japanese,All,17,枝,17,understands,0
+Japanese,All,18,枝,56,produces,0
+Japanese,All,18,枝,56,understands,0
+Japanese,All,19,枝,35,produces,0
+Japanese,All,19,枝,35,understands,0
+Japanese,All,20,枝,59,produces,0.0169
+Japanese,All,20,枝,59,understands,0
+Japanese,All,21,枝,62,produces,0
+Japanese,All,21,枝,62,understands,0
+Japanese,All,22,枝,31,produces,0
+Japanese,All,22,枝,31,understands,0
+Japanese,All,23,枝,67,produces,0.0299
+Japanese,All,23,枝,67,understands,0
+Japanese,All,24,枝,33,produces,0.0909
+Japanese,All,24,枝,33,understands,0
+Japanese,All,25,枝,34,produces,0.1765
+Japanese,All,25,枝,34,understands,0
+Japanese,All,26,枝,33,produces,0.1212
+Japanese,All,26,枝,33,understands,0
+Japanese,All,27,枝,15,produces,0.1333
+Japanese,All,27,枝,15,understands,0
+Japanese,All,28,枝,18,produces,0.1667
+Japanese,All,28,枝,18,understands,0
+Japanese,All,29,枝,17,produces,0.2941
+Japanese,All,29,枝,17,understands,0
+Japanese,All,30,枝,18,produces,0.2222
+Japanese,All,30,枝,18,understands,0
+Japanese,All,31,枝,18,produces,0.4444
+Japanese,All,31,枝,18,understands,0
+Japanese,All,32,枝,13,produces,0.3846
+Japanese,All,32,枝,13,understands,0
+Japanese,All,33,枝,16,produces,0.3125
+Japanese,All,33,枝,16,understands,0
+Japanese,All,34,枝,13,produces,0.3846
+Japanese,All,34,枝,13,understands,0
+Japanese,All,35,枝,31,produces,0.4516
+Japanese,All,35,枝,31,understands,0
+Japanese,All,36,枝,18,produces,0.2778
+Japanese,All,36,枝,18,understands,0
+Mandarin (Beijing),All,16,树枝,70,produces,0.0143
+Mandarin (Beijing),All,16,树枝,70,understands,0
+Mandarin (Beijing),All,17,树枝,72,produces,0.0417
+Mandarin (Beijing),All,17,树枝,72,understands,0
+Mandarin (Beijing),All,18,树枝,71,produces,0.0282
+Mandarin (Beijing),All,18,树枝,71,understands,0
+Mandarin (Beijing),All,19,树枝,70,produces,0.1143
+Mandarin (Beijing),All,19,树枝,70,understands,0
+Mandarin (Beijing),All,20,树枝,71,produces,0.169
+Mandarin (Beijing),All,20,树枝,71,understands,0
+Mandarin (Beijing),All,21,树枝,70,produces,0.2143
+Mandarin (Beijing),All,21,树枝,70,understands,0
+Mandarin (Beijing),All,22,树枝,71,produces,0.3803
+Mandarin (Beijing),All,22,树枝,71,understands,0
+Mandarin (Beijing),All,23,树枝,70,produces,0.4571
+Mandarin (Beijing),All,23,树枝,70,understands,0
+Mandarin (Beijing),All,24,树枝,70,produces,0.5571
+Mandarin (Beijing),All,24,树枝,70,understands,0
+Mandarin (Beijing),All,25,树枝,70,produces,0.5714
+Mandarin (Beijing),All,25,树枝,70,understands,0
+Mandarin (Beijing),All,26,树枝,71,produces,0.5775
+Mandarin (Beijing),All,26,树枝,71,understands,0
+Mandarin (Beijing),All,27,树枝,70,produces,0.6857
+Mandarin (Beijing),All,27,树枝,70,understands,0
+Mandarin (Beijing),All,28,树枝,70,produces,0.6429
+Mandarin (Beijing),All,28,树枝,70,understands,0
+Mandarin (Beijing),All,29,树枝,70,produces,0.7
+Mandarin (Beijing),All,29,树枝,70,understands,0
+Mandarin (Beijing),All,30,树枝,70,produces,0.8143
+Mandarin (Beijing),All,30,树枝,70,understands,0
+Czech,Female,16,větev,13,produces,0
+Czech,Female,16,větev,13,understands,0
+Czech,Male,16,větev,16,produces,0
+Czech,Male,16,větev,16,understands,0
+Czech,Female,17,větev,16,produces,0.0625
+Czech,Female,17,větev,16,understands,0
+Czech,Male,17,větev,13,produces,0
+Czech,Male,17,větev,13,understands,0
+Czech,Female,18,větev,18,produces,0.0556
+Czech,Female,18,větev,18,understands,0
+Czech,Male,18,větev,27,produces,0
+Czech,Male,18,větev,27,understands,0
+Czech,Female,19,větev,17,produces,0
+Czech,Female,19,větev,17,understands,0
+Czech,Male,19,větev,10,produces,0
+Czech,Male,19,větev,10,understands,0
+Czech,Female,20,větev,15,produces,0
+Czech,Female,20,větev,15,understands,0
+Czech,Male,20,větev,11,produces,0
+Czech,Male,20,větev,11,understands,0
+Czech,Female,21,větev,18,produces,0.0556
+Czech,Female,21,větev,18,understands,0
+Czech,Male,21,větev,16,produces,0
+Czech,Male,21,větev,16,understands,0
+Czech,Female,22,větev,17,produces,0.0588
+Czech,Female,22,větev,17,understands,0
+Czech,Male,22,větev,19,produces,0
+Czech,Male,22,větev,19,understands,0
+Czech,Female,23,větev,21,produces,0.0952
+Czech,Female,23,větev,21,understands,0
+Czech,Male,23,větev,25,produces,0.08
+Czech,Male,23,větev,25,understands,0
+Czech,Female,24,větev,16,produces,0.125
+Czech,Female,24,větev,16,understands,0
+Czech,Male,24,větev,19,produces,0.1053
+Czech,Male,24,větev,19,understands,0
+Czech,Female,25,větev,17,produces,0.2353
+Czech,Female,25,větev,17,understands,0
+Czech,Male,25,větev,18,produces,0
+Czech,Male,25,větev,18,understands,0
+Czech,Female,26,větev,14,produces,0.3571
+Czech,Female,26,větev,14,understands,0
+Czech,Male,26,větev,8,produces,0.125
+Czech,Male,26,větev,8,understands,0
+Czech,Female,27,větev,23,produces,0.2609
+Czech,Female,27,větev,23,understands,0
+Czech,Male,27,větev,14,produces,0.2857
+Czech,Male,27,větev,14,understands,0
+Czech,Female,28,větev,16,produces,0.25
+Czech,Female,28,větev,16,understands,0
+Czech,Male,28,větev,10,produces,0.2
+Czech,Male,28,větev,10,understands,0
+Czech,Female,29,větev,18,produces,0.2778
+Czech,Female,29,větev,18,understands,0
+Czech,Male,29,větev,21,produces,0.2857
+Czech,Male,29,větev,21,understands,0
+Czech,Female,30,větev,16,produces,0.1875
+Czech,Female,30,větev,16,understands,0
+Czech,Male,30,větev,11,produces,0.6364
+Czech,Male,30,větev,11,understands,0
+Japanese,Female,16,枝,4,produces,0
+Japanese,Female,16,枝,4,understands,0
+Japanese,Male,16,枝,7,produces,0
+Japanese,Male,16,枝,7,understands,0
+Japanese,Female,17,枝,11,produces,0
+Japanese,Female,17,枝,11,understands,0
+Japanese,Male,17,枝,6,produces,0
+Japanese,Male,17,枝,6,understands,0
+Japanese,Female,18,枝,27,produces,0
+Japanese,Female,18,枝,27,understands,0
+Japanese,Male,18,枝,29,produces,0
+Japanese,Male,18,枝,29,understands,0
+Japanese,Female,19,枝,14,produces,0
+Japanese,Female,19,枝,14,understands,0
+Japanese,Male,19,枝,21,produces,0
+Japanese,Male,19,枝,21,understands,0
+Japanese,Female,20,枝,27,produces,0.037
+Japanese,Female,20,枝,27,understands,0
+Japanese,Male,20,枝,32,produces,0
+Japanese,Male,20,枝,32,understands,0
+Japanese,Female,21,枝,29,produces,0
+Japanese,Female,21,枝,29,understands,0
+Japanese,Male,21,枝,33,produces,0
+Japanese,Male,21,枝,33,understands,0
+Japanese,Female,22,枝,16,produces,0
+Japanese,Female,22,枝,16,understands,0
+Japanese,Male,22,枝,15,produces,0
+Japanese,Male,22,枝,15,understands,0
+Japanese,Female,23,枝,38,produces,0.0263
+Japanese,Female,23,枝,38,understands,0
+Japanese,Male,23,枝,29,produces,0.0345
+Japanese,Male,23,枝,29,understands,0
+Japanese,Female,24,枝,18,produces,0.1111
+Japanese,Female,24,枝,18,understands,0
+Japanese,Male,24,枝,15,produces,0.0667
+Japanese,Male,24,枝,15,understands,0
+Japanese,Female,25,枝,14,produces,0.3571
+Japanese,Female,25,枝,14,understands,0
+Japanese,Male,25,枝,20,produces,0.05
+Japanese,Male,25,枝,20,understands,0
+Japanese,Female,26,枝,19,produces,0.1579
+Japanese,Female,26,枝,19,understands,0
+Japanese,Male,26,枝,14,produces,0.0714
+Japanese,Male,26,枝,14,understands,0
+Japanese,Female,27,枝,8,produces,0
+Japanese,Female,27,枝,8,understands,0
+Japanese,Male,27,枝,7,produces,0.2857
+Japanese,Male,27,枝,7,understands,0
+Japanese,Female,28,枝,8,produces,0.25
+Japanese,Female,28,枝,8,understands,0
+Japanese,Male,28,枝,10,produces,0.1
+Japanese,Male,28,枝,10,understands,0
+Japanese,Female,29,枝,6,produces,0
+Japanese,Female,29,枝,6,understands,0
+Japanese,Male,29,枝,11,produces,0.4545
+Japanese,Male,29,枝,11,understands,0
+Japanese,Female,30,枝,9,produces,0.2222
+Japanese,Female,30,枝,9,understands,0
+Japanese,Male,30,枝,9,produces,0.2222
+Japanese,Male,30,枝,9,understands,0
+Japanese,Female,31,枝,8,produces,0.625
+Japanese,Female,31,枝,8,understands,0
+Japanese,Male,31,枝,10,produces,0.3
+Japanese,Male,31,枝,10,understands,0
+Japanese,Female,32,枝,8,produces,0.25
+Japanese,Female,32,枝,8,understands,0
+Japanese,Male,32,枝,5,produces,0.6
+Japanese,Male,32,枝,5,understands,0
+Japanese,Female,33,枝,9,produces,0.3333
+Japanese,Female,33,枝,9,understands,0
+Japanese,Male,33,枝,7,produces,0.2857
+Japanese,Male,33,枝,7,understands,0
+Japanese,Female,34,枝,8,produces,0.5
+Japanese,Female,34,枝,8,understands,0
+Japanese,Male,34,枝,5,produces,0.2
+Japanese,Male,34,枝,5,understands,0
+Japanese,Female,35,枝,19,produces,0.4737
+Japanese,Female,35,枝,19,understands,0
+Japanese,Male,35,枝,12,produces,0.4167
+Japanese,Male,35,枝,12,understands,0
+Japanese,Female,36,枝,4,produces,0.75
+Japanese,Female,36,枝,4,understands,0
+Japanese,Male,36,枝,14,produces,0.1429
+Japanese,Male,36,枝,14,understands,0
+Mandarin (Beijing),Female,16,树枝,35,produces,0.0286
+Mandarin (Beijing),Female,16,树枝,35,understands,0
+Mandarin (Beijing),Male,16,树枝,35,produces,0
+Mandarin (Beijing),Male,16,树枝,35,understands,0
+Mandarin (Beijing),Female,17,树枝,35,produces,0.0571
+Mandarin (Beijing),Female,17,树枝,35,understands,0
+Mandarin (Beijing),Male,17,树枝,37,produces,0.027
+Mandarin (Beijing),Male,17,树枝,37,understands,0
+Mandarin (Beijing),Female,18,树枝,35,produces,0.0286
+Mandarin (Beijing),Female,18,树枝,35,understands,0
+Mandarin (Beijing),Male,18,树枝,36,produces,0.0278
+Mandarin (Beijing),Male,18,树枝,36,understands,0
+Mandarin (Beijing),Female,19,树枝,35,produces,0.1714
+Mandarin (Beijing),Female,19,树枝,35,understands,0
+Mandarin (Beijing),Male,19,树枝,35,produces,0.0571
+Mandarin (Beijing),Male,19,树枝,35,understands,0
+Mandarin (Beijing),Female,20,树枝,35,produces,0.2857
+Mandarin (Beijing),Female,20,树枝,35,understands,0
+Mandarin (Beijing),Male,20,树枝,36,produces,0.0556
+Mandarin (Beijing),Male,20,树枝,36,understands,0
+Mandarin (Beijing),Female,21,树枝,35,produces,0.2571
+Mandarin (Beijing),Female,21,树枝,35,understands,0
+Mandarin (Beijing),Male,21,树枝,35,produces,0.1714
+Mandarin (Beijing),Male,21,树枝,35,understands,0
+Mandarin (Beijing),Female,22,树枝,35,produces,0.3714
+Mandarin (Beijing),Female,22,树枝,35,understands,0
+Mandarin (Beijing),Male,22,树枝,36,produces,0.3889
+Mandarin (Beijing),Male,22,树枝,36,understands,0
+Mandarin (Beijing),Female,23,树枝,35,produces,0.5429
+Mandarin (Beijing),Female,23,树枝,35,understands,0
+Mandarin (Beijing),Male,23,树枝,35,produces,0.3714
+Mandarin (Beijing),Male,23,树枝,35,understands,0
+Mandarin (Beijing),Female,24,树枝,35,produces,0.6571
+Mandarin (Beijing),Female,24,树枝,35,understands,0
+Mandarin (Beijing),Male,24,树枝,35,produces,0.4571
+Mandarin (Beijing),Male,24,树枝,35,understands,0
+Mandarin (Beijing),Female,25,树枝,35,produces,0.6286
+Mandarin (Beijing),Female,25,树枝,35,understands,0
+Mandarin (Beijing),Male,25,树枝,35,produces,0.5143
+Mandarin (Beijing),Male,25,树枝,35,understands,0
+Mandarin (Beijing),Female,26,树枝,36,produces,0.6667
+Mandarin (Beijing),Female,26,树枝,36,understands,0
+Mandarin (Beijing),Male,26,树枝,35,produces,0.4857
+Mandarin (Beijing),Male,26,树枝,35,understands,0
+Mandarin (Beijing),Female,27,树枝,35,produces,0.6857
+Mandarin (Beijing),Female,27,树枝,35,understands,0
+Mandarin (Beijing),Male,27,树枝,35,produces,0.6857
+Mandarin (Beijing),Male,27,树枝,35,understands,0
+Mandarin (Beijing),Female,28,树枝,35,produces,0.6571
+Mandarin (Beijing),Female,28,树枝,35,understands,0
+Mandarin (Beijing),Male,28,树枝,35,produces,0.6286
+Mandarin (Beijing),Male,28,树枝,35,understands,0
+Mandarin (Beijing),Female,29,树枝,35,produces,0.6857
+Mandarin (Beijing),Female,29,树枝,35,understands,0
+Mandarin (Beijing),Male,29,树枝,35,produces,0.7143
+Mandarin (Beijing),Male,29,树枝,35,understands,0
+Mandarin (Beijing),Female,30,树枝,35,produces,0.8857
+Mandarin (Beijing),Female,30,树枝,35,understands,0
+Mandarin (Beijing),Male,30,树枝,35,produces,0.7429
+Mandarin (Beijing),Male,30,树枝,35,understands,0

@@ -1,59 +1,119 @@
-language,age,words,n,measure,prop
-Mandarin (Beijing),17,牛肉,40,produces,0.05
-Mandarin (Beijing),17,牛肉,40,understands,0
-Mandarin (Beijing),18,牛肉,50,produces,0.06
-Mandarin (Beijing),18,牛肉,50,understands,0
-Mandarin (Beijing),19,牛肉,50,produces,0.08
-Mandarin (Beijing),19,牛肉,50,understands,0
-Mandarin (Beijing),20,牛肉,50,produces,0.14
-Mandarin (Beijing),20,牛肉,50,understands,0
-Mandarin (Beijing),21,牛肉,49,produces,0.2245
-Mandarin (Beijing),21,牛肉,49,understands,0
-Mandarin (Beijing),22,牛肉,46,produces,0.2609
-Mandarin (Beijing),22,牛肉,46,understands,0
-Mandarin (Beijing),23,牛肉,50,produces,0.44
-Mandarin (Beijing),23,牛肉,50,understands,0
-Mandarin (Beijing),24,牛肉,50,produces,0.26
-Mandarin (Beijing),24,牛肉,50,understands,0
-Mandarin (Beijing),25,牛肉,43,produces,0.4651
-Mandarin (Beijing),25,牛肉,43,understands,0
-Mandarin (Beijing),26,牛肉,47,produces,0.4894
-Mandarin (Beijing),26,牛肉,47,understands,0
-Mandarin (Beijing),27,牛肉,44,produces,0.6818
-Mandarin (Beijing),27,牛肉,44,understands,0
-Mandarin (Beijing),28,牛肉,44,produces,0.5455
-Mandarin (Beijing),28,牛肉,44,understands,0
-Mandarin (Beijing),29,牛肉,49,produces,0.6531
-Mandarin (Beijing),29,牛肉,49,understands,0
-Mandarin (Beijing),30,牛肉,40,produces,0.75
-Mandarin (Beijing),30,牛肉,40,understands,0
-Cantonese,16,牛(肉),46,produces,0.0217
-Cantonese,16,牛(肉),46,understands,0
-Cantonese,17,牛(肉),61,produces,0
-Cantonese,17,牛(肉),61,understands,0
-Cantonese,18,牛(肉),68,produces,0
-Cantonese,18,牛(肉),68,understands,0
-Cantonese,19,牛(肉),66,produces,0
-Cantonese,19,牛(肉),66,understands,0
-Cantonese,20,牛(肉),140,produces,0.0929
-Cantonese,20,牛(肉),140,understands,0
-Cantonese,21,牛(肉),120,produces,0.1083
-Cantonese,21,牛(肉),120,understands,0
-Cantonese,22,牛(肉),68,produces,0.0735
-Cantonese,22,牛(肉),68,understands,0
-Cantonese,23,牛(肉),74,produces,0.027
-Cantonese,23,牛(肉),74,understands,0
-Cantonese,24,牛(肉),68,produces,0.0882
-Cantonese,24,牛(肉),68,understands,0
-Cantonese,25,牛(肉),65,produces,0.0923
-Cantonese,25,牛(肉),65,understands,0
-Cantonese,26,牛(肉),68,produces,0.1471
-Cantonese,26,牛(肉),68,understands,0
-Cantonese,27,牛(肉),62,produces,0.1774
-Cantonese,27,牛(肉),62,understands,0
-Cantonese,28,牛(肉),66,produces,0.1515
-Cantonese,28,牛(肉),66,understands,0
-Cantonese,29,牛(肉),72,produces,0.2222
-Cantonese,29,牛(肉),72,understands,0
-Cantonese,30,牛(肉),164,produces,0.5183
-Cantonese,30,牛(肉),164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,牛(肉),46,produces,0.0217
+Cantonese,All,16,牛(肉),46,understands,0
+Cantonese,All,17,牛(肉),61,produces,0
+Cantonese,All,17,牛(肉),61,understands,0
+Cantonese,All,18,牛(肉),68,produces,0
+Cantonese,All,18,牛(肉),68,understands,0
+Cantonese,All,19,牛(肉),66,produces,0
+Cantonese,All,19,牛(肉),66,understands,0
+Cantonese,All,20,牛(肉),140,produces,0.0929
+Cantonese,All,20,牛(肉),140,understands,0
+Cantonese,All,21,牛(肉),120,produces,0.1083
+Cantonese,All,21,牛(肉),120,understands,0
+Cantonese,All,22,牛(肉),68,produces,0.0735
+Cantonese,All,22,牛(肉),68,understands,0
+Cantonese,All,23,牛(肉),74,produces,0.027
+Cantonese,All,23,牛(肉),74,understands,0
+Cantonese,All,24,牛(肉),68,produces,0.0882
+Cantonese,All,24,牛(肉),68,understands,0
+Cantonese,All,25,牛(肉),65,produces,0.0923
+Cantonese,All,25,牛(肉),65,understands,0
+Cantonese,All,26,牛(肉),68,produces,0.1471
+Cantonese,All,26,牛(肉),68,understands,0
+Cantonese,All,27,牛(肉),62,produces,0.1774
+Cantonese,All,27,牛(肉),62,understands,0
+Cantonese,All,28,牛(肉),66,produces,0.1515
+Cantonese,All,28,牛(肉),66,understands,0
+Cantonese,All,29,牛(肉),72,produces,0.2222
+Cantonese,All,29,牛(肉),72,understands,0
+Cantonese,All,30,牛(肉),164,produces,0.5183
+Cantonese,All,30,牛(肉),164,understands,0
+Mandarin (Beijing),All,17,牛肉,40,produces,0.05
+Mandarin (Beijing),All,17,牛肉,40,understands,0
+Mandarin (Beijing),All,18,牛肉,50,produces,0.06
+Mandarin (Beijing),All,18,牛肉,50,understands,0
+Mandarin (Beijing),All,19,牛肉,50,produces,0.08
+Mandarin (Beijing),All,19,牛肉,50,understands,0
+Mandarin (Beijing),All,20,牛肉,50,produces,0.14
+Mandarin (Beijing),All,20,牛肉,50,understands,0
+Mandarin (Beijing),All,21,牛肉,49,produces,0.2245
+Mandarin (Beijing),All,21,牛肉,49,understands,0
+Mandarin (Beijing),All,22,牛肉,46,produces,0.2609
+Mandarin (Beijing),All,22,牛肉,46,understands,0
+Mandarin (Beijing),All,23,牛肉,50,produces,0.44
+Mandarin (Beijing),All,23,牛肉,50,understands,0
+Mandarin (Beijing),All,24,牛肉,50,produces,0.26
+Mandarin (Beijing),All,24,牛肉,50,understands,0
+Mandarin (Beijing),All,25,牛肉,43,produces,0.4651
+Mandarin (Beijing),All,25,牛肉,43,understands,0
+Mandarin (Beijing),All,26,牛肉,47,produces,0.4894
+Mandarin (Beijing),All,26,牛肉,47,understands,0
+Mandarin (Beijing),All,27,牛肉,44,produces,0.6818
+Mandarin (Beijing),All,27,牛肉,44,understands,0
+Mandarin (Beijing),All,28,牛肉,44,produces,0.5455
+Mandarin (Beijing),All,28,牛肉,44,understands,0
+Mandarin (Beijing),All,29,牛肉,49,produces,0.6531
+Mandarin (Beijing),All,29,牛肉,49,understands,0
+Mandarin (Beijing),All,30,牛肉,40,produces,0.75
+Mandarin (Beijing),All,30,牛肉,40,understands,0
+Cantonese,Female,16,牛(肉),23,produces,0
+Cantonese,Female,16,牛(肉),23,understands,0
+Cantonese,Male,16,牛(肉),23,produces,0.0435
+Cantonese,Male,16,牛(肉),23,understands,0
+Cantonese,Female,17,牛(肉),30,produces,0
+Cantonese,Female,17,牛(肉),30,understands,0
+Cantonese,Male,17,牛(肉),31,produces,0
+Cantonese,Male,17,牛(肉),31,understands,0
+Cantonese,Female,18,牛(肉),33,produces,0
+Cantonese,Female,18,牛(肉),33,understands,0
+Cantonese,Male,18,牛(肉),35,produces,0
+Cantonese,Male,18,牛(肉),35,understands,0
+Cantonese,Female,19,牛(肉),30,produces,0
+Cantonese,Female,19,牛(肉),30,understands,0
+Cantonese,Male,19,牛(肉),36,produces,0
+Cantonese,Male,19,牛(肉),36,understands,0
+Cantonese,Female,20,牛(肉),62,produces,0.0484
+Cantonese,Female,20,牛(肉),62,understands,0
+Cantonese,Male,20,牛(肉),78,produces,0.1282
+Cantonese,Male,20,牛(肉),78,understands,0
+Cantonese,Female,21,牛(肉),57,produces,0.1053
+Cantonese,Female,21,牛(肉),57,understands,0
+Cantonese,Male,21,牛(肉),63,produces,0.1111
+Cantonese,Male,21,牛(肉),63,understands,0
+Cantonese,Female,22,牛(肉),34,produces,0.0882
+Cantonese,Female,22,牛(肉),34,understands,0
+Cantonese,Male,22,牛(肉),34,produces,0.0588
+Cantonese,Male,22,牛(肉),34,understands,0
+Cantonese,Female,23,牛(肉),37,produces,0
+Cantonese,Female,23,牛(肉),37,understands,0
+Cantonese,Male,23,牛(肉),37,produces,0.0541
+Cantonese,Male,23,牛(肉),37,understands,0
+Cantonese,Female,24,牛(肉),32,produces,0.0938
+Cantonese,Female,24,牛(肉),32,understands,0
+Cantonese,Male,24,牛(肉),36,produces,0.0833
+Cantonese,Male,24,牛(肉),36,understands,0
+Cantonese,Female,25,牛(肉),31,produces,0.0968
+Cantonese,Female,25,牛(肉),31,understands,0
+Cantonese,Male,25,牛(肉),34,produces,0.0882
+Cantonese,Male,25,牛(肉),34,understands,0
+Cantonese,Female,26,牛(肉),31,produces,0.1613
+Cantonese,Female,26,牛(肉),31,understands,0
+Cantonese,Male,26,牛(肉),37,produces,0.1351
+Cantonese,Male,26,牛(肉),37,understands,0
+Cantonese,Female,27,牛(肉),31,produces,0.1613
+Cantonese,Female,27,牛(肉),31,understands,0
+Cantonese,Male,27,牛(肉),31,produces,0.1935
+Cantonese,Male,27,牛(肉),31,understands,0
+Cantonese,Female,28,牛(肉),32,produces,0.1562
+Cantonese,Female,28,牛(肉),32,understands,0
+Cantonese,Male,28,牛(肉),34,produces,0.1471
+Cantonese,Male,28,牛(肉),34,understands,0
+Cantonese,Female,29,牛(肉),36,produces,0.3056
+Cantonese,Female,29,牛(肉),36,understands,0
+Cantonese,Male,29,牛(肉),36,produces,0.1389
+Cantonese,Male,29,牛(肉),36,understands,0
+Cantonese,Female,30,牛(肉),76,produces,0.5789
+Cantonese,Female,30,牛(肉),76,understands,0
+Cantonese,Male,30,牛(肉),88,produces,0.4659
+Cantonese,Male,30,牛(肉),88,understands,0

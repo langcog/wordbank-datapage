@@ -1,49 +1,145 @@
-language,age,words,n,measure,prop
-Russian,18,"какой, который",42,produces,0.0119
-Russian,18,"какой, который",42,understands,0
-Russian,19,"какой, который",41,produces,0.0122
-Russian,19,"какой, который",41,understands,0
-Russian,20,"какой, который",45,produces,0.0222
-Russian,20,"какой, который",45,understands,0
-Russian,21,"какой, который",43,produces,0.0698
-Russian,21,"какой, который",43,understands,0
-Russian,22,"какой, который",51,produces,0.0784
-Russian,22,"какой, который",51,understands,0
-Russian,23,"какой, который",56,produces,0.0804
-Russian,23,"какой, который",56,understands,0
-Russian,24,"какой, который",61,produces,0.1475
-Russian,24,"какой, который",61,understands,0
-Russian,25,"какой, который",66,produces,0.1667
-Russian,25,"какой, который",66,understands,0
-Russian,26,"какой, который",52,produces,0.2212
-Russian,26,"какой, который",52,understands,0
-Russian,27,"какой, который",60,produces,0.275
-Russian,27,"какой, который",60,understands,0
-Russian,28,"какой, который",60,produces,0.3083
-Russian,28,"какой, который",60,understands,0
-Russian,29,"какой, который",58,produces,0.4224
-Russian,29,"какой, который",58,understands,0
-Russian,30,"какой, который",77,produces,0.4091
-Russian,30,"какой, который",77,understands,0
-Russian,31,"какой, который",61,produces,0.4836
-Russian,31,"какой, который",61,understands,0
-Russian,32,"какой, который",55,produces,0.5818
-Russian,32,"какой, который",55,understands,0
-Russian,33,"какой, который",55,produces,0.5727
-Russian,33,"какой, который",55,understands,0
-Russian,34,"какой, который",58,produces,0.5862
-Russian,34,"какой, который",58,understands,0
-Russian,35,"какой, который",47,produces,0.5213
-Russian,35,"какой, который",47,understands,0
-Russian,36,"какой, который",49,produces,0.6633
-Russian,36,"какой, который",49,understands,0
-Swedish,16,vilka,159,produces,0
-Swedish,16,vilka,159,understands,0
-Swedish,19,vilka,152,produces,0
-Swedish,19,vilka,152,understands,0
-Swedish,22,vilka,307,produces,0.0098
-Swedish,22,vilka,307,understands,0
-Swedish,25,vilka,143,produces,0.0559
-Swedish,25,vilka,143,understands,0
-Swedish,28,vilka,139,produces,0.1367
-Swedish,28,vilka,139,understands,0
+language,sex,age,words,n,measure,prop
+Russian,All,18,"какой, который",42,produces,0.0119
+Russian,All,18,"какой, который",42,understands,0
+Russian,All,19,"какой, который",41,produces,0.0122
+Russian,All,19,"какой, который",41,understands,0
+Russian,All,20,"какой, который",45,produces,0.0222
+Russian,All,20,"какой, который",45,understands,0
+Russian,All,21,"какой, который",43,produces,0.0698
+Russian,All,21,"какой, который",43,understands,0
+Russian,All,22,"какой, который",51,produces,0.0784
+Russian,All,22,"какой, который",51,understands,0
+Russian,All,23,"какой, который",56,produces,0.0804
+Russian,All,23,"какой, который",56,understands,0
+Russian,All,24,"какой, который",61,produces,0.1475
+Russian,All,24,"какой, который",61,understands,0
+Russian,All,25,"какой, который",66,produces,0.1667
+Russian,All,25,"какой, который",66,understands,0
+Russian,All,26,"какой, который",52,produces,0.2212
+Russian,All,26,"какой, который",52,understands,0
+Russian,All,27,"какой, который",60,produces,0.275
+Russian,All,27,"какой, который",60,understands,0
+Russian,All,28,"какой, который",60,produces,0.3083
+Russian,All,28,"какой, который",60,understands,0
+Russian,All,29,"какой, который",58,produces,0.4224
+Russian,All,29,"какой, который",58,understands,0
+Russian,All,30,"какой, который",77,produces,0.4091
+Russian,All,30,"какой, который",77,understands,0
+Russian,All,31,"какой, который",61,produces,0.4836
+Russian,All,31,"какой, который",61,understands,0
+Russian,All,32,"какой, который",55,produces,0.5818
+Russian,All,32,"какой, который",55,understands,0
+Russian,All,33,"какой, который",55,produces,0.5727
+Russian,All,33,"какой, который",55,understands,0
+Russian,All,34,"какой, который",58,produces,0.5862
+Russian,All,34,"какой, который",58,understands,0
+Russian,All,35,"какой, который",47,produces,0.5213
+Russian,All,35,"какой, который",47,understands,0
+Russian,All,36,"какой, который",49,produces,0.6633
+Russian,All,36,"какой, который",49,understands,0
+Swedish,All,16,vilka,159,produces,0
+Swedish,All,16,vilka,159,understands,0
+Swedish,All,19,vilka,152,produces,0
+Swedish,All,19,vilka,152,understands,0
+Swedish,All,22,vilka,307,produces,0.0098
+Swedish,All,22,vilka,307,understands,0
+Swedish,All,25,vilka,143,produces,0.0559
+Swedish,All,25,vilka,143,understands,0
+Swedish,All,28,vilka,139,produces,0.1367
+Swedish,All,28,vilka,139,understands,0
+Russian,Female,18,"какой, который",24,produces,0.0208
+Russian,Female,18,"какой, который",24,understands,0
+Russian,Male,18,"какой, который",18,produces,0
+Russian,Male,18,"какой, который",18,understands,0
+Russian,Female,19,"какой, который",22,produces,0.0227
+Russian,Female,19,"какой, который",22,understands,0
+Russian,Male,19,"какой, который",19,produces,0
+Russian,Male,19,"какой, который",19,understands,0
+Russian,Female,20,"какой, который",18,produces,0.0278
+Russian,Female,20,"какой, который",18,understands,0
+Russian,Male,20,"какой, который",27,produces,0.0185
+Russian,Male,20,"какой, который",27,understands,0
+Russian,Female,21,"какой, который",22,produces,0.0909
+Russian,Female,21,"какой, который",22,understands,0
+Russian,Male,21,"какой, который",21,produces,0.0476
+Russian,Male,21,"какой, который",21,understands,0
+Russian,Female,22,"какой, который",29,produces,0.069
+Russian,Female,22,"какой, который",29,understands,0
+Russian,Male,22,"какой, который",22,produces,0.0909
+Russian,Male,22,"какой, который",22,understands,0
+Russian,Female,23,"какой, который",37,produces,0.0811
+Russian,Female,23,"какой, который",37,understands,0
+Russian,Male,23,"какой, который",19,produces,0.0789
+Russian,Male,23,"какой, который",19,understands,0
+Russian,Female,24,"какой, который",28,produces,0.2321
+Russian,Female,24,"какой, который",28,understands,0
+Russian,Male,24,"какой, который",33,produces,0.0758
+Russian,Male,24,"какой, который",33,understands,0
+Russian,Female,25,"какой, который",39,produces,0.1667
+Russian,Female,25,"какой, который",39,understands,0
+Russian,Male,25,"какой, который",27,produces,0.1667
+Russian,Male,25,"какой, который",27,understands,0
+Russian,Female,26,"какой, который",26,produces,0.2885
+Russian,Female,26,"какой, который",26,understands,0
+Russian,Male,26,"какой, который",26,produces,0.1538
+Russian,Male,26,"какой, который",26,understands,0
+Russian,Female,27,"какой, который",37,produces,0.3243
+Russian,Female,27,"какой, который",37,understands,0
+Russian,Male,27,"какой, который",23,produces,0.1957
+Russian,Male,27,"какой, который",23,understands,0
+Russian,Female,28,"какой, который",28,produces,0.3393
+Russian,Female,28,"какой, который",28,understands,0
+Russian,Male,28,"какой, который",32,produces,0.2812
+Russian,Male,28,"какой, который",32,understands,0
+Russian,Female,29,"какой, который",30,produces,0.4667
+Russian,Female,29,"какой, который",30,understands,0
+Russian,Male,29,"какой, который",27,produces,0.3889
+Russian,Male,29,"какой, который",27,understands,0
+Russian,Female,30,"какой, который",42,produces,0.4643
+Russian,Female,30,"какой, который",42,understands,0
+Russian,Male,30,"какой, который",35,produces,0.3429
+Russian,Male,30,"какой, который",35,understands,0
+Russian,Female,31,"какой, который",32,produces,0.5625
+Russian,Female,31,"какой, который",32,understands,0
+Russian,Male,31,"какой, который",29,produces,0.3966
+Russian,Male,31,"какой, который",29,understands,0
+Russian,Female,32,"какой, который",29,produces,0.6207
+Russian,Female,32,"какой, который",29,understands,0
+Russian,Male,32,"какой, который",26,produces,0.5385
+Russian,Male,32,"какой, который",26,understands,0
+Russian,Female,33,"какой, который",27,produces,0.6667
+Russian,Female,33,"какой, который",27,understands,0
+Russian,Male,33,"какой, который",28,produces,0.4821
+Russian,Male,33,"какой, который",28,understands,0
+Russian,Female,34,"какой, который",31,produces,0.6129
+Russian,Female,34,"какой, который",31,understands,0
+Russian,Male,34,"какой, который",27,produces,0.5556
+Russian,Male,34,"какой, который",27,understands,0
+Russian,Female,35,"какой, который",22,produces,0.5
+Russian,Female,35,"какой, который",22,understands,0
+Russian,Male,35,"какой, который",25,produces,0.54
+Russian,Male,35,"какой, который",25,understands,0
+Russian,Female,36,"какой, который",27,produces,0.6852
+Russian,Female,36,"какой, который",27,understands,0
+Russian,Male,36,"какой, который",22,produces,0.6364
+Russian,Male,36,"какой, который",22,understands,0
+Swedish,Female,16,vilka,90,produces,0
+Swedish,Female,16,vilka,90,understands,0
+Swedish,Male,16,vilka,66,produces,0
+Swedish,Male,16,vilka,66,understands,0
+Swedish,Female,19,vilka,85,produces,0
+Swedish,Female,19,vilka,85,understands,0
+Swedish,Male,19,vilka,65,produces,0
+Swedish,Male,19,vilka,65,understands,0
+Swedish,Female,22,vilka,162,produces,0.0185
+Swedish,Female,22,vilka,162,understands,0
+Swedish,Male,22,vilka,143,produces,0
+Swedish,Male,22,vilka,143,understands,0
+Swedish,Female,25,vilka,67,produces,0.0896
+Swedish,Female,25,vilka,67,understands,0
+Swedish,Male,25,vilka,76,produces,0.0263
+Swedish,Male,25,vilka,76,understands,0
+Swedish,Female,28,vilka,69,produces,0.1449
+Swedish,Female,28,vilka,69,understands,0
+Swedish,Male,28,vilka,70,produces,0.1286
+Swedish,Male,28,vilka,70,understands,0

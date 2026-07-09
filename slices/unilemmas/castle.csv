@@ -1,65 +1,189 @@
-language,age,words,n,measure,prop
-Arabic (Saudi),8,قلعة,19,produces,0
-Arabic (Saudi),8,قلعة,19,understands,0
-Arabic (Saudi),9,قلعة,18,produces,0
-Arabic (Saudi),9,قلعة,18,understands,0
-Arabic (Saudi),10,قلعة,25,produces,0
-Arabic (Saudi),10,قلعة,25,understands,0
-Arabic (Saudi),11,قلعة,21,produces,0
-Arabic (Saudi),11,قلعة,21,understands,0
-Arabic (Saudi),12,قلعة,19,produces,0
-Arabic (Saudi),12,قلعة,19,understands,0
-Arabic (Saudi),13,قلعة,36,produces,0
-Arabic (Saudi),13,قلعة,36,understands,0
-Arabic (Saudi),14,قلعة,20,produces,0
-Arabic (Saudi),14,قلعة,20,understands,0
-Arabic (Saudi),15,قلعة,19,produces,0
-Arabic (Saudi),15,قلعة,19,understands,0
-Arabic (Saudi),16,قلعة,18,produces,0
-Arabic (Saudi),16,قلعة,18,understands,0
-Dutch,28,kasteel,1,produces,1
-Dutch,28,kasteel,1,understands,0
-Dutch,29,kasteel,48,produces,0.7292
-Dutch,29,kasteel,48,understands,0
-Dutch,30,kasteel,21,produces,0.7143
-Dutch,30,kasteel,21,understands,0
-Dutch,31,kasteel,5,produces,0.6
-Dutch,31,kasteel,5,understands,0
-Dutch,32,kasteel,5,produces,1
-Dutch,32,kasteel,5,understands,0
-Dutch,33,kasteel,3,produces,1
-Dutch,33,kasteel,3,understands,0
-Dutch,34,kasteel,5,produces,1
-Dutch,34,kasteel,5,understands,0
-Dutch,35,kasteel,3,produces,0.6667
-Dutch,35,kasteel,3,understands,0
-Dutch,36,kasteel,6,produces,1
-Dutch,36,kasteel,6,understands,0
-English (British),34,castle,443,produces,0.7156
-English (British),34,castle,443,understands,0
-English (British),35,castle,3693,produces,0.7257
-English (British),35,castle,3693,understands,0
-English (British),36,castle,5244,produces,0.7777
-English (British),36,castle,5244,understands,0
-English (British),37,castle,906,produces,0.7649
-English (British),37,castle,906,understands,0
-English (British),38,castle,264,produces,0.7083
-English (British),38,castle,264,understands,0
-English (British),39,castle,99,produces,0.8485
-English (British),39,castle,99,understands,0
-English (British),40,castle,48,produces,0.6875
-English (British),40,castle,48,understands,0
-English (British),41,castle,24,produces,0.7917
-English (British),41,castle,24,understands,0
-English (British),42,castle,23,produces,0.7391
-English (British),42,castle,23,understands,0
-English (British),43,castle,12,produces,0.75
-English (British),43,castle,12,understands,0
-English (British),44,castle,9,produces,0.6667
-English (British),44,castle,9,understands,0
-English (British),45,castle,12,produces,0.75
-English (British),45,castle,12,understands,0
-English (British),46,castle,5,produces,0.2
-English (British),46,castle,5,understands,0
-English (British),47,castle,8,produces,0.75
-English (British),47,castle,8,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,قلعة,19,produces,0
+Arabic (Saudi),All,8,قلعة,19,understands,0
+Arabic (Saudi),All,9,قلعة,18,produces,0
+Arabic (Saudi),All,9,قلعة,18,understands,0
+Arabic (Saudi),All,10,قلعة,25,produces,0
+Arabic (Saudi),All,10,قلعة,25,understands,0
+Arabic (Saudi),All,11,قلعة,21,produces,0
+Arabic (Saudi),All,11,قلعة,21,understands,0
+Arabic (Saudi),All,12,قلعة,19,produces,0
+Arabic (Saudi),All,12,قلعة,19,understands,0
+Arabic (Saudi),All,13,قلعة,36,produces,0
+Arabic (Saudi),All,13,قلعة,36,understands,0
+Arabic (Saudi),All,14,قلعة,20,produces,0
+Arabic (Saudi),All,14,قلعة,20,understands,0
+Arabic (Saudi),All,15,قلعة,19,produces,0
+Arabic (Saudi),All,15,قلعة,19,understands,0
+Arabic (Saudi),All,16,قلعة,18,produces,0
+Arabic (Saudi),All,16,قلعة,18,understands,0
+Dutch,All,28,kasteel,1,produces,1
+Dutch,All,28,kasteel,1,understands,0
+Dutch,All,29,kasteel,48,produces,0.7292
+Dutch,All,29,kasteel,48,understands,0
+Dutch,All,30,kasteel,21,produces,0.7143
+Dutch,All,30,kasteel,21,understands,0
+Dutch,All,31,kasteel,5,produces,0.6
+Dutch,All,31,kasteel,5,understands,0
+Dutch,All,32,kasteel,5,produces,1
+Dutch,All,32,kasteel,5,understands,0
+Dutch,All,33,kasteel,3,produces,1
+Dutch,All,33,kasteel,3,understands,0
+Dutch,All,34,kasteel,5,produces,1
+Dutch,All,34,kasteel,5,understands,0
+Dutch,All,35,kasteel,3,produces,0.6667
+Dutch,All,35,kasteel,3,understands,0
+Dutch,All,36,kasteel,6,produces,1
+Dutch,All,36,kasteel,6,understands,0
+English (British),All,34,castle,443,produces,0.7156
+English (British),All,34,castle,443,understands,0
+English (British),All,35,castle,3693,produces,0.7257
+English (British),All,35,castle,3693,understands,0
+English (British),All,36,castle,5244,produces,0.7777
+English (British),All,36,castle,5244,understands,0
+English (British),All,37,castle,906,produces,0.7649
+English (British),All,37,castle,906,understands,0
+English (British),All,38,castle,264,produces,0.7083
+English (British),All,38,castle,264,understands,0
+English (British),All,39,castle,99,produces,0.8485
+English (British),All,39,castle,99,understands,0
+English (British),All,40,castle,48,produces,0.6875
+English (British),All,40,castle,48,understands,0
+English (British),All,41,castle,24,produces,0.7917
+English (British),All,41,castle,24,understands,0
+English (British),All,42,castle,23,produces,0.7391
+English (British),All,42,castle,23,understands,0
+English (British),All,43,castle,12,produces,0.75
+English (British),All,43,castle,12,understands,0
+English (British),All,44,castle,9,produces,0.6667
+English (British),All,44,castle,9,understands,0
+English (British),All,45,castle,12,produces,0.75
+English (British),All,45,castle,12,understands,0
+English (British),All,46,castle,5,produces,0.2
+English (British),All,46,castle,5,understands,0
+English (British),All,47,castle,8,produces,0.75
+English (British),All,47,castle,8,understands,0
+Arabic (Saudi),Female,8,قلعة,9,produces,0
+Arabic (Saudi),Female,8,قلعة,9,understands,0
+Arabic (Saudi),Male,8,قلعة,10,produces,0
+Arabic (Saudi),Male,8,قلعة,10,understands,0
+Arabic (Saudi),Female,9,قلعة,10,produces,0
+Arabic (Saudi),Female,9,قلعة,10,understands,0
+Arabic (Saudi),Male,9,قلعة,8,produces,0
+Arabic (Saudi),Male,9,قلعة,8,understands,0
+Arabic (Saudi),Female,10,قلعة,11,produces,0
+Arabic (Saudi),Female,10,قلعة,11,understands,0
+Arabic (Saudi),Male,10,قلعة,14,produces,0
+Arabic (Saudi),Male,10,قلعة,14,understands,0
+Arabic (Saudi),Female,11,قلعة,9,produces,0
+Arabic (Saudi),Female,11,قلعة,9,understands,0
+Arabic (Saudi),Male,11,قلعة,12,produces,0
+Arabic (Saudi),Male,11,قلعة,12,understands,0
+Arabic (Saudi),Female,12,قلعة,8,produces,0
+Arabic (Saudi),Female,12,قلعة,8,understands,0
+Arabic (Saudi),Male,12,قلعة,11,produces,0
+Arabic (Saudi),Male,12,قلعة,11,understands,0
+Arabic (Saudi),Female,13,قلعة,16,produces,0
+Arabic (Saudi),Female,13,قلعة,16,understands,0
+Arabic (Saudi),Male,13,قلعة,20,produces,0
+Arabic (Saudi),Male,13,قلعة,20,understands,0
+Arabic (Saudi),Female,14,قلعة,10,produces,0
+Arabic (Saudi),Female,14,قلعة,10,understands,0
+Arabic (Saudi),Male,14,قلعة,10,produces,0
+Arabic (Saudi),Male,14,قلعة,10,understands,0
+Arabic (Saudi),Female,15,قلعة,7,produces,0
+Arabic (Saudi),Female,15,قلعة,7,understands,0
+Arabic (Saudi),Male,15,قلعة,12,produces,0
+Arabic (Saudi),Male,15,قلعة,12,understands,0
+Arabic (Saudi),Female,16,قلعة,9,produces,0
+Arabic (Saudi),Female,16,قلعة,9,understands,0
+Arabic (Saudi),Male,16,قلعة,9,produces,0
+Arabic (Saudi),Male,16,قلعة,9,understands,0
+Dutch,Male,28,kasteel,1,produces,1
+Dutch,Male,28,kasteel,1,understands,0
+Dutch,Female,29,kasteel,15,produces,0.8
+Dutch,Female,29,kasteel,15,understands,0
+Dutch,Male,29,kasteel,12,produces,0.5
+Dutch,Male,29,kasteel,12,understands,0
+Dutch,Female,30,kasteel,4,produces,0.25
+Dutch,Female,30,kasteel,4,understands,0
+Dutch,Male,30,kasteel,3,produces,0.3333
+Dutch,Male,30,kasteel,3,understands,0
+Dutch,Female,31,kasteel,2,produces,0.5
+Dutch,Female,31,kasteel,2,understands,0
+Dutch,Male,31,kasteel,3,produces,0.6667
+Dutch,Male,31,kasteel,3,understands,0
+Dutch,Female,32,kasteel,1,produces,1
+Dutch,Female,32,kasteel,1,understands,0
+Dutch,Male,32,kasteel,4,produces,1
+Dutch,Male,32,kasteel,4,understands,0
+Dutch,Female,33,kasteel,1,produces,1
+Dutch,Female,33,kasteel,1,understands,0
+Dutch,Male,33,kasteel,2,produces,1
+Dutch,Male,33,kasteel,2,understands,0
+Dutch,Male,34,kasteel,4,produces,1
+Dutch,Male,34,kasteel,4,understands,0
+Dutch,Female,35,kasteel,1,produces,1
+Dutch,Female,35,kasteel,1,understands,0
+Dutch,Male,35,kasteel,2,produces,0.5
+Dutch,Male,35,kasteel,2,understands,0
+Dutch,Female,36,kasteel,3,produces,1
+Dutch,Female,36,kasteel,3,understands,0
+Dutch,Male,36,kasteel,3,produces,1
+Dutch,Male,36,kasteel,3,understands,0
+English (British),Female,34,castle,247,produces,0.7004
+English (British),Female,34,castle,247,understands,0
+English (British),Male,34,castle,196,produces,0.7347
+English (British),Male,34,castle,196,understands,0
+English (British),Female,35,castle,1927,produces,0.7359
+English (British),Female,35,castle,1927,understands,0
+English (British),Male,35,castle,1766,produces,0.7146
+English (British),Male,35,castle,1766,understands,0
+English (British),Female,36,castle,2650,produces,0.7936
+English (British),Female,36,castle,2650,understands,0
+English (British),Male,36,castle,2594,produces,0.7614
+English (British),Male,36,castle,2594,understands,0
+English (British),Female,37,castle,434,produces,0.7558
+English (British),Female,37,castle,434,understands,0
+English (British),Male,37,castle,472,produces,0.7733
+English (British),Male,37,castle,472,understands,0
+English (British),Female,38,castle,136,produces,0.6912
+English (British),Female,38,castle,136,understands,0
+English (British),Male,38,castle,128,produces,0.7266
+English (British),Male,38,castle,128,understands,0
+English (British),Female,39,castle,52,produces,0.8462
+English (British),Female,39,castle,52,understands,0
+English (British),Male,39,castle,47,produces,0.8511
+English (British),Male,39,castle,47,understands,0
+English (British),Female,40,castle,29,produces,0.7241
+English (British),Female,40,castle,29,understands,0
+English (British),Male,40,castle,19,produces,0.6316
+English (British),Male,40,castle,19,understands,0
+English (British),Female,41,castle,10,produces,0.6
+English (British),Female,41,castle,10,understands,0
+English (British),Male,41,castle,14,produces,0.9286
+English (British),Male,41,castle,14,understands,0
+English (British),Female,42,castle,10,produces,0.7
+English (British),Female,42,castle,10,understands,0
+English (British),Male,42,castle,13,produces,0.7692
+English (British),Male,42,castle,13,understands,0
+English (British),Female,43,castle,3,produces,0.3333
+English (British),Female,43,castle,3,understands,0
+English (British),Male,43,castle,9,produces,0.8889
+English (British),Male,43,castle,9,understands,0
+English (British),Female,44,castle,4,produces,0.75
+English (British),Female,44,castle,4,understands,0
+English (British),Male,44,castle,5,produces,0.6
+English (British),Male,44,castle,5,understands,0
+English (British),Female,45,castle,8,produces,0.75
+English (British),Female,45,castle,8,understands,0
+English (British),Male,45,castle,4,produces,0.75
+English (British),Male,45,castle,4,understands,0
+English (British),Female,46,castle,3,produces,0.3333
+English (British),Female,46,castle,3,understands,0
+English (British),Male,46,castle,2,produces,0
+English (British),Male,46,castle,2,understands,0
+English (British),Female,47,castle,5,produces,0.8
+English (British),Female,47,castle,5,understands,0
+English (British),Male,47,castle,3,produces,0.6667
+English (British),Male,47,castle,3,understands,0

@@ -1,47 +1,135 @@
-language,age,words,n,measure,prop
-Dutch,28,diep,1,produces,1
-Dutch,28,diep,1,understands,0
-Dutch,29,diep,48,produces,0.2708
-Dutch,29,diep,48,understands,0
-Dutch,30,diep,21,produces,0.4286
-Dutch,30,diep,21,understands,0
-Dutch,31,diep,5,produces,0.4
-Dutch,31,diep,5,understands,0
-Dutch,32,diep,5,produces,0.6
-Dutch,32,diep,5,understands,0
-Dutch,33,diep,3,produces,1
-Dutch,33,diep,3,understands,0
-Dutch,34,diep,5,produces,0.8
-Dutch,34,diep,5,understands,0
-Dutch,35,diep,3,produces,0
-Dutch,35,diep,3,understands,0
-Dutch,36,diep,6,produces,0.6667
-Dutch,36,diep,6,understands,0
-English (British),34,deep,443,produces,0.4515
-English (British),34,deep,443,understands,0
-English (British),35,deep,3693,produces,0.4609
-English (British),35,deep,3693,understands,0
-English (British),36,deep,5244,produces,0.4802
-English (British),36,deep,5244,understands,0
-English (British),37,deep,906,produces,0.4868
-English (British),37,deep,906,understands,0
-English (British),38,deep,264,produces,0.4583
-English (British),38,deep,264,understands,0
-English (British),39,deep,99,produces,0.6566
-English (British),39,deep,99,understands,0
-English (British),40,deep,48,produces,0.375
-English (British),40,deep,48,understands,0
-English (British),41,deep,24,produces,0.625
-English (British),41,deep,24,understands,0
-English (British),42,deep,23,produces,0.6522
-English (British),42,deep,23,understands,0
-English (British),43,deep,12,produces,0.6667
-English (British),43,deep,12,understands,0
-English (British),44,deep,9,produces,0.5556
-English (British),44,deep,9,understands,0
-English (British),45,deep,12,produces,0.5833
-English (British),45,deep,12,understands,0
-English (British),46,deep,5,produces,0
-English (British),46,deep,5,understands,0
-English (British),47,deep,8,produces,0.375
-English (British),47,deep,8,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,28,diep,1,produces,1
+Dutch,All,28,diep,1,understands,0
+Dutch,All,29,diep,48,produces,0.2708
+Dutch,All,29,diep,48,understands,0
+Dutch,All,30,diep,21,produces,0.4286
+Dutch,All,30,diep,21,understands,0
+Dutch,All,31,diep,5,produces,0.4
+Dutch,All,31,diep,5,understands,0
+Dutch,All,32,diep,5,produces,0.6
+Dutch,All,32,diep,5,understands,0
+Dutch,All,33,diep,3,produces,1
+Dutch,All,33,diep,3,understands,0
+Dutch,All,34,diep,5,produces,0.8
+Dutch,All,34,diep,5,understands,0
+Dutch,All,35,diep,3,produces,0
+Dutch,All,35,diep,3,understands,0
+Dutch,All,36,diep,6,produces,0.6667
+Dutch,All,36,diep,6,understands,0
+English (British),All,34,deep,443,produces,0.4515
+English (British),All,34,deep,443,understands,0
+English (British),All,35,deep,3693,produces,0.4609
+English (British),All,35,deep,3693,understands,0
+English (British),All,36,deep,5244,produces,0.4802
+English (British),All,36,deep,5244,understands,0
+English (British),All,37,deep,906,produces,0.4868
+English (British),All,37,deep,906,understands,0
+English (British),All,38,deep,264,produces,0.4583
+English (British),All,38,deep,264,understands,0
+English (British),All,39,deep,99,produces,0.6566
+English (British),All,39,deep,99,understands,0
+English (British),All,40,deep,48,produces,0.375
+English (British),All,40,deep,48,understands,0
+English (British),All,41,deep,24,produces,0.625
+English (British),All,41,deep,24,understands,0
+English (British),All,42,deep,23,produces,0.6522
+English (British),All,42,deep,23,understands,0
+English (British),All,43,deep,12,produces,0.6667
+English (British),All,43,deep,12,understands,0
+English (British),All,44,deep,9,produces,0.5556
+English (British),All,44,deep,9,understands,0
+English (British),All,45,deep,12,produces,0.5833
+English (British),All,45,deep,12,understands,0
+English (British),All,46,deep,5,produces,0
+English (British),All,46,deep,5,understands,0
+English (British),All,47,deep,8,produces,0.375
+English (British),All,47,deep,8,understands,0
+Dutch,Male,28,diep,1,produces,1
+Dutch,Male,28,diep,1,understands,0
+Dutch,Female,29,diep,15,produces,0.4667
+Dutch,Female,29,diep,15,understands,0
+Dutch,Male,29,diep,12,produces,0.25
+Dutch,Male,29,diep,12,understands,0
+Dutch,Female,30,diep,4,produces,0.5
+Dutch,Female,30,diep,4,understands,0
+Dutch,Male,30,diep,3,produces,0.3333
+Dutch,Male,30,diep,3,understands,0
+Dutch,Female,31,diep,2,produces,0.5
+Dutch,Female,31,diep,2,understands,0
+Dutch,Male,31,diep,3,produces,0.3333
+Dutch,Male,31,diep,3,understands,0
+Dutch,Female,32,diep,1,produces,0
+Dutch,Female,32,diep,1,understands,0
+Dutch,Male,32,diep,4,produces,0.75
+Dutch,Male,32,diep,4,understands,0
+Dutch,Female,33,diep,1,produces,1
+Dutch,Female,33,diep,1,understands,0
+Dutch,Male,33,diep,2,produces,1
+Dutch,Male,33,diep,2,understands,0
+Dutch,Male,34,diep,4,produces,0.75
+Dutch,Male,34,diep,4,understands,0
+Dutch,Female,35,diep,1,produces,0
+Dutch,Female,35,diep,1,understands,0
+Dutch,Male,35,diep,2,produces,0
+Dutch,Male,35,diep,2,understands,0
+Dutch,Female,36,diep,3,produces,0.6667
+Dutch,Female,36,diep,3,understands,0
+Dutch,Male,36,diep,3,produces,0.6667
+Dutch,Male,36,diep,3,understands,0
+English (British),Female,34,deep,247,produces,0.4453
+English (British),Female,34,deep,247,understands,0
+English (British),Male,34,deep,196,produces,0.4592
+English (British),Male,34,deep,196,understands,0
+English (British),Female,35,deep,1927,produces,0.4862
+English (British),Female,35,deep,1927,understands,0
+English (British),Male,35,deep,1766,produces,0.4332
+English (British),Male,35,deep,1766,understands,0
+English (British),Female,36,deep,2650,produces,0.5049
+English (British),Female,36,deep,2650,understands,0
+English (British),Male,36,deep,2594,produces,0.4549
+English (British),Male,36,deep,2594,understands,0
+English (British),Female,37,deep,434,produces,0.5
+English (British),Female,37,deep,434,understands,0
+English (British),Male,37,deep,472,produces,0.4746
+English (British),Male,37,deep,472,understands,0
+English (British),Female,38,deep,136,produces,0.4191
+English (British),Female,38,deep,136,understands,0
+English (British),Male,38,deep,128,produces,0.5
+English (British),Male,38,deep,128,understands,0
+English (British),Female,39,deep,52,produces,0.6346
+English (British),Female,39,deep,52,understands,0
+English (British),Male,39,deep,47,produces,0.6809
+English (British),Male,39,deep,47,understands,0
+English (British),Female,40,deep,29,produces,0.3448
+English (British),Female,40,deep,29,understands,0
+English (British),Male,40,deep,19,produces,0.4211
+English (British),Male,40,deep,19,understands,0
+English (British),Female,41,deep,10,produces,0.4
+English (British),Female,41,deep,10,understands,0
+English (British),Male,41,deep,14,produces,0.7857
+English (British),Male,41,deep,14,understands,0
+English (British),Female,42,deep,10,produces,0.5
+English (British),Female,42,deep,10,understands,0
+English (British),Male,42,deep,13,produces,0.7692
+English (British),Male,42,deep,13,understands,0
+English (British),Female,43,deep,3,produces,0.3333
+English (British),Female,43,deep,3,understands,0
+English (British),Male,43,deep,9,produces,0.7778
+English (British),Male,43,deep,9,understands,0
+English (British),Female,44,deep,4,produces,0.75
+English (British),Female,44,deep,4,understands,0
+English (British),Male,44,deep,5,produces,0.4
+English (British),Male,44,deep,5,understands,0
+English (British),Female,45,deep,8,produces,0.5
+English (British),Female,45,deep,8,understands,0
+English (British),Male,45,deep,4,produces,0.75
+English (British),Male,45,deep,4,understands,0
+English (British),Female,46,deep,3,produces,0
+English (British),Female,46,deep,3,understands,0
+English (British),Male,46,deep,2,produces,0
+English (British),Male,46,deep,2,understands,0
+English (British),Female,47,deep,5,produces,0.4
+English (British),Female,47,deep,5,understands,0
+English (British),Male,47,deep,3,produces,0.3333
+English (British),Male,47,deep,3,understands,0

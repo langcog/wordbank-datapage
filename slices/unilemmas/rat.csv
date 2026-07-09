@@ -1,103 +1,299 @@
-language,age,words,n,measure,prop
-Spanish (European),16,rata,39,produces,0
-Spanish (European),16,rata,39,understands,0
-Spanish (European),17,rata,39,produces,0.0256
-Spanish (European),17,rata,39,understands,0
-Spanish (European),18,rata,50,produces,0.02
-Spanish (European),18,rata,50,understands,0
-Spanish (European),19,rata,27,produces,0.0741
-Spanish (European),19,rata,27,understands,0
-Spanish (European),20,rata,36,produces,0.1111
-Spanish (European),20,rata,36,understands,0
-Spanish (European),21,rata,41,produces,0.1463
-Spanish (European),21,rata,41,understands,0
-Spanish (European),22,rata,38,produces,0.1316
-Spanish (European),22,rata,38,understands,0
-Spanish (European),23,rata,30,produces,0.1
-Spanish (European),23,rata,30,understands,0
-Spanish (European),24,rata,55,produces,0.1273
-Spanish (European),24,rata,55,understands,0
-Spanish (European),25,rata,35,produces,0.1429
-Spanish (European),25,rata,35,understands,0
-Spanish (European),26,rata,49,produces,0.1837
-Spanish (European),26,rata,49,understands,0
-Spanish (European),27,rata,34,produces,0.4118
-Spanish (European),27,rata,34,understands,0
-Spanish (European),28,rata,38,produces,0.3421
-Spanish (European),28,rata,38,understands,0
-Spanish (European),29,rata,41,produces,0.4146
-Spanish (European),29,rata,41,understands,0
-Spanish (European),30,rata,41,produces,0.4878
-Spanish (European),30,rata,41,understands,0
-Spanish (Peruvian),16,rata,13,produces,0.0769
-Spanish (Peruvian),16,rata,13,understands,0
-Spanish (Peruvian),17,rata,9,produces,0
-Spanish (Peruvian),17,rata,9,understands,0
-Spanish (Peruvian),18,rata,4,produces,0
-Spanish (Peruvian),18,rata,4,understands,0
-Spanish (Peruvian),19,rata,12,produces,0
-Spanish (Peruvian),19,rata,12,understands,0
-Spanish (Peruvian),20,rata,1,produces,0
-Spanish (Peruvian),20,rata,1,understands,0
-Spanish (Peruvian),21,rata,5,produces,0.4
-Spanish (Peruvian),21,rata,5,understands,0
-Spanish (Peruvian),22,rata,9,produces,0
-Spanish (Peruvian),22,rata,9,understands,0
-Spanish (Peruvian),23,rata,1,produces,0
-Spanish (Peruvian),23,rata,1,understands,0
-Spanish (Peruvian),24,rata,15,produces,0.0667
-Spanish (Peruvian),24,rata,15,understands,0
-Spanish (Peruvian),25,rata,5,produces,0
-Spanish (Peruvian),25,rata,5,understands,0
-Spanish (Peruvian),26,rata,8,produces,0
-Spanish (Peruvian),26,rata,8,understands,0
-Spanish (Peruvian),27,rata,7,produces,0
-Spanish (Peruvian),27,rata,7,understands,0
-Spanish (Peruvian),28,rata,8,produces,0.25
-Spanish (Peruvian),28,rata,8,understands,0
-Spanish (Peruvian),29,rata,6,produces,0.3333
-Spanish (Peruvian),29,rata,6,understands,0
-Spanish (Peruvian),30,rata,2,produces,0
-Spanish (Peruvian),30,rata,2,understands,0
-Swedish,16,råtta,159,produces,0.0189
-Swedish,16,råtta,159,understands,0
-Swedish,19,råtta,152,produces,0.0987
-Swedish,19,råtta,152,understands,0
-Swedish,22,råtta,307,produces,0.1987
-Swedish,22,råtta,307,understands,0
-Swedish,25,råtta,143,produces,0.4126
-Swedish,25,råtta,143,understands,0
-Swedish,28,råtta,139,produces,0.5324
-Swedish,28,råtta,139,understands,0
-Dutch,16,hamster/cavia,4,produces,0
-Dutch,16,hamster/cavia,4,understands,0
-Dutch,17,hamster/cavia,49,produces,0.0408
-Dutch,17,hamster/cavia,49,understands,0
-Dutch,18,hamster/cavia,68,produces,0.0147
-Dutch,18,hamster/cavia,68,understands,0
-Dutch,19,hamster/cavia,7,produces,0
-Dutch,19,hamster/cavia,7,understands,0
-Dutch,20,hamster/cavia,7,produces,0.1429
-Dutch,20,hamster/cavia,7,understands,0
-Dutch,21,hamster/cavia,7,produces,0.1429
-Dutch,21,hamster/cavia,7,understands,0
-Dutch,22,hamster/cavia,7,produces,0.4286
-Dutch,22,hamster/cavia,7,understands,0
-Dutch,23,hamster/cavia,51,produces,0.2157
-Dutch,23,hamster/cavia,51,understands,0
-Dutch,24,hamster/cavia,31,produces,0.1935
-Dutch,24,hamster/cavia,31,understands,0
-Dutch,25,hamster/cavia,6,produces,0.1667
-Dutch,25,hamster/cavia,6,understands,0
-Dutch,26,hamster/cavia,6,produces,0
-Dutch,26,hamster/cavia,6,understands,0
-Dutch,27,hamster/cavia,5,produces,0.6
-Dutch,27,hamster/cavia,5,understands,0
-Dutch,28,hamster/cavia,6,produces,0.6667
-Dutch,28,hamster/cavia,6,understands,0
-Dutch,29,hamster/cavia,23,produces,0.4348
-Dutch,29,hamster/cavia,23,understands,0
-Dutch,30,hamster/cavia,24,produces,0.625
-Dutch,30,hamster/cavia,24,understands,0
-Dutch,31,hamster/cavia,2,produces,0.5
-Dutch,31,hamster/cavia,2,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,16,hamster/cavia,4,produces,0
+Dutch,All,16,hamster/cavia,4,understands,0
+Dutch,All,17,hamster/cavia,49,produces,0.0408
+Dutch,All,17,hamster/cavia,49,understands,0
+Dutch,All,18,hamster/cavia,68,produces,0.0147
+Dutch,All,18,hamster/cavia,68,understands,0
+Dutch,All,19,hamster/cavia,7,produces,0
+Dutch,All,19,hamster/cavia,7,understands,0
+Dutch,All,20,hamster/cavia,7,produces,0.1429
+Dutch,All,20,hamster/cavia,7,understands,0
+Dutch,All,21,hamster/cavia,7,produces,0.1429
+Dutch,All,21,hamster/cavia,7,understands,0
+Dutch,All,22,hamster/cavia,7,produces,0.4286
+Dutch,All,22,hamster/cavia,7,understands,0
+Dutch,All,23,hamster/cavia,51,produces,0.2157
+Dutch,All,23,hamster/cavia,51,understands,0
+Dutch,All,24,hamster/cavia,31,produces,0.1935
+Dutch,All,24,hamster/cavia,31,understands,0
+Dutch,All,25,hamster/cavia,6,produces,0.1667
+Dutch,All,25,hamster/cavia,6,understands,0
+Dutch,All,26,hamster/cavia,6,produces,0
+Dutch,All,26,hamster/cavia,6,understands,0
+Dutch,All,27,hamster/cavia,5,produces,0.6
+Dutch,All,27,hamster/cavia,5,understands,0
+Dutch,All,28,hamster/cavia,6,produces,0.6667
+Dutch,All,28,hamster/cavia,6,understands,0
+Dutch,All,29,hamster/cavia,23,produces,0.4348
+Dutch,All,29,hamster/cavia,23,understands,0
+Dutch,All,30,hamster/cavia,24,produces,0.625
+Dutch,All,30,hamster/cavia,24,understands,0
+Dutch,All,31,hamster/cavia,2,produces,0.5
+Dutch,All,31,hamster/cavia,2,understands,0
+Spanish (European),All,16,rata,39,produces,0
+Spanish (European),All,16,rata,39,understands,0
+Spanish (European),All,17,rata,39,produces,0.0256
+Spanish (European),All,17,rata,39,understands,0
+Spanish (European),All,18,rata,50,produces,0.02
+Spanish (European),All,18,rata,50,understands,0
+Spanish (European),All,19,rata,27,produces,0.0741
+Spanish (European),All,19,rata,27,understands,0
+Spanish (European),All,20,rata,36,produces,0.1111
+Spanish (European),All,20,rata,36,understands,0
+Spanish (European),All,21,rata,41,produces,0.1463
+Spanish (European),All,21,rata,41,understands,0
+Spanish (European),All,22,rata,38,produces,0.1316
+Spanish (European),All,22,rata,38,understands,0
+Spanish (European),All,23,rata,30,produces,0.1
+Spanish (European),All,23,rata,30,understands,0
+Spanish (European),All,24,rata,55,produces,0.1273
+Spanish (European),All,24,rata,55,understands,0
+Spanish (European),All,25,rata,35,produces,0.1429
+Spanish (European),All,25,rata,35,understands,0
+Spanish (European),All,26,rata,49,produces,0.1837
+Spanish (European),All,26,rata,49,understands,0
+Spanish (European),All,27,rata,34,produces,0.4118
+Spanish (European),All,27,rata,34,understands,0
+Spanish (European),All,28,rata,38,produces,0.3421
+Spanish (European),All,28,rata,38,understands,0
+Spanish (European),All,29,rata,41,produces,0.4146
+Spanish (European),All,29,rata,41,understands,0
+Spanish (European),All,30,rata,41,produces,0.4878
+Spanish (European),All,30,rata,41,understands,0
+Spanish (Peruvian),All,16,rata,13,produces,0.0769
+Spanish (Peruvian),All,16,rata,13,understands,0
+Spanish (Peruvian),All,17,rata,9,produces,0
+Spanish (Peruvian),All,17,rata,9,understands,0
+Spanish (Peruvian),All,18,rata,4,produces,0
+Spanish (Peruvian),All,18,rata,4,understands,0
+Spanish (Peruvian),All,19,rata,12,produces,0
+Spanish (Peruvian),All,19,rata,12,understands,0
+Spanish (Peruvian),All,20,rata,1,produces,0
+Spanish (Peruvian),All,20,rata,1,understands,0
+Spanish (Peruvian),All,21,rata,5,produces,0.4
+Spanish (Peruvian),All,21,rata,5,understands,0
+Spanish (Peruvian),All,22,rata,9,produces,0
+Spanish (Peruvian),All,22,rata,9,understands,0
+Spanish (Peruvian),All,23,rata,1,produces,0
+Spanish (Peruvian),All,23,rata,1,understands,0
+Spanish (Peruvian),All,24,rata,15,produces,0.0667
+Spanish (Peruvian),All,24,rata,15,understands,0
+Spanish (Peruvian),All,25,rata,5,produces,0
+Spanish (Peruvian),All,25,rata,5,understands,0
+Spanish (Peruvian),All,26,rata,8,produces,0
+Spanish (Peruvian),All,26,rata,8,understands,0
+Spanish (Peruvian),All,27,rata,7,produces,0
+Spanish (Peruvian),All,27,rata,7,understands,0
+Spanish (Peruvian),All,28,rata,8,produces,0.25
+Spanish (Peruvian),All,28,rata,8,understands,0
+Spanish (Peruvian),All,29,rata,6,produces,0.3333
+Spanish (Peruvian),All,29,rata,6,understands,0
+Spanish (Peruvian),All,30,rata,2,produces,0
+Spanish (Peruvian),All,30,rata,2,understands,0
+Swedish,All,16,råtta,159,produces,0.0189
+Swedish,All,16,råtta,159,understands,0
+Swedish,All,19,råtta,152,produces,0.0987
+Swedish,All,19,råtta,152,understands,0
+Swedish,All,22,råtta,307,produces,0.1987
+Swedish,All,22,råtta,307,understands,0
+Swedish,All,25,råtta,143,produces,0.4126
+Swedish,All,25,råtta,143,understands,0
+Swedish,All,28,råtta,139,produces,0.5324
+Swedish,All,28,råtta,139,understands,0
+Dutch,Female,16,hamster/cavia,4,produces,0
+Dutch,Female,16,hamster/cavia,4,understands,0
+Dutch,Female,17,hamster/cavia,33,produces,0.0606
+Dutch,Female,17,hamster/cavia,33,understands,0
+Dutch,Male,17,hamster/cavia,16,produces,0
+Dutch,Male,17,hamster/cavia,16,understands,0
+Dutch,Female,18,hamster/cavia,38,produces,0.0263
+Dutch,Female,18,hamster/cavia,38,understands,0
+Dutch,Male,18,hamster/cavia,30,produces,0
+Dutch,Male,18,hamster/cavia,30,understands,0
+Dutch,Female,19,hamster/cavia,5,produces,0
+Dutch,Female,19,hamster/cavia,5,understands,0
+Dutch,Male,19,hamster/cavia,2,produces,0
+Dutch,Male,19,hamster/cavia,2,understands,0
+Dutch,Female,20,hamster/cavia,6,produces,0
+Dutch,Female,20,hamster/cavia,6,understands,0
+Dutch,Male,20,hamster/cavia,1,produces,1
+Dutch,Male,20,hamster/cavia,1,understands,0
+Dutch,Female,21,hamster/cavia,3,produces,0.3333
+Dutch,Female,21,hamster/cavia,3,understands,0
+Dutch,Male,21,hamster/cavia,4,produces,0
+Dutch,Male,21,hamster/cavia,4,understands,0
+Dutch,Female,22,hamster/cavia,1,produces,1
+Dutch,Female,22,hamster/cavia,1,understands,0
+Dutch,Male,22,hamster/cavia,6,produces,0.3333
+Dutch,Male,22,hamster/cavia,6,understands,0
+Dutch,Female,23,hamster/cavia,25,produces,0.24
+Dutch,Female,23,hamster/cavia,25,understands,0
+Dutch,Male,23,hamster/cavia,26,produces,0.1923
+Dutch,Male,23,hamster/cavia,26,understands,0
+Dutch,Female,24,hamster/cavia,16,produces,0.125
+Dutch,Female,24,hamster/cavia,16,understands,0
+Dutch,Male,24,hamster/cavia,15,produces,0.2667
+Dutch,Male,24,hamster/cavia,15,understands,0
+Dutch,Female,25,hamster/cavia,5,produces,0.2
+Dutch,Female,25,hamster/cavia,5,understands,0
+Dutch,Male,25,hamster/cavia,1,produces,0
+Dutch,Male,25,hamster/cavia,1,understands,0
+Dutch,Female,26,hamster/cavia,1,produces,0
+Dutch,Female,26,hamster/cavia,1,understands,0
+Dutch,Male,26,hamster/cavia,5,produces,0
+Dutch,Male,26,hamster/cavia,5,understands,0
+Dutch,Female,27,hamster/cavia,3,produces,0.3333
+Dutch,Female,27,hamster/cavia,3,understands,0
+Dutch,Male,27,hamster/cavia,1,produces,1
+Dutch,Male,27,hamster/cavia,1,understands,0
+Dutch,Female,28,hamster/cavia,5,produces,0.8
+Dutch,Female,28,hamster/cavia,5,understands,0
+Dutch,Male,28,hamster/cavia,1,produces,0
+Dutch,Male,28,hamster/cavia,1,understands,0
+Dutch,Female,29,hamster/cavia,12,produces,0.4167
+Dutch,Female,29,hamster/cavia,12,understands,0
+Dutch,Male,29,hamster/cavia,11,produces,0.4545
+Dutch,Male,29,hamster/cavia,11,understands,0
+Dutch,Female,30,hamster/cavia,16,produces,0.6875
+Dutch,Female,30,hamster/cavia,16,understands,0
+Dutch,Male,30,hamster/cavia,8,produces,0.5
+Dutch,Male,30,hamster/cavia,8,understands,0
+Dutch,Female,31,hamster/cavia,1,produces,0
+Dutch,Female,31,hamster/cavia,1,understands,0
+Dutch,Male,31,hamster/cavia,1,produces,1
+Dutch,Male,31,hamster/cavia,1,understands,0
+Spanish (European),Female,16,rata,19,produces,0
+Spanish (European),Female,16,rata,19,understands,0
+Spanish (European),Male,16,rata,20,produces,0
+Spanish (European),Male,16,rata,20,understands,0
+Spanish (European),Female,17,rata,21,produces,0.0476
+Spanish (European),Female,17,rata,21,understands,0
+Spanish (European),Male,17,rata,18,produces,0
+Spanish (European),Male,17,rata,18,understands,0
+Spanish (European),Female,18,rata,27,produces,0.037
+Spanish (European),Female,18,rata,27,understands,0
+Spanish (European),Male,18,rata,23,produces,0
+Spanish (European),Male,18,rata,23,understands,0
+Spanish (European),Female,19,rata,16,produces,0.125
+Spanish (European),Female,19,rata,16,understands,0
+Spanish (European),Male,19,rata,11,produces,0
+Spanish (European),Male,19,rata,11,understands,0
+Spanish (European),Female,20,rata,17,produces,0.1765
+Spanish (European),Female,20,rata,17,understands,0
+Spanish (European),Male,20,rata,19,produces,0.0526
+Spanish (European),Male,20,rata,19,understands,0
+Spanish (European),Female,21,rata,23,produces,0.2609
+Spanish (European),Female,21,rata,23,understands,0
+Spanish (European),Male,21,rata,18,produces,0
+Spanish (European),Male,21,rata,18,understands,0
+Spanish (European),Female,22,rata,18,produces,0.1667
+Spanish (European),Female,22,rata,18,understands,0
+Spanish (European),Male,22,rata,20,produces,0.1
+Spanish (European),Male,22,rata,20,understands,0
+Spanish (European),Female,23,rata,15,produces,0.1333
+Spanish (European),Female,23,rata,15,understands,0
+Spanish (European),Male,23,rata,15,produces,0.0667
+Spanish (European),Male,23,rata,15,understands,0
+Spanish (European),Female,24,rata,31,produces,0.1613
+Spanish (European),Female,24,rata,31,understands,0
+Spanish (European),Male,24,rata,24,produces,0.0833
+Spanish (European),Male,24,rata,24,understands,0
+Spanish (European),Female,25,rata,16,produces,0.25
+Spanish (European),Female,25,rata,16,understands,0
+Spanish (European),Male,25,rata,19,produces,0.0526
+Spanish (European),Male,25,rata,19,understands,0
+Spanish (European),Female,26,rata,22,produces,0.1818
+Spanish (European),Female,26,rata,22,understands,0
+Spanish (European),Male,26,rata,27,produces,0.1852
+Spanish (European),Male,26,rata,27,understands,0
+Spanish (European),Female,27,rata,16,produces,0.4375
+Spanish (European),Female,27,rata,16,understands,0
+Spanish (European),Male,27,rata,18,produces,0.3889
+Spanish (European),Male,27,rata,18,understands,0
+Spanish (European),Female,28,rata,20,produces,0.2
+Spanish (European),Female,28,rata,20,understands,0
+Spanish (European),Male,28,rata,18,produces,0.5
+Spanish (European),Male,28,rata,18,understands,0
+Spanish (European),Female,29,rata,18,produces,0.3889
+Spanish (European),Female,29,rata,18,understands,0
+Spanish (European),Male,29,rata,23,produces,0.4348
+Spanish (European),Male,29,rata,23,understands,0
+Spanish (European),Female,30,rata,17,produces,0.5294
+Spanish (European),Female,30,rata,17,understands,0
+Spanish (European),Male,30,rata,24,produces,0.4583
+Spanish (European),Male,30,rata,24,understands,0
+Spanish (Peruvian),Female,16,rata,6,produces,0.1667
+Spanish (Peruvian),Female,16,rata,6,understands,0
+Spanish (Peruvian),Male,16,rata,7,produces,0
+Spanish (Peruvian),Male,16,rata,7,understands,0
+Spanish (Peruvian),Female,17,rata,5,produces,0
+Spanish (Peruvian),Female,17,rata,5,understands,0
+Spanish (Peruvian),Male,17,rata,4,produces,0
+Spanish (Peruvian),Male,17,rata,4,understands,0
+Spanish (Peruvian),Female,18,rata,4,produces,0
+Spanish (Peruvian),Female,18,rata,4,understands,0
+Spanish (Peruvian),Female,19,rata,3,produces,0
+Spanish (Peruvian),Female,19,rata,3,understands,0
+Spanish (Peruvian),Male,19,rata,9,produces,0
+Spanish (Peruvian),Male,19,rata,9,understands,0
+Spanish (Peruvian),Male,20,rata,1,produces,0
+Spanish (Peruvian),Male,20,rata,1,understands,0
+Spanish (Peruvian),Female,21,rata,3,produces,0.3333
+Spanish (Peruvian),Female,21,rata,3,understands,0
+Spanish (Peruvian),Male,21,rata,2,produces,0.5
+Spanish (Peruvian),Male,21,rata,2,understands,0
+Spanish (Peruvian),Female,22,rata,4,produces,0
+Spanish (Peruvian),Female,22,rata,4,understands,0
+Spanish (Peruvian),Male,22,rata,5,produces,0
+Spanish (Peruvian),Male,22,rata,5,understands,0
+Spanish (Peruvian),Female,23,rata,1,produces,0
+Spanish (Peruvian),Female,23,rata,1,understands,0
+Spanish (Peruvian),Female,24,rata,7,produces,0.1429
+Spanish (Peruvian),Female,24,rata,7,understands,0
+Spanish (Peruvian),Male,24,rata,8,produces,0
+Spanish (Peruvian),Male,24,rata,8,understands,0
+Spanish (Peruvian),Female,25,rata,2,produces,0
+Spanish (Peruvian),Female,25,rata,2,understands,0
+Spanish (Peruvian),Male,25,rata,3,produces,0
+Spanish (Peruvian),Male,25,rata,3,understands,0
+Spanish (Peruvian),Female,26,rata,3,produces,0
+Spanish (Peruvian),Female,26,rata,3,understands,0
+Spanish (Peruvian),Male,26,rata,5,produces,0
+Spanish (Peruvian),Male,26,rata,5,understands,0
+Spanish (Peruvian),Female,27,rata,3,produces,0
+Spanish (Peruvian),Female,27,rata,3,understands,0
+Spanish (Peruvian),Male,27,rata,4,produces,0
+Spanish (Peruvian),Male,27,rata,4,understands,0
+Spanish (Peruvian),Female,28,rata,3,produces,0
+Spanish (Peruvian),Female,28,rata,3,understands,0
+Spanish (Peruvian),Male,28,rata,5,produces,0.4
+Spanish (Peruvian),Male,28,rata,5,understands,0
+Spanish (Peruvian),Female,29,rata,1,produces,1
+Spanish (Peruvian),Female,29,rata,1,understands,0
+Spanish (Peruvian),Male,29,rata,5,produces,0.2
+Spanish (Peruvian),Male,29,rata,5,understands,0
+Spanish (Peruvian),Female,30,rata,1,produces,0
+Spanish (Peruvian),Female,30,rata,1,understands,0
+Spanish (Peruvian),Male,30,rata,1,produces,0
+Spanish (Peruvian),Male,30,rata,1,understands,0
+Swedish,Female,16,råtta,90,produces,0.0333
+Swedish,Female,16,råtta,90,understands,0
+Swedish,Male,16,råtta,66,produces,0
+Swedish,Male,16,råtta,66,understands,0
+Swedish,Female,19,råtta,85,produces,0.1176
+Swedish,Female,19,råtta,85,understands,0
+Swedish,Male,19,råtta,65,produces,0.0769
+Swedish,Male,19,råtta,65,understands,0
+Swedish,Female,22,råtta,162,produces,0.2222
+Swedish,Female,22,råtta,162,understands,0
+Swedish,Male,22,råtta,143,produces,0.1678
+Swedish,Male,22,råtta,143,understands,0
+Swedish,Female,25,råtta,67,produces,0.5373
+Swedish,Female,25,råtta,67,understands,0
+Swedish,Male,25,råtta,76,produces,0.3026
+Swedish,Male,25,råtta,76,understands,0
+Swedish,Female,28,råtta,69,produces,0.6232
+Swedish,Female,28,råtta,69,understands,0
+Swedish,Male,28,råtta,70,produces,0.4429
+Swedish,Male,28,råtta,70,understands,0

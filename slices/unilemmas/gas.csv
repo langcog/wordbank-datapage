@@ -1,69 +1,205 @@
-language,age,words,n,measure,prop
-Italian,18,benzina,31,produces,0
-Italian,18,benzina,31,understands,0
-Italian,19,benzina,39,produces,0
-Italian,19,benzina,39,understands,0
-Italian,20,benzina,64,produces,0
-Italian,20,benzina,64,understands,0
-Italian,21,benzina,55,produces,0.0545
-Italian,21,benzina,55,understands,0
-Italian,22,benzina,55,produces,0.1818
-Italian,22,benzina,55,understands,0
-Italian,23,benzina,53,produces,0.1132
-Italian,23,benzina,53,understands,0
-Italian,24,benzina,71,produces,0.1549
-Italian,24,benzina,71,understands,0
-Italian,25,benzina,39,produces,0.3846
-Italian,25,benzina,39,understands,0
-Italian,26,benzina,41,produces,0.3902
-Italian,26,benzina,41,understands,0
-Italian,27,benzina,43,produces,0.3721
-Italian,27,benzina,43,understands,0
-Italian,28,benzina,44,produces,0.5
-Italian,28,benzina,44,understands,0
-Italian,29,benzina,37,produces,0.4865
-Italian,29,benzina,37,understands,0
-Italian,30,benzina,67,produces,0.4925
-Italian,30,benzina,67,understands,0
-Italian,31,benzina,19,produces,0.6316
-Italian,31,benzina,19,understands,0
-Italian,32,benzina,23,produces,0.6522
-Italian,32,benzina,23,understands,0
-Italian,33,benzina,16,produces,0.9375
-Italian,33,benzina,16,understands,0
-Italian,34,benzina,19,produces,0.8421
-Italian,34,benzina,19,understands,0
-Italian,35,benzina,15,produces,0.6667
-Italian,35,benzina,15,understands,0
-Italian,36,benzina,21,produces,0.7143
-Italian,36,benzina,21,understands,0
-Mandarin (Beijing),16,煤气,70,produces,0
-Mandarin (Beijing),16,煤气,70,understands,0
-Mandarin (Beijing),17,煤气,72,produces,0.0139
-Mandarin (Beijing),17,煤气,72,understands,0
-Mandarin (Beijing),18,煤气,71,produces,0.0282
-Mandarin (Beijing),18,煤气,71,understands,0
-Mandarin (Beijing),19,煤气,70,produces,0.0857
-Mandarin (Beijing),19,煤气,70,understands,0
-Mandarin (Beijing),20,煤气,71,produces,0.1549
-Mandarin (Beijing),20,煤气,71,understands,0
-Mandarin (Beijing),21,煤气,70,produces,0.1714
-Mandarin (Beijing),21,煤气,70,understands,0
-Mandarin (Beijing),22,煤气,71,produces,0.3521
-Mandarin (Beijing),22,煤气,71,understands,0
-Mandarin (Beijing),23,煤气,70,produces,0.4
-Mandarin (Beijing),23,煤气,70,understands,0
-Mandarin (Beijing),24,煤气,70,produces,0.4429
-Mandarin (Beijing),24,煤气,70,understands,0
-Mandarin (Beijing),25,煤气,70,produces,0.6
-Mandarin (Beijing),25,煤气,70,understands,0
-Mandarin (Beijing),26,煤气,71,produces,0.5634
-Mandarin (Beijing),26,煤气,71,understands,0
-Mandarin (Beijing),27,煤气,70,produces,0.6714
-Mandarin (Beijing),27,煤气,70,understands,0
-Mandarin (Beijing),28,煤气,70,produces,0.7429
-Mandarin (Beijing),28,煤气,70,understands,0
-Mandarin (Beijing),29,煤气,70,produces,0.7571
-Mandarin (Beijing),29,煤气,70,understands,0
-Mandarin (Beijing),30,煤气,70,produces,0.8
-Mandarin (Beijing),30,煤气,70,understands,0
+language,sex,age,words,n,measure,prop
+Italian,All,18,benzina,31,produces,0
+Italian,All,18,benzina,31,understands,0
+Italian,All,19,benzina,39,produces,0
+Italian,All,19,benzina,39,understands,0
+Italian,All,20,benzina,64,produces,0
+Italian,All,20,benzina,64,understands,0
+Italian,All,21,benzina,55,produces,0.0545
+Italian,All,21,benzina,55,understands,0
+Italian,All,22,benzina,55,produces,0.1818
+Italian,All,22,benzina,55,understands,0
+Italian,All,23,benzina,53,produces,0.1132
+Italian,All,23,benzina,53,understands,0
+Italian,All,24,benzina,71,produces,0.1549
+Italian,All,24,benzina,71,understands,0
+Italian,All,25,benzina,39,produces,0.3846
+Italian,All,25,benzina,39,understands,0
+Italian,All,26,benzina,41,produces,0.3902
+Italian,All,26,benzina,41,understands,0
+Italian,All,27,benzina,43,produces,0.3721
+Italian,All,27,benzina,43,understands,0
+Italian,All,28,benzina,44,produces,0.5
+Italian,All,28,benzina,44,understands,0
+Italian,All,29,benzina,37,produces,0.4865
+Italian,All,29,benzina,37,understands,0
+Italian,All,30,benzina,67,produces,0.4925
+Italian,All,30,benzina,67,understands,0
+Italian,All,31,benzina,19,produces,0.6316
+Italian,All,31,benzina,19,understands,0
+Italian,All,32,benzina,23,produces,0.6522
+Italian,All,32,benzina,23,understands,0
+Italian,All,33,benzina,16,produces,0.9375
+Italian,All,33,benzina,16,understands,0
+Italian,All,34,benzina,19,produces,0.8421
+Italian,All,34,benzina,19,understands,0
+Italian,All,35,benzina,15,produces,0.6667
+Italian,All,35,benzina,15,understands,0
+Italian,All,36,benzina,21,produces,0.7143
+Italian,All,36,benzina,21,understands,0
+Mandarin (Beijing),All,16,煤气,70,produces,0
+Mandarin (Beijing),All,16,煤气,70,understands,0
+Mandarin (Beijing),All,17,煤气,72,produces,0.0139
+Mandarin (Beijing),All,17,煤气,72,understands,0
+Mandarin (Beijing),All,18,煤气,71,produces,0.0282
+Mandarin (Beijing),All,18,煤气,71,understands,0
+Mandarin (Beijing),All,19,煤气,70,produces,0.0857
+Mandarin (Beijing),All,19,煤气,70,understands,0
+Mandarin (Beijing),All,20,煤气,71,produces,0.1549
+Mandarin (Beijing),All,20,煤气,71,understands,0
+Mandarin (Beijing),All,21,煤气,70,produces,0.1714
+Mandarin (Beijing),All,21,煤气,70,understands,0
+Mandarin (Beijing),All,22,煤气,71,produces,0.3521
+Mandarin (Beijing),All,22,煤气,71,understands,0
+Mandarin (Beijing),All,23,煤气,70,produces,0.4
+Mandarin (Beijing),All,23,煤气,70,understands,0
+Mandarin (Beijing),All,24,煤气,70,produces,0.4429
+Mandarin (Beijing),All,24,煤气,70,understands,0
+Mandarin (Beijing),All,25,煤气,70,produces,0.6
+Mandarin (Beijing),All,25,煤气,70,understands,0
+Mandarin (Beijing),All,26,煤气,71,produces,0.5634
+Mandarin (Beijing),All,26,煤气,71,understands,0
+Mandarin (Beijing),All,27,煤气,70,produces,0.6714
+Mandarin (Beijing),All,27,煤气,70,understands,0
+Mandarin (Beijing),All,28,煤气,70,produces,0.7429
+Mandarin (Beijing),All,28,煤气,70,understands,0
+Mandarin (Beijing),All,29,煤气,70,produces,0.7571
+Mandarin (Beijing),All,29,煤气,70,understands,0
+Mandarin (Beijing),All,30,煤气,70,produces,0.8
+Mandarin (Beijing),All,30,煤气,70,understands,0
+Italian,Female,18,benzina,18,produces,0
+Italian,Female,18,benzina,18,understands,0
+Italian,Male,18,benzina,13,produces,0
+Italian,Male,18,benzina,13,understands,0
+Italian,Female,19,benzina,21,produces,0
+Italian,Female,19,benzina,21,understands,0
+Italian,Male,19,benzina,18,produces,0
+Italian,Male,19,benzina,18,understands,0
+Italian,Female,20,benzina,34,produces,0
+Italian,Female,20,benzina,34,understands,0
+Italian,Male,20,benzina,30,produces,0
+Italian,Male,20,benzina,30,understands,0
+Italian,Female,21,benzina,24,produces,0.125
+Italian,Female,21,benzina,24,understands,0
+Italian,Male,21,benzina,31,produces,0
+Italian,Male,21,benzina,31,understands,0
+Italian,Female,22,benzina,27,produces,0.1852
+Italian,Female,22,benzina,27,understands,0
+Italian,Male,22,benzina,28,produces,0.1786
+Italian,Male,22,benzina,28,understands,0
+Italian,Female,23,benzina,27,produces,0.1111
+Italian,Female,23,benzina,27,understands,0
+Italian,Male,23,benzina,26,produces,0.1154
+Italian,Male,23,benzina,26,understands,0
+Italian,Female,24,benzina,39,produces,0.1795
+Italian,Female,24,benzina,39,understands,0
+Italian,Male,24,benzina,32,produces,0.125
+Italian,Male,24,benzina,32,understands,0
+Italian,Female,25,benzina,23,produces,0.3478
+Italian,Female,25,benzina,23,understands,0
+Italian,Male,25,benzina,16,produces,0.4375
+Italian,Male,25,benzina,16,understands,0
+Italian,Female,26,benzina,19,produces,0.4737
+Italian,Female,26,benzina,19,understands,0
+Italian,Male,26,benzina,22,produces,0.3182
+Italian,Male,26,benzina,22,understands,0
+Italian,Female,27,benzina,20,produces,0.4
+Italian,Female,27,benzina,20,understands,0
+Italian,Male,27,benzina,23,produces,0.3478
+Italian,Male,27,benzina,23,understands,0
+Italian,Female,28,benzina,21,produces,0.3333
+Italian,Female,28,benzina,21,understands,0
+Italian,Male,28,benzina,23,produces,0.6522
+Italian,Male,28,benzina,23,understands,0
+Italian,Female,29,benzina,21,produces,0.5714
+Italian,Female,29,benzina,21,understands,0
+Italian,Male,29,benzina,16,produces,0.375
+Italian,Male,29,benzina,16,understands,0
+Italian,Female,30,benzina,28,produces,0.4643
+Italian,Female,30,benzina,28,understands,0
+Italian,Male,30,benzina,39,produces,0.5128
+Italian,Male,30,benzina,39,understands,0
+Italian,Female,31,benzina,8,produces,0.375
+Italian,Female,31,benzina,8,understands,0
+Italian,Male,31,benzina,11,produces,0.8182
+Italian,Male,31,benzina,11,understands,0
+Italian,Female,32,benzina,14,produces,0.7857
+Italian,Female,32,benzina,14,understands,0
+Italian,Male,32,benzina,9,produces,0.4444
+Italian,Male,32,benzina,9,understands,0
+Italian,Female,33,benzina,5,produces,1
+Italian,Female,33,benzina,5,understands,0
+Italian,Male,33,benzina,11,produces,0.9091
+Italian,Male,33,benzina,11,understands,0
+Italian,Female,34,benzina,12,produces,0.9167
+Italian,Female,34,benzina,12,understands,0
+Italian,Male,34,benzina,7,produces,0.7143
+Italian,Male,34,benzina,7,understands,0
+Italian,Female,35,benzina,9,produces,0.5556
+Italian,Female,35,benzina,9,understands,0
+Italian,Male,35,benzina,6,produces,0.8333
+Italian,Male,35,benzina,6,understands,0
+Italian,Female,36,benzina,7,produces,0.5714
+Italian,Female,36,benzina,7,understands,0
+Italian,Male,36,benzina,14,produces,0.7857
+Italian,Male,36,benzina,14,understands,0
+Mandarin (Beijing),Female,16,煤气,35,produces,0
+Mandarin (Beijing),Female,16,煤气,35,understands,0
+Mandarin (Beijing),Male,16,煤气,35,produces,0
+Mandarin (Beijing),Male,16,煤气,35,understands,0
+Mandarin (Beijing),Female,17,煤气,35,produces,0
+Mandarin (Beijing),Female,17,煤气,35,understands,0
+Mandarin (Beijing),Male,17,煤气,37,produces,0.027
+Mandarin (Beijing),Male,17,煤气,37,understands,0
+Mandarin (Beijing),Female,18,煤气,35,produces,0.0286
+Mandarin (Beijing),Female,18,煤气,35,understands,0
+Mandarin (Beijing),Male,18,煤气,36,produces,0.0278
+Mandarin (Beijing),Male,18,煤气,36,understands,0
+Mandarin (Beijing),Female,19,煤气,35,produces,0.1429
+Mandarin (Beijing),Female,19,煤气,35,understands,0
+Mandarin (Beijing),Male,19,煤气,35,produces,0.0286
+Mandarin (Beijing),Male,19,煤气,35,understands,0
+Mandarin (Beijing),Female,20,煤气,35,produces,0.2
+Mandarin (Beijing),Female,20,煤气,35,understands,0
+Mandarin (Beijing),Male,20,煤气,36,produces,0.1111
+Mandarin (Beijing),Male,20,煤气,36,understands,0
+Mandarin (Beijing),Female,21,煤气,35,produces,0.1429
+Mandarin (Beijing),Female,21,煤气,35,understands,0
+Mandarin (Beijing),Male,21,煤气,35,produces,0.2
+Mandarin (Beijing),Male,21,煤气,35,understands,0
+Mandarin (Beijing),Female,22,煤气,35,produces,0.3143
+Mandarin (Beijing),Female,22,煤气,35,understands,0
+Mandarin (Beijing),Male,22,煤气,36,produces,0.3889
+Mandarin (Beijing),Male,22,煤气,36,understands,0
+Mandarin (Beijing),Female,23,煤气,35,produces,0.3714
+Mandarin (Beijing),Female,23,煤气,35,understands,0
+Mandarin (Beijing),Male,23,煤气,35,produces,0.4286
+Mandarin (Beijing),Male,23,煤气,35,understands,0
+Mandarin (Beijing),Female,24,煤气,35,produces,0.4571
+Mandarin (Beijing),Female,24,煤气,35,understands,0
+Mandarin (Beijing),Male,24,煤气,35,produces,0.4286
+Mandarin (Beijing),Male,24,煤气,35,understands,0
+Mandarin (Beijing),Female,25,煤气,35,produces,0.6286
+Mandarin (Beijing),Female,25,煤气,35,understands,0
+Mandarin (Beijing),Male,25,煤气,35,produces,0.5714
+Mandarin (Beijing),Male,25,煤气,35,understands,0
+Mandarin (Beijing),Female,26,煤气,36,produces,0.5556
+Mandarin (Beijing),Female,26,煤气,36,understands,0
+Mandarin (Beijing),Male,26,煤气,35,produces,0.5714
+Mandarin (Beijing),Male,26,煤气,35,understands,0
+Mandarin (Beijing),Female,27,煤气,35,produces,0.6
+Mandarin (Beijing),Female,27,煤气,35,understands,0
+Mandarin (Beijing),Male,27,煤气,35,produces,0.7429
+Mandarin (Beijing),Male,27,煤气,35,understands,0
+Mandarin (Beijing),Female,28,煤气,35,produces,0.8
+Mandarin (Beijing),Female,28,煤气,35,understands,0
+Mandarin (Beijing),Male,28,煤气,35,produces,0.6857
+Mandarin (Beijing),Male,28,煤气,35,understands,0
+Mandarin (Beijing),Female,29,煤气,35,produces,0.7714
+Mandarin (Beijing),Female,29,煤气,35,understands,0
+Mandarin (Beijing),Male,29,煤气,35,produces,0.7429
+Mandarin (Beijing),Male,29,煤气,35,understands,0
+Mandarin (Beijing),Female,30,煤气,35,produces,0.8571
+Mandarin (Beijing),Female,30,煤气,35,understands,0
+Mandarin (Beijing),Male,30,煤气,35,produces,0.7429
+Mandarin (Beijing),Male,30,煤气,35,understands,0

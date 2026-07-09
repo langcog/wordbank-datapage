@@ -1,99 +1,291 @@
-language,age,words,n,measure,prop
-Japanese,8,そうじ機,6,produces,0
-Japanese,8,そうじ機,6,understands,0
-Japanese,9,そうじ機,10,produces,0
-Japanese,9,そうじ機,10,understands,0
-Japanese,10,そうじ機,8,produces,0
-Japanese,10,そうじ機,8,understands,0
-Japanese,11,そうじ機,87,produces,0
-Japanese,11,そうじ機,87,understands,0.069
-Japanese,12,そうじ機,118,produces,0
-Japanese,12,そうじ機,118,understands,0.0424
-Japanese,13,そうじ機,23,produces,0
-Japanese,13,そうじ機,23,understands,0.2174
-Japanese,14,そうじ機,26,produces,0
-Japanese,14,そうじ機,26,understands,0.2308
-Japanese,15,そうじ機,72,produces,0
-Japanese,15,そうじ機,72,understands,0.1944
-Japanese,16,そうじ機,46,produces,0
-Japanese,16,そうじ機,46,understands,0.1304
-Japanese,17,そうじ機,77,produces,0
-Japanese,17,そうじ機,77,understands,0.2857
-Japanese,18,そうじ機,94,produces,0.0319
-Japanese,18,そうじ機,94,understands,0.1489
-Japanese,19,そうじ機,35,produces,0.0286
-Japanese,19,そうじ機,35,understands,0
-Japanese,20,そうじ機,59,produces,0.0847
-Japanese,20,そうじ機,59,understands,0
-Japanese,21,そうじ機,62,produces,0.0323
-Japanese,21,そうじ機,62,understands,0
-Japanese,22,そうじ機,31,produces,0.0968
-Japanese,22,そうじ機,31,understands,0
-Japanese,23,そうじ機,67,produces,0.1194
-Japanese,23,そうじ機,67,understands,0
-Japanese,24,そうじ機,33,produces,0.2121
-Japanese,24,そうじ機,33,understands,0
-Japanese,25,そうじ機,34,produces,0.4412
-Japanese,25,そうじ機,34,understands,0
-Japanese,26,そうじ機,33,produces,0.5455
-Japanese,26,そうじ機,33,understands,0
-Japanese,27,そうじ機,15,produces,0.2667
-Japanese,27,そうじ機,15,understands,0
-Japanese,28,そうじ機,18,produces,0.3889
-Japanese,28,そうじ機,18,understands,0
-Japanese,29,そうじ機,17,produces,0.3529
-Japanese,29,そうじ機,17,understands,0
-Japanese,30,そうじ機,18,produces,0.6111
-Japanese,30,そうじ機,18,understands,0
-Japanese,31,そうじ機,18,produces,0.6111
-Japanese,31,そうじ機,18,understands,0
-Japanese,32,そうじ機,13,produces,0.7692
-Japanese,32,そうじ機,13,understands,0
-Japanese,33,そうじ機,16,produces,0.875
-Japanese,33,そうじ機,16,understands,0
-Japanese,34,そうじ機,13,produces,0.5385
-Japanese,34,そうじ機,13,understands,0
-Japanese,35,そうじ機,31,produces,0.6452
-Japanese,35,そうじ機,31,understands,0
-Japanese,36,そうじ機,18,produces,0.6111
-Japanese,36,そうじ機,18,understands,0
-English (Irish),17,hoover,2,produces,0
-English (Irish),17,hoover,2,understands,0
-English (Irish),18,hoover,1,produces,0
-English (Irish),18,hoover,1,understands,0
-English (Irish),19,hoover,2,produces,1
-English (Irish),19,hoover,2,understands,0
-English (Irish),20,hoover,1,produces,0
-English (Irish),20,hoover,1,understands,0
-English (Irish),21,hoover,3,produces,0
-English (Irish),21,hoover,3,understands,0
-English (Irish),22,hoover,4,produces,0.25
-English (Irish),22,hoover,4,understands,0
-English (Irish),23,hoover,4,produces,0.5
-English (Irish),23,hoover,4,understands,0
-English (Irish),24,hoover,4,produces,0.5
-English (Irish),24,hoover,4,understands,0
-English (Irish),25,hoover,6,produces,0.6667
-English (Irish),25,hoover,6,understands,0
-English (Irish),26,hoover,10,produces,0.4
-English (Irish),26,hoover,10,understands,0
-English (Irish),27,hoover,5,produces,0.6
-English (Irish),27,hoover,5,understands,0
-English (Irish),28,hoover,7,produces,0.8571
-English (Irish),28,hoover,7,understands,0
-English (Irish),29,hoover,4,produces,0.75
-English (Irish),29,hoover,4,understands,0
-English (Irish),30,hoover,9,produces,0.7778
-English (Irish),30,hoover,9,understands,0
-English (Irish),31,hoover,8,produces,0.625
-English (Irish),31,hoover,8,understands,0
-English (Irish),32,hoover,4,produces,0.75
-English (Irish),32,hoover,4,understands,0
-English (Irish),33,hoover,5,produces,0.4
-English (Irish),33,hoover,5,understands,0
-English (Irish),34,hoover,4,produces,0.75
-English (Irish),34,hoover,4,understands,0
-English (Irish),35,hoover,11,produces,0.7273
-English (Irish),35,hoover,11,understands,0
-English (Irish),36,hoover,5,produces,1
-English (Irish),36,hoover,5,understands,0
+language,sex,age,words,n,measure,prop
+English (Irish),All,17,hoover,2,produces,0
+English (Irish),All,17,hoover,2,understands,0
+English (Irish),All,18,hoover,1,produces,0
+English (Irish),All,18,hoover,1,understands,0
+English (Irish),All,19,hoover,2,produces,1
+English (Irish),All,19,hoover,2,understands,0
+English (Irish),All,20,hoover,1,produces,0
+English (Irish),All,20,hoover,1,understands,0
+English (Irish),All,21,hoover,3,produces,0
+English (Irish),All,21,hoover,3,understands,0
+English (Irish),All,22,hoover,4,produces,0.25
+English (Irish),All,22,hoover,4,understands,0
+English (Irish),All,23,hoover,4,produces,0.5
+English (Irish),All,23,hoover,4,understands,0
+English (Irish),All,24,hoover,4,produces,0.5
+English (Irish),All,24,hoover,4,understands,0
+English (Irish),All,25,hoover,6,produces,0.6667
+English (Irish),All,25,hoover,6,understands,0
+English (Irish),All,26,hoover,10,produces,0.4
+English (Irish),All,26,hoover,10,understands,0
+English (Irish),All,27,hoover,5,produces,0.6
+English (Irish),All,27,hoover,5,understands,0
+English (Irish),All,28,hoover,7,produces,0.8571
+English (Irish),All,28,hoover,7,understands,0
+English (Irish),All,29,hoover,4,produces,0.75
+English (Irish),All,29,hoover,4,understands,0
+English (Irish),All,30,hoover,9,produces,0.7778
+English (Irish),All,30,hoover,9,understands,0
+English (Irish),All,31,hoover,8,produces,0.625
+English (Irish),All,31,hoover,8,understands,0
+English (Irish),All,32,hoover,4,produces,0.75
+English (Irish),All,32,hoover,4,understands,0
+English (Irish),All,33,hoover,5,produces,0.4
+English (Irish),All,33,hoover,5,understands,0
+English (Irish),All,34,hoover,4,produces,0.75
+English (Irish),All,34,hoover,4,understands,0
+English (Irish),All,35,hoover,11,produces,0.7273
+English (Irish),All,35,hoover,11,understands,0
+English (Irish),All,36,hoover,5,produces,1
+English (Irish),All,36,hoover,5,understands,0
+Japanese,All,8,そうじ機,6,produces,0
+Japanese,All,8,そうじ機,6,understands,0
+Japanese,All,9,そうじ機,10,produces,0
+Japanese,All,9,そうじ機,10,understands,0
+Japanese,All,10,そうじ機,8,produces,0
+Japanese,All,10,そうじ機,8,understands,0
+Japanese,All,11,そうじ機,87,produces,0
+Japanese,All,11,そうじ機,87,understands,0.069
+Japanese,All,12,そうじ機,118,produces,0
+Japanese,All,12,そうじ機,118,understands,0.0424
+Japanese,All,13,そうじ機,23,produces,0
+Japanese,All,13,そうじ機,23,understands,0.2174
+Japanese,All,14,そうじ機,26,produces,0
+Japanese,All,14,そうじ機,26,understands,0.2308
+Japanese,All,15,そうじ機,72,produces,0
+Japanese,All,15,そうじ機,72,understands,0.1944
+Japanese,All,16,そうじ機,46,produces,0
+Japanese,All,16,そうじ機,46,understands,0.1304
+Japanese,All,17,そうじ機,77,produces,0
+Japanese,All,17,そうじ機,77,understands,0.2857
+Japanese,All,18,そうじ機,94,produces,0.0319
+Japanese,All,18,そうじ機,94,understands,0.1489
+Japanese,All,19,そうじ機,35,produces,0.0286
+Japanese,All,19,そうじ機,35,understands,0
+Japanese,All,20,そうじ機,59,produces,0.0847
+Japanese,All,20,そうじ機,59,understands,0
+Japanese,All,21,そうじ機,62,produces,0.0323
+Japanese,All,21,そうじ機,62,understands,0
+Japanese,All,22,そうじ機,31,produces,0.0968
+Japanese,All,22,そうじ機,31,understands,0
+Japanese,All,23,そうじ機,67,produces,0.1194
+Japanese,All,23,そうじ機,67,understands,0
+Japanese,All,24,そうじ機,33,produces,0.2121
+Japanese,All,24,そうじ機,33,understands,0
+Japanese,All,25,そうじ機,34,produces,0.4412
+Japanese,All,25,そうじ機,34,understands,0
+Japanese,All,26,そうじ機,33,produces,0.5455
+Japanese,All,26,そうじ機,33,understands,0
+Japanese,All,27,そうじ機,15,produces,0.2667
+Japanese,All,27,そうじ機,15,understands,0
+Japanese,All,28,そうじ機,18,produces,0.3889
+Japanese,All,28,そうじ機,18,understands,0
+Japanese,All,29,そうじ機,17,produces,0.3529
+Japanese,All,29,そうじ機,17,understands,0
+Japanese,All,30,そうじ機,18,produces,0.6111
+Japanese,All,30,そうじ機,18,understands,0
+Japanese,All,31,そうじ機,18,produces,0.6111
+Japanese,All,31,そうじ機,18,understands,0
+Japanese,All,32,そうじ機,13,produces,0.7692
+Japanese,All,32,そうじ機,13,understands,0
+Japanese,All,33,そうじ機,16,produces,0.875
+Japanese,All,33,そうじ機,16,understands,0
+Japanese,All,34,そうじ機,13,produces,0.5385
+Japanese,All,34,そうじ機,13,understands,0
+Japanese,All,35,そうじ機,31,produces,0.6452
+Japanese,All,35,そうじ機,31,understands,0
+Japanese,All,36,そうじ機,18,produces,0.6111
+Japanese,All,36,そうじ機,18,understands,0
+English (Irish),Female,17,hoover,1,produces,0
+English (Irish),Female,17,hoover,1,understands,0
+English (Irish),Male,17,hoover,1,produces,0
+English (Irish),Male,17,hoover,1,understands,0
+English (Irish),Female,18,hoover,1,produces,0
+English (Irish),Female,18,hoover,1,understands,0
+English (Irish),Female,19,hoover,1,produces,1
+English (Irish),Female,19,hoover,1,understands,0
+English (Irish),Male,19,hoover,1,produces,1
+English (Irish),Male,19,hoover,1,understands,0
+English (Irish),Female,20,hoover,1,produces,0
+English (Irish),Female,20,hoover,1,understands,0
+English (Irish),Female,21,hoover,2,produces,0
+English (Irish),Female,21,hoover,2,understands,0
+English (Irish),Male,21,hoover,1,produces,0
+English (Irish),Male,21,hoover,1,understands,0
+English (Irish),Female,22,hoover,3,produces,0.3333
+English (Irish),Female,22,hoover,3,understands,0
+English (Irish),Male,22,hoover,1,produces,0
+English (Irish),Male,22,hoover,1,understands,0
+English (Irish),Female,23,hoover,2,produces,0.5
+English (Irish),Female,23,hoover,2,understands,0
+English (Irish),Male,23,hoover,2,produces,0.5
+English (Irish),Male,23,hoover,2,understands,0
+English (Irish),Female,24,hoover,2,produces,1
+English (Irish),Female,24,hoover,2,understands,0
+English (Irish),Male,24,hoover,2,produces,0
+English (Irish),Male,24,hoover,2,understands,0
+English (Irish),Female,25,hoover,3,produces,0.6667
+English (Irish),Female,25,hoover,3,understands,0
+English (Irish),Male,25,hoover,3,produces,0.6667
+English (Irish),Male,25,hoover,3,understands,0
+English (Irish),Female,26,hoover,7,produces,0.2857
+English (Irish),Female,26,hoover,7,understands,0
+English (Irish),Male,26,hoover,3,produces,0.6667
+English (Irish),Male,26,hoover,3,understands,0
+English (Irish),Female,27,hoover,1,produces,0
+English (Irish),Female,27,hoover,1,understands,0
+English (Irish),Male,27,hoover,4,produces,0.75
+English (Irish),Male,27,hoover,4,understands,0
+English (Irish),Female,28,hoover,4,produces,0.75
+English (Irish),Female,28,hoover,4,understands,0
+English (Irish),Male,28,hoover,3,produces,1
+English (Irish),Male,28,hoover,3,understands,0
+English (Irish),Female,29,hoover,1,produces,1
+English (Irish),Female,29,hoover,1,understands,0
+English (Irish),Male,29,hoover,3,produces,0.6667
+English (Irish),Male,29,hoover,3,understands,0
+English (Irish),Female,30,hoover,5,produces,0.6
+English (Irish),Female,30,hoover,5,understands,0
+English (Irish),Male,30,hoover,4,produces,1
+English (Irish),Male,30,hoover,4,understands,0
+English (Irish),Female,31,hoover,3,produces,0.6667
+English (Irish),Female,31,hoover,3,understands,0
+English (Irish),Male,31,hoover,5,produces,0.6
+English (Irish),Male,31,hoover,5,understands,0
+English (Irish),Female,32,hoover,2,produces,1
+English (Irish),Female,32,hoover,2,understands,0
+English (Irish),Male,32,hoover,2,produces,0.5
+English (Irish),Male,32,hoover,2,understands,0
+English (Irish),Female,33,hoover,1,produces,1
+English (Irish),Female,33,hoover,1,understands,0
+English (Irish),Male,33,hoover,4,produces,0.25
+English (Irish),Male,33,hoover,4,understands,0
+English (Irish),Female,34,hoover,2,produces,0.5
+English (Irish),Female,34,hoover,2,understands,0
+English (Irish),Male,34,hoover,2,produces,1
+English (Irish),Male,34,hoover,2,understands,0
+English (Irish),Female,35,hoover,2,produces,0.5
+English (Irish),Female,35,hoover,2,understands,0
+English (Irish),Male,35,hoover,9,produces,0.7778
+English (Irish),Male,35,hoover,9,understands,0
+English (Irish),Female,36,hoover,3,produces,1
+English (Irish),Female,36,hoover,3,understands,0
+English (Irish),Male,36,hoover,2,produces,1
+English (Irish),Male,36,hoover,2,understands,0
+Japanese,Female,8,そうじ機,2,produces,0
+Japanese,Female,8,そうじ機,2,understands,0
+Japanese,Male,8,そうじ機,4,produces,0
+Japanese,Male,8,そうじ機,4,understands,0
+Japanese,Female,9,そうじ機,4,produces,0
+Japanese,Female,9,そうじ機,4,understands,0
+Japanese,Male,9,そうじ機,6,produces,0
+Japanese,Male,9,そうじ機,6,understands,0
+Japanese,Female,10,そうじ機,2,produces,0
+Japanese,Female,10,そうじ機,2,understands,0
+Japanese,Male,10,そうじ機,6,produces,0
+Japanese,Male,10,そうじ機,6,understands,0
+Japanese,Female,11,そうじ機,58,produces,0
+Japanese,Female,11,そうじ機,58,understands,0.0862
+Japanese,Male,11,そうじ機,29,produces,0
+Japanese,Male,11,そうじ機,29,understands,0.0345
+Japanese,Female,12,そうじ機,56,produces,0
+Japanese,Female,12,そうじ機,56,understands,0.0714
+Japanese,Male,12,そうじ機,62,produces,0
+Japanese,Male,12,そうじ機,62,understands,0.0161
+Japanese,Female,13,そうじ機,10,produces,0
+Japanese,Female,13,そうじ機,10,understands,0.1
+Japanese,Male,13,そうじ機,13,produces,0
+Japanese,Male,13,そうじ機,13,understands,0.3077
+Japanese,Female,14,そうじ機,15,produces,0
+Japanese,Female,14,そうじ機,15,understands,0.2667
+Japanese,Male,14,そうじ機,11,produces,0
+Japanese,Male,14,そうじ機,11,understands,0.1818
+Japanese,Female,15,そうじ機,38,produces,0
+Japanese,Female,15,そうじ機,38,understands,0.1842
+Japanese,Male,15,そうじ機,34,produces,0
+Japanese,Male,15,そうじ機,34,understands,0.2059
+Japanese,Female,16,そうじ機,23,produces,0
+Japanese,Female,16,そうじ機,23,understands,0.0435
+Japanese,Male,16,そうじ機,23,produces,0
+Japanese,Male,16,そうじ機,23,understands,0.2174
+Japanese,Female,17,そうじ機,51,produces,0
+Japanese,Female,17,そうじ機,51,understands,0.2549
+Japanese,Male,17,そうじ機,26,produces,0
+Japanese,Male,17,そうじ機,26,understands,0.3462
+Japanese,Female,18,そうじ機,47,produces,0.0638
+Japanese,Female,18,そうじ機,47,understands,0.1702
+Japanese,Male,18,そうじ機,47,produces,0
+Japanese,Male,18,そうじ機,47,understands,0.1277
+Japanese,Female,19,そうじ機,14,produces,0
+Japanese,Female,19,そうじ機,14,understands,0
+Japanese,Male,19,そうじ機,21,produces,0.0476
+Japanese,Male,19,そうじ機,21,understands,0
+Japanese,Female,20,そうじ機,27,produces,0.1111
+Japanese,Female,20,そうじ機,27,understands,0
+Japanese,Male,20,そうじ機,32,produces,0.0625
+Japanese,Male,20,そうじ機,32,understands,0
+Japanese,Female,21,そうじ機,29,produces,0.0345
+Japanese,Female,21,そうじ機,29,understands,0
+Japanese,Male,21,そうじ機,33,produces,0.0303
+Japanese,Male,21,そうじ機,33,understands,0
+Japanese,Female,22,そうじ機,16,produces,0.0625
+Japanese,Female,22,そうじ機,16,understands,0
+Japanese,Male,22,そうじ機,15,produces,0.1333
+Japanese,Male,22,そうじ機,15,understands,0
+Japanese,Female,23,そうじ機,38,produces,0.1053
+Japanese,Female,23,そうじ機,38,understands,0
+Japanese,Male,23,そうじ機,29,produces,0.1379
+Japanese,Male,23,そうじ機,29,understands,0
+Japanese,Female,24,そうじ機,18,produces,0.2222
+Japanese,Female,24,そうじ機,18,understands,0
+Japanese,Male,24,そうじ機,15,produces,0.2
+Japanese,Male,24,そうじ機,15,understands,0
+Japanese,Female,25,そうじ機,14,produces,0.5714
+Japanese,Female,25,そうじ機,14,understands,0
+Japanese,Male,25,そうじ機,20,produces,0.35
+Japanese,Male,25,そうじ機,20,understands,0
+Japanese,Female,26,そうじ機,19,produces,0.5789
+Japanese,Female,26,そうじ機,19,understands,0
+Japanese,Male,26,そうじ機,14,produces,0.5
+Japanese,Male,26,そうじ機,14,understands,0
+Japanese,Female,27,そうじ機,8,produces,0
+Japanese,Female,27,そうじ機,8,understands,0
+Japanese,Male,27,そうじ機,7,produces,0.5714
+Japanese,Male,27,そうじ機,7,understands,0
+Japanese,Female,28,そうじ機,8,produces,0.5
+Japanese,Female,28,そうじ機,8,understands,0
+Japanese,Male,28,そうじ機,10,produces,0.3
+Japanese,Male,28,そうじ機,10,understands,0
+Japanese,Female,29,そうじ機,6,produces,0.1667
+Japanese,Female,29,そうじ機,6,understands,0
+Japanese,Male,29,そうじ機,11,produces,0.4545
+Japanese,Male,29,そうじ機,11,understands,0
+Japanese,Female,30,そうじ機,9,produces,0.4444
+Japanese,Female,30,そうじ機,9,understands,0
+Japanese,Male,30,そうじ機,9,produces,0.7778
+Japanese,Male,30,そうじ機,9,understands,0
+Japanese,Female,31,そうじ機,8,produces,0.625
+Japanese,Female,31,そうじ機,8,understands,0
+Japanese,Male,31,そうじ機,10,produces,0.6
+Japanese,Male,31,そうじ機,10,understands,0
+Japanese,Female,32,そうじ機,8,produces,0.625
+Japanese,Female,32,そうじ機,8,understands,0
+Japanese,Male,32,そうじ機,5,produces,1
+Japanese,Male,32,そうじ機,5,understands,0
+Japanese,Female,33,そうじ機,9,produces,1
+Japanese,Female,33,そうじ機,9,understands,0
+Japanese,Male,33,そうじ機,7,produces,0.7143
+Japanese,Male,33,そうじ機,7,understands,0
+Japanese,Female,34,そうじ機,8,produces,0.75
+Japanese,Female,34,そうじ機,8,understands,0
+Japanese,Male,34,そうじ機,5,produces,0.2
+Japanese,Male,34,そうじ機,5,understands,0
+Japanese,Female,35,そうじ機,19,produces,0.7368
+Japanese,Female,35,そうじ機,19,understands,0
+Japanese,Male,35,そうじ機,12,produces,0.5
+Japanese,Male,35,そうじ機,12,understands,0
+Japanese,Female,36,そうじ機,4,produces,0.75
+Japanese,Female,36,そうじ機,4,understands,0
+Japanese,Male,36,そうじ機,14,produces,0.5714
+Japanese,Male,36,そうじ機,14,understands,0

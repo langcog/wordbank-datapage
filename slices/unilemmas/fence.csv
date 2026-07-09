@@ -1,117 +1,341 @@
-language,age,words,n,measure,prop
-Croatian,16,ograda,13,produces,0
-Croatian,16,ograda,13,understands,0
-Croatian,17,ograda,25,produces,0
-Croatian,17,ograda,25,understands,0
-Croatian,18,ograda,22,produces,0
-Croatian,18,ograda,22,understands,0
-Croatian,19,ograda,21,produces,0.0952
-Croatian,19,ograda,21,understands,0
-Croatian,20,ograda,26,produces,0.0385
-Croatian,20,ograda,26,understands,0
-Croatian,21,ograda,29,produces,0
-Croatian,21,ograda,29,understands,0
-Croatian,22,ograda,24,produces,0
-Croatian,22,ograda,24,understands,0
-Croatian,23,ograda,26,produces,0.1538
-Croatian,23,ograda,26,understands,0
-Croatian,24,ograda,30,produces,0.2
-Croatian,24,ograda,30,understands,0
-Croatian,25,ograda,30,produces,0.1333
-Croatian,25,ograda,30,understands,0
-Croatian,26,ograda,29,produces,0.2069
-Croatian,26,ograda,29,understands,0
-Croatian,27,ograda,25,produces,0.2
-Croatian,27,ograda,25,understands,0
-Croatian,28,ograda,21,produces,0.381
-Croatian,28,ograda,21,understands,0
-Croatian,29,ograda,28,produces,0.3571
-Croatian,29,ograda,28,understands,0
-Croatian,30,ograda,28,produces,0.4286
-Croatian,30,ograda,28,understands,0
-Dutch,28,hek/omheining,1,produces,1
-Dutch,28,hek/omheining,1,understands,0
-Dutch,29,hek/omheining,48,produces,0.7083
-Dutch,29,hek/omheining,48,understands,0
-Dutch,30,hek/omheining,21,produces,0.7143
-Dutch,30,hek/omheining,21,understands,0
-Dutch,31,hek/omheining,5,produces,0.8
-Dutch,31,hek/omheining,5,understands,0
-Dutch,32,hek/omheining,5,produces,0.8
-Dutch,32,hek/omheining,5,understands,0
-Dutch,33,hek/omheining,3,produces,1
-Dutch,33,hek/omheining,3,understands,0
-Dutch,34,hek/omheining,5,produces,1
-Dutch,34,hek/omheining,5,understands,0
-Dutch,35,hek/omheining,3,produces,0.6667
-Dutch,35,hek/omheining,3,understands,0
-Dutch,36,hek/omheining,6,produces,1
-Dutch,36,hek/omheining,6,understands,0
-English (British),34,fence,443,produces,0.7381
-English (British),34,fence,443,understands,0
-English (British),35,fence,3693,produces,0.7471
-English (British),35,fence,3693,understands,0
-English (British),36,fence,5244,produces,0.7639
-English (British),36,fence,5244,understands,0
-English (British),37,fence,906,produces,0.7627
-English (British),37,fence,906,understands,0
-English (British),38,fence,264,produces,0.6477
-English (British),38,fence,264,understands,0
-English (British),39,fence,99,produces,0.8485
-English (British),39,fence,99,understands,0
-English (British),40,fence,48,produces,0.7083
-English (British),40,fence,48,understands,0
-English (British),41,fence,24,produces,0.7917
-English (British),41,fence,24,understands,0
-English (British),42,fence,23,produces,0.6957
-English (British),42,fence,23,understands,0
-English (British),43,fence,12,produces,1
-English (British),43,fence,12,understands,0
-English (British),44,fence,9,produces,0.6667
-English (British),44,fence,9,understands,0
-English (British),45,fence,12,produces,0.5833
-English (British),45,fence,12,understands,0
-English (British),46,fence,5,produces,0
-English (British),46,fence,5,understands,0
-English (British),47,fence,8,produces,0.75
-English (British),47,fence,8,understands,0
-English (Irish),17,fence,2,produces,0
-English (Irish),17,fence,2,understands,0
-English (Irish),18,fence,1,produces,0
-English (Irish),18,fence,1,understands,0
-English (Irish),19,fence,2,produces,0
-English (Irish),19,fence,2,understands,0
-English (Irish),20,fence,1,produces,0
-English (Irish),20,fence,1,understands,0
-English (Irish),21,fence,3,produces,0
-English (Irish),21,fence,3,understands,0
-English (Irish),22,fence,4,produces,0
-English (Irish),22,fence,4,understands,0
-English (Irish),23,fence,4,produces,0
-English (Irish),23,fence,4,understands,0
-English (Irish),24,fence,4,produces,0
-English (Irish),24,fence,4,understands,0
-English (Irish),25,fence,6,produces,0
-English (Irish),25,fence,6,understands,0
-English (Irish),26,fence,10,produces,0
-English (Irish),26,fence,10,understands,0
-English (Irish),27,fence,5,produces,0
-English (Irish),27,fence,5,understands,0
-English (Irish),28,fence,7,produces,0.1429
-English (Irish),28,fence,7,understands,0
-English (Irish),29,fence,4,produces,0
-English (Irish),29,fence,4,understands,0
-English (Irish),30,fence,9,produces,0
-English (Irish),30,fence,9,understands,0
-English (Irish),31,fence,8,produces,0.125
-English (Irish),31,fence,8,understands,0
-English (Irish),32,fence,4,produces,0.25
-English (Irish),32,fence,4,understands,0
-English (Irish),33,fence,5,produces,0.2
-English (Irish),33,fence,5,understands,0
-English (Irish),34,fence,4,produces,0.5
-English (Irish),34,fence,4,understands,0
-English (Irish),35,fence,11,produces,0.0909
-English (Irish),35,fence,11,understands,0
-English (Irish),36,fence,5,produces,0
-English (Irish),36,fence,5,understands,0
+language,sex,age,words,n,measure,prop
+Croatian,All,16,ograda,13,produces,0
+Croatian,All,16,ograda,13,understands,0
+Croatian,All,17,ograda,25,produces,0
+Croatian,All,17,ograda,25,understands,0
+Croatian,All,18,ograda,22,produces,0
+Croatian,All,18,ograda,22,understands,0
+Croatian,All,19,ograda,21,produces,0.0952
+Croatian,All,19,ograda,21,understands,0
+Croatian,All,20,ograda,26,produces,0.0385
+Croatian,All,20,ograda,26,understands,0
+Croatian,All,21,ograda,29,produces,0
+Croatian,All,21,ograda,29,understands,0
+Croatian,All,22,ograda,24,produces,0
+Croatian,All,22,ograda,24,understands,0
+Croatian,All,23,ograda,26,produces,0.1538
+Croatian,All,23,ograda,26,understands,0
+Croatian,All,24,ograda,30,produces,0.2
+Croatian,All,24,ograda,30,understands,0
+Croatian,All,25,ograda,30,produces,0.1333
+Croatian,All,25,ograda,30,understands,0
+Croatian,All,26,ograda,29,produces,0.2069
+Croatian,All,26,ograda,29,understands,0
+Croatian,All,27,ograda,25,produces,0.2
+Croatian,All,27,ograda,25,understands,0
+Croatian,All,28,ograda,21,produces,0.381
+Croatian,All,28,ograda,21,understands,0
+Croatian,All,29,ograda,28,produces,0.3571
+Croatian,All,29,ograda,28,understands,0
+Croatian,All,30,ograda,28,produces,0.4286
+Croatian,All,30,ograda,28,understands,0
+Dutch,All,28,hek/omheining,1,produces,1
+Dutch,All,28,hek/omheining,1,understands,0
+Dutch,All,29,hek/omheining,48,produces,0.7083
+Dutch,All,29,hek/omheining,48,understands,0
+Dutch,All,30,hek/omheining,21,produces,0.7143
+Dutch,All,30,hek/omheining,21,understands,0
+Dutch,All,31,hek/omheining,5,produces,0.8
+Dutch,All,31,hek/omheining,5,understands,0
+Dutch,All,32,hek/omheining,5,produces,0.8
+Dutch,All,32,hek/omheining,5,understands,0
+Dutch,All,33,hek/omheining,3,produces,1
+Dutch,All,33,hek/omheining,3,understands,0
+Dutch,All,34,hek/omheining,5,produces,1
+Dutch,All,34,hek/omheining,5,understands,0
+Dutch,All,35,hek/omheining,3,produces,0.6667
+Dutch,All,35,hek/omheining,3,understands,0
+Dutch,All,36,hek/omheining,6,produces,1
+Dutch,All,36,hek/omheining,6,understands,0
+English (British),All,34,fence,443,produces,0.7381
+English (British),All,34,fence,443,understands,0
+English (British),All,35,fence,3693,produces,0.7471
+English (British),All,35,fence,3693,understands,0
+English (British),All,36,fence,5244,produces,0.7639
+English (British),All,36,fence,5244,understands,0
+English (British),All,37,fence,906,produces,0.7627
+English (British),All,37,fence,906,understands,0
+English (British),All,38,fence,264,produces,0.6477
+English (British),All,38,fence,264,understands,0
+English (British),All,39,fence,99,produces,0.8485
+English (British),All,39,fence,99,understands,0
+English (British),All,40,fence,48,produces,0.7083
+English (British),All,40,fence,48,understands,0
+English (British),All,41,fence,24,produces,0.7917
+English (British),All,41,fence,24,understands,0
+English (British),All,42,fence,23,produces,0.6957
+English (British),All,42,fence,23,understands,0
+English (British),All,43,fence,12,produces,1
+English (British),All,43,fence,12,understands,0
+English (British),All,44,fence,9,produces,0.6667
+English (British),All,44,fence,9,understands,0
+English (British),All,45,fence,12,produces,0.5833
+English (British),All,45,fence,12,understands,0
+English (British),All,46,fence,5,produces,0
+English (British),All,46,fence,5,understands,0
+English (British),All,47,fence,8,produces,0.75
+English (British),All,47,fence,8,understands,0
+English (Irish),All,17,fence,2,produces,0
+English (Irish),All,17,fence,2,understands,0
+English (Irish),All,18,fence,1,produces,0
+English (Irish),All,18,fence,1,understands,0
+English (Irish),All,19,fence,2,produces,0
+English (Irish),All,19,fence,2,understands,0
+English (Irish),All,20,fence,1,produces,0
+English (Irish),All,20,fence,1,understands,0
+English (Irish),All,21,fence,3,produces,0
+English (Irish),All,21,fence,3,understands,0
+English (Irish),All,22,fence,4,produces,0
+English (Irish),All,22,fence,4,understands,0
+English (Irish),All,23,fence,4,produces,0
+English (Irish),All,23,fence,4,understands,0
+English (Irish),All,24,fence,4,produces,0
+English (Irish),All,24,fence,4,understands,0
+English (Irish),All,25,fence,6,produces,0
+English (Irish),All,25,fence,6,understands,0
+English (Irish),All,26,fence,10,produces,0
+English (Irish),All,26,fence,10,understands,0
+English (Irish),All,27,fence,5,produces,0
+English (Irish),All,27,fence,5,understands,0
+English (Irish),All,28,fence,7,produces,0.1429
+English (Irish),All,28,fence,7,understands,0
+English (Irish),All,29,fence,4,produces,0
+English (Irish),All,29,fence,4,understands,0
+English (Irish),All,30,fence,9,produces,0
+English (Irish),All,30,fence,9,understands,0
+English (Irish),All,31,fence,8,produces,0.125
+English (Irish),All,31,fence,8,understands,0
+English (Irish),All,32,fence,4,produces,0.25
+English (Irish),All,32,fence,4,understands,0
+English (Irish),All,33,fence,5,produces,0.2
+English (Irish),All,33,fence,5,understands,0
+English (Irish),All,34,fence,4,produces,0.5
+English (Irish),All,34,fence,4,understands,0
+English (Irish),All,35,fence,11,produces,0.0909
+English (Irish),All,35,fence,11,understands,0
+English (Irish),All,36,fence,5,produces,0
+English (Irish),All,36,fence,5,understands,0
+Croatian,Female,16,ograda,7,produces,0
+Croatian,Female,16,ograda,7,understands,0
+Croatian,Male,16,ograda,6,produces,0
+Croatian,Male,16,ograda,6,understands,0
+Croatian,Female,17,ograda,12,produces,0
+Croatian,Female,17,ograda,12,understands,0
+Croatian,Male,17,ograda,13,produces,0
+Croatian,Male,17,ograda,13,understands,0
+Croatian,Female,18,ograda,8,produces,0
+Croatian,Female,18,ograda,8,understands,0
+Croatian,Male,18,ograda,14,produces,0
+Croatian,Male,18,ograda,14,understands,0
+Croatian,Female,19,ograda,14,produces,0.1429
+Croatian,Female,19,ograda,14,understands,0
+Croatian,Male,19,ograda,7,produces,0
+Croatian,Male,19,ograda,7,understands,0
+Croatian,Female,20,ograda,13,produces,0
+Croatian,Female,20,ograda,13,understands,0
+Croatian,Male,20,ograda,13,produces,0.0769
+Croatian,Male,20,ograda,13,understands,0
+Croatian,Female,21,ograda,13,produces,0
+Croatian,Female,21,ograda,13,understands,0
+Croatian,Male,21,ograda,16,produces,0
+Croatian,Male,21,ograda,16,understands,0
+Croatian,Female,22,ograda,14,produces,0
+Croatian,Female,22,ograda,14,understands,0
+Croatian,Male,22,ograda,10,produces,0
+Croatian,Male,22,ograda,10,understands,0
+Croatian,Female,23,ograda,14,produces,0.1429
+Croatian,Female,23,ograda,14,understands,0
+Croatian,Male,23,ograda,12,produces,0.1667
+Croatian,Male,23,ograda,12,understands,0
+Croatian,Female,24,ograda,14,produces,0.2143
+Croatian,Female,24,ograda,14,understands,0
+Croatian,Male,24,ograda,16,produces,0.1875
+Croatian,Male,24,ograda,16,understands,0
+Croatian,Female,25,ograda,14,produces,0.2857
+Croatian,Female,25,ograda,14,understands,0
+Croatian,Male,25,ograda,16,produces,0
+Croatian,Male,25,ograda,16,understands,0
+Croatian,Female,26,ograda,11,produces,0.2727
+Croatian,Female,26,ograda,11,understands,0
+Croatian,Male,26,ograda,18,produces,0.1667
+Croatian,Male,26,ograda,18,understands,0
+Croatian,Female,27,ograda,11,produces,0.1818
+Croatian,Female,27,ograda,11,understands,0
+Croatian,Male,27,ograda,14,produces,0.2143
+Croatian,Male,27,ograda,14,understands,0
+Croatian,Female,28,ograda,8,produces,0.5
+Croatian,Female,28,ograda,8,understands,0
+Croatian,Male,28,ograda,13,produces,0.3077
+Croatian,Male,28,ograda,13,understands,0
+Croatian,Female,29,ograda,15,produces,0.3333
+Croatian,Female,29,ograda,15,understands,0
+Croatian,Male,29,ograda,13,produces,0.3846
+Croatian,Male,29,ograda,13,understands,0
+Croatian,Female,30,ograda,11,produces,0.3636
+Croatian,Female,30,ograda,11,understands,0
+Croatian,Male,30,ograda,17,produces,0.4706
+Croatian,Male,30,ograda,17,understands,0
+Dutch,Male,28,hek/omheining,1,produces,1
+Dutch,Male,28,hek/omheining,1,understands,0
+Dutch,Female,29,hek/omheining,15,produces,0.6
+Dutch,Female,29,hek/omheining,15,understands,0
+Dutch,Male,29,hek/omheining,12,produces,0.6667
+Dutch,Male,29,hek/omheining,12,understands,0
+Dutch,Female,30,hek/omheining,4,produces,0.5
+Dutch,Female,30,hek/omheining,4,understands,0
+Dutch,Male,30,hek/omheining,3,produces,0.3333
+Dutch,Male,30,hek/omheining,3,understands,0
+Dutch,Female,31,hek/omheining,2,produces,0.5
+Dutch,Female,31,hek/omheining,2,understands,0
+Dutch,Male,31,hek/omheining,3,produces,1
+Dutch,Male,31,hek/omheining,3,understands,0
+Dutch,Female,32,hek/omheining,1,produces,0
+Dutch,Female,32,hek/omheining,1,understands,0
+Dutch,Male,32,hek/omheining,4,produces,1
+Dutch,Male,32,hek/omheining,4,understands,0
+Dutch,Female,33,hek/omheining,1,produces,1
+Dutch,Female,33,hek/omheining,1,understands,0
+Dutch,Male,33,hek/omheining,2,produces,1
+Dutch,Male,33,hek/omheining,2,understands,0
+Dutch,Male,34,hek/omheining,4,produces,1
+Dutch,Male,34,hek/omheining,4,understands,0
+Dutch,Female,35,hek/omheining,1,produces,1
+Dutch,Female,35,hek/omheining,1,understands,0
+Dutch,Male,35,hek/omheining,2,produces,0.5
+Dutch,Male,35,hek/omheining,2,understands,0
+Dutch,Female,36,hek/omheining,3,produces,1
+Dutch,Female,36,hek/omheining,3,understands,0
+Dutch,Male,36,hek/omheining,3,produces,1
+Dutch,Male,36,hek/omheining,3,understands,0
+English (British),Female,34,fence,247,produces,0.7166
+English (British),Female,34,fence,247,understands,0
+English (British),Male,34,fence,196,produces,0.7653
+English (British),Male,34,fence,196,understands,0
+English (British),Female,35,fence,1927,produces,0.7556
+English (British),Female,35,fence,1927,understands,0
+English (British),Male,35,fence,1766,produces,0.7378
+English (British),Male,35,fence,1766,understands,0
+English (British),Female,36,fence,2650,produces,0.7857
+English (British),Female,36,fence,2650,understands,0
+English (British),Male,36,fence,2594,produces,0.7417
+English (British),Male,36,fence,2594,understands,0
+English (British),Female,37,fence,434,produces,0.7535
+English (British),Female,37,fence,434,understands,0
+English (British),Male,37,fence,472,produces,0.7712
+English (British),Male,37,fence,472,understands,0
+English (British),Female,38,fence,136,produces,0.625
+English (British),Female,38,fence,136,understands,0
+English (British),Male,38,fence,128,produces,0.6719
+English (British),Male,38,fence,128,understands,0
+English (British),Female,39,fence,52,produces,0.8462
+English (British),Female,39,fence,52,understands,0
+English (British),Male,39,fence,47,produces,0.8511
+English (British),Male,39,fence,47,understands,0
+English (British),Female,40,fence,29,produces,0.7586
+English (British),Female,40,fence,29,understands,0
+English (British),Male,40,fence,19,produces,0.6316
+English (British),Male,40,fence,19,understands,0
+English (British),Female,41,fence,10,produces,0.7
+English (British),Female,41,fence,10,understands,0
+English (British),Male,41,fence,14,produces,0.8571
+English (British),Male,41,fence,14,understands,0
+English (British),Female,42,fence,10,produces,0.6
+English (British),Female,42,fence,10,understands,0
+English (British),Male,42,fence,13,produces,0.7692
+English (British),Male,42,fence,13,understands,0
+English (British),Female,43,fence,3,produces,1
+English (British),Female,43,fence,3,understands,0
+English (British),Male,43,fence,9,produces,1
+English (British),Male,43,fence,9,understands,0
+English (British),Female,44,fence,4,produces,0.75
+English (British),Female,44,fence,4,understands,0
+English (British),Male,44,fence,5,produces,0.6
+English (British),Male,44,fence,5,understands,0
+English (British),Female,45,fence,8,produces,0.5
+English (British),Female,45,fence,8,understands,0
+English (British),Male,45,fence,4,produces,0.75
+English (British),Male,45,fence,4,understands,0
+English (British),Female,46,fence,3,produces,0
+English (British),Female,46,fence,3,understands,0
+English (British),Male,46,fence,2,produces,0
+English (British),Male,46,fence,2,understands,0
+English (British),Female,47,fence,5,produces,0.8
+English (British),Female,47,fence,5,understands,0
+English (British),Male,47,fence,3,produces,0.6667
+English (British),Male,47,fence,3,understands,0
+English (Irish),Female,17,fence,1,produces,0
+English (Irish),Female,17,fence,1,understands,0
+English (Irish),Male,17,fence,1,produces,0
+English (Irish),Male,17,fence,1,understands,0
+English (Irish),Female,18,fence,1,produces,0
+English (Irish),Female,18,fence,1,understands,0
+English (Irish),Female,19,fence,1,produces,0
+English (Irish),Female,19,fence,1,understands,0
+English (Irish),Male,19,fence,1,produces,0
+English (Irish),Male,19,fence,1,understands,0
+English (Irish),Female,20,fence,1,produces,0
+English (Irish),Female,20,fence,1,understands,0
+English (Irish),Female,21,fence,2,produces,0
+English (Irish),Female,21,fence,2,understands,0
+English (Irish),Male,21,fence,1,produces,0
+English (Irish),Male,21,fence,1,understands,0
+English (Irish),Female,22,fence,3,produces,0
+English (Irish),Female,22,fence,3,understands,0
+English (Irish),Male,22,fence,1,produces,0
+English (Irish),Male,22,fence,1,understands,0
+English (Irish),Female,23,fence,2,produces,0
+English (Irish),Female,23,fence,2,understands,0
+English (Irish),Male,23,fence,2,produces,0
+English (Irish),Male,23,fence,2,understands,0
+English (Irish),Female,24,fence,2,produces,0
+English (Irish),Female,24,fence,2,understands,0
+English (Irish),Male,24,fence,2,produces,0
+English (Irish),Male,24,fence,2,understands,0
+English (Irish),Female,25,fence,3,produces,0
+English (Irish),Female,25,fence,3,understands,0
+English (Irish),Male,25,fence,3,produces,0
+English (Irish),Male,25,fence,3,understands,0
+English (Irish),Female,26,fence,7,produces,0
+English (Irish),Female,26,fence,7,understands,0
+English (Irish),Male,26,fence,3,produces,0
+English (Irish),Male,26,fence,3,understands,0
+English (Irish),Female,27,fence,1,produces,0
+English (Irish),Female,27,fence,1,understands,0
+English (Irish),Male,27,fence,4,produces,0
+English (Irish),Male,27,fence,4,understands,0
+English (Irish),Female,28,fence,4,produces,0.25
+English (Irish),Female,28,fence,4,understands,0
+English (Irish),Male,28,fence,3,produces,0
+English (Irish),Male,28,fence,3,understands,0
+English (Irish),Female,29,fence,1,produces,0
+English (Irish),Female,29,fence,1,understands,0
+English (Irish),Male,29,fence,3,produces,0
+English (Irish),Male,29,fence,3,understands,0
+English (Irish),Female,30,fence,5,produces,0
+English (Irish),Female,30,fence,5,understands,0
+English (Irish),Male,30,fence,4,produces,0
+English (Irish),Male,30,fence,4,understands,0
+English (Irish),Female,31,fence,3,produces,0
+English (Irish),Female,31,fence,3,understands,0
+English (Irish),Male,31,fence,5,produces,0.2
+English (Irish),Male,31,fence,5,understands,0
+English (Irish),Female,32,fence,2,produces,0.5
+English (Irish),Female,32,fence,2,understands,0
+English (Irish),Male,32,fence,2,produces,0
+English (Irish),Male,32,fence,2,understands,0
+English (Irish),Female,33,fence,1,produces,0
+English (Irish),Female,33,fence,1,understands,0
+English (Irish),Male,33,fence,4,produces,0.25
+English (Irish),Male,33,fence,4,understands,0
+English (Irish),Female,34,fence,2,produces,1
+English (Irish),Female,34,fence,2,understands,0
+English (Irish),Male,34,fence,2,produces,0
+English (Irish),Male,34,fence,2,understands,0
+English (Irish),Female,35,fence,2,produces,0
+English (Irish),Female,35,fence,2,understands,0
+English (Irish),Male,35,fence,9,produces,0.1111
+English (Irish),Male,35,fence,9,understands,0
+English (Irish),Female,36,fence,3,produces,0
+English (Irish),Female,36,fence,3,understands,0
+English (Irish),Male,36,fence,2,produces,0
+English (Irish),Male,36,fence,2,understands,0

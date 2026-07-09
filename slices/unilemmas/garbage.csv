@@ -1,89 +1,265 @@
-language,age,words,n,measure,prop
-Mandarin (Taiwanese),8,垃圾,86,produces,0
-Mandarin (Taiwanese),8,垃圾,86,understands,0.2093
-Mandarin (Taiwanese),9,垃圾,79,produces,0
-Mandarin (Taiwanese),9,垃圾,79,understands,0.3291
-Mandarin (Taiwanese),10,垃圾,78,produces,0
-Mandarin (Taiwanese),10,垃圾,78,understands,0.0769
-Mandarin (Taiwanese),11,垃圾,79,produces,0.0127
-Mandarin (Taiwanese),11,垃圾,79,understands,0.1013
-Mandarin (Taiwanese),12,垃圾,80,produces,0
-Mandarin (Taiwanese),12,垃圾,80,understands,0.1
-Mandarin (Taiwanese),13,垃圾,78,produces,0.0128
-Mandarin (Taiwanese),13,垃圾,78,understands,0.1026
-Mandarin (Taiwanese),14,垃圾,81,produces,0.037
-Mandarin (Taiwanese),14,垃圾,81,understands,0.1235
-Mandarin (Taiwanese),15,垃圾,106,produces,0.0472
-Mandarin (Taiwanese),15,垃圾,106,understands,0.2642
-Mandarin (Taiwanese),16,垃圾,170,produces,0.0529
-Mandarin (Taiwanese),16,垃圾,170,understands,0.1529
-Mandarin (Taiwanese),17,垃圾,87,produces,0.0575
-Mandarin (Taiwanese),17,垃圾,87,understands,0
-Mandarin (Taiwanese),18,垃圾,84,produces,0.0833
-Mandarin (Taiwanese),18,垃圾,84,understands,0
-Mandarin (Taiwanese),19,垃圾,84,produces,0.1786
-Mandarin (Taiwanese),19,垃圾,84,understands,0
-Mandarin (Taiwanese),20,垃圾,84,produces,0.131
-Mandarin (Taiwanese),20,垃圾,84,understands,0
-Mandarin (Taiwanese),21,垃圾,88,produces,0.2386
-Mandarin (Taiwanese),21,垃圾,88,understands,0
-Mandarin (Taiwanese),22,垃圾,96,produces,0.2604
-Mandarin (Taiwanese),22,垃圾,96,understands,0
-Mandarin (Taiwanese),23,垃圾,105,produces,0.3143
-Mandarin (Taiwanese),23,垃圾,105,understands,0
-Mandarin (Taiwanese),24,垃圾,124,produces,0.4758
-Mandarin (Taiwanese),24,垃圾,124,understands,0
-Mandarin (Taiwanese),25,垃圾,110,produces,0.4727
-Mandarin (Taiwanese),25,垃圾,110,understands,0
-Mandarin (Taiwanese),26,垃圾,87,produces,0.5632
-Mandarin (Taiwanese),26,垃圾,87,understands,0
-Mandarin (Taiwanese),27,垃圾,92,produces,0.5435
-Mandarin (Taiwanese),27,垃圾,92,understands,0
-Mandarin (Taiwanese),28,垃圾,100,produces,0.68
-Mandarin (Taiwanese),28,垃圾,100,understands,0
-Mandarin (Taiwanese),29,垃圾,88,produces,0.7386
-Mandarin (Taiwanese),29,垃圾,88,understands,0
-Mandarin (Taiwanese),30,垃圾,94,produces,0.7553
-Mandarin (Taiwanese),30,垃圾,94,understands,0
-Mandarin (Taiwanese),31,垃圾,88,produces,0.8409
-Mandarin (Taiwanese),31,垃圾,88,understands,0
-Mandarin (Taiwanese),32,垃圾,82,produces,0.7561
-Mandarin (Taiwanese),32,垃圾,82,understands,0
-Mandarin (Taiwanese),33,垃圾,85,produces,0.9294
-Mandarin (Taiwanese),33,垃圾,85,understands,0
-Mandarin (Taiwanese),34,垃圾,77,produces,0.8312
-Mandarin (Taiwanese),34,垃圾,77,understands,0
-Mandarin (Taiwanese),35,垃圾,81,produces,0.9259
-Mandarin (Taiwanese),35,垃圾,81,understands,0
-Mandarin (Taiwanese),36,垃圾,81,produces,0.9506
-Mandarin (Taiwanese),36,垃圾,81,understands,0
-Catalan,16,escombraries,24,produces,0
-Catalan,16,escombraries,24,understands,0
-Catalan,17,escombraries,36,produces,0.0278
-Catalan,17,escombraries,36,understands,0
-Catalan,18,escombraries,51,produces,0.0196
-Catalan,18,escombraries,51,understands,0
-Catalan,19,escombraries,45,produces,0.0444
-Catalan,19,escombraries,45,understands,0
-Catalan,20,escombraries,56,produces,0.1071
-Catalan,20,escombraries,56,understands,0
-Catalan,21,escombraries,58,produces,0.0862
-Catalan,21,escombraries,58,understands,0
-Catalan,22,escombraries,50,produces,0.24
-Catalan,22,escombraries,50,understands,0
-Catalan,23,escombraries,66,produces,0.2121
-Catalan,23,escombraries,66,understands,0
-Catalan,24,escombraries,79,produces,0.3924
-Catalan,24,escombraries,79,understands,0
-Catalan,25,escombraries,60,produces,0.4667
-Catalan,25,escombraries,60,understands,0
-Catalan,26,escombraries,65,produces,0.3231
-Catalan,26,escombraries,65,understands,0
-Catalan,27,escombraries,63,produces,0.4444
-Catalan,27,escombraries,63,understands,0
-Catalan,28,escombraries,81,produces,0.5309
-Catalan,28,escombraries,81,understands,0
-Catalan,29,escombraries,50,produces,0.66
-Catalan,29,escombraries,50,understands,0
-Catalan,30,escombraries,75,produces,0.6667
-Catalan,30,escombraries,75,understands,0
+language,sex,age,words,n,measure,prop
+Catalan,All,16,escombraries,24,produces,0
+Catalan,All,16,escombraries,24,understands,0
+Catalan,All,17,escombraries,36,produces,0.0278
+Catalan,All,17,escombraries,36,understands,0
+Catalan,All,18,escombraries,51,produces,0.0196
+Catalan,All,18,escombraries,51,understands,0
+Catalan,All,19,escombraries,45,produces,0.0444
+Catalan,All,19,escombraries,45,understands,0
+Catalan,All,20,escombraries,56,produces,0.1071
+Catalan,All,20,escombraries,56,understands,0
+Catalan,All,21,escombraries,58,produces,0.0862
+Catalan,All,21,escombraries,58,understands,0
+Catalan,All,22,escombraries,50,produces,0.24
+Catalan,All,22,escombraries,50,understands,0
+Catalan,All,23,escombraries,66,produces,0.2121
+Catalan,All,23,escombraries,66,understands,0
+Catalan,All,24,escombraries,79,produces,0.3924
+Catalan,All,24,escombraries,79,understands,0
+Catalan,All,25,escombraries,60,produces,0.4667
+Catalan,All,25,escombraries,60,understands,0
+Catalan,All,26,escombraries,65,produces,0.3231
+Catalan,All,26,escombraries,65,understands,0
+Catalan,All,27,escombraries,63,produces,0.4444
+Catalan,All,27,escombraries,63,understands,0
+Catalan,All,28,escombraries,81,produces,0.5309
+Catalan,All,28,escombraries,81,understands,0
+Catalan,All,29,escombraries,50,produces,0.66
+Catalan,All,29,escombraries,50,understands,0
+Catalan,All,30,escombraries,75,produces,0.6667
+Catalan,All,30,escombraries,75,understands,0
+Mandarin (Taiwanese),All,8,垃圾,86,produces,0
+Mandarin (Taiwanese),All,8,垃圾,86,understands,0.2093
+Mandarin (Taiwanese),All,9,垃圾,79,produces,0
+Mandarin (Taiwanese),All,9,垃圾,79,understands,0.3291
+Mandarin (Taiwanese),All,10,垃圾,78,produces,0
+Mandarin (Taiwanese),All,10,垃圾,78,understands,0.0769
+Mandarin (Taiwanese),All,11,垃圾,79,produces,0.0127
+Mandarin (Taiwanese),All,11,垃圾,79,understands,0.1013
+Mandarin (Taiwanese),All,12,垃圾,80,produces,0
+Mandarin (Taiwanese),All,12,垃圾,80,understands,0.1
+Mandarin (Taiwanese),All,13,垃圾,78,produces,0.0128
+Mandarin (Taiwanese),All,13,垃圾,78,understands,0.1026
+Mandarin (Taiwanese),All,14,垃圾,81,produces,0.037
+Mandarin (Taiwanese),All,14,垃圾,81,understands,0.1235
+Mandarin (Taiwanese),All,15,垃圾,106,produces,0.0472
+Mandarin (Taiwanese),All,15,垃圾,106,understands,0.2642
+Mandarin (Taiwanese),All,16,垃圾,170,produces,0.0529
+Mandarin (Taiwanese),All,16,垃圾,170,understands,0.1529
+Mandarin (Taiwanese),All,17,垃圾,87,produces,0.0575
+Mandarin (Taiwanese),All,17,垃圾,87,understands,0
+Mandarin (Taiwanese),All,18,垃圾,84,produces,0.0833
+Mandarin (Taiwanese),All,18,垃圾,84,understands,0
+Mandarin (Taiwanese),All,19,垃圾,84,produces,0.1786
+Mandarin (Taiwanese),All,19,垃圾,84,understands,0
+Mandarin (Taiwanese),All,20,垃圾,84,produces,0.131
+Mandarin (Taiwanese),All,20,垃圾,84,understands,0
+Mandarin (Taiwanese),All,21,垃圾,88,produces,0.2386
+Mandarin (Taiwanese),All,21,垃圾,88,understands,0
+Mandarin (Taiwanese),All,22,垃圾,96,produces,0.2604
+Mandarin (Taiwanese),All,22,垃圾,96,understands,0
+Mandarin (Taiwanese),All,23,垃圾,105,produces,0.3143
+Mandarin (Taiwanese),All,23,垃圾,105,understands,0
+Mandarin (Taiwanese),All,24,垃圾,124,produces,0.4758
+Mandarin (Taiwanese),All,24,垃圾,124,understands,0
+Mandarin (Taiwanese),All,25,垃圾,110,produces,0.4727
+Mandarin (Taiwanese),All,25,垃圾,110,understands,0
+Mandarin (Taiwanese),All,26,垃圾,87,produces,0.5632
+Mandarin (Taiwanese),All,26,垃圾,87,understands,0
+Mandarin (Taiwanese),All,27,垃圾,92,produces,0.5435
+Mandarin (Taiwanese),All,27,垃圾,92,understands,0
+Mandarin (Taiwanese),All,28,垃圾,100,produces,0.68
+Mandarin (Taiwanese),All,28,垃圾,100,understands,0
+Mandarin (Taiwanese),All,29,垃圾,88,produces,0.7386
+Mandarin (Taiwanese),All,29,垃圾,88,understands,0
+Mandarin (Taiwanese),All,30,垃圾,94,produces,0.7553
+Mandarin (Taiwanese),All,30,垃圾,94,understands,0
+Mandarin (Taiwanese),All,31,垃圾,88,produces,0.8409
+Mandarin (Taiwanese),All,31,垃圾,88,understands,0
+Mandarin (Taiwanese),All,32,垃圾,82,produces,0.7561
+Mandarin (Taiwanese),All,32,垃圾,82,understands,0
+Mandarin (Taiwanese),All,33,垃圾,85,produces,0.9294
+Mandarin (Taiwanese),All,33,垃圾,85,understands,0
+Mandarin (Taiwanese),All,34,垃圾,77,produces,0.8312
+Mandarin (Taiwanese),All,34,垃圾,77,understands,0
+Mandarin (Taiwanese),All,35,垃圾,81,produces,0.9259
+Mandarin (Taiwanese),All,35,垃圾,81,understands,0
+Mandarin (Taiwanese),All,36,垃圾,81,produces,0.9506
+Mandarin (Taiwanese),All,36,垃圾,81,understands,0
+Catalan,Female,16,escombraries,8,produces,0
+Catalan,Female,16,escombraries,8,understands,0
+Catalan,Male,16,escombraries,16,produces,0
+Catalan,Male,16,escombraries,16,understands,0
+Catalan,Female,17,escombraries,22,produces,0.0455
+Catalan,Female,17,escombraries,22,understands,0
+Catalan,Male,17,escombraries,14,produces,0
+Catalan,Male,17,escombraries,14,understands,0
+Catalan,Female,18,escombraries,22,produces,0.0455
+Catalan,Female,18,escombraries,22,understands,0
+Catalan,Male,18,escombraries,29,produces,0
+Catalan,Male,18,escombraries,29,understands,0
+Catalan,Female,19,escombraries,25,produces,0.04
+Catalan,Female,19,escombraries,25,understands,0
+Catalan,Male,19,escombraries,20,produces,0.05
+Catalan,Male,19,escombraries,20,understands,0
+Catalan,Female,20,escombraries,28,produces,0.1071
+Catalan,Female,20,escombraries,28,understands,0
+Catalan,Male,20,escombraries,28,produces,0.1071
+Catalan,Male,20,escombraries,28,understands,0
+Catalan,Female,21,escombraries,32,produces,0.125
+Catalan,Female,21,escombraries,32,understands,0
+Catalan,Male,21,escombraries,26,produces,0.0385
+Catalan,Male,21,escombraries,26,understands,0
+Catalan,Female,22,escombraries,26,produces,0.2692
+Catalan,Female,22,escombraries,26,understands,0
+Catalan,Male,22,escombraries,24,produces,0.2083
+Catalan,Male,22,escombraries,24,understands,0
+Catalan,Female,23,escombraries,35,produces,0.2286
+Catalan,Female,23,escombraries,35,understands,0
+Catalan,Male,23,escombraries,31,produces,0.1935
+Catalan,Male,23,escombraries,31,understands,0
+Catalan,Female,24,escombraries,41,produces,0.5122
+Catalan,Female,24,escombraries,41,understands,0
+Catalan,Male,24,escombraries,38,produces,0.2632
+Catalan,Male,24,escombraries,38,understands,0
+Catalan,Female,25,escombraries,30,produces,0.5
+Catalan,Female,25,escombraries,30,understands,0
+Catalan,Male,25,escombraries,30,produces,0.4333
+Catalan,Male,25,escombraries,30,understands,0
+Catalan,Female,26,escombraries,35,produces,0.3143
+Catalan,Female,26,escombraries,35,understands,0
+Catalan,Male,26,escombraries,30,produces,0.3333
+Catalan,Male,26,escombraries,30,understands,0
+Catalan,Female,27,escombraries,36,produces,0.4167
+Catalan,Female,27,escombraries,36,understands,0
+Catalan,Male,27,escombraries,27,produces,0.4815
+Catalan,Male,27,escombraries,27,understands,0
+Catalan,Female,28,escombraries,40,produces,0.525
+Catalan,Female,28,escombraries,40,understands,0
+Catalan,Male,28,escombraries,41,produces,0.5366
+Catalan,Male,28,escombraries,41,understands,0
+Catalan,Female,29,escombraries,25,produces,0.68
+Catalan,Female,29,escombraries,25,understands,0
+Catalan,Male,29,escombraries,25,produces,0.64
+Catalan,Male,29,escombraries,25,understands,0
+Catalan,Female,30,escombraries,24,produces,0.5417
+Catalan,Female,30,escombraries,24,understands,0
+Catalan,Male,30,escombraries,51,produces,0.7255
+Catalan,Male,30,escombraries,51,understands,0
+Mandarin (Taiwanese),Female,8,垃圾,39,produces,0
+Mandarin (Taiwanese),Female,8,垃圾,39,understands,0.2564
+Mandarin (Taiwanese),Male,8,垃圾,47,produces,0
+Mandarin (Taiwanese),Male,8,垃圾,47,understands,0.1702
+Mandarin (Taiwanese),Female,9,垃圾,46,produces,0
+Mandarin (Taiwanese),Female,9,垃圾,46,understands,0.3261
+Mandarin (Taiwanese),Male,9,垃圾,33,produces,0
+Mandarin (Taiwanese),Male,9,垃圾,33,understands,0.3333
+Mandarin (Taiwanese),Female,10,垃圾,40,produces,0
+Mandarin (Taiwanese),Female,10,垃圾,40,understands,0.1
+Mandarin (Taiwanese),Male,10,垃圾,38,produces,0
+Mandarin (Taiwanese),Male,10,垃圾,38,understands,0.0526
+Mandarin (Taiwanese),Female,11,垃圾,38,produces,0.0263
+Mandarin (Taiwanese),Female,11,垃圾,38,understands,0.1842
+Mandarin (Taiwanese),Male,11,垃圾,41,produces,0
+Mandarin (Taiwanese),Male,11,垃圾,41,understands,0.0244
+Mandarin (Taiwanese),Female,12,垃圾,42,produces,0
+Mandarin (Taiwanese),Female,12,垃圾,42,understands,0.0714
+Mandarin (Taiwanese),Male,12,垃圾,38,produces,0
+Mandarin (Taiwanese),Male,12,垃圾,38,understands,0.1316
+Mandarin (Taiwanese),Female,13,垃圾,41,produces,0.0244
+Mandarin (Taiwanese),Female,13,垃圾,41,understands,0.122
+Mandarin (Taiwanese),Male,13,垃圾,37,produces,0
+Mandarin (Taiwanese),Male,13,垃圾,37,understands,0.0811
+Mandarin (Taiwanese),Female,14,垃圾,43,produces,0.0698
+Mandarin (Taiwanese),Female,14,垃圾,43,understands,0.1628
+Mandarin (Taiwanese),Male,14,垃圾,38,produces,0
+Mandarin (Taiwanese),Male,14,垃圾,38,understands,0.0789
+Mandarin (Taiwanese),Female,15,垃圾,54,produces,0.0556
+Mandarin (Taiwanese),Female,15,垃圾,54,understands,0.2222
+Mandarin (Taiwanese),Male,15,垃圾,52,produces,0.0385
+Mandarin (Taiwanese),Male,15,垃圾,52,understands,0.3077
+Mandarin (Taiwanese),Female,16,垃圾,82,produces,0.0488
+Mandarin (Taiwanese),Female,16,垃圾,82,understands,0.1341
+Mandarin (Taiwanese),Male,16,垃圾,88,produces,0.0568
+Mandarin (Taiwanese),Male,16,垃圾,88,understands,0.1705
+Mandarin (Taiwanese),Female,17,垃圾,37,produces,0.1081
+Mandarin (Taiwanese),Female,17,垃圾,37,understands,0
+Mandarin (Taiwanese),Male,17,垃圾,50,produces,0.02
+Mandarin (Taiwanese),Male,17,垃圾,50,understands,0
+Mandarin (Taiwanese),Female,18,垃圾,49,produces,0.0204
+Mandarin (Taiwanese),Female,18,垃圾,49,understands,0
+Mandarin (Taiwanese),Male,18,垃圾,35,produces,0.1714
+Mandarin (Taiwanese),Male,18,垃圾,35,understands,0
+Mandarin (Taiwanese),Female,19,垃圾,42,produces,0.2143
+Mandarin (Taiwanese),Female,19,垃圾,42,understands,0
+Mandarin (Taiwanese),Male,19,垃圾,42,produces,0.1429
+Mandarin (Taiwanese),Male,19,垃圾,42,understands,0
+Mandarin (Taiwanese),Female,20,垃圾,40,produces,0.125
+Mandarin (Taiwanese),Female,20,垃圾,40,understands,0
+Mandarin (Taiwanese),Male,20,垃圾,44,produces,0.1364
+Mandarin (Taiwanese),Male,20,垃圾,44,understands,0
+Mandarin (Taiwanese),Female,21,垃圾,38,produces,0.2368
+Mandarin (Taiwanese),Female,21,垃圾,38,understands,0
+Mandarin (Taiwanese),Male,21,垃圾,50,produces,0.24
+Mandarin (Taiwanese),Male,21,垃圾,50,understands,0
+Mandarin (Taiwanese),Female,22,垃圾,48,produces,0.2708
+Mandarin (Taiwanese),Female,22,垃圾,48,understands,0
+Mandarin (Taiwanese),Male,22,垃圾,48,produces,0.25
+Mandarin (Taiwanese),Male,22,垃圾,48,understands,0
+Mandarin (Taiwanese),Female,23,垃圾,50,produces,0.3
+Mandarin (Taiwanese),Female,23,垃圾,50,understands,0
+Mandarin (Taiwanese),Male,23,垃圾,55,produces,0.3273
+Mandarin (Taiwanese),Male,23,垃圾,55,understands,0
+Mandarin (Taiwanese),Female,24,垃圾,65,produces,0.5231
+Mandarin (Taiwanese),Female,24,垃圾,65,understands,0
+Mandarin (Taiwanese),Male,24,垃圾,59,produces,0.4237
+Mandarin (Taiwanese),Male,24,垃圾,59,understands,0
+Mandarin (Taiwanese),Female,25,垃圾,60,produces,0.5167
+Mandarin (Taiwanese),Female,25,垃圾,60,understands,0
+Mandarin (Taiwanese),Male,25,垃圾,50,produces,0.42
+Mandarin (Taiwanese),Male,25,垃圾,50,understands,0
+Mandarin (Taiwanese),Female,26,垃圾,38,produces,0.5789
+Mandarin (Taiwanese),Female,26,垃圾,38,understands,0
+Mandarin (Taiwanese),Male,26,垃圾,49,produces,0.551
+Mandarin (Taiwanese),Male,26,垃圾,49,understands,0
+Mandarin (Taiwanese),Female,27,垃圾,49,produces,0.6122
+Mandarin (Taiwanese),Female,27,垃圾,49,understands,0
+Mandarin (Taiwanese),Male,27,垃圾,43,produces,0.4651
+Mandarin (Taiwanese),Male,27,垃圾,43,understands,0
+Mandarin (Taiwanese),Female,28,垃圾,50,produces,0.74
+Mandarin (Taiwanese),Female,28,垃圾,50,understands,0
+Mandarin (Taiwanese),Male,28,垃圾,50,produces,0.62
+Mandarin (Taiwanese),Male,28,垃圾,50,understands,0
+Mandarin (Taiwanese),Female,29,垃圾,41,produces,0.8293
+Mandarin (Taiwanese),Female,29,垃圾,41,understands,0
+Mandarin (Taiwanese),Male,29,垃圾,47,produces,0.6596
+Mandarin (Taiwanese),Male,29,垃圾,47,understands,0
+Mandarin (Taiwanese),Female,30,垃圾,44,produces,0.7273
+Mandarin (Taiwanese),Female,30,垃圾,44,understands,0
+Mandarin (Taiwanese),Male,30,垃圾,50,produces,0.78
+Mandarin (Taiwanese),Male,30,垃圾,50,understands,0
+Mandarin (Taiwanese),Female,31,垃圾,35,produces,0.8571
+Mandarin (Taiwanese),Female,31,垃圾,35,understands,0
+Mandarin (Taiwanese),Male,31,垃圾,53,produces,0.8302
+Mandarin (Taiwanese),Male,31,垃圾,53,understands,0
+Mandarin (Taiwanese),Female,32,垃圾,43,produces,0.814
+Mandarin (Taiwanese),Female,32,垃圾,43,understands,0
+Mandarin (Taiwanese),Male,32,垃圾,39,produces,0.6923
+Mandarin (Taiwanese),Male,32,垃圾,39,understands,0
+Mandarin (Taiwanese),Female,33,垃圾,45,produces,0.8889
+Mandarin (Taiwanese),Female,33,垃圾,45,understands,0
+Mandarin (Taiwanese),Male,33,垃圾,40,produces,0.975
+Mandarin (Taiwanese),Male,33,垃圾,40,understands,0
+Mandarin (Taiwanese),Female,34,垃圾,33,produces,0.8485
+Mandarin (Taiwanese),Female,34,垃圾,33,understands,0
+Mandarin (Taiwanese),Male,34,垃圾,44,produces,0.8182
+Mandarin (Taiwanese),Male,34,垃圾,44,understands,0
+Mandarin (Taiwanese),Female,35,垃圾,42,produces,0.9048
+Mandarin (Taiwanese),Female,35,垃圾,42,understands,0
+Mandarin (Taiwanese),Male,35,垃圾,39,produces,0.9487
+Mandarin (Taiwanese),Male,35,垃圾,39,understands,0
+Mandarin (Taiwanese),Female,36,垃圾,38,produces,0.9474
+Mandarin (Taiwanese),Female,36,垃圾,38,understands,0
+Mandarin (Taiwanese),Male,36,垃圾,43,produces,0.9535
+Mandarin (Taiwanese),Male,36,垃圾,43,understands,0

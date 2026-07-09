@@ -1,69 +1,205 @@
-language,age,words,n,measure,prop
-Russian,18,похожий,42,produces,0
-Russian,18,похожий,42,understands,0
-Russian,19,похожий,41,produces,0
-Russian,19,похожий,41,understands,0
-Russian,20,похожий,45,produces,0.0222
-Russian,20,похожий,45,understands,0
-Russian,21,похожий,43,produces,0.0465
-Russian,21,похожий,43,understands,0
-Russian,22,похожий,51,produces,0.0392
-Russian,22,похожий,51,understands,0
-Russian,23,похожий,56,produces,0
-Russian,23,похожий,56,understands,0
-Russian,24,похожий,61,produces,0.0656
-Russian,24,похожий,61,understands,0
-Russian,25,похожий,66,produces,0.0909
-Russian,25,похожий,66,understands,0
-Russian,26,похожий,52,produces,0.0577
-Russian,26,похожий,52,understands,0
-Russian,27,похожий,60,produces,0.2
-Russian,27,похожий,60,understands,0
-Russian,28,похожий,60,produces,0.1667
-Russian,28,похожий,60,understands,0
-Russian,29,похожий,58,produces,0.2241
-Russian,29,похожий,58,understands,0
-Russian,30,похожий,77,produces,0.2597
-Russian,30,похожий,77,understands,0
-Russian,31,похожий,61,produces,0.3443
-Russian,31,похожий,61,understands,0
-Russian,32,похожий,55,produces,0.3273
-Russian,32,похожий,55,understands,0
-Russian,33,похожий,55,produces,0.2727
-Russian,33,похожий,55,understands,0
-Russian,34,похожий,58,produces,0.3448
-Russian,34,похожий,58,understands,0
-Russian,35,похожий,47,produces,0.4894
-Russian,35,похожий,47,understands,0
-Russian,36,похожий,49,produces,0.449
-Russian,36,похожий,49,understands,0
-French (Quebecois),16,pareil,47,produces,0
-French (Quebecois),16,pareil,47,understands,0
-French (Quebecois),17,pareil,62,produces,0.0161
-French (Quebecois),17,pareil,62,understands,0
-French (Quebecois),18,pareil,99,produces,0.0202
-French (Quebecois),18,pareil,99,understands,0
-French (Quebecois),19,pareil,91,produces,0.011
-French (Quebecois),19,pareil,91,understands,0
-French (Quebecois),20,pareil,196,produces,0.051
-French (Quebecois),20,pareil,196,understands,0
-French (Quebecois),21,pareil,109,produces,0.0826
-French (Quebecois),21,pareil,109,understands,0
-French (Quebecois),22,pareil,86,produces,0.1047
-French (Quebecois),22,pareil,86,understands,0
-French (Quebecois),23,pareil,86,produces,0.1512
-French (Quebecois),23,pareil,86,understands,0
-French (Quebecois),24,pareil,132,produces,0.1894
-French (Quebecois),24,pareil,132,understands,0
-French (Quebecois),25,pareil,87,produces,0.3678
-French (Quebecois),25,pareil,87,understands,0
-French (Quebecois),26,pareil,95,produces,0.4105
-French (Quebecois),26,pareil,95,understands,0
-French (Quebecois),27,pareil,74,produces,0.527
-French (Quebecois),27,pareil,74,understands,0
-French (Quebecois),28,pareil,61,produces,0.7213
-French (Quebecois),28,pareil,61,understands,0
-French (Quebecois),29,pareil,70,produces,0.6857
-French (Quebecois),29,pareil,70,understands,0
-French (Quebecois),30,pareil,100,produces,0.6
-French (Quebecois),30,pareil,100,understands,0
+language,sex,age,words,n,measure,prop
+French (Quebecois),All,16,pareil,47,produces,0
+French (Quebecois),All,16,pareil,47,understands,0
+French (Quebecois),All,17,pareil,62,produces,0.0161
+French (Quebecois),All,17,pareil,62,understands,0
+French (Quebecois),All,18,pareil,99,produces,0.0202
+French (Quebecois),All,18,pareil,99,understands,0
+French (Quebecois),All,19,pareil,91,produces,0.011
+French (Quebecois),All,19,pareil,91,understands,0
+French (Quebecois),All,20,pareil,196,produces,0.051
+French (Quebecois),All,20,pareil,196,understands,0
+French (Quebecois),All,21,pareil,109,produces,0.0826
+French (Quebecois),All,21,pareil,109,understands,0
+French (Quebecois),All,22,pareil,86,produces,0.1047
+French (Quebecois),All,22,pareil,86,understands,0
+French (Quebecois),All,23,pareil,86,produces,0.1512
+French (Quebecois),All,23,pareil,86,understands,0
+French (Quebecois),All,24,pareil,132,produces,0.1894
+French (Quebecois),All,24,pareil,132,understands,0
+French (Quebecois),All,25,pareil,87,produces,0.3678
+French (Quebecois),All,25,pareil,87,understands,0
+French (Quebecois),All,26,pareil,95,produces,0.4105
+French (Quebecois),All,26,pareil,95,understands,0
+French (Quebecois),All,27,pareil,74,produces,0.527
+French (Quebecois),All,27,pareil,74,understands,0
+French (Quebecois),All,28,pareil,61,produces,0.7213
+French (Quebecois),All,28,pareil,61,understands,0
+French (Quebecois),All,29,pareil,70,produces,0.6857
+French (Quebecois),All,29,pareil,70,understands,0
+French (Quebecois),All,30,pareil,100,produces,0.6
+French (Quebecois),All,30,pareil,100,understands,0
+Russian,All,18,похожий,42,produces,0
+Russian,All,18,похожий,42,understands,0
+Russian,All,19,похожий,41,produces,0
+Russian,All,19,похожий,41,understands,0
+Russian,All,20,похожий,45,produces,0.0222
+Russian,All,20,похожий,45,understands,0
+Russian,All,21,похожий,43,produces,0.0465
+Russian,All,21,похожий,43,understands,0
+Russian,All,22,похожий,51,produces,0.0392
+Russian,All,22,похожий,51,understands,0
+Russian,All,23,похожий,56,produces,0
+Russian,All,23,похожий,56,understands,0
+Russian,All,24,похожий,61,produces,0.0656
+Russian,All,24,похожий,61,understands,0
+Russian,All,25,похожий,66,produces,0.0909
+Russian,All,25,похожий,66,understands,0
+Russian,All,26,похожий,52,produces,0.0577
+Russian,All,26,похожий,52,understands,0
+Russian,All,27,похожий,60,produces,0.2
+Russian,All,27,похожий,60,understands,0
+Russian,All,28,похожий,60,produces,0.1667
+Russian,All,28,похожий,60,understands,0
+Russian,All,29,похожий,58,produces,0.2241
+Russian,All,29,похожий,58,understands,0
+Russian,All,30,похожий,77,produces,0.2597
+Russian,All,30,похожий,77,understands,0
+Russian,All,31,похожий,61,produces,0.3443
+Russian,All,31,похожий,61,understands,0
+Russian,All,32,похожий,55,produces,0.3273
+Russian,All,32,похожий,55,understands,0
+Russian,All,33,похожий,55,produces,0.2727
+Russian,All,33,похожий,55,understands,0
+Russian,All,34,похожий,58,produces,0.3448
+Russian,All,34,похожий,58,understands,0
+Russian,All,35,похожий,47,produces,0.4894
+Russian,All,35,похожий,47,understands,0
+Russian,All,36,похожий,49,produces,0.449
+Russian,All,36,похожий,49,understands,0
+French (Quebecois),Female,16,pareil,26,produces,0
+French (Quebecois),Female,16,pareil,26,understands,0
+French (Quebecois),Male,16,pareil,21,produces,0
+French (Quebecois),Male,16,pareil,21,understands,0
+French (Quebecois),Female,17,pareil,30,produces,0.0333
+French (Quebecois),Female,17,pareil,30,understands,0
+French (Quebecois),Male,17,pareil,31,produces,0
+French (Quebecois),Male,17,pareil,31,understands,0
+French (Quebecois),Female,18,pareil,53,produces,0.0377
+French (Quebecois),Female,18,pareil,53,understands,0
+French (Quebecois),Male,18,pareil,46,produces,0
+French (Quebecois),Male,18,pareil,46,understands,0
+French (Quebecois),Female,19,pareil,41,produces,0.0244
+French (Quebecois),Female,19,pareil,41,understands,0
+French (Quebecois),Male,19,pareil,50,produces,0
+French (Quebecois),Male,19,pareil,50,understands,0
+French (Quebecois),Female,20,pareil,90,produces,0.0778
+French (Quebecois),Female,20,pareil,90,understands,0
+French (Quebecois),Male,20,pareil,105,produces,0.0286
+French (Quebecois),Male,20,pareil,105,understands,0
+French (Quebecois),Female,21,pareil,56,produces,0.1071
+French (Quebecois),Female,21,pareil,56,understands,0
+French (Quebecois),Male,21,pareil,53,produces,0.0566
+French (Quebecois),Male,21,pareil,53,understands,0
+French (Quebecois),Female,22,pareil,42,produces,0.119
+French (Quebecois),Female,22,pareil,42,understands,0
+French (Quebecois),Male,22,pareil,44,produces,0.0909
+French (Quebecois),Male,22,pareil,44,understands,0
+French (Quebecois),Female,23,pareil,41,produces,0.1707
+French (Quebecois),Female,23,pareil,41,understands,0
+French (Quebecois),Male,23,pareil,45,produces,0.1333
+French (Quebecois),Male,23,pareil,45,understands,0
+French (Quebecois),Female,24,pareil,56,produces,0.25
+French (Quebecois),Female,24,pareil,56,understands,0
+French (Quebecois),Male,24,pareil,76,produces,0.1447
+French (Quebecois),Male,24,pareil,76,understands,0
+French (Quebecois),Female,25,pareil,41,produces,0.4146
+French (Quebecois),Female,25,pareil,41,understands,0
+French (Quebecois),Male,25,pareil,45,produces,0.3333
+French (Quebecois),Male,25,pareil,45,understands,0
+French (Quebecois),Female,26,pareil,46,produces,0.5435
+French (Quebecois),Female,26,pareil,46,understands,0
+French (Quebecois),Male,26,pareil,49,produces,0.2857
+French (Quebecois),Male,26,pareil,49,understands,0
+French (Quebecois),Female,27,pareil,40,produces,0.6
+French (Quebecois),Female,27,pareil,40,understands,0
+French (Quebecois),Male,27,pareil,34,produces,0.4412
+French (Quebecois),Male,27,pareil,34,understands,0
+French (Quebecois),Female,28,pareil,28,produces,0.8571
+French (Quebecois),Female,28,pareil,28,understands,0
+French (Quebecois),Male,28,pareil,32,produces,0.625
+French (Quebecois),Male,28,pareil,32,understands,0
+French (Quebecois),Female,29,pareil,35,produces,0.5714
+French (Quebecois),Female,29,pareil,35,understands,0
+French (Quebecois),Male,29,pareil,35,produces,0.8
+French (Quebecois),Male,29,pareil,35,understands,0
+French (Quebecois),Female,30,pareil,41,produces,0.7317
+French (Quebecois),Female,30,pareil,41,understands,0
+French (Quebecois),Male,30,pareil,59,produces,0.5085
+French (Quebecois),Male,30,pareil,59,understands,0
+Russian,Female,18,похожий,24,produces,0
+Russian,Female,18,похожий,24,understands,0
+Russian,Male,18,похожий,18,produces,0
+Russian,Male,18,похожий,18,understands,0
+Russian,Female,19,похожий,22,produces,0
+Russian,Female,19,похожий,22,understands,0
+Russian,Male,19,похожий,19,produces,0
+Russian,Male,19,похожий,19,understands,0
+Russian,Female,20,похожий,18,produces,0
+Russian,Female,20,похожий,18,understands,0
+Russian,Male,20,похожий,27,produces,0.037
+Russian,Male,20,похожий,27,understands,0
+Russian,Female,21,похожий,22,produces,0.0455
+Russian,Female,21,похожий,22,understands,0
+Russian,Male,21,похожий,21,produces,0.0476
+Russian,Male,21,похожий,21,understands,0
+Russian,Female,22,похожий,29,produces,0.0345
+Russian,Female,22,похожий,29,understands,0
+Russian,Male,22,похожий,22,produces,0.0455
+Russian,Male,22,похожий,22,understands,0
+Russian,Female,23,похожий,37,produces,0
+Russian,Female,23,похожий,37,understands,0
+Russian,Male,23,похожий,19,produces,0
+Russian,Male,23,похожий,19,understands,0
+Russian,Female,24,похожий,28,produces,0.1429
+Russian,Female,24,похожий,28,understands,0
+Russian,Male,24,похожий,33,produces,0
+Russian,Male,24,похожий,33,understands,0
+Russian,Female,25,похожий,39,produces,0.1026
+Russian,Female,25,похожий,39,understands,0
+Russian,Male,25,похожий,27,produces,0.0741
+Russian,Male,25,похожий,27,understands,0
+Russian,Female,26,похожий,26,produces,0.0385
+Russian,Female,26,похожий,26,understands,0
+Russian,Male,26,похожий,26,produces,0.0769
+Russian,Male,26,похожий,26,understands,0
+Russian,Female,27,похожий,37,produces,0.2432
+Russian,Female,27,похожий,37,understands,0
+Russian,Male,27,похожий,23,produces,0.1304
+Russian,Male,27,похожий,23,understands,0
+Russian,Female,28,похожий,28,produces,0.2857
+Russian,Female,28,похожий,28,understands,0
+Russian,Male,28,похожий,32,produces,0.0625
+Russian,Male,28,похожий,32,understands,0
+Russian,Female,29,похожий,30,produces,0.3
+Russian,Female,29,похожий,30,understands,0
+Russian,Male,29,похожий,27,produces,0.1481
+Russian,Male,29,похожий,27,understands,0
+Russian,Female,30,похожий,42,produces,0.3095
+Russian,Female,30,похожий,42,understands,0
+Russian,Male,30,похожий,35,produces,0.2
+Russian,Male,30,похожий,35,understands,0
+Russian,Female,31,похожий,32,produces,0.4375
+Russian,Female,31,похожий,32,understands,0
+Russian,Male,31,похожий,29,produces,0.2414
+Russian,Male,31,похожий,29,understands,0
+Russian,Female,32,похожий,29,produces,0.3448
+Russian,Female,32,похожий,29,understands,0
+Russian,Male,32,похожий,26,produces,0.3077
+Russian,Male,32,похожий,26,understands,0
+Russian,Female,33,похожий,27,produces,0.2593
+Russian,Female,33,похожий,27,understands,0
+Russian,Male,33,похожий,28,produces,0.2857
+Russian,Male,33,похожий,28,understands,0
+Russian,Female,34,похожий,31,produces,0.4516
+Russian,Female,34,похожий,31,understands,0
+Russian,Male,34,похожий,27,produces,0.2222
+Russian,Male,34,похожий,27,understands,0
+Russian,Female,35,похожий,22,produces,0.5
+Russian,Female,35,похожий,22,understands,0
+Russian,Male,35,похожий,25,produces,0.48
+Russian,Male,35,похожий,25,understands,0
+Russian,Female,36,похожий,27,produces,0.4444
+Russian,Female,36,похожий,27,understands,0
+Russian,Male,36,похожий,22,produces,0.4545
+Russian,Male,36,похожий,22,understands,0

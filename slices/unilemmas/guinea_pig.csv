@@ -1,61 +1,175 @@
-language,age,words,n,measure,prop
-Spanish (Peruvian),8,cuy/cuye,9,produces,0
-Spanish (Peruvian),8,cuy/cuye,9,understands,0.1111
-Spanish (Peruvian),9,cuy/cuye,12,produces,0
-Spanish (Peruvian),9,cuy/cuye,12,understands,0
-Spanish (Peruvian),10,cuy/cuye,7,produces,0
-Spanish (Peruvian),10,cuy/cuye,7,understands,0
-Spanish (Peruvian),11,cuy/cuye,18,produces,0
-Spanish (Peruvian),11,cuy/cuye,18,understands,0.0556
-Spanish (Peruvian),12,cuy/cuye,14,produces,0.0714
-Spanish (Peruvian),12,cuy/cuye,14,understands,0.0714
-Spanish (Peruvian),13,cuy/cuye,9,produces,0
-Spanish (Peruvian),13,cuy/cuye,9,understands,0.1111
-Spanish (Peruvian),14,cuy/cuye,8,produces,0
-Spanish (Peruvian),14,cuy/cuye,8,understands,0
-Spanish (Peruvian),15,cuy/cuye,10,produces,0
-Spanish (Peruvian),15,cuy/cuye,10,understands,0
-Spanish (Peruvian),16,cuy/cuye,13,produces,0.1538
-Spanish (Peruvian),16,cuy/cuye,13,understands,0
-Spanish (Peruvian),17,cuy/cuye,9,produces,0.1111
-Spanish (Peruvian),17,cuy/cuye,9,understands,0
-Spanish (Peruvian),18,cuy/cuye,4,produces,0
-Spanish (Peruvian),18,cuy/cuye,4,understands,0
-Spanish (Peruvian),19,cuy/cuye,12,produces,0.1667
-Spanish (Peruvian),19,cuy/cuye,12,understands,0
-Spanish (Peruvian),20,cuy/cuye,1,produces,0
-Spanish (Peruvian),20,cuy/cuye,1,understands,0
-Spanish (Peruvian),21,cuy/cuye,5,produces,0.4
-Spanish (Peruvian),21,cuy/cuye,5,understands,0
-Spanish (Peruvian),22,cuy/cuye,9,produces,0.1111
-Spanish (Peruvian),22,cuy/cuye,9,understands,0
-Spanish (Peruvian),23,cuy/cuye,1,produces,0
-Spanish (Peruvian),23,cuy/cuye,1,understands,0
-Spanish (Peruvian),24,cuy/cuye,15,produces,0.1333
-Spanish (Peruvian),24,cuy/cuye,15,understands,0
-Spanish (Peruvian),25,cuy/cuye,5,produces,0
-Spanish (Peruvian),25,cuy/cuye,5,understands,0
-Spanish (Peruvian),26,cuy/cuye,8,produces,0
-Spanish (Peruvian),26,cuy/cuye,8,understands,0
-Spanish (Peruvian),27,cuy/cuye,7,produces,0.1429
-Spanish (Peruvian),27,cuy/cuye,7,understands,0
-Spanish (Peruvian),28,cuy/cuye,8,produces,0.375
-Spanish (Peruvian),28,cuy/cuye,8,understands,0
-Spanish (Peruvian),29,cuy/cuye,6,produces,0.5
-Spanish (Peruvian),29,cuy/cuye,6,understands,0
-Spanish (Peruvian),30,cuy/cuye,2,produces,0.5
-Spanish (Peruvian),30,cuy/cuye,2,understands,0
-Dutch,15,cavia,3,produces,0
-Dutch,15,cavia,3,understands,0
-Dutch,16,cavia,3,produces,0
-Dutch,16,cavia,3,understands,0
-Dutch,17,cavia,6,produces,0
-Dutch,17,cavia,6,understands,0
-Dutch,18,cavia,130,produces,0.0692
-Dutch,18,cavia,130,understands,0.1308
-Dutch,19,cavia,94,produces,0.1064
-Dutch,19,cavia,94,understands,0.2766
-Dutch,20,cavia,26,produces,0.0385
-Dutch,20,cavia,26,understands,0.2692
-Dutch,21,cavia,6,produces,0
-Dutch,21,cavia,6,understands,0.1667
+language,sex,age,words,n,measure,prop
+Dutch,All,15,cavia,3,produces,0
+Dutch,All,15,cavia,3,understands,0
+Dutch,All,16,cavia,3,produces,0
+Dutch,All,16,cavia,3,understands,0
+Dutch,All,17,cavia,6,produces,0
+Dutch,All,17,cavia,6,understands,0
+Dutch,All,18,cavia,130,produces,0.0692
+Dutch,All,18,cavia,130,understands,0.1308
+Dutch,All,19,cavia,94,produces,0.1064
+Dutch,All,19,cavia,94,understands,0.2766
+Dutch,All,20,cavia,26,produces,0.0385
+Dutch,All,20,cavia,26,understands,0.2692
+Dutch,All,21,cavia,6,produces,0
+Dutch,All,21,cavia,6,understands,0.1667
+Spanish (Peruvian),All,8,cuy/cuye,9,produces,0
+Spanish (Peruvian),All,8,cuy/cuye,9,understands,0.1111
+Spanish (Peruvian),All,9,cuy/cuye,12,produces,0
+Spanish (Peruvian),All,9,cuy/cuye,12,understands,0
+Spanish (Peruvian),All,10,cuy/cuye,7,produces,0
+Spanish (Peruvian),All,10,cuy/cuye,7,understands,0
+Spanish (Peruvian),All,11,cuy/cuye,18,produces,0
+Spanish (Peruvian),All,11,cuy/cuye,18,understands,0.0556
+Spanish (Peruvian),All,12,cuy/cuye,14,produces,0.0714
+Spanish (Peruvian),All,12,cuy/cuye,14,understands,0.0714
+Spanish (Peruvian),All,13,cuy/cuye,9,produces,0
+Spanish (Peruvian),All,13,cuy/cuye,9,understands,0.1111
+Spanish (Peruvian),All,14,cuy/cuye,8,produces,0
+Spanish (Peruvian),All,14,cuy/cuye,8,understands,0
+Spanish (Peruvian),All,15,cuy/cuye,10,produces,0
+Spanish (Peruvian),All,15,cuy/cuye,10,understands,0
+Spanish (Peruvian),All,16,cuy/cuye,13,produces,0.1538
+Spanish (Peruvian),All,16,cuy/cuye,13,understands,0
+Spanish (Peruvian),All,17,cuy/cuye,9,produces,0.1111
+Spanish (Peruvian),All,17,cuy/cuye,9,understands,0
+Spanish (Peruvian),All,18,cuy/cuye,4,produces,0
+Spanish (Peruvian),All,18,cuy/cuye,4,understands,0
+Spanish (Peruvian),All,19,cuy/cuye,12,produces,0.1667
+Spanish (Peruvian),All,19,cuy/cuye,12,understands,0
+Spanish (Peruvian),All,20,cuy/cuye,1,produces,0
+Spanish (Peruvian),All,20,cuy/cuye,1,understands,0
+Spanish (Peruvian),All,21,cuy/cuye,5,produces,0.4
+Spanish (Peruvian),All,21,cuy/cuye,5,understands,0
+Spanish (Peruvian),All,22,cuy/cuye,9,produces,0.1111
+Spanish (Peruvian),All,22,cuy/cuye,9,understands,0
+Spanish (Peruvian),All,23,cuy/cuye,1,produces,0
+Spanish (Peruvian),All,23,cuy/cuye,1,understands,0
+Spanish (Peruvian),All,24,cuy/cuye,15,produces,0.1333
+Spanish (Peruvian),All,24,cuy/cuye,15,understands,0
+Spanish (Peruvian),All,25,cuy/cuye,5,produces,0
+Spanish (Peruvian),All,25,cuy/cuye,5,understands,0
+Spanish (Peruvian),All,26,cuy/cuye,8,produces,0
+Spanish (Peruvian),All,26,cuy/cuye,8,understands,0
+Spanish (Peruvian),All,27,cuy/cuye,7,produces,0.1429
+Spanish (Peruvian),All,27,cuy/cuye,7,understands,0
+Spanish (Peruvian),All,28,cuy/cuye,8,produces,0.375
+Spanish (Peruvian),All,28,cuy/cuye,8,understands,0
+Spanish (Peruvian),All,29,cuy/cuye,6,produces,0.5
+Spanish (Peruvian),All,29,cuy/cuye,6,understands,0
+Spanish (Peruvian),All,30,cuy/cuye,2,produces,0.5
+Spanish (Peruvian),All,30,cuy/cuye,2,understands,0
+Dutch,Female,15,cavia,2,produces,0
+Dutch,Female,15,cavia,2,understands,0
+Dutch,Male,15,cavia,1,produces,0
+Dutch,Male,15,cavia,1,understands,0
+Dutch,Female,16,cavia,1,produces,0
+Dutch,Female,16,cavia,1,understands,0
+Dutch,Male,16,cavia,2,produces,0
+Dutch,Male,16,cavia,2,understands,0
+Dutch,Female,17,cavia,2,produces,0
+Dutch,Female,17,cavia,2,understands,0
+Dutch,Male,17,cavia,4,produces,0
+Dutch,Male,17,cavia,4,understands,0
+Dutch,Female,18,cavia,67,produces,0.0746
+Dutch,Female,18,cavia,67,understands,0.1343
+Dutch,Male,18,cavia,57,produces,0.0526
+Dutch,Male,18,cavia,57,understands,0.1228
+Dutch,Female,19,cavia,49,produces,0.1224
+Dutch,Female,19,cavia,49,understands,0.3061
+Dutch,Male,19,cavia,45,produces,0.0889
+Dutch,Male,19,cavia,45,understands,0.2444
+Dutch,Female,20,cavia,13,produces,0.0769
+Dutch,Female,20,cavia,13,understands,0.3846
+Dutch,Male,20,cavia,13,produces,0
+Dutch,Male,20,cavia,13,understands,0.1538
+Dutch,Female,21,cavia,3,produces,0
+Dutch,Female,21,cavia,3,understands,0.3333
+Dutch,Male,21,cavia,3,produces,0
+Dutch,Male,21,cavia,3,understands,0
+Spanish (Peruvian),Female,8,cuy/cuye,6,produces,0
+Spanish (Peruvian),Female,8,cuy/cuye,6,understands,0
+Spanish (Peruvian),Male,8,cuy/cuye,3,produces,0
+Spanish (Peruvian),Male,8,cuy/cuye,3,understands,0.3333
+Spanish (Peruvian),Female,9,cuy/cuye,8,produces,0
+Spanish (Peruvian),Female,9,cuy/cuye,8,understands,0
+Spanish (Peruvian),Male,9,cuy/cuye,4,produces,0
+Spanish (Peruvian),Male,9,cuy/cuye,4,understands,0
+Spanish (Peruvian),Female,10,cuy/cuye,4,produces,0
+Spanish (Peruvian),Female,10,cuy/cuye,4,understands,0
+Spanish (Peruvian),Male,10,cuy/cuye,3,produces,0
+Spanish (Peruvian),Male,10,cuy/cuye,3,understands,0
+Spanish (Peruvian),Female,11,cuy/cuye,12,produces,0
+Spanish (Peruvian),Female,11,cuy/cuye,12,understands,0.0833
+Spanish (Peruvian),Male,11,cuy/cuye,6,produces,0
+Spanish (Peruvian),Male,11,cuy/cuye,6,understands,0
+Spanish (Peruvian),Female,12,cuy/cuye,7,produces,0.1429
+Spanish (Peruvian),Female,12,cuy/cuye,7,understands,0.1429
+Spanish (Peruvian),Male,12,cuy/cuye,7,produces,0
+Spanish (Peruvian),Male,12,cuy/cuye,7,understands,0
+Spanish (Peruvian),Female,13,cuy/cuye,2,produces,0
+Spanish (Peruvian),Female,13,cuy/cuye,2,understands,0.5
+Spanish (Peruvian),Male,13,cuy/cuye,7,produces,0
+Spanish (Peruvian),Male,13,cuy/cuye,7,understands,0
+Spanish (Peruvian),Female,14,cuy/cuye,3,produces,0
+Spanish (Peruvian),Female,14,cuy/cuye,3,understands,0
+Spanish (Peruvian),Male,14,cuy/cuye,5,produces,0
+Spanish (Peruvian),Male,14,cuy/cuye,5,understands,0
+Spanish (Peruvian),Female,15,cuy/cuye,4,produces,0
+Spanish (Peruvian),Female,15,cuy/cuye,4,understands,0
+Spanish (Peruvian),Male,15,cuy/cuye,6,produces,0
+Spanish (Peruvian),Male,15,cuy/cuye,6,understands,0
+Spanish (Peruvian),Female,16,cuy/cuye,6,produces,0.3333
+Spanish (Peruvian),Female,16,cuy/cuye,6,understands,0
+Spanish (Peruvian),Male,16,cuy/cuye,7,produces,0
+Spanish (Peruvian),Male,16,cuy/cuye,7,understands,0
+Spanish (Peruvian),Female,17,cuy/cuye,5,produces,0.2
+Spanish (Peruvian),Female,17,cuy/cuye,5,understands,0
+Spanish (Peruvian),Male,17,cuy/cuye,4,produces,0
+Spanish (Peruvian),Male,17,cuy/cuye,4,understands,0
+Spanish (Peruvian),Female,18,cuy/cuye,4,produces,0
+Spanish (Peruvian),Female,18,cuy/cuye,4,understands,0
+Spanish (Peruvian),Female,19,cuy/cuye,3,produces,0.3333
+Spanish (Peruvian),Female,19,cuy/cuye,3,understands,0
+Spanish (Peruvian),Male,19,cuy/cuye,9,produces,0.1111
+Spanish (Peruvian),Male,19,cuy/cuye,9,understands,0
+Spanish (Peruvian),Male,20,cuy/cuye,1,produces,0
+Spanish (Peruvian),Male,20,cuy/cuye,1,understands,0
+Spanish (Peruvian),Female,21,cuy/cuye,3,produces,0.3333
+Spanish (Peruvian),Female,21,cuy/cuye,3,understands,0
+Spanish (Peruvian),Male,21,cuy/cuye,2,produces,0.5
+Spanish (Peruvian),Male,21,cuy/cuye,2,understands,0
+Spanish (Peruvian),Female,22,cuy/cuye,4,produces,0
+Spanish (Peruvian),Female,22,cuy/cuye,4,understands,0
+Spanish (Peruvian),Male,22,cuy/cuye,5,produces,0.2
+Spanish (Peruvian),Male,22,cuy/cuye,5,understands,0
+Spanish (Peruvian),Female,23,cuy/cuye,1,produces,0
+Spanish (Peruvian),Female,23,cuy/cuye,1,understands,0
+Spanish (Peruvian),Female,24,cuy/cuye,7,produces,0.2857
+Spanish (Peruvian),Female,24,cuy/cuye,7,understands,0
+Spanish (Peruvian),Male,24,cuy/cuye,8,produces,0
+Spanish (Peruvian),Male,24,cuy/cuye,8,understands,0
+Spanish (Peruvian),Female,25,cuy/cuye,2,produces,0
+Spanish (Peruvian),Female,25,cuy/cuye,2,understands,0
+Spanish (Peruvian),Male,25,cuy/cuye,3,produces,0
+Spanish (Peruvian),Male,25,cuy/cuye,3,understands,0
+Spanish (Peruvian),Female,26,cuy/cuye,3,produces,0
+Spanish (Peruvian),Female,26,cuy/cuye,3,understands,0
+Spanish (Peruvian),Male,26,cuy/cuye,5,produces,0
+Spanish (Peruvian),Male,26,cuy/cuye,5,understands,0
+Spanish (Peruvian),Female,27,cuy/cuye,3,produces,0
+Spanish (Peruvian),Female,27,cuy/cuye,3,understands,0
+Spanish (Peruvian),Male,27,cuy/cuye,4,produces,0.25
+Spanish (Peruvian),Male,27,cuy/cuye,4,understands,0
+Spanish (Peruvian),Female,28,cuy/cuye,3,produces,0.3333
+Spanish (Peruvian),Female,28,cuy/cuye,3,understands,0
+Spanish (Peruvian),Male,28,cuy/cuye,5,produces,0.4
+Spanish (Peruvian),Male,28,cuy/cuye,5,understands,0
+Spanish (Peruvian),Female,29,cuy/cuye,1,produces,1
+Spanish (Peruvian),Female,29,cuy/cuye,1,understands,0
+Spanish (Peruvian),Male,29,cuy/cuye,5,produces,0.4
+Spanish (Peruvian),Male,29,cuy/cuye,5,understands,0
+Spanish (Peruvian),Female,30,cuy/cuye,1,produces,0
+Spanish (Peruvian),Female,30,cuy/cuye,1,understands,0
+Spanish (Peruvian),Male,30,cuy/cuye,1,produces,1
+Spanish (Peruvian),Male,30,cuy/cuye,1,understands,0

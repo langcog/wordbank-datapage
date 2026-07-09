@@ -1,103 +1,305 @@
-language,age,words,n,measure,prop
-Kiswahili,23,Nyuma,2,produces,0
-Kiswahili,23,Nyuma,2,understands,0
-Kiswahili,24,Nyuma,12,produces,0.4167
-Kiswahili,24,Nyuma,12,understands,0
-Kiswahili,25,Nyuma,10,produces,0.1
-Kiswahili,25,Nyuma,10,understands,0
-Kiswahili,26,Nyuma,13,produces,0.3846
-Kiswahili,26,Nyuma,13,understands,0
-Kiswahili,27,Nyuma,8,produces,0.125
-Kiswahili,27,Nyuma,8,understands,0
-Kiswahili,28,Nyuma,6,produces,0.1667
-Kiswahili,28,Nyuma,6,understands,0
-Kiswahili,29,Nyuma,6,produces,0.3333
-Kiswahili,29,Nyuma,6,understands,0
-Kiswahili,30,Nyuma,5,produces,0.8
-Kiswahili,30,Nyuma,5,understands,0
-British Sign Language,8,back,4,produces,0
-British Sign Language,8,back,4,understands,0
-British Sign Language,9,back,4,produces,0
-British Sign Language,9,back,4,understands,0
-British Sign Language,10,back,4,produces,0
-British Sign Language,10,back,4,understands,0
-British Sign Language,11,back,6,produces,0
-British Sign Language,11,back,6,understands,0
-British Sign Language,12,back,6,produces,0
-British Sign Language,12,back,6,understands,0
-British Sign Language,13,back,6,produces,0
-British Sign Language,13,back,6,understands,0
-British Sign Language,14,back,7,produces,0
-British Sign Language,14,back,7,understands,0
-British Sign Language,15,back,6,produces,0
-British Sign Language,15,back,6,understands,0
-British Sign Language,16,back,7,produces,0
-British Sign Language,16,back,7,understands,0
-British Sign Language,17,back,7,produces,0
-British Sign Language,17,back,7,understands,0
-British Sign Language,18,back,8,produces,0
-British Sign Language,18,back,8,understands,0
-British Sign Language,19,back,8,produces,0.125
-British Sign Language,19,back,8,understands,0.125
-British Sign Language,20,back,11,produces,0
-British Sign Language,20,back,11,understands,0
-British Sign Language,21,back,5,produces,0
-British Sign Language,21,back,5,understands,0
-British Sign Language,22,back,6,produces,0
-British Sign Language,22,back,6,understands,0
-British Sign Language,23,back,7,produces,0
-British Sign Language,23,back,7,understands,0.1429
-British Sign Language,24,back,5,produces,0.2
-British Sign Language,24,back,5,understands,0.2
-British Sign Language,25,back,7,produces,0
-British Sign Language,25,back,7,understands,0.1429
-British Sign Language,26,back,6,produces,0.1667
-British Sign Language,26,back,6,understands,0.3333
-British Sign Language,27,back,6,produces,0
-British Sign Language,27,back,6,understands,0
-British Sign Language,28,back,3,produces,0
-British Sign Language,28,back,3,understands,0.3333
-British Sign Language,29,back,7,produces,0.1429
-British Sign Language,29,back,7,understands,0.1429
-British Sign Language,30,back,5,produces,0
-British Sign Language,30,back,5,understands,0.4
-British Sign Language,31,back,2,produces,0
-British Sign Language,31,back,2,understands,0
-British Sign Language,32,back,6,produces,0.3333
-British Sign Language,32,back,6,understands,0.3333
-British Sign Language,33,back,5,produces,0.2
-British Sign Language,33,back,5,understands,0.8
-British Sign Language,34,back,2,produces,0
-British Sign Language,34,back,2,understands,0
-British Sign Language,35,back,2,produces,0.5
-British Sign Language,35,back,2,understands,1
-British Sign Language,36,back,3,produces,0.3333
-British Sign Language,36,back,3,understands,0.3333
-English (British),12,back,27,produces,0
-English (British),12,back,27,understands,0
-English (British),13,back,7,produces,0
-English (British),13,back,7,understands,0
-English (British),14,back,64,produces,0
-English (British),14,back,64,understands,0.0312
-English (British),15,back,88,produces,0
-English (British),15,back,88,understands,0.0909
-English (British),16,back,118,produces,0.0169
-English (British),16,back,118,understands,0.0932
-English (British),17,back,197,produces,0.0508
-English (British),17,back,197,understands,0.1929
-English (British),18,back,118,produces,0.0763
-English (British),18,back,118,understands,0.2373
-English (British),19,back,109,produces,0.1193
-English (British),19,back,109,understands,0.4128
-English (British),20,back,144,produces,0.1736
-English (British),20,back,144,understands,0.4097
-English (British),21,back,75,produces,0.2
-English (British),21,back,75,understands,0.44
-English (British),22,back,28,produces,0.4286
-English (British),22,back,28,understands,0.4643
-English (British),23,back,112,produces,0.4196
-English (British),23,back,112,understands,0.5536
-English (British),24,back,87,produces,0.4368
-English (British),24,back,87,understands,0.5287
-English (British),25,back,36,produces,0.5
-English (British),25,back,36,understands,0.6667
+language,sex,age,words,n,measure,prop
+British Sign Language,All,8,back,4,produces,0
+British Sign Language,All,8,back,4,understands,0
+British Sign Language,All,9,back,4,produces,0
+British Sign Language,All,9,back,4,understands,0
+British Sign Language,All,10,back,4,produces,0
+British Sign Language,All,10,back,4,understands,0
+British Sign Language,All,11,back,6,produces,0
+British Sign Language,All,11,back,6,understands,0
+British Sign Language,All,12,back,6,produces,0
+British Sign Language,All,12,back,6,understands,0
+British Sign Language,All,13,back,6,produces,0
+British Sign Language,All,13,back,6,understands,0
+British Sign Language,All,14,back,7,produces,0
+British Sign Language,All,14,back,7,understands,0
+British Sign Language,All,15,back,6,produces,0
+British Sign Language,All,15,back,6,understands,0
+British Sign Language,All,16,back,7,produces,0
+British Sign Language,All,16,back,7,understands,0
+British Sign Language,All,17,back,7,produces,0
+British Sign Language,All,17,back,7,understands,0
+British Sign Language,All,18,back,8,produces,0
+British Sign Language,All,18,back,8,understands,0
+British Sign Language,All,19,back,8,produces,0.125
+British Sign Language,All,19,back,8,understands,0.125
+British Sign Language,All,20,back,11,produces,0
+British Sign Language,All,20,back,11,understands,0
+British Sign Language,All,21,back,5,produces,0
+British Sign Language,All,21,back,5,understands,0
+British Sign Language,All,22,back,6,produces,0
+British Sign Language,All,22,back,6,understands,0
+British Sign Language,All,23,back,7,produces,0
+British Sign Language,All,23,back,7,understands,0.1429
+British Sign Language,All,24,back,5,produces,0.2
+British Sign Language,All,24,back,5,understands,0.2
+British Sign Language,All,25,back,7,produces,0
+British Sign Language,All,25,back,7,understands,0.1429
+British Sign Language,All,26,back,6,produces,0.1667
+British Sign Language,All,26,back,6,understands,0.3333
+British Sign Language,All,27,back,6,produces,0
+British Sign Language,All,27,back,6,understands,0
+British Sign Language,All,28,back,3,produces,0
+British Sign Language,All,28,back,3,understands,0.3333
+British Sign Language,All,29,back,7,produces,0.1429
+British Sign Language,All,29,back,7,understands,0.1429
+British Sign Language,All,30,back,5,produces,0
+British Sign Language,All,30,back,5,understands,0.4
+British Sign Language,All,31,back,2,produces,0
+British Sign Language,All,31,back,2,understands,0
+British Sign Language,All,32,back,6,produces,0.3333
+British Sign Language,All,32,back,6,understands,0.3333
+British Sign Language,All,33,back,5,produces,0.2
+British Sign Language,All,33,back,5,understands,0.8
+British Sign Language,All,34,back,2,produces,0
+British Sign Language,All,34,back,2,understands,0
+British Sign Language,All,35,back,2,produces,0.5
+British Sign Language,All,35,back,2,understands,1
+British Sign Language,All,36,back,3,produces,0.3333
+British Sign Language,All,36,back,3,understands,0.3333
+English (British),All,12,back,27,produces,0
+English (British),All,12,back,27,understands,0
+English (British),All,13,back,7,produces,0
+English (British),All,13,back,7,understands,0
+English (British),All,14,back,64,produces,0
+English (British),All,14,back,64,understands,0.0312
+English (British),All,15,back,88,produces,0
+English (British),All,15,back,88,understands,0.0909
+English (British),All,16,back,118,produces,0.0169
+English (British),All,16,back,118,understands,0.0932
+English (British),All,17,back,197,produces,0.0508
+English (British),All,17,back,197,understands,0.1929
+English (British),All,18,back,118,produces,0.0763
+English (British),All,18,back,118,understands,0.2373
+English (British),All,19,back,109,produces,0.1193
+English (British),All,19,back,109,understands,0.4128
+English (British),All,20,back,144,produces,0.1736
+English (British),All,20,back,144,understands,0.4097
+English (British),All,21,back,75,produces,0.2
+English (British),All,21,back,75,understands,0.44
+English (British),All,22,back,28,produces,0.4286
+English (British),All,22,back,28,understands,0.4643
+English (British),All,23,back,112,produces,0.4196
+English (British),All,23,back,112,understands,0.5536
+English (British),All,24,back,87,produces,0.4368
+English (British),All,24,back,87,understands,0.5287
+English (British),All,25,back,36,produces,0.5
+English (British),All,25,back,36,understands,0.6667
+Kiswahili,All,23,Nyuma,2,produces,0
+Kiswahili,All,23,Nyuma,2,understands,0
+Kiswahili,All,24,Nyuma,12,produces,0.4167
+Kiswahili,All,24,Nyuma,12,understands,0
+Kiswahili,All,25,Nyuma,10,produces,0.1
+Kiswahili,All,25,Nyuma,10,understands,0
+Kiswahili,All,26,Nyuma,13,produces,0.3846
+Kiswahili,All,26,Nyuma,13,understands,0
+Kiswahili,All,27,Nyuma,8,produces,0.125
+Kiswahili,All,27,Nyuma,8,understands,0
+Kiswahili,All,28,Nyuma,6,produces,0.1667
+Kiswahili,All,28,Nyuma,6,understands,0
+Kiswahili,All,29,Nyuma,6,produces,0.3333
+Kiswahili,All,29,Nyuma,6,understands,0
+Kiswahili,All,30,Nyuma,5,produces,0.8
+Kiswahili,All,30,Nyuma,5,understands,0
+British Sign Language,Female,8,back,2,produces,0
+British Sign Language,Female,8,back,2,understands,0
+British Sign Language,Male,8,back,2,produces,0
+British Sign Language,Male,8,back,2,understands,0
+British Sign Language,Female,9,back,3,produces,0
+British Sign Language,Female,9,back,3,understands,0
+British Sign Language,Male,9,back,1,produces,0
+British Sign Language,Male,9,back,1,understands,0
+British Sign Language,Female,10,back,1,produces,0
+British Sign Language,Female,10,back,1,understands,0
+British Sign Language,Male,10,back,3,produces,0
+British Sign Language,Male,10,back,3,understands,0
+British Sign Language,Female,11,back,4,produces,0
+British Sign Language,Female,11,back,4,understands,0
+British Sign Language,Male,11,back,2,produces,0
+British Sign Language,Male,11,back,2,understands,0
+British Sign Language,Female,12,back,3,produces,0
+British Sign Language,Female,12,back,3,understands,0
+British Sign Language,Male,12,back,3,produces,0
+British Sign Language,Male,12,back,3,understands,0
+British Sign Language,Female,13,back,2,produces,0
+British Sign Language,Female,13,back,2,understands,0
+British Sign Language,Male,13,back,4,produces,0
+British Sign Language,Male,13,back,4,understands,0
+British Sign Language,Female,14,back,3,produces,0
+British Sign Language,Female,14,back,3,understands,0
+British Sign Language,Male,14,back,4,produces,0
+British Sign Language,Male,14,back,4,understands,0
+British Sign Language,Female,15,back,4,produces,0
+British Sign Language,Female,15,back,4,understands,0
+British Sign Language,Male,15,back,2,produces,0
+British Sign Language,Male,15,back,2,understands,0
+British Sign Language,Female,16,back,4,produces,0
+British Sign Language,Female,16,back,4,understands,0
+British Sign Language,Male,16,back,3,produces,0
+British Sign Language,Male,16,back,3,understands,0
+British Sign Language,Female,17,back,2,produces,0
+British Sign Language,Female,17,back,2,understands,0
+British Sign Language,Male,17,back,5,produces,0
+British Sign Language,Male,17,back,5,understands,0
+British Sign Language,Female,18,back,4,produces,0
+British Sign Language,Female,18,back,4,understands,0
+British Sign Language,Male,18,back,4,produces,0
+British Sign Language,Male,18,back,4,understands,0
+British Sign Language,Female,19,back,4,produces,0.25
+British Sign Language,Female,19,back,4,understands,0.25
+British Sign Language,Male,19,back,4,produces,0
+British Sign Language,Male,19,back,4,understands,0
+British Sign Language,Female,20,back,4,produces,0
+British Sign Language,Female,20,back,4,understands,0
+British Sign Language,Male,20,back,7,produces,0
+British Sign Language,Male,20,back,7,understands,0
+British Sign Language,Female,21,back,3,produces,0
+British Sign Language,Female,21,back,3,understands,0
+British Sign Language,Male,21,back,2,produces,0
+British Sign Language,Male,21,back,2,understands,0
+British Sign Language,Female,22,back,2,produces,0
+British Sign Language,Female,22,back,2,understands,0
+British Sign Language,Male,22,back,4,produces,0
+British Sign Language,Male,22,back,4,understands,0
+British Sign Language,Female,23,back,2,produces,0
+British Sign Language,Female,23,back,2,understands,0.5
+British Sign Language,Male,23,back,5,produces,0
+British Sign Language,Male,23,back,5,understands,0
+British Sign Language,Female,24,back,3,produces,0.3333
+British Sign Language,Female,24,back,3,understands,0.3333
+British Sign Language,Male,24,back,2,produces,0
+British Sign Language,Male,24,back,2,understands,0
+British Sign Language,Female,25,back,1,produces,0
+British Sign Language,Female,25,back,1,understands,0
+British Sign Language,Male,25,back,6,produces,0
+British Sign Language,Male,25,back,6,understands,0.1667
+British Sign Language,Female,26,back,4,produces,0.25
+British Sign Language,Female,26,back,4,understands,0.25
+British Sign Language,Male,26,back,2,produces,0
+British Sign Language,Male,26,back,2,understands,0.5
+British Sign Language,Female,27,back,1,produces,0
+British Sign Language,Female,27,back,1,understands,0
+British Sign Language,Male,27,back,5,produces,0
+British Sign Language,Male,27,back,5,understands,0
+British Sign Language,Female,28,back,1,produces,0
+British Sign Language,Female,28,back,1,understands,0
+British Sign Language,Male,28,back,2,produces,0
+British Sign Language,Male,28,back,2,understands,0.5
+British Sign Language,Female,29,back,2,produces,0
+British Sign Language,Female,29,back,2,understands,0
+British Sign Language,Male,29,back,5,produces,0.2
+British Sign Language,Male,29,back,5,understands,0.2
+British Sign Language,Female,30,back,1,produces,0
+British Sign Language,Female,30,back,1,understands,0
+British Sign Language,Male,30,back,4,produces,0
+British Sign Language,Male,30,back,4,understands,0.5
+British Sign Language,Male,31,back,2,produces,0
+British Sign Language,Male,31,back,2,understands,0
+British Sign Language,Female,32,back,2,produces,0.5
+British Sign Language,Female,32,back,2,understands,0.5
+British Sign Language,Male,32,back,4,produces,0.25
+British Sign Language,Male,32,back,4,understands,0.25
+British Sign Language,Female,33,back,1,produces,0
+British Sign Language,Female,33,back,1,understands,1
+British Sign Language,Male,33,back,4,produces,0.25
+British Sign Language,Male,33,back,4,understands,0.75
+British Sign Language,Female,34,back,1,produces,0
+British Sign Language,Female,34,back,1,understands,0
+British Sign Language,Male,34,back,1,produces,0
+British Sign Language,Male,34,back,1,understands,0
+British Sign Language,Female,35,back,1,produces,0
+British Sign Language,Female,35,back,1,understands,1
+British Sign Language,Male,35,back,1,produces,1
+British Sign Language,Male,35,back,1,understands,1
+British Sign Language,Female,36,back,1,produces,1
+British Sign Language,Female,36,back,1,understands,1
+British Sign Language,Male,36,back,2,produces,0
+British Sign Language,Male,36,back,2,understands,0
+English (British),Female,12,back,13,produces,0
+English (British),Female,12,back,13,understands,0
+English (British),Male,12,back,14,produces,0
+English (British),Male,12,back,14,understands,0
+English (British),Female,13,back,2,produces,0
+English (British),Female,13,back,2,understands,0
+English (British),Male,13,back,5,produces,0
+English (British),Male,13,back,5,understands,0
+English (British),Female,14,back,27,produces,0
+English (British),Female,14,back,27,understands,0.037
+English (British),Male,14,back,37,produces,0
+English (British),Male,14,back,37,understands,0.027
+English (British),Female,15,back,38,produces,0
+English (British),Female,15,back,38,understands,0.0789
+English (British),Male,15,back,50,produces,0
+English (British),Male,15,back,50,understands,0.1
+English (British),Female,16,back,58,produces,0.0345
+English (British),Female,16,back,58,understands,0.1724
+English (British),Male,16,back,60,produces,0
+English (British),Male,16,back,60,understands,0.0167
+English (British),Female,17,back,90,produces,0.1
+English (British),Female,17,back,90,understands,0.2778
+English (British),Male,17,back,107,produces,0.0093
+English (British),Male,17,back,107,understands,0.1215
+English (British),Female,18,back,58,produces,0.0862
+English (British),Female,18,back,58,understands,0.3103
+English (British),Male,18,back,60,produces,0.0667
+English (British),Male,18,back,60,understands,0.1667
+English (British),Female,19,back,52,produces,0.1731
+English (British),Female,19,back,52,understands,0.4423
+English (British),Male,19,back,57,produces,0.0702
+English (British),Male,19,back,57,understands,0.386
+English (British),Female,20,back,64,produces,0.2344
+English (British),Female,20,back,64,understands,0.4844
+English (British),Male,20,back,80,produces,0.125
+English (British),Male,20,back,80,understands,0.35
+English (British),Female,21,back,32,produces,0.2812
+English (British),Female,21,back,32,understands,0.5312
+English (British),Male,21,back,43,produces,0.1395
+English (British),Male,21,back,43,understands,0.3721
+English (British),Female,22,back,12,produces,0.5833
+English (British),Female,22,back,12,understands,0.5833
+English (British),Male,22,back,16,produces,0.3125
+English (British),Male,22,back,16,understands,0.375
+English (British),Female,23,back,50,produces,0.42
+English (British),Female,23,back,50,understands,0.54
+English (British),Male,23,back,62,produces,0.4194
+English (British),Male,23,back,62,understands,0.5645
+English (British),Female,24,back,42,produces,0.4048
+English (British),Female,24,back,42,understands,0.5
+English (British),Male,24,back,45,produces,0.4667
+English (British),Male,24,back,45,understands,0.5556
+English (British),Female,25,back,21,produces,0.5714
+English (British),Female,25,back,21,understands,0.6667
+English (British),Male,25,back,15,produces,0.4
+English (British),Male,25,back,15,understands,0.6667
+Kiswahili,Female,23,Nyuma,1,produces,0
+Kiswahili,Female,23,Nyuma,1,understands,0
+Kiswahili,Male,23,Nyuma,1,produces,0
+Kiswahili,Male,23,Nyuma,1,understands,0
+Kiswahili,Female,24,Nyuma,6,produces,0.1667
+Kiswahili,Female,24,Nyuma,6,understands,0
+Kiswahili,Male,24,Nyuma,6,produces,0.6667
+Kiswahili,Male,24,Nyuma,6,understands,0
+Kiswahili,Female,25,Nyuma,8,produces,0.125
+Kiswahili,Female,25,Nyuma,8,understands,0
+Kiswahili,Male,25,Nyuma,2,produces,0
+Kiswahili,Male,25,Nyuma,2,understands,0
+Kiswahili,Female,26,Nyuma,3,produces,0
+Kiswahili,Female,26,Nyuma,3,understands,0
+Kiswahili,Male,26,Nyuma,10,produces,0.5
+Kiswahili,Male,26,Nyuma,10,understands,0
+Kiswahili,Female,27,Nyuma,3,produces,0
+Kiswahili,Female,27,Nyuma,3,understands,0
+Kiswahili,Male,27,Nyuma,5,produces,0.2
+Kiswahili,Male,27,Nyuma,5,understands,0
+Kiswahili,Female,28,Nyuma,3,produces,0
+Kiswahili,Female,28,Nyuma,3,understands,0
+Kiswahili,Male,28,Nyuma,3,produces,0.3333
+Kiswahili,Male,28,Nyuma,3,understands,0
+Kiswahili,Female,29,Nyuma,3,produces,0.3333
+Kiswahili,Female,29,Nyuma,3,understands,0
+Kiswahili,Male,29,Nyuma,3,produces,0.3333
+Kiswahili,Male,29,Nyuma,3,understands,0
+Kiswahili,Female,30,Nyuma,3,produces,0.6667
+Kiswahili,Female,30,Nyuma,3,understands,0
+Kiswahili,Male,30,Nyuma,2,produces,1
+Kiswahili,Male,30,Nyuma,2,understands,0

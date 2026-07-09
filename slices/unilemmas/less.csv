@@ -1,65 +1,193 @@
-language,age,words,n,measure,prop
-Cantonese,16,"少, 少啲",46,produces,0
-Cantonese,16,"少, 少啲",46,understands,0
-Cantonese,17,"少, 少啲",61,produces,0
-Cantonese,17,"少, 少啲",61,understands,0
-Cantonese,18,"少, 少啲",68,produces,0.0147
-Cantonese,18,"少, 少啲",68,understands,0
-Cantonese,19,"少, 少啲",66,produces,0
-Cantonese,19,"少, 少啲",66,understands,0
-Cantonese,20,"少, 少啲",140,produces,0.0643
-Cantonese,20,"少, 少啲",140,understands,0
-Cantonese,21,"少, 少啲",120,produces,0.05
-Cantonese,21,"少, 少啲",120,understands,0
-Cantonese,22,"少, 少啲",68,produces,0.0882
-Cantonese,22,"少, 少啲",68,understands,0
-Cantonese,23,"少, 少啲",74,produces,0.1554
-Cantonese,23,"少, 少啲",74,understands,0
-Cantonese,24,"少, 少啲",68,produces,0.2721
-Cantonese,24,"少, 少啲",68,understands,0
-Cantonese,25,"少, 少啲",65,produces,0.2
-Cantonese,25,"少, 少啲",65,understands,0
-Cantonese,26,"少, 少啲",68,produces,0.3162
-Cantonese,26,"少, 少啲",68,understands,0
-Cantonese,27,"少, 少啲",62,produces,0.4032
-Cantonese,27,"少, 少啲",62,understands,0
-Cantonese,28,"少, 少啲",66,produces,0.5379
-Cantonese,28,"少, 少啲",66,understands,0
-Cantonese,29,"少, 少啲",72,produces,0.5347
-Cantonese,29,"少, 少啲",72,understands,0
-Cantonese,30,"少, 少啲",164,produces,0.6311
-Cantonese,30,"少, 少啲",164,understands,0
-Finnish,18,vähemmän,35,produces,0
-Finnish,18,vähemmän,35,understands,0
-Finnish,24,vähemmän,35,produces,0.0286
-Finnish,24,vähemmän,35,understands,0
-Hungarian,16,kevesebb,21,produces,0
-Hungarian,16,kevesebb,21,understands,0
-Hungarian,17,kevesebb,18,produces,0
-Hungarian,17,kevesebb,18,understands,0
-Hungarian,18,kevesebb,18,produces,0.0556
-Hungarian,18,kevesebb,18,understands,0
-Hungarian,19,kevesebb,26,produces,0.0385
-Hungarian,19,kevesebb,26,understands,0
-Hungarian,20,kevesebb,18,produces,0.0556
-Hungarian,20,kevesebb,18,understands,0
-Hungarian,21,kevesebb,36,produces,0
-Hungarian,21,kevesebb,36,understands,0
-Hungarian,22,kevesebb,27,produces,0
-Hungarian,22,kevesebb,27,understands,0
-Hungarian,23,kevesebb,18,produces,0
-Hungarian,23,kevesebb,18,understands,0
-Hungarian,24,kevesebb,38,produces,0.0263
-Hungarian,24,kevesebb,38,understands,0
-Hungarian,25,kevesebb,43,produces,0.1395
-Hungarian,25,kevesebb,43,understands,0
-Hungarian,26,kevesebb,23,produces,0
-Hungarian,26,kevesebb,23,understands,0
-Hungarian,27,kevesebb,26,produces,0.0769
-Hungarian,27,kevesebb,26,understands,0
-Hungarian,28,kevesebb,30,produces,0
-Hungarian,28,kevesebb,30,understands,0
-Hungarian,29,kevesebb,12,produces,0.3333
-Hungarian,29,kevesebb,12,understands,0
-Hungarian,30,kevesebb,18,produces,0.1667
-Hungarian,30,kevesebb,18,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,"少, 少啲",46,produces,0
+Cantonese,All,16,"少, 少啲",46,understands,0
+Cantonese,All,17,"少, 少啲",61,produces,0
+Cantonese,All,17,"少, 少啲",61,understands,0
+Cantonese,All,18,"少, 少啲",68,produces,0.0147
+Cantonese,All,18,"少, 少啲",68,understands,0
+Cantonese,All,19,"少, 少啲",66,produces,0
+Cantonese,All,19,"少, 少啲",66,understands,0
+Cantonese,All,20,"少, 少啲",140,produces,0.0643
+Cantonese,All,20,"少, 少啲",140,understands,0
+Cantonese,All,21,"少, 少啲",120,produces,0.05
+Cantonese,All,21,"少, 少啲",120,understands,0
+Cantonese,All,22,"少, 少啲",68,produces,0.0882
+Cantonese,All,22,"少, 少啲",68,understands,0
+Cantonese,All,23,"少, 少啲",74,produces,0.1554
+Cantonese,All,23,"少, 少啲",74,understands,0
+Cantonese,All,24,"少, 少啲",68,produces,0.2721
+Cantonese,All,24,"少, 少啲",68,understands,0
+Cantonese,All,25,"少, 少啲",65,produces,0.2
+Cantonese,All,25,"少, 少啲",65,understands,0
+Cantonese,All,26,"少, 少啲",68,produces,0.3162
+Cantonese,All,26,"少, 少啲",68,understands,0
+Cantonese,All,27,"少, 少啲",62,produces,0.4032
+Cantonese,All,27,"少, 少啲",62,understands,0
+Cantonese,All,28,"少, 少啲",66,produces,0.5379
+Cantonese,All,28,"少, 少啲",66,understands,0
+Cantonese,All,29,"少, 少啲",72,produces,0.5347
+Cantonese,All,29,"少, 少啲",72,understands,0
+Cantonese,All,30,"少, 少啲",164,produces,0.6311
+Cantonese,All,30,"少, 少啲",164,understands,0
+Finnish,All,18,vähemmän,35,produces,0
+Finnish,All,18,vähemmän,35,understands,0
+Finnish,All,24,vähemmän,35,produces,0.0286
+Finnish,All,24,vähemmän,35,understands,0
+Hungarian,All,16,kevesebb,21,produces,0
+Hungarian,All,16,kevesebb,21,understands,0
+Hungarian,All,17,kevesebb,18,produces,0
+Hungarian,All,17,kevesebb,18,understands,0
+Hungarian,All,18,kevesebb,18,produces,0.0556
+Hungarian,All,18,kevesebb,18,understands,0
+Hungarian,All,19,kevesebb,26,produces,0.0385
+Hungarian,All,19,kevesebb,26,understands,0
+Hungarian,All,20,kevesebb,18,produces,0.0556
+Hungarian,All,20,kevesebb,18,understands,0
+Hungarian,All,21,kevesebb,36,produces,0
+Hungarian,All,21,kevesebb,36,understands,0
+Hungarian,All,22,kevesebb,27,produces,0
+Hungarian,All,22,kevesebb,27,understands,0
+Hungarian,All,23,kevesebb,18,produces,0
+Hungarian,All,23,kevesebb,18,understands,0
+Hungarian,All,24,kevesebb,38,produces,0.0263
+Hungarian,All,24,kevesebb,38,understands,0
+Hungarian,All,25,kevesebb,43,produces,0.1395
+Hungarian,All,25,kevesebb,43,understands,0
+Hungarian,All,26,kevesebb,23,produces,0
+Hungarian,All,26,kevesebb,23,understands,0
+Hungarian,All,27,kevesebb,26,produces,0.0769
+Hungarian,All,27,kevesebb,26,understands,0
+Hungarian,All,28,kevesebb,30,produces,0
+Hungarian,All,28,kevesebb,30,understands,0
+Hungarian,All,29,kevesebb,12,produces,0.3333
+Hungarian,All,29,kevesebb,12,understands,0
+Hungarian,All,30,kevesebb,18,produces,0.1667
+Hungarian,All,30,kevesebb,18,understands,0
+Cantonese,Female,16,"少, 少啲",23,produces,0
+Cantonese,Female,16,"少, 少啲",23,understands,0
+Cantonese,Male,16,"少, 少啲",23,produces,0
+Cantonese,Male,16,"少, 少啲",23,understands,0
+Cantonese,Female,17,"少, 少啲",30,produces,0
+Cantonese,Female,17,"少, 少啲",30,understands,0
+Cantonese,Male,17,"少, 少啲",31,produces,0
+Cantonese,Male,17,"少, 少啲",31,understands,0
+Cantonese,Female,18,"少, 少啲",33,produces,0.0303
+Cantonese,Female,18,"少, 少啲",33,understands,0
+Cantonese,Male,18,"少, 少啲",35,produces,0
+Cantonese,Male,18,"少, 少啲",35,understands,0
+Cantonese,Female,19,"少, 少啲",30,produces,0
+Cantonese,Female,19,"少, 少啲",30,understands,0
+Cantonese,Male,19,"少, 少啲",36,produces,0
+Cantonese,Male,19,"少, 少啲",36,understands,0
+Cantonese,Female,20,"少, 少啲",62,produces,0.0323
+Cantonese,Female,20,"少, 少啲",62,understands,0
+Cantonese,Male,20,"少, 少啲",78,produces,0.0897
+Cantonese,Male,20,"少, 少啲",78,understands,0
+Cantonese,Female,21,"少, 少啲",57,produces,0.0614
+Cantonese,Female,21,"少, 少啲",57,understands,0
+Cantonese,Male,21,"少, 少啲",63,produces,0.0397
+Cantonese,Male,21,"少, 少啲",63,understands,0
+Cantonese,Female,22,"少, 少啲",34,produces,0.1765
+Cantonese,Female,22,"少, 少啲",34,understands,0
+Cantonese,Male,22,"少, 少啲",34,produces,0
+Cantonese,Male,22,"少, 少啲",34,understands,0
+Cantonese,Female,23,"少, 少啲",37,produces,0.1892
+Cantonese,Female,23,"少, 少啲",37,understands,0
+Cantonese,Male,23,"少, 少啲",37,produces,0.1216
+Cantonese,Male,23,"少, 少啲",37,understands,0
+Cantonese,Female,24,"少, 少啲",32,produces,0.3438
+Cantonese,Female,24,"少, 少啲",32,understands,0
+Cantonese,Male,24,"少, 少啲",36,produces,0.2083
+Cantonese,Male,24,"少, 少啲",36,understands,0
+Cantonese,Female,25,"少, 少啲",31,produces,0.2097
+Cantonese,Female,25,"少, 少啲",31,understands,0
+Cantonese,Male,25,"少, 少啲",34,produces,0.1912
+Cantonese,Male,25,"少, 少啲",34,understands,0
+Cantonese,Female,26,"少, 少啲",31,produces,0.4194
+Cantonese,Female,26,"少, 少啲",31,understands,0
+Cantonese,Male,26,"少, 少啲",37,produces,0.2297
+Cantonese,Male,26,"少, 少啲",37,understands,0
+Cantonese,Female,27,"少, 少啲",31,produces,0.3871
+Cantonese,Female,27,"少, 少啲",31,understands,0
+Cantonese,Male,27,"少, 少啲",31,produces,0.4194
+Cantonese,Male,27,"少, 少啲",31,understands,0
+Cantonese,Female,28,"少, 少啲",32,produces,0.625
+Cantonese,Female,28,"少, 少啲",32,understands,0
+Cantonese,Male,28,"少, 少啲",34,produces,0.4559
+Cantonese,Male,28,"少, 少啲",34,understands,0
+Cantonese,Female,29,"少, 少啲",36,produces,0.6111
+Cantonese,Female,29,"少, 少啲",36,understands,0
+Cantonese,Male,29,"少, 少啲",36,produces,0.4583
+Cantonese,Male,29,"少, 少啲",36,understands,0
+Cantonese,Female,30,"少, 少啲",76,produces,0.6974
+Cantonese,Female,30,"少, 少啲",76,understands,0
+Cantonese,Male,30,"少, 少啲",88,produces,0.5739
+Cantonese,Male,30,"少, 少啲",88,understands,0
+Finnish,Female,18,vähemmän,18,produces,0
+Finnish,Female,18,vähemmän,18,understands,0
+Finnish,Male,18,vähemmän,17,produces,0
+Finnish,Male,18,vähemmän,17,understands,0
+Finnish,Female,24,vähemmän,18,produces,0
+Finnish,Female,24,vähemmän,18,understands,0
+Finnish,Male,24,vähemmän,17,produces,0.0588
+Finnish,Male,24,vähemmän,17,understands,0
+Hungarian,Female,16,kevesebb,11,produces,0
+Hungarian,Female,16,kevesebb,11,understands,0
+Hungarian,Male,16,kevesebb,10,produces,0
+Hungarian,Male,16,kevesebb,10,understands,0
+Hungarian,Female,17,kevesebb,11,produces,0
+Hungarian,Female,17,kevesebb,11,understands,0
+Hungarian,Male,17,kevesebb,7,produces,0
+Hungarian,Male,17,kevesebb,7,understands,0
+Hungarian,Female,18,kevesebb,9,produces,0
+Hungarian,Female,18,kevesebb,9,understands,0
+Hungarian,Male,18,kevesebb,9,produces,0.1111
+Hungarian,Male,18,kevesebb,9,understands,0
+Hungarian,Female,19,kevesebb,13,produces,0.0769
+Hungarian,Female,19,kevesebb,13,understands,0
+Hungarian,Male,19,kevesebb,12,produces,0
+Hungarian,Male,19,kevesebb,12,understands,0
+Hungarian,Female,20,kevesebb,12,produces,0.0833
+Hungarian,Female,20,kevesebb,12,understands,0
+Hungarian,Male,20,kevesebb,6,produces,0
+Hungarian,Male,20,kevesebb,6,understands,0
+Hungarian,Female,21,kevesebb,16,produces,0
+Hungarian,Female,21,kevesebb,16,understands,0
+Hungarian,Male,21,kevesebb,20,produces,0
+Hungarian,Male,21,kevesebb,20,understands,0
+Hungarian,Female,22,kevesebb,14,produces,0
+Hungarian,Female,22,kevesebb,14,understands,0
+Hungarian,Male,22,kevesebb,13,produces,0
+Hungarian,Male,22,kevesebb,13,understands,0
+Hungarian,Female,23,kevesebb,6,produces,0
+Hungarian,Female,23,kevesebb,6,understands,0
+Hungarian,Male,23,kevesebb,12,produces,0
+Hungarian,Male,23,kevesebb,12,understands,0
+Hungarian,Female,24,kevesebb,14,produces,0
+Hungarian,Female,24,kevesebb,14,understands,0
+Hungarian,Male,24,kevesebb,24,produces,0.0417
+Hungarian,Male,24,kevesebb,24,understands,0
+Hungarian,Female,25,kevesebb,17,produces,0
+Hungarian,Female,25,kevesebb,17,understands,0
+Hungarian,Male,25,kevesebb,25,produces,0.2
+Hungarian,Male,25,kevesebb,25,understands,0
+Hungarian,Female,26,kevesebb,9,produces,0
+Hungarian,Female,26,kevesebb,9,understands,0
+Hungarian,Male,26,kevesebb,14,produces,0
+Hungarian,Male,26,kevesebb,14,understands,0
+Hungarian,Female,27,kevesebb,13,produces,0.1538
+Hungarian,Female,27,kevesebb,13,understands,0
+Hungarian,Male,27,kevesebb,13,produces,0
+Hungarian,Male,27,kevesebb,13,understands,0
+Hungarian,Female,28,kevesebb,11,produces,0
+Hungarian,Female,28,kevesebb,11,understands,0
+Hungarian,Male,28,kevesebb,18,produces,0
+Hungarian,Male,28,kevesebb,18,understands,0
+Hungarian,Female,29,kevesebb,8,produces,0.25
+Hungarian,Female,29,kevesebb,8,understands,0
+Hungarian,Male,29,kevesebb,4,produces,0.5
+Hungarian,Male,29,kevesebb,4,understands,0
+Hungarian,Female,30,kevesebb,3,produces,0
+Hungarian,Female,30,kevesebb,3,understands,0
+Hungarian,Male,30,kevesebb,15,produces,0.2
+Hungarian,Male,30,kevesebb,15,understands,0

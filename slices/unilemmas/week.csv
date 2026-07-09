@@ -1,83 +1,237 @@
-language,age,words,n,measure,prop
-American Sign Language,9,WEEK,4,produces,0
-American Sign Language,9,WEEK,4,understands,0
-American Sign Language,10,WEEK,2,produces,0
-American Sign Language,10,WEEK,2,understands,0
-American Sign Language,11,WEEK,3,produces,0
-American Sign Language,11,WEEK,3,understands,0
-American Sign Language,12,WEEK,2,produces,0
-American Sign Language,12,WEEK,2,understands,0
-American Sign Language,13,WEEK,1,produces,0
-American Sign Language,13,WEEK,1,understands,0
-American Sign Language,15,WEEK,2,produces,0
-American Sign Language,15,WEEK,2,understands,0
-American Sign Language,16,WEEK,2,produces,0
-American Sign Language,16,WEEK,2,understands,0
-American Sign Language,17,WEEK,3,produces,0
-American Sign Language,17,WEEK,3,understands,0
-American Sign Language,18,WEEK,7,produces,0.1429
-American Sign Language,18,WEEK,7,understands,0.2857
-American Sign Language,19,WEEK,6,produces,0
-American Sign Language,19,WEEK,6,understands,0
-American Sign Language,20,WEEK,3,produces,0
-American Sign Language,20,WEEK,3,understands,0
-American Sign Language,21,WEEK,3,produces,0.3333
-American Sign Language,21,WEEK,3,understands,0.6667
-American Sign Language,22,WEEK,10,produces,0
-American Sign Language,22,WEEK,10,understands,0.1
-American Sign Language,23,WEEK,3,produces,0
-American Sign Language,23,WEEK,3,understands,0
-American Sign Language,24,WEEK,9,produces,0
-American Sign Language,24,WEEK,9,understands,0.2222
-American Sign Language,25,WEEK,11,produces,0
-American Sign Language,25,WEEK,11,understands,0.1818
-American Sign Language,26,WEEK,4,produces,0
-American Sign Language,26,WEEK,4,understands,0
-American Sign Language,27,WEEK,6,produces,0
-American Sign Language,27,WEEK,6,understands,0.3333
-American Sign Language,28,WEEK,4,produces,0
-American Sign Language,28,WEEK,4,understands,0.25
-American Sign Language,29,WEEK,6,produces,0.1667
-American Sign Language,29,WEEK,6,understands,0.3333
-American Sign Language,30,WEEK,5,produces,0.2
-American Sign Language,30,WEEK,5,understands,0.2
-American Sign Language,31,WEEK,7,produces,0.1429
-American Sign Language,31,WEEK,7,understands,0.2857
-American Sign Language,32,WEEK,9,produces,0.1111
-American Sign Language,32,WEEK,9,understands,0.1111
-American Sign Language,33,WEEK,4,produces,0
-American Sign Language,33,WEEK,4,understands,0.25
-American Sign Language,34,WEEK,6,produces,0
-American Sign Language,34,WEEK,6,understands,0
-American Sign Language,35,WEEK,4,produces,0.25
-American Sign Language,35,WEEK,4,understands,1
-American Sign Language,36,WEEK,3,produces,0
-American Sign Language,36,WEEK,3,understands,0.3333
-English (British),34,week,443,produces,0.5801
-English (British),34,week,443,understands,0
-English (British),35,week,3693,produces,0.5992
-English (British),35,week,3693,understands,0
-English (British),36,week,5244,produces,0.5938
-English (British),36,week,5244,understands,0
-English (British),37,week,906,produces,0.6004
-English (British),37,week,906,understands,0
-English (British),38,week,264,produces,0.5795
-English (British),38,week,264,understands,0
-English (British),39,week,99,produces,0.7273
-English (British),39,week,99,understands,0
-English (British),40,week,48,produces,0.5417
-English (British),40,week,48,understands,0
-English (British),41,week,24,produces,0.7083
-English (British),41,week,24,understands,0
-English (British),42,week,23,produces,0.7391
-English (British),42,week,23,understands,0
-English (British),43,week,12,produces,0.5833
-English (British),43,week,12,understands,0
-English (British),44,week,9,produces,0.6667
-English (British),44,week,9,understands,0
-English (British),45,week,12,produces,0.75
-English (British),45,week,12,understands,0
-English (British),46,week,5,produces,0
-English (British),46,week,5,understands,0
-English (British),47,week,8,produces,0.75
-English (British),47,week,8,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,9,WEEK,4,produces,0
+American Sign Language,All,9,WEEK,4,understands,0
+American Sign Language,All,10,WEEK,2,produces,0
+American Sign Language,All,10,WEEK,2,understands,0
+American Sign Language,All,11,WEEK,3,produces,0
+American Sign Language,All,11,WEEK,3,understands,0
+American Sign Language,All,12,WEEK,2,produces,0
+American Sign Language,All,12,WEEK,2,understands,0
+American Sign Language,All,13,WEEK,1,produces,0
+American Sign Language,All,13,WEEK,1,understands,0
+American Sign Language,All,15,WEEK,2,produces,0
+American Sign Language,All,15,WEEK,2,understands,0
+American Sign Language,All,16,WEEK,2,produces,0
+American Sign Language,All,16,WEEK,2,understands,0
+American Sign Language,All,17,WEEK,3,produces,0
+American Sign Language,All,17,WEEK,3,understands,0
+American Sign Language,All,18,WEEK,7,produces,0.1429
+American Sign Language,All,18,WEEK,7,understands,0.2857
+American Sign Language,All,19,WEEK,6,produces,0
+American Sign Language,All,19,WEEK,6,understands,0
+American Sign Language,All,20,WEEK,3,produces,0
+American Sign Language,All,20,WEEK,3,understands,0
+American Sign Language,All,21,WEEK,3,produces,0.3333
+American Sign Language,All,21,WEEK,3,understands,0.6667
+American Sign Language,All,22,WEEK,10,produces,0
+American Sign Language,All,22,WEEK,10,understands,0.1
+American Sign Language,All,23,WEEK,3,produces,0
+American Sign Language,All,23,WEEK,3,understands,0
+American Sign Language,All,24,WEEK,9,produces,0
+American Sign Language,All,24,WEEK,9,understands,0.2222
+American Sign Language,All,25,WEEK,11,produces,0
+American Sign Language,All,25,WEEK,11,understands,0.1818
+American Sign Language,All,26,WEEK,4,produces,0
+American Sign Language,All,26,WEEK,4,understands,0
+American Sign Language,All,27,WEEK,6,produces,0
+American Sign Language,All,27,WEEK,6,understands,0.3333
+American Sign Language,All,28,WEEK,4,produces,0
+American Sign Language,All,28,WEEK,4,understands,0.25
+American Sign Language,All,29,WEEK,6,produces,0.1667
+American Sign Language,All,29,WEEK,6,understands,0.3333
+American Sign Language,All,30,WEEK,5,produces,0.2
+American Sign Language,All,30,WEEK,5,understands,0.2
+American Sign Language,All,31,WEEK,7,produces,0.1429
+American Sign Language,All,31,WEEK,7,understands,0.2857
+American Sign Language,All,32,WEEK,9,produces,0.1111
+American Sign Language,All,32,WEEK,9,understands,0.1111
+American Sign Language,All,33,WEEK,4,produces,0
+American Sign Language,All,33,WEEK,4,understands,0.25
+American Sign Language,All,34,WEEK,6,produces,0
+American Sign Language,All,34,WEEK,6,understands,0
+American Sign Language,All,35,WEEK,4,produces,0.25
+American Sign Language,All,35,WEEK,4,understands,1
+American Sign Language,All,36,WEEK,3,produces,0
+American Sign Language,All,36,WEEK,3,understands,0.3333
+English (British),All,34,week,443,produces,0.5801
+English (British),All,34,week,443,understands,0
+English (British),All,35,week,3693,produces,0.5992
+English (British),All,35,week,3693,understands,0
+English (British),All,36,week,5244,produces,0.5938
+English (British),All,36,week,5244,understands,0
+English (British),All,37,week,906,produces,0.6004
+English (British),All,37,week,906,understands,0
+English (British),All,38,week,264,produces,0.5795
+English (British),All,38,week,264,understands,0
+English (British),All,39,week,99,produces,0.7273
+English (British),All,39,week,99,understands,0
+English (British),All,40,week,48,produces,0.5417
+English (British),All,40,week,48,understands,0
+English (British),All,41,week,24,produces,0.7083
+English (British),All,41,week,24,understands,0
+English (British),All,42,week,23,produces,0.7391
+English (British),All,42,week,23,understands,0
+English (British),All,43,week,12,produces,0.5833
+English (British),All,43,week,12,understands,0
+English (British),All,44,week,9,produces,0.6667
+English (British),All,44,week,9,understands,0
+English (British),All,45,week,12,produces,0.75
+English (British),All,45,week,12,understands,0
+English (British),All,46,week,5,produces,0
+English (British),All,46,week,5,understands,0
+English (British),All,47,week,8,produces,0.75
+English (British),All,47,week,8,understands,0
+American Sign Language,Female,9,WEEK,4,produces,0
+American Sign Language,Female,9,WEEK,4,understands,0
+American Sign Language,Female,10,WEEK,1,produces,0
+American Sign Language,Female,10,WEEK,1,understands,0
+American Sign Language,Male,10,WEEK,1,produces,0
+American Sign Language,Male,10,WEEK,1,understands,0
+American Sign Language,Female,11,WEEK,2,produces,0
+American Sign Language,Female,11,WEEK,2,understands,0
+American Sign Language,Male,11,WEEK,1,produces,0
+American Sign Language,Male,11,WEEK,1,understands,0
+American Sign Language,Female,12,WEEK,1,produces,0
+American Sign Language,Female,12,WEEK,1,understands,0
+American Sign Language,Male,12,WEEK,1,produces,0
+American Sign Language,Male,12,WEEK,1,understands,0
+American Sign Language,Female,13,WEEK,1,produces,0
+American Sign Language,Female,13,WEEK,1,understands,0
+American Sign Language,Female,15,WEEK,1,produces,0
+American Sign Language,Female,15,WEEK,1,understands,0
+American Sign Language,Male,15,WEEK,1,produces,0
+American Sign Language,Male,15,WEEK,1,understands,0
+American Sign Language,Female,16,WEEK,2,produces,0
+American Sign Language,Female,16,WEEK,2,understands,0
+American Sign Language,Female,17,WEEK,2,produces,0
+American Sign Language,Female,17,WEEK,2,understands,0
+American Sign Language,Male,17,WEEK,1,produces,0
+American Sign Language,Male,17,WEEK,1,understands,0
+American Sign Language,Female,18,WEEK,5,produces,0.2
+American Sign Language,Female,18,WEEK,5,understands,0.4
+American Sign Language,Male,18,WEEK,2,produces,0
+American Sign Language,Male,18,WEEK,2,understands,0
+American Sign Language,Female,19,WEEK,2,produces,0
+American Sign Language,Female,19,WEEK,2,understands,0
+American Sign Language,Male,19,WEEK,4,produces,0
+American Sign Language,Male,19,WEEK,4,understands,0
+American Sign Language,Male,20,WEEK,3,produces,0
+American Sign Language,Male,20,WEEK,3,understands,0
+American Sign Language,Female,21,WEEK,1,produces,0
+American Sign Language,Female,21,WEEK,1,understands,1
+American Sign Language,Male,21,WEEK,2,produces,0.5
+American Sign Language,Male,21,WEEK,2,understands,0.5
+American Sign Language,Female,22,WEEK,9,produces,0
+American Sign Language,Female,22,WEEK,9,understands,0.1111
+American Sign Language,Male,22,WEEK,1,produces,0
+American Sign Language,Male,22,WEEK,1,understands,0
+American Sign Language,Female,23,WEEK,2,produces,0
+American Sign Language,Female,23,WEEK,2,understands,0
+American Sign Language,Male,23,WEEK,1,produces,0
+American Sign Language,Male,23,WEEK,1,understands,0
+American Sign Language,Female,24,WEEK,2,produces,0
+American Sign Language,Female,24,WEEK,2,understands,0.5
+American Sign Language,Male,24,WEEK,7,produces,0
+American Sign Language,Male,24,WEEK,7,understands,0.1429
+American Sign Language,Female,25,WEEK,4,produces,0
+American Sign Language,Female,25,WEEK,4,understands,0.25
+American Sign Language,Male,25,WEEK,7,produces,0
+American Sign Language,Male,25,WEEK,7,understands,0.1429
+American Sign Language,Female,26,WEEK,2,produces,0
+American Sign Language,Female,26,WEEK,2,understands,0
+American Sign Language,Male,26,WEEK,2,produces,0
+American Sign Language,Male,26,WEEK,2,understands,0
+American Sign Language,Female,27,WEEK,4,produces,0
+American Sign Language,Female,27,WEEK,4,understands,0.25
+American Sign Language,Male,27,WEEK,2,produces,0
+American Sign Language,Male,27,WEEK,2,understands,0.5
+American Sign Language,Female,28,WEEK,1,produces,0
+American Sign Language,Female,28,WEEK,1,understands,0
+American Sign Language,Male,28,WEEK,3,produces,0
+American Sign Language,Male,28,WEEK,3,understands,0.3333
+American Sign Language,Female,29,WEEK,1,produces,1
+American Sign Language,Female,29,WEEK,1,understands,1
+American Sign Language,Male,29,WEEK,5,produces,0
+American Sign Language,Male,29,WEEK,5,understands,0.2
+American Sign Language,Female,30,WEEK,3,produces,0.3333
+American Sign Language,Female,30,WEEK,3,understands,0.3333
+American Sign Language,Male,30,WEEK,2,produces,0
+American Sign Language,Male,30,WEEK,2,understands,0
+American Sign Language,Female,31,WEEK,4,produces,0.25
+American Sign Language,Female,31,WEEK,4,understands,0.25
+American Sign Language,Male,31,WEEK,3,produces,0
+American Sign Language,Male,31,WEEK,3,understands,0.3333
+American Sign Language,Female,32,WEEK,4,produces,0
+American Sign Language,Female,32,WEEK,4,understands,0
+American Sign Language,Male,32,WEEK,5,produces,0.2
+American Sign Language,Male,32,WEEK,5,understands,0.2
+American Sign Language,Female,33,WEEK,2,produces,0
+American Sign Language,Female,33,WEEK,2,understands,0
+American Sign Language,Male,33,WEEK,2,produces,0
+American Sign Language,Male,33,WEEK,2,understands,0.5
+American Sign Language,Female,34,WEEK,1,produces,0
+American Sign Language,Female,34,WEEK,1,understands,0
+American Sign Language,Male,34,WEEK,5,produces,0
+American Sign Language,Male,34,WEEK,5,understands,0
+American Sign Language,Female,35,WEEK,2,produces,0
+American Sign Language,Female,35,WEEK,2,understands,1
+American Sign Language,Male,35,WEEK,2,produces,0.5
+American Sign Language,Male,35,WEEK,2,understands,1
+American Sign Language,Female,36,WEEK,3,produces,0
+American Sign Language,Female,36,WEEK,3,understands,0.3333
+English (British),Female,34,week,247,produces,0.587
+English (British),Female,34,week,247,understands,0
+English (British),Male,34,week,196,produces,0.5714
+English (British),Male,34,week,196,understands,0
+English (British),Female,35,week,1927,produces,0.6502
+English (British),Female,35,week,1927,understands,0
+English (British),Male,35,week,1766,produces,0.5436
+English (British),Male,35,week,1766,understands,0
+English (British),Female,36,week,2650,produces,0.6528
+English (British),Female,36,week,2650,understands,0
+English (British),Male,36,week,2594,produces,0.5335
+English (British),Male,36,week,2594,understands,0
+English (British),Female,37,week,434,produces,0.6359
+English (British),Female,37,week,434,understands,0
+English (British),Male,37,week,472,produces,0.5678
+English (British),Male,37,week,472,understands,0
+English (British),Female,38,week,136,produces,0.5515
+English (British),Female,38,week,136,understands,0
+English (British),Male,38,week,128,produces,0.6094
+English (British),Male,38,week,128,understands,0
+English (British),Female,39,week,52,produces,0.75
+English (British),Female,39,week,52,understands,0
+English (British),Male,39,week,47,produces,0.7021
+English (British),Male,39,week,47,understands,0
+English (British),Female,40,week,29,produces,0.5517
+English (British),Female,40,week,29,understands,0
+English (British),Male,40,week,19,produces,0.5263
+English (British),Male,40,week,19,understands,0
+English (British),Female,41,week,10,produces,0.5
+English (British),Female,41,week,10,understands,0
+English (British),Male,41,week,14,produces,0.8571
+English (British),Male,41,week,14,understands,0
+English (British),Female,42,week,10,produces,0.7
+English (British),Female,42,week,10,understands,0
+English (British),Male,42,week,13,produces,0.7692
+English (British),Male,42,week,13,understands,0
+English (British),Female,43,week,3,produces,0.3333
+English (British),Female,43,week,3,understands,0
+English (British),Male,43,week,9,produces,0.6667
+English (British),Male,43,week,9,understands,0
+English (British),Female,44,week,4,produces,0.75
+English (British),Female,44,week,4,understands,0
+English (British),Male,44,week,5,produces,0.6
+English (British),Male,44,week,5,understands,0
+English (British),Female,45,week,8,produces,0.75
+English (British),Female,45,week,8,understands,0
+English (British),Male,45,week,4,produces,0.75
+English (British),Male,45,week,4,understands,0
+English (British),Female,46,week,3,produces,0
+English (British),Female,46,week,3,understands,0
+English (British),Male,46,week,2,produces,0
+English (British),Male,46,week,2,understands,0
+English (British),Female,47,week,5,produces,0.8
+English (British),Female,47,week,5,understands,0
+English (British),Male,47,week,3,produces,0.6667
+English (British),Male,47,week,3,understands,0

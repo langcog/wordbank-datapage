@@ -1,105 +1,309 @@
-language,age,words,n,measure,prop
-Spanish (Argentinian),16,timbre,47,produces,0.0426
-Spanish (Argentinian),16,timbre,47,understands,0
-Spanish (Argentinian),17,timbre,49,produces,0.0204
-Spanish (Argentinian),17,timbre,49,understands,0
-Spanish (Argentinian),18,timbre,62,produces,0
-Spanish (Argentinian),18,timbre,62,understands,0
-Spanish (Argentinian),19,timbre,44,produces,0.0682
-Spanish (Argentinian),19,timbre,44,understands,0
-Spanish (Argentinian),20,timbre,46,produces,0.0435
-Spanish (Argentinian),20,timbre,46,understands,0
-Spanish (Argentinian),21,timbre,41,produces,0.1707
-Spanish (Argentinian),21,timbre,41,understands,0
-Spanish (Argentinian),22,timbre,57,produces,0.1053
-Spanish (Argentinian),22,timbre,57,understands,0
-Spanish (Argentinian),23,timbre,49,produces,0.1224
-Spanish (Argentinian),23,timbre,49,understands,0
-Spanish (Argentinian),24,timbre,75,produces,0.16
-Spanish (Argentinian),24,timbre,75,understands,0
-Spanish (Argentinian),25,timbre,43,produces,0.2791
-Spanish (Argentinian),25,timbre,43,understands,0
-Spanish (Argentinian),26,timbre,45,produces,0.2
-Spanish (Argentinian),26,timbre,45,understands,0
-Spanish (Argentinian),27,timbre,44,produces,0.25
-Spanish (Argentinian),27,timbre,44,understands,0
-Spanish (Argentinian),28,timbre,42,produces,0.2857
-Spanish (Argentinian),28,timbre,42,understands,0
-Spanish (Argentinian),29,timbre,65,produces,0.3385
-Spanish (Argentinian),29,timbre,65,understands,0
-Spanish (Argentinian),30,timbre,69,produces,0.4928
-Spanish (Argentinian),30,timbre,69,understands,0
-Spanish (Argentinian),31,timbre,2,produces,0
-Spanish (Argentinian),31,timbre,2,understands,0
-Spanish (Argentinian),32,timbre,1,produces,0
-Spanish (Argentinian),32,timbre,1,understands,0
-Spanish (Argentinian),33,timbre,2,produces,0
-Spanish (Argentinian),33,timbre,2,understands,0
-Spanish (Mexican),16,timbre,68,produces,0.0294
-Spanish (Mexican),16,timbre,68,understands,0
-Spanish (Mexican),17,timbre,59,produces,0.0678
-Spanish (Mexican),17,timbre,59,understands,0
-Spanish (Mexican),18,timbre,75,produces,0.0933
-Spanish (Mexican),18,timbre,75,understands,0
-Spanish (Mexican),19,timbre,100,produces,0.18
-Spanish (Mexican),19,timbre,100,understands,0
-Spanish (Mexican),20,timbre,107,produces,0.1682
-Spanish (Mexican),20,timbre,107,understands,0
-Spanish (Mexican),21,timbre,84,produces,0.1548
-Spanish (Mexican),21,timbre,84,understands,0
-Spanish (Mexican),22,timbre,141,produces,0.1206
-Spanish (Mexican),22,timbre,141,understands,0
-Spanish (Mexican),23,timbre,91,produces,0.1319
-Spanish (Mexican),23,timbre,91,understands,0
-Spanish (Mexican),24,timbre,126,produces,0.2698
-Spanish (Mexican),24,timbre,126,understands,0
-Spanish (Mexican),25,timbre,177,produces,0.2147
-Spanish (Mexican),25,timbre,177,understands,0
-Spanish (Mexican),26,timbre,83,produces,0.3253
-Spanish (Mexican),26,timbre,83,understands,0
-Spanish (Mexican),27,timbre,85,produces,0.3647
-Spanish (Mexican),27,timbre,85,understands,0
-Spanish (Mexican),28,timbre,89,produces,0.3146
-Spanish (Mexican),28,timbre,89,understands,0
-Spanish (Mexican),29,timbre,89,produces,0.4045
-Spanish (Mexican),29,timbre,89,understands,0
-Spanish (Mexican),30,timbre,308,produces,0.2273
-Spanish (Mexican),30,timbre,308,understands,0
-Catalan,16,timbre,24,produces,0
-Catalan,16,timbre,24,understands,0
-Catalan,17,timbre,36,produces,0
-Catalan,17,timbre,36,understands,0
-Catalan,18,timbre,51,produces,0.0392
-Catalan,18,timbre,51,understands,0
-Catalan,19,timbre,45,produces,0.0667
-Catalan,19,timbre,45,understands,0
-Catalan,20,timbre,56,produces,0.0357
-Catalan,20,timbre,56,understands,0
-Catalan,21,timbre,58,produces,0.1034
-Catalan,21,timbre,58,understands,0
-Catalan,22,timbre,50,produces,0.22
-Catalan,22,timbre,50,understands,0
-Catalan,23,timbre,66,produces,0.1364
-Catalan,23,timbre,66,understands,0
-Catalan,24,timbre,79,produces,0.3544
-Catalan,24,timbre,79,understands,0
-Catalan,25,timbre,60,produces,0.3667
-Catalan,25,timbre,60,understands,0
-Catalan,26,timbre,65,produces,0.4
-Catalan,26,timbre,65,understands,0
-Catalan,27,timbre,63,produces,0.6349
-Catalan,27,timbre,63,understands,0
-Catalan,28,timbre,81,produces,0.4938
-Catalan,28,timbre,81,understands,0
-Catalan,29,timbre,50,produces,0.68
-Catalan,29,timbre,50,understands,0
-Catalan,30,timbre,75,produces,0.7733
-Catalan,30,timbre,75,understands,0
-Finnish,12,ovikello  ,35,produces,0
-Finnish,12,ovikello  ,35,understands,0
-Finnish,15,ovikello  ,35,produces,0
-Finnish,15,ovikello  ,35,understands,0
-Finnish,18,ovikello,35,produces,0
-Finnish,18,ovikello,35,understands,0
-Finnish,24,ovikello,35,produces,0.4286
-Finnish,24,ovikello,35,understands,0
+language,sex,age,words,n,measure,prop
+Catalan,All,16,timbre,24,produces,0
+Catalan,All,16,timbre,24,understands,0
+Catalan,All,17,timbre,36,produces,0
+Catalan,All,17,timbre,36,understands,0
+Catalan,All,18,timbre,51,produces,0.0392
+Catalan,All,18,timbre,51,understands,0
+Catalan,All,19,timbre,45,produces,0.0667
+Catalan,All,19,timbre,45,understands,0
+Catalan,All,20,timbre,56,produces,0.0357
+Catalan,All,20,timbre,56,understands,0
+Catalan,All,21,timbre,58,produces,0.1034
+Catalan,All,21,timbre,58,understands,0
+Catalan,All,22,timbre,50,produces,0.22
+Catalan,All,22,timbre,50,understands,0
+Catalan,All,23,timbre,66,produces,0.1364
+Catalan,All,23,timbre,66,understands,0
+Catalan,All,24,timbre,79,produces,0.3544
+Catalan,All,24,timbre,79,understands,0
+Catalan,All,25,timbre,60,produces,0.3667
+Catalan,All,25,timbre,60,understands,0
+Catalan,All,26,timbre,65,produces,0.4
+Catalan,All,26,timbre,65,understands,0
+Catalan,All,27,timbre,63,produces,0.6349
+Catalan,All,27,timbre,63,understands,0
+Catalan,All,28,timbre,81,produces,0.4938
+Catalan,All,28,timbre,81,understands,0
+Catalan,All,29,timbre,50,produces,0.68
+Catalan,All,29,timbre,50,understands,0
+Catalan,All,30,timbre,75,produces,0.7733
+Catalan,All,30,timbre,75,understands,0
+Finnish,All,12,ovikello  ,35,produces,0
+Finnish,All,12,ovikello  ,35,understands,0
+Finnish,All,15,ovikello  ,35,produces,0
+Finnish,All,15,ovikello  ,35,understands,0
+Finnish,All,18,ovikello,35,produces,0
+Finnish,All,18,ovikello,35,understands,0
+Finnish,All,24,ovikello,35,produces,0.4286
+Finnish,All,24,ovikello,35,understands,0
+Spanish (Argentinian),All,16,timbre,47,produces,0.0426
+Spanish (Argentinian),All,16,timbre,47,understands,0
+Spanish (Argentinian),All,17,timbre,49,produces,0.0204
+Spanish (Argentinian),All,17,timbre,49,understands,0
+Spanish (Argentinian),All,18,timbre,62,produces,0
+Spanish (Argentinian),All,18,timbre,62,understands,0
+Spanish (Argentinian),All,19,timbre,44,produces,0.0682
+Spanish (Argentinian),All,19,timbre,44,understands,0
+Spanish (Argentinian),All,20,timbre,46,produces,0.0435
+Spanish (Argentinian),All,20,timbre,46,understands,0
+Spanish (Argentinian),All,21,timbre,41,produces,0.1707
+Spanish (Argentinian),All,21,timbre,41,understands,0
+Spanish (Argentinian),All,22,timbre,57,produces,0.1053
+Spanish (Argentinian),All,22,timbre,57,understands,0
+Spanish (Argentinian),All,23,timbre,49,produces,0.1224
+Spanish (Argentinian),All,23,timbre,49,understands,0
+Spanish (Argentinian),All,24,timbre,75,produces,0.16
+Spanish (Argentinian),All,24,timbre,75,understands,0
+Spanish (Argentinian),All,25,timbre,43,produces,0.2791
+Spanish (Argentinian),All,25,timbre,43,understands,0
+Spanish (Argentinian),All,26,timbre,45,produces,0.2
+Spanish (Argentinian),All,26,timbre,45,understands,0
+Spanish (Argentinian),All,27,timbre,44,produces,0.25
+Spanish (Argentinian),All,27,timbre,44,understands,0
+Spanish (Argentinian),All,28,timbre,42,produces,0.2857
+Spanish (Argentinian),All,28,timbre,42,understands,0
+Spanish (Argentinian),All,29,timbre,65,produces,0.3385
+Spanish (Argentinian),All,29,timbre,65,understands,0
+Spanish (Argentinian),All,30,timbre,69,produces,0.4928
+Spanish (Argentinian),All,30,timbre,69,understands,0
+Spanish (Argentinian),All,31,timbre,2,produces,0
+Spanish (Argentinian),All,31,timbre,2,understands,0
+Spanish (Argentinian),All,32,timbre,1,produces,0
+Spanish (Argentinian),All,32,timbre,1,understands,0
+Spanish (Argentinian),All,33,timbre,2,produces,0
+Spanish (Argentinian),All,33,timbre,2,understands,0
+Spanish (Mexican),All,16,timbre,68,produces,0.0294
+Spanish (Mexican),All,16,timbre,68,understands,0
+Spanish (Mexican),All,17,timbre,59,produces,0.0678
+Spanish (Mexican),All,17,timbre,59,understands,0
+Spanish (Mexican),All,18,timbre,75,produces,0.0933
+Spanish (Mexican),All,18,timbre,75,understands,0
+Spanish (Mexican),All,19,timbre,100,produces,0.18
+Spanish (Mexican),All,19,timbre,100,understands,0
+Spanish (Mexican),All,20,timbre,107,produces,0.1682
+Spanish (Mexican),All,20,timbre,107,understands,0
+Spanish (Mexican),All,21,timbre,84,produces,0.1548
+Spanish (Mexican),All,21,timbre,84,understands,0
+Spanish (Mexican),All,22,timbre,141,produces,0.1206
+Spanish (Mexican),All,22,timbre,141,understands,0
+Spanish (Mexican),All,23,timbre,91,produces,0.1319
+Spanish (Mexican),All,23,timbre,91,understands,0
+Spanish (Mexican),All,24,timbre,126,produces,0.2698
+Spanish (Mexican),All,24,timbre,126,understands,0
+Spanish (Mexican),All,25,timbre,177,produces,0.2147
+Spanish (Mexican),All,25,timbre,177,understands,0
+Spanish (Mexican),All,26,timbre,83,produces,0.3253
+Spanish (Mexican),All,26,timbre,83,understands,0
+Spanish (Mexican),All,27,timbre,85,produces,0.3647
+Spanish (Mexican),All,27,timbre,85,understands,0
+Spanish (Mexican),All,28,timbre,89,produces,0.3146
+Spanish (Mexican),All,28,timbre,89,understands,0
+Spanish (Mexican),All,29,timbre,89,produces,0.4045
+Spanish (Mexican),All,29,timbre,89,understands,0
+Spanish (Mexican),All,30,timbre,308,produces,0.2273
+Spanish (Mexican),All,30,timbre,308,understands,0
+Catalan,Female,16,timbre,8,produces,0
+Catalan,Female,16,timbre,8,understands,0
+Catalan,Male,16,timbre,16,produces,0
+Catalan,Male,16,timbre,16,understands,0
+Catalan,Female,17,timbre,22,produces,0
+Catalan,Female,17,timbre,22,understands,0
+Catalan,Male,17,timbre,14,produces,0
+Catalan,Male,17,timbre,14,understands,0
+Catalan,Female,18,timbre,22,produces,0.0455
+Catalan,Female,18,timbre,22,understands,0
+Catalan,Male,18,timbre,29,produces,0.0345
+Catalan,Male,18,timbre,29,understands,0
+Catalan,Female,19,timbre,25,produces,0.08
+Catalan,Female,19,timbre,25,understands,0
+Catalan,Male,19,timbre,20,produces,0.05
+Catalan,Male,19,timbre,20,understands,0
+Catalan,Female,20,timbre,28,produces,0
+Catalan,Female,20,timbre,28,understands,0
+Catalan,Male,20,timbre,28,produces,0.0714
+Catalan,Male,20,timbre,28,understands,0
+Catalan,Female,21,timbre,32,produces,0.0938
+Catalan,Female,21,timbre,32,understands,0
+Catalan,Male,21,timbre,26,produces,0.1154
+Catalan,Male,21,timbre,26,understands,0
+Catalan,Female,22,timbre,26,produces,0.2308
+Catalan,Female,22,timbre,26,understands,0
+Catalan,Male,22,timbre,24,produces,0.2083
+Catalan,Male,22,timbre,24,understands,0
+Catalan,Female,23,timbre,35,produces,0.1143
+Catalan,Female,23,timbre,35,understands,0
+Catalan,Male,23,timbre,31,produces,0.1613
+Catalan,Male,23,timbre,31,understands,0
+Catalan,Female,24,timbre,41,produces,0.5122
+Catalan,Female,24,timbre,41,understands,0
+Catalan,Male,24,timbre,38,produces,0.1842
+Catalan,Male,24,timbre,38,understands,0
+Catalan,Female,25,timbre,30,produces,0.4
+Catalan,Female,25,timbre,30,understands,0
+Catalan,Male,25,timbre,30,produces,0.3333
+Catalan,Male,25,timbre,30,understands,0
+Catalan,Female,26,timbre,35,produces,0.3429
+Catalan,Female,26,timbre,35,understands,0
+Catalan,Male,26,timbre,30,produces,0.4667
+Catalan,Male,26,timbre,30,understands,0
+Catalan,Female,27,timbre,36,produces,0.6667
+Catalan,Female,27,timbre,36,understands,0
+Catalan,Male,27,timbre,27,produces,0.5926
+Catalan,Male,27,timbre,27,understands,0
+Catalan,Female,28,timbre,40,produces,0.6
+Catalan,Female,28,timbre,40,understands,0
+Catalan,Male,28,timbre,41,produces,0.3902
+Catalan,Male,28,timbre,41,understands,0
+Catalan,Female,29,timbre,25,produces,0.68
+Catalan,Female,29,timbre,25,understands,0
+Catalan,Male,29,timbre,25,produces,0.68
+Catalan,Male,29,timbre,25,understands,0
+Catalan,Female,30,timbre,24,produces,0.75
+Catalan,Female,30,timbre,24,understands,0
+Catalan,Male,30,timbre,51,produces,0.7843
+Catalan,Male,30,timbre,51,understands,0
+Finnish,Female,12,ovikello  ,18,produces,0
+Finnish,Female,12,ovikello  ,18,understands,0
+Finnish,Male,12,ovikello  ,17,produces,0
+Finnish,Male,12,ovikello  ,17,understands,0
+Finnish,Female,15,ovikello  ,18,produces,0
+Finnish,Female,15,ovikello  ,18,understands,0
+Finnish,Male,15,ovikello  ,17,produces,0
+Finnish,Male,15,ovikello  ,17,understands,0
+Finnish,Female,18,ovikello,18,produces,0
+Finnish,Female,18,ovikello,18,understands,0
+Finnish,Male,18,ovikello,17,produces,0
+Finnish,Male,18,ovikello,17,understands,0
+Finnish,Female,24,ovikello,18,produces,0.3889
+Finnish,Female,24,ovikello,18,understands,0
+Finnish,Male,24,ovikello,17,produces,0.4706
+Finnish,Male,24,ovikello,17,understands,0
+Spanish (Argentinian),Female,16,timbre,30,produces,0.0333
+Spanish (Argentinian),Female,16,timbre,30,understands,0
+Spanish (Argentinian),Male,16,timbre,17,produces,0.0588
+Spanish (Argentinian),Male,16,timbre,17,understands,0
+Spanish (Argentinian),Female,17,timbre,20,produces,0
+Spanish (Argentinian),Female,17,timbre,20,understands,0
+Spanish (Argentinian),Male,17,timbre,29,produces,0.0345
+Spanish (Argentinian),Male,17,timbre,29,understands,0
+Spanish (Argentinian),Female,18,timbre,43,produces,0
+Spanish (Argentinian),Female,18,timbre,43,understands,0
+Spanish (Argentinian),Male,18,timbre,19,produces,0
+Spanish (Argentinian),Male,18,timbre,19,understands,0
+Spanish (Argentinian),Female,19,timbre,25,produces,0.04
+Spanish (Argentinian),Female,19,timbre,25,understands,0
+Spanish (Argentinian),Male,19,timbre,19,produces,0.1053
+Spanish (Argentinian),Male,19,timbre,19,understands,0
+Spanish (Argentinian),Female,20,timbre,22,produces,0
+Spanish (Argentinian),Female,20,timbre,22,understands,0
+Spanish (Argentinian),Male,20,timbre,24,produces,0.0833
+Spanish (Argentinian),Male,20,timbre,24,understands,0
+Spanish (Argentinian),Female,21,timbre,15,produces,0.2
+Spanish (Argentinian),Female,21,timbre,15,understands,0
+Spanish (Argentinian),Male,21,timbre,26,produces,0.1538
+Spanish (Argentinian),Male,21,timbre,26,understands,0
+Spanish (Argentinian),Female,22,timbre,25,produces,0.12
+Spanish (Argentinian),Female,22,timbre,25,understands,0
+Spanish (Argentinian),Male,22,timbre,32,produces,0.0938
+Spanish (Argentinian),Male,22,timbre,32,understands,0
+Spanish (Argentinian),Female,23,timbre,30,produces,0.1333
+Spanish (Argentinian),Female,23,timbre,30,understands,0
+Spanish (Argentinian),Male,23,timbre,19,produces,0.1053
+Spanish (Argentinian),Male,23,timbre,19,understands,0
+Spanish (Argentinian),Female,24,timbre,44,produces,0.1364
+Spanish (Argentinian),Female,24,timbre,44,understands,0
+Spanish (Argentinian),Male,24,timbre,31,produces,0.1935
+Spanish (Argentinian),Male,24,timbre,31,understands,0
+Spanish (Argentinian),Female,25,timbre,24,produces,0.25
+Spanish (Argentinian),Female,25,timbre,24,understands,0
+Spanish (Argentinian),Male,25,timbre,19,produces,0.3158
+Spanish (Argentinian),Male,25,timbre,19,understands,0
+Spanish (Argentinian),Female,26,timbre,17,produces,0.2353
+Spanish (Argentinian),Female,26,timbre,17,understands,0
+Spanish (Argentinian),Male,26,timbre,28,produces,0.1786
+Spanish (Argentinian),Male,26,timbre,28,understands,0
+Spanish (Argentinian),Female,27,timbre,18,produces,0.2222
+Spanish (Argentinian),Female,27,timbre,18,understands,0
+Spanish (Argentinian),Male,27,timbre,26,produces,0.2692
+Spanish (Argentinian),Male,27,timbre,26,understands,0
+Spanish (Argentinian),Female,28,timbre,18,produces,0.2222
+Spanish (Argentinian),Female,28,timbre,18,understands,0
+Spanish (Argentinian),Male,28,timbre,24,produces,0.3333
+Spanish (Argentinian),Male,28,timbre,24,understands,0
+Spanish (Argentinian),Female,29,timbre,36,produces,0.3889
+Spanish (Argentinian),Female,29,timbre,36,understands,0
+Spanish (Argentinian),Male,29,timbre,29,produces,0.2759
+Spanish (Argentinian),Male,29,timbre,29,understands,0
+Spanish (Argentinian),Female,30,timbre,31,produces,0.4839
+Spanish (Argentinian),Female,30,timbre,31,understands,0
+Spanish (Argentinian),Male,30,timbre,38,produces,0.5
+Spanish (Argentinian),Male,30,timbre,38,understands,0
+Spanish (Argentinian),Female,31,timbre,1,produces,0
+Spanish (Argentinian),Female,31,timbre,1,understands,0
+Spanish (Argentinian),Male,31,timbre,1,produces,0
+Spanish (Argentinian),Male,31,timbre,1,understands,0
+Spanish (Argentinian),Female,32,timbre,1,produces,0
+Spanish (Argentinian),Female,32,timbre,1,understands,0
+Spanish (Argentinian),Male,33,timbre,2,produces,0
+Spanish (Argentinian),Male,33,timbre,2,understands,0
+Spanish (Mexican),Female,16,timbre,34,produces,0.0588
+Spanish (Mexican),Female,16,timbre,34,understands,0
+Spanish (Mexican),Male,16,timbre,34,produces,0
+Spanish (Mexican),Male,16,timbre,34,understands,0
+Spanish (Mexican),Female,17,timbre,34,produces,0.0882
+Spanish (Mexican),Female,17,timbre,34,understands,0
+Spanish (Mexican),Male,17,timbre,25,produces,0.04
+Spanish (Mexican),Male,17,timbre,25,understands,0
+Spanish (Mexican),Female,18,timbre,35,produces,0.0286
+Spanish (Mexican),Female,18,timbre,35,understands,0
+Spanish (Mexican),Male,18,timbre,40,produces,0.15
+Spanish (Mexican),Male,18,timbre,40,understands,0
+Spanish (Mexican),Female,19,timbre,47,produces,0.1489
+Spanish (Mexican),Female,19,timbre,47,understands,0
+Spanish (Mexican),Male,19,timbre,53,produces,0.2075
+Spanish (Mexican),Male,19,timbre,53,understands,0
+Spanish (Mexican),Female,20,timbre,53,produces,0.283
+Spanish (Mexican),Female,20,timbre,53,understands,0
+Spanish (Mexican),Male,20,timbre,54,produces,0.0556
+Spanish (Mexican),Male,20,timbre,54,understands,0
+Spanish (Mexican),Female,21,timbre,37,produces,0.1351
+Spanish (Mexican),Female,21,timbre,37,understands,0
+Spanish (Mexican),Male,21,timbre,47,produces,0.1702
+Spanish (Mexican),Male,21,timbre,47,understands,0
+Spanish (Mexican),Female,22,timbre,64,produces,0.1719
+Spanish (Mexican),Female,22,timbre,64,understands,0
+Spanish (Mexican),Male,22,timbre,67,produces,0.0896
+Spanish (Mexican),Male,22,timbre,67,understands,0
+Spanish (Mexican),Female,23,timbre,49,produces,0.1224
+Spanish (Mexican),Female,23,timbre,49,understands,0
+Spanish (Mexican),Male,23,timbre,42,produces,0.1429
+Spanish (Mexican),Male,23,timbre,42,understands,0
+Spanish (Mexican),Female,24,timbre,63,produces,0.2698
+Spanish (Mexican),Female,24,timbre,63,understands,0
+Spanish (Mexican),Male,24,timbre,63,produces,0.2698
+Spanish (Mexican),Male,24,timbre,63,understands,0
+Spanish (Mexican),Female,25,timbre,78,produces,0.2179
+Spanish (Mexican),Female,25,timbre,78,understands,0
+Spanish (Mexican),Male,25,timbre,89,produces,0.236
+Spanish (Mexican),Male,25,timbre,89,understands,0
+Spanish (Mexican),Female,26,timbre,38,produces,0.3684
+Spanish (Mexican),Female,26,timbre,38,understands,0
+Spanish (Mexican),Male,26,timbre,45,produces,0.2889
+Spanish (Mexican),Male,26,timbre,45,understands,0
+Spanish (Mexican),Female,27,timbre,45,produces,0.3556
+Spanish (Mexican),Female,27,timbre,45,understands,0
+Spanish (Mexican),Male,27,timbre,40,produces,0.375
+Spanish (Mexican),Male,27,timbre,40,understands,0
+Spanish (Mexican),Female,28,timbre,44,produces,0.3409
+Spanish (Mexican),Female,28,timbre,44,understands,0
+Spanish (Mexican),Male,28,timbre,45,produces,0.2889
+Spanish (Mexican),Male,28,timbre,45,understands,0
+Spanish (Mexican),Female,29,timbre,51,produces,0.3725
+Spanish (Mexican),Female,29,timbre,51,understands,0
+Spanish (Mexican),Male,29,timbre,38,produces,0.4474
+Spanish (Mexican),Male,29,timbre,38,understands,0
+Spanish (Mexican),Female,30,timbre,146,produces,0.2397
+Spanish (Mexican),Female,30,timbre,146,understands,0
+Spanish (Mexican),Male,30,timbre,152,produces,0.2303
+Spanish (Mexican),Male,30,timbre,152,understands,0

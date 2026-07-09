@@ -1,91 +1,271 @@
-language,age,words,n,measure,prop
-Japanese,16,ドライヤー,11,produces,0
-Japanese,16,ドライヤー,11,understands,0
-Japanese,17,ドライヤー,17,produces,0
-Japanese,17,ドライヤー,17,understands,0
-Japanese,18,ドライヤー,56,produces,0.0357
-Japanese,18,ドライヤー,56,understands,0
-Japanese,19,ドライヤー,35,produces,0
-Japanese,19,ドライヤー,35,understands,0
-Japanese,20,ドライヤー,59,produces,0.0339
-Japanese,20,ドライヤー,59,understands,0
-Japanese,21,ドライヤー,62,produces,0.0484
-Japanese,21,ドライヤー,62,understands,0
-Japanese,22,ドライヤー,31,produces,0.129
-Japanese,22,ドライヤー,31,understands,0
-Japanese,23,ドライヤー,67,produces,0.1194
-Japanese,23,ドライヤー,67,understands,0
-Japanese,24,ドライヤー,33,produces,0.1818
-Japanese,24,ドライヤー,33,understands,0
-Japanese,25,ドライヤー,34,produces,0.2647
-Japanese,25,ドライヤー,34,understands,0
-Japanese,26,ドライヤー,33,produces,0.3333
-Japanese,26,ドライヤー,33,understands,0
-Japanese,27,ドライヤー,15,produces,0.2667
-Japanese,27,ドライヤー,15,understands,0
-Japanese,28,ドライヤー,18,produces,0.3889
-Japanese,28,ドライヤー,18,understands,0
-Japanese,29,ドライヤー,17,produces,0.2353
-Japanese,29,ドライヤー,17,understands,0
-Japanese,30,ドライヤー,18,produces,0.3333
-Japanese,30,ドライヤー,18,understands,0
-Japanese,31,ドライヤー,18,produces,0.3333
-Japanese,31,ドライヤー,18,understands,0
-Japanese,32,ドライヤー,13,produces,0.3077
-Japanese,32,ドライヤー,13,understands,0
-Japanese,33,ドライヤー,16,produces,0.3125
-Japanese,33,ドライヤー,16,understands,0
-Japanese,34,ドライヤー,13,produces,0.5385
-Japanese,34,ドライヤー,13,understands,0
-Japanese,35,ドライヤー,31,produces,0.6452
-Japanese,35,ドライヤー,31,understands,0
-Japanese,36,ドライヤー,18,produces,0.5556
-Japanese,36,ドライヤー,18,understands,0
-Portuguese (European),16,Secador (cabelo),144,produces,0.0069
-Portuguese (European),16,Secador (cabelo),144,understands,0
-Portuguese (European),17,Secador (cabelo),158,produces,0
-Portuguese (European),17,Secador (cabelo),158,understands,0
-Portuguese (European),18,Secador (cabelo),203,produces,0.0197
-Portuguese (European),18,Secador (cabelo),203,understands,0
-Portuguese (European),19,Secador (cabelo),196,produces,0.0306
-Portuguese (European),19,Secador (cabelo),196,understands,0
-Portuguese (European),20,Secador (cabelo),218,produces,0.0505
-Portuguese (European),20,Secador (cabelo),218,understands,0
-Portuguese (European),21,Secador (cabelo),208,produces,0.0962
-Portuguese (European),21,Secador (cabelo),208,understands,0
-Portuguese (European),22,Secador (cabelo),213,produces,0.1221
-Portuguese (European),22,Secador (cabelo),213,understands,0
-Portuguese (European),23,Secador (cabelo),199,produces,0.1558
-Portuguese (European),23,Secador (cabelo),199,understands,0
-Portuguese (European),24,Secador (cabelo),215,produces,0.186
-Portuguese (European),24,Secador (cabelo),215,understands,0
-Portuguese (European),25,Secador (cabelo),213,produces,0.3099
-Portuguese (European),25,Secador (cabelo),213,understands,0
-Portuguese (European),26,Secador (cabelo),218,produces,0.3028
-Portuguese (European),26,Secador (cabelo),218,understands,0
-Portuguese (European),27,Secador (cabelo),238,produces,0.3908
-Portuguese (European),27,Secador (cabelo),238,understands,0
-Portuguese (European),28,Secador (cabelo),219,produces,0.4064
-Portuguese (European),28,Secador (cabelo),219,understands,0
-Portuguese (European),29,Secador (cabelo),207,produces,0.4251
-Portuguese (European),29,Secador (cabelo),207,understands,0
-Portuguese (European),30,Secador (cabelo),163,produces,0.4847
-Portuguese (European),30,Secador (cabelo),163,understands,0
-Arabic (Saudi),8,سشوار/ استشوار,24,produces,0
-Arabic (Saudi),8,سشوار/ استشوار,24,understands,0.0833
-Arabic (Saudi),9,سشوار/ استشوار,27,produces,0
-Arabic (Saudi),9,سشوار/ استشوار,27,understands,0.037
-Arabic (Saudi),10,سشوار/ استشوار,35,produces,0
-Arabic (Saudi),10,سشوار/ استشوار,35,understands,0.0857
-Arabic (Saudi),11,سشوار/ استشوار,30,produces,0.0333
-Arabic (Saudi),11,سشوار/ استشوار,30,understands,0.0333
-Arabic (Saudi),12,سشوار/ استشوار,30,produces,0.0333
-Arabic (Saudi),12,سشوار/ استشوار,30,understands,0.0333
-Arabic (Saudi),13,سشوار/ استشوار,39,produces,0.0256
-Arabic (Saudi),13,سشوار/ استشوار,39,understands,0
-Arabic (Saudi),14,سشوار/ استشوار,25,produces,0
-Arabic (Saudi),14,سشوار/ استشوار,25,understands,0
-Arabic (Saudi),15,سشوار/ استشوار,27,produces,0.037
-Arabic (Saudi),15,سشوار/ استشوار,27,understands,0.1111
-Arabic (Saudi),16,سشوار/ استشوار,21,produces,0.0476
-Arabic (Saudi),16,سشوار/ استشوار,21,understands,0.0476
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,سشوار/ استشوار,24,produces,0
+Arabic (Saudi),All,8,سشوار/ استشوار,24,understands,0.0833
+Arabic (Saudi),All,9,سشوار/ استشوار,27,produces,0
+Arabic (Saudi),All,9,سشوار/ استشوار,27,understands,0.037
+Arabic (Saudi),All,10,سشوار/ استشوار,35,produces,0
+Arabic (Saudi),All,10,سشوار/ استشوار,35,understands,0.0857
+Arabic (Saudi),All,11,سشوار/ استشوار,30,produces,0.0333
+Arabic (Saudi),All,11,سشوار/ استشوار,30,understands,0.0333
+Arabic (Saudi),All,12,سشوار/ استشوار,30,produces,0.0333
+Arabic (Saudi),All,12,سشوار/ استشوار,30,understands,0.0333
+Arabic (Saudi),All,13,سشوار/ استشوار,39,produces,0.0256
+Arabic (Saudi),All,13,سشوار/ استشوار,39,understands,0
+Arabic (Saudi),All,14,سشوار/ استشوار,25,produces,0
+Arabic (Saudi),All,14,سشوار/ استشوار,25,understands,0
+Arabic (Saudi),All,15,سشوار/ استشوار,27,produces,0.037
+Arabic (Saudi),All,15,سشوار/ استشوار,27,understands,0.1111
+Arabic (Saudi),All,16,سشوار/ استشوار,21,produces,0.0476
+Arabic (Saudi),All,16,سشوار/ استشوار,21,understands,0.0476
+Japanese,All,16,ドライヤー,11,produces,0
+Japanese,All,16,ドライヤー,11,understands,0
+Japanese,All,17,ドライヤー,17,produces,0
+Japanese,All,17,ドライヤー,17,understands,0
+Japanese,All,18,ドライヤー,56,produces,0.0357
+Japanese,All,18,ドライヤー,56,understands,0
+Japanese,All,19,ドライヤー,35,produces,0
+Japanese,All,19,ドライヤー,35,understands,0
+Japanese,All,20,ドライヤー,59,produces,0.0339
+Japanese,All,20,ドライヤー,59,understands,0
+Japanese,All,21,ドライヤー,62,produces,0.0484
+Japanese,All,21,ドライヤー,62,understands,0
+Japanese,All,22,ドライヤー,31,produces,0.129
+Japanese,All,22,ドライヤー,31,understands,0
+Japanese,All,23,ドライヤー,67,produces,0.1194
+Japanese,All,23,ドライヤー,67,understands,0
+Japanese,All,24,ドライヤー,33,produces,0.1818
+Japanese,All,24,ドライヤー,33,understands,0
+Japanese,All,25,ドライヤー,34,produces,0.2647
+Japanese,All,25,ドライヤー,34,understands,0
+Japanese,All,26,ドライヤー,33,produces,0.3333
+Japanese,All,26,ドライヤー,33,understands,0
+Japanese,All,27,ドライヤー,15,produces,0.2667
+Japanese,All,27,ドライヤー,15,understands,0
+Japanese,All,28,ドライヤー,18,produces,0.3889
+Japanese,All,28,ドライヤー,18,understands,0
+Japanese,All,29,ドライヤー,17,produces,0.2353
+Japanese,All,29,ドライヤー,17,understands,0
+Japanese,All,30,ドライヤー,18,produces,0.3333
+Japanese,All,30,ドライヤー,18,understands,0
+Japanese,All,31,ドライヤー,18,produces,0.3333
+Japanese,All,31,ドライヤー,18,understands,0
+Japanese,All,32,ドライヤー,13,produces,0.3077
+Japanese,All,32,ドライヤー,13,understands,0
+Japanese,All,33,ドライヤー,16,produces,0.3125
+Japanese,All,33,ドライヤー,16,understands,0
+Japanese,All,34,ドライヤー,13,produces,0.5385
+Japanese,All,34,ドライヤー,13,understands,0
+Japanese,All,35,ドライヤー,31,produces,0.6452
+Japanese,All,35,ドライヤー,31,understands,0
+Japanese,All,36,ドライヤー,18,produces,0.5556
+Japanese,All,36,ドライヤー,18,understands,0
+Portuguese (European),All,16,Secador (cabelo),144,produces,0.0069
+Portuguese (European),All,16,Secador (cabelo),144,understands,0
+Portuguese (European),All,17,Secador (cabelo),158,produces,0
+Portuguese (European),All,17,Secador (cabelo),158,understands,0
+Portuguese (European),All,18,Secador (cabelo),203,produces,0.0197
+Portuguese (European),All,18,Secador (cabelo),203,understands,0
+Portuguese (European),All,19,Secador (cabelo),196,produces,0.0306
+Portuguese (European),All,19,Secador (cabelo),196,understands,0
+Portuguese (European),All,20,Secador (cabelo),218,produces,0.0505
+Portuguese (European),All,20,Secador (cabelo),218,understands,0
+Portuguese (European),All,21,Secador (cabelo),208,produces,0.0962
+Portuguese (European),All,21,Secador (cabelo),208,understands,0
+Portuguese (European),All,22,Secador (cabelo),213,produces,0.1221
+Portuguese (European),All,22,Secador (cabelo),213,understands,0
+Portuguese (European),All,23,Secador (cabelo),199,produces,0.1558
+Portuguese (European),All,23,Secador (cabelo),199,understands,0
+Portuguese (European),All,24,Secador (cabelo),215,produces,0.186
+Portuguese (European),All,24,Secador (cabelo),215,understands,0
+Portuguese (European),All,25,Secador (cabelo),213,produces,0.3099
+Portuguese (European),All,25,Secador (cabelo),213,understands,0
+Portuguese (European),All,26,Secador (cabelo),218,produces,0.3028
+Portuguese (European),All,26,Secador (cabelo),218,understands,0
+Portuguese (European),All,27,Secador (cabelo),238,produces,0.3908
+Portuguese (European),All,27,Secador (cabelo),238,understands,0
+Portuguese (European),All,28,Secador (cabelo),219,produces,0.4064
+Portuguese (European),All,28,Secador (cabelo),219,understands,0
+Portuguese (European),All,29,Secador (cabelo),207,produces,0.4251
+Portuguese (European),All,29,Secador (cabelo),207,understands,0
+Portuguese (European),All,30,Secador (cabelo),163,produces,0.4847
+Portuguese (European),All,30,Secador (cabelo),163,understands,0
+Arabic (Saudi),Female,8,سشوار/ استشوار,13,produces,0
+Arabic (Saudi),Female,8,سشوار/ استشوار,13,understands,0.1538
+Arabic (Saudi),Male,8,سشوار/ استشوار,11,produces,0
+Arabic (Saudi),Male,8,سشوار/ استشوار,11,understands,0
+Arabic (Saudi),Female,9,سشوار/ استشوار,14,produces,0
+Arabic (Saudi),Female,9,سشوار/ استشوار,14,understands,0.0714
+Arabic (Saudi),Male,9,سشوار/ استشوار,13,produces,0
+Arabic (Saudi),Male,9,سشوار/ استشوار,13,understands,0
+Arabic (Saudi),Female,10,سشوار/ استشوار,15,produces,0
+Arabic (Saudi),Female,10,سشوار/ استشوار,15,understands,0
+Arabic (Saudi),Male,10,سشوار/ استشوار,20,produces,0
+Arabic (Saudi),Male,10,سشوار/ استشوار,20,understands,0.15
+Arabic (Saudi),Female,11,سشوار/ استشوار,14,produces,0
+Arabic (Saudi),Female,11,سشوار/ استشوار,14,understands,0
+Arabic (Saudi),Male,11,سشوار/ استشوار,16,produces,0.0625
+Arabic (Saudi),Male,11,سشوار/ استشوار,16,understands,0.0625
+Arabic (Saudi),Female,12,سشوار/ استشوار,14,produces,0
+Arabic (Saudi),Female,12,سشوار/ استشوار,14,understands,0
+Arabic (Saudi),Male,12,سشوار/ استشوار,16,produces,0.0625
+Arabic (Saudi),Male,12,سشوار/ استشوار,16,understands,0.0625
+Arabic (Saudi),Female,13,سشوار/ استشوار,17,produces,0.0588
+Arabic (Saudi),Female,13,سشوار/ استشوار,17,understands,0
+Arabic (Saudi),Male,13,سشوار/ استشوار,22,produces,0
+Arabic (Saudi),Male,13,سشوار/ استشوار,22,understands,0
+Arabic (Saudi),Female,14,سشوار/ استشوار,10,produces,0
+Arabic (Saudi),Female,14,سشوار/ استشوار,10,understands,0
+Arabic (Saudi),Male,14,سشوار/ استشوار,15,produces,0
+Arabic (Saudi),Male,14,سشوار/ استشوار,15,understands,0
+Arabic (Saudi),Female,15,سشوار/ استشوار,12,produces,0
+Arabic (Saudi),Female,15,سشوار/ استشوار,12,understands,0.0833
+Arabic (Saudi),Male,15,سشوار/ استشوار,15,produces,0.0667
+Arabic (Saudi),Male,15,سشوار/ استشوار,15,understands,0.1333
+Arabic (Saudi),Female,16,سشوار/ استشوار,10,produces,0.1
+Arabic (Saudi),Female,16,سشوار/ استشوار,10,understands,0.1
+Arabic (Saudi),Male,16,سشوار/ استشوار,11,produces,0
+Arabic (Saudi),Male,16,سشوار/ استشوار,11,understands,0
+Japanese,Female,16,ドライヤー,4,produces,0
+Japanese,Female,16,ドライヤー,4,understands,0
+Japanese,Male,16,ドライヤー,7,produces,0
+Japanese,Male,16,ドライヤー,7,understands,0
+Japanese,Female,17,ドライヤー,11,produces,0
+Japanese,Female,17,ドライヤー,11,understands,0
+Japanese,Male,17,ドライヤー,6,produces,0
+Japanese,Male,17,ドライヤー,6,understands,0
+Japanese,Female,18,ドライヤー,27,produces,0.0741
+Japanese,Female,18,ドライヤー,27,understands,0
+Japanese,Male,18,ドライヤー,29,produces,0
+Japanese,Male,18,ドライヤー,29,understands,0
+Japanese,Female,19,ドライヤー,14,produces,0
+Japanese,Female,19,ドライヤー,14,understands,0
+Japanese,Male,19,ドライヤー,21,produces,0
+Japanese,Male,19,ドライヤー,21,understands,0
+Japanese,Female,20,ドライヤー,27,produces,0.037
+Japanese,Female,20,ドライヤー,27,understands,0
+Japanese,Male,20,ドライヤー,32,produces,0.0312
+Japanese,Male,20,ドライヤー,32,understands,0
+Japanese,Female,21,ドライヤー,29,produces,0.069
+Japanese,Female,21,ドライヤー,29,understands,0
+Japanese,Male,21,ドライヤー,33,produces,0.0303
+Japanese,Male,21,ドライヤー,33,understands,0
+Japanese,Female,22,ドライヤー,16,produces,0.125
+Japanese,Female,22,ドライヤー,16,understands,0
+Japanese,Male,22,ドライヤー,15,produces,0.1333
+Japanese,Male,22,ドライヤー,15,understands,0
+Japanese,Female,23,ドライヤー,38,produces,0.1316
+Japanese,Female,23,ドライヤー,38,understands,0
+Japanese,Male,23,ドライヤー,29,produces,0.1034
+Japanese,Male,23,ドライヤー,29,understands,0
+Japanese,Female,24,ドライヤー,18,produces,0.3333
+Japanese,Female,24,ドライヤー,18,understands,0
+Japanese,Male,24,ドライヤー,15,produces,0
+Japanese,Male,24,ドライヤー,15,understands,0
+Japanese,Female,25,ドライヤー,14,produces,0.3571
+Japanese,Female,25,ドライヤー,14,understands,0
+Japanese,Male,25,ドライヤー,20,produces,0.2
+Japanese,Male,25,ドライヤー,20,understands,0
+Japanese,Female,26,ドライヤー,19,produces,0.4737
+Japanese,Female,26,ドライヤー,19,understands,0
+Japanese,Male,26,ドライヤー,14,produces,0.1429
+Japanese,Male,26,ドライヤー,14,understands,0
+Japanese,Female,27,ドライヤー,8,produces,0.375
+Japanese,Female,27,ドライヤー,8,understands,0
+Japanese,Male,27,ドライヤー,7,produces,0.1429
+Japanese,Male,27,ドライヤー,7,understands,0
+Japanese,Female,28,ドライヤー,8,produces,0.5
+Japanese,Female,28,ドライヤー,8,understands,0
+Japanese,Male,28,ドライヤー,10,produces,0.3
+Japanese,Male,28,ドライヤー,10,understands,0
+Japanese,Female,29,ドライヤー,6,produces,0.1667
+Japanese,Female,29,ドライヤー,6,understands,0
+Japanese,Male,29,ドライヤー,11,produces,0.2727
+Japanese,Male,29,ドライヤー,11,understands,0
+Japanese,Female,30,ドライヤー,9,produces,0.3333
+Japanese,Female,30,ドライヤー,9,understands,0
+Japanese,Male,30,ドライヤー,9,produces,0.3333
+Japanese,Male,30,ドライヤー,9,understands,0
+Japanese,Female,31,ドライヤー,8,produces,0.5
+Japanese,Female,31,ドライヤー,8,understands,0
+Japanese,Male,31,ドライヤー,10,produces,0.2
+Japanese,Male,31,ドライヤー,10,understands,0
+Japanese,Female,32,ドライヤー,8,produces,0.25
+Japanese,Female,32,ドライヤー,8,understands,0
+Japanese,Male,32,ドライヤー,5,produces,0.4
+Japanese,Male,32,ドライヤー,5,understands,0
+Japanese,Female,33,ドライヤー,9,produces,0.3333
+Japanese,Female,33,ドライヤー,9,understands,0
+Japanese,Male,33,ドライヤー,7,produces,0.2857
+Japanese,Male,33,ドライヤー,7,understands,0
+Japanese,Female,34,ドライヤー,8,produces,0.75
+Japanese,Female,34,ドライヤー,8,understands,0
+Japanese,Male,34,ドライヤー,5,produces,0.2
+Japanese,Male,34,ドライヤー,5,understands,0
+Japanese,Female,35,ドライヤー,19,produces,0.7895
+Japanese,Female,35,ドライヤー,19,understands,0
+Japanese,Male,35,ドライヤー,12,produces,0.4167
+Japanese,Male,35,ドライヤー,12,understands,0
+Japanese,Female,36,ドライヤー,4,produces,1
+Japanese,Female,36,ドライヤー,4,understands,0
+Japanese,Male,36,ドライヤー,14,produces,0.4286
+Japanese,Male,36,ドライヤー,14,understands,0
+Portuguese (European),Female,16,Secador (cabelo),71,produces,0
+Portuguese (European),Female,16,Secador (cabelo),71,understands,0
+Portuguese (European),Male,16,Secador (cabelo),73,produces,0.0137
+Portuguese (European),Male,16,Secador (cabelo),73,understands,0
+Portuguese (European),Female,17,Secador (cabelo),62,produces,0
+Portuguese (European),Female,17,Secador (cabelo),62,understands,0
+Portuguese (European),Male,17,Secador (cabelo),96,produces,0
+Portuguese (European),Male,17,Secador (cabelo),96,understands,0
+Portuguese (European),Female,18,Secador (cabelo),102,produces,0.0196
+Portuguese (European),Female,18,Secador (cabelo),102,understands,0
+Portuguese (European),Male,18,Secador (cabelo),101,produces,0.0198
+Portuguese (European),Male,18,Secador (cabelo),101,understands,0
+Portuguese (European),Female,19,Secador (cabelo),97,produces,0.0309
+Portuguese (European),Female,19,Secador (cabelo),97,understands,0
+Portuguese (European),Male,19,Secador (cabelo),99,produces,0.0303
+Portuguese (European),Male,19,Secador (cabelo),99,understands,0
+Portuguese (European),Female,20,Secador (cabelo),115,produces,0.0783
+Portuguese (European),Female,20,Secador (cabelo),115,understands,0
+Portuguese (European),Male,20,Secador (cabelo),103,produces,0.0194
+Portuguese (European),Male,20,Secador (cabelo),103,understands,0
+Portuguese (European),Female,21,Secador (cabelo),93,produces,0.129
+Portuguese (European),Female,21,Secador (cabelo),93,understands,0
+Portuguese (European),Male,21,Secador (cabelo),115,produces,0.0696
+Portuguese (European),Male,21,Secador (cabelo),115,understands,0
+Portuguese (European),Female,22,Secador (cabelo),117,produces,0.1197
+Portuguese (European),Female,22,Secador (cabelo),117,understands,0
+Portuguese (European),Male,22,Secador (cabelo),96,produces,0.125
+Portuguese (European),Male,22,Secador (cabelo),96,understands,0
+Portuguese (European),Female,23,Secador (cabelo),94,produces,0.2128
+Portuguese (European),Female,23,Secador (cabelo),94,understands,0
+Portuguese (European),Male,23,Secador (cabelo),105,produces,0.1048
+Portuguese (European),Male,23,Secador (cabelo),105,understands,0
+Portuguese (European),Female,24,Secador (cabelo),88,produces,0.2841
+Portuguese (European),Female,24,Secador (cabelo),88,understands,0
+Portuguese (European),Male,24,Secador (cabelo),127,produces,0.1181
+Portuguese (European),Male,24,Secador (cabelo),127,understands,0
+Portuguese (European),Female,25,Secador (cabelo),110,produces,0.3818
+Portuguese (European),Female,25,Secador (cabelo),110,understands,0
+Portuguese (European),Male,25,Secador (cabelo),103,produces,0.233
+Portuguese (European),Male,25,Secador (cabelo),103,understands,0
+Portuguese (European),Female,26,Secador (cabelo),96,produces,0.3542
+Portuguese (European),Female,26,Secador (cabelo),96,understands,0
+Portuguese (European),Male,26,Secador (cabelo),122,produces,0.2623
+Portuguese (European),Male,26,Secador (cabelo),122,understands,0
+Portuguese (European),Female,27,Secador (cabelo),109,produces,0.4771
+Portuguese (European),Female,27,Secador (cabelo),109,understands,0
+Portuguese (European),Male,27,Secador (cabelo),129,produces,0.3178
+Portuguese (European),Male,27,Secador (cabelo),129,understands,0
+Portuguese (European),Female,28,Secador (cabelo),91,produces,0.5055
+Portuguese (European),Female,28,Secador (cabelo),91,understands,0
+Portuguese (European),Male,28,Secador (cabelo),128,produces,0.3359
+Portuguese (European),Male,28,Secador (cabelo),128,understands,0
+Portuguese (European),Female,29,Secador (cabelo),98,produces,0.4796
+Portuguese (European),Female,29,Secador (cabelo),98,understands,0
+Portuguese (European),Male,29,Secador (cabelo),109,produces,0.3761
+Portuguese (European),Male,29,Secador (cabelo),109,understands,0
+Portuguese (European),Female,30,Secador (cabelo),81,produces,0.5926
+Portuguese (European),Female,30,Secador (cabelo),81,understands,0
+Portuguese (European),Male,30,Secador (cabelo),82,produces,0.378
+Portuguese (European),Male,30,Secador (cabelo),82,understands,0

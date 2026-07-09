@@ -1,79 +1,233 @@
-language,age,words,n,measure,prop
-Dutch,16,mals,4,produces,0
-Dutch,16,mals,4,understands,0
-Dutch,17,mals,49,produces,0
-Dutch,17,mals,49,understands,0
-Dutch,18,mals,68,produces,0
-Dutch,18,mals,68,understands,0
-Dutch,19,mals,7,produces,0
-Dutch,19,mals,7,understands,0
-Dutch,20,mals,7,produces,0
-Dutch,20,mals,7,understands,0
-Dutch,21,mals,7,produces,0
-Dutch,21,mals,7,understands,0
-Dutch,22,mals,7,produces,0
-Dutch,22,mals,7,understands,0
-Dutch,23,mals,51,produces,0.0196
-Dutch,23,mals,51,understands,0
-Dutch,24,mals,31,produces,0
-Dutch,24,mals,31,understands,0
-Dutch,25,mals,6,produces,0
-Dutch,25,mals,6,understands,0
-Dutch,26,mals,6,produces,0
-Dutch,26,mals,6,understands,0
-Dutch,27,mals,5,produces,0
-Dutch,27,mals,5,understands,0
-Dutch,28,mals,6,produces,0
-Dutch,28,mals,6,understands,0
-Dutch,29,mals,23,produces,0
-Dutch,29,mals,23,understands,0
-Dutch,30,mals,24,produces,0.125
-Dutch,30,mals,24,understands,0
-Dutch,31,mals,2,produces,0.5
-Dutch,31,mals,2,understands,0
-French (French),8,tendre,54,produces,0
-French (French),8,tendre,54,understands,0
-French (French),9,tendre,11,produces,0
-French (French),9,tendre,11,understands,0
-French (French),10,tendre,13,produces,0
-French (French),10,tendre,13,understands,0
-French (French),11,tendre,42,produces,0
-French (French),11,tendre,42,understands,0
-French (French),12,tendre,64,produces,0
-French (French),12,tendre,64,understands,0.0312
-French (French),13,tendre,116,produces,0
-French (French),13,tendre,116,understands,0.0259
-French (French),14,tendre,40,produces,0
-French (French),14,tendre,40,understands,0
-French (French),15,tendre,26,produces,0
-French (French),15,tendre,26,understands,0
-French (French),16,tendre,98,produces,0.0102
-French (French),16,tendre,98,understands,0
-French (French),17,tendre,52,produces,0
-French (French),17,tendre,52,understands,0
-French (French),18,tendre,54,produces,0.0556
-French (French),18,tendre,54,understands,0
-French (French),19,tendre,42,produces,0.0476
-French (French),19,tendre,42,understands,0
-French (French),20,tendre,81,produces,0.0123
-French (French),20,tendre,81,understands,0
-French (French),21,tendre,102,produces,0.0294
-French (French),21,tendre,102,understands,0
-French (French),22,tendre,103,produces,0.0194
-French (French),22,tendre,103,understands,0
-French (French),23,tendre,118,produces,0.0085
-French (French),23,tendre,118,understands,0
-French (French),24,tendre,173,produces,0.0289
-French (French),24,tendre,173,understands,0
-French (French),25,tendre,87,produces,0.046
-French (French),25,tendre,87,understands,0
-French (French),26,tendre,64,produces,0.0312
-French (French),26,tendre,64,understands,0
-French (French),27,tendre,54,produces,0.0185
-French (French),27,tendre,54,understands,0
-French (French),28,tendre,76,produces,0.0526
-French (French),28,tendre,76,understands,0
-French (French),29,tendre,67,produces,0.0746
-French (French),29,tendre,67,understands,0
-French (French),30,tendre,68,produces,0.1618
-French (French),30,tendre,68,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,16,mals,4,produces,0
+Dutch,All,16,mals,4,understands,0
+Dutch,All,17,mals,49,produces,0
+Dutch,All,17,mals,49,understands,0
+Dutch,All,18,mals,68,produces,0
+Dutch,All,18,mals,68,understands,0
+Dutch,All,19,mals,7,produces,0
+Dutch,All,19,mals,7,understands,0
+Dutch,All,20,mals,7,produces,0
+Dutch,All,20,mals,7,understands,0
+Dutch,All,21,mals,7,produces,0
+Dutch,All,21,mals,7,understands,0
+Dutch,All,22,mals,7,produces,0
+Dutch,All,22,mals,7,understands,0
+Dutch,All,23,mals,51,produces,0.0196
+Dutch,All,23,mals,51,understands,0
+Dutch,All,24,mals,31,produces,0
+Dutch,All,24,mals,31,understands,0
+Dutch,All,25,mals,6,produces,0
+Dutch,All,25,mals,6,understands,0
+Dutch,All,26,mals,6,produces,0
+Dutch,All,26,mals,6,understands,0
+Dutch,All,27,mals,5,produces,0
+Dutch,All,27,mals,5,understands,0
+Dutch,All,28,mals,6,produces,0
+Dutch,All,28,mals,6,understands,0
+Dutch,All,29,mals,23,produces,0
+Dutch,All,29,mals,23,understands,0
+Dutch,All,30,mals,24,produces,0.125
+Dutch,All,30,mals,24,understands,0
+Dutch,All,31,mals,2,produces,0.5
+Dutch,All,31,mals,2,understands,0
+French (French),All,8,tendre,54,produces,0
+French (French),All,8,tendre,54,understands,0
+French (French),All,9,tendre,11,produces,0
+French (French),All,9,tendre,11,understands,0
+French (French),All,10,tendre,13,produces,0
+French (French),All,10,tendre,13,understands,0
+French (French),All,11,tendre,42,produces,0
+French (French),All,11,tendre,42,understands,0
+French (French),All,12,tendre,64,produces,0
+French (French),All,12,tendre,64,understands,0.0312
+French (French),All,13,tendre,116,produces,0
+French (French),All,13,tendre,116,understands,0.0259
+French (French),All,14,tendre,40,produces,0
+French (French),All,14,tendre,40,understands,0
+French (French),All,15,tendre,26,produces,0
+French (French),All,15,tendre,26,understands,0
+French (French),All,16,tendre,98,produces,0.0102
+French (French),All,16,tendre,98,understands,0
+French (French),All,17,tendre,52,produces,0
+French (French),All,17,tendre,52,understands,0
+French (French),All,18,tendre,54,produces,0.0556
+French (French),All,18,tendre,54,understands,0
+French (French),All,19,tendre,42,produces,0.0476
+French (French),All,19,tendre,42,understands,0
+French (French),All,20,tendre,81,produces,0.0123
+French (French),All,20,tendre,81,understands,0
+French (French),All,21,tendre,102,produces,0.0294
+French (French),All,21,tendre,102,understands,0
+French (French),All,22,tendre,103,produces,0.0194
+French (French),All,22,tendre,103,understands,0
+French (French),All,23,tendre,118,produces,0.0085
+French (French),All,23,tendre,118,understands,0
+French (French),All,24,tendre,173,produces,0.0289
+French (French),All,24,tendre,173,understands,0
+French (French),All,25,tendre,87,produces,0.046
+French (French),All,25,tendre,87,understands,0
+French (French),All,26,tendre,64,produces,0.0312
+French (French),All,26,tendre,64,understands,0
+French (French),All,27,tendre,54,produces,0.0185
+French (French),All,27,tendre,54,understands,0
+French (French),All,28,tendre,76,produces,0.0526
+French (French),All,28,tendre,76,understands,0
+French (French),All,29,tendre,67,produces,0.0746
+French (French),All,29,tendre,67,understands,0
+French (French),All,30,tendre,68,produces,0.1618
+French (French),All,30,tendre,68,understands,0
+Dutch,Female,16,mals,4,produces,0
+Dutch,Female,16,mals,4,understands,0
+Dutch,Female,17,mals,33,produces,0
+Dutch,Female,17,mals,33,understands,0
+Dutch,Male,17,mals,16,produces,0
+Dutch,Male,17,mals,16,understands,0
+Dutch,Female,18,mals,38,produces,0
+Dutch,Female,18,mals,38,understands,0
+Dutch,Male,18,mals,30,produces,0
+Dutch,Male,18,mals,30,understands,0
+Dutch,Female,19,mals,5,produces,0
+Dutch,Female,19,mals,5,understands,0
+Dutch,Male,19,mals,2,produces,0
+Dutch,Male,19,mals,2,understands,0
+Dutch,Female,20,mals,6,produces,0
+Dutch,Female,20,mals,6,understands,0
+Dutch,Male,20,mals,1,produces,0
+Dutch,Male,20,mals,1,understands,0
+Dutch,Female,21,mals,3,produces,0
+Dutch,Female,21,mals,3,understands,0
+Dutch,Male,21,mals,4,produces,0
+Dutch,Male,21,mals,4,understands,0
+Dutch,Female,22,mals,1,produces,0
+Dutch,Female,22,mals,1,understands,0
+Dutch,Male,22,mals,6,produces,0
+Dutch,Male,22,mals,6,understands,0
+Dutch,Female,23,mals,25,produces,0.04
+Dutch,Female,23,mals,25,understands,0
+Dutch,Male,23,mals,26,produces,0
+Dutch,Male,23,mals,26,understands,0
+Dutch,Female,24,mals,16,produces,0
+Dutch,Female,24,mals,16,understands,0
+Dutch,Male,24,mals,15,produces,0
+Dutch,Male,24,mals,15,understands,0
+Dutch,Female,25,mals,5,produces,0
+Dutch,Female,25,mals,5,understands,0
+Dutch,Male,25,mals,1,produces,0
+Dutch,Male,25,mals,1,understands,0
+Dutch,Female,26,mals,1,produces,0
+Dutch,Female,26,mals,1,understands,0
+Dutch,Male,26,mals,5,produces,0
+Dutch,Male,26,mals,5,understands,0
+Dutch,Female,27,mals,3,produces,0
+Dutch,Female,27,mals,3,understands,0
+Dutch,Male,27,mals,1,produces,0
+Dutch,Male,27,mals,1,understands,0
+Dutch,Female,28,mals,5,produces,0
+Dutch,Female,28,mals,5,understands,0
+Dutch,Male,28,mals,1,produces,0
+Dutch,Male,28,mals,1,understands,0
+Dutch,Female,29,mals,12,produces,0
+Dutch,Female,29,mals,12,understands,0
+Dutch,Male,29,mals,11,produces,0
+Dutch,Male,29,mals,11,understands,0
+Dutch,Female,30,mals,16,produces,0.1875
+Dutch,Female,30,mals,16,understands,0
+Dutch,Male,30,mals,8,produces,0
+Dutch,Male,30,mals,8,understands,0
+Dutch,Female,31,mals,1,produces,0
+Dutch,Female,31,mals,1,understands,0
+Dutch,Male,31,mals,1,produces,1
+Dutch,Male,31,mals,1,understands,0
+French (French),Female,8,tendre,2,produces,0
+French (French),Female,8,tendre,2,understands,0
+French (French),Male,8,tendre,5,produces,0
+French (French),Male,8,tendre,5,understands,0
+French (French),Female,9,tendre,2,produces,0
+French (French),Female,9,tendre,2,understands,0
+French (French),Male,9,tendre,5,produces,0
+French (French),Male,9,tendre,5,understands,0
+French (French),Female,10,tendre,7,produces,0
+French (French),Female,10,tendre,7,understands,0
+French (French),Male,10,tendre,6,produces,0
+French (French),Male,10,tendre,6,understands,0
+French (French),Female,11,tendre,8,produces,0
+French (French),Female,11,tendre,8,understands,0
+French (French),Male,11,tendre,6,produces,0
+French (French),Male,11,tendre,6,understands,0
+French (French),Female,12,tendre,19,produces,0
+French (French),Female,12,tendre,19,understands,0
+French (French),Male,12,tendre,19,produces,0
+French (French),Male,12,tendre,19,understands,0
+French (French),Female,13,tendre,36,produces,0
+French (French),Female,13,tendre,36,understands,0
+French (French),Male,13,tendre,30,produces,0
+French (French),Male,13,tendre,30,understands,0
+French (French),Female,14,tendre,17,produces,0
+French (French),Female,14,tendre,17,understands,0
+French (French),Male,14,tendre,20,produces,0
+French (French),Male,14,tendre,20,understands,0
+French (French),Female,15,tendre,11,produces,0
+French (French),Female,15,tendre,11,understands,0
+French (French),Male,15,tendre,13,produces,0
+French (French),Male,15,tendre,13,understands,0
+French (French),Female,16,tendre,25,produces,0.04
+French (French),Female,16,tendre,25,understands,0
+French (French),Male,16,tendre,27,produces,0
+French (French),Male,16,tendre,27,understands,0
+French (French),Female,17,tendre,25,produces,0
+French (French),Female,17,tendre,25,understands,0
+French (French),Male,17,tendre,23,produces,0
+French (French),Male,17,tendre,23,understands,0
+French (French),Female,18,tendre,27,produces,0
+French (French),Female,18,tendre,27,understands,0
+French (French),Male,18,tendre,21,produces,0.0476
+French (French),Male,18,tendre,21,understands,0
+French (French),Female,19,tendre,22,produces,0.0909
+French (French),Female,19,tendre,22,understands,0
+French (French),Male,19,tendre,17,produces,0
+French (French),Male,19,tendre,17,understands,0
+French (French),Female,20,tendre,42,produces,0.0238
+French (French),Female,20,tendre,42,understands,0
+French (French),Male,20,tendre,35,produces,0
+French (French),Male,20,tendre,35,understands,0
+French (French),Female,21,tendre,55,produces,0.0364
+French (French),Female,21,tendre,55,understands,0
+French (French),Male,21,tendre,38,produces,0.0263
+French (French),Male,21,tendre,38,understands,0
+French (French),Female,22,tendre,60,produces,0.0167
+French (French),Female,22,tendre,60,understands,0
+French (French),Male,22,tendre,38,produces,0
+French (French),Male,22,tendre,38,understands,0
+French (French),Female,23,tendre,40,produces,0
+French (French),Female,23,tendre,40,understands,0
+French (French),Male,23,tendre,44,produces,0.0227
+French (French),Male,23,tendre,44,understands,0
+French (French),Female,24,tendre,65,produces,0.0462
+French (French),Female,24,tendre,65,understands,0
+French (French),Male,24,tendre,72,produces,0.0139
+French (French),Male,24,tendre,72,understands,0
+French (French),Female,25,tendre,39,produces,0.0769
+French (French),Female,25,tendre,39,understands,0
+French (French),Male,25,tendre,46,produces,0.0217
+French (French),Male,25,tendre,46,understands,0
+French (French),Female,26,tendre,31,produces,0
+French (French),Female,26,tendre,31,understands,0
+French (French),Male,26,tendre,32,produces,0.0625
+French (French),Male,26,tendre,32,understands,0
+French (French),Female,27,tendre,28,produces,0.0357
+French (French),Female,27,tendre,28,understands,0
+French (French),Male,27,tendre,24,produces,0
+French (French),Male,27,tendre,24,understands,0
+French (French),Female,28,tendre,33,produces,0.0606
+French (French),Female,28,tendre,33,understands,0
+French (French),Male,28,tendre,43,produces,0.0465
+French (French),Male,28,tendre,43,understands,0
+French (French),Female,29,tendre,32,produces,0.0625
+French (French),Female,29,tendre,32,understands,0
+French (French),Male,29,tendre,33,produces,0.0909
+French (French),Male,29,tendre,33,understands,0
+French (French),Female,30,tendre,34,produces,0.1471
+French (French),Female,30,tendre,34,understands,0
+French (French),Male,30,tendre,33,produces,0.1818
+French (French),Male,30,tendre,33,understands,0

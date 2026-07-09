@@ -1,73 +1,217 @@
-language,age,words,n,measure,prop
-Mandarin (Taiwanese),16,早(一點),80,produces,0
-Mandarin (Taiwanese),16,早(一點),80,understands,0
-Mandarin (Taiwanese),17,早(一點),87,produces,0.023
-Mandarin (Taiwanese),17,早(一點),87,understands,0
-Mandarin (Taiwanese),18,早(一點),84,produces,0
-Mandarin (Taiwanese),18,早(一點),84,understands,0
-Mandarin (Taiwanese),19,早(一點),84,produces,0.0119
-Mandarin (Taiwanese),19,早(一點),84,understands,0
-Mandarin (Taiwanese),20,早(一點),84,produces,0.0476
-Mandarin (Taiwanese),20,早(一點),84,understands,0
-Mandarin (Taiwanese),21,早(一點),88,produces,0.0227
-Mandarin (Taiwanese),21,早(一點),88,understands,0
-Mandarin (Taiwanese),22,早(一點),96,produces,0.0417
-Mandarin (Taiwanese),22,早(一點),96,understands,0
-Mandarin (Taiwanese),23,早(一點),105,produces,0.0381
-Mandarin (Taiwanese),23,早(一點),105,understands,0
-Mandarin (Taiwanese),24,早(一點),124,produces,0.0726
-Mandarin (Taiwanese),24,早(一點),124,understands,0
-Mandarin (Taiwanese),25,早(一點),110,produces,0.0545
-Mandarin (Taiwanese),25,早(一點),110,understands,0
-Mandarin (Taiwanese),26,早(一點),87,produces,0.1264
-Mandarin (Taiwanese),26,早(一點),87,understands,0
-Mandarin (Taiwanese),27,早(一點),92,produces,0.1304
-Mandarin (Taiwanese),27,早(一點),92,understands,0
-Mandarin (Taiwanese),28,早(一點),100,produces,0.2
-Mandarin (Taiwanese),28,早(一點),100,understands,0
-Mandarin (Taiwanese),29,早(一點),88,produces,0.1591
-Mandarin (Taiwanese),29,早(一點),88,understands,0
-Mandarin (Taiwanese),30,早(一點),94,produces,0.266
-Mandarin (Taiwanese),30,早(一點),94,understands,0
-Mandarin (Taiwanese),31,早(一點),88,produces,0.3409
-Mandarin (Taiwanese),31,早(一點),88,understands,0
-Mandarin (Taiwanese),32,早(一點),82,produces,0.3171
-Mandarin (Taiwanese),32,早(一點),82,understands,0
-Mandarin (Taiwanese),33,早(一點),85,produces,0.4706
-Mandarin (Taiwanese),33,早(一點),85,understands,0
-Mandarin (Taiwanese),34,早(一點),77,produces,0.4805
-Mandarin (Taiwanese),34,早(一點),77,understands,0
-Mandarin (Taiwanese),35,早(一點),81,produces,0.5802
-Mandarin (Taiwanese),35,早(一點),81,understands,0
-Mandarin (Taiwanese),36,早(一點),81,produces,0.4074
-Mandarin (Taiwanese),36,早(一點),81,understands,0
-Cantonese,16,早啲,46,produces,0
-Cantonese,16,早啲,46,understands,0
-Cantonese,17,早啲,61,produces,0
-Cantonese,17,早啲,61,understands,0
-Cantonese,18,早啲,68,produces,0
-Cantonese,18,早啲,68,understands,0
-Cantonese,19,早啲,66,produces,0
-Cantonese,19,早啲,66,understands,0
-Cantonese,20,早啲,140,produces,0.0143
-Cantonese,20,早啲,140,understands,0
-Cantonese,21,早啲,120,produces,0.0167
-Cantonese,21,早啲,120,understands,0
-Cantonese,22,早啲,68,produces,0.0294
-Cantonese,22,早啲,68,understands,0
-Cantonese,23,早啲,74,produces,0.0135
-Cantonese,23,早啲,74,understands,0
-Cantonese,24,早啲,68,produces,0.0294
-Cantonese,24,早啲,68,understands,0
-Cantonese,25,早啲,65,produces,0.0923
-Cantonese,25,早啲,65,understands,0
-Cantonese,26,早啲,68,produces,0.1176
-Cantonese,26,早啲,68,understands,0
-Cantonese,27,早啲,62,produces,0.0968
-Cantonese,27,早啲,62,understands,0
-Cantonese,28,早啲,66,produces,0.197
-Cantonese,28,早啲,66,understands,0
-Cantonese,29,早啲,72,produces,0.2917
-Cantonese,29,早啲,72,understands,0
-Cantonese,30,早啲,164,produces,0.2256
-Cantonese,30,早啲,164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,早啲,46,produces,0
+Cantonese,All,16,早啲,46,understands,0
+Cantonese,All,17,早啲,61,produces,0
+Cantonese,All,17,早啲,61,understands,0
+Cantonese,All,18,早啲,68,produces,0
+Cantonese,All,18,早啲,68,understands,0
+Cantonese,All,19,早啲,66,produces,0
+Cantonese,All,19,早啲,66,understands,0
+Cantonese,All,20,早啲,140,produces,0.0143
+Cantonese,All,20,早啲,140,understands,0
+Cantonese,All,21,早啲,120,produces,0.0167
+Cantonese,All,21,早啲,120,understands,0
+Cantonese,All,22,早啲,68,produces,0.0294
+Cantonese,All,22,早啲,68,understands,0
+Cantonese,All,23,早啲,74,produces,0.0135
+Cantonese,All,23,早啲,74,understands,0
+Cantonese,All,24,早啲,68,produces,0.0294
+Cantonese,All,24,早啲,68,understands,0
+Cantonese,All,25,早啲,65,produces,0.0923
+Cantonese,All,25,早啲,65,understands,0
+Cantonese,All,26,早啲,68,produces,0.1176
+Cantonese,All,26,早啲,68,understands,0
+Cantonese,All,27,早啲,62,produces,0.0968
+Cantonese,All,27,早啲,62,understands,0
+Cantonese,All,28,早啲,66,produces,0.197
+Cantonese,All,28,早啲,66,understands,0
+Cantonese,All,29,早啲,72,produces,0.2917
+Cantonese,All,29,早啲,72,understands,0
+Cantonese,All,30,早啲,164,produces,0.2256
+Cantonese,All,30,早啲,164,understands,0
+Mandarin (Taiwanese),All,16,早(一點),80,produces,0
+Mandarin (Taiwanese),All,16,早(一點),80,understands,0
+Mandarin (Taiwanese),All,17,早(一點),87,produces,0.023
+Mandarin (Taiwanese),All,17,早(一點),87,understands,0
+Mandarin (Taiwanese),All,18,早(一點),84,produces,0
+Mandarin (Taiwanese),All,18,早(一點),84,understands,0
+Mandarin (Taiwanese),All,19,早(一點),84,produces,0.0119
+Mandarin (Taiwanese),All,19,早(一點),84,understands,0
+Mandarin (Taiwanese),All,20,早(一點),84,produces,0.0476
+Mandarin (Taiwanese),All,20,早(一點),84,understands,0
+Mandarin (Taiwanese),All,21,早(一點),88,produces,0.0227
+Mandarin (Taiwanese),All,21,早(一點),88,understands,0
+Mandarin (Taiwanese),All,22,早(一點),96,produces,0.0417
+Mandarin (Taiwanese),All,22,早(一點),96,understands,0
+Mandarin (Taiwanese),All,23,早(一點),105,produces,0.0381
+Mandarin (Taiwanese),All,23,早(一點),105,understands,0
+Mandarin (Taiwanese),All,24,早(一點),124,produces,0.0726
+Mandarin (Taiwanese),All,24,早(一點),124,understands,0
+Mandarin (Taiwanese),All,25,早(一點),110,produces,0.0545
+Mandarin (Taiwanese),All,25,早(一點),110,understands,0
+Mandarin (Taiwanese),All,26,早(一點),87,produces,0.1264
+Mandarin (Taiwanese),All,26,早(一點),87,understands,0
+Mandarin (Taiwanese),All,27,早(一點),92,produces,0.1304
+Mandarin (Taiwanese),All,27,早(一點),92,understands,0
+Mandarin (Taiwanese),All,28,早(一點),100,produces,0.2
+Mandarin (Taiwanese),All,28,早(一點),100,understands,0
+Mandarin (Taiwanese),All,29,早(一點),88,produces,0.1591
+Mandarin (Taiwanese),All,29,早(一點),88,understands,0
+Mandarin (Taiwanese),All,30,早(一點),94,produces,0.266
+Mandarin (Taiwanese),All,30,早(一點),94,understands,0
+Mandarin (Taiwanese),All,31,早(一點),88,produces,0.3409
+Mandarin (Taiwanese),All,31,早(一點),88,understands,0
+Mandarin (Taiwanese),All,32,早(一點),82,produces,0.3171
+Mandarin (Taiwanese),All,32,早(一點),82,understands,0
+Mandarin (Taiwanese),All,33,早(一點),85,produces,0.4706
+Mandarin (Taiwanese),All,33,早(一點),85,understands,0
+Mandarin (Taiwanese),All,34,早(一點),77,produces,0.4805
+Mandarin (Taiwanese),All,34,早(一點),77,understands,0
+Mandarin (Taiwanese),All,35,早(一點),81,produces,0.5802
+Mandarin (Taiwanese),All,35,早(一點),81,understands,0
+Mandarin (Taiwanese),All,36,早(一點),81,produces,0.4074
+Mandarin (Taiwanese),All,36,早(一點),81,understands,0
+Cantonese,Female,16,早啲,23,produces,0
+Cantonese,Female,16,早啲,23,understands,0
+Cantonese,Male,16,早啲,23,produces,0
+Cantonese,Male,16,早啲,23,understands,0
+Cantonese,Female,17,早啲,30,produces,0
+Cantonese,Female,17,早啲,30,understands,0
+Cantonese,Male,17,早啲,31,produces,0
+Cantonese,Male,17,早啲,31,understands,0
+Cantonese,Female,18,早啲,33,produces,0
+Cantonese,Female,18,早啲,33,understands,0
+Cantonese,Male,18,早啲,35,produces,0
+Cantonese,Male,18,早啲,35,understands,0
+Cantonese,Female,19,早啲,30,produces,0
+Cantonese,Female,19,早啲,30,understands,0
+Cantonese,Male,19,早啲,36,produces,0
+Cantonese,Male,19,早啲,36,understands,0
+Cantonese,Female,20,早啲,62,produces,0.0161
+Cantonese,Female,20,早啲,62,understands,0
+Cantonese,Male,20,早啲,78,produces,0.0128
+Cantonese,Male,20,早啲,78,understands,0
+Cantonese,Female,21,早啲,57,produces,0
+Cantonese,Female,21,早啲,57,understands,0
+Cantonese,Male,21,早啲,63,produces,0.0317
+Cantonese,Male,21,早啲,63,understands,0
+Cantonese,Female,22,早啲,34,produces,0.0588
+Cantonese,Female,22,早啲,34,understands,0
+Cantonese,Male,22,早啲,34,produces,0
+Cantonese,Male,22,早啲,34,understands,0
+Cantonese,Female,23,早啲,37,produces,0.027
+Cantonese,Female,23,早啲,37,understands,0
+Cantonese,Male,23,早啲,37,produces,0
+Cantonese,Male,23,早啲,37,understands,0
+Cantonese,Female,24,早啲,32,produces,0.0625
+Cantonese,Female,24,早啲,32,understands,0
+Cantonese,Male,24,早啲,36,produces,0
+Cantonese,Male,24,早啲,36,understands,0
+Cantonese,Female,25,早啲,31,produces,0.1613
+Cantonese,Female,25,早啲,31,understands,0
+Cantonese,Male,25,早啲,34,produces,0.0294
+Cantonese,Male,25,早啲,34,understands,0
+Cantonese,Female,26,早啲,31,produces,0.129
+Cantonese,Female,26,早啲,31,understands,0
+Cantonese,Male,26,早啲,37,produces,0.1081
+Cantonese,Male,26,早啲,37,understands,0
+Cantonese,Female,27,早啲,31,produces,0.0645
+Cantonese,Female,27,早啲,31,understands,0
+Cantonese,Male,27,早啲,31,produces,0.129
+Cantonese,Male,27,早啲,31,understands,0
+Cantonese,Female,28,早啲,32,produces,0.25
+Cantonese,Female,28,早啲,32,understands,0
+Cantonese,Male,28,早啲,34,produces,0.1471
+Cantonese,Male,28,早啲,34,understands,0
+Cantonese,Female,29,早啲,36,produces,0.3333
+Cantonese,Female,29,早啲,36,understands,0
+Cantonese,Male,29,早啲,36,produces,0.25
+Cantonese,Male,29,早啲,36,understands,0
+Cantonese,Female,30,早啲,76,produces,0.2368
+Cantonese,Female,30,早啲,76,understands,0
+Cantonese,Male,30,早啲,88,produces,0.2159
+Cantonese,Male,30,早啲,88,understands,0
+Mandarin (Taiwanese),Female,16,早(一點),39,produces,0
+Mandarin (Taiwanese),Female,16,早(一點),39,understands,0
+Mandarin (Taiwanese),Male,16,早(一點),41,produces,0
+Mandarin (Taiwanese),Male,16,早(一點),41,understands,0
+Mandarin (Taiwanese),Female,17,早(一點),37,produces,0.027
+Mandarin (Taiwanese),Female,17,早(一點),37,understands,0
+Mandarin (Taiwanese),Male,17,早(一點),50,produces,0.02
+Mandarin (Taiwanese),Male,17,早(一點),50,understands,0
+Mandarin (Taiwanese),Female,18,早(一點),49,produces,0
+Mandarin (Taiwanese),Female,18,早(一點),49,understands,0
+Mandarin (Taiwanese),Male,18,早(一點),35,produces,0
+Mandarin (Taiwanese),Male,18,早(一點),35,understands,0
+Mandarin (Taiwanese),Female,19,早(一點),42,produces,0
+Mandarin (Taiwanese),Female,19,早(一點),42,understands,0
+Mandarin (Taiwanese),Male,19,早(一點),42,produces,0.0238
+Mandarin (Taiwanese),Male,19,早(一點),42,understands,0
+Mandarin (Taiwanese),Female,20,早(一點),40,produces,0.075
+Mandarin (Taiwanese),Female,20,早(一點),40,understands,0
+Mandarin (Taiwanese),Male,20,早(一點),44,produces,0.0227
+Mandarin (Taiwanese),Male,20,早(一點),44,understands,0
+Mandarin (Taiwanese),Female,21,早(一點),38,produces,0.0526
+Mandarin (Taiwanese),Female,21,早(一點),38,understands,0
+Mandarin (Taiwanese),Male,21,早(一點),50,produces,0
+Mandarin (Taiwanese),Male,21,早(一點),50,understands,0
+Mandarin (Taiwanese),Female,22,早(一點),48,produces,0.0625
+Mandarin (Taiwanese),Female,22,早(一點),48,understands,0
+Mandarin (Taiwanese),Male,22,早(一點),48,produces,0.0208
+Mandarin (Taiwanese),Male,22,早(一點),48,understands,0
+Mandarin (Taiwanese),Female,23,早(一點),50,produces,0.04
+Mandarin (Taiwanese),Female,23,早(一點),50,understands,0
+Mandarin (Taiwanese),Male,23,早(一點),55,produces,0.0364
+Mandarin (Taiwanese),Male,23,早(一點),55,understands,0
+Mandarin (Taiwanese),Female,24,早(一點),65,produces,0.0615
+Mandarin (Taiwanese),Female,24,早(一點),65,understands,0
+Mandarin (Taiwanese),Male,24,早(一點),59,produces,0.0847
+Mandarin (Taiwanese),Male,24,早(一點),59,understands,0
+Mandarin (Taiwanese),Female,25,早(一點),60,produces,0.0333
+Mandarin (Taiwanese),Female,25,早(一點),60,understands,0
+Mandarin (Taiwanese),Male,25,早(一點),50,produces,0.08
+Mandarin (Taiwanese),Male,25,早(一點),50,understands,0
+Mandarin (Taiwanese),Female,26,早(一點),38,produces,0.1842
+Mandarin (Taiwanese),Female,26,早(一點),38,understands,0
+Mandarin (Taiwanese),Male,26,早(一點),49,produces,0.0816
+Mandarin (Taiwanese),Male,26,早(一點),49,understands,0
+Mandarin (Taiwanese),Female,27,早(一點),49,produces,0.102
+Mandarin (Taiwanese),Female,27,早(一點),49,understands,0
+Mandarin (Taiwanese),Male,27,早(一點),43,produces,0.1628
+Mandarin (Taiwanese),Male,27,早(一點),43,understands,0
+Mandarin (Taiwanese),Female,28,早(一點),50,produces,0.22
+Mandarin (Taiwanese),Female,28,早(一點),50,understands,0
+Mandarin (Taiwanese),Male,28,早(一點),50,produces,0.18
+Mandarin (Taiwanese),Male,28,早(一點),50,understands,0
+Mandarin (Taiwanese),Female,29,早(一點),41,produces,0.1951
+Mandarin (Taiwanese),Female,29,早(一點),41,understands,0
+Mandarin (Taiwanese),Male,29,早(一點),47,produces,0.1277
+Mandarin (Taiwanese),Male,29,早(一點),47,understands,0
+Mandarin (Taiwanese),Female,30,早(一點),44,produces,0.2955
+Mandarin (Taiwanese),Female,30,早(一點),44,understands,0
+Mandarin (Taiwanese),Male,30,早(一點),50,produces,0.24
+Mandarin (Taiwanese),Male,30,早(一點),50,understands,0
+Mandarin (Taiwanese),Female,31,早(一點),35,produces,0.4286
+Mandarin (Taiwanese),Female,31,早(一點),35,understands,0
+Mandarin (Taiwanese),Male,31,早(一點),53,produces,0.283
+Mandarin (Taiwanese),Male,31,早(一點),53,understands,0
+Mandarin (Taiwanese),Female,32,早(一點),43,produces,0.3488
+Mandarin (Taiwanese),Female,32,早(一點),43,understands,0
+Mandarin (Taiwanese),Male,32,早(一點),39,produces,0.2821
+Mandarin (Taiwanese),Male,32,早(一點),39,understands,0
+Mandarin (Taiwanese),Female,33,早(一點),45,produces,0.4889
+Mandarin (Taiwanese),Female,33,早(一點),45,understands,0
+Mandarin (Taiwanese),Male,33,早(一點),40,produces,0.45
+Mandarin (Taiwanese),Male,33,早(一點),40,understands,0
+Mandarin (Taiwanese),Female,34,早(一點),33,produces,0.5152
+Mandarin (Taiwanese),Female,34,早(一點),33,understands,0
+Mandarin (Taiwanese),Male,34,早(一點),44,produces,0.4545
+Mandarin (Taiwanese),Male,34,早(一點),44,understands,0
+Mandarin (Taiwanese),Female,35,早(一點),42,produces,0.5238
+Mandarin (Taiwanese),Female,35,早(一點),42,understands,0
+Mandarin (Taiwanese),Male,35,早(一點),39,produces,0.641
+Mandarin (Taiwanese),Male,35,早(一點),39,understands,0
+Mandarin (Taiwanese),Female,36,早(一點),38,produces,0.4211
+Mandarin (Taiwanese),Female,36,早(一點),38,understands,0
+Mandarin (Taiwanese),Male,36,早(一點),43,produces,0.3953
+Mandarin (Taiwanese),Male,36,早(一點),43,understands,0

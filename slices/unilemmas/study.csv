@@ -1,77 +1,229 @@
-language,age,words,n,measure,prop
-Korean,8,공부해,57,produces,0
-Korean,8,공부해,57,understands,0
-Korean,9,공부해,73,produces,0
-Korean,9,공부해,73,understands,0
-Korean,10,공부해,77,produces,0
-Korean,10,공부해,77,understands,0
-Korean,11,공부해,80,produces,0
-Korean,11,공부해,80,understands,0.0125
-Korean,12,공부해,74,produces,0
-Korean,12,공부해,74,understands,0.0135
-Korean,13,공부해,127,produces,0.0079
-Korean,13,공부해,127,understands,0.063
-Korean,14,공부해,87,produces,0.0115
-Korean,14,공부해,87,understands,0.046
-Korean,15,공부해,85,produces,0.0235
-Korean,15,공부해,85,understands,0.1176
-Korean,16,공부해,86,produces,0.0233
-Korean,16,공부해,86,understands,0.1279
-Korean,17,공부해,63,produces,0.0317
-Korean,17,공부해,63,understands,0.0476
-Korean,18,공부해,88,produces,0.0227
-Korean,18,공부해,88,understands,0
-Korean,19,공부해,77,produces,0.013
-Korean,19,공부해,77,understands,0
-Korean,20,공부해,88,produces,0.0341
-Korean,20,공부해,88,understands,0
-Korean,21,공부해,79,produces,0.0759
-Korean,21,공부해,79,understands,0
-Korean,22,공부해,87,produces,0.1264
-Korean,22,공부해,87,understands,0
-Korean,23,공부해,87,produces,0.092
-Korean,23,공부해,87,understands,0
-Korean,24,공부해,107,produces,0.215
-Korean,24,공부해,107,understands,0
-Korean,25,공부해,95,produces,0.4421
-Korean,25,공부해,95,understands,0
-Korean,26,공부해,91,produces,0.3187
-Korean,26,공부해,91,understands,0
-Korean,27,공부해,104,produces,0.3846
-Korean,27,공부해,104,understands,0
-Korean,28,공부해,89,produces,0.4831
-Korean,28,공부해,89,understands,0
-Korean,29,공부해,101,produces,0.495
-Korean,29,공부해,101,understands,0
-Korean,30,공부해,81,produces,0.5926
-Korean,30,공부해,81,understands,0
-Korean,31,공부해,79,produces,0.6582
-Korean,31,공부해,79,understands,0
-Korean,32,공부해,70,produces,0.6143
-Korean,32,공부해,70,understands,0
-Korean,33,공부해,79,produces,0.6456
-Korean,33,공부해,79,understands,0
-Korean,34,공부해,79,produces,0.7342
-Korean,34,공부해,79,understands,0
-Korean,35,공부해,74,produces,0.7973
-Korean,35,공부해,74,understands,0
-Korean,36,공부해,75,produces,0.8267
-Korean,36,공부해,75,understands,0
-Arabic (Saudi),8,أذاكر/ يذاكر,19,produces,0
-Arabic (Saudi),8,أذاكر/ يذاكر,19,understands,0
-Arabic (Saudi),9,أذاكر/ يذاكر,18,produces,0
-Arabic (Saudi),9,أذاكر/ يذاكر,18,understands,0
-Arabic (Saudi),10,أذاكر/ يذاكر,25,produces,0
-Arabic (Saudi),10,أذاكر/ يذاكر,25,understands,0
-Arabic (Saudi),11,أذاكر/ يذاكر,21,produces,0
-Arabic (Saudi),11,أذاكر/ يذاكر,21,understands,0
-Arabic (Saudi),12,أذاكر/ يذاكر,19,produces,0
-Arabic (Saudi),12,أذاكر/ يذاكر,19,understands,0
-Arabic (Saudi),13,أذاكر/ يذاكر,36,produces,0
-Arabic (Saudi),13,أذاكر/ يذاكر,36,understands,0
-Arabic (Saudi),14,أذاكر/ يذاكر,20,produces,0
-Arabic (Saudi),14,أذاكر/ يذاكر,20,understands,0
-Arabic (Saudi),15,أذاكر/ يذاكر,19,produces,0
-Arabic (Saudi),15,أذاكر/ يذاكر,19,understands,0
-Arabic (Saudi),16,أذاكر/ يذاكر,18,produces,0.0556
-Arabic (Saudi),16,أذاكر/ يذاكر,18,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,أذاكر/ يذاكر,19,produces,0
+Arabic (Saudi),All,8,أذاكر/ يذاكر,19,understands,0
+Arabic (Saudi),All,9,أذاكر/ يذاكر,18,produces,0
+Arabic (Saudi),All,9,أذاكر/ يذاكر,18,understands,0
+Arabic (Saudi),All,10,أذاكر/ يذاكر,25,produces,0
+Arabic (Saudi),All,10,أذاكر/ يذاكر,25,understands,0
+Arabic (Saudi),All,11,أذاكر/ يذاكر,21,produces,0
+Arabic (Saudi),All,11,أذاكر/ يذاكر,21,understands,0
+Arabic (Saudi),All,12,أذاكر/ يذاكر,19,produces,0
+Arabic (Saudi),All,12,أذاكر/ يذاكر,19,understands,0
+Arabic (Saudi),All,13,أذاكر/ يذاكر,36,produces,0
+Arabic (Saudi),All,13,أذاكر/ يذاكر,36,understands,0
+Arabic (Saudi),All,14,أذاكر/ يذاكر,20,produces,0
+Arabic (Saudi),All,14,أذاكر/ يذاكر,20,understands,0
+Arabic (Saudi),All,15,أذاكر/ يذاكر,19,produces,0
+Arabic (Saudi),All,15,أذاكر/ يذاكر,19,understands,0
+Arabic (Saudi),All,16,أذاكر/ يذاكر,18,produces,0.0556
+Arabic (Saudi),All,16,أذاكر/ يذاكر,18,understands,0
+Korean,All,8,공부해,57,produces,0
+Korean,All,8,공부해,57,understands,0
+Korean,All,9,공부해,73,produces,0
+Korean,All,9,공부해,73,understands,0
+Korean,All,10,공부해,77,produces,0
+Korean,All,10,공부해,77,understands,0
+Korean,All,11,공부해,80,produces,0
+Korean,All,11,공부해,80,understands,0.0125
+Korean,All,12,공부해,74,produces,0
+Korean,All,12,공부해,74,understands,0.0135
+Korean,All,13,공부해,127,produces,0.0079
+Korean,All,13,공부해,127,understands,0.063
+Korean,All,14,공부해,87,produces,0.0115
+Korean,All,14,공부해,87,understands,0.046
+Korean,All,15,공부해,85,produces,0.0235
+Korean,All,15,공부해,85,understands,0.1176
+Korean,All,16,공부해,86,produces,0.0233
+Korean,All,16,공부해,86,understands,0.1279
+Korean,All,17,공부해,63,produces,0.0317
+Korean,All,17,공부해,63,understands,0.0476
+Korean,All,18,공부해,88,produces,0.0227
+Korean,All,18,공부해,88,understands,0
+Korean,All,19,공부해,77,produces,0.013
+Korean,All,19,공부해,77,understands,0
+Korean,All,20,공부해,88,produces,0.0341
+Korean,All,20,공부해,88,understands,0
+Korean,All,21,공부해,79,produces,0.0759
+Korean,All,21,공부해,79,understands,0
+Korean,All,22,공부해,87,produces,0.1264
+Korean,All,22,공부해,87,understands,0
+Korean,All,23,공부해,87,produces,0.092
+Korean,All,23,공부해,87,understands,0
+Korean,All,24,공부해,107,produces,0.215
+Korean,All,24,공부해,107,understands,0
+Korean,All,25,공부해,95,produces,0.4421
+Korean,All,25,공부해,95,understands,0
+Korean,All,26,공부해,91,produces,0.3187
+Korean,All,26,공부해,91,understands,0
+Korean,All,27,공부해,104,produces,0.3846
+Korean,All,27,공부해,104,understands,0
+Korean,All,28,공부해,89,produces,0.4831
+Korean,All,28,공부해,89,understands,0
+Korean,All,29,공부해,101,produces,0.495
+Korean,All,29,공부해,101,understands,0
+Korean,All,30,공부해,81,produces,0.5926
+Korean,All,30,공부해,81,understands,0
+Korean,All,31,공부해,79,produces,0.6582
+Korean,All,31,공부해,79,understands,0
+Korean,All,32,공부해,70,produces,0.6143
+Korean,All,32,공부해,70,understands,0
+Korean,All,33,공부해,79,produces,0.6456
+Korean,All,33,공부해,79,understands,0
+Korean,All,34,공부해,79,produces,0.7342
+Korean,All,34,공부해,79,understands,0
+Korean,All,35,공부해,74,produces,0.7973
+Korean,All,35,공부해,74,understands,0
+Korean,All,36,공부해,75,produces,0.8267
+Korean,All,36,공부해,75,understands,0
+Arabic (Saudi),Female,8,أذاكر/ يذاكر,9,produces,0
+Arabic (Saudi),Female,8,أذاكر/ يذاكر,9,understands,0
+Arabic (Saudi),Male,8,أذاكر/ يذاكر,10,produces,0
+Arabic (Saudi),Male,8,أذاكر/ يذاكر,10,understands,0
+Arabic (Saudi),Female,9,أذاكر/ يذاكر,10,produces,0
+Arabic (Saudi),Female,9,أذاكر/ يذاكر,10,understands,0
+Arabic (Saudi),Male,9,أذاكر/ يذاكر,8,produces,0
+Arabic (Saudi),Male,9,أذاكر/ يذاكر,8,understands,0
+Arabic (Saudi),Female,10,أذاكر/ يذاكر,11,produces,0
+Arabic (Saudi),Female,10,أذاكر/ يذاكر,11,understands,0
+Arabic (Saudi),Male,10,أذاكر/ يذاكر,14,produces,0
+Arabic (Saudi),Male,10,أذاكر/ يذاكر,14,understands,0
+Arabic (Saudi),Female,11,أذاكر/ يذاكر,9,produces,0
+Arabic (Saudi),Female,11,أذاكر/ يذاكر,9,understands,0
+Arabic (Saudi),Male,11,أذاكر/ يذاكر,12,produces,0
+Arabic (Saudi),Male,11,أذاكر/ يذاكر,12,understands,0
+Arabic (Saudi),Female,12,أذاكر/ يذاكر,8,produces,0
+Arabic (Saudi),Female,12,أذاكر/ يذاكر,8,understands,0
+Arabic (Saudi),Male,12,أذاكر/ يذاكر,11,produces,0
+Arabic (Saudi),Male,12,أذاكر/ يذاكر,11,understands,0
+Arabic (Saudi),Female,13,أذاكر/ يذاكر,16,produces,0
+Arabic (Saudi),Female,13,أذاكر/ يذاكر,16,understands,0
+Arabic (Saudi),Male,13,أذاكر/ يذاكر,20,produces,0
+Arabic (Saudi),Male,13,أذاكر/ يذاكر,20,understands,0
+Arabic (Saudi),Female,14,أذاكر/ يذاكر,10,produces,0
+Arabic (Saudi),Female,14,أذاكر/ يذاكر,10,understands,0
+Arabic (Saudi),Male,14,أذاكر/ يذاكر,10,produces,0
+Arabic (Saudi),Male,14,أذاكر/ يذاكر,10,understands,0
+Arabic (Saudi),Female,15,أذاكر/ يذاكر,7,produces,0
+Arabic (Saudi),Female,15,أذاكر/ يذاكر,7,understands,0
+Arabic (Saudi),Male,15,أذاكر/ يذاكر,12,produces,0
+Arabic (Saudi),Male,15,أذاكر/ يذاكر,12,understands,0
+Arabic (Saudi),Female,16,أذاكر/ يذاكر,9,produces,0
+Arabic (Saudi),Female,16,أذاكر/ يذاكر,9,understands,0
+Arabic (Saudi),Male,16,أذاكر/ يذاكر,9,produces,0.1111
+Arabic (Saudi),Male,16,أذاكر/ يذاكر,9,understands,0
+Korean,Female,8,공부해,38,produces,0
+Korean,Female,8,공부해,38,understands,0
+Korean,Male,8,공부해,19,produces,0
+Korean,Male,8,공부해,19,understands,0
+Korean,Female,9,공부해,37,produces,0
+Korean,Female,9,공부해,37,understands,0
+Korean,Male,9,공부해,36,produces,0
+Korean,Male,9,공부해,36,understands,0
+Korean,Female,10,공부해,34,produces,0
+Korean,Female,10,공부해,34,understands,0
+Korean,Male,10,공부해,43,produces,0
+Korean,Male,10,공부해,43,understands,0
+Korean,Female,11,공부해,42,produces,0
+Korean,Female,11,공부해,42,understands,0.0238
+Korean,Male,11,공부해,38,produces,0
+Korean,Male,11,공부해,38,understands,0
+Korean,Female,12,공부해,40,produces,0
+Korean,Female,12,공부해,40,understands,0
+Korean,Male,12,공부해,34,produces,0
+Korean,Male,12,공부해,34,understands,0.0294
+Korean,Female,13,공부해,62,produces,0
+Korean,Female,13,공부해,62,understands,0.0323
+Korean,Male,13,공부해,65,produces,0.0154
+Korean,Male,13,공부해,65,understands,0.0923
+Korean,Female,14,공부해,47,produces,0.0213
+Korean,Female,14,공부해,47,understands,0.0638
+Korean,Male,14,공부해,40,produces,0
+Korean,Male,14,공부해,40,understands,0.025
+Korean,Female,15,공부해,47,produces,0.0426
+Korean,Female,15,공부해,47,understands,0.1489
+Korean,Male,15,공부해,38,produces,0
+Korean,Male,15,공부해,38,understands,0.0789
+Korean,Female,16,공부해,41,produces,0.0244
+Korean,Female,16,공부해,41,understands,0.122
+Korean,Male,16,공부해,45,produces,0.0222
+Korean,Male,16,공부해,45,understands,0.1333
+Korean,Female,17,공부해,34,produces,0.0294
+Korean,Female,17,공부해,34,understands,0.0294
+Korean,Male,17,공부해,29,produces,0.0345
+Korean,Male,17,공부해,29,understands,0.069
+Korean,Female,18,공부해,51,produces,0.0392
+Korean,Female,18,공부해,51,understands,0
+Korean,Male,18,공부해,37,produces,0
+Korean,Male,18,공부해,37,understands,0
+Korean,Female,19,공부해,39,produces,0.0256
+Korean,Female,19,공부해,39,understands,0
+Korean,Male,19,공부해,38,produces,0
+Korean,Male,19,공부해,38,understands,0
+Korean,Female,20,공부해,47,produces,0.0426
+Korean,Female,20,공부해,47,understands,0
+Korean,Male,20,공부해,41,produces,0.0244
+Korean,Male,20,공부해,41,understands,0
+Korean,Female,21,공부해,38,produces,0.1316
+Korean,Female,21,공부해,38,understands,0
+Korean,Male,21,공부해,41,produces,0.0244
+Korean,Male,21,공부해,41,understands,0
+Korean,Female,22,공부해,42,produces,0.1667
+Korean,Female,22,공부해,42,understands,0
+Korean,Male,22,공부해,45,produces,0.0889
+Korean,Male,22,공부해,45,understands,0
+Korean,Female,23,공부해,42,produces,0.1667
+Korean,Female,23,공부해,42,understands,0
+Korean,Male,23,공부해,45,produces,0.0222
+Korean,Male,23,공부해,45,understands,0
+Korean,Female,24,공부해,46,produces,0.2609
+Korean,Female,24,공부해,46,understands,0
+Korean,Male,24,공부해,61,produces,0.1803
+Korean,Male,24,공부해,61,understands,0
+Korean,Female,25,공부해,46,produces,0.6087
+Korean,Female,25,공부해,46,understands,0
+Korean,Male,25,공부해,49,produces,0.2857
+Korean,Male,25,공부해,49,understands,0
+Korean,Female,26,공부해,42,produces,0.4524
+Korean,Female,26,공부해,42,understands,0
+Korean,Male,26,공부해,49,produces,0.2041
+Korean,Male,26,공부해,49,understands,0
+Korean,Female,27,공부해,46,produces,0.4783
+Korean,Female,27,공부해,46,understands,0
+Korean,Male,27,공부해,58,produces,0.3103
+Korean,Male,27,공부해,58,understands,0
+Korean,Female,28,공부해,49,produces,0.5306
+Korean,Female,28,공부해,49,understands,0
+Korean,Male,28,공부해,40,produces,0.425
+Korean,Male,28,공부해,40,understands,0
+Korean,Female,29,공부해,49,produces,0.5714
+Korean,Female,29,공부해,49,understands,0
+Korean,Male,29,공부해,51,produces,0.4314
+Korean,Male,29,공부해,51,understands,0
+Korean,Female,30,공부해,34,produces,0.5882
+Korean,Female,30,공부해,34,understands,0
+Korean,Male,30,공부해,47,produces,0.5957
+Korean,Male,30,공부해,47,understands,0
+Korean,Female,31,공부해,31,produces,0.6452
+Korean,Female,31,공부해,31,understands,0
+Korean,Male,31,공부해,48,produces,0.6667
+Korean,Male,31,공부해,48,understands,0
+Korean,Female,32,공부해,33,produces,0.7576
+Korean,Female,32,공부해,33,understands,0
+Korean,Male,32,공부해,36,produces,0.5
+Korean,Male,32,공부해,36,understands,0
+Korean,Female,33,공부해,36,produces,0.6667
+Korean,Female,33,공부해,36,understands,0
+Korean,Male,33,공부해,43,produces,0.6279
+Korean,Male,33,공부해,43,understands,0
+Korean,Female,34,공부해,41,produces,0.7805
+Korean,Female,34,공부해,41,understands,0
+Korean,Male,34,공부해,38,produces,0.6842
+Korean,Male,34,공부해,38,understands,0
+Korean,Female,35,공부해,37,produces,0.8649
+Korean,Female,35,공부해,37,understands,0
+Korean,Male,35,공부해,37,produces,0.7297
+Korean,Male,35,공부해,37,understands,0
+Korean,Female,36,공부해,40,produces,0.9
+Korean,Female,36,공부해,40,understands,0
+Korean,Male,36,공부해,35,produces,0.7429
+Korean,Male,36,공부해,35,understands,0

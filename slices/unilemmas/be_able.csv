@@ -1,63 +1,185 @@
-language,age,words,n,measure,prop
-Dutch,16,kunnen,4,produces,0
-Dutch,16,kunnen,4,understands,0
-Dutch,17,kunnen,135,produces,0.0074
-Dutch,17,kunnen,135,understands,0.1481
-Dutch,18,kunnen,162,produces,0.0062
-Dutch,18,kunnen,162,understands,0.0864
-Dutch,19,kunnen,8,produces,0
-Dutch,19,kunnen,8,understands,0
-Dutch,20,kunnen,7,produces,0
-Dutch,20,kunnen,7,understands,0
-Dutch,21,kunnen,7,produces,0
-Dutch,21,kunnen,7,understands,0
-Dutch,22,kunnen,7,produces,0.2857
-Dutch,22,kunnen,7,understands,0
-Dutch,23,kunnen,52,produces,0.0385
-Dutch,23,kunnen,52,understands,0
-Dutch,24,kunnen,190,produces,0.2158
-Dutch,24,kunnen,190,understands,0.4632
-Dutch,25,kunnen,11,produces,0.2727
-Dutch,25,kunnen,11,understands,0.1818
-Dutch,26,kunnen,6,produces,0.1667
-Dutch,26,kunnen,6,understands,0
-Dutch,27,kunnen,5,produces,0.2
-Dutch,27,kunnen,5,understands,0
-Dutch,28,kunnen,6,produces,0.6667
-Dutch,28,kunnen,6,understands,0
-Dutch,29,kunnen,23,produces,0.6087
-Dutch,29,kunnen,23,understands,0
-Dutch,30,kunnen,51,produces,0.7059
-Dutch,30,kunnen,51,understands,0.451
-Dutch,31,kunnen,3,produces,1
-Dutch,31,kunnen,3,understands,0.3333
-Hungarian,16,tud (valamit csinálni),21,produces,0
-Hungarian,16,tud (valamit csinálni),21,understands,0
-Hungarian,17,tud (valamit csinálni),18,produces,0.1667
-Hungarian,17,tud (valamit csinálni),18,understands,0
-Hungarian,18,tud (valamit csinálni),18,produces,0
-Hungarian,18,tud (valamit csinálni),18,understands,0
-Hungarian,19,tud (valamit csinálni),26,produces,0.2308
-Hungarian,19,tud (valamit csinálni),26,understands,0
-Hungarian,20,tud (valamit csinálni),18,produces,0.0556
-Hungarian,20,tud (valamit csinálni),18,understands,0
-Hungarian,21,tud (valamit csinálni),36,produces,0.2222
-Hungarian,21,tud (valamit csinálni),36,understands,0
-Hungarian,22,tud (valamit csinálni),27,produces,0.1852
-Hungarian,22,tud (valamit csinálni),27,understands,0
-Hungarian,23,tud (valamit csinálni),18,produces,0.2222
-Hungarian,23,tud (valamit csinálni),18,understands,0
-Hungarian,24,tud (valamit csinálni),38,produces,0.2368
-Hungarian,24,tud (valamit csinálni),38,understands,0
-Hungarian,25,tud (valamit csinálni),43,produces,0.4884
-Hungarian,25,tud (valamit csinálni),43,understands,0
-Hungarian,26,tud (valamit csinálni),23,produces,0.3913
-Hungarian,26,tud (valamit csinálni),23,understands,0
-Hungarian,27,tud (valamit csinálni),26,produces,0.5
-Hungarian,27,tud (valamit csinálni),26,understands,0
-Hungarian,28,tud (valamit csinálni),30,produces,0.6
-Hungarian,28,tud (valamit csinálni),30,understands,0
-Hungarian,29,tud (valamit csinálni),12,produces,0.5
-Hungarian,29,tud (valamit csinálni),12,understands,0
-Hungarian,30,tud (valamit csinálni),18,produces,0.6667
-Hungarian,30,tud (valamit csinálni),18,understands,0
+language,sex,age,words,n,measure,prop
+Dutch,All,16,kunnen,4,produces,0
+Dutch,All,16,kunnen,4,understands,0
+Dutch,All,17,kunnen,135,produces,0.0074
+Dutch,All,17,kunnen,135,understands,0.1481
+Dutch,All,18,kunnen,162,produces,0.0062
+Dutch,All,18,kunnen,162,understands,0.0864
+Dutch,All,19,kunnen,8,produces,0
+Dutch,All,19,kunnen,8,understands,0
+Dutch,All,20,kunnen,7,produces,0
+Dutch,All,20,kunnen,7,understands,0
+Dutch,All,21,kunnen,7,produces,0
+Dutch,All,21,kunnen,7,understands,0
+Dutch,All,22,kunnen,7,produces,0.2857
+Dutch,All,22,kunnen,7,understands,0
+Dutch,All,23,kunnen,52,produces,0.0385
+Dutch,All,23,kunnen,52,understands,0
+Dutch,All,24,kunnen,190,produces,0.2158
+Dutch,All,24,kunnen,190,understands,0.4632
+Dutch,All,25,kunnen,11,produces,0.2727
+Dutch,All,25,kunnen,11,understands,0.1818
+Dutch,All,26,kunnen,6,produces,0.1667
+Dutch,All,26,kunnen,6,understands,0
+Dutch,All,27,kunnen,5,produces,0.2
+Dutch,All,27,kunnen,5,understands,0
+Dutch,All,28,kunnen,6,produces,0.6667
+Dutch,All,28,kunnen,6,understands,0
+Dutch,All,29,kunnen,23,produces,0.6087
+Dutch,All,29,kunnen,23,understands,0
+Dutch,All,30,kunnen,51,produces,0.7059
+Dutch,All,30,kunnen,51,understands,0.451
+Dutch,All,31,kunnen,3,produces,1
+Dutch,All,31,kunnen,3,understands,0.3333
+Hungarian,All,16,tud (valamit csinálni),21,produces,0
+Hungarian,All,16,tud (valamit csinálni),21,understands,0
+Hungarian,All,17,tud (valamit csinálni),18,produces,0.1667
+Hungarian,All,17,tud (valamit csinálni),18,understands,0
+Hungarian,All,18,tud (valamit csinálni),18,produces,0
+Hungarian,All,18,tud (valamit csinálni),18,understands,0
+Hungarian,All,19,tud (valamit csinálni),26,produces,0.2308
+Hungarian,All,19,tud (valamit csinálni),26,understands,0
+Hungarian,All,20,tud (valamit csinálni),18,produces,0.0556
+Hungarian,All,20,tud (valamit csinálni),18,understands,0
+Hungarian,All,21,tud (valamit csinálni),36,produces,0.2222
+Hungarian,All,21,tud (valamit csinálni),36,understands,0
+Hungarian,All,22,tud (valamit csinálni),27,produces,0.1852
+Hungarian,All,22,tud (valamit csinálni),27,understands,0
+Hungarian,All,23,tud (valamit csinálni),18,produces,0.2222
+Hungarian,All,23,tud (valamit csinálni),18,understands,0
+Hungarian,All,24,tud (valamit csinálni),38,produces,0.2368
+Hungarian,All,24,tud (valamit csinálni),38,understands,0
+Hungarian,All,25,tud (valamit csinálni),43,produces,0.4884
+Hungarian,All,25,tud (valamit csinálni),43,understands,0
+Hungarian,All,26,tud (valamit csinálni),23,produces,0.3913
+Hungarian,All,26,tud (valamit csinálni),23,understands,0
+Hungarian,All,27,tud (valamit csinálni),26,produces,0.5
+Hungarian,All,27,tud (valamit csinálni),26,understands,0
+Hungarian,All,28,tud (valamit csinálni),30,produces,0.6
+Hungarian,All,28,tud (valamit csinálni),30,understands,0
+Hungarian,All,29,tud (valamit csinálni),12,produces,0.5
+Hungarian,All,29,tud (valamit csinálni),12,understands,0
+Hungarian,All,30,tud (valamit csinálni),18,produces,0.6667
+Hungarian,All,30,tud (valamit csinálni),18,understands,0
+Dutch,Female,16,kunnen,4,produces,0
+Dutch,Female,16,kunnen,4,understands,0
+Dutch,Female,17,kunnen,51,produces,0
+Dutch,Female,17,kunnen,51,understands,0.0392
+Dutch,Male,17,kunnen,37,produces,0
+Dutch,Male,17,kunnen,37,understands,0.027
+Dutch,Female,18,kunnen,66,produces,0.0152
+Dutch,Female,18,kunnen,66,understands,0.0303
+Dutch,Male,18,kunnen,70,produces,0
+Dutch,Male,18,kunnen,70,understands,0.0429
+Dutch,Female,19,kunnen,6,produces,0
+Dutch,Female,19,kunnen,6,understands,0
+Dutch,Male,19,kunnen,2,produces,0
+Dutch,Male,19,kunnen,2,understands,0
+Dutch,Female,20,kunnen,6,produces,0
+Dutch,Female,20,kunnen,6,understands,0
+Dutch,Male,20,kunnen,1,produces,0
+Dutch,Male,20,kunnen,1,understands,0
+Dutch,Female,21,kunnen,3,produces,0
+Dutch,Female,21,kunnen,3,understands,0
+Dutch,Male,21,kunnen,4,produces,0
+Dutch,Male,21,kunnen,4,understands,0
+Dutch,Female,22,kunnen,1,produces,1
+Dutch,Female,22,kunnen,1,understands,0
+Dutch,Male,22,kunnen,6,produces,0.1667
+Dutch,Male,22,kunnen,6,understands,0
+Dutch,Female,23,kunnen,26,produces,0.0385
+Dutch,Female,23,kunnen,26,understands,0
+Dutch,Male,23,kunnen,26,produces,0.0385
+Dutch,Male,23,kunnen,26,understands,0
+Dutch,Female,24,kunnen,90,produces,0.2333
+Dutch,Female,24,kunnen,90,understands,0.4889
+Dutch,Male,24,kunnen,100,produces,0.2
+Dutch,Male,24,kunnen,100,understands,0.44
+Dutch,Female,25,kunnen,7,produces,0.1429
+Dutch,Female,25,kunnen,7,understands,0
+Dutch,Male,25,kunnen,4,produces,0.5
+Dutch,Male,25,kunnen,4,understands,0.5
+Dutch,Female,26,kunnen,1,produces,0
+Dutch,Female,26,kunnen,1,understands,0
+Dutch,Male,26,kunnen,5,produces,0.2
+Dutch,Male,26,kunnen,5,understands,0
+Dutch,Female,27,kunnen,3,produces,0.3333
+Dutch,Female,27,kunnen,3,understands,0
+Dutch,Male,27,kunnen,1,produces,0
+Dutch,Male,27,kunnen,1,understands,0
+Dutch,Female,28,kunnen,5,produces,0.8
+Dutch,Female,28,kunnen,5,understands,0
+Dutch,Male,28,kunnen,1,produces,0
+Dutch,Male,28,kunnen,1,understands,0
+Dutch,Female,29,kunnen,12,produces,0.5833
+Dutch,Female,29,kunnen,12,understands,0
+Dutch,Male,29,kunnen,11,produces,0.6364
+Dutch,Male,29,kunnen,11,understands,0
+Dutch,Female,30,kunnen,27,produces,0.7037
+Dutch,Female,30,kunnen,27,understands,0.3704
+Dutch,Male,30,kunnen,24,produces,0.7083
+Dutch,Male,30,kunnen,24,understands,0.5417
+Dutch,Female,31,kunnen,2,produces,1
+Dutch,Female,31,kunnen,2,understands,0.5
+Dutch,Male,31,kunnen,1,produces,1
+Dutch,Male,31,kunnen,1,understands,0
+Hungarian,Female,16,tud (valamit csinálni),11,produces,0
+Hungarian,Female,16,tud (valamit csinálni),11,understands,0
+Hungarian,Male,16,tud (valamit csinálni),10,produces,0
+Hungarian,Male,16,tud (valamit csinálni),10,understands,0
+Hungarian,Female,17,tud (valamit csinálni),11,produces,0.2727
+Hungarian,Female,17,tud (valamit csinálni),11,understands,0
+Hungarian,Male,17,tud (valamit csinálni),7,produces,0
+Hungarian,Male,17,tud (valamit csinálni),7,understands,0
+Hungarian,Female,18,tud (valamit csinálni),9,produces,0
+Hungarian,Female,18,tud (valamit csinálni),9,understands,0
+Hungarian,Male,18,tud (valamit csinálni),9,produces,0
+Hungarian,Male,18,tud (valamit csinálni),9,understands,0
+Hungarian,Female,19,tud (valamit csinálni),13,produces,0.2308
+Hungarian,Female,19,tud (valamit csinálni),13,understands,0
+Hungarian,Male,19,tud (valamit csinálni),12,produces,0.25
+Hungarian,Male,19,tud (valamit csinálni),12,understands,0
+Hungarian,Female,20,tud (valamit csinálni),12,produces,0.0833
+Hungarian,Female,20,tud (valamit csinálni),12,understands,0
+Hungarian,Male,20,tud (valamit csinálni),6,produces,0
+Hungarian,Male,20,tud (valamit csinálni),6,understands,0
+Hungarian,Female,21,tud (valamit csinálni),16,produces,0.1875
+Hungarian,Female,21,tud (valamit csinálni),16,understands,0
+Hungarian,Male,21,tud (valamit csinálni),20,produces,0.25
+Hungarian,Male,21,tud (valamit csinálni),20,understands,0
+Hungarian,Female,22,tud (valamit csinálni),14,produces,0.2143
+Hungarian,Female,22,tud (valamit csinálni),14,understands,0
+Hungarian,Male,22,tud (valamit csinálni),13,produces,0.1538
+Hungarian,Male,22,tud (valamit csinálni),13,understands,0
+Hungarian,Female,23,tud (valamit csinálni),6,produces,0
+Hungarian,Female,23,tud (valamit csinálni),6,understands,0
+Hungarian,Male,23,tud (valamit csinálni),12,produces,0.3333
+Hungarian,Male,23,tud (valamit csinálni),12,understands,0
+Hungarian,Female,24,tud (valamit csinálni),14,produces,0.2857
+Hungarian,Female,24,tud (valamit csinálni),14,understands,0
+Hungarian,Male,24,tud (valamit csinálni),24,produces,0.2083
+Hungarian,Male,24,tud (valamit csinálni),24,understands,0
+Hungarian,Female,25,tud (valamit csinálni),17,produces,0.4706
+Hungarian,Female,25,tud (valamit csinálni),17,understands,0
+Hungarian,Male,25,tud (valamit csinálni),25,produces,0.48
+Hungarian,Male,25,tud (valamit csinálni),25,understands,0
+Hungarian,Female,26,tud (valamit csinálni),9,produces,0.3333
+Hungarian,Female,26,tud (valamit csinálni),9,understands,0
+Hungarian,Male,26,tud (valamit csinálni),14,produces,0.4286
+Hungarian,Male,26,tud (valamit csinálni),14,understands,0
+Hungarian,Female,27,tud (valamit csinálni),13,produces,0.5385
+Hungarian,Female,27,tud (valamit csinálni),13,understands,0
+Hungarian,Male,27,tud (valamit csinálni),13,produces,0.4615
+Hungarian,Male,27,tud (valamit csinálni),13,understands,0
+Hungarian,Female,28,tud (valamit csinálni),11,produces,0.7273
+Hungarian,Female,28,tud (valamit csinálni),11,understands,0
+Hungarian,Male,28,tud (valamit csinálni),18,produces,0.5
+Hungarian,Male,28,tud (valamit csinálni),18,understands,0
+Hungarian,Female,29,tud (valamit csinálni),8,produces,0.625
+Hungarian,Female,29,tud (valamit csinálni),8,understands,0
+Hungarian,Male,29,tud (valamit csinálni),4,produces,0.25
+Hungarian,Male,29,tud (valamit csinálni),4,understands,0
+Hungarian,Female,30,tud (valamit csinálni),3,produces,0.6667
+Hungarian,Female,30,tud (valamit csinálni),3,understands,0
+Hungarian,Male,30,tud (valamit csinálni),15,produces,0.6667
+Hungarian,Male,30,tud (valamit csinálni),15,understands,0

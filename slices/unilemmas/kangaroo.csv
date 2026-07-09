@@ -1,61 +1,181 @@
-language,age,words,n,measure,prop
-Russian,8,кенгуру,59,produces,0
-Russian,8,кенгуру,59,understands,0.0169
-Russian,9,кенгуру,42,produces,0
-Russian,9,кенгуру,42,understands,0
-Russian,10,кенгуру,63,produces,0
-Russian,10,кенгуру,63,understands,0
-Russian,11,кенгуру,71,produces,0
-Russian,11,кенгуру,71,understands,0
-Russian,12,кенгуру,76,produces,0
-Russian,12,кенгуру,76,understands,0.0395
-Russian,13,кенгуру,73,produces,0
-Russian,13,кенгуру,73,understands,0.1233
-Russian,14,кенгуру,79,produces,0
-Russian,14,кенгуру,79,understands,0.1013
-Russian,15,кенгуру,81,produces,0.0123
-Russian,15,кенгуру,81,understands,0.1481
-Russian,16,кенгуру,81,produces,0
-Russian,16,кенгуру,81,understands,0.1358
-Russian,17,кенгуру,80,produces,0
-Russian,17,кенгуру,80,understands,0.175
-Russian,18,кенгуру,63,produces,0
-Russian,18,кенгуру,63,understands,0.2381
-English (Australian),12,kangaroo/roo,71,produces,0
-English (Australian),12,kangaroo/roo,71,understands,0
-English (Australian),13,kangaroo/roo,64,produces,0
-English (Australian),13,kangaroo/roo,64,understands,0
-English (Australian),14,kangaroo/roo,111,produces,0.027
-English (Australian),14,kangaroo/roo,111,understands,0
-English (Australian),15,kangaroo/roo,69,produces,0.029
-English (Australian),15,kangaroo/roo,69,understands,0
-English (Australian),16,kangaroo/roo,60,produces,0.0333
-English (Australian),16,kangaroo/roo,60,understands,0
-English (Australian),17,kangaroo/roo,104,produces,0.0673
-English (Australian),17,kangaroo/roo,104,understands,0
-English (Australian),18,kangaroo/roo,109,produces,0.0826
-English (Australian),18,kangaroo/roo,109,understands,0
-English (Australian),19,kangaroo/roo,124,produces,0.1613
-English (Australian),19,kangaroo/roo,124,understands,0
-English (Australian),20,kangaroo/roo,78,produces,0.2692
-English (Australian),20,kangaroo/roo,78,understands,0
-English (Australian),21,kangaroo/roo,68,produces,0.3088
-English (Australian),21,kangaroo/roo,68,understands,0
-English (Australian),22,kangaroo/roo,73,produces,0.4247
-English (Australian),22,kangaroo/roo,73,understands,0
-English (Australian),23,kangaroo/roo,71,produces,0.507
-English (Australian),23,kangaroo/roo,71,understands,0
-English (Australian),24,kangaroo/roo,76,produces,0.5263
-English (Australian),24,kangaroo/roo,76,understands,0
-English (Australian),25,kangaroo/roo,85,produces,0.6235
-English (Australian),25,kangaroo/roo,85,understands,0
-English (Australian),26,kangaroo/roo,77,produces,0.6883
-English (Australian),26,kangaroo/roo,77,understands,0
-English (Australian),27,kangaroo/roo,72,produces,0.8056
-English (Australian),27,kangaroo/roo,72,understands,0
-English (Australian),28,kangaroo/roo,67,produces,0.7463
-English (Australian),28,kangaroo/roo,67,understands,0
-English (Australian),29,kangaroo/roo,65,produces,0.6769
-English (Australian),29,kangaroo/roo,65,understands,0
-English (Australian),30,kangaroo/roo,53,produces,0.8302
-English (Australian),30,kangaroo/roo,53,understands,0
+language,sex,age,words,n,measure,prop
+English (Australian),All,12,kangaroo/roo,71,produces,0
+English (Australian),All,12,kangaroo/roo,71,understands,0
+English (Australian),All,13,kangaroo/roo,64,produces,0
+English (Australian),All,13,kangaroo/roo,64,understands,0
+English (Australian),All,14,kangaroo/roo,111,produces,0.027
+English (Australian),All,14,kangaroo/roo,111,understands,0
+English (Australian),All,15,kangaroo/roo,69,produces,0.029
+English (Australian),All,15,kangaroo/roo,69,understands,0
+English (Australian),All,16,kangaroo/roo,60,produces,0.0333
+English (Australian),All,16,kangaroo/roo,60,understands,0
+English (Australian),All,17,kangaroo/roo,104,produces,0.0673
+English (Australian),All,17,kangaroo/roo,104,understands,0
+English (Australian),All,18,kangaroo/roo,109,produces,0.0826
+English (Australian),All,18,kangaroo/roo,109,understands,0
+English (Australian),All,19,kangaroo/roo,124,produces,0.1613
+English (Australian),All,19,kangaroo/roo,124,understands,0
+English (Australian),All,20,kangaroo/roo,78,produces,0.2692
+English (Australian),All,20,kangaroo/roo,78,understands,0
+English (Australian),All,21,kangaroo/roo,68,produces,0.3088
+English (Australian),All,21,kangaroo/roo,68,understands,0
+English (Australian),All,22,kangaroo/roo,73,produces,0.4247
+English (Australian),All,22,kangaroo/roo,73,understands,0
+English (Australian),All,23,kangaroo/roo,71,produces,0.507
+English (Australian),All,23,kangaroo/roo,71,understands,0
+English (Australian),All,24,kangaroo/roo,76,produces,0.5263
+English (Australian),All,24,kangaroo/roo,76,understands,0
+English (Australian),All,25,kangaroo/roo,85,produces,0.6235
+English (Australian),All,25,kangaroo/roo,85,understands,0
+English (Australian),All,26,kangaroo/roo,77,produces,0.6883
+English (Australian),All,26,kangaroo/roo,77,understands,0
+English (Australian),All,27,kangaroo/roo,72,produces,0.8056
+English (Australian),All,27,kangaroo/roo,72,understands,0
+English (Australian),All,28,kangaroo/roo,67,produces,0.7463
+English (Australian),All,28,kangaroo/roo,67,understands,0
+English (Australian),All,29,kangaroo/roo,65,produces,0.6769
+English (Australian),All,29,kangaroo/roo,65,understands,0
+English (Australian),All,30,kangaroo/roo,53,produces,0.8302
+English (Australian),All,30,kangaroo/roo,53,understands,0
+Russian,All,8,кенгуру,59,produces,0
+Russian,All,8,кенгуру,59,understands,0.0169
+Russian,All,9,кенгуру,42,produces,0
+Russian,All,9,кенгуру,42,understands,0
+Russian,All,10,кенгуру,63,produces,0
+Russian,All,10,кенгуру,63,understands,0
+Russian,All,11,кенгуру,71,produces,0
+Russian,All,11,кенгуру,71,understands,0
+Russian,All,12,кенгуру,76,produces,0
+Russian,All,12,кенгуру,76,understands,0.0395
+Russian,All,13,кенгуру,73,produces,0
+Russian,All,13,кенгуру,73,understands,0.1233
+Russian,All,14,кенгуру,79,produces,0
+Russian,All,14,кенгуру,79,understands,0.1013
+Russian,All,15,кенгуру,81,produces,0.0123
+Russian,All,15,кенгуру,81,understands,0.1481
+Russian,All,16,кенгуру,81,produces,0
+Russian,All,16,кенгуру,81,understands,0.1358
+Russian,All,17,кенгуру,80,produces,0
+Russian,All,17,кенгуру,80,understands,0.175
+Russian,All,18,кенгуру,63,produces,0
+Russian,All,18,кенгуру,63,understands,0.2381
+English (Australian),Female,12,kangaroo/roo,27,produces,0
+English (Australian),Female,12,kangaroo/roo,27,understands,0
+English (Australian),Male,12,kangaroo/roo,44,produces,0
+English (Australian),Male,12,kangaroo/roo,44,understands,0
+English (Australian),Female,13,kangaroo/roo,35,produces,0
+English (Australian),Female,13,kangaroo/roo,35,understands,0
+English (Australian),Male,13,kangaroo/roo,29,produces,0
+English (Australian),Male,13,kangaroo/roo,29,understands,0
+English (Australian),Female,14,kangaroo/roo,51,produces,0.0392
+English (Australian),Female,14,kangaroo/roo,51,understands,0
+English (Australian),Male,14,kangaroo/roo,60,produces,0.0167
+English (Australian),Male,14,kangaroo/roo,60,understands,0
+English (Australian),Female,15,kangaroo/roo,31,produces,0.0323
+English (Australian),Female,15,kangaroo/roo,31,understands,0
+English (Australian),Male,15,kangaroo/roo,38,produces,0.0263
+English (Australian),Male,15,kangaroo/roo,38,understands,0
+English (Australian),Female,16,kangaroo/roo,32,produces,0.0312
+English (Australian),Female,16,kangaroo/roo,32,understands,0
+English (Australian),Male,16,kangaroo/roo,28,produces,0.0357
+English (Australian),Male,16,kangaroo/roo,28,understands,0
+English (Australian),Female,17,kangaroo/roo,56,produces,0.0893
+English (Australian),Female,17,kangaroo/roo,56,understands,0
+English (Australian),Male,17,kangaroo/roo,48,produces,0.0417
+English (Australian),Male,17,kangaroo/roo,48,understands,0
+English (Australian),Female,18,kangaroo/roo,52,produces,0.1346
+English (Australian),Female,18,kangaroo/roo,52,understands,0
+English (Australian),Male,18,kangaroo/roo,57,produces,0.0351
+English (Australian),Male,18,kangaroo/roo,57,understands,0
+English (Australian),Female,19,kangaroo/roo,72,produces,0.1667
+English (Australian),Female,19,kangaroo/roo,72,understands,0
+English (Australian),Male,19,kangaroo/roo,52,produces,0.1538
+English (Australian),Male,19,kangaroo/roo,52,understands,0
+English (Australian),Female,20,kangaroo/roo,40,produces,0.3
+English (Australian),Female,20,kangaroo/roo,40,understands,0
+English (Australian),Male,20,kangaroo/roo,38,produces,0.2368
+English (Australian),Male,20,kangaroo/roo,38,understands,0
+English (Australian),Female,21,kangaroo/roo,39,produces,0.3846
+English (Australian),Female,21,kangaroo/roo,39,understands,0
+English (Australian),Male,21,kangaroo/roo,25,produces,0.2
+English (Australian),Male,21,kangaroo/roo,25,understands,0
+English (Australian),Female,22,kangaroo/roo,27,produces,0.5185
+English (Australian),Female,22,kangaroo/roo,27,understands,0
+English (Australian),Male,22,kangaroo/roo,46,produces,0.3696
+English (Australian),Male,22,kangaroo/roo,46,understands,0
+English (Australian),Female,23,kangaroo/roo,39,produces,0.641
+English (Australian),Female,23,kangaroo/roo,39,understands,0
+English (Australian),Male,23,kangaroo/roo,32,produces,0.3438
+English (Australian),Male,23,kangaroo/roo,32,understands,0
+English (Australian),Female,24,kangaroo/roo,36,produces,0.5278
+English (Australian),Female,24,kangaroo/roo,36,understands,0
+English (Australian),Male,24,kangaroo/roo,40,produces,0.525
+English (Australian),Male,24,kangaroo/roo,40,understands,0
+English (Australian),Female,25,kangaroo/roo,44,produces,0.75
+English (Australian),Female,25,kangaroo/roo,44,understands,0
+English (Australian),Male,25,kangaroo/roo,41,produces,0.4878
+English (Australian),Male,25,kangaroo/roo,41,understands,0
+English (Australian),Female,26,kangaroo/roo,40,produces,0.8
+English (Australian),Female,26,kangaroo/roo,40,understands,0
+English (Australian),Male,26,kangaroo/roo,37,produces,0.5676
+English (Australian),Male,26,kangaroo/roo,37,understands,0
+English (Australian),Female,27,kangaroo/roo,36,produces,0.8611
+English (Australian),Female,27,kangaroo/roo,36,understands,0
+English (Australian),Male,27,kangaroo/roo,36,produces,0.75
+English (Australian),Male,27,kangaroo/roo,36,understands,0
+English (Australian),Female,28,kangaroo/roo,27,produces,0.8148
+English (Australian),Female,28,kangaroo/roo,27,understands,0
+English (Australian),Male,28,kangaroo/roo,40,produces,0.7
+English (Australian),Male,28,kangaroo/roo,40,understands,0
+English (Australian),Female,29,kangaroo/roo,33,produces,0.7273
+English (Australian),Female,29,kangaroo/roo,33,understands,0
+English (Australian),Male,29,kangaroo/roo,32,produces,0.625
+English (Australian),Male,29,kangaroo/roo,32,understands,0
+English (Australian),Female,30,kangaroo/roo,28,produces,0.8214
+English (Australian),Female,30,kangaroo/roo,28,understands,0
+English (Australian),Male,30,kangaroo/roo,25,produces,0.84
+English (Australian),Male,30,kangaroo/roo,25,understands,0
+Russian,Female,8,кенгуру,25,produces,0
+Russian,Female,8,кенгуру,25,understands,0.04
+Russian,Male,8,кенгуру,34,produces,0
+Russian,Male,8,кенгуру,34,understands,0
+Russian,Female,9,кенгуру,21,produces,0
+Russian,Female,9,кенгуру,21,understands,0
+Russian,Male,9,кенгуру,21,produces,0
+Russian,Male,9,кенгуру,21,understands,0
+Russian,Female,10,кенгуру,28,produces,0
+Russian,Female,10,кенгуру,28,understands,0
+Russian,Male,10,кенгуру,35,produces,0
+Russian,Male,10,кенгуру,35,understands,0
+Russian,Female,11,кенгуру,27,produces,0
+Russian,Female,11,кенгуру,27,understands,0
+Russian,Male,11,кенгуру,44,produces,0
+Russian,Male,11,кенгуру,44,understands,0
+Russian,Female,12,кенгуру,37,produces,0
+Russian,Female,12,кенгуру,37,understands,0.0811
+Russian,Male,12,кенгуру,39,produces,0
+Russian,Male,12,кенгуру,39,understands,0
+Russian,Female,13,кенгуру,34,produces,0
+Russian,Female,13,кенгуру,34,understands,0.2059
+Russian,Male,13,кенгуру,39,produces,0
+Russian,Male,13,кенгуру,39,understands,0.0513
+Russian,Female,14,кенгуру,43,produces,0
+Russian,Female,14,кенгуру,43,understands,0.1163
+Russian,Male,14,кенгуру,36,produces,0
+Russian,Male,14,кенгуру,36,understands,0.0833
+Russian,Female,15,кенгуру,39,produces,0.0256
+Russian,Female,15,кенгуру,39,understands,0.1795
+Russian,Male,15,кенгуру,42,produces,0
+Russian,Male,15,кенгуру,42,understands,0.119
+Russian,Female,16,кенгуру,37,produces,0
+Russian,Female,16,кенгуру,37,understands,0.1892
+Russian,Male,16,кенгуру,43,produces,0
+Russian,Male,16,кенгуру,43,understands,0.093
+Russian,Female,17,кенгуру,36,produces,0
+Russian,Female,17,кенгуру,36,understands,0.3056
+Russian,Male,17,кенгуру,44,produces,0
+Russian,Male,17,кенгуру,44,understands,0.0682
+Russian,Female,18,кенгуру,24,produces,0
+Russian,Female,18,кенгуру,24,understands,0.25
+Russian,Male,18,кенгуру,39,produces,0
+Russian,Male,18,кенгуру,39,understands,0.2308

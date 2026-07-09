@@ -1,825 +1,2415 @@
-language,age,words,n,measure,prop
-Kigiriama,8,Madzi,5,produces,0.2
-Kigiriama,8,Madzi,5,understands,0.8
-Kigiriama,9,Madzi,22,produces,0
-Kigiriama,9,Madzi,22,understands,0.6364
-Kigiriama,10,Madzi,5,produces,0
-Kigiriama,10,Madzi,5,understands,1
-Kigiriama,11,Madzi,7,produces,0.1429
-Kigiriama,11,Madzi,7,understands,0.8571
-Kigiriama,12,Madzi,30,produces,0.0333
-Kigiriama,12,Madzi,30,understands,0.9333
-Kigiriama,13,Madzi,18,produces,0.1667
-Kigiriama,13,Madzi,18,understands,0.8889
-Kigiriama,14,Madzi,16,produces,0.1875
-Kigiriama,14,Madzi,16,understands,0.875
-Kigiriama,15,Madzi,16,produces,0.25
-Kigiriama,15,Madzi,16,understands,0.8125
-Kigiriama,16,Madzi,1,produces,1
-Kigiriama,16,Madzi,1,understands,0
-Kigiriama,17,Madzi,6,produces,0.1667
-Kigiriama,17,Madzi,6,understands,0
-Kigiriama,18,Madzi,13,produces,0.6154
-Kigiriama,18,Madzi,13,understands,0
-Kigiriama,19,Madzi,8,produces,0.375
-Kigiriama,19,Madzi,8,understands,0
-Kigiriama,20,Madzi,14,produces,0.7857
-Kigiriama,20,Madzi,14,understands,0
-Kigiriama,21,Madzi,6,produces,0.6667
-Kigiriama,21,Madzi,6,understands,0
-Kigiriama,22,Madzi,9,produces,1
-Kigiriama,22,Madzi,9,understands,0
-Kigiriama,23,Madzi,4,produces,0.25
-Kigiriama,23,Madzi,4,understands,0
-Kigiriama,24,Madzi,7,produces,1
-Kigiriama,24,Madzi,7,understands,0
-Kigiriama,25,Madzi,3,produces,1
-Kigiriama,25,Madzi,3,understands,0
-Kigiriama,26,Madzi,6,produces,1
-Kigiriama,26,Madzi,6,understands,0
-Kigiriama,27,Madzi,4,produces,1
-Kigiriama,27,Madzi,4,understands,0
-Kigiriama,28,Madzi,1,produces,1
-Kigiriama,28,Madzi,1,understands,0
-Kigiriama,29,Madzi,5,produces,0.8
-Kigiriama,29,Madzi,5,understands,0
-Kigiriama,30,Madzi,1,produces,1
-Kigiriama,30,Madzi,1,understands,0
-Kiswahili,8,Maji,1,produces,0
-Kiswahili,8,Maji,1,understands,1
-Kiswahili,9,Maji,5,produces,0
-Kiswahili,9,Maji,5,understands,0.8
-Kiswahili,10,Maji,5,produces,0
-Kiswahili,10,Maji,5,understands,0.8
-Kiswahili,11,Maji,9,produces,0
-Kiswahili,11,Maji,9,understands,1
-Kiswahili,12,Maji,6,produces,0.1667
-Kiswahili,12,Maji,6,understands,1
-Kiswahili,13,Maji,6,produces,0
-Kiswahili,13,Maji,6,understands,1
-Kiswahili,14,Maji,4,produces,0.25
-Kiswahili,14,Maji,4,understands,0.75
-Kiswahili,15,Maji,5,produces,0.4
-Kiswahili,15,Maji,5,understands,1
-Kiswahili,23,Maji,2,produces,0.5
-Kiswahili,23,Maji,2,understands,0
-Kiswahili,24,Maji,12,produces,0.8333
-Kiswahili,24,Maji,12,understands,0
-Kiswahili,25,Maji,10,produces,0.7
-Kiswahili,25,Maji,10,understands,0
-Kiswahili,26,Maji,13,produces,0.8462
-Kiswahili,26,Maji,13,understands,0
-Kiswahili,27,Maji,8,produces,0.75
-Kiswahili,27,Maji,8,understands,0
-Kiswahili,28,Maji,6,produces,0.8333
-Kiswahili,28,Maji,6,understands,0
-Kiswahili,29,Maji,6,produces,0.8333
-Kiswahili,29,Maji,6,understands,0
-Kiswahili,30,Maji,5,produces,0.8
-Kiswahili,30,Maji,5,understands,0
-Mandarin (Beijing),12,水,45,produces,0.0444
-Mandarin (Beijing),12,水,45,understands,0.7778
-Mandarin (Beijing),13,水,50,produces,0.12
-Mandarin (Beijing),13,水,50,understands,0.74
-Mandarin (Beijing),14,水,48,produces,0.125
-Mandarin (Beijing),14,水,48,understands,0.7083
-Mandarin (Beijing),15,水,46,produces,0.1739
-Mandarin (Beijing),15,水,46,understands,0.6957
-Mandarin (Beijing),16,水,111,produces,0.2072
-Mandarin (Beijing),16,水,111,understands,0.3063
-Mandarin (Beijing),17,水,112,produces,0.4107
-Mandarin (Beijing),17,水,112,understands,0
-Mandarin (Beijing),18,水,121,produces,0.4959
-Mandarin (Beijing),18,水,121,understands,0
-Mandarin (Beijing),19,水,120,produces,0.6333
-Mandarin (Beijing),19,水,120,understands,0
-Mandarin (Beijing),20,水,121,produces,0.719
-Mandarin (Beijing),20,水,121,understands,0
-Mandarin (Beijing),21,水,119,produces,0.8319
-Mandarin (Beijing),21,水,119,understands,0
-Mandarin (Beijing),22,水,117,produces,0.8803
-Mandarin (Beijing),22,水,117,understands,0
-Mandarin (Beijing),23,水,120,produces,0.8833
-Mandarin (Beijing),23,水,120,understands,0
-Mandarin (Beijing),24,水,120,produces,0.8583
-Mandarin (Beijing),24,水,120,understands,0
-Mandarin (Beijing),25,水,113,produces,0.9469
-Mandarin (Beijing),25,水,113,understands,0
-Mandarin (Beijing),26,水,118,produces,0.9407
-Mandarin (Beijing),26,水,118,understands,0
-Mandarin (Beijing),27,水,114,produces,0.9825
-Mandarin (Beijing),27,水,114,understands,0
-Mandarin (Beijing),28,水,114,produces,0.9561
-Mandarin (Beijing),28,水,114,understands,0
-Mandarin (Beijing),29,水,119,produces,0.9664
-Mandarin (Beijing),29,水,119,understands,0
-Mandarin (Beijing),30,水,110,produces,0.9818
-Mandarin (Beijing),30,水,110,understands,0
-Norwegian,8,vann (not beverage),77,produces,0.026
-Norwegian,8,vann (not beverage),77,understands,0.026
-Norwegian,9,vann (not beverage),138,produces,0
-Norwegian,9,vann (not beverage),138,understands,0.0797
-Norwegian,10,vann (not beverage),203,produces,0
-Norwegian,10,vann (not beverage),203,understands,0.0591
-Norwegian,11,vann (not beverage),241,produces,0.0041
-Norwegian,11,vann (not beverage),241,understands,0.112
-Norwegian,12,vann (not beverage),221,produces,0.0045
-Norwegian,12,vann (not beverage),221,understands,0.1629
-Norwegian,13,vann (not beverage),246,produces,0.0203
-Norwegian,13,vann (not beverage),246,understands,0.3252
-Norwegian,14,vann (not beverage),269,produces,0.0223
-Norwegian,14,vann (not beverage),269,understands,0.4126
-Norwegian,15,vann (not beverage),239,produces,0.0669
-Norwegian,15,vann (not beverage),239,understands,0.4561
-Norwegian,16,vann (not beverage),346,produces,0.1185
-Norwegian,16,vann (not beverage),346,understands,0.4162
-Norwegian,17,vann (not beverage),435,produces,0.1816
-Norwegian,17,vann (not beverage),435,understands,0.354
-Norwegian,18,vann (not beverage),494,produces,0.2915
-Norwegian,18,vann (not beverage),494,understands,0.3623
-Norwegian,19,vann (not beverage),504,produces,0.3631
-Norwegian,19,vann (not beverage),504,understands,0.3829
-Norwegian,20,vann (not beverage),601,produces,0.5241
-Norwegian,20,vann (not beverage),601,understands,0.3677
-Norwegian,21,vann (not beverage),418,produces,0.6077
-Norwegian,21,vann (not beverage),418,understands,0
-Norwegian,22,vann (not beverage),596,produces,0.6544
-Norwegian,22,vann (not beverage),596,understands,0
-Norwegian,23,vann (not beverage),566,produces,0.7456
-Norwegian,23,vann (not beverage),566,understands,0
-Norwegian,24,vann (not beverage),538,produces,0.8086
-Norwegian,24,vann (not beverage),538,understands,0
-Norwegian,25,vann (not beverage),656,produces,0.8186
-Norwegian,25,vann (not beverage),656,understands,0
-Norwegian,26,vann (not beverage),644,produces,0.8913
-Norwegian,26,vann (not beverage),644,understands,0
-Norwegian,27,vann (not beverage),525,produces,0.8952
-Norwegian,27,vann (not beverage),525,understands,0
-Norwegian,28,vann (not beverage),544,produces,0.9228
-Norwegian,28,vann (not beverage),544,understands,0
-Norwegian,29,vann (not beverage),536,produces,0.9422
-Norwegian,29,vann (not beverage),536,understands,0
-Norwegian,30,vann (not beverage),457,produces,0.9278
-Norwegian,30,vann (not beverage),457,understands,0
-Norwegian,31,vann (not beverage),479,produces,0.9624
-Norwegian,31,vann (not beverage),479,understands,0
-Norwegian,32,vann (not beverage),451,produces,0.9712
-Norwegian,32,vann (not beverage),451,understands,0
-Norwegian,33,vann (not beverage),430,produces,0.9767
-Norwegian,33,vann (not beverage),430,understands,0
-Norwegian,34,vann (not beverage),424,produces,0.9599
-Norwegian,34,vann (not beverage),424,understands,0
-Norwegian,35,vann (not beverage),422,produces,0.9787
-Norwegian,35,vann (not beverage),422,understands,0
-Norwegian,36,vann (not beverage),329,produces,0.9787
-Norwegian,36,vann (not beverage),329,understands,0
-Portuguese (European),16,Regar,144,produces,0
-Portuguese (European),16,Regar,144,understands,0
-Portuguese (European),17,Regar,158,produces,0
-Portuguese (European),17,Regar,158,understands,0
-Portuguese (European),18,Regar,203,produces,0.0049
-Portuguese (European),18,Regar,203,understands,0
-Portuguese (European),19,Regar,196,produces,0.0051
-Portuguese (European),19,Regar,196,understands,0
-Portuguese (European),20,Regar,218,produces,0.0046
-Portuguese (European),20,Regar,218,understands,0
-Portuguese (European),21,Regar,208,produces,0.0144
-Portuguese (European),21,Regar,208,understands,0
-Portuguese (European),22,Regar,213,produces,0.0282
-Portuguese (European),22,Regar,213,understands,0
-Portuguese (European),23,Regar,199,produces,0.0402
-Portuguese (European),23,Regar,199,understands,0
-Portuguese (European),24,Regar,215,produces,0.0605
-Portuguese (European),24,Regar,215,understands,0
-Portuguese (European),25,Regar,213,produces,0.1033
-Portuguese (European),25,Regar,213,understands,0
-Portuguese (European),26,Regar,218,produces,0.1055
-Portuguese (European),26,Regar,218,understands,0
-Portuguese (European),27,Regar,238,produces,0.1597
-Portuguese (European),27,Regar,238,understands,0
-Portuguese (European),28,Regar,219,produces,0.1872
-Portuguese (European),28,Regar,219,understands,0
-Portuguese (European),29,Regar,207,produces,0.2174
-Portuguese (European),29,Regar,207,understands,0
-Portuguese (European),30,Regar,163,produces,0.2883
-Portuguese (European),30,Regar,163,understands,0
-Swedish,8,vatten (not beverage),26,produces,0
-Swedish,8,vatten (not beverage),26,understands,0.0385
-Swedish,9,vatten (not beverage),2,produces,0
-Swedish,9,vatten (not beverage),2,understands,0.5
-Swedish,10,vatten (not beverage),54,produces,0.0185
-Swedish,10,vatten (not beverage),54,understands,0.0926
-Swedish,11,vatten (not beverage),3,produces,0
-Swedish,11,vatten (not beverage),3,understands,0.3333
-Swedish,12,vatten (not beverage),79,produces,0.0253
-Swedish,12,vatten (not beverage),79,understands,0.2405
-Swedish,13,vatten (not beverage),7,produces,0
-Swedish,13,vatten (not beverage),7,understands,0.2857
-Swedish,14,vatten (not beverage),124,produces,0.0161
-Swedish,14,vatten (not beverage),124,understands,0.5323
-Swedish,15,vatten (not beverage),13,produces,0
-Swedish,15,vatten (not beverage),13,understands,0.4615
-Swedish,16,vatten (not beverage),318,produces,0.0881
-Swedish,16,vatten (not beverage),318,understands,0.3585
-Swedish,19,vatten (not beverage),152,produces,0.0066
-Swedish,19,vatten (not beverage),152,understands,0
-Swedish,22,vatten (not beverage),307,produces,0.0684
-Swedish,22,vatten (not beverage),307,understands,0
-Swedish,25,vatten (not beverage),143,produces,0.1888
-Swedish,25,vatten (not beverage),143,understands,0
-Swedish,28,vatten (not beverage),139,produces,0.295
-Swedish,28,vatten (not beverage),139,understands,0
-American Sign Language,8,WATER,1,produces,0
-American Sign Language,8,WATER,1,understands,0
-American Sign Language,10,WATER,3,produces,0
-American Sign Language,10,WATER,3,understands,0
-American Sign Language,11,WATER,1,produces,0
-American Sign Language,11,WATER,1,understands,0
-American Sign Language,12,WATER,1,produces,0
-American Sign Language,12,WATER,1,understands,0
-American Sign Language,13,WATER,4,produces,0.25
-American Sign Language,13,WATER,4,understands,0
-American Sign Language,14,WATER,1,produces,1
-American Sign Language,14,WATER,1,understands,0
-American Sign Language,15,WATER,2,produces,0
-American Sign Language,15,WATER,2,understands,0
-American Sign Language,17,WATER,2,produces,0.5
-American Sign Language,17,WATER,2,understands,0
-American Sign Language,18,WATER,3,produces,0.6667
-American Sign Language,18,WATER,3,understands,0
-American Sign Language,19,WATER,1,produces,0
-American Sign Language,19,WATER,1,understands,0
-American Sign Language,20,WATER,1,produces,0
-American Sign Language,20,WATER,1,understands,0
-American Sign Language,21,WATER,1,produces,0
-American Sign Language,21,WATER,1,understands,0
-American Sign Language,22,WATER,2,produces,0
-American Sign Language,22,WATER,2,understands,0
-American Sign Language,23,WATER,3,produces,0
-American Sign Language,23,WATER,3,understands,0
-American Sign Language,24,WATER,3,produces,0
-American Sign Language,24,WATER,3,understands,0
-American Sign Language,25,WATER,2,produces,1
-American Sign Language,25,WATER,2,understands,0
-American Sign Language,27,WATER,2,produces,0.5
-American Sign Language,27,WATER,2,understands,0
-American Sign Language,28,WATER,3,produces,0.6667
-American Sign Language,28,WATER,3,understands,0
-American Sign Language,30,WATER,3,produces,0.6667
-American Sign Language,30,WATER,3,understands,0
-American Sign Language,31,WATER,3,produces,0.6667
-American Sign Language,31,WATER,3,understands,0
-American Sign Language,32,WATER,7,produces,0.7143
-American Sign Language,32,WATER,7,understands,0
-American Sign Language,33,WATER,1,produces,1
-American Sign Language,33,WATER,1,understands,0
-American Sign Language,34,WATER,2,produces,0.5
-American Sign Language,34,WATER,2,understands,0
-American Sign Language,35,WATER,3,produces,1
-American Sign Language,35,WATER,3,understands,0
-British Sign Language,8,water,4,produces,0
-British Sign Language,8,water,4,understands,0
-British Sign Language,9,water,4,produces,0
-British Sign Language,9,water,4,understands,0
-British Sign Language,10,water,4,produces,0
-British Sign Language,10,water,4,understands,0
-British Sign Language,11,water,6,produces,0
-British Sign Language,11,water,6,understands,0
-British Sign Language,12,water,6,produces,0
-British Sign Language,12,water,6,understands,0
-British Sign Language,13,water,6,produces,0
-British Sign Language,13,water,6,understands,0
-British Sign Language,14,water,7,produces,0.1429
-British Sign Language,14,water,7,understands,0.1429
-British Sign Language,15,water,6,produces,0
-British Sign Language,15,water,6,understands,0
-British Sign Language,16,water,7,produces,0.2857
-British Sign Language,16,water,7,understands,0.2857
-British Sign Language,17,water,7,produces,0.1429
-British Sign Language,17,water,7,understands,0.2857
-British Sign Language,18,water,8,produces,0.125
-British Sign Language,18,water,8,understands,0.125
-British Sign Language,19,water,8,produces,0.125
-British Sign Language,19,water,8,understands,0.25
-British Sign Language,20,water,11,produces,0.4545
-British Sign Language,20,water,11,understands,0.6364
-British Sign Language,21,water,5,produces,0
-British Sign Language,21,water,5,understands,0
-British Sign Language,22,water,6,produces,0.5
-British Sign Language,22,water,6,understands,0.5
-British Sign Language,23,water,7,produces,0.5714
-British Sign Language,23,water,7,understands,0.5714
-British Sign Language,24,water,5,produces,0.2
-British Sign Language,24,water,5,understands,0.2
-British Sign Language,25,water,7,produces,0.4286
-British Sign Language,25,water,7,understands,0.4286
-British Sign Language,26,water,6,produces,0.6667
-British Sign Language,26,water,6,understands,0.6667
-British Sign Language,27,water,6,produces,0.3333
-British Sign Language,27,water,6,understands,0.5
-British Sign Language,28,water,3,produces,0.3333
-British Sign Language,28,water,3,understands,0.3333
-British Sign Language,29,water,7,produces,0.8571
-British Sign Language,29,water,7,understands,0.8571
-British Sign Language,30,water,5,produces,0.6
-British Sign Language,30,water,5,understands,0.8
-British Sign Language,31,water,2,produces,0.5
-British Sign Language,31,water,2,understands,0.5
-British Sign Language,32,water,6,produces,0.8333
-British Sign Language,32,water,6,understands,0.8333
-British Sign Language,33,water,5,produces,0.8
-British Sign Language,33,water,5,understands,1
-British Sign Language,34,water,2,produces,0
-British Sign Language,34,water,2,understands,0.5
-British Sign Language,35,water,2,produces,1
-British Sign Language,35,water,2,understands,1
-British Sign Language,36,water,3,produces,1
-British Sign Language,36,water,3,understands,1
-Cantonese,16,水,46,produces,0.1087
-Cantonese,16,水,46,understands,0
-Cantonese,17,水,61,produces,0.2787
-Cantonese,17,水,61,understands,0
-Cantonese,18,水,68,produces,0.3676
-Cantonese,18,水,68,understands,0
-Cantonese,19,水,66,produces,0.4242
-Cantonese,19,水,66,understands,0
-Cantonese,20,水,140,produces,0.5857
-Cantonese,20,水,140,understands,0
-Cantonese,21,水,120,produces,0.7
-Cantonese,21,水,120,understands,0
-Cantonese,22,水,68,produces,0.6471
-Cantonese,22,水,68,understands,0
-Cantonese,23,水,74,produces,0.6892
-Cantonese,23,水,74,understands,0
-Cantonese,24,水,68,produces,0.7647
-Cantonese,24,水,68,understands,0
-Cantonese,25,水,65,produces,0.8923
-Cantonese,25,水,65,understands,0
-Cantonese,26,水,68,produces,0.9412
-Cantonese,26,水,68,understands,0
-Cantonese,27,水,62,produces,0.9677
-Cantonese,27,水,62,understands,0
-Cantonese,28,水,66,produces,0.9394
-Cantonese,28,水,66,understands,0
-Cantonese,29,水,72,produces,0.9444
-Cantonese,29,水,72,understands,0
-Cantonese,30,水,164,produces,0.9512
-Cantonese,30,水,164,understands,0
-Croatian,8,voda (not beverage),23,produces,0
-Croatian,8,voda (not beverage),23,understands,0.0435
-Croatian,9,voda (not beverage),25,produces,0
-Croatian,9,voda (not beverage),25,understands,0.12
-Croatian,10,voda (not beverage),22,produces,0
-Croatian,10,voda (not beverage),22,understands,0.1818
-Croatian,11,voda (not beverage),25,produces,0
-Croatian,11,voda (not beverage),25,understands,0.24
-Croatian,12,voda (not beverage),35,produces,0.0286
-Croatian,12,voda (not beverage),35,understands,0.3143
-Croatian,13,voda (not beverage),34,produces,0.0294
-Croatian,13,voda (not beverage),34,understands,0.4706
-Croatian,14,voda (not beverage),28,produces,0.1071
-Croatian,14,voda (not beverage),28,understands,0.6071
-Croatian,15,voda (not beverage),24,produces,0
-Croatian,15,voda (not beverage),24,understands,0.625
-Croatian,16,voda (not beverage),47,produces,0.234
-Croatian,16,voda (not beverage),47,understands,0.5745
-Croatian,17,voda (not beverage),25,produces,0.28
-Croatian,17,voda (not beverage),25,understands,0
-Croatian,18,voda (not beverage),22,produces,0.2727
-Croatian,18,voda (not beverage),22,understands,0
-Croatian,19,voda (not beverage),21,produces,0.5238
-Croatian,19,voda (not beverage),21,understands,0
-Croatian,20,voda (not beverage),26,produces,0.5385
-Croatian,20,voda (not beverage),26,understands,0
-Croatian,21,voda (not beverage),29,produces,0.4828
-Croatian,21,voda (not beverage),29,understands,0
-Croatian,22,voda (not beverage),24,produces,0.75
-Croatian,22,voda (not beverage),24,understands,0
-Croatian,23,voda (not beverage),26,produces,0.7308
-Croatian,23,voda (not beverage),26,understands,0
-Croatian,24,voda (not beverage),30,produces,0.8667
-Croatian,24,voda (not beverage),30,understands,0
-Croatian,25,voda (not beverage),30,produces,0.7667
-Croatian,25,voda (not beverage),30,understands,0
-Croatian,26,voda (not beverage),29,produces,0.8621
-Croatian,26,voda (not beverage),29,understands,0
-Croatian,27,voda (not beverage),25,produces,1
-Croatian,27,voda (not beverage),25,understands,0
-Croatian,28,voda (not beverage),21,produces,0.9524
-Croatian,28,voda (not beverage),21,understands,0
-Croatian,29,voda (not beverage),28,produces,0.9643
-Croatian,29,voda (not beverage),28,understands,0
-Croatian,30,voda (not beverage),28,produces,0.9643
-Croatian,30,voda (not beverage),28,understands,0
-Danish,8,vand (not beverage),174,produces,0
-Danish,8,vand (not beverage),174,understands,0.0575
-Danish,9,vand (not beverage),196,produces,0
-Danish,9,vand (not beverage),196,understands,0.0357
-Danish,10,vand (not beverage),182,produces,0
-Danish,10,vand (not beverage),182,understands,0.1099
-Danish,11,vand (not beverage),200,produces,0.005
-Danish,11,vand (not beverage),200,understands,0.115
-Danish,12,vand (not beverage),188,produces,0.0106
-Danish,12,vand (not beverage),188,understands,0.1862
-Danish,13,vand (not beverage),216,produces,0.0093
-Danish,13,vand (not beverage),216,understands,0.338
-Danish,14,vand (not beverage),178,produces,0.0056
-Danish,14,vand (not beverage),178,understands,0.3876
-Danish,15,vand (not beverage),203,produces,0.0197
-Danish,15,vand (not beverage),203,understands,0.468
-Danish,16,vand (not beverage),359,produces,0.0808
-Danish,16,vand (not beverage),359,understands,0.2618
-Danish,17,vand (not beverage),346,produces,0.104
-Danish,17,vand (not beverage),346,understands,0.341
-Danish,18,vand (not beverage),358,produces,0.1927
-Danish,18,vand (not beverage),358,understands,0.4274
-Danish,19,vand (not beverage),361,produces,0.2271
-Danish,19,vand (not beverage),361,understands,0.3407
-Danish,20,vand (not beverage),358,produces,0.4441
-Danish,20,vand (not beverage),358,understands,0.4134
-Danish,21,vand (not beverage),236,produces,0.4746
-Danish,21,vand (not beverage),236,understands,0
-Danish,22,vand (not beverage),235,produces,0.6638
-Danish,22,vand (not beverage),235,understands,0
-Danish,23,vand (not beverage),190,produces,0.6947
-Danish,23,vand (not beverage),190,understands,0
-Danish,24,vand (not beverage),216,produces,0.8009
-Danish,24,vand (not beverage),216,understands,0
-Danish,25,vand (not beverage),138,produces,0.7971
-Danish,25,vand (not beverage),138,understands,0
-Danish,26,vand (not beverage),206,produces,0.9223
-Danish,26,vand (not beverage),206,understands,0
-Danish,27,vand (not beverage),176,produces,0.9375
-Danish,27,vand (not beverage),176,understands,0
-Danish,28,vand (not beverage),190,produces,0.9158
-Danish,28,vand (not beverage),190,understands,0
-Danish,29,vand (not beverage),182,produces,0.9396
-Danish,29,vand (not beverage),182,understands,0
-Danish,30,vand (not beverage),173,produces,0.9306
-Danish,30,vand (not beverage),173,understands,0
-Danish,31,vand (not beverage),175,produces,0.9657
-Danish,31,vand (not beverage),175,understands,0
-Danish,32,vand (not beverage),143,produces,0.979
-Danish,32,vand (not beverage),143,understands,0
-Danish,33,vand (not beverage),151,produces,0.9801
-Danish,33,vand (not beverage),151,understands,0
-Danish,34,vand (not beverage),143,produces,0.993
-Danish,34,vand (not beverage),143,understands,0
-Danish,35,vand (not beverage),113,produces,0.9823
-Danish,35,vand (not beverage),113,understands,0
-Danish,36,vand (not beverage),126,produces,0.9921
-Danish,36,vand (not beverage),126,understands,0
-English (American),8,water (not beverage),255,produces,0.0039
-English (American),8,water (not beverage),255,understands,0.0902
-English (American),9,water (not beverage),299,produces,0.0134
-English (American),9,water (not beverage),299,understands,0.1505
-English (American),10,water (not beverage),279,produces,0.0072
-English (American),10,water (not beverage),279,understands,0.1613
-English (American),11,water (not beverage),360,produces,0.0167
-English (American),11,water (not beverage),360,understands,0.225
-English (American),12,water (not beverage),615,produces,0.0293
-English (American),12,water (not beverage),615,understands,0.2472
-English (American),13,water (not beverage),1039,produces,0.052
-English (American),13,water (not beverage),1039,understands,0.4158
-English (American),14,water (not beverage),455,produces,0.0593
-English (American),14,water (not beverage),455,understands,0.4176
-English (American),15,water (not beverage),245,produces,0.1224
-English (American),15,water (not beverage),245,understands,0.498
-English (American),16,water (not beverage),1846,produces,0.2486
-English (American),16,water (not beverage),1846,understands,0.3613
-English (American),17,water (not beverage),855,produces,0.2292
-English (American),17,water (not beverage),855,understands,0.2713
-English (American),18,water (not beverage),1131,produces,0.328
-English (American),18,water (not beverage),1131,understands,0.2909
-English (American),19,water (not beverage),695,produces,0.459
-English (American),19,water (not beverage),695,understands,0.1683
-English (American),20,water (not beverage),561,produces,0.4848
-English (American),20,water (not beverage),561,understands,0.0374
-English (American),21,water (not beverage),366,produces,0.5301
-English (American),21,water (not beverage),366,understands,0
-English (American),22,water (not beverage),454,produces,0.5507
-English (American),22,water (not beverage),454,understands,0
-English (American),23,water (not beverage),548,produces,0.7044
-English (American),23,water (not beverage),548,understands,0.1277
-English (American),24,water (not beverage),1051,produces,0.7241
-English (American),24,water (not beverage),1051,understands,0.0618
-English (American),25,water (not beverage),784,produces,0.7717
-English (American),25,water (not beverage),784,understands,0.0319
-English (American),26,water (not beverage),435,produces,0.7586
-English (American),26,water (not beverage),435,understands,0
-English (American),27,water (not beverage),361,produces,0.8255
-English (American),27,water (not beverage),361,understands,0
-English (American),28,water (not beverage),954,produces,0.9423
-English (American),28,water (not beverage),954,understands,0
-English (American),29,water (not beverage),390,produces,0.8359
-English (American),29,water (not beverage),390,understands,0
-English (American),30,water (not beverage),785,produces,0.86240000000000006
-English (American),30,water (not beverage),785,understands,0
-English (Australian),12,water,71,produces,0
-English (Australian),12,water,71,understands,0
-English (Australian),13,water,64,produces,0
-English (Australian),13,water,64,understands,0
-English (Australian),14,water,111,produces,0.0541
-English (Australian),14,water,111,understands,0
-English (Australian),15,water,69,produces,0.0725
-English (Australian),15,water,69,understands,0
-English (Australian),16,water,60,produces,0.0833
-English (Australian),16,water,60,understands,0
-English (Australian),17,water,104,produces,0.1731
-English (Australian),17,water,104,understands,0
-English (Australian),18,water,109,produces,0.2661
-English (Australian),18,water,109,understands,0
-English (Australian),19,water,124,produces,0.4677
-English (Australian),19,water,124,understands,0
-English (Australian),20,water,78,produces,0.5385
-English (Australian),20,water,78,understands,0
-English (Australian),21,water,68,produces,0.5147
-English (Australian),21,water,68,understands,0
-English (Australian),22,water,73,produces,0.6849
-English (Australian),22,water,73,understands,0
-English (Australian),23,water,71,produces,0.8169
-English (Australian),23,water,71,understands,0
-English (Australian),24,water,76,produces,0.7632
-English (Australian),24,water,76,understands,0
-English (Australian),25,water,85,produces,0.8118
-English (Australian),25,water,85,understands,0
-English (Australian),26,water,77,produces,0.8442
-English (Australian),26,water,77,understands,0
-English (Australian),27,water,72,produces,0.9167
-English (Australian),27,water,72,understands,0
-English (Australian),28,water,67,produces,0.9104
-English (Australian),28,water,67,understands,0
-English (Australian),29,water,65,produces,0.9077
-English (Australian),29,water,65,understands,0
-English (Australian),30,water,53,produces,0.9623
-English (Australian),30,water,53,understands,0
-English (British),12,water,27,produces,0
-English (British),12,water,27,understands,0.2963
-English (British),13,water,7,produces,0
-English (British),13,water,7,understands,0.1429
-English (British),14,water,64,produces,0.0312
-English (British),14,water,64,understands,0.375
-English (British),15,water,88,produces,0.0114
-English (British),15,water,88,understands,0.4886
-English (British),16,water,118,produces,0.0593
-English (British),16,water,118,understands,0.6186
-English (British),17,water,197,produces,0.1269
-English (British),17,water,197,understands,0.6853
-English (British),18,water,118,produces,0.161
-English (British),18,water,118,understands,0.678
-English (British),19,water,109,produces,0.2385
-English (British),19,water,109,understands,0.7339
-English (British),20,water,144,produces,0.3681
-English (British),20,water,144,understands,0.8542
-English (British),21,water,75,produces,0.44
-English (British),21,water,75,understands,0.9067
-English (British),22,water,28,produces,0.5714
-English (British),22,water,28,understands,0.8214
-English (British),23,water,112,produces,0.6429
-English (British),23,water,112,understands,0.8929
-English (British),24,water,87,produces,0.6897
-English (British),24,water,87,understands,0.9195
-English (British),25,water,36,produces,0.8056
-English (British),25,water,36,understands,0.9167
-English (Irish),17,water,2,produces,0
-English (Irish),17,water,2,understands,0
-English (Irish),18,water,1,produces,0
-English (Irish),18,water,1,understands,0
-English (Irish),19,water,2,produces,0
-English (Irish),19,water,2,understands,0
-English (Irish),20,water,1,produces,0
-English (Irish),20,water,1,understands,0
-English (Irish),21,water,3,produces,0
-English (Irish),21,water,3,understands,0
-English (Irish),22,water,4,produces,0
-English (Irish),22,water,4,understands,0
-English (Irish),23,water,4,produces,0
-English (Irish),23,water,4,understands,0
-English (Irish),24,water,4,produces,0.5
-English (Irish),24,water,4,understands,0
-English (Irish),25,water,6,produces,0.1667
-English (Irish),25,water,6,understands,0
-English (Irish),26,water,10,produces,0.1
-English (Irish),26,water,10,understands,0
-English (Irish),27,water,5,produces,0.2
-English (Irish),27,water,5,understands,0
-English (Irish),28,water,7,produces,0.2857
-English (Irish),28,water,7,understands,0
-English (Irish),29,water,4,produces,0.5
-English (Irish),29,water,4,understands,0
-English (Irish),30,water,9,produces,0.2222
-English (Irish),30,water,9,understands,0
-English (Irish),31,water,8,produces,0.5
-English (Irish),31,water,8,understands,0
-English (Irish),32,water,4,produces,0.75
-English (Irish),32,water,4,understands,0
-English (Irish),33,water,5,produces,0.2
-English (Irish),33,water,5,understands,0
-English (Irish),34,water,4,produces,0.5
-English (Irish),34,water,4,understands,0
-English (Irish),35,water,11,produces,0.3636
-English (Irish),35,water,11,understands,0
-English (Irish),36,water,5,produces,0.4
-English (Irish),36,water,5,understands,0
-Estonian,16,vesi0,36,produces,0.1389
-Estonian,16,vesi0,36,understands,0
-Estonian,17,vesi0,89,produces,0.1798
-Estonian,17,vesi0,89,understands,0
-Estonian,18,vesi0,103,produces,0.3204
-Estonian,18,vesi0,103,understands,0
-Estonian,19,vesi0,85,produces,0.3647
-Estonian,19,vesi0,85,understands,0
-Estonian,20,vesi0,60,produces,0.45
-Estonian,20,vesi0,60,understands,0
-Estonian,21,vesi0,66,produces,0.4242
-Estonian,21,vesi0,66,understands,0
-Estonian,22,vesi0,76,produces,0.4079
-Estonian,22,vesi0,76,understands,0
-Estonian,23,vesi0,95,produces,0.6316
-Estonian,23,vesi0,95,understands,0
-Estonian,24,vesi0,116,produces,0.6466
-Estonian,24,vesi0,116,understands,0
-Estonian,25,vesi0,82,produces,0.7805
-Estonian,25,vesi0,82,understands,0
-Estonian,26,vesi0,84,produces,0.7857
-Estonian,26,vesi0,84,understands,0
-Estonian,27,vesi0,80,produces,0.825
-Estonian,27,vesi0,80,understands,0
-Estonian,28,vesi0,92,produces,0.8804
-Estonian,28,vesi0,92,understands,0
-Estonian,29,vesi0,100,produces,0.88
-Estonian,29,vesi0,100,understands,0
-Estonian,30,vesi0,71,produces,0.9437
-Estonian,30,vesi0,71,understands,0
-French (French),8,eau,54,produces,0.0185
-French (French),8,eau,54,understands,0.1296
-French (French),9,eau,11,produces,0.0909
-French (French),9,eau,11,understands,0.1818
-French (French),10,eau,13,produces,0.1538
-French (French),10,eau,13,understands,0.1538
-French (French),11,eau,42,produces,0.0238
-French (French),11,eau,42,understands,0.1429
-French (French),12,eau,64,produces,0.1562
-French (French),12,eau,64,understands,0.2969
-French (French),13,eau,116,produces,0.0948
-French (French),13,eau,116,understands,0.2845
-French (French),14,eau,40,produces,0.15
-French (French),14,eau,40,understands,0.175
-French (French),15,eau,26,produces,0.3077
-French (French),15,eau,26,understands,0.4615
-French (French),16,eau,98,produces,0.1224
-French (French),16,eau,98,understands,0.0306
-French (French),17,eau,52,produces,0.2115
-French (French),17,eau,52,understands,0
-French (French),18,eau,54,produces,0.463
-French (French),18,eau,54,understands,0
-French (French),19,eau,42,produces,0.4286
-French (French),19,eau,42,understands,0
-French (French),20,eau,81,produces,0.5556
-French (French),20,eau,81,understands,0
-French (French),21,eau,102,produces,0.598
-French (French),21,eau,102,understands,0
-French (French),22,eau,103,produces,0.7087
-French (French),22,eau,103,understands,0
-French (French),23,eau,118,produces,0.5763
-French (French),23,eau,118,understands,0
-French (French),24,eau,173,produces,0.763
-French (French),24,eau,173,understands,0
-French (French),25,eau,87,produces,0.8276
-French (French),25,eau,87,understands,0
-French (French),26,eau,64,produces,0.7969
-French (French),26,eau,64,understands,0
-French (French),27,eau,54,produces,0.6667
-French (French),27,eau,54,understands,0
-French (French),28,eau,76,produces,0.8158
-French (French),28,eau,76,understands,0
-French (French),29,eau,67,produces,0.806
-French (French),29,eau,67,understands,0
-French (French),30,eau,68,produces,0.7647
-French (French),30,eau,68,understands,0
-French (Quebecois),8,eau (not beverage),103,produces,0
-French (Quebecois),8,eau (not beverage),103,understands,0.1845
-French (Quebecois),9,eau (not beverage),167,produces,0
-French (Quebecois),9,eau (not beverage),167,understands,0.2635
-French (Quebecois),10,eau (not beverage),86,produces,0
-French (Quebecois),10,eau (not beverage),86,understands,0.2326
-French (Quebecois),11,eau (not beverage),81,produces,0
-French (Quebecois),11,eau (not beverage),81,understands,0.358
-French (Quebecois),12,eau (not beverage),166,produces,0.0241
-French (Quebecois),12,eau (not beverage),166,understands,0.4398
-French (Quebecois),13,eau (not beverage),126,produces,0.0476
-French (Quebecois),13,eau (not beverage),126,understands,0.5476
-French (Quebecois),14,eau (not beverage),228,produces,0.0965
-French (Quebecois),14,eau (not beverage),228,understands,0.5307
-French (Quebecois),15,eau (not beverage),101,produces,0.1485
-French (Quebecois),15,eau (not beverage),101,understands,0.6832
-French (Quebecois),16,eau (not beverage),108,produces,0.3704
-French (Quebecois),16,eau (not beverage),108,understands,0.4537
-French (Quebecois),17,eau (not beverage),62,produces,0.5645
-French (Quebecois),17,eau (not beverage),62,understands,0
-French (Quebecois),18,eau (not beverage),99,produces,0.5455
-French (Quebecois),18,eau (not beverage),99,understands,0
-French (Quebecois),19,eau (not beverage),91,produces,0.6044
-French (Quebecois),19,eau (not beverage),91,understands,0
-French (Quebecois),20,eau (not beverage),196,produces,0.5969
-French (Quebecois),20,eau (not beverage),196,understands,0
-French (Quebecois),21,eau (not beverage),109,produces,0.7982
-French (Quebecois),21,eau (not beverage),109,understands,0
-French (Quebecois),22,eau (not beverage),86,produces,0.7907
-French (Quebecois),22,eau (not beverage),86,understands,0
-French (Quebecois),23,eau (not beverage),86,produces,0.8256
-French (Quebecois),23,eau (not beverage),86,understands,0
-French (Quebecois),24,eau (not beverage),132,produces,0.8333
-French (Quebecois),24,eau (not beverage),132,understands,0
-French (Quebecois),25,eau (not beverage),87,produces,0.8851
-French (Quebecois),25,eau (not beverage),87,understands,0
-French (Quebecois),26,eau (not beverage),95,produces,0.8632
-French (Quebecois),26,eau (not beverage),95,understands,0
-French (Quebecois),27,eau (not beverage),74,produces,0.973
-French (Quebecois),27,eau (not beverage),74,understands,0
-French (Quebecois),28,eau (not beverage),61,produces,0.9836
-French (Quebecois),28,eau (not beverage),61,understands,0
-French (Quebecois),29,eau (not beverage),70,produces,0.9429
-French (Quebecois),29,eau (not beverage),70,understands,0
-French (Quebecois),30,eau (not beverage),100,produces,0.91
-French (Quebecois),30,eau (not beverage),100,understands,0
-Greek (Cypriot),18,νερό,45,produces,0.4889
-Greek (Cypriot),18,νερό,45,understands,0
-Greek (Cypriot),21,νερό,36,produces,0.5833
-Greek (Cypriot),21,νερό,36,understands,0
-Greek (Cypriot),24,νερό,32,produces,0.8438
-Greek (Cypriot),24,νερό,32,understands,0
-Greek (Cypriot),27,νερό,29,produces,0.8966
-Greek (Cypriot),27,νερό,29,understands,0
-Greek (Cypriot),30,νερό,34,produces,0.9706
-Greek (Cypriot),30,νερό,34,understands,0
-Hungarian,16,víz,21,produces,0.0952
-Hungarian,16,víz,21,understands,0
-Hungarian,17,víz,18,produces,0.2778
-Hungarian,17,víz,18,understands,0
-Hungarian,18,víz,18,produces,0.2778
-Hungarian,18,víz,18,understands,0
-Hungarian,19,víz,26,produces,0.4615
-Hungarian,19,víz,26,understands,0
-Hungarian,20,víz,18,produces,0.5
-Hungarian,20,víz,18,understands,0
-Hungarian,21,víz,36,produces,0.75
-Hungarian,21,víz,36,understands,0
-Hungarian,22,víz,27,produces,0.8148
-Hungarian,22,víz,27,understands,0
-Hungarian,23,víz,18,produces,0.7222
-Hungarian,23,víz,18,understands,0
-Hungarian,24,víz,38,produces,0.6842
-Hungarian,24,víz,38,understands,0
-Hungarian,25,víz,43,produces,0.8837
-Hungarian,25,víz,43,understands,0
-Hungarian,26,víz,23,produces,0.8261
-Hungarian,26,víz,23,understands,0
-Hungarian,27,víz,26,produces,0.7692
-Hungarian,27,víz,26,understands,0
-Hungarian,28,víz,30,produces,0.8667
-Hungarian,28,víz,30,understands,0
-Hungarian,29,víz,12,produces,0.9167
-Hungarian,29,víz,12,understands,0
-Hungarian,30,víz,18,produces,0.8333
-Hungarian,30,víz,18,understands,0
-Irish,17,uisce,2,produces,0.5
-Irish,17,uisce,2,understands,0
-Irish,18,uisce,1,produces,1
-Irish,18,uisce,1,understands,0
-Irish,19,uisce,2,produces,1
-Irish,19,uisce,2,understands,0
-Irish,20,uisce,1,produces,1
-Irish,20,uisce,1,understands,0
-Irish,21,uisce,3,produces,0.3333
-Irish,21,uisce,3,understands,0
-Irish,22,uisce,4,produces,1
-Irish,22,uisce,4,understands,0
-Irish,23,uisce,4,produces,0.5
-Irish,23,uisce,4,understands,0
-Irish,24,uisce,4,produces,0.75
-Irish,24,uisce,4,understands,0
-Irish,25,uisce,6,produces,0.8333
-Irish,25,uisce,6,understands,0
-Irish,26,uisce,10,produces,1
-Irish,26,uisce,10,understands,0
-Irish,27,uisce,5,produces,1
-Irish,27,uisce,5,understands,0
-Irish,28,uisce,7,produces,0.8571
-Irish,28,uisce,7,understands,0
-Irish,29,uisce,4,produces,1
-Irish,29,uisce,4,understands,0
-Irish,30,uisce,9,produces,0.8889
-Irish,30,uisce,9,understands,0
-Irish,31,uisce,8,produces,0.875
-Irish,31,uisce,8,understands,0
-Irish,32,uisce,4,produces,0.75
-Irish,32,uisce,4,understands,0
-Irish,33,uisce,5,produces,1
-Irish,33,uisce,5,understands,0
-Irish,34,uisce,4,produces,1
-Irish,34,uisce,4,understands,0
-Irish,35,uisce,11,produces,1
-Irish,35,uisce,11,understands,0
-Irish,36,uisce,5,produces,0.8
-Irish,36,uisce,5,understands,0
+language,sex,age,words,n,measure,prop
+American Sign Language,All,8,WATER,1,produces,0
+American Sign Language,All,8,WATER,1,understands,0
+American Sign Language,All,10,WATER,3,produces,0
+American Sign Language,All,10,WATER,3,understands,0
+American Sign Language,All,11,WATER,1,produces,0
+American Sign Language,All,11,WATER,1,understands,0
+American Sign Language,All,12,WATER,1,produces,0
+American Sign Language,All,12,WATER,1,understands,0
+American Sign Language,All,13,WATER,4,produces,0.25
+American Sign Language,All,13,WATER,4,understands,0
+American Sign Language,All,14,WATER,1,produces,1
+American Sign Language,All,14,WATER,1,understands,0
+American Sign Language,All,15,WATER,2,produces,0
+American Sign Language,All,15,WATER,2,understands,0
+American Sign Language,All,17,WATER,2,produces,0.5
+American Sign Language,All,17,WATER,2,understands,0
+American Sign Language,All,18,WATER,3,produces,0.6667
+American Sign Language,All,18,WATER,3,understands,0
+American Sign Language,All,19,WATER,1,produces,0
+American Sign Language,All,19,WATER,1,understands,0
+American Sign Language,All,20,WATER,1,produces,0
+American Sign Language,All,20,WATER,1,understands,0
+American Sign Language,All,21,WATER,1,produces,0
+American Sign Language,All,21,WATER,1,understands,0
+American Sign Language,All,22,WATER,2,produces,0
+American Sign Language,All,22,WATER,2,understands,0
+American Sign Language,All,23,WATER,3,produces,0
+American Sign Language,All,23,WATER,3,understands,0
+American Sign Language,All,24,WATER,3,produces,0
+American Sign Language,All,24,WATER,3,understands,0
+American Sign Language,All,25,WATER,2,produces,1
+American Sign Language,All,25,WATER,2,understands,0
+American Sign Language,All,27,WATER,2,produces,0.5
+American Sign Language,All,27,WATER,2,understands,0
+American Sign Language,All,28,WATER,3,produces,0.6667
+American Sign Language,All,28,WATER,3,understands,0
+American Sign Language,All,30,WATER,3,produces,0.6667
+American Sign Language,All,30,WATER,3,understands,0
+American Sign Language,All,31,WATER,3,produces,0.6667
+American Sign Language,All,31,WATER,3,understands,0
+American Sign Language,All,32,WATER,7,produces,0.7143
+American Sign Language,All,32,WATER,7,understands,0
+American Sign Language,All,33,WATER,1,produces,1
+American Sign Language,All,33,WATER,1,understands,0
+American Sign Language,All,34,WATER,2,produces,0.5
+American Sign Language,All,34,WATER,2,understands,0
+American Sign Language,All,35,WATER,3,produces,1
+American Sign Language,All,35,WATER,3,understands,0
+British Sign Language,All,8,water,4,produces,0
+British Sign Language,All,8,water,4,understands,0
+British Sign Language,All,9,water,4,produces,0
+British Sign Language,All,9,water,4,understands,0
+British Sign Language,All,10,water,4,produces,0
+British Sign Language,All,10,water,4,understands,0
+British Sign Language,All,11,water,6,produces,0
+British Sign Language,All,11,water,6,understands,0
+British Sign Language,All,12,water,6,produces,0
+British Sign Language,All,12,water,6,understands,0
+British Sign Language,All,13,water,6,produces,0
+British Sign Language,All,13,water,6,understands,0
+British Sign Language,All,14,water,7,produces,0.1429
+British Sign Language,All,14,water,7,understands,0.1429
+British Sign Language,All,15,water,6,produces,0
+British Sign Language,All,15,water,6,understands,0
+British Sign Language,All,16,water,7,produces,0.2857
+British Sign Language,All,16,water,7,understands,0.2857
+British Sign Language,All,17,water,7,produces,0.1429
+British Sign Language,All,17,water,7,understands,0.2857
+British Sign Language,All,18,water,8,produces,0.125
+British Sign Language,All,18,water,8,understands,0.125
+British Sign Language,All,19,water,8,produces,0.125
+British Sign Language,All,19,water,8,understands,0.25
+British Sign Language,All,20,water,11,produces,0.4545
+British Sign Language,All,20,water,11,understands,0.6364
+British Sign Language,All,21,water,5,produces,0
+British Sign Language,All,21,water,5,understands,0
+British Sign Language,All,22,water,6,produces,0.5
+British Sign Language,All,22,water,6,understands,0.5
+British Sign Language,All,23,water,7,produces,0.5714
+British Sign Language,All,23,water,7,understands,0.5714
+British Sign Language,All,24,water,5,produces,0.2
+British Sign Language,All,24,water,5,understands,0.2
+British Sign Language,All,25,water,7,produces,0.4286
+British Sign Language,All,25,water,7,understands,0.4286
+British Sign Language,All,26,water,6,produces,0.6667
+British Sign Language,All,26,water,6,understands,0.6667
+British Sign Language,All,27,water,6,produces,0.3333
+British Sign Language,All,27,water,6,understands,0.5
+British Sign Language,All,28,water,3,produces,0.3333
+British Sign Language,All,28,water,3,understands,0.3333
+British Sign Language,All,29,water,7,produces,0.8571
+British Sign Language,All,29,water,7,understands,0.8571
+British Sign Language,All,30,water,5,produces,0.6
+British Sign Language,All,30,water,5,understands,0.8
+British Sign Language,All,31,water,2,produces,0.5
+British Sign Language,All,31,water,2,understands,0.5
+British Sign Language,All,32,water,6,produces,0.8333
+British Sign Language,All,32,water,6,understands,0.8333
+British Sign Language,All,33,water,5,produces,0.8
+British Sign Language,All,33,water,5,understands,1
+British Sign Language,All,34,water,2,produces,0
+British Sign Language,All,34,water,2,understands,0.5
+British Sign Language,All,35,water,2,produces,1
+British Sign Language,All,35,water,2,understands,1
+British Sign Language,All,36,water,3,produces,1
+British Sign Language,All,36,water,3,understands,1
+Cantonese,All,16,水,46,produces,0.1087
+Cantonese,All,16,水,46,understands,0
+Cantonese,All,17,水,61,produces,0.2787
+Cantonese,All,17,水,61,understands,0
+Cantonese,All,18,水,68,produces,0.3676
+Cantonese,All,18,水,68,understands,0
+Cantonese,All,19,水,66,produces,0.4242
+Cantonese,All,19,水,66,understands,0
+Cantonese,All,20,水,140,produces,0.5857
+Cantonese,All,20,水,140,understands,0
+Cantonese,All,21,水,120,produces,0.7
+Cantonese,All,21,水,120,understands,0
+Cantonese,All,22,水,68,produces,0.6471
+Cantonese,All,22,水,68,understands,0
+Cantonese,All,23,水,74,produces,0.6892
+Cantonese,All,23,水,74,understands,0
+Cantonese,All,24,水,68,produces,0.7647
+Cantonese,All,24,水,68,understands,0
+Cantonese,All,25,水,65,produces,0.8923
+Cantonese,All,25,水,65,understands,0
+Cantonese,All,26,水,68,produces,0.9412
+Cantonese,All,26,水,68,understands,0
+Cantonese,All,27,水,62,produces,0.9677
+Cantonese,All,27,水,62,understands,0
+Cantonese,All,28,水,66,produces,0.9394
+Cantonese,All,28,水,66,understands,0
+Cantonese,All,29,水,72,produces,0.9444
+Cantonese,All,29,水,72,understands,0
+Cantonese,All,30,水,164,produces,0.9512
+Cantonese,All,30,水,164,understands,0
+Croatian,All,8,voda (not beverage),23,produces,0
+Croatian,All,8,voda (not beverage),23,understands,0.0435
+Croatian,All,9,voda (not beverage),25,produces,0
+Croatian,All,9,voda (not beverage),25,understands,0.12
+Croatian,All,10,voda (not beverage),22,produces,0
+Croatian,All,10,voda (not beverage),22,understands,0.1818
+Croatian,All,11,voda (not beverage),25,produces,0
+Croatian,All,11,voda (not beverage),25,understands,0.24
+Croatian,All,12,voda (not beverage),35,produces,0.0286
+Croatian,All,12,voda (not beverage),35,understands,0.3143
+Croatian,All,13,voda (not beverage),34,produces,0.0294
+Croatian,All,13,voda (not beverage),34,understands,0.4706
+Croatian,All,14,voda (not beverage),28,produces,0.1071
+Croatian,All,14,voda (not beverage),28,understands,0.6071
+Croatian,All,15,voda (not beverage),24,produces,0
+Croatian,All,15,voda (not beverage),24,understands,0.625
+Croatian,All,16,voda (not beverage),47,produces,0.234
+Croatian,All,16,voda (not beverage),47,understands,0.5745
+Croatian,All,17,voda (not beverage),25,produces,0.28
+Croatian,All,17,voda (not beverage),25,understands,0
+Croatian,All,18,voda (not beverage),22,produces,0.2727
+Croatian,All,18,voda (not beverage),22,understands,0
+Croatian,All,19,voda (not beverage),21,produces,0.5238
+Croatian,All,19,voda (not beverage),21,understands,0
+Croatian,All,20,voda (not beverage),26,produces,0.5385
+Croatian,All,20,voda (not beverage),26,understands,0
+Croatian,All,21,voda (not beverage),29,produces,0.4828
+Croatian,All,21,voda (not beverage),29,understands,0
+Croatian,All,22,voda (not beverage),24,produces,0.75
+Croatian,All,22,voda (not beverage),24,understands,0
+Croatian,All,23,voda (not beverage),26,produces,0.7308
+Croatian,All,23,voda (not beverage),26,understands,0
+Croatian,All,24,voda (not beverage),30,produces,0.8667
+Croatian,All,24,voda (not beverage),30,understands,0
+Croatian,All,25,voda (not beverage),30,produces,0.7667
+Croatian,All,25,voda (not beverage),30,understands,0
+Croatian,All,26,voda (not beverage),29,produces,0.8621
+Croatian,All,26,voda (not beverage),29,understands,0
+Croatian,All,27,voda (not beverage),25,produces,1
+Croatian,All,27,voda (not beverage),25,understands,0
+Croatian,All,28,voda (not beverage),21,produces,0.9524
+Croatian,All,28,voda (not beverage),21,understands,0
+Croatian,All,29,voda (not beverage),28,produces,0.9643
+Croatian,All,29,voda (not beverage),28,understands,0
+Croatian,All,30,voda (not beverage),28,produces,0.9643
+Croatian,All,30,voda (not beverage),28,understands,0
+Danish,All,8,vand (not beverage),174,produces,0
+Danish,All,8,vand (not beverage),174,understands,0.0575
+Danish,All,9,vand (not beverage),196,produces,0
+Danish,All,9,vand (not beverage),196,understands,0.0357
+Danish,All,10,vand (not beverage),182,produces,0
+Danish,All,10,vand (not beverage),182,understands,0.1099
+Danish,All,11,vand (not beverage),200,produces,0.005
+Danish,All,11,vand (not beverage),200,understands,0.115
+Danish,All,12,vand (not beverage),188,produces,0.0106
+Danish,All,12,vand (not beverage),188,understands,0.1862
+Danish,All,13,vand (not beverage),216,produces,0.0093
+Danish,All,13,vand (not beverage),216,understands,0.338
+Danish,All,14,vand (not beverage),178,produces,0.0056
+Danish,All,14,vand (not beverage),178,understands,0.3876
+Danish,All,15,vand (not beverage),203,produces,0.0197
+Danish,All,15,vand (not beverage),203,understands,0.468
+Danish,All,16,vand (not beverage),359,produces,0.0808
+Danish,All,16,vand (not beverage),359,understands,0.2618
+Danish,All,17,vand (not beverage),346,produces,0.104
+Danish,All,17,vand (not beverage),346,understands,0.341
+Danish,All,18,vand (not beverage),358,produces,0.1927
+Danish,All,18,vand (not beverage),358,understands,0.4274
+Danish,All,19,vand (not beverage),361,produces,0.2271
+Danish,All,19,vand (not beverage),361,understands,0.3407
+Danish,All,20,vand (not beverage),358,produces,0.4441
+Danish,All,20,vand (not beverage),358,understands,0.4134
+Danish,All,21,vand (not beverage),236,produces,0.4746
+Danish,All,21,vand (not beverage),236,understands,0
+Danish,All,22,vand (not beverage),235,produces,0.6638
+Danish,All,22,vand (not beverage),235,understands,0
+Danish,All,23,vand (not beverage),190,produces,0.6947
+Danish,All,23,vand (not beverage),190,understands,0
+Danish,All,24,vand (not beverage),216,produces,0.8009
+Danish,All,24,vand (not beverage),216,understands,0
+Danish,All,25,vand (not beverage),138,produces,0.7971
+Danish,All,25,vand (not beverage),138,understands,0
+Danish,All,26,vand (not beverage),206,produces,0.9223
+Danish,All,26,vand (not beverage),206,understands,0
+Danish,All,27,vand (not beverage),176,produces,0.9375
+Danish,All,27,vand (not beverage),176,understands,0
+Danish,All,28,vand (not beverage),190,produces,0.9158
+Danish,All,28,vand (not beverage),190,understands,0
+Danish,All,29,vand (not beverage),182,produces,0.9396
+Danish,All,29,vand (not beverage),182,understands,0
+Danish,All,30,vand (not beverage),173,produces,0.9306
+Danish,All,30,vand (not beverage),173,understands,0
+Danish,All,31,vand (not beverage),175,produces,0.9657
+Danish,All,31,vand (not beverage),175,understands,0
+Danish,All,32,vand (not beverage),143,produces,0.979
+Danish,All,32,vand (not beverage),143,understands,0
+Danish,All,33,vand (not beverage),151,produces,0.9801
+Danish,All,33,vand (not beverage),151,understands,0
+Danish,All,34,vand (not beverage),143,produces,0.993
+Danish,All,34,vand (not beverage),143,understands,0
+Danish,All,35,vand (not beverage),113,produces,0.9823
+Danish,All,35,vand (not beverage),113,understands,0
+Danish,All,36,vand (not beverage),126,produces,0.9921
+Danish,All,36,vand (not beverage),126,understands,0
+English (American),All,8,water (not beverage),255,produces,0.0039
+English (American),All,8,water (not beverage),255,understands,0.0902
+English (American),All,9,water (not beverage),299,produces,0.0134
+English (American),All,9,water (not beverage),299,understands,0.1505
+English (American),All,10,water (not beverage),279,produces,0.0072
+English (American),All,10,water (not beverage),279,understands,0.1613
+English (American),All,11,water (not beverage),360,produces,0.0167
+English (American),All,11,water (not beverage),360,understands,0.225
+English (American),All,12,water (not beverage),615,produces,0.0293
+English (American),All,12,water (not beverage),615,understands,0.2472
+English (American),All,13,water (not beverage),1039,produces,0.052
+English (American),All,13,water (not beverage),1039,understands,0.4158
+English (American),All,14,water (not beverage),455,produces,0.0593
+English (American),All,14,water (not beverage),455,understands,0.4176
+English (American),All,15,water (not beverage),245,produces,0.1224
+English (American),All,15,water (not beverage),245,understands,0.498
+English (American),All,16,water (not beverage),1846,produces,0.2486
+English (American),All,16,water (not beverage),1846,understands,0.3613
+English (American),All,17,water (not beverage),855,produces,0.2292
+English (American),All,17,water (not beverage),855,understands,0.2713
+English (American),All,18,water (not beverage),1131,produces,0.328
+English (American),All,18,water (not beverage),1131,understands,0.2909
+English (American),All,19,water (not beverage),695,produces,0.459
+English (American),All,19,water (not beverage),695,understands,0.1683
+English (American),All,20,water (not beverage),561,produces,0.4848
+English (American),All,20,water (not beverage),561,understands,0.0374
+English (American),All,21,water (not beverage),366,produces,0.5301
+English (American),All,21,water (not beverage),366,understands,0
+English (American),All,22,water (not beverage),454,produces,0.5507
+English (American),All,22,water (not beverage),454,understands,0
+English (American),All,23,water (not beverage),548,produces,0.7044
+English (American),All,23,water (not beverage),548,understands,0.1277
+English (American),All,24,water (not beverage),1051,produces,0.7241
+English (American),All,24,water (not beverage),1051,understands,0.0618
+English (American),All,25,water (not beverage),784,produces,0.7717
+English (American),All,25,water (not beverage),784,understands,0.0319
+English (American),All,26,water (not beverage),435,produces,0.7586
+English (American),All,26,water (not beverage),435,understands,0
+English (American),All,27,water (not beverage),361,produces,0.8255
+English (American),All,27,water (not beverage),361,understands,0
+English (American),All,28,water (not beverage),954,produces,0.9423
+English (American),All,28,water (not beverage),954,understands,0
+English (American),All,29,water (not beverage),390,produces,0.8359
+English (American),All,29,water (not beverage),390,understands,0
+English (American),All,30,water (not beverage),785,produces,0.86240000000000006
+English (American),All,30,water (not beverage),785,understands,0
+English (Australian),All,12,water,71,produces,0
+English (Australian),All,12,water,71,understands,0
+English (Australian),All,13,water,64,produces,0
+English (Australian),All,13,water,64,understands,0
+English (Australian),All,14,water,111,produces,0.0541
+English (Australian),All,14,water,111,understands,0
+English (Australian),All,15,water,69,produces,0.0725
+English (Australian),All,15,water,69,understands,0
+English (Australian),All,16,water,60,produces,0.0833
+English (Australian),All,16,water,60,understands,0
+English (Australian),All,17,water,104,produces,0.1731
+English (Australian),All,17,water,104,understands,0
+English (Australian),All,18,water,109,produces,0.2661
+English (Australian),All,18,water,109,understands,0
+English (Australian),All,19,water,124,produces,0.4677
+English (Australian),All,19,water,124,understands,0
+English (Australian),All,20,water,78,produces,0.5385
+English (Australian),All,20,water,78,understands,0
+English (Australian),All,21,water,68,produces,0.5147
+English (Australian),All,21,water,68,understands,0
+English (Australian),All,22,water,73,produces,0.6849
+English (Australian),All,22,water,73,understands,0
+English (Australian),All,23,water,71,produces,0.8169
+English (Australian),All,23,water,71,understands,0
+English (Australian),All,24,water,76,produces,0.7632
+English (Australian),All,24,water,76,understands,0
+English (Australian),All,25,water,85,produces,0.8118
+English (Australian),All,25,water,85,understands,0
+English (Australian),All,26,water,77,produces,0.8442
+English (Australian),All,26,water,77,understands,0
+English (Australian),All,27,water,72,produces,0.9167
+English (Australian),All,27,water,72,understands,0
+English (Australian),All,28,water,67,produces,0.9104
+English (Australian),All,28,water,67,understands,0
+English (Australian),All,29,water,65,produces,0.9077
+English (Australian),All,29,water,65,understands,0
+English (Australian),All,30,water,53,produces,0.9623
+English (Australian),All,30,water,53,understands,0
+English (British),All,12,water,27,produces,0
+English (British),All,12,water,27,understands,0.2963
+English (British),All,13,water,7,produces,0
+English (British),All,13,water,7,understands,0.1429
+English (British),All,14,water,64,produces,0.0312
+English (British),All,14,water,64,understands,0.375
+English (British),All,15,water,88,produces,0.0114
+English (British),All,15,water,88,understands,0.4886
+English (British),All,16,water,118,produces,0.0593
+English (British),All,16,water,118,understands,0.6186
+English (British),All,17,water,197,produces,0.1269
+English (British),All,17,water,197,understands,0.6853
+English (British),All,18,water,118,produces,0.161
+English (British),All,18,water,118,understands,0.678
+English (British),All,19,water,109,produces,0.2385
+English (British),All,19,water,109,understands,0.7339
+English (British),All,20,water,144,produces,0.3681
+English (British),All,20,water,144,understands,0.8542
+English (British),All,21,water,75,produces,0.44
+English (British),All,21,water,75,understands,0.9067
+English (British),All,22,water,28,produces,0.5714
+English (British),All,22,water,28,understands,0.8214
+English (British),All,23,water,112,produces,0.6429
+English (British),All,23,water,112,understands,0.8929
+English (British),All,24,water,87,produces,0.6897
+English (British),All,24,water,87,understands,0.9195
+English (British),All,25,water,36,produces,0.8056
+English (British),All,25,water,36,understands,0.9167
+English (Irish),All,17,water,2,produces,0
+English (Irish),All,17,water,2,understands,0
+English (Irish),All,18,water,1,produces,0
+English (Irish),All,18,water,1,understands,0
+English (Irish),All,19,water,2,produces,0
+English (Irish),All,19,water,2,understands,0
+English (Irish),All,20,water,1,produces,0
+English (Irish),All,20,water,1,understands,0
+English (Irish),All,21,water,3,produces,0
+English (Irish),All,21,water,3,understands,0
+English (Irish),All,22,water,4,produces,0
+English (Irish),All,22,water,4,understands,0
+English (Irish),All,23,water,4,produces,0
+English (Irish),All,23,water,4,understands,0
+English (Irish),All,24,water,4,produces,0.5
+English (Irish),All,24,water,4,understands,0
+English (Irish),All,25,water,6,produces,0.1667
+English (Irish),All,25,water,6,understands,0
+English (Irish),All,26,water,10,produces,0.1
+English (Irish),All,26,water,10,understands,0
+English (Irish),All,27,water,5,produces,0.2
+English (Irish),All,27,water,5,understands,0
+English (Irish),All,28,water,7,produces,0.2857
+English (Irish),All,28,water,7,understands,0
+English (Irish),All,29,water,4,produces,0.5
+English (Irish),All,29,water,4,understands,0
+English (Irish),All,30,water,9,produces,0.2222
+English (Irish),All,30,water,9,understands,0
+English (Irish),All,31,water,8,produces,0.5
+English (Irish),All,31,water,8,understands,0
+English (Irish),All,32,water,4,produces,0.75
+English (Irish),All,32,water,4,understands,0
+English (Irish),All,33,water,5,produces,0.2
+English (Irish),All,33,water,5,understands,0
+English (Irish),All,34,water,4,produces,0.5
+English (Irish),All,34,water,4,understands,0
+English (Irish),All,35,water,11,produces,0.3636
+English (Irish),All,35,water,11,understands,0
+English (Irish),All,36,water,5,produces,0.4
+English (Irish),All,36,water,5,understands,0
+Estonian,All,16,vesi0,36,produces,0.1389
+Estonian,All,16,vesi0,36,understands,0
+Estonian,All,17,vesi0,89,produces,0.1798
+Estonian,All,17,vesi0,89,understands,0
+Estonian,All,18,vesi0,103,produces,0.3204
+Estonian,All,18,vesi0,103,understands,0
+Estonian,All,19,vesi0,85,produces,0.3647
+Estonian,All,19,vesi0,85,understands,0
+Estonian,All,20,vesi0,60,produces,0.45
+Estonian,All,20,vesi0,60,understands,0
+Estonian,All,21,vesi0,66,produces,0.4242
+Estonian,All,21,vesi0,66,understands,0
+Estonian,All,22,vesi0,76,produces,0.4079
+Estonian,All,22,vesi0,76,understands,0
+Estonian,All,23,vesi0,95,produces,0.6316
+Estonian,All,23,vesi0,95,understands,0
+Estonian,All,24,vesi0,116,produces,0.6466
+Estonian,All,24,vesi0,116,understands,0
+Estonian,All,25,vesi0,82,produces,0.7805
+Estonian,All,25,vesi0,82,understands,0
+Estonian,All,26,vesi0,84,produces,0.7857
+Estonian,All,26,vesi0,84,understands,0
+Estonian,All,27,vesi0,80,produces,0.825
+Estonian,All,27,vesi0,80,understands,0
+Estonian,All,28,vesi0,92,produces,0.8804
+Estonian,All,28,vesi0,92,understands,0
+Estonian,All,29,vesi0,100,produces,0.88
+Estonian,All,29,vesi0,100,understands,0
+Estonian,All,30,vesi0,71,produces,0.9437
+Estonian,All,30,vesi0,71,understands,0
+French (French),All,8,eau,54,produces,0.0185
+French (French),All,8,eau,54,understands,0.1296
+French (French),All,9,eau,11,produces,0.0909
+French (French),All,9,eau,11,understands,0.1818
+French (French),All,10,eau,13,produces,0.1538
+French (French),All,10,eau,13,understands,0.1538
+French (French),All,11,eau,42,produces,0.0238
+French (French),All,11,eau,42,understands,0.1429
+French (French),All,12,eau,64,produces,0.1562
+French (French),All,12,eau,64,understands,0.2969
+French (French),All,13,eau,116,produces,0.0948
+French (French),All,13,eau,116,understands,0.2845
+French (French),All,14,eau,40,produces,0.15
+French (French),All,14,eau,40,understands,0.175
+French (French),All,15,eau,26,produces,0.3077
+French (French),All,15,eau,26,understands,0.4615
+French (French),All,16,eau,98,produces,0.1224
+French (French),All,16,eau,98,understands,0.0306
+French (French),All,17,eau,52,produces,0.2115
+French (French),All,17,eau,52,understands,0
+French (French),All,18,eau,54,produces,0.463
+French (French),All,18,eau,54,understands,0
+French (French),All,19,eau,42,produces,0.4286
+French (French),All,19,eau,42,understands,0
+French (French),All,20,eau,81,produces,0.5556
+French (French),All,20,eau,81,understands,0
+French (French),All,21,eau,102,produces,0.598
+French (French),All,21,eau,102,understands,0
+French (French),All,22,eau,103,produces,0.7087
+French (French),All,22,eau,103,understands,0
+French (French),All,23,eau,118,produces,0.5763
+French (French),All,23,eau,118,understands,0
+French (French),All,24,eau,173,produces,0.763
+French (French),All,24,eau,173,understands,0
+French (French),All,25,eau,87,produces,0.8276
+French (French),All,25,eau,87,understands,0
+French (French),All,26,eau,64,produces,0.7969
+French (French),All,26,eau,64,understands,0
+French (French),All,27,eau,54,produces,0.6667
+French (French),All,27,eau,54,understands,0
+French (French),All,28,eau,76,produces,0.8158
+French (French),All,28,eau,76,understands,0
+French (French),All,29,eau,67,produces,0.806
+French (French),All,29,eau,67,understands,0
+French (French),All,30,eau,68,produces,0.7647
+French (French),All,30,eau,68,understands,0
+French (Quebecois),All,8,eau (not beverage),103,produces,0
+French (Quebecois),All,8,eau (not beverage),103,understands,0.1845
+French (Quebecois),All,9,eau (not beverage),167,produces,0
+French (Quebecois),All,9,eau (not beverage),167,understands,0.2635
+French (Quebecois),All,10,eau (not beverage),86,produces,0
+French (Quebecois),All,10,eau (not beverage),86,understands,0.2326
+French (Quebecois),All,11,eau (not beverage),81,produces,0
+French (Quebecois),All,11,eau (not beverage),81,understands,0.358
+French (Quebecois),All,12,eau (not beverage),166,produces,0.0241
+French (Quebecois),All,12,eau (not beverage),166,understands,0.4398
+French (Quebecois),All,13,eau (not beverage),126,produces,0.0476
+French (Quebecois),All,13,eau (not beverage),126,understands,0.5476
+French (Quebecois),All,14,eau (not beverage),228,produces,0.0965
+French (Quebecois),All,14,eau (not beverage),228,understands,0.5307
+French (Quebecois),All,15,eau (not beverage),101,produces,0.1485
+French (Quebecois),All,15,eau (not beverage),101,understands,0.6832
+French (Quebecois),All,16,eau (not beverage),108,produces,0.3704
+French (Quebecois),All,16,eau (not beverage),108,understands,0.4537
+French (Quebecois),All,17,eau (not beverage),62,produces,0.5645
+French (Quebecois),All,17,eau (not beverage),62,understands,0
+French (Quebecois),All,18,eau (not beverage),99,produces,0.5455
+French (Quebecois),All,18,eau (not beverage),99,understands,0
+French (Quebecois),All,19,eau (not beverage),91,produces,0.6044
+French (Quebecois),All,19,eau (not beverage),91,understands,0
+French (Quebecois),All,20,eau (not beverage),196,produces,0.5969
+French (Quebecois),All,20,eau (not beverage),196,understands,0
+French (Quebecois),All,21,eau (not beverage),109,produces,0.7982
+French (Quebecois),All,21,eau (not beverage),109,understands,0
+French (Quebecois),All,22,eau (not beverage),86,produces,0.7907
+French (Quebecois),All,22,eau (not beverage),86,understands,0
+French (Quebecois),All,23,eau (not beverage),86,produces,0.8256
+French (Quebecois),All,23,eau (not beverage),86,understands,0
+French (Quebecois),All,24,eau (not beverage),132,produces,0.8333
+French (Quebecois),All,24,eau (not beverage),132,understands,0
+French (Quebecois),All,25,eau (not beverage),87,produces,0.8851
+French (Quebecois),All,25,eau (not beverage),87,understands,0
+French (Quebecois),All,26,eau (not beverage),95,produces,0.8632
+French (Quebecois),All,26,eau (not beverage),95,understands,0
+French (Quebecois),All,27,eau (not beverage),74,produces,0.973
+French (Quebecois),All,27,eau (not beverage),74,understands,0
+French (Quebecois),All,28,eau (not beverage),61,produces,0.9836
+French (Quebecois),All,28,eau (not beverage),61,understands,0
+French (Quebecois),All,29,eau (not beverage),70,produces,0.9429
+French (Quebecois),All,29,eau (not beverage),70,understands,0
+French (Quebecois),All,30,eau (not beverage),100,produces,0.91
+French (Quebecois),All,30,eau (not beverage),100,understands,0
+Greek (Cypriot),All,18,νερό,45,produces,0.4889
+Greek (Cypriot),All,18,νερό,45,understands,0
+Greek (Cypriot),All,21,νερό,36,produces,0.5833
+Greek (Cypriot),All,21,νερό,36,understands,0
+Greek (Cypriot),All,24,νερό,32,produces,0.8438
+Greek (Cypriot),All,24,νερό,32,understands,0
+Greek (Cypriot),All,27,νερό,29,produces,0.8966
+Greek (Cypriot),All,27,νερό,29,understands,0
+Greek (Cypriot),All,30,νερό,34,produces,0.9706
+Greek (Cypriot),All,30,νερό,34,understands,0
+Hungarian,All,16,víz,21,produces,0.0952
+Hungarian,All,16,víz,21,understands,0
+Hungarian,All,17,víz,18,produces,0.2778
+Hungarian,All,17,víz,18,understands,0
+Hungarian,All,18,víz,18,produces,0.2778
+Hungarian,All,18,víz,18,understands,0
+Hungarian,All,19,víz,26,produces,0.4615
+Hungarian,All,19,víz,26,understands,0
+Hungarian,All,20,víz,18,produces,0.5
+Hungarian,All,20,víz,18,understands,0
+Hungarian,All,21,víz,36,produces,0.75
+Hungarian,All,21,víz,36,understands,0
+Hungarian,All,22,víz,27,produces,0.8148
+Hungarian,All,22,víz,27,understands,0
+Hungarian,All,23,víz,18,produces,0.7222
+Hungarian,All,23,víz,18,understands,0
+Hungarian,All,24,víz,38,produces,0.6842
+Hungarian,All,24,víz,38,understands,0
+Hungarian,All,25,víz,43,produces,0.8837
+Hungarian,All,25,víz,43,understands,0
+Hungarian,All,26,víz,23,produces,0.8261
+Hungarian,All,26,víz,23,understands,0
+Hungarian,All,27,víz,26,produces,0.7692
+Hungarian,All,27,víz,26,understands,0
+Hungarian,All,28,víz,30,produces,0.8667
+Hungarian,All,28,víz,30,understands,0
+Hungarian,All,29,víz,12,produces,0.9167
+Hungarian,All,29,víz,12,understands,0
+Hungarian,All,30,víz,18,produces,0.8333
+Hungarian,All,30,víz,18,understands,0
+Irish,All,17,uisce,2,produces,0.5
+Irish,All,17,uisce,2,understands,0
+Irish,All,18,uisce,1,produces,1
+Irish,All,18,uisce,1,understands,0
+Irish,All,19,uisce,2,produces,1
+Irish,All,19,uisce,2,understands,0
+Irish,All,20,uisce,1,produces,1
+Irish,All,20,uisce,1,understands,0
+Irish,All,21,uisce,3,produces,0.3333
+Irish,All,21,uisce,3,understands,0
+Irish,All,22,uisce,4,produces,1
+Irish,All,22,uisce,4,understands,0
+Irish,All,23,uisce,4,produces,0.5
+Irish,All,23,uisce,4,understands,0
+Irish,All,24,uisce,4,produces,0.75
+Irish,All,24,uisce,4,understands,0
+Irish,All,25,uisce,6,produces,0.8333
+Irish,All,25,uisce,6,understands,0
+Irish,All,26,uisce,10,produces,1
+Irish,All,26,uisce,10,understands,0
+Irish,All,27,uisce,5,produces,1
+Irish,All,27,uisce,5,understands,0
+Irish,All,28,uisce,7,produces,0.8571
+Irish,All,28,uisce,7,understands,0
+Irish,All,29,uisce,4,produces,1
+Irish,All,29,uisce,4,understands,0
+Irish,All,30,uisce,9,produces,0.8889
+Irish,All,30,uisce,9,understands,0
+Irish,All,31,uisce,8,produces,0.875
+Irish,All,31,uisce,8,understands,0
+Irish,All,32,uisce,4,produces,0.75
+Irish,All,32,uisce,4,understands,0
+Irish,All,33,uisce,5,produces,1
+Irish,All,33,uisce,5,understands,0
+Irish,All,34,uisce,4,produces,1
+Irish,All,34,uisce,4,understands,0
+Irish,All,35,uisce,11,produces,1
+Irish,All,35,uisce,11,understands,0
+Irish,All,36,uisce,5,produces,0.8
+Irish,All,36,uisce,5,understands,0
+Kigiriama,All,8,Madzi,5,produces,0.2
+Kigiriama,All,8,Madzi,5,understands,0.8
+Kigiriama,All,9,Madzi,22,produces,0
+Kigiriama,All,9,Madzi,22,understands,0.6364
+Kigiriama,All,10,Madzi,5,produces,0
+Kigiriama,All,10,Madzi,5,understands,1
+Kigiriama,All,11,Madzi,7,produces,0.1429
+Kigiriama,All,11,Madzi,7,understands,0.8571
+Kigiriama,All,12,Madzi,30,produces,0.0333
+Kigiriama,All,12,Madzi,30,understands,0.9333
+Kigiriama,All,13,Madzi,18,produces,0.1667
+Kigiriama,All,13,Madzi,18,understands,0.8889
+Kigiriama,All,14,Madzi,16,produces,0.1875
+Kigiriama,All,14,Madzi,16,understands,0.875
+Kigiriama,All,15,Madzi,16,produces,0.25
+Kigiriama,All,15,Madzi,16,understands,0.8125
+Kigiriama,All,16,Madzi,1,produces,1
+Kigiriama,All,16,Madzi,1,understands,0
+Kigiriama,All,17,Madzi,6,produces,0.1667
+Kigiriama,All,17,Madzi,6,understands,0
+Kigiriama,All,18,Madzi,13,produces,0.6154
+Kigiriama,All,18,Madzi,13,understands,0
+Kigiriama,All,19,Madzi,8,produces,0.375
+Kigiriama,All,19,Madzi,8,understands,0
+Kigiriama,All,20,Madzi,14,produces,0.7857
+Kigiriama,All,20,Madzi,14,understands,0
+Kigiriama,All,21,Madzi,6,produces,0.6667
+Kigiriama,All,21,Madzi,6,understands,0
+Kigiriama,All,22,Madzi,9,produces,1
+Kigiriama,All,22,Madzi,9,understands,0
+Kigiriama,All,23,Madzi,4,produces,0.25
+Kigiriama,All,23,Madzi,4,understands,0
+Kigiriama,All,24,Madzi,7,produces,1
+Kigiriama,All,24,Madzi,7,understands,0
+Kigiriama,All,25,Madzi,3,produces,1
+Kigiriama,All,25,Madzi,3,understands,0
+Kigiriama,All,26,Madzi,6,produces,1
+Kigiriama,All,26,Madzi,6,understands,0
+Kigiriama,All,27,Madzi,4,produces,1
+Kigiriama,All,27,Madzi,4,understands,0
+Kigiriama,All,28,Madzi,1,produces,1
+Kigiriama,All,28,Madzi,1,understands,0
+Kigiriama,All,29,Madzi,5,produces,0.8
+Kigiriama,All,29,Madzi,5,understands,0
+Kigiriama,All,30,Madzi,1,produces,1
+Kigiriama,All,30,Madzi,1,understands,0
+Kiswahili,All,8,Maji,1,produces,0
+Kiswahili,All,8,Maji,1,understands,1
+Kiswahili,All,9,Maji,5,produces,0
+Kiswahili,All,9,Maji,5,understands,0.8
+Kiswahili,All,10,Maji,5,produces,0
+Kiswahili,All,10,Maji,5,understands,0.8
+Kiswahili,All,11,Maji,9,produces,0
+Kiswahili,All,11,Maji,9,understands,1
+Kiswahili,All,12,Maji,6,produces,0.1667
+Kiswahili,All,12,Maji,6,understands,1
+Kiswahili,All,13,Maji,6,produces,0
+Kiswahili,All,13,Maji,6,understands,1
+Kiswahili,All,14,Maji,4,produces,0.25
+Kiswahili,All,14,Maji,4,understands,0.75
+Kiswahili,All,15,Maji,5,produces,0.4
+Kiswahili,All,15,Maji,5,understands,1
+Kiswahili,All,23,Maji,2,produces,0.5
+Kiswahili,All,23,Maji,2,understands,0
+Kiswahili,All,24,Maji,12,produces,0.8333
+Kiswahili,All,24,Maji,12,understands,0
+Kiswahili,All,25,Maji,10,produces,0.7
+Kiswahili,All,25,Maji,10,understands,0
+Kiswahili,All,26,Maji,13,produces,0.8462
+Kiswahili,All,26,Maji,13,understands,0
+Kiswahili,All,27,Maji,8,produces,0.75
+Kiswahili,All,27,Maji,8,understands,0
+Kiswahili,All,28,Maji,6,produces,0.8333
+Kiswahili,All,28,Maji,6,understands,0
+Kiswahili,All,29,Maji,6,produces,0.8333
+Kiswahili,All,29,Maji,6,understands,0
+Kiswahili,All,30,Maji,5,produces,0.8
+Kiswahili,All,30,Maji,5,understands,0
+Mandarin (Beijing),All,12,水,45,produces,0.0444
+Mandarin (Beijing),All,12,水,45,understands,0.7778
+Mandarin (Beijing),All,13,水,50,produces,0.12
+Mandarin (Beijing),All,13,水,50,understands,0.74
+Mandarin (Beijing),All,14,水,48,produces,0.125
+Mandarin (Beijing),All,14,水,48,understands,0.7083
+Mandarin (Beijing),All,15,水,46,produces,0.1739
+Mandarin (Beijing),All,15,水,46,understands,0.6957
+Mandarin (Beijing),All,16,水,111,produces,0.2072
+Mandarin (Beijing),All,16,水,111,understands,0.3063
+Mandarin (Beijing),All,17,水,112,produces,0.4107
+Mandarin (Beijing),All,17,水,112,understands,0
+Mandarin (Beijing),All,18,水,121,produces,0.4959
+Mandarin (Beijing),All,18,水,121,understands,0
+Mandarin (Beijing),All,19,水,120,produces,0.6333
+Mandarin (Beijing),All,19,水,120,understands,0
+Mandarin (Beijing),All,20,水,121,produces,0.719
+Mandarin (Beijing),All,20,水,121,understands,0
+Mandarin (Beijing),All,21,水,119,produces,0.8319
+Mandarin (Beijing),All,21,水,119,understands,0
+Mandarin (Beijing),All,22,水,117,produces,0.8803
+Mandarin (Beijing),All,22,水,117,understands,0
+Mandarin (Beijing),All,23,水,120,produces,0.8833
+Mandarin (Beijing),All,23,水,120,understands,0
+Mandarin (Beijing),All,24,水,120,produces,0.8583
+Mandarin (Beijing),All,24,水,120,understands,0
+Mandarin (Beijing),All,25,水,113,produces,0.9469
+Mandarin (Beijing),All,25,水,113,understands,0
+Mandarin (Beijing),All,26,水,118,produces,0.9407
+Mandarin (Beijing),All,26,水,118,understands,0
+Mandarin (Beijing),All,27,水,114,produces,0.9825
+Mandarin (Beijing),All,27,水,114,understands,0
+Mandarin (Beijing),All,28,水,114,produces,0.9561
+Mandarin (Beijing),All,28,水,114,understands,0
+Mandarin (Beijing),All,29,水,119,produces,0.9664
+Mandarin (Beijing),All,29,水,119,understands,0
+Mandarin (Beijing),All,30,水,110,produces,0.9818
+Mandarin (Beijing),All,30,水,110,understands,0
+Norwegian,All,8,vann (not beverage),77,produces,0.026
+Norwegian,All,8,vann (not beverage),77,understands,0.026
+Norwegian,All,9,vann (not beverage),138,produces,0
+Norwegian,All,9,vann (not beverage),138,understands,0.0797
+Norwegian,All,10,vann (not beverage),203,produces,0
+Norwegian,All,10,vann (not beverage),203,understands,0.0591
+Norwegian,All,11,vann (not beverage),241,produces,0.0041
+Norwegian,All,11,vann (not beverage),241,understands,0.112
+Norwegian,All,12,vann (not beverage),221,produces,0.0045
+Norwegian,All,12,vann (not beverage),221,understands,0.1629
+Norwegian,All,13,vann (not beverage),246,produces,0.0203
+Norwegian,All,13,vann (not beverage),246,understands,0.3252
+Norwegian,All,14,vann (not beverage),269,produces,0.0223
+Norwegian,All,14,vann (not beverage),269,understands,0.4126
+Norwegian,All,15,vann (not beverage),239,produces,0.0669
+Norwegian,All,15,vann (not beverage),239,understands,0.4561
+Norwegian,All,16,vann (not beverage),346,produces,0.1185
+Norwegian,All,16,vann (not beverage),346,understands,0.4162
+Norwegian,All,17,vann (not beverage),435,produces,0.1816
+Norwegian,All,17,vann (not beverage),435,understands,0.354
+Norwegian,All,18,vann (not beverage),494,produces,0.2915
+Norwegian,All,18,vann (not beverage),494,understands,0.3623
+Norwegian,All,19,vann (not beverage),504,produces,0.3631
+Norwegian,All,19,vann (not beverage),504,understands,0.3829
+Norwegian,All,20,vann (not beverage),601,produces,0.5241
+Norwegian,All,20,vann (not beverage),601,understands,0.3677
+Norwegian,All,21,vann (not beverage),418,produces,0.6077
+Norwegian,All,21,vann (not beverage),418,understands,0
+Norwegian,All,22,vann (not beverage),596,produces,0.6544
+Norwegian,All,22,vann (not beverage),596,understands,0
+Norwegian,All,23,vann (not beverage),566,produces,0.7456
+Norwegian,All,23,vann (not beverage),566,understands,0
+Norwegian,All,24,vann (not beverage),538,produces,0.8086
+Norwegian,All,24,vann (not beverage),538,understands,0
+Norwegian,All,25,vann (not beverage),656,produces,0.8186
+Norwegian,All,25,vann (not beverage),656,understands,0
+Norwegian,All,26,vann (not beverage),644,produces,0.8913
+Norwegian,All,26,vann (not beverage),644,understands,0
+Norwegian,All,27,vann (not beverage),525,produces,0.8952
+Norwegian,All,27,vann (not beverage),525,understands,0
+Norwegian,All,28,vann (not beverage),544,produces,0.9228
+Norwegian,All,28,vann (not beverage),544,understands,0
+Norwegian,All,29,vann (not beverage),536,produces,0.9422
+Norwegian,All,29,vann (not beverage),536,understands,0
+Norwegian,All,30,vann (not beverage),457,produces,0.9278
+Norwegian,All,30,vann (not beverage),457,understands,0
+Norwegian,All,31,vann (not beverage),479,produces,0.9624
+Norwegian,All,31,vann (not beverage),479,understands,0
+Norwegian,All,32,vann (not beverage),451,produces,0.9712
+Norwegian,All,32,vann (not beverage),451,understands,0
+Norwegian,All,33,vann (not beverage),430,produces,0.9767
+Norwegian,All,33,vann (not beverage),430,understands,0
+Norwegian,All,34,vann (not beverage),424,produces,0.9599
+Norwegian,All,34,vann (not beverage),424,understands,0
+Norwegian,All,35,vann (not beverage),422,produces,0.9787
+Norwegian,All,35,vann (not beverage),422,understands,0
+Norwegian,All,36,vann (not beverage),329,produces,0.9787
+Norwegian,All,36,vann (not beverage),329,understands,0
+Portuguese (European),All,16,Regar,144,produces,0
+Portuguese (European),All,16,Regar,144,understands,0
+Portuguese (European),All,17,Regar,158,produces,0
+Portuguese (European),All,17,Regar,158,understands,0
+Portuguese (European),All,18,Regar,203,produces,0.0049
+Portuguese (European),All,18,Regar,203,understands,0
+Portuguese (European),All,19,Regar,196,produces,0.0051
+Portuguese (European),All,19,Regar,196,understands,0
+Portuguese (European),All,20,Regar,218,produces,0.0046
+Portuguese (European),All,20,Regar,218,understands,0
+Portuguese (European),All,21,Regar,208,produces,0.0144
+Portuguese (European),All,21,Regar,208,understands,0
+Portuguese (European),All,22,Regar,213,produces,0.0282
+Portuguese (European),All,22,Regar,213,understands,0
+Portuguese (European),All,23,Regar,199,produces,0.0402
+Portuguese (European),All,23,Regar,199,understands,0
+Portuguese (European),All,24,Regar,215,produces,0.0605
+Portuguese (European),All,24,Regar,215,understands,0
+Portuguese (European),All,25,Regar,213,produces,0.1033
+Portuguese (European),All,25,Regar,213,understands,0
+Portuguese (European),All,26,Regar,218,produces,0.1055
+Portuguese (European),All,26,Regar,218,understands,0
+Portuguese (European),All,27,Regar,238,produces,0.1597
+Portuguese (European),All,27,Regar,238,understands,0
+Portuguese (European),All,28,Regar,219,produces,0.1872
+Portuguese (European),All,28,Regar,219,understands,0
+Portuguese (European),All,29,Regar,207,produces,0.2174
+Portuguese (European),All,29,Regar,207,understands,0
+Portuguese (European),All,30,Regar,163,produces,0.2883
+Portuguese (European),All,30,Regar,163,understands,0
+Swedish,All,8,vatten (not beverage),26,produces,0
+Swedish,All,8,vatten (not beverage),26,understands,0.0385
+Swedish,All,9,vatten (not beverage),2,produces,0
+Swedish,All,9,vatten (not beverage),2,understands,0.5
+Swedish,All,10,vatten (not beverage),54,produces,0.0185
+Swedish,All,10,vatten (not beverage),54,understands,0.0926
+Swedish,All,11,vatten (not beverage),3,produces,0
+Swedish,All,11,vatten (not beverage),3,understands,0.3333
+Swedish,All,12,vatten (not beverage),79,produces,0.0253
+Swedish,All,12,vatten (not beverage),79,understands,0.2405
+Swedish,All,13,vatten (not beverage),7,produces,0
+Swedish,All,13,vatten (not beverage),7,understands,0.2857
+Swedish,All,14,vatten (not beverage),124,produces,0.0161
+Swedish,All,14,vatten (not beverage),124,understands,0.5323
+Swedish,All,15,vatten (not beverage),13,produces,0
+Swedish,All,15,vatten (not beverage),13,understands,0.4615
+Swedish,All,16,vatten (not beverage),318,produces,0.0881
+Swedish,All,16,vatten (not beverage),318,understands,0.3585
+Swedish,All,19,vatten (not beverage),152,produces,0.0066
+Swedish,All,19,vatten (not beverage),152,understands,0
+Swedish,All,22,vatten (not beverage),307,produces,0.0684
+Swedish,All,22,vatten (not beverage),307,understands,0
+Swedish,All,25,vatten (not beverage),143,produces,0.1888
+Swedish,All,25,vatten (not beverage),143,understands,0
+Swedish,All,28,vatten (not beverage),139,produces,0.295
+Swedish,All,28,vatten (not beverage),139,understands,0
+American Sign Language,Male,8,WATER,1,produces,0
+American Sign Language,Male,8,WATER,1,understands,0
+American Sign Language,Female,10,WATER,2,produces,0
+American Sign Language,Female,10,WATER,2,understands,0
+American Sign Language,Male,10,WATER,1,produces,0
+American Sign Language,Male,10,WATER,1,understands,0
+American Sign Language,Female,11,WATER,1,produces,0
+American Sign Language,Female,11,WATER,1,understands,0
+American Sign Language,Male,12,WATER,1,produces,0
+American Sign Language,Male,12,WATER,1,understands,0
+American Sign Language,Female,13,WATER,3,produces,0.3333
+American Sign Language,Female,13,WATER,3,understands,0
+American Sign Language,Male,13,WATER,1,produces,0
+American Sign Language,Male,13,WATER,1,understands,0
+American Sign Language,Female,14,WATER,1,produces,1
+American Sign Language,Female,14,WATER,1,understands,0
+American Sign Language,Female,15,WATER,1,produces,0
+American Sign Language,Female,15,WATER,1,understands,0
+American Sign Language,Male,15,WATER,1,produces,0
+American Sign Language,Male,15,WATER,1,understands,0
+American Sign Language,Female,17,WATER,1,produces,0
+American Sign Language,Female,17,WATER,1,understands,0
+American Sign Language,Male,17,WATER,1,produces,1
+American Sign Language,Male,17,WATER,1,understands,0
+American Sign Language,Female,18,WATER,1,produces,1
+American Sign Language,Female,18,WATER,1,understands,0
+American Sign Language,Male,18,WATER,2,produces,0.5
+American Sign Language,Male,18,WATER,2,understands,0
+American Sign Language,Male,19,WATER,1,produces,0
+American Sign Language,Male,19,WATER,1,understands,0
+American Sign Language,Male,20,WATER,1,produces,0
+American Sign Language,Male,20,WATER,1,understands,0
+American Sign Language,Male,21,WATER,1,produces,0
+American Sign Language,Male,21,WATER,1,understands,0
+American Sign Language,Female,22,WATER,1,produces,0
+American Sign Language,Female,22,WATER,1,understands,0
+American Sign Language,Male,22,WATER,1,produces,0
+American Sign Language,Male,22,WATER,1,understands,0
+American Sign Language,Female,23,WATER,2,produces,0
+American Sign Language,Female,23,WATER,2,understands,0
+American Sign Language,Male,23,WATER,1,produces,0
+American Sign Language,Male,23,WATER,1,understands,0
+American Sign Language,Female,24,WATER,1,produces,0
+American Sign Language,Female,24,WATER,1,understands,0
+American Sign Language,Male,24,WATER,2,produces,0
+American Sign Language,Male,24,WATER,2,understands,0
+American Sign Language,Female,25,WATER,2,produces,1
+American Sign Language,Female,25,WATER,2,understands,0
+American Sign Language,Male,27,WATER,2,produces,0.5
+American Sign Language,Male,27,WATER,2,understands,0
+American Sign Language,Female,28,WATER,1,produces,1
+American Sign Language,Female,28,WATER,1,understands,0
+American Sign Language,Male,28,WATER,2,produces,0.5
+American Sign Language,Male,28,WATER,2,understands,0
+American Sign Language,Female,30,WATER,1,produces,0
+American Sign Language,Female,30,WATER,1,understands,0
+American Sign Language,Male,30,WATER,2,produces,1
+American Sign Language,Male,30,WATER,2,understands,0
+American Sign Language,Female,31,WATER,3,produces,0.6667
+American Sign Language,Female,31,WATER,3,understands,0
+American Sign Language,Female,32,WATER,1,produces,0
+American Sign Language,Female,32,WATER,1,understands,0
+American Sign Language,Male,32,WATER,6,produces,0.8333
+American Sign Language,Male,32,WATER,6,understands,0
+American Sign Language,Male,33,WATER,1,produces,1
+American Sign Language,Male,33,WATER,1,understands,0
+American Sign Language,Female,34,WATER,1,produces,1
+American Sign Language,Female,34,WATER,1,understands,0
+American Sign Language,Male,34,WATER,1,produces,0
+American Sign Language,Male,34,WATER,1,understands,0
+American Sign Language,Female,35,WATER,2,produces,1
+American Sign Language,Female,35,WATER,2,understands,0
+American Sign Language,Male,35,WATER,1,produces,1
+American Sign Language,Male,35,WATER,1,understands,0
+British Sign Language,Female,8,water,2,produces,0
+British Sign Language,Female,8,water,2,understands,0
+British Sign Language,Male,8,water,2,produces,0
+British Sign Language,Male,8,water,2,understands,0
+British Sign Language,Female,9,water,3,produces,0
+British Sign Language,Female,9,water,3,understands,0
+British Sign Language,Male,9,water,1,produces,0
+British Sign Language,Male,9,water,1,understands,0
+British Sign Language,Female,10,water,1,produces,0
+British Sign Language,Female,10,water,1,understands,0
+British Sign Language,Male,10,water,3,produces,0
+British Sign Language,Male,10,water,3,understands,0
+British Sign Language,Female,11,water,4,produces,0
+British Sign Language,Female,11,water,4,understands,0
+British Sign Language,Male,11,water,2,produces,0
+British Sign Language,Male,11,water,2,understands,0
+British Sign Language,Female,12,water,3,produces,0
+British Sign Language,Female,12,water,3,understands,0
+British Sign Language,Male,12,water,3,produces,0
+British Sign Language,Male,12,water,3,understands,0
+British Sign Language,Female,13,water,2,produces,0
+British Sign Language,Female,13,water,2,understands,0
+British Sign Language,Male,13,water,4,produces,0
+British Sign Language,Male,13,water,4,understands,0
+British Sign Language,Female,14,water,3,produces,0.3333
+British Sign Language,Female,14,water,3,understands,0.3333
+British Sign Language,Male,14,water,4,produces,0
+British Sign Language,Male,14,water,4,understands,0
+British Sign Language,Female,15,water,4,produces,0
+British Sign Language,Female,15,water,4,understands,0
+British Sign Language,Male,15,water,2,produces,0
+British Sign Language,Male,15,water,2,understands,0
+British Sign Language,Female,16,water,4,produces,0.25
+British Sign Language,Female,16,water,4,understands,0.25
+British Sign Language,Male,16,water,3,produces,0.3333
+British Sign Language,Male,16,water,3,understands,0.3333
+British Sign Language,Female,17,water,2,produces,0
+British Sign Language,Female,17,water,2,understands,0.5
+British Sign Language,Male,17,water,5,produces,0.2
+British Sign Language,Male,17,water,5,understands,0.2
+British Sign Language,Female,18,water,4,produces,0.25
+British Sign Language,Female,18,water,4,understands,0.25
+British Sign Language,Male,18,water,4,produces,0
+British Sign Language,Male,18,water,4,understands,0
+British Sign Language,Female,19,water,4,produces,0.25
+British Sign Language,Female,19,water,4,understands,0.25
+British Sign Language,Male,19,water,4,produces,0
+British Sign Language,Male,19,water,4,understands,0.25
+British Sign Language,Female,20,water,4,produces,0.5
+British Sign Language,Female,20,water,4,understands,0.5
+British Sign Language,Male,20,water,7,produces,0.4286
+British Sign Language,Male,20,water,7,understands,0.7143
+British Sign Language,Female,21,water,3,produces,0
+British Sign Language,Female,21,water,3,understands,0
+British Sign Language,Male,21,water,2,produces,0
+British Sign Language,Male,21,water,2,understands,0
+British Sign Language,Female,22,water,2,produces,0
+British Sign Language,Female,22,water,2,understands,0
+British Sign Language,Male,22,water,4,produces,0.75
+British Sign Language,Male,22,water,4,understands,0.75
+British Sign Language,Female,23,water,2,produces,1
+British Sign Language,Female,23,water,2,understands,1
+British Sign Language,Male,23,water,5,produces,0.4
+British Sign Language,Male,23,water,5,understands,0.4
+British Sign Language,Female,24,water,3,produces,0.3333
+British Sign Language,Female,24,water,3,understands,0.3333
+British Sign Language,Male,24,water,2,produces,0
+British Sign Language,Male,24,water,2,understands,0
+British Sign Language,Female,25,water,1,produces,0
+British Sign Language,Female,25,water,1,understands,0
+British Sign Language,Male,25,water,6,produces,0.5
+British Sign Language,Male,25,water,6,understands,0.5
+British Sign Language,Female,26,water,4,produces,0.75
+British Sign Language,Female,26,water,4,understands,0.75
+British Sign Language,Male,26,water,2,produces,0.5
+British Sign Language,Male,26,water,2,understands,0.5
+British Sign Language,Female,27,water,1,produces,1
+British Sign Language,Female,27,water,1,understands,1
+British Sign Language,Male,27,water,5,produces,0.2
+British Sign Language,Male,27,water,5,understands,0.4
+British Sign Language,Female,28,water,1,produces,0
+British Sign Language,Female,28,water,1,understands,0
+British Sign Language,Male,28,water,2,produces,0.5
+British Sign Language,Male,28,water,2,understands,0.5
+British Sign Language,Female,29,water,2,produces,1
+British Sign Language,Female,29,water,2,understands,1
+British Sign Language,Male,29,water,5,produces,0.8
+British Sign Language,Male,29,water,5,understands,0.8
+British Sign Language,Female,30,water,1,produces,1
+British Sign Language,Female,30,water,1,understands,1
+British Sign Language,Male,30,water,4,produces,0.5
+British Sign Language,Male,30,water,4,understands,0.75
+British Sign Language,Male,31,water,2,produces,0.5
+British Sign Language,Male,31,water,2,understands,0.5
+British Sign Language,Female,32,water,2,produces,1
+British Sign Language,Female,32,water,2,understands,1
+British Sign Language,Male,32,water,4,produces,0.75
+British Sign Language,Male,32,water,4,understands,0.75
+British Sign Language,Female,33,water,1,produces,1
+British Sign Language,Female,33,water,1,understands,1
+British Sign Language,Male,33,water,4,produces,0.75
+British Sign Language,Male,33,water,4,understands,1
+British Sign Language,Female,34,water,1,produces,0
+British Sign Language,Female,34,water,1,understands,1
+British Sign Language,Male,34,water,1,produces,0
+British Sign Language,Male,34,water,1,understands,0
+British Sign Language,Female,35,water,1,produces,1
+British Sign Language,Female,35,water,1,understands,1
+British Sign Language,Male,35,water,1,produces,1
+British Sign Language,Male,35,water,1,understands,1
+British Sign Language,Female,36,water,1,produces,1
+British Sign Language,Female,36,water,1,understands,1
+British Sign Language,Male,36,water,2,produces,1
+British Sign Language,Male,36,water,2,understands,1
+Cantonese,Female,16,水,23,produces,0.0435
+Cantonese,Female,16,水,23,understands,0
+Cantonese,Male,16,水,23,produces,0.1739
+Cantonese,Male,16,水,23,understands,0
+Cantonese,Female,17,水,30,produces,0.3667
+Cantonese,Female,17,水,30,understands,0
+Cantonese,Male,17,水,31,produces,0.1935
+Cantonese,Male,17,水,31,understands,0
+Cantonese,Female,18,水,33,produces,0.4848
+Cantonese,Female,18,水,33,understands,0
+Cantonese,Male,18,水,35,produces,0.2571
+Cantonese,Male,18,水,35,understands,0
+Cantonese,Female,19,水,30,produces,0.5
+Cantonese,Female,19,水,30,understands,0
+Cantonese,Male,19,水,36,produces,0.3611
+Cantonese,Male,19,水,36,understands,0
+Cantonese,Female,20,水,62,produces,0.6774
+Cantonese,Female,20,水,62,understands,0
+Cantonese,Male,20,水,78,produces,0.5128
+Cantonese,Male,20,水,78,understands,0
+Cantonese,Female,21,水,57,produces,0.7895
+Cantonese,Female,21,水,57,understands,0
+Cantonese,Male,21,水,63,produces,0.619
+Cantonese,Male,21,水,63,understands,0
+Cantonese,Female,22,水,34,produces,0.7353
+Cantonese,Female,22,水,34,understands,0
+Cantonese,Male,22,水,34,produces,0.5588
+Cantonese,Male,22,水,34,understands,0
+Cantonese,Female,23,水,37,produces,0.7838
+Cantonese,Female,23,水,37,understands,0
+Cantonese,Male,23,水,37,produces,0.5946
+Cantonese,Male,23,水,37,understands,0
+Cantonese,Female,24,水,32,produces,0.8438
+Cantonese,Female,24,水,32,understands,0
+Cantonese,Male,24,水,36,produces,0.6944
+Cantonese,Male,24,水,36,understands,0
+Cantonese,Female,25,水,31,produces,0.871
+Cantonese,Female,25,水,31,understands,0
+Cantonese,Male,25,水,34,produces,0.9118
+Cantonese,Male,25,水,34,understands,0
+Cantonese,Female,26,水,31,produces,1
+Cantonese,Female,26,水,31,understands,0
+Cantonese,Male,26,水,37,produces,0.8919
+Cantonese,Male,26,水,37,understands,0
+Cantonese,Female,27,水,31,produces,1
+Cantonese,Female,27,水,31,understands,0
+Cantonese,Male,27,水,31,produces,0.9355
+Cantonese,Male,27,水,31,understands,0
+Cantonese,Female,28,水,32,produces,0.9688
+Cantonese,Female,28,水,32,understands,0
+Cantonese,Male,28,水,34,produces,0.9118
+Cantonese,Male,28,水,34,understands,0
+Cantonese,Female,29,水,36,produces,0.9722
+Cantonese,Female,29,水,36,understands,0
+Cantonese,Male,29,水,36,produces,0.9167
+Cantonese,Male,29,水,36,understands,0
+Cantonese,Female,30,水,76,produces,0.9737
+Cantonese,Female,30,水,76,understands,0
+Cantonese,Male,30,水,88,produces,0.9318
+Cantonese,Male,30,水,88,understands,0
+Croatian,Female,8,voda (not beverage),9,produces,0
+Croatian,Female,8,voda (not beverage),9,understands,0
+Croatian,Male,8,voda (not beverage),14,produces,0
+Croatian,Male,8,voda (not beverage),14,understands,0.0714
+Croatian,Female,9,voda (not beverage),16,produces,0
+Croatian,Female,9,voda (not beverage),16,understands,0.125
+Croatian,Male,9,voda (not beverage),9,produces,0
+Croatian,Male,9,voda (not beverage),9,understands,0.1111
+Croatian,Female,10,voda (not beverage),10,produces,0
+Croatian,Female,10,voda (not beverage),10,understands,0.2
+Croatian,Male,10,voda (not beverage),12,produces,0
+Croatian,Male,10,voda (not beverage),12,understands,0.1667
+Croatian,Female,11,voda (not beverage),11,produces,0
+Croatian,Female,11,voda (not beverage),11,understands,0.4545
+Croatian,Male,11,voda (not beverage),14,produces,0
+Croatian,Male,11,voda (not beverage),14,understands,0.0714
+Croatian,Female,12,voda (not beverage),14,produces,0
+Croatian,Female,12,voda (not beverage),14,understands,0.3571
+Croatian,Male,12,voda (not beverage),21,produces,0.0476
+Croatian,Male,12,voda (not beverage),21,understands,0.2857
+Croatian,Female,13,voda (not beverage),15,produces,0.0667
+Croatian,Female,13,voda (not beverage),15,understands,0.4
+Croatian,Male,13,voda (not beverage),19,produces,0
+Croatian,Male,13,voda (not beverage),19,understands,0.5263
+Croatian,Female,14,voda (not beverage),14,produces,0.1429
+Croatian,Female,14,voda (not beverage),14,understands,0.6429
+Croatian,Male,14,voda (not beverage),14,produces,0.0714
+Croatian,Male,14,voda (not beverage),14,understands,0.5714
+Croatian,Female,15,voda (not beverage),16,produces,0
+Croatian,Female,15,voda (not beverage),16,understands,0.5625
+Croatian,Male,15,voda (not beverage),8,produces,0
+Croatian,Male,15,voda (not beverage),8,understands,0.75
+Croatian,Female,16,voda (not beverage),27,produces,0.2593
+Croatian,Female,16,voda (not beverage),27,understands,0.5185
+Croatian,Male,16,voda (not beverage),20,produces,0.2
+Croatian,Male,16,voda (not beverage),20,understands,0.65
+Croatian,Female,17,voda (not beverage),12,produces,0.25
+Croatian,Female,17,voda (not beverage),12,understands,0
+Croatian,Male,17,voda (not beverage),13,produces,0.3077
+Croatian,Male,17,voda (not beverage),13,understands,0
+Croatian,Female,18,voda (not beverage),8,produces,0.375
+Croatian,Female,18,voda (not beverage),8,understands,0
+Croatian,Male,18,voda (not beverage),14,produces,0.2143
+Croatian,Male,18,voda (not beverage),14,understands,0
+Croatian,Female,19,voda (not beverage),14,produces,0.5
+Croatian,Female,19,voda (not beverage),14,understands,0
+Croatian,Male,19,voda (not beverage),7,produces,0.5714
+Croatian,Male,19,voda (not beverage),7,understands,0
+Croatian,Female,20,voda (not beverage),13,produces,0.7692
+Croatian,Female,20,voda (not beverage),13,understands,0
+Croatian,Male,20,voda (not beverage),13,produces,0.3077
+Croatian,Male,20,voda (not beverage),13,understands,0
+Croatian,Female,21,voda (not beverage),13,produces,0.6923
+Croatian,Female,21,voda (not beverage),13,understands,0
+Croatian,Male,21,voda (not beverage),16,produces,0.3125
+Croatian,Male,21,voda (not beverage),16,understands,0
+Croatian,Female,22,voda (not beverage),14,produces,0.7143
+Croatian,Female,22,voda (not beverage),14,understands,0
+Croatian,Male,22,voda (not beverage),10,produces,0.8
+Croatian,Male,22,voda (not beverage),10,understands,0
+Croatian,Female,23,voda (not beverage),14,produces,0.8571
+Croatian,Female,23,voda (not beverage),14,understands,0
+Croatian,Male,23,voda (not beverage),12,produces,0.5833
+Croatian,Male,23,voda (not beverage),12,understands,0
+Croatian,Female,24,voda (not beverage),14,produces,1
+Croatian,Female,24,voda (not beverage),14,understands,0
+Croatian,Male,24,voda (not beverage),16,produces,0.75
+Croatian,Male,24,voda (not beverage),16,understands,0
+Croatian,Female,25,voda (not beverage),14,produces,0.8571
+Croatian,Female,25,voda (not beverage),14,understands,0
+Croatian,Male,25,voda (not beverage),16,produces,0.6875
+Croatian,Male,25,voda (not beverage),16,understands,0
+Croatian,Female,26,voda (not beverage),11,produces,1
+Croatian,Female,26,voda (not beverage),11,understands,0
+Croatian,Male,26,voda (not beverage),18,produces,0.7778
+Croatian,Male,26,voda (not beverage),18,understands,0
+Croatian,Female,27,voda (not beverage),11,produces,1
+Croatian,Female,27,voda (not beverage),11,understands,0
+Croatian,Male,27,voda (not beverage),14,produces,1
+Croatian,Male,27,voda (not beverage),14,understands,0
+Croatian,Female,28,voda (not beverage),8,produces,1
+Croatian,Female,28,voda (not beverage),8,understands,0
+Croatian,Male,28,voda (not beverage),13,produces,0.9231
+Croatian,Male,28,voda (not beverage),13,understands,0
+Croatian,Female,29,voda (not beverage),15,produces,1
+Croatian,Female,29,voda (not beverage),15,understands,0
+Croatian,Male,29,voda (not beverage),13,produces,0.9231
+Croatian,Male,29,voda (not beverage),13,understands,0
+Croatian,Female,30,voda (not beverage),11,produces,1
+Croatian,Female,30,voda (not beverage),11,understands,0
+Croatian,Male,30,voda (not beverage),17,produces,0.9412
+Croatian,Male,30,voda (not beverage),17,understands,0
+Danish,Female,8,vand (not beverage),77,produces,0
+Danish,Female,8,vand (not beverage),77,understands,0.0649
+Danish,Male,8,vand (not beverage),97,produces,0
+Danish,Male,8,vand (not beverage),97,understands,0.0515
+Danish,Female,9,vand (not beverage),94,produces,0
+Danish,Female,9,vand (not beverage),94,understands,0.0319
+Danish,Male,9,vand (not beverage),102,produces,0
+Danish,Male,9,vand (not beverage),102,understands,0.0392
+Danish,Female,10,vand (not beverage),105,produces,0
+Danish,Female,10,vand (not beverage),105,understands,0.0952
+Danish,Male,10,vand (not beverage),77,produces,0
+Danish,Male,10,vand (not beverage),77,understands,0.1299
+Danish,Female,11,vand (not beverage),94,produces,0
+Danish,Female,11,vand (not beverage),94,understands,0.117
+Danish,Male,11,vand (not beverage),106,produces,0.0094
+Danish,Male,11,vand (not beverage),106,understands,0.1132
+Danish,Female,12,vand (not beverage),92,produces,0
+Danish,Female,12,vand (not beverage),92,understands,0.1196
+Danish,Male,12,vand (not beverage),96,produces,0.0208
+Danish,Male,12,vand (not beverage),96,understands,0.25
+Danish,Female,13,vand (not beverage),105,produces,0
+Danish,Female,13,vand (not beverage),105,understands,0.2667
+Danish,Male,13,vand (not beverage),111,produces,0.018
+Danish,Male,13,vand (not beverage),111,understands,0.4054
+Danish,Female,14,vand (not beverage),86,produces,0
+Danish,Female,14,vand (not beverage),86,understands,0.3372
+Danish,Male,14,vand (not beverage),92,produces,0.0109
+Danish,Male,14,vand (not beverage),92,understands,0.4348
+Danish,Female,15,vand (not beverage),112,produces,0.0179
+Danish,Female,15,vand (not beverage),112,understands,0.4375
+Danish,Male,15,vand (not beverage),91,produces,0.022
+Danish,Male,15,vand (not beverage),91,understands,0.5055
+Danish,Female,16,vand (not beverage),184,produces,0.087
+Danish,Female,16,vand (not beverage),184,understands,0.288
+Danish,Male,16,vand (not beverage),175,produces,0.0743
+Danish,Male,16,vand (not beverage),175,understands,0.2343
+Danish,Female,17,vand (not beverage),174,produces,0.1092
+Danish,Female,17,vand (not beverage),174,understands,0.3161
+Danish,Male,17,vand (not beverage),172,produces,0.0988
+Danish,Male,17,vand (not beverage),172,understands,0.3663
+Danish,Female,18,vand (not beverage),188,produces,0.1809
+Danish,Female,18,vand (not beverage),188,understands,0.4043
+Danish,Male,18,vand (not beverage),170,produces,0.2059
+Danish,Male,18,vand (not beverage),170,understands,0.4529
+Danish,Female,19,vand (not beverage),189,produces,0.2328
+Danish,Female,19,vand (not beverage),189,understands,0.3651
+Danish,Male,19,vand (not beverage),172,produces,0.2209
+Danish,Male,19,vand (not beverage),172,understands,0.314
+Danish,Female,20,vand (not beverage),174,produces,0.5
+Danish,Female,20,vand (not beverage),174,understands,0.3736
+Danish,Male,20,vand (not beverage),184,produces,0.3913
+Danish,Male,20,vand (not beverage),184,understands,0.4511
+Danish,Female,21,vand (not beverage),112,produces,0.5625
+Danish,Female,21,vand (not beverage),112,understands,0
+Danish,Male,21,vand (not beverage),124,produces,0.3952
+Danish,Male,21,vand (not beverage),124,understands,0
+Danish,Female,22,vand (not beverage),125,produces,0.64
+Danish,Female,22,vand (not beverage),125,understands,0
+Danish,Male,22,vand (not beverage),110,produces,0.6909
+Danish,Male,22,vand (not beverage),110,understands,0
+Danish,Female,23,vand (not beverage),95,produces,0.7474
+Danish,Female,23,vand (not beverage),95,understands,0
+Danish,Male,23,vand (not beverage),95,produces,0.6421
+Danish,Male,23,vand (not beverage),95,understands,0
+Danish,Female,24,vand (not beverage),112,produces,0.8125
+Danish,Female,24,vand (not beverage),112,understands,0
+Danish,Male,24,vand (not beverage),104,produces,0.7885
+Danish,Male,24,vand (not beverage),104,understands,0
+Danish,Female,25,vand (not beverage),71,produces,0.7746
+Danish,Female,25,vand (not beverage),71,understands,0
+Danish,Male,25,vand (not beverage),67,produces,0.8209
+Danish,Male,25,vand (not beverage),67,understands,0
+Danish,Female,26,vand (not beverage),108,produces,0.9444
+Danish,Female,26,vand (not beverage),108,understands,0
+Danish,Male,26,vand (not beverage),98,produces,0.898
+Danish,Male,26,vand (not beverage),98,understands,0
+Danish,Female,27,vand (not beverage),100,produces,0.97
+Danish,Female,27,vand (not beverage),100,understands,0
+Danish,Male,27,vand (not beverage),76,produces,0.8947
+Danish,Male,27,vand (not beverage),76,understands,0
+Danish,Female,28,vand (not beverage),94,produces,0.9362
+Danish,Female,28,vand (not beverage),94,understands,0
+Danish,Male,28,vand (not beverage),96,produces,0.8958
+Danish,Male,28,vand (not beverage),96,understands,0
+Danish,Female,29,vand (not beverage),102,produces,0.9804
+Danish,Female,29,vand (not beverage),102,understands,0
+Danish,Male,29,vand (not beverage),80,produces,0.8875
+Danish,Male,29,vand (not beverage),80,understands,0
+Danish,Female,30,vand (not beverage),75,produces,0.96
+Danish,Female,30,vand (not beverage),75,understands,0
+Danish,Male,30,vand (not beverage),98,produces,0.9082
+Danish,Male,30,vand (not beverage),98,understands,0
+Danish,Female,31,vand (not beverage),82,produces,0.9634
+Danish,Female,31,vand (not beverage),82,understands,0
+Danish,Male,31,vand (not beverage),93,produces,0.9677
+Danish,Male,31,vand (not beverage),93,understands,0
+Danish,Female,32,vand (not beverage),74,produces,0.973
+Danish,Female,32,vand (not beverage),74,understands,0
+Danish,Male,32,vand (not beverage),69,produces,0.9855
+Danish,Male,32,vand (not beverage),69,understands,0
+Danish,Female,33,vand (not beverage),82,produces,0.9878
+Danish,Female,33,vand (not beverage),82,understands,0
+Danish,Male,33,vand (not beverage),69,produces,0.971
+Danish,Male,33,vand (not beverage),69,understands,0
+Danish,Female,34,vand (not beverage),68,produces,1
+Danish,Female,34,vand (not beverage),68,understands,0
+Danish,Male,34,vand (not beverage),75,produces,0.9867
+Danish,Male,34,vand (not beverage),75,understands,0
+Danish,Female,35,vand (not beverage),56,produces,0.9643
+Danish,Female,35,vand (not beverage),56,understands,0
+Danish,Male,35,vand (not beverage),57,produces,1
+Danish,Male,35,vand (not beverage),57,understands,0
+Danish,Female,36,vand (not beverage),61,produces,1
+Danish,Female,36,vand (not beverage),61,understands,0
+Danish,Male,36,vand (not beverage),65,produces,0.9846
+Danish,Male,36,vand (not beverage),65,understands,0
+English (American),Female,8,water (not beverage),114,produces,0.0088
+English (American),Female,8,water (not beverage),114,understands,0.0789
+English (American),Male,8,water (not beverage),141,produces,0
+English (American),Male,8,water (not beverage),141,understands,0.0993
+English (American),Female,9,water (not beverage),135,produces,0.0074
+English (American),Female,9,water (not beverage),135,understands,0.1407
+English (American),Male,9,water (not beverage),160,produces,0.0187
+English (American),Male,9,water (not beverage),160,understands,0.15
+English (American),Female,10,water (not beverage),119,produces,0.0084
+English (American),Female,10,water (not beverage),119,understands,0.1597
+English (American),Male,10,water (not beverage),144,produces,0.0069
+English (American),Male,10,water (not beverage),144,understands,0.1597
+English (American),Female,11,water (not beverage),171,produces,0.0058
+English (American),Female,11,water (not beverage),171,understands,0.2281
+English (American),Male,11,water (not beverage),189,produces,0.0265
+English (American),Male,11,water (not beverage),189,understands,0.2222
+English (American),Female,12,water (not beverage),279,produces,0.0358
+English (American),Female,12,water (not beverage),279,understands,0.2545
+English (American),Male,12,water (not beverage),334,produces,0.024
+English (American),Male,12,water (not beverage),334,understands,0.2395
+English (American),Female,13,water (not beverage),496,produces,0.0504
+English (American),Female,13,water (not beverage),496,understands,0.4113
+English (American),Male,13,water (not beverage),541,produces,0.0536
+English (American),Male,13,water (not beverage),541,understands,0.4214
+English (American),Female,14,water (not beverage),220,produces,0.0545
+English (American),Female,14,water (not beverage),220,understands,0.4182
+English (American),Male,14,water (not beverage),224,produces,0.067
+English (American),Male,14,water (not beverage),224,understands,0.4062
+English (American),Female,15,water (not beverage),111,produces,0.0991
+English (American),Female,15,water (not beverage),111,understands,0.4775
+English (American),Male,15,water (not beverage),127,produces,0.1339
+English (American),Male,15,water (not beverage),127,understands,0.5118
+English (American),Female,16,water (not beverage),838,produces,0.2852
+English (American),Female,16,water (not beverage),838,understands,0.4081
+English (American),Male,16,water (not beverage),900,produces,0.2233
+English (American),Male,16,water (not beverage),900,understands,0.36
+English (American),Female,17,water (not beverage),332,produces,0.25
+English (American),Female,17,water (not beverage),332,understands,0.3554
+English (American),Male,17,water (not beverage),386,produces,0.2202
+English (American),Male,17,water (not beverage),386,understands,0.2953
+English (American),Female,18,water (not beverage),487,produces,0.3758
+English (American),Female,18,water (not beverage),487,understands,0.3265
+English (American),Male,18,water (not beverage),521,produces,0.2879
+English (American),Male,18,water (not beverage),521,understands,0.3244
+English (American),Female,19,water (not beverage),292,produces,0.5
+English (American),Female,19,water (not beverage),292,understands,0.1952
+English (American),Male,19,water (not beverage),286,produces,0.4126
+English (American),Male,19,water (not beverage),286,understands,0.2063
+English (American),Female,20,water (not beverage),223,produces,0.5202
+English (American),Female,20,water (not beverage),223,understands,0.0807
+English (American),Male,20,water (not beverage),228,produces,0.4079
+English (American),Male,20,water (not beverage),228,understands,0.0132
+English (American),Female,21,water (not beverage),127,produces,0.5433
+English (American),Female,21,water (not beverage),127,understands,0
+English (American),Male,21,water (not beverage),142,produces,0.5282
+English (American),Male,21,water (not beverage),142,understands,0
+English (American),Female,22,water (not beverage),186,produces,0.5591
+English (American),Female,22,water (not beverage),186,understands,0
+English (American),Male,22,water (not beverage),162,produces,0.5
+English (American),Male,22,water (not beverage),162,understands,0
+English (American),Female,23,water (not beverage),211,produces,0.7536
+English (American),Female,23,water (not beverage),211,understands,0.1422
+English (American),Male,23,water (not beverage),240,produces,0.6375
+English (American),Male,23,water (not beverage),240,understands,0.1667
+English (American),Female,24,water (not beverage),397,produces,0.7406
+English (American),Female,24,water (not beverage),397,understands,0.0806
+English (American),Male,24,water (not beverage),487,produces,0.6879
+English (American),Male,24,water (not beverage),487,understands,0.0678
+English (American),Female,25,water (not beverage),314,produces,0.8057
+English (American),Female,25,water (not beverage),314,understands,0.0414
+English (American),Male,25,water (not beverage),348,produces,0.7385
+English (American),Male,25,water (not beverage),348,understands,0.0345
+English (American),Female,26,water (not beverage),173,produces,0.7803
+English (American),Female,26,water (not beverage),173,understands,0
+English (American),Male,26,water (not beverage),197,produces,0.7157
+English (American),Male,26,water (not beverage),197,understands,0
+English (American),Female,27,water (not beverage),158,produces,0.8165
+English (American),Female,27,water (not beverage),158,understands,0
+English (American),Male,27,water (not beverage),154,produces,0.7857
+English (American),Male,27,water (not beverage),154,understands,0
+English (American),Female,28,water (not beverage),416,produces,0.9543
+English (American),Female,28,water (not beverage),416,understands,0
+English (American),Male,28,water (not beverage),492,produces,0.935
+English (American),Male,28,water (not beverage),492,understands,0
+English (American),Female,29,water (not beverage),166,produces,0.8494
+English (American),Female,29,water (not beverage),166,understands,0
+English (American),Male,29,water (not beverage),167,produces,0.8024
+English (American),Male,29,water (not beverage),167,understands,0
+English (American),Female,30,water (not beverage),323,produces,0.8916
+English (American),Female,30,water (not beverage),323,understands,0
+English (American),Male,30,water (not beverage),368,produces,0.8342
+English (American),Male,30,water (not beverage),368,understands,0
+English (Australian),Female,12,water,27,produces,0
+English (Australian),Female,12,water,27,understands,0
+English (Australian),Male,12,water,44,produces,0
+English (Australian),Male,12,water,44,understands,0
+English (Australian),Female,13,water,35,produces,0
+English (Australian),Female,13,water,35,understands,0
+English (Australian),Male,13,water,29,produces,0
+English (Australian),Male,13,water,29,understands,0
+English (Australian),Female,14,water,51,produces,0.0784
+English (Australian),Female,14,water,51,understands,0
+English (Australian),Male,14,water,60,produces,0.0333
+English (Australian),Male,14,water,60,understands,0
+English (Australian),Female,15,water,31,produces,0.0968
+English (Australian),Female,15,water,31,understands,0
+English (Australian),Male,15,water,38,produces,0.0526
+English (Australian),Male,15,water,38,understands,0
+English (Australian),Female,16,water,32,produces,0.0625
+English (Australian),Female,16,water,32,understands,0
+English (Australian),Male,16,water,28,produces,0.1071
+English (Australian),Male,16,water,28,understands,0
+English (Australian),Female,17,water,56,produces,0.2143
+English (Australian),Female,17,water,56,understands,0
+English (Australian),Male,17,water,48,produces,0.125
+English (Australian),Male,17,water,48,understands,0
+English (Australian),Female,18,water,52,produces,0.3269
+English (Australian),Female,18,water,52,understands,0
+English (Australian),Male,18,water,57,produces,0.2105
+English (Australian),Male,18,water,57,understands,0
+English (Australian),Female,19,water,72,produces,0.4861
+English (Australian),Female,19,water,72,understands,0
+English (Australian),Male,19,water,52,produces,0.4423
+English (Australian),Male,19,water,52,understands,0
+English (Australian),Female,20,water,40,produces,0.625
+English (Australian),Female,20,water,40,understands,0
+English (Australian),Male,20,water,38,produces,0.4474
+English (Australian),Male,20,water,38,understands,0
+English (Australian),Female,21,water,39,produces,0.5641
+English (Australian),Female,21,water,39,understands,0
+English (Australian),Male,21,water,25,produces,0.44
+English (Australian),Male,21,water,25,understands,0
+English (Australian),Female,22,water,27,produces,0.6296
+English (Australian),Female,22,water,27,understands,0
+English (Australian),Male,22,water,46,produces,0.7174
+English (Australian),Male,22,water,46,understands,0
+English (Australian),Female,23,water,39,produces,0.8462
+English (Australian),Female,23,water,39,understands,0
+English (Australian),Male,23,water,32,produces,0.7812
+English (Australian),Male,23,water,32,understands,0
+English (Australian),Female,24,water,36,produces,0.8333
+English (Australian),Female,24,water,36,understands,0
+English (Australian),Male,24,water,40,produces,0.7
+English (Australian),Male,24,water,40,understands,0
+English (Australian),Female,25,water,44,produces,0.9091
+English (Australian),Female,25,water,44,understands,0
+English (Australian),Male,25,water,41,produces,0.7073
+English (Australian),Male,25,water,41,understands,0
+English (Australian),Female,26,water,40,produces,0.9
+English (Australian),Female,26,water,40,understands,0
+English (Australian),Male,26,water,37,produces,0.7838
+English (Australian),Male,26,water,37,understands,0
+English (Australian),Female,27,water,36,produces,0.9444
+English (Australian),Female,27,water,36,understands,0
+English (Australian),Male,27,water,36,produces,0.8889
+English (Australian),Male,27,water,36,understands,0
+English (Australian),Female,28,water,27,produces,0.8889
+English (Australian),Female,28,water,27,understands,0
+English (Australian),Male,28,water,40,produces,0.925
+English (Australian),Male,28,water,40,understands,0
+English (Australian),Female,29,water,33,produces,0.9394
+English (Australian),Female,29,water,33,understands,0
+English (Australian),Male,29,water,32,produces,0.875
+English (Australian),Male,29,water,32,understands,0
+English (Australian),Female,30,water,28,produces,1
+English (Australian),Female,30,water,28,understands,0
+English (Australian),Male,30,water,25,produces,0.92
+English (Australian),Male,30,water,25,understands,0
+English (British),Female,12,water,13,produces,0
+English (British),Female,12,water,13,understands,0.2308
+English (British),Male,12,water,14,produces,0
+English (British),Male,12,water,14,understands,0.3571
+English (British),Female,13,water,2,produces,0
+English (British),Female,13,water,2,understands,0.5
+English (British),Male,13,water,5,produces,0
+English (British),Male,13,water,5,understands,0
+English (British),Female,14,water,27,produces,0.037
+English (British),Female,14,water,27,understands,0.4444
+English (British),Male,14,water,37,produces,0.027
+English (British),Male,14,water,37,understands,0.3243
+English (British),Female,15,water,38,produces,0.0263
+English (British),Female,15,water,38,understands,0.4737
+English (British),Male,15,water,50,produces,0
+English (British),Male,15,water,50,understands,0.5
+English (British),Female,16,water,58,produces,0.0345
+English (British),Female,16,water,58,understands,0.6552
+English (British),Male,16,water,60,produces,0.0833
+English (British),Male,16,water,60,understands,0.5833
+English (British),Female,17,water,90,produces,0.1889
+English (British),Female,17,water,90,understands,0.6667
+English (British),Male,17,water,107,produces,0.0748
+English (British),Male,17,water,107,understands,0.7009
+English (British),Female,18,water,58,produces,0.1552
+English (British),Female,18,water,58,understands,0.6897
+English (British),Male,18,water,60,produces,0.1667
+English (British),Male,18,water,60,understands,0.6667
+English (British),Female,19,water,52,produces,0.2692
+English (British),Female,19,water,52,understands,0.7308
+English (British),Male,19,water,57,produces,0.2105
+English (British),Male,19,water,57,understands,0.7368
+English (British),Female,20,water,64,produces,0.4219
+English (British),Female,20,water,64,understands,0.8594
+English (British),Male,20,water,80,produces,0.325
+English (British),Male,20,water,80,understands,0.85
+English (British),Female,21,water,32,produces,0.5
+English (British),Female,21,water,32,understands,0.875
+English (British),Male,21,water,43,produces,0.3953
+English (British),Male,21,water,43,understands,0.9302
+English (British),Female,22,water,12,produces,0.6667
+English (British),Female,22,water,12,understands,0.8333
+English (British),Male,22,water,16,produces,0.5
+English (British),Male,22,water,16,understands,0.8125
+English (British),Female,23,water,50,produces,0.72
+English (British),Female,23,water,50,understands,0.9
+English (British),Male,23,water,62,produces,0.5806
+English (British),Male,23,water,62,understands,0.8871
+English (British),Female,24,water,42,produces,0.6905
+English (British),Female,24,water,42,understands,0.9286
+English (British),Male,24,water,45,produces,0.6889
+English (British),Male,24,water,45,understands,0.9111
+English (British),Female,25,water,21,produces,0.9048
+English (British),Female,25,water,21,understands,0.9048
+English (British),Male,25,water,15,produces,0.6667
+English (British),Male,25,water,15,understands,0.9333
+English (Irish),Female,17,water,1,produces,0
+English (Irish),Female,17,water,1,understands,0
+English (Irish),Male,17,water,1,produces,0
+English (Irish),Male,17,water,1,understands,0
+English (Irish),Female,18,water,1,produces,0
+English (Irish),Female,18,water,1,understands,0
+English (Irish),Female,19,water,1,produces,0
+English (Irish),Female,19,water,1,understands,0
+English (Irish),Male,19,water,1,produces,0
+English (Irish),Male,19,water,1,understands,0
+English (Irish),Female,20,water,1,produces,0
+English (Irish),Female,20,water,1,understands,0
+English (Irish),Female,21,water,2,produces,0
+English (Irish),Female,21,water,2,understands,0
+English (Irish),Male,21,water,1,produces,0
+English (Irish),Male,21,water,1,understands,0
+English (Irish),Female,22,water,3,produces,0
+English (Irish),Female,22,water,3,understands,0
+English (Irish),Male,22,water,1,produces,0
+English (Irish),Male,22,water,1,understands,0
+English (Irish),Female,23,water,2,produces,0
+English (Irish),Female,23,water,2,understands,0
+English (Irish),Male,23,water,2,produces,0
+English (Irish),Male,23,water,2,understands,0
+English (Irish),Female,24,water,2,produces,1
+English (Irish),Female,24,water,2,understands,0
+English (Irish),Male,24,water,2,produces,0
+English (Irish),Male,24,water,2,understands,0
+English (Irish),Female,25,water,3,produces,0
+English (Irish),Female,25,water,3,understands,0
+English (Irish),Male,25,water,3,produces,0.3333
+English (Irish),Male,25,water,3,understands,0
+English (Irish),Female,26,water,7,produces,0
+English (Irish),Female,26,water,7,understands,0
+English (Irish),Male,26,water,3,produces,0.3333
+English (Irish),Male,26,water,3,understands,0
+English (Irish),Female,27,water,1,produces,1
+English (Irish),Female,27,water,1,understands,0
+English (Irish),Male,27,water,4,produces,0
+English (Irish),Male,27,water,4,understands,0
+English (Irish),Female,28,water,4,produces,0.25
+English (Irish),Female,28,water,4,understands,0
+English (Irish),Male,28,water,3,produces,0.3333
+English (Irish),Male,28,water,3,understands,0
+English (Irish),Female,29,water,1,produces,0
+English (Irish),Female,29,water,1,understands,0
+English (Irish),Male,29,water,3,produces,0.6667
+English (Irish),Male,29,water,3,understands,0
+English (Irish),Female,30,water,5,produces,0.4
+English (Irish),Female,30,water,5,understands,0
+English (Irish),Male,30,water,4,produces,0
+English (Irish),Male,30,water,4,understands,0
+English (Irish),Female,31,water,3,produces,0.3333
+English (Irish),Female,31,water,3,understands,0
+English (Irish),Male,31,water,5,produces,0.6
+English (Irish),Male,31,water,5,understands,0
+English (Irish),Female,32,water,2,produces,0.5
+English (Irish),Female,32,water,2,understands,0
+English (Irish),Male,32,water,2,produces,1
+English (Irish),Male,32,water,2,understands,0
+English (Irish),Female,33,water,1,produces,0
+English (Irish),Female,33,water,1,understands,0
+English (Irish),Male,33,water,4,produces,0.25
+English (Irish),Male,33,water,4,understands,0
+English (Irish),Female,34,water,2,produces,0
+English (Irish),Female,34,water,2,understands,0
+English (Irish),Male,34,water,2,produces,1
+English (Irish),Male,34,water,2,understands,0
+English (Irish),Female,35,water,2,produces,0
+English (Irish),Female,35,water,2,understands,0
+English (Irish),Male,35,water,9,produces,0.4444
+English (Irish),Male,35,water,9,understands,0
+English (Irish),Female,36,water,3,produces,0.3333
+English (Irish),Female,36,water,3,understands,0
+English (Irish),Male,36,water,2,produces,0.5
+English (Irish),Male,36,water,2,understands,0
+Estonian,Female,16,vesi0,19,produces,0.1579
+Estonian,Female,16,vesi0,19,understands,0
+Estonian,Male,16,vesi0,17,produces,0.1176
+Estonian,Male,16,vesi0,17,understands,0
+Estonian,Female,17,vesi0,42,produces,0.2857
+Estonian,Female,17,vesi0,42,understands,0
+Estonian,Male,17,vesi0,47,produces,0.0851
+Estonian,Male,17,vesi0,47,understands,0
+Estonian,Female,18,vesi0,52,produces,0.4038
+Estonian,Female,18,vesi0,52,understands,0
+Estonian,Male,18,vesi0,51,produces,0.2353
+Estonian,Male,18,vesi0,51,understands,0
+Estonian,Female,19,vesi0,44,produces,0.4091
+Estonian,Female,19,vesi0,44,understands,0
+Estonian,Male,19,vesi0,41,produces,0.3171
+Estonian,Male,19,vesi0,41,understands,0
+Estonian,Female,20,vesi0,36,produces,0.3889
+Estonian,Female,20,vesi0,36,understands,0
+Estonian,Male,20,vesi0,24,produces,0.5417
+Estonian,Male,20,vesi0,24,understands,0
+Estonian,Female,21,vesi0,28,produces,0.5357
+Estonian,Female,21,vesi0,28,understands,0
+Estonian,Male,21,vesi0,38,produces,0.3421
+Estonian,Male,21,vesi0,38,understands,0
+Estonian,Female,22,vesi0,45,produces,0.4222
+Estonian,Female,22,vesi0,45,understands,0
+Estonian,Male,22,vesi0,31,produces,0.3871
+Estonian,Male,22,vesi0,31,understands,0
+Estonian,Female,23,vesi0,48,produces,0.7083
+Estonian,Female,23,vesi0,48,understands,0
+Estonian,Male,23,vesi0,47,produces,0.5532
+Estonian,Male,23,vesi0,47,understands,0
+Estonian,Female,24,vesi0,52,produces,0.6731
+Estonian,Female,24,vesi0,52,understands,0
+Estonian,Male,24,vesi0,64,produces,0.625
+Estonian,Male,24,vesi0,64,understands,0
+Estonian,Female,25,vesi0,45,produces,0.8667
+Estonian,Female,25,vesi0,45,understands,0
+Estonian,Male,25,vesi0,37,produces,0.6757
+Estonian,Male,25,vesi0,37,understands,0
+Estonian,Female,26,vesi0,45,produces,0.8889
+Estonian,Female,26,vesi0,45,understands,0
+Estonian,Male,26,vesi0,39,produces,0.6667
+Estonian,Male,26,vesi0,39,understands,0
+Estonian,Female,27,vesi0,44,produces,0.9318
+Estonian,Female,27,vesi0,44,understands,0
+Estonian,Male,27,vesi0,36,produces,0.6944
+Estonian,Male,27,vesi0,36,understands,0
+Estonian,Female,28,vesi0,44,produces,0.9318
+Estonian,Female,28,vesi0,44,understands,0
+Estonian,Male,28,vesi0,48,produces,0.8333
+Estonian,Male,28,vesi0,48,understands,0
+Estonian,Female,29,vesi0,59,produces,0.8475
+Estonian,Female,29,vesi0,59,understands,0
+Estonian,Male,29,vesi0,41,produces,0.9268
+Estonian,Male,29,vesi0,41,understands,0
+Estonian,Female,30,vesi0,37,produces,0.9459
+Estonian,Female,30,vesi0,37,understands,0
+Estonian,Male,30,vesi0,34,produces,0.9412
+Estonian,Male,30,vesi0,34,understands,0
+French (French),Female,8,eau,2,produces,0
+French (French),Female,8,eau,2,understands,0
+French (French),Male,8,eau,5,produces,0
+French (French),Male,8,eau,5,understands,0
+French (French),Female,9,eau,2,produces,0.5
+French (French),Female,9,eau,2,understands,0.5
+French (French),Male,9,eau,5,produces,0
+French (French),Male,9,eau,5,understands,0
+French (French),Female,10,eau,7,produces,0.1429
+French (French),Female,10,eau,7,understands,0.1429
+French (French),Male,10,eau,6,produces,0.1667
+French (French),Male,10,eau,6,understands,0.1667
+French (French),Female,11,eau,8,produces,0
+French (French),Female,11,eau,8,understands,0
+French (French),Male,11,eau,6,produces,0.1667
+French (French),Male,11,eau,6,understands,0.1667
+French (French),Female,12,eau,19,produces,0.2632
+French (French),Female,12,eau,19,understands,0.2632
+French (French),Male,12,eau,19,produces,0.1053
+French (French),Male,12,eau,19,understands,0.1053
+French (French),Female,13,eau,36,produces,0.0833
+French (French),Female,13,eau,36,understands,0.2222
+French (French),Male,13,eau,30,produces,0.1
+French (French),Male,13,eau,30,understands,0.1333
+French (French),Female,14,eau,17,produces,0.2353
+French (French),Female,14,eau,17,understands,0.2941
+French (French),Male,14,eau,20,produces,0.1
+French (French),Male,14,eau,20,understands,0.1
+French (French),Female,15,eau,11,produces,0.2727
+French (French),Female,15,eau,11,understands,0.4545
+French (French),Male,15,eau,13,produces,0.3846
+French (French),Male,15,eau,13,understands,0.3846
+French (French),Female,16,eau,25,produces,0.24
+French (French),Female,16,eau,25,understands,0
+French (French),Male,16,eau,27,produces,0.1111
+French (French),Male,16,eau,27,understands,0.037
+French (French),Female,17,eau,25,produces,0.24
+French (French),Female,17,eau,25,understands,0
+French (French),Male,17,eau,23,produces,0.2174
+French (French),Male,17,eau,23,understands,0
+French (French),Female,18,eau,27,produces,0.4444
+French (French),Female,18,eau,27,understands,0
+French (French),Male,18,eau,21,produces,0.4286
+French (French),Male,18,eau,21,understands,0
+French (French),Female,19,eau,22,produces,0.5
+French (French),Female,19,eau,22,understands,0
+French (French),Male,19,eau,17,produces,0.3529
+French (French),Male,19,eau,17,understands,0
+French (French),Female,20,eau,42,produces,0.6667
+French (French),Female,20,eau,42,understands,0
+French (French),Male,20,eau,35,produces,0.4571
+French (French),Male,20,eau,35,understands,0
+French (French),Female,21,eau,55,produces,0.6364
+French (French),Female,21,eau,55,understands,0
+French (French),Male,21,eau,38,produces,0.6579
+French (French),Male,21,eau,38,understands,0
+French (French),Female,22,eau,60,produces,0.7667
+French (French),Female,22,eau,60,understands,0
+French (French),Male,22,eau,38,produces,0.7105
+French (French),Male,22,eau,38,understands,0
+French (French),Female,23,eau,40,produces,0.7
+French (French),Female,23,eau,40,understands,0
+French (French),Male,23,eau,44,produces,0.6136
+French (French),Male,23,eau,44,understands,0
+French (French),Female,24,eau,65,produces,0.8308
+French (French),Female,24,eau,65,understands,0
+French (French),Male,24,eau,72,produces,0.7083
+French (French),Male,24,eau,72,understands,0
+French (French),Female,25,eau,39,produces,0.7949
+French (French),Female,25,eau,39,understands,0
+French (French),Male,25,eau,46,produces,0.8696
+French (French),Male,25,eau,46,understands,0
+French (French),Female,26,eau,31,produces,0.871
+French (French),Female,26,eau,31,understands,0
+French (French),Male,26,eau,32,produces,0.75
+French (French),Male,26,eau,32,understands,0
+French (French),Female,27,eau,28,produces,0.75
+French (French),Female,27,eau,28,understands,0
+French (French),Male,27,eau,24,produces,0.625
+French (French),Male,27,eau,24,understands,0
+French (French),Female,28,eau,33,produces,0.8182
+French (French),Female,28,eau,33,understands,0
+French (French),Male,28,eau,43,produces,0.814
+French (French),Male,28,eau,43,understands,0
+French (French),Female,29,eau,32,produces,0.875
+French (French),Female,29,eau,32,understands,0
+French (French),Male,29,eau,33,produces,0.7879
+French (French),Male,29,eau,33,understands,0
+French (French),Female,30,eau,34,produces,0.7941
+French (French),Female,30,eau,34,understands,0
+French (French),Male,30,eau,33,produces,0.7576
+French (French),Male,30,eau,33,understands,0
+French (Quebecois),Female,8,eau (not beverage),49,produces,0
+French (Quebecois),Female,8,eau (not beverage),49,understands,0.1837
+French (Quebecois),Male,8,eau (not beverage),54,produces,0
+French (Quebecois),Male,8,eau (not beverage),54,understands,0.1852
+French (Quebecois),Female,9,eau (not beverage),79,produces,0
+French (Quebecois),Female,9,eau (not beverage),79,understands,0.3291
+French (Quebecois),Male,9,eau (not beverage),88,produces,0
+French (Quebecois),Male,9,eau (not beverage),88,understands,0.2045
+French (Quebecois),Female,10,eau (not beverage),40,produces,0
+French (Quebecois),Female,10,eau (not beverage),40,understands,0.275
+French (Quebecois),Male,10,eau (not beverage),46,produces,0
+French (Quebecois),Male,10,eau (not beverage),46,understands,0.1957
+French (Quebecois),Female,11,eau (not beverage),41,produces,0
+French (Quebecois),Female,11,eau (not beverage),41,understands,0.3415
+French (Quebecois),Male,11,eau (not beverage),40,produces,0
+French (Quebecois),Male,11,eau (not beverage),40,understands,0.375
+French (Quebecois),Female,12,eau (not beverage),72,produces,0.0139
+French (Quebecois),Female,12,eau (not beverage),72,understands,0.4167
+French (Quebecois),Male,12,eau (not beverage),94,produces,0.0319
+French (Quebecois),Male,12,eau (not beverage),94,understands,0.4574
+French (Quebecois),Female,13,eau (not beverage),49,produces,0.0408
+French (Quebecois),Female,13,eau (not beverage),49,understands,0.5714
+French (Quebecois),Male,13,eau (not beverage),76,produces,0.0526
+French (Quebecois),Male,13,eau (not beverage),76,understands,0.5263
+French (Quebecois),Female,14,eau (not beverage),132,produces,0.1439
+French (Quebecois),Female,14,eau (not beverage),132,understands,0.5758
+French (Quebecois),Male,14,eau (not beverage),96,produces,0.0312
+French (Quebecois),Male,14,eau (not beverage),96,understands,0.4688
+French (Quebecois),Female,15,eau (not beverage),39,produces,0.1538
+French (Quebecois),Female,15,eau (not beverage),39,understands,0.7179
+French (Quebecois),Male,15,eau (not beverage),62,produces,0.1452
+French (Quebecois),Male,15,eau (not beverage),62,understands,0.6613
+French (Quebecois),Female,16,eau (not beverage),57,produces,0.4035
+French (Quebecois),Female,16,eau (not beverage),57,understands,0.4561
+French (Quebecois),Male,16,eau (not beverage),51,produces,0.3333
+French (Quebecois),Male,16,eau (not beverage),51,understands,0.451
+French (Quebecois),Female,17,eau (not beverage),30,produces,0.6667
+French (Quebecois),Female,17,eau (not beverage),30,understands,0
+French (Quebecois),Male,17,eau (not beverage),31,produces,0.4839
+French (Quebecois),Male,17,eau (not beverage),31,understands,0
+French (Quebecois),Female,18,eau (not beverage),53,produces,0.6981
+French (Quebecois),Female,18,eau (not beverage),53,understands,0
+French (Quebecois),Male,18,eau (not beverage),46,produces,0.3696
+French (Quebecois),Male,18,eau (not beverage),46,understands,0
+French (Quebecois),Female,19,eau (not beverage),41,produces,0.7805
+French (Quebecois),Female,19,eau (not beverage),41,understands,0
+French (Quebecois),Male,19,eau (not beverage),50,produces,0.46
+French (Quebecois),Male,19,eau (not beverage),50,understands,0
+French (Quebecois),Female,20,eau (not beverage),90,produces,0.6667
+French (Quebecois),Female,20,eau (not beverage),90,understands,0
+French (Quebecois),Male,20,eau (not beverage),105,produces,0.5429
+French (Quebecois),Male,20,eau (not beverage),105,understands,0
+French (Quebecois),Female,21,eau (not beverage),56,produces,0.8571
+French (Quebecois),Female,21,eau (not beverage),56,understands,0
+French (Quebecois),Male,21,eau (not beverage),53,produces,0.7358
+French (Quebecois),Male,21,eau (not beverage),53,understands,0
+French (Quebecois),Female,22,eau (not beverage),42,produces,0.8333
+French (Quebecois),Female,22,eau (not beverage),42,understands,0
+French (Quebecois),Male,22,eau (not beverage),44,produces,0.75
+French (Quebecois),Male,22,eau (not beverage),44,understands,0
+French (Quebecois),Female,23,eau (not beverage),41,produces,0.8049
+French (Quebecois),Female,23,eau (not beverage),41,understands,0
+French (Quebecois),Male,23,eau (not beverage),45,produces,0.8444
+French (Quebecois),Male,23,eau (not beverage),45,understands,0
+French (Quebecois),Female,24,eau (not beverage),56,produces,0.8036
+French (Quebecois),Female,24,eau (not beverage),56,understands,0
+French (Quebecois),Male,24,eau (not beverage),76,produces,0.8553
+French (Quebecois),Male,24,eau (not beverage),76,understands,0
+French (Quebecois),Female,25,eau (not beverage),41,produces,0.9756
+French (Quebecois),Female,25,eau (not beverage),41,understands,0
+French (Quebecois),Male,25,eau (not beverage),45,produces,0.8
+French (Quebecois),Male,25,eau (not beverage),45,understands,0
+French (Quebecois),Female,26,eau (not beverage),46,produces,0.9565
+French (Quebecois),Female,26,eau (not beverage),46,understands,0
+French (Quebecois),Male,26,eau (not beverage),49,produces,0.7755
+French (Quebecois),Male,26,eau (not beverage),49,understands,0
+French (Quebecois),Female,27,eau (not beverage),40,produces,0.975
+French (Quebecois),Female,27,eau (not beverage),40,understands,0
+French (Quebecois),Male,27,eau (not beverage),34,produces,0.9706
+French (Quebecois),Male,27,eau (not beverage),34,understands,0
+French (Quebecois),Female,28,eau (not beverage),28,produces,0.9643
+French (Quebecois),Female,28,eau (not beverage),28,understands,0
+French (Quebecois),Male,28,eau (not beverage),32,produces,1
+French (Quebecois),Male,28,eau (not beverage),32,understands,0
+French (Quebecois),Female,29,eau (not beverage),35,produces,0.9143
+French (Quebecois),Female,29,eau (not beverage),35,understands,0
+French (Quebecois),Male,29,eau (not beverage),35,produces,0.9714
+French (Quebecois),Male,29,eau (not beverage),35,understands,0
+French (Quebecois),Female,30,eau (not beverage),41,produces,0.9512
+French (Quebecois),Female,30,eau (not beverage),41,understands,0
+French (Quebecois),Male,30,eau (not beverage),59,produces,0.8814
+French (Quebecois),Male,30,eau (not beverage),59,understands,0
+Greek (Cypriot),Female,18,νερό,24,produces,0.5833
+Greek (Cypriot),Female,18,νερό,24,understands,0
+Greek (Cypriot),Male,18,νερό,21,produces,0.381
+Greek (Cypriot),Male,18,νερό,21,understands,0
+Greek (Cypriot),Female,21,νερό,19,produces,0.7368
+Greek (Cypriot),Female,21,νερό,19,understands,0
+Greek (Cypriot),Male,21,νερό,17,produces,0.4118
+Greek (Cypriot),Male,21,νερό,17,understands,0
+Greek (Cypriot),Female,24,νερό,12,produces,0.8333
+Greek (Cypriot),Female,24,νερό,12,understands,0
+Greek (Cypriot),Male,24,νερό,20,produces,0.85
+Greek (Cypriot),Male,24,νερό,20,understands,0
+Greek (Cypriot),Female,27,νερό,16,produces,0.9375
+Greek (Cypriot),Female,27,νερό,16,understands,0
+Greek (Cypriot),Male,27,νερό,13,produces,0.8462
+Greek (Cypriot),Male,27,νερό,13,understands,0
+Greek (Cypriot),Female,30,νερό,12,produces,0.9167
+Greek (Cypriot),Female,30,νερό,12,understands,0
+Greek (Cypriot),Male,30,νερό,22,produces,1
+Greek (Cypriot),Male,30,νερό,22,understands,0
+Hungarian,Female,16,víz,11,produces,0.0909
+Hungarian,Female,16,víz,11,understands,0
+Hungarian,Male,16,víz,10,produces,0.1
+Hungarian,Male,16,víz,10,understands,0
+Hungarian,Female,17,víz,11,produces,0.2727
+Hungarian,Female,17,víz,11,understands,0
+Hungarian,Male,17,víz,7,produces,0.2857
+Hungarian,Male,17,víz,7,understands,0
+Hungarian,Female,18,víz,9,produces,0.2222
+Hungarian,Female,18,víz,9,understands,0
+Hungarian,Male,18,víz,9,produces,0.3333
+Hungarian,Male,18,víz,9,understands,0
+Hungarian,Female,19,víz,13,produces,0.2308
+Hungarian,Female,19,víz,13,understands,0
+Hungarian,Male,19,víz,12,produces,0.75
+Hungarian,Male,19,víz,12,understands,0
+Hungarian,Female,20,víz,12,produces,0.5833
+Hungarian,Female,20,víz,12,understands,0
+Hungarian,Male,20,víz,6,produces,0.3333
+Hungarian,Male,20,víz,6,understands,0
+Hungarian,Female,21,víz,16,produces,0.8125
+Hungarian,Female,21,víz,16,understands,0
+Hungarian,Male,21,víz,20,produces,0.7
+Hungarian,Male,21,víz,20,understands,0
+Hungarian,Female,22,víz,14,produces,0.8571
+Hungarian,Female,22,víz,14,understands,0
+Hungarian,Male,22,víz,13,produces,0.7692
+Hungarian,Male,22,víz,13,understands,0
+Hungarian,Female,23,víz,6,produces,0.8333
+Hungarian,Female,23,víz,6,understands,0
+Hungarian,Male,23,víz,12,produces,0.6667
+Hungarian,Male,23,víz,12,understands,0
+Hungarian,Female,24,víz,14,produces,0.7143
+Hungarian,Female,24,víz,14,understands,0
+Hungarian,Male,24,víz,24,produces,0.6667
+Hungarian,Male,24,víz,24,understands,0
+Hungarian,Female,25,víz,17,produces,0.8235
+Hungarian,Female,25,víz,17,understands,0
+Hungarian,Male,25,víz,25,produces,0.92
+Hungarian,Male,25,víz,25,understands,0
+Hungarian,Female,26,víz,9,produces,0.7778
+Hungarian,Female,26,víz,9,understands,0
+Hungarian,Male,26,víz,14,produces,0.8571
+Hungarian,Male,26,víz,14,understands,0
+Hungarian,Female,27,víz,13,produces,0.7692
+Hungarian,Female,27,víz,13,understands,0
+Hungarian,Male,27,víz,13,produces,0.7692
+Hungarian,Male,27,víz,13,understands,0
+Hungarian,Female,28,víz,11,produces,1
+Hungarian,Female,28,víz,11,understands,0
+Hungarian,Male,28,víz,18,produces,0.7778
+Hungarian,Male,28,víz,18,understands,0
+Hungarian,Female,29,víz,8,produces,1
+Hungarian,Female,29,víz,8,understands,0
+Hungarian,Male,29,víz,4,produces,0.75
+Hungarian,Male,29,víz,4,understands,0
+Hungarian,Female,30,víz,3,produces,1
+Hungarian,Female,30,víz,3,understands,0
+Hungarian,Male,30,víz,15,produces,0.8
+Hungarian,Male,30,víz,15,understands,0
+Irish,Female,17,uisce,1,produces,0
+Irish,Female,17,uisce,1,understands,0
+Irish,Male,17,uisce,1,produces,1
+Irish,Male,17,uisce,1,understands,0
+Irish,Female,18,uisce,1,produces,1
+Irish,Female,18,uisce,1,understands,0
+Irish,Female,19,uisce,1,produces,1
+Irish,Female,19,uisce,1,understands,0
+Irish,Male,19,uisce,1,produces,1
+Irish,Male,19,uisce,1,understands,0
+Irish,Female,20,uisce,1,produces,1
+Irish,Female,20,uisce,1,understands,0
+Irish,Female,21,uisce,2,produces,0.5
+Irish,Female,21,uisce,2,understands,0
+Irish,Male,21,uisce,1,produces,0
+Irish,Male,21,uisce,1,understands,0
+Irish,Female,22,uisce,3,produces,1
+Irish,Female,22,uisce,3,understands,0
+Irish,Male,22,uisce,1,produces,1
+Irish,Male,22,uisce,1,understands,0
+Irish,Female,23,uisce,2,produces,0.5
+Irish,Female,23,uisce,2,understands,0
+Irish,Male,23,uisce,2,produces,0.5
+Irish,Male,23,uisce,2,understands,0
+Irish,Female,24,uisce,2,produces,1
+Irish,Female,24,uisce,2,understands,0
+Irish,Male,24,uisce,2,produces,0.5
+Irish,Male,24,uisce,2,understands,0
+Irish,Female,25,uisce,3,produces,1
+Irish,Female,25,uisce,3,understands,0
+Irish,Male,25,uisce,3,produces,0.6667
+Irish,Male,25,uisce,3,understands,0
+Irish,Female,26,uisce,7,produces,1
+Irish,Female,26,uisce,7,understands,0
+Irish,Male,26,uisce,3,produces,1
+Irish,Male,26,uisce,3,understands,0
+Irish,Female,27,uisce,1,produces,1
+Irish,Female,27,uisce,1,understands,0
+Irish,Male,27,uisce,4,produces,1
+Irish,Male,27,uisce,4,understands,0
+Irish,Female,28,uisce,4,produces,1
+Irish,Female,28,uisce,4,understands,0
+Irish,Male,28,uisce,3,produces,0.6667
+Irish,Male,28,uisce,3,understands,0
+Irish,Female,29,uisce,1,produces,1
+Irish,Female,29,uisce,1,understands,0
+Irish,Male,29,uisce,3,produces,1
+Irish,Male,29,uisce,3,understands,0
+Irish,Female,30,uisce,5,produces,0.8
+Irish,Female,30,uisce,5,understands,0
+Irish,Male,30,uisce,4,produces,1
+Irish,Male,30,uisce,4,understands,0
+Irish,Female,31,uisce,3,produces,1
+Irish,Female,31,uisce,3,understands,0
+Irish,Male,31,uisce,5,produces,0.8
+Irish,Male,31,uisce,5,understands,0
+Irish,Female,32,uisce,2,produces,0.5
+Irish,Female,32,uisce,2,understands,0
+Irish,Male,32,uisce,2,produces,1
+Irish,Male,32,uisce,2,understands,0
+Irish,Female,33,uisce,1,produces,1
+Irish,Female,33,uisce,1,understands,0
+Irish,Male,33,uisce,4,produces,1
+Irish,Male,33,uisce,4,understands,0
+Irish,Female,34,uisce,2,produces,1
+Irish,Female,34,uisce,2,understands,0
+Irish,Male,34,uisce,2,produces,1
+Irish,Male,34,uisce,2,understands,0
+Irish,Female,35,uisce,2,produces,1
+Irish,Female,35,uisce,2,understands,0
+Irish,Male,35,uisce,9,produces,1
+Irish,Male,35,uisce,9,understands,0
+Irish,Female,36,uisce,3,produces,0.6667
+Irish,Female,36,uisce,3,understands,0
+Irish,Male,36,uisce,2,produces,1
+Irish,Male,36,uisce,2,understands,0
+Kigiriama,Female,8,Madzi,5,produces,0.2
+Kigiriama,Female,8,Madzi,5,understands,0.8
+Kigiriama,Female,9,Madzi,10,produces,0
+Kigiriama,Female,9,Madzi,10,understands,0.7
+Kigiriama,Male,9,Madzi,12,produces,0
+Kigiriama,Male,9,Madzi,12,understands,0.5833
+Kigiriama,Female,10,Madzi,3,produces,0
+Kigiriama,Female,10,Madzi,3,understands,1
+Kigiriama,Male,10,Madzi,2,produces,0
+Kigiriama,Male,10,Madzi,2,understands,1
+Kigiriama,Female,11,Madzi,5,produces,0
+Kigiriama,Female,11,Madzi,5,understands,1
+Kigiriama,Male,11,Madzi,2,produces,0.5
+Kigiriama,Male,11,Madzi,2,understands,0.5
+Kigiriama,Female,12,Madzi,19,produces,0
+Kigiriama,Female,12,Madzi,19,understands,0.9474
+Kigiriama,Male,12,Madzi,11,produces,0.0909
+Kigiriama,Male,12,Madzi,11,understands,0.9091
+Kigiriama,Female,13,Madzi,7,produces,0
+Kigiriama,Female,13,Madzi,7,understands,0.8571
+Kigiriama,Male,13,Madzi,11,produces,0.2727
+Kigiriama,Male,13,Madzi,11,understands,0.9091
+Kigiriama,Female,14,Madzi,8,produces,0.375
+Kigiriama,Female,14,Madzi,8,understands,1
+Kigiriama,Male,14,Madzi,8,produces,0
+Kigiriama,Male,14,Madzi,8,understands,0.75
+Kigiriama,Female,15,Madzi,6,produces,0.3333
+Kigiriama,Female,15,Madzi,6,understands,0.6667
+Kigiriama,Male,15,Madzi,10,produces,0.2
+Kigiriama,Male,15,Madzi,10,understands,0.9
+Kigiriama,Female,16,Madzi,1,produces,1
+Kigiriama,Female,16,Madzi,1,understands,0
+Kigiriama,Female,17,Madzi,5,produces,0.2
+Kigiriama,Female,17,Madzi,5,understands,0
+Kigiriama,Male,17,Madzi,1,produces,0
+Kigiriama,Male,17,Madzi,1,understands,0
+Kigiriama,Female,18,Madzi,6,produces,0.6667
+Kigiriama,Female,18,Madzi,6,understands,0
+Kigiriama,Male,18,Madzi,6,produces,0.5
+Kigiriama,Male,18,Madzi,6,understands,0
+Kigiriama,Female,19,Madzi,3,produces,0.6667
+Kigiriama,Female,19,Madzi,3,understands,0
+Kigiriama,Male,19,Madzi,5,produces,0.2
+Kigiriama,Male,19,Madzi,5,understands,0
+Kigiriama,Female,20,Madzi,5,produces,0.8
+Kigiriama,Female,20,Madzi,5,understands,0
+Kigiriama,Male,20,Madzi,8,produces,0.75
+Kigiriama,Male,20,Madzi,8,understands,0
+Kigiriama,Female,21,Madzi,3,produces,0.6667
+Kigiriama,Female,21,Madzi,3,understands,0
+Kigiriama,Male,21,Madzi,3,produces,0.6667
+Kigiriama,Male,21,Madzi,3,understands,0
+Kigiriama,Female,22,Madzi,7,produces,1
+Kigiriama,Female,22,Madzi,7,understands,0
+Kigiriama,Male,22,Madzi,2,produces,1
+Kigiriama,Male,22,Madzi,2,understands,0
+Kigiriama,Female,23,Madzi,2,produces,0
+Kigiriama,Female,23,Madzi,2,understands,0
+Kigiriama,Male,23,Madzi,2,produces,0.5
+Kigiriama,Male,23,Madzi,2,understands,0
+Kigiriama,Female,24,Madzi,6,produces,1
+Kigiriama,Female,24,Madzi,6,understands,0
+Kigiriama,Male,24,Madzi,1,produces,1
+Kigiriama,Male,24,Madzi,1,understands,0
+Kigiriama,Female,25,Madzi,2,produces,1
+Kigiriama,Female,25,Madzi,2,understands,0
+Kigiriama,Male,25,Madzi,1,produces,1
+Kigiriama,Male,25,Madzi,1,understands,0
+Kigiriama,Female,26,Madzi,4,produces,1
+Kigiriama,Female,26,Madzi,4,understands,0
+Kigiriama,Male,26,Madzi,2,produces,1
+Kigiriama,Male,26,Madzi,2,understands,0
+Kigiriama,Female,27,Madzi,1,produces,1
+Kigiriama,Female,27,Madzi,1,understands,0
+Kigiriama,Male,27,Madzi,3,produces,1
+Kigiriama,Male,27,Madzi,3,understands,0
+Kigiriama,Male,28,Madzi,1,produces,1
+Kigiriama,Male,28,Madzi,1,understands,0
+Kigiriama,Female,29,Madzi,2,produces,1
+Kigiriama,Female,29,Madzi,2,understands,0
+Kigiriama,Male,29,Madzi,3,produces,0.6667
+Kigiriama,Male,29,Madzi,3,understands,0
+Kigiriama,Male,30,Madzi,1,produces,1
+Kigiriama,Male,30,Madzi,1,understands,0
+Kiswahili,Male,8,Maji,1,produces,0
+Kiswahili,Male,8,Maji,1,understands,1
+Kiswahili,Female,9,Maji,1,produces,0
+Kiswahili,Female,9,Maji,1,understands,0
+Kiswahili,Male,9,Maji,4,produces,0
+Kiswahili,Male,9,Maji,4,understands,1
+Kiswahili,Female,10,Maji,3,produces,0
+Kiswahili,Female,10,Maji,3,understands,1
+Kiswahili,Male,10,Maji,2,produces,0
+Kiswahili,Male,10,Maji,2,understands,0.5
+Kiswahili,Female,11,Maji,5,produces,0
+Kiswahili,Female,11,Maji,5,understands,1
+Kiswahili,Male,11,Maji,4,produces,0
+Kiswahili,Male,11,Maji,4,understands,1
+Kiswahili,Female,12,Maji,5,produces,0.2
+Kiswahili,Female,12,Maji,5,understands,1
+Kiswahili,Male,12,Maji,1,produces,0
+Kiswahili,Male,12,Maji,1,understands,1
+Kiswahili,Female,13,Maji,5,produces,0
+Kiswahili,Female,13,Maji,5,understands,1
+Kiswahili,Male,13,Maji,1,produces,0
+Kiswahili,Male,13,Maji,1,understands,1
+Kiswahili,Female,14,Maji,2,produces,0.5
+Kiswahili,Female,14,Maji,2,understands,1
+Kiswahili,Male,14,Maji,2,produces,0
+Kiswahili,Male,14,Maji,2,understands,0.5
+Kiswahili,Female,15,Maji,2,produces,0
+Kiswahili,Female,15,Maji,2,understands,1
+Kiswahili,Male,15,Maji,3,produces,0.6667
+Kiswahili,Male,15,Maji,3,understands,1
+Kiswahili,Female,23,Maji,1,produces,1
+Kiswahili,Female,23,Maji,1,understands,0
+Kiswahili,Male,23,Maji,1,produces,0
+Kiswahili,Male,23,Maji,1,understands,0
+Kiswahili,Female,24,Maji,6,produces,0.8333
+Kiswahili,Female,24,Maji,6,understands,0
+Kiswahili,Male,24,Maji,6,produces,0.8333
+Kiswahili,Male,24,Maji,6,understands,0
+Kiswahili,Female,25,Maji,8,produces,0.75
+Kiswahili,Female,25,Maji,8,understands,0
+Kiswahili,Male,25,Maji,2,produces,0.5
+Kiswahili,Male,25,Maji,2,understands,0
+Kiswahili,Female,26,Maji,3,produces,1
+Kiswahili,Female,26,Maji,3,understands,0
+Kiswahili,Male,26,Maji,10,produces,0.8
+Kiswahili,Male,26,Maji,10,understands,0
+Kiswahili,Female,27,Maji,3,produces,0.6667
+Kiswahili,Female,27,Maji,3,understands,0
+Kiswahili,Male,27,Maji,5,produces,0.8
+Kiswahili,Male,27,Maji,5,understands,0
+Kiswahili,Female,28,Maji,3,produces,0.6667
+Kiswahili,Female,28,Maji,3,understands,0
+Kiswahili,Male,28,Maji,3,produces,1
+Kiswahili,Male,28,Maji,3,understands,0
+Kiswahili,Female,29,Maji,3,produces,1
+Kiswahili,Female,29,Maji,3,understands,0
+Kiswahili,Male,29,Maji,3,produces,0.6667
+Kiswahili,Male,29,Maji,3,understands,0
+Kiswahili,Female,30,Maji,3,produces,0.6667
+Kiswahili,Female,30,Maji,3,understands,0
+Kiswahili,Male,30,Maji,2,produces,1
+Kiswahili,Male,30,Maji,2,understands,0
+Mandarin (Beijing),Female,16,水,35,produces,0.3143
+Mandarin (Beijing),Female,16,水,35,understands,0
+Mandarin (Beijing),Male,16,水,35,produces,0.0571
+Mandarin (Beijing),Male,16,水,35,understands,0
+Mandarin (Beijing),Female,17,水,35,produces,0.4571
+Mandarin (Beijing),Female,17,水,35,understands,0
+Mandarin (Beijing),Male,17,水,37,produces,0.4054
+Mandarin (Beijing),Male,17,水,37,understands,0
+Mandarin (Beijing),Female,18,水,35,produces,0.5143
+Mandarin (Beijing),Female,18,水,35,understands,0
+Mandarin (Beijing),Male,18,水,36,produces,0.3889
+Mandarin (Beijing),Male,18,水,36,understands,0
+Mandarin (Beijing),Female,19,水,35,produces,0.6857
+Mandarin (Beijing),Female,19,水,35,understands,0
+Mandarin (Beijing),Male,19,水,35,produces,0.5429
+Mandarin (Beijing),Male,19,水,35,understands,0
+Mandarin (Beijing),Female,20,水,35,produces,0.8571
+Mandarin (Beijing),Female,20,水,35,understands,0
+Mandarin (Beijing),Male,20,水,36,produces,0.6667
+Mandarin (Beijing),Male,20,水,36,understands,0
+Mandarin (Beijing),Female,21,水,35,produces,0.8
+Mandarin (Beijing),Female,21,水,35,understands,0
+Mandarin (Beijing),Male,21,水,35,produces,0.8571
+Mandarin (Beijing),Male,21,水,35,understands,0
+Mandarin (Beijing),Female,22,水,35,produces,1
+Mandarin (Beijing),Female,22,水,35,understands,0
+Mandarin (Beijing),Male,22,水,36,produces,0.8611
+Mandarin (Beijing),Male,22,水,36,understands,0
+Mandarin (Beijing),Female,23,水,35,produces,0.9714
+Mandarin (Beijing),Female,23,水,35,understands,0
+Mandarin (Beijing),Male,23,水,35,produces,0.8286
+Mandarin (Beijing),Male,23,水,35,understands,0
+Mandarin (Beijing),Female,24,水,35,produces,0.8571
+Mandarin (Beijing),Female,24,水,35,understands,0
+Mandarin (Beijing),Male,24,水,35,produces,0.8857
+Mandarin (Beijing),Male,24,水,35,understands,0
+Mandarin (Beijing),Female,25,水,35,produces,1
+Mandarin (Beijing),Female,25,水,35,understands,0
+Mandarin (Beijing),Male,25,水,35,produces,0.9714
+Mandarin (Beijing),Male,25,水,35,understands,0
+Mandarin (Beijing),Female,26,水,36,produces,1
+Mandarin (Beijing),Female,26,水,36,understands,0
+Mandarin (Beijing),Male,26,水,35,produces,0.9429
+Mandarin (Beijing),Male,26,水,35,understands,0
+Mandarin (Beijing),Female,27,水,35,produces,0.9714
+Mandarin (Beijing),Female,27,水,35,understands,0
+Mandarin (Beijing),Male,27,水,35,produces,1
+Mandarin (Beijing),Male,27,水,35,understands,0
+Mandarin (Beijing),Female,28,水,35,produces,1
+Mandarin (Beijing),Female,28,水,35,understands,0
+Mandarin (Beijing),Male,28,水,35,produces,0.9429
+Mandarin (Beijing),Male,28,水,35,understands,0
+Mandarin (Beijing),Female,29,水,35,produces,1
+Mandarin (Beijing),Female,29,水,35,understands,0
+Mandarin (Beijing),Male,29,水,35,produces,0.9714
+Mandarin (Beijing),Male,29,水,35,understands,0
+Mandarin (Beijing),Female,30,水,35,produces,0.9429
+Mandarin (Beijing),Female,30,水,35,understands,0
+Mandarin (Beijing),Male,30,水,35,produces,1
+Mandarin (Beijing),Male,30,水,35,understands,0
+Norwegian,Female,8,vann (not beverage),45,produces,0
+Norwegian,Female,8,vann (not beverage),45,understands,0
+Norwegian,Male,8,vann (not beverage),32,produces,0.0625
+Norwegian,Male,8,vann (not beverage),32,understands,0.0625
+Norwegian,Female,9,vann (not beverage),71,produces,0
+Norwegian,Female,9,vann (not beverage),71,understands,0.0704
+Norwegian,Male,9,vann (not beverage),67,produces,0
+Norwegian,Male,9,vann (not beverage),67,understands,0.0896
+Norwegian,Female,10,vann (not beverage),97,produces,0
+Norwegian,Female,10,vann (not beverage),97,understands,0.0722
+Norwegian,Male,10,vann (not beverage),106,produces,0
+Norwegian,Male,10,vann (not beverage),106,understands,0.0472
+Norwegian,Female,11,vann (not beverage),129,produces,0.0078
+Norwegian,Female,11,vann (not beverage),129,understands,0.1318
+Norwegian,Male,11,vann (not beverage),112,produces,0
+Norwegian,Male,11,vann (not beverage),112,understands,0.0893
+Norwegian,Female,12,vann (not beverage),102,produces,0
+Norwegian,Female,12,vann (not beverage),102,understands,0.1275
+Norwegian,Male,12,vann (not beverage),119,produces,0.0084
+Norwegian,Male,12,vann (not beverage),119,understands,0.1933
+Norwegian,Female,13,vann (not beverage),124,produces,0.0242
+Norwegian,Female,13,vann (not beverage),124,understands,0.2661
+Norwegian,Male,13,vann (not beverage),122,produces,0.0164
+Norwegian,Male,13,vann (not beverage),122,understands,0.3852
+Norwegian,Female,14,vann (not beverage),141,produces,0.0284
+Norwegian,Female,14,vann (not beverage),141,understands,0.3901
+Norwegian,Male,14,vann (not beverage),128,produces,0.0156
+Norwegian,Male,14,vann (not beverage),128,understands,0.4375
+Norwegian,Female,15,vann (not beverage),133,produces,0.0827
+Norwegian,Female,15,vann (not beverage),133,understands,0.4511
+Norwegian,Male,15,vann (not beverage),106,produces,0.0472
+Norwegian,Male,15,vann (not beverage),106,understands,0.4623
+Norwegian,Female,16,vann (not beverage),165,produces,0.1333
+Norwegian,Female,16,vann (not beverage),165,understands,0.503
+Norwegian,Male,16,vann (not beverage),181,produces,0.105
+Norwegian,Male,16,vann (not beverage),181,understands,0.337
+Norwegian,Female,17,vann (not beverage),236,produces,0.1992
+Norwegian,Female,17,vann (not beverage),236,understands,0.3432
+Norwegian,Male,17,vann (not beverage),199,produces,0.1608
+Norwegian,Male,17,vann (not beverage),199,understands,0.3668
+Norwegian,Female,18,vann (not beverage),246,produces,0.3089
+Norwegian,Female,18,vann (not beverage),246,understands,0.3293
+Norwegian,Male,18,vann (not beverage),248,produces,0.2742
+Norwegian,Male,18,vann (not beverage),248,understands,0.3952
+Norwegian,Female,19,vann (not beverage),240,produces,0.3792
+Norwegian,Female,19,vann (not beverage),240,understands,0.3583
+Norwegian,Male,19,vann (not beverage),264,produces,0.3485
+Norwegian,Male,19,vann (not beverage),264,understands,0.4053
+Norwegian,Female,20,vann (not beverage),301,produces,0.5814
+Norwegian,Female,20,vann (not beverage),301,understands,0.3522
+Norwegian,Male,20,vann (not beverage),300,produces,0.4667
+Norwegian,Male,20,vann (not beverage),300,understands,0.3833
+Norwegian,Female,21,vann (not beverage),218,produces,0.6789
+Norwegian,Female,21,vann (not beverage),218,understands,0
+Norwegian,Male,21,vann (not beverage),200,produces,0.53
+Norwegian,Male,21,vann (not beverage),200,understands,0
+Norwegian,Female,22,vann (not beverage),304,produces,0.7105
+Norwegian,Female,22,vann (not beverage),304,understands,0
+Norwegian,Male,22,vann (not beverage),292,produces,0.5959
+Norwegian,Male,22,vann (not beverage),292,understands,0
+Norwegian,Female,23,vann (not beverage),285,produces,0.8246
+Norwegian,Female,23,vann (not beverage),285,understands,0
+Norwegian,Male,23,vann (not beverage),281,produces,0.6655
+Norwegian,Male,23,vann (not beverage),281,understands,0
+Norwegian,Female,24,vann (not beverage),266,produces,0.8534
+Norwegian,Female,24,vann (not beverage),266,understands,0
+Norwegian,Male,24,vann (not beverage),272,produces,0.7647
+Norwegian,Male,24,vann (not beverage),272,understands,0
+Norwegian,Female,25,vann (not beverage),325,produces,0.8523
+Norwegian,Female,25,vann (not beverage),325,understands,0
+Norwegian,Male,25,vann (not beverage),331,produces,0.7855
+Norwegian,Male,25,vann (not beverage),331,understands,0
+Norwegian,Female,26,vann (not beverage),301,produces,0.9435
+Norwegian,Female,26,vann (not beverage),301,understands,0
+Norwegian,Male,26,vann (not beverage),343,produces,0.8455
+Norwegian,Male,26,vann (not beverage),343,understands,0
+Norwegian,Female,27,vann (not beverage),267,produces,0.9176
+Norwegian,Female,27,vann (not beverage),267,understands,0
+Norwegian,Male,27,vann (not beverage),258,produces,0.8721
+Norwegian,Male,27,vann (not beverage),258,understands,0
+Norwegian,Female,28,vann (not beverage),281,produces,0.9466
+Norwegian,Female,28,vann (not beverage),281,understands,0
+Norwegian,Male,28,vann (not beverage),263,produces,0.8973
+Norwegian,Male,28,vann (not beverage),263,understands,0
+Norwegian,Female,29,vann (not beverage),252,produces,0.9524
+Norwegian,Female,29,vann (not beverage),252,understands,0
+Norwegian,Male,29,vann (not beverage),284,produces,0.9331
+Norwegian,Male,29,vann (not beverage),284,understands,0
+Norwegian,Female,30,vann (not beverage),213,produces,0.9671
+Norwegian,Female,30,vann (not beverage),213,understands,0
+Norwegian,Male,30,vann (not beverage),244,produces,0.8934
+Norwegian,Male,30,vann (not beverage),244,understands,0
+Norwegian,Female,31,vann (not beverage),229,produces,0.9825
+Norwegian,Female,31,vann (not beverage),229,understands,0
+Norwegian,Male,31,vann (not beverage),250,produces,0.944
+Norwegian,Male,31,vann (not beverage),250,understands,0
+Norwegian,Female,32,vann (not beverage),224,produces,0.9866
+Norwegian,Female,32,vann (not beverage),224,understands,0
+Norwegian,Male,32,vann (not beverage),227,produces,0.9559
+Norwegian,Male,32,vann (not beverage),227,understands,0
+Norwegian,Female,33,vann (not beverage),213,produces,0.9953
+Norwegian,Female,33,vann (not beverage),213,understands,0
+Norwegian,Male,33,vann (not beverage),217,produces,0.9585
+Norwegian,Male,33,vann (not beverage),217,understands,0
+Norwegian,Female,34,vann (not beverage),194,produces,0.9691
+Norwegian,Female,34,vann (not beverage),194,understands,0
+Norwegian,Male,34,vann (not beverage),230,produces,0.9522
+Norwegian,Male,34,vann (not beverage),230,understands,0
+Norwegian,Female,35,vann (not beverage),230,produces,0.9957
+Norwegian,Female,35,vann (not beverage),230,understands,0
+Norwegian,Male,35,vann (not beverage),192,produces,0.9583
+Norwegian,Male,35,vann (not beverage),192,understands,0
+Norwegian,Female,36,vann (not beverage),170,produces,0.9765
+Norwegian,Female,36,vann (not beverage),170,understands,0
+Norwegian,Male,36,vann (not beverage),159,produces,0.9811
+Norwegian,Male,36,vann (not beverage),159,understands,0
+Portuguese (European),Female,16,Regar,71,produces,0
+Portuguese (European),Female,16,Regar,71,understands,0
+Portuguese (European),Male,16,Regar,73,produces,0
+Portuguese (European),Male,16,Regar,73,understands,0
+Portuguese (European),Female,17,Regar,62,produces,0
+Portuguese (European),Female,17,Regar,62,understands,0
+Portuguese (European),Male,17,Regar,96,produces,0
+Portuguese (European),Male,17,Regar,96,understands,0
+Portuguese (European),Female,18,Regar,102,produces,0
+Portuguese (European),Female,18,Regar,102,understands,0
+Portuguese (European),Male,18,Regar,101,produces,0.0099
+Portuguese (European),Male,18,Regar,101,understands,0
+Portuguese (European),Female,19,Regar,97,produces,0
+Portuguese (European),Female,19,Regar,97,understands,0
+Portuguese (European),Male,19,Regar,99,produces,0.0101
+Portuguese (European),Male,19,Regar,99,understands,0
+Portuguese (European),Female,20,Regar,115,produces,0.0087
+Portuguese (European),Female,20,Regar,115,understands,0
+Portuguese (European),Male,20,Regar,103,produces,0
+Portuguese (European),Male,20,Regar,103,understands,0
+Portuguese (European),Female,21,Regar,93,produces,0.0215
+Portuguese (European),Female,21,Regar,93,understands,0
+Portuguese (European),Male,21,Regar,115,produces,0.0087
+Portuguese (European),Male,21,Regar,115,understands,0
+Portuguese (European),Female,22,Regar,117,produces,0.0171
+Portuguese (European),Female,22,Regar,117,understands,0
+Portuguese (European),Male,22,Regar,96,produces,0.0417
+Portuguese (European),Male,22,Regar,96,understands,0
+Portuguese (European),Female,23,Regar,94,produces,0.0532
+Portuguese (European),Female,23,Regar,94,understands,0
+Portuguese (European),Male,23,Regar,105,produces,0.0286
+Portuguese (European),Male,23,Regar,105,understands,0
+Portuguese (European),Female,24,Regar,88,produces,0.0795
+Portuguese (European),Female,24,Regar,88,understands,0
+Portuguese (European),Male,24,Regar,127,produces,0.0472
+Portuguese (European),Male,24,Regar,127,understands,0
+Portuguese (European),Female,25,Regar,110,produces,0.1182
+Portuguese (European),Female,25,Regar,110,understands,0
+Portuguese (European),Male,25,Regar,103,produces,0.0874
+Portuguese (European),Male,25,Regar,103,understands,0
+Portuguese (European),Female,26,Regar,96,produces,0.125
+Portuguese (European),Female,26,Regar,96,understands,0
+Portuguese (European),Male,26,Regar,122,produces,0.0902
+Portuguese (European),Male,26,Regar,122,understands,0
+Portuguese (European),Female,27,Regar,109,produces,0.1284
+Portuguese (European),Female,27,Regar,109,understands,0
+Portuguese (European),Male,27,Regar,129,produces,0.186
+Portuguese (European),Male,27,Regar,129,understands,0
+Portuguese (European),Female,28,Regar,91,produces,0.2527
+Portuguese (European),Female,28,Regar,91,understands,0
+Portuguese (European),Male,28,Regar,128,produces,0.1406
+Portuguese (European),Male,28,Regar,128,understands,0
+Portuguese (European),Female,29,Regar,98,produces,0.3061
+Portuguese (European),Female,29,Regar,98,understands,0
+Portuguese (European),Male,29,Regar,109,produces,0.1376
+Portuguese (European),Male,29,Regar,109,understands,0
+Portuguese (European),Female,30,Regar,81,produces,0.2963
+Portuguese (European),Female,30,Regar,81,understands,0
+Portuguese (European),Male,30,Regar,82,produces,0.2805
+Portuguese (European),Male,30,Regar,82,understands,0
+Swedish,Female,8,vatten (not beverage),11,produces,0
+Swedish,Female,8,vatten (not beverage),11,understands,0
+Swedish,Male,8,vatten (not beverage),15,produces,0
+Swedish,Male,8,vatten (not beverage),15,understands,0.0667
+Swedish,Female,9,vatten (not beverage),1,produces,0
+Swedish,Female,9,vatten (not beverage),1,understands,0
+Swedish,Male,9,vatten (not beverage),1,produces,0
+Swedish,Male,9,vatten (not beverage),1,understands,1
+Swedish,Female,10,vatten (not beverage),27,produces,0.037
+Swedish,Female,10,vatten (not beverage),27,understands,0.1111
+Swedish,Male,10,vatten (not beverage),27,produces,0
+Swedish,Male,10,vatten (not beverage),27,understands,0.0741
+Swedish,Female,11,vatten (not beverage),2,produces,0
+Swedish,Female,11,vatten (not beverage),2,understands,0
+Swedish,Male,11,vatten (not beverage),1,produces,0
+Swedish,Male,11,vatten (not beverage),1,understands,1
+Swedish,Female,12,vatten (not beverage),42,produces,0.0476
+Swedish,Female,12,vatten (not beverage),42,understands,0.2857
+Swedish,Male,12,vatten (not beverage),37,produces,0
+Swedish,Male,12,vatten (not beverage),37,understands,0.1892
+Swedish,Female,13,vatten (not beverage),4,produces,0
+Swedish,Female,13,vatten (not beverage),4,understands,0.5
+Swedish,Male,13,vatten (not beverage),3,produces,0
+Swedish,Male,13,vatten (not beverage),3,understands,0
+Swedish,Female,14,vatten (not beverage),63,produces,0.0317
+Swedish,Female,14,vatten (not beverage),63,understands,0.6032
+Swedish,Male,14,vatten (not beverage),61,produces,0
+Swedish,Male,14,vatten (not beverage),61,understands,0.459
+Swedish,Female,15,vatten (not beverage),10,produces,0
+Swedish,Female,15,vatten (not beverage),10,understands,0.5
+Swedish,Male,15,vatten (not beverage),3,produces,0
+Swedish,Male,15,vatten (not beverage),3,understands,0.3333
+Swedish,Female,16,vatten (not beverage),171,produces,0.0877
+Swedish,Female,16,vatten (not beverage),171,understands,0.3333
+Swedish,Male,16,vatten (not beverage),142,produces,0.0845
+Swedish,Male,16,vatten (not beverage),142,understands,0.3944
+Swedish,Female,19,vatten (not beverage),85,produces,0
+Swedish,Female,19,vatten (not beverage),85,understands,0
+Swedish,Male,19,vatten (not beverage),65,produces,0.0154
+Swedish,Male,19,vatten (not beverage),65,understands,0
+Swedish,Female,22,vatten (not beverage),162,produces,0.0432
+Swedish,Female,22,vatten (not beverage),162,understands,0
+Swedish,Male,22,vatten (not beverage),143,produces,0.0979
+Swedish,Male,22,vatten (not beverage),143,understands,0
+Swedish,Female,25,vatten (not beverage),67,produces,0.1791
+Swedish,Female,25,vatten (not beverage),67,understands,0
+Swedish,Male,25,vatten (not beverage),76,produces,0.1974
+Swedish,Male,25,vatten (not beverage),76,understands,0
+Swedish,Female,28,vatten (not beverage),69,produces,0.2754
+Swedish,Female,28,vatten (not beverage),69,understands,0
+Swedish,Male,28,vatten (not beverage),70,produces,0.3143
+Swedish,Male,28,vatten (not beverage),70,understands,0

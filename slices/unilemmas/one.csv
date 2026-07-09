@@ -1,569 +1,1691 @@
-language,age,words,n,measure,prop
-Japanese,8,ひとつ,6,produces,0
-Japanese,8,ひとつ,6,understands,0
-Japanese,9,ひとつ,10,produces,0
-Japanese,9,ひとつ,10,understands,0
-Japanese,10,ひとつ,8,produces,0
-Japanese,10,ひとつ,8,understands,0
-Japanese,11,ひとつ,87,produces,0
-Japanese,11,ひとつ,87,understands,0.0345
-Japanese,12,ひとつ,118,produces,0
-Japanese,12,ひとつ,118,understands,0.0169
-Japanese,13,ひとつ,23,produces,0
-Japanese,13,ひとつ,23,understands,0.0435
-Japanese,14,ひとつ,26,produces,0
-Japanese,14,ひとつ,26,understands,0.0769
-Japanese,15,ひとつ,72,produces,0
-Japanese,15,ひとつ,72,understands,0.0833
-Japanese,16,"ひとつ, いち",46,produces,0.0175
-Japanese,16,"ひとつ, いち",46,understands,0.0526
-Japanese,17,"ひとつ, いち",77,produces,0.0745
-Japanese,17,"ひとつ, いち",77,understands,0.1489
-Japanese,18,"ひとつ, いち",94,produces,0.08
-Japanese,18,"ひとつ, いち",94,understands,0.06
-Japanese,19,"いち, ひとつ",35,produces,0.0714
-Japanese,19,"いち, ひとつ",35,understands,0
-Japanese,20,"いち, ひとつ",59,produces,0.1695
-Japanese,20,"いち, ひとつ",59,understands,0
-Japanese,21,"いち, ひとつ",62,produces,0.2823
-Japanese,21,"いち, ひとつ",62,understands,0
-Japanese,22,"いち, ひとつ",31,produces,0.3548
-Japanese,22,"いち, ひとつ",31,understands,0
-Japanese,23,"いち, ひとつ",67,produces,0.3582
-Japanese,23,"いち, ひとつ",67,understands,0
-Japanese,24,"いち, ひとつ",33,produces,0.5
-Japanese,24,"いち, ひとつ",33,understands,0
-Japanese,25,"いち, ひとつ",34,produces,0.5147
-Japanese,25,"いち, ひとつ",34,understands,0
-Japanese,26,"いち, ひとつ",33,produces,0.6515
-Japanese,26,"いち, ひとつ",33,understands,0
-Japanese,27,"いち, ひとつ",15,produces,0.6
-Japanese,27,"いち, ひとつ",15,understands,0
-Japanese,28,"いち, ひとつ",18,produces,0.5556
-Japanese,28,"いち, ひとつ",18,understands,0
-Japanese,29,"いち, ひとつ",17,produces,0.5588
-Japanese,29,"いち, ひとつ",17,understands,0
-Japanese,30,"いち, ひとつ",18,produces,0.5833
-Japanese,30,"いち, ひとつ",18,understands,0
-Japanese,31,"いち, ひとつ",18,produces,0.8056
-Japanese,31,"いち, ひとつ",18,understands,0
-Japanese,32,"いち, ひとつ",13,produces,0.7692
-Japanese,32,"いち, ひとつ",13,understands,0
-Japanese,33,"いち, ひとつ",16,produces,0.875
-Japanese,33,"いち, ひとつ",16,understands,0
-Japanese,34,"いち, ひとつ",13,produces,0.7692
-Japanese,34,"いち, ひとつ",13,understands,0
-Japanese,35,"いち, ひとつ",31,produces,0.7419
-Japanese,35,"いち, ひとつ",31,understands,0
-Japanese,36,"いち, ひとつ",18,produces,0.8611
-Japanese,36,"いち, ひとつ",18,understands,0
-Korean,18,하나,88,produces,0.1705
-Korean,18,하나,88,understands,0
-Korean,19,하나,77,produces,0.1299
-Korean,19,하나,77,understands,0
-Korean,20,하나,88,produces,0.1591
-Korean,20,하나,88,understands,0
-Korean,21,하나,79,produces,0.3038
-Korean,21,하나,79,understands,0
-Korean,22,하나,87,produces,0.4483
-Korean,22,하나,87,understands,0
-Korean,23,하나,87,produces,0.3333
-Korean,23,하나,87,understands,0
-Korean,24,하나,107,produces,0.5327
-Korean,24,하나,107,understands,0
-Korean,25,하나,95,produces,0.6105
-Korean,25,하나,95,understands,0
-Korean,26,하나,91,produces,0.6484
-Korean,26,하나,91,understands,0
-Korean,27,하나,104,produces,0.6538
-Korean,27,하나,104,understands,0
-Korean,28,하나,89,produces,0.7079
-Korean,28,하나,89,understands,0
-Korean,29,하나,101,produces,0.7921
-Korean,29,하나,101,understands,0
-Korean,30,하나,81,produces,0.7531
-Korean,30,하나,81,understands,0
-Korean,31,하나,79,produces,0.7595
-Korean,31,하나,79,understands,0
-Korean,32,하나,70,produces,0.6714
-Korean,32,하나,70,understands,0
-Korean,33,하나,79,produces,0.8608
-Korean,33,하나,79,understands,0
-Korean,34,하나,79,produces,0.8734
-Korean,34,하나,79,understands,0
-Korean,35,하나,74,produces,0.8378
-Korean,35,하나,74,understands,0
-Korean,36,하나,75,produces,0.8267
-Korean,36,하나,75,understands,0
-Mandarin (Beijing),16,一,70,produces,0.6286
-Mandarin (Beijing),16,一,70,understands,0
-Mandarin (Beijing),17,一,72,produces,0.7639
-Mandarin (Beijing),17,一,72,understands,0
-Mandarin (Beijing),18,一,71,produces,0.7746
-Mandarin (Beijing),18,一,71,understands,0
-Mandarin (Beijing),19,一,70,produces,0.7857
-Mandarin (Beijing),19,一,70,understands,0
-Mandarin (Beijing),20,一,71,produces,0.8873
-Mandarin (Beijing),20,一,71,understands,0
-Mandarin (Beijing),21,一,70,produces,0.9143
-Mandarin (Beijing),21,一,70,understands,0
-Mandarin (Beijing),22,一,71,produces,0.9437
-Mandarin (Beijing),22,一,71,understands,0
-Mandarin (Beijing),23,一,70,produces,0.9571
-Mandarin (Beijing),23,一,70,understands,0
-Mandarin (Beijing),24,一,70,produces,0.9143
-Mandarin (Beijing),24,一,70,understands,0
-Mandarin (Beijing),25,一,70,produces,0.9714
-Mandarin (Beijing),25,一,70,understands,0
-Mandarin (Beijing),26,一,71,produces,0.9718
-Mandarin (Beijing),26,一,71,understands,0
-Mandarin (Beijing),27,一,70,produces,1
-Mandarin (Beijing),27,一,70,understands,0
-Mandarin (Beijing),28,一,70,produces,0.9571
-Mandarin (Beijing),28,一,70,understands,0
-Mandarin (Beijing),29,一,70,produces,1
-Mandarin (Beijing),29,一,70,understands,0
-Mandarin (Beijing),30,一,70,produces,1
-Mandarin (Beijing),30,一,70,understands,0
-Mandarin (Taiwanese),8,一個(二、三個…),86,produces,0
-Mandarin (Taiwanese),8,一個(二、三個…),86,understands,0.1977
-Mandarin (Taiwanese),9,一個(二、三個…),79,produces,0
-Mandarin (Taiwanese),9,一個(二、三個…),79,understands,0.2152
-Mandarin (Taiwanese),10,一個(二、三個…),78,produces,0
-Mandarin (Taiwanese),10,一個(二、三個…),78,understands,0.1154
-Mandarin (Taiwanese),11,一個(二、三個…),79,produces,0
-Mandarin (Taiwanese),11,一個(二、三個…),79,understands,0.1139
-Mandarin (Taiwanese),12,一個(二、三個…),80,produces,0.0125
-Mandarin (Taiwanese),12,一個(二、三個…),80,understands,0.0375
-Mandarin (Taiwanese),13,一個(二、三個…),78,produces,0
-Mandarin (Taiwanese),13,一個(二、三個…),78,understands,0.1154
-Mandarin (Taiwanese),14,一個(二、三個…),81,produces,0.0494
-Mandarin (Taiwanese),14,一個(二、三個…),81,understands,0.1481
-Mandarin (Taiwanese),15,一個(二、三個…),106,produces,0.0943
-Mandarin (Taiwanese),15,一個(二、三個…),106,understands,0.3208
-Mandarin (Taiwanese),16,一個(二、三個…),90,produces,0.0889
-Mandarin (Taiwanese),16,一個(二、三個…),90,understands,0.3222
-Norwegian,16,"man, ei, en",98,produces,0.0102
-Norwegian,16,"man, ei, en",98,understands,0
-Norwegian,17,"man, ei, en",218,produces,0.0168
-Norwegian,17,"man, ei, en",218,understands,0
-Norwegian,18,"man, ei, en",271,produces,0.0221
-Norwegian,18,"man, ei, en",271,understands,0
-Norwegian,19,"man, ei, en",281,produces,0.0225
-Norwegian,19,"man, ei, en",281,understands,0
-Norwegian,20,"man, ei, en",342,produces,0.0351
-Norwegian,20,"man, ei, en",342,understands,0
-Norwegian,21,"man, ei, en",418,produces,0.0478
-Norwegian,21,"man, ei, en",418,understands,0
-Norwegian,22,"man, ei, en",596,produces,0.0654
-Norwegian,22,"man, ei, en",596,understands,0
-Norwegian,23,"man, ei, en",566,produces,0.0954
-Norwegian,23,"man, ei, en",566,understands,0
-Norwegian,24,"man, ei, en",538,produces,0.1264
-Norwegian,24,"man, ei, en",538,understands,0
-Norwegian,25,"man, ei, en",656,produces,0.1575
-Norwegian,25,"man, ei, en",656,understands,0
-Norwegian,26,"man, ei, en",644,produces,0.2013
-Norwegian,26,"man, ei, en",644,understands,0
-Norwegian,27,"man, ei, en",525,produces,0.247
-Norwegian,27,"man, ei, en",525,understands,0
-Norwegian,28,"man, ei, en",544,produces,0.2763
-Norwegian,28,"man, ei, en",544,understands,0
-Norwegian,29,"man, ei, en",536,produces,0.3159
-Norwegian,29,"man, ei, en",536,understands,0
-Norwegian,30,"man, ei, en",457,produces,0.3231
-Norwegian,30,"man, ei, en",457,understands,0
-Norwegian,31,"man, ei, en",479,produces,0.3834
-Norwegian,31,"man, ei, en",479,understands,0
-Norwegian,32,"man, ei, en",451,produces,0.408
-Norwegian,32,"man, ei, en",451,understands,0
-Norwegian,33,"man, ei, en",430,produces,0.4527
-Norwegian,33,"man, ei, en",430,understands,0
-Norwegian,34,"man, ei, en",424,produces,0.4803
-Norwegian,34,"man, ei, en",424,understands,0
-Norwegian,35,"man, ei, en",422,produces,0.5039
-Norwegian,35,"man, ei, en",422,understands,0
-Norwegian,36,"man, ei, en",329,produces,0.5208
-Norwegian,36,"man, ei, en",329,understands,0
-Portuguese (European),16,Um / Uma,144,produces,0.0972
-Portuguese (European),16,Um / Uma,144,understands,0
-Portuguese (European),17,Um / Uma,158,produces,0.0696
-Portuguese (European),17,Um / Uma,158,understands,0
-Portuguese (European),18,Um / Uma,203,produces,0.2217
-Portuguese (European),18,Um / Uma,203,understands,0
-Portuguese (European),19,Um / Uma,196,produces,0.2143
-Portuguese (European),19,Um / Uma,196,understands,0
-Portuguese (European),20,Um / Uma,218,produces,0.3303
-Portuguese (European),20,Um / Uma,218,understands,0
-Portuguese (European),21,Um / Uma,208,produces,0.4087
-Portuguese (European),21,Um / Uma,208,understands,0
-Portuguese (European),22,Um / Uma,213,produces,0.4648
-Portuguese (European),22,Um / Uma,213,understands,0
-Portuguese (European),23,Um / Uma,199,produces,0.5477
-Portuguese (European),23,Um / Uma,199,understands,0
-Portuguese (European),24,Um / Uma,215,produces,0.6
-Portuguese (European),24,Um / Uma,215,understands,0
-Portuguese (European),25,Um / Uma,213,produces,0.662
-Portuguese (European),25,Um / Uma,213,understands,0
-Portuguese (European),26,Um / Uma,218,produces,0.7156
-Portuguese (European),26,Um / Uma,218,understands,0
-Portuguese (European),27,Um / Uma,238,produces,0.7185
-Portuguese (European),27,Um / Uma,238,understands,0
-Portuguese (European),28,Um / Uma,219,produces,0.7854
-Portuguese (European),28,Um / Uma,219,understands,0
-Portuguese (European),29,Um / Uma,207,produces,0.7633
-Portuguese (European),29,Um / Uma,207,understands,0
-Portuguese (European),30,Um / Uma,163,produces,0.7914
-Portuguese (European),30,Um / Uma,163,understands,0
-Russian,18,один,42,produces,0.119
-Russian,18,один,42,understands,0
-Russian,19,один,41,produces,0.1707
-Russian,19,один,41,understands,0
-Russian,20,один,45,produces,0.2667
-Russian,20,один,45,understands,0
-Russian,21,один,43,produces,0.4419
-Russian,21,один,43,understands,0
-Russian,22,один,51,produces,0.5294
-Russian,22,один,51,understands,0
-Russian,23,один,56,produces,0.625
-Russian,23,один,56,understands,0
-Russian,24,один,61,produces,0.6393
-Russian,24,один,61,understands,0
-Russian,25,один,66,produces,0.7273
-Russian,25,один,66,understands,0
-Russian,26,один,52,produces,0.6731
-Russian,26,один,52,understands,0
-Russian,27,один,60,produces,0.6333
-Russian,27,один,60,understands,0
-Russian,28,один,60,produces,0.7833
-Russian,28,один,60,understands,0
-Russian,29,один,58,produces,0.8448
-Russian,29,один,58,understands,0
-Russian,30,один,77,produces,0.8182
-Russian,30,один,77,understands,0
-Russian,31,один,61,produces,0.8689
-Russian,31,один,61,understands,0
-Russian,32,один,55,produces,0.9091
-Russian,32,один,55,understands,0
-Russian,33,один,55,produces,0.8909
-Russian,33,один,55,understands,0
-Russian,34,один,58,produces,0.9483
-Russian,34,один,58,understands,0
-Russian,35,один,47,produces,0.8936
-Russian,35,один,47,understands,0
-Russian,36,один,49,produces,0.9388
-Russian,36,один,49,understands,0
-Spanish (Peruvian),8,uno(a),9,produces,0
-Spanish (Peruvian),8,uno(a),9,understands,0.1111
-Spanish (Peruvian),9,uno(a),12,produces,0
-Spanish (Peruvian),9,uno(a),12,understands,0.25
-Spanish (Peruvian),10,uno(a),7,produces,0
-Spanish (Peruvian),10,uno(a),7,understands,0.4286
-Spanish (Peruvian),11,uno(a),18,produces,0
-Spanish (Peruvian),11,uno(a),18,understands,0.2778
-Spanish (Peruvian),12,uno(a),14,produces,0
-Spanish (Peruvian),12,uno(a),14,understands,0.4286
-Spanish (Peruvian),13,uno(a),9,produces,0
-Spanish (Peruvian),13,uno(a),9,understands,0.3333
-Spanish (Peruvian),14,uno(a),8,produces,0
-Spanish (Peruvian),14,uno(a),8,understands,0.5
-Spanish (Peruvian),15,uno(a),10,produces,0
-Spanish (Peruvian),15,uno(a),10,understands,0.2
-Spanish (Peruvian),16,"un, uno(a)",13,produces,0.1923
-Spanish (Peruvian),16,"un, uno(a)",13,understands,0
-Spanish (Peruvian),17,"un, uno(a)",9,produces,0.3333
-Spanish (Peruvian),17,"un, uno(a)",9,understands,0
-Spanish (Peruvian),18,"un, uno(a)",4,produces,0.375
-Spanish (Peruvian),18,"un, uno(a)",4,understands,0
-Spanish (Peruvian),19,"un, uno(a)",12,produces,0.4167
-Spanish (Peruvian),19,"un, uno(a)",12,understands,0
-Spanish (Peruvian),20,"un, uno(a)",1,produces,0
-Spanish (Peruvian),20,"un, uno(a)",1,understands,0
-Spanish (Peruvian),21,"un, uno(a)",5,produces,0.5
-Spanish (Peruvian),21,"un, uno(a)",5,understands,0
-Spanish (Peruvian),22,"un, uno(a)",9,produces,0.2222
-Spanish (Peruvian),22,"un, uno(a)",9,understands,0
-Spanish (Peruvian),23,"un, uno(a)",1,produces,1
-Spanish (Peruvian),23,"un, uno(a)",1,understands,0
-Spanish (Peruvian),24,"un, uno(a)",15,produces,0.1667
-Spanish (Peruvian),24,"un, uno(a)",15,understands,0
-Spanish (Peruvian),25,"un, uno(a)",5,produces,0.3
-Spanish (Peruvian),25,"un, uno(a)",5,understands,0
-Spanish (Peruvian),26,"un, uno(a)",8,produces,0.1875
-Spanish (Peruvian),26,"un, uno(a)",8,understands,0
-Spanish (Peruvian),27,"un, uno(a)",7,produces,0.2143
-Spanish (Peruvian),27,"un, uno(a)",7,understands,0
-Spanish (Peruvian),28,"un, uno(a)",8,produces,0.6875
-Spanish (Peruvian),28,"un, uno(a)",8,understands,0
-Spanish (Peruvian),29,"un, uno(a)",6,produces,0.25
-Spanish (Peruvian),29,"un, uno(a)",6,understands,0
-Spanish (Peruvian),30,"un, uno(a)",2,produces,0
-Spanish (Peruvian),30,"un, uno(a)",2,understands,0
-Swedish,16,ett,159,produces,0.0189
-Swedish,16,ett,159,understands,0
-Swedish,19,ett,152,produces,0.0526
-Swedish,19,ett,152,understands,0
-Swedish,22,ett,307,produces,0.1368
-Swedish,22,ett,307,understands,0
-Swedish,25,ett,143,produces,0.2867
-Swedish,25,ett,143,understands,0
-Swedish,28,ett,139,produces,0.446
-Swedish,28,ett,139,understands,0
-Arabic (Saudi),8,واحد/ واحدة,19,produces,0
-Arabic (Saudi),8,واحد/ واحدة,19,understands,0
-Arabic (Saudi),9,واحد/ واحدة,18,produces,0
-Arabic (Saudi),9,واحد/ واحدة,18,understands,0
-Arabic (Saudi),10,واحد/ واحدة,25,produces,0
-Arabic (Saudi),10,واحد/ واحدة,25,understands,0
-Arabic (Saudi),11,واحد/ واحدة,21,produces,0.0476
-Arabic (Saudi),11,واحد/ واحدة,21,understands,0
-Arabic (Saudi),12,واحد/ واحدة,19,produces,0.1053
-Arabic (Saudi),12,واحد/ واحدة,19,understands,0
-Arabic (Saudi),13,واحد/ واحدة,36,produces,0.1111
-Arabic (Saudi),13,واحد/ واحدة,36,understands,0
-Arabic (Saudi),14,واحد/ واحدة,20,produces,0
-Arabic (Saudi),14,واحد/ واحدة,20,understands,0
-Arabic (Saudi),15,واحد/ واحدة,19,produces,0.0526
-Arabic (Saudi),15,واحد/ واحدة,19,understands,0
-Arabic (Saudi),16,واحد/ واحدة,18,produces,0.1111
-Arabic (Saudi),16,واحد/ واحدة,18,understands,0
-Cantonese,16,一,46,produces,0.2391
-Cantonese,16,一,46,understands,0
-Cantonese,17,一,61,produces,0.3934
-Cantonese,17,一,61,understands,0
-Cantonese,18,一,68,produces,0.5588
-Cantonese,18,一,68,understands,0
-Cantonese,19,一,66,produces,0.5303
-Cantonese,19,一,66,understands,0
-Cantonese,20,一,140,produces,0.7714
-Cantonese,20,一,140,understands,0
-Cantonese,21,一,120,produces,0.7583
-Cantonese,21,一,120,understands,0
-Cantonese,22,一,68,produces,0.7647
-Cantonese,22,一,68,understands,0
-Cantonese,23,一,74,produces,0.7973
-Cantonese,23,一,74,understands,0
-Cantonese,24,一,68,produces,0.8088
-Cantonese,24,一,68,understands,0
-Cantonese,25,一,65,produces,0.9231
-Cantonese,25,一,65,understands,0
-Cantonese,26,一,68,produces,0.8382
-Cantonese,26,一,68,understands,0
-Cantonese,27,一,62,produces,0.9516
-Cantonese,27,一,62,understands,0
-Cantonese,28,一,66,produces,0.9697
-Cantonese,28,一,66,understands,0
-Cantonese,29,一,72,produces,0.9722
-Cantonese,29,一,72,understands,0
-Cantonese,30,一,164,produces,0.9756
-Cantonese,30,一,164,understands,0
-Catalan,8,"un (numeral), una",39,produces,0
-Catalan,8,"un (numeral), una",39,understands,0
-Catalan,9,"un (numeral), una",46,produces,0
-Catalan,9,"un (numeral), una",46,understands,0
-Catalan,10,"un (numeral), una",43,produces,0
-Catalan,10,"un (numeral), una",43,understands,0.0349
-Catalan,11,"un (numeral), una",43,produces,0.0116
-Catalan,11,"un (numeral), una",43,understands,0.0698
-Catalan,12,"un (numeral), una",59,produces,0.0085
-Catalan,12,"un (numeral), una",59,understands,0.1017
-Catalan,13,"un (numeral), una",44,produces,0.0114
-Catalan,13,"un (numeral), una",44,understands,0.1136
-Catalan,14,"un (numeral), una",60,produces,0.0083
-Catalan,14,"un (numeral), una",60,understands,0.1
-Catalan,15,"un (numeral), una",70,produces,0.0286
-Catalan,15,"un (numeral), una",70,understands,0.2071
-Catalan,16,"un (numeral), una, un",73,produces,0.0137
-Catalan,16,"un (numeral), una, un",73,understands,0.2123
-Catalan,17,"un (numeral), una, un",110,produces,0.1
-Catalan,17,"un (numeral), una, un",110,understands,0.2182
-Catalan,18,"un (numeral), una, un",102,produces,0.1029
-Catalan,18,"un (numeral), una, un",102,understands,0.1814
-Catalan,19,"un, una",45,produces,0.2222
-Catalan,19,"un, una",45,understands,0
-Catalan,20,"un, una",56,produces,0.1786
-Catalan,20,"un, una",56,understands,0
-Catalan,21,"un, una",58,produces,0.2931
-Catalan,21,"un, una",58,understands,0
-Catalan,22,"un, una",50,produces,0.43
-Catalan,22,"un, una",50,understands,0
-Catalan,23,"un, una",66,produces,0.3561
-Catalan,23,"un, una",66,understands,0
-Catalan,24,"un, una",79,produces,0.538
-Catalan,24,"un, una",79,understands,0
-Catalan,25,"un, una",60,produces,0.6667
-Catalan,25,"un, una",60,understands,0
-Catalan,26,"un, una",65,produces,0.6692
-Catalan,26,"un, una",65,understands,0
-Catalan,27,"un, una",63,produces,0.6746
-Catalan,27,"un, una",63,understands,0
-Catalan,28,"un, una",81,produces,0.7407
-Catalan,28,"un, una",81,understands,0
-Catalan,29,"un, una",50,produces,0.82
-Catalan,29,"un, una",50,understands,0
-Catalan,30,"un, una",75,produces,0.8533
-Catalan,30,"un, una",75,understands,0
-English (Irish),17,one,2,produces,0
-English (Irish),17,one,2,understands,0
-English (Irish),18,one,1,produces,0
-English (Irish),18,one,1,understands,0
-English (Irish),19,one,2,produces,0
-English (Irish),19,one,2,understands,0
-English (Irish),20,one,1,produces,0
-English (Irish),20,one,1,understands,0
-English (Irish),21,one,3,produces,0
-English (Irish),21,one,3,understands,0
-English (Irish),22,one,4,produces,0
-English (Irish),22,one,4,understands,0
-English (Irish),23,one,4,produces,0
-English (Irish),23,one,4,understands,0
-English (Irish),24,one,4,produces,0.25
-English (Irish),24,one,4,understands,0
-English (Irish),25,one,6,produces,0
-English (Irish),25,one,6,understands,0
-English (Irish),26,one,10,produces,0
-English (Irish),26,one,10,understands,0
-English (Irish),27,one,5,produces,0.2
-English (Irish),27,one,5,understands,0
-English (Irish),28,one,7,produces,0.1429
-English (Irish),28,one,7,understands,0
-English (Irish),29,one,4,produces,0.5
-English (Irish),29,one,4,understands,0
-English (Irish),30,one,9,produces,0.1111
-English (Irish),30,one,9,understands,0
-English (Irish),31,one,8,produces,0.0625
-English (Irish),31,one,8,understands,0
-English (Irish),32,one,4,produces,0.25
-English (Irish),32,one,4,understands,0
-English (Irish),33,one,5,produces,0.2
-English (Irish),33,one,5,understands,0
-English (Irish),34,one,4,produces,0
-English (Irish),34,one,4,understands,0
-English (Irish),35,one,11,produces,0.3636
-English (Irish),35,one,11,understands,0
-English (Irish),36,one,5,produces,0.4
-English (Irish),36,one,5,understands,0
-Estonian,16,vks,36,produces,0.0833
-Estonian,16,vks,36,understands,0
-Estonian,17,vks,89,produces,0.1348
-Estonian,17,vks,89,understands,0
-Estonian,18,vks,103,produces,0.1553
-Estonian,18,vks,103,understands,0
-Estonian,19,vks,85,produces,0.2118
-Estonian,19,vks,85,understands,0
-Estonian,20,vks,60,produces,0.2667
-Estonian,20,vks,60,understands,0
-Estonian,21,vks,66,produces,0.303
-Estonian,21,vks,66,understands,0
-Estonian,22,vks,76,produces,0.3947
-Estonian,22,vks,76,understands,0
-Estonian,23,vks,95,produces,0.5053
-Estonian,23,vks,95,understands,0
-Estonian,24,vks,116,produces,0.6121
-Estonian,24,vks,116,understands,0
-Estonian,25,vks,82,produces,0.7073
-Estonian,25,vks,82,understands,0
-Estonian,26,vks,84,produces,0.631
-Estonian,26,vks,84,understands,0
-Estonian,27,vks,80,produces,0.7375
-Estonian,27,vks,80,understands,0
-Estonian,28,vks,92,produces,0.8152
-Estonian,28,vks,92,understands,0
-Estonian,29,vks,100,produces,0.82
-Estonian,29,vks,100,understands,0
-Estonian,30,vks,71,produces,0.7887
-Estonian,30,vks,71,understands,0
-Hebrew,25,אחד,82,produces,0.6463
-Hebrew,25,אחד,82,understands,0
-Hebrew,26,אחד,80,produces,0.8375
-Hebrew,26,אחד,80,understands,0
-Hebrew,27,אחד,68,produces,0.7941
-Hebrew,27,אחד,68,understands,0
-Hebrew,28,אחד,57,produces,0.8947
-Hebrew,28,אחד,57,understands,0
-Hebrew,29,אחד,47,produces,0.9149
-Hebrew,29,אחד,47,understands,0
-Hebrew,30,אחד,28,produces,0.8214
-Hebrew,30,אחד,28,understands,0
-Hebrew,31,אחד,35,produces,0.8857
-Hebrew,31,אחד,35,understands,0
-Hebrew,32,אחד,36,produces,0.8611
-Hebrew,32,אחד,36,understands,0
-Hebrew,33,אחד,21,produces,0.9048
-Hebrew,33,אחד,21,understands,0
-Hebrew,34,אחד,27,produces,0.963
-Hebrew,34,אחד,27,understands,0
-Hebrew,35,אחד,18,produces,0.7778
-Hebrew,35,אחד,18,understands,0
-Hebrew,36,אחד,5,produces,0.6
-Hebrew,36,אחד,5,understands,0
-Hungarian,16,"egy, egyik",21,produces,0.1667
-Hungarian,16,"egy, egyik",21,understands,0
-Hungarian,17,"egy, egyik",18,produces,0.3056
-Hungarian,17,"egy, egyik",18,understands,0
-Hungarian,18,"egy, egyik",18,produces,0.2778
-Hungarian,18,"egy, egyik",18,understands,0
-Hungarian,19,"egy, egyik",26,produces,0.3462
-Hungarian,19,"egy, egyik",26,understands,0
-Hungarian,20,"egy, egyik",18,produces,0.3611
-Hungarian,20,"egy, egyik",18,understands,0
-Hungarian,21,"egy, egyik",36,produces,0.4583
-Hungarian,21,"egy, egyik",36,understands,0
-Hungarian,22,"egy, egyik",27,produces,0.463
-Hungarian,22,"egy, egyik",27,understands,0
-Hungarian,23,"egy, egyik",18,produces,0.4167
-Hungarian,23,"egy, egyik",18,understands,0
-Hungarian,24,"egy, egyik",38,produces,0.4868
-Hungarian,24,"egy, egyik",38,understands,0
-Hungarian,25,"egy, egyik",43,produces,0.6512
-Hungarian,25,"egy, egyik",43,understands,0
-Hungarian,26,"egy, egyik",23,produces,0.6739
-Hungarian,26,"egy, egyik",23,understands,0
-Hungarian,27,"egy, egyik",26,produces,0.5962
-Hungarian,27,"egy, egyik",26,understands,0
-Hungarian,28,"egy, egyik",30,produces,0.65
-Hungarian,28,"egy, egyik",30,understands,0
-Hungarian,29,"egy, egyik",12,produces,0.625
-Hungarian,29,"egy, egyik",12,understands,0
-Hungarian,30,"egy, egyik",18,produces,0.6944
-Hungarian,30,"egy, egyik",18,understands,0
-Irish,17,"ceann, aon_amhain",2,produces,0.25
-Irish,17,"ceann, aon_amhain",2,understands,0
-Irish,18,"ceann, aon_amhain",1,produces,0
-Irish,18,"ceann, aon_amhain",1,understands,0
-Irish,19,"ceann, aon_amhain",2,produces,0.25
-Irish,19,"ceann, aon_amhain",2,understands,0
-Irish,20,"ceann, aon_amhain",1,produces,0
-Irish,20,"ceann, aon_amhain",1,understands,0
-Irish,21,"ceann, aon_amhain",3,produces,0
-Irish,21,"ceann, aon_amhain",3,understands,0
-Irish,22,"ceann, aon_amhain",4,produces,0
-Irish,22,"ceann, aon_amhain",4,understands,0
-Irish,23,"ceann, aon_amhain",4,produces,0.5
-Irish,23,"ceann, aon_amhain",4,understands,0
-Irish,24,"ceann, aon_amhain",4,produces,0.5
-Irish,24,"ceann, aon_amhain",4,understands,0
-Irish,25,"ceann, aon_amhain",6,produces,0.1667
-Irish,25,"ceann, aon_amhain",6,understands,0
-Irish,26,"ceann, aon_amhain",10,produces,0.3
-Irish,26,"ceann, aon_amhain",10,understands,0
-Irish,27,"ceann, aon_amhain",5,produces,0.5
-Irish,27,"ceann, aon_amhain",5,understands,0
-Irish,28,"ceann, aon_amhain",7,produces,0.5
-Irish,28,"ceann, aon_amhain",7,understands,0
-Irish,29,"ceann, aon_amhain",4,produces,0.625
-Irish,29,"ceann, aon_amhain",4,understands,0
-Irish,30,"ceann, aon_amhain",9,produces,0.8333
-Irish,30,"ceann, aon_amhain",9,understands,0
-Irish,31,"ceann, aon_amhain",8,produces,0.3125
-Irish,31,"ceann, aon_amhain",8,understands,0
-Irish,32,"ceann, aon_amhain",4,produces,0.5
-Irish,32,"ceann, aon_amhain",4,understands,0
-Irish,33,"ceann, aon_amhain",5,produces,0.8
-Irish,33,"ceann, aon_amhain",5,understands,0
-Irish,34,"ceann, aon_amhain",4,produces,0.625
-Irish,34,"ceann, aon_amhain",4,understands,0
-Irish,35,"ceann, aon_amhain",11,produces,0.8182
-Irish,35,"ceann, aon_amhain",11,understands,0
-Irish,36,"ceann, aon_amhain",5,produces,0.8
-Irish,36,"ceann, aon_amhain",5,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,واحد/ واحدة,19,produces,0
+Arabic (Saudi),All,8,واحد/ واحدة,19,understands,0
+Arabic (Saudi),All,9,واحد/ واحدة,18,produces,0
+Arabic (Saudi),All,9,واحد/ واحدة,18,understands,0
+Arabic (Saudi),All,10,واحد/ واحدة,25,produces,0
+Arabic (Saudi),All,10,واحد/ واحدة,25,understands,0
+Arabic (Saudi),All,11,واحد/ واحدة,21,produces,0.0476
+Arabic (Saudi),All,11,واحد/ واحدة,21,understands,0
+Arabic (Saudi),All,12,واحد/ واحدة,19,produces,0.1053
+Arabic (Saudi),All,12,واحد/ واحدة,19,understands,0
+Arabic (Saudi),All,13,واحد/ واحدة,36,produces,0.1111
+Arabic (Saudi),All,13,واحد/ واحدة,36,understands,0
+Arabic (Saudi),All,14,واحد/ واحدة,20,produces,0
+Arabic (Saudi),All,14,واحد/ واحدة,20,understands,0
+Arabic (Saudi),All,15,واحد/ واحدة,19,produces,0.0526
+Arabic (Saudi),All,15,واحد/ واحدة,19,understands,0
+Arabic (Saudi),All,16,واحد/ واحدة,18,produces,0.1111
+Arabic (Saudi),All,16,واحد/ واحدة,18,understands,0
+Cantonese,All,16,一,46,produces,0.2391
+Cantonese,All,16,一,46,understands,0
+Cantonese,All,17,一,61,produces,0.3934
+Cantonese,All,17,一,61,understands,0
+Cantonese,All,18,一,68,produces,0.5588
+Cantonese,All,18,一,68,understands,0
+Cantonese,All,19,一,66,produces,0.5303
+Cantonese,All,19,一,66,understands,0
+Cantonese,All,20,一,140,produces,0.7714
+Cantonese,All,20,一,140,understands,0
+Cantonese,All,21,一,120,produces,0.7583
+Cantonese,All,21,一,120,understands,0
+Cantonese,All,22,一,68,produces,0.7647
+Cantonese,All,22,一,68,understands,0
+Cantonese,All,23,一,74,produces,0.7973
+Cantonese,All,23,一,74,understands,0
+Cantonese,All,24,一,68,produces,0.8088
+Cantonese,All,24,一,68,understands,0
+Cantonese,All,25,一,65,produces,0.9231
+Cantonese,All,25,一,65,understands,0
+Cantonese,All,26,一,68,produces,0.8382
+Cantonese,All,26,一,68,understands,0
+Cantonese,All,27,一,62,produces,0.9516
+Cantonese,All,27,一,62,understands,0
+Cantonese,All,28,一,66,produces,0.9697
+Cantonese,All,28,一,66,understands,0
+Cantonese,All,29,一,72,produces,0.9722
+Cantonese,All,29,一,72,understands,0
+Cantonese,All,30,一,164,produces,0.9756
+Cantonese,All,30,一,164,understands,0
+Catalan,All,8,"un (numeral), una",39,produces,0
+Catalan,All,8,"un (numeral), una",39,understands,0
+Catalan,All,9,"un (numeral), una",46,produces,0
+Catalan,All,9,"un (numeral), una",46,understands,0
+Catalan,All,10,"un (numeral), una",43,produces,0
+Catalan,All,10,"un (numeral), una",43,understands,0.0349
+Catalan,All,11,"un (numeral), una",43,produces,0.0116
+Catalan,All,11,"un (numeral), una",43,understands,0.0698
+Catalan,All,12,"un (numeral), una",59,produces,0.0085
+Catalan,All,12,"un (numeral), una",59,understands,0.1017
+Catalan,All,13,"un (numeral), una",44,produces,0.0114
+Catalan,All,13,"un (numeral), una",44,understands,0.1136
+Catalan,All,14,"un (numeral), una",60,produces,0.0083
+Catalan,All,14,"un (numeral), una",60,understands,0.1
+Catalan,All,15,"un (numeral), una",70,produces,0.0286
+Catalan,All,15,"un (numeral), una",70,understands,0.2071
+Catalan,All,16,"un (numeral), una, un",73,produces,0.0137
+Catalan,All,16,"un (numeral), una, un",73,understands,0.2123
+Catalan,All,17,"un (numeral), una, un",110,produces,0.1
+Catalan,All,17,"un (numeral), una, un",110,understands,0.2182
+Catalan,All,18,"un (numeral), una, un",102,produces,0.1029
+Catalan,All,18,"un (numeral), una, un",102,understands,0.1814
+Catalan,All,19,"un, una",45,produces,0.2222
+Catalan,All,19,"un, una",45,understands,0
+Catalan,All,20,"un, una",56,produces,0.1786
+Catalan,All,20,"un, una",56,understands,0
+Catalan,All,21,"un, una",58,produces,0.2931
+Catalan,All,21,"un, una",58,understands,0
+Catalan,All,22,"un, una",50,produces,0.43
+Catalan,All,22,"un, una",50,understands,0
+Catalan,All,23,"un, una",66,produces,0.3561
+Catalan,All,23,"un, una",66,understands,0
+Catalan,All,24,"un, una",79,produces,0.538
+Catalan,All,24,"un, una",79,understands,0
+Catalan,All,25,"un, una",60,produces,0.6667
+Catalan,All,25,"un, una",60,understands,0
+Catalan,All,26,"un, una",65,produces,0.6692
+Catalan,All,26,"un, una",65,understands,0
+Catalan,All,27,"un, una",63,produces,0.6746
+Catalan,All,27,"un, una",63,understands,0
+Catalan,All,28,"un, una",81,produces,0.7407
+Catalan,All,28,"un, una",81,understands,0
+Catalan,All,29,"un, una",50,produces,0.82
+Catalan,All,29,"un, una",50,understands,0
+Catalan,All,30,"un, una",75,produces,0.8533
+Catalan,All,30,"un, una",75,understands,0
+English (Irish),All,17,one,2,produces,0
+English (Irish),All,17,one,2,understands,0
+English (Irish),All,18,one,1,produces,0
+English (Irish),All,18,one,1,understands,0
+English (Irish),All,19,one,2,produces,0
+English (Irish),All,19,one,2,understands,0
+English (Irish),All,20,one,1,produces,0
+English (Irish),All,20,one,1,understands,0
+English (Irish),All,21,one,3,produces,0
+English (Irish),All,21,one,3,understands,0
+English (Irish),All,22,one,4,produces,0
+English (Irish),All,22,one,4,understands,0
+English (Irish),All,23,one,4,produces,0
+English (Irish),All,23,one,4,understands,0
+English (Irish),All,24,one,4,produces,0.25
+English (Irish),All,24,one,4,understands,0
+English (Irish),All,25,one,6,produces,0
+English (Irish),All,25,one,6,understands,0
+English (Irish),All,26,one,10,produces,0
+English (Irish),All,26,one,10,understands,0
+English (Irish),All,27,one,5,produces,0.2
+English (Irish),All,27,one,5,understands,0
+English (Irish),All,28,one,7,produces,0.1429
+English (Irish),All,28,one,7,understands,0
+English (Irish),All,29,one,4,produces,0.5
+English (Irish),All,29,one,4,understands,0
+English (Irish),All,30,one,9,produces,0.1111
+English (Irish),All,30,one,9,understands,0
+English (Irish),All,31,one,8,produces,0.0625
+English (Irish),All,31,one,8,understands,0
+English (Irish),All,32,one,4,produces,0.25
+English (Irish),All,32,one,4,understands,0
+English (Irish),All,33,one,5,produces,0.2
+English (Irish),All,33,one,5,understands,0
+English (Irish),All,34,one,4,produces,0
+English (Irish),All,34,one,4,understands,0
+English (Irish),All,35,one,11,produces,0.3636
+English (Irish),All,35,one,11,understands,0
+English (Irish),All,36,one,5,produces,0.4
+English (Irish),All,36,one,5,understands,0
+Estonian,All,16,vks,36,produces,0.0833
+Estonian,All,16,vks,36,understands,0
+Estonian,All,17,vks,89,produces,0.1348
+Estonian,All,17,vks,89,understands,0
+Estonian,All,18,vks,103,produces,0.1553
+Estonian,All,18,vks,103,understands,0
+Estonian,All,19,vks,85,produces,0.2118
+Estonian,All,19,vks,85,understands,0
+Estonian,All,20,vks,60,produces,0.2667
+Estonian,All,20,vks,60,understands,0
+Estonian,All,21,vks,66,produces,0.303
+Estonian,All,21,vks,66,understands,0
+Estonian,All,22,vks,76,produces,0.3947
+Estonian,All,22,vks,76,understands,0
+Estonian,All,23,vks,95,produces,0.5053
+Estonian,All,23,vks,95,understands,0
+Estonian,All,24,vks,116,produces,0.6121
+Estonian,All,24,vks,116,understands,0
+Estonian,All,25,vks,82,produces,0.7073
+Estonian,All,25,vks,82,understands,0
+Estonian,All,26,vks,84,produces,0.631
+Estonian,All,26,vks,84,understands,0
+Estonian,All,27,vks,80,produces,0.7375
+Estonian,All,27,vks,80,understands,0
+Estonian,All,28,vks,92,produces,0.8152
+Estonian,All,28,vks,92,understands,0
+Estonian,All,29,vks,100,produces,0.82
+Estonian,All,29,vks,100,understands,0
+Estonian,All,30,vks,71,produces,0.7887
+Estonian,All,30,vks,71,understands,0
+Hebrew,All,25,אחד,82,produces,0.6463
+Hebrew,All,25,אחד,82,understands,0
+Hebrew,All,26,אחד,80,produces,0.8375
+Hebrew,All,26,אחד,80,understands,0
+Hebrew,All,27,אחד,68,produces,0.7941
+Hebrew,All,27,אחד,68,understands,0
+Hebrew,All,28,אחד,57,produces,0.8947
+Hebrew,All,28,אחד,57,understands,0
+Hebrew,All,29,אחד,47,produces,0.9149
+Hebrew,All,29,אחד,47,understands,0
+Hebrew,All,30,אחד,28,produces,0.8214
+Hebrew,All,30,אחד,28,understands,0
+Hebrew,All,31,אחד,35,produces,0.8857
+Hebrew,All,31,אחד,35,understands,0
+Hebrew,All,32,אחד,36,produces,0.8611
+Hebrew,All,32,אחד,36,understands,0
+Hebrew,All,33,אחד,21,produces,0.9048
+Hebrew,All,33,אחד,21,understands,0
+Hebrew,All,34,אחד,27,produces,0.963
+Hebrew,All,34,אחד,27,understands,0
+Hebrew,All,35,אחד,18,produces,0.7778
+Hebrew,All,35,אחד,18,understands,0
+Hebrew,All,36,אחד,5,produces,0.6
+Hebrew,All,36,אחד,5,understands,0
+Hungarian,All,16,"egy, egyik",21,produces,0.1667
+Hungarian,All,16,"egy, egyik",21,understands,0
+Hungarian,All,17,"egy, egyik",18,produces,0.3056
+Hungarian,All,17,"egy, egyik",18,understands,0
+Hungarian,All,18,"egy, egyik",18,produces,0.2778
+Hungarian,All,18,"egy, egyik",18,understands,0
+Hungarian,All,19,"egy, egyik",26,produces,0.3462
+Hungarian,All,19,"egy, egyik",26,understands,0
+Hungarian,All,20,"egy, egyik",18,produces,0.3611
+Hungarian,All,20,"egy, egyik",18,understands,0
+Hungarian,All,21,"egy, egyik",36,produces,0.4583
+Hungarian,All,21,"egy, egyik",36,understands,0
+Hungarian,All,22,"egy, egyik",27,produces,0.463
+Hungarian,All,22,"egy, egyik",27,understands,0
+Hungarian,All,23,"egy, egyik",18,produces,0.4167
+Hungarian,All,23,"egy, egyik",18,understands,0
+Hungarian,All,24,"egy, egyik",38,produces,0.4868
+Hungarian,All,24,"egy, egyik",38,understands,0
+Hungarian,All,25,"egy, egyik",43,produces,0.6512
+Hungarian,All,25,"egy, egyik",43,understands,0
+Hungarian,All,26,"egy, egyik",23,produces,0.6739
+Hungarian,All,26,"egy, egyik",23,understands,0
+Hungarian,All,27,"egy, egyik",26,produces,0.5962
+Hungarian,All,27,"egy, egyik",26,understands,0
+Hungarian,All,28,"egy, egyik",30,produces,0.65
+Hungarian,All,28,"egy, egyik",30,understands,0
+Hungarian,All,29,"egy, egyik",12,produces,0.625
+Hungarian,All,29,"egy, egyik",12,understands,0
+Hungarian,All,30,"egy, egyik",18,produces,0.6944
+Hungarian,All,30,"egy, egyik",18,understands,0
+Irish,All,17,"ceann, aon_amhain",2,produces,0.25
+Irish,All,17,"ceann, aon_amhain",2,understands,0
+Irish,All,18,"ceann, aon_amhain",1,produces,0
+Irish,All,18,"ceann, aon_amhain",1,understands,0
+Irish,All,19,"ceann, aon_amhain",2,produces,0.25
+Irish,All,19,"ceann, aon_amhain",2,understands,0
+Irish,All,20,"ceann, aon_amhain",1,produces,0
+Irish,All,20,"ceann, aon_amhain",1,understands,0
+Irish,All,21,"ceann, aon_amhain",3,produces,0
+Irish,All,21,"ceann, aon_amhain",3,understands,0
+Irish,All,22,"ceann, aon_amhain",4,produces,0
+Irish,All,22,"ceann, aon_amhain",4,understands,0
+Irish,All,23,"ceann, aon_amhain",4,produces,0.5
+Irish,All,23,"ceann, aon_amhain",4,understands,0
+Irish,All,24,"ceann, aon_amhain",4,produces,0.5
+Irish,All,24,"ceann, aon_amhain",4,understands,0
+Irish,All,25,"ceann, aon_amhain",6,produces,0.1667
+Irish,All,25,"ceann, aon_amhain",6,understands,0
+Irish,All,26,"ceann, aon_amhain",10,produces,0.3
+Irish,All,26,"ceann, aon_amhain",10,understands,0
+Irish,All,27,"ceann, aon_amhain",5,produces,0.5
+Irish,All,27,"ceann, aon_amhain",5,understands,0
+Irish,All,28,"ceann, aon_amhain",7,produces,0.5
+Irish,All,28,"ceann, aon_amhain",7,understands,0
+Irish,All,29,"ceann, aon_amhain",4,produces,0.625
+Irish,All,29,"ceann, aon_amhain",4,understands,0
+Irish,All,30,"ceann, aon_amhain",9,produces,0.8333
+Irish,All,30,"ceann, aon_amhain",9,understands,0
+Irish,All,31,"ceann, aon_amhain",8,produces,0.3125
+Irish,All,31,"ceann, aon_amhain",8,understands,0
+Irish,All,32,"ceann, aon_amhain",4,produces,0.5
+Irish,All,32,"ceann, aon_amhain",4,understands,0
+Irish,All,33,"ceann, aon_amhain",5,produces,0.8
+Irish,All,33,"ceann, aon_amhain",5,understands,0
+Irish,All,34,"ceann, aon_amhain",4,produces,0.625
+Irish,All,34,"ceann, aon_amhain",4,understands,0
+Irish,All,35,"ceann, aon_amhain",11,produces,0.8182
+Irish,All,35,"ceann, aon_amhain",11,understands,0
+Irish,All,36,"ceann, aon_amhain",5,produces,0.8
+Irish,All,36,"ceann, aon_amhain",5,understands,0
+Japanese,All,8,ひとつ,6,produces,0
+Japanese,All,8,ひとつ,6,understands,0
+Japanese,All,9,ひとつ,10,produces,0
+Japanese,All,9,ひとつ,10,understands,0
+Japanese,All,10,ひとつ,8,produces,0
+Japanese,All,10,ひとつ,8,understands,0
+Japanese,All,11,ひとつ,87,produces,0
+Japanese,All,11,ひとつ,87,understands,0.0345
+Japanese,All,12,ひとつ,118,produces,0
+Japanese,All,12,ひとつ,118,understands,0.0169
+Japanese,All,13,ひとつ,23,produces,0
+Japanese,All,13,ひとつ,23,understands,0.0435
+Japanese,All,14,ひとつ,26,produces,0
+Japanese,All,14,ひとつ,26,understands,0.0769
+Japanese,All,15,ひとつ,72,produces,0
+Japanese,All,15,ひとつ,72,understands,0.0833
+Japanese,All,16,"ひとつ, いち",46,produces,0.0175
+Japanese,All,16,"ひとつ, いち",46,understands,0.0526
+Japanese,All,17,"ひとつ, いち",77,produces,0.0745
+Japanese,All,17,"ひとつ, いち",77,understands,0.1489
+Japanese,All,18,"ひとつ, いち",94,produces,0.08
+Japanese,All,18,"ひとつ, いち",94,understands,0.06
+Japanese,All,19,"いち, ひとつ",35,produces,0.0714
+Japanese,All,19,"いち, ひとつ",35,understands,0
+Japanese,All,20,"いち, ひとつ",59,produces,0.1695
+Japanese,All,20,"いち, ひとつ",59,understands,0
+Japanese,All,21,"いち, ひとつ",62,produces,0.2823
+Japanese,All,21,"いち, ひとつ",62,understands,0
+Japanese,All,22,"いち, ひとつ",31,produces,0.3548
+Japanese,All,22,"いち, ひとつ",31,understands,0
+Japanese,All,23,"いち, ひとつ",67,produces,0.3582
+Japanese,All,23,"いち, ひとつ",67,understands,0
+Japanese,All,24,"いち, ひとつ",33,produces,0.5
+Japanese,All,24,"いち, ひとつ",33,understands,0
+Japanese,All,25,"いち, ひとつ",34,produces,0.5147
+Japanese,All,25,"いち, ひとつ",34,understands,0
+Japanese,All,26,"いち, ひとつ",33,produces,0.6515
+Japanese,All,26,"いち, ひとつ",33,understands,0
+Japanese,All,27,"いち, ひとつ",15,produces,0.6
+Japanese,All,27,"いち, ひとつ",15,understands,0
+Japanese,All,28,"いち, ひとつ",18,produces,0.5556
+Japanese,All,28,"いち, ひとつ",18,understands,0
+Japanese,All,29,"いち, ひとつ",17,produces,0.5588
+Japanese,All,29,"いち, ひとつ",17,understands,0
+Japanese,All,30,"いち, ひとつ",18,produces,0.5833
+Japanese,All,30,"いち, ひとつ",18,understands,0
+Japanese,All,31,"いち, ひとつ",18,produces,0.8056
+Japanese,All,31,"いち, ひとつ",18,understands,0
+Japanese,All,32,"いち, ひとつ",13,produces,0.7692
+Japanese,All,32,"いち, ひとつ",13,understands,0
+Japanese,All,33,"いち, ひとつ",16,produces,0.875
+Japanese,All,33,"いち, ひとつ",16,understands,0
+Japanese,All,34,"いち, ひとつ",13,produces,0.7692
+Japanese,All,34,"いち, ひとつ",13,understands,0
+Japanese,All,35,"いち, ひとつ",31,produces,0.7419
+Japanese,All,35,"いち, ひとつ",31,understands,0
+Japanese,All,36,"いち, ひとつ",18,produces,0.8611
+Japanese,All,36,"いち, ひとつ",18,understands,0
+Korean,All,18,하나,88,produces,0.1705
+Korean,All,18,하나,88,understands,0
+Korean,All,19,하나,77,produces,0.1299
+Korean,All,19,하나,77,understands,0
+Korean,All,20,하나,88,produces,0.1591
+Korean,All,20,하나,88,understands,0
+Korean,All,21,하나,79,produces,0.3038
+Korean,All,21,하나,79,understands,0
+Korean,All,22,하나,87,produces,0.4483
+Korean,All,22,하나,87,understands,0
+Korean,All,23,하나,87,produces,0.3333
+Korean,All,23,하나,87,understands,0
+Korean,All,24,하나,107,produces,0.5327
+Korean,All,24,하나,107,understands,0
+Korean,All,25,하나,95,produces,0.6105
+Korean,All,25,하나,95,understands,0
+Korean,All,26,하나,91,produces,0.6484
+Korean,All,26,하나,91,understands,0
+Korean,All,27,하나,104,produces,0.6538
+Korean,All,27,하나,104,understands,0
+Korean,All,28,하나,89,produces,0.7079
+Korean,All,28,하나,89,understands,0
+Korean,All,29,하나,101,produces,0.7921
+Korean,All,29,하나,101,understands,0
+Korean,All,30,하나,81,produces,0.7531
+Korean,All,30,하나,81,understands,0
+Korean,All,31,하나,79,produces,0.7595
+Korean,All,31,하나,79,understands,0
+Korean,All,32,하나,70,produces,0.6714
+Korean,All,32,하나,70,understands,0
+Korean,All,33,하나,79,produces,0.8608
+Korean,All,33,하나,79,understands,0
+Korean,All,34,하나,79,produces,0.8734
+Korean,All,34,하나,79,understands,0
+Korean,All,35,하나,74,produces,0.8378
+Korean,All,35,하나,74,understands,0
+Korean,All,36,하나,75,produces,0.8267
+Korean,All,36,하나,75,understands,0
+Mandarin (Beijing),All,16,一,70,produces,0.6286
+Mandarin (Beijing),All,16,一,70,understands,0
+Mandarin (Beijing),All,17,一,72,produces,0.7639
+Mandarin (Beijing),All,17,一,72,understands,0
+Mandarin (Beijing),All,18,一,71,produces,0.7746
+Mandarin (Beijing),All,18,一,71,understands,0
+Mandarin (Beijing),All,19,一,70,produces,0.7857
+Mandarin (Beijing),All,19,一,70,understands,0
+Mandarin (Beijing),All,20,一,71,produces,0.8873
+Mandarin (Beijing),All,20,一,71,understands,0
+Mandarin (Beijing),All,21,一,70,produces,0.9143
+Mandarin (Beijing),All,21,一,70,understands,0
+Mandarin (Beijing),All,22,一,71,produces,0.9437
+Mandarin (Beijing),All,22,一,71,understands,0
+Mandarin (Beijing),All,23,一,70,produces,0.9571
+Mandarin (Beijing),All,23,一,70,understands,0
+Mandarin (Beijing),All,24,一,70,produces,0.9143
+Mandarin (Beijing),All,24,一,70,understands,0
+Mandarin (Beijing),All,25,一,70,produces,0.9714
+Mandarin (Beijing),All,25,一,70,understands,0
+Mandarin (Beijing),All,26,一,71,produces,0.9718
+Mandarin (Beijing),All,26,一,71,understands,0
+Mandarin (Beijing),All,27,一,70,produces,1
+Mandarin (Beijing),All,27,一,70,understands,0
+Mandarin (Beijing),All,28,一,70,produces,0.9571
+Mandarin (Beijing),All,28,一,70,understands,0
+Mandarin (Beijing),All,29,一,70,produces,1
+Mandarin (Beijing),All,29,一,70,understands,0
+Mandarin (Beijing),All,30,一,70,produces,1
+Mandarin (Beijing),All,30,一,70,understands,0
+Mandarin (Taiwanese),All,8,一個(二、三個…),86,produces,0
+Mandarin (Taiwanese),All,8,一個(二、三個…),86,understands,0.1977
+Mandarin (Taiwanese),All,9,一個(二、三個…),79,produces,0
+Mandarin (Taiwanese),All,9,一個(二、三個…),79,understands,0.2152
+Mandarin (Taiwanese),All,10,一個(二、三個…),78,produces,0
+Mandarin (Taiwanese),All,10,一個(二、三個…),78,understands,0.1154
+Mandarin (Taiwanese),All,11,一個(二、三個…),79,produces,0
+Mandarin (Taiwanese),All,11,一個(二、三個…),79,understands,0.1139
+Mandarin (Taiwanese),All,12,一個(二、三個…),80,produces,0.0125
+Mandarin (Taiwanese),All,12,一個(二、三個…),80,understands,0.0375
+Mandarin (Taiwanese),All,13,一個(二、三個…),78,produces,0
+Mandarin (Taiwanese),All,13,一個(二、三個…),78,understands,0.1154
+Mandarin (Taiwanese),All,14,一個(二、三個…),81,produces,0.0494
+Mandarin (Taiwanese),All,14,一個(二、三個…),81,understands,0.1481
+Mandarin (Taiwanese),All,15,一個(二、三個…),106,produces,0.0943
+Mandarin (Taiwanese),All,15,一個(二、三個…),106,understands,0.3208
+Mandarin (Taiwanese),All,16,一個(二、三個…),90,produces,0.0889
+Mandarin (Taiwanese),All,16,一個(二、三個…),90,understands,0.3222
+Norwegian,All,16,"man, ei, en",98,produces,0.0102
+Norwegian,All,16,"man, ei, en",98,understands,0
+Norwegian,All,17,"man, ei, en",218,produces,0.0168
+Norwegian,All,17,"man, ei, en",218,understands,0
+Norwegian,All,18,"man, ei, en",271,produces,0.0221
+Norwegian,All,18,"man, ei, en",271,understands,0
+Norwegian,All,19,"man, ei, en",281,produces,0.0225
+Norwegian,All,19,"man, ei, en",281,understands,0
+Norwegian,All,20,"man, ei, en",342,produces,0.0351
+Norwegian,All,20,"man, ei, en",342,understands,0
+Norwegian,All,21,"man, ei, en",418,produces,0.0478
+Norwegian,All,21,"man, ei, en",418,understands,0
+Norwegian,All,22,"man, ei, en",596,produces,0.0654
+Norwegian,All,22,"man, ei, en",596,understands,0
+Norwegian,All,23,"man, ei, en",566,produces,0.0954
+Norwegian,All,23,"man, ei, en",566,understands,0
+Norwegian,All,24,"man, ei, en",538,produces,0.1264
+Norwegian,All,24,"man, ei, en",538,understands,0
+Norwegian,All,25,"man, ei, en",656,produces,0.1575
+Norwegian,All,25,"man, ei, en",656,understands,0
+Norwegian,All,26,"man, ei, en",644,produces,0.2013
+Norwegian,All,26,"man, ei, en",644,understands,0
+Norwegian,All,27,"man, ei, en",525,produces,0.247
+Norwegian,All,27,"man, ei, en",525,understands,0
+Norwegian,All,28,"man, ei, en",544,produces,0.2763
+Norwegian,All,28,"man, ei, en",544,understands,0
+Norwegian,All,29,"man, ei, en",536,produces,0.3159
+Norwegian,All,29,"man, ei, en",536,understands,0
+Norwegian,All,30,"man, ei, en",457,produces,0.3231
+Norwegian,All,30,"man, ei, en",457,understands,0
+Norwegian,All,31,"man, ei, en",479,produces,0.3834
+Norwegian,All,31,"man, ei, en",479,understands,0
+Norwegian,All,32,"man, ei, en",451,produces,0.408
+Norwegian,All,32,"man, ei, en",451,understands,0
+Norwegian,All,33,"man, ei, en",430,produces,0.4527
+Norwegian,All,33,"man, ei, en",430,understands,0
+Norwegian,All,34,"man, ei, en",424,produces,0.4803
+Norwegian,All,34,"man, ei, en",424,understands,0
+Norwegian,All,35,"man, ei, en",422,produces,0.5039
+Norwegian,All,35,"man, ei, en",422,understands,0
+Norwegian,All,36,"man, ei, en",329,produces,0.5208
+Norwegian,All,36,"man, ei, en",329,understands,0
+Portuguese (European),All,16,Um / Uma,144,produces,0.0972
+Portuguese (European),All,16,Um / Uma,144,understands,0
+Portuguese (European),All,17,Um / Uma,158,produces,0.0696
+Portuguese (European),All,17,Um / Uma,158,understands,0
+Portuguese (European),All,18,Um / Uma,203,produces,0.2217
+Portuguese (European),All,18,Um / Uma,203,understands,0
+Portuguese (European),All,19,Um / Uma,196,produces,0.2143
+Portuguese (European),All,19,Um / Uma,196,understands,0
+Portuguese (European),All,20,Um / Uma,218,produces,0.3303
+Portuguese (European),All,20,Um / Uma,218,understands,0
+Portuguese (European),All,21,Um / Uma,208,produces,0.4087
+Portuguese (European),All,21,Um / Uma,208,understands,0
+Portuguese (European),All,22,Um / Uma,213,produces,0.4648
+Portuguese (European),All,22,Um / Uma,213,understands,0
+Portuguese (European),All,23,Um / Uma,199,produces,0.5477
+Portuguese (European),All,23,Um / Uma,199,understands,0
+Portuguese (European),All,24,Um / Uma,215,produces,0.6
+Portuguese (European),All,24,Um / Uma,215,understands,0
+Portuguese (European),All,25,Um / Uma,213,produces,0.662
+Portuguese (European),All,25,Um / Uma,213,understands,0
+Portuguese (European),All,26,Um / Uma,218,produces,0.7156
+Portuguese (European),All,26,Um / Uma,218,understands,0
+Portuguese (European),All,27,Um / Uma,238,produces,0.7185
+Portuguese (European),All,27,Um / Uma,238,understands,0
+Portuguese (European),All,28,Um / Uma,219,produces,0.7854
+Portuguese (European),All,28,Um / Uma,219,understands,0
+Portuguese (European),All,29,Um / Uma,207,produces,0.7633
+Portuguese (European),All,29,Um / Uma,207,understands,0
+Portuguese (European),All,30,Um / Uma,163,produces,0.7914
+Portuguese (European),All,30,Um / Uma,163,understands,0
+Russian,All,18,один,42,produces,0.119
+Russian,All,18,один,42,understands,0
+Russian,All,19,один,41,produces,0.1707
+Russian,All,19,один,41,understands,0
+Russian,All,20,один,45,produces,0.2667
+Russian,All,20,один,45,understands,0
+Russian,All,21,один,43,produces,0.4419
+Russian,All,21,один,43,understands,0
+Russian,All,22,один,51,produces,0.5294
+Russian,All,22,один,51,understands,0
+Russian,All,23,один,56,produces,0.625
+Russian,All,23,один,56,understands,0
+Russian,All,24,один,61,produces,0.6393
+Russian,All,24,один,61,understands,0
+Russian,All,25,один,66,produces,0.7273
+Russian,All,25,один,66,understands,0
+Russian,All,26,один,52,produces,0.6731
+Russian,All,26,один,52,understands,0
+Russian,All,27,один,60,produces,0.6333
+Russian,All,27,один,60,understands,0
+Russian,All,28,один,60,produces,0.7833
+Russian,All,28,один,60,understands,0
+Russian,All,29,один,58,produces,0.8448
+Russian,All,29,один,58,understands,0
+Russian,All,30,один,77,produces,0.8182
+Russian,All,30,один,77,understands,0
+Russian,All,31,один,61,produces,0.8689
+Russian,All,31,один,61,understands,0
+Russian,All,32,один,55,produces,0.9091
+Russian,All,32,один,55,understands,0
+Russian,All,33,один,55,produces,0.8909
+Russian,All,33,один,55,understands,0
+Russian,All,34,один,58,produces,0.9483
+Russian,All,34,один,58,understands,0
+Russian,All,35,один,47,produces,0.8936
+Russian,All,35,один,47,understands,0
+Russian,All,36,один,49,produces,0.9388
+Russian,All,36,один,49,understands,0
+Spanish (Peruvian),All,8,uno(a),9,produces,0
+Spanish (Peruvian),All,8,uno(a),9,understands,0.1111
+Spanish (Peruvian),All,9,uno(a),12,produces,0
+Spanish (Peruvian),All,9,uno(a),12,understands,0.25
+Spanish (Peruvian),All,10,uno(a),7,produces,0
+Spanish (Peruvian),All,10,uno(a),7,understands,0.4286
+Spanish (Peruvian),All,11,uno(a),18,produces,0
+Spanish (Peruvian),All,11,uno(a),18,understands,0.2778
+Spanish (Peruvian),All,12,uno(a),14,produces,0
+Spanish (Peruvian),All,12,uno(a),14,understands,0.4286
+Spanish (Peruvian),All,13,uno(a),9,produces,0
+Spanish (Peruvian),All,13,uno(a),9,understands,0.3333
+Spanish (Peruvian),All,14,uno(a),8,produces,0
+Spanish (Peruvian),All,14,uno(a),8,understands,0.5
+Spanish (Peruvian),All,15,uno(a),10,produces,0
+Spanish (Peruvian),All,15,uno(a),10,understands,0.2
+Spanish (Peruvian),All,16,"un, uno(a)",13,produces,0.1923
+Spanish (Peruvian),All,16,"un, uno(a)",13,understands,0
+Spanish (Peruvian),All,17,"un, uno(a)",9,produces,0.3333
+Spanish (Peruvian),All,17,"un, uno(a)",9,understands,0
+Spanish (Peruvian),All,18,"un, uno(a)",4,produces,0.375
+Spanish (Peruvian),All,18,"un, uno(a)",4,understands,0
+Spanish (Peruvian),All,19,"un, uno(a)",12,produces,0.4167
+Spanish (Peruvian),All,19,"un, uno(a)",12,understands,0
+Spanish (Peruvian),All,20,"un, uno(a)",1,produces,0
+Spanish (Peruvian),All,20,"un, uno(a)",1,understands,0
+Spanish (Peruvian),All,21,"un, uno(a)",5,produces,0.5
+Spanish (Peruvian),All,21,"un, uno(a)",5,understands,0
+Spanish (Peruvian),All,22,"un, uno(a)",9,produces,0.2222
+Spanish (Peruvian),All,22,"un, uno(a)",9,understands,0
+Spanish (Peruvian),All,23,"un, uno(a)",1,produces,1
+Spanish (Peruvian),All,23,"un, uno(a)",1,understands,0
+Spanish (Peruvian),All,24,"un, uno(a)",15,produces,0.1667
+Spanish (Peruvian),All,24,"un, uno(a)",15,understands,0
+Spanish (Peruvian),All,25,"un, uno(a)",5,produces,0.3
+Spanish (Peruvian),All,25,"un, uno(a)",5,understands,0
+Spanish (Peruvian),All,26,"un, uno(a)",8,produces,0.1875
+Spanish (Peruvian),All,26,"un, uno(a)",8,understands,0
+Spanish (Peruvian),All,27,"un, uno(a)",7,produces,0.2143
+Spanish (Peruvian),All,27,"un, uno(a)",7,understands,0
+Spanish (Peruvian),All,28,"un, uno(a)",8,produces,0.6875
+Spanish (Peruvian),All,28,"un, uno(a)",8,understands,0
+Spanish (Peruvian),All,29,"un, uno(a)",6,produces,0.25
+Spanish (Peruvian),All,29,"un, uno(a)",6,understands,0
+Spanish (Peruvian),All,30,"un, uno(a)",2,produces,0
+Spanish (Peruvian),All,30,"un, uno(a)",2,understands,0
+Swedish,All,16,ett,159,produces,0.0189
+Swedish,All,16,ett,159,understands,0
+Swedish,All,19,ett,152,produces,0.0526
+Swedish,All,19,ett,152,understands,0
+Swedish,All,22,ett,307,produces,0.1368
+Swedish,All,22,ett,307,understands,0
+Swedish,All,25,ett,143,produces,0.2867
+Swedish,All,25,ett,143,understands,0
+Swedish,All,28,ett,139,produces,0.446
+Swedish,All,28,ett,139,understands,0
+Arabic (Saudi),Female,8,واحد/ واحدة,9,produces,0
+Arabic (Saudi),Female,8,واحد/ واحدة,9,understands,0
+Arabic (Saudi),Male,8,واحد/ واحدة,10,produces,0
+Arabic (Saudi),Male,8,واحد/ واحدة,10,understands,0
+Arabic (Saudi),Female,9,واحد/ واحدة,10,produces,0
+Arabic (Saudi),Female,9,واحد/ واحدة,10,understands,0
+Arabic (Saudi),Male,9,واحد/ واحدة,8,produces,0
+Arabic (Saudi),Male,9,واحد/ واحدة,8,understands,0
+Arabic (Saudi),Female,10,واحد/ واحدة,11,produces,0
+Arabic (Saudi),Female,10,واحد/ واحدة,11,understands,0
+Arabic (Saudi),Male,10,واحد/ واحدة,14,produces,0
+Arabic (Saudi),Male,10,واحد/ واحدة,14,understands,0
+Arabic (Saudi),Female,11,واحد/ واحدة,9,produces,0
+Arabic (Saudi),Female,11,واحد/ واحدة,9,understands,0
+Arabic (Saudi),Male,11,واحد/ واحدة,12,produces,0.0833
+Arabic (Saudi),Male,11,واحد/ واحدة,12,understands,0
+Arabic (Saudi),Female,12,واحد/ واحدة,8,produces,0.125
+Arabic (Saudi),Female,12,واحد/ واحدة,8,understands,0
+Arabic (Saudi),Male,12,واحد/ واحدة,11,produces,0.0909
+Arabic (Saudi),Male,12,واحد/ واحدة,11,understands,0
+Arabic (Saudi),Female,13,واحد/ واحدة,16,produces,0.125
+Arabic (Saudi),Female,13,واحد/ واحدة,16,understands,0
+Arabic (Saudi),Male,13,واحد/ واحدة,20,produces,0.1
+Arabic (Saudi),Male,13,واحد/ واحدة,20,understands,0
+Arabic (Saudi),Female,14,واحد/ واحدة,10,produces,0
+Arabic (Saudi),Female,14,واحد/ واحدة,10,understands,0
+Arabic (Saudi),Male,14,واحد/ واحدة,10,produces,0
+Arabic (Saudi),Male,14,واحد/ واحدة,10,understands,0
+Arabic (Saudi),Female,15,واحد/ واحدة,7,produces,0
+Arabic (Saudi),Female,15,واحد/ واحدة,7,understands,0
+Arabic (Saudi),Male,15,واحد/ واحدة,12,produces,0.0833
+Arabic (Saudi),Male,15,واحد/ واحدة,12,understands,0
+Arabic (Saudi),Female,16,واحد/ واحدة,9,produces,0.2222
+Arabic (Saudi),Female,16,واحد/ واحدة,9,understands,0
+Arabic (Saudi),Male,16,واحد/ واحدة,9,produces,0
+Arabic (Saudi),Male,16,واحد/ واحدة,9,understands,0
+Cantonese,Female,16,一,23,produces,0.3043
+Cantonese,Female,16,一,23,understands,0
+Cantonese,Male,16,一,23,produces,0.1739
+Cantonese,Male,16,一,23,understands,0
+Cantonese,Female,17,一,30,produces,0.3667
+Cantonese,Female,17,一,30,understands,0
+Cantonese,Male,17,一,31,produces,0.4194
+Cantonese,Male,17,一,31,understands,0
+Cantonese,Female,18,一,33,produces,0.7576
+Cantonese,Female,18,一,33,understands,0
+Cantonese,Male,18,一,35,produces,0.3714
+Cantonese,Male,18,一,35,understands,0
+Cantonese,Female,19,一,30,produces,0.5333
+Cantonese,Female,19,一,30,understands,0
+Cantonese,Male,19,一,36,produces,0.5278
+Cantonese,Male,19,一,36,understands,0
+Cantonese,Female,20,一,62,produces,0.7903
+Cantonese,Female,20,一,62,understands,0
+Cantonese,Male,20,一,78,produces,0.7564
+Cantonese,Male,20,一,78,understands,0
+Cantonese,Female,21,一,57,produces,0.7544
+Cantonese,Female,21,一,57,understands,0
+Cantonese,Male,21,一,63,produces,0.7619
+Cantonese,Male,21,一,63,understands,0
+Cantonese,Female,22,一,34,produces,0.7941
+Cantonese,Female,22,一,34,understands,0
+Cantonese,Male,22,一,34,produces,0.7353
+Cantonese,Male,22,一,34,understands,0
+Cantonese,Female,23,一,37,produces,0.8108
+Cantonese,Female,23,一,37,understands,0
+Cantonese,Male,23,一,37,produces,0.7838
+Cantonese,Male,23,一,37,understands,0
+Cantonese,Female,24,一,32,produces,0.875
+Cantonese,Female,24,一,32,understands,0
+Cantonese,Male,24,一,36,produces,0.75
+Cantonese,Male,24,一,36,understands,0
+Cantonese,Female,25,一,31,produces,0.9032
+Cantonese,Female,25,一,31,understands,0
+Cantonese,Male,25,一,34,produces,0.9412
+Cantonese,Male,25,一,34,understands,0
+Cantonese,Female,26,一,31,produces,0.871
+Cantonese,Female,26,一,31,understands,0
+Cantonese,Male,26,一,37,produces,0.8108
+Cantonese,Male,26,一,37,understands,0
+Cantonese,Female,27,一,31,produces,1
+Cantonese,Female,27,一,31,understands,0
+Cantonese,Male,27,一,31,produces,0.9032
+Cantonese,Male,27,一,31,understands,0
+Cantonese,Female,28,一,32,produces,0.9688
+Cantonese,Female,28,一,32,understands,0
+Cantonese,Male,28,一,34,produces,0.9706
+Cantonese,Male,28,一,34,understands,0
+Cantonese,Female,29,一,36,produces,0.9722
+Cantonese,Female,29,一,36,understands,0
+Cantonese,Male,29,一,36,produces,0.9722
+Cantonese,Male,29,一,36,understands,0
+Cantonese,Female,30,一,76,produces,0.9737
+Cantonese,Female,30,一,76,understands,0
+Cantonese,Male,30,一,88,produces,0.9773
+Cantonese,Male,30,一,88,understands,0
+Catalan,Female,8,"un (numeral), una",17,produces,0
+Catalan,Female,8,"un (numeral), una",17,understands,0
+Catalan,Male,8,"un (numeral), una",22,produces,0
+Catalan,Male,8,"un (numeral), una",22,understands,0
+Catalan,Female,9,"un (numeral), una",19,produces,0
+Catalan,Female,9,"un (numeral), una",19,understands,0
+Catalan,Male,9,"un (numeral), una",27,produces,0
+Catalan,Male,9,"un (numeral), una",27,understands,0
+Catalan,Female,10,"un (numeral), una",23,produces,0
+Catalan,Female,10,"un (numeral), una",23,understands,0.0217
+Catalan,Male,10,"un (numeral), una",20,produces,0
+Catalan,Male,10,"un (numeral), una",20,understands,0.05
+Catalan,Female,11,"un (numeral), una",23,produces,0.0217
+Catalan,Female,11,"un (numeral), una",23,understands,0.087
+Catalan,Male,11,"un (numeral), una",20,produces,0
+Catalan,Male,11,"un (numeral), una",20,understands,0.05
+Catalan,Female,12,"un (numeral), una",29,produces,0.0172
+Catalan,Female,12,"un (numeral), una",29,understands,0.1207
+Catalan,Male,12,"un (numeral), una",30,produces,0
+Catalan,Male,12,"un (numeral), una",30,understands,0.0833
+Catalan,Female,13,"un (numeral), una",18,produces,0
+Catalan,Female,13,"un (numeral), una",18,understands,0.1111
+Catalan,Male,13,"un (numeral), una",26,produces,0.0192
+Catalan,Male,13,"un (numeral), una",26,understands,0.1154
+Catalan,Female,14,"un (numeral), una",31,produces,0
+Catalan,Female,14,"un (numeral), una",31,understands,0.129
+Catalan,Male,14,"un (numeral), una",29,produces,0.0172
+Catalan,Male,14,"un (numeral), una",29,understands,0.069
+Catalan,Female,15,"un (numeral), una",35,produces,0.0143
+Catalan,Female,15,"un (numeral), una",35,understands,0.1571
+Catalan,Male,15,"un (numeral), una",35,produces,0.0429
+Catalan,Male,15,"un (numeral), una",35,understands,0.2571
+Catalan,Female,16,"un (numeral), una, un",33,produces,0
+Catalan,Female,16,"un (numeral), una, un",33,understands,0.2576
+Catalan,Male,16,"un (numeral), una, un",40,produces,0.025
+Catalan,Male,16,"un (numeral), una, un",40,understands,0.175
+Catalan,Female,17,"un (numeral), una, un",64,produces,0.0859
+Catalan,Female,17,"un (numeral), una, un",64,understands,0.1562
+Catalan,Male,17,"un (numeral), una, un",46,produces,0.1196
+Catalan,Male,17,"un (numeral), una, un",46,understands,0.3043
+Catalan,Female,18,"un (numeral), una, un",47,produces,0.1489
+Catalan,Female,18,"un (numeral), una, un",47,understands,0.2128
+Catalan,Male,18,"un (numeral), una, un",55,produces,0.0636
+Catalan,Male,18,"un (numeral), una, un",55,understands,0.1545
+Catalan,Female,19,"un, una",25,produces,0.2
+Catalan,Female,19,"un, una",25,understands,0
+Catalan,Male,19,"un, una",20,produces,0.25
+Catalan,Male,19,"un, una",20,understands,0
+Catalan,Female,20,"un, una",28,produces,0.25
+Catalan,Female,20,"un, una",28,understands,0
+Catalan,Male,20,"un, una",28,produces,0.1071
+Catalan,Male,20,"un, una",28,understands,0
+Catalan,Female,21,"un, una",32,produces,0.2969
+Catalan,Female,21,"un, una",32,understands,0
+Catalan,Male,21,"un, una",26,produces,0.2885
+Catalan,Male,21,"un, una",26,understands,0
+Catalan,Female,22,"un, una",26,produces,0.5192
+Catalan,Female,22,"un, una",26,understands,0
+Catalan,Male,22,"un, una",24,produces,0.3333
+Catalan,Male,22,"un, una",24,understands,0
+Catalan,Female,23,"un, una",35,produces,0.3571
+Catalan,Female,23,"un, una",35,understands,0
+Catalan,Male,23,"un, una",31,produces,0.3548
+Catalan,Male,23,"un, una",31,understands,0
+Catalan,Female,24,"un, una",41,produces,0.6098
+Catalan,Female,24,"un, una",41,understands,0
+Catalan,Male,24,"un, una",38,produces,0.4605
+Catalan,Male,24,"un, una",38,understands,0
+Catalan,Female,25,"un, una",30,produces,0.6667
+Catalan,Female,25,"un, una",30,understands,0
+Catalan,Male,25,"un, una",30,produces,0.6667
+Catalan,Male,25,"un, una",30,understands,0
+Catalan,Female,26,"un, una",35,produces,0.7143
+Catalan,Female,26,"un, una",35,understands,0
+Catalan,Male,26,"un, una",30,produces,0.6167
+Catalan,Male,26,"un, una",30,understands,0
+Catalan,Female,27,"un, una",36,produces,0.7083
+Catalan,Female,27,"un, una",36,understands,0
+Catalan,Male,27,"un, una",27,produces,0.6296
+Catalan,Male,27,"un, una",27,understands,0
+Catalan,Female,28,"un, una",40,produces,0.75
+Catalan,Female,28,"un, una",40,understands,0
+Catalan,Male,28,"un, una",41,produces,0.7317
+Catalan,Male,28,"un, una",41,understands,0
+Catalan,Female,29,"un, una",25,produces,0.8
+Catalan,Female,29,"un, una",25,understands,0
+Catalan,Male,29,"un, una",25,produces,0.84
+Catalan,Male,29,"un, una",25,understands,0
+Catalan,Female,30,"un, una",24,produces,0.875
+Catalan,Female,30,"un, una",24,understands,0
+Catalan,Male,30,"un, una",51,produces,0.8431
+Catalan,Male,30,"un, una",51,understands,0
+English (Irish),Female,17,one,1,produces,0
+English (Irish),Female,17,one,1,understands,0
+English (Irish),Male,17,one,1,produces,0
+English (Irish),Male,17,one,1,understands,0
+English (Irish),Female,18,one,1,produces,0
+English (Irish),Female,18,one,1,understands,0
+English (Irish),Female,19,one,1,produces,0
+English (Irish),Female,19,one,1,understands,0
+English (Irish),Male,19,one,1,produces,0
+English (Irish),Male,19,one,1,understands,0
+English (Irish),Female,20,one,1,produces,0
+English (Irish),Female,20,one,1,understands,0
+English (Irish),Female,21,one,2,produces,0
+English (Irish),Female,21,one,2,understands,0
+English (Irish),Male,21,one,1,produces,0
+English (Irish),Male,21,one,1,understands,0
+English (Irish),Female,22,one,3,produces,0
+English (Irish),Female,22,one,3,understands,0
+English (Irish),Male,22,one,1,produces,0
+English (Irish),Male,22,one,1,understands,0
+English (Irish),Female,23,one,2,produces,0
+English (Irish),Female,23,one,2,understands,0
+English (Irish),Male,23,one,2,produces,0
+English (Irish),Male,23,one,2,understands,0
+English (Irish),Female,24,one,2,produces,0.5
+English (Irish),Female,24,one,2,understands,0
+English (Irish),Male,24,one,2,produces,0
+English (Irish),Male,24,one,2,understands,0
+English (Irish),Female,25,one,3,produces,0
+English (Irish),Female,25,one,3,understands,0
+English (Irish),Male,25,one,3,produces,0
+English (Irish),Male,25,one,3,understands,0
+English (Irish),Female,26,one,7,produces,0
+English (Irish),Female,26,one,7,understands,0
+English (Irish),Male,26,one,3,produces,0
+English (Irish),Male,26,one,3,understands,0
+English (Irish),Female,27,one,1,produces,1
+English (Irish),Female,27,one,1,understands,0
+English (Irish),Male,27,one,4,produces,0
+English (Irish),Male,27,one,4,understands,0
+English (Irish),Female,28,one,4,produces,0.125
+English (Irish),Female,28,one,4,understands,0
+English (Irish),Male,28,one,3,produces,0.1667
+English (Irish),Male,28,one,3,understands,0
+English (Irish),Female,29,one,1,produces,0
+English (Irish),Female,29,one,1,understands,0
+English (Irish),Male,29,one,3,produces,0.6667
+English (Irish),Male,29,one,3,understands,0
+English (Irish),Female,30,one,5,produces,0.2
+English (Irish),Female,30,one,5,understands,0
+English (Irish),Male,30,one,4,produces,0
+English (Irish),Male,30,one,4,understands,0
+English (Irish),Female,31,one,3,produces,0
+English (Irish),Female,31,one,3,understands,0
+English (Irish),Male,31,one,5,produces,0.1
+English (Irish),Male,31,one,5,understands,0
+English (Irish),Female,32,one,2,produces,0.5
+English (Irish),Female,32,one,2,understands,0
+English (Irish),Male,32,one,2,produces,0
+English (Irish),Male,32,one,2,understands,0
+English (Irish),Female,33,one,1,produces,0
+English (Irish),Female,33,one,1,understands,0
+English (Irish),Male,33,one,4,produces,0.25
+English (Irish),Male,33,one,4,understands,0
+English (Irish),Female,34,one,2,produces,0
+English (Irish),Female,34,one,2,understands,0
+English (Irish),Male,34,one,2,produces,0
+English (Irish),Male,34,one,2,understands,0
+English (Irish),Female,35,one,2,produces,0.25
+English (Irish),Female,35,one,2,understands,0
+English (Irish),Male,35,one,9,produces,0.3889
+English (Irish),Male,35,one,9,understands,0
+English (Irish),Female,36,one,3,produces,0.6667
+English (Irish),Female,36,one,3,understands,0
+English (Irish),Male,36,one,2,produces,0
+English (Irish),Male,36,one,2,understands,0
+Estonian,Female,16,vks,19,produces,0.1053
+Estonian,Female,16,vks,19,understands,0
+Estonian,Male,16,vks,17,produces,0.0588
+Estonian,Male,16,vks,17,understands,0
+Estonian,Female,17,vks,42,produces,0.0952
+Estonian,Female,17,vks,42,understands,0
+Estonian,Male,17,vks,47,produces,0.1702
+Estonian,Male,17,vks,47,understands,0
+Estonian,Female,18,vks,52,produces,0.2115
+Estonian,Female,18,vks,52,understands,0
+Estonian,Male,18,vks,51,produces,0.098
+Estonian,Male,18,vks,51,understands,0
+Estonian,Female,19,vks,44,produces,0.2273
+Estonian,Female,19,vks,44,understands,0
+Estonian,Male,19,vks,41,produces,0.1951
+Estonian,Male,19,vks,41,understands,0
+Estonian,Female,20,vks,36,produces,0.25
+Estonian,Female,20,vks,36,understands,0
+Estonian,Male,20,vks,24,produces,0.2917
+Estonian,Male,20,vks,24,understands,0
+Estonian,Female,21,vks,28,produces,0.4286
+Estonian,Female,21,vks,28,understands,0
+Estonian,Male,21,vks,38,produces,0.2105
+Estonian,Male,21,vks,38,understands,0
+Estonian,Female,22,vks,45,produces,0.4222
+Estonian,Female,22,vks,45,understands,0
+Estonian,Male,22,vks,31,produces,0.3548
+Estonian,Male,22,vks,31,understands,0
+Estonian,Female,23,vks,48,produces,0.5417
+Estonian,Female,23,vks,48,understands,0
+Estonian,Male,23,vks,47,produces,0.4681
+Estonian,Male,23,vks,47,understands,0
+Estonian,Female,24,vks,52,produces,0.7308
+Estonian,Female,24,vks,52,understands,0
+Estonian,Male,24,vks,64,produces,0.5156
+Estonian,Male,24,vks,64,understands,0
+Estonian,Female,25,vks,45,produces,0.8222
+Estonian,Female,25,vks,45,understands,0
+Estonian,Male,25,vks,37,produces,0.5676
+Estonian,Male,25,vks,37,understands,0
+Estonian,Female,26,vks,45,produces,0.7778
+Estonian,Female,26,vks,45,understands,0
+Estonian,Male,26,vks,39,produces,0.4615
+Estonian,Male,26,vks,39,understands,0
+Estonian,Female,27,vks,44,produces,0.8182
+Estonian,Female,27,vks,44,understands,0
+Estonian,Male,27,vks,36,produces,0.6389
+Estonian,Male,27,vks,36,understands,0
+Estonian,Female,28,vks,44,produces,0.8636
+Estonian,Female,28,vks,44,understands,0
+Estonian,Male,28,vks,48,produces,0.7708
+Estonian,Male,28,vks,48,understands,0
+Estonian,Female,29,vks,59,produces,0.8136
+Estonian,Female,29,vks,59,understands,0
+Estonian,Male,29,vks,41,produces,0.8293
+Estonian,Male,29,vks,41,understands,0
+Estonian,Female,30,vks,37,produces,0.8378
+Estonian,Female,30,vks,37,understands,0
+Estonian,Male,30,vks,34,produces,0.7353
+Estonian,Male,30,vks,34,understands,0
+Hebrew,Female,25,אחד,36,produces,0.75
+Hebrew,Female,25,אחד,36,understands,0
+Hebrew,Male,25,אחד,46,produces,0.5652
+Hebrew,Male,25,אחד,46,understands,0
+Hebrew,Female,26,אחד,42,produces,0.8571
+Hebrew,Female,26,אחד,42,understands,0
+Hebrew,Male,26,אחד,38,produces,0.8158
+Hebrew,Male,26,אחד,38,understands,0
+Hebrew,Female,27,אחד,36,produces,0.8056
+Hebrew,Female,27,אחד,36,understands,0
+Hebrew,Male,27,אחד,32,produces,0.7812
+Hebrew,Male,27,אחד,32,understands,0
+Hebrew,Female,28,אחד,30,produces,0.9
+Hebrew,Female,28,אחד,30,understands,0
+Hebrew,Male,28,אחד,27,produces,0.8889
+Hebrew,Male,28,אחד,27,understands,0
+Hebrew,Female,29,אחד,20,produces,1
+Hebrew,Female,29,אחד,20,understands,0
+Hebrew,Male,29,אחד,27,produces,0.8519
+Hebrew,Male,29,אחד,27,understands,0
+Hebrew,Female,30,אחד,12,produces,0.8333
+Hebrew,Female,30,אחד,12,understands,0
+Hebrew,Male,30,אחד,16,produces,0.8125
+Hebrew,Male,30,אחד,16,understands,0
+Hebrew,Female,31,אחד,18,produces,0.9444
+Hebrew,Female,31,אחד,18,understands,0
+Hebrew,Male,31,אחד,17,produces,0.8235
+Hebrew,Male,31,אחד,17,understands,0
+Hebrew,Female,32,אחד,19,produces,0.7895
+Hebrew,Female,32,אחד,19,understands,0
+Hebrew,Male,32,אחד,17,produces,0.9412
+Hebrew,Male,32,אחד,17,understands,0
+Hebrew,Female,33,אחד,10,produces,0.9
+Hebrew,Female,33,אחד,10,understands,0
+Hebrew,Male,33,אחד,11,produces,0.9091
+Hebrew,Male,33,אחד,11,understands,0
+Hebrew,Female,34,אחד,15,produces,0.9333
+Hebrew,Female,34,אחד,15,understands,0
+Hebrew,Male,34,אחד,12,produces,1
+Hebrew,Male,34,אחד,12,understands,0
+Hebrew,Female,35,אחד,6,produces,0.6667
+Hebrew,Female,35,אחד,6,understands,0
+Hebrew,Male,35,אחד,12,produces,0.8333
+Hebrew,Male,35,אחד,12,understands,0
+Hebrew,Female,36,אחד,4,produces,0.5
+Hebrew,Female,36,אחד,4,understands,0
+Hebrew,Male,36,אחד,1,produces,1
+Hebrew,Male,36,אחד,1,understands,0
+Hungarian,Female,16,"egy, egyik",11,produces,0.1364
+Hungarian,Female,16,"egy, egyik",11,understands,0
+Hungarian,Male,16,"egy, egyik",10,produces,0.2
+Hungarian,Male,16,"egy, egyik",10,understands,0
+Hungarian,Female,17,"egy, egyik",11,produces,0.2727
+Hungarian,Female,17,"egy, egyik",11,understands,0
+Hungarian,Male,17,"egy, egyik",7,produces,0.3571
+Hungarian,Male,17,"egy, egyik",7,understands,0
+Hungarian,Female,18,"egy, egyik",9,produces,0.2778
+Hungarian,Female,18,"egy, egyik",9,understands,0
+Hungarian,Male,18,"egy, egyik",9,produces,0.2778
+Hungarian,Male,18,"egy, egyik",9,understands,0
+Hungarian,Female,19,"egy, egyik",13,produces,0.2692
+Hungarian,Female,19,"egy, egyik",13,understands,0
+Hungarian,Male,19,"egy, egyik",12,produces,0.4167
+Hungarian,Male,19,"egy, egyik",12,understands,0
+Hungarian,Female,20,"egy, egyik",12,produces,0.375
+Hungarian,Female,20,"egy, egyik",12,understands,0
+Hungarian,Male,20,"egy, egyik",6,produces,0.3333
+Hungarian,Male,20,"egy, egyik",6,understands,0
+Hungarian,Female,21,"egy, egyik",16,produces,0.4688
+Hungarian,Female,21,"egy, egyik",16,understands,0
+Hungarian,Male,21,"egy, egyik",20,produces,0.45
+Hungarian,Male,21,"egy, egyik",20,understands,0
+Hungarian,Female,22,"egy, egyik",14,produces,0.5714
+Hungarian,Female,22,"egy, egyik",14,understands,0
+Hungarian,Male,22,"egy, egyik",13,produces,0.3462
+Hungarian,Male,22,"egy, egyik",13,understands,0
+Hungarian,Female,23,"egy, egyik",6,produces,0.4167
+Hungarian,Female,23,"egy, egyik",6,understands,0
+Hungarian,Male,23,"egy, egyik",12,produces,0.4167
+Hungarian,Male,23,"egy, egyik",12,understands,0
+Hungarian,Female,24,"egy, egyik",14,produces,0.4286
+Hungarian,Female,24,"egy, egyik",14,understands,0
+Hungarian,Male,24,"egy, egyik",24,produces,0.5208
+Hungarian,Male,24,"egy, egyik",24,understands,0
+Hungarian,Female,25,"egy, egyik",17,produces,0.6176
+Hungarian,Female,25,"egy, egyik",17,understands,0
+Hungarian,Male,25,"egy, egyik",25,produces,0.66
+Hungarian,Male,25,"egy, egyik",25,understands,0
+Hungarian,Female,26,"egy, egyik",9,produces,0.6111
+Hungarian,Female,26,"egy, egyik",9,understands,0
+Hungarian,Male,26,"egy, egyik",14,produces,0.7143
+Hungarian,Male,26,"egy, egyik",14,understands,0
+Hungarian,Female,27,"egy, egyik",13,produces,0.6923
+Hungarian,Female,27,"egy, egyik",13,understands,0
+Hungarian,Male,27,"egy, egyik",13,produces,0.5
+Hungarian,Male,27,"egy, egyik",13,understands,0
+Hungarian,Female,28,"egy, egyik",11,produces,0.8182
+Hungarian,Female,28,"egy, egyik",11,understands,0
+Hungarian,Male,28,"egy, egyik",18,produces,0.5556
+Hungarian,Male,28,"egy, egyik",18,understands,0
+Hungarian,Female,29,"egy, egyik",8,produces,0.6875
+Hungarian,Female,29,"egy, egyik",8,understands,0
+Hungarian,Male,29,"egy, egyik",4,produces,0.5
+Hungarian,Male,29,"egy, egyik",4,understands,0
+Hungarian,Female,30,"egy, egyik",3,produces,0.6667
+Hungarian,Female,30,"egy, egyik",3,understands,0
+Hungarian,Male,30,"egy, egyik",15,produces,0.7
+Hungarian,Male,30,"egy, egyik",15,understands,0
+Irish,Female,17,"ceann, aon_amhain",1,produces,0.5
+Irish,Female,17,"ceann, aon_amhain",1,understands,0
+Irish,Male,17,"ceann, aon_amhain",1,produces,0
+Irish,Male,17,"ceann, aon_amhain",1,understands,0
+Irish,Female,18,"ceann, aon_amhain",1,produces,0
+Irish,Female,18,"ceann, aon_amhain",1,understands,0
+Irish,Female,19,"ceann, aon_amhain",1,produces,0
+Irish,Female,19,"ceann, aon_amhain",1,understands,0
+Irish,Male,19,"ceann, aon_amhain",1,produces,0.5
+Irish,Male,19,"ceann, aon_amhain",1,understands,0
+Irish,Female,20,"ceann, aon_amhain",1,produces,0
+Irish,Female,20,"ceann, aon_amhain",1,understands,0
+Irish,Female,21,"ceann, aon_amhain",2,produces,0
+Irish,Female,21,"ceann, aon_amhain",2,understands,0
+Irish,Male,21,"ceann, aon_amhain",1,produces,0
+Irish,Male,21,"ceann, aon_amhain",1,understands,0
+Irish,Female,22,"ceann, aon_amhain",3,produces,0
+Irish,Female,22,"ceann, aon_amhain",3,understands,0
+Irish,Male,22,"ceann, aon_amhain",1,produces,0
+Irish,Male,22,"ceann, aon_amhain",1,understands,0
+Irish,Female,23,"ceann, aon_amhain",2,produces,0.5
+Irish,Female,23,"ceann, aon_amhain",2,understands,0
+Irish,Male,23,"ceann, aon_amhain",2,produces,0.5
+Irish,Male,23,"ceann, aon_amhain",2,understands,0
+Irish,Female,24,"ceann, aon_amhain",2,produces,0.75
+Irish,Female,24,"ceann, aon_amhain",2,understands,0
+Irish,Male,24,"ceann, aon_amhain",2,produces,0.25
+Irish,Male,24,"ceann, aon_amhain",2,understands,0
+Irish,Female,25,"ceann, aon_amhain",3,produces,0
+Irish,Female,25,"ceann, aon_amhain",3,understands,0
+Irish,Male,25,"ceann, aon_amhain",3,produces,0.3333
+Irish,Male,25,"ceann, aon_amhain",3,understands,0
+Irish,Female,26,"ceann, aon_amhain",7,produces,0.3571
+Irish,Female,26,"ceann, aon_amhain",7,understands,0
+Irish,Male,26,"ceann, aon_amhain",3,produces,0.1667
+Irish,Male,26,"ceann, aon_amhain",3,understands,0
+Irish,Female,27,"ceann, aon_amhain",1,produces,0
+Irish,Female,27,"ceann, aon_amhain",1,understands,0
+Irish,Male,27,"ceann, aon_amhain",4,produces,0.625
+Irish,Male,27,"ceann, aon_amhain",4,understands,0
+Irish,Female,28,"ceann, aon_amhain",4,produces,0.75
+Irish,Female,28,"ceann, aon_amhain",4,understands,0
+Irish,Male,28,"ceann, aon_amhain",3,produces,0.1667
+Irish,Male,28,"ceann, aon_amhain",3,understands,0
+Irish,Female,29,"ceann, aon_amhain",1,produces,1
+Irish,Female,29,"ceann, aon_amhain",1,understands,0
+Irish,Male,29,"ceann, aon_amhain",3,produces,0.5
+Irish,Male,29,"ceann, aon_amhain",3,understands,0
+Irish,Female,30,"ceann, aon_amhain",5,produces,0.7
+Irish,Female,30,"ceann, aon_amhain",5,understands,0
+Irish,Male,30,"ceann, aon_amhain",4,produces,1
+Irish,Male,30,"ceann, aon_amhain",4,understands,0
+Irish,Female,31,"ceann, aon_amhain",3,produces,0.5
+Irish,Female,31,"ceann, aon_amhain",3,understands,0
+Irish,Male,31,"ceann, aon_amhain",5,produces,0.2
+Irish,Male,31,"ceann, aon_amhain",5,understands,0
+Irish,Female,32,"ceann, aon_amhain",2,produces,0.5
+Irish,Female,32,"ceann, aon_amhain",2,understands,0
+Irish,Male,32,"ceann, aon_amhain",2,produces,0.5
+Irish,Male,32,"ceann, aon_amhain",2,understands,0
+Irish,Female,33,"ceann, aon_amhain",1,produces,1
+Irish,Female,33,"ceann, aon_amhain",1,understands,0
+Irish,Male,33,"ceann, aon_amhain",4,produces,0.75
+Irish,Male,33,"ceann, aon_amhain",4,understands,0
+Irish,Female,34,"ceann, aon_amhain",2,produces,1
+Irish,Female,34,"ceann, aon_amhain",2,understands,0
+Irish,Male,34,"ceann, aon_amhain",2,produces,0.25
+Irish,Male,34,"ceann, aon_amhain",2,understands,0
+Irish,Female,35,"ceann, aon_amhain",2,produces,0.75
+Irish,Female,35,"ceann, aon_amhain",2,understands,0
+Irish,Male,35,"ceann, aon_amhain",9,produces,0.8333
+Irish,Male,35,"ceann, aon_amhain",9,understands,0
+Irish,Female,36,"ceann, aon_amhain",3,produces,0.8333
+Irish,Female,36,"ceann, aon_amhain",3,understands,0
+Irish,Male,36,"ceann, aon_amhain",2,produces,0.75
+Irish,Male,36,"ceann, aon_amhain",2,understands,0
+Japanese,Female,8,ひとつ,2,produces,0
+Japanese,Female,8,ひとつ,2,understands,0
+Japanese,Male,8,ひとつ,4,produces,0
+Japanese,Male,8,ひとつ,4,understands,0
+Japanese,Female,9,ひとつ,4,produces,0
+Japanese,Female,9,ひとつ,4,understands,0
+Japanese,Male,9,ひとつ,6,produces,0
+Japanese,Male,9,ひとつ,6,understands,0
+Japanese,Female,10,ひとつ,2,produces,0
+Japanese,Female,10,ひとつ,2,understands,0
+Japanese,Male,10,ひとつ,6,produces,0
+Japanese,Male,10,ひとつ,6,understands,0
+Japanese,Female,11,ひとつ,58,produces,0
+Japanese,Female,11,ひとつ,58,understands,0.0345
+Japanese,Male,11,ひとつ,29,produces,0
+Japanese,Male,11,ひとつ,29,understands,0.0345
+Japanese,Female,12,ひとつ,56,produces,0
+Japanese,Female,12,ひとつ,56,understands,0.0357
+Japanese,Male,12,ひとつ,62,produces,0
+Japanese,Male,12,ひとつ,62,understands,0
+Japanese,Female,13,ひとつ,10,produces,0
+Japanese,Female,13,ひとつ,10,understands,0
+Japanese,Male,13,ひとつ,13,produces,0
+Japanese,Male,13,ひとつ,13,understands,0.0769
+Japanese,Female,14,ひとつ,15,produces,0
+Japanese,Female,14,ひとつ,15,understands,0
+Japanese,Male,14,ひとつ,11,produces,0
+Japanese,Male,14,ひとつ,11,understands,0.1818
+Japanese,Female,15,ひとつ,38,produces,0
+Japanese,Female,15,ひとつ,38,understands,0.0789
+Japanese,Male,15,ひとつ,34,produces,0
+Japanese,Male,15,ひとつ,34,understands,0.0882
+Japanese,Female,16,"ひとつ, いち",23,produces,0.037
+Japanese,Female,16,"ひとつ, いち",23,understands,0.037
+Japanese,Male,16,"ひとつ, いち",23,produces,0
+Japanese,Male,16,"ひとつ, いち",23,understands,0.0667
+Japanese,Female,17,"ひとつ, いち",51,produces,0.0806
+Japanese,Female,17,"ひとつ, いち",51,understands,0.129
+Japanese,Male,17,"ひとつ, いち",26,produces,0.0625
+Japanese,Male,17,"ひとつ, いち",26,understands,0.1875
+Japanese,Female,18,"ひとつ, いち",47,produces,0.1351
+Japanese,Female,18,"ひとつ, いち",47,understands,0.0676
+Japanese,Male,18,"ひとつ, いち",47,produces,0.0263
+Japanese,Male,18,"ひとつ, いち",47,understands,0.0526
+Japanese,Female,19,"いち, ひとつ",14,produces,0.0357
+Japanese,Female,19,"いち, ひとつ",14,understands,0
+Japanese,Male,19,"いち, ひとつ",21,produces,0.0952
+Japanese,Male,19,"いち, ひとつ",21,understands,0
+Japanese,Female,20,"いち, ひとつ",27,produces,0.1852
+Japanese,Female,20,"いち, ひとつ",27,understands,0
+Japanese,Male,20,"いち, ひとつ",32,produces,0.1562
+Japanese,Male,20,"いち, ひとつ",32,understands,0
+Japanese,Female,21,"いち, ひとつ",29,produces,0.3448
+Japanese,Female,21,"いち, ひとつ",29,understands,0
+Japanese,Male,21,"いち, ひとつ",33,produces,0.2273
+Japanese,Male,21,"いち, ひとつ",33,understands,0
+Japanese,Female,22,"いち, ひとつ",16,produces,0.3438
+Japanese,Female,22,"いち, ひとつ",16,understands,0
+Japanese,Male,22,"いち, ひとつ",15,produces,0.3667
+Japanese,Male,22,"いち, ひとつ",15,understands,0
+Japanese,Female,23,"いち, ひとつ",38,produces,0.3684
+Japanese,Female,23,"いち, ひとつ",38,understands,0
+Japanese,Male,23,"いち, ひとつ",29,produces,0.3448
+Japanese,Male,23,"いち, ひとつ",29,understands,0
+Japanese,Female,24,"いち, ひとつ",18,produces,0.6389
+Japanese,Female,24,"いち, ひとつ",18,understands,0
+Japanese,Male,24,"いち, ひとつ",15,produces,0.3333
+Japanese,Male,24,"いち, ひとつ",15,understands,0
+Japanese,Female,25,"いち, ひとつ",14,produces,0.5714
+Japanese,Female,25,"いち, ひとつ",14,understands,0
+Japanese,Male,25,"いち, ひとつ",20,produces,0.475
+Japanese,Male,25,"いち, ひとつ",20,understands,0
+Japanese,Female,26,"いち, ひとつ",19,produces,0.6579
+Japanese,Female,26,"いち, ひとつ",19,understands,0
+Japanese,Male,26,"いち, ひとつ",14,produces,0.6429
+Japanese,Male,26,"いち, ひとつ",14,understands,0
+Japanese,Female,27,"いち, ひとつ",8,produces,0.625
+Japanese,Female,27,"いち, ひとつ",8,understands,0
+Japanese,Male,27,"いち, ひとつ",7,produces,0.5714
+Japanese,Male,27,"いち, ひとつ",7,understands,0
+Japanese,Female,28,"いち, ひとつ",8,produces,0.75
+Japanese,Female,28,"いち, ひとつ",8,understands,0
+Japanese,Male,28,"いち, ひとつ",10,produces,0.4
+Japanese,Male,28,"いち, ひとつ",10,understands,0
+Japanese,Female,29,"いち, ひとつ",6,produces,0.5833
+Japanese,Female,29,"いち, ひとつ",6,understands,0
+Japanese,Male,29,"いち, ひとつ",11,produces,0.5455
+Japanese,Male,29,"いち, ひとつ",11,understands,0
+Japanese,Female,30,"いち, ひとつ",9,produces,0.5556
+Japanese,Female,30,"いち, ひとつ",9,understands,0
+Japanese,Male,30,"いち, ひとつ",9,produces,0.6111
+Japanese,Male,30,"いち, ひとつ",9,understands,0
+Japanese,Female,31,"いち, ひとつ",8,produces,0.9375
+Japanese,Female,31,"いち, ひとつ",8,understands,0
+Japanese,Male,31,"いち, ひとつ",10,produces,0.7
+Japanese,Male,31,"いち, ひとつ",10,understands,0
+Japanese,Female,32,"いち, ひとつ",8,produces,0.6875
+Japanese,Female,32,"いち, ひとつ",8,understands,0
+Japanese,Male,32,"いち, ひとつ",5,produces,0.9
+Japanese,Male,32,"いち, ひとつ",5,understands,0
+Japanese,Female,33,"いち, ひとつ",9,produces,0.9444
+Japanese,Female,33,"いち, ひとつ",9,understands,0
+Japanese,Male,33,"いち, ひとつ",7,produces,0.7857
+Japanese,Male,33,"いち, ひとつ",7,understands,0
+Japanese,Female,34,"いち, ひとつ",8,produces,0.6875
+Japanese,Female,34,"いち, ひとつ",8,understands,0
+Japanese,Male,34,"いち, ひとつ",5,produces,0.9
+Japanese,Male,34,"いち, ひとつ",5,understands,0
+Japanese,Female,35,"いち, ひとつ",19,produces,0.7368
+Japanese,Female,35,"いち, ひとつ",19,understands,0
+Japanese,Male,35,"いち, ひとつ",12,produces,0.75
+Japanese,Male,35,"いち, ひとつ",12,understands,0
+Japanese,Female,36,"いち, ひとつ",4,produces,1
+Japanese,Female,36,"いち, ひとつ",4,understands,0
+Japanese,Male,36,"いち, ひとつ",14,produces,0.8214
+Japanese,Male,36,"いち, ひとつ",14,understands,0
+Korean,Female,18,하나,51,produces,0.2549
+Korean,Female,18,하나,51,understands,0
+Korean,Male,18,하나,37,produces,0.0541
+Korean,Male,18,하나,37,understands,0
+Korean,Female,19,하나,39,produces,0.2308
+Korean,Female,19,하나,39,understands,0
+Korean,Male,19,하나,38,produces,0.0263
+Korean,Male,19,하나,38,understands,0
+Korean,Female,20,하나,47,produces,0.2128
+Korean,Female,20,하나,47,understands,0
+Korean,Male,20,하나,41,produces,0.0976
+Korean,Male,20,하나,41,understands,0
+Korean,Female,21,하나,38,produces,0.3684
+Korean,Female,21,하나,38,understands,0
+Korean,Male,21,하나,41,produces,0.2439
+Korean,Male,21,하나,41,understands,0
+Korean,Female,22,하나,42,produces,0.5238
+Korean,Female,22,하나,42,understands,0
+Korean,Male,22,하나,45,produces,0.3778
+Korean,Male,22,하나,45,understands,0
+Korean,Female,23,하나,42,produces,0.4048
+Korean,Female,23,하나,42,understands,0
+Korean,Male,23,하나,45,produces,0.2667
+Korean,Male,23,하나,45,understands,0
+Korean,Female,24,하나,46,produces,0.6087
+Korean,Female,24,하나,46,understands,0
+Korean,Male,24,하나,61,produces,0.4754
+Korean,Male,24,하나,61,understands,0
+Korean,Female,25,하나,46,produces,0.7391
+Korean,Female,25,하나,46,understands,0
+Korean,Male,25,하나,49,produces,0.4898
+Korean,Male,25,하나,49,understands,0
+Korean,Female,26,하나,42,produces,0.7143
+Korean,Female,26,하나,42,understands,0
+Korean,Male,26,하나,49,produces,0.5918
+Korean,Male,26,하나,49,understands,0
+Korean,Female,27,하나,46,produces,0.7826
+Korean,Female,27,하나,46,understands,0
+Korean,Male,27,하나,58,produces,0.5517
+Korean,Male,27,하나,58,understands,0
+Korean,Female,28,하나,49,produces,0.7551
+Korean,Female,28,하나,49,understands,0
+Korean,Male,28,하나,40,produces,0.65
+Korean,Male,28,하나,40,understands,0
+Korean,Female,29,하나,49,produces,0.8367
+Korean,Female,29,하나,49,understands,0
+Korean,Male,29,하나,51,produces,0.7647
+Korean,Male,29,하나,51,understands,0
+Korean,Female,30,하나,34,produces,0.7353
+Korean,Female,30,하나,34,understands,0
+Korean,Male,30,하나,47,produces,0.766
+Korean,Male,30,하나,47,understands,0
+Korean,Female,31,하나,31,produces,0.7419
+Korean,Female,31,하나,31,understands,0
+Korean,Male,31,하나,48,produces,0.7708
+Korean,Male,31,하나,48,understands,0
+Korean,Female,32,하나,33,produces,0.7273
+Korean,Female,32,하나,33,understands,0
+Korean,Male,32,하나,36,produces,0.6389
+Korean,Male,32,하나,36,understands,0
+Korean,Female,33,하나,36,produces,0.8889
+Korean,Female,33,하나,36,understands,0
+Korean,Male,33,하나,43,produces,0.8372
+Korean,Male,33,하나,43,understands,0
+Korean,Female,34,하나,41,produces,0.9268
+Korean,Female,34,하나,41,understands,0
+Korean,Male,34,하나,38,produces,0.8158
+Korean,Male,34,하나,38,understands,0
+Korean,Female,35,하나,37,produces,0.8919
+Korean,Female,35,하나,37,understands,0
+Korean,Male,35,하나,37,produces,0.7838
+Korean,Male,35,하나,37,understands,0
+Korean,Female,36,하나,40,produces,0.825
+Korean,Female,36,하나,40,understands,0
+Korean,Male,36,하나,35,produces,0.8286
+Korean,Male,36,하나,35,understands,0
+Mandarin (Beijing),Female,16,一,35,produces,0.7143
+Mandarin (Beijing),Female,16,一,35,understands,0
+Mandarin (Beijing),Male,16,一,35,produces,0.5429
+Mandarin (Beijing),Male,16,一,35,understands,0
+Mandarin (Beijing),Female,17,一,35,produces,0.8571
+Mandarin (Beijing),Female,17,一,35,understands,0
+Mandarin (Beijing),Male,17,一,37,produces,0.6757
+Mandarin (Beijing),Male,17,一,37,understands,0
+Mandarin (Beijing),Female,18,一,35,produces,0.8
+Mandarin (Beijing),Female,18,一,35,understands,0
+Mandarin (Beijing),Male,18,一,36,produces,0.75
+Mandarin (Beijing),Male,18,一,36,understands,0
+Mandarin (Beijing),Female,19,一,35,produces,0.8
+Mandarin (Beijing),Female,19,一,35,understands,0
+Mandarin (Beijing),Male,19,一,35,produces,0.7714
+Mandarin (Beijing),Male,19,一,35,understands,0
+Mandarin (Beijing),Female,20,一,35,produces,0.9143
+Mandarin (Beijing),Female,20,一,35,understands,0
+Mandarin (Beijing),Male,20,一,36,produces,0.8611
+Mandarin (Beijing),Male,20,一,36,understands,0
+Mandarin (Beijing),Female,21,一,35,produces,0.9143
+Mandarin (Beijing),Female,21,一,35,understands,0
+Mandarin (Beijing),Male,21,一,35,produces,0.9143
+Mandarin (Beijing),Male,21,一,35,understands,0
+Mandarin (Beijing),Female,22,一,35,produces,0.9714
+Mandarin (Beijing),Female,22,一,35,understands,0
+Mandarin (Beijing),Male,22,一,36,produces,0.9167
+Mandarin (Beijing),Male,22,一,36,understands,0
+Mandarin (Beijing),Female,23,一,35,produces,0.9429
+Mandarin (Beijing),Female,23,一,35,understands,0
+Mandarin (Beijing),Male,23,一,35,produces,0.9714
+Mandarin (Beijing),Male,23,一,35,understands,0
+Mandarin (Beijing),Female,24,一,35,produces,0.9429
+Mandarin (Beijing),Female,24,一,35,understands,0
+Mandarin (Beijing),Male,24,一,35,produces,0.8857
+Mandarin (Beijing),Male,24,一,35,understands,0
+Mandarin (Beijing),Female,25,一,35,produces,0.9429
+Mandarin (Beijing),Female,25,一,35,understands,0
+Mandarin (Beijing),Male,25,一,35,produces,1
+Mandarin (Beijing),Male,25,一,35,understands,0
+Mandarin (Beijing),Female,26,一,36,produces,0.9722
+Mandarin (Beijing),Female,26,一,36,understands,0
+Mandarin (Beijing),Male,26,一,35,produces,0.9714
+Mandarin (Beijing),Male,26,一,35,understands,0
+Mandarin (Beijing),Female,27,一,35,produces,1
+Mandarin (Beijing),Female,27,一,35,understands,0
+Mandarin (Beijing),Male,27,一,35,produces,1
+Mandarin (Beijing),Male,27,一,35,understands,0
+Mandarin (Beijing),Female,28,一,35,produces,1
+Mandarin (Beijing),Female,28,一,35,understands,0
+Mandarin (Beijing),Male,28,一,35,produces,0.9143
+Mandarin (Beijing),Male,28,一,35,understands,0
+Mandarin (Beijing),Female,29,一,35,produces,1
+Mandarin (Beijing),Female,29,一,35,understands,0
+Mandarin (Beijing),Male,29,一,35,produces,1
+Mandarin (Beijing),Male,29,一,35,understands,0
+Mandarin (Beijing),Female,30,一,35,produces,1
+Mandarin (Beijing),Female,30,一,35,understands,0
+Mandarin (Beijing),Male,30,一,35,produces,1
+Mandarin (Beijing),Male,30,一,35,understands,0
+Mandarin (Taiwanese),Female,8,一個(二、三個…),39,produces,0
+Mandarin (Taiwanese),Female,8,一個(二、三個…),39,understands,0.1538
+Mandarin (Taiwanese),Male,8,一個(二、三個…),47,produces,0
+Mandarin (Taiwanese),Male,8,一個(二、三個…),47,understands,0.234
+Mandarin (Taiwanese),Female,9,一個(二、三個…),46,produces,0
+Mandarin (Taiwanese),Female,9,一個(二、三個…),46,understands,0.1739
+Mandarin (Taiwanese),Male,9,一個(二、三個…),33,produces,0
+Mandarin (Taiwanese),Male,9,一個(二、三個…),33,understands,0.2727
+Mandarin (Taiwanese),Female,10,一個(二、三個…),40,produces,0
+Mandarin (Taiwanese),Female,10,一個(二、三個…),40,understands,0.125
+Mandarin (Taiwanese),Male,10,一個(二、三個…),38,produces,0
+Mandarin (Taiwanese),Male,10,一個(二、三個…),38,understands,0.1053
+Mandarin (Taiwanese),Female,11,一個(二、三個…),38,produces,0
+Mandarin (Taiwanese),Female,11,一個(二、三個…),38,understands,0.1579
+Mandarin (Taiwanese),Male,11,一個(二、三個…),41,produces,0
+Mandarin (Taiwanese),Male,11,一個(二、三個…),41,understands,0.0732
+Mandarin (Taiwanese),Female,12,一個(二、三個…),42,produces,0.0238
+Mandarin (Taiwanese),Female,12,一個(二、三個…),42,understands,0.0476
+Mandarin (Taiwanese),Male,12,一個(二、三個…),38,produces,0
+Mandarin (Taiwanese),Male,12,一個(二、三個…),38,understands,0.0263
+Mandarin (Taiwanese),Female,13,一個(二、三個…),41,produces,0
+Mandarin (Taiwanese),Female,13,一個(二、三個…),41,understands,0.1463
+Mandarin (Taiwanese),Male,13,一個(二、三個…),37,produces,0
+Mandarin (Taiwanese),Male,13,一個(二、三個…),37,understands,0.0811
+Mandarin (Taiwanese),Female,14,一個(二、三個…),43,produces,0.0465
+Mandarin (Taiwanese),Female,14,一個(二、三個…),43,understands,0.186
+Mandarin (Taiwanese),Male,14,一個(二、三個…),38,produces,0.0526
+Mandarin (Taiwanese),Male,14,一個(二、三個…),38,understands,0.1053
+Mandarin (Taiwanese),Female,15,一個(二、三個…),54,produces,0.1481
+Mandarin (Taiwanese),Female,15,一個(二、三個…),54,understands,0.3148
+Mandarin (Taiwanese),Male,15,一個(二、三個…),52,produces,0.0385
+Mandarin (Taiwanese),Male,15,一個(二、三個…),52,understands,0.3269
+Mandarin (Taiwanese),Female,16,一個(二、三個…),43,produces,0.1163
+Mandarin (Taiwanese),Female,16,一個(二、三個…),43,understands,0.3953
+Mandarin (Taiwanese),Male,16,一個(二、三個…),47,produces,0.0638
+Mandarin (Taiwanese),Male,16,一個(二、三個…),47,understands,0.2553
+Norwegian,Female,16,"man, ei, en",39,produces,0
+Norwegian,Female,16,"man, ei, en",39,understands,0
+Norwegian,Male,16,"man, ei, en",59,produces,0.0169
+Norwegian,Male,16,"man, ei, en",59,understands,0
+Norwegian,Female,17,"man, ei, en",125,produces,0.0133
+Norwegian,Female,17,"man, ei, en",125,understands,0
+Norwegian,Male,17,"man, ei, en",93,produces,0.0215
+Norwegian,Male,17,"man, ei, en",93,understands,0
+Norwegian,Female,18,"man, ei, en",146,produces,0.032
+Norwegian,Female,18,"man, ei, en",146,understands,0
+Norwegian,Male,18,"man, ei, en",125,produces,0.0107
+Norwegian,Male,18,"man, ei, en",125,understands,0
+Norwegian,Female,19,"man, ei, en",135,produces,0.0272
+Norwegian,Female,19,"man, ei, en",135,understands,0
+Norwegian,Male,19,"man, ei, en",146,produces,0.0183
+Norwegian,Male,19,"man, ei, en",146,understands,0
+Norwegian,Female,20,"man, ei, en",183,produces,0.0437
+Norwegian,Female,20,"man, ei, en",183,understands,0
+Norwegian,Male,20,"man, ei, en",159,produces,0.0252
+Norwegian,Male,20,"man, ei, en",159,understands,0
+Norwegian,Female,21,"man, ei, en",218,produces,0.0596
+Norwegian,Female,21,"man, ei, en",218,understands,0
+Norwegian,Male,21,"man, ei, en",200,produces,0.035
+Norwegian,Male,21,"man, ei, en",200,understands,0
+Norwegian,Female,22,"man, ei, en",304,produces,0.0811
+Norwegian,Female,22,"man, ei, en",304,understands,0
+Norwegian,Male,22,"man, ei, en",292,produces,0.0491
+Norwegian,Male,22,"man, ei, en",292,understands,0
+Norwegian,Female,23,"man, ei, en",285,produces,0.1205
+Norwegian,Female,23,"man, ei, en",285,understands,0
+Norwegian,Male,23,"man, ei, en",281,produces,0.07
+Norwegian,Male,23,"man, ei, en",281,understands,0
+Norwegian,Female,24,"man, ei, en",266,produces,0.1529
+Norwegian,Female,24,"man, ei, en",266,understands,0
+Norwegian,Male,24,"man, ei, en",272,produces,0.1005
+Norwegian,Male,24,"man, ei, en",272,understands,0
+Norwegian,Female,25,"man, ei, en",325,produces,0.1651
+Norwegian,Female,25,"man, ei, en",325,understands,0
+Norwegian,Male,25,"man, ei, en",331,produces,0.1501
+Norwegian,Male,25,"man, ei, en",331,understands,0
+Norwegian,Female,26,"man, ei, en",301,produces,0.2458
+Norwegian,Female,26,"man, ei, en",301,understands,0
+Norwegian,Male,26,"man, ei, en",343,produces,0.1623
+Norwegian,Male,26,"man, ei, en",343,understands,0
+Norwegian,Female,27,"man, ei, en",267,produces,0.2672
+Norwegian,Female,27,"man, ei, en",267,understands,0
+Norwegian,Male,27,"man, ei, en",258,produces,0.2261
+Norwegian,Male,27,"man, ei, en",258,understands,0
+Norwegian,Female,28,"man, ei, en",281,produces,0.3037
+Norwegian,Female,28,"man, ei, en",281,understands,0
+Norwegian,Male,28,"man, ei, en",263,produces,0.2471
+Norwegian,Male,28,"man, ei, en",263,understands,0
+Norwegian,Female,29,"man, ei, en",252,produces,0.3545
+Norwegian,Female,29,"man, ei, en",252,understands,0
+Norwegian,Male,29,"man, ei, en",284,produces,0.2817
+Norwegian,Male,29,"man, ei, en",284,understands,0
+Norwegian,Female,30,"man, ei, en",213,produces,0.349
+Norwegian,Female,30,"man, ei, en",213,understands,0
+Norwegian,Male,30,"man, ei, en",244,produces,0.3005
+Norwegian,Male,30,"man, ei, en",244,understands,0
+Norwegian,Female,31,"man, ei, en",229,produces,0.4571
+Norwegian,Female,31,"man, ei, en",229,understands,0
+Norwegian,Male,31,"man, ei, en",250,produces,0.316
+Norwegian,Male,31,"man, ei, en",250,understands,0
+Norwegian,Female,32,"man, ei, en",224,produces,0.4658
+Norwegian,Female,32,"man, ei, en",224,understands,0
+Norwegian,Male,32,"man, ei, en",227,produces,0.351
+Norwegian,Male,32,"man, ei, en",227,understands,0
+Norwegian,Female,33,"man, ei, en",213,produces,0.4977
+Norwegian,Female,33,"man, ei, en",213,understands,0
+Norwegian,Male,33,"man, ei, en",217,produces,0.4086
+Norwegian,Male,33,"man, ei, en",217,understands,0
+Norwegian,Female,34,"man, ei, en",194,produces,0.5481
+Norwegian,Female,34,"man, ei, en",194,understands,0
+Norwegian,Male,34,"man, ei, en",230,produces,0.4232
+Norwegian,Male,34,"man, ei, en",230,understands,0
+Norwegian,Female,35,"man, ei, en",230,produces,0.5565
+Norwegian,Female,35,"man, ei, en",230,understands,0
+Norwegian,Male,35,"man, ei, en",192,produces,0.441
+Norwegian,Male,35,"man, ei, en",192,understands,0
+Norwegian,Female,36,"man, ei, en",170,produces,0.5667
+Norwegian,Female,36,"man, ei, en",170,understands,0
+Norwegian,Male,36,"man, ei, en",159,produces,0.4717
+Norwegian,Male,36,"man, ei, en",159,understands,0
+Portuguese (European),Female,16,Um / Uma,71,produces,0.0986
+Portuguese (European),Female,16,Um / Uma,71,understands,0
+Portuguese (European),Male,16,Um / Uma,73,produces,0.0959
+Portuguese (European),Male,16,Um / Uma,73,understands,0
+Portuguese (European),Female,17,Um / Uma,62,produces,0.0806
+Portuguese (European),Female,17,Um / Uma,62,understands,0
+Portuguese (European),Male,17,Um / Uma,96,produces,0.0625
+Portuguese (European),Male,17,Um / Uma,96,understands,0
+Portuguese (European),Female,18,Um / Uma,102,produces,0.2549
+Portuguese (European),Female,18,Um / Uma,102,understands,0
+Portuguese (European),Male,18,Um / Uma,101,produces,0.1881
+Portuguese (European),Male,18,Um / Uma,101,understands,0
+Portuguese (European),Female,19,Um / Uma,97,produces,0.2371
+Portuguese (European),Female,19,Um / Uma,97,understands,0
+Portuguese (European),Male,19,Um / Uma,99,produces,0.1919
+Portuguese (European),Male,19,Um / Uma,99,understands,0
+Portuguese (European),Female,20,Um / Uma,115,produces,0.3913
+Portuguese (European),Female,20,Um / Uma,115,understands,0
+Portuguese (European),Male,20,Um / Uma,103,produces,0.2621
+Portuguese (European),Male,20,Um / Uma,103,understands,0
+Portuguese (European),Female,21,Um / Uma,93,produces,0.4731
+Portuguese (European),Female,21,Um / Uma,93,understands,0
+Portuguese (European),Male,21,Um / Uma,115,produces,0.3565
+Portuguese (European),Male,21,Um / Uma,115,understands,0
+Portuguese (European),Female,22,Um / Uma,117,produces,0.4957
+Portuguese (European),Female,22,Um / Uma,117,understands,0
+Portuguese (European),Male,22,Um / Uma,96,produces,0.4271
+Portuguese (European),Male,22,Um / Uma,96,understands,0
+Portuguese (European),Female,23,Um / Uma,94,produces,0.5851
+Portuguese (European),Female,23,Um / Uma,94,understands,0
+Portuguese (European),Male,23,Um / Uma,105,produces,0.5143
+Portuguese (European),Male,23,Um / Uma,105,understands,0
+Portuguese (European),Female,24,Um / Uma,88,produces,0.6477
+Portuguese (European),Female,24,Um / Uma,88,understands,0
+Portuguese (European),Male,24,Um / Uma,127,produces,0.5669
+Portuguese (European),Male,24,Um / Uma,127,understands,0
+Portuguese (European),Female,25,Um / Uma,110,produces,0.6545
+Portuguese (European),Female,25,Um / Uma,110,understands,0
+Portuguese (European),Male,25,Um / Uma,103,produces,0.6699
+Portuguese (European),Male,25,Um / Uma,103,understands,0
+Portuguese (European),Female,26,Um / Uma,96,produces,0.6875
+Portuguese (European),Female,26,Um / Uma,96,understands,0
+Portuguese (European),Male,26,Um / Uma,122,produces,0.7377
+Portuguese (European),Male,26,Um / Uma,122,understands,0
+Portuguese (European),Female,27,Um / Uma,109,produces,0.7064
+Portuguese (European),Female,27,Um / Uma,109,understands,0
+Portuguese (European),Male,27,Um / Uma,129,produces,0.7287
+Portuguese (European),Male,27,Um / Uma,129,understands,0
+Portuguese (European),Female,28,Um / Uma,91,produces,0.8462
+Portuguese (European),Female,28,Um / Uma,91,understands,0
+Portuguese (European),Male,28,Um / Uma,128,produces,0.7422
+Portuguese (European),Male,28,Um / Uma,128,understands,0
+Portuguese (European),Female,29,Um / Uma,98,produces,0.8061
+Portuguese (European),Female,29,Um / Uma,98,understands,0
+Portuguese (European),Male,29,Um / Uma,109,produces,0.7248
+Portuguese (European),Male,29,Um / Uma,109,understands,0
+Portuguese (European),Female,30,Um / Uma,81,produces,0.8025
+Portuguese (European),Female,30,Um / Uma,81,understands,0
+Portuguese (European),Male,30,Um / Uma,82,produces,0.7805
+Portuguese (European),Male,30,Um / Uma,82,understands,0
+Russian,Female,18,один,24,produces,0.125
+Russian,Female,18,один,24,understands,0
+Russian,Male,18,один,18,produces,0.1111
+Russian,Male,18,один,18,understands,0
+Russian,Female,19,один,22,produces,0.1818
+Russian,Female,19,один,22,understands,0
+Russian,Male,19,один,19,produces,0.1579
+Russian,Male,19,один,19,understands,0
+Russian,Female,20,один,18,produces,0.1667
+Russian,Female,20,один,18,understands,0
+Russian,Male,20,один,27,produces,0.3333
+Russian,Male,20,один,27,understands,0
+Russian,Female,21,один,22,produces,0.4545
+Russian,Female,21,один,22,understands,0
+Russian,Male,21,один,21,produces,0.4286
+Russian,Male,21,один,21,understands,0
+Russian,Female,22,один,29,produces,0.5862
+Russian,Female,22,один,29,understands,0
+Russian,Male,22,один,22,produces,0.4545
+Russian,Male,22,один,22,understands,0
+Russian,Female,23,один,37,produces,0.6757
+Russian,Female,23,один,37,understands,0
+Russian,Male,23,один,19,produces,0.5263
+Russian,Male,23,один,19,understands,0
+Russian,Female,24,один,28,produces,0.6429
+Russian,Female,24,один,28,understands,0
+Russian,Male,24,один,33,produces,0.6364
+Russian,Male,24,один,33,understands,0
+Russian,Female,25,один,39,produces,0.7436
+Russian,Female,25,один,39,understands,0
+Russian,Male,25,один,27,produces,0.7037
+Russian,Male,25,один,27,understands,0
+Russian,Female,26,один,26,produces,0.6154
+Russian,Female,26,один,26,understands,0
+Russian,Male,26,один,26,produces,0.7308
+Russian,Male,26,один,26,understands,0
+Russian,Female,27,один,37,produces,0.7297
+Russian,Female,27,один,37,understands,0
+Russian,Male,27,один,23,produces,0.4783
+Russian,Male,27,один,23,understands,0
+Russian,Female,28,один,28,produces,0.8571
+Russian,Female,28,один,28,understands,0
+Russian,Male,28,один,32,produces,0.7188
+Russian,Male,28,один,32,understands,0
+Russian,Female,29,один,30,produces,0.8333
+Russian,Female,29,один,30,understands,0
+Russian,Male,29,один,27,produces,0.8889
+Russian,Male,29,один,27,understands,0
+Russian,Female,30,один,42,produces,0.8095
+Russian,Female,30,один,42,understands,0
+Russian,Male,30,один,35,produces,0.8286
+Russian,Male,30,один,35,understands,0
+Russian,Female,31,один,32,produces,0.8438
+Russian,Female,31,один,32,understands,0
+Russian,Male,31,один,29,produces,0.8966
+Russian,Male,31,один,29,understands,0
+Russian,Female,32,один,29,produces,0.8966
+Russian,Female,32,один,29,understands,0
+Russian,Male,32,один,26,produces,0.9231
+Russian,Male,32,один,26,understands,0
+Russian,Female,33,один,27,produces,0.9259
+Russian,Female,33,один,27,understands,0
+Russian,Male,33,один,28,produces,0.8571
+Russian,Male,33,один,28,understands,0
+Russian,Female,34,один,31,produces,0.9677
+Russian,Female,34,один,31,understands,0
+Russian,Male,34,один,27,produces,0.9259
+Russian,Male,34,один,27,understands,0
+Russian,Female,35,один,22,produces,0.9545
+Russian,Female,35,один,22,understands,0
+Russian,Male,35,один,25,produces,0.84
+Russian,Male,35,один,25,understands,0
+Russian,Female,36,один,27,produces,0.9259
+Russian,Female,36,один,27,understands,0
+Russian,Male,36,один,22,produces,0.9545
+Russian,Male,36,один,22,understands,0
+Spanish (Peruvian),Female,8,uno(a),6,produces,0
+Spanish (Peruvian),Female,8,uno(a),6,understands,0.1667
+Spanish (Peruvian),Male,8,uno(a),3,produces,0
+Spanish (Peruvian),Male,8,uno(a),3,understands,0
+Spanish (Peruvian),Female,9,uno(a),8,produces,0
+Spanish (Peruvian),Female,9,uno(a),8,understands,0.25
+Spanish (Peruvian),Male,9,uno(a),4,produces,0
+Spanish (Peruvian),Male,9,uno(a),4,understands,0.25
+Spanish (Peruvian),Female,10,uno(a),4,produces,0
+Spanish (Peruvian),Female,10,uno(a),4,understands,0.5
+Spanish (Peruvian),Male,10,uno(a),3,produces,0
+Spanish (Peruvian),Male,10,uno(a),3,understands,0.3333
+Spanish (Peruvian),Female,11,uno(a),12,produces,0
+Spanish (Peruvian),Female,11,uno(a),12,understands,0.4167
+Spanish (Peruvian),Male,11,uno(a),6,produces,0
+Spanish (Peruvian),Male,11,uno(a),6,understands,0
+Spanish (Peruvian),Female,12,uno(a),7,produces,0
+Spanish (Peruvian),Female,12,uno(a),7,understands,0.1429
+Spanish (Peruvian),Male,12,uno(a),7,produces,0
+Spanish (Peruvian),Male,12,uno(a),7,understands,0.7143
+Spanish (Peruvian),Female,13,uno(a),2,produces,0
+Spanish (Peruvian),Female,13,uno(a),2,understands,1
+Spanish (Peruvian),Male,13,uno(a),7,produces,0
+Spanish (Peruvian),Male,13,uno(a),7,understands,0.1429
+Spanish (Peruvian),Female,14,uno(a),3,produces,0
+Spanish (Peruvian),Female,14,uno(a),3,understands,0.6667
+Spanish (Peruvian),Male,14,uno(a),5,produces,0
+Spanish (Peruvian),Male,14,uno(a),5,understands,0.4
+Spanish (Peruvian),Female,15,uno(a),4,produces,0
+Spanish (Peruvian),Female,15,uno(a),4,understands,0
+Spanish (Peruvian),Male,15,uno(a),6,produces,0
+Spanish (Peruvian),Male,15,uno(a),6,understands,0.3333
+Spanish (Peruvian),Female,16,"un, uno(a)",6,produces,0.3333
+Spanish (Peruvian),Female,16,"un, uno(a)",6,understands,0
+Spanish (Peruvian),Male,16,"un, uno(a)",7,produces,0.0714
+Spanish (Peruvian),Male,16,"un, uno(a)",7,understands,0
+Spanish (Peruvian),Female,17,"un, uno(a)",5,produces,0.4
+Spanish (Peruvian),Female,17,"un, uno(a)",5,understands,0
+Spanish (Peruvian),Male,17,"un, uno(a)",4,produces,0.25
+Spanish (Peruvian),Male,17,"un, uno(a)",4,understands,0
+Spanish (Peruvian),Female,18,"un, uno(a)",4,produces,0.375
+Spanish (Peruvian),Female,18,"un, uno(a)",4,understands,0
+Spanish (Peruvian),Female,19,"un, uno(a)",3,produces,0.3333
+Spanish (Peruvian),Female,19,"un, uno(a)",3,understands,0
+Spanish (Peruvian),Male,19,"un, uno(a)",9,produces,0.4444
+Spanish (Peruvian),Male,19,"un, uno(a)",9,understands,0
+Spanish (Peruvian),Male,20,"un, uno(a)",1,produces,0
+Spanish (Peruvian),Male,20,"un, uno(a)",1,understands,0
+Spanish (Peruvian),Female,21,"un, uno(a)",3,produces,0.5
+Spanish (Peruvian),Female,21,"un, uno(a)",3,understands,0
+Spanish (Peruvian),Male,21,"un, uno(a)",2,produces,0.5
+Spanish (Peruvian),Male,21,"un, uno(a)",2,understands,0
+Spanish (Peruvian),Female,22,"un, uno(a)",4,produces,0.25
+Spanish (Peruvian),Female,22,"un, uno(a)",4,understands,0
+Spanish (Peruvian),Male,22,"un, uno(a)",5,produces,0.2
+Spanish (Peruvian),Male,22,"un, uno(a)",5,understands,0
+Spanish (Peruvian),Female,23,"un, uno(a)",1,produces,1
+Spanish (Peruvian),Female,23,"un, uno(a)",1,understands,0
+Spanish (Peruvian),Female,24,"un, uno(a)",7,produces,0.1429
+Spanish (Peruvian),Female,24,"un, uno(a)",7,understands,0
+Spanish (Peruvian),Male,24,"un, uno(a)",8,produces,0.1875
+Spanish (Peruvian),Male,24,"un, uno(a)",8,understands,0
+Spanish (Peruvian),Female,25,"un, uno(a)",2,produces,0
+Spanish (Peruvian),Female,25,"un, uno(a)",2,understands,0
+Spanish (Peruvian),Male,25,"un, uno(a)",3,produces,0.5
+Spanish (Peruvian),Male,25,"un, uno(a)",3,understands,0
+Spanish (Peruvian),Female,26,"un, uno(a)",3,produces,0
+Spanish (Peruvian),Female,26,"un, uno(a)",3,understands,0
+Spanish (Peruvian),Male,26,"un, uno(a)",5,produces,0.3
+Spanish (Peruvian),Male,26,"un, uno(a)",5,understands,0
+Spanish (Peruvian),Female,27,"un, uno(a)",3,produces,0.1667
+Spanish (Peruvian),Female,27,"un, uno(a)",3,understands,0
+Spanish (Peruvian),Male,27,"un, uno(a)",4,produces,0.25
+Spanish (Peruvian),Male,27,"un, uno(a)",4,understands,0
+Spanish (Peruvian),Female,28,"un, uno(a)",3,produces,0.5
+Spanish (Peruvian),Female,28,"un, uno(a)",3,understands,0
+Spanish (Peruvian),Male,28,"un, uno(a)",5,produces,0.8
+Spanish (Peruvian),Male,28,"un, uno(a)",5,understands,0
+Spanish (Peruvian),Female,29,"un, uno(a)",1,produces,0
+Spanish (Peruvian),Female,29,"un, uno(a)",1,understands,0
+Spanish (Peruvian),Male,29,"un, uno(a)",5,produces,0.3
+Spanish (Peruvian),Male,29,"un, uno(a)",5,understands,0
+Spanish (Peruvian),Female,30,"un, uno(a)",1,produces,0
+Spanish (Peruvian),Female,30,"un, uno(a)",1,understands,0
+Spanish (Peruvian),Male,30,"un, uno(a)",1,produces,0
+Spanish (Peruvian),Male,30,"un, uno(a)",1,understands,0
+Swedish,Female,16,ett,90,produces,0.0333
+Swedish,Female,16,ett,90,understands,0
+Swedish,Male,16,ett,66,produces,0
+Swedish,Male,16,ett,66,understands,0
+Swedish,Female,19,ett,85,produces,0.0824
+Swedish,Female,19,ett,85,understands,0
+Swedish,Male,19,ett,65,produces,0
+Swedish,Male,19,ett,65,understands,0
+Swedish,Female,22,ett,162,produces,0.1543
+Swedish,Female,22,ett,162,understands,0
+Swedish,Male,22,ett,143,produces,0.1189
+Swedish,Male,22,ett,143,understands,0
+Swedish,Female,25,ett,67,produces,0.3134
+Swedish,Female,25,ett,67,understands,0
+Swedish,Male,25,ett,76,produces,0.2632
+Swedish,Male,25,ett,76,understands,0
+Swedish,Female,28,ett,69,produces,0.4928
+Swedish,Female,28,ett,69,understands,0
+Swedish,Male,28,ett,70,produces,0.4
+Swedish,Male,28,ett,70,understands,0

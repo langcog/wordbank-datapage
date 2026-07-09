@@ -1,65 +1,187 @@
-language,age,words,n,measure,prop
-Kigiriama,16,Matso,1,produces,0
-Kigiriama,16,Matso,1,understands,0
-Kigiriama,17,Matso,6,produces,0
-Kigiriama,17,Matso,6,understands,0
-Kigiriama,18,Matso,13,produces,0.0769
-Kigiriama,18,Matso,13,understands,0
-Kigiriama,19,Matso,8,produces,0
-Kigiriama,19,Matso,8,understands,0
-Kigiriama,20,Matso,14,produces,0.0714
-Kigiriama,20,Matso,14,understands,0
-Kigiriama,21,Matso,6,produces,0.1667
-Kigiriama,21,Matso,6,understands,0
-Kigiriama,22,Matso,9,produces,0.4444
-Kigiriama,22,Matso,9,understands,0
-Kigiriama,23,Matso,4,produces,0.25
-Kigiriama,23,Matso,4,understands,0
-Kigiriama,24,Matso,7,produces,0.7143
-Kigiriama,24,Matso,7,understands,0
-Kigiriama,25,Matso,3,produces,0.6667
-Kigiriama,25,Matso,3,understands,0
-Kigiriama,26,Matso,6,produces,0.3333
-Kigiriama,26,Matso,6,understands,0
-Kigiriama,27,Matso,4,produces,0.75
-Kigiriama,27,Matso,4,understands,0
-Kigiriama,28,Matso,1,produces,0
-Kigiriama,28,Matso,1,understands,0
-Kigiriama,29,Matso,5,produces,0.6
-Kigiriama,29,Matso,5,understands,0
-Kigiriama,30,Matso,1,produces,1
-Kigiriama,30,Matso,1,understands,0
-Kiswahili,23,Macho/makini,2,produces,0
-Kiswahili,23,Macho/makini,2,understands,0
-Kiswahili,24,Macho/makini,12,produces,0.4167
-Kiswahili,24,Macho/makini,12,understands,0
-Kiswahili,25,Macho/makini,10,produces,0.3
-Kiswahili,25,Macho/makini,10,understands,0
-Kiswahili,26,Macho/makini,13,produces,0.2308
-Kiswahili,26,Macho/makini,13,understands,0
-Kiswahili,27,Macho/makini,8,produces,0.125
-Kiswahili,27,Macho/makini,8,understands,0
-Kiswahili,28,Macho/makini,6,produces,0.3333
-Kiswahili,28,Macho/makini,6,understands,0
-Kiswahili,29,Macho/makini,6,produces,0.3333
-Kiswahili,29,Macho/makini,6,understands,0
-Kiswahili,30,Macho/makini,5,produces,0.8
-Kiswahili,30,Macho/makini,5,understands,0
-Arabic (Saudi),8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",24,produces,0
-Arabic (Saudi),8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",24,understands,0.0833
-Arabic (Saudi),9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,produces,0
-Arabic (Saudi),9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,understands,0
-Arabic (Saudi),10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",35,produces,0
-Arabic (Saudi),10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",35,understands,0.0571
-Arabic (Saudi),11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,produces,0
-Arabic (Saudi),11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,understands,0.0333
-Arabic (Saudi),12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,produces,0
-Arabic (Saudi),12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,understands,0.0667
-Arabic (Saudi),13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",39,produces,0
-Arabic (Saudi),13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",39,understands,0
-Arabic (Saudi),14,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",25,produces,0
-Arabic (Saudi),14,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",25,understands,0.08
-Arabic (Saudi),15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,produces,0.037
-Arabic (Saudi),15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,understands,0.0741
-Arabic (Saudi),16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",21,produces,0.0476
-Arabic (Saudi),16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",21,understands,0.0476
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",24,produces,0
+Arabic (Saudi),All,8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",24,understands,0.0833
+Arabic (Saudi),All,9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,produces,0
+Arabic (Saudi),All,9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,understands,0
+Arabic (Saudi),All,10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",35,produces,0
+Arabic (Saudi),All,10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",35,understands,0.0571
+Arabic (Saudi),All,11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,produces,0
+Arabic (Saudi),All,11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,understands,0.0333
+Arabic (Saudi),All,12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,produces,0
+Arabic (Saudi),All,12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",30,understands,0.0667
+Arabic (Saudi),All,13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",39,produces,0
+Arabic (Saudi),All,13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",39,understands,0
+Arabic (Saudi),All,14,"منتبه/حذر/ انتبه, منتبه/ حذر/ انتبه",25,produces,0
+Arabic (Saudi),All,14,"منتبه/حذر/ انتبه, منتبه/ حذر/ انتبه",25,understands,0.08
+Arabic (Saudi),All,15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,produces,0.037
+Arabic (Saudi),All,15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",27,understands,0.0741
+Arabic (Saudi),All,16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",21,produces,0.0476
+Arabic (Saudi),All,16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",21,understands,0.0476
+Kigiriama,All,16,Matso,1,produces,0
+Kigiriama,All,16,Matso,1,understands,0
+Kigiriama,All,17,Matso,6,produces,0
+Kigiriama,All,17,Matso,6,understands,0
+Kigiriama,All,18,Matso,13,produces,0.0769
+Kigiriama,All,18,Matso,13,understands,0
+Kigiriama,All,19,Matso,8,produces,0
+Kigiriama,All,19,Matso,8,understands,0
+Kigiriama,All,20,Matso,14,produces,0.0714
+Kigiriama,All,20,Matso,14,understands,0
+Kigiriama,All,21,Matso,6,produces,0.1667
+Kigiriama,All,21,Matso,6,understands,0
+Kigiriama,All,22,Matso,9,produces,0.4444
+Kigiriama,All,22,Matso,9,understands,0
+Kigiriama,All,23,Matso,4,produces,0.25
+Kigiriama,All,23,Matso,4,understands,0
+Kigiriama,All,24,Matso,7,produces,0.7143
+Kigiriama,All,24,Matso,7,understands,0
+Kigiriama,All,25,Matso,3,produces,0.6667
+Kigiriama,All,25,Matso,3,understands,0
+Kigiriama,All,26,Matso,6,produces,0.3333
+Kigiriama,All,26,Matso,6,understands,0
+Kigiriama,All,27,Matso,4,produces,0.75
+Kigiriama,All,27,Matso,4,understands,0
+Kigiriama,All,28,Matso,1,produces,0
+Kigiriama,All,28,Matso,1,understands,0
+Kigiriama,All,29,Matso,5,produces,0.6
+Kigiriama,All,29,Matso,5,understands,0
+Kigiriama,All,30,Matso,1,produces,1
+Kigiriama,All,30,Matso,1,understands,0
+Kiswahili,All,23,Macho/makini,2,produces,0
+Kiswahili,All,23,Macho/makini,2,understands,0
+Kiswahili,All,24,Macho/makini,12,produces,0.4167
+Kiswahili,All,24,Macho/makini,12,understands,0
+Kiswahili,All,25,Macho/makini,10,produces,0.3
+Kiswahili,All,25,Macho/makini,10,understands,0
+Kiswahili,All,26,Macho/makini,13,produces,0.2308
+Kiswahili,All,26,Macho/makini,13,understands,0
+Kiswahili,All,27,Macho/makini,8,produces,0.125
+Kiswahili,All,27,Macho/makini,8,understands,0
+Kiswahili,All,28,Macho/makini,6,produces,0.3333
+Kiswahili,All,28,Macho/makini,6,understands,0
+Kiswahili,All,29,Macho/makini,6,produces,0.3333
+Kiswahili,All,29,Macho/makini,6,understands,0
+Kiswahili,All,30,Macho/makini,5,produces,0.8
+Kiswahili,All,30,Macho/makini,5,understands,0
+Arabic (Saudi),Female,8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",13,produces,0
+Arabic (Saudi),Female,8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",13,understands,0.1538
+Arabic (Saudi),Male,8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",11,produces,0
+Arabic (Saudi),Male,8,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",11,understands,0
+Arabic (Saudi),Female,9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",14,produces,0
+Arabic (Saudi),Female,9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",14,understands,0
+Arabic (Saudi),Male,9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",13,produces,0
+Arabic (Saudi),Male,9,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",13,understands,0
+Arabic (Saudi),Female,10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",15,produces,0
+Arabic (Saudi),Female,10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",15,understands,0
+Arabic (Saudi),Male,10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",20,produces,0
+Arabic (Saudi),Male,10,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",20,understands,0.1
+Arabic (Saudi),Female,11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",14,produces,0
+Arabic (Saudi),Female,11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",14,understands,0
+Arabic (Saudi),Male,11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",16,produces,0
+Arabic (Saudi),Male,11,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",16,understands,0.0625
+Arabic (Saudi),Female,12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",14,produces,0
+Arabic (Saudi),Female,12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",14,understands,0.0714
+Arabic (Saudi),Male,12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",16,produces,0
+Arabic (Saudi),Male,12,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",16,understands,0.0625
+Arabic (Saudi),Female,13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",17,produces,0
+Arabic (Saudi),Female,13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",17,understands,0
+Arabic (Saudi),Male,13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",22,produces,0
+Arabic (Saudi),Male,13,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",22,understands,0
+Arabic (Saudi),Female,14,منتبه/حذر/ انتبه,10,produces,0
+Arabic (Saudi),Female,14,منتبه/حذر/ انتبه,10,understands,0
+Arabic (Saudi),Male,14,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",15,produces,0
+Arabic (Saudi),Male,14,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",15,understands,0.1333
+Arabic (Saudi),Female,15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",12,produces,0
+Arabic (Saudi),Female,15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",12,understands,0.0833
+Arabic (Saudi),Male,15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",15,produces,0.0667
+Arabic (Saudi),Male,15,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",15,understands,0.0667
+Arabic (Saudi),Female,16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",10,produces,0.1
+Arabic (Saudi),Female,16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",10,understands,0.1
+Arabic (Saudi),Male,16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",11,produces,0
+Arabic (Saudi),Male,16,"منتبه/ حذر/ انتبه, منتبه/حذر/ انتبه",11,understands,0
+Kigiriama,Female,16,Matso,1,produces,0
+Kigiriama,Female,16,Matso,1,understands,0
+Kigiriama,Female,17,Matso,5,produces,0
+Kigiriama,Female,17,Matso,5,understands,0
+Kigiriama,Male,17,Matso,1,produces,0
+Kigiriama,Male,17,Matso,1,understands,0
+Kigiriama,Female,18,Matso,6,produces,0.1667
+Kigiriama,Female,18,Matso,6,understands,0
+Kigiriama,Male,18,Matso,6,produces,0
+Kigiriama,Male,18,Matso,6,understands,0
+Kigiriama,Female,19,Matso,3,produces,0
+Kigiriama,Female,19,Matso,3,understands,0
+Kigiriama,Male,19,Matso,5,produces,0
+Kigiriama,Male,19,Matso,5,understands,0
+Kigiriama,Female,20,Matso,5,produces,0.2
+Kigiriama,Female,20,Matso,5,understands,0
+Kigiriama,Male,20,Matso,8,produces,0
+Kigiriama,Male,20,Matso,8,understands,0
+Kigiriama,Female,21,Matso,3,produces,0.3333
+Kigiriama,Female,21,Matso,3,understands,0
+Kigiriama,Male,21,Matso,3,produces,0
+Kigiriama,Male,21,Matso,3,understands,0
+Kigiriama,Female,22,Matso,7,produces,0.2857
+Kigiriama,Female,22,Matso,7,understands,0
+Kigiriama,Male,22,Matso,2,produces,1
+Kigiriama,Male,22,Matso,2,understands,0
+Kigiriama,Female,23,Matso,2,produces,0
+Kigiriama,Female,23,Matso,2,understands,0
+Kigiriama,Male,23,Matso,2,produces,0.5
+Kigiriama,Male,23,Matso,2,understands,0
+Kigiriama,Female,24,Matso,6,produces,0.6667
+Kigiriama,Female,24,Matso,6,understands,0
+Kigiriama,Male,24,Matso,1,produces,1
+Kigiriama,Male,24,Matso,1,understands,0
+Kigiriama,Female,25,Matso,2,produces,1
+Kigiriama,Female,25,Matso,2,understands,0
+Kigiriama,Male,25,Matso,1,produces,0
+Kigiriama,Male,25,Matso,1,understands,0
+Kigiriama,Female,26,Matso,4,produces,0
+Kigiriama,Female,26,Matso,4,understands,0
+Kigiriama,Male,26,Matso,2,produces,1
+Kigiriama,Male,26,Matso,2,understands,0
+Kigiriama,Female,27,Matso,1,produces,1
+Kigiriama,Female,27,Matso,1,understands,0
+Kigiriama,Male,27,Matso,3,produces,0.6667
+Kigiriama,Male,27,Matso,3,understands,0
+Kigiriama,Male,28,Matso,1,produces,0
+Kigiriama,Male,28,Matso,1,understands,0
+Kigiriama,Female,29,Matso,2,produces,0.5
+Kigiriama,Female,29,Matso,2,understands,0
+Kigiriama,Male,29,Matso,3,produces,0.6667
+Kigiriama,Male,29,Matso,3,understands,0
+Kigiriama,Male,30,Matso,1,produces,1
+Kigiriama,Male,30,Matso,1,understands,0
+Kiswahili,Female,23,Macho/makini,1,produces,0
+Kiswahili,Female,23,Macho/makini,1,understands,0
+Kiswahili,Male,23,Macho/makini,1,produces,0
+Kiswahili,Male,23,Macho/makini,1,understands,0
+Kiswahili,Female,24,Macho/makini,6,produces,0.3333
+Kiswahili,Female,24,Macho/makini,6,understands,0
+Kiswahili,Male,24,Macho/makini,6,produces,0.5
+Kiswahili,Male,24,Macho/makini,6,understands,0
+Kiswahili,Female,25,Macho/makini,8,produces,0.375
+Kiswahili,Female,25,Macho/makini,8,understands,0
+Kiswahili,Male,25,Macho/makini,2,produces,0
+Kiswahili,Male,25,Macho/makini,2,understands,0
+Kiswahili,Female,26,Macho/makini,3,produces,0.3333
+Kiswahili,Female,26,Macho/makini,3,understands,0
+Kiswahili,Male,26,Macho/makini,10,produces,0.2
+Kiswahili,Male,26,Macho/makini,10,understands,0
+Kiswahili,Female,27,Macho/makini,3,produces,0
+Kiswahili,Female,27,Macho/makini,3,understands,0
+Kiswahili,Male,27,Macho/makini,5,produces,0.2
+Kiswahili,Male,27,Macho/makini,5,understands,0
+Kiswahili,Female,28,Macho/makini,3,produces,0.3333
+Kiswahili,Female,28,Macho/makini,3,understands,0
+Kiswahili,Male,28,Macho/makini,3,produces,0.3333
+Kiswahili,Male,28,Macho/makini,3,understands,0
+Kiswahili,Female,29,Macho/makini,3,produces,0.3333
+Kiswahili,Female,29,Macho/makini,3,understands,0
+Kiswahili,Male,29,Macho/makini,3,produces,0.3333
+Kiswahili,Male,29,Macho/makini,3,understands,0
+Kiswahili,Female,30,Macho/makini,3,produces,0.6667
+Kiswahili,Female,30,Macho/makini,3,understands,0
+Kiswahili,Male,30,Macho/makini,2,produces,1
+Kiswahili,Male,30,Macho/makini,2,understands,0

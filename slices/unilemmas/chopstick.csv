@@ -1,223 +1,651 @@
-language,age,words,n,measure,prop
-Japanese,8,はし,6,produces,0
-Japanese,8,はし,6,understands,0
-Japanese,9,はし,10,produces,0
-Japanese,9,はし,10,understands,0
-Japanese,10,はし,8,produces,0
-Japanese,10,はし,8,understands,0
-Japanese,11,はし,87,produces,0
-Japanese,11,はし,87,understands,0.0345
-Japanese,12,はし,118,produces,0
-Japanese,12,はし,118,understands,0.0085
-Japanese,13,はし,23,produces,0
-Japanese,13,はし,23,understands,0.0435
-Japanese,14,はし,26,produces,0
-Japanese,14,はし,26,understands,0.1538
-Japanese,15,はし,72,produces,0
-Japanese,15,はし,72,understands,0.1667
-Japanese,16,"はし, はし（箸）",46,produces,0
-Japanese,16,"はし, はし（箸）",46,understands,0.0435
-Japanese,17,"はし, はし（箸）",77,produces,0.013
-Japanese,17,"はし, はし（箸）",77,understands,0.1429
-Japanese,18,"はし, はし（箸）",94,produces,0.0532
-Japanese,18,"はし, はし（箸）",94,understands,0.1383
-Japanese,19,はし（箸）,35,produces,0.1143
-Japanese,19,はし（箸）,35,understands,0
-Japanese,20,はし（箸）,59,produces,0.1017
-Japanese,20,はし（箸）,59,understands,0
-Japanese,21,はし（箸）,62,produces,0.1774
-Japanese,21,はし（箸）,62,understands,0
-Japanese,22,はし（箸）,31,produces,0.1935
-Japanese,22,はし（箸）,31,understands,0
-Japanese,23,はし（箸）,67,produces,0.2836
-Japanese,23,はし（箸）,67,understands,0
-Japanese,24,はし（箸）,33,produces,0.3636
-Japanese,24,はし（箸）,33,understands,0
-Japanese,25,はし（箸）,34,produces,0.4118
-Japanese,25,はし（箸）,34,understands,0
-Japanese,26,はし（箸）,33,produces,0.5758
-Japanese,26,はし（箸）,33,understands,0
-Japanese,27,はし（箸）,15,produces,0.8
-Japanese,27,はし（箸）,15,understands,0
-Japanese,28,はし（箸）,18,produces,0.5
-Japanese,28,はし（箸）,18,understands,0
-Japanese,29,はし（箸）,17,produces,0.6471
-Japanese,29,はし（箸）,17,understands,0
-Japanese,30,はし（箸）,18,produces,0.7778
-Japanese,30,はし（箸）,18,understands,0
-Japanese,31,はし（箸）,18,produces,0.6111
-Japanese,31,はし（箸）,18,understands,0
-Japanese,32,はし（箸）,13,produces,0.8462
-Japanese,32,はし（箸）,13,understands,0
-Japanese,33,はし（箸）,16,produces,0.8125
-Japanese,33,はし（箸）,16,understands,0
-Japanese,34,はし（箸）,13,produces,0.7692
-Japanese,34,はし（箸）,13,understands,0
-Japanese,35,はし（箸）,31,produces,0.871
-Japanese,35,はし（箸）,31,understands,0
-Japanese,36,はし（箸）,18,produces,0.9444
-Japanese,36,はし（箸）,18,understands,0
-Korean,18,젓가락,88,produces,0.125
-Korean,18,젓가락,88,understands,0
-Korean,19,젓가락,77,produces,0.1169
-Korean,19,젓가락,77,understands,0
-Korean,20,젓가락,88,produces,0.1136
-Korean,20,젓가락,88,understands,0
-Korean,21,젓가락,79,produces,0.1139
-Korean,21,젓가락,79,understands,0
-Korean,22,젓가락,87,produces,0.3218
-Korean,22,젓가락,87,understands,0
-Korean,23,젓가락,87,produces,0.2874
-Korean,23,젓가락,87,understands,0
-Korean,24,젓가락,107,produces,0.4299
-Korean,24,젓가락,107,understands,0
-Korean,25,젓가락,95,produces,0.5895
-Korean,25,젓가락,95,understands,0
-Korean,26,젓가락,91,produces,0.5495
-Korean,26,젓가락,91,understands,0
-Korean,27,젓가락,104,produces,0.5673
-Korean,27,젓가락,104,understands,0
-Korean,28,젓가락,89,produces,0.6854
-Korean,28,젓가락,89,understands,0
-Korean,29,젓가락,101,produces,0.7426
-Korean,29,젓가락,101,understands,0
-Korean,30,젓가락,81,produces,0.6667
-Korean,30,젓가락,81,understands,0
-Korean,31,젓가락,79,produces,0.8101
-Korean,31,젓가락,79,understands,0
-Korean,32,젓가락,70,produces,0.7857
-Korean,32,젓가락,70,understands,0
-Korean,33,젓가락,79,produces,0.8608
-Korean,33,젓가락,79,understands,0
-Korean,34,젓가락,79,produces,0.8734
-Korean,34,젓가락,79,understands,0
-Korean,35,젓가락,74,produces,0.8919
-Korean,35,젓가락,74,understands,0
-Korean,36,젓가락,75,produces,0.9067
-Korean,36,젓가락,75,understands,0
-Mandarin (Beijing),12,筷子,45,produces,0
-Mandarin (Beijing),12,筷子,45,understands,0.2667
-Mandarin (Beijing),13,筷子,50,produces,0
-Mandarin (Beijing),13,筷子,50,understands,0.5
-Mandarin (Beijing),14,筷子,48,produces,0
-Mandarin (Beijing),14,筷子,48,understands,0.4375
-Mandarin (Beijing),15,筷子,46,produces,0
-Mandarin (Beijing),15,筷子,46,understands,0.4565
-Mandarin (Beijing),16,筷子,111,produces,0.0991
-Mandarin (Beijing),16,筷子,111,understands,0.1892
-Mandarin (Beijing),17,筷子,112,produces,0.2143
-Mandarin (Beijing),17,筷子,112,understands,0
-Mandarin (Beijing),18,筷子,121,produces,0.2314
-Mandarin (Beijing),18,筷子,121,understands,0
-Mandarin (Beijing),19,筷子,120,produces,0.4083
-Mandarin (Beijing),19,筷子,120,understands,0
-Mandarin (Beijing),20,筷子,121,produces,0.5702
-Mandarin (Beijing),20,筷子,121,understands,0
-Mandarin (Beijing),21,筷子,119,produces,0.605
-Mandarin (Beijing),21,筷子,119,understands,0
-Mandarin (Beijing),22,筷子,117,produces,0.7009
-Mandarin (Beijing),22,筷子,117,understands,0
-Mandarin (Beijing),23,筷子,120,produces,0.7667
-Mandarin (Beijing),23,筷子,120,understands,0
-Mandarin (Beijing),24,筷子,120,produces,0.7167
-Mandarin (Beijing),24,筷子,120,understands,0
-Mandarin (Beijing),25,筷子,113,produces,0.8673
-Mandarin (Beijing),25,筷子,113,understands,0
-Mandarin (Beijing),26,筷子,118,produces,0.839
-Mandarin (Beijing),26,筷子,118,understands,0
-Mandarin (Beijing),27,筷子,114,produces,0.8947
-Mandarin (Beijing),27,筷子,114,understands,0
-Mandarin (Beijing),28,筷子,114,produces,0.9123
-Mandarin (Beijing),28,筷子,114,understands,0
-Mandarin (Beijing),29,筷子,119,produces,0.9328
-Mandarin (Beijing),29,筷子,119,understands,0
-Mandarin (Beijing),30,筷子,110,produces,0.9364
-Mandarin (Beijing),30,筷子,110,understands,0
-Mandarin (Taiwanese),8,筷子,86,produces,0
-Mandarin (Taiwanese),8,筷子,86,understands,0.1744
-Mandarin (Taiwanese),9,筷子,79,produces,0
-Mandarin (Taiwanese),9,筷子,79,understands,0.2911
-Mandarin (Taiwanese),10,筷子,78,produces,0
-Mandarin (Taiwanese),10,筷子,78,understands,0.0897
-Mandarin (Taiwanese),11,筷子,79,produces,0
-Mandarin (Taiwanese),11,筷子,79,understands,0.0886
-Mandarin (Taiwanese),12,筷子,80,produces,0
-Mandarin (Taiwanese),12,筷子,80,understands,0.0875
-Mandarin (Taiwanese),13,筷子,78,produces,0
-Mandarin (Taiwanese),13,筷子,78,understands,0.0897
-Mandarin (Taiwanese),14,筷子,81,produces,0.0247
-Mandarin (Taiwanese),14,筷子,81,understands,0.1235
-Mandarin (Taiwanese),15,筷子,106,produces,0.0472
-Mandarin (Taiwanese),15,筷子,106,understands,0.2736
-Mandarin (Taiwanese),16,筷子,170,produces,0.0176
-Mandarin (Taiwanese),16,筷子,170,understands,0.0882
-Mandarin (Taiwanese),17,筷子,87,produces,0.046
-Mandarin (Taiwanese),17,筷子,87,understands,0
-Mandarin (Taiwanese),18,筷子,84,produces,0.1071
-Mandarin (Taiwanese),18,筷子,84,understands,0
-Mandarin (Taiwanese),19,筷子,84,produces,0.2262
-Mandarin (Taiwanese),19,筷子,84,understands,0
-Mandarin (Taiwanese),20,筷子,84,produces,0.1667
-Mandarin (Taiwanese),20,筷子,84,understands,0
-Mandarin (Taiwanese),21,筷子,88,produces,0.2386
-Mandarin (Taiwanese),21,筷子,88,understands,0
-Mandarin (Taiwanese),22,筷子,96,produces,0.3333
-Mandarin (Taiwanese),22,筷子,96,understands,0
-Mandarin (Taiwanese),23,筷子,105,produces,0.4667
-Mandarin (Taiwanese),23,筷子,105,understands,0
-Mandarin (Taiwanese),24,筷子,124,produces,0.5565
-Mandarin (Taiwanese),24,筷子,124,understands,0
-Mandarin (Taiwanese),25,筷子,110,produces,0.6364
-Mandarin (Taiwanese),25,筷子,110,understands,0
-Mandarin (Taiwanese),26,筷子,87,produces,0.6897
-Mandarin (Taiwanese),26,筷子,87,understands,0
-Mandarin (Taiwanese),27,筷子,92,produces,0.6848
-Mandarin (Taiwanese),27,筷子,92,understands,0
-Mandarin (Taiwanese),28,筷子,100,produces,0.8
-Mandarin (Taiwanese),28,筷子,100,understands,0
-Mandarin (Taiwanese),29,筷子,88,produces,0.7841
-Mandarin (Taiwanese),29,筷子,88,understands,0
-Mandarin (Taiwanese),30,筷子,94,produces,0.7872
-Mandarin (Taiwanese),30,筷子,94,understands,0
-Mandarin (Taiwanese),31,筷子,88,produces,0.8977
-Mandarin (Taiwanese),31,筷子,88,understands,0
-Mandarin (Taiwanese),32,筷子,82,produces,0.8659
-Mandarin (Taiwanese),32,筷子,82,understands,0
-Mandarin (Taiwanese),33,筷子,85,produces,0.9059
-Mandarin (Taiwanese),33,筷子,85,understands,0
-Mandarin (Taiwanese),34,筷子,77,produces,0.8442
-Mandarin (Taiwanese),34,筷子,77,understands,0
-Mandarin (Taiwanese),35,筷子,81,produces,0.9506
-Mandarin (Taiwanese),35,筷子,81,understands,0
-Mandarin (Taiwanese),36,筷子,81,produces,0.9136
-Mandarin (Taiwanese),36,筷子,81,understands,0
-Cantonese,16,筷子,46,produces,0
-Cantonese,16,筷子,46,understands,0
-Cantonese,17,筷子,61,produces,0.0328
-Cantonese,17,筷子,61,understands,0
-Cantonese,18,筷子,68,produces,0.1324
-Cantonese,18,筷子,68,understands,0
-Cantonese,19,筷子,66,produces,0.1364
-Cantonese,19,筷子,66,understands,0
-Cantonese,20,筷子,140,produces,0.1857
-Cantonese,20,筷子,140,understands,0
-Cantonese,21,筷子,120,produces,0.2917
-Cantonese,21,筷子,120,understands,0
-Cantonese,22,筷子,68,produces,0.2647
-Cantonese,22,筷子,68,understands,0
-Cantonese,23,筷子,74,produces,0.4595
-Cantonese,23,筷子,74,understands,0
-Cantonese,24,筷子,68,produces,0.5147
-Cantonese,24,筷子,68,understands,0
-Cantonese,25,筷子,65,produces,0.6923
-Cantonese,25,筷子,65,understands,0
-Cantonese,26,筷子,68,produces,0.5882
-Cantonese,26,筷子,68,understands,0
-Cantonese,27,筷子,62,produces,0.6935
-Cantonese,27,筷子,62,understands,0
-Cantonese,28,筷子,66,produces,0.8182
-Cantonese,28,筷子,66,understands,0
-Cantonese,29,筷子,72,produces,0.875
-Cantonese,29,筷子,72,understands,0
-Cantonese,30,筷子,164,produces,0.8415
-Cantonese,30,筷子,164,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,筷子,46,produces,0
+Cantonese,All,16,筷子,46,understands,0
+Cantonese,All,17,筷子,61,produces,0.0328
+Cantonese,All,17,筷子,61,understands,0
+Cantonese,All,18,筷子,68,produces,0.1324
+Cantonese,All,18,筷子,68,understands,0
+Cantonese,All,19,筷子,66,produces,0.1364
+Cantonese,All,19,筷子,66,understands,0
+Cantonese,All,20,筷子,140,produces,0.1857
+Cantonese,All,20,筷子,140,understands,0
+Cantonese,All,21,筷子,120,produces,0.2917
+Cantonese,All,21,筷子,120,understands,0
+Cantonese,All,22,筷子,68,produces,0.2647
+Cantonese,All,22,筷子,68,understands,0
+Cantonese,All,23,筷子,74,produces,0.4595
+Cantonese,All,23,筷子,74,understands,0
+Cantonese,All,24,筷子,68,produces,0.5147
+Cantonese,All,24,筷子,68,understands,0
+Cantonese,All,25,筷子,65,produces,0.6923
+Cantonese,All,25,筷子,65,understands,0
+Cantonese,All,26,筷子,68,produces,0.5882
+Cantonese,All,26,筷子,68,understands,0
+Cantonese,All,27,筷子,62,produces,0.6935
+Cantonese,All,27,筷子,62,understands,0
+Cantonese,All,28,筷子,66,produces,0.8182
+Cantonese,All,28,筷子,66,understands,0
+Cantonese,All,29,筷子,72,produces,0.875
+Cantonese,All,29,筷子,72,understands,0
+Cantonese,All,30,筷子,164,produces,0.8415
+Cantonese,All,30,筷子,164,understands,0
+Japanese,All,8,はし,6,produces,0
+Japanese,All,8,はし,6,understands,0
+Japanese,All,9,はし,10,produces,0
+Japanese,All,9,はし,10,understands,0
+Japanese,All,10,はし,8,produces,0
+Japanese,All,10,はし,8,understands,0
+Japanese,All,11,はし,87,produces,0
+Japanese,All,11,はし,87,understands,0.0345
+Japanese,All,12,はし,118,produces,0
+Japanese,All,12,はし,118,understands,0.0085
+Japanese,All,13,はし,23,produces,0
+Japanese,All,13,はし,23,understands,0.0435
+Japanese,All,14,はし,26,produces,0
+Japanese,All,14,はし,26,understands,0.1538
+Japanese,All,15,はし,72,produces,0
+Japanese,All,15,はし,72,understands,0.1667
+Japanese,All,16,"はし, はし（箸）",46,produces,0
+Japanese,All,16,"はし, はし（箸）",46,understands,0.0435
+Japanese,All,17,"はし, はし（箸）",77,produces,0.013
+Japanese,All,17,"はし, はし（箸）",77,understands,0.1429
+Japanese,All,18,"はし, はし（箸）",94,produces,0.0532
+Japanese,All,18,"はし, はし（箸）",94,understands,0.1383
+Japanese,All,19,はし（箸）,35,produces,0.1143
+Japanese,All,19,はし（箸）,35,understands,0
+Japanese,All,20,はし（箸）,59,produces,0.1017
+Japanese,All,20,はし（箸）,59,understands,0
+Japanese,All,21,はし（箸）,62,produces,0.1774
+Japanese,All,21,はし（箸）,62,understands,0
+Japanese,All,22,はし（箸）,31,produces,0.1935
+Japanese,All,22,はし（箸）,31,understands,0
+Japanese,All,23,はし（箸）,67,produces,0.2836
+Japanese,All,23,はし（箸）,67,understands,0
+Japanese,All,24,はし（箸）,33,produces,0.3636
+Japanese,All,24,はし（箸）,33,understands,0
+Japanese,All,25,はし（箸）,34,produces,0.4118
+Japanese,All,25,はし（箸）,34,understands,0
+Japanese,All,26,はし（箸）,33,produces,0.5758
+Japanese,All,26,はし（箸）,33,understands,0
+Japanese,All,27,はし（箸）,15,produces,0.8
+Japanese,All,27,はし（箸）,15,understands,0
+Japanese,All,28,はし（箸）,18,produces,0.5
+Japanese,All,28,はし（箸）,18,understands,0
+Japanese,All,29,はし（箸）,17,produces,0.6471
+Japanese,All,29,はし（箸）,17,understands,0
+Japanese,All,30,はし（箸）,18,produces,0.7778
+Japanese,All,30,はし（箸）,18,understands,0
+Japanese,All,31,はし（箸）,18,produces,0.6111
+Japanese,All,31,はし（箸）,18,understands,0
+Japanese,All,32,はし（箸）,13,produces,0.8462
+Japanese,All,32,はし（箸）,13,understands,0
+Japanese,All,33,はし（箸）,16,produces,0.8125
+Japanese,All,33,はし（箸）,16,understands,0
+Japanese,All,34,はし（箸）,13,produces,0.7692
+Japanese,All,34,はし（箸）,13,understands,0
+Japanese,All,35,はし（箸）,31,produces,0.871
+Japanese,All,35,はし（箸）,31,understands,0
+Japanese,All,36,はし（箸）,18,produces,0.9444
+Japanese,All,36,はし（箸）,18,understands,0
+Korean,All,18,젓가락,88,produces,0.125
+Korean,All,18,젓가락,88,understands,0
+Korean,All,19,젓가락,77,produces,0.1169
+Korean,All,19,젓가락,77,understands,0
+Korean,All,20,젓가락,88,produces,0.1136
+Korean,All,20,젓가락,88,understands,0
+Korean,All,21,젓가락,79,produces,0.1139
+Korean,All,21,젓가락,79,understands,0
+Korean,All,22,젓가락,87,produces,0.3218
+Korean,All,22,젓가락,87,understands,0
+Korean,All,23,젓가락,87,produces,0.2874
+Korean,All,23,젓가락,87,understands,0
+Korean,All,24,젓가락,107,produces,0.4299
+Korean,All,24,젓가락,107,understands,0
+Korean,All,25,젓가락,95,produces,0.5895
+Korean,All,25,젓가락,95,understands,0
+Korean,All,26,젓가락,91,produces,0.5495
+Korean,All,26,젓가락,91,understands,0
+Korean,All,27,젓가락,104,produces,0.5673
+Korean,All,27,젓가락,104,understands,0
+Korean,All,28,젓가락,89,produces,0.6854
+Korean,All,28,젓가락,89,understands,0
+Korean,All,29,젓가락,101,produces,0.7426
+Korean,All,29,젓가락,101,understands,0
+Korean,All,30,젓가락,81,produces,0.6667
+Korean,All,30,젓가락,81,understands,0
+Korean,All,31,젓가락,79,produces,0.8101
+Korean,All,31,젓가락,79,understands,0
+Korean,All,32,젓가락,70,produces,0.7857
+Korean,All,32,젓가락,70,understands,0
+Korean,All,33,젓가락,79,produces,0.8608
+Korean,All,33,젓가락,79,understands,0
+Korean,All,34,젓가락,79,produces,0.8734
+Korean,All,34,젓가락,79,understands,0
+Korean,All,35,젓가락,74,produces,0.8919
+Korean,All,35,젓가락,74,understands,0
+Korean,All,36,젓가락,75,produces,0.9067
+Korean,All,36,젓가락,75,understands,0
+Mandarin (Beijing),All,12,筷子,45,produces,0
+Mandarin (Beijing),All,12,筷子,45,understands,0.2667
+Mandarin (Beijing),All,13,筷子,50,produces,0
+Mandarin (Beijing),All,13,筷子,50,understands,0.5
+Mandarin (Beijing),All,14,筷子,48,produces,0
+Mandarin (Beijing),All,14,筷子,48,understands,0.4375
+Mandarin (Beijing),All,15,筷子,46,produces,0
+Mandarin (Beijing),All,15,筷子,46,understands,0.4565
+Mandarin (Beijing),All,16,筷子,111,produces,0.0991
+Mandarin (Beijing),All,16,筷子,111,understands,0.1892
+Mandarin (Beijing),All,17,筷子,112,produces,0.2143
+Mandarin (Beijing),All,17,筷子,112,understands,0
+Mandarin (Beijing),All,18,筷子,121,produces,0.2314
+Mandarin (Beijing),All,18,筷子,121,understands,0
+Mandarin (Beijing),All,19,筷子,120,produces,0.4083
+Mandarin (Beijing),All,19,筷子,120,understands,0
+Mandarin (Beijing),All,20,筷子,121,produces,0.5702
+Mandarin (Beijing),All,20,筷子,121,understands,0
+Mandarin (Beijing),All,21,筷子,119,produces,0.605
+Mandarin (Beijing),All,21,筷子,119,understands,0
+Mandarin (Beijing),All,22,筷子,117,produces,0.7009
+Mandarin (Beijing),All,22,筷子,117,understands,0
+Mandarin (Beijing),All,23,筷子,120,produces,0.7667
+Mandarin (Beijing),All,23,筷子,120,understands,0
+Mandarin (Beijing),All,24,筷子,120,produces,0.7167
+Mandarin (Beijing),All,24,筷子,120,understands,0
+Mandarin (Beijing),All,25,筷子,113,produces,0.8673
+Mandarin (Beijing),All,25,筷子,113,understands,0
+Mandarin (Beijing),All,26,筷子,118,produces,0.839
+Mandarin (Beijing),All,26,筷子,118,understands,0
+Mandarin (Beijing),All,27,筷子,114,produces,0.8947
+Mandarin (Beijing),All,27,筷子,114,understands,0
+Mandarin (Beijing),All,28,筷子,114,produces,0.9123
+Mandarin (Beijing),All,28,筷子,114,understands,0
+Mandarin (Beijing),All,29,筷子,119,produces,0.9328
+Mandarin (Beijing),All,29,筷子,119,understands,0
+Mandarin (Beijing),All,30,筷子,110,produces,0.9364
+Mandarin (Beijing),All,30,筷子,110,understands,0
+Mandarin (Taiwanese),All,8,筷子,86,produces,0
+Mandarin (Taiwanese),All,8,筷子,86,understands,0.1744
+Mandarin (Taiwanese),All,9,筷子,79,produces,0
+Mandarin (Taiwanese),All,9,筷子,79,understands,0.2911
+Mandarin (Taiwanese),All,10,筷子,78,produces,0
+Mandarin (Taiwanese),All,10,筷子,78,understands,0.0897
+Mandarin (Taiwanese),All,11,筷子,79,produces,0
+Mandarin (Taiwanese),All,11,筷子,79,understands,0.0886
+Mandarin (Taiwanese),All,12,筷子,80,produces,0
+Mandarin (Taiwanese),All,12,筷子,80,understands,0.0875
+Mandarin (Taiwanese),All,13,筷子,78,produces,0
+Mandarin (Taiwanese),All,13,筷子,78,understands,0.0897
+Mandarin (Taiwanese),All,14,筷子,81,produces,0.0247
+Mandarin (Taiwanese),All,14,筷子,81,understands,0.1235
+Mandarin (Taiwanese),All,15,筷子,106,produces,0.0472
+Mandarin (Taiwanese),All,15,筷子,106,understands,0.2736
+Mandarin (Taiwanese),All,16,筷子,170,produces,0.0176
+Mandarin (Taiwanese),All,16,筷子,170,understands,0.0882
+Mandarin (Taiwanese),All,17,筷子,87,produces,0.046
+Mandarin (Taiwanese),All,17,筷子,87,understands,0
+Mandarin (Taiwanese),All,18,筷子,84,produces,0.1071
+Mandarin (Taiwanese),All,18,筷子,84,understands,0
+Mandarin (Taiwanese),All,19,筷子,84,produces,0.2262
+Mandarin (Taiwanese),All,19,筷子,84,understands,0
+Mandarin (Taiwanese),All,20,筷子,84,produces,0.1667
+Mandarin (Taiwanese),All,20,筷子,84,understands,0
+Mandarin (Taiwanese),All,21,筷子,88,produces,0.2386
+Mandarin (Taiwanese),All,21,筷子,88,understands,0
+Mandarin (Taiwanese),All,22,筷子,96,produces,0.3333
+Mandarin (Taiwanese),All,22,筷子,96,understands,0
+Mandarin (Taiwanese),All,23,筷子,105,produces,0.4667
+Mandarin (Taiwanese),All,23,筷子,105,understands,0
+Mandarin (Taiwanese),All,24,筷子,124,produces,0.5565
+Mandarin (Taiwanese),All,24,筷子,124,understands,0
+Mandarin (Taiwanese),All,25,筷子,110,produces,0.6364
+Mandarin (Taiwanese),All,25,筷子,110,understands,0
+Mandarin (Taiwanese),All,26,筷子,87,produces,0.6897
+Mandarin (Taiwanese),All,26,筷子,87,understands,0
+Mandarin (Taiwanese),All,27,筷子,92,produces,0.6848
+Mandarin (Taiwanese),All,27,筷子,92,understands,0
+Mandarin (Taiwanese),All,28,筷子,100,produces,0.8
+Mandarin (Taiwanese),All,28,筷子,100,understands,0
+Mandarin (Taiwanese),All,29,筷子,88,produces,0.7841
+Mandarin (Taiwanese),All,29,筷子,88,understands,0
+Mandarin (Taiwanese),All,30,筷子,94,produces,0.7872
+Mandarin (Taiwanese),All,30,筷子,94,understands,0
+Mandarin (Taiwanese),All,31,筷子,88,produces,0.8977
+Mandarin (Taiwanese),All,31,筷子,88,understands,0
+Mandarin (Taiwanese),All,32,筷子,82,produces,0.8659
+Mandarin (Taiwanese),All,32,筷子,82,understands,0
+Mandarin (Taiwanese),All,33,筷子,85,produces,0.9059
+Mandarin (Taiwanese),All,33,筷子,85,understands,0
+Mandarin (Taiwanese),All,34,筷子,77,produces,0.8442
+Mandarin (Taiwanese),All,34,筷子,77,understands,0
+Mandarin (Taiwanese),All,35,筷子,81,produces,0.9506
+Mandarin (Taiwanese),All,35,筷子,81,understands,0
+Mandarin (Taiwanese),All,36,筷子,81,produces,0.9136
+Mandarin (Taiwanese),All,36,筷子,81,understands,0
+Cantonese,Female,16,筷子,23,produces,0
+Cantonese,Female,16,筷子,23,understands,0
+Cantonese,Male,16,筷子,23,produces,0
+Cantonese,Male,16,筷子,23,understands,0
+Cantonese,Female,17,筷子,30,produces,0.0667
+Cantonese,Female,17,筷子,30,understands,0
+Cantonese,Male,17,筷子,31,produces,0
+Cantonese,Male,17,筷子,31,understands,0
+Cantonese,Female,18,筷子,33,produces,0.2121
+Cantonese,Female,18,筷子,33,understands,0
+Cantonese,Male,18,筷子,35,produces,0.0571
+Cantonese,Male,18,筷子,35,understands,0
+Cantonese,Female,19,筷子,30,produces,0.0667
+Cantonese,Female,19,筷子,30,understands,0
+Cantonese,Male,19,筷子,36,produces,0.1944
+Cantonese,Male,19,筷子,36,understands,0
+Cantonese,Female,20,筷子,62,produces,0.1935
+Cantonese,Female,20,筷子,62,understands,0
+Cantonese,Male,20,筷子,78,produces,0.1795
+Cantonese,Male,20,筷子,78,understands,0
+Cantonese,Female,21,筷子,57,produces,0.3333
+Cantonese,Female,21,筷子,57,understands,0
+Cantonese,Male,21,筷子,63,produces,0.254
+Cantonese,Male,21,筷子,63,understands,0
+Cantonese,Female,22,筷子,34,produces,0.4118
+Cantonese,Female,22,筷子,34,understands,0
+Cantonese,Male,22,筷子,34,produces,0.1176
+Cantonese,Male,22,筷子,34,understands,0
+Cantonese,Female,23,筷子,37,produces,0.5135
+Cantonese,Female,23,筷子,37,understands,0
+Cantonese,Male,23,筷子,37,produces,0.4054
+Cantonese,Male,23,筷子,37,understands,0
+Cantonese,Female,24,筷子,32,produces,0.5625
+Cantonese,Female,24,筷子,32,understands,0
+Cantonese,Male,24,筷子,36,produces,0.4722
+Cantonese,Male,24,筷子,36,understands,0
+Cantonese,Female,25,筷子,31,produces,0.6774
+Cantonese,Female,25,筷子,31,understands,0
+Cantonese,Male,25,筷子,34,produces,0.7059
+Cantonese,Male,25,筷子,34,understands,0
+Cantonese,Female,26,筷子,31,produces,0.5484
+Cantonese,Female,26,筷子,31,understands,0
+Cantonese,Male,26,筷子,37,produces,0.6216
+Cantonese,Male,26,筷子,37,understands,0
+Cantonese,Female,27,筷子,31,produces,0.7419
+Cantonese,Female,27,筷子,31,understands,0
+Cantonese,Male,27,筷子,31,produces,0.6452
+Cantonese,Male,27,筷子,31,understands,0
+Cantonese,Female,28,筷子,32,produces,0.9375
+Cantonese,Female,28,筷子,32,understands,0
+Cantonese,Male,28,筷子,34,produces,0.7059
+Cantonese,Male,28,筷子,34,understands,0
+Cantonese,Female,29,筷子,36,produces,0.8333
+Cantonese,Female,29,筷子,36,understands,0
+Cantonese,Male,29,筷子,36,produces,0.9167
+Cantonese,Male,29,筷子,36,understands,0
+Cantonese,Female,30,筷子,76,produces,0.9474
+Cantonese,Female,30,筷子,76,understands,0
+Cantonese,Male,30,筷子,88,produces,0.75
+Cantonese,Male,30,筷子,88,understands,0
+Japanese,Female,8,はし,2,produces,0
+Japanese,Female,8,はし,2,understands,0
+Japanese,Male,8,はし,4,produces,0
+Japanese,Male,8,はし,4,understands,0
+Japanese,Female,9,はし,4,produces,0
+Japanese,Female,9,はし,4,understands,0
+Japanese,Male,9,はし,6,produces,0
+Japanese,Male,9,はし,6,understands,0
+Japanese,Female,10,はし,2,produces,0
+Japanese,Female,10,はし,2,understands,0
+Japanese,Male,10,はし,6,produces,0
+Japanese,Male,10,はし,6,understands,0
+Japanese,Female,11,はし,58,produces,0
+Japanese,Female,11,はし,58,understands,0.0345
+Japanese,Male,11,はし,29,produces,0
+Japanese,Male,11,はし,29,understands,0.0345
+Japanese,Female,12,はし,56,produces,0
+Japanese,Female,12,はし,56,understands,0.0179
+Japanese,Male,12,はし,62,produces,0
+Japanese,Male,12,はし,62,understands,0
+Japanese,Female,13,はし,10,produces,0
+Japanese,Female,13,はし,10,understands,0
+Japanese,Male,13,はし,13,produces,0
+Japanese,Male,13,はし,13,understands,0.0769
+Japanese,Female,14,はし,15,produces,0
+Japanese,Female,14,はし,15,understands,0.2
+Japanese,Male,14,はし,11,produces,0
+Japanese,Male,14,はし,11,understands,0.0909
+Japanese,Female,15,はし,38,produces,0
+Japanese,Female,15,はし,38,understands,0.1316
+Japanese,Male,15,はし,34,produces,0
+Japanese,Male,15,はし,34,understands,0.2059
+Japanese,Female,16,"はし, はし（箸）",23,produces,0
+Japanese,Female,16,"はし, はし（箸）",23,understands,0.0435
+Japanese,Male,16,"はし, はし（箸）",23,produces,0
+Japanese,Male,16,"はし, はし（箸）",23,understands,0.0435
+Japanese,Female,17,"はし, はし（箸）",51,produces,0.0196
+Japanese,Female,17,"はし, はし（箸）",51,understands,0.1569
+Japanese,Male,17,"はし, はし（箸）",26,produces,0
+Japanese,Male,17,"はし, はし（箸）",26,understands,0.1154
+Japanese,Female,18,"はし, はし（箸）",47,produces,0.0851
+Japanese,Female,18,"はし, はし（箸）",47,understands,0.1702
+Japanese,Male,18,"はし, はし（箸）",47,produces,0.0213
+Japanese,Male,18,"はし, はし（箸）",47,understands,0.1064
+Japanese,Female,19,はし（箸）,14,produces,0.1429
+Japanese,Female,19,はし（箸）,14,understands,0
+Japanese,Male,19,はし（箸）,21,produces,0.0952
+Japanese,Male,19,はし（箸）,21,understands,0
+Japanese,Female,20,はし（箸）,27,produces,0.1481
+Japanese,Female,20,はし（箸）,27,understands,0
+Japanese,Male,20,はし（箸）,32,produces,0.0625
+Japanese,Male,20,はし（箸）,32,understands,0
+Japanese,Female,21,はし（箸）,29,produces,0.3103
+Japanese,Female,21,はし（箸）,29,understands,0
+Japanese,Male,21,はし（箸）,33,produces,0.0606
+Japanese,Male,21,はし（箸）,33,understands,0
+Japanese,Female,22,はし（箸）,16,produces,0.3125
+Japanese,Female,22,はし（箸）,16,understands,0
+Japanese,Male,22,はし（箸）,15,produces,0.0667
+Japanese,Male,22,はし（箸）,15,understands,0
+Japanese,Female,23,はし（箸）,38,produces,0.2368
+Japanese,Female,23,はし（箸）,38,understands,0
+Japanese,Male,23,はし（箸）,29,produces,0.3448
+Japanese,Male,23,はし（箸）,29,understands,0
+Japanese,Female,24,はし（箸）,18,produces,0.5
+Japanese,Female,24,はし（箸）,18,understands,0
+Japanese,Male,24,はし（箸）,15,produces,0.2
+Japanese,Male,24,はし（箸）,15,understands,0
+Japanese,Female,25,はし（箸）,14,produces,0.3571
+Japanese,Female,25,はし（箸）,14,understands,0
+Japanese,Male,25,はし（箸）,20,produces,0.45
+Japanese,Male,25,はし（箸）,20,understands,0
+Japanese,Female,26,はし（箸）,19,produces,0.6316
+Japanese,Female,26,はし（箸）,19,understands,0
+Japanese,Male,26,はし（箸）,14,produces,0.5
+Japanese,Male,26,はし（箸）,14,understands,0
+Japanese,Female,27,はし（箸）,8,produces,0.75
+Japanese,Female,27,はし（箸）,8,understands,0
+Japanese,Male,27,はし（箸）,7,produces,0.8571
+Japanese,Male,27,はし（箸）,7,understands,0
+Japanese,Female,28,はし（箸）,8,produces,0.5
+Japanese,Female,28,はし（箸）,8,understands,0
+Japanese,Male,28,はし（箸）,10,produces,0.5
+Japanese,Male,28,はし（箸）,10,understands,0
+Japanese,Female,29,はし（箸）,6,produces,0.6667
+Japanese,Female,29,はし（箸）,6,understands,0
+Japanese,Male,29,はし（箸）,11,produces,0.6364
+Japanese,Male,29,はし（箸）,11,understands,0
+Japanese,Female,30,はし（箸）,9,produces,0.8889
+Japanese,Female,30,はし（箸）,9,understands,0
+Japanese,Male,30,はし（箸）,9,produces,0.6667
+Japanese,Male,30,はし（箸）,9,understands,0
+Japanese,Female,31,はし（箸）,8,produces,0.875
+Japanese,Female,31,はし（箸）,8,understands,0
+Japanese,Male,31,はし（箸）,10,produces,0.4
+Japanese,Male,31,はし（箸）,10,understands,0
+Japanese,Female,32,はし（箸）,8,produces,0.75
+Japanese,Female,32,はし（箸）,8,understands,0
+Japanese,Male,32,はし（箸）,5,produces,1
+Japanese,Male,32,はし（箸）,5,understands,0
+Japanese,Female,33,はし（箸）,9,produces,0.8889
+Japanese,Female,33,はし（箸）,9,understands,0
+Japanese,Male,33,はし（箸）,7,produces,0.7143
+Japanese,Male,33,はし（箸）,7,understands,0
+Japanese,Female,34,はし（箸）,8,produces,0.875
+Japanese,Female,34,はし（箸）,8,understands,0
+Japanese,Male,34,はし（箸）,5,produces,0.6
+Japanese,Male,34,はし（箸）,5,understands,0
+Japanese,Female,35,はし（箸）,19,produces,0.8947
+Japanese,Female,35,はし（箸）,19,understands,0
+Japanese,Male,35,はし（箸）,12,produces,0.8333
+Japanese,Male,35,はし（箸）,12,understands,0
+Japanese,Female,36,はし（箸）,4,produces,1
+Japanese,Female,36,はし（箸）,4,understands,0
+Japanese,Male,36,はし（箸）,14,produces,0.9286
+Japanese,Male,36,はし（箸）,14,understands,0
+Korean,Female,18,젓가락,51,produces,0.1373
+Korean,Female,18,젓가락,51,understands,0
+Korean,Male,18,젓가락,37,produces,0.1081
+Korean,Male,18,젓가락,37,understands,0
+Korean,Female,19,젓가락,39,produces,0.1795
+Korean,Female,19,젓가락,39,understands,0
+Korean,Male,19,젓가락,38,produces,0.0526
+Korean,Male,19,젓가락,38,understands,0
+Korean,Female,20,젓가락,47,produces,0.1277
+Korean,Female,20,젓가락,47,understands,0
+Korean,Male,20,젓가락,41,produces,0.0976
+Korean,Male,20,젓가락,41,understands,0
+Korean,Female,21,젓가락,38,produces,0.1579
+Korean,Female,21,젓가락,38,understands,0
+Korean,Male,21,젓가락,41,produces,0.0732
+Korean,Male,21,젓가락,41,understands,0
+Korean,Female,22,젓가락,42,produces,0.4048
+Korean,Female,22,젓가락,42,understands,0
+Korean,Male,22,젓가락,45,produces,0.2444
+Korean,Male,22,젓가락,45,understands,0
+Korean,Female,23,젓가락,42,produces,0.381
+Korean,Female,23,젓가락,42,understands,0
+Korean,Male,23,젓가락,45,produces,0.2
+Korean,Male,23,젓가락,45,understands,0
+Korean,Female,24,젓가락,46,produces,0.4783
+Korean,Female,24,젓가락,46,understands,0
+Korean,Male,24,젓가락,61,produces,0.3934
+Korean,Male,24,젓가락,61,understands,0
+Korean,Female,25,젓가락,46,produces,0.6739
+Korean,Female,25,젓가락,46,understands,0
+Korean,Male,25,젓가락,49,produces,0.5102
+Korean,Male,25,젓가락,49,understands,0
+Korean,Female,26,젓가락,42,produces,0.6667
+Korean,Female,26,젓가락,42,understands,0
+Korean,Male,26,젓가락,49,produces,0.449
+Korean,Male,26,젓가락,49,understands,0
+Korean,Female,27,젓가락,46,produces,0.6522
+Korean,Female,27,젓가락,46,understands,0
+Korean,Male,27,젓가락,58,produces,0.5
+Korean,Male,27,젓가락,58,understands,0
+Korean,Female,28,젓가락,49,produces,0.7959
+Korean,Female,28,젓가락,49,understands,0
+Korean,Male,28,젓가락,40,produces,0.55
+Korean,Male,28,젓가락,40,understands,0
+Korean,Female,29,젓가락,49,produces,0.7755
+Korean,Female,29,젓가락,49,understands,0
+Korean,Male,29,젓가락,51,produces,0.7255
+Korean,Male,29,젓가락,51,understands,0
+Korean,Female,30,젓가락,34,produces,0.8235
+Korean,Female,30,젓가락,34,understands,0
+Korean,Male,30,젓가락,47,produces,0.5532
+Korean,Male,30,젓가락,47,understands,0
+Korean,Female,31,젓가락,31,produces,0.8387
+Korean,Female,31,젓가락,31,understands,0
+Korean,Male,31,젓가락,48,produces,0.7917
+Korean,Male,31,젓가락,48,understands,0
+Korean,Female,32,젓가락,33,produces,0.8182
+Korean,Female,32,젓가락,33,understands,0
+Korean,Male,32,젓가락,36,produces,0.75
+Korean,Male,32,젓가락,36,understands,0
+Korean,Female,33,젓가락,36,produces,0.8889
+Korean,Female,33,젓가락,36,understands,0
+Korean,Male,33,젓가락,43,produces,0.8372
+Korean,Male,33,젓가락,43,understands,0
+Korean,Female,34,젓가락,41,produces,0.9756
+Korean,Female,34,젓가락,41,understands,0
+Korean,Male,34,젓가락,38,produces,0.7632
+Korean,Male,34,젓가락,38,understands,0
+Korean,Female,35,젓가락,37,produces,0.973
+Korean,Female,35,젓가락,37,understands,0
+Korean,Male,35,젓가락,37,produces,0.8108
+Korean,Male,35,젓가락,37,understands,0
+Korean,Female,36,젓가락,40,produces,0.925
+Korean,Female,36,젓가락,40,understands,0
+Korean,Male,36,젓가락,35,produces,0.8857
+Korean,Male,36,젓가락,35,understands,0
+Mandarin (Beijing),Female,16,筷子,35,produces,0.2
+Mandarin (Beijing),Female,16,筷子,35,understands,0
+Mandarin (Beijing),Male,16,筷子,35,produces,0.0857
+Mandarin (Beijing),Male,16,筷子,35,understands,0
+Mandarin (Beijing),Female,17,筷子,35,produces,0.2571
+Mandarin (Beijing),Female,17,筷子,35,understands,0
+Mandarin (Beijing),Male,17,筷子,37,produces,0.1892
+Mandarin (Beijing),Male,17,筷子,37,understands,0
+Mandarin (Beijing),Female,18,筷子,35,produces,0.2286
+Mandarin (Beijing),Female,18,筷子,35,understands,0
+Mandarin (Beijing),Male,18,筷子,36,produces,0.3333
+Mandarin (Beijing),Male,18,筷子,36,understands,0
+Mandarin (Beijing),Female,19,筷子,35,produces,0.5429
+Mandarin (Beijing),Female,19,筷子,35,understands,0
+Mandarin (Beijing),Male,19,筷子,35,produces,0.3429
+Mandarin (Beijing),Male,19,筷子,35,understands,0
+Mandarin (Beijing),Female,20,筷子,35,produces,0.7714
+Mandarin (Beijing),Female,20,筷子,35,understands,0
+Mandarin (Beijing),Male,20,筷子,36,produces,0.6389
+Mandarin (Beijing),Male,20,筷子,36,understands,0
+Mandarin (Beijing),Female,21,筷子,35,produces,0.8
+Mandarin (Beijing),Female,21,筷子,35,understands,0
+Mandarin (Beijing),Male,21,筷子,35,produces,0.6857
+Mandarin (Beijing),Male,21,筷子,35,understands,0
+Mandarin (Beijing),Female,22,筷子,35,produces,0.9143
+Mandarin (Beijing),Female,22,筷子,35,understands,0
+Mandarin (Beijing),Male,22,筷子,36,produces,0.7778
+Mandarin (Beijing),Male,22,筷子,36,understands,0
+Mandarin (Beijing),Female,23,筷子,35,produces,0.9714
+Mandarin (Beijing),Female,23,筷子,35,understands,0
+Mandarin (Beijing),Male,23,筷子,35,produces,0.8
+Mandarin (Beijing),Male,23,筷子,35,understands,0
+Mandarin (Beijing),Female,24,筷子,35,produces,0.9143
+Mandarin (Beijing),Female,24,筷子,35,understands,0
+Mandarin (Beijing),Male,24,筷子,35,produces,0.7714
+Mandarin (Beijing),Male,24,筷子,35,understands,0
+Mandarin (Beijing),Female,25,筷子,35,produces,0.9429
+Mandarin (Beijing),Female,25,筷子,35,understands,0
+Mandarin (Beijing),Male,25,筷子,35,produces,0.9714
+Mandarin (Beijing),Male,25,筷子,35,understands,0
+Mandarin (Beijing),Female,26,筷子,36,produces,1
+Mandarin (Beijing),Female,26,筷子,36,understands,0
+Mandarin (Beijing),Male,26,筷子,35,produces,0.8571
+Mandarin (Beijing),Male,26,筷子,35,understands,0
+Mandarin (Beijing),Female,27,筷子,35,produces,0.9714
+Mandarin (Beijing),Female,27,筷子,35,understands,0
+Mandarin (Beijing),Male,27,筷子,35,produces,0.9429
+Mandarin (Beijing),Male,27,筷子,35,understands,0
+Mandarin (Beijing),Female,28,筷子,35,produces,1
+Mandarin (Beijing),Female,28,筷子,35,understands,0
+Mandarin (Beijing),Male,28,筷子,35,produces,0.9429
+Mandarin (Beijing),Male,28,筷子,35,understands,0
+Mandarin (Beijing),Female,29,筷子,35,produces,1
+Mandarin (Beijing),Female,29,筷子,35,understands,0
+Mandarin (Beijing),Male,29,筷子,35,produces,0.9714
+Mandarin (Beijing),Male,29,筷子,35,understands,0
+Mandarin (Beijing),Female,30,筷子,35,produces,0.9429
+Mandarin (Beijing),Female,30,筷子,35,understands,0
+Mandarin (Beijing),Male,30,筷子,35,produces,1
+Mandarin (Beijing),Male,30,筷子,35,understands,0
+Mandarin (Taiwanese),Female,8,筷子,39,produces,0
+Mandarin (Taiwanese),Female,8,筷子,39,understands,0.1538
+Mandarin (Taiwanese),Male,8,筷子,47,produces,0
+Mandarin (Taiwanese),Male,8,筷子,47,understands,0.1915
+Mandarin (Taiwanese),Female,9,筷子,46,produces,0
+Mandarin (Taiwanese),Female,9,筷子,46,understands,0.2826
+Mandarin (Taiwanese),Male,9,筷子,33,produces,0
+Mandarin (Taiwanese),Male,9,筷子,33,understands,0.303
+Mandarin (Taiwanese),Female,10,筷子,40,produces,0
+Mandarin (Taiwanese),Female,10,筷子,40,understands,0.075
+Mandarin (Taiwanese),Male,10,筷子,38,produces,0
+Mandarin (Taiwanese),Male,10,筷子,38,understands,0.1053
+Mandarin (Taiwanese),Female,11,筷子,38,produces,0
+Mandarin (Taiwanese),Female,11,筷子,38,understands,0.1316
+Mandarin (Taiwanese),Male,11,筷子,41,produces,0
+Mandarin (Taiwanese),Male,11,筷子,41,understands,0.0488
+Mandarin (Taiwanese),Female,12,筷子,42,produces,0
+Mandarin (Taiwanese),Female,12,筷子,42,understands,0.0952
+Mandarin (Taiwanese),Male,12,筷子,38,produces,0
+Mandarin (Taiwanese),Male,12,筷子,38,understands,0.0789
+Mandarin (Taiwanese),Female,13,筷子,41,produces,0
+Mandarin (Taiwanese),Female,13,筷子,41,understands,0.0488
+Mandarin (Taiwanese),Male,13,筷子,37,produces,0
+Mandarin (Taiwanese),Male,13,筷子,37,understands,0.1351
+Mandarin (Taiwanese),Female,14,筷子,43,produces,0.0233
+Mandarin (Taiwanese),Female,14,筷子,43,understands,0.0698
+Mandarin (Taiwanese),Male,14,筷子,38,produces,0.0263
+Mandarin (Taiwanese),Male,14,筷子,38,understands,0.1842
+Mandarin (Taiwanese),Female,15,筷子,54,produces,0.0556
+Mandarin (Taiwanese),Female,15,筷子,54,understands,0.2778
+Mandarin (Taiwanese),Male,15,筷子,52,produces,0.0385
+Mandarin (Taiwanese),Male,15,筷子,52,understands,0.2692
+Mandarin (Taiwanese),Female,16,筷子,82,produces,0
+Mandarin (Taiwanese),Female,16,筷子,82,understands,0.0732
+Mandarin (Taiwanese),Male,16,筷子,88,produces,0.0341
+Mandarin (Taiwanese),Male,16,筷子,88,understands,0.1023
+Mandarin (Taiwanese),Female,17,筷子,37,produces,0.0541
+Mandarin (Taiwanese),Female,17,筷子,37,understands,0
+Mandarin (Taiwanese),Male,17,筷子,50,produces,0.04
+Mandarin (Taiwanese),Male,17,筷子,50,understands,0
+Mandarin (Taiwanese),Female,18,筷子,49,produces,0.102
+Mandarin (Taiwanese),Female,18,筷子,49,understands,0
+Mandarin (Taiwanese),Male,18,筷子,35,produces,0.1143
+Mandarin (Taiwanese),Male,18,筷子,35,understands,0
+Mandarin (Taiwanese),Female,19,筷子,42,produces,0.2381
+Mandarin (Taiwanese),Female,19,筷子,42,understands,0
+Mandarin (Taiwanese),Male,19,筷子,42,produces,0.2143
+Mandarin (Taiwanese),Male,19,筷子,42,understands,0
+Mandarin (Taiwanese),Female,20,筷子,40,produces,0.225
+Mandarin (Taiwanese),Female,20,筷子,40,understands,0
+Mandarin (Taiwanese),Male,20,筷子,44,produces,0.1136
+Mandarin (Taiwanese),Male,20,筷子,44,understands,0
+Mandarin (Taiwanese),Female,21,筷子,38,produces,0.2632
+Mandarin (Taiwanese),Female,21,筷子,38,understands,0
+Mandarin (Taiwanese),Male,21,筷子,50,produces,0.22
+Mandarin (Taiwanese),Male,21,筷子,50,understands,0
+Mandarin (Taiwanese),Female,22,筷子,48,produces,0.3333
+Mandarin (Taiwanese),Female,22,筷子,48,understands,0
+Mandarin (Taiwanese),Male,22,筷子,48,produces,0.3333
+Mandarin (Taiwanese),Male,22,筷子,48,understands,0
+Mandarin (Taiwanese),Female,23,筷子,50,produces,0.54
+Mandarin (Taiwanese),Female,23,筷子,50,understands,0
+Mandarin (Taiwanese),Male,23,筷子,55,produces,0.4
+Mandarin (Taiwanese),Male,23,筷子,55,understands,0
+Mandarin (Taiwanese),Female,24,筷子,65,produces,0.5692
+Mandarin (Taiwanese),Female,24,筷子,65,understands,0
+Mandarin (Taiwanese),Male,24,筷子,59,produces,0.5424
+Mandarin (Taiwanese),Male,24,筷子,59,understands,0
+Mandarin (Taiwanese),Female,25,筷子,60,produces,0.7333
+Mandarin (Taiwanese),Female,25,筷子,60,understands,0
+Mandarin (Taiwanese),Male,25,筷子,50,produces,0.52
+Mandarin (Taiwanese),Male,25,筷子,50,understands,0
+Mandarin (Taiwanese),Female,26,筷子,38,produces,0.8421
+Mandarin (Taiwanese),Female,26,筷子,38,understands,0
+Mandarin (Taiwanese),Male,26,筷子,49,produces,0.5714
+Mandarin (Taiwanese),Male,26,筷子,49,understands,0
+Mandarin (Taiwanese),Female,27,筷子,49,produces,0.7755
+Mandarin (Taiwanese),Female,27,筷子,49,understands,0
+Mandarin (Taiwanese),Male,27,筷子,43,produces,0.5814
+Mandarin (Taiwanese),Male,27,筷子,43,understands,0
+Mandarin (Taiwanese),Female,28,筷子,50,produces,0.88
+Mandarin (Taiwanese),Female,28,筷子,50,understands,0
+Mandarin (Taiwanese),Male,28,筷子,50,produces,0.72
+Mandarin (Taiwanese),Male,28,筷子,50,understands,0
+Mandarin (Taiwanese),Female,29,筷子,41,produces,0.9024
+Mandarin (Taiwanese),Female,29,筷子,41,understands,0
+Mandarin (Taiwanese),Male,29,筷子,47,produces,0.6809
+Mandarin (Taiwanese),Male,29,筷子,47,understands,0
+Mandarin (Taiwanese),Female,30,筷子,44,produces,0.8182
+Mandarin (Taiwanese),Female,30,筷子,44,understands,0
+Mandarin (Taiwanese),Male,30,筷子,50,produces,0.76
+Mandarin (Taiwanese),Male,30,筷子,50,understands,0
+Mandarin (Taiwanese),Female,31,筷子,35,produces,0.9429
+Mandarin (Taiwanese),Female,31,筷子,35,understands,0
+Mandarin (Taiwanese),Male,31,筷子,53,produces,0.8679
+Mandarin (Taiwanese),Male,31,筷子,53,understands,0
+Mandarin (Taiwanese),Female,32,筷子,43,produces,0.9302
+Mandarin (Taiwanese),Female,32,筷子,43,understands,0
+Mandarin (Taiwanese),Male,32,筷子,39,produces,0.7949
+Mandarin (Taiwanese),Male,32,筷子,39,understands,0
+Mandarin (Taiwanese),Female,33,筷子,45,produces,0.9111
+Mandarin (Taiwanese),Female,33,筷子,45,understands,0
+Mandarin (Taiwanese),Male,33,筷子,40,produces,0.9
+Mandarin (Taiwanese),Male,33,筷子,40,understands,0
+Mandarin (Taiwanese),Female,34,筷子,33,produces,0.8485
+Mandarin (Taiwanese),Female,34,筷子,33,understands,0
+Mandarin (Taiwanese),Male,34,筷子,44,produces,0.8409
+Mandarin (Taiwanese),Male,34,筷子,44,understands,0
+Mandarin (Taiwanese),Female,35,筷子,42,produces,0.9524
+Mandarin (Taiwanese),Female,35,筷子,42,understands,0
+Mandarin (Taiwanese),Male,35,筷子,39,produces,0.9487
+Mandarin (Taiwanese),Male,35,筷子,39,understands,0
+Mandarin (Taiwanese),Female,36,筷子,38,produces,0.8947
+Mandarin (Taiwanese),Female,36,筷子,38,understands,0
+Mandarin (Taiwanese),Male,36,筷子,43,produces,0.9302
+Mandarin (Taiwanese),Male,36,筷子,43,understands,0

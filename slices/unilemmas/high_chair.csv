@@ -1,633 +1,1887 @@
-language,age,words,n,measure,prop
-Italian,7,seggiolone,5,produces,0
-Italian,7,seggiolone,5,understands,0.2
-Italian,8,seggiolone,34,produces,0
-Italian,8,seggiolone,34,understands,0.2353
-Italian,9,seggiolone,38,produces,0
-Italian,9,seggiolone,38,understands,0.2105
-Italian,10,seggiolone,53,produces,0
-Italian,10,seggiolone,53,understands,0.1509
-Italian,11,seggiolone,42,produces,0
-Italian,11,seggiolone,42,understands,0.5
-Italian,12,seggiolone,69,produces,0
-Italian,12,seggiolone,69,understands,0.5217
-Italian,13,seggiolone,48,produces,0
-Italian,13,seggiolone,48,understands,0.4583
-Italian,14,seggiolone,40,produces,0
-Italian,14,seggiolone,40,understands,0.575
-Italian,15,seggiolone,68,produces,0.0147
-Italian,15,seggiolone,68,understands,0.6618
-Italian,16,seggiolone,56,produces,0
-Italian,16,seggiolone,56,understands,0.8036
-Italian,17,seggiolone,48,produces,0.0625
-Italian,17,seggiolone,48,understands,0.8542
-Italian,18,seggiolone,75,produces,0.0667
-Italian,18,seggiolone,75,understands,0.48
-Italian,19,seggiolone,58,produces,0.1034
-Italian,19,seggiolone,58,understands,0.2931
-Italian,20,seggiolone,83,produces,0.1687
-Italian,20,seggiolone,83,understands,0.2048
-Italian,21,seggiolone,67,produces,0.2687
-Italian,21,seggiolone,67,understands,0.1791
-Italian,22,seggiolone,77,produces,0.2857
-Italian,22,seggiolone,77,understands,0.2338
-Italian,23,seggiolone,70,produces,0.3571
-Italian,23,seggiolone,70,understands,0.2143
-Italian,24,seggiolone,85,produces,0.5059
-Italian,24,seggiolone,85,understands,0.1529
-Italian,25,seggiolone,39,produces,0.5385
-Italian,25,seggiolone,39,understands,0
-Italian,26,seggiolone,41,produces,0.6341
-Italian,26,seggiolone,41,understands,0
-Italian,27,seggiolone,43,produces,0.6512
-Italian,27,seggiolone,43,understands,0
-Italian,28,seggiolone,44,produces,0.6591
-Italian,28,seggiolone,44,understands,0
-Italian,29,seggiolone,37,produces,0.7568
-Italian,29,seggiolone,37,understands,0
-Italian,30,seggiolone,67,produces,0.7015
-Italian,30,seggiolone,67,understands,0
-Italian,31,seggiolone,19,produces,0.8421
-Italian,31,seggiolone,19,understands,0
-Italian,32,seggiolone,23,produces,0.8261
-Italian,32,seggiolone,23,understands,0
-Italian,33,seggiolone,16,produces,0.6875
-Italian,33,seggiolone,16,understands,0
-Italian,34,seggiolone,19,produces,1
-Italian,34,seggiolone,19,understands,0
-Italian,35,seggiolone,15,produces,0.8667
-Italian,35,seggiolone,15,understands,0
-Italian,36,seggiolone,21,produces,0.7143
-Italian,36,seggiolone,21,understands,0
-Norwegian,8,barnestol,77,produces,0.026
-Norwegian,8,barnestol,77,understands,0.0649
-Norwegian,9,barnestol,138,produces,0
-Norwegian,9,barnestol,138,understands,0.0362
-Norwegian,10,barnestol,203,produces,0
-Norwegian,10,barnestol,203,understands,0.0837
-Norwegian,11,barnestol,241,produces,0.0041
-Norwegian,11,barnestol,241,understands,0.0954
-Norwegian,12,barnestol,221,produces,0
-Norwegian,12,barnestol,221,understands,0.1493
-Norwegian,13,barnestol,246,produces,0
-Norwegian,13,barnestol,246,understands,0.2602
-Norwegian,14,barnestol,269,produces,0.0037
-Norwegian,14,barnestol,269,understands,0.3197
-Norwegian,15,barnestol,239,produces,0.0084
-Norwegian,15,barnestol,239,understands,0.3431
-Norwegian,16,barnestol,346,produces,0.0116
-Norwegian,16,barnestol,346,understands,0.2948
-Norwegian,17,barnestol,435,produces,0.0276
-Norwegian,17,barnestol,435,understands,0.2874
-Norwegian,18,barnestol,494,produces,0.0243
-Norwegian,18,barnestol,494,understands,0.2935
-Norwegian,19,barnestol,504,produces,0.0556
-Norwegian,19,barnestol,504,understands,0.2698
-Norwegian,20,barnestol,601,produces,0.0765
-Norwegian,20,barnestol,601,understands,0.3078
-Norwegian,21,barnestol,418,produces,0.0622
-Norwegian,21,barnestol,418,understands,0
-Norwegian,22,barnestol,596,produces,0.0688
-Norwegian,22,barnestol,596,understands,0
-Norwegian,23,barnestol,566,produces,0.1095
-Norwegian,23,barnestol,566,understands,0
-Norwegian,24,barnestol,538,produces,0.132
-Norwegian,24,barnestol,538,understands,0
-Norwegian,25,barnestol,656,produces,0.1829
-Norwegian,25,barnestol,656,understands,0
-Norwegian,26,barnestol,644,produces,0.2733
-Norwegian,26,barnestol,644,understands,0
-Norwegian,27,barnestol,525,produces,0.3143
-Norwegian,27,barnestol,525,understands,0
-Norwegian,28,barnestol,544,produces,0.3548
-Norwegian,28,barnestol,544,understands,0
-Norwegian,29,barnestol,536,produces,0.3806
-Norwegian,29,barnestol,536,understands,0
-Norwegian,30,barnestol,457,produces,0.4136
-Norwegian,30,barnestol,457,understands,0
-Norwegian,31,barnestol,479,produces,0.4843
-Norwegian,31,barnestol,479,understands,0
-Norwegian,32,barnestol,451,produces,0.5654
-Norwegian,32,barnestol,451,understands,0
-Norwegian,33,barnestol,430,produces,0.5698
-Norwegian,33,barnestol,430,understands,0
-Norwegian,34,barnestol,424,produces,0.6038
-Norwegian,34,barnestol,424,understands,0
-Norwegian,35,barnestol,422,produces,0.6303
-Norwegian,35,barnestol,422,understands,0
-Norwegian,36,barnestol,329,produces,0.6657
-Norwegian,36,barnestol,329,understands,0
-Swedish,8,barnstol,26,produces,0
-Swedish,8,barnstol,26,understands,0
-Swedish,9,barnstol,2,produces,0
-Swedish,9,barnstol,2,understands,0.5
-Swedish,10,barnstol,54,produces,0
-Swedish,10,barnstol,54,understands,0.0741
-Swedish,11,barnstol,3,produces,0
-Swedish,11,barnstol,3,understands,0
-Swedish,12,barnstol,79,produces,0
-Swedish,12,barnstol,79,understands,0.1772
-Swedish,13,barnstol,7,produces,0
-Swedish,13,barnstol,7,understands,0
-Swedish,14,barnstol,124,produces,0
-Swedish,14,barnstol,124,understands,0.3629
-Swedish,15,barnstol,13,produces,0
-Swedish,15,barnstol,13,understands,0.3846
-Swedish,16,barnstol,318,produces,0.022
-Swedish,16,barnstol,318,understands,0.2704
-Swedish,19,barnstol,152,produces,0.0197
-Swedish,19,barnstol,152,understands,0
-Swedish,22,barnstol,307,produces,0.1107
-Swedish,22,barnstol,307,understands,0
-Swedish,25,barnstol,143,produces,0.2308
-Swedish,25,barnstol,143,understands,0
-Swedish,28,barnstol,139,produces,0.4101
-Swedish,28,barnstol,139,understands,0
-Arabic (Saudi),8,كرسي أطفال,24,produces,0
-Arabic (Saudi),8,كرسي أطفال,24,understands,0.0833
-Arabic (Saudi),9,كرسي أطفال,27,produces,0
-Arabic (Saudi),9,كرسي أطفال,27,understands,0.037
-Arabic (Saudi),10,كرسي أطفال,35,produces,0
-Arabic (Saudi),10,كرسي أطفال,35,understands,0.0571
-Arabic (Saudi),11,كرسي أطفال,30,produces,0
-Arabic (Saudi),11,كرسي أطفال,30,understands,0.0333
-Arabic (Saudi),12,كرسي أطفال,30,produces,0
-Arabic (Saudi),12,كرسي أطفال,30,understands,0.0667
-Arabic (Saudi),13,كرسي أطفال,39,produces,0
-Arabic (Saudi),13,كرسي أطفال,39,understands,0
-Arabic (Saudi),14,كرسي أطفال,25,produces,0
-Arabic (Saudi),14,كرسي أطفال,25,understands,0.16
-Arabic (Saudi),15,كرسي أطفال,27,produces,0.037
-Arabic (Saudi),15,كرسي أطفال,27,understands,0.1481
-Arabic (Saudi),16,كرسي أطفال,21,produces,0
-Arabic (Saudi),16,كرسي أطفال,21,understands,0.0952
-Catalan,8,trona,39,produces,0
-Catalan,8,trona,39,understands,0.1026
-Catalan,9,trona,46,produces,0
-Catalan,9,trona,46,understands,0.1739
-Catalan,10,trona,43,produces,0
-Catalan,10,trona,43,understands,0.1395
-Catalan,11,trona,43,produces,0
-Catalan,11,trona,43,understands,0.2326
-Catalan,12,trona,59,produces,0
-Catalan,12,trona,59,understands,0.2203
-Catalan,13,trona,44,produces,0
-Catalan,13,trona,44,understands,0.2273
-Catalan,14,trona,60,produces,0
-Catalan,14,trona,60,understands,0.3167
-Catalan,15,trona,70,produces,0
-Catalan,15,trona,70,understands,0.5286
-Catalan,16,trona,73,produces,0
-Catalan,16,trona,73,understands,0.3973
-Catalan,17,trona,110,produces,0.0455
-Catalan,17,trona,110,understands,0.4
-Catalan,18,trona,102,produces,0.1176
-Catalan,18,trona,102,understands,0.3529
-Catalan,19,trona,45,produces,0.0667
-Catalan,19,trona,45,understands,0
-Catalan,20,trona,56,produces,0.1429
-Catalan,20,trona,56,understands,0
-Catalan,21,trona,58,produces,0.1724
-Catalan,21,trona,58,understands,0
-Catalan,22,trona,50,produces,0.26
-Catalan,22,trona,50,understands,0
-Catalan,23,trona,66,produces,0.2273
-Catalan,23,trona,66,understands,0
-Catalan,24,trona,79,produces,0.4304
-Catalan,24,trona,79,understands,0
-Catalan,25,trona,60,produces,0.4167
-Catalan,25,trona,60,understands,0
-Catalan,26,trona,65,produces,0.4
-Catalan,26,trona,65,understands,0
-Catalan,27,trona,63,produces,0.4921
-Catalan,27,trona,63,understands,0
-Catalan,28,trona,81,produces,0.4691
-Catalan,28,trona,81,understands,0
-Catalan,29,trona,50,produces,0.6
-Catalan,29,trona,50,understands,0
-Catalan,30,trona,75,produces,0.6
-Catalan,30,trona,75,understands,0
-Danish,8,høj stol,174,produces,0
-Danish,8,høj stol,174,understands,0.0517
-Danish,9,høj stol,196,produces,0
-Danish,9,høj stol,196,understands,0.0408
-Danish,10,høj stol,182,produces,0
-Danish,10,høj stol,182,understands,0.0604
-Danish,11,høj stol,200,produces,0
-Danish,11,høj stol,200,understands,0.065
-Danish,12,høj stol,188,produces,0
-Danish,12,høj stol,188,understands,0.0691
-Danish,13,høj stol,216,produces,0
-Danish,13,høj stol,216,understands,0.1204
-Danish,14,høj stol,178,produces,0
-Danish,14,høj stol,178,understands,0.1461
-Danish,15,høj stol,203,produces,0.0049
-Danish,15,høj stol,203,understands,0.202
-Danish,16,høj stol,359,produces,0.0056
-Danish,16,høj stol,359,understands,0.1198
-Danish,17,høj stol,346,produces,0.0087
-Danish,17,høj stol,346,understands,0.1532
-Danish,18,høj stol,358,produces,0.0279
-Danish,18,høj stol,358,understands,0.1676
-Danish,19,høj stol,361,produces,0.0249
-Danish,19,høj stol,361,understands,0.1524
-Danish,20,høj stol,358,produces,0.0363
-Danish,20,høj stol,358,understands,0.176
-Danish,21,høj stol,236,produces,0.0466
-Danish,21,høj stol,236,understands,0
-Danish,22,høj stol,235,produces,0.0766
-Danish,22,høj stol,235,understands,0
-Danish,23,høj stol,190,produces,0.0684
-Danish,23,høj stol,190,understands,0
-Danish,24,høj stol,216,produces,0.1296
-Danish,24,høj stol,216,understands,0
-Danish,25,høj stol,138,produces,0.1667
-Danish,25,høj stol,138,understands,0
-Danish,26,høj stol,206,produces,0.2039
-Danish,26,høj stol,206,understands,0
-Danish,27,høj stol,176,produces,0.2045
-Danish,27,høj stol,176,understands,0
-Danish,28,høj stol,190,produces,0.2842
-Danish,28,høj stol,190,understands,0
-Danish,29,høj stol,182,produces,0.2912
-Danish,29,høj stol,182,understands,0
-Danish,30,høj stol,173,produces,0.3642
-Danish,30,høj stol,173,understands,0
-Danish,31,høj stol,175,produces,0.4229
-Danish,31,høj stol,175,understands,0
-Danish,32,høj stol,143,produces,0.4895
-Danish,32,høj stol,143,understands,0
-Danish,33,høj stol,151,produces,0.543
-Danish,33,høj stol,151,understands,0
-Danish,34,høj stol,143,produces,0.5385
-Danish,34,høj stol,143,understands,0
-Danish,35,høj stol,113,produces,0.5752
-Danish,35,høj stol,113,understands,0
-Danish,36,høj stol,126,produces,0.5794
-Danish,36,høj stol,126,understands,0
-Dutch,8,kinderstoel,7,produces,0
-Dutch,8,kinderstoel,7,understands,0
-Dutch,9,kinderstoel,94,produces,0
-Dutch,9,kinderstoel,94,understands,0.0532
-Dutch,10,kinderstoel,128,produces,0
-Dutch,10,kinderstoel,128,understands,0.1016
-Dutch,11,kinderstoel,9,produces,0
-Dutch,11,kinderstoel,9,understands,0.2222
-Dutch,12,kinderstoel,7,produces,0
-Dutch,12,kinderstoel,7,understands,0
-Dutch,13,kinderstoel,6,produces,0
-Dutch,13,kinderstoel,6,understands,0.3333
-Dutch,14,kinderstoel,35,produces,0
-Dutch,14,kinderstoel,35,understands,0.2286
-Dutch,15,kinderstoel,9,produces,0
-Dutch,15,kinderstoel,9,understands,0.3333
-Dutch,16,kinderstoel,12,produces,0
-Dutch,16,kinderstoel,12,understands,0.0833
-Dutch,17,kinderstoel,55,produces,0.0364
-Dutch,17,kinderstoel,55,understands,0.0545
-Dutch,18,kinderstoel,198,produces,0.0303
-Dutch,18,kinderstoel,198,understands,0.1818
-Dutch,19,kinderstoel,101,produces,0.0198
-Dutch,19,kinderstoel,101,understands,0.2277
-Dutch,20,kinderstoel,33,produces,0.0606
-Dutch,20,kinderstoel,33,understands,0.1212
-Dutch,21,kinderstoel,13,produces,0.1538
-Dutch,21,kinderstoel,13,understands,0.3077
-Dutch,22,kinderstoel,7,produces,0.2857
-Dutch,22,kinderstoel,7,understands,0
-Dutch,23,kinderstoel,51,produces,0.451
-Dutch,23,kinderstoel,51,understands,0
-Dutch,24,kinderstoel,31,produces,0.5161
-Dutch,24,kinderstoel,31,understands,0
-Dutch,25,kinderstoel,6,produces,0.8333
-Dutch,25,kinderstoel,6,understands,0
-Dutch,26,kinderstoel,6,produces,0.5
-Dutch,26,kinderstoel,6,understands,0
-Dutch,27,kinderstoel,5,produces,0.4
-Dutch,27,kinderstoel,5,understands,0
-Dutch,28,kinderstoel,6,produces,0.6667
-Dutch,28,kinderstoel,6,understands,0
-Dutch,29,kinderstoel,23,produces,0.913
-Dutch,29,kinderstoel,23,understands,0
-Dutch,30,kinderstoel,24,produces,0.8333
-Dutch,30,kinderstoel,24,understands,0
-Dutch,31,kinderstoel,2,produces,1
-Dutch,31,kinderstoel,2,understands,0
-English (American),8,high chair,255,produces,0.0078
-English (American),8,high chair,255,understands,0.1255
-English (American),9,high chair,299,produces,0.0067
-English (American),9,high chair,299,understands,0.1773
-English (American),10,high chair,279,produces,0.0072
-English (American),10,high chair,279,understands,0.172
-English (American),11,high chair,360,produces,0.0167
-English (American),11,high chair,360,understands,0.2861
-English (American),12,high chair,615,produces,0.0146
-English (American),12,high chair,615,understands,0.3073
-English (American),13,high chair,1039,produces,0.0144
-English (American),13,high chair,1039,understands,0.4504
-English (American),14,high chair,455,produces,0.011
-English (American),14,high chair,455,understands,0.4396
-English (American),15,high chair,245,produces,0.0327
-English (American),15,high chair,245,understands,0.5592
-English (American),16,high chair,1750,produces,0.0509
-English (American),16,high chair,1750,understands,0.3451
-English (American),17,high chair,831,produces,0.071
-English (American),17,high chair,831,understands,0.29
-English (American),18,high chair,1024,produces,0.1133
-English (American),18,high chair,1024,understands,0.2627
-English (American),19,high chair,570,produces,0.1702
-English (American),19,high chair,570,understands,0
-English (American),20,high chair,537,produces,0.1453
-English (American),20,high chair,537,understands,0
-English (American),21,high chair,366,produces,0.2158
-English (American),21,high chair,366,understands,0
-English (American),22,high chair,454,produces,0.2467
-English (American),22,high chair,454,understands,0
-English (American),23,high chair,470,produces,0.3702
-English (American),23,high chair,470,understands,0
-English (American),24,high chair,985,produces,0.3848
-English (American),24,high chair,985,understands,0
-English (American),25,high chair,757,produces,0.4135
-English (American),25,high chair,757,understands,0
-English (American),26,high chair,435,produces,0.492
-English (American),26,high chair,435,understands,0
-English (American),27,high chair,361,produces,0.4931
-English (American),27,high chair,361,understands,0
-English (American),28,high chair,954,produces,0.6845
-English (American),28,high chair,954,understands,0
-English (American),29,high chair,390,produces,0.559
-English (American),29,high chair,390,understands,0
-English (American),30,high chair,785,produces,0.5783
-English (American),30,high chair,785,understands,0
-English (Australian),12,high chair,71,produces,0
-English (Australian),12,high chair,71,understands,0
-English (Australian),13,high chair,64,produces,0.0156
-English (Australian),13,high chair,64,understands,0
-English (Australian),14,high chair,111,produces,0.018
-English (Australian),14,high chair,111,understands,0
-English (Australian),15,high chair,69,produces,0.0435
-English (Australian),15,high chair,69,understands,0
-English (Australian),16,high chair,60,produces,0.0833
-English (Australian),16,high chair,60,understands,0
-English (Australian),17,high chair,104,produces,0.0385
-English (Australian),17,high chair,104,understands,0
-English (Australian),18,high chair,109,produces,0.0642
-English (Australian),18,high chair,109,understands,0
-English (Australian),19,high chair,124,produces,0.1452
-English (Australian),19,high chair,124,understands,0
-English (Australian),20,high chair,78,produces,0.2308
-English (Australian),20,high chair,78,understands,0
-English (Australian),21,high chair,68,produces,0.1765
-English (Australian),21,high chair,68,understands,0
-English (Australian),22,high chair,73,produces,0.2603
-English (Australian),22,high chair,73,understands,0
-English (Australian),23,high chair,71,produces,0.3521
-English (Australian),23,high chair,71,understands,0
-English (Australian),24,high chair,76,produces,0.3553
-English (Australian),24,high chair,76,understands,0
-English (Australian),25,high chair,85,produces,0.4706
-English (Australian),25,high chair,85,understands,0
-English (Australian),26,high chair,77,produces,0.4935
-English (Australian),26,high chair,77,understands,0
-English (Australian),27,high chair,72,produces,0.6806
-English (Australian),27,high chair,72,understands,0
-English (Australian),28,high chair,67,produces,0.5373
-English (Australian),28,high chair,67,understands,0
-English (Australian),29,high chair,65,produces,0.6923
-English (Australian),29,high chair,65,understands,0
-English (Australian),30,high chair,53,produces,0.7547
-English (Australian),30,high chair,53,understands,0
-English (British),12,high chair,27,produces,0
-English (British),12,high chair,27,understands,0.3333
-English (British),13,high chair,7,produces,0
-English (British),13,high chair,7,understands,0
-English (British),14,high chair,64,produces,0.0156
-English (British),14,high chair,64,understands,0.3125
-English (British),15,high chair,88,produces,0.0114
-English (British),15,high chair,88,understands,0.4886
-English (British),16,high chair,118,produces,0.0339
-English (British),16,high chair,118,understands,0.5508
-English (British),17,high chair,197,produces,0.0203
-English (British),17,high chair,197,understands,0.5888
-English (British),18,high chair,118,produces,0.0593
-English (British),18,high chair,118,understands,0.5932
-English (British),19,high chair,109,produces,0.2018
-English (British),19,high chair,109,understands,0.7339
-English (British),20,high chair,144,produces,0.1667
-English (British),20,high chair,144,understands,0.7222
-English (British),21,high chair,75,produces,0.2667
-English (British),21,high chair,75,understands,0.68
-English (British),22,high chair,28,produces,0.25
-English (British),22,high chair,28,understands,0.7143
-English (British),23,high chair,112,produces,0.375
-English (British),23,high chair,112,understands,0.8304
-English (British),24,high chair,87,produces,0.5057
-English (British),24,high chair,87,understands,0.8046
-English (British),25,high chair,36,produces,0.4722
-English (British),25,high chair,36,understands,0.7778
-English (Irish),17,highchair,2,produces,0
-English (Irish),17,highchair,2,understands,0
-English (Irish),18,highchair,1,produces,0
-English (Irish),18,highchair,1,understands,0
-English (Irish),19,highchair,2,produces,0.5
-English (Irish),19,highchair,2,understands,0
-English (Irish),20,highchair,1,produces,0
-English (Irish),20,highchair,1,understands,0
-English (Irish),21,highchair,3,produces,0
-English (Irish),21,highchair,3,understands,0
-English (Irish),22,highchair,4,produces,0
-English (Irish),22,highchair,4,understands,0
-English (Irish),23,highchair,4,produces,0.25
-English (Irish),23,highchair,4,understands,0
-English (Irish),24,highchair,4,produces,0.25
-English (Irish),24,highchair,4,understands,0
-English (Irish),25,highchair,6,produces,0.1667
-English (Irish),25,highchair,6,understands,0
-English (Irish),26,highchair,10,produces,0.2
-English (Irish),26,highchair,10,understands,0
-English (Irish),27,highchair,5,produces,0.2
-English (Irish),27,highchair,5,understands,0
-English (Irish),28,highchair,7,produces,0.4286
-English (Irish),28,highchair,7,understands,0
-English (Irish),29,highchair,4,produces,0.5
-English (Irish),29,highchair,4,understands,0
-English (Irish),30,highchair,9,produces,0.2222
-English (Irish),30,highchair,9,understands,0
-English (Irish),31,highchair,8,produces,0.125
-English (Irish),31,highchair,8,understands,0
-English (Irish),32,highchair,4,produces,0.25
-English (Irish),32,highchair,4,understands,0
-English (Irish),33,highchair,5,produces,0.6
-English (Irish),33,highchair,5,understands,0
-English (Irish),34,highchair,4,produces,0
-English (Irish),34,highchair,4,understands,0
-English (Irish),35,highchair,11,produces,0.2727
-English (Irish),35,highchair,11,understands,0
-English (Irish),36,highchair,5,produces,0.2
-English (Irish),36,highchair,5,understands,0
-Finnish,18,syöttötuoli,35,produces,0.0286
-Finnish,18,syöttötuoli,35,understands,0
-Finnish,24,syöttötuoli,35,produces,0.3143
-Finnish,24,syöttötuoli,35,understands,0
-French (French),8,chaise haute,54,produces,0
-French (French),8,chaise haute,54,understands,0.0185
-French (French),9,chaise haute,11,produces,0.0909
-French (French),9,chaise haute,11,understands,0.0909
-French (French),10,chaise haute,13,produces,0.0769
-French (French),10,chaise haute,13,understands,0.0769
-French (French),11,chaise haute,42,produces,0.0238
-French (French),11,chaise haute,42,understands,0.0952
-French (French),12,chaise haute,64,produces,0.0469
-French (French),12,chaise haute,64,understands,0.0938
-French (French),13,chaise haute,116,produces,0.0517
-French (French),13,chaise haute,116,understands,0.1724
-French (French),14,chaise haute,40,produces,0.075
-French (French),14,chaise haute,40,understands,0.225
-French (French),15,chaise haute,26,produces,0.4615
-French (French),15,chaise haute,26,understands,0.5
-French (French),16,chaise haute,98,produces,0.0306
-French (French),16,chaise haute,98,understands,0.0204
-French (French),17,chaise haute,52,produces,0
-French (French),17,chaise haute,52,understands,0
-French (French),18,chaise haute,54,produces,0.2778
-French (French),18,chaise haute,54,understands,0
-French (French),19,chaise haute,42,produces,0.2619
-French (French),19,chaise haute,42,understands,0
-French (French),20,chaise haute,81,produces,0.1975
-French (French),20,chaise haute,81,understands,0
-French (French),21,chaise haute,102,produces,0.1863
-French (French),21,chaise haute,102,understands,0
-French (French),22,chaise haute,103,produces,0.233
-French (French),22,chaise haute,103,understands,0
-French (French),23,chaise haute,118,produces,0.1525
-French (French),23,chaise haute,118,understands,0
-French (French),24,chaise haute,173,produces,0.1734
-French (French),24,chaise haute,173,understands,0
-French (French),25,chaise haute,87,produces,0.3218
-French (French),25,chaise haute,87,understands,0
-French (French),26,chaise haute,64,produces,0.2344
-French (French),26,chaise haute,64,understands,0
-French (French),27,chaise haute,54,produces,0.3333
-French (French),27,chaise haute,54,understands,0
-French (French),28,chaise haute,76,produces,0.3026
-French (French),28,chaise haute,76,understands,0
-French (French),29,chaise haute,67,produces,0.3433
-French (French),29,chaise haute,67,understands,0
-French (French),30,chaise haute,68,produces,0.3529
-French (French),30,chaise haute,68,understands,0
-French (Quebecois),8,chaise haute,103,produces,0
-French (Quebecois),8,chaise haute,103,understands,0.1165
-French (Quebecois),9,chaise haute,167,produces,0
-French (Quebecois),9,chaise haute,167,understands,0.1018
-French (Quebecois),10,chaise haute,86,produces,0
-French (Quebecois),10,chaise haute,86,understands,0.1977
-French (Quebecois),11,chaise haute,81,produces,0
-French (Quebecois),11,chaise haute,81,understands,0.2593
-French (Quebecois),12,chaise haute,166,produces,0
-French (Quebecois),12,chaise haute,166,understands,0.2289
-French (Quebecois),13,chaise haute,126,produces,0
-French (Quebecois),13,chaise haute,126,understands,0.3095
-French (Quebecois),14,chaise haute,228,produces,0
-French (Quebecois),14,chaise haute,228,understands,0.3289
-French (Quebecois),15,chaise haute,101,produces,0
-French (Quebecois),15,chaise haute,101,understands,0.4554
-French (Quebecois),16,chaise haute,108,produces,0.0093
-French (Quebecois),16,chaise haute,108,understands,0.2963
-French (Quebecois),17,chaise haute,62,produces,0
-French (Quebecois),17,chaise haute,62,understands,0
-French (Quebecois),18,chaise haute,99,produces,0.0202
-French (Quebecois),18,chaise haute,99,understands,0
-French (Quebecois),19,chaise haute,91,produces,0.022
-French (Quebecois),19,chaise haute,91,understands,0
-French (Quebecois),20,chaise haute,196,produces,0.0459
-French (Quebecois),20,chaise haute,196,understands,0
-French (Quebecois),21,chaise haute,109,produces,0.1009
-French (Quebecois),21,chaise haute,109,understands,0
-French (Quebecois),22,chaise haute,86,produces,0.1744
-French (Quebecois),22,chaise haute,86,understands,0
-French (Quebecois),23,chaise haute,86,produces,0.186
-French (Quebecois),23,chaise haute,86,understands,0
-French (Quebecois),24,chaise haute,132,produces,0.1818
-French (Quebecois),24,chaise haute,132,understands,0
-French (Quebecois),25,chaise haute,87,produces,0.2184
-French (Quebecois),25,chaise haute,87,understands,0
-French (Quebecois),26,chaise haute,95,produces,0.3158
-French (Quebecois),26,chaise haute,95,understands,0
-French (Quebecois),27,chaise haute,74,produces,0.3784
-French (Quebecois),27,chaise haute,74,understands,0
-French (Quebecois),28,chaise haute,61,produces,0.377
-French (Quebecois),28,chaise haute,61,understands,0
-French (Quebecois),29,chaise haute,70,produces,0.5857
-French (Quebecois),29,chaise haute,70,understands,0
-French (Quebecois),30,chaise haute,100,produces,0.44
-French (Quebecois),30,chaise haute,100,understands,0
-Hungarian,16,etetőszék,21,produces,0
-Hungarian,16,etetőszék,21,understands,0
-Hungarian,17,etetőszék,18,produces,0.1111
-Hungarian,17,etetőszék,18,understands,0
-Hungarian,18,etetőszék,18,produces,0.0556
-Hungarian,18,etetőszék,18,understands,0
-Hungarian,19,etetőszék,26,produces,0.1538
-Hungarian,19,etetőszék,26,understands,0
-Hungarian,20,etetőszék,18,produces,0.0556
-Hungarian,20,etetőszék,18,understands,0
-Hungarian,21,etetőszék,36,produces,0.1667
-Hungarian,21,etetőszék,36,understands,0
-Hungarian,22,etetőszék,27,produces,0.2593
-Hungarian,22,etetőszék,27,understands,0
-Hungarian,23,etetőszék,18,produces,0.1111
-Hungarian,23,etetőszék,18,understands,0
-Hungarian,24,etetőszék,38,produces,0.2632
-Hungarian,24,etetőszék,38,understands,0
-Hungarian,25,etetőszék,43,produces,0.4651
-Hungarian,25,etetőszék,43,understands,0
-Hungarian,26,etetőszék,23,produces,0.4783
-Hungarian,26,etetőszék,23,understands,0
-Hungarian,27,etetőszék,26,produces,0.4615
-Hungarian,27,etetőszék,26,understands,0
-Hungarian,28,etetőszék,30,produces,0.4333
-Hungarian,28,etetőszék,30,understands,0
-Hungarian,29,etetőszék,12,produces,0.6667
-Hungarian,29,etetőszék,12,understands,0
-Hungarian,30,etetőszék,18,produces,0.6111
-Hungarian,30,etetőszék,18,understands,0
-Irish,17,cathaoirard,2,produces,0
-Irish,17,cathaoirard,2,understands,0
-Irish,18,cathaoirard,1,produces,1
-Irish,18,cathaoirard,1,understands,0
-Irish,19,cathaoirard,2,produces,0
-Irish,19,cathaoirard,2,understands,0
-Irish,20,cathaoirard,1,produces,0
-Irish,20,cathaoirard,1,understands,0
-Irish,21,cathaoirard,3,produces,0
-Irish,21,cathaoirard,3,understands,0
-Irish,22,cathaoirard,4,produces,0.25
-Irish,22,cathaoirard,4,understands,0
-Irish,23,cathaoirard,4,produces,0.25
-Irish,23,cathaoirard,4,understands,0
-Irish,24,cathaoirard,4,produces,0.25
-Irish,24,cathaoirard,4,understands,0
-Irish,25,cathaoirard,6,produces,0.1667
-Irish,25,cathaoirard,6,understands,0
-Irish,26,cathaoirard,10,produces,0.3
-Irish,26,cathaoirard,10,understands,0
-Irish,27,cathaoirard,5,produces,0
-Irish,27,cathaoirard,5,understands,0
-Irish,28,cathaoirard,7,produces,0
-Irish,28,cathaoirard,7,understands,0
-Irish,29,cathaoirard,4,produces,0.25
-Irish,29,cathaoirard,4,understands,0
-Irish,30,cathaoirard,9,produces,0.1111
-Irish,30,cathaoirard,9,understands,0
-Irish,31,cathaoirard,8,produces,0.25
-Irish,31,cathaoirard,8,understands,0
-Irish,32,cathaoirard,4,produces,0.5
-Irish,32,cathaoirard,4,understands,0
-Irish,33,cathaoirard,5,produces,0.8
-Irish,33,cathaoirard,5,understands,0
-Irish,34,cathaoirard,4,produces,0.25
-Irish,34,cathaoirard,4,understands,0
-Irish,35,cathaoirard,11,produces,0.3636
-Irish,35,cathaoirard,11,understands,0
-Irish,36,cathaoirard,5,produces,0.4
-Irish,36,cathaoirard,5,understands,0
+language,sex,age,words,n,measure,prop
+Arabic (Saudi),All,8,كرسي أطفال,24,produces,0
+Arabic (Saudi),All,8,كرسي أطفال,24,understands,0.0833
+Arabic (Saudi),All,9,كرسي أطفال,27,produces,0
+Arabic (Saudi),All,9,كرسي أطفال,27,understands,0.037
+Arabic (Saudi),All,10,كرسي أطفال,35,produces,0
+Arabic (Saudi),All,10,كرسي أطفال,35,understands,0.0571
+Arabic (Saudi),All,11,كرسي أطفال,30,produces,0
+Arabic (Saudi),All,11,كرسي أطفال,30,understands,0.0333
+Arabic (Saudi),All,12,كرسي أطفال,30,produces,0
+Arabic (Saudi),All,12,كرسي أطفال,30,understands,0.0667
+Arabic (Saudi),All,13,كرسي أطفال,39,produces,0
+Arabic (Saudi),All,13,كرسي أطفال,39,understands,0
+Arabic (Saudi),All,14,كرسي أطفال,25,produces,0
+Arabic (Saudi),All,14,كرسي أطفال,25,understands,0.16
+Arabic (Saudi),All,15,كرسي أطفال,27,produces,0.037
+Arabic (Saudi),All,15,كرسي أطفال,27,understands,0.1481
+Arabic (Saudi),All,16,كرسي أطفال,21,produces,0
+Arabic (Saudi),All,16,كرسي أطفال,21,understands,0.0952
+Catalan,All,8,trona,39,produces,0
+Catalan,All,8,trona,39,understands,0.1026
+Catalan,All,9,trona,46,produces,0
+Catalan,All,9,trona,46,understands,0.1739
+Catalan,All,10,trona,43,produces,0
+Catalan,All,10,trona,43,understands,0.1395
+Catalan,All,11,trona,43,produces,0
+Catalan,All,11,trona,43,understands,0.2326
+Catalan,All,12,trona,59,produces,0
+Catalan,All,12,trona,59,understands,0.2203
+Catalan,All,13,trona,44,produces,0
+Catalan,All,13,trona,44,understands,0.2273
+Catalan,All,14,trona,60,produces,0
+Catalan,All,14,trona,60,understands,0.3167
+Catalan,All,15,trona,70,produces,0
+Catalan,All,15,trona,70,understands,0.5286
+Catalan,All,16,trona,73,produces,0
+Catalan,All,16,trona,73,understands,0.3973
+Catalan,All,17,trona,110,produces,0.0455
+Catalan,All,17,trona,110,understands,0.4
+Catalan,All,18,trona,102,produces,0.1176
+Catalan,All,18,trona,102,understands,0.3529
+Catalan,All,19,trona,45,produces,0.0667
+Catalan,All,19,trona,45,understands,0
+Catalan,All,20,trona,56,produces,0.1429
+Catalan,All,20,trona,56,understands,0
+Catalan,All,21,trona,58,produces,0.1724
+Catalan,All,21,trona,58,understands,0
+Catalan,All,22,trona,50,produces,0.26
+Catalan,All,22,trona,50,understands,0
+Catalan,All,23,trona,66,produces,0.2273
+Catalan,All,23,trona,66,understands,0
+Catalan,All,24,trona,79,produces,0.4304
+Catalan,All,24,trona,79,understands,0
+Catalan,All,25,trona,60,produces,0.4167
+Catalan,All,25,trona,60,understands,0
+Catalan,All,26,trona,65,produces,0.4
+Catalan,All,26,trona,65,understands,0
+Catalan,All,27,trona,63,produces,0.4921
+Catalan,All,27,trona,63,understands,0
+Catalan,All,28,trona,81,produces,0.4691
+Catalan,All,28,trona,81,understands,0
+Catalan,All,29,trona,50,produces,0.6
+Catalan,All,29,trona,50,understands,0
+Catalan,All,30,trona,75,produces,0.6
+Catalan,All,30,trona,75,understands,0
+Danish,All,8,høj stol,174,produces,0
+Danish,All,8,høj stol,174,understands,0.0517
+Danish,All,9,høj stol,196,produces,0
+Danish,All,9,høj stol,196,understands,0.0408
+Danish,All,10,høj stol,182,produces,0
+Danish,All,10,høj stol,182,understands,0.0604
+Danish,All,11,høj stol,200,produces,0
+Danish,All,11,høj stol,200,understands,0.065
+Danish,All,12,høj stol,188,produces,0
+Danish,All,12,høj stol,188,understands,0.0691
+Danish,All,13,høj stol,216,produces,0
+Danish,All,13,høj stol,216,understands,0.1204
+Danish,All,14,høj stol,178,produces,0
+Danish,All,14,høj stol,178,understands,0.1461
+Danish,All,15,høj stol,203,produces,0.0049
+Danish,All,15,høj stol,203,understands,0.202
+Danish,All,16,høj stol,359,produces,0.0056
+Danish,All,16,høj stol,359,understands,0.1198
+Danish,All,17,høj stol,346,produces,0.0087
+Danish,All,17,høj stol,346,understands,0.1532
+Danish,All,18,høj stol,358,produces,0.0279
+Danish,All,18,høj stol,358,understands,0.1676
+Danish,All,19,høj stol,361,produces,0.0249
+Danish,All,19,høj stol,361,understands,0.1524
+Danish,All,20,høj stol,358,produces,0.0363
+Danish,All,20,høj stol,358,understands,0.176
+Danish,All,21,høj stol,236,produces,0.0466
+Danish,All,21,høj stol,236,understands,0
+Danish,All,22,høj stol,235,produces,0.0766
+Danish,All,22,høj stol,235,understands,0
+Danish,All,23,høj stol,190,produces,0.0684
+Danish,All,23,høj stol,190,understands,0
+Danish,All,24,høj stol,216,produces,0.1296
+Danish,All,24,høj stol,216,understands,0
+Danish,All,25,høj stol,138,produces,0.1667
+Danish,All,25,høj stol,138,understands,0
+Danish,All,26,høj stol,206,produces,0.2039
+Danish,All,26,høj stol,206,understands,0
+Danish,All,27,høj stol,176,produces,0.2045
+Danish,All,27,høj stol,176,understands,0
+Danish,All,28,høj stol,190,produces,0.2842
+Danish,All,28,høj stol,190,understands,0
+Danish,All,29,høj stol,182,produces,0.2912
+Danish,All,29,høj stol,182,understands,0
+Danish,All,30,høj stol,173,produces,0.3642
+Danish,All,30,høj stol,173,understands,0
+Danish,All,31,høj stol,175,produces,0.4229
+Danish,All,31,høj stol,175,understands,0
+Danish,All,32,høj stol,143,produces,0.4895
+Danish,All,32,høj stol,143,understands,0
+Danish,All,33,høj stol,151,produces,0.543
+Danish,All,33,høj stol,151,understands,0
+Danish,All,34,høj stol,143,produces,0.5385
+Danish,All,34,høj stol,143,understands,0
+Danish,All,35,høj stol,113,produces,0.5752
+Danish,All,35,høj stol,113,understands,0
+Danish,All,36,høj stol,126,produces,0.5794
+Danish,All,36,høj stol,126,understands,0
+Dutch,All,8,kinderstoel,7,produces,0
+Dutch,All,8,kinderstoel,7,understands,0
+Dutch,All,9,kinderstoel,94,produces,0
+Dutch,All,9,kinderstoel,94,understands,0.0532
+Dutch,All,10,kinderstoel,128,produces,0
+Dutch,All,10,kinderstoel,128,understands,0.1016
+Dutch,All,11,kinderstoel,9,produces,0
+Dutch,All,11,kinderstoel,9,understands,0.2222
+Dutch,All,12,kinderstoel,7,produces,0
+Dutch,All,12,kinderstoel,7,understands,0
+Dutch,All,13,kinderstoel,6,produces,0
+Dutch,All,13,kinderstoel,6,understands,0.3333
+Dutch,All,14,kinderstoel,35,produces,0
+Dutch,All,14,kinderstoel,35,understands,0.2286
+Dutch,All,15,kinderstoel,9,produces,0
+Dutch,All,15,kinderstoel,9,understands,0.3333
+Dutch,All,16,kinderstoel,12,produces,0
+Dutch,All,16,kinderstoel,12,understands,0.0833
+Dutch,All,17,kinderstoel,55,produces,0.0364
+Dutch,All,17,kinderstoel,55,understands,0.0545
+Dutch,All,18,kinderstoel,198,produces,0.0303
+Dutch,All,18,kinderstoel,198,understands,0.1818
+Dutch,All,19,kinderstoel,101,produces,0.0198
+Dutch,All,19,kinderstoel,101,understands,0.2277
+Dutch,All,20,kinderstoel,33,produces,0.0606
+Dutch,All,20,kinderstoel,33,understands,0.1212
+Dutch,All,21,kinderstoel,13,produces,0.1538
+Dutch,All,21,kinderstoel,13,understands,0.3077
+Dutch,All,22,kinderstoel,7,produces,0.2857
+Dutch,All,22,kinderstoel,7,understands,0
+Dutch,All,23,kinderstoel,51,produces,0.451
+Dutch,All,23,kinderstoel,51,understands,0
+Dutch,All,24,kinderstoel,31,produces,0.5161
+Dutch,All,24,kinderstoel,31,understands,0
+Dutch,All,25,kinderstoel,6,produces,0.8333
+Dutch,All,25,kinderstoel,6,understands,0
+Dutch,All,26,kinderstoel,6,produces,0.5
+Dutch,All,26,kinderstoel,6,understands,0
+Dutch,All,27,kinderstoel,5,produces,0.4
+Dutch,All,27,kinderstoel,5,understands,0
+Dutch,All,28,kinderstoel,6,produces,0.6667
+Dutch,All,28,kinderstoel,6,understands,0
+Dutch,All,29,kinderstoel,23,produces,0.913
+Dutch,All,29,kinderstoel,23,understands,0
+Dutch,All,30,kinderstoel,24,produces,0.8333
+Dutch,All,30,kinderstoel,24,understands,0
+Dutch,All,31,kinderstoel,2,produces,1
+Dutch,All,31,kinderstoel,2,understands,0
+English (American),All,8,high chair,255,produces,0.0078
+English (American),All,8,high chair,255,understands,0.1255
+English (American),All,9,high chair,299,produces,0.0067
+English (American),All,9,high chair,299,understands,0.1773
+English (American),All,10,high chair,279,produces,0.0072
+English (American),All,10,high chair,279,understands,0.172
+English (American),All,11,high chair,360,produces,0.0167
+English (American),All,11,high chair,360,understands,0.2861
+English (American),All,12,high chair,615,produces,0.0146
+English (American),All,12,high chair,615,understands,0.3073
+English (American),All,13,high chair,1039,produces,0.0144
+English (American),All,13,high chair,1039,understands,0.4504
+English (American),All,14,high chair,455,produces,0.011
+English (American),All,14,high chair,455,understands,0.4396
+English (American),All,15,high chair,245,produces,0.0327
+English (American),All,15,high chair,245,understands,0.5592
+English (American),All,16,high chair,1750,produces,0.0509
+English (American),All,16,high chair,1750,understands,0.3451
+English (American),All,17,high chair,831,produces,0.071
+English (American),All,17,high chair,831,understands,0.29
+English (American),All,18,high chair,1024,produces,0.1133
+English (American),All,18,high chair,1024,understands,0.2627
+English (American),All,19,high chair,570,produces,0.1702
+English (American),All,19,high chair,570,understands,0
+English (American),All,20,high chair,537,produces,0.1453
+English (American),All,20,high chair,537,understands,0
+English (American),All,21,high chair,366,produces,0.2158
+English (American),All,21,high chair,366,understands,0
+English (American),All,22,high chair,454,produces,0.2467
+English (American),All,22,high chair,454,understands,0
+English (American),All,23,high chair,470,produces,0.3702
+English (American),All,23,high chair,470,understands,0
+English (American),All,24,high chair,985,produces,0.3848
+English (American),All,24,high chair,985,understands,0
+English (American),All,25,high chair,757,produces,0.4135
+English (American),All,25,high chair,757,understands,0
+English (American),All,26,high chair,435,produces,0.492
+English (American),All,26,high chair,435,understands,0
+English (American),All,27,high chair,361,produces,0.4931
+English (American),All,27,high chair,361,understands,0
+English (American),All,28,high chair,954,produces,0.6845
+English (American),All,28,high chair,954,understands,0
+English (American),All,29,high chair,390,produces,0.559
+English (American),All,29,high chair,390,understands,0
+English (American),All,30,high chair,785,produces,0.5783
+English (American),All,30,high chair,785,understands,0
+English (Australian),All,12,high chair,71,produces,0
+English (Australian),All,12,high chair,71,understands,0
+English (Australian),All,13,high chair,64,produces,0.0156
+English (Australian),All,13,high chair,64,understands,0
+English (Australian),All,14,high chair,111,produces,0.018
+English (Australian),All,14,high chair,111,understands,0
+English (Australian),All,15,high chair,69,produces,0.0435
+English (Australian),All,15,high chair,69,understands,0
+English (Australian),All,16,high chair,60,produces,0.0833
+English (Australian),All,16,high chair,60,understands,0
+English (Australian),All,17,high chair,104,produces,0.0385
+English (Australian),All,17,high chair,104,understands,0
+English (Australian),All,18,high chair,109,produces,0.0642
+English (Australian),All,18,high chair,109,understands,0
+English (Australian),All,19,high chair,124,produces,0.1452
+English (Australian),All,19,high chair,124,understands,0
+English (Australian),All,20,high chair,78,produces,0.2308
+English (Australian),All,20,high chair,78,understands,0
+English (Australian),All,21,high chair,68,produces,0.1765
+English (Australian),All,21,high chair,68,understands,0
+English (Australian),All,22,high chair,73,produces,0.2603
+English (Australian),All,22,high chair,73,understands,0
+English (Australian),All,23,high chair,71,produces,0.3521
+English (Australian),All,23,high chair,71,understands,0
+English (Australian),All,24,high chair,76,produces,0.3553
+English (Australian),All,24,high chair,76,understands,0
+English (Australian),All,25,high chair,85,produces,0.4706
+English (Australian),All,25,high chair,85,understands,0
+English (Australian),All,26,high chair,77,produces,0.4935
+English (Australian),All,26,high chair,77,understands,0
+English (Australian),All,27,high chair,72,produces,0.6806
+English (Australian),All,27,high chair,72,understands,0
+English (Australian),All,28,high chair,67,produces,0.5373
+English (Australian),All,28,high chair,67,understands,0
+English (Australian),All,29,high chair,65,produces,0.6923
+English (Australian),All,29,high chair,65,understands,0
+English (Australian),All,30,high chair,53,produces,0.7547
+English (Australian),All,30,high chair,53,understands,0
+English (British),All,12,high chair,27,produces,0
+English (British),All,12,high chair,27,understands,0.3333
+English (British),All,13,high chair,7,produces,0
+English (British),All,13,high chair,7,understands,0
+English (British),All,14,high chair,64,produces,0.0156
+English (British),All,14,high chair,64,understands,0.3125
+English (British),All,15,high chair,88,produces,0.0114
+English (British),All,15,high chair,88,understands,0.4886
+English (British),All,16,high chair,118,produces,0.0339
+English (British),All,16,high chair,118,understands,0.5508
+English (British),All,17,high chair,197,produces,0.0203
+English (British),All,17,high chair,197,understands,0.5888
+English (British),All,18,high chair,118,produces,0.0593
+English (British),All,18,high chair,118,understands,0.5932
+English (British),All,19,high chair,109,produces,0.2018
+English (British),All,19,high chair,109,understands,0.7339
+English (British),All,20,high chair,144,produces,0.1667
+English (British),All,20,high chair,144,understands,0.7222
+English (British),All,21,high chair,75,produces,0.2667
+English (British),All,21,high chair,75,understands,0.68
+English (British),All,22,high chair,28,produces,0.25
+English (British),All,22,high chair,28,understands,0.7143
+English (British),All,23,high chair,112,produces,0.375
+English (British),All,23,high chair,112,understands,0.8304
+English (British),All,24,high chair,87,produces,0.5057
+English (British),All,24,high chair,87,understands,0.8046
+English (British),All,25,high chair,36,produces,0.4722
+English (British),All,25,high chair,36,understands,0.7778
+English (Irish),All,17,highchair,2,produces,0
+English (Irish),All,17,highchair,2,understands,0
+English (Irish),All,18,highchair,1,produces,0
+English (Irish),All,18,highchair,1,understands,0
+English (Irish),All,19,highchair,2,produces,0.5
+English (Irish),All,19,highchair,2,understands,0
+English (Irish),All,20,highchair,1,produces,0
+English (Irish),All,20,highchair,1,understands,0
+English (Irish),All,21,highchair,3,produces,0
+English (Irish),All,21,highchair,3,understands,0
+English (Irish),All,22,highchair,4,produces,0
+English (Irish),All,22,highchair,4,understands,0
+English (Irish),All,23,highchair,4,produces,0.25
+English (Irish),All,23,highchair,4,understands,0
+English (Irish),All,24,highchair,4,produces,0.25
+English (Irish),All,24,highchair,4,understands,0
+English (Irish),All,25,highchair,6,produces,0.1667
+English (Irish),All,25,highchair,6,understands,0
+English (Irish),All,26,highchair,10,produces,0.2
+English (Irish),All,26,highchair,10,understands,0
+English (Irish),All,27,highchair,5,produces,0.2
+English (Irish),All,27,highchair,5,understands,0
+English (Irish),All,28,highchair,7,produces,0.4286
+English (Irish),All,28,highchair,7,understands,0
+English (Irish),All,29,highchair,4,produces,0.5
+English (Irish),All,29,highchair,4,understands,0
+English (Irish),All,30,highchair,9,produces,0.2222
+English (Irish),All,30,highchair,9,understands,0
+English (Irish),All,31,highchair,8,produces,0.125
+English (Irish),All,31,highchair,8,understands,0
+English (Irish),All,32,highchair,4,produces,0.25
+English (Irish),All,32,highchair,4,understands,0
+English (Irish),All,33,highchair,5,produces,0.6
+English (Irish),All,33,highchair,5,understands,0
+English (Irish),All,34,highchair,4,produces,0
+English (Irish),All,34,highchair,4,understands,0
+English (Irish),All,35,highchair,11,produces,0.2727
+English (Irish),All,35,highchair,11,understands,0
+English (Irish),All,36,highchair,5,produces,0.2
+English (Irish),All,36,highchair,5,understands,0
+Finnish,All,18,syöttötuoli,35,produces,0.0286
+Finnish,All,18,syöttötuoli,35,understands,0
+Finnish,All,24,syöttötuoli,35,produces,0.3143
+Finnish,All,24,syöttötuoli,35,understands,0
+French (French),All,8,chaise haute,54,produces,0
+French (French),All,8,chaise haute,54,understands,0.0185
+French (French),All,9,chaise haute,11,produces,0.0909
+French (French),All,9,chaise haute,11,understands,0.0909
+French (French),All,10,chaise haute,13,produces,0.0769
+French (French),All,10,chaise haute,13,understands,0.0769
+French (French),All,11,chaise haute,42,produces,0.0238
+French (French),All,11,chaise haute,42,understands,0.0952
+French (French),All,12,chaise haute,64,produces,0.0469
+French (French),All,12,chaise haute,64,understands,0.0938
+French (French),All,13,chaise haute,116,produces,0.0517
+French (French),All,13,chaise haute,116,understands,0.1724
+French (French),All,14,chaise haute,40,produces,0.075
+French (French),All,14,chaise haute,40,understands,0.225
+French (French),All,15,chaise haute,26,produces,0.4615
+French (French),All,15,chaise haute,26,understands,0.5
+French (French),All,16,chaise haute,98,produces,0.0306
+French (French),All,16,chaise haute,98,understands,0.0204
+French (French),All,17,chaise haute,52,produces,0
+French (French),All,17,chaise haute,52,understands,0
+French (French),All,18,chaise haute,54,produces,0.2778
+French (French),All,18,chaise haute,54,understands,0
+French (French),All,19,chaise haute,42,produces,0.2619
+French (French),All,19,chaise haute,42,understands,0
+French (French),All,20,chaise haute,81,produces,0.1975
+French (French),All,20,chaise haute,81,understands,0
+French (French),All,21,chaise haute,102,produces,0.1863
+French (French),All,21,chaise haute,102,understands,0
+French (French),All,22,chaise haute,103,produces,0.233
+French (French),All,22,chaise haute,103,understands,0
+French (French),All,23,chaise haute,118,produces,0.1525
+French (French),All,23,chaise haute,118,understands,0
+French (French),All,24,chaise haute,173,produces,0.1734
+French (French),All,24,chaise haute,173,understands,0
+French (French),All,25,chaise haute,87,produces,0.3218
+French (French),All,25,chaise haute,87,understands,0
+French (French),All,26,chaise haute,64,produces,0.2344
+French (French),All,26,chaise haute,64,understands,0
+French (French),All,27,chaise haute,54,produces,0.3333
+French (French),All,27,chaise haute,54,understands,0
+French (French),All,28,chaise haute,76,produces,0.3026
+French (French),All,28,chaise haute,76,understands,0
+French (French),All,29,chaise haute,67,produces,0.3433
+French (French),All,29,chaise haute,67,understands,0
+French (French),All,30,chaise haute,68,produces,0.3529
+French (French),All,30,chaise haute,68,understands,0
+French (Quebecois),All,8,chaise haute,103,produces,0
+French (Quebecois),All,8,chaise haute,103,understands,0.1165
+French (Quebecois),All,9,chaise haute,167,produces,0
+French (Quebecois),All,9,chaise haute,167,understands,0.1018
+French (Quebecois),All,10,chaise haute,86,produces,0
+French (Quebecois),All,10,chaise haute,86,understands,0.1977
+French (Quebecois),All,11,chaise haute,81,produces,0
+French (Quebecois),All,11,chaise haute,81,understands,0.2593
+French (Quebecois),All,12,chaise haute,166,produces,0
+French (Quebecois),All,12,chaise haute,166,understands,0.2289
+French (Quebecois),All,13,chaise haute,126,produces,0
+French (Quebecois),All,13,chaise haute,126,understands,0.3095
+French (Quebecois),All,14,chaise haute,228,produces,0
+French (Quebecois),All,14,chaise haute,228,understands,0.3289
+French (Quebecois),All,15,chaise haute,101,produces,0
+French (Quebecois),All,15,chaise haute,101,understands,0.4554
+French (Quebecois),All,16,chaise haute,108,produces,0.0093
+French (Quebecois),All,16,chaise haute,108,understands,0.2963
+French (Quebecois),All,17,chaise haute,62,produces,0
+French (Quebecois),All,17,chaise haute,62,understands,0
+French (Quebecois),All,18,chaise haute,99,produces,0.0202
+French (Quebecois),All,18,chaise haute,99,understands,0
+French (Quebecois),All,19,chaise haute,91,produces,0.022
+French (Quebecois),All,19,chaise haute,91,understands,0
+French (Quebecois),All,20,chaise haute,196,produces,0.0459
+French (Quebecois),All,20,chaise haute,196,understands,0
+French (Quebecois),All,21,chaise haute,109,produces,0.1009
+French (Quebecois),All,21,chaise haute,109,understands,0
+French (Quebecois),All,22,chaise haute,86,produces,0.1744
+French (Quebecois),All,22,chaise haute,86,understands,0
+French (Quebecois),All,23,chaise haute,86,produces,0.186
+French (Quebecois),All,23,chaise haute,86,understands,0
+French (Quebecois),All,24,chaise haute,132,produces,0.1818
+French (Quebecois),All,24,chaise haute,132,understands,0
+French (Quebecois),All,25,chaise haute,87,produces,0.2184
+French (Quebecois),All,25,chaise haute,87,understands,0
+French (Quebecois),All,26,chaise haute,95,produces,0.3158
+French (Quebecois),All,26,chaise haute,95,understands,0
+French (Quebecois),All,27,chaise haute,74,produces,0.3784
+French (Quebecois),All,27,chaise haute,74,understands,0
+French (Quebecois),All,28,chaise haute,61,produces,0.377
+French (Quebecois),All,28,chaise haute,61,understands,0
+French (Quebecois),All,29,chaise haute,70,produces,0.5857
+French (Quebecois),All,29,chaise haute,70,understands,0
+French (Quebecois),All,30,chaise haute,100,produces,0.44
+French (Quebecois),All,30,chaise haute,100,understands,0
+Hungarian,All,16,etetőszék,21,produces,0
+Hungarian,All,16,etetőszék,21,understands,0
+Hungarian,All,17,etetőszék,18,produces,0.1111
+Hungarian,All,17,etetőszék,18,understands,0
+Hungarian,All,18,etetőszék,18,produces,0.0556
+Hungarian,All,18,etetőszék,18,understands,0
+Hungarian,All,19,etetőszék,26,produces,0.1538
+Hungarian,All,19,etetőszék,26,understands,0
+Hungarian,All,20,etetőszék,18,produces,0.0556
+Hungarian,All,20,etetőszék,18,understands,0
+Hungarian,All,21,etetőszék,36,produces,0.1667
+Hungarian,All,21,etetőszék,36,understands,0
+Hungarian,All,22,etetőszék,27,produces,0.2593
+Hungarian,All,22,etetőszék,27,understands,0
+Hungarian,All,23,etetőszék,18,produces,0.1111
+Hungarian,All,23,etetőszék,18,understands,0
+Hungarian,All,24,etetőszék,38,produces,0.2632
+Hungarian,All,24,etetőszék,38,understands,0
+Hungarian,All,25,etetőszék,43,produces,0.4651
+Hungarian,All,25,etetőszék,43,understands,0
+Hungarian,All,26,etetőszék,23,produces,0.4783
+Hungarian,All,26,etetőszék,23,understands,0
+Hungarian,All,27,etetőszék,26,produces,0.4615
+Hungarian,All,27,etetőszék,26,understands,0
+Hungarian,All,28,etetőszék,30,produces,0.4333
+Hungarian,All,28,etetőszék,30,understands,0
+Hungarian,All,29,etetőszék,12,produces,0.6667
+Hungarian,All,29,etetőszék,12,understands,0
+Hungarian,All,30,etetőszék,18,produces,0.6111
+Hungarian,All,30,etetőszék,18,understands,0
+Irish,All,17,cathaoirard,2,produces,0
+Irish,All,17,cathaoirard,2,understands,0
+Irish,All,18,cathaoirard,1,produces,1
+Irish,All,18,cathaoirard,1,understands,0
+Irish,All,19,cathaoirard,2,produces,0
+Irish,All,19,cathaoirard,2,understands,0
+Irish,All,20,cathaoirard,1,produces,0
+Irish,All,20,cathaoirard,1,understands,0
+Irish,All,21,cathaoirard,3,produces,0
+Irish,All,21,cathaoirard,3,understands,0
+Irish,All,22,cathaoirard,4,produces,0.25
+Irish,All,22,cathaoirard,4,understands,0
+Irish,All,23,cathaoirard,4,produces,0.25
+Irish,All,23,cathaoirard,4,understands,0
+Irish,All,24,cathaoirard,4,produces,0.25
+Irish,All,24,cathaoirard,4,understands,0
+Irish,All,25,cathaoirard,6,produces,0.1667
+Irish,All,25,cathaoirard,6,understands,0
+Irish,All,26,cathaoirard,10,produces,0.3
+Irish,All,26,cathaoirard,10,understands,0
+Irish,All,27,cathaoirard,5,produces,0
+Irish,All,27,cathaoirard,5,understands,0
+Irish,All,28,cathaoirard,7,produces,0
+Irish,All,28,cathaoirard,7,understands,0
+Irish,All,29,cathaoirard,4,produces,0.25
+Irish,All,29,cathaoirard,4,understands,0
+Irish,All,30,cathaoirard,9,produces,0.1111
+Irish,All,30,cathaoirard,9,understands,0
+Irish,All,31,cathaoirard,8,produces,0.25
+Irish,All,31,cathaoirard,8,understands,0
+Irish,All,32,cathaoirard,4,produces,0.5
+Irish,All,32,cathaoirard,4,understands,0
+Irish,All,33,cathaoirard,5,produces,0.8
+Irish,All,33,cathaoirard,5,understands,0
+Irish,All,34,cathaoirard,4,produces,0.25
+Irish,All,34,cathaoirard,4,understands,0
+Irish,All,35,cathaoirard,11,produces,0.3636
+Irish,All,35,cathaoirard,11,understands,0
+Irish,All,36,cathaoirard,5,produces,0.4
+Irish,All,36,cathaoirard,5,understands,0
+Italian,All,7,seggiolone,5,produces,0
+Italian,All,7,seggiolone,5,understands,0.2
+Italian,All,8,seggiolone,34,produces,0
+Italian,All,8,seggiolone,34,understands,0.2353
+Italian,All,9,seggiolone,38,produces,0
+Italian,All,9,seggiolone,38,understands,0.2105
+Italian,All,10,seggiolone,53,produces,0
+Italian,All,10,seggiolone,53,understands,0.1509
+Italian,All,11,seggiolone,42,produces,0
+Italian,All,11,seggiolone,42,understands,0.5
+Italian,All,12,seggiolone,69,produces,0
+Italian,All,12,seggiolone,69,understands,0.5217
+Italian,All,13,seggiolone,48,produces,0
+Italian,All,13,seggiolone,48,understands,0.4583
+Italian,All,14,seggiolone,40,produces,0
+Italian,All,14,seggiolone,40,understands,0.575
+Italian,All,15,seggiolone,68,produces,0.0147
+Italian,All,15,seggiolone,68,understands,0.6618
+Italian,All,16,seggiolone,56,produces,0
+Italian,All,16,seggiolone,56,understands,0.8036
+Italian,All,17,seggiolone,48,produces,0.0625
+Italian,All,17,seggiolone,48,understands,0.8542
+Italian,All,18,seggiolone,75,produces,0.0667
+Italian,All,18,seggiolone,75,understands,0.48
+Italian,All,19,seggiolone,58,produces,0.1034
+Italian,All,19,seggiolone,58,understands,0.2931
+Italian,All,20,seggiolone,83,produces,0.1687
+Italian,All,20,seggiolone,83,understands,0.2048
+Italian,All,21,seggiolone,67,produces,0.2687
+Italian,All,21,seggiolone,67,understands,0.1791
+Italian,All,22,seggiolone,77,produces,0.2857
+Italian,All,22,seggiolone,77,understands,0.2338
+Italian,All,23,seggiolone,70,produces,0.3571
+Italian,All,23,seggiolone,70,understands,0.2143
+Italian,All,24,seggiolone,85,produces,0.5059
+Italian,All,24,seggiolone,85,understands,0.1529
+Italian,All,25,seggiolone,39,produces,0.5385
+Italian,All,25,seggiolone,39,understands,0
+Italian,All,26,seggiolone,41,produces,0.6341
+Italian,All,26,seggiolone,41,understands,0
+Italian,All,27,seggiolone,43,produces,0.6512
+Italian,All,27,seggiolone,43,understands,0
+Italian,All,28,seggiolone,44,produces,0.6591
+Italian,All,28,seggiolone,44,understands,0
+Italian,All,29,seggiolone,37,produces,0.7568
+Italian,All,29,seggiolone,37,understands,0
+Italian,All,30,seggiolone,67,produces,0.7015
+Italian,All,30,seggiolone,67,understands,0
+Italian,All,31,seggiolone,19,produces,0.8421
+Italian,All,31,seggiolone,19,understands,0
+Italian,All,32,seggiolone,23,produces,0.8261
+Italian,All,32,seggiolone,23,understands,0
+Italian,All,33,seggiolone,16,produces,0.6875
+Italian,All,33,seggiolone,16,understands,0
+Italian,All,34,seggiolone,19,produces,1
+Italian,All,34,seggiolone,19,understands,0
+Italian,All,35,seggiolone,15,produces,0.8667
+Italian,All,35,seggiolone,15,understands,0
+Italian,All,36,seggiolone,21,produces,0.7143
+Italian,All,36,seggiolone,21,understands,0
+Norwegian,All,8,barnestol,77,produces,0.026
+Norwegian,All,8,barnestol,77,understands,0.0649
+Norwegian,All,9,barnestol,138,produces,0
+Norwegian,All,9,barnestol,138,understands,0.0362
+Norwegian,All,10,barnestol,203,produces,0
+Norwegian,All,10,barnestol,203,understands,0.0837
+Norwegian,All,11,barnestol,241,produces,0.0041
+Norwegian,All,11,barnestol,241,understands,0.0954
+Norwegian,All,12,barnestol,221,produces,0
+Norwegian,All,12,barnestol,221,understands,0.1493
+Norwegian,All,13,barnestol,246,produces,0
+Norwegian,All,13,barnestol,246,understands,0.2602
+Norwegian,All,14,barnestol,269,produces,0.0037
+Norwegian,All,14,barnestol,269,understands,0.3197
+Norwegian,All,15,barnestol,239,produces,0.0084
+Norwegian,All,15,barnestol,239,understands,0.3431
+Norwegian,All,16,barnestol,346,produces,0.0116
+Norwegian,All,16,barnestol,346,understands,0.2948
+Norwegian,All,17,barnestol,435,produces,0.0276
+Norwegian,All,17,barnestol,435,understands,0.2874
+Norwegian,All,18,barnestol,494,produces,0.0243
+Norwegian,All,18,barnestol,494,understands,0.2935
+Norwegian,All,19,barnestol,504,produces,0.0556
+Norwegian,All,19,barnestol,504,understands,0.2698
+Norwegian,All,20,barnestol,601,produces,0.0765
+Norwegian,All,20,barnestol,601,understands,0.3078
+Norwegian,All,21,barnestol,418,produces,0.0622
+Norwegian,All,21,barnestol,418,understands,0
+Norwegian,All,22,barnestol,596,produces,0.0688
+Norwegian,All,22,barnestol,596,understands,0
+Norwegian,All,23,barnestol,566,produces,0.1095
+Norwegian,All,23,barnestol,566,understands,0
+Norwegian,All,24,barnestol,538,produces,0.132
+Norwegian,All,24,barnestol,538,understands,0
+Norwegian,All,25,barnestol,656,produces,0.1829
+Norwegian,All,25,barnestol,656,understands,0
+Norwegian,All,26,barnestol,644,produces,0.2733
+Norwegian,All,26,barnestol,644,understands,0
+Norwegian,All,27,barnestol,525,produces,0.3143
+Norwegian,All,27,barnestol,525,understands,0
+Norwegian,All,28,barnestol,544,produces,0.3548
+Norwegian,All,28,barnestol,544,understands,0
+Norwegian,All,29,barnestol,536,produces,0.3806
+Norwegian,All,29,barnestol,536,understands,0
+Norwegian,All,30,barnestol,457,produces,0.4136
+Norwegian,All,30,barnestol,457,understands,0
+Norwegian,All,31,barnestol,479,produces,0.4843
+Norwegian,All,31,barnestol,479,understands,0
+Norwegian,All,32,barnestol,451,produces,0.5654
+Norwegian,All,32,barnestol,451,understands,0
+Norwegian,All,33,barnestol,430,produces,0.5698
+Norwegian,All,33,barnestol,430,understands,0
+Norwegian,All,34,barnestol,424,produces,0.6038
+Norwegian,All,34,barnestol,424,understands,0
+Norwegian,All,35,barnestol,422,produces,0.6303
+Norwegian,All,35,barnestol,422,understands,0
+Norwegian,All,36,barnestol,329,produces,0.6657
+Norwegian,All,36,barnestol,329,understands,0
+Swedish,All,8,barnstol,26,produces,0
+Swedish,All,8,barnstol,26,understands,0
+Swedish,All,9,barnstol,2,produces,0
+Swedish,All,9,barnstol,2,understands,0.5
+Swedish,All,10,barnstol,54,produces,0
+Swedish,All,10,barnstol,54,understands,0.0741
+Swedish,All,11,barnstol,3,produces,0
+Swedish,All,11,barnstol,3,understands,0
+Swedish,All,12,barnstol,79,produces,0
+Swedish,All,12,barnstol,79,understands,0.1772
+Swedish,All,13,barnstol,7,produces,0
+Swedish,All,13,barnstol,7,understands,0
+Swedish,All,14,barnstol,124,produces,0
+Swedish,All,14,barnstol,124,understands,0.3629
+Swedish,All,15,barnstol,13,produces,0
+Swedish,All,15,barnstol,13,understands,0.3846
+Swedish,All,16,barnstol,318,produces,0.022
+Swedish,All,16,barnstol,318,understands,0.2704
+Swedish,All,19,barnstol,152,produces,0.0197
+Swedish,All,19,barnstol,152,understands,0
+Swedish,All,22,barnstol,307,produces,0.1107
+Swedish,All,22,barnstol,307,understands,0
+Swedish,All,25,barnstol,143,produces,0.2308
+Swedish,All,25,barnstol,143,understands,0
+Swedish,All,28,barnstol,139,produces,0.4101
+Swedish,All,28,barnstol,139,understands,0
+Arabic (Saudi),Female,8,كرسي أطفال,13,produces,0
+Arabic (Saudi),Female,8,كرسي أطفال,13,understands,0.1538
+Arabic (Saudi),Male,8,كرسي أطفال,11,produces,0
+Arabic (Saudi),Male,8,كرسي أطفال,11,understands,0
+Arabic (Saudi),Female,9,كرسي أطفال,14,produces,0
+Arabic (Saudi),Female,9,كرسي أطفال,14,understands,0.0714
+Arabic (Saudi),Male,9,كرسي أطفال,13,produces,0
+Arabic (Saudi),Male,9,كرسي أطفال,13,understands,0
+Arabic (Saudi),Female,10,كرسي أطفال,15,produces,0
+Arabic (Saudi),Female,10,كرسي أطفال,15,understands,0
+Arabic (Saudi),Male,10,كرسي أطفال,20,produces,0
+Arabic (Saudi),Male,10,كرسي أطفال,20,understands,0.1
+Arabic (Saudi),Female,11,كرسي أطفال,14,produces,0
+Arabic (Saudi),Female,11,كرسي أطفال,14,understands,0
+Arabic (Saudi),Male,11,كرسي أطفال,16,produces,0
+Arabic (Saudi),Male,11,كرسي أطفال,16,understands,0.0625
+Arabic (Saudi),Female,12,كرسي أطفال,14,produces,0
+Arabic (Saudi),Female,12,كرسي أطفال,14,understands,0.0714
+Arabic (Saudi),Male,12,كرسي أطفال,16,produces,0
+Arabic (Saudi),Male,12,كرسي أطفال,16,understands,0.0625
+Arabic (Saudi),Female,13,كرسي أطفال,17,produces,0
+Arabic (Saudi),Female,13,كرسي أطفال,17,understands,0
+Arabic (Saudi),Male,13,كرسي أطفال,22,produces,0
+Arabic (Saudi),Male,13,كرسي أطفال,22,understands,0
+Arabic (Saudi),Female,14,كرسي أطفال,10,produces,0
+Arabic (Saudi),Female,14,كرسي أطفال,10,understands,0
+Arabic (Saudi),Male,14,كرسي أطفال,15,produces,0
+Arabic (Saudi),Male,14,كرسي أطفال,15,understands,0.2667
+Arabic (Saudi),Female,15,كرسي أطفال,12,produces,0
+Arabic (Saudi),Female,15,كرسي أطفال,12,understands,0.25
+Arabic (Saudi),Male,15,كرسي أطفال,15,produces,0.0667
+Arabic (Saudi),Male,15,كرسي أطفال,15,understands,0.0667
+Arabic (Saudi),Female,16,كرسي أطفال,10,produces,0
+Arabic (Saudi),Female,16,كرسي أطفال,10,understands,0.1
+Arabic (Saudi),Male,16,كرسي أطفال,11,produces,0
+Arabic (Saudi),Male,16,كرسي أطفال,11,understands,0.0909
+Catalan,Female,8,trona,17,produces,0
+Catalan,Female,8,trona,17,understands,0.1176
+Catalan,Male,8,trona,22,produces,0
+Catalan,Male,8,trona,22,understands,0.0909
+Catalan,Female,9,trona,19,produces,0
+Catalan,Female,9,trona,19,understands,0.1053
+Catalan,Male,9,trona,27,produces,0
+Catalan,Male,9,trona,27,understands,0.2222
+Catalan,Female,10,trona,23,produces,0
+Catalan,Female,10,trona,23,understands,0.1739
+Catalan,Male,10,trona,20,produces,0
+Catalan,Male,10,trona,20,understands,0.1
+Catalan,Female,11,trona,23,produces,0
+Catalan,Female,11,trona,23,understands,0.2174
+Catalan,Male,11,trona,20,produces,0
+Catalan,Male,11,trona,20,understands,0.25
+Catalan,Female,12,trona,29,produces,0
+Catalan,Female,12,trona,29,understands,0.2759
+Catalan,Male,12,trona,30,produces,0
+Catalan,Male,12,trona,30,understands,0.1667
+Catalan,Female,13,trona,18,produces,0
+Catalan,Female,13,trona,18,understands,0.1667
+Catalan,Male,13,trona,26,produces,0
+Catalan,Male,13,trona,26,understands,0.2692
+Catalan,Female,14,trona,31,produces,0
+Catalan,Female,14,trona,31,understands,0.4516
+Catalan,Male,14,trona,29,produces,0
+Catalan,Male,14,trona,29,understands,0.1724
+Catalan,Female,15,trona,35,produces,0
+Catalan,Female,15,trona,35,understands,0.5429
+Catalan,Male,15,trona,35,produces,0
+Catalan,Male,15,trona,35,understands,0.5143
+Catalan,Female,16,trona,33,produces,0
+Catalan,Female,16,trona,33,understands,0.4545
+Catalan,Male,16,trona,40,produces,0
+Catalan,Male,16,trona,40,understands,0.35
+Catalan,Female,17,trona,64,produces,0.0625
+Catalan,Female,17,trona,64,understands,0.3906
+Catalan,Male,17,trona,46,produces,0.0217
+Catalan,Male,17,trona,46,understands,0.413
+Catalan,Female,18,trona,47,produces,0.1277
+Catalan,Female,18,trona,47,understands,0.383
+Catalan,Male,18,trona,55,produces,0.1091
+Catalan,Male,18,trona,55,understands,0.3273
+Catalan,Female,19,trona,25,produces,0.04
+Catalan,Female,19,trona,25,understands,0
+Catalan,Male,19,trona,20,produces,0.1
+Catalan,Male,19,trona,20,understands,0
+Catalan,Female,20,trona,28,produces,0.1429
+Catalan,Female,20,trona,28,understands,0
+Catalan,Male,20,trona,28,produces,0.1429
+Catalan,Male,20,trona,28,understands,0
+Catalan,Female,21,trona,32,produces,0.1562
+Catalan,Female,21,trona,32,understands,0
+Catalan,Male,21,trona,26,produces,0.1923
+Catalan,Male,21,trona,26,understands,0
+Catalan,Female,22,trona,26,produces,0.3462
+Catalan,Female,22,trona,26,understands,0
+Catalan,Male,22,trona,24,produces,0.1667
+Catalan,Male,22,trona,24,understands,0
+Catalan,Female,23,trona,35,produces,0.2286
+Catalan,Female,23,trona,35,understands,0
+Catalan,Male,23,trona,31,produces,0.2258
+Catalan,Male,23,trona,31,understands,0
+Catalan,Female,24,trona,41,produces,0.5122
+Catalan,Female,24,trona,41,understands,0
+Catalan,Male,24,trona,38,produces,0.3421
+Catalan,Male,24,trona,38,understands,0
+Catalan,Female,25,trona,30,produces,0.4667
+Catalan,Female,25,trona,30,understands,0
+Catalan,Male,25,trona,30,produces,0.3667
+Catalan,Male,25,trona,30,understands,0
+Catalan,Female,26,trona,35,produces,0.3714
+Catalan,Female,26,trona,35,understands,0
+Catalan,Male,26,trona,30,produces,0.4333
+Catalan,Male,26,trona,30,understands,0
+Catalan,Female,27,trona,36,produces,0.4444
+Catalan,Female,27,trona,36,understands,0
+Catalan,Male,27,trona,27,produces,0.5556
+Catalan,Male,27,trona,27,understands,0
+Catalan,Female,28,trona,40,produces,0.475
+Catalan,Female,28,trona,40,understands,0
+Catalan,Male,28,trona,41,produces,0.4634
+Catalan,Male,28,trona,41,understands,0
+Catalan,Female,29,trona,25,produces,0.6
+Catalan,Female,29,trona,25,understands,0
+Catalan,Male,29,trona,25,produces,0.6
+Catalan,Male,29,trona,25,understands,0
+Catalan,Female,30,trona,24,produces,0.5833
+Catalan,Female,30,trona,24,understands,0
+Catalan,Male,30,trona,51,produces,0.6078
+Catalan,Male,30,trona,51,understands,0
+Danish,Female,8,høj stol,77,produces,0
+Danish,Female,8,høj stol,77,understands,0.026
+Danish,Male,8,høj stol,97,produces,0
+Danish,Male,8,høj stol,97,understands,0.0722
+Danish,Female,9,høj stol,94,produces,0
+Danish,Female,9,høj stol,94,understands,0.0319
+Danish,Male,9,høj stol,102,produces,0
+Danish,Male,9,høj stol,102,understands,0.049
+Danish,Female,10,høj stol,105,produces,0
+Danish,Female,10,høj stol,105,understands,0.0381
+Danish,Male,10,høj stol,77,produces,0
+Danish,Male,10,høj stol,77,understands,0.0909
+Danish,Female,11,høj stol,94,produces,0
+Danish,Female,11,høj stol,94,understands,0.0638
+Danish,Male,11,høj stol,106,produces,0
+Danish,Male,11,høj stol,106,understands,0.066
+Danish,Female,12,høj stol,92,produces,0
+Danish,Female,12,høj stol,92,understands,0.0543
+Danish,Male,12,høj stol,96,produces,0
+Danish,Male,12,høj stol,96,understands,0.0833
+Danish,Female,13,høj stol,105,produces,0
+Danish,Female,13,høj stol,105,understands,0.1333
+Danish,Male,13,høj stol,111,produces,0
+Danish,Male,13,høj stol,111,understands,0.1081
+Danish,Female,14,høj stol,86,produces,0
+Danish,Female,14,høj stol,86,understands,0.186
+Danish,Male,14,høj stol,92,produces,0
+Danish,Male,14,høj stol,92,understands,0.1087
+Danish,Female,15,høj stol,112,produces,0
+Danish,Female,15,høj stol,112,understands,0.2232
+Danish,Male,15,høj stol,91,produces,0.011
+Danish,Male,15,høj stol,91,understands,0.1758
+Danish,Female,16,høj stol,184,produces,0
+Danish,Female,16,høj stol,184,understands,0.1304
+Danish,Male,16,høj stol,175,produces,0.0114
+Danish,Male,16,høj stol,175,understands,0.1086
+Danish,Female,17,høj stol,174,produces,0.0057
+Danish,Female,17,høj stol,174,understands,0.1437
+Danish,Male,17,høj stol,172,produces,0.0116
+Danish,Male,17,høj stol,172,understands,0.1628
+Danish,Female,18,høj stol,188,produces,0.0266
+Danish,Female,18,høj stol,188,understands,0.2021
+Danish,Male,18,høj stol,170,produces,0.0294
+Danish,Male,18,høj stol,170,understands,0.1294
+Danish,Female,19,høj stol,189,produces,0.0265
+Danish,Female,19,høj stol,189,understands,0.1799
+Danish,Male,19,høj stol,172,produces,0.0233
+Danish,Male,19,høj stol,172,understands,0.1221
+Danish,Female,20,høj stol,174,produces,0.0575
+Danish,Female,20,høj stol,174,understands,0.1897
+Danish,Male,20,høj stol,184,produces,0.0163
+Danish,Male,20,høj stol,184,understands,0.163
+Danish,Female,21,høj stol,112,produces,0.0625
+Danish,Female,21,høj stol,112,understands,0
+Danish,Male,21,høj stol,124,produces,0.0323
+Danish,Male,21,høj stol,124,understands,0
+Danish,Female,22,høj stol,125,produces,0.112
+Danish,Female,22,høj stol,125,understands,0
+Danish,Male,22,høj stol,110,produces,0.0364
+Danish,Male,22,høj stol,110,understands,0
+Danish,Female,23,høj stol,95,produces,0.1053
+Danish,Female,23,høj stol,95,understands,0
+Danish,Male,23,høj stol,95,produces,0.0316
+Danish,Male,23,høj stol,95,understands,0
+Danish,Female,24,høj stol,112,produces,0.1429
+Danish,Female,24,høj stol,112,understands,0
+Danish,Male,24,høj stol,104,produces,0.1154
+Danish,Male,24,høj stol,104,understands,0
+Danish,Female,25,høj stol,71,produces,0.2113
+Danish,Female,25,høj stol,71,understands,0
+Danish,Male,25,høj stol,67,produces,0.1194
+Danish,Male,25,høj stol,67,understands,0
+Danish,Female,26,høj stol,108,produces,0.25
+Danish,Female,26,høj stol,108,understands,0
+Danish,Male,26,høj stol,98,produces,0.15310000000000001
+Danish,Male,26,høj stol,98,understands,0
+Danish,Female,27,høj stol,100,produces,0.24
+Danish,Female,27,høj stol,100,understands,0
+Danish,Male,27,høj stol,76,produces,0.1579
+Danish,Male,27,høj stol,76,understands,0
+Danish,Female,28,høj stol,94,produces,0.3404
+Danish,Female,28,høj stol,94,understands,0
+Danish,Male,28,høj stol,96,produces,0.2292
+Danish,Male,28,høj stol,96,understands,0
+Danish,Female,29,høj stol,102,produces,0.3235
+Danish,Female,29,høj stol,102,understands,0
+Danish,Male,29,høj stol,80,produces,0.25
+Danish,Male,29,høj stol,80,understands,0
+Danish,Female,30,høj stol,75,produces,0.4
+Danish,Female,30,høj stol,75,understands,0
+Danish,Male,30,høj stol,98,produces,0.3367
+Danish,Male,30,høj stol,98,understands,0
+Danish,Female,31,høj stol,82,produces,0.4634
+Danish,Female,31,høj stol,82,understands,0
+Danish,Male,31,høj stol,93,produces,0.3871
+Danish,Male,31,høj stol,93,understands,0
+Danish,Female,32,høj stol,74,produces,0.5541
+Danish,Female,32,høj stol,74,understands,0
+Danish,Male,32,høj stol,69,produces,0.4203
+Danish,Male,32,høj stol,69,understands,0
+Danish,Female,33,høj stol,82,produces,0.622
+Danish,Female,33,høj stol,82,understands,0
+Danish,Male,33,høj stol,69,produces,0.4493
+Danish,Male,33,høj stol,69,understands,0
+Danish,Female,34,høj stol,68,produces,0.5735
+Danish,Female,34,høj stol,68,understands,0
+Danish,Male,34,høj stol,75,produces,0.5067
+Danish,Male,34,høj stol,75,understands,0
+Danish,Female,35,høj stol,56,produces,0.6964
+Danish,Female,35,høj stol,56,understands,0
+Danish,Male,35,høj stol,57,produces,0.4561
+Danish,Male,35,høj stol,57,understands,0
+Danish,Female,36,høj stol,61,produces,0.6557
+Danish,Female,36,høj stol,61,understands,0
+Danish,Male,36,høj stol,65,produces,0.5077
+Danish,Male,36,høj stol,65,understands,0
+Dutch,Female,8,kinderstoel,5,produces,0
+Dutch,Female,8,kinderstoel,5,understands,0
+Dutch,Male,8,kinderstoel,2,produces,0
+Dutch,Male,8,kinderstoel,2,understands,0
+Dutch,Female,9,kinderstoel,44,produces,0
+Dutch,Female,9,kinderstoel,44,understands,0.0455
+Dutch,Male,9,kinderstoel,50,produces,0
+Dutch,Male,9,kinderstoel,50,understands,0.06
+Dutch,Female,10,kinderstoel,51,produces,0
+Dutch,Female,10,kinderstoel,51,understands,0.1176
+Dutch,Male,10,kinderstoel,48,produces,0
+Dutch,Male,10,kinderstoel,48,understands,0.1042
+Dutch,Female,11,kinderstoel,4,produces,0
+Dutch,Female,11,kinderstoel,4,understands,0.25
+Dutch,Male,11,kinderstoel,5,produces,0
+Dutch,Male,11,kinderstoel,5,understands,0.2
+Dutch,Female,12,kinderstoel,2,produces,0
+Dutch,Female,12,kinderstoel,2,understands,0
+Dutch,Male,12,kinderstoel,5,produces,0
+Dutch,Male,12,kinderstoel,5,understands,0
+Dutch,Male,13,kinderstoel,6,produces,0
+Dutch,Male,13,kinderstoel,6,understands,0.3333
+Dutch,Female,14,kinderstoel,1,produces,0
+Dutch,Female,14,kinderstoel,1,understands,1
+Dutch,Male,14,kinderstoel,3,produces,0
+Dutch,Male,14,kinderstoel,3,understands,0.3333
+Dutch,Female,15,kinderstoel,4,produces,0
+Dutch,Female,15,kinderstoel,4,understands,0.25
+Dutch,Male,15,kinderstoel,5,produces,0
+Dutch,Male,15,kinderstoel,5,understands,0.4
+Dutch,Female,16,kinderstoel,8,produces,0
+Dutch,Female,16,kinderstoel,8,understands,0
+Dutch,Male,16,kinderstoel,4,produces,0
+Dutch,Male,16,kinderstoel,4,understands,0.25
+Dutch,Female,17,kinderstoel,35,produces,0.0571
+Dutch,Female,17,kinderstoel,35,understands,0.0286
+Dutch,Male,17,kinderstoel,20,produces,0
+Dutch,Male,17,kinderstoel,20,understands,0.1
+Dutch,Female,18,kinderstoel,105,produces,0.0381
+Dutch,Female,18,kinderstoel,105,understands,0.1619
+Dutch,Male,18,kinderstoel,87,produces,0.023
+Dutch,Male,18,kinderstoel,87,understands,0.1954
+Dutch,Female,19,kinderstoel,54,produces,0.037
+Dutch,Female,19,kinderstoel,54,understands,0.2593
+Dutch,Male,19,kinderstoel,47,produces,0
+Dutch,Male,19,kinderstoel,47,understands,0.1915
+Dutch,Female,20,kinderstoel,19,produces,0.0526
+Dutch,Female,20,kinderstoel,19,understands,0.1579
+Dutch,Male,20,kinderstoel,14,produces,0.0714
+Dutch,Male,20,kinderstoel,14,understands,0.0714
+Dutch,Female,21,kinderstoel,6,produces,0.1667
+Dutch,Female,21,kinderstoel,6,understands,0.1667
+Dutch,Male,21,kinderstoel,7,produces,0.1429
+Dutch,Male,21,kinderstoel,7,understands,0.4286
+Dutch,Female,22,kinderstoel,1,produces,1
+Dutch,Female,22,kinderstoel,1,understands,0
+Dutch,Male,22,kinderstoel,6,produces,0.1667
+Dutch,Male,22,kinderstoel,6,understands,0
+Dutch,Female,23,kinderstoel,25,produces,0.48
+Dutch,Female,23,kinderstoel,25,understands,0
+Dutch,Male,23,kinderstoel,26,produces,0.4231
+Dutch,Male,23,kinderstoel,26,understands,0
+Dutch,Female,24,kinderstoel,16,produces,0.5625
+Dutch,Female,24,kinderstoel,16,understands,0
+Dutch,Male,24,kinderstoel,15,produces,0.4667
+Dutch,Male,24,kinderstoel,15,understands,0
+Dutch,Female,25,kinderstoel,5,produces,0.8
+Dutch,Female,25,kinderstoel,5,understands,0
+Dutch,Male,25,kinderstoel,1,produces,1
+Dutch,Male,25,kinderstoel,1,understands,0
+Dutch,Female,26,kinderstoel,1,produces,1
+Dutch,Female,26,kinderstoel,1,understands,0
+Dutch,Male,26,kinderstoel,5,produces,0.4
+Dutch,Male,26,kinderstoel,5,understands,0
+Dutch,Female,27,kinderstoel,3,produces,0.6667
+Dutch,Female,27,kinderstoel,3,understands,0
+Dutch,Male,27,kinderstoel,1,produces,0
+Dutch,Male,27,kinderstoel,1,understands,0
+Dutch,Female,28,kinderstoel,5,produces,0.6
+Dutch,Female,28,kinderstoel,5,understands,0
+Dutch,Male,28,kinderstoel,1,produces,1
+Dutch,Male,28,kinderstoel,1,understands,0
+Dutch,Female,29,kinderstoel,12,produces,0.9167
+Dutch,Female,29,kinderstoel,12,understands,0
+Dutch,Male,29,kinderstoel,11,produces,0.9091
+Dutch,Male,29,kinderstoel,11,understands,0
+Dutch,Female,30,kinderstoel,16,produces,0.875
+Dutch,Female,30,kinderstoel,16,understands,0
+Dutch,Male,30,kinderstoel,8,produces,0.75
+Dutch,Male,30,kinderstoel,8,understands,0
+Dutch,Female,31,kinderstoel,1,produces,1
+Dutch,Female,31,kinderstoel,1,understands,0
+Dutch,Male,31,kinderstoel,1,produces,1
+Dutch,Male,31,kinderstoel,1,understands,0
+English (American),Female,8,high chair,114,produces,0.0088
+English (American),Female,8,high chair,114,understands,0.1404
+English (American),Male,8,high chair,141,produces,0.0071
+English (American),Male,8,high chair,141,understands,0.1135
+English (American),Female,9,high chair,135,produces,0.0074
+English (American),Female,9,high chair,135,understands,0.1926
+English (American),Male,9,high chair,160,produces,0.0063
+English (American),Male,9,high chair,160,understands,0.1625
+English (American),Female,10,high chair,119,produces,0
+English (American),Female,10,high chair,119,understands,0.1597
+English (American),Male,10,high chair,144,produces,0.0139
+English (American),Male,10,high chair,144,understands,0.1667
+English (American),Female,11,high chair,171,produces,0.0117
+English (American),Female,11,high chair,171,understands,0.3275
+English (American),Male,11,high chair,189,produces,0.0212
+English (American),Male,11,high chair,189,understands,0.2487
+English (American),Female,12,high chair,279,produces,0.0072
+English (American),Female,12,high chair,279,understands,0.3333
+English (American),Male,12,high chair,334,produces,0.021
+English (American),Male,12,high chair,334,understands,0.2874
+English (American),Female,13,high chair,496,produces,0.0202
+English (American),Female,13,high chair,496,understands,0.4778
+English (American),Male,13,high chair,541,produces,0.0092
+English (American),Male,13,high chair,541,understands,0.427
+English (American),Female,14,high chair,220,produces,0.0045
+English (American),Female,14,high chair,220,understands,0.4727
+English (American),Male,14,high chair,224,produces,0.0179
+English (American),Male,14,high chair,224,understands,0.4018
+English (American),Female,15,high chair,111,produces,0.018
+English (American),Female,15,high chair,111,understands,0.5405
+English (American),Male,15,high chair,127,produces,0.0472
+English (American),Male,15,high chair,127,understands,0.5906
+English (American),Female,16,high chair,786,produces,0.0662
+English (American),Female,16,high chair,786,understands,0.3613
+English (American),Male,16,high chair,856,produces,0.0421
+English (American),Male,16,high chair,856,understands,0.3727
+English (American),Female,17,high chair,315,produces,0.0889
+English (American),Female,17,high chair,315,understands,0.3683
+English (American),Male,17,high chair,379,produces,0.0554
+English (American),Male,17,high chair,379,understands,0.3298
+English (American),Female,18,high chair,434,produces,0.1475
+English (American),Female,18,high chair,434,understands,0.3226
+English (American),Male,18,high chair,468,produces,0.0812
+English (American),Male,18,high chair,468,understands,0.2756
+English (American),Female,19,high chair,231,produces,0.1991
+English (American),Female,19,high chair,231,understands,0
+English (American),Male,19,high chair,224,produces,0.1295
+English (American),Male,19,high chair,224,understands,0
+English (American),Female,20,high chair,205,produces,0.1756
+English (American),Female,20,high chair,205,understands,0
+English (American),Male,20,high chair,222,produces,0.0901
+English (American),Male,20,high chair,222,understands,0
+English (American),Female,21,high chair,127,produces,0.2756
+English (American),Female,21,high chair,127,understands,0
+English (American),Male,21,high chair,142,produces,0.2042
+English (American),Male,21,high chair,142,understands,0
+English (American),Female,22,high chair,186,produces,0.2796
+English (American),Female,22,high chair,186,understands,0
+English (American),Male,22,high chair,162,produces,0.2037
+English (American),Male,22,high chair,162,understands,0
+English (American),Female,23,high chair,177,produces,0.4463
+English (American),Female,23,high chair,177,understands,0
+English (American),Male,23,high chair,196,produces,0.3316
+English (American),Male,23,high chair,196,understands,0
+English (American),Female,24,high chair,365,produces,0.4685
+English (American),Female,24,high chair,365,understands,0
+English (American),Male,24,high chair,453,produces,0.3422
+English (American),Male,24,high chair,453,understands,0
+English (American),Female,25,high chair,299,produces,0.5217
+English (American),Female,25,high chair,299,understands,0
+English (American),Male,25,high chair,336,produces,0.3333
+English (American),Male,25,high chair,336,understands,0
+English (American),Female,26,high chair,173,produces,0.5954
+English (American),Female,26,high chair,173,understands,0
+English (American),Male,26,high chair,197,produces,0.3959
+English (American),Male,26,high chair,197,understands,0
+English (American),Female,27,high chair,158,produces,0.5443
+English (American),Female,27,high chair,158,understands,0
+English (American),Male,27,high chair,154,produces,0.4351
+English (American),Male,27,high chair,154,understands,0
+English (American),Female,28,high chair,416,produces,0.7212
+English (American),Female,28,high chair,416,understands,0
+English (American),Male,28,high chair,492,produces,0.6646
+English (American),Male,28,high chair,492,understands,0
+English (American),Female,29,high chair,166,produces,0.6205
+English (American),Female,29,high chair,166,understands,0
+English (American),Male,29,high chair,167,produces,0.509
+English (American),Male,29,high chair,167,understands,0
+English (American),Female,30,high chair,323,produces,0.6347
+English (American),Female,30,high chair,323,understands,0
+English (American),Male,30,high chair,368,produces,0.5462
+English (American),Male,30,high chair,368,understands,0
+English (Australian),Female,12,high chair,27,produces,0
+English (Australian),Female,12,high chair,27,understands,0
+English (Australian),Male,12,high chair,44,produces,0
+English (Australian),Male,12,high chair,44,understands,0
+English (Australian),Female,13,high chair,35,produces,0.0286
+English (Australian),Female,13,high chair,35,understands,0
+English (Australian),Male,13,high chair,29,produces,0
+English (Australian),Male,13,high chair,29,understands,0
+English (Australian),Female,14,high chair,51,produces,0.0392
+English (Australian),Female,14,high chair,51,understands,0
+English (Australian),Male,14,high chair,60,produces,0
+English (Australian),Male,14,high chair,60,understands,0
+English (Australian),Female,15,high chair,31,produces,0.0645
+English (Australian),Female,15,high chair,31,understands,0
+English (Australian),Male,15,high chair,38,produces,0.0263
+English (Australian),Male,15,high chair,38,understands,0
+English (Australian),Female,16,high chair,32,produces,0.125
+English (Australian),Female,16,high chair,32,understands,0
+English (Australian),Male,16,high chair,28,produces,0.0357
+English (Australian),Male,16,high chair,28,understands,0
+English (Australian),Female,17,high chair,56,produces,0.0536
+English (Australian),Female,17,high chair,56,understands,0
+English (Australian),Male,17,high chair,48,produces,0.0208
+English (Australian),Male,17,high chair,48,understands,0
+English (Australian),Female,18,high chair,52,produces,0.0385
+English (Australian),Female,18,high chair,52,understands,0
+English (Australian),Male,18,high chair,57,produces,0.0877
+English (Australian),Male,18,high chair,57,understands,0
+English (Australian),Female,19,high chair,72,produces,0.1806
+English (Australian),Female,19,high chair,72,understands,0
+English (Australian),Male,19,high chair,52,produces,0.0962
+English (Australian),Male,19,high chair,52,understands,0
+English (Australian),Female,20,high chair,40,produces,0.3
+English (Australian),Female,20,high chair,40,understands,0
+English (Australian),Male,20,high chair,38,produces,0.1579
+English (Australian),Male,20,high chair,38,understands,0
+English (Australian),Female,21,high chair,39,produces,0.2051
+English (Australian),Female,21,high chair,39,understands,0
+English (Australian),Male,21,high chair,25,produces,0.16
+English (Australian),Male,21,high chair,25,understands,0
+English (Australian),Female,22,high chair,27,produces,0.2963
+English (Australian),Female,22,high chair,27,understands,0
+English (Australian),Male,22,high chair,46,produces,0.2391
+English (Australian),Male,22,high chair,46,understands,0
+English (Australian),Female,23,high chair,39,produces,0.4103
+English (Australian),Female,23,high chair,39,understands,0
+English (Australian),Male,23,high chair,32,produces,0.2812
+English (Australian),Male,23,high chair,32,understands,0
+English (Australian),Female,24,high chair,36,produces,0.3889
+English (Australian),Female,24,high chair,36,understands,0
+English (Australian),Male,24,high chair,40,produces,0.325
+English (Australian),Male,24,high chair,40,understands,0
+English (Australian),Female,25,high chair,44,produces,0.6364
+English (Australian),Female,25,high chair,44,understands,0
+English (Australian),Male,25,high chair,41,produces,0.2927
+English (Australian),Male,25,high chair,41,understands,0
+English (Australian),Female,26,high chair,40,produces,0.525
+English (Australian),Female,26,high chair,40,understands,0
+English (Australian),Male,26,high chair,37,produces,0.4595
+English (Australian),Male,26,high chair,37,understands,0
+English (Australian),Female,27,high chair,36,produces,0.75
+English (Australian),Female,27,high chair,36,understands,0
+English (Australian),Male,27,high chair,36,produces,0.6111
+English (Australian),Male,27,high chair,36,understands,0
+English (Australian),Female,28,high chair,27,produces,0.6296
+English (Australian),Female,28,high chair,27,understands,0
+English (Australian),Male,28,high chair,40,produces,0.475
+English (Australian),Male,28,high chair,40,understands,0
+English (Australian),Female,29,high chair,33,produces,0.697
+English (Australian),Female,29,high chair,33,understands,0
+English (Australian),Male,29,high chair,32,produces,0.6875
+English (Australian),Male,29,high chair,32,understands,0
+English (Australian),Female,30,high chair,28,produces,0.75
+English (Australian),Female,30,high chair,28,understands,0
+English (Australian),Male,30,high chair,25,produces,0.76
+English (Australian),Male,30,high chair,25,understands,0
+English (British),Female,12,high chair,13,produces,0
+English (British),Female,12,high chair,13,understands,0.3077
+English (British),Male,12,high chair,14,produces,0
+English (British),Male,12,high chair,14,understands,0.3571
+English (British),Female,13,high chair,2,produces,0
+English (British),Female,13,high chair,2,understands,0
+English (British),Male,13,high chair,5,produces,0
+English (British),Male,13,high chair,5,understands,0
+English (British),Female,14,high chair,27,produces,0
+English (British),Female,14,high chair,27,understands,0.3704
+English (British),Male,14,high chair,37,produces,0.027
+English (British),Male,14,high chair,37,understands,0.2703
+English (British),Female,15,high chair,38,produces,0
+English (British),Female,15,high chair,38,understands,0.5789
+English (British),Male,15,high chair,50,produces,0.02
+English (British),Male,15,high chair,50,understands,0.42
+English (British),Female,16,high chair,58,produces,0.0345
+English (British),Female,16,high chair,58,understands,0.6552
+English (British),Male,16,high chair,60,produces,0.0333
+English (British),Male,16,high chair,60,understands,0.45
+English (British),Female,17,high chair,90,produces,0.0444
+English (British),Female,17,high chair,90,understands,0.6333
+English (British),Male,17,high chair,107,produces,0
+English (British),Male,17,high chair,107,understands,0.5514
+English (British),Female,18,high chair,58,produces,0.1034
+English (British),Female,18,high chair,58,understands,0.6379
+English (British),Male,18,high chair,60,produces,0.0167
+English (British),Male,18,high chair,60,understands,0.55
+English (British),Female,19,high chair,52,produces,0.3077
+English (British),Female,19,high chair,52,understands,0.8269
+English (British),Male,19,high chair,57,produces,0.1053
+English (British),Male,19,high chair,57,understands,0.6491
+English (British),Female,20,high chair,64,produces,0.2344
+English (British),Female,20,high chair,64,understands,0.7969
+English (British),Male,20,high chair,80,produces,0.1125
+English (British),Male,20,high chair,80,understands,0.6625
+English (British),Female,21,high chair,32,produces,0.375
+English (British),Female,21,high chair,32,understands,0.7812
+English (British),Male,21,high chair,43,produces,0.186
+English (British),Male,21,high chair,43,understands,0.6047
+English (British),Female,22,high chair,12,produces,0.4167
+English (British),Female,22,high chair,12,understands,0.75
+English (British),Male,22,high chair,16,produces,0.125
+English (British),Male,22,high chair,16,understands,0.6875
+English (British),Female,23,high chair,50,produces,0.52
+English (British),Female,23,high chair,50,understands,0.94
+English (British),Male,23,high chair,62,produces,0.2581
+English (British),Male,23,high chair,62,understands,0.7419
+English (British),Female,24,high chair,42,produces,0.5
+English (British),Female,24,high chair,42,understands,0.8333
+English (British),Male,24,high chair,45,produces,0.5111
+English (British),Male,24,high chair,45,understands,0.7778
+English (British),Female,25,high chair,21,produces,0.5714
+English (British),Female,25,high chair,21,understands,0.8095
+English (British),Male,25,high chair,15,produces,0.3333
+English (British),Male,25,high chair,15,understands,0.7333
+English (Irish),Female,17,highchair,1,produces,0
+English (Irish),Female,17,highchair,1,understands,0
+English (Irish),Male,17,highchair,1,produces,0
+English (Irish),Male,17,highchair,1,understands,0
+English (Irish),Female,18,highchair,1,produces,0
+English (Irish),Female,18,highchair,1,understands,0
+English (Irish),Female,19,highchair,1,produces,0
+English (Irish),Female,19,highchair,1,understands,0
+English (Irish),Male,19,highchair,1,produces,1
+English (Irish),Male,19,highchair,1,understands,0
+English (Irish),Female,20,highchair,1,produces,0
+English (Irish),Female,20,highchair,1,understands,0
+English (Irish),Female,21,highchair,2,produces,0
+English (Irish),Female,21,highchair,2,understands,0
+English (Irish),Male,21,highchair,1,produces,0
+English (Irish),Male,21,highchair,1,understands,0
+English (Irish),Female,22,highchair,3,produces,0
+English (Irish),Female,22,highchair,3,understands,0
+English (Irish),Male,22,highchair,1,produces,0
+English (Irish),Male,22,highchair,1,understands,0
+English (Irish),Female,23,highchair,2,produces,0.5
+English (Irish),Female,23,highchair,2,understands,0
+English (Irish),Male,23,highchair,2,produces,0
+English (Irish),Male,23,highchair,2,understands,0
+English (Irish),Female,24,highchair,2,produces,0.5
+English (Irish),Female,24,highchair,2,understands,0
+English (Irish),Male,24,highchair,2,produces,0
+English (Irish),Male,24,highchair,2,understands,0
+English (Irish),Female,25,highchair,3,produces,0.3333
+English (Irish),Female,25,highchair,3,understands,0
+English (Irish),Male,25,highchair,3,produces,0
+English (Irish),Male,25,highchair,3,understands,0
+English (Irish),Female,26,highchair,7,produces,0.1429
+English (Irish),Female,26,highchair,7,understands,0
+English (Irish),Male,26,highchair,3,produces,0.3333
+English (Irish),Male,26,highchair,3,understands,0
+English (Irish),Female,27,highchair,1,produces,0
+English (Irish),Female,27,highchair,1,understands,0
+English (Irish),Male,27,highchair,4,produces,0.25
+English (Irish),Male,27,highchair,4,understands,0
+English (Irish),Female,28,highchair,4,produces,0.25
+English (Irish),Female,28,highchair,4,understands,0
+English (Irish),Male,28,highchair,3,produces,0.6667
+English (Irish),Male,28,highchair,3,understands,0
+English (Irish),Female,29,highchair,1,produces,0
+English (Irish),Female,29,highchair,1,understands,0
+English (Irish),Male,29,highchair,3,produces,0.6667
+English (Irish),Male,29,highchair,3,understands,0
+English (Irish),Female,30,highchair,5,produces,0.2
+English (Irish),Female,30,highchair,5,understands,0
+English (Irish),Male,30,highchair,4,produces,0.25
+English (Irish),Male,30,highchair,4,understands,0
+English (Irish),Female,31,highchair,3,produces,0
+English (Irish),Female,31,highchair,3,understands,0
+English (Irish),Male,31,highchair,5,produces,0.2
+English (Irish),Male,31,highchair,5,understands,0
+English (Irish),Female,32,highchair,2,produces,0.5
+English (Irish),Female,32,highchair,2,understands,0
+English (Irish),Male,32,highchair,2,produces,0
+English (Irish),Male,32,highchair,2,understands,0
+English (Irish),Female,33,highchair,1,produces,0
+English (Irish),Female,33,highchair,1,understands,0
+English (Irish),Male,33,highchair,4,produces,0.75
+English (Irish),Male,33,highchair,4,understands,0
+English (Irish),Female,34,highchair,2,produces,0
+English (Irish),Female,34,highchair,2,understands,0
+English (Irish),Male,34,highchair,2,produces,0
+English (Irish),Male,34,highchair,2,understands,0
+English (Irish),Female,35,highchair,2,produces,0
+English (Irish),Female,35,highchair,2,understands,0
+English (Irish),Male,35,highchair,9,produces,0.3333
+English (Irish),Male,35,highchair,9,understands,0
+English (Irish),Female,36,highchair,3,produces,0
+English (Irish),Female,36,highchair,3,understands,0
+English (Irish),Male,36,highchair,2,produces,0.5
+English (Irish),Male,36,highchair,2,understands,0
+Finnish,Female,18,syöttötuoli,18,produces,0.0556
+Finnish,Female,18,syöttötuoli,18,understands,0
+Finnish,Male,18,syöttötuoli,17,produces,0
+Finnish,Male,18,syöttötuoli,17,understands,0
+Finnish,Female,24,syöttötuoli,18,produces,0.1667
+Finnish,Female,24,syöttötuoli,18,understands,0
+Finnish,Male,24,syöttötuoli,17,produces,0.4706
+Finnish,Male,24,syöttötuoli,17,understands,0
+French (French),Female,8,chaise haute,2,produces,0
+French (French),Female,8,chaise haute,2,understands,0
+French (French),Male,8,chaise haute,5,produces,0
+French (French),Male,8,chaise haute,5,understands,0
+French (French),Female,9,chaise haute,2,produces,0.5
+French (French),Female,9,chaise haute,2,understands,0.5
+French (French),Male,9,chaise haute,5,produces,0
+French (French),Male,9,chaise haute,5,understands,0
+French (French),Female,10,chaise haute,7,produces,0.1429
+French (French),Female,10,chaise haute,7,understands,0.1429
+French (French),Male,10,chaise haute,6,produces,0
+French (French),Male,10,chaise haute,6,understands,0
+French (French),Female,11,chaise haute,8,produces,0.125
+French (French),Female,11,chaise haute,8,understands,0.125
+French (French),Male,11,chaise haute,6,produces,0
+French (French),Male,11,chaise haute,6,understands,0
+French (French),Female,12,chaise haute,19,produces,0.1579
+French (French),Female,12,chaise haute,19,understands,0.1579
+French (French),Male,12,chaise haute,19,produces,0
+French (French),Male,12,chaise haute,19,understands,0
+French (French),Female,13,chaise haute,36,produces,0.1111
+French (French),Female,13,chaise haute,36,understands,0.2222
+French (French),Male,13,chaise haute,30,produces,0.0667
+French (French),Male,13,chaise haute,30,understands,0.1333
+French (French),Female,14,chaise haute,17,produces,0.0588
+French (French),Female,14,chaise haute,17,understands,0.2353
+French (French),Male,14,chaise haute,20,produces,0.1
+French (French),Male,14,chaise haute,20,understands,0.2
+French (French),Female,15,chaise haute,11,produces,0.5455
+French (French),Female,15,chaise haute,11,understands,0.5455
+French (French),Male,15,chaise haute,13,produces,0.4615
+French (French),Male,15,chaise haute,13,understands,0.4615
+French (French),Female,16,chaise haute,25,produces,0.04
+French (French),Female,16,chaise haute,25,understands,0
+French (French),Male,16,chaise haute,27,produces,0.037
+French (French),Male,16,chaise haute,27,understands,0.037
+French (French),Female,17,chaise haute,25,produces,0
+French (French),Female,17,chaise haute,25,understands,0
+French (French),Male,17,chaise haute,23,produces,0
+French (French),Male,17,chaise haute,23,understands,0
+French (French),Female,18,chaise haute,27,produces,0.2593
+French (French),Female,18,chaise haute,27,understands,0
+French (French),Male,18,chaise haute,21,produces,0.2381
+French (French),Male,18,chaise haute,21,understands,0
+French (French),Female,19,chaise haute,22,produces,0.1364
+French (French),Female,19,chaise haute,22,understands,0
+French (French),Male,19,chaise haute,17,produces,0.2941
+French (French),Male,19,chaise haute,17,understands,0
+French (French),Female,20,chaise haute,42,produces,0.1905
+French (French),Female,20,chaise haute,42,understands,0
+French (French),Male,20,chaise haute,35,produces,0.1429
+French (French),Male,20,chaise haute,35,understands,0
+French (French),Female,21,chaise haute,55,produces,0.1455
+French (French),Female,21,chaise haute,55,understands,0
+French (French),Male,21,chaise haute,38,produces,0.1316
+French (French),Male,21,chaise haute,38,understands,0
+French (French),Female,22,chaise haute,60,produces,0.1833
+French (French),Female,22,chaise haute,60,understands,0
+French (French),Male,22,chaise haute,38,produces,0.2368
+French (French),Male,22,chaise haute,38,understands,0
+French (French),Female,23,chaise haute,40,produces,0.175
+French (French),Female,23,chaise haute,40,understands,0
+French (French),Male,23,chaise haute,44,produces,0.1364
+French (French),Male,23,chaise haute,44,understands,0
+French (French),Female,24,chaise haute,65,produces,0.1692
+French (French),Female,24,chaise haute,65,understands,0
+French (French),Male,24,chaise haute,72,produces,0.1806
+French (French),Male,24,chaise haute,72,understands,0
+French (French),Female,25,chaise haute,39,produces,0.4103
+French (French),Female,25,chaise haute,39,understands,0
+French (French),Male,25,chaise haute,46,produces,0.2609
+French (French),Male,25,chaise haute,46,understands,0
+French (French),Female,26,chaise haute,31,produces,0.2903
+French (French),Female,26,chaise haute,31,understands,0
+French (French),Male,26,chaise haute,32,produces,0.1875
+French (French),Male,26,chaise haute,32,understands,0
+French (French),Female,27,chaise haute,28,produces,0.3214
+French (French),Female,27,chaise haute,28,understands,0
+French (French),Male,27,chaise haute,24,produces,0.3333
+French (French),Male,27,chaise haute,24,understands,0
+French (French),Female,28,chaise haute,33,produces,0.303
+French (French),Female,28,chaise haute,33,understands,0
+French (French),Male,28,chaise haute,43,produces,0.3023
+French (French),Male,28,chaise haute,43,understands,0
+French (French),Female,29,chaise haute,32,produces,0.4375
+French (French),Female,29,chaise haute,32,understands,0
+French (French),Male,29,chaise haute,33,produces,0.2727
+French (French),Male,29,chaise haute,33,understands,0
+French (French),Female,30,chaise haute,34,produces,0.3529
+French (French),Female,30,chaise haute,34,understands,0
+French (French),Male,30,chaise haute,33,produces,0.3636
+French (French),Male,30,chaise haute,33,understands,0
+French (Quebecois),Female,8,chaise haute,49,produces,0
+French (Quebecois),Female,8,chaise haute,49,understands,0.1429
+French (Quebecois),Male,8,chaise haute,54,produces,0
+French (Quebecois),Male,8,chaise haute,54,understands,0.0926
+French (Quebecois),Female,9,chaise haute,79,produces,0
+French (Quebecois),Female,9,chaise haute,79,understands,0.1013
+French (Quebecois),Male,9,chaise haute,88,produces,0
+French (Quebecois),Male,9,chaise haute,88,understands,0.1023
+French (Quebecois),Female,10,chaise haute,40,produces,0
+French (Quebecois),Female,10,chaise haute,40,understands,0.275
+French (Quebecois),Male,10,chaise haute,46,produces,0
+French (Quebecois),Male,10,chaise haute,46,understands,0.1304
+French (Quebecois),Female,11,chaise haute,41,produces,0
+French (Quebecois),Female,11,chaise haute,41,understands,0.2439
+French (Quebecois),Male,11,chaise haute,40,produces,0
+French (Quebecois),Male,11,chaise haute,40,understands,0.275
+French (Quebecois),Female,12,chaise haute,72,produces,0
+French (Quebecois),Female,12,chaise haute,72,understands,0.2222
+French (Quebecois),Male,12,chaise haute,94,produces,0
+French (Quebecois),Male,12,chaise haute,94,understands,0.234
+French (Quebecois),Female,13,chaise haute,49,produces,0
+French (Quebecois),Female,13,chaise haute,49,understands,0.4286
+French (Quebecois),Male,13,chaise haute,76,produces,0
+French (Quebecois),Male,13,chaise haute,76,understands,0.2368
+French (Quebecois),Female,14,chaise haute,132,produces,0
+French (Quebecois),Female,14,chaise haute,132,understands,0.3636
+French (Quebecois),Male,14,chaise haute,96,produces,0
+French (Quebecois),Male,14,chaise haute,96,understands,0.2812
+French (Quebecois),Female,15,chaise haute,39,produces,0
+French (Quebecois),Female,15,chaise haute,39,understands,0.3846
+French (Quebecois),Male,15,chaise haute,62,produces,0
+French (Quebecois),Male,15,chaise haute,62,understands,0.5
+French (Quebecois),Female,16,chaise haute,57,produces,0
+French (Quebecois),Female,16,chaise haute,57,understands,0.2982
+French (Quebecois),Male,16,chaise haute,51,produces,0.0196
+French (Quebecois),Male,16,chaise haute,51,understands,0.2941
+French (Quebecois),Female,17,chaise haute,30,produces,0
+French (Quebecois),Female,17,chaise haute,30,understands,0
+French (Quebecois),Male,17,chaise haute,31,produces,0
+French (Quebecois),Male,17,chaise haute,31,understands,0
+French (Quebecois),Female,18,chaise haute,53,produces,0.0189
+French (Quebecois),Female,18,chaise haute,53,understands,0
+French (Quebecois),Male,18,chaise haute,46,produces,0.0217
+French (Quebecois),Male,18,chaise haute,46,understands,0
+French (Quebecois),Female,19,chaise haute,41,produces,0.0244
+French (Quebecois),Female,19,chaise haute,41,understands,0
+French (Quebecois),Male,19,chaise haute,50,produces,0.02
+French (Quebecois),Male,19,chaise haute,50,understands,0
+French (Quebecois),Female,20,chaise haute,90,produces,0.0778
+French (Quebecois),Female,20,chaise haute,90,understands,0
+French (Quebecois),Male,20,chaise haute,105,produces,0.019
+French (Quebecois),Male,20,chaise haute,105,understands,0
+French (Quebecois),Female,21,chaise haute,56,produces,0.125
+French (Quebecois),Female,21,chaise haute,56,understands,0
+French (Quebecois),Male,21,chaise haute,53,produces,0.0755
+French (Quebecois),Male,21,chaise haute,53,understands,0
+French (Quebecois),Female,22,chaise haute,42,produces,0.1667
+French (Quebecois),Female,22,chaise haute,42,understands,0
+French (Quebecois),Male,22,chaise haute,44,produces,0.1818
+French (Quebecois),Male,22,chaise haute,44,understands,0
+French (Quebecois),Female,23,chaise haute,41,produces,0.2683
+French (Quebecois),Female,23,chaise haute,41,understands,0
+French (Quebecois),Male,23,chaise haute,45,produces,0.1111
+French (Quebecois),Male,23,chaise haute,45,understands,0
+French (Quebecois),Female,24,chaise haute,56,produces,0.2679
+French (Quebecois),Female,24,chaise haute,56,understands,0
+French (Quebecois),Male,24,chaise haute,76,produces,0.1184
+French (Quebecois),Male,24,chaise haute,76,understands,0
+French (Quebecois),Female,25,chaise haute,41,produces,0.3415
+French (Quebecois),Female,25,chaise haute,41,understands,0
+French (Quebecois),Male,25,chaise haute,45,produces,0.1111
+French (Quebecois),Male,25,chaise haute,45,understands,0
+French (Quebecois),Female,26,chaise haute,46,produces,0.3913
+French (Quebecois),Female,26,chaise haute,46,understands,0
+French (Quebecois),Male,26,chaise haute,49,produces,0.2449
+French (Quebecois),Male,26,chaise haute,49,understands,0
+French (Quebecois),Female,27,chaise haute,40,produces,0.525
+French (Quebecois),Female,27,chaise haute,40,understands,0
+French (Quebecois),Male,27,chaise haute,34,produces,0.2059
+French (Quebecois),Male,27,chaise haute,34,understands,0
+French (Quebecois),Female,28,chaise haute,28,produces,0.4286
+French (Quebecois),Female,28,chaise haute,28,understands,0
+French (Quebecois),Male,28,chaise haute,32,produces,0.3438
+French (Quebecois),Male,28,chaise haute,32,understands,0
+French (Quebecois),Female,29,chaise haute,35,produces,0.5429
+French (Quebecois),Female,29,chaise haute,35,understands,0
+French (Quebecois),Male,29,chaise haute,35,produces,0.6286
+French (Quebecois),Male,29,chaise haute,35,understands,0
+French (Quebecois),Female,30,chaise haute,41,produces,0.4878
+French (Quebecois),Female,30,chaise haute,41,understands,0
+French (Quebecois),Male,30,chaise haute,59,produces,0.4068
+French (Quebecois),Male,30,chaise haute,59,understands,0
+Hungarian,Female,16,etetőszék,11,produces,0
+Hungarian,Female,16,etetőszék,11,understands,0
+Hungarian,Male,16,etetőszék,10,produces,0
+Hungarian,Male,16,etetőszék,10,understands,0
+Hungarian,Female,17,etetőszék,11,produces,0.1818
+Hungarian,Female,17,etetőszék,11,understands,0
+Hungarian,Male,17,etetőszék,7,produces,0
+Hungarian,Male,17,etetőszék,7,understands,0
+Hungarian,Female,18,etetőszék,9,produces,0.1111
+Hungarian,Female,18,etetőszék,9,understands,0
+Hungarian,Male,18,etetőszék,9,produces,0
+Hungarian,Male,18,etetőszék,9,understands,0
+Hungarian,Female,19,etetőszék,13,produces,0.1538
+Hungarian,Female,19,etetőszék,13,understands,0
+Hungarian,Male,19,etetőszék,12,produces,0.1667
+Hungarian,Male,19,etetőszék,12,understands,0
+Hungarian,Female,20,etetőszék,12,produces,0.0833
+Hungarian,Female,20,etetőszék,12,understands,0
+Hungarian,Male,20,etetőszék,6,produces,0
+Hungarian,Male,20,etetőszék,6,understands,0
+Hungarian,Female,21,etetőszék,16,produces,0.3125
+Hungarian,Female,21,etetőszék,16,understands,0
+Hungarian,Male,21,etetőszék,20,produces,0.05
+Hungarian,Male,21,etetőszék,20,understands,0
+Hungarian,Female,22,etetőszék,14,produces,0.2857
+Hungarian,Female,22,etetőszék,14,understands,0
+Hungarian,Male,22,etetőszék,13,produces,0.2308
+Hungarian,Male,22,etetőszék,13,understands,0
+Hungarian,Female,23,etetőszék,6,produces,0
+Hungarian,Female,23,etetőszék,6,understands,0
+Hungarian,Male,23,etetőszék,12,produces,0.1667
+Hungarian,Male,23,etetőszék,12,understands,0
+Hungarian,Female,24,etetőszék,14,produces,0.2143
+Hungarian,Female,24,etetőszék,14,understands,0
+Hungarian,Male,24,etetőszék,24,produces,0.2917
+Hungarian,Male,24,etetőszék,24,understands,0
+Hungarian,Female,25,etetőszék,17,produces,0.4118
+Hungarian,Female,25,etetőszék,17,understands,0
+Hungarian,Male,25,etetőszék,25,produces,0.48
+Hungarian,Male,25,etetőszék,25,understands,0
+Hungarian,Female,26,etetőszék,9,produces,0.3333
+Hungarian,Female,26,etetőszék,9,understands,0
+Hungarian,Male,26,etetőszék,14,produces,0.5714
+Hungarian,Male,26,etetőszék,14,understands,0
+Hungarian,Female,27,etetőszék,13,produces,0.3846
+Hungarian,Female,27,etetőszék,13,understands,0
+Hungarian,Male,27,etetőszék,13,produces,0.5385
+Hungarian,Male,27,etetőszék,13,understands,0
+Hungarian,Female,28,etetőszék,11,produces,0.6364
+Hungarian,Female,28,etetőszék,11,understands,0
+Hungarian,Male,28,etetőszék,18,produces,0.3333
+Hungarian,Male,28,etetőszék,18,understands,0
+Hungarian,Female,29,etetőszék,8,produces,0.75
+Hungarian,Female,29,etetőszék,8,understands,0
+Hungarian,Male,29,etetőszék,4,produces,0.5
+Hungarian,Male,29,etetőszék,4,understands,0
+Hungarian,Female,30,etetőszék,3,produces,0.6667
+Hungarian,Female,30,etetőszék,3,understands,0
+Hungarian,Male,30,etetőszék,15,produces,0.6
+Hungarian,Male,30,etetőszék,15,understands,0
+Irish,Female,17,cathaoirard,1,produces,0
+Irish,Female,17,cathaoirard,1,understands,0
+Irish,Male,17,cathaoirard,1,produces,0
+Irish,Male,17,cathaoirard,1,understands,0
+Irish,Female,18,cathaoirard,1,produces,1
+Irish,Female,18,cathaoirard,1,understands,0
+Irish,Female,19,cathaoirard,1,produces,0
+Irish,Female,19,cathaoirard,1,understands,0
+Irish,Male,19,cathaoirard,1,produces,0
+Irish,Male,19,cathaoirard,1,understands,0
+Irish,Female,20,cathaoirard,1,produces,0
+Irish,Female,20,cathaoirard,1,understands,0
+Irish,Female,21,cathaoirard,2,produces,0
+Irish,Female,21,cathaoirard,2,understands,0
+Irish,Male,21,cathaoirard,1,produces,0
+Irish,Male,21,cathaoirard,1,understands,0
+Irish,Female,22,cathaoirard,3,produces,0.3333
+Irish,Female,22,cathaoirard,3,understands,0
+Irish,Male,22,cathaoirard,1,produces,0
+Irish,Male,22,cathaoirard,1,understands,0
+Irish,Female,23,cathaoirard,2,produces,0
+Irish,Female,23,cathaoirard,2,understands,0
+Irish,Male,23,cathaoirard,2,produces,0.5
+Irish,Male,23,cathaoirard,2,understands,0
+Irish,Female,24,cathaoirard,2,produces,0.5
+Irish,Female,24,cathaoirard,2,understands,0
+Irish,Male,24,cathaoirard,2,produces,0
+Irish,Male,24,cathaoirard,2,understands,0
+Irish,Female,25,cathaoirard,3,produces,0
+Irish,Female,25,cathaoirard,3,understands,0
+Irish,Male,25,cathaoirard,3,produces,0.3333
+Irish,Male,25,cathaoirard,3,understands,0
+Irish,Female,26,cathaoirard,7,produces,0.2857
+Irish,Female,26,cathaoirard,7,understands,0
+Irish,Male,26,cathaoirard,3,produces,0.3333
+Irish,Male,26,cathaoirard,3,understands,0
+Irish,Female,27,cathaoirard,1,produces,0
+Irish,Female,27,cathaoirard,1,understands,0
+Irish,Male,27,cathaoirard,4,produces,0
+Irish,Male,27,cathaoirard,4,understands,0
+Irish,Female,28,cathaoirard,4,produces,0
+Irish,Female,28,cathaoirard,4,understands,0
+Irish,Male,28,cathaoirard,3,produces,0
+Irish,Male,28,cathaoirard,3,understands,0
+Irish,Female,29,cathaoirard,1,produces,1
+Irish,Female,29,cathaoirard,1,understands,0
+Irish,Male,29,cathaoirard,3,produces,0
+Irish,Male,29,cathaoirard,3,understands,0
+Irish,Female,30,cathaoirard,5,produces,0.2
+Irish,Female,30,cathaoirard,5,understands,0
+Irish,Male,30,cathaoirard,4,produces,0
+Irish,Male,30,cathaoirard,4,understands,0
+Irish,Female,31,cathaoirard,3,produces,0.3333
+Irish,Female,31,cathaoirard,3,understands,0
+Irish,Male,31,cathaoirard,5,produces,0.2
+Irish,Male,31,cathaoirard,5,understands,0
+Irish,Female,32,cathaoirard,2,produces,0.5
+Irish,Female,32,cathaoirard,2,understands,0
+Irish,Male,32,cathaoirard,2,produces,0.5
+Irish,Male,32,cathaoirard,2,understands,0
+Irish,Female,33,cathaoirard,1,produces,1
+Irish,Female,33,cathaoirard,1,understands,0
+Irish,Male,33,cathaoirard,4,produces,0.75
+Irish,Male,33,cathaoirard,4,understands,0
+Irish,Female,34,cathaoirard,2,produces,0.5
+Irish,Female,34,cathaoirard,2,understands,0
+Irish,Male,34,cathaoirard,2,produces,0
+Irish,Male,34,cathaoirard,2,understands,0
+Irish,Female,35,cathaoirard,2,produces,0
+Irish,Female,35,cathaoirard,2,understands,0
+Irish,Male,35,cathaoirard,9,produces,0.4444
+Irish,Male,35,cathaoirard,9,understands,0
+Irish,Female,36,cathaoirard,3,produces,0.3333
+Irish,Female,36,cathaoirard,3,understands,0
+Irish,Male,36,cathaoirard,2,produces,0.5
+Irish,Male,36,cathaoirard,2,understands,0
+Italian,Female,7,seggiolone,2,produces,0
+Italian,Female,7,seggiolone,2,understands,0
+Italian,Male,7,seggiolone,3,produces,0
+Italian,Male,7,seggiolone,3,understands,0.3333
+Italian,Female,8,seggiolone,18,produces,0
+Italian,Female,8,seggiolone,18,understands,0.3333
+Italian,Male,8,seggiolone,16,produces,0
+Italian,Male,8,seggiolone,16,understands,0.125
+Italian,Female,9,seggiolone,14,produces,0
+Italian,Female,9,seggiolone,14,understands,0.2143
+Italian,Male,9,seggiolone,24,produces,0
+Italian,Male,9,seggiolone,24,understands,0.2083
+Italian,Female,10,seggiolone,29,produces,0
+Italian,Female,10,seggiolone,29,understands,0.1379
+Italian,Male,10,seggiolone,24,produces,0
+Italian,Male,10,seggiolone,24,understands,0.1667
+Italian,Female,11,seggiolone,22,produces,0
+Italian,Female,11,seggiolone,22,understands,0.4545
+Italian,Male,11,seggiolone,20,produces,0
+Italian,Male,11,seggiolone,20,understands,0.55
+Italian,Female,12,seggiolone,29,produces,0
+Italian,Female,12,seggiolone,29,understands,0.5172
+Italian,Male,12,seggiolone,40,produces,0
+Italian,Male,12,seggiolone,40,understands,0.525
+Italian,Female,13,seggiolone,22,produces,0
+Italian,Female,13,seggiolone,22,understands,0.4545
+Italian,Male,13,seggiolone,26,produces,0
+Italian,Male,13,seggiolone,26,understands,0.4615
+Italian,Female,14,seggiolone,21,produces,0
+Italian,Female,14,seggiolone,21,understands,0.7143
+Italian,Male,14,seggiolone,19,produces,0
+Italian,Male,14,seggiolone,19,understands,0.4211
+Italian,Female,15,seggiolone,30,produces,0.0333
+Italian,Female,15,seggiolone,30,understands,0.8
+Italian,Male,15,seggiolone,38,produces,0
+Italian,Male,15,seggiolone,38,understands,0.5526
+Italian,Female,16,seggiolone,27,produces,0
+Italian,Female,16,seggiolone,27,understands,0.7778
+Italian,Male,16,seggiolone,29,produces,0
+Italian,Male,16,seggiolone,29,understands,0.8276
+Italian,Female,17,seggiolone,20,produces,0.1
+Italian,Female,17,seggiolone,20,understands,0.8
+Italian,Male,17,seggiolone,28,produces,0.0357
+Italian,Male,17,seggiolone,28,understands,0.8929
+Italian,Female,18,seggiolone,37,produces,0.1081
+Italian,Female,18,seggiolone,37,understands,0.4865
+Italian,Male,18,seggiolone,38,produces,0.0263
+Italian,Male,18,seggiolone,38,understands,0.4737
+Italian,Female,19,seggiolone,26,produces,0.1538
+Italian,Female,19,seggiolone,26,understands,0.1538
+Italian,Male,19,seggiolone,32,produces,0.0625
+Italian,Male,19,seggiolone,32,understands,0.4062
+Italian,Female,20,seggiolone,41,produces,0.1951
+Italian,Female,20,seggiolone,41,understands,0.122
+Italian,Male,20,seggiolone,42,produces,0.1429
+Italian,Male,20,seggiolone,42,understands,0.2857
+Italian,Female,21,seggiolone,29,produces,0.3793
+Italian,Female,21,seggiolone,29,understands,0.1724
+Italian,Male,21,seggiolone,38,produces,0.1842
+Italian,Male,21,seggiolone,38,understands,0.1842
+Italian,Female,22,seggiolone,39,produces,0.2051
+Italian,Female,22,seggiolone,39,understands,0.2564
+Italian,Male,22,seggiolone,38,produces,0.3684
+Italian,Male,22,seggiolone,38,understands,0.2105
+Italian,Female,23,seggiolone,34,produces,0.2941
+Italian,Female,23,seggiolone,34,understands,0.1765
+Italian,Male,23,seggiolone,36,produces,0.4167
+Italian,Male,23,seggiolone,36,understands,0.25
+Italian,Female,24,seggiolone,46,produces,0.4783
+Italian,Female,24,seggiolone,46,understands,0.1522
+Italian,Male,24,seggiolone,39,produces,0.5385
+Italian,Male,24,seggiolone,39,understands,0.1538
+Italian,Female,25,seggiolone,23,produces,0.4783
+Italian,Female,25,seggiolone,23,understands,0
+Italian,Male,25,seggiolone,16,produces,0.625
+Italian,Male,25,seggiolone,16,understands,0
+Italian,Female,26,seggiolone,19,produces,0.6842
+Italian,Female,26,seggiolone,19,understands,0
+Italian,Male,26,seggiolone,22,produces,0.5909
+Italian,Male,26,seggiolone,22,understands,0
+Italian,Female,27,seggiolone,20,produces,0.75
+Italian,Female,27,seggiolone,20,understands,0
+Italian,Male,27,seggiolone,23,produces,0.5652
+Italian,Male,27,seggiolone,23,understands,0
+Italian,Female,28,seggiolone,21,produces,0.619
+Italian,Female,28,seggiolone,21,understands,0
+Italian,Male,28,seggiolone,23,produces,0.6957
+Italian,Male,28,seggiolone,23,understands,0
+Italian,Female,29,seggiolone,21,produces,0.7143
+Italian,Female,29,seggiolone,21,understands,0
+Italian,Male,29,seggiolone,16,produces,0.8125
+Italian,Male,29,seggiolone,16,understands,0
+Italian,Female,30,seggiolone,28,produces,0.7143
+Italian,Female,30,seggiolone,28,understands,0
+Italian,Male,30,seggiolone,39,produces,0.6923
+Italian,Male,30,seggiolone,39,understands,0
+Italian,Female,31,seggiolone,8,produces,1
+Italian,Female,31,seggiolone,8,understands,0
+Italian,Male,31,seggiolone,11,produces,0.7273
+Italian,Male,31,seggiolone,11,understands,0
+Italian,Female,32,seggiolone,14,produces,1
+Italian,Female,32,seggiolone,14,understands,0
+Italian,Male,32,seggiolone,9,produces,0.5556
+Italian,Male,32,seggiolone,9,understands,0
+Italian,Female,33,seggiolone,5,produces,0.8
+Italian,Female,33,seggiolone,5,understands,0
+Italian,Male,33,seggiolone,11,produces,0.6364
+Italian,Male,33,seggiolone,11,understands,0
+Italian,Female,34,seggiolone,12,produces,1
+Italian,Female,34,seggiolone,12,understands,0
+Italian,Male,34,seggiolone,7,produces,1
+Italian,Male,34,seggiolone,7,understands,0
+Italian,Female,35,seggiolone,9,produces,0.8889
+Italian,Female,35,seggiolone,9,understands,0
+Italian,Male,35,seggiolone,6,produces,0.8333
+Italian,Male,35,seggiolone,6,understands,0
+Italian,Female,36,seggiolone,7,produces,0.8571
+Italian,Female,36,seggiolone,7,understands,0
+Italian,Male,36,seggiolone,14,produces,0.6429
+Italian,Male,36,seggiolone,14,understands,0
+Norwegian,Female,8,barnestol,45,produces,0
+Norwegian,Female,8,barnestol,45,understands,0.0222
+Norwegian,Male,8,barnestol,32,produces,0.0625
+Norwegian,Male,8,barnestol,32,understands,0.125
+Norwegian,Female,9,barnestol,71,produces,0
+Norwegian,Female,9,barnestol,71,understands,0.0282
+Norwegian,Male,9,barnestol,67,produces,0
+Norwegian,Male,9,barnestol,67,understands,0.0448
+Norwegian,Female,10,barnestol,97,produces,0
+Norwegian,Female,10,barnestol,97,understands,0.0619
+Norwegian,Male,10,barnestol,106,produces,0
+Norwegian,Male,10,barnestol,106,understands,0.1038
+Norwegian,Female,11,barnestol,129,produces,0.0078
+Norwegian,Female,11,barnestol,129,understands,0.1008
+Norwegian,Male,11,barnestol,112,produces,0
+Norwegian,Male,11,barnestol,112,understands,0.0893
+Norwegian,Female,12,barnestol,102,produces,0
+Norwegian,Female,12,barnestol,102,understands,0.1765
+Norwegian,Male,12,barnestol,119,produces,0
+Norwegian,Male,12,barnestol,119,understands,0.1261
+Norwegian,Female,13,barnestol,124,produces,0
+Norwegian,Female,13,barnestol,124,understands,0.2419
+Norwegian,Male,13,barnestol,122,produces,0
+Norwegian,Male,13,barnestol,122,understands,0.2787
+Norwegian,Female,14,barnestol,141,produces,0.0071
+Norwegian,Female,14,barnestol,141,understands,0.3404
+Norwegian,Male,14,barnestol,128,produces,0
+Norwegian,Male,14,barnestol,128,understands,0.2969
+Norwegian,Female,15,barnestol,133,produces,0.015
+Norwegian,Female,15,barnestol,133,understands,0.406
+Norwegian,Male,15,barnestol,106,produces,0
+Norwegian,Male,15,barnestol,106,understands,0.2642
+Norwegian,Female,16,barnestol,165,produces,0.0242
+Norwegian,Female,16,barnestol,165,understands,0.3758
+Norwegian,Male,16,barnestol,181,produces,0
+Norwegian,Male,16,barnestol,181,understands,0.221
+Norwegian,Female,17,barnestol,236,produces,0.0424
+Norwegian,Female,17,barnestol,236,understands,0.2839
+Norwegian,Male,17,barnestol,199,produces,0.0101
+Norwegian,Male,17,barnestol,199,understands,0.2915
+Norwegian,Female,18,barnestol,246,produces,0.0366
+Norwegian,Female,18,barnestol,246,understands,0.2846
+Norwegian,Male,18,barnestol,248,produces,0.0121
+Norwegian,Male,18,barnestol,248,understands,0.3024
+Norwegian,Female,19,barnestol,240,produces,0.0625
+Norwegian,Female,19,barnestol,240,understands,0.2958
+Norwegian,Male,19,barnestol,264,produces,0.0492
+Norwegian,Male,19,barnestol,264,understands,0.2462
+Norwegian,Female,20,barnestol,301,produces,0.0831
+Norwegian,Female,20,barnestol,301,understands,0.299
+Norwegian,Male,20,barnestol,300,produces,0.07
+Norwegian,Male,20,barnestol,300,understands,0.3167
+Norwegian,Female,21,barnestol,218,produces,0.0734
+Norwegian,Female,21,barnestol,218,understands,0
+Norwegian,Male,21,barnestol,200,produces,0.05
+Norwegian,Male,21,barnestol,200,understands,0
+Norwegian,Female,22,barnestol,304,produces,0.0888
+Norwegian,Female,22,barnestol,304,understands,0
+Norwegian,Male,22,barnestol,292,produces,0.0479
+Norwegian,Male,22,barnestol,292,understands,0
+Norwegian,Female,23,barnestol,285,produces,0.1579
+Norwegian,Female,23,barnestol,285,understands,0
+Norwegian,Male,23,barnestol,281,produces,0.0605
+Norwegian,Male,23,barnestol,281,understands,0
+Norwegian,Female,24,barnestol,266,produces,0.1429
+Norwegian,Female,24,barnestol,266,understands,0
+Norwegian,Male,24,barnestol,272,produces,0.1213
+Norwegian,Male,24,barnestol,272,understands,0
+Norwegian,Female,25,barnestol,325,produces,0.1969
+Norwegian,Female,25,barnestol,325,understands,0
+Norwegian,Male,25,barnestol,331,produces,0.1692
+Norwegian,Male,25,barnestol,331,understands,0
+Norwegian,Female,26,barnestol,301,produces,0.3854
+Norwegian,Female,26,barnestol,301,understands,0
+Norwegian,Male,26,barnestol,343,produces,0.1749
+Norwegian,Male,26,barnestol,343,understands,0
+Norwegian,Female,27,barnestol,267,produces,0.3633
+Norwegian,Female,27,barnestol,267,understands,0
+Norwegian,Male,27,barnestol,258,produces,0.2636
+Norwegian,Male,27,barnestol,258,understands,0
+Norwegian,Female,28,barnestol,281,produces,0.4342
+Norwegian,Female,28,barnestol,281,understands,0
+Norwegian,Male,28,barnestol,263,produces,0.27
+Norwegian,Male,28,barnestol,263,understands,0
+Norwegian,Female,29,barnestol,252,produces,0.4683
+Norwegian,Female,29,barnestol,252,understands,0
+Norwegian,Male,29,barnestol,284,produces,0.3028
+Norwegian,Male,29,barnestol,284,understands,0
+Norwegian,Female,30,barnestol,213,produces,0.4554
+Norwegian,Female,30,barnestol,213,understands,0
+Norwegian,Male,30,barnestol,244,produces,0.377
+Norwegian,Male,30,barnestol,244,understands,0
+Norwegian,Female,31,barnestol,229,produces,0.5721
+Norwegian,Female,31,barnestol,229,understands,0
+Norwegian,Male,31,barnestol,250,produces,0.404
+Norwegian,Male,31,barnestol,250,understands,0
+Norwegian,Female,32,barnestol,224,produces,0.6607
+Norwegian,Female,32,barnestol,224,understands,0
+Norwegian,Male,32,barnestol,227,produces,0.4714
+Norwegian,Male,32,barnestol,227,understands,0
+Norwegian,Female,33,barnestol,213,produces,0.6244
+Norwegian,Female,33,barnestol,213,understands,0
+Norwegian,Male,33,barnestol,217,produces,0.5161
+Norwegian,Male,33,barnestol,217,understands,0
+Norwegian,Female,34,barnestol,194,produces,0.7062
+Norwegian,Female,34,barnestol,194,understands,0
+Norwegian,Male,34,barnestol,230,produces,0.5174
+Norwegian,Male,34,barnestol,230,understands,0
+Norwegian,Female,35,barnestol,230,produces,0.713
+Norwegian,Female,35,barnestol,230,understands,0
+Norwegian,Male,35,barnestol,192,produces,0.5312
+Norwegian,Male,35,barnestol,192,understands,0
+Norwegian,Female,36,barnestol,170,produces,0.7412
+Norwegian,Female,36,barnestol,170,understands,0
+Norwegian,Male,36,barnestol,159,produces,0.5849
+Norwegian,Male,36,barnestol,159,understands,0
+Swedish,Female,8,barnstol,11,produces,0
+Swedish,Female,8,barnstol,11,understands,0
+Swedish,Male,8,barnstol,15,produces,0
+Swedish,Male,8,barnstol,15,understands,0
+Swedish,Female,9,barnstol,1,produces,0
+Swedish,Female,9,barnstol,1,understands,0
+Swedish,Male,9,barnstol,1,produces,0
+Swedish,Male,9,barnstol,1,understands,1
+Swedish,Female,10,barnstol,27,produces,0
+Swedish,Female,10,barnstol,27,understands,0.0741
+Swedish,Male,10,barnstol,27,produces,0
+Swedish,Male,10,barnstol,27,understands,0.0741
+Swedish,Female,11,barnstol,2,produces,0
+Swedish,Female,11,barnstol,2,understands,0
+Swedish,Male,11,barnstol,1,produces,0
+Swedish,Male,11,barnstol,1,understands,0
+Swedish,Female,12,barnstol,42,produces,0
+Swedish,Female,12,barnstol,42,understands,0.2143
+Swedish,Male,12,barnstol,37,produces,0
+Swedish,Male,12,barnstol,37,understands,0.1351
+Swedish,Female,13,barnstol,4,produces,0
+Swedish,Female,13,barnstol,4,understands,0
+Swedish,Male,13,barnstol,3,produces,0
+Swedish,Male,13,barnstol,3,understands,0
+Swedish,Female,14,barnstol,63,produces,0
+Swedish,Female,14,barnstol,63,understands,0.3175
+Swedish,Male,14,barnstol,61,produces,0
+Swedish,Male,14,barnstol,61,understands,0.4098
+Swedish,Female,15,barnstol,10,produces,0
+Swedish,Female,15,barnstol,10,understands,0.3
+Swedish,Male,15,barnstol,3,produces,0
+Swedish,Male,15,barnstol,3,understands,0.6667
+Swedish,Female,16,barnstol,171,produces,0.0175
+Swedish,Female,16,barnstol,171,understands,0.269
+Swedish,Male,16,barnstol,142,produces,0.0211
+Swedish,Male,16,barnstol,142,understands,0.2746
+Swedish,Female,19,barnstol,85,produces,0.0235
+Swedish,Female,19,barnstol,85,understands,0
+Swedish,Male,19,barnstol,65,produces,0.0154
+Swedish,Male,19,barnstol,65,understands,0
+Swedish,Female,22,barnstol,162,produces,0.1049
+Swedish,Female,22,barnstol,162,understands,0
+Swedish,Male,22,barnstol,143,produces,0.1189
+Swedish,Male,22,barnstol,143,understands,0
+Swedish,Female,25,barnstol,67,produces,0.2687
+Swedish,Female,25,barnstol,67,understands,0
+Swedish,Male,25,barnstol,76,produces,0.1974
+Swedish,Male,25,barnstol,76,understands,0
+Swedish,Female,28,barnstol,69,produces,0.4783
+Swedish,Female,28,barnstol,69,understands,0
+Swedish,Male,28,barnstol,70,produces,0.3429
+Swedish,Male,28,barnstol,70,understands,0

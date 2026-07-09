@@ -1,73 +1,217 @@
-language,age,words,n,measure,prop
-Italian,18,disegno,31,produces,0.0645
-Italian,18,disegno,31,understands,0
-Italian,19,disegno,39,produces,0.0256
-Italian,19,disegno,39,understands,0
-Italian,20,disegno,64,produces,0.0156
-Italian,20,disegno,64,understands,0
-Italian,21,disegno,55,produces,0.1455
-Italian,21,disegno,55,understands,0
-Italian,22,disegno,55,produces,0.2727
-Italian,22,disegno,55,understands,0
-Italian,23,disegno,53,produces,0.2453
-Italian,23,disegno,53,understands,0
-Italian,24,disegno,71,produces,0.3521
-Italian,24,disegno,71,understands,0
-Italian,25,disegno,39,produces,0.4103
-Italian,25,disegno,39,understands,0
-Italian,26,disegno,41,produces,0.5366
-Italian,26,disegno,41,understands,0
-Italian,27,disegno,43,produces,0.5349
-Italian,27,disegno,43,understands,0
-Italian,28,disegno,44,produces,0.6136
-Italian,28,disegno,44,understands,0
-Italian,29,disegno,37,produces,0.6757
-Italian,29,disegno,37,understands,0
-Italian,30,disegno,67,produces,0.7164
-Italian,30,disegno,67,understands,0
-Italian,31,disegno,19,produces,0.8947
-Italian,31,disegno,19,understands,0
-Italian,32,disegno,23,produces,0.9565
-Italian,32,disegno,23,understands,0
-Italian,33,disegno,16,produces,0.8125
-Italian,33,disegno,16,understands,0
-Italian,34,disegno,19,produces,0.9474
-Italian,34,disegno,19,understands,0
-Italian,35,disegno,15,produces,0.9333
-Italian,35,disegno,15,understands,0
-Italian,36,disegno,21,produces,0.8571
-Italian,36,disegno,21,understands,0
-Dutch,15,tekening,3,produces,0
-Dutch,15,tekening,3,understands,0
-Dutch,16,"tekening, tekening/prent",7,produces,0
-Dutch,16,"tekening, tekening/prent",7,understands,0
-Dutch,17,"tekening/prent, tekening",141,produces,0.0355
-Dutch,17,"tekening/prent, tekening",141,understands,0.2482
-Dutch,18,"tekening/prent, tekening",292,produces,0.0171
-Dutch,18,"tekening/prent, tekening",292,understands,0.1986
-Dutch,19,"tekening/prent, tekening",102,produces,0.0686
-Dutch,19,"tekening/prent, tekening",102,understands,0.3039
-Dutch,20,"tekening, tekening/prent",33,produces,0.1212
-Dutch,20,"tekening, tekening/prent",33,understands,0.2727
-Dutch,21,"tekening, tekening/prent",13,produces,0.1538
-Dutch,21,"tekening, tekening/prent",13,understands,0.1538
-Dutch,22,tekening/prent,7,produces,0.2857
-Dutch,22,tekening/prent,7,understands,0
-Dutch,23,tekening/prent,52,produces,0.3654
-Dutch,23,tekening/prent,52,understands,0.0192
-Dutch,24,tekening/prent,190,produces,0.4842
-Dutch,24,tekening/prent,190,understands,0.7053
-Dutch,25,tekening/prent,11,produces,0.7273
-Dutch,25,tekening/prent,11,understands,0.3636
-Dutch,26,tekening/prent,6,produces,0.5
-Dutch,26,tekening/prent,6,understands,0
-Dutch,27,tekening/prent,5,produces,0.4
-Dutch,27,tekening/prent,5,understands,0
-Dutch,28,tekening/prent,6,produces,1
-Dutch,28,tekening/prent,6,understands,0
-Dutch,29,tekening/prent,23,produces,0.8261
-Dutch,29,tekening/prent,23,understands,0
-Dutch,30,tekening/prent,51,produces,0.8431
-Dutch,30,tekening/prent,51,understands,0.5098
-Dutch,31,tekening/prent,3,produces,1
-Dutch,31,tekening/prent,3,understands,0.3333
+language,sex,age,words,n,measure,prop
+Dutch,All,15,tekening,3,produces,0
+Dutch,All,15,tekening,3,understands,0
+Dutch,All,16,"tekening, tekening/prent",7,produces,0
+Dutch,All,16,"tekening, tekening/prent",7,understands,0
+Dutch,All,17,"tekening/prent, tekening",141,produces,0.0355
+Dutch,All,17,"tekening/prent, tekening",141,understands,0.2482
+Dutch,All,18,"tekening/prent, tekening",292,produces,0.0171
+Dutch,All,18,"tekening/prent, tekening",292,understands,0.1986
+Dutch,All,19,"tekening/prent, tekening",102,produces,0.0686
+Dutch,All,19,"tekening/prent, tekening",102,understands,0.3039
+Dutch,All,20,"tekening, tekening/prent",33,produces,0.1212
+Dutch,All,20,"tekening, tekening/prent",33,understands,0.2727
+Dutch,All,21,"tekening, tekening/prent",13,produces,0.1538
+Dutch,All,21,"tekening, tekening/prent",13,understands,0.1538
+Dutch,All,22,tekening/prent,7,produces,0.2857
+Dutch,All,22,tekening/prent,7,understands,0
+Dutch,All,23,tekening/prent,52,produces,0.3654
+Dutch,All,23,tekening/prent,52,understands,0.0192
+Dutch,All,24,tekening/prent,190,produces,0.4842
+Dutch,All,24,tekening/prent,190,understands,0.7053
+Dutch,All,25,tekening/prent,11,produces,0.7273
+Dutch,All,25,tekening/prent,11,understands,0.3636
+Dutch,All,26,tekening/prent,6,produces,0.5
+Dutch,All,26,tekening/prent,6,understands,0
+Dutch,All,27,tekening/prent,5,produces,0.4
+Dutch,All,27,tekening/prent,5,understands,0
+Dutch,All,28,tekening/prent,6,produces,1
+Dutch,All,28,tekening/prent,6,understands,0
+Dutch,All,29,tekening/prent,23,produces,0.8261
+Dutch,All,29,tekening/prent,23,understands,0
+Dutch,All,30,tekening/prent,51,produces,0.8431
+Dutch,All,30,tekening/prent,51,understands,0.5098
+Dutch,All,31,tekening/prent,3,produces,1
+Dutch,All,31,tekening/prent,3,understands,0.3333
+Italian,All,18,disegno,31,produces,0.0645
+Italian,All,18,disegno,31,understands,0
+Italian,All,19,disegno,39,produces,0.0256
+Italian,All,19,disegno,39,understands,0
+Italian,All,20,disegno,64,produces,0.0156
+Italian,All,20,disegno,64,understands,0
+Italian,All,21,disegno,55,produces,0.1455
+Italian,All,21,disegno,55,understands,0
+Italian,All,22,disegno,55,produces,0.2727
+Italian,All,22,disegno,55,understands,0
+Italian,All,23,disegno,53,produces,0.2453
+Italian,All,23,disegno,53,understands,0
+Italian,All,24,disegno,71,produces,0.3521
+Italian,All,24,disegno,71,understands,0
+Italian,All,25,disegno,39,produces,0.4103
+Italian,All,25,disegno,39,understands,0
+Italian,All,26,disegno,41,produces,0.5366
+Italian,All,26,disegno,41,understands,0
+Italian,All,27,disegno,43,produces,0.5349
+Italian,All,27,disegno,43,understands,0
+Italian,All,28,disegno,44,produces,0.6136
+Italian,All,28,disegno,44,understands,0
+Italian,All,29,disegno,37,produces,0.6757
+Italian,All,29,disegno,37,understands,0
+Italian,All,30,disegno,67,produces,0.7164
+Italian,All,30,disegno,67,understands,0
+Italian,All,31,disegno,19,produces,0.8947
+Italian,All,31,disegno,19,understands,0
+Italian,All,32,disegno,23,produces,0.9565
+Italian,All,32,disegno,23,understands,0
+Italian,All,33,disegno,16,produces,0.8125
+Italian,All,33,disegno,16,understands,0
+Italian,All,34,disegno,19,produces,0.9474
+Italian,All,34,disegno,19,understands,0
+Italian,All,35,disegno,15,produces,0.9333
+Italian,All,35,disegno,15,understands,0
+Italian,All,36,disegno,21,produces,0.8571
+Italian,All,36,disegno,21,understands,0
+Dutch,Female,15,tekening,2,produces,0
+Dutch,Female,15,tekening,2,understands,0
+Dutch,Male,15,tekening,1,produces,0
+Dutch,Male,15,tekening,1,understands,0
+Dutch,Female,16,"tekening, tekening/prent",5,produces,0
+Dutch,Female,16,"tekening, tekening/prent",5,understands,0
+Dutch,Male,16,tekening,2,produces,0
+Dutch,Male,16,tekening,2,understands,0
+Dutch,Female,17,"tekening/prent, tekening",53,produces,0.0755
+Dutch,Female,17,"tekening/prent, tekening",53,understands,0.1887
+Dutch,Male,17,"tekening/prent, tekening",41,produces,0
+Dutch,Male,17,"tekening/prent, tekening",41,understands,0.0976
+Dutch,Female,18,"tekening/prent, tekening",133,produces,0.0226
+Dutch,Female,18,"tekening/prent, tekening",133,understands,0.188
+Dutch,Male,18,"tekening/prent, tekening",127,produces,0.0157
+Dutch,Male,18,"tekening/prent, tekening",127,understands,0.1496
+Dutch,Female,19,"tekening/prent, tekening",55,produces,0.0727
+Dutch,Female,19,"tekening/prent, tekening",55,understands,0.3273
+Dutch,Male,19,"tekening, tekening/prent",47,produces,0.0638
+Dutch,Male,19,"tekening, tekening/prent",47,understands,0.2766
+Dutch,Female,20,"tekening, tekening/prent",19,produces,0.1579
+Dutch,Female,20,"tekening, tekening/prent",19,understands,0.3158
+Dutch,Male,20,"tekening, tekening/prent",14,produces,0.0714
+Dutch,Male,20,"tekening, tekening/prent",14,understands,0.2143
+Dutch,Female,21,"tekening, tekening/prent",6,produces,0.1667
+Dutch,Female,21,"tekening, tekening/prent",6,understands,0
+Dutch,Male,21,"tekening, tekening/prent",7,produces,0.1429
+Dutch,Male,21,"tekening, tekening/prent",7,understands,0.2857
+Dutch,Female,22,tekening/prent,1,produces,1
+Dutch,Female,22,tekening/prent,1,understands,0
+Dutch,Male,22,tekening/prent,6,produces,0.1667
+Dutch,Male,22,tekening/prent,6,understands,0
+Dutch,Female,23,tekening/prent,26,produces,0.3846
+Dutch,Female,23,tekening/prent,26,understands,0.0385
+Dutch,Male,23,tekening/prent,26,produces,0.3462
+Dutch,Male,23,tekening/prent,26,understands,0
+Dutch,Female,24,tekening/prent,90,produces,0.5222
+Dutch,Female,24,tekening/prent,90,understands,0.7111
+Dutch,Male,24,tekening/prent,100,produces,0.45
+Dutch,Male,24,tekening/prent,100,understands,0.7
+Dutch,Female,25,tekening/prent,7,produces,0.5714
+Dutch,Female,25,tekening/prent,7,understands,0.1429
+Dutch,Male,25,tekening/prent,4,produces,1
+Dutch,Male,25,tekening/prent,4,understands,0.75
+Dutch,Female,26,tekening/prent,1,produces,1
+Dutch,Female,26,tekening/prent,1,understands,0
+Dutch,Male,26,tekening/prent,5,produces,0.4
+Dutch,Male,26,tekening/prent,5,understands,0
+Dutch,Female,27,tekening/prent,3,produces,0.6667
+Dutch,Female,27,tekening/prent,3,understands,0
+Dutch,Male,27,tekening/prent,1,produces,0
+Dutch,Male,27,tekening/prent,1,understands,0
+Dutch,Female,28,tekening/prent,5,produces,1
+Dutch,Female,28,tekening/prent,5,understands,0
+Dutch,Male,28,tekening/prent,1,produces,1
+Dutch,Male,28,tekening/prent,1,understands,0
+Dutch,Female,29,tekening/prent,12,produces,0.75
+Dutch,Female,29,tekening/prent,12,understands,0
+Dutch,Male,29,tekening/prent,11,produces,0.9091
+Dutch,Male,29,tekening/prent,11,understands,0
+Dutch,Female,30,tekening/prent,27,produces,0.963
+Dutch,Female,30,tekening/prent,27,understands,0.4074
+Dutch,Male,30,tekening/prent,24,produces,0.7083
+Dutch,Male,30,tekening/prent,24,understands,0.625
+Dutch,Female,31,tekening/prent,2,produces,1
+Dutch,Female,31,tekening/prent,2,understands,0.5
+Dutch,Male,31,tekening/prent,1,produces,1
+Dutch,Male,31,tekening/prent,1,understands,0
+Italian,Female,18,disegno,18,produces,0.0556
+Italian,Female,18,disegno,18,understands,0
+Italian,Male,18,disegno,13,produces,0.0769
+Italian,Male,18,disegno,13,understands,0
+Italian,Female,19,disegno,21,produces,0.0476
+Italian,Female,19,disegno,21,understands,0
+Italian,Male,19,disegno,18,produces,0
+Italian,Male,19,disegno,18,understands,0
+Italian,Female,20,disegno,34,produces,0
+Italian,Female,20,disegno,34,understands,0
+Italian,Male,20,disegno,30,produces,0.0333
+Italian,Male,20,disegno,30,understands,0
+Italian,Female,21,disegno,24,produces,0.1667
+Italian,Female,21,disegno,24,understands,0
+Italian,Male,21,disegno,31,produces,0.129
+Italian,Male,21,disegno,31,understands,0
+Italian,Female,22,disegno,27,produces,0.2963
+Italian,Female,22,disegno,27,understands,0
+Italian,Male,22,disegno,28,produces,0.25
+Italian,Male,22,disegno,28,understands,0
+Italian,Female,23,disegno,27,produces,0.2222
+Italian,Female,23,disegno,27,understands,0
+Italian,Male,23,disegno,26,produces,0.2692
+Italian,Male,23,disegno,26,understands,0
+Italian,Female,24,disegno,39,produces,0.359
+Italian,Female,24,disegno,39,understands,0
+Italian,Male,24,disegno,32,produces,0.3438
+Italian,Male,24,disegno,32,understands,0
+Italian,Female,25,disegno,23,produces,0.3478
+Italian,Female,25,disegno,23,understands,0
+Italian,Male,25,disegno,16,produces,0.5
+Italian,Male,25,disegno,16,understands,0
+Italian,Female,26,disegno,19,produces,0.5263
+Italian,Female,26,disegno,19,understands,0
+Italian,Male,26,disegno,22,produces,0.5455
+Italian,Male,26,disegno,22,understands,0
+Italian,Female,27,disegno,20,produces,0.55
+Italian,Female,27,disegno,20,understands,0
+Italian,Male,27,disegno,23,produces,0.5217
+Italian,Male,27,disegno,23,understands,0
+Italian,Female,28,disegno,21,produces,0.5238
+Italian,Female,28,disegno,21,understands,0
+Italian,Male,28,disegno,23,produces,0.6957
+Italian,Male,28,disegno,23,understands,0
+Italian,Female,29,disegno,21,produces,0.5714
+Italian,Female,29,disegno,21,understands,0
+Italian,Male,29,disegno,16,produces,0.8125
+Italian,Male,29,disegno,16,understands,0
+Italian,Female,30,disegno,28,produces,0.7857
+Italian,Female,30,disegno,28,understands,0
+Italian,Male,30,disegno,39,produces,0.6667
+Italian,Male,30,disegno,39,understands,0
+Italian,Female,31,disegno,8,produces,1
+Italian,Female,31,disegno,8,understands,0
+Italian,Male,31,disegno,11,produces,0.8182
+Italian,Male,31,disegno,11,understands,0
+Italian,Female,32,disegno,14,produces,1
+Italian,Female,32,disegno,14,understands,0
+Italian,Male,32,disegno,9,produces,0.8889
+Italian,Male,32,disegno,9,understands,0
+Italian,Female,33,disegno,5,produces,0.8
+Italian,Female,33,disegno,5,understands,0
+Italian,Male,33,disegno,11,produces,0.8182
+Italian,Male,33,disegno,11,understands,0
+Italian,Female,34,disegno,12,produces,1
+Italian,Female,34,disegno,12,understands,0
+Italian,Male,34,disegno,7,produces,0.8571
+Italian,Male,34,disegno,7,understands,0
+Italian,Female,35,disegno,9,produces,1
+Italian,Female,35,disegno,9,understands,0
+Italian,Male,35,disegno,6,produces,0.8333
+Italian,Male,35,disegno,6,understands,0
+Italian,Female,36,disegno,7,produces,1
+Italian,Female,36,disegno,7,understands,0
+Italian,Male,36,disegno,14,produces,0.7857
+Italian,Male,36,disegno,14,understands,0

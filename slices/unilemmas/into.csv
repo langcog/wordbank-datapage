@@ -1,89 +1,265 @@
-language,age,words,n,measure,prop
-Kiswahili,23,Kwenye,2,produces,0
-Kiswahili,23,Kwenye,2,understands,0
-Kiswahili,24,Kwenye,12,produces,0.1667
-Kiswahili,24,Kwenye,12,understands,0
-Kiswahili,25,Kwenye,10,produces,0
-Kiswahili,25,Kwenye,10,understands,0
-Kiswahili,26,Kwenye,13,produces,0.0769
-Kiswahili,26,Kwenye,13,understands,0
-Kiswahili,27,Kwenye,8,produces,0
-Kiswahili,27,Kwenye,8,understands,0
-Kiswahili,28,Kwenye,6,produces,0
-Kiswahili,28,Kwenye,6,understands,0
-Kiswahili,29,Kwenye,6,produces,0.1667
-Kiswahili,29,Kwenye,6,understands,0
-Kiswahili,30,Kwenye,5,produces,0.2
-Kiswahili,30,Kwenye,5,understands,0
-Mandarin (Taiwanese),16,在…裡面,80,produces,0
-Mandarin (Taiwanese),16,在…裡面,80,understands,0
-Mandarin (Taiwanese),17,在…裡面,87,produces,0.0115
-Mandarin (Taiwanese),17,在…裡面,87,understands,0
-Mandarin (Taiwanese),18,在…裡面,84,produces,0.0238
-Mandarin (Taiwanese),18,在…裡面,84,understands,0
-Mandarin (Taiwanese),19,在…裡面,84,produces,0.0357
-Mandarin (Taiwanese),19,在…裡面,84,understands,0
-Mandarin (Taiwanese),20,在…裡面,84,produces,0.0238
-Mandarin (Taiwanese),20,在…裡面,84,understands,0
-Mandarin (Taiwanese),21,在…裡面,88,produces,0.1364
-Mandarin (Taiwanese),21,在…裡面,88,understands,0
-Mandarin (Taiwanese),22,在…裡面,96,produces,0.1667
-Mandarin (Taiwanese),22,在…裡面,96,understands,0
-Mandarin (Taiwanese),23,在…裡面,105,produces,0.1905
-Mandarin (Taiwanese),23,在…裡面,105,understands,0
-Mandarin (Taiwanese),24,在…裡面,124,produces,0.2984
-Mandarin (Taiwanese),24,在…裡面,124,understands,0
-Mandarin (Taiwanese),25,在…裡面,110,produces,0.3818
-Mandarin (Taiwanese),25,在…裡面,110,understands,0
-Mandarin (Taiwanese),26,在…裡面,87,produces,0.3333
-Mandarin (Taiwanese),26,在…裡面,87,understands,0
-Mandarin (Taiwanese),27,在…裡面,92,produces,0.3478
-Mandarin (Taiwanese),27,在…裡面,92,understands,0
-Mandarin (Taiwanese),28,在…裡面,100,produces,0.52
-Mandarin (Taiwanese),28,在…裡面,100,understands,0
-Mandarin (Taiwanese),29,在…裡面,88,produces,0.4886
-Mandarin (Taiwanese),29,在…裡面,88,understands,0
-Mandarin (Taiwanese),30,在…裡面,94,produces,0.5426
-Mandarin (Taiwanese),30,在…裡面,94,understands,0
-Mandarin (Taiwanese),31,在…裡面,88,produces,0.5455
-Mandarin (Taiwanese),31,在…裡面,88,understands,0
-Mandarin (Taiwanese),32,在…裡面,82,produces,0.5366
-Mandarin (Taiwanese),32,在…裡面,82,understands,0
-Mandarin (Taiwanese),33,在…裡面,85,produces,0.6824
-Mandarin (Taiwanese),33,在…裡面,85,understands,0
-Mandarin (Taiwanese),34,在…裡面,77,produces,0.6104
-Mandarin (Taiwanese),34,在…裡面,77,understands,0
-Mandarin (Taiwanese),35,在…裡面,81,produces,0.716
-Mandarin (Taiwanese),35,在…裡面,81,understands,0
-Mandarin (Taiwanese),36,在…裡面,81,produces,0.7037
-Mandarin (Taiwanese),36,在…裡面,81,understands,0
-English (American),16,into,930,produces,0.0011
-English (American),16,into,930,understands,0
-English (American),17,into,458,produces,0.0175
-English (American),17,into,458,understands,0
-English (American),18,into,641,produces,0.014
-English (American),18,into,641,understands,0
-English (American),19,into,570,produces,0.0158
-English (American),19,into,570,understands,0
-English (American),20,into,537,produces,0.0205
-English (American),20,into,537,understands,0
-English (American),21,into,366,produces,0.0191
-English (American),21,into,366,understands,0
-English (American),22,into,454,produces,0.0485
-English (American),22,into,454,understands,0
-English (American),23,into,470,produces,0.0766
-English (American),23,into,470,understands,0
-English (American),24,into,985,produces,0.0802
-English (American),24,into,985,understands,0
-English (American),25,into,757,produces,0.1057
-English (American),25,into,757,understands,0
-English (American),26,into,435,produces,0.1517
-English (American),26,into,435,understands,0
-English (American),27,into,361,produces,0.1828
-English (American),27,into,361,understands,0
-English (American),28,into,954,produces,0.3008
-English (American),28,into,954,understands,0
-English (American),29,into,390,produces,0.2769
-English (American),29,into,390,understands,0
-English (American),30,into,785,produces,0.3096
-English (American),30,into,785,understands,0
+language,sex,age,words,n,measure,prop
+English (American),All,16,into,930,produces,0.0011
+English (American),All,16,into,930,understands,0
+English (American),All,17,into,458,produces,0.0175
+English (American),All,17,into,458,understands,0
+English (American),All,18,into,641,produces,0.014
+English (American),All,18,into,641,understands,0
+English (American),All,19,into,570,produces,0.0158
+English (American),All,19,into,570,understands,0
+English (American),All,20,into,537,produces,0.0205
+English (American),All,20,into,537,understands,0
+English (American),All,21,into,366,produces,0.0191
+English (American),All,21,into,366,understands,0
+English (American),All,22,into,454,produces,0.0485
+English (American),All,22,into,454,understands,0
+English (American),All,23,into,470,produces,0.0766
+English (American),All,23,into,470,understands,0
+English (American),All,24,into,985,produces,0.0802
+English (American),All,24,into,985,understands,0
+English (American),All,25,into,757,produces,0.1057
+English (American),All,25,into,757,understands,0
+English (American),All,26,into,435,produces,0.1517
+English (American),All,26,into,435,understands,0
+English (American),All,27,into,361,produces,0.1828
+English (American),All,27,into,361,understands,0
+English (American),All,28,into,954,produces,0.3008
+English (American),All,28,into,954,understands,0
+English (American),All,29,into,390,produces,0.2769
+English (American),All,29,into,390,understands,0
+English (American),All,30,into,785,produces,0.3096
+English (American),All,30,into,785,understands,0
+Kiswahili,All,23,Kwenye,2,produces,0
+Kiswahili,All,23,Kwenye,2,understands,0
+Kiswahili,All,24,Kwenye,12,produces,0.1667
+Kiswahili,All,24,Kwenye,12,understands,0
+Kiswahili,All,25,Kwenye,10,produces,0
+Kiswahili,All,25,Kwenye,10,understands,0
+Kiswahili,All,26,Kwenye,13,produces,0.0769
+Kiswahili,All,26,Kwenye,13,understands,0
+Kiswahili,All,27,Kwenye,8,produces,0
+Kiswahili,All,27,Kwenye,8,understands,0
+Kiswahili,All,28,Kwenye,6,produces,0
+Kiswahili,All,28,Kwenye,6,understands,0
+Kiswahili,All,29,Kwenye,6,produces,0.1667
+Kiswahili,All,29,Kwenye,6,understands,0
+Kiswahili,All,30,Kwenye,5,produces,0.2
+Kiswahili,All,30,Kwenye,5,understands,0
+Mandarin (Taiwanese),All,16,在…裡面,80,produces,0
+Mandarin (Taiwanese),All,16,在…裡面,80,understands,0
+Mandarin (Taiwanese),All,17,在…裡面,87,produces,0.0115
+Mandarin (Taiwanese),All,17,在…裡面,87,understands,0
+Mandarin (Taiwanese),All,18,在…裡面,84,produces,0.0238
+Mandarin (Taiwanese),All,18,在…裡面,84,understands,0
+Mandarin (Taiwanese),All,19,在…裡面,84,produces,0.0357
+Mandarin (Taiwanese),All,19,在…裡面,84,understands,0
+Mandarin (Taiwanese),All,20,在…裡面,84,produces,0.0238
+Mandarin (Taiwanese),All,20,在…裡面,84,understands,0
+Mandarin (Taiwanese),All,21,在…裡面,88,produces,0.1364
+Mandarin (Taiwanese),All,21,在…裡面,88,understands,0
+Mandarin (Taiwanese),All,22,在…裡面,96,produces,0.1667
+Mandarin (Taiwanese),All,22,在…裡面,96,understands,0
+Mandarin (Taiwanese),All,23,在…裡面,105,produces,0.1905
+Mandarin (Taiwanese),All,23,在…裡面,105,understands,0
+Mandarin (Taiwanese),All,24,在…裡面,124,produces,0.2984
+Mandarin (Taiwanese),All,24,在…裡面,124,understands,0
+Mandarin (Taiwanese),All,25,在…裡面,110,produces,0.3818
+Mandarin (Taiwanese),All,25,在…裡面,110,understands,0
+Mandarin (Taiwanese),All,26,在…裡面,87,produces,0.3333
+Mandarin (Taiwanese),All,26,在…裡面,87,understands,0
+Mandarin (Taiwanese),All,27,在…裡面,92,produces,0.3478
+Mandarin (Taiwanese),All,27,在…裡面,92,understands,0
+Mandarin (Taiwanese),All,28,在…裡面,100,produces,0.52
+Mandarin (Taiwanese),All,28,在…裡面,100,understands,0
+Mandarin (Taiwanese),All,29,在…裡面,88,produces,0.4886
+Mandarin (Taiwanese),All,29,在…裡面,88,understands,0
+Mandarin (Taiwanese),All,30,在…裡面,94,produces,0.5426
+Mandarin (Taiwanese),All,30,在…裡面,94,understands,0
+Mandarin (Taiwanese),All,31,在…裡面,88,produces,0.5455
+Mandarin (Taiwanese),All,31,在…裡面,88,understands,0
+Mandarin (Taiwanese),All,32,在…裡面,82,produces,0.5366
+Mandarin (Taiwanese),All,32,在…裡面,82,understands,0
+Mandarin (Taiwanese),All,33,在…裡面,85,produces,0.6824
+Mandarin (Taiwanese),All,33,在…裡面,85,understands,0
+Mandarin (Taiwanese),All,34,在…裡面,77,produces,0.6104
+Mandarin (Taiwanese),All,34,在…裡面,77,understands,0
+Mandarin (Taiwanese),All,35,在…裡面,81,produces,0.716
+Mandarin (Taiwanese),All,35,在…裡面,81,understands,0
+Mandarin (Taiwanese),All,36,在…裡面,81,produces,0.7037
+Mandarin (Taiwanese),All,36,在…裡面,81,understands,0
+English (American),Female,16,into,392,produces,0.0026
+English (American),Female,16,into,392,understands,0
+English (American),Male,16,into,431,produces,0
+English (American),Male,16,into,431,understands,0
+English (American),Female,17,into,152,produces,0.0197
+English (American),Female,17,into,152,understands,0
+English (American),Male,17,into,169,produces,0.0237
+English (American),Male,17,into,169,understands,0
+English (American),Female,18,into,256,produces,0.0156
+English (American),Female,18,into,256,understands,0
+English (American),Male,18,into,263,produces,0.0152
+English (American),Male,18,into,263,understands,0
+English (American),Female,19,into,231,produces,0.0216
+English (American),Female,19,into,231,understands,0
+English (American),Male,19,into,224,produces,0.0179
+English (American),Male,19,into,224,understands,0
+English (American),Female,20,into,205,produces,0.0195
+English (American),Female,20,into,205,understands,0
+English (American),Male,20,into,222,produces,0.0225
+English (American),Male,20,into,222,understands,0
+English (American),Female,21,into,127,produces,0.0236
+English (American),Female,21,into,127,understands,0
+English (American),Male,21,into,142,produces,0.0141
+English (American),Male,21,into,142,understands,0
+English (American),Female,22,into,186,produces,0.0538
+English (American),Female,22,into,186,understands,0
+English (American),Male,22,into,162,produces,0.0247
+English (American),Male,22,into,162,understands,0
+English (American),Female,23,into,177,produces,0.0565
+English (American),Female,23,into,177,understands,0
+English (American),Male,23,into,196,produces,0.0816
+English (American),Male,23,into,196,understands,0
+English (American),Female,24,into,365,produces,0.0986
+English (American),Female,24,into,365,understands,0
+English (American),Male,24,into,453,produces,0.064
+English (American),Male,24,into,453,understands,0
+English (American),Female,25,into,299,produces,0.1405
+English (American),Female,25,into,299,understands,0
+English (American),Male,25,into,336,produces,0.0833
+English (American),Male,25,into,336,understands,0
+English (American),Female,26,into,173,produces,0.1503
+English (American),Female,26,into,173,understands,0
+English (American),Male,26,into,197,produces,0.1168
+English (American),Male,26,into,197,understands,0
+English (American),Female,27,into,158,produces,0.2089
+English (American),Female,27,into,158,understands,0
+English (American),Male,27,into,154,produces,0.1753
+English (American),Male,27,into,154,understands,0
+English (American),Female,28,into,416,produces,0.3293
+English (American),Female,28,into,416,understands,0
+English (American),Male,28,into,492,produces,0.2724
+English (American),Male,28,into,492,understands,0
+English (American),Female,29,into,166,produces,0.3133
+English (American),Female,29,into,166,understands,0
+English (American),Male,29,into,167,produces,0.2275
+English (American),Male,29,into,167,understands,0
+English (American),Female,30,into,323,produces,0.322
+English (American),Female,30,into,323,understands,0
+English (American),Male,30,into,368,produces,0.2935
+English (American),Male,30,into,368,understands,0
+Kiswahili,Female,23,Kwenye,1,produces,0
+Kiswahili,Female,23,Kwenye,1,understands,0
+Kiswahili,Male,23,Kwenye,1,produces,0
+Kiswahili,Male,23,Kwenye,1,understands,0
+Kiswahili,Female,24,Kwenye,6,produces,0.1667
+Kiswahili,Female,24,Kwenye,6,understands,0
+Kiswahili,Male,24,Kwenye,6,produces,0.1667
+Kiswahili,Male,24,Kwenye,6,understands,0
+Kiswahili,Female,25,Kwenye,8,produces,0
+Kiswahili,Female,25,Kwenye,8,understands,0
+Kiswahili,Male,25,Kwenye,2,produces,0
+Kiswahili,Male,25,Kwenye,2,understands,0
+Kiswahili,Female,26,Kwenye,3,produces,0
+Kiswahili,Female,26,Kwenye,3,understands,0
+Kiswahili,Male,26,Kwenye,10,produces,0.1
+Kiswahili,Male,26,Kwenye,10,understands,0
+Kiswahili,Female,27,Kwenye,3,produces,0
+Kiswahili,Female,27,Kwenye,3,understands,0
+Kiswahili,Male,27,Kwenye,5,produces,0
+Kiswahili,Male,27,Kwenye,5,understands,0
+Kiswahili,Female,28,Kwenye,3,produces,0
+Kiswahili,Female,28,Kwenye,3,understands,0
+Kiswahili,Male,28,Kwenye,3,produces,0
+Kiswahili,Male,28,Kwenye,3,understands,0
+Kiswahili,Female,29,Kwenye,3,produces,0
+Kiswahili,Female,29,Kwenye,3,understands,0
+Kiswahili,Male,29,Kwenye,3,produces,0.3333
+Kiswahili,Male,29,Kwenye,3,understands,0
+Kiswahili,Female,30,Kwenye,3,produces,0.3333
+Kiswahili,Female,30,Kwenye,3,understands,0
+Kiswahili,Male,30,Kwenye,2,produces,0
+Kiswahili,Male,30,Kwenye,2,understands,0
+Mandarin (Taiwanese),Female,16,在…裡面,39,produces,0
+Mandarin (Taiwanese),Female,16,在…裡面,39,understands,0
+Mandarin (Taiwanese),Male,16,在…裡面,41,produces,0
+Mandarin (Taiwanese),Male,16,在…裡面,41,understands,0
+Mandarin (Taiwanese),Female,17,在…裡面,37,produces,0
+Mandarin (Taiwanese),Female,17,在…裡面,37,understands,0
+Mandarin (Taiwanese),Male,17,在…裡面,50,produces,0.02
+Mandarin (Taiwanese),Male,17,在…裡面,50,understands,0
+Mandarin (Taiwanese),Female,18,在…裡面,49,produces,0.0408
+Mandarin (Taiwanese),Female,18,在…裡面,49,understands,0
+Mandarin (Taiwanese),Male,18,在…裡面,35,produces,0
+Mandarin (Taiwanese),Male,18,在…裡面,35,understands,0
+Mandarin (Taiwanese),Female,19,在…裡面,42,produces,0
+Mandarin (Taiwanese),Female,19,在…裡面,42,understands,0
+Mandarin (Taiwanese),Male,19,在…裡面,42,produces,0.0714
+Mandarin (Taiwanese),Male,19,在…裡面,42,understands,0
+Mandarin (Taiwanese),Female,20,在…裡面,40,produces,0.025
+Mandarin (Taiwanese),Female,20,在…裡面,40,understands,0
+Mandarin (Taiwanese),Male,20,在…裡面,44,produces,0.0227
+Mandarin (Taiwanese),Male,20,在…裡面,44,understands,0
+Mandarin (Taiwanese),Female,21,在…裡面,38,produces,0.1316
+Mandarin (Taiwanese),Female,21,在…裡面,38,understands,0
+Mandarin (Taiwanese),Male,21,在…裡面,50,produces,0.14
+Mandarin (Taiwanese),Male,21,在…裡面,50,understands,0
+Mandarin (Taiwanese),Female,22,在…裡面,48,produces,0.1458
+Mandarin (Taiwanese),Female,22,在…裡面,48,understands,0
+Mandarin (Taiwanese),Male,22,在…裡面,48,produces,0.1875
+Mandarin (Taiwanese),Male,22,在…裡面,48,understands,0
+Mandarin (Taiwanese),Female,23,在…裡面,50,produces,0.2
+Mandarin (Taiwanese),Female,23,在…裡面,50,understands,0
+Mandarin (Taiwanese),Male,23,在…裡面,55,produces,0.1818
+Mandarin (Taiwanese),Male,23,在…裡面,55,understands,0
+Mandarin (Taiwanese),Female,24,在…裡面,65,produces,0.3692
+Mandarin (Taiwanese),Female,24,在…裡面,65,understands,0
+Mandarin (Taiwanese),Male,24,在…裡面,59,produces,0.2203
+Mandarin (Taiwanese),Male,24,在…裡面,59,understands,0
+Mandarin (Taiwanese),Female,25,在…裡面,60,produces,0.4167
+Mandarin (Taiwanese),Female,25,在…裡面,60,understands,0
+Mandarin (Taiwanese),Male,25,在…裡面,50,produces,0.34
+Mandarin (Taiwanese),Male,25,在…裡面,50,understands,0
+Mandarin (Taiwanese),Female,26,在…裡面,38,produces,0.3684
+Mandarin (Taiwanese),Female,26,在…裡面,38,understands,0
+Mandarin (Taiwanese),Male,26,在…裡面,49,produces,0.3061
+Mandarin (Taiwanese),Male,26,在…裡面,49,understands,0
+Mandarin (Taiwanese),Female,27,在…裡面,49,produces,0.4286
+Mandarin (Taiwanese),Female,27,在…裡面,49,understands,0
+Mandarin (Taiwanese),Male,27,在…裡面,43,produces,0.2558
+Mandarin (Taiwanese),Male,27,在…裡面,43,understands,0
+Mandarin (Taiwanese),Female,28,在…裡面,50,produces,0.48
+Mandarin (Taiwanese),Female,28,在…裡面,50,understands,0
+Mandarin (Taiwanese),Male,28,在…裡面,50,produces,0.56
+Mandarin (Taiwanese),Male,28,在…裡面,50,understands,0
+Mandarin (Taiwanese),Female,29,在…裡面,41,produces,0.4634
+Mandarin (Taiwanese),Female,29,在…裡面,41,understands,0
+Mandarin (Taiwanese),Male,29,在…裡面,47,produces,0.5106
+Mandarin (Taiwanese),Male,29,在…裡面,47,understands,0
+Mandarin (Taiwanese),Female,30,在…裡面,44,produces,0.5682
+Mandarin (Taiwanese),Female,30,在…裡面,44,understands,0
+Mandarin (Taiwanese),Male,30,在…裡面,50,produces,0.52
+Mandarin (Taiwanese),Male,30,在…裡面,50,understands,0
+Mandarin (Taiwanese),Female,31,在…裡面,35,produces,0.6
+Mandarin (Taiwanese),Female,31,在…裡面,35,understands,0
+Mandarin (Taiwanese),Male,31,在…裡面,53,produces,0.5094
+Mandarin (Taiwanese),Male,31,在…裡面,53,understands,0
+Mandarin (Taiwanese),Female,32,在…裡面,43,produces,0.5814
+Mandarin (Taiwanese),Female,32,在…裡面,43,understands,0
+Mandarin (Taiwanese),Male,32,在…裡面,39,produces,0.4872
+Mandarin (Taiwanese),Male,32,在…裡面,39,understands,0
+Mandarin (Taiwanese),Female,33,在…裡面,45,produces,0.7556
+Mandarin (Taiwanese),Female,33,在…裡面,45,understands,0
+Mandarin (Taiwanese),Male,33,在…裡面,40,produces,0.6
+Mandarin (Taiwanese),Male,33,在…裡面,40,understands,0
+Mandarin (Taiwanese),Female,34,在…裡面,33,produces,0.697
+Mandarin (Taiwanese),Female,34,在…裡面,33,understands,0
+Mandarin (Taiwanese),Male,34,在…裡面,44,produces,0.5455
+Mandarin (Taiwanese),Male,34,在…裡面,44,understands,0
+Mandarin (Taiwanese),Female,35,在…裡面,42,produces,0.7381
+Mandarin (Taiwanese),Female,35,在…裡面,42,understands,0
+Mandarin (Taiwanese),Male,35,在…裡面,39,produces,0.6923
+Mandarin (Taiwanese),Male,35,在…裡面,39,understands,0
+Mandarin (Taiwanese),Female,36,在…裡面,38,produces,0.7105
+Mandarin (Taiwanese),Female,36,在…裡面,38,understands,0
+Mandarin (Taiwanese),Male,36,在…裡面,43,produces,0.6977
+Mandarin (Taiwanese),Male,36,在…裡面,43,understands,0

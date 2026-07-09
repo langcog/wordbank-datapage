@@ -1,497 +1,1473 @@
-language,age,words,n,measure,prop
-Japanese,8,いいよ,6,produces,0
-Japanese,8,いいよ,6,understands,0
-Japanese,9,いいよ,10,produces,0
-Japanese,9,いいよ,10,understands,0.1
-Japanese,10,いいよ,8,produces,0
-Japanese,10,いいよ,8,understands,0
-Japanese,11,いいよ,87,produces,0
-Japanese,11,いいよ,87,understands,0.0805
-Japanese,12,いいよ,118,produces,0
-Japanese,12,いいよ,118,understands,0.0932
-Japanese,13,いいよ,23,produces,0
-Japanese,13,いいよ,23,understands,0.2609
-Japanese,14,いいよ,26,produces,0.0385
-Japanese,14,いいよ,26,understands,0.2308
-Japanese,15,いいよ,72,produces,0.0278
-Japanese,15,いいよ,72,understands,0.2639
-Japanese,16,いいよ,46,produces,0.0435
-Japanese,16,いいよ,46,understands,0.1957
-Japanese,17,いいよ,77,produces,0.0519
-Japanese,17,いいよ,77,understands,0.3247
-Japanese,18,いいよ,94,produces,0.0851
-Japanese,18,いいよ,94,understands,0.1596
-Japanese,19,いいよ,35,produces,0.0857
-Japanese,19,いいよ,35,understands,0
-Japanese,20,いいよ,59,produces,0.1864
-Japanese,20,いいよ,59,understands,0
-Japanese,21,いいよ,62,produces,0.2097
-Japanese,21,いいよ,62,understands,0
-Japanese,22,いいよ,31,produces,0.3871
-Japanese,22,いいよ,31,understands,0
-Japanese,23,いいよ,67,produces,0.3731
-Japanese,23,いいよ,67,understands,0
-Japanese,24,いいよ,33,produces,0.6061
-Japanese,24,いいよ,33,understands,0
-Japanese,25,いいよ,34,produces,0.5588
-Japanese,25,いいよ,34,understands,0
-Japanese,26,いいよ,33,produces,0.7879
-Japanese,26,いいよ,33,understands,0
-Japanese,27,いいよ,15,produces,0.6
-Japanese,27,いいよ,15,understands,0
-Japanese,28,いいよ,18,produces,0.7222
-Japanese,28,いいよ,18,understands,0
-Japanese,29,いいよ,17,produces,0.7647
-Japanese,29,いいよ,17,understands,0
-Japanese,30,いいよ,18,produces,0.8333
-Japanese,30,いいよ,18,understands,0
-Japanese,31,いいよ,18,produces,0.8889
-Japanese,31,いいよ,18,understands,0
-Japanese,32,いいよ,13,produces,0.9231
-Japanese,32,いいよ,13,understands,0
-Japanese,33,いいよ,16,produces,0.875
-Japanese,33,いいよ,16,understands,0
-Japanese,34,いいよ,13,produces,0.8462
-Japanese,34,いいよ,13,understands,0
-Japanese,35,いいよ,31,produces,1
-Japanese,35,いいよ,31,understands,0
-Japanese,36,いいよ,18,produces,0.9444
-Japanese,36,いいよ,18,understands,0
-Kigiriama,16,Kara kara,1,produces,0
-Kigiriama,16,Kara kara,1,understands,0
-Kigiriama,17,Kara kara,6,produces,0
-Kigiriama,17,Kara kara,6,understands,0
-Kigiriama,18,Kara kara,13,produces,0
-Kigiriama,18,Kara kara,13,understands,0
-Kigiriama,19,Kara kara,8,produces,0
-Kigiriama,19,Kara kara,8,understands,0
-Kigiriama,20,Kara kara,14,produces,0
-Kigiriama,20,Kara kara,14,understands,0
-Kigiriama,21,Kara kara,6,produces,0
-Kigiriama,21,Kara kara,6,understands,0
-Kigiriama,22,Kara kara,9,produces,0.1111
-Kigiriama,22,Kara kara,9,understands,0
-Kigiriama,23,Kara kara,4,produces,0
-Kigiriama,23,Kara kara,4,understands,0
-Kigiriama,24,Kara kara,7,produces,0
-Kigiriama,24,Kara kara,7,understands,0
-Kigiriama,25,Kara kara,3,produces,0
-Kigiriama,25,Kara kara,3,understands,0
-Kigiriama,26,Kara kara,6,produces,0.1667
-Kigiriama,26,Kara kara,6,understands,0
-Kigiriama,27,Kara kara,4,produces,0.5
-Kigiriama,27,Kara kara,4,understands,0
-Kigiriama,28,Kara kara,1,produces,0
-Kigiriama,28,Kara kara,1,understands,0
-Kigiriama,29,Kara kara,5,produces,0
-Kigiriama,29,Kara kara,5,understands,0
-Kigiriama,30,Kara kara,1,produces,1
-Kigiriama,30,Kara kara,1,understands,0
-Kiswahili,23,Sawasawa,2,produces,0
-Kiswahili,23,Sawasawa,2,understands,0
-Kiswahili,24,Sawasawa,12,produces,0.25
-Kiswahili,24,Sawasawa,12,understands,0
-Kiswahili,25,Sawasawa,10,produces,0.1
-Kiswahili,25,Sawasawa,10,understands,0
-Kiswahili,26,Sawasawa,13,produces,0.1538
-Kiswahili,26,Sawasawa,13,understands,0
-Kiswahili,27,Sawasawa,8,produces,0
-Kiswahili,27,Sawasawa,8,understands,0
-Kiswahili,28,Sawasawa,6,produces,0
-Kiswahili,28,Sawasawa,6,understands,0
-Kiswahili,29,Sawasawa,6,produces,0.1667
-Kiswahili,29,Sawasawa,6,understands,0
-Kiswahili,30,Sawasawa,5,produces,0.4
-Kiswahili,30,Sawasawa,5,understands,0
-Latvian,17,labi,27,produces,0.1852
-Latvian,17,labi,27,understands,0
-Latvian,18,labi,21,produces,0.0952
-Latvian,18,labi,21,understands,0
-Latvian,19,labi,28,produces,0.2143
-Latvian,19,labi,28,understands,0
-Latvian,20,labi,34,produces,0.3529
-Latvian,20,labi,34,understands,0
-Latvian,21,labi,26,produces,0.6154
-Latvian,21,labi,26,understands,0
-Latvian,22,labi,32,produces,0.5
-Latvian,22,labi,32,understands,0
-Latvian,23,labi,25,produces,0.6
-Latvian,23,labi,25,understands,0
-Latvian,24,labi,30,produces,0.7333
-Latvian,24,labi,30,understands,0
-Latvian,25,labi,29,produces,0.7586
-Latvian,25,labi,29,understands,0
-Latvian,26,labi,22,produces,0.8182
-Latvian,26,labi,22,understands,0
-Latvian,27,labi,18,produces,0.8333
-Latvian,27,labi,18,understands,0
-Latvian,28,labi,23,produces,0.7391
-Latvian,28,labi,23,understands,0
-Latvian,29,labi,24,produces,0.8333
-Latvian,29,labi,24,understands,0
-Latvian,30,labi,26,produces,0.8077
-Latvian,30,labi,26,understands,0
-Latvian,31,labi,19,produces,0.8421
-Latvian,31,labi,19,understands,0
-Latvian,32,labi,25,produces,0.76
-Latvian,32,labi,25,understands,0
-Latvian,33,labi,31,produces,0.9355
-Latvian,33,labi,31,understands,0
-Latvian,34,labi,17,produces,0.9412
-Latvian,34,labi,17,understands,0
-Latvian,35,labi,21,produces,0.9048
-Latvian,35,labi,21,understands,0
-Latvian,36,labi,22,produces,0.8182
-Latvian,36,labi,22,understands,0
-Mandarin (Beijing),16,"好吧, 可以（做）",70,produces,0.0357
-Mandarin (Beijing),16,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),17,"好吧, 可以（做）",72,produces,0.0903
-Mandarin (Beijing),17,"好吧, 可以（做）",72,understands,0
-Mandarin (Beijing),18,"好吧, 可以（做）",71,produces,0.1901
-Mandarin (Beijing),18,"好吧, 可以（做）",71,understands,0
-Mandarin (Beijing),19,"好吧, 可以（做）",70,produces,0.2571
-Mandarin (Beijing),19,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),20,"好吧, 可以（做）",71,produces,0.3592
-Mandarin (Beijing),20,"好吧, 可以（做）",71,understands,0
-Mandarin (Beijing),21,"好吧, 可以（做）",70,produces,0.45
-Mandarin (Beijing),21,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),22,"好吧, 可以（做）",71,produces,0.5634
-Mandarin (Beijing),22,"好吧, 可以（做）",71,understands,0
-Mandarin (Beijing),23,"好吧, 可以（做）",70,produces,0.6286
-Mandarin (Beijing),23,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),24,"好吧, 可以（做）",70,produces,0.6857
-Mandarin (Beijing),24,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),25,"好吧, 可以（做）",70,produces,0.7643
-Mandarin (Beijing),25,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),26,"好吧, 可以（做）",71,produces,0.7113
-Mandarin (Beijing),26,"好吧, 可以（做）",71,understands,0
-Mandarin (Beijing),27,"好吧, 可以（做）",70,produces,0.8357
-Mandarin (Beijing),27,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),28,"好吧, 可以（做）",70,produces,0.8071
-Mandarin (Beijing),28,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),29,"好吧, 可以（做）",70,produces,0.8857
-Mandarin (Beijing),29,"好吧, 可以（做）",70,understands,0
-Mandarin (Beijing),30,"好吧, 可以（做）",70,produces,0.8857
-Mandarin (Beijing),30,"好吧, 可以（做）",70,understands,0
-Portuguese (European),8,Está bem!,126,produces,0
-Portuguese (European),8,Está bem!,126,understands,0.0476
-Portuguese (European),9,Está bem!,148,produces,0
-Portuguese (European),9,Está bem!,148,understands,0.1081
-Portuguese (European),10,Está bem!,168,produces,0
-Portuguese (European),10,Está bem!,168,understands,0.0714
-Portuguese (European),11,Está bem!,179,produces,0
-Portuguese (European),11,Está bem!,179,understands,0.0894
-Portuguese (European),12,Está bem!,161,produces,0.0124
-Portuguese (European),12,Está bem!,161,understands,0.1615
-Portuguese (European),13,Está bem!,176,produces,0.0057
-Portuguese (European),13,Está bem!,176,understands,0.2102
-Portuguese (European),14,Está bem!,183,produces,0.0109
-Portuguese (European),14,Está bem!,183,understands,0.2732
-Portuguese (European),15,Está bem!,173,produces,0.0347
-Portuguese (European),15,Está bem!,173,understands,0.422
-Portuguese (European),16,"Bem!, Está bem!",144,produces,0.0278
-Portuguese (European),16,"Bem!, Está bem!",144,understands,0
-Portuguese (European),17,"Bem!, Está bem!",158,produces,0.0222
-Portuguese (European),17,"Bem!, Está bem!",158,understands,0
-Portuguese (European),18,"Bem!, Está bem!",203,produces,0.0567
-Portuguese (European),18,"Bem!, Está bem!",203,understands,0
-Portuguese (European),19,"Bem!, Está bem!",196,produces,0.0663
-Portuguese (European),19,"Bem!, Está bem!",196,understands,0
-Portuguese (European),20,"Bem!, Está bem!",218,produces,0.1422
-Portuguese (European),20,"Bem!, Está bem!",218,understands,0
-Portuguese (European),21,"Bem!, Está bem!",208,produces,0.1106
-Portuguese (European),21,"Bem!, Está bem!",208,understands,0
-Portuguese (European),22,"Bem!, Está bem!",213,produces,0.1972
-Portuguese (European),22,"Bem!, Está bem!",213,understands,0
-Portuguese (European),23,"Bem!, Está bem!",199,produces,0.2136
-Portuguese (European),23,"Bem!, Está bem!",199,understands,0
-Portuguese (European),24,"Bem!, Está bem!",215,produces,0.2744
-Portuguese (European),24,"Bem!, Está bem!",215,understands,0
-Portuguese (European),25,"Bem!, Está bem!",213,produces,0.3732
-Portuguese (European),25,"Bem!, Está bem!",213,understands,0
-Portuguese (European),26,"Bem!, Está bem!",218,produces,0.3945
-Portuguese (European),26,"Bem!, Está bem!",218,understands,0
-Portuguese (European),27,"Bem!, Está bem!",238,produces,0.4769
-Portuguese (European),27,"Bem!, Está bem!",238,understands,0
-Portuguese (European),28,"Bem!, Está bem!",219,produces,0.5274
-Portuguese (European),28,"Bem!, Está bem!",219,understands,0
-Portuguese (European),29,"Bem!, Está bem!",207,produces,0.5435
-Portuguese (European),29,"Bem!, Está bem!",207,understands,0
-Portuguese (European),30,"Bem!, Está bem!",163,produces,0.5644
-Portuguese (European),30,"Bem!, Está bem!",163,understands,0
-Spanish (Argentinian),16,"dale, okey",47,produces,0.0638
-Spanish (Argentinian),16,"dale, okey",47,understands,0
-Spanish (Argentinian),17,"dale, okey",49,produces,0.0612
-Spanish (Argentinian),17,"dale, okey",49,understands,0
-Spanish (Argentinian),18,"dale, okey",62,produces,0.0806
-Spanish (Argentinian),18,"dale, okey",62,understands,0
-Spanish (Argentinian),19,"dale, okey",44,produces,0.0682
-Spanish (Argentinian),19,"dale, okey",44,understands,0
-Spanish (Argentinian),20,"dale, okey",46,produces,0.1413
-Spanish (Argentinian),20,"dale, okey",46,understands,0
-Spanish (Argentinian),21,"dale, okey",41,produces,0.2317
-Spanish (Argentinian),21,"dale, okey",41,understands,0
-Spanish (Argentinian),22,"dale, okey",57,produces,0.2105
-Spanish (Argentinian),22,"dale, okey",57,understands,0
-Spanish (Argentinian),23,"dale, okey",49,produces,0.2449
-Spanish (Argentinian),23,"dale, okey",49,understands,0
-Spanish (Argentinian),24,"dale, okey",75,produces,0.18
-Spanish (Argentinian),24,"dale, okey",75,understands,0
-Spanish (Argentinian),25,"dale, okey",43,produces,0.3256
-Spanish (Argentinian),25,"dale, okey",43,understands,0
-Spanish (Argentinian),26,"dale, okey",45,produces,0.3889
-Spanish (Argentinian),26,"dale, okey",45,understands,0
-Spanish (Argentinian),27,"dale, okey",44,produces,0.4205
-Spanish (Argentinian),27,"dale, okey",44,understands,0
-Spanish (Argentinian),28,"dale, okey",42,produces,0.4405
-Spanish (Argentinian),28,"dale, okey",42,understands,0
-Spanish (Argentinian),29,"dale, okey",65,produces,0.4
-Spanish (Argentinian),29,"dale, okey",65,understands,0
-Spanish (Argentinian),30,"dale, okey",69,produces,0.5072
-Spanish (Argentinian),30,"dale, okey",69,understands,0
-Spanish (Argentinian),31,"dale, okey",2,produces,0
-Spanish (Argentinian),31,"dale, okey",2,understands,0
-Spanish (Argentinian),32,"dale, okey",1,produces,1
-Spanish (Argentinian),32,"dale, okey",1,understands,0
-Spanish (Argentinian),33,"dale, okey",2,produces,0.25
-Spanish (Argentinian),33,"dale, okey",2,understands,0
-Spanish (European),8,vale,52,produces,0
-Spanish (European),8,vale,52,understands,0.0577
-Spanish (European),9,vale,45,produces,0
-Spanish (European),9,vale,45,understands,0.0222
-Spanish (European),10,vale,49,produces,0
-Spanish (European),10,vale,49,understands,0.0408
-Spanish (European),11,vale,36,produces,0
-Spanish (European),11,vale,36,understands,0.1111
-Spanish (European),12,vale,52,produces,0
-Spanish (European),12,vale,52,understands,0.1346
-Spanish (European),13,vale,58,produces,0
-Spanish (European),13,vale,58,understands,0.3793
-Spanish (European),14,vale,55,produces,0.0182
-Spanish (European),14,vale,55,understands,0.3091
-Spanish (European),15,vale,65,produces,0.1077
-Spanish (European),15,vale,65,understands,0.4615
-Spanish (European),16,"bueno (bien), vale",39,produces,0.0897
-Spanish (European),16,"bueno (bien), vale",39,understands,0
-Spanish (European),17,"bueno (bien), vale",39,produces,0.1154
-Spanish (European),17,"bueno (bien), vale",39,understands,0
-Spanish (European),18,"bueno (bien), vale",50,produces,0.22
-Spanish (European),18,"bueno (bien), vale",50,understands,0
-Spanish (European),19,"bueno (bien), vale",27,produces,0.2778
-Spanish (European),19,"bueno (bien), vale",27,understands,0
-Spanish (European),20,"bueno (bien), vale",36,produces,0.3889
-Spanish (European),20,"bueno (bien), vale",36,understands,0
-Spanish (European),21,"bueno (bien), vale",41,produces,0.4878
-Spanish (European),21,"bueno (bien), vale",41,understands,0
-Spanish (European),22,"bueno (bien), vale",38,produces,0.4868
-Spanish (European),22,"bueno (bien), vale",38,understands,0
-Spanish (European),23,"bueno (bien), vale",30,produces,0.7167
-Spanish (European),23,"bueno (bien), vale",30,understands,0
-Spanish (European),24,"bueno (bien), vale",55,produces,0.6727
-Spanish (European),24,"bueno (bien), vale",55,understands,0
-Spanish (European),25,"bueno (bien), vale",35,produces,0.5571
-Spanish (European),25,"bueno (bien), vale",35,understands,0
-Spanish (European),26,"bueno (bien), vale",49,produces,0.7449
-Spanish (European),26,"bueno (bien), vale",49,understands,0
-Spanish (European),27,"bueno (bien), vale",34,produces,0.75
-Spanish (European),27,"bueno (bien), vale",34,understands,0
-Spanish (European),28,"bueno (bien), vale",38,produces,0.7895
-Spanish (European),28,"bueno (bien), vale",38,understands,0
-Spanish (European),29,"bueno (bien), vale",41,produces,0.8537
-Spanish (European),29,"bueno (bien), vale",41,understands,0
-Spanish (European),30,"bueno (bien), vale",41,produces,0.8049
-Spanish (European),30,"bueno (bien), vale",41,understands,0
-Spanish (Peruvian),8,ya/ok,9,produces,0
-Spanish (Peruvian),8,ya/ok,9,understands,0.4444
-Spanish (Peruvian),9,ya/ok,12,produces,0.0833
-Spanish (Peruvian),9,ya/ok,12,understands,0.4167
-Spanish (Peruvian),10,ya/ok,7,produces,0.1429
-Spanish (Peruvian),10,ya/ok,7,understands,0.5714
-Spanish (Peruvian),11,ya/ok,18,produces,0.1667
-Spanish (Peruvian),11,ya/ok,18,understands,0.2778
-Spanish (Peruvian),12,ya/ok,14,produces,0.2143
-Spanish (Peruvian),12,ya/ok,14,understands,0.7143
-Spanish (Peruvian),13,ya/ok,9,produces,0.2222
-Spanish (Peruvian),13,ya/ok,9,understands,0.7778
-Spanish (Peruvian),14,ya/ok,8,produces,0.125
-Spanish (Peruvian),14,ya/ok,8,understands,0.625
-Spanish (Peruvian),15,ya/ok,10,produces,0.1
-Spanish (Peruvian),15,ya/ok,10,understands,0.4
-Spanish (Peruvian),16,"bueno/bien, ya/ok",13,produces,0.2692
-Spanish (Peruvian),16,"bueno/bien, ya/ok",13,understands,0
-Spanish (Peruvian),17,"bueno/bien, ya/ok",9,produces,0.5556
-Spanish (Peruvian),17,"bueno/bien, ya/ok",9,understands,0
-Spanish (Peruvian),18,"bueno/bien, ya/ok",4,produces,0.5
-Spanish (Peruvian),18,"bueno/bien, ya/ok",4,understands,0
-Spanish (Peruvian),19,"bueno/bien, ya/ok",12,produces,0.6667
-Spanish (Peruvian),19,"bueno/bien, ya/ok",12,understands,0
-Spanish (Peruvian),20,"bueno/bien, ya/ok",1,produces,0
-Spanish (Peruvian),20,"bueno/bien, ya/ok",1,understands,0
-Spanish (Peruvian),21,"bueno/bien, ya/ok",5,produces,0.5
-Spanish (Peruvian),21,"bueno/bien, ya/ok",5,understands,0
-Spanish (Peruvian),22,"bueno/bien, ya/ok",9,produces,0.3889
-Spanish (Peruvian),22,"bueno/bien, ya/ok",9,understands,0
-Spanish (Peruvian),23,"bueno/bien, ya/ok",1,produces,1
-Spanish (Peruvian),23,"bueno/bien, ya/ok",1,understands,0
-Spanish (Peruvian),24,"bueno/bien, ya/ok",15,produces,0.3667
-Spanish (Peruvian),24,"bueno/bien, ya/ok",15,understands,0
-Spanish (Peruvian),25,"bueno/bien, ya/ok",5,produces,0.4
-Spanish (Peruvian),25,"bueno/bien, ya/ok",5,understands,0
-Spanish (Peruvian),26,"bueno/bien, ya/ok",8,produces,0.375
-Spanish (Peruvian),26,"bueno/bien, ya/ok",8,understands,0
-Spanish (Peruvian),27,"bueno/bien, ya/ok",7,produces,0.3571
-Spanish (Peruvian),27,"bueno/bien, ya/ok",7,understands,0
-Spanish (Peruvian),28,"bueno/bien, ya/ok",8,produces,0.8125
-Spanish (Peruvian),28,"bueno/bien, ya/ok",8,understands,0
-Spanish (Peruvian),29,"bueno/bien, ya/ok",6,produces,0.6667
-Spanish (Peruvian),29,"bueno/bien, ya/ok",6,understands,0
-Spanish (Peruvian),30,"bueno/bien, ya/ok",2,produces,0.75
-Spanish (Peruvian),30,"bueno/bien, ya/ok",2,understands,0
-Turkish,8,Tamam,140,produces,0.0071
-Turkish,8,Tamam,140,understands,0.0786
-Turkish,9,Tamam,125,produces,0
-Turkish,9,Tamam,125,understands,0.184
-Turkish,10,Tamam,130,produces,0.0231
-Turkish,10,Tamam,130,understands,0.2769
-Turkish,11,Tamam,125,produces,0.008
-Turkish,11,Tamam,125,understands,0.32
-Turkish,12,Tamam,120,produces,0.0167
-Turkish,12,Tamam,120,understands,0.3333
-Turkish,13,Tamam,122,produces,0.0328
-Turkish,13,Tamam,122,understands,0.4098
-Turkish,14,Tamam,147,produces,0.068
-Turkish,14,Tamam,147,understands,0.5374
-Turkish,15,Tamam,131,produces,0.0687
-Turkish,15,Tamam,131,understands,0.5191
-Turkish,16,Tamam,184,produces,0.1413
-Turkish,16,Tamam,184,understands,0.2772
-Turkish,17,Tamam,107,produces,0.2243
-Turkish,17,Tamam,107,understands,0
-Turkish,18,Tamam,128,produces,0.2109
-Turkish,18,Tamam,128,understands,0
-Turkish,19,Tamam,121,produces,0.314
-Turkish,19,Tamam,121,understands,0
-Turkish,20,Tamam,119,produces,0.3782
-Turkish,20,Tamam,119,understands,0
-Turkish,21,Tamam,124,produces,0.5
-Turkish,21,Tamam,124,understands,0
-Turkish,22,Tamam,126,produces,0.4683
-Turkish,22,Tamam,126,understands,0
-Turkish,23,Tamam,131,produces,0.542
-Turkish,23,Tamam,131,understands,0
-Turkish,24,Tamam,106,produces,0.5849
-Turkish,24,Tamam,106,understands,0
-Turkish,25,Tamam,123,produces,0.6748
-Turkish,25,Tamam,123,understands,0
-Turkish,26,Tamam,123,produces,0.7317
-Turkish,26,Tamam,123,understands,0
-Turkish,27,Tamam,108,produces,0.7593
-Turkish,27,Tamam,108,understands,0
-Turkish,28,Tamam,112,produces,0.7857
-Turkish,28,Tamam,112,understands,0
-Turkish,29,Tamam,119,produces,0.7563
-Turkish,29,Tamam,119,understands,0
-Turkish,30,Tamam,104,produces,0.8365
-Turkish,30,Tamam,104,understands,0
-Turkish,31,Tamam,101,produces,0.8812
-Turkish,31,Tamam,101,understands,0
-Turkish,32,Tamam,132,produces,0.8636
-Turkish,32,Tamam,132,understands,0
-Turkish,33,Tamam,114,produces,0.9211
-Turkish,33,Tamam,114,understands,0
-Turkish,34,Tamam,107,produces,0.9065
-Turkish,34,Tamam,107,understands,0
-Turkish,35,Tamam,131,produces,0.8855
-Turkish,35,Tamam,131,understands,0
-Turkish,36,Tamam,77,produces,0.974
-Turkish,36,Tamam,77,understands,0
-Cantonese,16,好啦,46,produces,0.0435
-Cantonese,16,好啦,46,understands,0
-Cantonese,17,好啦,61,produces,0.0328
-Cantonese,17,好啦,61,understands,0
-Cantonese,18,好啦,68,produces,0.0147
-Cantonese,18,好啦,68,understands,0
-Cantonese,19,好啦,66,produces,0.0606
-Cantonese,19,好啦,66,understands,0
-Cantonese,20,好啦,140,produces,0.1357
-Cantonese,20,好啦,140,understands,0
-Cantonese,21,好啦,120,produces,0.1667
-Cantonese,21,好啦,120,understands,0
-Cantonese,22,好啦,68,produces,0.2353
-Cantonese,22,好啦,68,understands,0
-Cantonese,23,好啦,74,produces,0.2297
-Cantonese,23,好啦,74,understands,0
-Cantonese,24,好啦,68,produces,0.3971
-Cantonese,24,好啦,68,understands,0
-Cantonese,25,好啦,65,produces,0.3385
-Cantonese,25,好啦,65,understands,0
-Cantonese,26,好啦,68,produces,0.4559
-Cantonese,26,好啦,68,understands,0
-Cantonese,27,好啦,62,produces,0.5323
-Cantonese,27,好啦,62,understands,0
-Cantonese,28,好啦,66,produces,0.5606
-Cantonese,28,好啦,66,understands,0
-Cantonese,29,好啦,72,produces,0.6667
-Cantonese,29,好啦,72,understands,0
-Cantonese,30,好啦,164,produces,0.7073
-Cantonese,30,好啦,164,understands,0
-Dutch,15,oké,3,produces,0
-Dutch,15,oké,3,understands,0
-Dutch,16,oké,3,produces,0
-Dutch,16,oké,3,understands,0
-Dutch,17,oké,6,produces,0
-Dutch,17,oké,6,understands,0.5
-Dutch,18,oké,130,produces,0.1
-Dutch,18,oké,130,understands,0.1692
-Dutch,19,oké,94,produces,0.117
-Dutch,19,oké,94,understands,0.234
-Dutch,20,oké,26,produces,0.1538
-Dutch,20,oké,26,understands,0.4615
-Dutch,21,oké,6,produces,0.5
-Dutch,21,oké,6,understands,0.6667
-French (Quebecois),8,ok,103,produces,0
-French (Quebecois),8,ok,103,understands,0.068
-French (Quebecois),9,ok,167,produces,0.006
-French (Quebecois),9,ok,167,understands,0.0898
-French (Quebecois),10,ok,86,produces,0.0233
-French (Quebecois),10,ok,86,understands,0.093
-French (Quebecois),11,ok,81,produces,0.0123
-French (Quebecois),11,ok,81,understands,0.1975
-French (Quebecois),12,ok,166,produces,0.0361
-French (Quebecois),12,ok,166,understands,0.1928
-French (Quebecois),13,ok,126,produces,0.0556
-French (Quebecois),13,ok,126,understands,0.254
-French (Quebecois),14,ok,228,produces,0.0789
-French (Quebecois),14,ok,228,understands,0.3728
-French (Quebecois),15,ok,101,produces,0.1485
-French (Quebecois),15,ok,101,understands,0.4851
-French (Quebecois),16,"ok, okay",108,produces,0.1852
-French (Quebecois),16,"ok, okay",108,understands,0.2407
-French (Quebecois),17,okay,62,produces,0.1935
-French (Quebecois),17,okay,62,understands,0
-French (Quebecois),18,okay,99,produces,0.3737
-French (Quebecois),18,okay,99,understands,0
-French (Quebecois),19,okay,91,produces,0.3736
-French (Quebecois),19,okay,91,understands,0
-French (Quebecois),20,okay,196,produces,0.4133
-French (Quebecois),20,okay,196,understands,0
-French (Quebecois),21,okay,109,produces,0.5321
-French (Quebecois),21,okay,109,understands,0
-French (Quebecois),22,okay,86,produces,0.6163
-French (Quebecois),22,okay,86,understands,0
-French (Quebecois),23,okay,86,produces,0.7209
-French (Quebecois),23,okay,86,understands,0
-French (Quebecois),24,okay,132,produces,0.7424
-French (Quebecois),24,okay,132,understands,0
-French (Quebecois),25,okay,87,produces,0.7241
-French (Quebecois),25,okay,87,understands,0
-French (Quebecois),26,okay,95,produces,0.7789
-French (Quebecois),26,okay,95,understands,0
-French (Quebecois),27,okay,74,produces,0.8243
-French (Quebecois),27,okay,74,understands,0
-French (Quebecois),28,okay,61,produces,0.8197
-French (Quebecois),28,okay,61,understands,0
-French (Quebecois),29,okay,70,produces,0.9429
-French (Quebecois),29,okay,70,understands,0
-French (Quebecois),30,okay,100,produces,0.85
-French (Quebecois),30,okay,100,understands,0
+language,sex,age,words,n,measure,prop
+Cantonese,All,16,好啦,46,produces,0.0435
+Cantonese,All,16,好啦,46,understands,0
+Cantonese,All,17,好啦,61,produces,0.0328
+Cantonese,All,17,好啦,61,understands,0
+Cantonese,All,18,好啦,68,produces,0.0147
+Cantonese,All,18,好啦,68,understands,0
+Cantonese,All,19,好啦,66,produces,0.0606
+Cantonese,All,19,好啦,66,understands,0
+Cantonese,All,20,好啦,140,produces,0.1357
+Cantonese,All,20,好啦,140,understands,0
+Cantonese,All,21,好啦,120,produces,0.1667
+Cantonese,All,21,好啦,120,understands,0
+Cantonese,All,22,好啦,68,produces,0.2353
+Cantonese,All,22,好啦,68,understands,0
+Cantonese,All,23,好啦,74,produces,0.2297
+Cantonese,All,23,好啦,74,understands,0
+Cantonese,All,24,好啦,68,produces,0.3971
+Cantonese,All,24,好啦,68,understands,0
+Cantonese,All,25,好啦,65,produces,0.3385
+Cantonese,All,25,好啦,65,understands,0
+Cantonese,All,26,好啦,68,produces,0.4559
+Cantonese,All,26,好啦,68,understands,0
+Cantonese,All,27,好啦,62,produces,0.5323
+Cantonese,All,27,好啦,62,understands,0
+Cantonese,All,28,好啦,66,produces,0.5606
+Cantonese,All,28,好啦,66,understands,0
+Cantonese,All,29,好啦,72,produces,0.6667
+Cantonese,All,29,好啦,72,understands,0
+Cantonese,All,30,好啦,164,produces,0.7073
+Cantonese,All,30,好啦,164,understands,0
+Dutch,All,15,oké,3,produces,0
+Dutch,All,15,oké,3,understands,0
+Dutch,All,16,oké,3,produces,0
+Dutch,All,16,oké,3,understands,0
+Dutch,All,17,oké,6,produces,0
+Dutch,All,17,oké,6,understands,0.5
+Dutch,All,18,oké,130,produces,0.1
+Dutch,All,18,oké,130,understands,0.1692
+Dutch,All,19,oké,94,produces,0.117
+Dutch,All,19,oké,94,understands,0.234
+Dutch,All,20,oké,26,produces,0.1538
+Dutch,All,20,oké,26,understands,0.4615
+Dutch,All,21,oké,6,produces,0.5
+Dutch,All,21,oké,6,understands,0.6667
+French (Quebecois),All,8,ok,103,produces,0
+French (Quebecois),All,8,ok,103,understands,0.068
+French (Quebecois),All,9,ok,167,produces,0.006
+French (Quebecois),All,9,ok,167,understands,0.0898
+French (Quebecois),All,10,ok,86,produces,0.0233
+French (Quebecois),All,10,ok,86,understands,0.093
+French (Quebecois),All,11,ok,81,produces,0.0123
+French (Quebecois),All,11,ok,81,understands,0.1975
+French (Quebecois),All,12,ok,166,produces,0.0361
+French (Quebecois),All,12,ok,166,understands,0.1928
+French (Quebecois),All,13,ok,126,produces,0.0556
+French (Quebecois),All,13,ok,126,understands,0.254
+French (Quebecois),All,14,ok,228,produces,0.0789
+French (Quebecois),All,14,ok,228,understands,0.3728
+French (Quebecois),All,15,ok,101,produces,0.1485
+French (Quebecois),All,15,ok,101,understands,0.4851
+French (Quebecois),All,16,"ok, okay",108,produces,0.1852
+French (Quebecois),All,16,"ok, okay",108,understands,0.2407
+French (Quebecois),All,17,okay,62,produces,0.1935
+French (Quebecois),All,17,okay,62,understands,0
+French (Quebecois),All,18,okay,99,produces,0.3737
+French (Quebecois),All,18,okay,99,understands,0
+French (Quebecois),All,19,okay,91,produces,0.3736
+French (Quebecois),All,19,okay,91,understands,0
+French (Quebecois),All,20,okay,196,produces,0.4133
+French (Quebecois),All,20,okay,196,understands,0
+French (Quebecois),All,21,okay,109,produces,0.5321
+French (Quebecois),All,21,okay,109,understands,0
+French (Quebecois),All,22,okay,86,produces,0.6163
+French (Quebecois),All,22,okay,86,understands,0
+French (Quebecois),All,23,okay,86,produces,0.7209
+French (Quebecois),All,23,okay,86,understands,0
+French (Quebecois),All,24,okay,132,produces,0.7424
+French (Quebecois),All,24,okay,132,understands,0
+French (Quebecois),All,25,okay,87,produces,0.7241
+French (Quebecois),All,25,okay,87,understands,0
+French (Quebecois),All,26,okay,95,produces,0.7789
+French (Quebecois),All,26,okay,95,understands,0
+French (Quebecois),All,27,okay,74,produces,0.8243
+French (Quebecois),All,27,okay,74,understands,0
+French (Quebecois),All,28,okay,61,produces,0.8197
+French (Quebecois),All,28,okay,61,understands,0
+French (Quebecois),All,29,okay,70,produces,0.9429
+French (Quebecois),All,29,okay,70,understands,0
+French (Quebecois),All,30,okay,100,produces,0.85
+French (Quebecois),All,30,okay,100,understands,0
+Japanese,All,8,いいよ,6,produces,0
+Japanese,All,8,いいよ,6,understands,0
+Japanese,All,9,いいよ,10,produces,0
+Japanese,All,9,いいよ,10,understands,0.1
+Japanese,All,10,いいよ,8,produces,0
+Japanese,All,10,いいよ,8,understands,0
+Japanese,All,11,いいよ,87,produces,0
+Japanese,All,11,いいよ,87,understands,0.0805
+Japanese,All,12,いいよ,118,produces,0
+Japanese,All,12,いいよ,118,understands,0.0932
+Japanese,All,13,いいよ,23,produces,0
+Japanese,All,13,いいよ,23,understands,0.2609
+Japanese,All,14,いいよ,26,produces,0.0385
+Japanese,All,14,いいよ,26,understands,0.2308
+Japanese,All,15,いいよ,72,produces,0.0278
+Japanese,All,15,いいよ,72,understands,0.2639
+Japanese,All,16,いいよ,46,produces,0.0435
+Japanese,All,16,いいよ,46,understands,0.1957
+Japanese,All,17,いいよ,77,produces,0.0519
+Japanese,All,17,いいよ,77,understands,0.3247
+Japanese,All,18,いいよ,94,produces,0.0851
+Japanese,All,18,いいよ,94,understands,0.1596
+Japanese,All,19,いいよ,35,produces,0.0857
+Japanese,All,19,いいよ,35,understands,0
+Japanese,All,20,いいよ,59,produces,0.1864
+Japanese,All,20,いいよ,59,understands,0
+Japanese,All,21,いいよ,62,produces,0.2097
+Japanese,All,21,いいよ,62,understands,0
+Japanese,All,22,いいよ,31,produces,0.3871
+Japanese,All,22,いいよ,31,understands,0
+Japanese,All,23,いいよ,67,produces,0.3731
+Japanese,All,23,いいよ,67,understands,0
+Japanese,All,24,いいよ,33,produces,0.6061
+Japanese,All,24,いいよ,33,understands,0
+Japanese,All,25,いいよ,34,produces,0.5588
+Japanese,All,25,いいよ,34,understands,0
+Japanese,All,26,いいよ,33,produces,0.7879
+Japanese,All,26,いいよ,33,understands,0
+Japanese,All,27,いいよ,15,produces,0.6
+Japanese,All,27,いいよ,15,understands,0
+Japanese,All,28,いいよ,18,produces,0.7222
+Japanese,All,28,いいよ,18,understands,0
+Japanese,All,29,いいよ,17,produces,0.7647
+Japanese,All,29,いいよ,17,understands,0
+Japanese,All,30,いいよ,18,produces,0.8333
+Japanese,All,30,いいよ,18,understands,0
+Japanese,All,31,いいよ,18,produces,0.8889
+Japanese,All,31,いいよ,18,understands,0
+Japanese,All,32,いいよ,13,produces,0.9231
+Japanese,All,32,いいよ,13,understands,0
+Japanese,All,33,いいよ,16,produces,0.875
+Japanese,All,33,いいよ,16,understands,0
+Japanese,All,34,いいよ,13,produces,0.8462
+Japanese,All,34,いいよ,13,understands,0
+Japanese,All,35,いいよ,31,produces,1
+Japanese,All,35,いいよ,31,understands,0
+Japanese,All,36,いいよ,18,produces,0.9444
+Japanese,All,36,いいよ,18,understands,0
+Kigiriama,All,16,Kara kara,1,produces,0
+Kigiriama,All,16,Kara kara,1,understands,0
+Kigiriama,All,17,Kara kara,6,produces,0
+Kigiriama,All,17,Kara kara,6,understands,0
+Kigiriama,All,18,Kara kara,13,produces,0
+Kigiriama,All,18,Kara kara,13,understands,0
+Kigiriama,All,19,Kara kara,8,produces,0
+Kigiriama,All,19,Kara kara,8,understands,0
+Kigiriama,All,20,Kara kara,14,produces,0
+Kigiriama,All,20,Kara kara,14,understands,0
+Kigiriama,All,21,Kara kara,6,produces,0
+Kigiriama,All,21,Kara kara,6,understands,0
+Kigiriama,All,22,Kara kara,9,produces,0.1111
+Kigiriama,All,22,Kara kara,9,understands,0
+Kigiriama,All,23,Kara kara,4,produces,0
+Kigiriama,All,23,Kara kara,4,understands,0
+Kigiriama,All,24,Kara kara,7,produces,0
+Kigiriama,All,24,Kara kara,7,understands,0
+Kigiriama,All,25,Kara kara,3,produces,0
+Kigiriama,All,25,Kara kara,3,understands,0
+Kigiriama,All,26,Kara kara,6,produces,0.1667
+Kigiriama,All,26,Kara kara,6,understands,0
+Kigiriama,All,27,Kara kara,4,produces,0.5
+Kigiriama,All,27,Kara kara,4,understands,0
+Kigiriama,All,28,Kara kara,1,produces,0
+Kigiriama,All,28,Kara kara,1,understands,0
+Kigiriama,All,29,Kara kara,5,produces,0
+Kigiriama,All,29,Kara kara,5,understands,0
+Kigiriama,All,30,Kara kara,1,produces,1
+Kigiriama,All,30,Kara kara,1,understands,0
+Kiswahili,All,23,Sawasawa,2,produces,0
+Kiswahili,All,23,Sawasawa,2,understands,0
+Kiswahili,All,24,Sawasawa,12,produces,0.25
+Kiswahili,All,24,Sawasawa,12,understands,0
+Kiswahili,All,25,Sawasawa,10,produces,0.1
+Kiswahili,All,25,Sawasawa,10,understands,0
+Kiswahili,All,26,Sawasawa,13,produces,0.1538
+Kiswahili,All,26,Sawasawa,13,understands,0
+Kiswahili,All,27,Sawasawa,8,produces,0
+Kiswahili,All,27,Sawasawa,8,understands,0
+Kiswahili,All,28,Sawasawa,6,produces,0
+Kiswahili,All,28,Sawasawa,6,understands,0
+Kiswahili,All,29,Sawasawa,6,produces,0.1667
+Kiswahili,All,29,Sawasawa,6,understands,0
+Kiswahili,All,30,Sawasawa,5,produces,0.4
+Kiswahili,All,30,Sawasawa,5,understands,0
+Latvian,All,17,labi,27,produces,0.1852
+Latvian,All,17,labi,27,understands,0
+Latvian,All,18,labi,21,produces,0.0952
+Latvian,All,18,labi,21,understands,0
+Latvian,All,19,labi,28,produces,0.2143
+Latvian,All,19,labi,28,understands,0
+Latvian,All,20,labi,34,produces,0.3529
+Latvian,All,20,labi,34,understands,0
+Latvian,All,21,labi,26,produces,0.6154
+Latvian,All,21,labi,26,understands,0
+Latvian,All,22,labi,32,produces,0.5
+Latvian,All,22,labi,32,understands,0
+Latvian,All,23,labi,25,produces,0.6
+Latvian,All,23,labi,25,understands,0
+Latvian,All,24,labi,30,produces,0.7333
+Latvian,All,24,labi,30,understands,0
+Latvian,All,25,labi,29,produces,0.7586
+Latvian,All,25,labi,29,understands,0
+Latvian,All,26,labi,22,produces,0.8182
+Latvian,All,26,labi,22,understands,0
+Latvian,All,27,labi,18,produces,0.8333
+Latvian,All,27,labi,18,understands,0
+Latvian,All,28,labi,23,produces,0.7391
+Latvian,All,28,labi,23,understands,0
+Latvian,All,29,labi,24,produces,0.8333
+Latvian,All,29,labi,24,understands,0
+Latvian,All,30,labi,26,produces,0.8077
+Latvian,All,30,labi,26,understands,0
+Latvian,All,31,labi,19,produces,0.8421
+Latvian,All,31,labi,19,understands,0
+Latvian,All,32,labi,25,produces,0.76
+Latvian,All,32,labi,25,understands,0
+Latvian,All,33,labi,31,produces,0.9355
+Latvian,All,33,labi,31,understands,0
+Latvian,All,34,labi,17,produces,0.9412
+Latvian,All,34,labi,17,understands,0
+Latvian,All,35,labi,21,produces,0.9048
+Latvian,All,35,labi,21,understands,0
+Latvian,All,36,labi,22,produces,0.8182
+Latvian,All,36,labi,22,understands,0
+Mandarin (Beijing),All,16,"好吧, 可以（做）",70,produces,0.0357
+Mandarin (Beijing),All,16,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,17,"好吧, 可以（做）",72,produces,0.0903
+Mandarin (Beijing),All,17,"好吧, 可以（做）",72,understands,0
+Mandarin (Beijing),All,18,"好吧, 可以（做）",71,produces,0.1901
+Mandarin (Beijing),All,18,"好吧, 可以（做）",71,understands,0
+Mandarin (Beijing),All,19,"好吧, 可以（做）",70,produces,0.2571
+Mandarin (Beijing),All,19,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,20,"好吧, 可以（做）",71,produces,0.3592
+Mandarin (Beijing),All,20,"好吧, 可以（做）",71,understands,0
+Mandarin (Beijing),All,21,"好吧, 可以（做）",70,produces,0.45
+Mandarin (Beijing),All,21,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,22,"好吧, 可以（做）",71,produces,0.5634
+Mandarin (Beijing),All,22,"好吧, 可以（做）",71,understands,0
+Mandarin (Beijing),All,23,"好吧, 可以（做）",70,produces,0.6286
+Mandarin (Beijing),All,23,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,24,"好吧, 可以（做）",70,produces,0.6857
+Mandarin (Beijing),All,24,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,25,"好吧, 可以（做）",70,produces,0.7643
+Mandarin (Beijing),All,25,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,26,"好吧, 可以（做）",71,produces,0.7113
+Mandarin (Beijing),All,26,"好吧, 可以（做）",71,understands,0
+Mandarin (Beijing),All,27,"好吧, 可以（做）",70,produces,0.8357
+Mandarin (Beijing),All,27,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,28,"好吧, 可以（做）",70,produces,0.8071
+Mandarin (Beijing),All,28,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,29,"好吧, 可以（做）",70,produces,0.8857
+Mandarin (Beijing),All,29,"好吧, 可以（做）",70,understands,0
+Mandarin (Beijing),All,30,"好吧, 可以（做）",70,produces,0.8857
+Mandarin (Beijing),All,30,"好吧, 可以（做）",70,understands,0
+Portuguese (European),All,8,Está bem!,126,produces,0
+Portuguese (European),All,8,Está bem!,126,understands,0.0476
+Portuguese (European),All,9,Está bem!,148,produces,0
+Portuguese (European),All,9,Está bem!,148,understands,0.1081
+Portuguese (European),All,10,Está bem!,168,produces,0
+Portuguese (European),All,10,Está bem!,168,understands,0.0714
+Portuguese (European),All,11,Está bem!,179,produces,0
+Portuguese (European),All,11,Está bem!,179,understands,0.0894
+Portuguese (European),All,12,Está bem!,161,produces,0.0124
+Portuguese (European),All,12,Está bem!,161,understands,0.1615
+Portuguese (European),All,13,Está bem!,176,produces,0.0057
+Portuguese (European),All,13,Está bem!,176,understands,0.2102
+Portuguese (European),All,14,Está bem!,183,produces,0.0109
+Portuguese (European),All,14,Está bem!,183,understands,0.2732
+Portuguese (European),All,15,Está bem!,173,produces,0.0347
+Portuguese (European),All,15,Está bem!,173,understands,0.422
+Portuguese (European),All,16,"Bem!, Está bem!",144,produces,0.0278
+Portuguese (European),All,16,"Bem!, Está bem!",144,understands,0
+Portuguese (European),All,17,"Bem!, Está bem!",158,produces,0.0222
+Portuguese (European),All,17,"Bem!, Está bem!",158,understands,0
+Portuguese (European),All,18,"Bem!, Está bem!",203,produces,0.0567
+Portuguese (European),All,18,"Bem!, Está bem!",203,understands,0
+Portuguese (European),All,19,"Bem!, Está bem!",196,produces,0.0663
+Portuguese (European),All,19,"Bem!, Está bem!",196,understands,0
+Portuguese (European),All,20,"Bem!, Está bem!",218,produces,0.1422
+Portuguese (European),All,20,"Bem!, Está bem!",218,understands,0
+Portuguese (European),All,21,"Bem!, Está bem!",208,produces,0.1106
+Portuguese (European),All,21,"Bem!, Está bem!",208,understands,0
+Portuguese (European),All,22,"Bem!, Está bem!",213,produces,0.1972
+Portuguese (European),All,22,"Bem!, Está bem!",213,understands,0
+Portuguese (European),All,23,"Bem!, Está bem!",199,produces,0.2136
+Portuguese (European),All,23,"Bem!, Está bem!",199,understands,0
+Portuguese (European),All,24,"Bem!, Está bem!",215,produces,0.2744
+Portuguese (European),All,24,"Bem!, Está bem!",215,understands,0
+Portuguese (European),All,25,"Bem!, Está bem!",213,produces,0.3732
+Portuguese (European),All,25,"Bem!, Está bem!",213,understands,0
+Portuguese (European),All,26,"Bem!, Está bem!",218,produces,0.3945
+Portuguese (European),All,26,"Bem!, Está bem!",218,understands,0
+Portuguese (European),All,27,"Bem!, Está bem!",238,produces,0.4769
+Portuguese (European),All,27,"Bem!, Está bem!",238,understands,0
+Portuguese (European),All,28,"Bem!, Está bem!",219,produces,0.5274
+Portuguese (European),All,28,"Bem!, Está bem!",219,understands,0
+Portuguese (European),All,29,"Bem!, Está bem!",207,produces,0.5435
+Portuguese (European),All,29,"Bem!, Está bem!",207,understands,0
+Portuguese (European),All,30,"Bem!, Está bem!",163,produces,0.5644
+Portuguese (European),All,30,"Bem!, Está bem!",163,understands,0
+Spanish (Argentinian),All,16,"dale, okey",47,produces,0.0638
+Spanish (Argentinian),All,16,"dale, okey",47,understands,0
+Spanish (Argentinian),All,17,"dale, okey",49,produces,0.0612
+Spanish (Argentinian),All,17,"dale, okey",49,understands,0
+Spanish (Argentinian),All,18,"dale, okey",62,produces,0.0806
+Spanish (Argentinian),All,18,"dale, okey",62,understands,0
+Spanish (Argentinian),All,19,"dale, okey",44,produces,0.0682
+Spanish (Argentinian),All,19,"dale, okey",44,understands,0
+Spanish (Argentinian),All,20,"dale, okey",46,produces,0.1413
+Spanish (Argentinian),All,20,"dale, okey",46,understands,0
+Spanish (Argentinian),All,21,"dale, okey",41,produces,0.2317
+Spanish (Argentinian),All,21,"dale, okey",41,understands,0
+Spanish (Argentinian),All,22,"dale, okey",57,produces,0.2105
+Spanish (Argentinian),All,22,"dale, okey",57,understands,0
+Spanish (Argentinian),All,23,"dale, okey",49,produces,0.2449
+Spanish (Argentinian),All,23,"dale, okey",49,understands,0
+Spanish (Argentinian),All,24,"dale, okey",75,produces,0.18
+Spanish (Argentinian),All,24,"dale, okey",75,understands,0
+Spanish (Argentinian),All,25,"dale, okey",43,produces,0.3256
+Spanish (Argentinian),All,25,"dale, okey",43,understands,0
+Spanish (Argentinian),All,26,"dale, okey",45,produces,0.3889
+Spanish (Argentinian),All,26,"dale, okey",45,understands,0
+Spanish (Argentinian),All,27,"dale, okey",44,produces,0.4205
+Spanish (Argentinian),All,27,"dale, okey",44,understands,0
+Spanish (Argentinian),All,28,"dale, okey",42,produces,0.4405
+Spanish (Argentinian),All,28,"dale, okey",42,understands,0
+Spanish (Argentinian),All,29,"dale, okey",65,produces,0.4
+Spanish (Argentinian),All,29,"dale, okey",65,understands,0
+Spanish (Argentinian),All,30,"dale, okey",69,produces,0.5072
+Spanish (Argentinian),All,30,"dale, okey",69,understands,0
+Spanish (Argentinian),All,31,"dale, okey",2,produces,0
+Spanish (Argentinian),All,31,"dale, okey",2,understands,0
+Spanish (Argentinian),All,32,"dale, okey",1,produces,1
+Spanish (Argentinian),All,32,"dale, okey",1,understands,0
+Spanish (Argentinian),All,33,"dale, okey",2,produces,0.25
+Spanish (Argentinian),All,33,"dale, okey",2,understands,0
+Spanish (European),All,8,vale,52,produces,0
+Spanish (European),All,8,vale,52,understands,0.0577
+Spanish (European),All,9,vale,45,produces,0
+Spanish (European),All,9,vale,45,understands,0.0222
+Spanish (European),All,10,vale,49,produces,0
+Spanish (European),All,10,vale,49,understands,0.0408
+Spanish (European),All,11,vale,36,produces,0
+Spanish (European),All,11,vale,36,understands,0.1111
+Spanish (European),All,12,vale,52,produces,0
+Spanish (European),All,12,vale,52,understands,0.1346
+Spanish (European),All,13,vale,58,produces,0
+Spanish (European),All,13,vale,58,understands,0.3793
+Spanish (European),All,14,vale,55,produces,0.0182
+Spanish (European),All,14,vale,55,understands,0.3091
+Spanish (European),All,15,vale,65,produces,0.1077
+Spanish (European),All,15,vale,65,understands,0.4615
+Spanish (European),All,16,"bueno (bien), vale",39,produces,0.0897
+Spanish (European),All,16,"bueno (bien), vale",39,understands,0
+Spanish (European),All,17,"bueno (bien), vale",39,produces,0.1154
+Spanish (European),All,17,"bueno (bien), vale",39,understands,0
+Spanish (European),All,18,"bueno (bien), vale",50,produces,0.22
+Spanish (European),All,18,"bueno (bien), vale",50,understands,0
+Spanish (European),All,19,"bueno (bien), vale",27,produces,0.2778
+Spanish (European),All,19,"bueno (bien), vale",27,understands,0
+Spanish (European),All,20,"bueno (bien), vale",36,produces,0.3889
+Spanish (European),All,20,"bueno (bien), vale",36,understands,0
+Spanish (European),All,21,"bueno (bien), vale",41,produces,0.4878
+Spanish (European),All,21,"bueno (bien), vale",41,understands,0
+Spanish (European),All,22,"bueno (bien), vale",38,produces,0.4868
+Spanish (European),All,22,"bueno (bien), vale",38,understands,0
+Spanish (European),All,23,"bueno (bien), vale",30,produces,0.7167
+Spanish (European),All,23,"bueno (bien), vale",30,understands,0
+Spanish (European),All,24,"bueno (bien), vale",55,produces,0.6727
+Spanish (European),All,24,"bueno (bien), vale",55,understands,0
+Spanish (European),All,25,"bueno (bien), vale",35,produces,0.5571
+Spanish (European),All,25,"bueno (bien), vale",35,understands,0
+Spanish (European),All,26,"bueno (bien), vale",49,produces,0.7449
+Spanish (European),All,26,"bueno (bien), vale",49,understands,0
+Spanish (European),All,27,"bueno (bien), vale",34,produces,0.75
+Spanish (European),All,27,"bueno (bien), vale",34,understands,0
+Spanish (European),All,28,"bueno (bien), vale",38,produces,0.7895
+Spanish (European),All,28,"bueno (bien), vale",38,understands,0
+Spanish (European),All,29,"bueno (bien), vale",41,produces,0.8537
+Spanish (European),All,29,"bueno (bien), vale",41,understands,0
+Spanish (European),All,30,"bueno (bien), vale",41,produces,0.8049
+Spanish (European),All,30,"bueno (bien), vale",41,understands,0
+Spanish (Peruvian),All,8,ya/ok,9,produces,0
+Spanish (Peruvian),All,8,ya/ok,9,understands,0.4444
+Spanish (Peruvian),All,9,ya/ok,12,produces,0.0833
+Spanish (Peruvian),All,9,ya/ok,12,understands,0.4167
+Spanish (Peruvian),All,10,ya/ok,7,produces,0.1429
+Spanish (Peruvian),All,10,ya/ok,7,understands,0.5714
+Spanish (Peruvian),All,11,ya/ok,18,produces,0.1667
+Spanish (Peruvian),All,11,ya/ok,18,understands,0.2778
+Spanish (Peruvian),All,12,ya/ok,14,produces,0.2143
+Spanish (Peruvian),All,12,ya/ok,14,understands,0.7143
+Spanish (Peruvian),All,13,ya/ok,9,produces,0.2222
+Spanish (Peruvian),All,13,ya/ok,9,understands,0.7778
+Spanish (Peruvian),All,14,ya/ok,8,produces,0.125
+Spanish (Peruvian),All,14,ya/ok,8,understands,0.625
+Spanish (Peruvian),All,15,ya/ok,10,produces,0.1
+Spanish (Peruvian),All,15,ya/ok,10,understands,0.4
+Spanish (Peruvian),All,16,"bueno/bien, ya/ok",13,produces,0.2692
+Spanish (Peruvian),All,16,"bueno/bien, ya/ok",13,understands,0
+Spanish (Peruvian),All,17,"bueno/bien, ya/ok",9,produces,0.5556
+Spanish (Peruvian),All,17,"bueno/bien, ya/ok",9,understands,0
+Spanish (Peruvian),All,18,"bueno/bien, ya/ok",4,produces,0.5
+Spanish (Peruvian),All,18,"bueno/bien, ya/ok",4,understands,0
+Spanish (Peruvian),All,19,"bueno/bien, ya/ok",12,produces,0.6667
+Spanish (Peruvian),All,19,"bueno/bien, ya/ok",12,understands,0
+Spanish (Peruvian),All,20,"bueno/bien, ya/ok",1,produces,0
+Spanish (Peruvian),All,20,"bueno/bien, ya/ok",1,understands,0
+Spanish (Peruvian),All,21,"bueno/bien, ya/ok",5,produces,0.5
+Spanish (Peruvian),All,21,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),All,22,"bueno/bien, ya/ok",9,produces,0.3889
+Spanish (Peruvian),All,22,"bueno/bien, ya/ok",9,understands,0
+Spanish (Peruvian),All,23,"bueno/bien, ya/ok",1,produces,1
+Spanish (Peruvian),All,23,"bueno/bien, ya/ok",1,understands,0
+Spanish (Peruvian),All,24,"bueno/bien, ya/ok",15,produces,0.3667
+Spanish (Peruvian),All,24,"bueno/bien, ya/ok",15,understands,0
+Spanish (Peruvian),All,25,"bueno/bien, ya/ok",5,produces,0.4
+Spanish (Peruvian),All,25,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),All,26,"bueno/bien, ya/ok",8,produces,0.375
+Spanish (Peruvian),All,26,"bueno/bien, ya/ok",8,understands,0
+Spanish (Peruvian),All,27,"bueno/bien, ya/ok",7,produces,0.3571
+Spanish (Peruvian),All,27,"bueno/bien, ya/ok",7,understands,0
+Spanish (Peruvian),All,28,"bueno/bien, ya/ok",8,produces,0.8125
+Spanish (Peruvian),All,28,"bueno/bien, ya/ok",8,understands,0
+Spanish (Peruvian),All,29,"bueno/bien, ya/ok",6,produces,0.6667
+Spanish (Peruvian),All,29,"bueno/bien, ya/ok",6,understands,0
+Spanish (Peruvian),All,30,"bueno/bien, ya/ok",2,produces,0.75
+Spanish (Peruvian),All,30,"bueno/bien, ya/ok",2,understands,0
+Turkish,All,8,Tamam,140,produces,0.0071
+Turkish,All,8,Tamam,140,understands,0.0786
+Turkish,All,9,Tamam,125,produces,0
+Turkish,All,9,Tamam,125,understands,0.184
+Turkish,All,10,Tamam,130,produces,0.0231
+Turkish,All,10,Tamam,130,understands,0.2769
+Turkish,All,11,Tamam,125,produces,0.008
+Turkish,All,11,Tamam,125,understands,0.32
+Turkish,All,12,Tamam,120,produces,0.0167
+Turkish,All,12,Tamam,120,understands,0.3333
+Turkish,All,13,Tamam,122,produces,0.0328
+Turkish,All,13,Tamam,122,understands,0.4098
+Turkish,All,14,Tamam,147,produces,0.068
+Turkish,All,14,Tamam,147,understands,0.5374
+Turkish,All,15,Tamam,131,produces,0.0687
+Turkish,All,15,Tamam,131,understands,0.5191
+Turkish,All,16,Tamam,184,produces,0.1413
+Turkish,All,16,Tamam,184,understands,0.2772
+Turkish,All,17,Tamam,107,produces,0.2243
+Turkish,All,17,Tamam,107,understands,0
+Turkish,All,18,Tamam,128,produces,0.2109
+Turkish,All,18,Tamam,128,understands,0
+Turkish,All,19,Tamam,121,produces,0.314
+Turkish,All,19,Tamam,121,understands,0
+Turkish,All,20,Tamam,119,produces,0.3782
+Turkish,All,20,Tamam,119,understands,0
+Turkish,All,21,Tamam,124,produces,0.5
+Turkish,All,21,Tamam,124,understands,0
+Turkish,All,22,Tamam,126,produces,0.4683
+Turkish,All,22,Tamam,126,understands,0
+Turkish,All,23,Tamam,131,produces,0.542
+Turkish,All,23,Tamam,131,understands,0
+Turkish,All,24,Tamam,106,produces,0.5849
+Turkish,All,24,Tamam,106,understands,0
+Turkish,All,25,Tamam,123,produces,0.6748
+Turkish,All,25,Tamam,123,understands,0
+Turkish,All,26,Tamam,123,produces,0.7317
+Turkish,All,26,Tamam,123,understands,0
+Turkish,All,27,Tamam,108,produces,0.7593
+Turkish,All,27,Tamam,108,understands,0
+Turkish,All,28,Tamam,112,produces,0.7857
+Turkish,All,28,Tamam,112,understands,0
+Turkish,All,29,Tamam,119,produces,0.7563
+Turkish,All,29,Tamam,119,understands,0
+Turkish,All,30,Tamam,104,produces,0.8365
+Turkish,All,30,Tamam,104,understands,0
+Turkish,All,31,Tamam,101,produces,0.8812
+Turkish,All,31,Tamam,101,understands,0
+Turkish,All,32,Tamam,132,produces,0.8636
+Turkish,All,32,Tamam,132,understands,0
+Turkish,All,33,Tamam,114,produces,0.9211
+Turkish,All,33,Tamam,114,understands,0
+Turkish,All,34,Tamam,107,produces,0.9065
+Turkish,All,34,Tamam,107,understands,0
+Turkish,All,35,Tamam,131,produces,0.8855
+Turkish,All,35,Tamam,131,understands,0
+Turkish,All,36,Tamam,77,produces,0.974
+Turkish,All,36,Tamam,77,understands,0
+Cantonese,Female,16,好啦,23,produces,0.0435
+Cantonese,Female,16,好啦,23,understands,0
+Cantonese,Male,16,好啦,23,produces,0.0435
+Cantonese,Male,16,好啦,23,understands,0
+Cantonese,Female,17,好啦,30,produces,0.0333
+Cantonese,Female,17,好啦,30,understands,0
+Cantonese,Male,17,好啦,31,produces,0.0323
+Cantonese,Male,17,好啦,31,understands,0
+Cantonese,Female,18,好啦,33,produces,0.0303
+Cantonese,Female,18,好啦,33,understands,0
+Cantonese,Male,18,好啦,35,produces,0
+Cantonese,Male,18,好啦,35,understands,0
+Cantonese,Female,19,好啦,30,produces,0.0333
+Cantonese,Female,19,好啦,30,understands,0
+Cantonese,Male,19,好啦,36,produces,0.0833
+Cantonese,Male,19,好啦,36,understands,0
+Cantonese,Female,20,好啦,62,produces,0.1935
+Cantonese,Female,20,好啦,62,understands,0
+Cantonese,Male,20,好啦,78,produces,0.0897
+Cantonese,Male,20,好啦,78,understands,0
+Cantonese,Female,21,好啦,57,produces,0.2456
+Cantonese,Female,21,好啦,57,understands,0
+Cantonese,Male,21,好啦,63,produces,0.0952
+Cantonese,Male,21,好啦,63,understands,0
+Cantonese,Female,22,好啦,34,produces,0.3235
+Cantonese,Female,22,好啦,34,understands,0
+Cantonese,Male,22,好啦,34,produces,0.1471
+Cantonese,Male,22,好啦,34,understands,0
+Cantonese,Female,23,好啦,37,produces,0.3243
+Cantonese,Female,23,好啦,37,understands,0
+Cantonese,Male,23,好啦,37,produces,0.1351
+Cantonese,Male,23,好啦,37,understands,0
+Cantonese,Female,24,好啦,32,produces,0.5312
+Cantonese,Female,24,好啦,32,understands,0
+Cantonese,Male,24,好啦,36,produces,0.2778
+Cantonese,Male,24,好啦,36,understands,0
+Cantonese,Female,25,好啦,31,produces,0.3226
+Cantonese,Female,25,好啦,31,understands,0
+Cantonese,Male,25,好啦,34,produces,0.3529
+Cantonese,Male,25,好啦,34,understands,0
+Cantonese,Female,26,好啦,31,produces,0.4839
+Cantonese,Female,26,好啦,31,understands,0
+Cantonese,Male,26,好啦,37,produces,0.4324
+Cantonese,Male,26,好啦,37,understands,0
+Cantonese,Female,27,好啦,31,produces,0.6452
+Cantonese,Female,27,好啦,31,understands,0
+Cantonese,Male,27,好啦,31,produces,0.4194
+Cantonese,Male,27,好啦,31,understands,0
+Cantonese,Female,28,好啦,32,produces,0.6875
+Cantonese,Female,28,好啦,32,understands,0
+Cantonese,Male,28,好啦,34,produces,0.4412
+Cantonese,Male,28,好啦,34,understands,0
+Cantonese,Female,29,好啦,36,produces,0.8611
+Cantonese,Female,29,好啦,36,understands,0
+Cantonese,Male,29,好啦,36,produces,0.4722
+Cantonese,Male,29,好啦,36,understands,0
+Cantonese,Female,30,好啦,76,produces,0.7632
+Cantonese,Female,30,好啦,76,understands,0
+Cantonese,Male,30,好啦,88,produces,0.6591
+Cantonese,Male,30,好啦,88,understands,0
+Dutch,Female,15,oké,2,produces,0
+Dutch,Female,15,oké,2,understands,0
+Dutch,Male,15,oké,1,produces,0
+Dutch,Male,15,oké,1,understands,0
+Dutch,Female,16,oké,1,produces,0
+Dutch,Female,16,oké,1,understands,0
+Dutch,Male,16,oké,2,produces,0
+Dutch,Male,16,oké,2,understands,0
+Dutch,Female,17,oké,2,produces,0
+Dutch,Female,17,oké,2,understands,0.5
+Dutch,Male,17,oké,4,produces,0
+Dutch,Male,17,oké,4,understands,0.5
+Dutch,Female,18,oké,67,produces,0.0746
+Dutch,Female,18,oké,67,understands,0.1493
+Dutch,Male,18,oké,57,produces,0.1228
+Dutch,Male,18,oké,57,understands,0.193
+Dutch,Female,19,oké,49,produces,0.1837
+Dutch,Female,19,oké,49,understands,0.3061
+Dutch,Male,19,oké,45,produces,0.0444
+Dutch,Male,19,oké,45,understands,0.1556
+Dutch,Female,20,oké,13,produces,0.1538
+Dutch,Female,20,oké,13,understands,0.6154
+Dutch,Male,20,oké,13,produces,0.1538
+Dutch,Male,20,oké,13,understands,0.3077
+Dutch,Female,21,oké,3,produces,0.6667
+Dutch,Female,21,oké,3,understands,0.6667
+Dutch,Male,21,oké,3,produces,0.3333
+Dutch,Male,21,oké,3,understands,0.6667
+French (Quebecois),Female,8,ok,49,produces,0
+French (Quebecois),Female,8,ok,49,understands,0.0816
+French (Quebecois),Male,8,ok,54,produces,0
+French (Quebecois),Male,8,ok,54,understands,0.0556
+French (Quebecois),Female,9,ok,79,produces,0.0127
+French (Quebecois),Female,9,ok,79,understands,0.1139
+French (Quebecois),Male,9,ok,88,produces,0
+French (Quebecois),Male,9,ok,88,understands,0.0682
+French (Quebecois),Female,10,ok,40,produces,0.025
+French (Quebecois),Female,10,ok,40,understands,0.125
+French (Quebecois),Male,10,ok,46,produces,0.0217
+French (Quebecois),Male,10,ok,46,understands,0.0652
+French (Quebecois),Female,11,ok,41,produces,0.0244
+French (Quebecois),Female,11,ok,41,understands,0.1707
+French (Quebecois),Male,11,ok,40,produces,0
+French (Quebecois),Male,11,ok,40,understands,0.225
+French (Quebecois),Female,12,ok,72,produces,0.0694
+French (Quebecois),Female,12,ok,72,understands,0.25
+French (Quebecois),Male,12,ok,94,produces,0.0106
+French (Quebecois),Male,12,ok,94,understands,0.1489
+French (Quebecois),Female,13,ok,49,produces,0.0612
+French (Quebecois),Female,13,ok,49,understands,0.2857
+French (Quebecois),Male,13,ok,76,produces,0.0526
+French (Quebecois),Male,13,ok,76,understands,0.2368
+French (Quebecois),Female,14,ok,132,produces,0.0682
+French (Quebecois),Female,14,ok,132,understands,0.3939
+French (Quebecois),Male,14,ok,96,produces,0.0938
+French (Quebecois),Male,14,ok,96,understands,0.3438
+French (Quebecois),Female,15,ok,39,produces,0.2051
+French (Quebecois),Female,15,ok,39,understands,0.5641
+French (Quebecois),Male,15,ok,62,produces,0.1129
+French (Quebecois),Male,15,ok,62,understands,0.4355
+French (Quebecois),Female,16,"ok, okay",57,produces,0.1754
+French (Quebecois),Female,16,"ok, okay",57,understands,0.2807
+French (Quebecois),Male,16,"ok, okay",51,produces,0.1961
+French (Quebecois),Male,16,"ok, okay",51,understands,0.1961
+French (Quebecois),Female,17,okay,30,produces,0.2333
+French (Quebecois),Female,17,okay,30,understands,0
+French (Quebecois),Male,17,okay,31,produces,0.1613
+French (Quebecois),Male,17,okay,31,understands,0
+French (Quebecois),Female,18,okay,53,produces,0.4528
+French (Quebecois),Female,18,okay,53,understands,0
+French (Quebecois),Male,18,okay,46,produces,0.2826
+French (Quebecois),Male,18,okay,46,understands,0
+French (Quebecois),Female,19,okay,41,produces,0.5854
+French (Quebecois),Female,19,okay,41,understands,0
+French (Quebecois),Male,19,okay,50,produces,0.2
+French (Quebecois),Male,19,okay,50,understands,0
+French (Quebecois),Female,20,okay,90,produces,0.4556
+French (Quebecois),Female,20,okay,90,understands,0
+French (Quebecois),Male,20,okay,105,produces,0.381
+French (Quebecois),Male,20,okay,105,understands,0
+French (Quebecois),Female,21,okay,56,produces,0.6071
+French (Quebecois),Female,21,okay,56,understands,0
+French (Quebecois),Male,21,okay,53,produces,0.4528
+French (Quebecois),Male,21,okay,53,understands,0
+French (Quebecois),Female,22,okay,42,produces,0.6905
+French (Quebecois),Female,22,okay,42,understands,0
+French (Quebecois),Male,22,okay,44,produces,0.5455
+French (Quebecois),Male,22,okay,44,understands,0
+French (Quebecois),Female,23,okay,41,produces,0.7073
+French (Quebecois),Female,23,okay,41,understands,0
+French (Quebecois),Male,23,okay,45,produces,0.7333
+French (Quebecois),Male,23,okay,45,understands,0
+French (Quebecois),Female,24,okay,56,produces,0.8393
+French (Quebecois),Female,24,okay,56,understands,0
+French (Quebecois),Male,24,okay,76,produces,0.6711
+French (Quebecois),Male,24,okay,76,understands,0
+French (Quebecois),Female,25,okay,41,produces,0.8537
+French (Quebecois),Female,25,okay,41,understands,0
+French (Quebecois),Male,25,okay,45,produces,0.6
+French (Quebecois),Male,25,okay,45,understands,0
+French (Quebecois),Female,26,okay,46,produces,0.8261
+French (Quebecois),Female,26,okay,46,understands,0
+French (Quebecois),Male,26,okay,49,produces,0.7347
+French (Quebecois),Male,26,okay,49,understands,0
+French (Quebecois),Female,27,okay,40,produces,0.875
+French (Quebecois),Female,27,okay,40,understands,0
+French (Quebecois),Male,27,okay,34,produces,0.7647
+French (Quebecois),Male,27,okay,34,understands,0
+French (Quebecois),Female,28,okay,28,produces,0.8214
+French (Quebecois),Female,28,okay,28,understands,0
+French (Quebecois),Male,28,okay,32,produces,0.8125
+French (Quebecois),Male,28,okay,32,understands,0
+French (Quebecois),Female,29,okay,35,produces,0.9429
+French (Quebecois),Female,29,okay,35,understands,0
+French (Quebecois),Male,29,okay,35,produces,0.9429
+French (Quebecois),Male,29,okay,35,understands,0
+French (Quebecois),Female,30,okay,41,produces,0.8293
+French (Quebecois),Female,30,okay,41,understands,0
+French (Quebecois),Male,30,okay,59,produces,0.8644
+French (Quebecois),Male,30,okay,59,understands,0
+Japanese,Female,8,いいよ,2,produces,0
+Japanese,Female,8,いいよ,2,understands,0
+Japanese,Male,8,いいよ,4,produces,0
+Japanese,Male,8,いいよ,4,understands,0
+Japanese,Female,9,いいよ,4,produces,0
+Japanese,Female,9,いいよ,4,understands,0
+Japanese,Male,9,いいよ,6,produces,0
+Japanese,Male,9,いいよ,6,understands,0.1667
+Japanese,Female,10,いいよ,2,produces,0
+Japanese,Female,10,いいよ,2,understands,0
+Japanese,Male,10,いいよ,6,produces,0
+Japanese,Male,10,いいよ,6,understands,0
+Japanese,Female,11,いいよ,58,produces,0
+Japanese,Female,11,いいよ,58,understands,0.1034
+Japanese,Male,11,いいよ,29,produces,0
+Japanese,Male,11,いいよ,29,understands,0.0345
+Japanese,Female,12,いいよ,56,produces,0
+Japanese,Female,12,いいよ,56,understands,0.125
+Japanese,Male,12,いいよ,62,produces,0
+Japanese,Male,12,いいよ,62,understands,0.0645
+Japanese,Female,13,いいよ,10,produces,0
+Japanese,Female,13,いいよ,10,understands,0.2
+Japanese,Male,13,いいよ,13,produces,0
+Japanese,Male,13,いいよ,13,understands,0.3077
+Japanese,Female,14,いいよ,15,produces,0.0667
+Japanese,Female,14,いいよ,15,understands,0.3333
+Japanese,Male,14,いいよ,11,produces,0
+Japanese,Male,14,いいよ,11,understands,0.0909
+Japanese,Female,15,いいよ,38,produces,0.0526
+Japanese,Female,15,いいよ,38,understands,0.3158
+Japanese,Male,15,いいよ,34,produces,0
+Japanese,Male,15,いいよ,34,understands,0.2059
+Japanese,Female,16,いいよ,23,produces,0.0435
+Japanese,Female,16,いいよ,23,understands,0.1739
+Japanese,Male,16,いいよ,23,produces,0.0435
+Japanese,Male,16,いいよ,23,understands,0.2174
+Japanese,Female,17,いいよ,51,produces,0.0784
+Japanese,Female,17,いいよ,51,understands,0.3333
+Japanese,Male,17,いいよ,26,produces,0
+Japanese,Male,17,いいよ,26,understands,0.3077
+Japanese,Female,18,いいよ,47,produces,0.1064
+Japanese,Female,18,いいよ,47,understands,0.2553
+Japanese,Male,18,いいよ,47,produces,0.0638
+Japanese,Male,18,いいよ,47,understands,0.0638
+Japanese,Female,19,いいよ,14,produces,0.1429
+Japanese,Female,19,いいよ,14,understands,0
+Japanese,Male,19,いいよ,21,produces,0.0476
+Japanese,Male,19,いいよ,21,understands,0
+Japanese,Female,20,いいよ,27,produces,0.1852
+Japanese,Female,20,いいよ,27,understands,0
+Japanese,Male,20,いいよ,32,produces,0.1875
+Japanese,Male,20,いいよ,32,understands,0
+Japanese,Female,21,いいよ,29,produces,0.2759
+Japanese,Female,21,いいよ,29,understands,0
+Japanese,Male,21,いいよ,33,produces,0.1515
+Japanese,Male,21,いいよ,33,understands,0
+Japanese,Female,22,いいよ,16,produces,0.5
+Japanese,Female,22,いいよ,16,understands,0
+Japanese,Male,22,いいよ,15,produces,0.2667
+Japanese,Male,22,いいよ,15,understands,0
+Japanese,Female,23,いいよ,38,produces,0.4211
+Japanese,Female,23,いいよ,38,understands,0
+Japanese,Male,23,いいよ,29,produces,0.3103
+Japanese,Male,23,いいよ,29,understands,0
+Japanese,Female,24,いいよ,18,produces,0.6111
+Japanese,Female,24,いいよ,18,understands,0
+Japanese,Male,24,いいよ,15,produces,0.6
+Japanese,Male,24,いいよ,15,understands,0
+Japanese,Female,25,いいよ,14,produces,0.5714
+Japanese,Female,25,いいよ,14,understands,0
+Japanese,Male,25,いいよ,20,produces,0.55
+Japanese,Male,25,いいよ,20,understands,0
+Japanese,Female,26,いいよ,19,produces,0.8421
+Japanese,Female,26,いいよ,19,understands,0
+Japanese,Male,26,いいよ,14,produces,0.7143
+Japanese,Male,26,いいよ,14,understands,0
+Japanese,Female,27,いいよ,8,produces,0.75
+Japanese,Female,27,いいよ,8,understands,0
+Japanese,Male,27,いいよ,7,produces,0.4286
+Japanese,Male,27,いいよ,7,understands,0
+Japanese,Female,28,いいよ,8,produces,0.75
+Japanese,Female,28,いいよ,8,understands,0
+Japanese,Male,28,いいよ,10,produces,0.7
+Japanese,Male,28,いいよ,10,understands,0
+Japanese,Female,29,いいよ,6,produces,0.8333
+Japanese,Female,29,いいよ,6,understands,0
+Japanese,Male,29,いいよ,11,produces,0.7273
+Japanese,Male,29,いいよ,11,understands,0
+Japanese,Female,30,いいよ,9,produces,0.7778
+Japanese,Female,30,いいよ,9,understands,0
+Japanese,Male,30,いいよ,9,produces,0.8889
+Japanese,Male,30,いいよ,9,understands,0
+Japanese,Female,31,いいよ,8,produces,1
+Japanese,Female,31,いいよ,8,understands,0
+Japanese,Male,31,いいよ,10,produces,0.8
+Japanese,Male,31,いいよ,10,understands,0
+Japanese,Female,32,いいよ,8,produces,0.875
+Japanese,Female,32,いいよ,8,understands,0
+Japanese,Male,32,いいよ,5,produces,1
+Japanese,Male,32,いいよ,5,understands,0
+Japanese,Female,33,いいよ,9,produces,1
+Japanese,Female,33,いいよ,9,understands,0
+Japanese,Male,33,いいよ,7,produces,0.7143
+Japanese,Male,33,いいよ,7,understands,0
+Japanese,Female,34,いいよ,8,produces,0.875
+Japanese,Female,34,いいよ,8,understands,0
+Japanese,Male,34,いいよ,5,produces,0.8
+Japanese,Male,34,いいよ,5,understands,0
+Japanese,Female,35,いいよ,19,produces,1
+Japanese,Female,35,いいよ,19,understands,0
+Japanese,Male,35,いいよ,12,produces,1
+Japanese,Male,35,いいよ,12,understands,0
+Japanese,Female,36,いいよ,4,produces,1
+Japanese,Female,36,いいよ,4,understands,0
+Japanese,Male,36,いいよ,14,produces,0.9286
+Japanese,Male,36,いいよ,14,understands,0
+Kigiriama,Female,16,Kara kara,1,produces,0
+Kigiriama,Female,16,Kara kara,1,understands,0
+Kigiriama,Female,17,Kara kara,5,produces,0
+Kigiriama,Female,17,Kara kara,5,understands,0
+Kigiriama,Male,17,Kara kara,1,produces,0
+Kigiriama,Male,17,Kara kara,1,understands,0
+Kigiriama,Female,18,Kara kara,6,produces,0
+Kigiriama,Female,18,Kara kara,6,understands,0
+Kigiriama,Male,18,Kara kara,6,produces,0
+Kigiriama,Male,18,Kara kara,6,understands,0
+Kigiriama,Female,19,Kara kara,3,produces,0
+Kigiriama,Female,19,Kara kara,3,understands,0
+Kigiriama,Male,19,Kara kara,5,produces,0
+Kigiriama,Male,19,Kara kara,5,understands,0
+Kigiriama,Female,20,Kara kara,5,produces,0
+Kigiriama,Female,20,Kara kara,5,understands,0
+Kigiriama,Male,20,Kara kara,8,produces,0
+Kigiriama,Male,20,Kara kara,8,understands,0
+Kigiriama,Female,21,Kara kara,3,produces,0
+Kigiriama,Female,21,Kara kara,3,understands,0
+Kigiriama,Male,21,Kara kara,3,produces,0
+Kigiriama,Male,21,Kara kara,3,understands,0
+Kigiriama,Female,22,Kara kara,7,produces,0
+Kigiriama,Female,22,Kara kara,7,understands,0
+Kigiriama,Male,22,Kara kara,2,produces,0.5
+Kigiriama,Male,22,Kara kara,2,understands,0
+Kigiriama,Female,23,Kara kara,2,produces,0
+Kigiriama,Female,23,Kara kara,2,understands,0
+Kigiriama,Male,23,Kara kara,2,produces,0
+Kigiriama,Male,23,Kara kara,2,understands,0
+Kigiriama,Female,24,Kara kara,6,produces,0
+Kigiriama,Female,24,Kara kara,6,understands,0
+Kigiriama,Male,24,Kara kara,1,produces,0
+Kigiriama,Male,24,Kara kara,1,understands,0
+Kigiriama,Female,25,Kara kara,2,produces,0
+Kigiriama,Female,25,Kara kara,2,understands,0
+Kigiriama,Male,25,Kara kara,1,produces,0
+Kigiriama,Male,25,Kara kara,1,understands,0
+Kigiriama,Female,26,Kara kara,4,produces,0
+Kigiriama,Female,26,Kara kara,4,understands,0
+Kigiriama,Male,26,Kara kara,2,produces,0.5
+Kigiriama,Male,26,Kara kara,2,understands,0
+Kigiriama,Female,27,Kara kara,1,produces,1
+Kigiriama,Female,27,Kara kara,1,understands,0
+Kigiriama,Male,27,Kara kara,3,produces,0.3333
+Kigiriama,Male,27,Kara kara,3,understands,0
+Kigiriama,Male,28,Kara kara,1,produces,0
+Kigiriama,Male,28,Kara kara,1,understands,0
+Kigiriama,Female,29,Kara kara,2,produces,0
+Kigiriama,Female,29,Kara kara,2,understands,0
+Kigiriama,Male,29,Kara kara,3,produces,0
+Kigiriama,Male,29,Kara kara,3,understands,0
+Kigiriama,Male,30,Kara kara,1,produces,1
+Kigiriama,Male,30,Kara kara,1,understands,0
+Kiswahili,Female,23,Sawasawa,1,produces,0
+Kiswahili,Female,23,Sawasawa,1,understands,0
+Kiswahili,Male,23,Sawasawa,1,produces,0
+Kiswahili,Male,23,Sawasawa,1,understands,0
+Kiswahili,Female,24,Sawasawa,6,produces,0.1667
+Kiswahili,Female,24,Sawasawa,6,understands,0
+Kiswahili,Male,24,Sawasawa,6,produces,0.3333
+Kiswahili,Male,24,Sawasawa,6,understands,0
+Kiswahili,Female,25,Sawasawa,8,produces,0.125
+Kiswahili,Female,25,Sawasawa,8,understands,0
+Kiswahili,Male,25,Sawasawa,2,produces,0
+Kiswahili,Male,25,Sawasawa,2,understands,0
+Kiswahili,Female,26,Sawasawa,3,produces,0
+Kiswahili,Female,26,Sawasawa,3,understands,0
+Kiswahili,Male,26,Sawasawa,10,produces,0.2
+Kiswahili,Male,26,Sawasawa,10,understands,0
+Kiswahili,Female,27,Sawasawa,3,produces,0
+Kiswahili,Female,27,Sawasawa,3,understands,0
+Kiswahili,Male,27,Sawasawa,5,produces,0
+Kiswahili,Male,27,Sawasawa,5,understands,0
+Kiswahili,Female,28,Sawasawa,3,produces,0
+Kiswahili,Female,28,Sawasawa,3,understands,0
+Kiswahili,Male,28,Sawasawa,3,produces,0
+Kiswahili,Male,28,Sawasawa,3,understands,0
+Kiswahili,Female,29,Sawasawa,3,produces,0.3333
+Kiswahili,Female,29,Sawasawa,3,understands,0
+Kiswahili,Male,29,Sawasawa,3,produces,0
+Kiswahili,Male,29,Sawasawa,3,understands,0
+Kiswahili,Female,30,Sawasawa,3,produces,0.3333
+Kiswahili,Female,30,Sawasawa,3,understands,0
+Kiswahili,Male,30,Sawasawa,2,produces,0.5
+Kiswahili,Male,30,Sawasawa,2,understands,0
+Latvian,Female,17,labi,12,produces,0.25
+Latvian,Female,17,labi,12,understands,0
+Latvian,Male,17,labi,15,produces,0.1333
+Latvian,Male,17,labi,15,understands,0
+Latvian,Female,18,labi,10,produces,0.1
+Latvian,Female,18,labi,10,understands,0
+Latvian,Male,18,labi,11,produces,0.0909
+Latvian,Male,18,labi,11,understands,0
+Latvian,Female,19,labi,18,produces,0.2222
+Latvian,Female,19,labi,18,understands,0
+Latvian,Male,19,labi,10,produces,0.2
+Latvian,Male,19,labi,10,understands,0
+Latvian,Female,20,labi,17,produces,0.4118
+Latvian,Female,20,labi,17,understands,0
+Latvian,Male,20,labi,17,produces,0.2941
+Latvian,Male,20,labi,17,understands,0
+Latvian,Female,21,labi,15,produces,0.7333
+Latvian,Female,21,labi,15,understands,0
+Latvian,Male,21,labi,11,produces,0.4545
+Latvian,Male,21,labi,11,understands,0
+Latvian,Female,22,labi,16,produces,0.5
+Latvian,Female,22,labi,16,understands,0
+Latvian,Male,22,labi,16,produces,0.5
+Latvian,Male,22,labi,16,understands,0
+Latvian,Female,23,labi,15,produces,0.6
+Latvian,Female,23,labi,15,understands,0
+Latvian,Male,23,labi,10,produces,0.6
+Latvian,Male,23,labi,10,understands,0
+Latvian,Female,24,labi,15,produces,0.8667
+Latvian,Female,24,labi,15,understands,0
+Latvian,Male,24,labi,15,produces,0.6
+Latvian,Male,24,labi,15,understands,0
+Latvian,Female,25,labi,16,produces,0.8125
+Latvian,Female,25,labi,16,understands,0
+Latvian,Male,25,labi,13,produces,0.6923
+Latvian,Male,25,labi,13,understands,0
+Latvian,Female,26,labi,9,produces,0.8889
+Latvian,Female,26,labi,9,understands,0
+Latvian,Male,26,labi,13,produces,0.7692
+Latvian,Male,26,labi,13,understands,0
+Latvian,Female,27,labi,10,produces,1
+Latvian,Female,27,labi,10,understands,0
+Latvian,Male,27,labi,8,produces,0.625
+Latvian,Male,27,labi,8,understands,0
+Latvian,Female,28,labi,11,produces,0.6364
+Latvian,Female,28,labi,11,understands,0
+Latvian,Male,28,labi,12,produces,0.8333
+Latvian,Male,28,labi,12,understands,0
+Latvian,Female,29,labi,11,produces,0.9091
+Latvian,Female,29,labi,11,understands,0
+Latvian,Male,29,labi,13,produces,0.7692
+Latvian,Male,29,labi,13,understands,0
+Latvian,Female,30,labi,12,produces,0.6667
+Latvian,Female,30,labi,12,understands,0
+Latvian,Male,30,labi,14,produces,0.9286
+Latvian,Male,30,labi,14,understands,0
+Latvian,Female,31,labi,10,produces,0.8
+Latvian,Female,31,labi,10,understands,0
+Latvian,Male,31,labi,9,produces,0.8889
+Latvian,Male,31,labi,9,understands,0
+Latvian,Female,32,labi,13,produces,0.8462
+Latvian,Female,32,labi,13,understands,0
+Latvian,Male,32,labi,12,produces,0.6667
+Latvian,Male,32,labi,12,understands,0
+Latvian,Female,33,labi,17,produces,1
+Latvian,Female,33,labi,17,understands,0
+Latvian,Male,33,labi,14,produces,0.8571
+Latvian,Male,33,labi,14,understands,0
+Latvian,Female,34,labi,10,produces,1
+Latvian,Female,34,labi,10,understands,0
+Latvian,Male,34,labi,7,produces,0.8571
+Latvian,Male,34,labi,7,understands,0
+Latvian,Female,35,labi,8,produces,0.875
+Latvian,Female,35,labi,8,understands,0
+Latvian,Male,35,labi,13,produces,0.9231
+Latvian,Male,35,labi,13,understands,0
+Latvian,Female,36,labi,12,produces,0.8333
+Latvian,Female,36,labi,12,understands,0
+Latvian,Male,36,labi,10,produces,0.8
+Latvian,Male,36,labi,10,understands,0
+Mandarin (Beijing),Female,16,"好吧, 可以（做）",35,produces,0.0429
+Mandarin (Beijing),Female,16,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,16,"好吧, 可以（做）",35,produces,0.0286
+Mandarin (Beijing),Male,16,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,17,"好吧, 可以（做）",35,produces,0.0714
+Mandarin (Beijing),Female,17,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,17,"好吧, 可以（做）",37,produces,0.1081
+Mandarin (Beijing),Male,17,"好吧, 可以（做）",37,understands,0
+Mandarin (Beijing),Female,18,"好吧, 可以（做）",35,produces,0.2571
+Mandarin (Beijing),Female,18,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,18,"好吧, 可以（做）",36,produces,0.125
+Mandarin (Beijing),Male,18,"好吧, 可以（做）",36,understands,0
+Mandarin (Beijing),Female,19,"好吧, 可以（做）",35,produces,0.3429
+Mandarin (Beijing),Female,19,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,19,"好吧, 可以（做）",35,produces,0.1714
+Mandarin (Beijing),Male,19,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,20,"好吧, 可以（做）",35,produces,0.4
+Mandarin (Beijing),Female,20,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,20,"好吧, 可以（做）",36,produces,0.3194
+Mandarin (Beijing),Male,20,"好吧, 可以（做）",36,understands,0
+Mandarin (Beijing),Female,21,"好吧, 可以（做）",35,produces,0.4571
+Mandarin (Beijing),Female,21,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,21,"好吧, 可以（做）",35,produces,0.4429
+Mandarin (Beijing),Male,21,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,22,"好吧, 可以（做）",35,produces,0.5571
+Mandarin (Beijing),Female,22,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,22,"好吧, 可以（做）",36,produces,0.5694
+Mandarin (Beijing),Male,22,"好吧, 可以（做）",36,understands,0
+Mandarin (Beijing),Female,23,"好吧, 可以（做）",35,produces,0.7
+Mandarin (Beijing),Female,23,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,23,"好吧, 可以（做）",35,produces,0.5571
+Mandarin (Beijing),Male,23,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,24,"好吧, 可以（做）",35,produces,0.7571
+Mandarin (Beijing),Female,24,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,24,"好吧, 可以（做）",35,produces,0.6143
+Mandarin (Beijing),Male,24,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,25,"好吧, 可以（做）",35,produces,0.8429
+Mandarin (Beijing),Female,25,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,25,"好吧, 可以（做）",35,produces,0.6857
+Mandarin (Beijing),Male,25,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,26,"好吧, 可以（做）",36,produces,0.7639
+Mandarin (Beijing),Female,26,"好吧, 可以（做）",36,understands,0
+Mandarin (Beijing),Male,26,"好吧, 可以（做）",35,produces,0.6571
+Mandarin (Beijing),Male,26,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,27,"好吧, 可以（做）",35,produces,0.8286
+Mandarin (Beijing),Female,27,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,27,"好吧, 可以（做）",35,produces,0.8429
+Mandarin (Beijing),Male,27,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,28,"好吧, 可以（做）",35,produces,0.8714
+Mandarin (Beijing),Female,28,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,28,"好吧, 可以（做）",35,produces,0.7429
+Mandarin (Beijing),Male,28,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,29,"好吧, 可以（做）",35,produces,0.8857
+Mandarin (Beijing),Female,29,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,29,"好吧, 可以（做）",35,produces,0.8857
+Mandarin (Beijing),Male,29,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Female,30,"好吧, 可以（做）",35,produces,0.9
+Mandarin (Beijing),Female,30,"好吧, 可以（做）",35,understands,0
+Mandarin (Beijing),Male,30,"好吧, 可以（做）",35,produces,0.8714
+Mandarin (Beijing),Male,30,"好吧, 可以（做）",35,understands,0
+Portuguese (European),Female,8,Está bem!,55,produces,0
+Portuguese (European),Female,8,Está bem!,55,understands,0.0364
+Portuguese (European),Male,8,Está bem!,71,produces,0
+Portuguese (European),Male,8,Está bem!,71,understands,0.0563
+Portuguese (European),Female,9,Está bem!,71,produces,0
+Portuguese (European),Female,9,Está bem!,71,understands,0.0986
+Portuguese (European),Male,9,Está bem!,77,produces,0
+Portuguese (European),Male,9,Está bem!,77,understands,0.1169
+Portuguese (European),Female,10,Está bem!,74,produces,0
+Portuguese (European),Female,10,Está bem!,74,understands,0.0676
+Portuguese (European),Male,10,Está bem!,94,produces,0
+Portuguese (European),Male,10,Está bem!,94,understands,0.0745
+Portuguese (European),Female,11,Está bem!,93,produces,0
+Portuguese (European),Female,11,Está bem!,93,understands,0.129
+Portuguese (European),Male,11,Está bem!,86,produces,0
+Portuguese (European),Male,11,Está bem!,86,understands,0.0465
+Portuguese (European),Female,12,Está bem!,70,produces,0.0286
+Portuguese (European),Female,12,Está bem!,70,understands,0.2
+Portuguese (European),Male,12,Está bem!,89,produces,0
+Portuguese (European),Male,12,Está bem!,89,understands,0.1348
+Portuguese (European),Female,13,Está bem!,95,produces,0.0105
+Portuguese (European),Female,13,Está bem!,95,understands,0.2105
+Portuguese (European),Male,13,Está bem!,80,produces,0
+Portuguese (European),Male,13,Está bem!,80,understands,0.2
+Portuguese (European),Female,14,Está bem!,83,produces,0.012
+Portuguese (European),Female,14,Está bem!,83,understands,0.2771
+Portuguese (European),Male,14,Está bem!,100,produces,0.01
+Portuguese (European),Male,14,Está bem!,100,understands,0.27
+Portuguese (European),Female,15,Está bem!,82,produces,0.0488
+Portuguese (European),Female,15,Está bem!,82,understands,0.378
+Portuguese (European),Male,15,Está bem!,90,produces,0.0222
+Portuguese (European),Male,15,Está bem!,90,understands,0.4556
+Portuguese (European),Female,16,"Bem!, Está bem!",71,produces,0.0352
+Portuguese (European),Female,16,"Bem!, Está bem!",71,understands,0
+Portuguese (European),Male,16,"Bem!, Está bem!",73,produces,0.0205
+Portuguese (European),Male,16,"Bem!, Está bem!",73,understands,0
+Portuguese (European),Female,17,"Bem!, Está bem!",62,produces,0.0161
+Portuguese (European),Female,17,"Bem!, Está bem!",62,understands,0
+Portuguese (European),Male,17,"Bem!, Está bem!",96,produces,0.026
+Portuguese (European),Male,17,"Bem!, Está bem!",96,understands,0
+Portuguese (European),Female,18,"Bem!, Está bem!",102,produces,0.049
+Portuguese (European),Female,18,"Bem!, Está bem!",102,understands,0
+Portuguese (European),Male,18,"Bem!, Está bem!",101,produces,0.0644
+Portuguese (European),Male,18,"Bem!, Está bem!",101,understands,0
+Portuguese (European),Female,19,"Bem!, Está bem!",97,produces,0.0876
+Portuguese (European),Female,19,"Bem!, Está bem!",97,understands,0
+Portuguese (European),Male,19,"Bem!, Está bem!",99,produces,0.0455
+Portuguese (European),Male,19,"Bem!, Está bem!",99,understands,0
+Portuguese (European),Female,20,"Bem!, Está bem!",115,produces,0.187
+Portuguese (European),Female,20,"Bem!, Está bem!",115,understands,0
+Portuguese (European),Male,20,"Bem!, Está bem!",103,produces,0.0922
+Portuguese (European),Male,20,"Bem!, Está bem!",103,understands,0
+Portuguese (European),Female,21,"Bem!, Está bem!",93,produces,0.1505
+Portuguese (European),Female,21,"Bem!, Está bem!",93,understands,0
+Portuguese (European),Male,21,"Bem!, Está bem!",115,produces,0.0783
+Portuguese (European),Male,21,"Bem!, Está bem!",115,understands,0
+Portuguese (European),Female,22,"Bem!, Está bem!",117,produces,0.2137
+Portuguese (European),Female,22,"Bem!, Está bem!",117,understands,0
+Portuguese (European),Male,22,"Bem!, Está bem!",96,produces,0.1771
+Portuguese (European),Male,22,"Bem!, Está bem!",96,understands,0
+Portuguese (European),Female,23,"Bem!, Está bem!",94,produces,0.3032
+Portuguese (European),Female,23,"Bem!, Está bem!",94,understands,0
+Portuguese (European),Male,23,"Bem!, Está bem!",105,produces,0.1333
+Portuguese (European),Male,23,"Bem!, Está bem!",105,understands,0
+Portuguese (European),Female,24,"Bem!, Está bem!",88,produces,0.3295
+Portuguese (European),Female,24,"Bem!, Está bem!",88,understands,0
+Portuguese (European),Male,24,"Bem!, Está bem!",127,produces,0.2362
+Portuguese (European),Male,24,"Bem!, Está bem!",127,understands,0
+Portuguese (European),Female,25,"Bem!, Está bem!",110,produces,0.4045
+Portuguese (European),Female,25,"Bem!, Está bem!",110,understands,0
+Portuguese (European),Male,25,"Bem!, Está bem!",103,produces,0.3398
+Portuguese (European),Male,25,"Bem!, Está bem!",103,understands,0
+Portuguese (European),Female,26,"Bem!, Está bem!",96,produces,0.4271
+Portuguese (European),Female,26,"Bem!, Está bem!",96,understands,0
+Portuguese (European),Male,26,"Bem!, Está bem!",122,produces,0.3689
+Portuguese (European),Male,26,"Bem!, Está bem!",122,understands,0
+Portuguese (European),Female,27,"Bem!, Está bem!",109,produces,0.555
+Portuguese (European),Female,27,"Bem!, Está bem!",109,understands,0
+Portuguese (European),Male,27,"Bem!, Está bem!",129,produces,0.4109
+Portuguese (European),Male,27,"Bem!, Está bem!",129,understands,0
+Portuguese (European),Female,28,"Bem!, Está bem!",91,produces,0.5769
+Portuguese (European),Female,28,"Bem!, Está bem!",91,understands,0
+Portuguese (European),Male,28,"Bem!, Está bem!",128,produces,0.4922
+Portuguese (European),Male,28,"Bem!, Está bem!",128,understands,0
+Portuguese (European),Female,29,"Bem!, Está bem!",98,produces,0.5918
+Portuguese (European),Female,29,"Bem!, Está bem!",98,understands,0
+Portuguese (European),Male,29,"Bem!, Está bem!",109,produces,0.5
+Portuguese (European),Male,29,"Bem!, Está bem!",109,understands,0
+Portuguese (European),Female,30,"Bem!, Está bem!",81,produces,0.6481
+Portuguese (European),Female,30,"Bem!, Está bem!",81,understands,0
+Portuguese (European),Male,30,"Bem!, Está bem!",82,produces,0.4817
+Portuguese (European),Male,30,"Bem!, Está bem!",82,understands,0
+Spanish (Argentinian),Female,16,"dale, okey",30,produces,0.0833
+Spanish (Argentinian),Female,16,"dale, okey",30,understands,0
+Spanish (Argentinian),Male,16,"dale, okey",17,produces,0.0294
+Spanish (Argentinian),Male,16,"dale, okey",17,understands,0
+Spanish (Argentinian),Female,17,"dale, okey",20,produces,0.025
+Spanish (Argentinian),Female,17,"dale, okey",20,understands,0
+Spanish (Argentinian),Male,17,"dale, okey",29,produces,0.0862
+Spanish (Argentinian),Male,17,"dale, okey",29,understands,0
+Spanish (Argentinian),Female,18,"dale, okey",43,produces,0.0814
+Spanish (Argentinian),Female,18,"dale, okey",43,understands,0
+Spanish (Argentinian),Male,18,"dale, okey",19,produces,0.0789
+Spanish (Argentinian),Male,18,"dale, okey",19,understands,0
+Spanish (Argentinian),Female,19,"dale, okey",25,produces,0.08
+Spanish (Argentinian),Female,19,"dale, okey",25,understands,0
+Spanish (Argentinian),Male,19,"dale, okey",19,produces,0.0526
+Spanish (Argentinian),Male,19,"dale, okey",19,understands,0
+Spanish (Argentinian),Female,20,"dale, okey",22,produces,0.1591
+Spanish (Argentinian),Female,20,"dale, okey",22,understands,0
+Spanish (Argentinian),Male,20,"dale, okey",24,produces,0.125
+Spanish (Argentinian),Male,20,"dale, okey",24,understands,0
+Spanish (Argentinian),Female,21,"dale, okey",15,produces,0.1667
+Spanish (Argentinian),Female,21,"dale, okey",15,understands,0
+Spanish (Argentinian),Male,21,"dale, okey",26,produces,0.2692
+Spanish (Argentinian),Male,21,"dale, okey",26,understands,0
+Spanish (Argentinian),Female,22,"dale, okey",25,produces,0.18
+Spanish (Argentinian),Female,22,"dale, okey",25,understands,0
+Spanish (Argentinian),Male,22,"dale, okey",32,produces,0.2344
+Spanish (Argentinian),Male,22,"dale, okey",32,understands,0
+Spanish (Argentinian),Female,23,"dale, okey",30,produces,0.3167
+Spanish (Argentinian),Female,23,"dale, okey",30,understands,0
+Spanish (Argentinian),Male,23,"dale, okey",19,produces,0.1316
+Spanish (Argentinian),Male,23,"dale, okey",19,understands,0
+Spanish (Argentinian),Female,24,"dale, okey",44,produces,0.1932
+Spanish (Argentinian),Female,24,"dale, okey",44,understands,0
+Spanish (Argentinian),Male,24,"dale, okey",31,produces,0.1613
+Spanish (Argentinian),Male,24,"dale, okey",31,understands,0
+Spanish (Argentinian),Female,25,"dale, okey",24,produces,0.3542
+Spanish (Argentinian),Female,25,"dale, okey",24,understands,0
+Spanish (Argentinian),Male,25,"dale, okey",19,produces,0.2895
+Spanish (Argentinian),Male,25,"dale, okey",19,understands,0
+Spanish (Argentinian),Female,26,"dale, okey",17,produces,0.4118
+Spanish (Argentinian),Female,26,"dale, okey",17,understands,0
+Spanish (Argentinian),Male,26,"dale, okey",28,produces,0.375
+Spanish (Argentinian),Male,26,"dale, okey",28,understands,0
+Spanish (Argentinian),Female,27,"dale, okey",18,produces,0.5556
+Spanish (Argentinian),Female,27,"dale, okey",18,understands,0
+Spanish (Argentinian),Male,27,"dale, okey",26,produces,0.3269
+Spanish (Argentinian),Male,27,"dale, okey",26,understands,0
+Spanish (Argentinian),Female,28,"dale, okey",18,produces,0.4167
+Spanish (Argentinian),Female,28,"dale, okey",18,understands,0
+Spanish (Argentinian),Male,28,"dale, okey",24,produces,0.4583
+Spanish (Argentinian),Male,28,"dale, okey",24,understands,0
+Spanish (Argentinian),Female,29,"dale, okey",36,produces,0.4861
+Spanish (Argentinian),Female,29,"dale, okey",36,understands,0
+Spanish (Argentinian),Male,29,"dale, okey",29,produces,0.2931
+Spanish (Argentinian),Male,29,"dale, okey",29,understands,0
+Spanish (Argentinian),Female,30,"dale, okey",31,produces,0.5968
+Spanish (Argentinian),Female,30,"dale, okey",31,understands,0
+Spanish (Argentinian),Male,30,"dale, okey",38,produces,0.4342
+Spanish (Argentinian),Male,30,"dale, okey",38,understands,0
+Spanish (Argentinian),Female,31,"dale, okey",1,produces,0
+Spanish (Argentinian),Female,31,"dale, okey",1,understands,0
+Spanish (Argentinian),Male,31,"dale, okey",1,produces,0
+Spanish (Argentinian),Male,31,"dale, okey",1,understands,0
+Spanish (Argentinian),Female,32,"dale, okey",1,produces,1
+Spanish (Argentinian),Female,32,"dale, okey",1,understands,0
+Spanish (Argentinian),Male,33,"dale, okey",2,produces,0.25
+Spanish (Argentinian),Male,33,"dale, okey",2,understands,0
+Spanish (European),Female,8,vale,30,produces,0
+Spanish (European),Female,8,vale,30,understands,0.0667
+Spanish (European),Male,8,vale,22,produces,0
+Spanish (European),Male,8,vale,22,understands,0.0455
+Spanish (European),Female,9,vale,25,produces,0
+Spanish (European),Female,9,vale,25,understands,0.04
+Spanish (European),Male,9,vale,20,produces,0
+Spanish (European),Male,9,vale,20,understands,0
+Spanish (European),Female,10,vale,31,produces,0
+Spanish (European),Female,10,vale,31,understands,0.0645
+Spanish (European),Male,10,vale,18,produces,0
+Spanish (European),Male,10,vale,18,understands,0
+Spanish (European),Female,11,vale,19,produces,0
+Spanish (European),Female,11,vale,19,understands,0.1579
+Spanish (European),Male,11,vale,17,produces,0
+Spanish (European),Male,11,vale,17,understands,0.0588
+Spanish (European),Female,12,vale,28,produces,0
+Spanish (European),Female,12,vale,28,understands,0.1071
+Spanish (European),Male,12,vale,24,produces,0
+Spanish (European),Male,12,vale,24,understands,0.1667
+Spanish (European),Female,13,vale,29,produces,0
+Spanish (European),Female,13,vale,29,understands,0.4483
+Spanish (European),Male,13,vale,29,produces,0
+Spanish (European),Male,13,vale,29,understands,0.3103
+Spanish (European),Female,14,vale,29,produces,0.0345
+Spanish (European),Female,14,vale,29,understands,0.3448
+Spanish (European),Male,14,vale,26,produces,0
+Spanish (European),Male,14,vale,26,understands,0.2692
+Spanish (European),Female,15,vale,32,produces,0.1875
+Spanish (European),Female,15,vale,32,understands,0.4688
+Spanish (European),Male,15,vale,33,produces,0.0303
+Spanish (European),Male,15,vale,33,understands,0.4545
+Spanish (European),Female,16,"bueno (bien), vale",19,produces,0.1053
+Spanish (European),Female,16,"bueno (bien), vale",19,understands,0
+Spanish (European),Male,16,"bueno (bien), vale",20,produces,0.075
+Spanish (European),Male,16,"bueno (bien), vale",20,understands,0
+Spanish (European),Female,17,"bueno (bien), vale",21,produces,0.119
+Spanish (European),Female,17,"bueno (bien), vale",21,understands,0
+Spanish (European),Male,17,"bueno (bien), vale",18,produces,0.1111
+Spanish (European),Male,17,"bueno (bien), vale",18,understands,0
+Spanish (European),Female,18,"bueno (bien), vale",27,produces,0.2963
+Spanish (European),Female,18,"bueno (bien), vale",27,understands,0
+Spanish (European),Male,18,"bueno (bien), vale",23,produces,0.1304
+Spanish (European),Male,18,"bueno (bien), vale",23,understands,0
+Spanish (European),Female,19,"bueno (bien), vale",16,produces,0.3438
+Spanish (European),Female,19,"bueno (bien), vale",16,understands,0
+Spanish (European),Male,19,"bueno (bien), vale",11,produces,0.1818
+Spanish (European),Male,19,"bueno (bien), vale",11,understands,0
+Spanish (European),Female,20,"bueno (bien), vale",17,produces,0.3824
+Spanish (European),Female,20,"bueno (bien), vale",17,understands,0
+Spanish (European),Male,20,"bueno (bien), vale",19,produces,0.3947
+Spanish (European),Male,20,"bueno (bien), vale",19,understands,0
+Spanish (European),Female,21,"bueno (bien), vale",23,produces,0.587
+Spanish (European),Female,21,"bueno (bien), vale",23,understands,0
+Spanish (European),Male,21,"bueno (bien), vale",18,produces,0.3611
+Spanish (European),Male,21,"bueno (bien), vale",18,understands,0
+Spanish (European),Female,22,"bueno (bien), vale",18,produces,0.5
+Spanish (European),Female,22,"bueno (bien), vale",18,understands,0
+Spanish (European),Male,22,"bueno (bien), vale",20,produces,0.475
+Spanish (European),Male,22,"bueno (bien), vale",20,understands,0
+Spanish (European),Female,23,"bueno (bien), vale",15,produces,0.6667
+Spanish (European),Female,23,"bueno (bien), vale",15,understands,0
+Spanish (European),Male,23,"bueno (bien), vale",15,produces,0.7667
+Spanish (European),Male,23,"bueno (bien), vale",15,understands,0
+Spanish (European),Female,24,"bueno (bien), vale",31,produces,0.6774
+Spanish (European),Female,24,"bueno (bien), vale",31,understands,0
+Spanish (European),Male,24,"bueno (bien), vale",24,produces,0.6667
+Spanish (European),Male,24,"bueno (bien), vale",24,understands,0
+Spanish (European),Female,25,"bueno (bien), vale",16,produces,0.6562
+Spanish (European),Female,25,"bueno (bien), vale",16,understands,0
+Spanish (European),Male,25,"bueno (bien), vale",19,produces,0.4737
+Spanish (European),Male,25,"bueno (bien), vale",19,understands,0
+Spanish (European),Female,26,"bueno (bien), vale",22,produces,0.8636
+Spanish (European),Female,26,"bueno (bien), vale",22,understands,0
+Spanish (European),Male,26,"bueno (bien), vale",27,produces,0.6481
+Spanish (European),Male,26,"bueno (bien), vale",27,understands,0
+Spanish (European),Female,27,"bueno (bien), vale",16,produces,0.7188
+Spanish (European),Female,27,"bueno (bien), vale",16,understands,0
+Spanish (European),Male,27,"bueno (bien), vale",18,produces,0.7778
+Spanish (European),Male,27,"bueno (bien), vale",18,understands,0
+Spanish (European),Female,28,"bueno (bien), vale",20,produces,0.675
+Spanish (European),Female,28,"bueno (bien), vale",20,understands,0
+Spanish (European),Male,28,"bueno (bien), vale",18,produces,0.9167
+Spanish (European),Male,28,"bueno (bien), vale",18,understands,0
+Spanish (European),Female,29,"bueno (bien), vale",18,produces,0.8056
+Spanish (European),Female,29,"bueno (bien), vale",18,understands,0
+Spanish (European),Male,29,"bueno (bien), vale",23,produces,0.8913
+Spanish (European),Male,29,"bueno (bien), vale",23,understands,0
+Spanish (European),Female,30,"bueno (bien), vale",17,produces,0.8235
+Spanish (European),Female,30,"bueno (bien), vale",17,understands,0
+Spanish (European),Male,30,"bueno (bien), vale",24,produces,0.7917
+Spanish (European),Male,30,"bueno (bien), vale",24,understands,0
+Spanish (Peruvian),Female,8,ya/ok,6,produces,0
+Spanish (Peruvian),Female,8,ya/ok,6,understands,0.3333
+Spanish (Peruvian),Male,8,ya/ok,3,produces,0
+Spanish (Peruvian),Male,8,ya/ok,3,understands,0.6667
+Spanish (Peruvian),Female,9,ya/ok,8,produces,0.125
+Spanish (Peruvian),Female,9,ya/ok,8,understands,0.25
+Spanish (Peruvian),Male,9,ya/ok,4,produces,0
+Spanish (Peruvian),Male,9,ya/ok,4,understands,0.75
+Spanish (Peruvian),Female,10,ya/ok,4,produces,0.25
+Spanish (Peruvian),Female,10,ya/ok,4,understands,0.75
+Spanish (Peruvian),Male,10,ya/ok,3,produces,0
+Spanish (Peruvian),Male,10,ya/ok,3,understands,0.3333
+Spanish (Peruvian),Female,11,ya/ok,12,produces,0.1667
+Spanish (Peruvian),Female,11,ya/ok,12,understands,0.25
+Spanish (Peruvian),Male,11,ya/ok,6,produces,0.1667
+Spanish (Peruvian),Male,11,ya/ok,6,understands,0.3333
+Spanish (Peruvian),Female,12,ya/ok,7,produces,0.2857
+Spanish (Peruvian),Female,12,ya/ok,7,understands,0.5714
+Spanish (Peruvian),Male,12,ya/ok,7,produces,0.1429
+Spanish (Peruvian),Male,12,ya/ok,7,understands,0.8571
+Spanish (Peruvian),Female,13,ya/ok,2,produces,0.5
+Spanish (Peruvian),Female,13,ya/ok,2,understands,1
+Spanish (Peruvian),Male,13,ya/ok,7,produces,0.1429
+Spanish (Peruvian),Male,13,ya/ok,7,understands,0.7143
+Spanish (Peruvian),Female,14,ya/ok,3,produces,0
+Spanish (Peruvian),Female,14,ya/ok,3,understands,0.6667
+Spanish (Peruvian),Male,14,ya/ok,5,produces,0.2
+Spanish (Peruvian),Male,14,ya/ok,5,understands,0.6
+Spanish (Peruvian),Female,15,ya/ok,4,produces,0.25
+Spanish (Peruvian),Female,15,ya/ok,4,understands,0.5
+Spanish (Peruvian),Male,15,ya/ok,6,produces,0
+Spanish (Peruvian),Male,15,ya/ok,6,understands,0.3333
+Spanish (Peruvian),Female,16,"bueno/bien, ya/ok",6,produces,0.3333
+Spanish (Peruvian),Female,16,"bueno/bien, ya/ok",6,understands,0
+Spanish (Peruvian),Male,16,"bueno/bien, ya/ok",7,produces,0.2143
+Spanish (Peruvian),Male,16,"bueno/bien, ya/ok",7,understands,0
+Spanish (Peruvian),Female,17,"bueno/bien, ya/ok",5,produces,0.4
+Spanish (Peruvian),Female,17,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),Male,17,"bueno/bien, ya/ok",4,produces,0.75
+Spanish (Peruvian),Male,17,"bueno/bien, ya/ok",4,understands,0
+Spanish (Peruvian),Female,18,"bueno/bien, ya/ok",4,produces,0.5
+Spanish (Peruvian),Female,18,"bueno/bien, ya/ok",4,understands,0
+Spanish (Peruvian),Female,19,"bueno/bien, ya/ok",3,produces,0.5
+Spanish (Peruvian),Female,19,"bueno/bien, ya/ok",3,understands,0
+Spanish (Peruvian),Male,19,"bueno/bien, ya/ok",9,produces,0.7222
+Spanish (Peruvian),Male,19,"bueno/bien, ya/ok",9,understands,0
+Spanish (Peruvian),Male,20,"bueno/bien, ya/ok",1,produces,0
+Spanish (Peruvian),Male,20,"bueno/bien, ya/ok",1,understands,0
+Spanish (Peruvian),Female,21,"bueno/bien, ya/ok",3,produces,0.3333
+Spanish (Peruvian),Female,21,"bueno/bien, ya/ok",3,understands,0
+Spanish (Peruvian),Male,21,"bueno/bien, ya/ok",2,produces,0.75
+Spanish (Peruvian),Male,21,"bueno/bien, ya/ok",2,understands,0
+Spanish (Peruvian),Female,22,"bueno/bien, ya/ok",4,produces,0.375
+Spanish (Peruvian),Female,22,"bueno/bien, ya/ok",4,understands,0
+Spanish (Peruvian),Male,22,"bueno/bien, ya/ok",5,produces,0.4
+Spanish (Peruvian),Male,22,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),Female,23,"bueno/bien, ya/ok",1,produces,1
+Spanish (Peruvian),Female,23,"bueno/bien, ya/ok",1,understands,0
+Spanish (Peruvian),Female,24,"bueno/bien, ya/ok",7,produces,0.5714
+Spanish (Peruvian),Female,24,"bueno/bien, ya/ok",7,understands,0
+Spanish (Peruvian),Male,24,"bueno/bien, ya/ok",8,produces,0.1875
+Spanish (Peruvian),Male,24,"bueno/bien, ya/ok",8,understands,0
+Spanish (Peruvian),Female,25,"bueno/bien, ya/ok",2,produces,0
+Spanish (Peruvian),Female,25,"bueno/bien, ya/ok",2,understands,0
+Spanish (Peruvian),Male,25,"bueno/bien, ya/ok",3,produces,0.6667
+Spanish (Peruvian),Male,25,"bueno/bien, ya/ok",3,understands,0
+Spanish (Peruvian),Female,26,"bueno/bien, ya/ok",3,produces,0.1667
+Spanish (Peruvian),Female,26,"bueno/bien, ya/ok",3,understands,0
+Spanish (Peruvian),Male,26,"bueno/bien, ya/ok",5,produces,0.5
+Spanish (Peruvian),Male,26,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),Female,27,"bueno/bien, ya/ok",3,produces,0.3333
+Spanish (Peruvian),Female,27,"bueno/bien, ya/ok",3,understands,0
+Spanish (Peruvian),Male,27,"bueno/bien, ya/ok",4,produces,0.375
+Spanish (Peruvian),Male,27,"bueno/bien, ya/ok",4,understands,0
+Spanish (Peruvian),Female,28,"bueno/bien, ya/ok",3,produces,0.8333
+Spanish (Peruvian),Female,28,"bueno/bien, ya/ok",3,understands,0
+Spanish (Peruvian),Male,28,"bueno/bien, ya/ok",5,produces,0.8
+Spanish (Peruvian),Male,28,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),Female,29,"bueno/bien, ya/ok",1,produces,1
+Spanish (Peruvian),Female,29,"bueno/bien, ya/ok",1,understands,0
+Spanish (Peruvian),Male,29,"bueno/bien, ya/ok",5,produces,0.6
+Spanish (Peruvian),Male,29,"bueno/bien, ya/ok",5,understands,0
+Spanish (Peruvian),Female,30,"bueno/bien, ya/ok",1,produces,0.5
+Spanish (Peruvian),Female,30,"bueno/bien, ya/ok",1,understands,0
+Spanish (Peruvian),Male,30,"bueno/bien, ya/ok",1,produces,1
+Spanish (Peruvian),Male,30,"bueno/bien, ya/ok",1,understands,0
+Turkish,Female,8,Tamam,70,produces,0.0143
+Turkish,Female,8,Tamam,70,understands,0.1143
+Turkish,Male,8,Tamam,70,produces,0
+Turkish,Male,8,Tamam,70,understands,0.0429
+Turkish,Female,9,Tamam,65,produces,0
+Turkish,Female,9,Tamam,65,understands,0.1846
+Turkish,Male,9,Tamam,60,produces,0
+Turkish,Male,9,Tamam,60,understands,0.1833
+Turkish,Female,10,Tamam,62,produces,0
+Turkish,Female,10,Tamam,62,understands,0.2742
+Turkish,Male,10,Tamam,68,produces,0.0441
+Turkish,Male,10,Tamam,68,understands,0.2794
+Turkish,Female,11,Tamam,65,produces,0.0154
+Turkish,Female,11,Tamam,65,understands,0.3231
+Turkish,Male,11,Tamam,60,produces,0
+Turkish,Male,11,Tamam,60,understands,0.3167
+Turkish,Female,12,Tamam,63,produces,0.0317
+Turkish,Female,12,Tamam,63,understands,0.4286
+Turkish,Male,12,Tamam,57,produces,0
+Turkish,Male,12,Tamam,57,understands,0.2281
+Turkish,Female,13,Tamam,60,produces,0.0333
+Turkish,Female,13,Tamam,60,understands,0.3833
+Turkish,Male,13,Tamam,62,produces,0.0323
+Turkish,Male,13,Tamam,62,understands,0.4355
+Turkish,Female,14,Tamam,74,produces,0.0676
+Turkish,Female,14,Tamam,74,understands,0.5405
+Turkish,Male,14,Tamam,73,produces,0.0685
+Turkish,Male,14,Tamam,73,understands,0.5342
+Turkish,Female,15,Tamam,66,produces,0.0606
+Turkish,Female,15,Tamam,66,understands,0.5152
+Turkish,Male,15,Tamam,65,produces,0.0769
+Turkish,Male,15,Tamam,65,understands,0.5231
+Turkish,Female,16,Tamam,102,produces,0.1667
+Turkish,Female,16,Tamam,102,understands,0.3431
+Turkish,Male,16,Tamam,82,produces,0.1098
+Turkish,Male,16,Tamam,82,understands,0.1951
+Turkish,Female,17,Tamam,50,produces,0.3
+Turkish,Female,17,Tamam,50,understands,0
+Turkish,Male,17,Tamam,57,produces,0.1579
+Turkish,Male,17,Tamam,57,understands,0
+Turkish,Female,18,Tamam,65,produces,0.1692
+Turkish,Female,18,Tamam,65,understands,0
+Turkish,Male,18,Tamam,63,produces,0.254
+Turkish,Male,18,Tamam,63,understands,0
+Turkish,Female,19,Tamam,63,produces,0.3492
+Turkish,Female,19,Tamam,63,understands,0
+Turkish,Male,19,Tamam,58,produces,0.2759
+Turkish,Male,19,Tamam,58,understands,0
+Turkish,Female,20,Tamam,60,produces,0.4
+Turkish,Female,20,Tamam,60,understands,0
+Turkish,Male,20,Tamam,59,produces,0.3559
+Turkish,Male,20,Tamam,59,understands,0
+Turkish,Female,21,Tamam,55,produces,0.6
+Turkish,Female,21,Tamam,55,understands,0
+Turkish,Male,21,Tamam,69,produces,0.4203
+Turkish,Male,21,Tamam,69,understands,0
+Turkish,Female,22,Tamam,58,produces,0.5
+Turkish,Female,22,Tamam,58,understands,0
+Turkish,Male,22,Tamam,68,produces,0.4412
+Turkish,Male,22,Tamam,68,understands,0
+Turkish,Female,23,Tamam,71,produces,0.6338
+Turkish,Female,23,Tamam,71,understands,0
+Turkish,Male,23,Tamam,60,produces,0.4333
+Turkish,Male,23,Tamam,60,understands,0
+Turkish,Female,24,Tamam,54,produces,0.6111
+Turkish,Female,24,Tamam,54,understands,0
+Turkish,Male,24,Tamam,52,produces,0.5577
+Turkish,Male,24,Tamam,52,understands,0
+Turkish,Female,25,Tamam,63,produces,0.7143
+Turkish,Female,25,Tamam,63,understands,0
+Turkish,Male,25,Tamam,60,produces,0.6333
+Turkish,Male,25,Tamam,60,understands,0
+Turkish,Female,26,Tamam,60,produces,0.75
+Turkish,Female,26,Tamam,60,understands,0
+Turkish,Male,26,Tamam,63,produces,0.7143
+Turkish,Male,26,Tamam,63,understands,0
+Turkish,Female,27,Tamam,56,produces,0.7321
+Turkish,Female,27,Tamam,56,understands,0
+Turkish,Male,27,Tamam,52,produces,0.7885
+Turkish,Male,27,Tamam,52,understands,0
+Turkish,Female,28,Tamam,62,produces,0.7903
+Turkish,Female,28,Tamam,62,understands,0
+Turkish,Male,28,Tamam,50,produces,0.78
+Turkish,Male,28,Tamam,50,understands,0
+Turkish,Female,29,Tamam,54,produces,0.7407
+Turkish,Female,29,Tamam,54,understands,0
+Turkish,Male,29,Tamam,65,produces,0.7692
+Turkish,Male,29,Tamam,65,understands,0
+Turkish,Female,30,Tamam,56,produces,0.8214
+Turkish,Female,30,Tamam,56,understands,0
+Turkish,Male,30,Tamam,48,produces,0.8542
+Turkish,Male,30,Tamam,48,understands,0
+Turkish,Female,31,Tamam,62,produces,0.8871
+Turkish,Female,31,Tamam,62,understands,0
+Turkish,Male,31,Tamam,39,produces,0.8718
+Turkish,Male,31,Tamam,39,understands,0
+Turkish,Female,32,Tamam,56,produces,0.9107
+Turkish,Female,32,Tamam,56,understands,0
+Turkish,Male,32,Tamam,76,produces,0.8289
+Turkish,Male,32,Tamam,76,understands,0
+Turkish,Female,33,Tamam,59,produces,0.8814
+Turkish,Female,33,Tamam,59,understands,0
+Turkish,Male,33,Tamam,55,produces,0.9636
+Turkish,Male,33,Tamam,55,understands,0
+Turkish,Female,34,Tamam,56,produces,0.9464
+Turkish,Female,34,Tamam,56,understands,0
+Turkish,Male,34,Tamam,51,produces,0.8627
+Turkish,Male,34,Tamam,51,understands,0
+Turkish,Female,35,Tamam,69,produces,0.8986
+Turkish,Female,35,Tamam,69,understands,0
+Turkish,Male,35,Tamam,62,produces,0.871
+Turkish,Male,35,Tamam,62,understands,0
+Turkish,Female,36,Tamam,36,produces,0.9444
+Turkish,Female,36,Tamam,36,understands,0
+Turkish,Male,36,Tamam,41,produces,1
+Turkish,Male,36,Tamam,41,understands,0
