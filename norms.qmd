@@ -1,0 +1,86 @@
+---
+title: "Vocabulary Norms"
+---
+
+Vocabulary size as a function of age. Curves show empirical quantiles
+(10th/25th/50th/75th/90th percentile) of total vocabulary among children in
+the Wordbank database, per instrument.
+
+```{r load-vocab}
+suppressMessages(library(dplyr))
+if (file.exists("data/vocab_summaries.parquet")) {
+  vocab_summaries <- arrow::read_parquet("data/vocab_summaries.parquet")
+} else {
+  library(redivis)
+  vocab_summaries <- redivis$organization("datapages")$dataset("wordbank")$
+    table("vocab_summaries")$to_tibble()
+}
+ojs_define(vocab = vocab_summaries)
+```
+
+```{ojs setup-norms}
+//| output: false
+Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
+
+v = transpose(vocab)
+norm_languages = [...new Set(v.map((d) => d.language))].sort()
+```
+
+::::{.panel-input}
+
+```{ojs inputs-norms}
+viewof nlanguage = Inputs.select(norm_languages, {
+  label: "Language",
+  value: "English (American)"
+})
+viewof nform = Inputs.select(
+  [...new Set(v.filter((d) => d.language === nlanguage).map((d) => d.form))],
+  { label: "Form" }
+)
+viewof nmeasure = Inputs.select(
+  [...new Set(v.filter((d) => d.language === nlanguage && d.form === nform)
+    .map((d) => d.measure))],
+  { label: "Measure" }
+)
+```
+
+::::
+
+```{ojs norms-data}
+//| output: false
+norms_data = v.filter((d) =>
+  d.language === nlanguage && d.form === nform && d.measure === nmeasure)
+```
+
+```{ojs norms-plot}
+Plot.plot({
+  style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
+  width: 900,
+  height: 500,
+  inset: 8,
+  grid: true,
+  x: { label: "Age (months)", tickFormat: "" },
+  y: { label: `${nmeasure === "production" ? "Productive" : "Receptive"} vocabulary (words)` },
+  color: { legend: true, type: "ordinal", scheme: "viridis", label: "Quantile" },
+  marks: [
+    Plot.lineY(norms_data, Plot.windowY(
+      { k: 3, reduce: "mean" },
+      { x: "age", y: "vocab", stroke: (d) => `${Math.round(d.quantile * 100)}th`,
+        strokeWidth: 2.5, curve: "basis" }
+    )),
+    Plot.dot(norms_data, {
+      x: "age", y: "vocab",
+      fill: (d) => `${Math.round(d.quantile * 100)}th`,
+      r: 2.5, fillOpacity: 0.6,
+      channels: { n_children: "n_children" },
+      tip: true
+    })
+  ]
+})
+```
+
+::: {.callout-note}
+These are empirical quantiles of the archive's convenience sample, smoothed
+over adjacent ages — a useful descriptive picture, but not clinical norms.
+For norming applications see the [official CDI norms](https://mb-cdi.stanford.edu/).
+:::

@@ -1,0 +1,81 @@
+---
+title: "Cross-Linguistic Trajectories"
+---
+
+Compare the acquisition of word meanings across languages. Pick a "uni-lemma"
+(a cross-linguistic meaning, like *dog*) to see, for each language that has a
+mapped word, the proportion of children producing or understanding it at each
+age.
+
+```{ojs setup-crossling}
+//| output: false
+Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
+d3 = require("d3@7")
+
+index = d3.json("slices/unilemmas/index.json")
+lemma_opts = new Map(index.map((d) => [`${d.uni_lemma} (${d.n_languages} languages)`, d]))
+```
+
+::::{.panel-input}
+
+```{ojs inputs-crossling}
+viewof lemma = Inputs.select(lemma_opts, {
+  label: "Uni-lemma",
+  value: index.find((d) => d.uni_lemma === "dog")
+})
+viewof xmeasure = Inputs.select(["produces", "understands"], { label: "Measure" })
+```
+
+::::
+
+```{ojs load-lemma}
+//| output: false
+// lazy load: fetch only the selected uni-lemma's slice
+lemma_data = d3.csv(`slices/unilemmas/${lemma.slug}.csv`, d3.autoType)
+lemma_filtered = lemma_data.filter((d) => d.measure === xmeasure && d.n >= 3)
+```
+
+```{ojs crossling-plot}
+// wrapped small multiples, one panel per language
+{
+  const languages = [...new Set(lemma_filtered.map((d) => d.language))].sort();
+  const panels = languages.map((lang) => {
+    const sub = lemma_filtered.filter((d) => d.language === lang);
+    const word = sub[0]?.words ?? "";
+    return html`<div style="text-align:center">
+      <div style="font-weight:600">${lang}</div>
+      <div style="color:#666;font-size:12px">${word}</div>
+      ${Plot.plot({
+        style: { fontFamily: "var(--sans-serif)", fontSize: "11px" },
+        width: 225,
+        height: 170,
+        inset: 4,
+        marginLeft: 32,
+        x: { label: null, tickFormat: "d" },
+        y: { label: null, domain: [0, 1] },
+        marks: [
+          Plot.dot(sub, {
+            x: "age", y: "prop",
+            r: (d) => Math.sqrt(d.n) / 4,
+            fill: "var(--bs-primary, #337ab7)", fillOpacity: 0.4,
+            channels: { n: "n" }, tip: true
+          }),
+          Plot.lineY(sub, Plot.windowY(
+            { k: 3, reduce: "mean" },
+            { x: "age", y: "prop", stroke: "var(--bs-primary, #337ab7)", strokeWidth: 2, curve: "basis" }
+          ))
+        ]
+      })}
+    </div>`;
+  });
+  return html`<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center">${panels}</div>`;
+}
+```
+
+```{ojs crossling-table}
+Inputs.table(
+  lemma_filtered.map(({ language, words, age, n, prop }) =>
+    ({ language, word: words, age, n, proportion: prop })),
+  { maxWidth: 950 }
+)
+```
