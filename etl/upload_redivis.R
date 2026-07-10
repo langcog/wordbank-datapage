@@ -47,7 +47,9 @@ if (!ds$exists()) {
 }
 
 upload_parquet <- function(tb, path) {
-  tb$upload(basename(path))$create(content = path, type = "parquet")
+  # replace_on_conflict makes interrupted runs safely resumable
+  tb$upload(basename(path))$create(content = path, type = "parquet",
+                                   replace_on_conflict = TRUE)
 }
 
 # "replace" makes uploads in a new version supersede the previous version's
