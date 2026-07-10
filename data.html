@@ -191,7 +191,7 @@ background: var(--bs-light);
 
 
 
-<p>All Wordbank data are hosted on the <a href="https://redivis.com/datapages/datasets/wordbank">datapages.wordbank</a> Redivis dataset, versioned and freely downloadable. Tables can be filtered and exported directly on Redivis; for programmatic access see the <a href="https://github.com/langcog/wordbankr">wordbankr</a> R package or the <a href="https://apidocs.redivis.com/">Redivis API</a>.</p>
+<p>All Wordbank data are hosted on the <a href="https://redivis.com/datapages/datasets/wordbank">datapages.wordbank</a> Redivis dataset, versioned and freely downloadable. Tables can be filtered and exported directly on Redivis; every visualization on this site also has a <em>Download CSV</em> button for its current view.</p>
 <p>Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the <code>license</code> column of the <code>datasets</code> table).</p>
 <section id="administrations" class="level2">
 <h2 class="anchored" data-anchor-id="administrations">Administrations</h2>
@@ -200,6 +200,35 @@ background: var(--bs-light);
 <section id="item-responses" class="level2">
 <h2 class="anchored" data-anchor-id="item-responses">Item responses</h2>
 <iframe width="100%" height="800" allow="fullscreen" src="https://redivis.com/embed/tables/datapages.wordbank.item_responses#cells"></iframe>
+</section>
+<section id="programmatic-access" class="level2">
+<h2 class="anchored" data-anchor-id="programmatic-access">Programmatic access</h2>
+<p>You can access Wordbank data from R using the <a href="https://github.com/langcog/wordbankr">wordbankr</a> package (see the <a href="http://langcog.github.io/wordbankr/">data access vignette</a>), which provides tidy tables of instruments, administrations, items, and child-by-word responses. From Python or other languages, use the <a href="https://apidocs.redivis.com/">Redivis API</a> directly against the dataset.</p>
+</section>
+<section id="versions" class="level2">
+<h2 class="anchored" data-anchor-id="versions">Versions</h2>
+<p>Wordbank data are versioned on Redivis: every release is a citable snapshot, and older versions remain permanently available from the <a href="https://redivis.com/datapages/datasets/wordbank">dataset’s version history</a>. If you are running reproducible analyses, record the version you used (in wordbankr: <code>options(wordbankr.dataset_version = "v1.3")</code>).</p>
+</section>
+<section id="wordbank-book" class="level2">
+<h2 class="anchored" data-anchor-id="wordbank-book">Wordbank Book</h2>
+<p>Many analyses of Wordbank data are described in detail in <a href="https://wordbank-book.stanford.edu"><em>Variability and Consistency in Early Language Learning: The Wordbank Project</em></a>, which characterizes vocabulary development across languages. All of the <a href="https://github.com/langcog/wordbank-book">code for those analyses</a> is available, and is a good starting point for item- and group-level analyses beyond what the site’s interactive tools offer.</p>
+</section>
+<section id="uni-lemmas" class="level2">
+<h2 class="anchored" data-anchor-id="uni-lemmas">Uni-lemmas</h2>
+<p>Cross-linguistic “uni-lemma” mappings (conceptual glosses linking items across languages, used by the <a href="./crossling.html">Cross-Linguistic Trajectories</a> tool and the <code>uni_lemma</code> column of the <code>items</code> table) are documented in the <a href="https://github.com/langcog/update_unilemmas/blob/main/unilemma_policy.md">uni-lemma policy</a>; the mappings are maintained in the <a href="https://github.com/langcog/update_unilemmas">update_unilemmas</a> repository.</p>
+</section>
+<section id="teaching" class="level2">
+<h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
+<p>Wordbank is used in courses on language development and on data analysis:</p>
+<ul>
+<li>An <a href="https://docs.google.com/presentation/d/1VnhKdCBOzgxaaCwm3CsTtF-Cu3gfsl7Kgz1CwQ5c_SE/edit">in-class exercise</a> and <a href="https://docs.google.com/document/d/1UOHuF26t19HLPswsVm46ivA7nS98Z3G9ht9GwCtJYJ0/edit">assignment</a> exploring vocabulary development, contributed by <a href="https://sites.google.com/site/caitlinmfausey/">Caitlin Fausey</a></li>
+<li><a href="https://github.com/mikabr/acq-tools">Tutorial materials</a> on accessing Wordbank (and CHILDES) programmatically, by <a href="https://web.stanford.edu/~mcfrank/">Michael Frank</a> and <a href="https://mikabr.io/">Mika Braginsky</a></li>
+</ul>
+<p>If you use Wordbank in your teaching, we would love to <a href="mailto:wordbank-contact@stanford.edu">hear about it</a>.</p>
+</section>
+<section id="infrastructure" class="level2">
+<h2 class="anchored" data-anchor-id="infrastructure">Infrastructure</h2>
+<p>Curious how the site works? See the <a href="./faq.html">FAQ</a> and the <a href="https://github.com/langcog/wordbank-datapage">wordbank-datapage</a> repository.</p>
 
 
 </section>
