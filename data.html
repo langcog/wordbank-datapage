@@ -191,16 +191,10 @@ background: var(--bs-light);
 
 
 
-<p>All Wordbank data are hosted on the <a href="https://redivis.com/datapages/datasets/wordbank">datapages.wordbank</a> Redivis dataset, versioned and freely downloadable. Tables can be filtered and exported directly on Redivis; every visualization on this site also has a <em>Download CSV</em> button for its current view.</p>
+<p>All Wordbank data are hosted on the <a href="https://redivis.com/datapages/datasets/wordbank">datapages.wordbank</a> Redivis dataset, versioned and freely downloadable. Tables can be filtered and exported directly in the table browsers <a href="#browse-the-tables">below</a>; every visualization on this site also has a <em>Download CSV</em> button for its current view.</p>
 <p>Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the <code>license</code> column of the <code>datasets</code> table).</p>
-<section id="administrations" class="level2">
-<h2 class="anchored" data-anchor-id="administrations">Administrations</h2>
-<iframe width="100%" height="800" allow="fullscreen" src="https://redivis.com/embed/tables/datapages.wordbank.administrations#cells"></iframe>
-</section>
-<section id="item-responses" class="level2">
-<h2 class="anchored" data-anchor-id="item-responses">Item responses</h2>
-<iframe width="100%" height="800" allow="fullscreen" src="https://redivis.com/embed/tables/datapages.wordbank.item_responses#cells"></iframe>
-</section>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
 <section id="programmatic-access" class="level2">
 <h2 class="anchored" data-anchor-id="programmatic-access">Programmatic access</h2>
 <p>You can access Wordbank data from R using the <a href="https://github.com/langcog/wordbankr">wordbankr</a> package (see the <a href="http://langcog.github.io/wordbankr/">data access vignette</a>), which provides tidy tables of instruments, administrations, items, and child-by-word responses. From Python or other languages, use the <a href="https://apidocs.redivis.com/">Redivis API</a> directly against the dataset.</p>
@@ -213,6 +207,8 @@ background: var(--bs-light);
 <h2 class="anchored" data-anchor-id="wordbank-book">Wordbank Book</h2>
 <p>Many analyses of Wordbank data are described in detail in <a href="https://wordbank-book.stanford.edu"><em>Variability and Consistency in Early Language Learning: The Wordbank Project</em></a>, which characterizes vocabulary development across languages. All of the <a href="https://github.com/langcog/wordbank-book">code for those analyses</a> is available, and is a good starting point for item- and group-level analyses beyond what the site’s interactive tools offer.</p>
 </section>
+</div>
+<div class="g-col-12 g-col-md-6">
 <section id="uni-lemmas" class="level2">
 <h2 class="anchored" data-anchor-id="uni-lemmas">Uni-lemmas</h2>
 <p>Cross-linguistic “uni-lemma” mappings (conceptual glosses linking items across languages, used by the <a href="./crossling.html">Cross-Linguistic Trajectories</a> tool and the <code>uni_lemma</code> column of the <code>items</code> table) are documented in the <a href="https://github.com/langcog/update_unilemmas/blob/main/unilemma_policy.md">uni-lemma policy</a>; the mappings are maintained in the <a href="https://github.com/langcog/update_unilemmas">update_unilemmas</a> repository.</p>
@@ -229,8 +225,21 @@ background: var(--bs-light);
 <section id="infrastructure" class="level2">
 <h2 class="anchored" data-anchor-id="infrastructure">Infrastructure</h2>
 <p>Curious how the site works? See the <a href="./faq.html">FAQ</a> and the <a href="https://github.com/langcog/wordbank-datapage">wordbank-datapage</a> repository.</p>
+</section>
+</div>
+</div>
+<section id="browse-the-tables" class="level2">
+<h2 class="anchored" data-anchor-id="browse-the-tables">Browse the tables</h2>
+<section id="administrations" class="level3">
+<h3 class="anchored" data-anchor-id="administrations">Administrations</h3>
+<iframe width="100%" height="800" allow="fullscreen" src="https://redivis.com/embed/tables/datapages.wordbank.administrations#cells"></iframe>
+</section>
+<section id="item-responses" class="level3">
+<h3 class="anchored" data-anchor-id="item-responses">Item responses</h3>
+<iframe width="100%" height="800" allow="fullscreen" src="https://redivis.com/embed/tables/datapages.wordbank.item_responses#cells"></iframe>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
