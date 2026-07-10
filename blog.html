@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4bc9a943c051b4463a0213700de5bca8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-281176644587f5831a353f85aa069769.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,10 +113,6 @@ background: var(--bs-light);
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analyses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Analyses</span>
@@ -197,6 +193,10 @@ background: var(--bs-light);
 
 <div class="blog-layout">
 <div class="blog-main">
+<section id="new-infrastructure" class="level2">
+<h2 class="anchored" data-anchor-id="new-infrastructure">New infrastructure</h2>
+<div class="blog-post"><p>Wordbank has moved to a new infrastructure! The site you are reading is now fully static: the database lives on <a href="https://redivis.com/datapages/datasets/wordbank">Redivis</a> as a versioned, freely downloadable dataset, and all visualizations run directly in your browser, computed from the raw data. This <a href="https://github.com/datapages/datapage">datapages</a>-style rebuild replaces the previous Django and Shiny stack, making the site faster and much cheaper to maintain, and making every data release citable by version. The migration was carried out with the help of <a href="https://claude.com/claude-code">Claude Code</a> and the Claude Fable model, working alongside the Wordbank team. Old links and the <code>wordbankr</code> R package continue to work, and the underlying data are unchanged.</p></div>
+</section>
 <section id="new-languages" class="level2">
 <h2 class="anchored" data-anchor-id="new-languages">New languages!</h2>
 <div class="blog-post"><p>&nbsp;We're pleased to announce a new release of the Wordbank database, bringing us to more than 100,000 CDI administrations! This release includes data from Japanese, Estonian, Saudi Arabic, and Catalan, as well as new data from Korean, Finnish, French, and French-English bilinguals.&nbsp;</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GvxByUTtWylEBubzFoiJj1DAcdDhp_xhX6Ir55m_v2p3uJCqGpIwmlhIsSbwR1JsJgfL0Nf6qATB_mnXUcgiin_gFuWzgc6D-cNYOsjuSQiJ5xVv1tztTA7m-Ky4zBGj6TNgB3-p28JAdKlFNf0qRutxF4MG33mkmNZoEsFQeWtju5OIpH_tt4Aaw6An/s503/Screenshot%202024-02-08%20at%209.25.14%20AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="477" data-original-width="503" height="303" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GvxByUTtWylEBubzFoiJj1DAcdDhp_xhX6Ir55m_v2p3uJCqGpIwmlhIsSbwR1JsJgfL0Nf6qATB_mnXUcgiin_gFuWzgc6D-cNYOsjuSQiJ5xVv1tztTA7m-Ky4zBGj6TNgB3-p28JAdKlFNf0qRutxF4MG33mkmNZoEsFQeWtju5OIpH_tt4Aaw6An/s320/Screenshot%202024-02-08%20at%209.25.14%20AM.png" width="320"></a></div><br><p><br></p></div>
@@ -293,6 +293,7 @@ Frank, M. C., Braginsky, M., Yurovsky, D., Marchman, V. A. (under review). <a hr
 </div>
 <div class="blog-resources">
 <div class="blog-resources-heading">Resources</div>
+<a href="https://github.com/datapages/datapage" target="_blank">Datapages<small>Static data-portal infrastructure used by this site</small></a>
 <a href="http://metalab.stanford.edu" target="_blank">MetaLab<small>Database of developmental meta-analyses</small></a>
 <a href="https://childes.talkbank.org" target="_blank">CHILDES<small>Corpora of child and child-directed language</small></a>
 <a href="https://childes-db.stanford.edu" target="_blank">childes-db<small>Flexible and reproducible interface to CHILDES</small></a>

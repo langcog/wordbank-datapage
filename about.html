@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -43,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4bc9a943c051b4463a0213700de5bca8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-281176644587f5831a353f85aa069769.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,6 +123,8 @@ ul.task-list li input[type="checkbox"] {
 background: var(--bs-light);
       }
 </style>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 </head>
@@ -113,10 +150,6 @@ background: var(--bs-light);
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analyses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Analyses</span>
@@ -201,7 +234,16 @@ background: var(--bs-light);
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="team-grid">
-<p><a href="http://web.stanford.edu/~mcfrank"><img src="images/headshots/mike.jpg" class="img-fluid"><strong>Michael C. Frank</strong><br>Stanford University</a> <a href="https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php"><img src="images/headshots/virginia.jpg" class="img-fluid"><strong>Virginia Marchman</strong><br>Stanford University</a> <a href="http://mikabr.github.io"><img src="images/headshots/mika.jpg" class="img-fluid"><strong>Mika Braginsky</strong><br>Stanford University</a> <a href="https://www.danyurovsky.com/"><img src="images/headshots/dan.jpg" class="img-fluid"><strong>Daniel Yurovsky</strong><br>Carnegie Mellon University</a> <img src="images/headshots/danielle.jpg" class="img-fluid"><strong>Danielle Kellier</strong><br>UPenn <a href="https://hudl.princeton.edu/people/benjamin-demayo"><img src="images/headshots/benny.jpg" class="img-fluid"><strong>Benny deMayo</strong><br>Princeton University</a> <a href="http://www.kachergis.com/"><img src="images/headshots/george.jpg" class="img-fluid"><strong>George Kachergis</strong><br>Skillprint</a> <img src="images/headshots/alvin.jpg" class="img-fluid"><strong>Alvin Tan</strong><br>Stanford University <a href="https://jmankewitz.com/"><img src="images/headshots/jess.png" class="img-fluid"><strong>Jess Mankewitz</strong><br>UW-Madison</a> <img src="images/headshots/henry.jpg" class="img-fluid"><strong>Henry Mehta</strong><br>Hexia Web Services Limited</p>
+<p><a href="http://web.stanford.edu/~mcfrank"><img src="images/headshots/mike.jpg" class="img-fluid"><strong>Michael C. Frank</strong><br>Stanford University</a></p>
+<p><a href="https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php"><img src="images/headshots/virginia.jpg" class="img-fluid"><strong>Virginia Marchman</strong><br>Stanford University</a></p>
+<p><a href="http://mikabr.github.io"><img src="images/headshots/mika.jpg" class="img-fluid"><strong>Mika Braginsky</strong><br>Stanford University</a></p>
+<p><a href="https://www.danyurovsky.com/"><img src="images/headshots/dan.jpg" class="img-fluid"><strong>Daniel Yurovsky</strong><br>Carnegie Mellon University</a></p>
+<p><img src="images/headshots/danielle.jpg" class="img-fluid"><strong>Danielle Kellier</strong><br>UPenn</p>
+<p><a href="https://hudl.princeton.edu/people/benjamin-demayo"><img src="images/headshots/benny.jpg" class="img-fluid"><strong>Benny deMayo</strong><br>Princeton University</a></p>
+<p><a href="http://www.kachergis.com/"><img src="images/headshots/george.jpg" class="img-fluid"><strong>George Kachergis</strong><br>Skillprint</a></p>
+<p><img src="images/headshots/alvin.jpg" class="img-fluid"><strong>Alvin Tan</strong><br>Stanford University</p>
+<p><a href="https://jmankewitz.com/"><img src="images/headshots/jess.png" class="img-fluid"><strong>Jess Mankewitz</strong><br>UW-Madison</a></p>
+<p><img src="images/headshots/henry.jpg" class="img-fluid"><strong>Henry Mehta</strong><br>Hexia Web Services Limited</p>
 </div>
 <section id="who-funds-wordbank" class="level3">
 <h3 class="anchored" data-anchor-id="who-funds-wordbank">Who funds Wordbank?</h3>
@@ -210,16 +252,40 @@ background: var(--bs-light);
 </section>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<ul>
-<li>Jiang, H., and Frank, M. C., Kulkarni, V. and Fourtassi, A. (2022). Exploring patterns of stability and change in caregivers’ word usage across early childhood. <em>Cognitive Science.</em> <a href="https://psyarxiv.com/fym86">[pdf]</a></li>
-<li>Kachergis, G., Francis, N., Frank, M. C. (2022). Estimating demographic bias on tests of children’s early vocabulary. <em>Proceedings of the 44th Annual Conference of the Cognitive Science Society.</em> <a href="https://psyarxiv.com/4rywf/">[pdf]</a></li>
-<li>Kachergis, G., Marchman, V. A., Dale, P., Mankewitz, J., Frank, M. C. (2022). Online Computerized Adaptive Tests (CAT) of Children’s Vocabulary Development in English and Mexican Spanish. <em>Journal of Speech Hearing and Language Research.</em> <a href="https://psyarxiv.com/5ftsu/">[pdf]</a></li>
-<li>Kachergis, G., Marchman, V. A., Frank, M. C. (2022). Toward a “Standard Model” of Early Language Learning. <em>Current Directions in Psychological Science.</em> <a href="https://psyarxiv.com/yhrb4">[pdf]</a></li>
-<li>Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2021). <em>Variability and Consistency in Early Language Learning: The Wordbank Project.</em> Cambridge, MA: MIT Press. <a href="https://langcog.github.io/wordbank-book/">[book]</a></li>
-<li>Portelance, E., Degen, J., Frank, M. C. (2020). Predicting age of acquisition in early word learning using recurrent neural networks. <em>Proceedings of the 42nd Annual Conference of the Cognitive Science Society.</em> <a href="https://github.com/eporte2/aoa_lstm_prediction/blob/master/writeups/CogSci_final_EvaPortelance.pdf">[pdf]</a></li>
-<li>Braginsky, M., Yurovsky, D., Marchman, V. A., &amp; Frank, M. C. (2019). Consistency and variability in children’s word learning across languages. <em>Open Mind.</em> <a href="https://www.mitpressjournals.org/doi/full/10.1162/opmi_a_00026">[pdf]</a></li>
-<li>Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. <em>Journal of Child Language.</em> <a href="http://langcog.stanford.edu/papers_new/frank-2016-jcl.pdf">[pdf]</a></li>
-</ul>
+<p>Publications are rendered from <a href="https://github.com/langcog/wordbank-datapage/blob/main/resources/publications.json">resources/publications.json</a> — edit that file to add a paper.</p>
+<div class="cell hidden">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="54" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 53;"><span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"d3@7"</span>)</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>pubs <span class="op">=</span> d3<span class="op">.</span><span class="fu">json</span>(<span class="st">"resources/publications.json"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display hidden">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display hidden">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="58" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 57;"><span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;table class="pubs-table"&gt;</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;thead&gt;&lt;tr&gt;&lt;th&gt;Year&lt;/th&gt;&lt;th&gt;Citation&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tbody&gt;</span><span class="sc">${</span>pubs<span class="op">.</span><span class="fu">map</span>((p) <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;tr&gt;</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>p<span class="op">.</span><span class="at">year</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>p<span class="op">.</span><span class="at">authors</span><span class="sc">}</span><span class="vs"> (</span><span class="sc">${</span>p<span class="op">.</span><span class="at">year</span><span class="sc">}</span><span class="vs">). </span><span class="sc">${</span>p<span class="op">.</span><span class="at">title</span><span class="sc">}</span><span class="vs">. &lt;em&gt;</span><span class="sc">${</span>p<span class="op">.</span><span class="at">venue</span><span class="sc">}</span><span class="vs">.&lt;/em&gt;&lt;/td&gt;</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;td&gt;</span><span class="sc">${</span>p<span class="op">.</span><span class="at">link</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;a href="</span><span class="sc">${</span>p<span class="op">.</span><span class="at">link</span><span class="sc">}</span><span class="vs">" target="_blank"&gt;[</span><span class="sc">${</span>p<span class="op">.</span><span class="at">link_label</span> <span class="op">??</span> <span class="st">"pdf"</span><span class="sc">}</span><span class="vs">]&lt;/a&gt;`</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tr&gt;`</span>)<span class="sc">}</span><span class="vs">&lt;/tbody&gt;</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/table&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -240,6 +306,17 @@ background: var(--bs-light);
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZShcImQzQDdcIilcbnB1YnMgPSBkMy5qc29uKFwicmVzb3VyY2VzL3B1YmxpY2F0aW9ucy5qc29uXCIpXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJodG1sYDx0YWJsZSBjbGFzcz1cInB1YnMtdGFibGVcIj5cbiAgPHRoZWFkPjx0cj48dGg+WWVhcjwvdGg+PHRoPkNpdGF0aW9uPC90aD48dGg+PC90aD48L3RyPjwvdGhlYWQ+XG4gIDx0Ym9keT4ke3B1YnMubWFwKChwKSA9PiBodG1sYDx0cj5cbiAgICA8dGQ+JHtwLnllYXJ9PC90ZD5cbiAgICA8dGQ+JHtwLmF1dGhvcnN9ICgke3AueWVhcn0pLiAke3AudGl0bGV9LiA8ZW0+JHtwLnZlbnVlfS48L2VtPjwvdGQ+XG4gICAgPHRkPiR7cC5saW5rID8gaHRtbGA8YSBocmVmPVwiJHtwLmxpbmt9XCIgdGFyZ2V0PVwiX2JsYW5rXCI+WyR7cC5saW5rX2xhYmVsID8/IFwicGRmXCJ9XTwvYT5gIDogXCJcIn08L3RkPlxuICA8L3RyPmApfTwvdGJvZHk+XG48L3RhYmxlPmBcbiJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
