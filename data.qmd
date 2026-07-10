@@ -5,9 +5,8 @@ title: "Data"
 All Wordbank data are hosted on the
 [datapages.wordbank](https://redivis.com/datapages/datasets/wordbank) Redivis
 dataset, versioned and freely downloadable. Tables can be filtered and
-exported directly on Redivis; for programmatic access see the
-[wordbankr](https://github.com/langcog/wordbankr) R package or the
-[Redivis API](https://apidocs.redivis.com/).
+exported directly on Redivis; every visualization on this site also has a
+*Download CSV* button for its current view.
 
 Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the
 `license` column of the `datasets` table).
@@ -19,3 +18,61 @@ Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the
 ## Item responses
 
 {{< redivis-table datapages.wordbank.item_responses >}}
+
+## Programmatic access
+
+You can access Wordbank data from R using the
+[wordbankr](https://github.com/langcog/wordbankr) package (see the
+[data access vignette](http://langcog.github.io/wordbankr/)), which provides
+tidy tables of instruments, administrations, items, and child-by-word
+responses. From Python or other languages, use the
+[Redivis API](https://apidocs.redivis.com/) directly against the dataset.
+
+## Versions
+
+Wordbank data are versioned on Redivis: every release is a citable snapshot,
+and older versions remain permanently available from the
+[dataset's version history](https://redivis.com/datapages/datasets/wordbank).
+If you are running reproducible analyses, record the version you used (in
+wordbankr: `options(wordbankr.dataset_version = "v1.3")`).
+
+## Wordbank Book
+
+Many analyses of Wordbank data are described in detail in [*Variability and
+Consistency in Early Language Learning: The Wordbank
+Project*](https://wordbank-book.stanford.edu), which characterizes
+vocabulary development across languages. All of the
+[code for those analyses](https://github.com/langcog/wordbank-book) is
+available, and is a good starting point for item- and group-level analyses
+beyond what the site's interactive tools offer.
+
+## Uni-lemmas
+
+Cross-linguistic "uni-lemma" mappings (conceptual glosses linking items
+across languages, used by the [Cross-Linguistic
+Trajectories](crossling.qmd) tool and the `uni_lemma` column of the `items`
+table) are documented in the
+[uni-lemma policy](https://github.com/langcog/update_unilemmas/blob/main/unilemma_policy.md);
+the mappings are maintained in the
+[update_unilemmas](https://github.com/langcog/update_unilemmas) repository.
+
+## Teaching
+
+Wordbank is used in courses on language development and on data analysis:
+
+- An [in-class exercise](https://docs.google.com/presentation/d/1VnhKdCBOzgxaaCwm3CsTtF-Cu3gfsl7Kgz1CwQ5c_SE/edit)
+  and [assignment](https://docs.google.com/document/d/1UOHuF26t19HLPswsVm46ivA7nS98Z3G9ht9GwCtJYJ0/edit)
+  exploring vocabulary development, contributed by
+  [Caitlin Fausey](https://sites.google.com/site/caitlinmfausey/)
+- [Tutorial materials](https://github.com/mikabr/acq-tools) on accessing
+  Wordbank (and CHILDES) programmatically, by
+  [Michael Frank](https://web.stanford.edu/~mcfrank/) and
+  [Mika Braginsky](https://mikabr.io/)
+
+If you use Wordbank in your teaching, we would love to
+[hear about it](mailto:wordbank-contact@stanford.edu).
+
+## Infrastructure
+
+Curious how the site works? See the [FAQ](faq.qmd) and the
+[wordbank-datapage](https://github.com/langcog/wordbank-datapage) repository.
