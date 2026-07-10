@@ -78,7 +78,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a626c6382998ddeb89dc21882f95ed7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4bc9a943c051b4463a0213700de5bca8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -230,19 +230,33 @@ background: var(--bs-light);
     <div class="wb-title">Wordbank</div>
     <p>An open database of children's vocabulary development</p>
   </div>
-  <div>
+  <div class="wb-hero-logos">
     <a href="https://mb-cdi.stanford.edu/"><img class="mcdi" src="images/mcdi.png" alt="MB-CDI"></a>
     <a href="https://langcog.stanford.edu/"><img class="lab" src="images/lab_logo.png" alt="Language and Cognition Lab"></a>
   </div>
 </div>
-<p>Wordbank archives data from the <a href="https://mb-cdi.stanford.edu/">MacArthur-Bates Communicative Development Inventories</a> (CDIs), parent-report instruments that measure early language development. Data are contributed by researchers around the world and are freely available for browsing, visualization, and download.</p>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<p><br></p>
+<div class="analysis-thumbs">
+  <a href="norms.html">
+    <img src="images/sample_plots/vocab_xkcd.png" alt="">
+    <h4 class="anchored">Vocabulary Norms</h4>
+    <p>Explore vocabulary size growth curves for various languages and demographic groups.</p>
+  </a>
+  <a href="trajectories.html">
+    <img src="images/sample_plots/items_xkcd.png" alt="">
+    <h4 class="anchored">Item Trajectories</h4>
+    <p>Explore trajectories of individual words across languages and ages.</p>
+  </a>
+</div>
+<p>More: <a href="crossling.html">Cross-Linguistic Trajectories</a> · <a href="scoring.html">CDI Scoring</a> · <a href="data.html">Data</a></p>
+</div>
+<div class="g-col-12 g-col-md-6 text-center">
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="27" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="stats-row"&gt;</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="stat-card"&gt;&lt;div class="stat-n"&gt;</span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_administrations</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs">&lt;/div&gt;&lt;div class="stat-label"&gt;CDI administrations&lt;/div&gt;&lt;/div&gt;</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="stat-card"&gt;&lt;div class="stat-n"&gt;</span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_children</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs">&lt;/div&gt;&lt;div class="stat-label"&gt;children&lt;/div&gt;&lt;/div&gt;</span></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="stat-card"&gt;&lt;div class="stat-n"&gt;</span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_languages</span><span class="sc">}</span><span class="vs">&lt;/div&gt;&lt;div class="stat-label"&gt;languages&lt;/div&gt;&lt;/div&gt;</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;div class="stat-card"&gt;&lt;div class="stat-n"&gt;</span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_instruments</span><span class="sc">}</span><span class="vs">&lt;/div&gt;&lt;div class="stat-label"&gt;instruments&lt;/div&gt;&lt;/div&gt;</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="49" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 48;"><span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="lang-lead"&gt;Wordbank contains data from </span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_children</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs"> children&lt;br&gt;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="vs">and </span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_administrations</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs"> CDI administrations, across&lt;br&gt;</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_languages</span><span class="sc">}</span><span class="vs"> languages and </span><span class="sc">${</span>stats<span class="op">.</span><span class="at">n_instruments</span><span class="sc">}</span><span class="vs"> instruments:&lt;/div&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="expression">
 
@@ -250,8 +264,8 @@ background: var(--bs-light);
 </div>
 </div>
 <div class="cell hidden">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="38" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 37;"><span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"d3@7"</span>)</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>langs <span class="op">=</span> <span class="fu">transpose</span>(lang_stats)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="57" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 56;"><span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"d3@7"</span>)</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>langs <span class="op">=</span> <span class="fu">transpose</span>(lang_stats)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display hidden">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -268,98 +282,72 @@ background: var(--bs-light);
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="42" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 41;"><span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="co">// the language bubble pack ("snail") from the original wordbank home page:</span></span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="co">// one bubble per language, area ~ n_children^0.65, HCL rainbow by size rank</span></span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>{</span>
-<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> width <span class="op">=</span> <span class="dv">640</span><span class="op">,</span> height <span class="op">=</span> <span class="dv">560</span><span class="op">;</span></span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> <span class="bu">root</span> <span class="op">=</span> d3<span class="op">.</span><span class="fu">pack</span>()</span>
-<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">size</span>([width<span class="op">,</span> height])</span>
-<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">padding</span>(<span class="dv">5</span>)(</span>
-<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>      d3<span class="op">.</span><span class="fu">hierarchy</span>({ <span class="dt">children</span><span class="op">:</span> langs })</span>
-<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span><span class="fu">sum</span>((d) <span class="kw">=&gt;</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">pow</span>(d<span class="op">.</span><span class="at">count</span><span class="op">,</span> <span class="fl">0.65</span>))</span>
-<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> b<span class="op">.</span><span class="at">value</span> <span class="op">-</span> a<span class="op">.</span><span class="at">value</span>)</span>
-<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>    )<span class="op">;</span></span>
-<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> color <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(langs<span class="op">.</span><span class="fu">map</span>((d<span class="op">,</span> i) <span class="kw">=&gt;</span></span>
-<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>    [d<span class="op">.</span><span class="at">name</span><span class="op">,</span> d3<span class="op">.</span><span class="fu">hcl</span>((i <span class="op">*</span> <span class="dv">360</span> <span class="op">/</span> langs<span class="op">.</span><span class="at">length</span>) <span class="op">%</span> <span class="dv">360</span><span class="op">,</span> <span class="dv">60</span><span class="op">,</span> <span class="dv">60</span>)<span class="op">.</span><span class="fu">formatHex</span>()]))<span class="op">;</span></span>
-<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">create</span>(<span class="st">"svg"</span>)</span>
-<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"viewBox"</span><span class="op">,</span> [<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> width<span class="op">,</span> height])</span>
-<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"style"</span><span class="op">,</span> <span class="st">"max-width: 100%; height: auto; display: block; margin: 0 auto;"</span>)<span class="op">;</span></span>
-<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> node <span class="op">=</span> svg<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">"g"</span>)</span>
-<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">data</span>(<span class="bu">root</span><span class="op">.</span><span class="fu">leaves</span>())</span>
-<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">join</span>(<span class="st">"g"</span>)</span>
-<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"transform"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="vs">`translate(</span><span class="sc">${</span>d<span class="op">.</span><span class="at">x</span><span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>d<span class="op">.</span><span class="at">y</span><span class="sc">}</span><span class="vs">)`</span>)<span class="op">;</span></span>
-<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>  node<span class="op">.</span><span class="fu">append</span>(<span class="st">"circle"</span>)</span>
-<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"r"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">r</span>)</span>
-<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> color<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">name</span>))<span class="op">;</span></span>
-<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>  node<span class="op">.</span><span class="fu">append</span>(<span class="st">"title"</span>)</span>
-<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>((d) <span class="kw">=&gt;</span> <span class="vs">`</span><span class="sc">${</span>d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">language</span><span class="sc">}</span><span class="vs">: </span><span class="sc">${</span>d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">count</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs"> children`</span>)<span class="op">;</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb3" data-startfrom="61" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 60;"><span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a><span class="co">// the language bubble pack from the original wordbank home page:</span></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="co">// one bubble per language, area ~ n_children^0.65, HCL rainbow by size rank</span></span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> width <span class="op">=</span> <span class="dv">450</span><span class="op">,</span> height <span class="op">=</span> <span class="dv">425</span><span class="op">;</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> <span class="bu">root</span> <span class="op">=</span> d3<span class="op">.</span><span class="fu">pack</span>()</span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">size</span>([width<span class="op">,</span> height])</span>
+<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">padding</span>(<span class="dv">5</span>)(</span>
+<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a>      d3<span class="op">.</span><span class="fu">hierarchy</span>({ <span class="dt">children</span><span class="op">:</span> langs })</span>
+<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span><span class="fu">sum</span>((d) <span class="kw">=&gt;</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">pow</span>(d<span class="op">.</span><span class="at">count</span><span class="op">,</span> <span class="fl">0.65</span>))</span>
+<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a>        <span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> b<span class="op">.</span><span class="at">value</span> <span class="op">-</span> a<span class="op">.</span><span class="at">value</span>)</span>
+<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a>    )<span class="op">;</span></span>
 <span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>  <span class="co">// fit label to bubble (same rule as the original: min(2r, scaled-to-width)),</span></span>
-<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>  <span class="co">// measuring text with a canvas so the svg never needs to touch the DOM</span></span>
-<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ctx <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"canvas"</span>)<span class="op">.</span><span class="fu">getContext</span>(<span class="st">"2d"</span>)<span class="op">;</span></span>
-<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>  ctx<span class="op">.</span><span class="at">font</span> <span class="op">=</span> <span class="st">"12px sans-serif"</span><span class="op">;</span></span>
-<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> fontSize <span class="op">=</span> (d) <span class="kw">=&gt;</span> {</span>
-<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> w <span class="op">=</span> ctx<span class="op">.</span><span class="fu">measureText</span>(d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">name</span>)<span class="op">.</span><span class="at">width</span><span class="op">;</span></span>
-<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">max</span>(<span class="dv">0</span><span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="dv">2</span> <span class="op">*</span> d<span class="op">.</span><span class="at">r</span><span class="op">,</span> (<span class="dv">2</span> <span class="op">*</span> d<span class="op">.</span><span class="at">r</span> <span class="op">-</span> <span class="dv">8</span>) <span class="op">/</span> w <span class="op">*</span> <span class="dv">12</span>))<span class="op">;</span></span>
-<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
-<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>  node<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
-<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">".35em"</span>)</span>
-<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"text-anchor"</span><span class="op">,</span> <span class="st">"middle"</span>)</span>
-<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"white"</span>)</span>
-<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"style"</span><span class="op">,</span> <span class="st">"font-family: var(--sans-serif); pointer-events: none;"</span>)</span>
-<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="fu">fontSize</span>(d) <span class="op">+</span> <span class="st">"px"</span>)</span>
-<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">name</span>)<span class="op">;</span></span>
-<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> svg<span class="op">.</span><span class="fu">node</span>()<span class="op">;</span></span>
-<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> color <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(langs<span class="op">.</span><span class="fu">map</span>((d<span class="op">,</span> i) <span class="kw">=&gt;</span></span>
+<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a>    [d<span class="op">.</span><span class="at">name</span><span class="op">,</span> d3<span class="op">.</span><span class="fu">hcl</span>((i <span class="op">*</span> <span class="dv">360</span> <span class="op">/</span> langs<span class="op">.</span><span class="at">length</span>) <span class="op">%</span> <span class="dv">360</span><span class="op">,</span> <span class="dv">60</span><span class="op">,</span> <span class="dv">60</span>)<span class="op">.</span><span class="fu">formatHex</span>()]))<span class="op">;</span></span>
+<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">create</span>(<span class="st">"svg"</span>)</span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"viewBox"</span><span class="op">,</span> [<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> width<span class="op">,</span> height])</span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"style"</span><span class="op">,</span> <span class="st">"max-width: 450px; width: 100%; height: auto; display: inline-block;"</span>)<span class="op">;</span></span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> node <span class="op">=</span> svg<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">"g"</span>)</span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">data</span>(<span class="bu">root</span><span class="op">.</span><span class="fu">leaves</span>())</span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">join</span>(<span class="st">"g"</span>)</span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"transform"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="vs">`translate(</span><span class="sc">${</span>d<span class="op">.</span><span class="at">x</span><span class="sc">}</span><span class="vs">,</span><span class="sc">${</span>d<span class="op">.</span><span class="at">y</span><span class="sc">}</span><span class="vs">)`</span>)<span class="op">;</span></span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>  node<span class="op">.</span><span class="fu">append</span>(<span class="st">"circle"</span>)</span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"r"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">r</span>)</span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> color<span class="op">.</span><span class="fu">get</span>(d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">name</span>))<span class="op">;</span></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a>  node<span class="op">.</span><span class="fu">append</span>(<span class="st">"title"</span>)</span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>((d) <span class="kw">=&gt;</span> <span class="vs">`</span><span class="sc">${</span>d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">language</span><span class="sc">}</span><span class="vs">: </span><span class="sc">${</span>d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">count</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs"> children`</span>)<span class="op">;</span></span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ctx <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"canvas"</span>)<span class="op">.</span><span class="fu">getContext</span>(<span class="st">"2d"</span>)<span class="op">;</span></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a>  ctx<span class="op">.</span><span class="at">font</span> <span class="op">=</span> <span class="st">"12px sans-serif"</span><span class="op">;</span></span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> fontSize <span class="op">=</span> (d) <span class="kw">=&gt;</span> {</span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> w <span class="op">=</span> ctx<span class="op">.</span><span class="fu">measureText</span>(d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">name</span>)<span class="op">.</span><span class="at">width</span><span class="op">;</span></span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">max</span>(<span class="dv">0</span><span class="op">,</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="dv">2</span> <span class="op">*</span> d<span class="op">.</span><span class="at">r</span><span class="op">,</span> (<span class="dv">2</span> <span class="op">*</span> d<span class="op">.</span><span class="at">r</span> <span class="op">-</span> <span class="dv">6</span>) <span class="op">/</span> w <span class="op">*</span> <span class="dv">12</span>))<span class="op">;</span></span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a>  node<span class="op">.</span><span class="fu">append</span>(<span class="st">"text"</span>)</span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"dy"</span><span class="op">,</span> <span class="st">".35em"</span>)</span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"text-anchor"</span><span class="op">,</span> <span class="st">"middle"</span>)</span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"fill"</span><span class="op">,</span> <span class="st">"white"</span>)</span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">"style"</span><span class="op">,</span> <span class="st">"font-family: var(--sans-serif); pointer-events: none;"</span>)</span>
+<span id="cb3-105"><a href="#cb3-105" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">"font-size"</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="fu">fontSize</span>(d) <span class="op">+</span> <span class="st">"px"</span>)</span>
+<span id="cb3-106"><a href="#cb3-106" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">data</span><span class="op">.</span><span class="at">name</span>)<span class="op">;</span></span>
+<span id="cb3-107"><a href="#cb3-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-108"><a href="#cb3-108" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> svg<span class="op">.</span><span class="fu">node</span>()<span class="op">;</span></span>
+<span id="cb3-109"><a href="#cb3-109" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-3" data-nodetype="expression">
 
 </div>
 </div>
 </div>
-<section id="explore" class="level2">
-<h2 class="anchored" data-anchor-id="explore">Explore</h2>
-<div class="analysis-thumbs">
-  <a href="norms.html">
-    <img src="images/sample_plots/vocab_xkcd.png" alt="">
-    <h4 class="anchored">Vocabulary Norms</h4>
-    <p>Growth curves of vocabulary size, by language and demographic group.</p>
-  </a>
-  <a href="trajectories.html">
-    <img src="images/sample_plots/items_xkcd.png" alt="">
-    <h4 class="anchored">Item Trajectories</h4>
-    <p>Acquisition trajectories of individual words.</p>
-  </a>
-  <a href="crossling.html">
-    <img src="images/sample_plots/items_xkcd.png" alt="">
-    <h4 class="anchored">Cross-Linguistic</h4>
-    <p>Compare word meanings across languages.</p>
-  </a>
-  <a href="data.html">
-    <img src="images/sample_plots/vocab_xkcd.png" alt="">
-    <h4 class="anchored">Data</h4>
-    <p>Browse and download the full dataset on Redivis.</p>
-  </a>
 </div>
-</section>
-<section id="citation" class="level2">
-<h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<p>Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. <em>Journal of Child Language, 44</em>(3), 677–694.</p>
+</div>
+<hr>
+<p>Wordbank archives data from the <a href="https://mb-cdi.stanford.edu/">MacArthur-Bates Communicative Development Inventories</a> (CDIs), parent-report instruments that measure early language development. Data are contributed by researchers around the world and are freely available for browsing, visualization, and download.</p>
+<p>If you use Wordbank, please cite: Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. <em>Journal of Child Language, 44</em>(3), 677–694.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Imh0bWxgPGRpdiBjbGFzcz1cInN0YXRzLXJvd1wiPlxuICA8ZGl2IGNsYXNzPVwic3RhdC1jYXJkXCI+PGRpdiBjbGFzcz1cInN0YXQtblwiPiR7c3RhdHMubl9hZG1pbmlzdHJhdGlvbnMudG9Mb2NhbGVTdHJpbmcoKX08L2Rpdj48ZGl2IGNsYXNzPVwic3RhdC1sYWJlbFwiPkNESSBhZG1pbmlzdHJhdGlvbnM8L2Rpdj48L2Rpdj5cbiAgPGRpdiBjbGFzcz1cInN0YXQtY2FyZFwiPjxkaXYgY2xhc3M9XCJzdGF0LW5cIj4ke3N0YXRzLm5fY2hpbGRyZW4udG9Mb2NhbGVTdHJpbmcoKX08L2Rpdj48ZGl2IGNsYXNzPVwic3RhdC1sYWJlbFwiPmNoaWxkcmVuPC9kaXY+PC9kaXY+XG4gIDxkaXYgY2xhc3M9XCJzdGF0LWNhcmRcIj48ZGl2IGNsYXNzPVwic3RhdC1uXCI+JHtzdGF0cy5uX2xhbmd1YWdlc308L2Rpdj48ZGl2IGNsYXNzPVwic3RhdC1sYWJlbFwiPmxhbmd1YWdlczwvZGl2PjwvZGl2PlxuICA8ZGl2IGNsYXNzPVwic3RhdC1jYXJkXCI+PGRpdiBjbGFzcz1cInN0YXQtblwiPiR7c3RhdHMubl9pbnN0cnVtZW50c308L2Rpdj48ZGl2IGNsYXNzPVwic3RhdC1sYWJlbFwiPmluc3RydW1lbnRzPC9kaXY+PC9kaXY+XG48L2Rpdj5gXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJkMyA9IHJlcXVpcmUoXCJkM0A3XCIpXG5sYW5ncyA9IHRyYW5zcG9zZShsYW5nX3N0YXRzKVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0zIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiLy8gdGhlIGxhbmd1YWdlIGJ1YmJsZSBwYWNrIChcInNuYWlsXCIpIGZyb20gdGhlIG9yaWdpbmFsIHdvcmRiYW5rIGhvbWUgcGFnZTpcbi8vIG9uZSBidWJibGUgcGVyIGxhbmd1YWdlLCBhcmVhIH4gbl9jaGlsZHJlbl4wLjY1LCBIQ0wgcmFpbmJvdyBieSBzaXplIHJhbmtcbntcbiAgY29uc3Qgd2lkdGggPSA2NDAsIGhlaWdodCA9IDU2MDtcblxuICBjb25zdCByb290ID0gZDMucGFjaygpXG4gICAgLnNpemUoW3dpZHRoLCBoZWlnaHRdKVxuICAgIC5wYWRkaW5nKDUpKFxuICAgICAgZDMuaGllcmFyY2h5KHsgY2hpbGRyZW46IGxhbmdzIH0pXG4gICAgICAgIC5zdW0oKGQpID0+IE1hdGgucG93KGQuY291bnQsIDAuNjUpKVxuICAgICAgICAuc29ydCgoYSwgYikgPT4gYi52YWx1ZSAtIGEudmFsdWUpXG4gICAgKTtcblxuICBjb25zdCBjb2xvciA9IG5ldyBNYXAobGFuZ3MubWFwKChkLCBpKSA9PlxuICAgIFtkLm5hbWUsIGQzLmhjbCgoaSAqIDM2MCAvIGxhbmdzLmxlbmd0aCkgJSAzNjAsIDYwLCA2MCkuZm9ybWF0SGV4KCldKSk7XG5cbiAgY29uc3Qgc3ZnID0gZDMuY3JlYXRlKFwic3ZnXCIpXG4gICAgLmF0dHIoXCJ2aWV3Qm94XCIsIFswLCAwLCB3aWR0aCwgaGVpZ2h0XSlcbiAgICAuYXR0cihcInN0eWxlXCIsIFwibWF4LXdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IGRpc3BsYXk6IGJsb2NrOyBtYXJnaW46IDAgYXV0bztcIik7XG5cbiAgY29uc3Qgbm9kZSA9IHN2Zy5zZWxlY3RBbGwoXCJnXCIpXG4gICAgLmRhdGEocm9vdC5sZWF2ZXMoKSlcbiAgICAuam9pbihcImdcIilcbiAgICAuYXR0cihcInRyYW5zZm9ybVwiLCAoZCkgPT4gYHRyYW5zbGF0ZSgke2QueH0sJHtkLnl9KWApO1xuXG4gIG5vZGUuYXBwZW5kKFwiY2lyY2xlXCIpXG4gICAgLmF0dHIoXCJyXCIsIChkKSA9PiBkLnIpXG4gICAgLmF0dHIoXCJmaWxsXCIsIChkKSA9PiBjb2xvci5nZXQoZC5kYXRhLm5hbWUpKTtcblxuICBub2RlLmFwcGVuZChcInRpdGxlXCIpXG4gICAgLnRleHQoKGQpID0+IGAke2QuZGF0YS5sYW5ndWFnZX06ICR7ZC5kYXRhLmNvdW50LnRvTG9jYWxlU3RyaW5nKCl9IGNoaWxkcmVuYCk7XG5cbiAgLy8gZml0IGxhYmVsIHRvIGJ1YmJsZSAoc2FtZSBydWxlIGFzIHRoZSBvcmlnaW5hbDogbWluKDJyLCBzY2FsZWQtdG8td2lkdGgpKSxcbiAgLy8gbWVhc3VyaW5nIHRleHQgd2l0aCBhIGNhbnZhcyBzbyB0aGUgc3ZnIG5ldmVyIG5lZWRzIHRvIHRvdWNoIHRoZSBET01cbiAgY29uc3QgY3R4ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImNhbnZhc1wiKS5nZXRDb250ZXh0KFwiMmRcIik7XG4gIGN0eC5mb250ID0gXCIxMnB4IHNhbnMtc2VyaWZcIjtcbiAgY29uc3QgZm9udFNpemUgPSAoZCkgPT4ge1xuICAgIGNvbnN0IHcgPSBjdHgubWVhc3VyZVRleHQoZC5kYXRhLm5hbWUpLndpZHRoO1xuICAgIHJldHVybiBNYXRoLm1heCgwLCBNYXRoLm1pbigyICogZC5yLCAoMiAqIGQuciAtIDgpIC8gdyAqIDEyKSk7XG4gIH07XG5cbiAgbm9kZS5hcHBlbmQoXCJ0ZXh0XCIpXG4gICAgLmF0dHIoXCJkeVwiLCBcIi4zNWVtXCIpXG4gICAgLmF0dHIoXCJ0ZXh0LWFuY2hvclwiLCBcIm1pZGRsZVwiKVxuICAgIC5hdHRyKFwiZmlsbFwiLCBcIndoaXRlXCIpXG4gICAgLmF0dHIoXCJzdHlsZVwiLCBcImZvbnQtZmFtaWx5OiB2YXIoLS1zYW5zLXNlcmlmKTsgcG9pbnRlci1ldmVudHM6IG5vbmU7XCIpXG4gICAgLnN0eWxlKFwiZm9udC1zaXplXCIsIChkKSA9PiBmb250U2l6ZShkKSArIFwicHhcIilcbiAgICAudGV4dCgoZCkgPT4gZC5kYXRhLm5hbWUpO1xuXG4gIHJldHVybiBzdmcubm9kZSgpO1xufVxuIn1dfQ==
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Imh0bWxgPGRpdiBjbGFzcz1cImxhbmctbGVhZFwiPldvcmRiYW5rIGNvbnRhaW5zIGRhdGEgZnJvbSAke3N0YXRzLm5fY2hpbGRyZW4udG9Mb2NhbGVTdHJpbmcoKX0gY2hpbGRyZW48YnI+XG5hbmQgJHtzdGF0cy5uX2FkbWluaXN0cmF0aW9ucy50b0xvY2FsZVN0cmluZygpfSBDREkgYWRtaW5pc3RyYXRpb25zLCBhY3Jvc3M8YnI+XG4ke3N0YXRzLm5fbGFuZ3VhZ2VzfSBsYW5ndWFnZXMgYW5kICR7c3RhdHMubl9pbnN0cnVtZW50c30gaW5zdHJ1bWVudHM6PC9kaXY+YFxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiZDMgPSByZXF1aXJlKFwiZDNAN1wiKVxubGFuZ3MgPSB0cmFuc3Bvc2UobGFuZ19zdGF0cylcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ii8vIHRoZSBsYW5ndWFnZSBidWJibGUgcGFjayBmcm9tIHRoZSBvcmlnaW5hbCB3b3JkYmFuayBob21lIHBhZ2U6XG4vLyBvbmUgYnViYmxlIHBlciBsYW5ndWFnZSwgYXJlYSB+IG5fY2hpbGRyZW5eMC42NSwgSENMIHJhaW5ib3cgYnkgc2l6ZSByYW5rXG57XG4gIGNvbnN0IHdpZHRoID0gNDUwLCBoZWlnaHQgPSA0MjU7XG5cbiAgY29uc3Qgcm9vdCA9IGQzLnBhY2soKVxuICAgIC5zaXplKFt3aWR0aCwgaGVpZ2h0XSlcbiAgICAucGFkZGluZyg1KShcbiAgICAgIGQzLmhpZXJhcmNoeSh7IGNoaWxkcmVuOiBsYW5ncyB9KVxuICAgICAgICAuc3VtKChkKSA9PiBNYXRoLnBvdyhkLmNvdW50LCAwLjY1KSlcbiAgICAgICAgLnNvcnQoKGEsIGIpID0+IGIudmFsdWUgLSBhLnZhbHVlKVxuICAgICk7XG5cbiAgY29uc3QgY29sb3IgPSBuZXcgTWFwKGxhbmdzLm1hcCgoZCwgaSkgPT5cbiAgICBbZC5uYW1lLCBkMy5oY2woKGkgKiAzNjAgLyBsYW5ncy5sZW5ndGgpICUgMzYwLCA2MCwgNjApLmZvcm1hdEhleCgpXSkpO1xuXG4gIGNvbnN0IHN2ZyA9IGQzLmNyZWF0ZShcInN2Z1wiKVxuICAgIC5hdHRyKFwidmlld0JveFwiLCBbMCwgMCwgd2lkdGgsIGhlaWdodF0pXG4gICAgLmF0dHIoXCJzdHlsZVwiLCBcIm1heC13aWR0aDogNDUwcHg7IHdpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87IGRpc3BsYXk6IGlubGluZS1ibG9jaztcIik7XG5cbiAgY29uc3Qgbm9kZSA9IHN2Zy5zZWxlY3RBbGwoXCJnXCIpXG4gICAgLmRhdGEocm9vdC5sZWF2ZXMoKSlcbiAgICAuam9pbihcImdcIilcbiAgICAuYXR0cihcInRyYW5zZm9ybVwiLCAoZCkgPT4gYHRyYW5zbGF0ZSgke2QueH0sJHtkLnl9KWApO1xuXG4gIG5vZGUuYXBwZW5kKFwiY2lyY2xlXCIpXG4gICAgLmF0dHIoXCJyXCIsIChkKSA9PiBkLnIpXG4gICAgLmF0dHIoXCJmaWxsXCIsIChkKSA9PiBjb2xvci5nZXQoZC5kYXRhLm5hbWUpKTtcblxuICBub2RlLmFwcGVuZChcInRpdGxlXCIpXG4gICAgLnRleHQoKGQpID0+IGAke2QuZGF0YS5sYW5ndWFnZX06ICR7ZC5kYXRhLmNvdW50LnRvTG9jYWxlU3RyaW5nKCl9IGNoaWxkcmVuYCk7XG5cbiAgY29uc3QgY3R4ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudChcImNhbnZhc1wiKS5nZXRDb250ZXh0KFwiMmRcIik7XG4gIGN0eC5mb250ID0gXCIxMnB4IHNhbnMtc2VyaWZcIjtcbiAgY29uc3QgZm9udFNpemUgPSAoZCkgPT4ge1xuICAgIGNvbnN0IHcgPSBjdHgubWVhc3VyZVRleHQoZC5kYXRhLm5hbWUpLndpZHRoO1xuICAgIHJldHVybiBNYXRoLm1heCgwLCBNYXRoLm1pbigyICogZC5yLCAoMiAqIGQuciAtIDYpIC8gdyAqIDEyKSk7XG4gIH07XG5cbiAgbm9kZS5hcHBlbmQoXCJ0ZXh0XCIpXG4gICAgLmF0dHIoXCJkeVwiLCBcIi4zNWVtXCIpXG4gICAgLmF0dHIoXCJ0ZXh0LWFuY2hvclwiLCBcIm1pZGRsZVwiKVxuICAgIC5hdHRyKFwiZmlsbFwiLCBcIndoaXRlXCIpXG4gICAgLmF0dHIoXCJzdHlsZVwiLCBcImZvbnQtZmFtaWx5OiB2YXIoLS1zYW5zLXNlcmlmKTsgcG9pbnRlci1ldmVudHM6IG5vbmU7XCIpXG4gICAgLnN0eWxlKFwiZm9udC1zaXplXCIsIChkKSA9PiBmb250U2l6ZShkKSArIFwicHhcIilcbiAgICAudGV4dCgoZCkgPT4gZC5kYXRhLm5hbWUpO1xuXG4gIHJldHVybiBzdmcubm9kZSgpO1xufVxuIn1dfQ==
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
@@ -770,6 +758,19 @@ window._ojs.runtime.interpretFromScriptTags();
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" class="img-fluid"></a><br> Unless otherwise stated, Wordbank and its datasets are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See our <a href="faq.html#what-is-the-license-for-derivative-works-from-wordbank-e.g.-graphs-generated-by-the-site">FAQ</a> for more information.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

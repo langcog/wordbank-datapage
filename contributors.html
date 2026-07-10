@@ -78,7 +78,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a626c6382998ddeb89dc21882f95ed7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4bc9a943c051b4463a0213700de5bca8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -235,7 +235,7 @@ background: var(--bs-light);
 
 
 
-<p>Thank you to all of the generous researchers who have contributed data to Wordbank! This page is generated from the <a href="https://redivis.com/datapages/datasets/wordbank">datasets table</a> on Redivis.</p>
+<p>Thank you to all of the generous researchers who have contributed data to Wordbank! The contributor list below is generated at every site build from the <a href="https://redivis.com/datapages/datasets/wordbank">datasets table</a> of the Wordbank Redivis dataset (built 2026-07-10), so it always reflects the current data release.</p>
 <ol type="1">
 <li>Researchers publishing or presenting work using data in the Wordbank database must cite the publications linked to that dataset, as shown below in the contributors list. (If there is no linked citation, then no citation for the individual dataset is necessary.)</li>
 <li>For tracking use of the database and its affiliated tools, please also cite: Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. <em>Journal of Child Language.</em> doi: 10.1017/S0305000916000209</li>
@@ -246,27 +246,27 @@ background: var(--bs-light);
 </ol>
 <p>To contribute your data, please email <a href="mailto:wordbank-contact@stanford.edu">wordbank-contact@stanford.edu</a>. Use of Wordbank data for the development of new CDI instruments must be approved by the CDI Advisory Board — see the Adaptations Guidelines on the <a href="https://mb-cdi.stanford.edu/adaptations.html">CDI website</a>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="38" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 37;"><span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>{</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ds <span class="op">=</span> <span class="fu">transpose</span>(datasets)<span class="op">;</span></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> langs <span class="op">=</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(ds<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">language</span>))]<span class="op">.</span><span class="fu">sort</span>()<span class="op">;</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> cards <span class="op">=</span> langs<span class="op">.</span><span class="fu">map</span>((lang) <span class="kw">=&gt;</span> {</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> rows <span class="op">=</span> ds<span class="op">.</span><span class="fu">filter</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">language</span> <span class="op">===</span> lang)</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> (a<span class="op">.</span><span class="at">contributor</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">localeCompare</span>(b<span class="op">.</span><span class="at">contributor</span> <span class="op">||</span> <span class="st">""</span>))<span class="op">;</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="contrib-card"&gt;</span></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div class="contrib-heading"&gt;</span><span class="sc">${</span>lang<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;ul&gt;</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="vs">        </span><span class="sc">${</span>rows<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="contrib-name"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">contributor</span> <span class="op">||</span> d<span class="op">.</span><span class="at">dataset_name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="badge-form"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">form</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="badge-n"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">n_admins</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="vs">          </span><span class="sc">${</span>d<span class="op">.</span><span class="at">license</span> <span class="op">===</span> <span class="st">"CC-BY-NC"</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/"&gt;&lt;img src="images/ccbync.large.png" style="width:28px;vertical-align:middle"&gt;&lt;/a&gt;`</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="vs">          </span><span class="sc">${</span>d<span class="op">.</span><span class="at">citation</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;div class="contrib-citation"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">citation</span><span class="sc">}</span><span class="vs">&lt;/div&gt;`</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;`</span>)<span class="sc">}</span></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;/ul&gt;</span></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;`</span><span class="op">;</span></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="contrib-columns"&gt;</span><span class="sc">${</span>cards<span class="sc">}</span><span class="vs">&lt;/div&gt;`</span><span class="op">;</span></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="40" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 39;"><span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> ds <span class="op">=</span> <span class="fu">transpose</span>(datasets)<span class="op">;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> langs <span class="op">=</span> [<span class="op">...</span><span class="kw">new</span> <span class="bu">Set</span>(ds<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">language</span>))]<span class="op">.</span><span class="fu">sort</span>()<span class="op">;</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> cards <span class="op">=</span> langs<span class="op">.</span><span class="fu">map</span>((lang) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> rows <span class="op">=</span> ds<span class="op">.</span><span class="fu">filter</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">language</span> <span class="op">===</span> lang)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">sort</span>((a<span class="op">,</span> b) <span class="kw">=&gt;</span> (a<span class="op">.</span><span class="at">contributor</span> <span class="op">||</span> <span class="st">""</span>)<span class="op">.</span><span class="fu">localeCompare</span>(b<span class="op">.</span><span class="at">contributor</span> <span class="op">||</span> <span class="st">""</span>))<span class="op">;</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="contrib-card"&gt;</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;div class="contrib-heading"&gt;</span><span class="sc">${</span>lang<span class="sc">}</span><span class="vs">&lt;/div&gt;</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;ul&gt;</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="vs">        </span><span class="sc">${</span>rows<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> <span class="fu">html</span><span class="vs">`&lt;li&gt;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="contrib-name"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">contributor</span> <span class="op">||</span> d<span class="op">.</span><span class="at">dataset_name</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="badge-form"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">form</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="vs">          &lt;span class="badge-n"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">n_admins</span><span class="op">.</span><span class="fu">toLocaleString</span>()<span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="vs">          </span><span class="sc">${</span>d<span class="op">.</span><span class="at">license</span> <span class="op">===</span> <span class="st">"CC-BY-NC"</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/"&gt;&lt;img src="images/ccbync.large.png" style="width:28px;vertical-align:middle"&gt;&lt;/a&gt;`</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="vs">          </span><span class="sc">${</span>d<span class="op">.</span><span class="at">citation</span> <span class="op">?</span> <span class="fu">html</span><span class="vs">`&lt;div class="contrib-citation"&gt;</span><span class="sc">${</span>d<span class="op">.</span><span class="at">citation</span><span class="sc">}</span><span class="vs">&lt;/div&gt;`</span> <span class="op">:</span> <span class="st">""</span><span class="sc">}</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="vs">        &lt;/li&gt;`</span>)<span class="sc">}</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;/ul&gt;</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/div&gt;`</span><span class="op">;</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="fu">html</span><span class="vs">`&lt;div class="contrib-columns"&gt;</span><span class="sc">${</span>cards<span class="sc">}</span><span class="vs">&lt;/div&gt;`</span><span class="op">;</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-1" data-nodetype="expression">
 
@@ -689,6 +689,19 @@ window._ojs.runtime.interpretFromScriptTags();
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" class="img-fluid"></a><br> Unless otherwise stated, Wordbank and its datasets are licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. See our <a href="faq.html#what-is-the-license-for-derivative-works-from-wordbank-e.g.-graphs-generated-by-the-site">FAQ</a> for more information.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
