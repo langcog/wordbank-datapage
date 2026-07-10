@@ -50,19 +50,25 @@ upload_parquet <- function(tb, path) {
   tb$upload(basename(path))$create(content = path, type = "parquet")
 }
 
+# "replace" makes uploads in a new version supersede the previous version's
+# rows (multiple uploads within one version still combine). The create-time
+# upload_merge_strategy argument does NOT take effect, so set it explicitly
+# via update() every run — otherwise re-releases append and double the data.
+get_table <- function(tname) {
+  tb <- ds$table(tname)
+  if (!tb$exists()) tb$create(description = table_descriptions[[tname]])
+  tb$update(upload_merge_strategy = "replace")
+  tb
+}
+
 for (f in list.files(out_dir, pattern = "\\.parquet$", full.names = TRUE)) {
   tname <- str_remove(basename(f), "\\.parquet$")
   message("uploading table: ", tname)
-  tb <- ds$table(tname)
-  if (!tb$exists()) tb$create(description = table_descriptions[[tname]],
-                              upload_merge_strategy = "replace")
-  upload_parquet(tb, f)
+  upload_parquet(get_table(tname), f)
 }
 
-message("uploading table: item_responses (per-instrument files, appended)")
-tb <- ds$table("item_responses")
-if (!tb$exists()) tb$create(description = table_descriptions[["item_responses"]],
-                            upload_merge_strategy = "replace")
+message("uploading table: item_responses (per-instrument files)")
+tb <- get_table("item_responses")
 for (f in list.files(resp_dir, full.names = TRUE)) {
   message("  ", basename(f))
   upload_parquet(tb, f)
