@@ -19,7 +19,7 @@ d3 = require("d3@7")
 
 index = d3.json("slices/unilemmas/index.json")
 lemma_opts = new Map(index.map((d) => [`${d.uni_lemma} (${d.n_languages} languages)`, d]))
-sex_colors = new Map([["All", "#337ab7"], ["Female", "#c2571a"], ["Male", "#3b8462"]])
+sex_colors = new Map([["All", "#2780e3"], ["Female", "#c2571a"], ["Male", "#3b8462"]])
 ```
 
 :::: {.viz-layout}

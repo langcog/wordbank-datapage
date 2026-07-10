@@ -45,10 +45,6 @@ database design and optimization, and to Rose Schneider for logo design.
 
 ## Papers and Publications
 
-Publications are rendered from
-[resources/publications.json](https://github.com/langcog/wordbank-datapage/blob/main/resources/publications.json)
-— edit that file to add a paper.
-
 ```{ojs pubs-setup}
 //| output: false
 d3 = require("d3@7")

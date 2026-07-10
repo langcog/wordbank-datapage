@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
 
-// original wordbank palette and type: bootstrap-3 defaults with the
-// light-blue navbar (#6baed6) from the original base.css
-$primary: #337ab7;
+// original wordbank palette: the live site uses a Bootswatch Cosmo
+// bootstrap-3 build; navbar-inverse and primary are #2780e3
+$primary: #2780e3;
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-size-root: 14px;
 $line-height-base: 1.428;
@@ -11,7 +11,8 @@ $headings-font-weight: 500;
 /*-- scss:rules --*/
 
 .navbar {
-  background-color: #5b9dcb !important;
+  background-color: #2780e3 !important;
+  border-bottom: 1px solid #1967be;
   padding-top: 6px;
   padding-bottom: 6px;
 
@@ -99,9 +100,9 @@ main {
     text-decoration: none;
     color: inherit;
 
-    &:hover { border-color: #6baed6; }
+    &:hover { border-color: #2780e3; }
     img { max-width: 100%; border-radius: 3px; }
-    h4 { color: #337ab7; margin: 0.5rem 0 0.25rem 0; font-size: 1.15rem; }
+    h4 { color: #2780e3; margin: 0.5rem 0 0.25rem 0; font-size: 1.15rem; }
     p { font-size: 0.9rem; color: #666; margin: 0; }
   }
 }
