@@ -20,7 +20,13 @@ jobs:
         with:
           use-public-rspm: true
 
+      # if the runner image update invalidates the package cache, arrow can
+      # fall back to a source build; LIBARROW_BINARY makes that fast by
+      # downloading a prebuilt C++ core instead of compiling it
       - uses: r-lib/actions/setup-r-dependencies@v2
+        env:
+          LIBARROW_BINARY: "true"
+          NOT_CRAN: "true"
         with:
           packages: |
             cran::arrow
