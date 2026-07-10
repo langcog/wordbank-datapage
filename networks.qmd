@@ -17,17 +17,6 @@ languages shows translation equivalents clustering together).
 ```{ojs setup-networks}
 //| output: false
 d3 = require("d3@7")
-duckdb = import("https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/+esm")
-
-db = {
-  const bundle = await duckdb.selectBundle(duckdb.getJsDelivrBundles());
-  const worker = await duckdb.createWorker(bundle.mainWorker);
-  const database = new duckdb.AsyncDuckDB(new duckdb.VoidLogger(), worker);
-  await database.instantiate(bundle.mainModule, bundle.pthreadWorker);
-  return database;
-}
-conn = db.connect()
-registered = new Set()
 
 net_languages = [...new Set(transpose(instruments).map((d) => d.language))].sort()
 ```
@@ -64,26 +53,16 @@ nw_selected = nw_langs.slice(0, 4)
 nw_words = {
   const all = [];
   for (const lang of nw_selected) {
-    const slug = san(lang);
-    const fname = `net_${slug}.parquet`;
-    if (!registered.has(fname)) {
-      const resp = await fetch(`slices/networks/${slug}.parquet`);
-      if (!resp.ok) continue;
-      await db.registerFileBuffer(fname, new Uint8Array(await resp.arrayBuffer()));
-      registered.add(fname);
-    }
-    const rows = await (await conn).query(
-      `SELECT language, item_definition, category, uni_lemma, aoa, embedding
-       FROM read_parquet('${fname}')`);
-    for (const r of rows.toArray()) {
-      const o = r.toJSON();
+    const d = await d3.json(`slices/networks/${san(lang)}.json`).catch(() => null);
+    if (!d) continue;
+    for (let i = 0; i < d.word.length; i++) {
       all.push({
-        language: o.language,
-        word: o.item_definition,
-        category: o.category,
-        uni_lemma: o.uni_lemma,
-        aoa: Number(o.aoa),
-        vec: Float32Array.from(o.embedding.toArray())
+        language: lang,
+        word: d.word[i],
+        category: d.category[i],
+        uni_lemma: d.uni_lemma[i],
+        aoa: Number(d.aoa[i]),
+        vec: Float32Array.from(d.vec[i])
       });
     }
   }

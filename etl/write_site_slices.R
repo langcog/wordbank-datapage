@@ -166,12 +166,18 @@ if (file.exists("data/aoa.parquet") && file.exists("data/item_embeddings.parquet
   net <- aoa_best |>
     inner_join(emb, by = c("language", "item_definition"))
 
+  # plain JSON (gzipped on the wire by the host): trivially loadable in OJS
   net |>
     group_by(language) |>
     group_walk(function(d, key) {
-      write_parquet(d, file.path("slices/networks",
-                                 paste0(san(key$language), ".parquet")),
-                    compression = "zstd")
+      jsonlite::write_json(
+        list(
+          word = d$item_definition, category = d$category,
+          uni_lemma = d$uni_lemma, aoa = round(d$aoa, 1),
+          vec = purrr::map(d$embedding, ~ round(.x, 4))
+        ),
+        file.path("slices/networks", paste0(san(key$language), ".json")),
+        digits = NA, null = "null")
     })
   message("wrote ", length(list.files("slices/networks")), " network slices (",
           nrow(net), " words)")
