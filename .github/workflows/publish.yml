@@ -48,3 +48,4 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REDIVIS_API_TOKEN: ${{ secrets.REDIVIS_API_TOKEN }}

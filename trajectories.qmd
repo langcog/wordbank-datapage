@@ -9,6 +9,7 @@ proportions are computed in your browser from the raw child-by-word responses.
 {{< include _load-instruments.qmd >}}
 {{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
+{{< include components/_loess.qmd >}}
 
 ```{ojs setup}
 //| output: false
@@ -90,6 +91,8 @@ viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false }
 
 ::: {.viz-main}
 
+{{< include components/_spinner.qmd >}}
+
 ```{ojs trajectory-data}
 //| output: false
 min_n_traj = 5
@@ -120,12 +123,14 @@ traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(sp
 
 ```{ojs trajectory-plot}
 {
+  clear_loading();
   if (!trajectory_data.length) {
     return html`<em>No data for this selection (age-by-group cells need at least ${min_n_traj} children).</em>`;
   }
   const single = traj_groups.length === 1;
   const panels = traj_groups.map((g) => {
     const sub = trajectory_data.filter((d) => d.grp === g);
+    const smooth = loess_series(sub, "item_definition", { w: "n_children" });
     return html`<div style="text-align:center">
       ${single ? "" : html`<div style="font-weight:600">${g}</div>`}
       ${Plot.plot({
@@ -143,10 +148,9 @@ traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(sp
             r: (d) => Math.sqrt(d.n_children) / 4, fillOpacity: 0.5,
             channels: { n_children: "n_children" }, tip: true
           }),
-          Plot.lineY(sub, Plot.windowY(
-            { k: 3, reduce: "mean" },
-            { x: "age", y: "prop", stroke: "item_definition", curve: "basis", strokeWidth: 2.5 }
-          ))
+          Plot.lineY(smooth, {
+            x: "age", y: "prop", stroke: "item_definition", strokeWidth: 2.5
+          })
         ]
       })}
     </div>`;

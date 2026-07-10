@@ -107,16 +107,16 @@ vocabulary in a given language across all children in the database, or
 split by gender, maternal education or birth order. Select the <em>Item
 Trajectories</em> tab to plot the trajectory of acquisition for one or
 more individual items/words, or the <em>Cross-Linguistic
-Trajectories</em> tab to compare item frequencies across languages. In
-the <em>Data Export Tools</em> section, you can download the raw data in
-csv format in three different layouts (by-child, by-word, and
-by-child-by-item) for use with your own analytic tools.</p>
+Trajectories</em> tab to compare item frequencies across languages. Each
+analysis page has a <em>Download CSV</em> button for the current view, and
+the <em>Data</em> page lets you filter and export any table in the database
+(including the full child-by-word data) directly from Redivis.</p>
 </div>
 <div id="how-many-cdis-are-in-the-database" class="section level3">
 <h3>How many CDIs are in the database?</h3>
 <p>The number of CDIs stored in Wordbank is continually growing, and we
 are always interested in adding more datasets to our site! To see which
-researchers have already contributed, click here: <a href="http://wordbank.stanford.edu/contributors" class="uri">http://wordbank.stanford.edu/contributors</a>. If you are
+researchers have already contributed, click here: <a href="contributors.html">the Contributors page</a>. If you are
 interested in contributing your own data, please contact us via email at
 <a href="mailto:wordbank-contact@stanford.edu" class="email">wordbank-contact@stanford.edu</a>.</p>
 </div>
@@ -145,11 +145,12 @@ directly through the website. No knowledge of R is necessary.</p>
 <div id="can-i-work-with-the-data-on-my-own-rather-than-through-the-website" class="section level3">
 <h3>Can I work with the data on my own, rather than through the
 website?</h3>
-<p>No problem. You can download child summary data, item-level data or
-the entire child-by-word data within the Analyses page. Simply select
-the Language and Form that you would like and then download. Some
-datasets are rather large, so this could take a while! You can also
-access the data directly in R by using the <a href="https://github.com/langcog/wordbankr"><code>wordbankr</code>
+<p>No problem. All Wordbank tables are hosted on
+<a href="https://redivis.com/datapages/datasets/wordbank">Redivis</a>, where
+you can filter and export them in csv or parquet format (the Data page
+embeds the most-used tables). The dataset is versioned, so you can cite and
+retrieve the exact release you analyzed. You can also access the data
+directly in R by using the <a href="https://github.com/langcog/wordbankr"><code>wordbankr</code>
 package</a>.</p>
 </div>
 <div id="can-i-use-wordbank-in-my-undergraduate-or-graduate-classes" class="section level3">
@@ -233,7 +234,7 @@ for a language that is not currently in Wordbank, please provide a copy
 of the CDI form itself, a translation of the items, and any related
 publications or working papers. Once the data are imported, we will
 acknowledge your work on the contributors’ page and post any citations
-related to the data (see <a href="http://wordbank.stanford.edu/contributors" class="uri">http://wordbank.stanford.edu/contributors</a>). To assure
+related to the data (see <a href="contributors.html">the Contributors page</a>). To assure
 that your data were imported correctly, will send you a link to your
 particular dataset so that you can verify our work.</p>
 <p>If you have only hard copy data, please contact us. It may be
@@ -276,10 +277,14 @@ free to use and adapt as long as credit is given.</p>
 </div>
 <div id="how-did-you-build-wordbank" class="section level3">
 <h3>How did you build Wordbank?</h3>
-<p>Wordbank is a <a href="https://www.mysql.com/">MySQL</a> database and
-<a href="https://www.djangoproject.com/">Django</a> frontend, with
-interactive reports created using <a href="http://shiny.rstudio.com/">Shiny</a>, an R platform for the web.
-All of the source code is open and available at <a href="https://github.com/langcog/wordbank">github</a>. If you see
+<p>Wordbank is a static website: the data live in a versioned
+<a href="https://redivis.com/datapages/datasets/wordbank">Redivis dataset</a>,
+pages are built with <a href="https://quarto.org">Quarto</a>, and all
+interactive visualization runs in your browser using
+<a href="https://observablehq.com/plot/">Observable Plot</a> and
+<a href="https://duckdb.org/docs/api/wasm/overview.html">DuckDB</a>.
+All of the source code is open and available at
+<a href="https://github.com/langcog/wordbank-datapage">github</a>. If you see
 something you want to fix or contribute to, send us a pull request or
 let us know!</p>
 </div>

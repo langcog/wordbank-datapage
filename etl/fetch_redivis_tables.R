@@ -11,7 +11,7 @@ suppressMessages({
 if (file.exists(".secrets")) readRenviron(".secrets")
 
 # the rest of the site's data comes from the committed slices/responses
-tables <- c("instruments", "administrations")
+tables <- c("instruments", "administrations", "datasets")
 
 dir.create("data", showWarnings = FALSE)
 ds <- redivis$organization("datapages")$dataset("wordbank")

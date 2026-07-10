@@ -10,6 +10,7 @@ combination of filters.
 {{< include _load-instruments.qmd >}}
 {{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
+{{< include components/_loess.qmd >}}
 
 ```{ojs setup-norms}
 //| output: false
@@ -54,6 +55,8 @@ viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false }
 
 ::: {.viz-main}
 
+{{< include components/_spinner.qmd >}}
+
 ```{ojs norms-data}
 //| output: false
 // lazy load: fetch only the selected instrument's administrations
@@ -89,12 +92,40 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
 
 ```{ojs norms-plot}
 {
+  clear_loading();
   if (!norms_quantiles.length) {
     return html`<em>Not enough data for this selection (cells need at least ${min_n} children per age).</em>`;
   }
   const single = norm_groups.length === 1;
+  const ylabel = `${nmeasure === "production" ? "Productive" : "Receptive"} vocabulary (words)`;
+
+  // a single quantile with a split consolidates onto one axis, one color per
+  // group — much easier to compare (e.g. median by sex)
+  if (!single && nquantiles.length === 1) {
+    const smooth = loess_series(norms_quantiles, "group",
+      { y: "vocab", w: "n_children" });
+    return Plot.plot({
+      style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
+      width: 850,
+      height: 480,
+      inset: 8,
+      grid: true,
+      x: { label: "Age (months)", tickFormat: "d" },
+      y: { label: `${ylabel}, ${Math.round(nquantiles[0] * 100)}th percentile` },
+      color: { legend: true, domain: norm_groups },
+      marks: [
+        Plot.lineY(smooth, { x: "age", y: "vocab", stroke: "group", strokeWidth: 2.5 }),
+        Plot.dot(norms_quantiles, {
+          x: "age", y: "vocab", fill: "group", r: 3, fillOpacity: 0.6,
+          channels: { n_children: "n_children" }, tip: true
+        })
+      ]
+    });
+  }
+
   const panels = norm_groups.map((g) => {
     const sub = norms_quantiles.filter((d) => d.group === g);
+    const smooth = loess_series(sub, "quantile", { y: "vocab", w: "n_children" });
     const n = d3.sum([...new Set(sub.map((d) => `${d.age}`))].map((a) =>
       sub.find((d) => `${d.age}` === a).n_children));
     return html`<div style="text-align:center">
@@ -106,13 +137,10 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
         inset: 8,
         grid: true,
         x: { label: "Age (months)", tickFormat: "d" },
-        y: { label: single ? `${nmeasure === "production" ? "Productive" : "Receptive"} vocabulary (words)` : null },
+        y: { label: single ? ylabel : null },
         color: { legend: single, type: "ordinal", scheme: "viridis", label: "Quantile" },
         marks: [
-          Plot.lineY(sub, Plot.windowY(
-            { k: 3, reduce: "mean" },
-            { x: "age", y: "vocab", stroke: "quantile", strokeWidth: 2.5, curve: "basis" }
-          )),
+          Plot.lineY(smooth, { x: "age", y: "vocab", stroke: "quantile", strokeWidth: 2.5 }),
           Plot.dot(sub, {
             x: "age", y: "vocab", fill: "quantile", r: 2.5, fillOpacity: 0.6,
             channels: { n_children: "n_children" }, tip: true

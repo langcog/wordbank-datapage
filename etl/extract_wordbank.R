@@ -48,12 +48,21 @@ message("pulling core tables...")
 instruments <- retry(get_instruments(), label = "instruments")
 datasets <- retry(get_datasets(admin_data = TRUE), label = "datasets")
 items <- retry(get_item_data(), label = "items")
+# filter_age = FALSE: the canonical table keeps administrations outside the
+# instrument's normed age range (the wordbankr default drops them); the
+# in_age_range flag lets consumers apply the usual filter
 admins_full <- retry(
-  get_administration_data(include_demographic_info = TRUE,
+  get_administration_data(filter_age = FALSE,
+                          include_demographic_info = TRUE,
                           include_birth_info = TRUE,
                           include_health_conditions = TRUE,
                           include_language_exposure = TRUE),
   label = "administrations")
+admins_full <- admins_full |>
+  left_join(instruments |> select(language, form, age_min, age_max),
+            by = c("language", "form")) |>
+  mutate(in_age_range = !is.na(age) & age >= age_min & age <= age_max) |>
+  select(-age_min, -age_max)
 
 language_exposures <- admins_full |>
   select(data_id, exposures = language_exposures) |>
@@ -122,7 +131,7 @@ for (i in seq_len(nrow(insts))) {
 # instruments uses summed counts so nothing large is held in memory at once.
 
 message("computing derived tables...")
-admin_ages <- administrations |> select(data_id, age)
+admin_ages <- administrations |> filter(in_age_range) |> select(data_id, age)
 item_meta <- items |>
   select(language, form, item_id, item_kind, item_definition, category,
          lexical_category, uni_lemma)
@@ -183,7 +192,7 @@ write_parquet(uni_lemma_summaries, file.path(out_dir, "uni_lemma_summaries.parqu
 
 quantile_probs <- c(0.10, 0.25, 0.50, 0.75, 0.90)
 vocab_summaries <- administrations |>
-  filter(!is.na(age)) |>
+  filter(in_age_range) |>
   select(language, form, form_type, age, production, comprehension) |>
   pivot_longer(c(production, comprehension),
                names_to = "measure", values_to = "vocab") |>

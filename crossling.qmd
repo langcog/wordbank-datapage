@@ -5,10 +5,11 @@ title: "Cross-Linguistic Trajectories"
 Compare the acquisition of word meanings across languages. Pick a "uni-lemma"
 (a cross-linguistic meaning, like *dog*) to see, for each language that has a
 mapped word, the proportion of children producing or understanding it at each
-age — optionally split by sex.
+age — optionally split by sex or consolidated onto a single plot.
 
 {{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
+{{< include components/_loess.qmd >}}
 
 ```{ojs setup-crossling}
 //| output: false
@@ -35,27 +36,79 @@ viewof xsplit = Inputs.select(new Map([["None", null], ["Sex", "sex"]]), {
 })
 ```
 
-:::
-
-::: {.viz-main}
-
 ```{ojs load-lemma}
 //| output: false
 // lazy load: fetch only the selected uni-lemma's slice
 lemma_data = d3.csv(`slices/unilemmas/${lemma.slug}.csv`, d3.autoType)
+lemma_languages = [...new Set(lemma_data.map((d) => d.language))].sort()
+```
+
+```{ojs inputs-languages}
+viewof xlanguages = Inputs.select(lemma_languages, {
+  label: "Languages",
+  multiple: Math.min(10, lemma_languages.length),
+  value: lemma_languages
+})
+viewof consolidate = Inputs.toggle({ label: "Consolidate onto one plot", value: false })
+```
+
+:::
+
+::: {.viz-main}
+
+{{< include components/_spinner.qmd >}}
+
+```{ojs filter-lemma}
+//| output: false
 lemma_filtered = lemma_data.filter((d) =>
   d.measure === xmeasure && d.n >= 3 &&
+  xlanguages.includes(d.language) &&
   (xsplit ? d.sex !== "All" : d.sex === "All"))
 ```
 
 ```{ojs crossling-plot}
-// wrapped small multiples, one panel per language
 {
-  const languages = [...new Set(lemma_filtered.map((d) => d.language))].sort();
-  if (!languages.length) return html`<em>No data for this selection.</em>`;
+  clear_loading();
+  if (!lemma_filtered.length) return html`<em>No data for this selection.</em>`;
+
+  if (consolidate) {
+    // one axis, languages as colors; if split by sex, facet Female/Male
+    const smooth = xsplit
+      ? ["Female", "Male"].flatMap((s) =>
+          loess_series(lemma_filtered.filter((d) => d.sex === s), "language", { w: "n" })
+            .map((p) => ({ ...p, sex: s })))
+      : loess_series(lemma_filtered, "language", { w: "n" });
+    return Plot.plot({
+      style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
+      width: 900,
+      height: 480,
+      inset: 8,
+      grid: true,
+      x: { label: "Age (months)", tickFormat: "d" },
+      y: { label: `Proportion ${xmeasure === "produces" ? "producing" : "understanding"}`, domain: [0, 1] },
+      fx: xsplit ? { label: null } : undefined,
+      color: { legend: true, domain: xlanguages.filter((l) => lemma_filtered.some((d) => d.language === l)) },
+      marks: [
+        Plot.lineY(smooth, {
+          x: "age", y: "prop", stroke: "language", strokeWidth: 2,
+          ...(xsplit ? { fx: "sex" } : {})
+        }),
+        Plot.dot(lemma_filtered, {
+          x: "age", y: "prop", stroke: "language", r: 2, fillOpacity: 0.4,
+          channels: { word: "words", n: "n" }, tip: true,
+          ...(xsplit ? { fx: "sex" } : {})
+        })
+      ]
+    });
+  }
+
+  // small multiples, one panel per language
+  const languages = lemma_languages.filter((l) =>
+    lemma_filtered.some((d) => d.language === l));
   const panels = languages.map((lang) => {
     const sub = lemma_filtered.filter((d) => d.language === lang);
     const word = sub[0]?.words ?? "";
+    const smooth = loess_series(sub, "sex", { w: "n" });
     return html`<div style="text-align:center">
       <div style="font-weight:600">${lang}</div>
       <div style="color:#666;font-size:12px">${word}</div>
@@ -74,10 +127,7 @@ lemma_filtered = lemma_data.filter((d) =>
             r: (d) => Math.sqrt(d.n) / 4, fillOpacity: 0.4,
             channels: { n: "n" }, tip: true
           }),
-          Plot.lineY(sub, Plot.windowY(
-            { k: 3, reduce: "mean" },
-            { x: "age", y: "prop", stroke: "sex", strokeWidth: 2, curve: "basis" }
-          ))
+          Plot.lineY(smooth, { x: "age", y: "prop", stroke: "sex", strokeWidth: 2 })
         ]
       })}
     </div>`;
