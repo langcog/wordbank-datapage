@@ -134,3 +134,47 @@ uni |>
   arrange(uni_lemma) |>
   write_json("slices/unilemmas/index.json")
 message("wrote ", length(list.files("slices/unilemmas")), " uni-lemma slices")
+
+# ---- Part C: network slices (need data/aoa.parquet + item_embeddings) ------
+# one row per unique word definition per language: AoA (preferring WS-type
+# production) + 256-dim normalized embedding (Matryoshka truncation of the
+# 768-dim gemini embedding)
+
+if (file.exists("data/aoa.parquet") && file.exists("data/item_embeddings.parquet")) {
+  dir.create("slices/networks", recursive = TRUE, showWarnings = FALSE)
+
+  form_pref <- read_parquet("data/instruments.parquet") |>
+    mutate(pref = case_when(form_type == "WS" ~ 1, form_type == "WG" ~ 2,
+                            .default = 3)) |>
+    select(language, form, pref)
+
+  aoa_best <- read_parquet("data/aoa.parquet") |>
+    filter(measure == "produces", !is.na(aoa)) |>
+    inner_join(form_pref, by = c("language", "form")) |>
+    group_by(language, item_definition) |>
+    arrange(pref, aoa) |>
+    slice(1) |>
+    ungroup() |>
+    select(language, item_definition, category, uni_lemma, aoa)
+
+  emb <- read_parquet("data/item_embeddings.parquet") |>
+    mutate(embedding = purrr::map(embedding, function(v) {
+      v <- v[1:256]
+      v / sqrt(sum(v^2))
+    }))
+
+  net <- aoa_best |>
+    inner_join(emb, by = c("language", "item_definition"))
+
+  net |>
+    group_by(language) |>
+    group_walk(function(d, key) {
+      write_parquet(d, file.path("slices/networks",
+                                 paste0(san(key$language), ".parquet")),
+                    compression = "zstd")
+    })
+  message("wrote ", length(list.files("slices/networks")), " network slices (",
+          nrow(net), " words)")
+} else {
+  message("skipping network slices (aoa/embeddings caches not present)")
+}

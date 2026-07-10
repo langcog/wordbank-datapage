@@ -33,6 +33,8 @@ table_descriptions <- c(
   item_summaries = "Per instrument: item x age x measure -> proportion of children producing/understanding.",
   uni_lemma_summaries = "Cross-linguistic: language x uni_lemma x age x measure -> proportion (uni-lemmas in 2+ languages).",
   vocab_summaries = "Per instrument: measure x age -> empirical vocabulary-size quantiles (10/25/50/75/90).",
+  aoa = "Age of acquisition per word item and measure: age at which 50% of children produce/understand the word (glm fit, wordbankr::fit_aoa).",
+  item_embeddings = "Multilingual gemini-embedding-001 embeddings (768-dim, JSON array string) for each unique word item definition.",
   item_responses = "Long-format raw responses: one row per administration x item, all instruments."
 )
 
@@ -66,6 +68,14 @@ get_table <- function(tname) {
 for (f in list.files(out_dir, pattern = "\\.parquet$", full.names = TRUE)) {
   tname <- str_remove(basename(f), "\\.parquet$")
   message("uploading table: ", tname)
+  if (tname == "item_embeddings") {
+    # Redivis tables hold scalar types: serialize the embedding list column
+    tmp <- file.path(tempdir(), "item_embeddings.parquet")
+    arrow::read_parquet(f) |>
+      dplyr::mutate(embedding = purrr::map_chr(embedding, jsonlite::toJSON)) |>
+      arrow::write_parquet(tmp)
+    f <- tmp
+  }
   upload_parquet(get_table(tname), f)
 }
 
