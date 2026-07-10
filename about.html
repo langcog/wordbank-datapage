@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-578f205225fc6759c195bc552f38646e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a626c6382998ddeb89dc21882f95ed7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -117,29 +117,48 @@ background: var(--bs-light);
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./trajectories.html"> 
-<span class="menu-text">Item Trajectories</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analyses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Analyses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-analyses">    
+        <li>
+    <a class="dropdown-item" href="./norms.html">
+ <span class="dropdown-text">Vocabulary Norms</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./crossling.html"> 
-<span class="menu-text">Cross-Linguistic</span></a>
+        <li>
+    <a class="dropdown-item" href="./trajectories.html">
+ <span class="dropdown-text">Item Trajectories</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./norms.html"> 
-<span class="menu-text">Vocabulary Norms</span></a>
+        <li>
+    <a class="dropdown-item" href="./crossling.html">
+ <span class="dropdown-text">Cross-Linguistic Trajectories</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./scoring.html"> 
-<span class="menu-text">Scoring</span></a>
+        <li>
+    <a class="dropdown-item" href="./scoring.html">
+ <span class="dropdown-text">CDI Scoring</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./data.html"> 
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./contributors.html"> 
+<span class="menu-text">Contributors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -177,11 +196,40 @@ background: var(--bs-light);
 
 
 <p>Wordbank is an open database of children’s vocabulary growth, built on data from the MacArthur-Bates Communicative Development Inventories (CDIs) and their adaptations across many languages. It is developed and maintained by the <a href="https://langcog.stanford.edu">Language and Cognition Lab</a> at Stanford University.</p>
-<p>This site is a static rebuild of <a href="http://wordbank.stanford.edu">wordbank.stanford.edu</a> on the <a href="https://github.com/datapages/datapage">datapages</a> infrastructure: data are hosted on Redivis and all visualization runs in your browser. Source at <a href="https://github.com/langcog/wordbank-datapage">langcog/wordbank-datapage</a>.</p>
+<section id="meet-the-wordbank-team" class="level2">
+<h2 class="anchored" data-anchor-id="meet-the-wordbank-team">Meet the Wordbank team</h2>
+<div class="team-grid">
+<p><a href="http://web.stanford.edu/~mcfrank"><img src="images/headshots/mike.jpg" class="img-fluid"><strong>Michael C. Frank</strong><br>Stanford University</a> <a href="http://mikabr.github.io"><img src="images/headshots/mika.jpg" class="img-fluid"><strong>Mika Braginsky</strong><br>MIT</a> <a href="http://www.thoughtfill.com"><img src="images/headshots/dan.jpg" class="img-fluid"><strong>Daniel Yurovsky</strong><br>Carnegie Mellon University</a> <a href="https://web.stanford.edu/group/langlearninglab/cgi-bin/research-associates/Virginia_Marchman,_Ph.D.php"><img src="images/headshots/virginia.jpg" class="img-fluid"><strong>Virginia Marchman</strong><br>Stanford University</a></p>
+</div>
+<section id="alumni" class="level3">
+<h3 class="anchored" data-anchor-id="alumni">Alumni</h3>
+<div class="team-grid">
+<p><img src="images/headshots/danielle.jpg" class="img-fluid"><strong>Danielle Kellier</strong><br>Stanford University</p>
+</div>
+</section>
+</section>
+<section id="who-funds-wordbank" class="level2">
+<h2 class="anchored" data-anchor-id="who-funds-wordbank">Who funds Wordbank?</h2>
+<p>The team would like to thank our supporters! The construction of Wordbank was funded by a grant from the National Science Foundation (#1451577), as well as generous support from the MB-CDI Advisory Board.</p>
+<p>Thanks to <a href="http://www.brockferguson.com/">Brock Ferguson</a> for help with database design and optimization, and to Rose Schneider for logo design.</p>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li><a href="mailto:wordbank-contact@stanford.edu">Contact us</a></li>
+<li><a href="https://github.com/langcog/wordbank">Wordbank on GitHub</a></li>
+<li><a href="http://langcog.github.io/wordbankr">wordbankr tutorial</a></li>
+<li><a href="https://github.com/langcog/wordbankr">wordbankr on GitHub</a></li>
+<li><a href="https://langcog.github.io/wordbank-book/">The Wordbank Book</a> — Frank, Braginsky, Yurovsky, &amp; Marchman (2021), <em>Variability and Consistency in Early Language Learning: The Wordbank Project</em>, MIT Press</li>
+</ul>
+</section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
 <p>Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. <em>Journal of Child Language, 44</em>(3), 677–694.</p>
-<p>See also: Frank, M. C., Braginsky, M., Yurovsky, D., &amp; Marchman, V. A. (2021). <em>Variability and Consistency in Early Language Learning: The Wordbank Project.</em> MIT Press.</p>
+</section>
+<section id="this-site" class="level2">
+<h2 class="anchored" data-anchor-id="this-site">This site</h2>
+<p>This site is a static rebuild of the original wordbank.stanford.edu: data are hosted on <a href="https://redivis.com/datapages/datasets/wordbank">Redivis</a> and all visualization runs in your browser. Source at <a href="https://github.com/langcog/wordbank-datapage">langcog/wordbank-datapage</a>.</p>
 
 
 </section>
