@@ -119,15 +119,34 @@ nw_edges = {
 
   const svg = d3.create("svg")
     .attr("viewBox", [0, 0, width, height])
-    .attr("style", "max-width:100%; height:auto; border:1px solid #eee; border-radius:5px;");
+    .attr("style", "max-width:100%; height:auto; border:1px solid #eee; border-radius:5px; cursor: grab;");
 
-  const link = svg.append("g")
+  // pan/zoom: wheel or pinch to zoom, drag the background to pan
+  const container = svg.append("g");
+  const zoom = d3.zoom()
+    .scaleExtent([0.15, 10])
+    .on("zoom", (event) => container.attr("transform", event.transform));
+  svg.call(zoom).on("dblclick.zoom", null);
+
+  const fit = (duration = 400) => {
+    const xs = nodes.map((d) => d.x), ys = nodes.map((d) => d.y);
+    if (!xs.length || xs.some((v) => !Number.isFinite(v))) return;
+    const [x0, x1] = d3.extent(xs), [y0, y1] = d3.extent(ys);
+    const pad = 40;
+    const k = Math.min(8, 0.95 / Math.max((x1 - x0 + pad) / width, (y1 - y0 + pad) / height));
+    svg.transition().duration(duration).call(
+      zoom.transform,
+      d3.zoomIdentity.translate(width / 2, height / 2).scale(k)
+        .translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
+  };
+
+  const link = container.append("g")
     .selectAll("line").data(links).join("line")
     .attr("stroke", "#bbb")
     .attr("stroke-opacity", 0.5)
     .attr("stroke-width", (d) => (d.sim - nw_minsim) * 8 + 0.5);
 
-  const node = svg.append("g")
+  const node = container.append("g")
     .selectAll("g").data(nodes).join("g");
 
   node.append("circle")
@@ -145,6 +164,7 @@ nw_edges = {
     .attr("style", "font-family: var(--sans-serif); font-size: 9px; fill: #444; pointer-events: none;")
     .text((d) => d.word);
 
+  let fitted = false;
   const sim = d3.forceSimulation(nodes)
     .force("link", d3.forceLink(links).distance(30).strength((d) => d.sim))
     .force("charge", d3.forceManyBody().strength(-60))
@@ -154,6 +174,8 @@ nw_edges = {
       link.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y)
           .attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      // fit once the layout has roughly settled
+      if (!fitted && sim.alpha() < 0.05) { fitted = true; fit(); }
     });
 
   node.call(d3.drag()
@@ -166,8 +188,11 @@ nw_edges = {
   const legend = html`<div style="display:flex;flex-wrap:wrap;gap:10px;font-size:12px;margin-bottom:6px">
     ${domain.slice(0, 24).map((c) => html`<span><span style="display:inline-block;width:10px;height:10px;border-radius:5px;background:${color(c)};margin-right:3px"></span>${c}</span>`)}
   </div>`;
+  const resetBtn = html`<button class="btn btn-sm btn-outline-secondary" style="float:right">Fit to view</button>`;
+  resetBtn.onclick = () => fit();
   const stats = html`<div style="color:#666;font-size:12px;margin-bottom:4px">
-    ${nodes.length} words acquired by ${nw_age} months · ${links.length} links</div>`;
+    ${resetBtn}${nodes.length} words acquired by ${nw_age} months · ${links.length} links
+    · scroll to zoom, drag background to pan</div>`;
   return html`<div>${stats}${legend}${svg.node()}</div>`;
 }
 ```
