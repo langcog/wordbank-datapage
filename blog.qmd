@@ -2,11 +2,9 @@
 title: "Blog"
 ---
 
-News and updates from the Wordbank team. See also related resources:
-[MetaLab](http://metalab.stanford.edu), [CHILDES](https://childes.talkbank.org),
-[childes-db](https://childes-db.stanford.edu),
-[Peekbank](https://peekbank.stanford.edu), and
-[ManyBabies](https://manybabies.stanford.edu).
+:::: {.blog-layout}
+
+::: {.blog-main}
 
 ## New languages!
 
@@ -139,3 +137,19 @@ Frank, M. C., Braginsky, M., Yurovsky, D., Marchman, V. A. (under review). <a hr
 <div class="blog-post">This is the place where we will be announcing new features and datasets for the wordbank site (<a href="http://wordbank.stanford.edu/">wordbank.stanford.edu</a>). Stay tuned!</div>
 ```
 
+
+
+:::
+
+::: {.blog-resources}
+```{=html}
+<div class="blog-resources-heading">Resources</div>
+<a href="http://metalab.stanford.edu" target="_blank">MetaLab<small>Database of developmental meta-analyses</small></a>
+<a href="https://childes.talkbank.org" target="_blank">CHILDES<small>Corpora of child and child-directed language</small></a>
+<a href="https://childes-db.stanford.edu" target="_blank">childes-db<small>Flexible and reproducible interface to CHILDES</small></a>
+<a href="https://peekbank.stanford.edu" target="_blank">Peekbank<small>Data from experiments measuring children's word recognition</small></a>
+<a href="https://manybabies.stanford.edu" target="_blank">ManyBabies<small>Multi-lab replications in developmental psychology</small></a>
+```
+:::
+
+::::

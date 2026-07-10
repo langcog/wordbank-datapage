@@ -10,6 +10,7 @@ combination of filters.
 {{< include _load-instruments.qmd >}}
 {{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
+{{< include components/_style.qmd >}}
 {{< include components/_loess.qmd >}}
 
 ```{ojs setup-norms}
@@ -21,7 +22,7 @@ insts = transpose(instruments)
 norm_languages = [...new Set(insts.map((d) => d.language))].sort()
 
 quantile_presets = new Map([
-  ["Standard (10/25/50/75/90)", [0.10, 0.25, 0.50, 0.75, 0.90]],
+  ["Standard", [0.10, 0.25, 0.50, 0.75, 0.90]],
   ["Quartiles", [0.25, 0.50, 0.75]],
   ["Deciles", [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]],
   ["Median", [0.5]]
@@ -68,9 +69,12 @@ nslice = d3.csv(`slices/admins/${san(nlanguage + " " + nform)}.csv`, (d) => ({
 }))
 
 min_n = 10
+norms_raw = nslice
+  .filter((d) => Number.isFinite(d.vocab) && d.group !== "" && (!norming_only || d.is_norming))
+  .map((d) => ({ ...d, age_j: d.age + (Math.random() - 0.5) * 0.8 }))
+
 norms_quantiles = {
-  const rows = nslice.filter((d) =>
-    Number.isFinite(d.vocab) && d.group !== "" && (!norming_only || d.is_norming));
+  const rows = norms_raw;
   const out = [];
   for (const [group, byAge] of d3.groups(rows, (d) => d.group)) {
     for (const [age, cell] of d3.groups(byAge, (d) => d.age)) {
@@ -110,10 +114,11 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
       height: 480,
       inset: 8,
       grid: true,
-      x: { label: "Age (months)", tickFormat: "d" },
-      y: { label: `${ylabel}, ${Math.round(nquantiles[0] * 100)}th percentile` },
+      x: { label: "Age (months)", tickFormat: "d", line: true },
+      y: { label: `${ylabel}, ${Math.round(nquantiles[0] * 100)}th percentile`, line: true },
       color: { legend: true, domain: norm_groups },
       marks: [
+        Plot.dot(norms_raw, { x: "age_j", y: "vocab", r: 1.3, fill: "#bbb", fillOpacity: 0.35 }),
         Plot.lineY(smooth, { x: "age", y: "vocab", stroke: "group", strokeWidth: 2.5 }),
         Plot.dot(norms_quantiles, {
           x: "age", y: "vocab", fill: "group", r: 3, fillOpacity: 0.6,
@@ -125,6 +130,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
 
   const panels = norm_groups.map((g) => {
     const sub = norms_quantiles.filter((d) => d.group === g);
+    const raw = norms_raw.filter((d) => d.group === g);
     const smooth = loess_series(sub, "quantile", { y: "vocab", w: "n_children" });
     const n = d3.sum([...new Set(sub.map((d) => `${d.age}`))].map((a) =>
       sub.find((d) => `${d.age}` === a).n_children));
@@ -136,10 +142,11 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
         height: single ? 480 : 300,
         inset: 8,
         grid: true,
-        x: { label: "Age (months)", tickFormat: "d" },
-        y: { label: single ? ylabel : null },
+        x: { label: "Age (months)", tickFormat: "d", line: true },
+        y: { label: single ? ylabel : null, line: true },
         color: { legend: single, type: "ordinal", scheme: "viridis", label: "Quantile" },
         marks: [
+          Plot.dot(raw, { x: "age_j", y: "vocab", r: single ? 1.3 : 1, fill: "#bbb", fillOpacity: 0.35 }),
           Plot.lineY(smooth, { x: "age", y: "vocab", stroke: "quantile", strokeWidth: 2.5 }),
           Plot.dot(sub, {
             x: "age", y: "vocab", fill: "quantile", r: 2.5, fillOpacity: 0.6,

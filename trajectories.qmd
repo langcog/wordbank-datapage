@@ -10,6 +10,7 @@ proportions are computed in your browser from the raw child-by-word responses.
 {{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
 {{< include components/_loess.qmd >}}
+{{< include components/_style.qmd >}}
 
 ```{ojs setup}
 //| output: false
@@ -114,8 +115,14 @@ trajectory_data = {
     GROUP BY 1, 2, 3
     HAVING COUNT(DISTINCT data_id) >= ${min_n_traj}
     ORDER BY 1, 2, 3`);
-  return rows.map((d) => ({ ...d, age: Number(d.age), prop: Number(d.prop),
-                            n_children: Number(d.n_children) }));
+  return rows.map((d) => {
+    const p = Number(d.prop), n = Number(d.n_children), z = 1.96;
+    const denom = 1 + z * z / n;
+    const center = (p + z * z / (2 * n)) / denom;
+    const half = (z / denom) * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n));
+    return { ...d, age: Number(d.age), prop: p, n_children: n,
+             ci_l: Math.max(0, center - half), ci_u: Math.min(1, center + half) };
+  });
 }
 
 traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(split))
@@ -139,10 +146,14 @@ traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(sp
         height: single ? 450 : 300,
         inset: 8,
         grid: true,
-        x: { label: "Age (months)", tickFormat: "d" },
-        y: { label: single ? `Proportion of children who ${measure === "produces" ? "produce" : "understand"}` : null, domain: [0, 1] },
+        x: { label: "Age (months)", tickFormat: "d", line: true },
+        y: { label: single ? `Proportion of children who ${measure === "produces" ? "produce" : "understand"}` : null, domain: [0, 1], line: true },
         color: { legend: single, domain: selected },
         marks: [
+          Plot.ruleX(sub, {
+            x: "age", y1: "ci_l", y2: "ci_u", stroke: "item_definition",
+            strokeOpacity: 0.4, strokeWidth: 1.5
+          }),
           Plot.dot(sub, {
             x: "age", y: "prop", stroke: "item_definition",
             r: (d) => Math.sqrt(d.n_children) / 4, fillOpacity: 0.5,

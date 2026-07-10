@@ -33,10 +33,18 @@ website:
         text: About
       - href: faq.qmd
         text: FAQ
+  page-footer:
+    center: |
+      [![](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)<br>
+      Unless otherwise stated, Wordbank and its datasets are licensed under a
+      [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+      See our [FAQ](faq.html#what-is-the-license-for-derivative-works-from-wordbank-e.g.-graphs-generated-by-the-site) for more information.
 
 format:
   datapage-html:
     theme: theme.scss
+    mainfont: "Helvetica Neue, Helvetica, Arial, sans-serif"
+    fontsize: 14px
 
 execute:
   echo: false

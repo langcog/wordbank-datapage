@@ -10,6 +10,7 @@ age — optionally split by sex or consolidated onto a single plot.
 {{< include components/_filters.qmd >}}
 {{< include components/_download.qmd >}}
 {{< include components/_loess.qmd >}}
+{{< include components/_style.qmd >}}
 
 ```{ojs setup-crossling}
 //| output: false
@@ -49,7 +50,7 @@ viewof xlanguages = Inputs.select(lemma_languages, {
   multiple: Math.min(10, lemma_languages.length),
   value: lemma_languages
 })
-viewof consolidate = Inputs.toggle({ label: "Consolidate onto one plot", value: false })
+viewof consolidate = Inputs.toggle({ label: "Consolidate onto one plot", value: true })
 ```
 
 :::
@@ -84,8 +85,8 @@ lemma_filtered = lemma_data.filter((d) =>
       height: 480,
       inset: 8,
       grid: true,
-      x: { label: "Age (months)", tickFormat: "d" },
-      y: { label: `Proportion ${xmeasure === "produces" ? "producing" : "understanding"}`, domain: [0, 1] },
+      x: { label: "Age (months)", tickFormat: "d", line: true },
+      y: { label: `Proportion ${xmeasure === "produces" ? "producing" : "understanding"}`, domain: [0, 1], line: true },
       fx: xsplit ? { label: null } : undefined,
       color: { legend: true, domain: xlanguages.filter((l) => lemma_filtered.some((d) => d.language === l)) },
       marks: [
@@ -95,7 +96,8 @@ lemma_filtered = lemma_data.filter((d) =>
         }),
         Plot.dot(lemma_filtered, {
           x: "age", y: "prop", stroke: "language", r: 2, fillOpacity: 0.4,
-          channels: { word: "words", n: "n" }, tip: true,
+          channels: { word: "words", "uni-lemma": () => lemma.uni_lemma, n: "n" },
+          tip: true,
           ...(xsplit ? { fx: "sex" } : {})
         })
       ]
@@ -118,14 +120,15 @@ lemma_filtered = lemma_data.filter((d) =>
         height: 170,
         inset: 4,
         marginLeft: 32,
-        x: { label: null, tickFormat: "d" },
-        y: { label: null, domain: [0, 1] },
+        x: { label: null, tickFormat: "d", line: true },
+        y: { label: null, domain: [0, 1], line: true },
         color: { domain: [...sex_colors.keys()], range: [...sex_colors.values()] },
         marks: [
           Plot.dot(sub, {
             x: "age", y: "prop", stroke: "sex",
             r: (d) => Math.sqrt(d.n) / 4, fillOpacity: 0.4,
-            channels: { n: "n" }, tip: true
+            channels: { word: "words", "uni-lemma": () => lemma.uni_lemma, n: "n" },
+            tip: true
           }),
           Plot.lineY(smooth, { x: "age", y: "prop", stroke: "sex", strokeWidth: 2 })
         ]
