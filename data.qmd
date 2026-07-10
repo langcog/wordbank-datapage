@@ -5,19 +5,16 @@ title: "Data"
 All Wordbank data are hosted on the
 [datapages.wordbank](https://redivis.com/datapages/datasets/wordbank) Redivis
 dataset, versioned and freely downloadable. Tables can be filtered and
-exported directly on Redivis; every visualization on this site also has a
-*Download CSV* button for its current view.
+exported directly in the table browsers [below](#browse-the-tables); every
+visualization on this site also has a *Download CSV* button for its current
+view.
 
 Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the
 `license` column of the `datasets` table).
 
-## Administrations
+:::: {.grid}
 
-{{< redivis-table datapages.wordbank.administrations >}}
-
-## Item responses
-
-{{< redivis-table datapages.wordbank.item_responses >}}
+::: {.g-col-12 .g-col-md-6}
 
 ## Programmatic access
 
@@ -45,6 +42,10 @@ vocabulary development across languages. All of the
 [code for those analyses](https://github.com/langcog/wordbank-book) is
 available, and is a good starting point for item- and group-level analyses
 beyond what the site's interactive tools offer.
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
 
 ## Uni-lemmas
 
@@ -76,3 +77,17 @@ If you use Wordbank in your teaching, we would love to
 
 Curious how the site works? See the [FAQ](faq.qmd) and the
 [wordbank-datapage](https://github.com/langcog/wordbank-datapage) repository.
+
+:::
+
+::::
+
+## Browse the tables
+
+### Administrations
+
+{{< redivis-table datapages.wordbank.administrations >}}
+
+### Item responses
+
+{{< redivis-table datapages.wordbank.item_responses >}}
