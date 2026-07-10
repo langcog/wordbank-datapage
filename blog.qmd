@@ -6,6 +6,12 @@ title: "Blog"
 
 ::: {.blog-main}
 
+## New infrastructure
+
+```{=html}
+<div class="blog-post"><p>Wordbank has moved to a new infrastructure! The site you are reading is now fully static: the database lives on <a href="https://redivis.com/datapages/datasets/wordbank">Redivis</a> as a versioned, freely downloadable dataset, and all visualizations run directly in your browser, computed from the raw data. This <a href="https://github.com/datapages/datapage">datapages</a>-style rebuild replaces the previous Django and Shiny stack, making the site faster and much cheaper to maintain, and making every data release citable by version. The migration was carried out with the help of <a href="https://claude.com/claude-code">Claude Code</a> and the Claude Fable model, working alongside the Wordbank team. Old links and the <code>wordbankr</code> R package continue to work, and the underlying data are unchanged.</p></div>
+```
+
 ## New languages!
 
 ```{=html}
@@ -144,6 +150,7 @@ Frank, M. C., Braginsky, M., Yurovsky, D., Marchman, V. A. (under review). <a hr
 ::: {.blog-resources}
 ```{=html}
 <div class="blog-resources-heading">Resources</div>
+<a href="https://github.com/datapages/datapage" target="_blank">Datapages<small>Static data-portal infrastructure used by this site</small></a>
 <a href="http://metalab.stanford.edu" target="_blank">MetaLab<small>Database of developmental meta-analyses</small></a>
 <a href="https://childes.talkbank.org" target="_blank">CHILDES<small>Corpora of child and child-directed language</small></a>
 <a href="https://childes-db.stanford.edu" target="_blank">childes-db<small>Flexible and reproducible interface to CHILDES</small></a>

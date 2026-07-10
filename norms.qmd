@@ -58,6 +58,10 @@ viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false }
 
 {{< include components/_spinner.qmd >}}
 
+::: {.panel-tabset}
+
+## Plot
+
 ```{ojs norms-data}
 //| output: false
 // lazy load: fetch only the selected instrument's administrations
@@ -160,9 +164,17 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
 }
 ```
 
+## Table
+
+```{ojs norms-table}
+Inputs.table(norms_quantiles, { maxWidth: 900 })
+```
+
 ```{ojs norms-download}
 download_csv(norms_quantiles, `wordbank_norms_${san(nlanguage + " " + nform)}_${nmeasure}.csv`)
 ```
+
+:::
 
 ::: {.callout-note}
 These are empirical quantiles of the archive's convenience sample, smoothed

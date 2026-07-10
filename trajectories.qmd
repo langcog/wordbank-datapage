@@ -94,6 +94,10 @@ viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false }
 
 {{< include components/_spinner.qmd >}}
 
+::: {.panel-tabset}
+
+## Plot
+
 ```{ojs trajectory-data}
 //| output: false
 min_n_traj = 5
@@ -173,6 +177,8 @@ traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(sp
 }
 ```
 
+## Table
+
 ```{ojs trajectory-table}
 Inputs.table(
   trajectory_data.map(({ item_definition, grp, age, n_children, prop }) =>
@@ -185,6 +191,8 @@ Inputs.table(
 ```{ojs trajectory-download}
 download_csv(trajectory_data, `wordbank_trajectories_${san(language + " " + form)}_${measure}.csv`)
 ```
+
+:::
 
 :::
 

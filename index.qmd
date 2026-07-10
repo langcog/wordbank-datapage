@@ -20,12 +20,16 @@ pagetitle: "Wordbank"
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-6 .text-center}
 
-<br>
+```{ojs lang-lead}
+html`<div class="lang-lead">Wordbank contains data from ${stats.n_children.toLocaleString()} children<br>
+and ${stats.n_administrations.toLocaleString()} CDI administrations, across<br>
+${stats.n_languages} languages and ${stats.n_instruments} instruments.</div>`
+```
 
 ```{=html}
-<div class="analysis-thumbs">
+<div class="analysis-thumbs" style="margin-top: 1rem">
   <a href="norms.html">
     <img src="images/sample_plots/vocab_xkcd.png" alt="">
     <h4>Vocabulary Norms</h4>
@@ -37,20 +41,13 @@ pagetitle: "Wordbank"
     <p>Explore trajectories of individual words across languages and ages.</p>
   </a>
 </div>
+<p style="margin-top: 0.75rem">Also explore <a href="crossling.html">Cross-Linguistic Trajectories</a>,
+<a href="scoring.html">CDI Scoring</a>, and the full <a href="data.html">Data</a>.</p>
 ```
-
-More: [Cross-Linguistic Trajectories](crossling.html) ·
-[CDI Scoring](scoring.html) · [Data](data.html)
 
 :::
 
 ::: {.g-col-12 .g-col-md-6 .text-center}
-
-```{ojs lang-lead}
-html`<div class="lang-lead">Wordbank contains data from ${stats.n_children.toLocaleString()} children<br>
-and ${stats.n_administrations.toLocaleString()} CDI administrations, across<br>
-${stats.n_languages} languages and ${stats.n_instruments} instruments:</div>`
-```
 
 ```{ojs bubble-setup}
 //| output: false
@@ -114,14 +111,11 @@ langs = transpose(lang_stats)
 
 ::::
 
----
-
 Wordbank archives data from the [MacArthur-Bates Communicative Development
 Inventories](https://mb-cdi.stanford.edu/) (CDIs), parent-report instruments
 that measure early language development. Data are contributed by researchers
 around the world and are freely available for browsing, visualization, and
-download.
-
-If you use Wordbank, please cite: Frank, M. C., Braginsky, M., Yurovsky, D.,
-& Marchman, V. A. (2017). Wordbank: An open repository for developmental
-vocabulary data. *Journal of Child Language, 44*(3), 677–694.
+download. If you use Wordbank, please cite: Frank, M. C., Braginsky, M.,
+Yurovsky, D., & Marchman, V. A. (2017). Wordbank: An open repository for
+developmental vocabulary data. *Journal of Child Language, 44*(3), 677–694.
+[doi:10.1017/S0305000916000209](https://doi.org/10.1017/S0305000916000209)

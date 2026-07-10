@@ -59,6 +59,10 @@ viewof consolidate = Inputs.toggle({ label: "Consolidate onto one plot", value: 
 
 {{< include components/_spinner.qmd >}}
 
+::: {.panel-tabset}
+
+## Plot
+
 ```{ojs filter-lemma}
 //| output: false
 lemma_filtered = lemma_data.filter((d) =>
@@ -144,6 +148,8 @@ lemma_filtered = lemma_data.filter((d) =>
 }
 ```
 
+## Table
+
 ```{ojs crossling-table}
 Inputs.table(
   lemma_filtered.map(({ language, sex, words, age, n, prop }) =>
@@ -155,6 +161,8 @@ Inputs.table(
 ```{ojs crossling-download}
 download_csv(lemma_filtered, `wordbank_crossling_${lemma.slug}_${xmeasure}.csv`)
 ```
+
+:::
 
 :::
 

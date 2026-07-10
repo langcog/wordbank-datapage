@@ -11,7 +11,7 @@ $headings-font-weight: 500;
 /*-- scss:rules --*/
 
 .navbar {
-  background-color: #6baed6 !important;
+  background-color: #5b9dcb !important;
   padding-top: 6px;
   padding-bottom: 6px;
 
@@ -125,8 +125,21 @@ main {
   border-radius: 6px;
   padding: 0.85rem;
 
-  form, select { max-width: 100%; }
+  form, select { max-width: 100%; width: 100%; }
   label { font-weight: 600; }
+
+  // stack labels above inputs so neither gets truncated
+  form > div, form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  form div label {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  select, input[type="file"] { width: 100%; }
 }
 
 // contributors page panels
@@ -189,6 +202,23 @@ main {
   }
 
   a { text-decoration: none; color: inherit; }
+}
+
+// publications table on about page
+.pubs-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    text-align: left;
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+
+  th { border-bottom: 2px solid #ddd; }
+  td:first-child { white-space: nowrap; color: #666; }
+  td:last-child { white-space: nowrap; }
 }
 
 // blog: posts + resources sidebar
@@ -266,4 +296,11 @@ main {
   text-align: center;
   font-size: 0.85rem;
   color: #777;
+  min-height: 0;
+  padding: 0.5rem 0;
+
+  .nav-footer-center { margin: 0; }
+  p { margin: 0.15rem 0; }
 }
+
+main.content { margin-bottom: 0.5rem; }

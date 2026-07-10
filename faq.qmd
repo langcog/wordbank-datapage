@@ -13,7 +13,7 @@ title: "FAQ"
 
 
 <h1 class="title toc-ignore">Frequently Asked Questions</h1>
-<h4 class="date">Updated on 2022-07-14</h4>
+<h4 class="date">Updated on 2026-07-10</h4>
 
 </div>
 
@@ -168,19 +168,17 @@ how we could make Wordbank a better tool for this use!</p>
 <div id="i-need-to-find-words-to-use-as-stimuli-for-a-study-that-im-running.-can-wordbank-help" class="section level3">
 <h3>I need to find words to use as stimuli for a study that I’m running.
 Can Wordbank help?</h3>
-<p>Yes! To visually explore trajectories of acquisition using our
-interactive tools, try out the plots in the <em>Item Trajectories</em>
-section or compare acquisition for a single word across many different
-languages in our <em>Cross-Linguistic Trajectories</em> section.
-However, a more comprehensive way to obtain item frequencies is via the
-<em>By-Word Summary Data</em> in the <em>Data Export Tools</em> section.
-Click on the Language, Form, and Measure that you are interested in
-(e.g., English, Produces, Words &amp; Sentences), and then use the
-selector to identify the Age (Months) (e.g., 24-30 months). In this
-example, the resulting table shows the proportion of children who are
-reported to produce each item at each age. You can browse the entire
-table or sort the output by a selected column (e.g., sort words
-alphabetically, from highest-to-lowest frequency, or by CDI category).
+<p>Yes! To visually explore trajectories of acquisition, try the
+<em>Item Trajectories</em> page: pick a language and form and the words
+you are interested in, and the plot and its <em>Table</em> tab show the
+proportion of children reported to produce (or understand) each word at
+each age, computed directly from the raw child-by-word responses. You can
+compare acquisition of a single meaning across languages on the
+<em>Cross-Linguistic Trajectories</em> page. Every visualization has a
+<em>Download CSV</em> button for the current view, and for comprehensive
+item-level analyses you can query or export the full
+<code>item_responses</code> table on
+<a href="https://redivis.com/datapages/datasets/wordbank">Redivis</a>.
 You can download the complete table, if you wish, or use the Search box
 in the upper right hand corner to select particular items. Search for a
 category name (e.g., animals) if you want to see all of the words in a
@@ -203,7 +201,7 @@ forms, or if you only have a few dozen!</p>
 <p>By contributing to Wordbank, you will become part of a consortium of
 researchers who believe that, by combining our data together, we
 increase our power to understand children’s early language development.
-Following in the spirit of <a href="http://childes.psy.cmu.edu/">CHILDES</a>, <a href="https://nyu.databrary.org/">Databrary</a>, <a href="http://www.cdi-clex.org/">CLEX</a>, and others, we hope that being
+Following in the spirit of <a href="http://childes.psy.cmu.edu/">CHILDES</a>, <a href="https://nyu.databrary.org/">Databrary</a>, and others, we hope that being
 a part of Wordbank will raise the visibility of your work, while
 facilitating crosslinguistic analyses of CDI data by researchers around
 the world!</p>
@@ -257,8 +255,7 @@ should be completely anonymized before contributing to Wordbank.</p>
 <h3>I’ve used the database for an analysis that I’m writing up. How do I
 cite it?</h3>
 <p>Please cite publications for the specific datasets you use, as well
-as our 2017 Journal of Child Language paper on the dataset. <a href="/contributors">You can see our our citation policy for more
-information.</a></p>
+as our 2017 Journal of Child Language paper on the dataset. <a href="contributors.html">You can see our citation policy on the Contributors page.</a></p>
 </div>
 <div id="what-is-the-license-for-derivative-works-from-wordbank-e.g.-graphs-generated-by-the-site" class="section level3">
 <h3>What is the license for derivative works from Wordbank (e.g., graphs
