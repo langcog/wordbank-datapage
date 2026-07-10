@@ -88,8 +88,8 @@ uni_counts <- map(
       group_by(language, uni_lemma, age, sex) |>
       summarise(words = paste(unique(unlist(strsplit(item_definition, ", "))),
                               collapse = ", "),
-                produces = sum(produces),
-                understands = sum(understands),
+                produces = sum(produces, na.rm = TRUE),
+                understands = sum(understands, na.rm = TRUE),
                 n_responses = n(),
                 n_children = n_distinct(data_id),
                 .groups = "drop")

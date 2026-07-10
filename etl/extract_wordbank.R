@@ -116,13 +116,13 @@ for (i in seq_len(nrow(insts))) {
   resp <- retry(
     get_instrument_data(language = inst$language, form = inst$form),
     label = slug)
+  # store value/produces/understands exactly as the wordbankr API returns
+  # them: "" (asked, negative) is distinct from NA (missing), and
+  # produces/understands are NA for items/forms where they are undefined
   resp <- resp |>
     transmute(instrument_id = inst$instrument_id,
               language = inst$language, form = inst$form,
-              data_id, item_id,
-              value = na_if(value, ""),
-              produces = coalesce(produces, FALSE),
-              understands = coalesce(understands, FALSE))
+              data_id, item_id, value, produces, understands)
   write_parquet(resp, path)
 }
 
@@ -148,8 +148,8 @@ per_inst <- map(resp_files, function(f) {
     group_by(instrument_id, language, form, item_id, item_kind,
              item_definition, category, lexical_category, uni_lemma, age) |>
     summarise(n_children = n_distinct(data_id),
-              produces = mean(produces),
-              understands = mean(understands),
+              produces = mean(produces, na.rm = TRUE),
+              understands = mean(understands, na.rm = TRUE),
               .groups = "drop")
 
   # counts (not proportions) so uni-lemma proportions pool correctly across
@@ -160,8 +160,8 @@ per_inst <- map(resp_files, function(f) {
     group_by(language, uni_lemma, age) |>
     summarise(words = paste(unique(unlist(strsplit(item_definition, ", "))),
                             collapse = ", "),
-              produces = sum(produces),
-              understands = sum(understands),
+              produces = sum(produces, na.rm = TRUE),
+              understands = sum(understands, na.rm = TRUE),
               n_responses = n(),
               n_children = n_distinct(data_id),
               .groups = "drop")
