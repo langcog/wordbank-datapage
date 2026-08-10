@@ -26,9 +26,17 @@ san <- function(x) x |> str_to_lower() |> str_replace_all("[^a-z0-9]+", "_") |>
   str_replace_all("^_|_$", "")
 
 # site slices keep the usual in-range view; the canonical Redivis table has
-# everything (older extracts lack the flag, hence the any_of fallback)
+# everything (older extracts lack the flag, hence the any_of fallback).
+# demographics live in children (normalized in v1.6), so join them back in
 admins <- read_parquet("data/administrations.parquet") |> filter(!is.na(age))
 if ("in_age_range" %in% names(admins)) admins <- filter(admins, in_age_range)
+demo_cols <- c("sex", "birth_order", "caregiver_education", "ethnicity")
+if (!all(demo_cols %in% names(admins))) {
+  admins <- admins |>
+    left_join(read_parquet("data/children.parquet") |>
+                select(child_id, all_of(demo_cols)),
+              by = "child_id")
+}
 
 # ---- Part A: response parquets (only when full extract is present) ----------
 

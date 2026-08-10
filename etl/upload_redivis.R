@@ -5,7 +5,9 @@
 #
 # Requires REDIVIS_API_TOKEN in .secrets (KEY=VALUE format, gitignored).
 #
-# Usage: Rscript etl/upload_redivis.R ["release notes"]
+# Usage: Rscript etl/upload_redivis.R ["release notes"] [--no-release]
+#   --no-release uploads into the next version but does not release it
+#   (so etl/set_metadata.R can annotate tables first)
 
 suppressMessages({
   library(redivis)
@@ -15,8 +17,10 @@ suppressMessages({
 if (file.exists(".secrets")) readRenviron(".secrets")
 if (Sys.getenv("REDIVIS_API_TOKEN") == "") stop("REDIVIS_API_TOKEN not set")
 
-notes <- commandArgs(trailingOnly = TRUE)
-notes <- if (length(notes) > 0) notes[[1]] else
+args <- commandArgs(trailingOnly = TRUE)
+no_release <- "--no-release" %in% args
+args <- setdiff(args, "--no-release")
+notes <- if (length(args) > 0) args[[1]] else
   paste("Automated extraction from the wordbank database,", Sys.Date())
 
 out_dir <- "data"
@@ -25,9 +29,9 @@ resp_dir <- file.path(out_dir, "item_responses")
 table_descriptions <- c(
   instruments = "One row per CDI instrument (language-form pair).",
   datasets = "One row per contributed dataset. The license column marks CC-BY vs CC-BY-NC datasets.",
-  administrations = "One row per administration (a child completing an instrument once), with demographics.",
-  children = "One row per child, demographic fields constant across administrations.",
-  language_exposures = "Per-administration language exposure for bilingual children (keyed by data_id).",
+  administrations = "One row per administration (a child completing an instrument once). Child-level variables live in children (join on child_id); instrument-level variables in instruments (join on language + form).",
+  children = "One row per child; canonical home of demographic and birth variables (join to administrations on child_id).",
+  language_exposures = "Per-administration language exposure for bilingual children (keyed by data_id); exposure_percentage runs 0-100.",
   health_conditions = "Child health conditions (keyed by child_id).",
   items = "One row per item on each instrument, with category and cross-linguistic uni_lemma mappings.",
   item_summaries = "Per instrument: item x age x measure -> proportion of children producing/understanding.",
@@ -86,6 +90,10 @@ for (f in list.files(resp_dir, full.names = TRUE)) {
   upload_parquet(tb, f)
 }
 
-message("releasing version...")
-ds$release(release_notes = notes)
-message("done: https://redivis.com/datasets?organization=datapages")
+if (no_release) {
+  message("uploads complete; version NOT released (--no-release)")
+} else {
+  message("releasing version...")
+  ds$release(release_notes = notes)
+  message("done: https://redivis.com/datasets?organization=datapages")
+}

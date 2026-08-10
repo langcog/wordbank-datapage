@@ -46,13 +46,16 @@ retry <- function(expr, tries = 3, label = "") {
 
 message("pulling core tables...")
 instruments <- retry(get_instruments(), label = "instruments")
-datasets <- retry(get_datasets(admin_data = TRUE), label = "datasets")
-items <- retry(get_item_data(), label = "items")
+datasets <- retry(get_datasets(admin_data = TRUE), label = "datasets") |>
+  mutate(n_admins = as.integer(n_admins))
+items <- retry(get_item_data(), label = "items") |>
+  mutate(item_id = str_replace(item_id, "^Item_", "item_"))
 # filter_age = FALSE: the canonical table keeps administrations outside the
 # instrument's normed age range (the wordbankr default drops them); the
 # in_age_range flag lets consumers apply the usual filter
 admins_full <- retry(
   get_administration_data(filter_age = FALSE,
+                          include_study_internal_id = TRUE,
                           include_demographic_info = TRUE,
                           include_birth_info = TRUE,
                           include_health_conditions = TRUE,
@@ -84,15 +87,27 @@ language_exposures <- admins_full |>
   select(data_id, exposures = language_exposures) |>
   filter(!map_lgl(exposures, is.null)) |>
   unnest(exposures) |>
-  # validate exposure proportions (langcog/wordbank#334): values outside
-  # [0, 100] are source-data errors; cast to NA and report
-  mutate(exposure_out_of_range = !is.na(exposure_proportion) &
-           (exposure_proportion < 0 | exposure_proportion > 100),
-         exposure_proportion = ifelse(exposure_out_of_range, NA_integer_,
-                                      exposure_proportion))
+  rename(exposure_percentage = exposure_proportion) |>
+  # data quality (langcog/wordbank#334): values outside [0, 100] -> NA;
+  # rows with no usable language are dropped; stray casing normalized
+  mutate(exposure_out_of_range = !is.na(exposure_percentage) &
+           (exposure_percentage < 0 | exposure_percentage > 100),
+         exposure_percentage = ifelse(exposure_out_of_range, NA_real_,
+                                      exposure_percentage),
+         language = str_trim(language),
+         language = if_else(str_detect(language, "^[a-z]"),
+                            str_to_title(language), language))
 if (any(language_exposures$exposure_out_of_range)) {
   message("note: ", sum(language_exposures$exposure_out_of_range),
-          " language_exposure rows had out-of-range proportions, set to NA")
+          " language_exposure rows had out-of-range percentages, set to NA")
+}
+n_bad_lang <- sum(is.na(language_exposures$language) |
+                  language_exposures$language %in% c("", "NA"))
+if (n_bad_lang > 0) {
+  message("note: dropped ", n_bad_lang,
+          " language_exposure rows with missing/invalid language")
+  language_exposures <- language_exposures |>
+    filter(!is.na(language), !language %in% c("", "NA"))
 }
 language_exposures <- select(language_exposures, -exposure_out_of_range)
 
@@ -101,19 +116,34 @@ health_conditions <- admins_full |>
   filter(!map_lgl(conditions, is.null)) |>
   unnest(conditions) |>
   distinct()
+n_unnamed <- sum(is.na(health_conditions$health_condition_name) |
+                 health_conditions$health_condition_name == "")
+if (n_unnamed > 0) {
+  message("note: dropped ", n_unnamed, " unnamed health_condition rows")
+  health_conditions <- health_conditions |>
+    filter(!is.na(health_condition_name), health_condition_name != "")
+}
 
-administrations <- admins_full |>
-  select(-language_exposures, -health_conditions)
-
-child_cols <- c("child_id", "dataset_origin_name", "birth_order",
-                "caregiver_education", "ethnicity", "race", "sex",
-                "birth_weight", "born_early_or_late", "gestational_age",
-                "zygosity")
-children <- administrations |>
+# normalized schema: child-level variables live ONLY in children;
+# administrations carries administration-level facts plus join keys
+# (instrument-level form_type lives in instruments; dataset_origin_name in
+# datasets/children)
+child_cols <- c("child_id", "study_internal_id", "dataset_origin_name",
+                "birth_order", "caregiver_education", "ethnicity", "race",
+                "sex", "birth_weight", "born_early_or_late",
+                "gestational_age", "zygosity")
+children <- admins_full |>
   select(any_of(child_cols)) |>
   distinct(child_id, .keep_all = TRUE)
-n_dup <- n_distinct(administrations$child_id) - nrow(children)
+n_dup <- n_distinct(admins_full$child_id) - nrow(children)
 if (n_dup != 0) message("note: ", n_dup, " children had varying demographic rows")
+
+administrations <- admins_full |>
+  transmute(data_id = as.integer(data_id),
+            child_id = as.integer(child_id),
+            dataset_name, language, form,
+            age, date_of_test = as.Date(date_of_test),
+            comprehension, production, is_norming, in_age_range)
 
 write_parquet(instruments, file.path(out_dir, "instruments.parquet"))
 write_parquet(datasets, file.path(out_dir, "datasets.parquet"))
@@ -147,9 +177,11 @@ for (i in seq_len(nrow(insts))) {
   # them: "" (asked, negative) is distinct from NA (missing), and
   # produces/understands are NA for items/forms where they are undefined
   resp <- resp |>
-    transmute(instrument_id = inst$instrument_id,
+    transmute(instrument_id = as.integer(inst$instrument_id),
               language = inst$language, form = inst$form,
-              data_id, item_id, value, produces, understands)
+              data_id = as.integer(data_id),
+              item_id = str_replace(item_id, "^Item_", "item_"),
+              value, produces, understands)
   write_parquet(resp, path)
 }
 
@@ -218,7 +250,7 @@ uni_lemma_summaries <- map(per_inst, "uni_counts") |>
 write_parquet(uni_lemma_summaries, file.path(out_dir, "uni_lemma_summaries.parquet"))
 
 quantile_probs <- c(0.10, 0.25, 0.50, 0.75, 0.90)
-vocab_summaries <- administrations |>
+vocab_summaries <- admins_full |>
   filter(in_age_range) |>
   select(language, form, form_type, age, production, comprehension) |>
   pivot_longer(c(production, comprehension),
@@ -227,7 +259,7 @@ vocab_summaries <- administrations |>
   group_by(language, form, form_type, measure, age) |>
   reframe(n_children = n(),
           quantile = quantile_probs,
-          vocab = quantile(vocab, quantile_probs, type = 7))
+          vocab = round(quantile(vocab, quantile_probs, type = 7), 2))
 write_parquet(vocab_summaries, file.path(out_dir, "vocab_summaries.parquet"))
 
 message("done. tables in ", out_dir, ":")
