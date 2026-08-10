@@ -1,3 +1,5 @@
+lang: en
+
 project:
   title: "Wordbank"
   type: website
@@ -9,6 +11,7 @@ website:
   favicon: images/favicon.ico
   navbar:
     logo: images/walrus.png
+    logo-alt: "Wordbank walrus logo"
     title: Wordbank
     left:
       - text: Analyses
@@ -35,7 +38,7 @@ website:
         text: FAQ
   page-footer:
     center: |
-      [![](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)<br>
+      [![Creative Commons Attribution 4.0 license](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)<br>
       Unless otherwise stated, Wordbank and its datasets are licensed under a
       [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
       See our [FAQ](faq.html#what-is-the-license-for-derivative-works-from-wordbank-e.g.-graphs-generated-by-the-site) for more information.

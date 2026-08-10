@@ -4,13 +4,301 @@ title: "Data"
 
 All Wordbank data are hosted on the
 [datapages.wordbank](https://redivis.com/datapages/datasets/wordbank) Redivis
-dataset, versioned and freely downloadable. Tables can be filtered and
-exported directly in the table browsers [below](#browse-the-tables); every
-visualization on this site also has a *Download CSV* button for its current
-view.
+dataset, versioned and freely downloadable. Use the download tool
+[below](#download-data) to export filtered CSVs at three levels of
+aggregation, or access the full tables programmatically.
 
 Most datasets are shared under a CC-BY license; some carry CC-BY-NC (see the
 `license` column of the `datasets` table).
+
+## Download data
+
+Export CSVs of the data behind this site, computed in your browser from the
+raw child-by-word responses. Pick a level of aggregation, an instrument, and
+any filters; all three levels apply the same filter set.
+
+{{< include _load-instruments.qmd >}}
+{{< include components/_filters.qmd >}}
+{{< include components/_style.qmd >}}
+
+```{ojs setup-ds}
+//| output: false
+duckdb = import("https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.29.0/+esm")
+
+db = {
+  const bundle = await duckdb.selectBundle(duckdb.getJsDelivrBundles());
+  const worker = await duckdb.createWorker(bundle.mainWorker);
+  const database = new duckdb.AsyncDuckDB(new duckdb.VoidLogger(), worker);
+  await database.instantiate(bundle.mainModule, bundle.pthreadWorker);
+  return database;
+}
+conn = db.connect()
+registered = new Set()
+
+insts = transpose(instruments)
+ds_languages = [...new Set(insts.map((d) => d.language))].sort()
+
+sql = async (q) => (await (await conn).query(q)).toArray().map((r) => ({...r.toJSON()}))
+demo_vars = ["sex", "birth_order", "caregiver_education", "ethnicity"]
+
+to_csv = (rows, cols) => {
+  const esc = (v) => {
+    const s = v === null || v === undefined ? "" : String(v);
+    return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const lines = [cols.join(",")];
+  for (const r of rows) lines.push(cols.map((c) => esc(r[c])).join(","));
+  return lines.join("\n");
+}
+```
+
+:::: {.viz-layout}
+
+::: {.viz-sidebar}
+
+```{ojs inputs-ds-level}
+viewof ds_level = Inputs.radio(
+  new Map([["By child", "child"], ["By word", "word"], ["Child by word", "cbw"]]),
+  { label: "Level", value: "child" }
+)
+viewof ds_language = Inputs.select(ds_languages, {
+  label: "Language",
+  value: "English (American)"
+})
+viewof ds_form = Inputs.select(
+  insts.filter((d) => d.language === ds_language).map((d) => d.form),
+  { label: "Form" }
+)
+```
+
+```{ojs load-ds-slice}
+//| output: false
+ds_resp = {
+  const slug = san(ds_language + " " + ds_form);
+  const fname = `${slug}.parquet`;
+  if (!registered.has(fname)) {
+    const buf = new Uint8Array(
+      await fetch(`slices/responses/${fname}`).then((r) => {
+        if (!r.ok) throw new Error(`no data for ${ds_language} ${ds_form}`);
+        return r.arrayBuffer();
+      }));
+    await db.registerFileBuffer(fname, buf);
+    registered.add(fname);
+  }
+  return `read_parquet('${fname}')`;
+}
+
+ds_form_type = insts.find((d) => d.language === ds_language && d.form === ds_form)?.form_type
+ds_has_comp = ds_form_type === "WG"
+
+ds_age_extent = {
+  const r = await sql(`SELECT MIN(age) AS lo, MAX(age) AS hi FROM ${ds_resp}`);
+  return [Number(r[0].lo), Number(r[0].hi)];
+}
+
+ds_demo_levels = {
+  const out = {};
+  for (const v of demo_vars) {
+    const rows = await sql(
+      `SELECT DISTINCT ${v} AS l FROM ${ds_resp} WHERE ${v} IS NOT NULL AND ${v} <> '' ORDER BY 1`);
+    out[v] = rows.map((d) => d.l).sort(level_sort(v));
+  }
+  return out;
+}
+```
+
+```{ojs inputs-ds-filters}
+viewof ds_age_min = Inputs.number([ds_age_extent[0], ds_age_extent[1]],
+  { label: "Min age (months)", step: 1, value: ds_age_extent[0] })
+viewof ds_age_max = Inputs.number([ds_age_extent[0], ds_age_extent[1]],
+  { label: "Max age (months)", step: 1, value: ds_age_extent[1] })
+viewof ds_norming = Inputs.toggle({ label: "Norming data only", value: false })
+viewof ds_demo = Inputs.form(Object.fromEntries(demo_vars.map((v) => [v,
+  Inputs.select(["All", ...(ds_demo_levels[v] ?? [])], {
+    label: [...split_options].find(([, val]) => val === v)?.[0] ?? v
+  })])))
+```
+
+```{ojs inputs-ds-format}
+viewof ds_format = Inputs.select(
+  new Map([["Long (one row per child-word)", "long"], ["Wide (one column per word)", "wide"]]),
+  { label: "Format", disabled: ds_level !== "cbw" }
+)
+viewof ds_measure = Inputs.select(
+  ds_has_comp ? new Map([["Produces", "produces"], ["Understands", "understands"]])
+              : new Map([["Produces", "produces"]]),
+  { label: "Wide cell value", disabled: !(ds_level === "cbw" && ds_format === "wide") }
+)
+```
+
+:::
+
+::: {.viz-main}
+
+{{< include components/_spinner.qmd >}}
+
+```{ojs ds-queries}
+//| output: false
+ds_where = {
+  const clauses = [`age BETWEEN ${ds_age_min} AND ${ds_age_max}`];
+  if (ds_norming) clauses.push(`is_norming`);
+  for (const v of demo_vars) {
+    if (ds_demo[v] !== "All")
+      clauses.push(`${v} = '${String(ds_demo[v]).replace(/'/g, "''")}'`);
+  }
+  return clauses.join(" AND ");
+}
+
+admin_cols = ["data_id", "age", "sex", "birth_order", "caregiver_education",
+              "ethnicity", "is_norming"]
+
+// full query for the selected level (long form for cbw; wide is pivoted in JS)
+ds_query = {
+  if (ds_level === "child") {
+    const comp = ds_has_comp
+      ? `, SUM(CASE WHEN understands THEN 1 ELSE 0 END)::INT AS words_understood` : "";
+    return `SELECT ${admin_cols.join(", ")},
+        SUM(CASE WHEN produces THEN 1 ELSE 0 END)::INT AS words_produced${comp}
+      FROM ${ds_resp} WHERE item_kind = 'word' AND ${ds_where}
+      GROUP BY ${admin_cols.join(", ")} ORDER BY data_id`;
+  }
+  if (ds_level === "word") {
+    const comp = ds_has_comp
+      ? `, ROUND(AVG(CASE WHEN understands THEN 1.0 ELSE 0.0 END), 4) AS prop_understands` : "";
+    return `SELECT item_id, item_kind, item_definition, category, uni_lemma, age,
+        COUNT(DISTINCT data_id)::INT AS n_children,
+        ROUND(AVG(CASE WHEN produces THEN 1.0 ELSE 0.0 END), 4) AS prop_produces${comp}
+      FROM ${ds_resp} WHERE ${ds_where}
+      GROUP BY item_id, item_kind, item_definition, category, uni_lemma, age
+      ORDER BY item_definition, age`;
+  }
+  const comp = ds_has_comp ? `, understands` : "";
+  return `SELECT ${admin_cols.join(", ")}, item_id, item_kind, item_definition,
+      category, uni_lemma, produces${comp}
+    FROM ${ds_resp} WHERE ${ds_where} ORDER BY data_id, item_id`;
+}
+
+ds_counts = {
+  const n_admins = Number((await sql(
+    `SELECT COUNT(DISTINCT data_id) AS n FROM ${ds_resp} WHERE ${ds_where}`))[0].n);
+  const n_items = Number((await sql(
+    `SELECT COUNT(DISTINCT item_id) AS n FROM ${ds_resp} WHERE ${ds_where}`))[0].n);
+  const n_rows = ds_level === "child" ? n_admins
+    : ds_level === "word"
+      ? Number((await sql(`SELECT COUNT(*) AS n FROM (SELECT DISTINCT item_id, age
+          FROM ${ds_resp} WHERE ${ds_where})`))[0].n)
+      : ds_format === "wide" ? n_admins
+      : Number((await sql(
+          `SELECT COUNT(*) AS n FROM ${ds_resp} WHERE ${ds_where}`))[0].n);
+  return { n_admins, n_items, n_rows };
+}
+
+// wide pivot: admin metadata rows x one column per item; duplicate
+// item_definitions are disambiguated with the item_id
+pivot_wide = async ({ admin_limit = null, item_limit = null } = {}) => {
+  const admins = await sql(`SELECT DISTINCT ${admin_cols.join(", ")}
+    FROM ${ds_resp} WHERE ${ds_where} ORDER BY data_id
+    ${admin_limit ? `LIMIT ${admin_limit}` : ""}`);
+  const items = await sql(`SELECT DISTINCT item_id, item_definition
+    FROM ${ds_resp} WHERE ${ds_where} ORDER BY item_definition
+    ${item_limit ? `LIMIT ${item_limit}` : ""}`);
+  const def_counts = new Map();
+  for (const it of items)
+    def_counts.set(it.item_definition, (def_counts.get(it.item_definition) ?? 0) + 1);
+  const col_of = new Map(items.map((it) => [String(it.item_id),
+    def_counts.get(it.item_definition) > 1
+      ? `${it.item_definition} [${it.item_id}]` : it.item_definition]));
+  const row_of = new Map(admins.map((a) => [String(a.data_id), a]));
+  const item_filter = item_limit
+    ? `AND item_id IN (${items.map((it) => `'${it.item_id}'`).join(", ")})` : "";
+  const cells = await sql(`SELECT data_id, item_id, ${ds_measure} AS v
+    FROM ${ds_resp} WHERE ${ds_where} ${item_filter}`);
+  for (const c of cells) {
+    const row = row_of.get(String(c.data_id));
+    const col = col_of.get(String(c.item_id));
+    if (row && col) row[col] = c.v;
+  }
+  return { rows: admins, cols: [...admin_cols, ...[...col_of.values()]] };
+}
+```
+
+```{ojs ds-preview}
+//| output: false
+ds_preview = {
+  clear_loading();
+  if (ds_level === "cbw" && ds_format === "wide") {
+    const { rows, cols } = await pivot_wide({ admin_limit: 50, item_limit: 8 });
+    return { rows, cols, note: `preview shows the first 50 children and 8 of ${ds_counts.n_items} item columns` };
+  }
+  const rows = await sql(`${ds_query} LIMIT 200`);
+  return { rows, cols: rows.length ? Object.keys(rows[0]) : [],
+           note: ds_counts.n_rows > 200 ? `preview shows the first 200 of ${ds_counts.n_rows.toLocaleString()} rows` : null };
+}
+```
+
+```{ojs ds-summary}
+html`<div style="margin-bottom:6px">
+  <strong>${ds_counts.n_rows.toLocaleString()}</strong> rows
+  (${ds_counts.n_admins.toLocaleString()} children ×
+   ${ds_counts.n_items.toLocaleString()} items match the filters)
+  ${ds_preview.note ? html` · <span style="color:#595959">${ds_preview.note}</span>` : ""}
+  ${ds_level === "cbw" && ds_format === "long" && ds_counts.n_rows > 500000
+    ? html` · <span style="color:#b45309">large download — for bulk access consider
+        <a href="https://redivis.com/datapages/datasets/wordbank" target="_blank">Redivis</a></span>`
+    : ""}
+</div>`
+```
+
+```{ojs ds-table}
+Inputs.table(ds_preview.rows, { maxWidth: 980 })
+```
+
+```{ojs ds-download}
+{
+  const fname = `wordbank_${ds_level === "cbw" ? `child_by_word_${ds_format}` : `by_${ds_level}`}_${san(ds_language + " " + ds_form)}.csv`;
+  const btn = html`<button class="btn btn-sm btn-outline-primary">Download CSV</button>`;
+  btn.onclick = async () => {
+    btn.disabled = true;
+    btn.textContent = "Preparing…";
+    try {
+      let csv;
+      if (ds_level === "cbw" && ds_format === "wide") {
+        const { rows, cols } = await pivot_wide();
+        csv = to_csv(rows, cols);
+      } else {
+        const rows = await sql(ds_query);
+        csv = to_csv(rows, rows.length ? Object.keys(rows[0]) : []);
+      }
+      const a = html`<a href=${URL.createObjectURL(new Blob([csv], { type: "text/csv" }))} download=${fname}></a>`;
+      a.click();
+    } finally {
+      btn.disabled = false;
+      btn.textContent = "Download CSV";
+    }
+  };
+  return btn;
+}
+```
+
+::: {.callout-note collapse="true" title="Notes on these exports"}
+- Data come from the current release of the
+  [datapages.wordbank](https://redivis.com/datapages/datasets/wordbank)
+  dataset; record the dataset version alongside downloads used in analyses.
+- *By child* counts (`words_produced`, `words_understood`) are computed over
+  word items only, matching the vocabulary scores in the `administrations`
+  table.
+- *By word* proportions treat missing responses as negative, matching the
+  Item Trajectories tool.
+- *Child by word* in long format has one row per child-item pair; in wide
+  format one row per child with a TRUE/FALSE column per item (choose which
+  measure fills the cells on *Words & Gestures* forms).
+- Full unfiltered tables (all instruments at once) are available on
+  [Redivis](https://redivis.com/datapages/datasets/wordbank).
+:::
+
+:::
+
+::::
 
 :::: {.grid}
 
@@ -81,13 +369,3 @@ Curious how the site works? See the [FAQ](faq.qmd) and the
 :::
 
 ::::
-
-## Browse the tables
-
-### Administrations
-
-{{< redivis-table datapages.wordbank.administrations >}}
-
-### Item responses
-
-{{< redivis-table datapages.wordbank.item_responses >}}
