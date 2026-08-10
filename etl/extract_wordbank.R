@@ -64,19 +64,37 @@ admins_full <- admins_full |>
   mutate(in_age_range = !is.na(age) & age >= age_min & age <= age_max) |>
   select(-age_min, -age_max)
 
+# WS-type forms mostly do not measure comprehension: the import mirrors
+# production into comprehension (langcog/wordbank#333). NA comprehension for
+# datasets where every non-missing value equals production (the artifact
+# signature), preserving the few WS datasets that genuinely collected it.
+admins_full <- admins_full |>
+  group_by(language, form, dataset_name) |>
+  mutate(comprehension = if (first(form_type) == "WS" &&
+                             any(!is.na(comprehension)) &&
+                             all(comprehension == production, na.rm = TRUE)) {
+    NA_integer_
+  } else comprehension) |>
+  ungroup()
+message("WS comprehension mirroring: ",
+        sum(admins_full$form_type == "WS" & is.na(admins_full$comprehension)),
+        " WS rows now NA comprehension")
+
 language_exposures <- admins_full |>
   select(data_id, exposures = language_exposures) |>
   filter(!map_lgl(exposures, is.null)) |>
   unnest(exposures) |>
   # validate exposure proportions (langcog/wordbank#334): values outside
   # [0, 100] are source-data errors; cast to NA and report
-  mutate(exposure_proportion = ifelse(
-    exposure_proportion >= 0 & exposure_proportion <= 100,
-    exposure_proportion, NA_integer_))
-if (any(is.na(language_exposures$exposure_proportion))) {
-  message("note: ", sum(is.na(language_exposures$exposure_proportion)),
+  mutate(exposure_out_of_range = !is.na(exposure_proportion) &
+           (exposure_proportion < 0 | exposure_proportion > 100),
+         exposure_proportion = ifelse(exposure_out_of_range, NA_integer_,
+                                      exposure_proportion))
+if (any(language_exposures$exposure_out_of_range)) {
+  message("note: ", sum(language_exposures$exposure_out_of_range),
           " language_exposure rows had out-of-range proportions, set to NA")
 }
+language_exposures <- select(language_exposures, -exposure_out_of_range)
 
 health_conditions <- admins_full |>
   select(child_id, conditions = health_conditions) |>
