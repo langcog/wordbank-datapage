@@ -2,57 +2,113 @@
 title: "CDI Scoring"
 ---
 
-Look up vocabulary percentiles for your own data against the Fenson et al.
-(2007) norms for the English *Words & Sentences* form. Upload a CSV with
-columns for vocabulary size (number of words), age (months), and gender —
-other columns are carried through. **Your file is processed entirely in your
-browser and never uploaded anywhere.**
+Generate percentile scores for your own CDI administrations, for the major
+sections of the English (American) and Spanish (Mexican) *Words & Gestures*
+and *Words & Sentences* forms. Upload a CSV with columns for child ID, age
+in months, sex (optional), and any summary scores — **your file is processed
+entirely in your browser and never uploaded anywhere.**
 
-Percentiles are matched by gender, floored age in months, and vocabulary
-count; rows outside the norming range (ages 16–30) get no percentile.
-Download a [sample file](resources/scoring/sample.csv) to see the expected
-shape.
+{{< include components/_filters.qmd >}}
+{{< include components/_download.qmd >}}
+{{< include components/_style.qmd >}}
 
 ```{ojs setup-scoring}
 //| output: false
+Plot = import("https://esm.sh/@observablehq/plot@0.6.17")
 d3 = require("d3@7")
-lookup = d3.csv("resources/scoring/ws_english_lookup.csv", d3.autoType)
-lookup_key = new Map(lookup.map((d) => [`${d.gender}|${d.age_months}|${d.vocab_nwords}`, d.percentile]))
-sample = d3.csv("resources/scoring/sample.csv", d3.autoType)
+
+norms = d3.json("resources/scoring/norms.json")
+norms_meta = d3.json("resources/scoring/norms_meta.json")
+samples = ({
+  ws: await d3.csv("resources/scoring/sample_ws.csv", d3.autoType),
+  wg: await d3.csv("resources/scoring/sample_wg.csv", d3.autoType)
+})
+
+// column auto-guessing per measure
+measure_guesses = ({
+  prod: ["produced", "production", "prod", "vocab", "words_produced", "vocab_nwords"],
+  comp: ["understood", "comprehension", "comp", "words_understood"],
+  earlygest: ["early_gestures", "earlygest", "early_gest"],
+  lategest: ["late_gestures", "lategest", "late_gest"],
+  totgest: ["total_gestures", "totgest", "tot_gest"],
+  phrases: ["phrases", "phrases_understood"],
+  wordend2: ["word_endings", "wordend", "wordendings"],
+  wordforms: ["word_forms", "wordforms"],
+  complex: ["complexity", "complex"],
+  M3L: ["m3l", "mlu", "mean_length"]
+})
+static_guesses = ({
+  id: ["subject_id", "subid", "id", "child_id"],
+  age: ["age", "age_months", "months"],
+  sex: ["sex", "gender"]
+})
+guess_col = (cands, cols) =>
+  cols.find((c) => cands.includes(c.toLowerCase())) ?? ""
 ```
 
 :::: {.viz-layout}
 
 ::: {.viz-sidebar}
 
-```{ojs input-file}
-viewof upload = Inputs.file({ label: "Your CSV", accept: ".csv,.tsv,.txt" })
+```{ojs inputs-instrument-sc}
+viewof sc_lang = Inputs.select(
+  new Map(Object.entries(norms_meta.labels.language).map(([v, l]) => [l, v])),
+  { label: "Language" }
+)
+viewof sc_form = Inputs.select(
+  new Map(Object.entries(norms_meta.labels.form)
+    .filter(([v]) => norms[sc_lang]?.[v])
+    .map(([v, l]) => [l, v])),
+  { label: "Form" }
+)
+viewof use_sample = Inputs.toggle({ label: "Use sample data", value: true })
+viewof upload = Inputs.file({ label: "Your CSV", accept: ".csv" })
 ```
 
-```{ojs parse-upload}
+```{ojs parse-upload-sc}
 //| output: false
-uploaded = upload ? upload.csv({ typed: true }) : null
-active = uploaded ?? sample
+active = {
+  if (!use_sample && upload) return upload.csv({ typed: true });
+  return samples[sc_form] ?? samples.ws;
+}
 columns = Object.keys(active[0] ?? {})
-guess = (cands) => columns.find((c) => cands.includes(c.toLowerCase())) ?? columns[0]
+form_measures = Object.keys(norms[sc_lang]?.[sc_form] ?? {})
+age_range = norms_meta.instruments[sc_lang][sc_form]
 ```
 
-```{ojs input-columns}
-viewof vocab_col = Inputs.select(columns, {
-  label: "Vocabulary column",
-  value: guess(["vocab_nwords", "vocab", "nwords", "words", "production"])
-})
-viewof age_col = Inputs.select(columns, {
-  label: "Age column (months)",
-  value: guess(["age_months", "age", "months"])
-})
-viewof gender_col = Inputs.select(columns, {
-  label: "Gender column",
-  value: guess(["gender", "sex"])
-})
-viewof male_val = Inputs.select(
-  [...new Set(active.map((d) => String(d[gender_col])))],
-  { label: "Value meaning male" }
+```{ojs inputs-mapping}
+viewof id_col = Inputs.select(["", ...columns], { label: "Child ID column", value: guess_col(static_guesses.id, columns) })
+viewof age_col = Inputs.select(["", ...columns], { label: "Age column (months)", value: guess_col(static_guesses.age, columns) })
+viewof sex_col = Inputs.select(["", ...columns], { label: "Sex column (optional)", value: guess_col(static_guesses.sex, columns) })
+```
+
+```{ojs inputs-sexmap}
+//| output: false
+sex_values = sex_col ? [...new Set(active.map((d) => String(d[sex_col])))] : []
+```
+
+```{ojs inputs-sexmap-ui}
+viewof sex_male = Inputs.select(["", ...sex_values], { label: "Value meaning male", value: sex_values.find((v) => ["m", "male", "boy"].includes(v.toLowerCase())) ?? "" })
+viewof sex_female = Inputs.select(["", ...sex_values], { label: "Value meaning female", value: sex_values.find((v) => ["f", "female", "girl"].includes(v.toLowerCase())) ?? "" })
+```
+
+```{ojs inputs-measures}
+viewof measure_cols = Inputs.form(Object.fromEntries(
+  form_measures.map((m) => [m, Inputs.select(["", ...columns], {
+    label: norms_meta.labels.measure[m] ?? m,
+    value: guess_col(measure_guesses[m] ?? [m.toLowerCase()], columns)
+  })])
+))
+```
+
+```{ojs inputs-options}
+viewof norms_type = Inputs.select(
+  new Map([["Sex-specific", "sex"], ["Combined", "not_sex"], ["Both", "both"]]),
+  { label: "Norms", value: "sex" }
+)
+viewof handle_age = Inputs.select(
+  new Map([["No percentile (NA)", "na"], ["Use nearest normed age", "clamp"]]),
+  { label: `Ages outside ${age_range[0]}–${age_range[1]} months` }
 )
 ```
 
@@ -60,41 +116,131 @@ viewof male_val = Inputs.select(
 
 ::: {.viz-main}
 
-```{ojs score}
+```{ojs scoring-engine}
 //| output: false
-scored = active.map((row) => {
-  const age = Math.floor(+row[age_col]);
-  const vocab = +row[vocab_col];
-  const gender = String(row[gender_col]) === male_val ? "male" : "female";
-  const percentile = lookup_key.get(`${gender}|${age}|${vocab}`) ?? null;
-  return { ...row, instrument: "Words & Sentences (English)", percentile };
-})
+// percentile lookup, porting the shiny app's semantics exactly:
+// score >= table max -> "99"; score < table min -> "<1"; otherwise the
+// largest percentile whose value <= score; age not in table -> null
+lookup_percentile = (table, age, score) => {
+  const ai = table.ages.indexOf(age);
+  if (ai === -1) return null;
+  const vals = table.percentiles.map((p) => ({ p: p.p, v: p.values[ai] }));
+  const max = Math.max(...vals.map((d) => d.v));
+  const min = Math.min(...vals.map((d) => d.v));
+  if (score >= max) return "99";
+  if (score < min) return "<1";
+  let best = null;
+  for (const { p, v } of vals) if (v <= score) best = p; // ascending order
+  return best === null ? "<1" : String(best);
+}
+
+active_measures = Object.entries(measure_cols).filter(([m, col]) => col !== "")
+
+scored = {
+  const inst = norms[sc_lang][sc_form];
+  const lims = norms_meta.measures[sc_lang][sc_form];
+  const [amin, amax] = age_range;
+  const sexmap = new Map([[sex_male, "boys"], [sex_female, "girls"]]);
+
+  return active.map((row) => {
+    const out = {};
+    if (id_col) out.id = row[id_col];
+    const rawAge = Math.floor(+row[age_col]);
+    out.age = rawAge;
+    const inRange = rawAge >= amin && rawAge <= amax;
+    const age = inRange ? rawAge
+      : (handle_age === "clamp" ? Math.min(amax, Math.max(amin, rawAge)) : null);
+    if (!inRange) out.age_note = handle_age === "clamp" ? `scored at ${age}` : "out of range";
+    if (sex_col) out.sex = row[sex_col];
+    const child_sex = sexmap.get(String(row[sex_col])) ?? "both";
+
+    for (const [m, col] of active_measures) {
+      const val = +row[col];
+      out[col] = row[col];
+      const valid = Number.isFinite(val) && val >= lims[m][0] && val <= lims[m][1] && age !== null;
+      if (norms_type === "sex" || norms_type === "both") {
+        out[`${col}_pctile_sex`] = valid && inst[m][child_sex]
+          ? lookup_percentile(inst[m][child_sex], age, val) : null;
+      }
+      if (norms_type === "not_sex" || norms_type === "both") {
+        out[`${col}_pctile_combined`] = valid
+          ? lookup_percentile(inst[m].both, age, val) : null;
+      }
+    }
+    return out;
+  });
+}
+
+n_out_of_range = scored.filter((d) => d.age_note).length
 ```
 
-```{ojs table-title}
-html`<h4>${upload ? "Your scored output" : "Sample scored output"}</h4>`
+```{ojs scoring-summary}
+html`<div style="margin-bottom:6px">
+  <strong>${scored.length}</strong> rows scored on
+  <strong>${active_measures.length}</strong> measure${active_measures.length === 1 ? "" : "s"}
+  ${n_out_of_range ? html` · <span style="color:#b45309">${n_out_of_range} outside the ${age_range[0]}–${age_range[1]}-month norming range (${handle_age === "clamp" ? "scored at nearest normed age" : "no percentile"})</span>` : ""}
+</div>`
 ```
 
 ```{ojs scored-table}
-Inputs.table(scored, { maxWidth: 950 })
+Inputs.table(scored, { maxWidth: 980 })
 ```
 
-```{ojs download-button}
+```{ojs scored-download}
+download_csv(scored, `cdi_percentiles_${sc_lang}_${sc_form}.csv`)
+```
+
+```{ojs norms-preview}
+// thumbnail norms curves for each scored measure
 {
-  const csv = [
-    Object.keys(scored[0]).join(","),
-    ...scored.map((r) => Object.values(r).map((v) => v ?? "").join(","))
-  ].join("\n");
-  const blob = new Blob([csv], { type: "text/csv" });
-  const url = URL.createObjectURL(blob);
-  return html`<a class="btn btn-primary" href=${url} download="percentiles.csv">Download percentiles.csv</a>`;
+  if (!active_measures.length) return html``;
+  const inst = norms[sc_lang][sc_form];
+  const panels = active_measures.map(([m]) => {
+    const t = inst[m].both;
+    const rows = t.percentiles.flatMap((p) =>
+      t.ages.map((a, i) => ({ age: a, value: p.values[i], percentile: p.p })));
+    const shown = rows.filter((d) => [5, 25, 50, 75, 95].includes(d.percentile));
+    return html`<div style="text-align:center">
+      <div style="font-weight:600;font-size:12px">${norms_meta.labels.measure[m] ?? m}</div>
+      ${Plot.plot({
+        style: { fontFamily: "var(--sans-serif)", fontSize: "10px" },
+        width: 230, height: 160, marginLeft: 36, inset: 4,
+        x: { label: null, tickFormat: "d" },
+        y: { label: null },
+        color: { type: "ordinal", scheme: "viridis" },
+        marks: [Plot.lineY(shown, { x: "age", y: "value", stroke: "percentile", strokeWidth: 1.5 })]
+      })}
+    </div>`;
+  });
+  return html`<details style="margin-top:8px"><summary>Norming curves (5th/25th/50th/75th/95th, combined-sex)</summary>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:6px">${panels}</div></details>`;
 }
 ```
 
-::: {.callout-note}
-Norms are from Fenson et al. (2007), *MacArthur-Bates Communicative
-Development Inventories: User's Guide and Technical Manual* (2nd ed.). Only
-the English *Words & Sentences* form is currently supported.
+::: {.callout-note collapse="true" title="About these norms"}
+This scoring utility generates percentile values for each of the major
+sections of the MacArthur-Bates Communicative Development Inventories in
+English (Marchman et al., 2023) and Mexican Spanish (Jackson-Maldonado et
+al., 2003). Percentiles were generated with generalized additive models in
+the beta distribution family using monotonic P-splines over age, fit with
+`gamlss`; English norms are weighted to reflect US demographic
+characteristics (2020 census: maternal education, race, and ethnicity).
+
+Norming values for the American English *Words & Gestures* form are
+identical to those in the 3rd edition of the User's Guide and Manual
+(Marchman et al., 2023). Values for the American English *Words &
+Sentences* form are identical to those in the User's Guide except that
+they have been extrapolated to 36 months. Values for the Mexican Spanish
+forms are based on the norming sample of Jackson-Maldonado et al. (2003),
+regenerated with the same statistical procedure (without socio-demographic
+weighting) and extrapolated to 36 months for *Words & Sentences*.
+
+For administrations outside the normative age ranges (*Words & Gestures*
+8–18 months; *Words & Sentences* 16–36 months), you can choose to generate
+no percentile (NA) or to score at the nearest normed age (e.g., a 20-month
+*Words & Gestures* administration scored against the 18-month values).
+Caution is advised when interpreting percentiles outside the normative
+ranges.
 :::
 
 :::
