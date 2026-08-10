@@ -67,7 +67,16 @@ admins_full <- admins_full |>
 language_exposures <- admins_full |>
   select(data_id, exposures = language_exposures) |>
   filter(!map_lgl(exposures, is.null)) |>
-  unnest(exposures)
+  unnest(exposures) |>
+  # validate exposure proportions (langcog/wordbank#334): values outside
+  # [0, 100] are source-data errors; cast to NA and report
+  mutate(exposure_proportion = ifelse(
+    exposure_proportion >= 0 & exposure_proportion <= 100,
+    exposure_proportion, NA_integer_))
+if (any(is.na(language_exposures$exposure_proportion))) {
+  message("note: ", sum(is.na(language_exposures$exposure_proportion)),
+          " language_exposure rows had out-of-range proportions, set to NA")
+}
 
 health_conditions <- admins_full |>
   select(child_id, conditions = health_conditions) |>
