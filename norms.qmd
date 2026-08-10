@@ -111,7 +111,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
   // group — much easier to compare (e.g. median by sex)
   if (!single && nquantiles.length === 1) {
     const smooth = loess_series(norms_quantiles, "group",
-      { y: "vocab", w: "n_children" });
+      { y: "vocab", w: "n_children", clamp: [0, Infinity] });
     return Plot.plot({
       style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
       width: 850,
@@ -135,7 +135,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
   const panels = norm_groups.map((g) => {
     const sub = norms_quantiles.filter((d) => d.group === g);
     const raw = norms_raw.filter((d) => d.group === g);
-    const smooth = loess_series(sub, "quantile", { y: "vocab", w: "n_children" });
+    const smooth = loess_series(sub, "quantile", { y: "vocab", w: "n_children", clamp: [0, Infinity] });
     const n = d3.sum([...new Set(sub.map((d) => `${d.age}`))].map((a) =>
       sub.find((d) => `${d.age}` === a).n_children));
     return html`<div style="text-align:center">

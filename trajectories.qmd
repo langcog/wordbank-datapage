@@ -84,6 +84,7 @@ viewof selected = Inputs.select(words, {
   multiple: 8,
   value: default_words
 })
+html`<div style="font-size:11.5px;color:#666;margin-top:-4px">⌘/Ctrl-click to add words · ⇧-click to select a range</div>`
 viewof split = Inputs.select(split_options, { label: "Split by" })
 viewof norming_only = Inputs.toggle({ label: "Norming data only", value: false })
 ```
@@ -141,7 +142,7 @@ traj_groups = [...new Set(trajectory_data.map((d) => d.grp))].sort(level_sort(sp
   const single = traj_groups.length === 1;
   const panels = traj_groups.map((g) => {
     const sub = trajectory_data.filter((d) => d.grp === g);
-    const smooth = loess_series(sub, "item_definition", { w: "n_children" });
+    const smooth = loess_series(sub, "item_definition", { w: "n_children", clamp: [0, 1] });
     return html`<div style="text-align:center">
       ${single ? "" : html`<div style="font-weight:600">${g}</div>`}
       ${Plot.plot({

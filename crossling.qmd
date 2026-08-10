@@ -80,9 +80,9 @@ lemma_filtered = lemma_data.filter((d) =>
     // one axis, languages as colors; if split by sex, facet Female/Male
     const smooth = xsplit
       ? ["Female", "Male"].flatMap((s) =>
-          loess_series(lemma_filtered.filter((d) => d.sex === s), "language", { w: "n" })
+          loess_series(lemma_filtered.filter((d) => d.sex === s), "language", { w: "n", clamp: [0, 1] })
             .map((p) => ({ ...p, sex: s })))
-      : loess_series(lemma_filtered, "language", { w: "n" });
+      : loess_series(lemma_filtered, "language", { w: "n", clamp: [0, 1] });
     return Plot.plot({
       style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
       width: 900,
@@ -114,7 +114,7 @@ lemma_filtered = lemma_data.filter((d) =>
   const panels = languages.map((lang) => {
     const sub = lemma_filtered.filter((d) => d.language === lang);
     const word = sub[0]?.words ?? "";
-    const smooth = loess_series(sub, "sex", { w: "n" });
+    const smooth = loess_series(sub, "sex", { w: "n", clamp: [0, 1] });
     return html`<div style="text-align:center">
       <div style="font-weight:600">${lang}</div>
       <div style="color:#666;font-size:12px">${word}</div>

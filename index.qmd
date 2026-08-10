@@ -56,42 +56,69 @@ langs = transpose(lang_stats)
 ```
 
 ```{ojs language-bubbles}
-// the language bubble pack from the original wordbank home page:
-// one bubble per language, area ~ n_children^0.65, HCL rainbow by size rank
+// the language "snail": one bubble per language, area ~ n_children^0.65,
+// placed along an Archimedean spiral (largest at the center, spiraling
+// outward by size rank), HCL rainbow by rank
 {
   const width = 450, height = 425;
 
-  const root = d3.pack()
-    .size([width, height])
-    .padding(5)(
-      d3.hierarchy({ children: langs })
-        .sum((d) => Math.pow(d.count, 0.65))
-        .sort((a, b) => b.value - a.value)
-    );
+  const sorted = [...langs].sort((a, b) => b.count - a.count);
+  const radius = (d) => Math.pow(d.count, 0.325); // sqrt of count^0.65
+  const pad = radius(sorted[0]) * 0.12;
 
-  const color = new Map(langs.map((d, i) =>
-    [d.name, d3.hcl((i * 360 / langs.length) % 360, 60, 60).formatHex()]));
+  // greedy spiral packing: walk outward along r = b*theta, placing each
+  // bubble at the first non-overlapping position, so spiral order = rank
+  const placed = [];
+  const b = radius(sorted[0]) / (2 * Math.PI);
+  let theta = 2 * Math.PI;
+  for (const d of sorted) {
+    const r = radius(d);
+    if (!placed.length) {
+      placed.push({ ...d, r, x: 0, y: 0 });
+      continue;
+    }
+    while (true) {
+      const rho = b * theta;
+      const x = rho * Math.cos(theta), y = rho * Math.sin(theta);
+      const ok = placed.every((p) => Math.hypot(p.x - x, p.y - y) >= p.r + r + pad);
+      if (ok) { placed.push({ ...d, r, x, y }); break; }
+      theta += Math.max(0.02, (r * 0.35) / Math.max(rho, 1));
+    }
+  }
+
+  // rescale to fit the viewBox
+  const x0 = d3.min(placed, (d) => d.x - d.r), x1 = d3.max(placed, (d) => d.x + d.r);
+  const y0 = d3.min(placed, (d) => d.y - d.r), y1 = d3.max(placed, (d) => d.y + d.r);
+  const s = Math.min(width / (x1 - x0), height / (y1 - y0));
+  for (const p of placed) {
+    p.x = (p.x - (x0 + x1) / 2) * s + width / 2;
+    p.y = (p.y - (y0 + y1) / 2) * s + height / 2;
+    p.r *= s;
+  }
+
+  const color = new Map(sorted.map((d, i) =>
+    [d.name, d3.hcl((i * 360 / sorted.length) % 360, 60, 60).formatHex()]));
 
   const svg = d3.create("svg")
     .attr("viewBox", [0, 0, width, height])
     .attr("style", "max-width: 450px; width: 100%; height: auto; display: inline-block;");
 
   const node = svg.selectAll("g")
-    .data(root.leaves())
+    .data(placed)
     .join("g")
     .attr("transform", (d) => `translate(${d.x},${d.y})`);
 
   node.append("circle")
     .attr("r", (d) => d.r)
-    .attr("fill", (d) => color.get(d.data.name));
+    .attr("fill", (d) => color.get(d.name));
 
   node.append("title")
-    .text((d) => `${d.data.language}: ${d.data.count.toLocaleString()} children`);
+    .text((d) => `${d.language}: ${d.count.toLocaleString()} children`);
 
   const ctx = document.createElement("canvas").getContext("2d");
   ctx.font = "12px sans-serif";
   const fontSize = (d) => {
-    const w = ctx.measureText(d.data.name).width;
+    const w = ctx.measureText(d.name).width;
     return Math.max(0, Math.min(2 * d.r, (2 * d.r - 6) / w * 12));
   };
 
@@ -101,7 +128,7 @@ langs = transpose(lang_stats)
     .attr("fill", "white")
     .attr("style", "font-family: var(--sans-serif); pointer-events: none;")
     .style("font-size", (d) => fontSize(d) + "px")
-    .text((d) => d.data.name);
+    .text((d) => d.name);
 
   return svg.node();
 }
@@ -115,7 +142,13 @@ Wordbank archives data from the [MacArthur-Bates Communicative Development
 Inventories](https://mb-cdi.stanford.edu/) (CDIs), parent-report instruments
 that measure early language development. Data are contributed by researchers
 around the world and are freely available for browsing, visualization, and
-download. If you use Wordbank, please cite: Frank, M. C., Braginsky, M.,
-Yurovsky, D., & Marchman, V. A. (2017). Wordbank: An open repository for
-developmental vocabulary data. *Journal of Child Language, 44*(3), 677–694.
+download.
+
+If you use Wordbank, please cite: Frank, M. C., Braginsky, M., Yurovsky, D.,
+& Marchman, V. A. (2017). Wordbank: An open repository for developmental
+vocabulary data. *Journal of Child Language, 44*(3), 677–694.
 [doi:10.1017/S0305000916000209](https://doi.org/10.1017/S0305000916000209)
+
+For in-depth analysis and synthesis, please see the
+[Wordbank book](http://wordbank-book.stanford.edu) (Frank et al., 2021, MIT
+Press).

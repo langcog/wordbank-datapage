@@ -2,7 +2,7 @@
 //| output: false
 // weighted LOESS (tricube kernel, local linear fit), matching the smoothers
 // the shiny apps drew with geom_smooth(method = "loess", weight = n)
-loess_points = (data, { x = "age", y = "prop", w = null, span = 0.75, grid = 60 } = {}) => {
+loess_points = (data, { x = "age", y = "prop", w = null, span = 0.75, grid = 60, clamp = null } = {}) => {
   const pts = data
     .map((d) => ({ x: +d[x], y: +d[y], w: w ? +d[w] : 1 }))
     .filter((d) => Number.isFinite(d.x) && Number.isFinite(d.y))
@@ -29,7 +29,7 @@ loess_points = (data, { x = "age", y = "prop", w = null, span = 0.75, grid = 60 
     const yt = Math.abs(denom) < 1e-12
       ? swy / sw
       : (swy * swxx - swx * swxy) / denom + ((sw * swxy - swx * swy) / denom) * xt;
-    out.push({ [x]: xt, [y]: yt });
+    out.push({ [x]: xt, [y]: clamp ? Math.min(clamp[1], Math.max(clamp[0], yt)) : yt });
   }
   return out;
 }
