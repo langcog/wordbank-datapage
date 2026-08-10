@@ -11,6 +11,10 @@ $headings-font-weight: 500;
 
 /*-- scss:rules --*/
 
+// the original site's theme is Bootswatch Spacelab (bootstrap 3), whose
+// font is Open Sans; used for the hero to match the old jumbotron
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
 .navbar {
   background-color: $primary !important;
   border-bottom: 1px solid #1967be;
@@ -52,15 +56,17 @@ main {
   h3 { font-size: 1.15rem; }
 }
 
-// home hero, echoing the original jumbotron (bootstrap-3 gray)
+// home hero, matching the original Spacelab jumbotron: Open Sans,
+// h1 63px/500, p 21px/200, #eee background
 .wb-hero {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  background: #e6e6e6;
+  background: #eeeeee;
   border-radius: 6px;
   padding: 1.4rem 1.5rem;
   margin: 0.5rem 0 0.75rem 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   img.walrus { max-height: 130px; }
 
@@ -75,8 +81,8 @@ main {
     flex: 1;
     text-align: center;
 
-    .wb-title { margin: 0; font-size: clamp(40px, 5.5vw, 68px); font-weight: 500; line-height: 1.1; }
-    p { margin: 0; color: inherit; font-size: 23px; font-weight: 200; }
+    .wb-title { margin: 0; font-size: clamp(40px, 5vw, 63px); font-weight: 500; line-height: 1.1; color: #2d2d2d; }
+    p { margin: 0; color: inherit; font-size: 21px; font-weight: 300; }
   }
 }
 

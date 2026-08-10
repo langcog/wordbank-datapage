@@ -57,43 +57,27 @@ langs = transpose(lang_stats)
 
 ```{ojs language-bubbles}
 // the language "snail": one bubble per language, area ~ n_children^0.65,
-// placed along an Archimedean spiral (largest at the center, spiraling
-// outward by size rank), HCL rainbow by rank
+// packed with d3.packSiblings — the same front-chain algorithm behind the
+// original site's d3.layout.pack (descending order spirals outward from the
+// center, circles mutually tangent), HCL rainbow by rank
 {
   const width = 450, height = 425;
 
   const sorted = [...langs].sort((a, b) => b.count - a.count);
   const radius = (d) => Math.pow(d.count, 0.325); // sqrt of count^0.65
-  const pad = radius(sorted[0]) * 0.12;
+  const pad = radius(sorted[0]) * 0.02; // ~ the original pack.padding(5)
 
-  // greedy spiral packing: walk outward along r = b*theta, placing each
-  // bubble at the first non-overlapping position, so spiral order = rank
-  const placed = [];
-  const b = radius(sorted[0]) / (2 * Math.PI);
-  let theta = 2 * Math.PI;
-  for (const d of sorted) {
-    const r = radius(d);
-    if (!placed.length) {
-      placed.push({ ...d, r, x: 0, y: 0 });
-      continue;
-    }
-    while (true) {
-      const rho = b * theta;
-      const x = rho * Math.cos(theta), y = rho * Math.sin(theta);
-      const ok = placed.every((p) => Math.hypot(p.x - x, p.y - y) >= p.r + r + pad);
-      if (ok) { placed.push({ ...d, r, x, y }); break; }
-      theta += Math.max(0.02, (r * 0.35) / Math.max(rho, 1));
-    }
-  }
+  const placed = sorted.map((d) => ({ ...d, r: radius(d) + pad }));
+  d3.packSiblings(placed);
 
-  // rescale to fit the viewBox
+  // rescale to fit the viewBox, shrinking each circle by pad for the gap
   const x0 = d3.min(placed, (d) => d.x - d.r), x1 = d3.max(placed, (d) => d.x + d.r);
   const y0 = d3.min(placed, (d) => d.y - d.r), y1 = d3.max(placed, (d) => d.y + d.r);
   const s = Math.min(width / (x1 - x0), height / (y1 - y0));
   for (const p of placed) {
     p.x = (p.x - (x0 + x1) / 2) * s + width / 2;
     p.y = (p.y - (y0 + y1) / 2) * s + height / 2;
-    p.r *= s;
+    p.r = (p.r - pad) * s;
   }
 
   const color = new Map(sorted.map((d, i) =>
