@@ -1,0 +1,47 @@
+---
+title: "Analyses"
+---
+
+```{=html}
+<script>
+// legacy deep links: wordbank.stanford.edu/analyses?name=<app> redirects
+// here after the domain cutover; forward to the app's new home
+const app_map = {
+  vocab_norms: "norms.html",
+  item_trajectories: "trajectories.html",
+  uni_lemmas: "crossling.html",
+  networks: "networks.html",
+  instrument_data: "data.html",
+  item_data: "data.html",
+  admin_data: "data.html",
+  aoa_prediction: "https://mikabr.github.io/aoa-prediction/aoa_prediction.html",
+  aoa_estimation: "https://mikabr.github.io/aoa-prediction/aoa_estimation.html",
+  vocab_comp: "https://mikabr.github.io/vocab-comp/",
+  grammar_lex: "https://dyurovsky.github.io/cdi-grammar/",
+  ses_effects: "https://mikabr.github.io/demo-vocab/momed.html",
+  sex_differences: "https://mikabr.github.io/demo-vocab/gender.html"
+};
+const app_name = new URLSearchParams(window.location.search).get("name");
+if (app_map[app_name]) window.location.replace(app_map[app_name]);
+</script>
+```
+
+The interactive analyses have moved to dedicated pages:
+
+- [Vocabulary Norms](norms.qmd) — vocabulary size growth curves
+- [Item Trajectories](trajectories.qmd) — developmental trajectories of individual words
+- [Cross-Linguistic Trajectories](crossling.qmd) — words compared across languages via uni-lemmas
+- [Semantic Networks](networks.qmd) — embedding-based word networks
+- [CDI Scoring](scoring.qmd) — percentile scoring for your own administrations
+- [Data downloads](data.qmd) — by-child, by-word, and child-by-word exports
+
+Analysis reports from the Wordbank team:
+
+- [Predicting Words' Age of Acquisition](https://mikabr.github.io/aoa-prediction/aoa_prediction.html)
+- [Estimating Words' Age of Acquisition](https://mikabr.github.io/aoa-prediction/aoa_estimation.html)
+- [Vocabulary Composition Trajectories](https://mikabr.github.io/vocab-comp/)
+- [Relationship between Lexicon and Grammar](https://dyurovsky.github.io/cdi-grammar/)
+- [Maternal Education Differences in Vocabulary](https://mikabr.github.io/demo-vocab/momed.html)
+- [Gender Differences in Vocabulary](https://mikabr.github.io/demo-vocab/gender.html)
+
+For the full picture, see the [Wordbank book](https://wordbank-book.stanford.edu).
