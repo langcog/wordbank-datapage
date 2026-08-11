@@ -52,34 +52,35 @@ ${stats.n_languages} languages and ${stats.n_instruments} instruments.</div>`
 ```{ojs bubble-setup}
 //| output: false
 d3 = require("d3@7")
+// D3 v3, for layout.pack — the original site's snail layout (v3's UMD
+// wrapper doesn't resolve through require(), so load it directly)
+d3v3 = {
+  const src = await (await fetch("https://cdn.jsdelivr.net/npm/d3@3.5.17/d3.min.js")).text();
+  const prev = window.d3;
+  (new Function(src)).call(window);
+  const v3 = window.d3;
+  window.d3 = prev;
+  return v3;
+}
 langs = transpose(lang_stats)
 ```
 
 ```{ojs language-bubbles}
-// the language "snail": one bubble per language, area ~ n_children^0.65,
-// packed with d3.packSiblings — the same front-chain algorithm behind the
-// original site's d3.layout.pack (descending order spirals outward from the
-// center, circles mutually tangent), HCL rainbow by rank
+// the language "snail", laid out exactly as on the original site
+// (templates/home.html): D3 v3 d3.layout.pack, descending sort,
+// value = n_children^0.65, padding 5, HCL rainbow by rank
 {
   const width = 450, height = 425;
 
-  const sorted = [...langs].sort((a, b) => b.count - a.count);
-  const radius = (d) => Math.pow(d.count, 0.325); // sqrt of count^0.65
-  const pad = radius(sorted[0]) * 0.02; // ~ the original pack.padding(5)
+  const root = { children: langs.map((d) => ({
+    ...d, value: Math.pow(d.count, 0.65) })) };
+  const bubble = d3v3.layout.pack()
+    .sort((a, b) => b.value - a.value)
+    .size([width, height])
+    .padding(5);
+  const placed = bubble.nodes(root).filter((d) => !d.children);
 
-  const placed = sorted.map((d) => ({ ...d, r: radius(d) + pad }));
-  d3.packSiblings(placed);
-
-  // rescale to fit the viewBox, shrinking each circle by pad for the gap
-  const x0 = d3.min(placed, (d) => d.x - d.r), x1 = d3.max(placed, (d) => d.x + d.r);
-  const y0 = d3.min(placed, (d) => d.y - d.r), y1 = d3.max(placed, (d) => d.y + d.r);
-  const s = Math.min(width / (x1 - x0), height / (y1 - y0));
-  for (const p of placed) {
-    p.x = (p.x - (x0 + x1) / 2) * s + width / 2;
-    p.y = (p.y - (y0 + y1) / 2) * s + height / 2;
-    p.r = (p.r - pad) * s;
-  }
-
+  const sorted = [...placed].sort((a, b) => b.value - a.value);
   const color = new Map(sorted.map((d, i) =>
     [d.name, d3.hcl((i * 360 / sorted.length) % 360, 60, 60).formatHex()]));
 
