@@ -3,7 +3,7 @@ title: "Data"
 ---
 
 All Wordbank data are hosted on the
-[datapages.wordbank](https://redivis.com/datapages/datasets/wordbank) Redivis
+[datapages.wordbank](https://stanford.redivis.com/datasets/627v-9ewzpdvz0) Redivis
 dataset, versioned and freely downloadable. Use the download tool
 [below](#download-data) to export filtered CSVs at three levels of
 aggregation, or access the full tables programmatically.
@@ -244,7 +244,7 @@ html`<div style="margin-bottom:6px">
   ${ds_preview.note ? html` · <span style="color:#595959">${ds_preview.note}</span>` : ""}
   ${ds_level === "cbw" && ds_format === "long" && ds_counts.n_rows > 500000
     ? html` · <span style="color:#b45309">large download — for bulk access consider
-        <a href="https://redivis.com/datapages/datasets/wordbank" target="_blank">Redivis</a></span>`
+        <a href="https://stanford.redivis.com/datasets/627v-9ewzpdvz0" target="_blank">Redivis</a></span>`
     : ""}
 </div>`
 ```
@@ -282,7 +282,7 @@ Inputs.table(ds_preview.rows, { maxWidth: 980 })
 
 ::: {.callout-note collapse="true" title="Notes on these exports"}
 - Data come from the current release of the
-  [datapages.wordbank](https://redivis.com/datapages/datasets/wordbank)
+  [datapages.wordbank](https://stanford.redivis.com/datasets/627v-9ewzpdvz0)
   dataset; record the dataset version alongside downloads used in analyses.
 - *By child* counts (`words_produced`, `words_understood`) are computed over
   word items only, matching the vocabulary scores in the `administrations`
@@ -293,7 +293,7 @@ Inputs.table(ds_preview.rows, { maxWidth: 980 })
   format one row per child with a TRUE/FALSE column per item (choose which
   measure fills the cells on *Words & Gestures* forms).
 - Full unfiltered tables (all instruments at once) are available on
-  [Redivis](https://redivis.com/datapages/datasets/wordbank).
+  [Redivis](https://stanford.redivis.com/datasets/627v-9ewzpdvz0).
 :::
 
 :::
@@ -317,9 +317,11 @@ responses. From Python or other languages, use the
 
 Wordbank data are versioned on Redivis: every release is a citable snapshot,
 and older versions remain permanently available from the
-[dataset's version history](https://redivis.com/datapages/datasets/wordbank).
-If you are running reproducible analyses, record the version you used (in
-wordbankr: `options(wordbankr.dataset_version = "v1.3")`).
+[dataset's version history](https://stanford.redivis.com/datasets/627v-9ewzpdvz0).
+If you are running reproducible analyses, record the version you used: every
+wordbankr data-access function takes a `version` argument (e.g.
+`get_administration_data(version = "v1.5")`), defaults to the current
+release, and stamps the resolved version in a column of its output.
 
 ## Wordbank Book
 
