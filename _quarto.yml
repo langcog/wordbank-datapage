@@ -1,4 +1,5 @@
 lang: en
+image: images/social-card.png
 
 project:
   title: "Wordbank"
@@ -9,7 +10,12 @@ project:
 
 website:
   site-url: https://langcog.github.io/wordbank-datapage/
+  description: "An open database of children's vocabulary development"
+  image: images/social-card.png
   favicon: images/favicon.ico
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   navbar:
     logo: images/walrus.png
     logo-alt: "Wordbank walrus logo"
