@@ -96,6 +96,17 @@ norms_quantiles = {
 }
 
 norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
+
+// sparse selections (few ages with >= min_n children) get points connected
+// directly instead of a smoother; flag it so the jagged shape isn't read
+// as an error
+n_ages_shown = new Set(norms_quantiles.map((d) => d.age)).size
+sparse_note = n_ages_shown < 5
+  ? html`<div style="font-size:12px;color:#8a5a00;background:#fff7e0;border:1px solid #f0d890;border-radius:4px;padding:4px 8px;margin-bottom:6px">
+      Sparse data: only ${n_ages_shown} age${n_ages_shown === 1 ? "" : "s"} have at least ${min_n} children
+      (${norms_raw.length.toLocaleString()} administrations total), so quantile points are
+      connected directly rather than smoothed. Interpret with caution.</div>`
+  : html``
 ```
 
 ```{ojs norms-plot}
@@ -112,7 +123,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
   if (!single && nquantiles.length === 1) {
     const smooth = loess_series(norms_quantiles, "group",
       { y: "vocab", w: "n_children", clamp: [0, Infinity] });
-    return Plot.plot({
+    return html`${sparse_note}${Plot.plot({
       style: { fontFamily: "var(--sans-serif)", fontSize: "13px" },
       width: 850,
       height: 480,
@@ -129,7 +140,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
           channels: { n_children: "n_children" }, tip: true
         })
       ]
-    });
+    })}`;
   }
 
   const panels = norm_groups.map((g) => {
@@ -160,7 +171,7 @@ norm_groups = [...new Set(norms_quantiles.map((d) => d.group))]
       })}
     </div>`;
   });
-  return html`<div style="display:flex;flex-wrap:wrap;gap:16px">${panels}</div>`;
+  return html`${sparse_note}<div style="display:flex;flex-wrap:wrap;gap:16px">${panels}</div>`;
 }
 ```
 

@@ -7,7 +7,9 @@ loess_points = (data, { x = "age", y = "prop", w = null, span = 0.75, grid = 60,
     .map((d) => ({ x: +d[x], y: +d[y], w: w ? +d[w] : 1 }))
     .filter((d) => Number.isFinite(d.x) && Number.isFinite(d.y))
     .sort((a, b) => a.x - b.x);
-  if (pts.length < 3) return pts.map((d) => ({ [x]: d.x, [y]: d.y }));
+  // too few points to smooth meaningfully (a local-linear fit through 3–4
+  // points produces spurious kinks): connect the raw points instead
+  if (pts.length < 5) return pts.map((d) => ({ [x]: d.x, [y]: d.y }));
 
   const k = Math.max(2, Math.ceil(span * pts.length));
   const x0 = pts[0].x, x1 = pts[pts.length - 1].x;
