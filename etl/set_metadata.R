@@ -20,16 +20,23 @@ ds <- redivis$organization("datapages")$dataset("wordbank")
 ds <- tryCatch(ds$create_next_version(if_not_exists = TRUE),
                error = function(e) ds)
 
-dataset_description <- "Wordbank is an open database of children's vocabulary development, built on the MacArthur-Bates Communicative Development Inventories (CDIs): parent-report checklists of the words a child produces (and, on infant forms, understands). Researchers around the world contribute their CDI administrations; Wordbank archives them in a common schema. This dataset is the canonical, versioned release behind wordbank.stanford.edu and the wordbankr R package (https://github.com/langcog/wordbankr; `remotes::install_github(\"langcog/wordbankr\")`), which reads it directly and takes a `version` argument for reproducible analyses.
+dataset_description <- "Wordbank is an open database of children's vocabulary development, built on the MacArthur-Bates Communicative Development Inventories (CDIs): parent-report checklists of the words a child produces (and, on infant forms, understands). Researchers around the world contribute their CDI administrations; Wordbank archives them in a common schema. This dataset is the canonical, versioned release behind wordbank.stanford.edu and the wordbankr R package (https://github.com/langcog/wordbankr), which reads it directly and takes a version argument for reproducible analyses.
 
-**Where the data are:**
-- `item_responses` is the core table: one row per administration x item (~64M rows) with the raw `value` and its recodes `produces` / `understands`.
-- `administrations` (one row per child completing a form: age, vocabulary totals, dataset) joins to `item_responses` on `data_id`, to `children` (demographics, birth variables) on `child_id`, and to `instruments` (language x form, normed age range) on `language` + `form`.
-- `items` describes each item on each instrument (category, lexical class, cross-linguistic `uni_lemma`).
-- `datasets` lists the contributed datasets with citation and license (CC-BY, or CC-BY-NC where marked); please cite contributors' papers when using their data.
-- Derived tables for convenience: `item_summaries` (item x age proportions), `uni_lemma_summaries` (cross-linguistic), `vocab_summaries` (vocabulary-size quantiles by age), `aoa` (ages of acquisition), `item_embeddings`.
+WHERE THE DATA ARE
 
-Please cite: Frank, M. C., Braginsky, M., Yurovsky, D., & Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. Journal of Child Language, 44(3), 677-694. https://doi.org/10.1017/S0305000916000209"
+item_responses is the core table: one row per administration x item (about 64 million rows) with the raw value and its recodes produces / understands.
+
+administrations has one row per child completing a form (age, vocabulary totals, dataset). It joins to item_responses on data_id, to children (demographics, birth variables) on child_id, and to instruments (language x form, normed age range) on language + form.
+
+items describes each item on each instrument (category, lexical class, cross-linguistic uni_lemma).
+
+datasets lists the contributed datasets with citation and license (CC-BY, or CC-BY-NC where marked); please cite contributors' papers when using their data.
+
+Derived tables for convenience: item_summaries (item x age proportions), uni_lemma_summaries (cross-linguistic), vocab_summaries (vocabulary-size quantiles by age), aoa (ages of acquisition), item_embeddings.
+
+PLEASE CITE
+
+Frank, M. C., Braginsky, M., Yurovsky, D., & Marchman, V. A. (2017). Wordbank: An open repository for developmental vocabulary data. Journal of Child Language, 44(3), 677-694. https://doi.org/10.1017/S0305000916000209"
 
 table_descriptions <- c(
   instruments = "One row per CDI instrument (language-form pair).",
