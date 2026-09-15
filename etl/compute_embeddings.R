@@ -29,7 +29,9 @@ words <- read_parquet("data/items.parquet") |>
   filter(!is.na(item_definition), item_definition != "")
 
 done <- if (file.exists(out_path)) {
-  read_parquet(out_path)
+  # arrow reads the list column back as vctrs list_of<double>, which won't
+  # bind_rows with the plain lists the API returns; coerce to plain list
+  read_parquet(out_path) |> mutate(embedding = lapply(embedding, as.numeric))
 } else {
   tibble(language = character(), item_definition = character(),
          embedding = list())

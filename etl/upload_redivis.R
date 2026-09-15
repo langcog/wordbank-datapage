@@ -5,9 +5,11 @@
 #
 # Requires REDIVIS_API_TOKEN in .secrets (KEY=VALUE format, gitignored).
 #
-# Usage: Rscript etl/upload_redivis.R ["release notes"] [--no-release]
+# Usage: Rscript etl/upload_redivis.R ["release notes"] [--no-release] [--tables a,b]
 #   --no-release uploads into the next version but does not release it
 #   (so etl/set_metadata.R can annotate tables first)
+#   --tables a,b  upload only the named tables (e.g. recomputed derived
+#   tables) into the next version; implies --no-release
 
 suppressMessages({
   library(redivis)
@@ -19,6 +21,12 @@ if (Sys.getenv("REDIVIS_API_TOKEN") == "") stop("REDIVIS_API_TOKEN not set")
 
 args <- commandArgs(trailingOnly = TRUE)
 no_release <- "--no-release" %in% args
+only_tables <- NULL
+if ("--tables" %in% args) {
+  only_tables <- str_split_1(args[[which(args == "--tables") + 1]], ",")
+  args <- args[-(which(args == "--tables") + 0:1)]
+  no_release <- TRUE
+}
 args <- setdiff(args, "--no-release")
 notes <- if (length(args) > 0) args[[1]] else
   paste("Automated extraction from the wordbank database,", Sys.Date())
@@ -66,11 +74,19 @@ get_table <- function(tname) {
   tb <- ds$table(tname)
   if (!tb$exists()) tb$create(description = table_descriptions[[tname]])
   tb$update(upload_merge_strategy = "replace")
+  # "replace" only supersedes the PREVIOUS version's rows; uploads within the
+  # same unreleased version combine. When re-uploading a subset of tables into
+  # an existing next version, drop its current uploads first so the table is
+  # rebuilt from this run's file rather than appended to.
+  if (!is.null(only_tables)) {
+    for (u in tb$list_uploads()) u$delete()
+  }
   tb
 }
 
 for (f in list.files(out_dir, pattern = "\\.parquet$", full.names = TRUE)) {
   tname <- str_remove(basename(f), "\\.parquet$")
+  if (!is.null(only_tables) && !tname %in% only_tables) next
   message("uploading table: ", tname)
   if (tname == "item_embeddings") {
     # Redivis tables hold scalar types: serialize the embedding list column
@@ -83,11 +99,13 @@ for (f in list.files(out_dir, pattern = "\\.parquet$", full.names = TRUE)) {
   upload_parquet(get_table(tname), f)
 }
 
-message("uploading table: item_responses (per-instrument files)")
-tb <- get_table("item_responses")
-for (f in list.files(resp_dir, full.names = TRUE)) {
-  message("  ", basename(f))
-  upload_parquet(tb, f)
+if (is.null(only_tables) || "item_responses" %in% only_tables) {
+  message("uploading table: item_responses (per-instrument files)")
+  tb <- get_table("item_responses")
+  for (f in list.files(resp_dir, full.names = TRUE)) {
+    message("  ", basename(f))
+    upload_parquet(tb, f)
+  }
 }
 
 if (no_release) {
