@@ -84,9 +84,28 @@ get_table <- function(tname) {
   tb
 }
 
+# Replacing a table inside an existing version is destructive (the old uploads
+# are deleted first), so refuse to ship a file that has lost data relative to
+# what is there now: fewer rows than half the current table, or a column that
+# is entirely NA in the file but populated in the current table.
+check_replacement <- function(tname, path) {
+  new <- arrow::read_parquet(path)
+  cur <- tryCatch(ds$table(tname)$to_tibble(), error = function(e) NULL)
+  if (is.null(cur) || nrow(cur) == 0) return(invisible(TRUE))
+  if (nrow(new) < nrow(cur) / 2)
+    stop(tname, ": replacement has ", nrow(new), " rows vs ", nrow(cur), " currently", call. = FALSE)
+  emptied <- Filter(function(col) col %in% names(cur) && all(is.na(new[[col]])) &&
+                      !all(is.na(cur[[col]])), names(new))
+  if (length(emptied) > 0)
+    stop(tname, ": replacement would blank populated column(s): ",
+         paste(emptied, collapse = ", "), call. = FALSE)
+  invisible(TRUE)
+}
+
 for (f in list.files(out_dir, pattern = "\\.parquet$", full.names = TRUE)) {
   tname <- str_remove(basename(f), "\\.parquet$")
   if (!is.null(only_tables) && !tname %in% only_tables) next
+  if (!is.null(only_tables) && tname != "item_embeddings") check_replacement(tname, f)
   message("uploading table: ", tname)
   if (tname == "item_embeddings") {
     # Redivis tables hold scalar types: serialize the embedding list column
