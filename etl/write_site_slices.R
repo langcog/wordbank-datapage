@@ -56,7 +56,11 @@ if (dir.exists("data/item_responses")) {
       inner_join(admins_demo, by = "data_id") |>
       select(language, data_id, item_id, item_kind, item_definition, category,
              uni_lemma, age, produces, understands, is_norming, sex,
-             birth_order, caregiver_education, ethnicity)
+             birth_order, caregiver_education, ethnicity) |>
+      # sort for compression: item-then-child order gives long runs in every
+      # column (responses fetched from Redivis arrive unordered, which made
+      # these files ~20x larger) and keeps the committed slices deterministic
+      arrange(item_id, data_id)
     if (nrow(resp) > 0)
       write_parquet(resp, file.path("slices/responses", basename(f)),
                     compression = "zstd")
