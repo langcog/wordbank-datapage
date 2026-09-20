@@ -1,767 +1,1522 @@
 age,production,comprehension,is_norming,sex,birth_order,caregiver_education,ethnicity
-21,23,,TRUE,Female,Third,,
-22,89,,TRUE,Female,Second,,
-25,154,,TRUE,Male,Fourth,,
-23,182,,TRUE,Male,First,,
-29,381,,TRUE,Female,Third,,
-19,124,,TRUE,Female,,,
-19,14,,TRUE,Female,Second,,
-18,19,,TRUE,Female,Second,,
-23,27,,TRUE,Female,Third,,
-28,269,,TRUE,Female,Fourth,,
-20,167,,TRUE,Male,Second,,
-23,148,,TRUE,Female,Third,,
-22,38,,TRUE,Female,Second,,
-26,371,,TRUE,Male,First,,
-26,588,,TRUE,Male,First,,
-21,238,,TRUE,Male,Second,,
-27,223,,TRUE,Male,Second,,
-24,299,,TRUE,Male,First,,
-25,144,,TRUE,Male,Third,,
-24,628,,TRUE,Female,,,
-25,35,,TRUE,Female,Second,,
-26,585,,TRUE,Female,Fourth,,
-19,315,,TRUE,Male,Second,,
-20,483,,TRUE,Male,Second,,
-20,462,,TRUE,Female,Third,,
-22,236,,TRUE,Male,Second,,
+16,281,,FALSE,Female,Second,Primary,
+16,132,,FALSE,Female,Second,Secondary,
+16,133,,FALSE,Female,First,Primary,
+16,3,,FALSE,Male,Second,Some Secondary,
+16,152,,FALSE,Female,Fifth,Some Secondary,
+16,29,,FALSE,Male,First,College,
+16,80,,FALSE,Male,First,Secondary,
+16,39,,FALSE,Male,First,Some Secondary,
+16,24,,FALSE,Female,Third,Secondary,
+16,39,,FALSE,Male,Third,College,
+16,54,,FALSE,Male,First,Secondary,
+16,9,,FALSE,Male,First,Primary,
+16,17,,FALSE,Male,First,College,
+16,23,,FALSE,Male,Third,Primary,
+16,14,,FALSE,Female,Second,Secondary,
+16,192,,FALSE,Male,Third,College,
+16,33,,FALSE,Male,First,College,
+16,5,,FALSE,Male,Second,Secondary,
+16,26,,FALSE,Female,Fourth,Secondary,
+16,15,,FALSE,Female,First,College,
+16,39,,FALSE,Female,First,Some Secondary,
+16,61,,FALSE,Female,First,Secondary,
+16,46,,FALSE,Female,First,Secondary,
+16,4,,FALSE,Female,Second,Some Secondary,
+16,76,,FALSE,Male,Third,College,
+16,16,,FALSE,Female,First,Secondary,
+16,16,,FALSE,Male,Third,Some Secondary,
+16,57,,FALSE,Female,Third,Secondary,
+16,126,,FALSE,Female,Second,Secondary,
+16,26,,FALSE,Male,First,College,
+16,14,,FALSE,Female,First,Secondary,
+16,12,,FALSE,Male,First,College,
+16,8,,FALSE,Male,Third,College,
+16,53,,FALSE,Female,Third,Secondary,
+16,41,,FALSE,Female,First,College,
+16,59,,FALSE,Female,First,Secondary,
+16,19,,FALSE,Male,First,College,
+16,51,,FALSE,Female,Third,Some Secondary,
+16,248,,FALSE,Male,First,College,
+16,101,,FALSE,Female,Third,College,
+16,17,,FALSE,Female,Second,Secondary,
+16,102,,FALSE,Female,Third,None,
+16,76,,FALSE,Female,Fifth,Primary,
+16,47,,FALSE,Male,First,College,
+16,11,,FALSE,Male,Second,College,
+16,594,,FALSE,Female,Second,College,
+16,80,,FALSE,Male,First,College,
+16,46,,FALSE,Female,Second,Secondary,
+16,29,,FALSE,Female,First,Secondary,
+16,67,,FALSE,Male,Second,Secondary,
+16,8,,FALSE,Male,Second,Some Secondary,
+16,7,,FALSE,Male,Third,College,
+16,8,,FALSE,Male,Second,Primary,
+16,12,,FALSE,Male,First,College,
+16,9,,FALSE,Female,First,College,
+16,176,,FALSE,Male,First,Secondary,
+16,127,,FALSE,Female,Third,Primary,
+16,180,,FALSE,Female,Second,College,
+16,307,,FALSE,Female,First,Some Secondary,
+16,25,,FALSE,Female,First,Secondary,
+16,244,,FALSE,Female,First,Secondary,
+16,10,,FALSE,Male,First,College,
+16,14,,FALSE,Male,Second,College,
+16,12,,FALSE,Male,Second,College,
+16,53,,FALSE,Male,First,College,
+16,77,,FALSE,Male,First,College,
+16,247,,FALSE,Female,Second,Secondary,
+16,27,,FALSE,Male,First,Secondary,
+17,51,,FALSE,Male,First,College,
+17,181,,FALSE,Female,Fourth,Some Secondary,Hispanic
+17,61,,FALSE,Female,First,College,
+17,28,,FALSE,Male,First,Secondary,
+17,61,,FALSE,Male,,College,
+17,208,,FALSE,Male,Second,Some Secondary,
+17,63,,FALSE,Male,Third,Some Secondary,
+17,47,,FALSE,Female,Second,Secondary,
+17,134,,FALSE,Female,Third,Secondary,
+17,31,,FALSE,Male,Second,College,
+17,22,,FALSE,Male,Second,College,
+17,197,,FALSE,Female,Second,College,
+17,326,,FALSE,Female,First,Secondary,
+17,318,,FALSE,Female,Third,Secondary,
+17,24,,FALSE,Male,Second,Secondary,
+17,177,,FALSE,Female,First,Secondary,
+17,159,,FALSE,Female,First,College,
+17,114,,FALSE,Female,Second,College,
+17,155,,FALSE,Female,First,Some Secondary,
+17,27,,FALSE,Male,First,Some Secondary,
+17,55,,FALSE,Female,,Secondary,
+17,60,,FALSE,Male,Third,College,
+17,96,,FALSE,Male,Second,College,
+17,75,,FALSE,Male,Second,College,
+17,9,,FALSE,Female,First,College,
+17,85,,FALSE,Female,Second,Secondary,
+17,8,,FALSE,Female,First,Some Secondary,
+17,35,,FALSE,Female,Second,Secondary,
+17,404,,FALSE,Female,First,Secondary,
+17,191,,FALSE,Male,Second,Secondary,
+17,31,,FALSE,Female,Second,College,
+17,120,,FALSE,Female,First,Secondary,
+17,17,,FALSE,Female,First,Secondary,
+17,288,,FALSE,Female,First,Secondary,
+17,19,,FALSE,Female,First,Secondary,
+17,37,,FALSE,Female,First,Secondary,
+17,114,,FALSE,Female,First,College,
+17,26,,FALSE,Male,Second,Some Secondary,
+17,7,,FALSE,Male,First,College,
+17,31,,FALSE,Male,Third,Secondary,
+17,31,,FALSE,Female,Second,College,
+17,27,,FALSE,Female,Second,College,
+17,43,,FALSE,Male,First,Secondary,
+17,35,,FALSE,Male,First,Secondary,
+17,40,,FALSE,Male,Second,College,
+17,256,,FALSE,Female,Fifth,Secondary,
+17,18,,FALSE,Female,First,College,
+17,47,,FALSE,Male,Third,Primary,
+17,15,,FALSE,Male,Third,College,
+17,32,,FALSE,Male,First,College,
+17,140,,FALSE,Male,First,College,
+17,30,,FALSE,Male,First,College,
+17,20,,FALSE,Male,First,Primary,
+17,44,,FALSE,Female,First,Secondary,
+17,164,,FALSE,Female,First,Primary,
+17,108,,FALSE,Female,First,Secondary,
+17,39,,FALSE,Female,Second,Secondary,
+17,3,,FALSE,Female,Second,Some Secondary,
+17,72,,FALSE,Female,First,College,
+18,40,,FALSE,Female,Third,Some Secondary,Hispanic
+18,26,,FALSE,Female,Second,Some College,Hispanic
+18,97,,FALSE,Male,First,Secondary,Hispanic
+18,121,,FALSE,Male,First,Secondary,
+18,6,,FALSE,Male,Third,Secondary,
+18,23,,FALSE,Male,First,College,Hispanic
+18,15,,FALSE,Female,Third,Some Graduate,
+18,90,,FALSE,Male,First,Graduate,Hispanic
+18,38,,FALSE,Male,Third,Secondary,Hispanic
+18,228,,FALSE,Female,First,Some Secondary,Hispanic
+18,39,,FALSE,Male,First,Graduate,Hispanic
+18,36,,FALSE,Male,Second,Some College,
+18,680,,FALSE,Male,Third,Secondary,
+18,21,,FALSE,Female,First,College,
+18,9,,FALSE,Female,Second,College,
+18,251,,FALSE,Female,Third,Some Secondary,
+18,166,,FALSE,Male,Fifth,Some Secondary,
+18,85,,FALSE,Male,Second,Secondary,
+18,8,,FALSE,Male,,Some Secondary,
+18,334,,FALSE,Female,Second,Secondary,
+18,200,,FALSE,Female,First,Some Secondary,
+18,99,,FALSE,Male,First,Primary,
+18,82,,FALSE,Male,First,College,
+18,140,,FALSE,Female,First,Secondary,
+18,193,,FALSE,Male,Third,Primary,
+18,39,,FALSE,Male,Third,Secondary,
+18,225,,FALSE,Female,Second,College,
+18,26,,FALSE,Female,First,College,
+18,61,,FALSE,Male,Second,Secondary,
+18,22,,FALSE,Male,First,Some Secondary,
+18,58,,FALSE,Male,Second,Some Secondary,
+18,76,,FALSE,Male,First,Secondary,
+18,42,,FALSE,Female,First,Secondary,
+18,47,,FALSE,Female,First,Secondary,
+18,167,,FALSE,Female,First,Some Secondary,
+18,303,,FALSE,Male,Second,Secondary,
+18,36,,FALSE,Male,Second,Secondary,
+18,17,,FALSE,Male,First,Secondary,
+18,289,,FALSE,Male,Third,Some Secondary,
+18,229,,FALSE,Male,Second,Some Secondary,
+18,238,,FALSE,Male,First,Secondary,
+18,184,,FALSE,Male,Third,College,
+18,181,,FALSE,Female,First,College,
+18,14,,FALSE,Male,First,College,
+18,113,,FALSE,Female,First,College,
+18,56,,FALSE,Female,First,Secondary,
+18,413,,FALSE,Female,First,Primary,
+18,24,,FALSE,Female,Second,College,
+18,21,,FALSE,Female,First,College,
+18,36,,FALSE,Female,Second,College,
+18,24,,FALSE,Female,First,Some Secondary,
+18,20,,FALSE,Female,First,College,
+18,22,,FALSE,Female,First,Some Secondary,
+18,48,,FALSE,Male,Third,Secondary,
+18,50,,FALSE,Female,First,Some Secondary,
+18,30,,FALSE,Male,First,Some Secondary,
+18,46,,FALSE,Female,First,Secondary,
+18,101,,FALSE,Male,Second,College,
+18,118,,FALSE,Female,First,College,
+18,19,,FALSE,Female,Second,,
+18,129,,FALSE,Male,First,Secondary,
+18,40,,FALSE,Male,First,College,
+18,42,,FALSE,Male,First,Some Secondary,
+18,13,,FALSE,Male,First,Secondary,
+18,23,,FALSE,Male,First,Secondary,
+18,203,,FALSE,Male,Third,Primary,
+18,462,,FALSE,Male,Fourth,Some Secondary,
+18,77,,FALSE,Male,First,Secondary,
+18,57,,FALSE,Male,Fourth,Some Secondary,
+18,26,,FALSE,Female,Second,Secondary,
+18,78,,FALSE,Female,First,Secondary,
+18,22,,FALSE,Female,Second,Primary,
+18,9,,FALSE,Female,Second,Some Secondary,
+18,63,,FALSE,Female,Third,College,
+18,85,,FALSE,Female,First,College,
+19,38,,FALSE,Male,Second,Some College,Hispanic
+19,95,,FALSE,Female,First,Some College,
+19,21,,FALSE,Male,First,Secondary,Hispanic
+19,48,,FALSE,Male,First,Some College,Hispanic
+19,35,,FALSE,Male,First,Primary,Hispanic
+19,98,,FALSE,Female,First,Some College,Hispanic
+19,11,,FALSE,Female,First,Graduate,Hispanic
+19,281,,FALSE,Female,First,Primary,Hispanic
+19,23,,FALSE,Male,Fourth,Some College,
+19,50,,FALSE,Male,Second,Secondary,Hispanic
+19,34,,FALSE,Male,First,Some Secondary,Hispanic
+19,130,,FALSE,Male,Second,Some College,Hispanic
+19,17,,FALSE,Female,Second,College,
+19,24,,FALSE,Male,Second,Some College,Hispanic
+19,57,,FALSE,Female,Second,College,
+19,38,,FALSE,Male,First,College,Hispanic
+19,21,,FALSE,Female,First,Some College,Hispanic
+19,79,,FALSE,Male,First,Graduate,
 19,680,,FALSE,Male,Second,,
-25,680,,FALSE,Male,Second,,
-30,107,,FALSE,Male,,,Hispanic
-25,95,,FALSE,Male,,,Hispanic
-22,40,,FALSE,Male,,,Hispanic
-25,282,,FALSE,Female,,,Hispanic
-22,273,,FALSE,Female,,,Hispanic
-30,436,,FALSE,Female,,,Hispanic
-22,33,,FALSE,Female,,,Hispanic
-25,33,,FALSE,Female,,,Hispanic
-30,126,,FALSE,Female,,,Hispanic
-30,641,,FALSE,Male,,,Hispanic
-22,431,,FALSE,Male,,,Hispanic
-25,550,,FALSE,Male,,,Hispanic
-25,151,,FALSE,Female,,,Hispanic
-22,110,,FALSE,Female,,,Hispanic
-30,239,,FALSE,Female,,,Hispanic
-30,238,,FALSE,Female,,,Hispanic
-25,151,,FALSE,Female,,,Hispanic
-22,111,,FALSE,Female,,,Hispanic
-30,210,,FALSE,Male,,,Non-Hispanic
-22,144,,FALSE,Male,,,Non-Hispanic
-25,0,,FALSE,Male,,,Non-Hispanic
-22,37,,FALSE,Male,,,Hispanic
-25,84,,FALSE,Male,,,Hispanic
-30,59,,FALSE,Male,,,Hispanic
-30,16,,FALSE,Male,,,Hispanic
-22,12,,FALSE,Male,,,Hispanic
-25,18,,FALSE,Male,,,Hispanic
+19,680,,FALSE,Female,Third,Primary,
+19,680,,FALSE,Female,First,Some College,
+19,680,,FALSE,Female,Second,Primary,
+19,680,,FALSE,Male,First,Some Secondary,
+19,680,,FALSE,Male,Second,College,
+19,680,,FALSE,Male,Second,Some Secondary,
+19,680,,FALSE,Male,First,Secondary,
+19,680,,FALSE,Male,Second,Secondary,
+19,250,,FALSE,Female,Second,Some College,
+19,680,,FALSE,Female,First,College,
+19,102,,FALSE,Female,Second,College,
+19,119,,FALSE,Female,First,Secondary,
+19,21,,FALSE,Male,First,Secondary,
+19,149,,FALSE,Female,Fourth,Some Secondary,
+19,209,,FALSE,Female,,College,
+19,126,,FALSE,Male,First,Some Secondary,
+19,59,,FALSE,Male,Third,Some Secondary,
+19,373,,FALSE,Male,First,College,
+19,130,,FALSE,Male,Third,Some Secondary,
+19,125,,FALSE,Male,Second,Some Secondary,
+19,49,,FALSE,Male,Second,College,
+19,15,,FALSE,Female,First,College,
+19,45,,FALSE,Female,Second,College,
+19,143,,FALSE,Male,,Secondary,
+19,10,,FALSE,Male,First,Secondary,
+19,8,,FALSE,Male,Second,Secondary,
+19,315,,FALSE,Male,Second,,
+19,209,,FALSE,Female,First,College,
+19,249,,FALSE,Male,First,Some Secondary,
+19,233,,FALSE,Male,Fourth,Some Secondary,
+19,194,,FALSE,Female,First,Secondary,
+19,218,,FALSE,Female,First,Primary,
+19,261,,FALSE,Female,Second,Secondary,
+19,43,,FALSE,Male,Second,College,
+19,31,,FALSE,Female,Third,College,
+19,56,,FALSE,Female,First,College,
+19,103,,FALSE,Female,First,College,
+19,612,,FALSE,Male,Second,Some Secondary,
+19,158,,FALSE,Female,First,Some Secondary,
+19,88,,FALSE,Female,Second,Secondary,
+19,14,,FALSE,Female,First,Secondary,
+19,56,,FALSE,Female,Third,College,
+19,31,,FALSE,Female,First,College,
+19,49,,FALSE,Male,First,College,
+19,51,,FALSE,Male,First,College,
+19,128,,FALSE,Male,First,Secondary,
+19,42,,FALSE,Male,First,Secondary,
+19,319,,FALSE,Female,Third,College,
+19,594,,FALSE,Female,First,College,
+19,242,,FALSE,Male,First,College,
+19,490,,FALSE,Male,First,College,
+19,52,,FALSE,Male,First,College,
+19,124,,FALSE,Female,,,
+19,127,,FALSE,Female,First,College,
+19,34,,FALSE,Male,Second,Secondary,
+19,14,,FALSE,Female,Second,,
+19,286,,FALSE,Male,First,College,
+19,49,,FALSE,Female,Second,College,
+19,44,,FALSE,Female,Second,College,
+19,50,,FALSE,Female,First,Secondary,
+19,38,,FALSE,Male,Fourth,College,
+19,205,,FALSE,Male,Second,College,
+19,56,,FALSE,Male,First,Some Secondary,
+19,90,,FALSE,Female,Third,Secondary,
+19,14,,FALSE,Male,First,Some Secondary,
+19,16,,FALSE,Male,First,Some Secondary,
+19,5,,FALSE,Male,First,College,
+19,14,,FALSE,Male,Third,College,
+19,25,,FALSE,Female,First,Secondary,
+19,214,,FALSE,Female,First,Secondary,
+19,281,,FALSE,Male,First,College,
+19,47,,FALSE,Male,Third,Primary,
+19,55,,FALSE,Male,,Primary,
+19,150,,FALSE,Female,Second,Some Secondary,
+19,147,,FALSE,Male,Third,Some Secondary,
+19,176,,FALSE,Female,First,College,
+19,196,,FALSE,Male,Fifth,Some Secondary,
+19,144,,FALSE,Female,First,Secondary,
+19,92,,FALSE,Female,First,Some Secondary,
+19,261,,FALSE,Female,Second,Secondary,
+19,70,,FALSE,Female,First,College,
+20,68,,FALSE,Male,Third,Some College,Hispanic
+20,73,,FALSE,Male,First,Some Secondary,Hispanic
+20,18,,FALSE,Male,Fourth,Some College,Hispanic
+20,193,,FALSE,Male,First,Some College,Hispanic
+20,680,,FALSE,Female,Third,Some Secondary,
+20,680,,FALSE,Female,Second,Some Secondary,
+20,680,,FALSE,Male,First,Some Secondary,
+20,680,,FALSE,Female,First,Some College,
+20,680,,FALSE,Female,First,Secondary,
+20,680,,FALSE,Female,First,Secondary,
+20,52,,FALSE,Male,Second,Some Secondary,
+20,30,,FALSE,Female,Second,College,
+20,199,,FALSE,Female,First,Secondary,
+20,137,,FALSE,Female,Fourth,College,
+20,61,,FALSE,Female,Third,Secondary,
+20,24,,FALSE,Female,First,Secondary,
+20,28,,FALSE,Male,Third,Secondary,
+20,71,,FALSE,Male,First,College,
+20,27,,FALSE,Male,Second,Secondary,
+20,16,,FALSE,Male,Second,Secondary,
+20,17,,FALSE,Male,Third,Primary,
+20,173,,FALSE,Female,Third,Some Secondary,
+20,439,,FALSE,Female,First,Some Secondary,
+20,110,,FALSE,Male,First,College,
+20,131,,FALSE,Female,First,College,
+20,202,,FALSE,Female,First,College,
+20,267,,FALSE,Female,Second,College,
+20,273,,FALSE,Female,First,Primary,
+20,81,,FALSE,Female,Second,Some Secondary,
+20,162,,FALSE,Male,First,College,
+20,77,,FALSE,Male,First,College,
+20,25,,FALSE,Male,First,College,
+20,56,,FALSE,Male,First,College,
+20,78,,FALSE,Male,First,College,
+20,37,,FALSE,Female,Fourth,Secondary,
+20,13,,FALSE,Male,Third,Secondary,
+20,11,,FALSE,Male,Second,College,
+20,21,,FALSE,Male,First,Secondary,
+20,483,,FALSE,Male,Second,,
+20,462,,FALSE,Female,Third,,
+20,60,,FALSE,Male,Third,Some Secondary,
+20,79,,FALSE,Male,First,Secondary,
+20,201,,FALSE,Male,Second,College,
+20,32,,FALSE,Male,First,Secondary,
+20,374,,FALSE,Male,Second,Secondary,
+20,289,,FALSE,Female,First,College,
+20,50,,FALSE,Male,First,College,
+20,552,,FALSE,Male,First,Some Secondary,
+20,279,,FALSE,Male,Fourth,Some Secondary,
+20,262,,FALSE,Male,First,College,
+20,179,,FALSE,Female,Third,College,
+20,43,,FALSE,Male,First,College,
+20,257,,FALSE,Male,First,Secondary,
+20,70,,FALSE,Male,First,College,
+20,75,,FALSE,Female,Second,Secondary,
+20,47,,FALSE,Female,Second,College,
+20,261,,FALSE,Male,First,Secondary,
+20,22,,FALSE,Female,Second,Some Secondary,
+20,46,,FALSE,Female,Third,College,
+20,39,,FALSE,Female,First,College,
+20,38,,FALSE,Male,Second,Secondary,
+20,31,,FALSE,Female,First,Secondary,
+20,102,,FALSE,Female,First,Some Secondary,
+20,47,,FALSE,Male,First,College,
+20,162,,FALSE,Male,Second,Secondary,
+20,242,,FALSE,Female,First,College,
+20,115,,FALSE,Female,Second,College,
+20,334,,FALSE,Male,First,College,
+20,108,,FALSE,Male,First,Secondary,
+20,13,,FALSE,Male,First,College,
+20,422,,FALSE,Female,First,College,
+20,491,,FALSE,Female,First,College,
+20,117,,FALSE,Female,First,College,
+20,327,,FALSE,Female,First,College,
+20,55,,FALSE,Male,Third,College,
+20,480,,FALSE,Female,Second,College,
+20,207,,FALSE,Male,First,College,
+20,62,,FALSE,Female,First,College,
+20,266,,FALSE,Female,First,College,
+20,171,,FALSE,Female,Second,College,
+20,29,,FALSE,Female,Second,College,
+20,61,,FALSE,Male,Second,College,
+20,154,,FALSE,Male,Second,College,
+20,194,,FALSE,Female,Third,College,
+20,447,,FALSE,Female,Fourth,Secondary,
+20,64,,FALSE,Male,First,Secondary,
+20,301,,FALSE,Male,First,College,
+20,168,,FALSE,Female,First,College,
+20,92,,FALSE,Female,Second,Some Secondary,
+20,304,,FALSE,Female,Third,Primary,
+20,191,,FALSE,Female,First,Primary,
+20,70,,FALSE,Male,Third,College,
+20,90,,FALSE,Female,Second,College,
+20,42,,FALSE,Female,Second,College,
+20,572,,FALSE,Female,Second,College,
+20,104,,FALSE,Female,Third,Some Secondary,
+20,167,,FALSE,Male,Second,,
+20,105,,FALSE,Female,Second,College,
+20,71,,FALSE,Female,Third,Secondary,
+20,86,,FALSE,Female,Second,Some Secondary,
+20,31,,FALSE,Male,Fifth,None,
+20,121,,FALSE,Male,Third,Primary,
+20,127,,FALSE,Male,Third,College,
+20,82,,FALSE,Male,Fifth,Some Secondary,
+20,32,,FALSE,Male,Second,Secondary,
+20,239,,FALSE,Female,First,Secondary,
+20,96,,FALSE,Male,Second,College,
+21,6,,FALSE,Male,First,Graduate,
+21,11,,FALSE,Female,Second,College,
+21,7,,FALSE,Male,Second,Some Secondary,Hispanic
+21,1,,FALSE,Male,Second,College,
+21,59,,FALSE,Female,First,College,
+21,14,,FALSE,Female,Third,Primary,Hispanic
+21,15,,FALSE,Male,Third,Secondary,Hispanic
+21,680,,FALSE,Male,Third,Some Secondary,
+21,286,,FALSE,Female,Fourth,College,
+21,480,,FALSE,Female,First,Secondary,
+21,300,,FALSE,Female,Third,Secondary,
+21,112,,FALSE,Female,First,Some Secondary,
+21,249,,FALSE,Male,Second,Some Secondary,
+21,117,,FALSE,Male,First,College,
+21,130,,FALSE,Male,Second,Secondary,
+21,208,,FALSE,Female,First,Secondary,
+21,59,,FALSE,Female,First,College,
+21,111,,FALSE,Male,First,College,
+21,138,,FALSE,Female,Second,Some Secondary,
+21,627,,FALSE,Female,First,Secondary,
+21,365,,FALSE,Male,Third,Some Secondary,
+21,173,,FALSE,Female,Second,Secondary,
+21,54,,FALSE,Male,First,College,
+21,60,,FALSE,Male,Third,Some Secondary,
+21,65,,FALSE,Male,Second,College,
+21,20,,FALSE,Male,Second,College,
+21,385,,FALSE,Male,First,College,
+21,304,,FALSE,Male,Third,Secondary,
+21,77,,FALSE,Male,First,Secondary,
+21,95,,FALSE,Male,First,Secondary,
+21,46,,FALSE,Male,First,College,
+21,99,,FALSE,Male,First,Secondary,
+21,85,,FALSE,Female,Second,Secondary,
+21,16,,FALSE,Female,Third,Secondary,
+21,345,,FALSE,Female,First,Secondary,
+21,136,,FALSE,Male,First,Secondary,
+21,354,,FALSE,Male,Second,College,
+21,680,,FALSE,Male,First,College,
+21,178,,FALSE,Male,First,College,
+21,201,,FALSE,Male,Second,College,
+21,114,,FALSE,Male,First,College,
+21,111,,FALSE,Female,First,Some Secondary,
+21,76,,FALSE,Male,First,Secondary,
+21,261,,FALSE,Female,First,Some Secondary,
+21,25,,FALSE,Male,First,Some Secondary,
+21,25,,FALSE,Male,Third,Secondary,
+21,277,,FALSE,Male,Fourth,Primary,
+21,220,,FALSE,Female,Third,Secondary,
+21,59,,FALSE,Female,First,College,
+21,17,,FALSE,Female,Second,Primary,
+21,37,,FALSE,Female,Fourth,Secondary,
+21,32,,FALSE,Female,Third,Some Secondary,
+21,13,,FALSE,Male,Second,College,
+21,23,,FALSE,Female,Third,,
+21,66,,FALSE,Male,Third,Some Secondary,
+21,72,,FALSE,Female,Second,Some Secondary,
+21,100,,FALSE,Male,Third,Secondary,
+21,529,,FALSE,Female,Fourth,Secondary,
+21,121,,FALSE,Female,Second,Some Secondary,
+21,566,,FALSE,Female,First,College,
+21,605,,FALSE,Male,First,College,
+21,27,,FALSE,Female,First,Secondary,
+21,395,,FALSE,Male,Second,College,
+21,204,,FALSE,Male,First,College,
+21,286,,FALSE,Male,First,College,
+21,215,,FALSE,Female,First,Some Secondary,
+21,131,,FALSE,Male,Second,College,
+21,46,,FALSE,Female,Fourth,Secondary,
+21,182,,FALSE,Female,First,College,
+21,263,,FALSE,Female,First,College,
+21,47,,FALSE,Male,Third,College,
+21,51,,FALSE,Female,First,College,
+21,212,,FALSE,Male,First,College,
+21,12,,FALSE,Male,First,Secondary,
+21,22,,FALSE,Male,First,Secondary,
+21,82,,FALSE,Female,Fourth,Some Secondary,
+21,180,,FALSE,Male,Second,College,
+21,94,,FALSE,Male,First,Some Secondary,
+21,9,,FALSE,Female,First,Some Secondary,
+21,132,,FALSE,Male,First,Secondary,
+21,492,,FALSE,Female,Third,Some Secondary,
+21,104,,FALSE,Male,Second,Secondary,
+21,44,,FALSE,Female,Second,College,
+21,238,,FALSE,Male,Second,,
 22,24,,FALSE,,,,
-25,60,,FALSE,,,,
-30,0,,FALSE,,,,
 22,140,,FALSE,,,,
-25,309,,FALSE,,,,
-30,0,,FALSE,,,,
-25,62,,FALSE,Female,,,Hispanic
-30,89,,FALSE,Female,,,Hispanic
+22,89,,FALSE,,,,
+22,251,,FALSE,,,,
+22,33,,FALSE,,,,
+22,42,,FALSE,,,,
+22,166,,FALSE,,,,
+22,41,,FALSE,,,,
+22,38,,FALSE,,,,
+22,7,,FALSE,,,,
+22,109,,FALSE,Female,Third,Some College,Hispanic
+22,165,,FALSE,Female,First,Some College,Hispanic
+22,72,,FALSE,Male,First,Some Secondary,Hispanic
+22,18,,FALSE,Female,Second,Primary,
+22,96,,FALSE,Female,First,Graduate,
+22,35,,FALSE,Male,First,Secondary,Hispanic
+22,42,,FALSE,Female,First,Some College,Hispanic
+22,21,,FALSE,Male,Second,Graduate,
+22,680,,FALSE,Female,Second,Some Secondary,
+22,149,,FALSE,Female,Third,College,
+22,222,,FALSE,Female,,College,
+22,123,,FALSE,Male,First,Some Secondary,
+22,280,,FALSE,Male,Second,Secondary,
+22,231,,FALSE,Male,Third,College,
+22,234,,FALSE,Male,Second,Primary,
+22,103,,FALSE,Male,Fourth,Some Secondary,
+22,38,,FALSE,Female,Second,Some Secondary,
+22,52,,FALSE,Male,Third,Secondary,
+22,487,,FALSE,Male,Third,None,
+22,339,,FALSE,Male,Fourth,Some Secondary,
+22,71,,FALSE,Female,Second,College,
+22,314,,FALSE,Male,Second,Some Secondary,
+22,492,,FALSE,Male,First,Secondary,
+22,246,,FALSE,Male,,Secondary,
+22,130,,FALSE,Male,Second,College,
+22,56,,FALSE,Male,,Some Secondary,
+22,146,,FALSE,Male,Second,Some Secondary,
+22,236,,FALSE,Male,Second,,
+22,116,,FALSE,Male,Second,Secondary,
+22,66,,FALSE,Male,First,College,
+22,680,,FALSE,Female,Second,Secondary,
+22,126,,FALSE,Male,First,Secondary,
+22,468,,FALSE,Male,First,College,
+22,349,,FALSE,Male,Second,College,
+22,234,,FALSE,Female,Second,College,
+22,279,,FALSE,Male,Third,Primary,
+22,26,,FALSE,Female,Third,College,
+22,83,,FALSE,Female,Second,Some Secondary,
+22,137,,FALSE,Female,First,Secondary,
+22,310,,FALSE,Female,First,College,
+22,12,,FALSE,Male,First,College,
+22,403,,FALSE,Female,Second,Secondary,
+22,89,,FALSE,Female,Second,,
+22,245,,FALSE,Female,,Some Secondary,
+22,15,,FALSE,Male,Third,Secondary,
+22,24,,FALSE,Female,Second,College,
+22,125,,FALSE,Male,First,Primary,
+22,250,,FALSE,Female,First,College,
+22,334,,FALSE,Female,Second,College,
+22,423,,FALSE,Female,First,College,
+22,297,,FALSE,Female,First,Secondary,
+22,367,,FALSE,Female,First,Secondary,
+22,311,,FALSE,Male,First,Secondary,
+22,125,,FALSE,Male,First,Some Secondary,
+22,337,,FALSE,Female,First,College,
+22,274,,FALSE,Female,Third,Some Secondary,
+22,58,,FALSE,Male,First,Some Secondary,
+22,24,,FALSE,Male,First,College,
+22,4,,FALSE,Male,First,College,
+22,177,,FALSE,Female,Second,College,
+22,267,,FALSE,Male,First,College,
+22,224,,FALSE,Male,First,College,
+22,182,,FALSE,Female,First,College,
+22,32,,FALSE,Female,Second,College,
+22,38,,FALSE,Female,Second,,
+22,162,,FALSE,Male,Third,College,
+22,482,,FALSE,Female,,Some Secondary,
+22,45,,FALSE,Female,Fourth,Some Secondary,
+22,145,,FALSE,Female,Third,Some Secondary,
+22,62,,FALSE,Female,Second,Secondary,
+22,353,,FALSE,Male,First,Secondary,
+22,195,,FALSE,Female,First,College,
+22,115,,FALSE,Male,Second,Secondary,
+22,32,,FALSE,Male,Second,College,
+22,365,,FALSE,Female,First,Some Secondary,
+22,344,,FALSE,Male,First,Some Secondary,
+22,410,,FALSE,Male,First,Secondary,
+22,202,,FALSE,Male,,Graduate,Hispanic
+22,62,,FALSE,Male,,Graduate,Hispanic
+22,40,,FALSE,Female,,Graduate,Hispanic
+22,79,,FALSE,Male,,Graduate,Hispanic
+22,82,,FALSE,Male,,Graduate,Hispanic
+22,300,,FALSE,Male,,College,Hispanic
+22,77,,FALSE,Male,,Secondary,Hispanic
+22,16,,FALSE,Female,,Graduate,Hispanic
+22,188,,FALSE,Female,,Graduate,Hispanic
+22,112,,FALSE,Male,,Graduate,Hispanic
+22,40,,FALSE,Male,,,Hispanic
+22,273,,FALSE,Female,,,Hispanic
+22,33,,FALSE,Female,,,Hispanic
+22,431,,FALSE,Male,,,Hispanic
+22,110,,FALSE,Female,,,Hispanic
+22,111,,FALSE,Female,,,Hispanic
+22,144,,FALSE,Male,,,Non-Hispanic
+22,37,,FALSE,Male,,,Hispanic
+22,12,,FALSE,Male,,,Hispanic
 22,39,,FALSE,Female,,,Hispanic
 22,34,,FALSE,Female,,,Hispanic
-25,175,,FALSE,Female,,,Hispanic
-30,462,,FALSE,Female,,,Hispanic
 22,49,,FALSE,Female,,,Hispanic
-30,337,,FALSE,Female,,,Hispanic
-25,203,,FALSE,Female,,,Hispanic
 22,309,,FALSE,Male,,,Hispanic
-25,286,,FALSE,Male,,,Hispanic
-30,505,,FALSE,Male,,,Hispanic
 22,238,,FALSE,Female,,,Hispanic
-25,275,,FALSE,Female,,,Hispanic
-30,290,,FALSE,Female,,,Hispanic
-30,310,,FALSE,Female,,,Hispanic
 22,62,,FALSE,Female,,,Hispanic
-25,182,,FALSE,Female,,,Hispanic
-25,42,,FALSE,Male,,,Hispanic
 22,5,,FALSE,Male,,,Hispanic
-30,57,,FALSE,Male,,,Hispanic
-25,106,,FALSE,Male,,,Hispanic
 22,39,,FALSE,Male,,,Hispanic
-30,80,,FALSE,Male,,,Hispanic
 22,40,,FALSE,Female,,,Hispanic
-30,131,,FALSE,Female,,,Hispanic
-25,65,,FALSE,Female,,,Hispanic
-30,76,,FALSE,Female,,,Hispanic
-25,60,,FALSE,Female,,,Hispanic
 22,9,,FALSE,Female,,,Hispanic
-25,25,,FALSE,Female,,,Hispanic
-30,121,,FALSE,Female,,,Hispanic
 22,11,,FALSE,Female,,,Hispanic
-25,120,,FALSE,Male,,,Hispanic
-30,178,,FALSE,Male,,,Hispanic
 22,56,,FALSE,Male,,,Hispanic
-25,14,,FALSE,Female,,,Hispanic
-30,19,,FALSE,Female,,,Hispanic
 22,12,,FALSE,Female,,,Hispanic
-25,95,,FALSE,Female,,,Hispanic
-30,112,,FALSE,Female,,,Hispanic
 22,46,,FALSE,Female,,,Hispanic
-30,0,,FALSE,,,,
-22,89,,FALSE,,,,
-25,0,,FALSE,,,,
-30,31,,FALSE,Male,,,Hispanic
 22,41,,FALSE,Male,,,Hispanic
-25,34,,FALSE,Male,,,Hispanic
-25,74,,FALSE,Male,,,Hispanic
 22,74,,FALSE,Male,,,Hispanic
-30,53,,FALSE,Male,,,Hispanic
-25,57,,FALSE,Male,,,Hispanic
-30,125,,FALSE,Male,,,Hispanic
 22,47,,FALSE,Male,,,Hispanic
-25,21,,FALSE,Female,,,Hispanic
-30,47,,FALSE,Female,,,Hispanic
 22,18,,FALSE,Female,,,Hispanic
-25,28,,FALSE,Male,,,Hispanic
 22,25,,FALSE,Male,,,Hispanic
-30,38,,FALSE,Male,,,Hispanic
-30,0,,FALSE,,,,
-22,251,,FALSE,,,,
-25,0,,FALSE,,,,
-30,30,,FALSE,Female,,,Non-Hispanic
-25,126,,FALSE,Female,,,Non-Hispanic
 22,25,,FALSE,Female,,,Non-Hispanic
-30,575,,FALSE,Male,,,Hispanic
-25,365,,FALSE,Male,,,Hispanic
 22,282,,FALSE,Male,,,Hispanic
 22,38,,FALSE,Male,,,Hispanic
-30,199,,FALSE,Male,,,Hispanic
-25,93,,FALSE,Male,,,Hispanic
-30,61,,FALSE,Female,,,Hispanic
 22,56,,FALSE,Female,,,Hispanic
-25,53,,FALSE,Female,,,Hispanic
 22,32,,FALSE,Male,,,Hispanic
-30,166,,FALSE,Male,,,Hispanic
-25,171,,FALSE,Male,,,Hispanic
-22,33,,FALSE,,,,
-25,0,,FALSE,,,,
-30,0,,FALSE,,,,
-30,0,,FALSE,,,,
-25,179,,FALSE,,,,
-22,42,,FALSE,,,,
-30,0,,FALSE,,,,
-25,136,,FALSE,,,,
-22,166,,FALSE,,,,
-25,0,,FALSE,Female,,,Non-Hispanic
 22,85,,FALSE,Female,,,Non-Hispanic
-30,241,,FALSE,Female,,,Non-Hispanic
-30,68,,FALSE,Female,,,Hispanic
 22,18,,FALSE,Female,,,Hispanic
-25,37,,FALSE,Female,,,Hispanic
-30,162,,FALSE,Female,,,Hispanic
-25,73,,FALSE,Female,,,Hispanic
 22,10,,FALSE,Female,,,Hispanic
 22,140,,FALSE,Female,,,Hispanic
-25,275,,FALSE,Female,,,Hispanic
-30,391,,FALSE,Female,,,Hispanic
-30,60,,FALSE,Female,,,Hispanic
-25,33,,FALSE,Female,,,Hispanic
 22,8,,FALSE,Female,,,Hispanic
-30,33,,FALSE,Male,,,Hispanic
-25,31,,FALSE,Male,,,Hispanic
 22,17,,FALSE,Male,,,Hispanic
 22,16,,FALSE,Female,,,Hispanic
-30,156,,FALSE,Female,,,Hispanic
-25,46,,FALSE,Female,,,Hispanic
-25,0,,FALSE,Male,,,Hispanic
-30,576,,FALSE,Male,,,Hispanic
 22,226,,FALSE,Male,,,Hispanic
 22,112,,FALSE,Male,,,Hispanic
-30,281,,FALSE,Male,,,Hispanic
-25,191,,FALSE,Male,,,Hispanic
 22,32,,FALSE,Female,,,Hispanic
-25,77,,FALSE,Female,,,Hispanic
-30,0,,FALSE,Female,,,Hispanic
 22,21,,FALSE,Male,,,Non-Hispanic
-25,183,,FALSE,Male,,,Non-Hispanic
-30,253,,FALSE,Male,,,Non-Hispanic
-22,41,,FALSE,,,,
+23,116,,FALSE,Female,First,Some College,
+23,9,,FALSE,Female,Second,Graduate,Hispanic
+23,54,,FALSE,Male,Third,Secondary,Hispanic
+23,415,,FALSE,Male,Second,Primary,Hispanic
+23,22,,FALSE,Male,Second,Secondary,Hispanic
+23,58,,FALSE,Male,Third,Graduate,
+23,0,,FALSE,Male,First,College,
+23,35,,FALSE,Female,First,Graduate,
+23,98,,FALSE,Female,Fourth,Some Secondary,
+23,60,,FALSE,Female,Second,Some Secondary,
+23,78,,FALSE,Female,,Primary,
+23,175,,FALSE,Male,Third,Secondary,
+23,374,,FALSE,Male,First,Some Secondary,
+23,279,,FALSE,Male,First,College,
+23,289,,FALSE,Male,Second,Secondary,
+23,144,,FALSE,Male,First,Secondary,
+23,112,,FALSE,Male,First,Secondary,
+23,208,,FALSE,Male,First,Some Secondary,
+23,198,,FALSE,Male,First,College,
+23,305,,FALSE,Female,First,College,
+23,9,,FALSE,Male,First,Secondary,
+23,48,,FALSE,Male,Third,College,
+23,323,,FALSE,Female,First,Secondary,
+23,375,,FALSE,Female,Second,Some Secondary,
+23,359,,FALSE,Female,Second,College,
+23,35,,FALSE,Female,First,Some Secondary,
+23,60,,FALSE,Female,First,Secondary,
+23,186,,FALSE,Male,Third,Secondary,
+23,100,,FALSE,Male,Second,Some Secondary,
+23,72,,FALSE,Female,Third,College,
+23,64,,FALSE,Female,Third,Secondary,
+23,252,,FALSE,Male,Second,Some Secondary,
+23,251,,FALSE,Male,Second,College,
+23,326,,FALSE,Male,First,Secondary,
+23,68,,FALSE,Female,Third,Primary,
+23,91,,FALSE,Male,First,College,
+23,83,,FALSE,Female,First,College,
+23,374,,FALSE,Female,First,College,
+23,11,,FALSE,Male,Second,Some Secondary,
+23,425,,FALSE,Female,Fourth,Some Secondary,
+23,43,,FALSE,Male,,Secondary,
+23,577,,FALSE,Female,First,Secondary,
+23,580,,FALSE,Female,,Secondary,
+23,338,,FALSE,Female,Third,Some Secondary,
+23,208,,FALSE,Female,Third,Secondary,
+23,38,,FALSE,Female,Second,Secondary,
+23,27,,FALSE,Male,Third,Some Secondary,
+23,36,,FALSE,Male,Second,College,
+23,596,,FALSE,Male,First,Secondary,
+23,182,,FALSE,Male,First,,
+23,121,,FALSE,Female,First,Secondary,
+23,113,,FALSE,Female,,Primary,
+23,166,,FALSE,Female,Second,College,
+23,136,,FALSE,Male,Second,College,
+23,81,,FALSE,Female,First,Some Secondary,
+23,151,,FALSE,Female,First,Secondary,
+23,401,,FALSE,Female,Second,Secondary,
+23,69,,FALSE,Male,First,College,
+23,230,,FALSE,Female,Fourth,Primary,
+23,448,,FALSE,Male,Fourth,Secondary,
+23,101,,FALSE,Female,First,College,
+23,181,,FALSE,Male,Second,Some Secondary,
+23,229,,FALSE,Male,First,Secondary,
+23,106,,FALSE,Female,Second,Primary,
+23,375,,FALSE,Male,First,Some Secondary,
+23,287,,FALSE,Male,First,College,
+23,293,,FALSE,Male,Third,Secondary,
+23,353,,FALSE,Male,First,College,
+23,105,,FALSE,Female,First,Some Secondary,
+23,71,,FALSE,Male,Second,College,
+23,380,,FALSE,Female,Second,College,
+23,26,,FALSE,Male,First,College,
+23,27,,FALSE,Female,Third,,
+23,111,,FALSE,Female,Second,College,
+23,31,,FALSE,Female,Fourth,Some Secondary,
+23,117,,FALSE,Female,Second,Secondary,
+23,183,,FALSE,Female,Third,College,
+23,81,,FALSE,Female,Third,Some Secondary,
+23,148,,FALSE,Female,Third,,
+23,52,,FALSE,Female,Second,College,
+23,180,,FALSE,Female,Second,Secondary,
+23,137,,FALSE,Female,First,College,
+23,333,,FALSE,Male,Third,Secondary,
+23,131,,FALSE,Female,Third,Primary,
+23,152,,FALSE,Female,First,Primary,
+23,204,,FALSE,Male,Second,College,
+23,53,,FALSE,Female,Third,Some Secondary,
+23,268,,FALSE,Male,Second,College,
+23,335,,FALSE,Female,First,Some Secondary,
+23,116,,FALSE,Female,Third,Primary,
+23,330,,FALSE,Male,First,Some Secondary,
+24,11,,FALSE,Female,First,Graduate,
+24,56,,FALSE,Male,First,Graduate,
+24,12,,FALSE,Female,First,Some Graduate,
+24,189,,FALSE,Male,First,Secondary,Hispanic
+24,172,,FALSE,Male,Third,Secondary,Hispanic
+24,316,,FALSE,Female,Second,Some Graduate,Hispanic
+24,263,,FALSE,Male,Fourth,Some Secondary,Hispanic
+24,85,,FALSE,Male,First,Some College,Hispanic
+24,37,,FALSE,Male,First,Secondary,Hispanic
+24,94,,FALSE,Female,First,Some College,
+24,195,,FALSE,Male,Second,Graduate,
+24,32,,FALSE,Female,First,College,
+24,78,,FALSE,Male,First,Some Secondary,Hispanic
+24,368,,FALSE,Female,First,Some College,Hispanic
+24,151,,FALSE,Male,First,Primary,Hispanic
+24,268,,FALSE,Female,Second,College,Hispanic
+24,87,,FALSE,Male,Second,Some Graduate,Hispanic
+24,100,,FALSE,Female,First,Some Secondary,Hispanic
+24,159,,FALSE,Male,First,Some Secondary,Hispanic
+24,181,,FALSE,Female,Third,Some Secondary,Hispanic
+24,23,,FALSE,Male,First,Secondary,
+24,103,,FALSE,Female,First,Some Secondary,Hispanic
+24,160,,FALSE,Male,Third,Some Secondary,Hispanic
+24,103,,FALSE,Male,First,College,
+24,409,,FALSE,Male,Second,College,Hispanic
+24,144,,FALSE,Male,First,College,Hispanic
+24,360,,FALSE,Female,Second,Some College,Hispanic
+24,107,,FALSE,Male,First,Secondary,Hispanic
+24,118,,FALSE,Male,Second,College,
+24,77,,FALSE,Female,First,Some College,
+24,69,,FALSE,Female,First,Secondary,Hispanic
+24,93,,FALSE,Female,Second,Some Graduate,Hispanic
+24,95,,FALSE,Male,Fourth,Some Secondary,Hispanic
+24,7,,FALSE,Female,First,Some College,Hispanic
+24,40,,FALSE,Male,Second,Some Secondary,Hispanic
+24,518,,FALSE,Female,Fourth,Some Secondary,Hispanic
+24,122,,FALSE,Female,Third,Secondary,
+24,680,,FALSE,Male,Third,Secondary,
+24,680,,FALSE,Female,First,Some Secondary,
+24,237,,FALSE,Female,First,Some College,
+24,680,,FALSE,Female,Second,Primary,
+24,273,,FALSE,Male,First,Some Secondary,
+24,680,,FALSE,Male,Third,Secondary,
+24,512,,FALSE,Male,Second,Some Secondary,
+24,362,,FALSE,Female,First,Some College,
+24,143,,FALSE,Male,First,Secondary,
+24,283,,FALSE,Male,Second,Secondary,
+24,680,,FALSE,Male,Second,Secondary,
+24,346,,FALSE,Female,First,Secondary,
+24,680,,FALSE,Male,Second,Primary,
+24,680,,FALSE,Female,First,College,
+24,680,,FALSE,Female,Second,Primary,
+24,680,,FALSE,Female,Second,Primary,
+24,680,,FALSE,Female,First,College,
+24,41,,FALSE,Female,First,Secondary,
+24,66,,FALSE,Female,First,Secondary,
+24,5,,FALSE,Female,Second,Some Secondary,
+24,411,,FALSE,Female,Second,Secondary,
+24,86,,FALSE,Female,Third,Secondary,
+24,184,,FALSE,Female,Second,Primary,
+24,304,,FALSE,Female,Second,Some Secondary,
+24,113,,FALSE,Male,First,Primary,
+24,3,,FALSE,Male,Second,Some Secondary,
+24,295,,FALSE,Male,First,Secondary,
+24,287,,FALSE,Female,First,Some Secondary,
+24,299,,FALSE,Male,First,,
+24,181,,FALSE,Male,,Some Secondary,
+24,401,,FALSE,Male,First,Primary,
+24,138,,FALSE,Female,First,Secondary,
+24,211,,FALSE,Female,Second,College,
+24,133,,FALSE,Female,Third,College,
+24,44,,FALSE,Male,First,Some Secondary,
+24,197,,FALSE,Male,First,Secondary,
+24,628,,FALSE,Female,,,
+24,183,,FALSE,Female,Fourth,Secondary,
+24,346,,FALSE,Male,First,College,
+24,116,,FALSE,Male,First,Secondary,
+24,253,,FALSE,Male,First,Secondary,
+24,267,,FALSE,Male,Third,College,
+24,52,,FALSE,Male,Second,Primary,
+24,62,,FALSE,Female,First,Secondary,
+24,10,,FALSE,Male,Fifth,College,
+24,189,,FALSE,Male,First,College,
+24,179,,FALSE,Female,Second,College,
+24,333,,FALSE,Female,First,Some Secondary,
+24,84,,FALSE,Female,Second,Secondary,
+24,156,,FALSE,Male,First,Secondary,
+24,342,,FALSE,Female,First,Secondary,
+24,114,,FALSE,Male,Second,College,
+24,167,,FALSE,Female,First,College,
+24,221,,FALSE,Female,Third,Secondary,
+24,339,,FALSE,Male,First,College,
+24,444,,FALSE,Female,First,College,
+24,124,,FALSE,Male,Second,Some Secondary,
+24,309,,FALSE,Male,First,Some Secondary,
+24,202,,FALSE,Female,Fifth,Secondary,
+24,605,,FALSE,Male,First,Secondary,
+24,527,,FALSE,Female,First,Some Secondary,
+24,567,,FALSE,Male,Second,Secondary,
+24,422,,FALSE,Female,First,College,
+24,680,,FALSE,Female,First,Secondary,
+24,612,,FALSE,Male,Fourth,Some Secondary,
+24,443,,FALSE,Female,First,College,
+24,374,,FALSE,Female,First,College,
+24,373,,FALSE,Male,First,College,
+24,419,,FALSE,Female,Second,College,
+24,144,,FALSE,Male,Third,College,
+24,53,,FALSE,Male,Third,Some Secondary,
+24,53,,FALSE,Male,Second,College,
+24,421,,FALSE,Female,Third,Secondary,
+24,391,,FALSE,Male,First,Some Secondary,
+24,375,,FALSE,Male,First,Secondary,
+24,278,,FALSE,Female,First,Secondary,
+24,202,,FALSE,Female,First,College,
+24,216,,FALSE,Male,First,College,
+24,129,,FALSE,Male,First,Some Secondary,
+24,338,,FALSE,Female,Fourth,Secondary,
+24,168,,FALSE,Female,Second,College,
+24,589,,FALSE,Male,Third,Some Secondary,
+24,484,,FALSE,Male,,College,
+24,130,,FALSE,Female,First,Some Secondary,
+24,161,,FALSE,Female,Third,Primary,
+24,37,,FALSE,Female,Fifth,Some Secondary,
+24,302,,FALSE,Male,First,College,
+24,239,,FALSE,Male,Second,Secondary,
+24,395,,FALSE,Female,Second,Secondary,
+25,60,,FALSE,,,,
+25,309,,FALSE,,,,
 25,0,,FALSE,,,,
-30,0,,FALSE,,,,
 25,0,,FALSE,,,,
-22,38,,FALSE,,,,
-30,0,,FALSE,,,,
-22,7,,FALSE,,,,
 25,0,,FALSE,,,,
-30,0,,FALSE,,,,
-29,81,,TRUE,Male,Third,College,Hispanic
-26,36,,TRUE,Male,Fourth,College,Hispanic
-28,17,,TRUE,Female,First,College,
-24,32,,TRUE,Female,First,College,
-25,210,,TRUE,Male,First,College,
-26,6,,TRUE,Female,First,College,
-24,268,,TRUE,Female,Second,College,Hispanic
-18,23,,TRUE,Male,First,College,Hispanic
-25,63,,TRUE,Female,Second,College,Hispanic
-30,248,,TRUE,Female,Second,College,Hispanic
-21,11,,TRUE,Female,Second,College,
-29,481,,TRUE,Female,First,College,Hispanic
-17,51,,TRUE,Male,First,College,
-28,111,,TRUE,Male,First,College,
-24,103,,TRUE,Male,First,College,
-30,220,,TRUE,Female,Second,College,
-29,530,,TRUE,Male,Second,College,Hispanic
-24,409,,TRUE,Male,Second,College,Hispanic
-24,144,,TRUE,Male,First,College,Hispanic
-25,97,,TRUE,Female,Second,College,Hispanic
-19,17,,TRUE,Female,Second,College,
-28,664,,TRUE,Female,Second,College,
-25,83,,TRUE,Female,First,College,
-25,53,,TRUE,Female,Second,College,
-19,57,,TRUE,Female,Second,College,
-19,38,,TRUE,Male,First,College,Hispanic
-30,215,,TRUE,Male,Second,College,
-24,118,,TRUE,Male,Second,College,
-21,1,,TRUE,Male,Second,College,
-26,30,,TRUE,Male,Second,College,Hispanic
-25,16,,TRUE,Female,First,College,Hispanic
-26,54,,TRUE,Female,Fifth,College,Hispanic
-21,59,,TRUE,Female,First,College,
-25,84,,TRUE,Female,First,College,
-23,0,,TRUE,Male,First,College,
-22,26,,TRUE,Female,Third,College,
-21,566,,TRUE,Female,First,College,
-21,286,,TRUE,Male,First,College,
-22,32,,TRUE,Female,Second,College,
-22,195,,TRUE,Female,First,College,
-22,32,,TRUE,Male,Second,College,
-21,286,,TRUE,Female,Fourth,College,
-21,111,,TRUE,Male,First,College,
-20,11,,TRUE,Male,Second,College,
-22,468,,TRUE,Male,First,College,
-20,47,,TRUE,Female,Second,College,
-21,59,,TRUE,Female,First,College,
-20,46,,TRUE,Female,Third,College,
-20,47,,TRUE,Male,First,College,
-20,13,,TRUE,Male,First,College,
-21,395,,TRUE,Male,Second,College,
-30,549,,TRUE,Male,First,College,
-30,534,,TRUE,Male,Second,College,
-27,470,,TRUE,Male,First,College,
-24,374,,TRUE,Female,First,College,
-27,381,,TRUE,Female,Second,College,
-25,244,,TRUE,Female,First,College,
-20,301,,TRUE,Male,First,College,
-24,373,,TRUE,Male,First,College,
-19,490,,TRUE,Male,First,College,
-25,291,,TRUE,Male,Second,College,
-22,4,,TRUE,Male,First,College,
-16,10,,TRUE,Male,First,College,
-23,353,,TRUE,Male,First,College,
-19,286,,TRUE,Male,First,College,
-27,148,,TRUE,Male,First,College,
-18,40,,TRUE,Male,First,College,
-16,12,,TRUE,Male,Second,College,
-19,5,,TRUE,Male,First,College,
-16,77,,TRUE,Male,First,College,
-17,32,,TRUE,Male,First,College,
-17,140,,TRUE,Male,First,College,
-17,30,,TRUE,Male,First,College,
-18,63,,TRUE,Female,Third,College,
-18,85,,TRUE,Female,First,College,
-19,70,,TRUE,Female,First,College,
-19,102,,TRUE,Female,Second,College,
-18,21,,TRUE,Female,First,College,
-17,61,,TRUE,Female,First,College,
-20,30,,TRUE,Female,Second,College,
-18,9,,TRUE,Female,Second,College,
-29,206,,TRUE,Male,First,College,
-29,410,,TRUE,Female,First,College,
-29,16,,TRUE,Female,First,College,
-29,140,,TRUE,Female,Second,College,
-29,280,,TRUE,Male,Second,College,
-29,490,,TRUE,Male,Second,College,
-30,241,,TRUE,Male,First,College,
-29,329,,TRUE,Female,Third,College,
-29,616,,TRUE,Female,Second,College,
-30,479,,TRUE,Male,First,College,
-29,413,,TRUE,Male,Second,College,
-28,520,,TRUE,Male,First,College,
-29,558,,TRUE,Male,First,College,
-29,552,,TRUE,Male,Second,College,
-29,642,,TRUE,Female,First,College,
-29,610,,TRUE,Female,First,College,
-29,599,,TRUE,Female,Fourth,College,
-29,608,,TRUE,Female,Third,College,
-20,179,,TRUE,Female,Third,College,
-20,43,,TRUE,Male,First,College,
-22,349,,TRUE,Male,Second,College,
-22,234,,TRUE,Female,Second,College,
-20,70,,TRUE,Male,First,College,
-16,101,,TRUE,Female,Third,College,
-16,47,,TRUE,Male,First,College,
-17,60,,TRUE,Male,Third,College,
-18,24,,TRUE,Female,Second,College,
-18,21,,TRUE,Female,First,College,
-17,96,,TRUE,Male,Second,College,
-17,75,,TRUE,Male,Second,College,
-19,43,,TRUE,Male,Second,College,
-19,31,,TRUE,Female,Third,College,
-16,11,,TRUE,Male,Second,College,
-19,56,,TRUE,Female,First,College,
-19,103,,TRUE,Female,First,College,
-17,9,,TRUE,Female,First,College,
-18,36,,TRUE,Female,Second,College,
-18,20,,TRUE,Female,First,College,
-19,56,,TRUE,Female,Third,College,
-19,31,,TRUE,Female,First,College,
-17,31,,TRUE,Female,Second,College,
-19,49,,TRUE,Male,First,College,
-25,541,,TRUE,Male,First,College,
-24,346,,TRUE,Male,First,College,
-25,271,,TRUE,Male,First,College,
-24,267,,TRUE,Male,Third,College,
-27,458,,TRUE,Female,Second,College,
-28,608,,TRUE,Male,First,College,
-28,541,,TRUE,Male,Second,College,
-26,190,,TRUE,Male,First,College,
-28,495,,TRUE,Male,First,College,
-16,594,,TRUE,Female,Second,College,
-27,463,,TRUE,Male,Third,College,
-16,80,,TRUE,Male,First,College,
-25,209,,TRUE,Female,First,College,
-23,91,,TRUE,Male,First,College,
-22,310,,TRUE,Female,First,College,
-16,7,,TRUE,Male,Third,College,
-16,12,,TRUE,Male,First,College,
-19,51,,TRUE,Male,First,College,
-20,39,,TRUE,Female,First,College,
-21,13,,TRUE,Male,Second,College,
-22,12,,TRUE,Male,First,College,
-16,9,,TRUE,Female,First,College,
-26,633,,TRUE,Female,Second,College,
-26,463,,TRUE,Female,Second,College,
-27,40,,TRUE,Female,Second,College,
-28,486,,TRUE,Female,Third,College,
-28,537,,TRUE,Male,First,College,
-28,572,,TRUE,Female,First,College,
-27,411,,TRUE,Female,Second,College,
-28,420,,TRUE,Female,Second,College,
-28,620,,TRUE,Female,Fourth,College,
-27,622,,TRUE,Male,First,College,
-26,511,,TRUE,Male,First,College,
-27,527,,TRUE,Female,First,College,
-26,13,,TRUE,Male,First,College,
-23,83,,TRUE,Female,First,College,
-23,374,,TRUE,Female,First,College,
-25,41,,TRUE,Male,Second,College,
-24,10,,TRUE,Male,Fifth,College,
-24,189,,TRUE,Male,First,College,
-24,179,,TRUE,Female,Second,College,
-29,643,,TRUE,Female,First,College,
-23,36,,TRUE,Male,Second,College,
-25,236,,TRUE,Female,Second,College,
-23,166,,TRUE,Female,Second,College,
-24,114,,TRUE,Male,Second,College,
-22,24,,TRUE,Female,Second,College,
-23,136,,TRUE,Male,Second,College,
-25,80,,TRUE,Female,First,College,
-24,167,,TRUE,Female,First,College,
-25,211,,TRUE,Female,Second,College,
-20,242,,TRUE,Female,First,College,
-17,114,,TRUE,Female,First,College,
-20,115,,TRUE,Female,Second,College,
-16,180,,TRUE,Female,Second,College,
-26,3,,TRUE,Male,First,College,
-28,610,,TRUE,Male,Second,College,
-27,527,,TRUE,Male,Second,College,
-26,423,,TRUE,Female,First,College,
-27,447,,TRUE,Female,First,College,
-20,334,,TRUE,Male,First,College,
-19,319,,TRUE,Female,Third,College,
-24,339,,TRUE,Male,First,College,
-22,250,,TRUE,Female,First,College,
-22,334,,TRUE,Female,Second,College,
-29,307,,TRUE,Male,First,College,
-29,586,,TRUE,Male,First,College,
-22,423,,TRUE,Female,First,College,
-24,444,,TRUE,Female,First,College,
-29,562,,TRUE,Female,First,College,
-28,502,,TRUE,Female,First,College,
-23,69,,TRUE,Male,First,College,
-26,679,,TRUE,Female,Second,College,
-28,680,,TRUE,Female,Second,College,
-21,605,,TRUE,Male,First,College,
-27,358,,TRUE,Male,Second,College,
-23,101,,TRUE,Female,First,College,
-24,422,,TRUE,Female,First,College,
-30,588,,TRUE,Female,Second,College,
-26,567,,TRUE,Male,First,College,
-29,538,,TRUE,Female,First,College,
-26,29,,TRUE,Female,First,College,
-19,594,,TRUE,Female,First,College,
-24,443,,TRUE,Female,First,College,
-26,477,,TRUE,Male,First,College,
-23,287,,TRUE,Male,First,College,
-27,437,,TRUE,Male,Third,College,
-28,222,,TRUE,Female,Third,College,
-27,609,,TRUE,Male,First,College,
-27,523,,TRUE,Male,First,College,
-20,422,,TRUE,Female,First,College,
-20,491,,TRUE,Female,First,College,
-19,242,,TRUE,Male,First,College,
-20,117,,TRUE,Female,First,College,
-20,327,,TRUE,Female,First,College,
-20,55,,TRUE,Male,Third,College,
-20,480,,TRUE,Female,Second,College,
-20,207,,TRUE,Male,First,College,
-20,62,,TRUE,Female,First,College,
-20,266,,TRUE,Female,First,College,
-20,171,,TRUE,Female,Second,College,
-20,29,,TRUE,Female,Second,College,
-20,61,,TRUE,Male,Second,College,
-20,154,,TRUE,Male,Second,College,
-20,194,,TRUE,Female,Third,College,
-21,204,,TRUE,Male,First,College,
-29,500,,TRUE,Male,First,College,
-28,646,,TRUE,Female,First,College,
-28,222,,TRUE,Male,Second,College,
-28,287,,TRUE,Female,Second,College,
-28,621,,TRUE,Female,Second,College,
-28,341,,TRUE,Female,First,College,
-28,327,,TRUE,Male,,College,
-28,604,,TRUE,Male,Second,College,
-20,168,,TRUE,Female,First,College,
-22,337,,TRUE,Female,First,College,
-22,24,,TRUE,Male,First,College,
-19,52,,TRUE,Male,First,College,
-20,70,,TRUE,Male,Third,College,
-18,101,,TRUE,Male,Second,College,
-18,118,,TRUE,Female,First,College,
-19,127,,TRUE,Female,First,College,
-20,90,,TRUE,Female,Second,College,
-20,42,,TRUE,Female,Second,College,
-22,177,,TRUE,Female,Second,College,
-21,131,,TRUE,Male,Second,College,
-22,267,,TRUE,Male,First,College,
-23,71,,TRUE,Male,Second,College,
-23,380,,TRUE,Female,Second,College,
-24,419,,TRUE,Female,Second,College,
-25,313,,TRUE,Female,First,College,
-25,190,,TRUE,Male,First,College,
-27,391,,TRUE,Female,First,College,
-27,488,,TRUE,Female,First,College,
-28,132,,TRUE,Female,Second,College,
-27,534,,TRUE,Male,First,College,
-20,572,,TRUE,Female,Second,College,
-23,26,,TRUE,Male,First,College,
-29,668,,TRUE,Female,First,College,
-28,285,,TRUE,Female,First,College,
-25,353,,TRUE,Male,Third,College,
-17,7,,TRUE,Male,First,College,
-25,335,,TRUE,Male,Second,College,
-22,224,,TRUE,Male,First,College,
-22,182,,TRUE,Female,First,College,
-25,609,,TRUE,Female,Second,College,
-21,182,,TRUE,Female,First,College,
-28,143,,TRUE,Male,First,College,
-30,467,,TRUE,Male,Second,College,
-24,144,,TRUE,Male,Third,College,
-30,628,,TRUE,Male,Second,College,
-19,49,,TRUE,Female,Second,College,
-23,111,,TRUE,Female,Second,College,
-28,253,,TRUE,Male,Second,College,
-17,31,,TRUE,Female,Second,College,
-28,632,,TRUE,Female,First,College,
-19,44,,TRUE,Female,Second,College,
-24,53,,TRUE,Male,Second,College,
-29,28,,TRUE,Male,First,College,
-29,317,,TRUE,Male,First,College,
-30,87,,TRUE,Male,,College,
-17,27,,TRUE,Female,Second,College,
-30,617,,TRUE,Female,First,College,
-19,38,,TRUE,Male,Fourth,College,
-21,263,,TRUE,Female,First,College,
-23,183,,TRUE,Female,Third,College,
-28,523,,TRUE,Female,Second,College,
-27,345,,TRUE,Male,First,College,
-21,47,,TRUE,Male,Third,College,
-30,359,,TRUE,Female,Third,College,
-26,243,,TRUE,Male,Fourth,College,
-16,14,,TRUE,Male,Second,College,
-19,205,,TRUE,Male,Second,College,
-29,239,,TRUE,Female,Second,College,
-23,52,,TRUE,Female,Second,College,
-17,40,,TRUE,Male,Second,College,
-25,189,,TRUE,Male,Second,College,
-25,354,,TRUE,Male,First,College,
-20,105,,TRUE,Female,Second,College,
-26,318,,TRUE,Female,Second,College,
-16,53,,TRUE,Male,First,College,
-17,18,,TRUE,Female,First,College,
-25,189,,TRUE,Female,First,College,
-23,137,,TRUE,Female,First,College,
-17,15,,TRUE,Male,Third,College,
-21,51,,TRUE,Female,First,College,
-21,212,,TRUE,Male,First,College,
-22,162,,TRUE,Male,Third,College,
-24,202,,TRUE,Female,First,College,
-24,216,,TRUE,Male,First,College,
-25,529,,TRUE,Male,First,College,
-26,637,,TRUE,Female,First,College,
-27,238,,TRUE,Female,First,College,
-27,621,,TRUE,Female,First,College,
-29,504,,TRUE,Male,First,College,
-27,470,,TRUE,Female,First,College,
-19,14,,TRUE,Male,Third,College,
-20,127,,TRUE,Male,Third,College,
-21,180,,TRUE,Male,Second,College,
-26,208,,TRUE,Female,Second,College,
-23,204,,TRUE,Male,Second,College,
-24,168,,TRUE,Female,Second,College,
-23,268,,TRUE,Male,Second,College,
-19,281,,TRUE,Male,First,College,
-20,96,,TRUE,Male,Second,College,
-21,44,,TRUE,Female,Second,College,
-26,45,,TRUE,Female,First,College,
-24,484,,TRUE,Male,,College,
-25,189,,TRUE,Female,First,College,
-25,216,,TRUE,Male,Second,College,
-30,404,,TRUE,Male,First,College,
-19,176,,TRUE,Female,First,College,
-24,302,,TRUE,Male,First,College,
-29,369,,TRUE,Male,Third,College,
-28,421,,TRUE,Male,Third,College,
-27,500,,TRUE,Female,First,College,
-29,499,,TRUE,Male,Second,College,
-17,61,,TRUE,Male,,College,
-19,209,,TRUE,Female,,College,
-20,137,,TRUE,Female,Fourth,College,
-20,71,,TRUE,Male,First,College,
-29,197,,TRUE,Female,First,College,
-22,149,,TRUE,Female,Third,College,
-22,222,,TRUE,Female,,College,
-23,279,,TRUE,Male,First,College,
-25,271,,TRUE,Male,First,College,
-25,320,,TRUE,Male,First,College,
-25,273,,TRUE,Male,Second,College,
-26,643,,TRUE,Female,First,College,
-30,471,,TRUE,Male,First,College,
-29,210,,TRUE,Male,First,College,
-28,316,,TRUE,Female,,College,
-30,218,,TRUE,Female,First,College,
-26,336,,TRUE,Male,First,College,
-27,283,,TRUE,Male,Second,College,
-27,281,,TRUE,Male,First,College,
-25,262,,TRUE,Female,First,College,
-26,275,,TRUE,Male,First,College,
-19,373,,TRUE,Male,First,College,
-21,117,,TRUE,Male,First,College,
-21,59,,TRUE,Female,First,College,
-26,155,,TRUE,Male,First,College,
-20,110,,TRUE,Male,First,College,
-20,131,,TRUE,Female,First,College,
-23,198,,TRUE,Male,First,College,
-23,305,,TRUE,Female,First,College,
-26,496,,TRUE,Female,First,College,
-27,543,,TRUE,Male,Second,College,
-30,641,,TRUE,Male,Second,College,
-30,523,,TRUE,Male,First,College,
-19,49,,TRUE,Male,Second,College,
-19,15,,TRUE,Female,First,College,
-19,45,,TRUE,Female,Second,College,
-22,231,,TRUE,Male,Third,College,
-26,357,,TRUE,Female,Second,College,
-27,392,,TRUE,Male,First,College,
-27,74,,TRUE,Female,Second,College,
-23,48,,TRUE,Male,Third,College,
-20,202,,TRUE,Female,First,College,
-20,267,,TRUE,Female,Second,College,
-18,82,,TRUE,Male,First,College,
-24,211,,TRUE,Female,Second,College,
-16,29,,TRUE,Male,First,College,
-18,225,,TRUE,Female,Second,College,
-18,26,,TRUE,Female,First,College,
-20,162,,TRUE,Male,First,College,
-20,77,,TRUE,Male,First,College,
-20,25,,TRUE,Male,First,College,
-20,56,,TRUE,Male,First,College,
-20,78,,TRUE,Male,First,College,
-21,54,,TRUE,Male,First,College,
-21,65,,TRUE,Male,Second,College,
-21,20,,TRUE,Male,Second,College,
-21,385,,TRUE,Male,First,College,
-23,359,,TRUE,Female,Second,College,
-24,133,,TRUE,Female,Third,College,
-21,46,,TRUE,Male,First,College,
-22,71,,TRUE,Female,Second,College,
-23,72,,TRUE,Female,Third,College,
-25,66,,TRUE,Female,First,College,
-26,45,,TRUE,Male,First,College,
-30,203,,TRUE,Male,Second,College,
-25,389,,TRUE,Male,Third,College,
-26,631,,TRUE,Female,First,College,
-26,246,,TRUE,Female,Second,College,
-30,179,,TRUE,Female,Second,College,
-30,119,,TRUE,Male,Second,College,
-27,428,,TRUE,Male,,College,
-28,175,,TRUE,Female,Third,College,
-30,564,,TRUE,Male,First,College,
-19,209,,TRUE,Female,First,College,
-22,130,,TRUE,Male,Second,College,
-26,495,,TRUE,Male,Second,College,
-16,39,,TRUE,Male,Third,College,
-16,17,,TRUE,Male,First,College,
-17,31,,TRUE,Male,Second,College,
-17,22,,TRUE,Male,Second,College,
-17,197,,TRUE,Female,Second,College,
-16,192,,TRUE,Male,Third,College,
-16,33,,TRUE,Male,First,College,
-18,184,,TRUE,Male,Third,College,
-20,201,,TRUE,Male,Second,College,
-20,289,,TRUE,Female,First,College,
-20,50,,TRUE,Male,First,College,
-23,251,,TRUE,Male,Second,College,
-18,181,,TRUE,Female,First,College,
-17,159,,TRUE,Female,First,College,
-18,14,,TRUE,Male,First,College,
-16,15,,TRUE,Female,First,College,
-17,114,,TRUE,Female,Second,College,
-16,76,,TRUE,Male,Third,College,
-16,26,,TRUE,Male,First,College,
-16,12,,TRUE,Male,First,College,
-16,8,,TRUE,Male,Third,College,
-16,41,,TRUE,Female,First,College,
-16,19,,TRUE,Male,First,College,
-18,113,,TRUE,Female,First,College,
-21,354,,TRUE,Male,Second,College,
-21,680,,TRUE,Male,First,College,
-21,178,,TRUE,Male,First,College,
-21,201,,TRUE,Male,Second,College,
-22,66,,TRUE,Male,First,College,
-21,114,,TRUE,Male,First,College,
-20,262,,TRUE,Male,First,College,
-25,269,,TRUE,Female,Sixth,College,
-16,248,,TRUE,Male,First,College,
-28,351,,TRUE,Female,Second,College,Hispanic
+25,179,,FALSE,,,,
+25,136,,FALSE,,,,
+25,0,,FALSE,,,,
+25,0,,FALSE,,,,
+25,0,,FALSE,,,,
+25,397,,FALSE,Male,Third,Some College,
+25,84,,FALSE,Male,First,Some College,Hispanic
+25,40,,FALSE,Female,First,Some College,
+25,210,,FALSE,Male,First,College,
+25,89,,FALSE,Male,First,Secondary,
+25,90,,FALSE,Male,First,Some College,Hispanic
+25,19,,FALSE,Male,Fourth,Some College,
+25,63,,FALSE,Female,Second,College,Hispanic
+25,68,,FALSE,Female,Second,Some Secondary,Hispanic
+25,209,,FALSE,Male,Third,Some Secondary,Hispanic
+25,214,,FALSE,Male,First,Some College,Hispanic
+25,97,,FALSE,Female,Second,College,Hispanic
+25,220,,FALSE,Male,First,Some Secondary,Hispanic
+25,83,,FALSE,Female,First,College,
+25,163,,FALSE,Male,First,Primary,Hispanic
+25,11,,FALSE,Male,Second,Some College,Hispanic
+25,53,,FALSE,Female,Second,College,
+25,80,,FALSE,Male,Third,Some College,Hispanic
+25,137,,FALSE,Male,Fourth,Some Secondary,Hispanic
+25,16,,FALSE,Female,First,College,Hispanic
+25,367,,FALSE,Male,First,Graduate,Hispanic
+25,267,,FALSE,Female,First,Some College,
+25,84,,FALSE,Female,First,College,
+25,47,,FALSE,Female,Third,Some Secondary,Hispanic
+25,680,,FALSE,Male,Second,,
+25,680,,FALSE,Female,Third,Primary,
+25,680,,FALSE,Female,,Secondary,
+25,258,,FALSE,Female,Second,Some Secondary,
+25,190,,FALSE,Male,First,Some Secondary,
+25,680,,FALSE,Male,Third,Some Secondary,
+25,352,,FALSE,Male,Third,Some Secondary,
+25,680,,FALSE,Female,First,Some College,
 25,680,,FALSE,Male,Second,College,
-19,680,,FALSE,Male,Second,College,
-24,680,,FALSE,Female,First,College,
-19,680,,FALSE,Female,First,College,
+25,680,,FALSE,Female,Third,Primary,
+25,680,,FALSE,Female,Second,Some College,
+25,169,,FALSE,Female,First,Secondary,
+25,23,,FALSE,Female,Second,Some Secondary,
 25,680,,FALSE,Female,Second,College,
-24,680,,FALSE,Female,First,College,
+25,680,,FALSE,Male,Second,Some Secondary,
 25,680,,FALSE,Female,Second,College,
-30,319,,FALSE,Male,,College,Hispanic
-22,300,,FALSE,Male,,College,Hispanic
+25,79,,FALSE,Male,Third,None,
+25,183,,FALSE,Female,,Some Secondary,
+25,590,,FALSE,Female,Second,Some Secondary,
+25,271,,FALSE,Male,First,College,
+25,320,,FALSE,Male,First,College,
+25,432,,FALSE,Male,Second,Secondary,
+25,273,,FALSE,Male,Second,College,
+25,154,,FALSE,Male,Second,Secondary,
+25,262,,FALSE,Female,First,College,
+25,278,,FALSE,Male,Second,Secondary,
+25,562,,FALSE,Male,First,Secondary,
+25,66,,FALSE,Female,First,College,
+25,144,,FALSE,Male,Third,,
+25,389,,FALSE,Male,Third,College,
+25,35,,FALSE,Female,Second,,
+25,269,,FALSE,Female,Sixth,College,
+25,365,,FALSE,Male,Second,Secondary,
+25,512,,FALSE,Male,Second,Secondary,
+25,541,,FALSE,Male,First,College,
+25,197,,FALSE,Male,Second,Some Secondary,
+25,271,,FALSE,Male,First,College,
+25,209,,FALSE,Female,First,College,
+25,41,,FALSE,Male,Second,College,
+25,142,,FALSE,Male,First,Some Secondary,
+25,288,,FALSE,Male,Third,Some Secondary,
+25,154,,FALSE,Male,Fourth,,
+25,236,,FALSE,Female,Second,College,
+25,80,,FALSE,Female,First,College,
+25,211,,FALSE,Female,Second,College,
+25,303,,FALSE,Male,First,Some Secondary,
+25,360,,FALSE,Male,Second,Some Secondary,
+25,606,,FALSE,Male,First,Secondary,
+25,244,,FALSE,Female,Second,Primary,
+25,21,,FALSE,Female,First,Some Secondary,
+25,51,,FALSE,Male,First,Primary,
+25,439,,FALSE,Female,Fifth,Primary,
+25,89,,FALSE,Male,Third,Some Secondary,
+25,258,,FALSE,Female,First,Secondary,
+25,244,,FALSE,Female,First,College,
+25,322,,FALSE,Female,First,Secondary,
+25,291,,FALSE,Male,Second,College,
+25,514,,FALSE,Male,Second,Secondary,
+25,18,,FALSE,Male,,Some Secondary,
+25,341,,FALSE,Male,,Primary,
+25,313,,FALSE,Female,First,College,
+25,190,,FALSE,Male,First,College,
+25,353,,FALSE,Male,Third,College,
+25,335,,FALSE,Male,Second,College,
+25,296,,FALSE,Female,Second,Secondary,
+25,609,,FALSE,Female,Second,College,
+25,148,,FALSE,Female,Third,Some Secondary,
+25,189,,FALSE,Male,Second,College,
+25,354,,FALSE,Male,First,College,
+25,189,,FALSE,Female,First,College,
+25,388,,FALSE,Male,First,Secondary,
+25,367,,FALSE,Female,First,Secondary,
+25,348,,FALSE,Female,,Primary,
+25,285,,FALSE,Female,,Secondary,
+25,79,,FALSE,Female,,Secondary,
+25,529,,FALSE,Male,First,College,
+25,501,,FALSE,Female,Second,Some Secondary,
+25,76,,FALSE,Male,Second,Some Secondary,
+25,328,,FALSE,Male,First,Secondary,
+25,554,,FALSE,Female,,Some Secondary,
+25,199,,FALSE,Male,Second,Some Secondary,
+25,478,,FALSE,Female,Second,None,
+25,468,,FALSE,Male,First,Some Secondary,
+25,192,,FALSE,Male,Second,Some Secondary,
+25,66,,FALSE,Female,First,Some Secondary,
+25,66,,FALSE,Male,Second,Some Secondary,
+25,189,,FALSE,Female,First,College,
+25,216,,FALSE,Male,Second,College,
+25,342,,FALSE,Female,Second,Some Secondary,
+25,259,,FALSE,Male,,Graduate,Hispanic
+25,117,,FALSE,Male,,Graduate,Hispanic
+25,63,,FALSE,Female,,Graduate,Hispanic
+25,163,,FALSE,Male,,Graduate,Hispanic
+25,115,,FALSE,Male,,Graduate,Hispanic
 25,128,,FALSE,Male,,College,Hispanic
+25,110,,FALSE,Male,,Secondary,Hispanic
+25,33,,FALSE,Female,,Graduate,Hispanic
+25,119,,FALSE,Female,,Graduate,Hispanic
+25,224,,FALSE,Male,,Graduate,Hispanic
+25,95,,FALSE,Male,,,Hispanic
+25,282,,FALSE,Female,,,Hispanic
+25,33,,FALSE,Female,,,Hispanic
+25,550,,FALSE,Male,,,Hispanic
+25,151,,FALSE,Female,,,Hispanic
+25,151,,FALSE,Female,,,Hispanic
+25,0,,FALSE,Male,,,Non-Hispanic
+25,84,,FALSE,Male,,,Hispanic
+25,18,,FALSE,Male,,,Hispanic
+25,62,,FALSE,Female,,,Hispanic
+25,175,,FALSE,Female,,,Hispanic
+25,203,,FALSE,Female,,,Hispanic
+25,286,,FALSE,Male,,,Hispanic
+25,275,,FALSE,Female,,,Hispanic
+25,182,,FALSE,Female,,,Hispanic
+25,42,,FALSE,Male,,,Hispanic
+25,106,,FALSE,Male,,,Hispanic
+25,65,,FALSE,Female,,,Hispanic
+25,60,,FALSE,Female,,,Hispanic
+25,25,,FALSE,Female,,,Hispanic
+25,120,,FALSE,Male,,,Hispanic
+25,14,,FALSE,Female,,,Hispanic
+25,95,,FALSE,Female,,,Hispanic
+25,34,,FALSE,Male,,,Hispanic
+25,74,,FALSE,Male,,,Hispanic
+25,57,,FALSE,Male,,,Hispanic
+25,21,,FALSE,Female,,,Hispanic
+25,28,,FALSE,Male,,,Hispanic
+25,126,,FALSE,Female,,,Non-Hispanic
+25,365,,FALSE,Male,,,Hispanic
+25,93,,FALSE,Male,,,Hispanic
+25,53,,FALSE,Female,,,Hispanic
+25,171,,FALSE,Male,,,Hispanic
+25,0,,FALSE,Female,,,Non-Hispanic
+25,37,,FALSE,Female,,,Hispanic
+25,73,,FALSE,Female,,,Hispanic
+25,275,,FALSE,Female,,,Hispanic
+25,33,,FALSE,Female,,,Hispanic
+25,31,,FALSE,Male,,,Hispanic
+25,46,,FALSE,Female,,,Hispanic
+25,0,,FALSE,Male,,,Hispanic
+25,191,,FALSE,Male,,,Hispanic
+25,77,,FALSE,Female,,,Hispanic
+25,183,,FALSE,Male,,,Non-Hispanic
+26,192,,FALSE,Male,Second,Some College,Hispanic
+26,36,,FALSE,Male,Fourth,College,Hispanic
+26,138,,FALSE,Male,Second,Secondary,Hispanic
+26,8,,FALSE,Female,Second,Some Secondary,Hispanic
+26,6,,FALSE,Female,First,College,
+26,187,,FALSE,Male,Third,Secondary,Hispanic
+26,30,,FALSE,Male,Second,College,Hispanic
+26,54,,FALSE,Female,Fifth,College,Hispanic
+26,680,,FALSE,Female,Third,Secondary,
+26,643,,FALSE,Female,First,College,
+26,98,,FALSE,Female,Third,Some Secondary,
+26,421,,FALSE,Female,First,Secondary,
+26,252,,FALSE,Male,Third,Secondary,
+26,164,,FALSE,Male,,Secondary,
+26,458,,FALSE,Male,Fifth,Some Secondary,
+26,336,,FALSE,Male,First,College,
+26,518,,FALSE,Male,Second,Primary,
+26,165,,FALSE,Male,Second,Secondary,
+26,176,,FALSE,Male,Second,Some Secondary,
+26,275,,FALSE,Male,First,College,
+26,155,,FALSE,Male,First,College,
+26,356,,FALSE,Female,First,Secondary,
+26,496,,FALSE,Female,First,College,
+26,357,,FALSE,Female,Second,College,
+26,208,,FALSE,Male,Second,Secondary,
+26,345,,FALSE,Female,First,Some Secondary,
+26,45,,FALSE,Male,First,College,
+26,275,,FALSE,Female,Third,Secondary,
+26,631,,FALSE,Female,First,College,
+26,246,,FALSE,Female,Second,College,
+26,83,,FALSE,Female,Third,Some Secondary,
+26,636,,FALSE,Male,First,Secondary,
+26,585,,FALSE,Female,Fourth,,
+26,495,,FALSE,Male,Second,College,
+26,71,,FALSE,Male,Second,Primary,
+26,668,,FALSE,Male,Second,Secondary,
+26,544,,FALSE,Male,First,Some Secondary,
+26,190,,FALSE,Male,First,College,
+26,633,,FALSE,Female,Second,College,
+26,463,,FALSE,Female,Second,College,
+26,498,,FALSE,Female,Second,Secondary,
+26,260,,FALSE,Female,First,Some Secondary,
+26,658,,FALSE,Female,Second,Primary,
+26,511,,FALSE,Male,First,College,
+26,13,,FALSE,Male,First,College,
+26,365,,FALSE,Male,Second,Secondary,
+26,398,,FALSE,Male,First,Secondary,
+26,3,,FALSE,Male,First,College,
+26,423,,FALSE,Female,First,College,
+26,679,,FALSE,Female,Second,College,
+26,115,,FALSE,Female,Second,Some Secondary,
+26,221,,FALSE,Male,First,Some Secondary,
+26,47,,FALSE,Female,Second,Primary,
+26,567,,FALSE,Male,First,College,
+26,29,,FALSE,Female,First,College,
+26,297,,FALSE,Female,Second,Some Secondary,
+26,477,,FALSE,Male,First,College,
+26,254,,FALSE,Female,First,Secondary,
+26,105,,FALSE,Female,Third,Some Secondary,
+26,32,,FALSE,Male,Second,Some Secondary,
+26,126,,FALSE,Male,Third,Secondary,
+26,336,,FALSE,Male,First,Primary,
+26,243,,FALSE,Male,Fourth,College,
+26,371,,FALSE,Male,First,,
+26,318,,FALSE,Female,Second,College,
+26,83,,FALSE,Male,First,Secondary,
+26,588,,FALSE,Male,First,,
+26,325,,FALSE,Male,First,Some Secondary,
+26,245,,FALSE,Male,Third,Some Secondary,
+26,637,,FALSE,Female,First,College,
+26,632,,FALSE,Female,First,Secondary,
+26,382,,FALSE,Male,,Some Secondary,
+26,204,,FALSE,Female,First,Secondary,
+26,208,,FALSE,Female,Second,College,
+26,163,,FALSE,Male,Second,Some Secondary,
+26,45,,FALSE,Female,First,College,
+26,632,,FALSE,Male,Second,Secondary,
+26,401,,FALSE,Female,First,Primary,
+26,151,,FALSE,Male,Second,Primary,
+26,209,,FALSE,Female,Second,Some Secondary,
+26,646,,FALSE,Male,First,Secondary,
+26,140,,FALSE,Female,Second,Some Secondary,
+26,155,,FALSE,Male,Second,Some Secondary,
+27,434,,FALSE,Female,Second,Some College,Hispanic
+27,491,,FALSE,Female,First,Graduate,Hispanic
+27,52,,FALSE,Male,First,Graduate,
+27,76,,FALSE,Male,First,Secondary,
+27,120,,FALSE,Female,First,Primary,Hispanic
+27,308,,FALSE,Female,First,Graduate,Hispanic
+27,87,,FALSE,Male,First,Secondary,Hispanic
+27,161,,FALSE,Female,Second,Secondary,Hispanic
+27,409,,FALSE,Female,Third,Secondary,Hispanic
+27,589,,FALSE,Female,Second,Secondary,Hispanic
+27,654,,FALSE,Female,First,Some Secondary,
+27,357,,FALSE,Female,Fourth,Some Secondary,
+27,330,,FALSE,Female,Second,Secondary,
+27,416,,FALSE,Female,,Some Secondary,
+27,283,,FALSE,Male,Second,College,
+27,281,,FALSE,Male,First,College,
+27,195,,FALSE,Male,First,Secondary,
+27,543,,FALSE,Male,Second,College,
+27,392,,FALSE,Male,First,College,
+27,235,,FALSE,Male,,Some Secondary,
+27,112,,FALSE,Male,Second,Secondary,
+27,74,,FALSE,Female,Second,College,
+27,409,,FALSE,Female,Second,Some Secondary,
+27,127,,FALSE,Male,Fourth,Secondary,
+27,161,,FALSE,Female,Third,Secondary,
+27,408,,FALSE,Female,Third,Secondary,
+27,304,,FALSE,Female,Second,Secondary,
+27,109,,FALSE,Male,Second,Secondary,
+27,392,,FALSE,Male,Second,Secondary,
+27,286,,FALSE,Male,Second,Some Secondary,
+27,428,,FALSE,Male,,College,
+27,404,,FALSE,Male,First,Secondary,
+27,458,,FALSE,Female,Second,College,
+27,405,,FALSE,Male,Fifth,Primary,
+27,463,,FALSE,Male,Third,College,
+27,40,,FALSE,Female,Second,College,
+27,411,,FALSE,Female,Second,College,
+27,676,,FALSE,Female,Third,Some Secondary,
+27,68,,FALSE,Female,Fourth,Secondary,
+27,622,,FALSE,Male,First,College,
+27,527,,FALSE,Female,First,College,
+27,115,,FALSE,Male,Second,Some Secondary,
+27,555,,FALSE,Male,First,Secondary,
+27,527,,FALSE,Male,Second,College,
+27,447,,FALSE,Female,First,College,
+27,481,,FALSE,Female,First,Secondary,
+27,358,,FALSE,Male,Second,College,
+27,205,,FALSE,Male,Third,Primary,
+27,203,,FALSE,Male,Second,Secondary,
+27,524,,FALSE,Female,First,Secondary,
+27,300,,FALSE,Female,First,Secondary,
+27,279,,FALSE,Female,Second,Secondary,
+27,437,,FALSE,Male,Third,College,
+27,470,,FALSE,Male,First,College,
+27,433,,FALSE,Female,Second,Secondary,
+27,609,,FALSE,Male,First,College,
+27,523,,FALSE,Male,First,College,
+27,268,,FALSE,Male,First,Secondary,
+27,381,,FALSE,Female,Second,College,
+27,525,,FALSE,Male,First,Secondary,
+27,211,,FALSE,Female,Fifth,Primary,
+27,506,,FALSE,Female,Fifth,Primary,
+27,224,,FALSE,Male,First,Primary,
+27,391,,FALSE,Female,First,College,
+27,488,,FALSE,Female,First,College,
+27,534,,FALSE,Male,First,College,
+27,148,,FALSE,Male,First,College,
+27,136,,FALSE,Male,Second,Secondary,
+27,345,,FALSE,Male,First,College,
+27,261,,FALSE,Female,Second,Secondary,
+27,238,,FALSE,Female,First,College,
+27,246,,FALSE,Male,Third,Secondary,
+27,282,,FALSE,Female,First,Secondary,
+27,621,,FALSE,Female,First,College,
+27,470,,FALSE,Female,First,College,
+27,457,,FALSE,Female,First,Secondary,
+27,417,,FALSE,Female,,Some Secondary,
+27,309,,FALSE,Female,First,Some Secondary,
+27,377,,FALSE,Male,First,Secondary,
+27,343,,FALSE,Female,First,Some Secondary,
+27,415,,FALSE,Female,First,Secondary,
+27,223,,FALSE,Male,Second,,
+27,284,,FALSE,Male,,Some Secondary,
+27,500,,FALSE,Female,First,College,
+27,324,,FALSE,Female,Second,Some Secondary,
+28,351,,FALSE,Female,Second,College,Hispanic
+28,65,,FALSE,Male,First,Some College,Hispanic
+28,552,,FALSE,Female,First,Secondary,Hispanic
+28,17,,FALSE,Female,First,College,
+28,6,,FALSE,Male,First,Some College,Hispanic
+28,111,,FALSE,Male,First,College,
+28,352,,FALSE,Female,First,Some College,Hispanic
+28,664,,FALSE,Female,Second,College,
+28,118,,FALSE,Female,Fourth,Primary,Hispanic
+28,22,,FALSE,Male,Second,Graduate,
+28,428,,FALSE,Female,,Some Secondary,
+28,505,,FALSE,Female,First,Some Secondary,
+28,316,,FALSE,Female,,College,
+28,294,,FALSE,Male,Second,Secondary,
+28,677,,FALSE,Male,First,Secondary,
+28,61,,FALSE,Male,Fifth,Some Secondary,
+28,219,,FALSE,Male,Third,Secondary,
+28,387,,FALSE,Male,Second,Secondary,
+28,270,,FALSE,Male,Fourth,Some Secondary,
+28,373,,FALSE,Female,Second,Some Secondary,
+28,467,,FALSE,Female,First,Secondary,
+28,362,,FALSE,Female,First,Secondary,
+28,94,,FALSE,Male,First,Secondary,
+28,175,,FALSE,Female,Third,College,
+28,520,,FALSE,Male,First,College,
+28,46,,FALSE,Female,Second,Primary,
+28,439,,FALSE,Male,Second,Some Secondary,
+28,470,,FALSE,Male,First,Secondary,
+28,326,,FALSE,Male,Second,Primary,
+28,608,,FALSE,Male,First,College,
+28,541,,FALSE,Male,Second,College,
+28,495,,FALSE,Male,First,College,
+28,486,,FALSE,Female,Third,College,
+28,506,,FALSE,Female,Second,Some Secondary,
+28,537,,FALSE,Male,First,College,
+28,572,,FALSE,Female,First,College,
+28,420,,FALSE,Female,Second,College,
+28,620,,FALSE,Female,Fourth,College,
+28,113,,FALSE,Male,Third,None,
+28,207,,FALSE,Male,Second,Secondary,
+28,610,,FALSE,Male,Second,College,
+28,502,,FALSE,Female,First,College,
+28,680,,FALSE,Female,Second,College,
+28,654,,FALSE,Female,First,Secondary,
+28,326,,FALSE,Female,Third,Secondary,
+28,221,,FALSE,Male,Second,Secondary,
+28,150,,FALSE,Male,Second,Secondary,
+28,185,,FALSE,Male,Second,Secondary,
+28,222,,FALSE,Female,Third,College,
+28,40,,FALSE,Male,Third,Some Secondary,
+28,646,,FALSE,Female,First,College,
+28,222,,FALSE,Male,Second,College,
+28,481,,FALSE,Female,Second,Secondary,
+28,287,,FALSE,Female,Second,College,
+28,621,,FALSE,Female,Second,College,
+28,341,,FALSE,Female,First,College,
+28,327,,FALSE,Male,,College,
+28,604,,FALSE,Male,Second,College,
+28,506,,FALSE,Female,Second,Some Secondary,
+28,1,,FALSE,Male,First,Some Secondary,
+28,147,,FALSE,Male,First,Some Secondary,
+28,280,,FALSE,Male,Second,Secondary,
+28,246,,FALSE,Female,Third,Primary,
+28,466,,FALSE,Male,Third,Secondary,
+28,132,,FALSE,Female,Second,College,
+28,285,,FALSE,Female,First,College,
+28,143,,FALSE,Male,First,College,
+28,269,,FALSE,Female,Fourth,,
+28,253,,FALSE,Male,Second,College,
+28,632,,FALSE,Female,First,College,
+28,47,,FALSE,Male,,Some Secondary,
+28,523,,FALSE,Female,Second,College,
+28,488,,FALSE,Male,Second,Secondary,
+28,227,,FALSE,Female,Second,Primary,
+28,569,,FALSE,Female,First,Some Secondary,
+28,382,,FALSE,Male,Third,Some Secondary,
+28,50,,FALSE,Male,Third,Some Secondary,
+28,287,,FALSE,Female,Second,Some Secondary,
+28,362,,FALSE,Female,First,Primary,
+28,366,,FALSE,Male,Second,Some Secondary,
+28,134,,FALSE,Male,First,Some Secondary,
+28,372,,FALSE,Female,Second,Some Secondary,
+28,258,,FALSE,Male,Third,Primary,
+28,339,,FALSE,Female,First,Secondary,
+28,102,,FALSE,Male,Fourth,Secondary,
+28,494,,FALSE,Female,First,Primary,
+28,320,,FALSE,Female,Second,Some Secondary,
+28,452,,FALSE,Male,,Some Secondary,
+28,421,,FALSE,Male,Third,College,
+29,81,,FALSE,Male,Third,College,Hispanic
+29,325,,FALSE,Male,First,Secondary,Hispanic
+29,451,,FALSE,Female,Fifth,Primary,Hispanic
+29,88,,FALSE,Male,Third,Some College,Hispanic
+29,52,,FALSE,Female,Second,Graduate,Hispanic
+29,506,,FALSE,Female,First,Secondary,Hispanic
+29,612,,FALSE,Female,Second,,Hispanic
+29,204,,FALSE,Female,First,Some College,Hispanic
+29,481,,FALSE,Female,First,College,Hispanic
+29,530,,FALSE,Male,Second,College,Hispanic
+29,197,,FALSE,Male,First,Some Secondary,Hispanic
+29,243,,FALSE,Female,First,Secondary,Hispanic
+29,52,,FALSE,Male,First,Graduate,
+29,643,,FALSE,Female,Fourth,Some Secondary,Hispanic
+29,569,,FALSE,Male,First,Secondary,
+29,123,,FALSE,Female,Second,Secondary,
+29,135,,FALSE,Male,First,Secondary,
+29,206,,FALSE,Male,First,College,
+29,110,,FALSE,Female,Third,Secondary,
+29,410,,FALSE,Female,First,College,
+29,197,,FALSE,Female,First,College,
+29,16,,FALSE,Female,First,College,
+29,140,,FALSE,Female,Second,College,
+29,82,,FALSE,Male,Second,Secondary,
+29,280,,FALSE,Male,Second,College,
+29,210,,FALSE,Male,First,College,
+29,371,,FALSE,Female,First,Primary,
+29,536,,FALSE,Female,First,Secondary,
+29,490,,FALSE,Male,Second,College,
+29,533,,FALSE,Female,First,Some Secondary,
+29,238,,FALSE,Female,First,Primary,
+29,396,,FALSE,Male,First,Some Secondary,
+29,329,,FALSE,Female,Third,College,
+29,616,,FALSE,Female,Second,College,
+29,380,,FALSE,Male,First,Secondary,
+29,249,,FALSE,Male,Second,Secondary,
+29,231,,FALSE,Male,Second,Secondary,
+29,265,,FALSE,Female,First,Secondary,
+29,373,,FALSE,Female,Third,Secondary,
+29,553,,FALSE,Male,Second,Some Secondary,
+29,182,,FALSE,Male,Second,Secondary,
+29,413,,FALSE,Male,Second,College,
+29,558,,FALSE,Male,First,College,
+29,552,,FALSE,Male,Second,College,
+29,214,,FALSE,Female,Second,Primary,
+29,363,,FALSE,Male,First,Some Secondary,
+29,381,,FALSE,Female,First,Some Secondary,
+29,194,,FALSE,Male,First,Some Secondary,
+29,642,,FALSE,Female,First,College,
+29,610,,FALSE,Female,First,College,
+29,599,,FALSE,Female,Fourth,College,
+29,608,,FALSE,Female,Third,College,
+29,310,,FALSE,Female,Third,Primary,
+29,643,,FALSE,Female,First,College,
+29,342,,FALSE,Male,First,Primary,
+29,301,,FALSE,Female,First,Secondary,
+29,122,,FALSE,Male,First,Some Secondary,
+29,307,,FALSE,Male,First,College,
+29,586,,FALSE,Male,First,College,
+29,562,,FALSE,Female,First,College,
+29,164,,FALSE,Female,Second,Primary,
+29,426,,FALSE,Male,First,Secondary,
+29,538,,FALSE,Female,First,College,
+29,558,,FALSE,Female,First,Some Secondary,
+29,381,,FALSE,Female,Third,,
+29,500,,FALSE,Male,First,College,
+29,456,,FALSE,Female,Second,Secondary,
+29,668,,FALSE,Female,First,College,
+29,653,,FALSE,Female,Second,Some Secondary,
+29,298,,FALSE,Female,,Some Secondary,
+29,407,,FALSE,Female,First,Secondary,
+29,488,,FALSE,Male,Fourth,Secondary,
+29,28,,FALSE,Male,First,College,
+29,317,,FALSE,Male,First,College,
+29,398,,FALSE,Female,Second,Secondary,
+29,452,,FALSE,Female,Second,Secondary,
+29,239,,FALSE,Female,Second,College,
+29,372,,FALSE,Female,First,Secondary,
+29,625,,FALSE,Female,,Some Secondary,
+29,422,,FALSE,Female,Second,Secondary,
+29,88,,FALSE,Female,First,Some Secondary,
+29,504,,FALSE,Male,First,College,
+29,538,,FALSE,Male,Second,Secondary,
+29,75,,FALSE,Male,Second,Some Secondary,
+29,665,,FALSE,Female,First,Some Secondary,
+29,483,,FALSE,Female,Second,Some Secondary,
+29,244,,FALSE,Female,,Some Secondary,
+29,369,,FALSE,Male,Third,College,
+29,499,,FALSE,Male,Second,College,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,0,,FALSE,,,,
+30,307,,FALSE,Female,Second,Some Secondary,Hispanic
+30,143,,FALSE,Female,Second,Some College,Hispanic
+30,429,,FALSE,Male,Second,Secondary,Hispanic
+30,118,,FALSE,Male,First,Some College,Hispanic
+30,629,,FALSE,Female,First,Graduate,Hispanic
+30,311,,FALSE,Male,First,Some College,Hispanic
+30,56,,FALSE,Female,First,Some College,
+30,245,,FALSE,Male,Second,Graduate,
+30,471,,FALSE,Male,Second,Primary,
+30,85,,FALSE,Male,First,Some College,Hispanic
+30,247,,FALSE,Male,Third,Some College,Hispanic
+30,4,,FALSE,Male,Third,Secondary,
+30,419,,FALSE,Female,Second,Some Secondary,Hispanic
+30,248,,FALSE,Female,Second,College,Hispanic
+30,220,,FALSE,Female,Second,College,
+30,510,,FALSE,Female,Second,Some College,Hispanic
+30,76,,FALSE,Male,First,Secondary,
+30,215,,FALSE,Male,Second,College,
+30,187,,FALSE,Female,Second,Secondary,Hispanic
+30,217,,FALSE,Female,Second,Some Graduate,Hispanic
+30,426,,FALSE,Male,First,Graduate,Hispanic
+30,290,,FALSE,Male,First,Some College,Hispanic
+30,119,,FALSE,Female,First,Graduate,
+30,528,,FALSE,Female,Second,Some Secondary,Hispanic
+30,543,,FALSE,Male,,Some Secondary,
+30,451,,FALSE,Male,First,Secondary,
+30,161,,FALSE,Male,Second,Some Secondary,
+30,471,,FALSE,Male,First,College,
+30,218,,FALSE,Female,First,College,
+30,464,,FALSE,Female,,Secondary,
+30,366,,FALSE,Female,Fourth,Secondary,
+30,673,,FALSE,Female,Second,Some Secondary,
+30,241,,FALSE,Male,First,College,
+30,230,,FALSE,Female,First,Secondary,
+30,641,,FALSE,Male,Second,College,
+30,526,,FALSE,Female,Second,Secondary,
+30,523,,FALSE,Male,First,College,
+30,361,,FALSE,Female,First,Secondary,
+30,262,,FALSE,Male,Second,Secondary,
+30,622,,FALSE,Male,First,Secondary,
+30,479,,FALSE,Male,First,College,
+30,223,,FALSE,Male,First,Secondary,
+30,661,,FALSE,Female,Second,Some Secondary,
+30,469,,FALSE,Female,Fourth,Some Secondary,
+30,203,,FALSE,Male,Second,College,
+30,352,,FALSE,Female,First,Secondary,
+30,619,,FALSE,Female,First,Secondary,
+30,383,,FALSE,Female,Second,Primary,
+30,146,,FALSE,Female,First,Some Secondary,
+30,179,,FALSE,Female,Second,College,
+30,119,,FALSE,Male,Second,College,
+30,244,,FALSE,Male,First,None,
+30,233,,FALSE,Male,Third,Some Secondary,
+30,157,,FALSE,Male,First,Secondary,
+30,564,,FALSE,Male,First,College,
+30,677,,FALSE,Female,First,Secondary,
+30,420,,FALSE,Male,Third,Some Secondary,
+30,365,,FALSE,Female,First,Some Secondary,
+30,117,,FALSE,Female,Third,Some Secondary,
+30,662,,FALSE,Female,First,Some Secondary,
+30,493,,FALSE,Female,First,Secondary,
+30,426,,FALSE,Female,Third,Secondary,
+30,528,,FALSE,Female,First,Secondary,
+30,492,,FALSE,Male,First,Secondary,
+30,549,,FALSE,Male,First,College,
+30,395,,FALSE,Female,First,Primary,
+30,588,,FALSE,Female,Second,College,
+30,443,,FALSE,Male,Third,Secondary,
+30,534,,FALSE,Male,Second,College,
+30,502,,FALSE,Female,First,Some Secondary,
+30,290,,FALSE,Male,Second,Secondary,
+30,262,,FALSE,Male,First,Some Secondary,
+30,482,,FALSE,Male,Second,Some Secondary,
+30,467,,FALSE,Male,Second,College,
+30,628,,FALSE,Male,Second,College,
+30,87,,FALSE,Male,,College,
+30,617,,FALSE,Female,First,College,
+30,670,,FALSE,Female,Third,Secondary,
+30,406,,FALSE,Male,First,Some Secondary,
+30,359,,FALSE,Female,Third,College,
+30,494,,FALSE,Female,First,Secondary,
+30,583,,FALSE,Male,First,Some Secondary,
+30,173,,FALSE,Male,Second,Some Secondary,
+30,214,,FALSE,Male,Third,Secondary,
+30,404,,FALSE,Male,First,College,
+30,152,,FALSE,Male,Third,Secondary,
+30,400,,FALSE,Female,,Graduate,Hispanic
+30,298,,FALSE,Female,,Graduate,Hispanic
 30,437,,FALSE,Male,,College,Hispanic
 30,417,,FALSE,Male,,College,Hispanic
 30,107,,FALSE,Male,,College,Hispanic
-30,153,,FALSE,Male,,College,Non-Hispanic
-30,125,,FALSE,Male,,College,Hispanic
-30,29,,FALSE,Female,,College,Hispanic
-30,81,,FALSE,Male,,College,Hispanic
-30,52,,FALSE,Male,,College,Hispanic
-30,75,,FALSE,Female,,College,Hispanic
-30,179,,FALSE,Female,,College,Hispanic
-30,90,,FALSE,Female,,College,Hispanic
-30,439,,FALSE,Female,,College,Hispanic
-30,28,,FALSE,Female,,College,Non-Hispanic
-30,345,,FALSE,Female,,College,Hispanic
-30,120,,FALSE,Female,,College,Hispanic
-30,112,,FALSE,Female,,College,Hispanic
-30,487,,FALSE,Female,,College,Hispanic
-30,246,,FALSE,Female,,College,Hispanic
-30,183,,FALSE,Female,,College,Hispanic
-30,108,,FALSE,Male,,College,Hispanic
-30,505,,FALSE,Female,,College,Hispanic
-30,36,,FALSE,Female,,College,Hispanic
-30,424,,FALSE,Male,,College,Hispanic
-30,48,,FALSE,Female,,College,Hispanic
-30,130,,FALSE,Female,,College,Hispanic
-30,88,,FALSE,Male,,College,Hispanic
-30,101,,FALSE,Male,,College,Hispanic
-30,166,,FALSE,Female,,College,Hispanic
-30,540,,FALSE,Male,,College,Non-Hispanic
-30,185,,FALSE,Female,,College,Hispanic
-30,21,,FALSE,Male,,College,Hispanic
-30,197,,FALSE,Male,,College,Hispanic
-30,313,,FALSE,Female,,College,Non-Hispanic
-30,37,,FALSE,Male,,College,Hispanic
-30,503,,FALSE,Male,,College,Hispanic
-30,121,,FALSE,Male,,College,Hispanic
-30,108,,FALSE,Female,,College,Hispanic
-30,112,,FALSE,Female,,College,Hispanic
-30,161,,FALSE,Female,,College,Hispanic
-30,65,,FALSE,Male,,College,Hispanic
-17,72,,TRUE,Female,First,College,
-24,11,,TRUE,Female,First,Graduate,
-24,56,,TRUE,Male,First,Graduate,
-30,629,,TRUE,Female,First,Graduate,Hispanic
-27,491,,TRUE,Female,First,Graduate,Hispanic
-21,6,,TRUE,Male,First,Graduate,
-27,52,,TRUE,Male,First,Graduate,
-23,9,,TRUE,Female,Second,Graduate,Hispanic
-29,52,,TRUE,Female,Second,Graduate,Hispanic
-30,245,,TRUE,Male,Second,Graduate,
-24,195,,TRUE,Male,Second,Graduate,
-19,11,,TRUE,Female,First,Graduate,Hispanic
-18,90,,TRUE,Male,First,Graduate,Hispanic
-27,308,,TRUE,Female,First,Graduate,Hispanic
-18,39,,TRUE,Male,First,Graduate,Hispanic
-22,96,,TRUE,Female,First,Graduate,
-23,58,,TRUE,Male,Third,Graduate,
-30,426,,TRUE,Male,First,Graduate,Hispanic
-25,367,,TRUE,Male,First,Graduate,Hispanic
-29,52,,TRUE,Male,First,Graduate,
-19,79,,TRUE,Male,First,Graduate,
-22,21,,TRUE,Male,Second,Graduate,
-28,22,,TRUE,Male,Second,Graduate,
-23,35,,TRUE,Female,First,Graduate,
-30,119,,TRUE,Female,First,Graduate,
-30,247,,FALSE,Male,,Graduate,Hispanic
-22,202,,FALSE,Male,,Graduate,Hispanic
-25,259,,FALSE,Male,,Graduate,Hispanic
-25,117,,FALSE,Male,,Graduate,Hispanic
-30,626,,FALSE,Male,,Graduate,Hispanic
-22,62,,FALSE,Male,,Graduate,Hispanic
-22,40,,FALSE,Female,,Graduate,Hispanic
-30,68,,FALSE,Female,,Graduate,Hispanic
-25,63,,FALSE,Female,,Graduate,Hispanic
-30,350,,FALSE,Male,,Graduate,Hispanic
-22,79,,FALSE,Male,,Graduate,Hispanic
-25,163,,FALSE,Male,,Graduate,Hispanic
-22,82,,FALSE,Male,,Graduate,Hispanic
-25,115,,FALSE,Male,,Graduate,Hispanic
-30,265,,FALSE,Male,,Graduate,Hispanic
-25,33,,FALSE,Female,,Graduate,Hispanic
-30,57,,FALSE,Female,,Graduate,Hispanic
-22,16,,FALSE,Female,,Graduate,Hispanic
-30,63,,FALSE,Female,,Graduate,Hispanic
-25,119,,FALSE,Female,,Graduate,Hispanic
-22,188,,FALSE,Female,,Graduate,Hispanic
-25,224,,FALSE,Male,,Graduate,Hispanic
-22,112,,FALSE,Male,,Graduate,Hispanic
-30,266,,FALSE,Male,,Graduate,Hispanic
-30,400,,FALSE,Female,,Graduate,Hispanic
 30,651,,FALSE,Female,,Graduate,Hispanic
+30,443,,FALSE,Female,,Secondary,Hispanic
 30,122,,FALSE,Female,,Graduate,Hispanic
 30,604,,FALSE,Male,,Graduate,Hispanic
+30,415,,FALSE,Female,,Some Secondary,Hispanic
+30,37,,FALSE,Male,,College,Hispanic
+30,166,,FALSE,Female,,College,Hispanic
+30,542,,FALSE,Male,,Graduate,Hispanic
 30,349,,FALSE,Female,,Graduate,Hispanic
+30,291,,FALSE,Female,,Graduate,Hispanic
 30,273,,FALSE,Male,,Graduate,Hispanic
+30,540,,FALSE,Male,,College,Non-Hispanic
 30,561,,FALSE,Female,,Graduate,Hispanic
 30,95,,FALSE,Male,,Graduate,Hispanic
+30,396,,FALSE,Female,,Secondary,Hispanic
 30,270,,FALSE,Female,,Graduate,Hispanic
 30,177,,FALSE,Male,,Graduate,Hispanic
 30,447,,FALSE,Female,,Graduate,Hispanic
+30,246,,FALSE,Male,,Secondary,Hispanic
+30,153,,FALSE,Male,,College,Non-Hispanic
+30,185,,FALSE,Female,,College,Hispanic
 30,151,,FALSE,Male,,Graduate,Hispanic
+30,21,,FALSE,Male,,College,Hispanic
+30,219,,FALSE,Female,,Secondary,Hispanic
 30,162,,FALSE,Male,,Graduate,Hispanic
 30,122,,FALSE,Male,,Graduate,Hispanic
 30,134,,FALSE,Male,,Graduate,Hispanic
+30,125,,FALSE,Male,,College,Hispanic
 30,189,,FALSE,Male,,Graduate,Hispanic
+30,29,,FALSE,Female,,College,Hispanic
+30,164,,FALSE,Male,,Secondary,Hispanic
 30,150,,FALSE,Female,,Graduate,Non-Hispanic
 30,159,,FALSE,Female,,Graduate,Hispanic
 30,270,,FALSE,Female,,Graduate,Hispanic
+30,113,,FALSE,Female,,Graduate,Hispanic
 30,253,,FALSE,Male,,Graduate,Hispanic
 30,70,,FALSE,Male,,Graduate,Hispanic
 30,32,,FALSE,Female,,Graduate,Hispanic
 30,439,,FALSE,Male,,Graduate,Hispanic
+30,81,,FALSE,Male,,College,Hispanic
+30,52,,FALSE,Male,,College,Hispanic
 30,367,,FALSE,Female,,Graduate,Hispanic
+30,437,,FALSE,Female,,Graduate,Hispanic
 30,281,,FALSE,Female,,Graduate,Hispanic
 30,103,,FALSE,Male,,Graduate,Hispanic
 30,339,,FALSE,Female,,Graduate,Hispanic
@@ -771,913 +1526,158 @@ age,production,comprehension,is_norming,sex,birth_order,caregiver_education,ethn
 30,220,,FALSE,Female,,Graduate,Hispanic
 30,291,,FALSE,Male,,Graduate,Hispanic
 30,240,,FALSE,Female,,Graduate,Hispanic
+30,75,,FALSE,Female,,College,Hispanic
+30,179,,FALSE,Female,,College,Hispanic
+30,124,,FALSE,Male,,Secondary,Non-Hispanic
 30,608,,FALSE,Male,,Graduate,Hispanic
 30,288,,FALSE,Female,,Graduate,Hispanic
+30,275,,FALSE,Male,,Graduate,Hispanic
+30,90,,FALSE,Female,,College,Hispanic
+30,67,,FALSE,Male,,Secondary,Hispanic
 30,345,,FALSE,Male,,Graduate,Hispanic
+30,120,,FALSE,Male,,Graduate,Hispanic
 30,38,,FALSE,Male,,Graduate,Hispanic
 30,215,,FALSE,Female,,Graduate,Hispanic
 30,70,,FALSE,Male,,Graduate,Hispanic
+30,113,,FALSE,Female,,Secondary,Hispanic
+30,439,,FALSE,Female,,College,Hispanic
 30,364,,FALSE,Female,,Graduate,Hispanic
 30,217,,FALSE,Female,,Graduate,Hispanic
+30,28,,FALSE,Female,,College,Non-Hispanic
+30,345,,FALSE,Female,,College,Hispanic
 30,321,,FALSE,Male,,Graduate,Hispanic
 30,245,,FALSE,Male,,Graduate,Hispanic
 30,169,,FALSE,Male,,Graduate,Hispanic
 30,523,,FALSE,Female,,Graduate,Hispanic
 30,67,,FALSE,Male,,Graduate,Hispanic
+30,120,,FALSE,Female,,College,Hispanic
 30,367,,FALSE,Female,,Graduate,Hispanic
+30,112,,FALSE,Female,,College,Hispanic
+30,26,,FALSE,Male,,Secondary,Hispanic
 30,79,,FALSE,Male,,Graduate,Hispanic
+30,306,,FALSE,Female,,Secondary,Hispanic
+30,313,,FALSE,Female,,College,Non-Hispanic
+30,487,,FALSE,Female,,College,Hispanic
+30,246,,FALSE,Female,,College,Hispanic
 30,39,,FALSE,Female,,Graduate,Hispanic
 30,395,,FALSE,Female,,Graduate,Hispanic
+30,343,,FALSE,Female,,Secondary,Hispanic
+30,219,,FALSE,Female,,Secondary,Hispanic
+30,473,,FALSE,Male,,Graduate,Hispanic
 30,114,,FALSE,Female,,Graduate,Hispanic
+30,455,,FALSE,Female,,Secondary,Hispanic
+30,183,,FALSE,Female,,College,Hispanic
+30,197,,FALSE,Male,,College,Hispanic
+30,108,,FALSE,Male,,College,Hispanic
+30,210,,FALSE,Male,,Secondary,Hispanic
+30,529,,FALSE,Male,,Graduate,Hispanic
+30,505,,FALSE,Female,,College,Hispanic
 30,101,,FALSE,Male,,Graduate,Hispanic
 30,300,,FALSE,Male,,Graduate,Hispanic
 30,178,,FALSE,Female,,Graduate,Hispanic
-30,282,,FALSE,Female,,Graduate,Hispanic
-30,40,,FALSE,Female,,Graduate,Hispanic
-30,430,,FALSE,Female,,Graduate,Hispanic
-30,47,,FALSE,Male,,Graduate,Hispanic
-30,357,,FALSE,Male,,Graduate,Hispanic
-30,8,,FALSE,Male,,Graduate,Hispanic
-30,425,,FALSE,Male,,Graduate,Hispanic
-30,409,,FALSE,Female,,Graduate,Hispanic
-30,113,,FALSE,Female,,Graduate,Hispanic
-30,222,,FALSE,Male,,Graduate,Hispanic
-30,291,,FALSE,Female,,Graduate,Hispanic
-30,113,,FALSE,Female,,Graduate,Hispanic
-30,285,,FALSE,Male,,Graduate,Hispanic
-30,366,,FALSE,Male,,Graduate,Hispanic
-30,392,,FALSE,Male,,Graduate,Hispanic
-30,105,,FALSE,Male,,Graduate,Hispanic
-30,298,,FALSE,Female,,Graduate,Hispanic
-30,542,,FALSE,Male,,Graduate,Hispanic
-30,275,,FALSE,Male,,Graduate,Hispanic
-30,473,,FALSE,Male,,Graduate,Hispanic
-30,529,,FALSE,Male,,Graduate,Hispanic
-30,437,,FALSE,Female,,Graduate,Hispanic
-30,120,,FALSE,Male,,Graduate,Hispanic
-30,287,,FALSE,Male,,Graduate,Hispanic
-30,200,,FALSE,Male,,Graduate,Hispanic
-30,63,,FALSE,Male,,Graduate,Hispanic
-30,373,,FALSE,Male,,Graduate,Hispanic
-30,510,,FALSE,Female,,Graduate,Hispanic
-30,206,,FALSE,Female,,Graduate,Hispanic
-30,330,,FALSE,Female,,Graduate,Hispanic
-30,324,,FALSE,Male,,Graduate,Hispanic
-30,276,,FALSE,Male,,Graduate,Hispanic
-30,90,,FALSE,Female,,Graduate,Hispanic
-16,102,,TRUE,Female,Third,None,
-28,113,,TRUE,Male,Third,None,
-20,31,,TRUE,Male,Fifth,None,
-25,478,,TRUE,Female,Second,None,
-25,79,,TRUE,Male,Third,None,
-22,487,,TRUE,Male,Third,None,
-30,244,,TRUE,Male,First,None,
-29,451,,TRUE,Female,Fifth,Primary,Hispanic
-30,471,,TRUE,Male,Second,Primary,
-29,612,,TRUE,Female,Second,Primary,Hispanic
-24,151,,TRUE,Male,First,Primary,Hispanic
-19,35,,TRUE,Male,First,Primary,Hispanic
-27,120,,TRUE,Female,First,Primary,Hispanic
-19,281,,TRUE,Female,First,Primary,Hispanic
-23,415,,TRUE,Male,Second,Primary,Hispanic
-22,18,,TRUE,Female,Second,Primary,
-25,163,,TRUE,Male,First,Primary,Hispanic
-28,118,,TRUE,Female,Fourth,Primary,Hispanic
-21,14,,TRUE,Female,Third,Primary,Hispanic
-21,17,,TRUE,Female,Second,Primary,
-22,125,,TRUE,Male,First,Primary,
-17,47,,TRUE,Male,Third,Primary,
-29,371,,TRUE,Female,First,Primary,
-29,214,,TRUE,Female,Second,Primary,
-28,46,,TRUE,Female,Second,Primary,
-19,218,,TRUE,Female,First,Primary,
-22,279,,TRUE,Male,Third,Primary,
-21,277,,TRUE,Male,Fourth,Primary,
-16,76,,TRUE,Female,Fifth,Primary,
-23,68,,TRUE,Female,Third,Primary,
-24,52,,TRUE,Male,Second,Primary,
-26,71,,TRUE,Male,Second,Primary,
-27,405,,TRUE,Male,Fifth,Primary,
-28,326,,TRUE,Male,Second,Primary,
-16,8,,TRUE,Male,Second,Primary,
-26,658,,TRUE,Female,Second,Primary,
-29,310,,TRUE,Female,Third,Primary,
-23,113,,TRUE,Female,,Primary,
-16,127,,TRUE,Female,Third,Primary,
-29,342,,TRUE,Male,First,Primary,
-29,164,,TRUE,Female,Second,Primary,
-23,230,,TRUE,Female,Fourth,Primary,
-26,47,,TRUE,Female,Second,Primary,
-25,244,,TRUE,Female,Second,Primary,
-27,205,,TRUE,Male,Third,Primary,
-30,395,,TRUE,Female,First,Primary,
-25,51,,TRUE,Male,First,Primary,
-23,106,,TRUE,Female,Second,Primary,
-25,439,,TRUE,Female,Fifth,Primary,
-27,211,,TRUE,Female,Fifth,Primary,
-27,506,,TRUE,Female,Fifth,Primary,
-20,304,,TRUE,Female,Third,Primary,
-20,191,,TRUE,Female,First,Primary,
-27,224,,TRUE,Male,First,Primary,
-28,246,,TRUE,Female,Third,Primary,
-25,341,,TRUE,Male,,Primary,
-26,336,,TRUE,Male,First,Primary,
-28,227,,TRUE,Female,Second,Primary,
-25,348,,TRUE,Female,,Primary,
-20,121,,TRUE,Male,Third,Primary,
-28,362,,TRUE,Female,First,Primary,
-18,203,,TRUE,Male,Third,Primary,
-23,131,,TRUE,Female,Third,Primary,
-23,152,,TRUE,Female,First,Primary,
-17,20,,TRUE,Male,First,Primary,
-28,258,,TRUE,Male,Third,Primary,
-26,401,,TRUE,Female,First,Primary,
-19,47,,TRUE,Male,Third,Primary,
-19,55,,TRUE,Male,,Primary,
-28,494,,TRUE,Female,First,Primary,
-26,151,,TRUE,Male,Second,Primary,
-17,164,,TRUE,Female,First,Primary,
-23,116,,TRUE,Female,Third,Primary,
-24,161,,TRUE,Female,Third,Primary,
-18,22,,TRUE,Female,Second,Primary,
-16,281,,TRUE,Female,Second,Primary,
-20,17,,TRUE,Male,Third,Primary,
-23,78,,TRUE,Female,,Primary,
-24,184,,TRUE,Female,Second,Primary,
-24,113,,TRUE,Male,First,Primary,
-26,518,,TRUE,Male,Second,Primary,
-16,133,,TRUE,Female,First,Primary,
-29,238,,TRUE,Female,First,Primary,
-18,99,,TRUE,Male,First,Primary,
-24,401,,TRUE,Male,First,Primary,
-22,234,,TRUE,Male,Second,Primary,
-18,193,,TRUE,Male,Third,Primary,
-20,273,,TRUE,Female,First,Primary,
-30,383,,TRUE,Female,Second,Primary,
-16,9,,TRUE,Male,First,Primary,
-16,23,,TRUE,Male,Third,Primary,
-18,413,,TRUE,Female,First,Primary,
-19,680,,FALSE,Female,Third,Primary,
-25,680,,FALSE,Female,Third,Primary,
-24,680,,FALSE,Female,Second,Primary,
-19,680,,FALSE,Female,Second,Primary,
-25,680,,FALSE,Female,Third,Primary,
-24,680,,FALSE,Male,Second,Primary,
-24,680,,FALSE,Female,Second,Primary,
-24,680,,FALSE,Female,Second,Primary,
-29,325,,TRUE,Male,First,Secondary,Hispanic
-18,97,,TRUE,Male,First,Secondary,Hispanic
-24,189,,TRUE,Male,First,Secondary,Hispanic
-24,172,,TRUE,Male,Third,Secondary,Hispanic
-28,552,,TRUE,Female,First,Secondary,Hispanic
-30,429,,TRUE,Male,Second,Secondary,Hispanic
-19,21,,TRUE,Male,First,Secondary,Hispanic
-24,37,,TRUE,Male,First,Secondary,Hispanic
-26,138,,TRUE,Male,Second,Secondary,Hispanic
-29,506,,TRUE,Female,First,Secondary,Hispanic
-18,121,,TRUE,Male,First,Secondary,
-27,76,,TRUE,Male,First,Secondary,
-25,89,,TRUE,Male,First,Secondary,
-30,4,,TRUE,Male,Third,Secondary,
-18,6,,TRUE,Male,Third,Secondary,
-24,23,,TRUE,Male,First,Secondary,
-27,87,,TRUE,Male,First,Secondary,Hispanic
-26,187,,TRUE,Male,Third,Secondary,Hispanic
-27,161,,TRUE,Female,Second,Secondary,Hispanic
-23,54,,TRUE,Male,Third,Secondary,Hispanic
-18,38,,TRUE,Male,Third,Secondary,Hispanic
-24,107,,TRUE,Male,First,Secondary,Hispanic
-30,76,,TRUE,Male,First,Secondary,
-23,22,,TRUE,Male,Second,Secondary,Hispanic
-27,409,,TRUE,Female,Third,Secondary,Hispanic
-22,35,,TRUE,Male,First,Secondary,Hispanic
-30,187,,TRUE,Female,Second,Secondary,Hispanic
-24,69,,TRUE,Female,First,Secondary,Hispanic
-29,243,,TRUE,Female,First,Secondary,Hispanic
-27,589,,TRUE,Female,Second,Secondary,Hispanic
-24,122,,TRUE,Female,Third,Secondary,
-21,15,,TRUE,Male,Third,Secondary,Hispanic
-22,403,,TRUE,Female,Second,Secondary,
-20,199,,TRUE,Female,First,Secondary,
-20,79,,TRUE,Male,First,Secondary,
-20,75,,TRUE,Female,Second,Secondary,
-22,137,,TRUE,Female,First,Secondary,
-19,42,,TRUE,Male,First,Secondary,
-22,15,,TRUE,Male,Third,Secondary,
-20,162,,TRUE,Male,Second,Secondary,
-20,108,,TRUE,Male,First,Secondary,
-21,27,,TRUE,Female,First,Secondary,
-23,229,,TRUE,Male,First,Secondary,
-27,524,,TRUE,Female,First,Secondary,
-25,322,,TRUE,Female,First,Secondary,
-18,129,,TRUE,Male,First,Secondary,
-17,43,,TRUE,Male,First,Secondary,
-17,35,,TRUE,Male,First,Secondary,
-18,13,,TRUE,Male,First,Secondary,
-18,23,,TRUE,Male,First,Secondary,
-16,27,,TRUE,Male,First,Secondary,
-19,214,,TRUE,Female,First,Secondary,
-17,44,,TRUE,Female,First,Secondary,
-18,26,,TRUE,Female,Second,Secondary,
-17,108,,TRUE,Female,First,Secondary,
-17,39,,TRUE,Female,Second,Secondary,
-18,78,,TRUE,Female,First,Secondary,
-19,261,,TRUE,Female,Second,Secondary,
-19,119,,TRUE,Female,First,Secondary,
-29,569,,TRUE,Male,First,Secondary,
-29,123,,TRUE,Female,Second,Secondary,
-29,135,,TRUE,Male,First,Secondary,
-29,110,,TRUE,Female,Third,Secondary,
-29,82,,TRUE,Male,Second,Secondary,
-28,387,,TRUE,Male,Second,Secondary,
-30,262,,TRUE,Male,Second,Secondary,
-29,231,,TRUE,Male,Second,Secondary,
-30,622,,TRUE,Male,First,Secondary,
-30,223,,TRUE,Male,First,Secondary,
-28,467,,TRUE,Female,First,Secondary,
-29,182,,TRUE,Male,Second,Secondary,
-30,493,,TRUE,Female,First,Secondary,
-21,76,,TRUE,Male,First,Secondary,
-20,257,,TRUE,Male,First,Secondary,
-21,25,,TRUE,Male,Third,Secondary,
-16,17,,TRUE,Female,Second,Secondary,
-19,261,,TRUE,Female,Second,Secondary,
-17,85,,TRUE,Female,Second,Secondary,
-17,35,,TRUE,Female,Second,Secondary,
-17,404,,TRUE,Female,First,Secondary,
-18,48,,TRUE,Male,Third,Secondary,
-20,261,,TRUE,Male,First,Secondary,
-17,191,,TRUE,Male,Second,Secondary,
-19,88,,TRUE,Female,Second,Secondary,
-19,14,,TRUE,Female,First,Secondary,
-21,220,,TRUE,Female,Third,Secondary,
-17,120,,TRUE,Female,First,Secondary,
-17,17,,TRUE,Female,First,Secondary,
-17,288,,TRUE,Female,First,Secondary,
-17,19,,TRUE,Female,First,Secondary,
-18,46,,TRUE,Female,First,Secondary,
-25,365,,TRUE,Male,Second,Secondary,
-25,512,,TRUE,Male,Second,Secondary,
-24,116,,TRUE,Male,First,Secondary,
-24,253,,TRUE,Male,First,Secondary,
-26,668,,TRUE,Male,Second,Secondary,
-28,470,,TRUE,Male,First,Secondary,
-16,46,,TRUE,Female,Second,Secondary,
-16,29,,TRUE,Female,First,Secondary,
-16,67,,TRUE,Male,Second,Secondary,
-19,128,,TRUE,Male,First,Secondary,
-21,37,,TRUE,Female,Fourth,Secondary,
-20,38,,TRUE,Male,Second,Secondary,
-20,31,,TRUE,Female,First,Secondary,
-17,37,,TRUE,Female,First,Secondary,
-26,498,,TRUE,Female,Second,Secondary,
-27,68,,TRUE,Female,Fourth,Secondary,
-28,207,,TRUE,Male,Second,Secondary,
-24,62,,TRUE,Female,First,Secondary,
-23,43,,TRUE,Male,,Secondary,
-23,577,,TRUE,Female,First,Secondary,
-23,580,,TRUE,Female,,Secondary,
-23,208,,TRUE,Female,Third,Secondary,
-26,365,,TRUE,Male,Second,Secondary,
-30,426,,TRUE,Female,Third,Secondary,
-30,528,,TRUE,Female,First,Secondary,
-23,38,,TRUE,Female,Second,Secondary,
-23,596,,TRUE,Male,First,Secondary,
-23,121,,TRUE,Female,First,Secondary,
-24,84,,TRUE,Female,Second,Secondary,
-24,156,,TRUE,Male,First,Secondary,
-24,342,,TRUE,Female,First,Secondary,
-26,398,,TRUE,Male,First,Secondary,
-24,221,,TRUE,Female,Third,Secondary,
-23,151,,TRUE,Female,First,Secondary,
-16,176,,TRUE,Male,First,Secondary,
-21,100,,TRUE,Male,Third,Secondary,
-27,555,,TRUE,Male,First,Secondary,
-21,529,,TRUE,Female,Fourth,Secondary,
-29,301,,TRUE,Female,First,Secondary,
-23,401,,TRUE,Female,Second,Secondary,
-22,297,,TRUE,Female,First,Secondary,
-30,492,,TRUE,Male,First,Secondary,
-27,481,,TRUE,Female,First,Secondary,
-28,654,,TRUE,Female,First,Secondary,
-24,202,,TRUE,Female,Fifth,Secondary,
-23,448,,TRUE,Male,Fourth,Secondary,
-24,605,,TRUE,Male,First,Secondary,
-22,367,,TRUE,Female,First,Secondary,
-25,606,,TRUE,Male,First,Secondary,
-24,567,,TRUE,Male,Second,Secondary,
-29,426,,TRUE,Male,First,Secondary,
-22,311,,TRUE,Male,First,Secondary,
-24,680,,TRUE,Female,First,Secondary,
-27,203,,TRUE,Male,Second,Secondary,
-28,326,,TRUE,Female,Third,Secondary,
-30,443,,TRUE,Male,Third,Secondary,
-28,221,,TRUE,Male,Second,Secondary,
-28,150,,TRUE,Male,Second,Secondary,
-27,300,,TRUE,Female,First,Secondary,
-26,254,,TRUE,Female,First,Secondary,
-27,279,,TRUE,Female,Second,Secondary,
-25,258,,TRUE,Female,First,Secondary,
-28,185,,TRUE,Male,Second,Secondary,
-27,433,,TRUE,Female,Second,Secondary,
-26,126,,TRUE,Male,Third,Secondary,
-27,268,,TRUE,Male,First,Secondary,
-20,447,,TRUE,Female,Fourth,Secondary,
-20,64,,TRUE,Male,First,Secondary,
-28,481,,TRUE,Female,Second,Secondary,
-27,525,,TRUE,Male,First,Secondary,
-30,290,,TRUE,Male,Second,Secondary,
-25,514,,TRUE,Male,Second,Secondary,
-16,25,,TRUE,Female,First,Secondary,
-16,244,,TRUE,Female,First,Secondary,
-29,456,,TRUE,Female,Second,Secondary,
-28,280,,TRUE,Male,Second,Secondary,
-28,466,,TRUE,Male,Third,Secondary,
-23,293,,TRUE,Male,Third,Secondary,
-19,34,,TRUE,Male,Second,Secondary,
-21,46,,TRUE,Female,Fourth,Secondary,
-17,31,,TRUE,Male,Third,Secondary,
-25,296,,TRUE,Female,Second,Secondary,
-29,407,,TRUE,Female,First,Secondary,
-29,488,,TRUE,Male,Fourth,Secondary,
-23,117,,TRUE,Female,Second,Secondary,
-27,136,,TRUE,Male,Second,Secondary,
-19,50,,TRUE,Female,First,Secondary,
-29,398,,TRUE,Female,Second,Secondary,
-24,421,,TRUE,Female,Third,Secondary,
-30,670,,TRUE,Female,Third,Secondary,
-29,452,,TRUE,Female,Second,Secondary,
-29,372,,TRUE,Female,First,Secondary,
-17,256,,TRUE,Female,Fifth,Secondary,
-28,488,,TRUE,Male,Second,Secondary,
-27,261,,TRUE,Female,Second,Secondary,
-23,180,,TRUE,Female,Second,Secondary,
-20,71,,TRUE,Female,Third,Secondary,
-25,388,,TRUE,Male,First,Secondary,
-25,367,,TRUE,Female,First,Secondary,
-26,83,,TRUE,Male,First,Secondary,
-30,494,,TRUE,Female,First,Secondary,
-19,90,,TRUE,Female,Third,Secondary,
-21,12,,TRUE,Male,First,Secondary,
-21,22,,TRUE,Male,First,Secondary,
-22,62,,TRUE,Female,Second,Secondary,
-22,353,,TRUE,Male,First,Secondary,
-24,375,,TRUE,Male,First,Secondary,
-23,333,,TRUE,Male,Third,Secondary,
-24,278,,TRUE,Female,First,Secondary,
-25,285,,TRUE,Female,,Secondary,
-25,79,,TRUE,Female,,Secondary,
-26,632,,TRUE,Female,First,Secondary,
-29,422,,TRUE,Female,Second,Secondary,
-27,246,,TRUE,Male,Third,Secondary,
-27,282,,TRUE,Female,First,Secondary,
-25,328,,TRUE,Male,First,Secondary,
-26,204,,TRUE,Female,First,Secondary,
-20,32,,TRUE,Male,Second,Secondary,
-29,538,,TRUE,Male,Second,Secondary,
-20,239,,TRUE,Female,First,Secondary,
-27,457,,TRUE,Female,First,Secondary,
-21,132,,TRUE,Male,First,Secondary,
-19,25,,TRUE,Female,First,Secondary,
-27,377,,TRUE,Male,First,Secondary,
-18,77,,TRUE,Male,First,Secondary,
-24,338,,TRUE,Female,Fourth,Secondary,
-16,247,,TRUE,Female,Second,Secondary,
-22,115,,TRUE,Male,Second,Secondary,
-30,214,,TRUE,Male,Third,Secondary,
-21,104,,TRUE,Male,Second,Secondary,
-26,632,,TRUE,Male,Second,Secondary,
-27,415,,TRUE,Female,First,Secondary,
-28,339,,TRUE,Female,First,Secondary,
-28,102,,TRUE,Male,Fourth,Secondary,
-26,646,,TRUE,Male,First,Secondary,
-30,152,,TRUE,Male,Third,Secondary,
-24,239,,TRUE,Male,Second,Secondary,
-24,395,,TRUE,Female,Second,Secondary,
-19,144,,TRUE,Female,First,Secondary,
-22,410,,TRUE,Male,First,Secondary,
-17,28,,TRUE,Male,First,Secondary,
-19,21,,TRUE,Male,First,Secondary,
-20,61,,TRUE,Female,Third,Secondary,
-20,24,,TRUE,Female,First,Secondary,
-20,28,,TRUE,Male,Third,Secondary,
-20,27,,TRUE,Male,Second,Secondary,
-20,16,,TRUE,Male,Second,Secondary,
-21,480,,TRUE,Female,First,Secondary,
-21,300,,TRUE,Female,Third,Secondary,
-23,175,,TRUE,Male,Third,Secondary,
-23,289,,TRUE,Male,Second,Secondary,
-23,144,,TRUE,Male,First,Secondary,
-24,41,,TRUE,Female,First,Secondary,
-24,66,,TRUE,Female,First,Secondary,
-24,411,,TRUE,Female,Second,Secondary,
-24,86,,TRUE,Female,Third,Secondary,
-25,432,,TRUE,Male,Second,Secondary,
-25,154,,TRUE,Male,Second,Secondary,
-26,421,,TRUE,Female,First,Secondary,
-26,252,,TRUE,Male,Third,Secondary,
-26,164,,TRUE,Male,,Secondary,
-27,330,,TRUE,Female,Second,Secondary,
-30,451,,TRUE,Male,First,Secondary,
-16,132,,TRUE,Female,Second,Secondary,
-28,294,,TRUE,Male,Second,Secondary,
-28,677,,TRUE,Male,First,Secondary,
-28,219,,TRUE,Male,Third,Secondary,
-29,536,,TRUE,Female,First,Secondary,
-26,165,,TRUE,Male,Second,Secondary,
-27,195,,TRUE,Male,First,Secondary,
-25,278,,TRUE,Male,Second,Secondary,
-21,130,,TRUE,Male,Second,Secondary,
-18,85,,TRUE,Male,Second,Secondary,
-21,208,,TRUE,Female,First,Secondary,
-22,280,,TRUE,Male,Second,Secondary,
-23,112,,TRUE,Male,First,Secondary,
-30,464,,TRUE,Female,,Secondary,
-18,334,,TRUE,Female,Second,Secondary,
-21,627,,TRUE,Female,First,Secondary,
-24,295,,TRUE,Male,First,Secondary,
-30,366,,TRUE,Female,Fourth,Secondary,
-30,230,,TRUE,Female,First,Secondary,
-26,356,,TRUE,Female,First,Secondary,
-30,526,,TRUE,Female,Second,Secondary,
-23,9,,TRUE,Male,First,Secondary,
-29,380,,TRUE,Male,First,Secondary,
-30,361,,TRUE,Female,First,Secondary,
-29,249,,TRUE,Male,Second,Secondary,
-27,112,,TRUE,Male,Second,Secondary,
-24,138,,TRUE,Female,First,Secondary,
-19,143,,TRUE,Male,,Secondary,
-18,140,,TRUE,Female,First,Secondary,
-26,208,,TRUE,Male,Second,Secondary,
-25,562,,TRUE,Male,First,Secondary,
-19,10,,TRUE,Male,First,Secondary,
-18,39,,TRUE,Male,Third,Secondary,
-20,37,,TRUE,Female,Fourth,Secondary,
-21,173,,TRUE,Female,Second,Secondary,
-20,13,,TRUE,Male,Third,Secondary,
-21,304,,TRUE,Male,Third,Secondary,
-22,52,,TRUE,Male,Third,Secondary,
-23,323,,TRUE,Female,First,Secondary,
-23,60,,TRUE,Female,First,Secondary,
-23,186,,TRUE,Male,Third,Secondary,
-18,61,,TRUE,Male,Second,Secondary,
-21,77,,TRUE,Male,First,Secondary,
-21,95,,TRUE,Male,First,Secondary,
-21,99,,TRUE,Male,First,Secondary,
-21,85,,TRUE,Female,Second,Secondary,
-21,16,,TRUE,Female,Third,Secondary,
-19,8,,TRUE,Male,Second,Secondary,
-20,21,,TRUE,Male,First,Secondary,
-21,345,,TRUE,Female,First,Secondary,
-21,136,,TRUE,Male,First,Secondary,
-26,275,,TRUE,Female,Third,Secondary,
-27,127,,TRUE,Male,Fourth,Secondary,
-29,265,,TRUE,Female,First,Secondary,
-29,373,,TRUE,Female,Third,Secondary,
-24,197,,TRUE,Male,First,Secondary,
-26,636,,TRUE,Male,First,Secondary,
-27,161,,TRUE,Female,Third,Secondary,
-27,408,,TRUE,Female,Third,Secondary,
-27,304,,TRUE,Female,Second,Secondary,
-27,109,,TRUE,Male,Second,Secondary,
-27,392,,TRUE,Male,Second,Secondary,
-28,362,,TRUE,Female,First,Secondary,
-30,352,,TRUE,Female,First,Secondary,
-30,619,,TRUE,Female,First,Secondary,
-30,157,,TRUE,Male,First,Secondary,
-22,492,,TRUE,Male,First,Secondary,
-22,246,,TRUE,Male,,Secondary,
-23,64,,TRUE,Female,Third,Secondary,
-28,94,,TRUE,Male,First,Secondary,
-30,677,,TRUE,Female,First,Secondary,
-27,404,,TRUE,Male,First,Secondary,
-16,80,,TRUE,Male,First,Secondary,
-18,76,,TRUE,Male,First,Secondary,
-16,24,,TRUE,Female,Third,Secondary,
-16,54,,TRUE,Male,First,Secondary,
-17,47,,TRUE,Female,Second,Secondary,
-17,134,,TRUE,Female,Third,Secondary,
-18,42,,TRUE,Female,First,Secondary,
-18,47,,TRUE,Female,First,Secondary,
-18,303,,TRUE,Male,Second,Secondary,
-18,36,,TRUE,Male,Second,Secondary,
-18,17,,TRUE,Male,First,Secondary,
-16,14,,TRUE,Female,Second,Secondary,
-17,326,,TRUE,Female,First,Secondary,
-17,318,,TRUE,Female,Third,Secondary,
-18,238,,TRUE,Male,First,Secondary,
-19,194,,TRUE,Female,First,Secondary,
-20,32,,TRUE,Male,First,Secondary,
-20,374,,TRUE,Male,Second,Secondary,
-24,183,,TRUE,Female,Fourth,Secondary,
-17,24,,TRUE,Male,Second,Secondary,
-16,5,,TRUE,Male,Second,Secondary,
-17,177,,TRUE,Female,First,Secondary,
-16,26,,TRUE,Female,Fourth,Secondary,
-16,61,,TRUE,Female,First,Secondary,
-16,46,,TRUE,Female,First,Secondary,
-16,16,,TRUE,Female,First,Secondary,
-16,57,,TRUE,Female,Third,Secondary,
-16,126,,TRUE,Female,Second,Secondary,
-16,14,,TRUE,Female,First,Secondary,
-16,53,,TRUE,Female,Third,Secondary,
-16,59,,TRUE,Female,First,Secondary,
-18,56,,TRUE,Female,First,Secondary,
-22,116,,TRUE,Male,Second,Secondary,
-22,680,,TRUE,Female,Second,Secondary,
-23,326,,TRUE,Male,First,Secondary,
-17,55,,TRUE,Female,,Secondary,
-22,126,,TRUE,Male,First,Secondary,
-19,50,,TRUE,Male,Second,Secondary,Hispanic
-18,680,,FALSE,Male,Third,Secondary,
-24,680,,FALSE,Male,Third,Secondary,
-25,680,,FALSE,Female,,Secondary,
-26,680,,FALSE,Female,Third,Secondary,
-24,680,,FALSE,Male,Third,Secondary,
-19,680,,FALSE,Male,First,Secondary,
-24,143,,FALSE,Male,First,Secondary,
-24,283,,FALSE,Male,Second,Secondary,
-19,680,,FALSE,Male,Second,Secondary,
-24,680,,FALSE,Male,Second,Secondary,
-20,680,,FALSE,Female,First,Secondary,
-24,346,,FALSE,Female,First,Secondary,
-25,169,,FALSE,Female,First,Secondary,
-20,680,,FALSE,Female,First,Secondary,
-22,77,,FALSE,Male,,Secondary,Hispanic
-30,185,,FALSE,Male,,Secondary,Hispanic
-25,110,,FALSE,Male,,Secondary,Hispanic
-30,443,,FALSE,Female,,Secondary,Hispanic
-30,396,,FALSE,Female,,Secondary,Hispanic
-30,246,,FALSE,Male,,Secondary,Hispanic
-30,219,,FALSE,Female,,Secondary,Hispanic
-30,164,,FALSE,Male,,Secondary,Hispanic
-30,124,,FALSE,Male,,Secondary,Non-Hispanic
-30,67,,FALSE,Male,,Secondary,Hispanic
-30,113,,FALSE,Female,,Secondary,Hispanic
-30,26,,FALSE,Male,,Secondary,Hispanic
-30,306,,FALSE,Female,,Secondary,Hispanic
-30,343,,FALSE,Female,,Secondary,Hispanic
-30,219,,FALSE,Female,,Secondary,Hispanic
-30,455,,FALSE,Female,,Secondary,Hispanic
-30,210,,FALSE,Male,,Secondary,Hispanic
 30,89,,FALSE,Female,,Secondary,Hispanic
 30,474,,FALSE,Female,,Secondary,Hispanic
+30,36,,FALSE,Female,,College,Hispanic
 30,172,,FALSE,Male,,Secondary,Hispanic
+30,282,,FALSE,Female,,Graduate,Hispanic
+30,424,,FALSE,Male,,College,Hispanic
+30,40,,FALSE,Female,,Graduate,Hispanic
+30,285,,FALSE,Male,,Graduate,Hispanic
+30,430,,FALSE,Female,,Graduate,Hispanic
 30,188,,FALSE,Female,,Secondary,Hispanic
+30,47,,FALSE,Male,,Graduate,Hispanic
+30,261,,FALSE,Male,,Some Secondary,Hispanic
 30,165,,FALSE,Male,,Secondary,Hispanic
+30,357,,FALSE,Male,,Graduate,Hispanic
+30,8,,FALSE,Male,,Graduate,Hispanic
+30,503,,FALSE,Male,,College,Hispanic
+30,48,,FALSE,Female,,College,Hispanic
 30,107,,FALSE,Male,,Secondary,Hispanic
 30,590,,FALSE,Female,,Secondary,Hispanic
+30,425,,FALSE,Male,,Graduate,Hispanic
+30,130,,FALSE,Female,,College,Hispanic
+30,409,,FALSE,Female,,Graduate,Hispanic
+30,366,,FALSE,Male,,Graduate,Hispanic
+30,88,,FALSE,Male,,College,Hispanic
+30,392,,FALSE,Male,,Graduate,Hispanic
+30,113,,FALSE,Female,,Graduate,Hispanic
+30,101,,FALSE,Male,,College,Hispanic
+30,105,,FALSE,Male,,Graduate,Hispanic
 30,227,,FALSE,Female,,Secondary,Hispanic
-30,437,,FALSE,Male,,Secondary,Hispanic
-30,92,,FALSE,Male,,Secondary,Hispanic
-30,412,,FALSE,Female,,Secondary,Hispanic
-30,65,,FALSE,Male,,Secondary,Hispanic
-30,342,,FALSE,Female,,Secondary,Hispanic
-19,38,,TRUE,Male,Second,Some College,Hispanic
-26,192,,TRUE,Male,Second,Some College,Hispanic
-22,109,,TRUE,Female,Third,Some College,Hispanic
-28,65,,TRUE,Male,First,Some College,Hispanic
-22,165,,TRUE,Female,First,Some College,Hispanic
-27,434,,TRUE,Female,Second,Some College,Hispanic
-18,26,,TRUE,Female,Second,Some College,Hispanic
-30,143,,TRUE,Female,Second,Some College,Hispanic
-23,116,,TRUE,Female,First,Some College,
-19,95,,TRUE,Female,First,Some College,
-25,397,,TRUE,Male,Third,Some College,
-24,85,,TRUE,Male,First,Some College,Hispanic
-30,118,,TRUE,Male,First,Some College,Hispanic
-29,88,,TRUE,Male,Third,Some College,Hispanic
-25,84,,TRUE,Male,First,Some College,Hispanic
-19,48,,TRUE,Male,First,Some College,Hispanic
-24,94,,TRUE,Female,First,Some College,
-30,311,,TRUE,Male,First,Some College,Hispanic
-30,56,,TRUE,Female,First,Some College,
-25,40,,TRUE,Female,First,Some College,
-30,85,,TRUE,Male,First,Some College,Hispanic
-24,368,,TRUE,Female,First,Some College,Hispanic
-20,68,,TRUE,Male,Third,Some College,Hispanic
-30,247,,TRUE,Male,Third,Some College,Hispanic
-19,98,,TRUE,Female,First,Some College,Hispanic
-29,204,,TRUE,Female,First,Some College,Hispanic
-25,90,,TRUE,Male,First,Some College,Hispanic
-25,19,,TRUE,Male,Fourth,Some College,
-19,23,,TRUE,Male,Fourth,Some College,
-28,6,,TRUE,Male,First,Some College,Hispanic
-19,130,,TRUE,Male,Second,Some College,Hispanic
-25,214,,TRUE,Male,First,Some College,Hispanic
-28,352,,TRUE,Female,First,Some College,Hispanic
-24,360,,TRUE,Female,Second,Some College,Hispanic
-30,510,,TRUE,Female,Second,Some College,Hispanic
-25,11,,TRUE,Male,Second,Some College,Hispanic
-19,24,,TRUE,Male,Second,Some College,Hispanic
-19,21,,TRUE,Female,First,Some College,Hispanic
-25,80,,TRUE,Male,Third,Some College,Hispanic
-24,77,,TRUE,Female,First,Some College,
-20,18,,TRUE,Male,Fourth,Some College,Hispanic
-30,290,,TRUE,Male,First,Some College,Hispanic
-18,36,,TRUE,Male,Second,Some College,
-25,267,,TRUE,Female,First,Some College,
-24,7,,TRUE,Female,First,Some College,Hispanic
-22,42,,TRUE,Female,First,Some College,Hispanic
-20,193,,TRUE,Male,First,Some College,Hispanic
-24,237,,FALSE,Female,First,Some College,
-19,680,,FALSE,Female,First,Some College,
-25,680,,FALSE,Female,First,Some College,
-24,362,,FALSE,Female,First,Some College,
-20,680,,FALSE,Female,First,Some College,
-25,680,,FALSE,Female,Second,Some College,
-19,250,,FALSE,Female,Second,Some College,
-24,12,,TRUE,Female,First,Some Graduate,
-24,316,,TRUE,Female,Second,Some Graduate,Hispanic
-24,87,,TRUE,Male,Second,Some Graduate,Hispanic
-18,15,,TRUE,Female,Third,Some Graduate,
-30,217,,TRUE,Female,Second,Some Graduate,Hispanic
-24,93,,TRUE,Female,Second,Some Graduate,Hispanic
-30,307,,TRUE,Female,Second,Some Secondary,Hispanic
-18,40,,TRUE,Female,Third,Some Secondary,Hispanic
-24,263,,TRUE,Male,Fourth,Some Secondary,Hispanic
-26,8,,TRUE,Female,Second,Some Secondary,Hispanic
-24,78,,TRUE,Male,First,Some Secondary,Hispanic
-24,100,,TRUE,Female,First,Some Secondary,Hispanic
-30,419,,TRUE,Female,Second,Some Secondary,Hispanic
-24,159,,TRUE,Male,First,Some Secondary,Hispanic
-20,73,,TRUE,Male,First,Some Secondary,Hispanic
-24,181,,TRUE,Female,Third,Some Secondary,Hispanic
-19,34,,TRUE,Male,First,Some Secondary,Hispanic
-25,68,,TRUE,Female,Second,Some Secondary,Hispanic
-22,72,,TRUE,Male,First,Some Secondary,Hispanic
-24,103,,TRUE,Female,First,Some Secondary,Hispanic
-18,228,,TRUE,Female,First,Some Secondary,Hispanic
-24,160,,TRUE,Male,Third,Some Secondary,Hispanic
-25,209,,TRUE,Male,Third,Some Secondary,Hispanic
-29,197,,TRUE,Male,First,Some Secondary,Hispanic
-25,220,,TRUE,Male,First,Some Secondary,Hispanic
-21,7,,TRUE,Male,Second,Some Secondary,Hispanic
-25,137,,TRUE,Male,Fourth,Some Secondary,Hispanic
-24,95,,TRUE,Male,Fourth,Some Secondary,Hispanic
-24,40,,TRUE,Male,Second,Some Secondary,Hispanic
-29,643,,TRUE,Female,Fourth,Some Secondary,Hispanic
-17,181,,TRUE,Female,Fourth,Some Secondary,Hispanic
-24,518,,TRUE,Female,Fourth,Some Secondary,Hispanic
-25,47,,TRUE,Female,Third,Some Secondary,Hispanic
-30,528,,TRUE,Female,Second,Some Secondary,Hispanic
-20,52,,TRUE,Male,Second,Some Secondary,
-22,83,,TRUE,Female,Second,Some Secondary,
-20,22,,TRUE,Female,Second,Some Secondary,
-20,102,,TRUE,Female,First,Some Secondary,
-21,66,,TRUE,Male,Third,Some Secondary,
-23,425,,TRUE,Female,Fourth,Some Secondary,
-21,72,,TRUE,Female,Second,Some Secondary,
-21,121,,TRUE,Female,Second,Some Secondary,
-30,502,,TRUE,Female,First,Some Secondary,
-19,56,,TRUE,Male,First,Some Secondary,
-19,14,,TRUE,Male,First,Some Secondary,
-19,16,,TRUE,Male,First,Some Secondary,
-19,150,,TRUE,Female,Second,Some Secondary,
-18,9,,TRUE,Female,Second,Some Secondary,
-17,3,,TRUE,Female,Second,Some Secondary,
-29,533,,TRUE,Female,First,Some Secondary,
-30,365,,TRUE,Female,First,Some Secondary,
-29,381,,TRUE,Female,First,Some Secondary,
-30,117,,TRUE,Female,Third,Some Secondary,
-30,662,,TRUE,Female,First,Some Secondary,
-21,111,,TRUE,Female,First,Some Secondary,
-21,261,,TRUE,Female,First,Some Secondary,
-21,25,,TRUE,Male,First,Some Secondary,
-18,24,,TRUE,Female,First,Some Secondary,
-17,8,,TRUE,Female,First,Some Secondary,
-19,612,,TRUE,Male,Second,Some Secondary,
-18,22,,TRUE,Female,First,Some Secondary,
-19,158,,TRUE,Female,First,Some Secondary,
-18,50,,TRUE,Female,First,Some Secondary,
-18,30,,TRUE,Male,First,Some Secondary,
-25,197,,TRUE,Male,Second,Some Secondary,
-28,439,,TRUE,Male,Second,Some Secondary,
-26,544,,TRUE,Male,First,Some Secondary,
-16,8,,TRUE,Male,Second,Some Secondary,
-21,32,,TRUE,Female,Third,Some Secondary,
-28,506,,TRUE,Female,Second,Some Secondary,
-26,260,,TRUE,Female,First,Some Secondary,
-27,676,,TRUE,Female,Third,Some Secondary,
-27,115,,TRUE,Male,Second,Some Secondary,
-25,142,,TRUE,Male,First,Some Secondary,
-23,11,,TRUE,Male,Second,Some Secondary,
-25,288,,TRUE,Male,Third,Some Secondary,
-23,338,,TRUE,Female,Third,Some Secondary,
-24,333,,TRUE,Female,First,Some Secondary,
-23,27,,TRUE,Male,Third,Some Secondary,
-22,245,,TRUE,Female,,Some Secondary,
-23,81,,TRUE,Female,First,Some Secondary,
-16,307,,TRUE,Female,First,Some Secondary,
-25,303,,TRUE,Male,First,Some Secondary,
-29,122,,TRUE,Male,First,Some Secondary,
-24,124,,TRUE,Male,Second,Some Secondary,
-25,360,,TRUE,Male,Second,Some Secondary,
-24,309,,TRUE,Male,First,Some Secondary,
-26,115,,TRUE,Female,Second,Some Secondary,
-26,221,,TRUE,Male,First,Some Secondary,
-24,527,,TRUE,Female,First,Some Secondary,
-23,181,,TRUE,Male,Second,Some Secondary,
-25,21,,TRUE,Female,First,Some Secondary,
-22,125,,TRUE,Male,First,Some Secondary,
-24,612,,TRUE,Male,Fourth,Some Secondary,
-26,297,,TRUE,Female,Second,Some Secondary,
-29,558,,TRUE,Female,First,Some Secondary,
-23,375,,TRUE,Male,First,Some Secondary,
-25,89,,TRUE,Male,Third,Some Secondary,
-26,105,,TRUE,Female,Third,Some Secondary,
-26,32,,TRUE,Male,Second,Some Secondary,
-28,40,,TRUE,Male,Third,Some Secondary,
-28,506,,TRUE,Female,Second,Some Secondary,
-28,1,,TRUE,Male,First,Some Secondary,
-17,26,,TRUE,Male,Second,Some Secondary,
-22,274,,TRUE,Female,Third,Some Secondary,
-30,262,,TRUE,Male,First,Some Secondary,
-22,58,,TRUE,Male,First,Some Secondary,
-25,18,,TRUE,Male,,Some Secondary,
-20,92,,TRUE,Female,Second,Some Secondary,
-21,215,,TRUE,Female,First,Some Secondary,
-28,147,,TRUE,Male,First,Some Secondary,
-23,105,,TRUE,Female,First,Some Secondary,
-30,482,,TRUE,Male,Second,Some Secondary,
-29,653,,TRUE,Female,Second,Some Secondary,
-24,53,,TRUE,Male,Third,Some Secondary,
-29,298,,TRUE,Female,,Some Secondary,
-20,104,,TRUE,Female,Third,Some Secondary,
-25,148,,TRUE,Female,Third,Some Secondary,
-23,31,,TRUE,Female,Fourth,Some Secondary,
-28,47,,TRUE,Male,,Some Secondary,
-23,81,,TRUE,Female,Third,Some Secondary,
-30,406,,TRUE,Male,First,Some Secondary,
-24,391,,TRUE,Male,First,Some Secondary,
-18,42,,TRUE,Male,First,Some Secondary,
-29,625,,TRUE,Female,,Some Secondary,
-30,583,,TRUE,Male,First,Some Secondary,
-20,86,,TRUE,Female,Second,Some Secondary,
-22,482,,TRUE,Female,,Some Secondary,
-22,45,,TRUE,Female,Fourth,Some Secondary,
-22,145,,TRUE,Female,Third,Some Secondary,
-25,501,,TRUE,Female,Second,Some Secondary,
-25,76,,TRUE,Male,Second,Some Secondary,
-26,325,,TRUE,Male,First,Some Secondary,
-28,569,,TRUE,Female,First,Some Secondary,
-26,245,,TRUE,Male,Third,Some Secondary,
-28,382,,TRUE,Male,Third,Some Secondary,
-28,50,,TRUE,Male,Third,Some Secondary,
-29,88,,TRUE,Female,First,Some Secondary,
-28,287,,TRUE,Female,Second,Some Secondary,
-21,82,,TRUE,Female,Fourth,Some Secondary,
-24,129,,TRUE,Male,First,Some Secondary,
-26,382,,TRUE,Male,,Some Secondary,
-20,82,,TRUE,Male,Fifth,Some Secondary,
-21,94,,TRUE,Male,First,Some Secondary,
-25,554,,TRUE,Female,,Some Secondary,
-25,199,,TRUE,Male,Second,Some Secondary,
-18,462,,TRUE,Male,Fourth,Some Secondary,
-21,9,,TRUE,Female,First,Some Secondary,
-28,366,,TRUE,Male,Second,Some Secondary,
-27,417,,TRUE,Female,,Some Secondary,
-29,75,,TRUE,Male,Second,Some Secondary,
-29,665,,TRUE,Female,First,Some Secondary,
-25,468,,TRUE,Male,First,Some Secondary,
-25,192,,TRUE,Male,Second,Some Secondary,
-27,309,,TRUE,Female,First,Some Secondary,
-28,134,,TRUE,Male,First,Some Secondary,
-21,492,,TRUE,Female,Third,Some Secondary,
-29,483,,TRUE,Female,Second,Some Secondary,
-26,163,,TRUE,Male,Second,Some Secondary,
-18,57,,TRUE,Male,Fourth,Some Secondary,
-24,589,,TRUE,Male,Third,Some Secondary,
-23,53,,TRUE,Female,Third,Some Secondary,
-25,66,,TRUE,Female,First,Some Secondary,
-28,372,,TRUE,Female,Second,Some Secondary,
-30,173,,TRUE,Male,Second,Some Secondary,
-27,343,,TRUE,Female,First,Some Secondary,
-25,66,,TRUE,Male,Second,Some Secondary,
-23,335,,TRUE,Female,First,Some Secondary,
-24,130,,TRUE,Female,First,Some Secondary,
-29,244,,TRUE,Female,,Some Secondary,
-27,284,,TRUE,Male,,Some Secondary,
-19,147,,TRUE,Male,Third,Some Secondary,
-26,209,,TRUE,Female,Second,Some Secondary,
-28,320,,TRUE,Female,Second,Some Secondary,
-19,196,,TRUE,Male,Fifth,Some Secondary,
-25,342,,TRUE,Female,Second,Some Secondary,
-23,330,,TRUE,Male,First,Some Secondary,
-24,37,,TRUE,Female,Fifth,Some Secondary,
-22,365,,TRUE,Female,First,Some Secondary,
-28,452,,TRUE,Male,,Some Secondary,
-26,140,,TRUE,Female,Second,Some Secondary,
-26,155,,TRUE,Male,Second,Some Secondary,
-27,324,,TRUE,Female,Second,Some Secondary,
-22,344,,TRUE,Male,First,Some Secondary,
-19,92,,TRUE,Female,First,Some Secondary,
-17,208,,TRUE,Male,Second,Some Secondary,
-18,251,,TRUE,Female,Third,Some Secondary,
-18,166,,TRUE,Male,Fifth,Some Secondary,
-19,149,,TRUE,Female,Fourth,Some Secondary,
-21,112,,TRUE,Female,First,Some Secondary,
-23,98,,TRUE,Female,Fourth,Some Secondary,
-23,60,,TRUE,Female,Second,Some Secondary,
-22,123,,TRUE,Male,First,Some Secondary,
-21,249,,TRUE,Male,Second,Some Secondary,
-23,374,,TRUE,Male,First,Some Secondary,
-24,5,,TRUE,Female,Second,Some Secondary,
-24,304,,TRUE,Female,Second,Some Secondary,
-24,3,,TRUE,Male,Second,Some Secondary,
-25,183,,TRUE,Female,,Some Secondary,
-25,590,,TRUE,Female,Second,Some Secondary,
-26,98,,TRUE,Female,Third,Some Secondary,
-26,458,,TRUE,Male,Fifth,Some Secondary,
-27,654,,TRUE,Female,First,Some Secondary,
-27,357,,TRUE,Female,Fourth,Some Secondary,
-30,543,,TRUE,Male,,Some Secondary,
-30,161,,TRUE,Male,Second,Some Secondary,
-28,428,,TRUE,Female,,Some Secondary,
-28,505,,TRUE,Female,First,Some Secondary,
-28,61,,TRUE,Male,Fifth,Some Secondary,
-27,416,,TRUE,Female,,Some Secondary,
-26,176,,TRUE,Male,Second,Some Secondary,
-19,126,,TRUE,Male,First,Some Secondary,
-19,59,,TRUE,Male,Third,Some Secondary,
-18,8,,TRUE,Male,,Some Secondary,
-21,138,,TRUE,Female,Second,Some Secondary,
-23,208,,TRUE,Male,First,Some Secondary,
-16,3,,TRUE,Male,Second,Some Secondary,
-17,63,,TRUE,Male,Third,Some Secondary,
-18,200,,TRUE,Female,First,Some Secondary,
-19,130,,TRUE,Male,Third,Some Secondary,
-20,173,,TRUE,Female,Third,Some Secondary,
-20,439,,TRUE,Female,First,Some Secondary,
-29,396,,TRUE,Male,First,Some Secondary,
-30,673,,TRUE,Female,Second,Some Secondary,
-24,287,,TRUE,Female,First,Some Secondary,
-24,181,,TRUE,Male,,Some Secondary,
-19,125,,TRUE,Male,Second,Some Secondary,
-21,365,,TRUE,Male,Third,Some Secondary,
-28,270,,TRUE,Male,Fourth,Some Secondary,
-16,152,,TRUE,Female,Fifth,Some Secondary,
-27,235,,TRUE,Male,,Some Secondary,
-27,409,,TRUE,Female,Second,Some Secondary,
-22,103,,TRUE,Male,Fourth,Some Secondary,
-26,345,,TRUE,Female,First,Some Secondary,
-20,81,,TRUE,Female,Second,Some Secondary,
-21,60,,TRUE,Male,Third,Some Secondary,
-22,38,,TRUE,Female,Second,Some Secondary,
-22,339,,TRUE,Male,Fourth,Some Secondary,
-23,375,,TRUE,Female,Second,Some Secondary,
-23,35,,TRUE,Female,First,Some Secondary,
-23,100,,TRUE,Male,Second,Some Secondary,
-18,22,,TRUE,Male,First,Some Secondary,
-22,314,,TRUE,Male,Second,Some Secondary,
-24,44,,TRUE,Male,First,Some Secondary,
-28,373,,TRUE,Female,Second,Some Secondary,
-30,661,,TRUE,Female,Second,Some Secondary,
-30,469,,TRUE,Female,Fourth,Some Secondary,
-26,83,,TRUE,Female,Third,Some Secondary,
-27,286,,TRUE,Male,Second,Some Secondary,
-29,553,,TRUE,Male,Second,Some Secondary,
-30,146,,TRUE,Female,First,Some Secondary,
-30,233,,TRUE,Male,Third,Some Secondary,
-30,420,,TRUE,Male,Third,Some Secondary,
-18,58,,TRUE,Male,Second,Some Secondary,
-20,60,,TRUE,Male,Third,Some Secondary,
-16,39,,TRUE,Male,First,Some Secondary,
-18,167,,TRUE,Female,First,Some Secondary,
-19,249,,TRUE,Male,First,Some Secondary,
-18,289,,TRUE,Male,Third,Some Secondary,
-23,252,,TRUE,Male,Second,Some Secondary,
-18,229,,TRUE,Male,Second,Some Secondary,
-19,233,,TRUE,Male,Fourth,Some Secondary,
-22,56,,TRUE,Male,,Some Secondary,
-29,363,,TRUE,Male,First,Some Secondary,
-16,39,,TRUE,Female,First,Some Secondary,
-16,4,,TRUE,Female,Second,Some Secondary,
-16,16,,TRUE,Male,Third,Some Secondary,
-22,146,,TRUE,Male,Second,Some Secondary,
-17,155,,TRUE,Female,First,Some Secondary,
-17,27,,TRUE,Male,First,Some Secondary,
-20,552,,TRUE,Male,First,Some Secondary,
-20,279,,TRUE,Male,Fourth,Some Secondary,
-29,194,,TRUE,Male,First,Some Secondary,
-16,51,,TRUE,Female,Third,Some Secondary,
-24,680,,FALSE,Female,First,Some Secondary,
-20,680,,FALSE,Female,Third,Some Secondary,
-25,258,,FALSE,Female,Second,Some Secondary,
-20,680,,FALSE,Female,Second,Some Secondary,
-20,680,,FALSE,Male,First,Some Secondary,
-25,190,,FALSE,Male,First,Some Secondary,
-25,680,,FALSE,Male,Third,Some Secondary,
-21,680,,FALSE,Male,Third,Some Secondary,
-25,352,,FALSE,Male,Third,Some Secondary,
-19,680,,FALSE,Male,First,Some Secondary,
-24,273,,FALSE,Male,First,Some Secondary,
-19,680,,FALSE,Male,Second,Some Secondary,
-24,512,,FALSE,Male,Second,Some Secondary,
-22,680,,FALSE,Female,Second,Some Secondary,
-25,23,,FALSE,Female,Second,Some Secondary,
-25,680,,FALSE,Male,Second,Some Secondary,
-30,261,,FALSE,Male,,Some Secondary,Hispanic
-30,415,,FALSE,Female,,Some Secondary,Hispanic
+30,222,,FALSE,Male,,Graduate,Hispanic
+30,287,,FALSE,Male,,Graduate,Hispanic
+30,200,,FALSE,Male,,Graduate,Hispanic
 30,262,,FALSE,Male,,Some Secondary,Hispanic
+30,121,,FALSE,Male,,College,Hispanic
+30,63,,FALSE,Male,,Graduate,Hispanic
+30,437,,FALSE,Male,,Secondary,Hispanic
 30,318,,FALSE,Female,,Some Secondary,Hispanic
+30,108,,FALSE,Female,,College,Hispanic
+30,92,,FALSE,Male,,Secondary,Hispanic
+30,373,,FALSE,Male,,Graduate,Hispanic
+30,412,,FALSE,Female,,Secondary,Hispanic
+30,510,,FALSE,Female,,Graduate,Hispanic
+30,112,,FALSE,Female,,College,Hispanic
+30,206,,FALSE,Female,,Graduate,Hispanic
+30,330,,FALSE,Female,,Graduate,Hispanic
+30,65,,FALSE,Male,,Secondary,Hispanic
+30,324,,FALSE,Male,,Graduate,Hispanic
+30,276,,FALSE,Male,,Graduate,Hispanic
+30,161,,FALSE,Female,,College,Hispanic
+30,90,,FALSE,Female,,Graduate,Hispanic
+30,342,,FALSE,Female,,Secondary,Hispanic
+30,65,,FALSE,Male,,College,Hispanic
+30,247,,FALSE,Male,,Graduate,Hispanic
+30,626,,FALSE,Male,,Graduate,Hispanic
+30,68,,FALSE,Female,,Graduate,Hispanic
+30,350,,FALSE,Male,,Graduate,Hispanic
+30,265,,FALSE,Male,,Graduate,Hispanic
+30,319,,FALSE,Male,,College,Hispanic
+30,185,,FALSE,Male,,Secondary,Hispanic
+30,57,,FALSE,Female,,Graduate,Hispanic
+30,63,,FALSE,Female,,Graduate,Hispanic
+30,266,,FALSE,Male,,Graduate,Hispanic
+30,107,,FALSE,Male,,,Hispanic
+30,436,,FALSE,Female,,,Hispanic
+30,126,,FALSE,Female,,,Hispanic
+30,641,,FALSE,Male,,,Hispanic
+30,239,,FALSE,Female,,,Hispanic
+30,238,,FALSE,Female,,,Hispanic
+30,210,,FALSE,Male,,,Non-Hispanic
+30,59,,FALSE,Male,,,Hispanic
+30,16,,FALSE,Male,,,Hispanic
+30,89,,FALSE,Female,,,Hispanic
+30,462,,FALSE,Female,,,Hispanic
+30,337,,FALSE,Female,,,Hispanic
+30,505,,FALSE,Male,,,Hispanic
+30,290,,FALSE,Female,,,Hispanic
+30,310,,FALSE,Female,,,Hispanic
+30,57,,FALSE,Male,,,Hispanic
+30,80,,FALSE,Male,,,Hispanic
+30,131,,FALSE,Female,,,Hispanic
+30,76,,FALSE,Female,,,Hispanic
+30,121,,FALSE,Female,,,Hispanic
+30,178,,FALSE,Male,,,Hispanic
+30,19,,FALSE,Female,,,Hispanic
+30,112,,FALSE,Female,,,Hispanic
+30,31,,FALSE,Male,,,Hispanic
+30,53,,FALSE,Male,,,Hispanic
+30,125,,FALSE,Male,,,Hispanic
+30,47,,FALSE,Female,,,Hispanic
+30,38,,FALSE,Male,,,Hispanic
+30,30,,FALSE,Female,,,Non-Hispanic
+30,575,,FALSE,Male,,,Hispanic
+30,199,,FALSE,Male,,,Hispanic
+30,61,,FALSE,Female,,,Hispanic
+30,166,,FALSE,Male,,,Hispanic
+30,241,,FALSE,Female,,,Non-Hispanic
+30,68,,FALSE,Female,,,Hispanic
+30,162,,FALSE,Female,,,Hispanic
+30,391,,FALSE,Female,,,Hispanic
+30,60,,FALSE,Female,,,Hispanic
+30,33,,FALSE,Male,,,Hispanic
+30,156,,FALSE,Female,,,Hispanic
+30,576,,FALSE,Male,,,Hispanic
+30,281,,FALSE,Male,,,Hispanic
+30,0,,FALSE,Female,,,Hispanic
+30,253,,FALSE,Male,,,Non-Hispanic

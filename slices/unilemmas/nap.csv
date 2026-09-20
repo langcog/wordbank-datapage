@@ -52,9 +52,9 @@ Arabic (Saudi),All,8,قيلولة (غفوة/ نام),19,understands,0
 Arabic (Saudi),All,9,قيلولة (غفوة/ نام),18,produces,0
 Arabic (Saudi),All,9,قيلولة (غفوة/ نام),18,understands,0
 Arabic (Saudi),All,10,قيلولة (غفوة/ نام),25,produces,0
-Arabic (Saudi),All,10,قيلولة (غفوة/ نام),25,understands,0
+Arabic (Saudi),All,10,قيلولة (غفوة/ نام),25,understands,0.08
 Arabic (Saudi),All,11,قيلولة (غفوة/ نام),21,produces,0.0476
-Arabic (Saudi),All,11,قيلولة (غفوة/ نام),21,understands,0
+Arabic (Saudi),All,11,قيلولة (غفوة/ نام),21,understands,0.0952
 Arabic (Saudi),All,12,قيلولة (غفوة/ نام),19,produces,0
 Arabic (Saudi),All,12,قيلولة (غفوة/ نام),19,understands,0
 Arabic (Saudi),All,13,قيلولة (غفوة/ نام),36,produces,0.0278
@@ -64,7 +64,47 @@ Arabic (Saudi),All,14,قيلولة (غفوة/ نام),20,understands,0
 Arabic (Saudi),All,15,قيلولة (غفوة/ نام),19,produces,0.0526
 Arabic (Saudi),All,15,قيلولة (غفوة/ نام),19,understands,0
 Arabic (Saudi),All,16,قيلولة (غفوة/ نام),18,produces,0.1111
-Arabic (Saudi),All,16,قيلولة (غفوة/ نام),18,understands,0
+Arabic (Saudi),All,16,قيلولة (غفوة/ نام),18,understands,0.1111
+Arabic (Saudi),All,17,قيلولة (غفوة/ نام),35,produces,0.1143
+Arabic (Saudi),All,17,قيلولة (غفوة/ نام),35,understands,0.0286
+Arabic (Saudi),All,18,قيلولة (غفوة/ نام),32,produces,0.0625
+Arabic (Saudi),All,18,قيلولة (غفوة/ نام),32,understands,0
+Arabic (Saudi),All,19,قيلولة (غفوة/ نام),30,produces,0.1
+Arabic (Saudi),All,19,قيلولة (غفوة/ نام),30,understands,0.1333
+Arabic (Saudi),All,20,قيلولة (غفوة/ نام),31,produces,0.1613
+Arabic (Saudi),All,20,قيلولة (غفوة/ نام),31,understands,0.1935
+Arabic (Saudi),All,21,قيلولة (غفوة/ نام),34,produces,0.2941
+Arabic (Saudi),All,21,قيلولة (غفوة/ نام),34,understands,0.0294
+Arabic (Saudi),All,22,قيلولة (غفوة/ نام),28,produces,0.1071
+Arabic (Saudi),All,22,قيلولة (غفوة/ نام),28,understands,0.1071
+Arabic (Saudi),All,23,قيلولة (غفوة/ نام),39,produces,0.2564
+Arabic (Saudi),All,23,قيلولة (غفوة/ نام),39,understands,0.0769
+Arabic (Saudi),All,24,قيلولة (غفوة/ نام),30,produces,0.3
+Arabic (Saudi),All,24,قيلولة (غفوة/ نام),30,understands,0.1
+Arabic (Saudi),All,25,قيلولة (غفوة/ نام),34,produces,0.1471
+Arabic (Saudi),All,25,قيلولة (غفوة/ نام),34,understands,0.1471
+Arabic (Saudi),All,26,قيلولة (غفوة/ نام),30,produces,0.2
+Arabic (Saudi),All,26,قيلولة (غفوة/ نام),30,understands,0.1667
+Arabic (Saudi),All,27,قيلولة (غفوة/ نام),37,produces,0.3243
+Arabic (Saudi),All,27,قيلولة (غفوة/ نام),37,understands,0.2432
+Arabic (Saudi),All,28,قيلولة (غفوة/ نام),36,produces,0.3611
+Arabic (Saudi),All,28,قيلولة (غفوة/ نام),36,understands,0.3333
+Arabic (Saudi),All,29,قيلولة (غفوة/ نام),40,produces,0.225
+Arabic (Saudi),All,29,قيلولة (غفوة/ نام),40,understands,0.275
+Arabic (Saudi),All,30,قيلولة (غفوة/ نام),64,produces,0.2812
+Arabic (Saudi),All,30,قيلولة (غفوة/ نام),64,understands,0.3594
+Arabic (Saudi),All,31,قيلولة (غفوة/ نام),24,produces,0.5417
+Arabic (Saudi),All,31,قيلولة (غفوة/ نام),24,understands,0.375
+Arabic (Saudi),All,32,قيلولة (غفوة/ نام),22,produces,0.7273
+Arabic (Saudi),All,32,قيلولة (غفوة/ نام),22,understands,0.5909
+Arabic (Saudi),All,33,قيلولة (غفوة/ نام),34,produces,0.7353
+Arabic (Saudi),All,33,قيلولة (غفوة/ نام),34,understands,0.7059
+Arabic (Saudi),All,34,قيلولة (غفوة/ نام),18,produces,0.8333
+Arabic (Saudi),All,34,قيلولة (غفوة/ نام),18,understands,0.7222
+Arabic (Saudi),All,35,قيلولة (غفوة/ نام),17,produces,0.9412
+Arabic (Saudi),All,35,قيلولة (غفوة/ نام),17,understands,0.8824
+Arabic (Saudi),All,36,قيلولة (غفوة/ نام),32,produces,0.9375
+Arabic (Saudi),All,36,قيلولة (غفوة/ نام),32,understands,0.8438
 British Sign Language,All,8,nap,4,produces,0
 British Sign Language,All,8,nap,4,understands,0
 British Sign Language,All,9,nap,4,produces,0
@@ -227,52 +267,112 @@ Danish,All,35,sove til middag,113,produces,0.8673
 Danish,All,35,sove til middag,113,understands,0
 Danish,All,36,sove til middag,126,produces,0.9206
 Danish,All,36,sove til middag,126,understands,0
+Dutch,All,12,slaapje doen,3,produces,0
+Dutch,All,12,slaapje doen,3,understands,0.6667
+Dutch,All,14,slaapje doen,2,produces,0
+Dutch,All,14,slaapje doen,2,understands,0.5
+Dutch,All,15,slaapje doen,3,produces,0
+Dutch,All,15,slaapje doen,3,understands,0.3333
+Dutch,All,16,slaapje doen,3,produces,0
+Dutch,All,16,slaapje doen,3,understands,0.6667
+Dutch,All,17,slaapje doen,2,produces,0
+Dutch,All,17,slaapje doen,2,understands,0.5
+Dutch,All,18,slaapje doen,3,produces,0
+Dutch,All,18,slaapje doen,3,understands,0.3333
+Dutch,All,19,slaapje doen,3,produces,0
+Dutch,All,19,slaapje doen,3,understands,1
+Dutch,All,20,slaapje doen,4,produces,0
+Dutch,All,20,slaapje doen,4,understands,0.75
+Dutch,All,21,slaapje doen,6,produces,0
+Dutch,All,21,slaapje doen,6,understands,0.3333
+Dutch,All,22,slaapje doen,7,produces,0.1429
+Dutch,All,22,slaapje doen,7,understands,0.7143
+Dutch,All,23,slaapje doen,5,produces,0.2
+Dutch,All,23,slaapje doen,5,understands,0.4
+Dutch,All,24,slaapje doen,3,produces,0
+Dutch,All,24,slaapje doen,3,understands,0.6667
+Dutch,All,25,slaapje doen,5,produces,0.2
+Dutch,All,25,slaapje doen,5,understands,0.4
+Dutch,All,26,slaapje doen,3,produces,0
+Dutch,All,26,slaapje doen,3,understands,0.6667
+Dutch,All,27,slaapje doen,7,produces,0.4286
+Dutch,All,27,slaapje doen,7,understands,1
+Dutch,All,28,slaapje doen,3,produces,0.3333
+Dutch,All,28,slaapje doen,3,understands,0.6667
+Dutch,All,29,slaapje doen,4,produces,0
+Dutch,All,29,slaapje doen,4,understands,0.5
+Dutch,All,30,slaapje doen,5,produces,0.6
+Dutch,All,30,slaapje doen,5,understands,0.8
+Dutch,All,31,slaapje doen,8,produces,0.125
+Dutch,All,31,slaapje doen,8,understands,0.625
+Dutch,All,32,slaapje doen,6,produces,0.1667
+Dutch,All,32,slaapje doen,6,understands,0.5
+Dutch,All,33,slaapje doen,1,produces,0
+Dutch,All,33,slaapje doen,1,understands,1
+Dutch,All,34,slaapje doen,3,produces,0.3333
+Dutch,All,34,slaapje doen,3,understands,1
+Dutch,All,35,slaapje doen,6,produces,0.1667
+Dutch,All,35,slaapje doen,6,understands,0.8333
+Dutch,All,36,slaapje doen,2,produces,0
+Dutch,All,36,slaapje doen,2,understands,0.5
 English (American),All,8,nap,255,produces,0.0118
 English (American),All,8,nap,255,understands,0.1882
-English (American),All,9,nap,299,produces,0.0134
-English (American),All,9,nap,299,understands,0.2943
+English (American),All,9,nap,300,produces,0.0133
+English (American),All,9,nap,300,understands,0.2933
 English (American),All,10,nap,279,produces,0.0072
 English (American),All,10,nap,279,understands,0.2867
 English (American),All,11,nap,360,produces,0.0083
 English (American),All,11,nap,360,understands,0.425
 English (American),All,12,nap,615,produces,0.0195
 English (American),All,12,nap,615,understands,0.4569
-English (American),All,13,nap,1039,produces,0.0241
-English (American),All,13,nap,1039,understands,0.5525
-English (American),All,14,nap,455,produces,0.0374
-English (American),All,14,nap,455,understands,0.5319
-English (American),All,15,nap,245,produces,0.0776
-English (American),All,15,nap,245,understands,0.6531
-English (American),All,16,nap,1750,produces,0.076
-English (American),All,16,nap,1750,understands,0.372
-English (American),All,17,nap,831,produces,0.1215
-English (American),All,17,nap,831,understands,0.3478
-English (American),All,18,nap,1024,produces,0.1719
-English (American),All,18,nap,1024,understands,0.3164
-English (American),All,19,nap,570,produces,0.2684
-English (American),All,19,nap,570,understands,0
-English (American),All,20,nap,537,produces,0.2626
-English (American),All,20,nap,537,understands,0
-English (American),All,21,nap,366,produces,0.3415
-English (American),All,21,nap,366,understands,0
-English (American),All,22,nap,454,produces,0.4229
-English (American),All,22,nap,454,understands,0
-English (American),All,23,nap,470,produces,0.5489
-English (American),All,23,nap,470,understands,0
-English (American),All,24,nap,985,produces,0.598
-English (American),All,24,nap,985,understands,0
-English (American),All,25,nap,757,produces,0.6843
-English (American),All,25,nap,757,understands,0
-English (American),All,26,nap,435,produces,0.6966
-English (American),All,26,nap,435,understands,0
-English (American),All,27,nap,361,produces,0.7535
-English (American),All,27,nap,361,understands,0
+English (American),All,13,nap,1040,produces,0.024
+English (American),All,13,nap,1040,understands,0.5519
+English (American),All,14,nap,460,produces,0.037
+English (American),All,14,nap,460,understands,0.5283
+English (American),All,15,nap,284,produces,0.0669
+English (American),All,15,nap,284,understands,0.6408
+English (American),All,16,nap,1811,produces,0.0756
+English (American),All,16,nap,1811,understands,0.3799
+English (American),All,17,nap,1158,produces,0.0898
+English (American),All,17,nap,1158,understands,0.272
+English (American),All,18,nap,1406,produces,0.1273
+English (American),All,18,nap,1406,understands,0.2489
+English (American),All,19,nap,573,produces,0.2688
+English (American),All,19,nap,573,understands,0
+English (American),All,20,nap,544,produces,0.2629
+English (American),All,20,nap,544,understands,0
+English (American),All,21,nap,492,produces,0.3435
+English (American),All,21,nap,492,understands,0
+English (American),All,22,nap,481,produces,0.4179
+English (American),All,22,nap,481,understands,0
+English (American),All,23,nap,496,produces,0.5464
+English (American),All,23,nap,496,understands,0
+English (American),All,24,nap,1115,produces,0.5794
+English (American),All,24,nap,1115,understands,0.0027
+English (American),All,25,nap,775,produces,0.6865
+English (American),All,25,nap,775,understands,0
+English (American),All,26,nap,437,produces,0.6957
+English (American),All,26,nap,437,understands,0.0046
+English (American),All,27,nap,362,produces,0.7541
+English (American),All,27,nap,362,understands,0
 English (American),All,28,nap,954,produces,0.8753
-English (American),All,28,nap,954,understands,0
-English (American),All,29,nap,390,produces,0.8026
-English (American),All,29,nap,390,understands,0
-English (American),All,30,nap,785,produces,0.7758
-English (American),All,30,nap,785,understands,0
+English (American),All,28,nap,954,understands,0.001
+English (American),All,29,nap,393,produces,0.8015
+English (American),All,29,nap,393,understands,0.0025
+English (American),All,30,nap,885,produces,0.7864
+English (American),All,30,nap,885,understands,0
+English (American),All,31,nap,284,produces,0.8592
+English (American),All,31,nap,284,understands,0.007
+English (American),All,32,nap,148,produces,0.7838
+English (American),All,32,nap,148,understands,0.0135
+English (American),All,33,nap,54,produces,0.8148
+English (American),All,33,nap,54,understands,0
+English (American),All,34,nap,26,produces,0.9231
+English (American),All,34,nap,26,understands,0.1538
+English (American),All,35,nap,34,produces,0.7353
+English (American),All,35,nap,34,understands,0.0588
+English (American),All,36,nap,90,produces,0.7444
+English (American),All,36,nap,90,understands,0.0556
 English (Australian),All,12,nap,71,produces,0
 English (Australian),All,12,nap,71,understands,0
 English (Australian),All,13,nap,64,produces,0
@@ -311,34 +411,114 @@ English (Australian),All,29,nap,65,produces,0.6769
 English (Australian),All,29,nap,65,understands,0
 English (Australian),All,30,nap,53,produces,0.6981
 English (Australian),All,30,nap,53,understands,0
-English (British),All,12,nap,27,produces,0
-English (British),All,12,nap,27,understands,0.1852
-English (British),All,13,nap,7,produces,0
-English (British),All,13,nap,7,understands,0.4286
-English (British),All,14,nap,64,produces,0
-English (British),All,14,nap,64,understands,0.2969
-English (British),All,15,nap,88,produces,0
-English (British),All,15,nap,88,understands,0.3864
-English (British),All,16,nap,118,produces,0.0339
-English (British),All,16,nap,118,understands,0.5085
-English (British),All,17,nap,197,produces,0.0457
-English (British),All,17,nap,197,understands,0.4822
-English (British),All,18,nap,118,produces,0.0932
-English (British),All,18,nap,118,understands,0.5593
-English (British),All,19,nap,109,produces,0.0734
-English (British),All,19,nap,109,understands,0.6789
-English (British),All,20,nap,144,produces,0.1944
-English (British),All,20,nap,144,understands,0.6597
-English (British),All,21,nap,75,produces,0.2133
-English (British),All,21,nap,75,understands,0.7467
-English (British),All,22,nap,28,produces,0.25
-English (British),All,22,nap,28,understands,0.7143
-English (British),All,23,nap,112,produces,0.3214
-English (British),All,23,nap,112,understands,0.7411
-English (British),All,24,nap,87,produces,0.4368
-English (British),All,24,nap,87,understands,0.8736
-English (British),All,25,nap,36,produces,0.5
-English (British),All,25,nap,36,understands,0.8056
+English (British),All,8,L Words for games and routines - 13 nap,106,produces,0
+English (British),All,8,L Words for games and routines - 13 nap,106,understands,0.1321
+English (British),All,9,L Words for games and routines - 13 nap,137,produces,0.0073
+English (British),All,9,L Words for games and routines - 13 nap,137,understands,0.1533
+English (British),All,10,L Words for games and routines - 13 nap,128,produces,0
+English (British),All,10,L Words for games and routines - 13 nap,128,understands,0.2969
+English (British),All,11,L Words for games and routines - 13 nap,110,produces,0
+English (British),All,11,L Words for games and routines - 13 nap,110,understands,0.2909
+English (British),All,12,"nap, L Words for games and routines - 13 nap",205,produces,0.0195
+English (British),All,12,"nap, L Words for games and routines - 13 nap",205,understands,0.3024
+English (British),All,13,"nap, L Words for games and routines - 13 nap",178,produces,0.0056
+English (British),All,13,"nap, L Words for games and routines - 13 nap",178,understands,0.3876
+English (British),All,14,"nap, L Words for games and routines - 13 nap",204,produces,0.0147
+English (British),All,14,"nap, L Words for games and routines - 13 nap",204,understands,0.3627
+English (British),All,15,"nap, L Words for games and routines - 13 nap",272,produces,0.0257
+English (British),All,15,"nap, L Words for games and routines - 13 nap",272,understands,0.4779
+English (British),All,16,"nap, L Words for games and routines - 13 nap, M games - 14 nap",327,produces,0.0367
+English (British),All,16,"nap, L Words for games and routines - 13 nap, M games - 14 nap",327,understands,0.4862
+English (British),All,17,"nap, L Words for games and routines - 13 nap, M games - 14 nap",368,produces,0.0707
+English (British),All,17,"nap, L Words for games and routines - 13 nap, M games - 14 nap",368,understands,0.538
+English (British),All,18,"nap, L Words for games and routines - 13 nap, M games - 14 nap",314,produces,0.1083
+English (British),All,18,"nap, L Words for games and routines - 13 nap, M games - 14 nap",314,understands,0.5828
+English (British),All,19,"nap, M games - 14 nap",196,produces,0.1173
+English (British),All,19,"nap, M games - 14 nap",196,understands,0.5969
+English (British),All,20,"nap, M games - 14 nap",250,produces,0.156
+English (British),All,20,"nap, M games - 14 nap",250,understands,0.656
+English (British),All,21,"nap, M games - 14 nap",197,produces,0.2081
+English (British),All,21,"nap, M games - 14 nap",197,understands,0.6548
+English (British),All,22,"nap, M games - 14 nap",150,produces,0.26
+English (British),All,22,"nap, M games - 14 nap",150,understands,0.7533
+English (British),All,23,"nap, M games - 14 nap",455,produces,0.2637
+English (British),All,23,"nap, M games - 14 nap",455,understands,0.6923
+English (British),All,24,"nap, M games - 14 nap",323,produces,0.3313
+English (British),All,24,"nap, M games - 14 nap",323,understands,0.7368
+English (British),All,25,"nap, M games - 14 nap",171,produces,0.4678
+English (British),All,25,"nap, M games - 14 nap",171,understands,0.7836
+English (British),All,26,"nap, M games - 14 nap",166,produces,0.4458
+English (British),All,26,"nap, M games - 14 nap",166,understands,0.8012
+English (British),All,27,"nap, M games - 14 nap",147,produces,0.449
+English (British),All,27,"nap, M games - 14 nap",147,understands,0.7551
+English (British),All,28,"nap, M games - 14 nap",121,produces,0.5207
+English (British),All,28,"nap, M games - 14 nap",121,understands,0.7851
+English (British),All,29,"nap, M games - 14 nap",97,produces,0.5464
+English (British),All,29,"nap, M games - 14 nap",97,understands,0.6907
+English (British),All,30,"nap, M games - 14 nap",110,produces,0.6
+English (British),All,30,"nap, M games - 14 nap",110,understands,0.7545
+English (British),All,31,"nap, M games - 14 nap",104,produces,0.4712
+English (British),All,31,"nap, M games - 14 nap",104,understands,0.7788
+English (British),All,32,nap,63,produces,0.6825
+English (British),All,32,nap,63,understands,0.9206
+English (British),All,33,nap,53,produces,0.6415
+English (British),All,33,nap,53,understands,0.9245
+English (British),All,34,nap,45,produces,0.5778
+English (British),All,34,nap,45,understands,0.8889
+English (British),All,35,nap,53,produces,0.6038
+English (British),All,35,nap,53,understands,0.8491
+English (British),All,36,nap,47,produces,0.7021
+English (British),All,36,nap,47,understands,0.9362
+English (Malaysian),All,12,nap,3,produces,0
+English (Malaysian),All,12,nap,3,understands,0.3333
+English (Malaysian),All,13,nap,17,produces,0
+English (Malaysian),All,13,nap,17,understands,0.1765
+English (Malaysian),All,14,nap,13,produces,0
+English (Malaysian),All,14,nap,13,understands,0.0769
+English (Malaysian),All,15,nap,23,produces,0
+English (Malaysian),All,15,nap,23,understands,0.1739
+English (Malaysian),All,16,nap,29,produces,0
+English (Malaysian),All,16,nap,29,understands,0.069
+English (Malaysian),All,17,nap,20,produces,0
+English (Malaysian),All,17,nap,20,understands,0.05
+English (Malaysian),All,18,nap,40,produces,0.05
+English (Malaysian),All,18,nap,40,understands,0.15
+English (Malaysian),All,19,nap,13,produces,0
+English (Malaysian),All,19,nap,13,understands,0.0769
+English (Malaysian),All,20,nap,31,produces,0.0323
+English (Malaysian),All,20,nap,31,understands,0.1613
+English (Malaysian),All,21,nap,31,produces,0
+English (Malaysian),All,21,nap,31,understands,0.0968
+English (Malaysian),All,22,nap,28,produces,0.0357
+English (Malaysian),All,22,nap,28,understands,0.1429
+English (Malaysian),All,23,nap,34,produces,0.0294
+English (Malaysian),All,23,nap,34,understands,0.1471
+English (Malaysian),All,24,nap,46,produces,0.0435
+English (Malaysian),All,24,nap,46,understands,0.1304
+English (Malaysian),All,25,nap,21,produces,0
+English (Malaysian),All,25,nap,21,understands,0.0476
+English (Malaysian),All,26,nap,45,produces,0.0222
+English (Malaysian),All,26,nap,45,understands,0.0889
+English (Malaysian),All,27,nap,19,produces,0.1053
+English (Malaysian),All,27,nap,19,understands,0.2105
+English (Malaysian),All,28,nap,42,produces,0.119
+English (Malaysian),All,28,nap,42,understands,0.2381
+English (Malaysian),All,29,nap,26,produces,0.1154
+English (Malaysian),All,29,nap,26,understands,0.3077
+English (Malaysian),All,30,nap,30,produces,0.0667
+English (Malaysian),All,30,nap,30,understands,0.1333
+English (Malaysian),All,31,nap,9,produces,0
+English (Malaysian),All,31,nap,9,understands,0.2222
+English (Malaysian),All,32,nap,19,produces,0.1053
+English (Malaysian),All,32,nap,19,understands,0.2105
+English (Malaysian),All,33,nap,20,produces,0.25
+English (Malaysian),All,33,nap,20,understands,0.45
+English (Malaysian),All,34,nap,15,produces,0.1333
+English (Malaysian),All,34,nap,15,understands,0.2
+English (Malaysian),All,35,nap,21,produces,0.0952
+English (Malaysian),All,35,nap,21,understands,0.1905
+English (Malaysian),All,36,nap,13,produces,0.0769
+English (Malaysian),All,36,nap,13,understands,0.2308
 Estonian,All,16,lõunauinak,36,produces,0.0556
 Estonian,All,16,lõunauinak,36,understands,0
 Estonian,All,17,lõunauinak,89,produces,0.0562
@@ -369,60 +549,72 @@ Estonian,All,29,lõunauinak,100,produces,0.3
 Estonian,All,29,lõunauinak,100,understands,0
 Estonian,All,30,lõunauinak,71,produces,0.3803
 Estonian,All,30,lõunauinak,71,understands,0
-Finnish,All,12,päiväunet ,35,produces,0
-Finnish,All,12,päiväunet ,35,understands,0
-Finnish,All,15,päiväunet ,35,produces,0
-Finnish,All,15,päiväunet ,35,understands,0
+Finnish,All,12,päiväunet,35,produces,0
+Finnish,All,12,päiväunet,35,understands,0
+Finnish,All,15,päiväunet,35,produces,0
+Finnish,All,15,päiväunet,35,understands,0
 Finnish,All,18,päiväunet,35,produces,0.0286
 Finnish,All,18,päiväunet,35,understands,0
 Finnish,All,24,päiväunet,35,produces,0.3714
 Finnish,All,24,päiväunet,35,understands,0
-French (French),All,8,sieste,54,produces,0.0185
-French (French),All,8,sieste,54,understands,0.1111
-French (French),All,9,sieste,11,produces,0.0909
-French (French),All,9,sieste,11,understands,0.1818
-French (French),All,10,sieste,13,produces,0.3846
-French (French),All,10,sieste,13,understands,0.3846
-French (French),All,11,sieste,42,produces,0.0476
-French (French),All,11,sieste,42,understands,0.2381
-French (French),All,12,sieste,64,produces,0.2031
-French (French),All,12,sieste,64,understands,0.3125
-French (French),All,13,sieste,116,produces,0.1121
-French (French),All,13,sieste,116,understands,0.3966
-French (French),All,14,sieste,40,produces,0.225
-French (French),All,14,sieste,40,understands,0.45
-French (French),All,15,sieste,26,produces,0.6923
-French (French),All,15,sieste,26,understands,0.7308
-French (French),All,16,sieste,98,produces,0.0714
-French (French),All,16,sieste,98,understands,0.0102
-French (French),All,17,sieste,52,produces,0.0577
-French (French),All,17,sieste,52,understands,0
-French (French),All,18,sieste,54,produces,0.3889
-French (French),All,18,sieste,54,understands,0
-French (French),All,19,sieste,42,produces,0.3095
-French (French),All,19,sieste,42,understands,0
-French (French),All,20,sieste,81,produces,0.2222
-French (French),All,20,sieste,81,understands,0
-French (French),All,21,sieste,102,produces,0.2549
-French (French),All,21,sieste,102,understands,0
-French (French),All,22,sieste,103,produces,0.3883
-French (French),All,22,sieste,103,understands,0
-French (French),All,23,sieste,118,produces,0.3136
-French (French),All,23,sieste,118,understands,0
-French (French),All,24,sieste,173,produces,0.3642
-French (French),All,24,sieste,173,understands,0
-French (French),All,25,sieste,87,produces,0.4598
-French (French),All,25,sieste,87,understands,0
-French (French),All,26,sieste,64,produces,0.5469
-French (French),All,26,sieste,64,understands,0
-French (French),All,27,sieste,54,produces,0.4444
-French (French),All,27,sieste,54,understands,0
-French (French),All,28,sieste,76,produces,0.6053
-French (French),All,28,sieste,76,understands,0
-French (French),All,29,sieste,67,produces,0.7015
-French (French),All,29,sieste,67,understands,0
-French (French),All,30,sieste,68,produces,0.5588
-French (French),All,30,sieste,68,understands,0
+French (French),All,8,sieste,86,produces,0.0116
+French (French),All,8,sieste,86,understands,0.1512
+French (French),All,9,sieste,21,produces,0.0476
+French (French),All,9,sieste,21,understands,0.0952
+French (French),All,10,sieste,14,produces,0.3571
+French (French),All,10,sieste,14,understands,0.3571
+French (French),All,11,sieste,48,produces,0.0417
+French (French),All,11,sieste,48,understands,0.25
+French (French),All,12,sieste,106,produces,0.1226
+French (French),All,12,sieste,106,understands,0.3396
+French (French),All,13,sieste,108,produces,0.1204
+French (French),All,13,sieste,108,understands,0.4537
+French (French),All,14,sieste,26,produces,0.3462
+French (French),All,14,sieste,26,understands,0.5385
+French (French),All,15,sieste,50,produces,0.36
+French (French),All,15,sieste,50,understands,0.56
+French (French),All,16,sieste,114,produces,0.0614
+French (French),All,16,sieste,114,understands,0.0877
+French (French),All,17,sieste,58,produces,0.069
+French (French),All,17,sieste,58,understands,0.0172
+French (French),All,18,sieste,82,produces,0.1707
+French (French),All,18,sieste,82,understands,0.3293
+French (French),All,19,sieste,100,produces,0.15
+French (French),All,19,sieste,100,understands,0.27
+French (French),All,20,sieste,256,produces,0.1055
+French (French),All,20,sieste,256,understands,0.082
+French (French),All,21,sieste,131,produces,0.1069
+French (French),All,21,sieste,131,understands,0.2595
+French (French),All,22,sieste,122,produces,0.2459
+French (French),All,22,sieste,122,understands,0.2459
+French (French),All,23,sieste,135,produces,0.2963
+French (French),All,23,sieste,135,understands,0.1704
+French (French),All,24,sieste,203,produces,0.3547
+French (French),All,24,sieste,203,understands,0.1034
+French (French),All,25,sieste,104,produces,0.4904
+French (French),All,25,sieste,104,understands,0.1538
+French (French),All,26,sieste,73,produces,0.5753
+French (French),All,26,sieste,73,understands,0.0548
+French (French),All,27,sieste,74,produces,0.5135
+French (French),All,27,sieste,74,understands,0.3514
+French (French),All,28,sieste,94,produces,0.7234
+French (French),All,28,sieste,94,understands,0.234
+French (French),All,29,sieste,88,produces,0.7955
+French (French),All,29,sieste,88,understands,0.25
+French (French),All,30,sieste,269,produces,0.4907
+French (French),All,30,sieste,269,understands,0.6914
+French (French),All,31,sieste,71,produces,0.5915
+French (French),All,31,sieste,71,understands,0.7606
+French (French),All,32,sieste,54,produces,0.8519
+French (French),All,32,sieste,54,understands,0.5741
+French (French),All,33,sieste,47,produces,0.8936
+French (French),All,33,sieste,47,understands,0.5106
+French (French),All,34,sieste,53,produces,0.8113
+French (French),All,34,sieste,53,understands,0.5472
+French (French),All,35,sieste,24,produces,0.8333
+French (French),All,35,sieste,24,understands,0.7083
+French (French),All,36,sieste,14,produces,0.6429
+French (French),All,36,sieste,14,understands,0.9286
 French (Quebecois),All,8,dodo,103,produces,0
 French (Quebecois),All,8,dodo,103,understands,0.4175
 French (Quebecois),All,9,dodo,167,produces,0.006
@@ -469,96 +661,146 @@ French (Quebecois),All,29,dodo,70,produces,0.9714
 French (Quebecois),All,29,dodo,70,understands,0
 French (Quebecois),All,30,dodo,100,produces,0.9
 French (Quebecois),All,30,dodo,100,understands,0
-Hungarian,All,16,*szundi,21,produces,0.1429
-Hungarian,All,16,*szundi,21,understands,0
-Hungarian,All,17,*szundi,18,produces,0.2222
-Hungarian,All,17,*szundi,18,understands,0
+German (German),All,12,Mittagsschlaf,5,produces,0
+German (German),All,12,Mittagsschlaf,5,understands,0.2
+German (German),All,13,Mittagsschlaf,3,produces,0
+German (German),All,13,Mittagsschlaf,3,understands,0.3333
+German (German),All,14,Mittagsschlaf,3,produces,0
+German (German),All,14,Mittagsschlaf,3,understands,0
+German (German),All,15,Mittagsschlaf,4,produces,0
+German (German),All,15,Mittagsschlaf,4,understands,0.25
+German (German),All,16,Mittagsschlaf,6,produces,0
+German (German),All,16,Mittagsschlaf,6,understands,0
+German (German),All,17,Mittagsschlaf,3,produces,0
+German (German),All,17,Mittagsschlaf,3,understands,1
+German (German),All,18,Mittagsschlaf,3,produces,0
+German (German),All,18,Mittagsschlaf,3,understands,0.3333
+German (German),All,19,Mittagsschlaf,9,produces,0
+German (German),All,19,Mittagsschlaf,9,understands,0.3333
+German (German),All,20,Mittagsschlaf,4,produces,0
+German (German),All,20,Mittagsschlaf,4,understands,0.5
+German (German),All,21,Mittagsschlaf,4,produces,0.25
+German (German),All,21,Mittagsschlaf,4,understands,0.25
+German (German),All,22,Mittagsschlaf,5,produces,0.2
+German (German),All,22,Mittagsschlaf,5,understands,0.8
+German (German),All,23,Mittagsschlaf,4,produces,0.25
+German (German),All,23,Mittagsschlaf,4,understands,0.75
+German (German),All,24,Mittagsschlaf,9,produces,0.1111
+German (German),All,24,Mittagsschlaf,9,understands,0.5556
+German (German),All,25,Mittagsschlaf,14,produces,0.2143
+German (German),All,25,Mittagsschlaf,14,understands,0.7857
+German (German),All,26,Mittagsschlaf,13,produces,0.1538
+German (German),All,26,Mittagsschlaf,13,understands,0.8462
+German (German),All,27,Mittagsschlaf,15,produces,0.1333
+German (German),All,27,Mittagsschlaf,15,understands,0.6667
+German (German),All,28,Mittagsschlaf,7,produces,0.1429
+German (German),All,28,Mittagsschlaf,7,understands,0.7143
+German (German),All,29,Mittagsschlaf,9,produces,0.1111
+German (German),All,29,Mittagsschlaf,9,understands,0.6667
+German (German),All,30,Mittagsschlaf,6,produces,0.3333
+German (German),All,30,Mittagsschlaf,6,understands,1
+German (German),All,31,Mittagsschlaf,6,produces,0.3333
+German (German),All,31,Mittagsschlaf,6,understands,0.6667
+German (German),All,32,Mittagsschlaf,7,produces,0.7143
+German (German),All,32,Mittagsschlaf,7,understands,0.8571
+German (German),All,33,Mittagsschlaf,6,produces,0.6667
+German (German),All,33,Mittagsschlaf,6,understands,1
+German (German),All,34,Mittagsschlaf,5,produces,0.6
+German (German),All,34,Mittagsschlaf,5,understands,1
+German (German),All,35,Mittagsschlaf,6,produces,0.3333
+German (German),All,35,Mittagsschlaf,6,understands,1
+German (German),All,36,Mittagsschlaf,8,produces,0.75
+German (German),All,36,Mittagsschlaf,8,understands,0.875
+Hungarian,All,16,*szundi,15,produces,0.0667
+Hungarian,All,16,*szundi,15,understands,0
+Hungarian,All,17,*szundi,24,produces,0.25
+Hungarian,All,17,*szundi,24,understands,0
 Hungarian,All,18,*szundi,18,produces,0.0556
 Hungarian,All,18,*szundi,18,understands,0
-Hungarian,All,19,*szundi,26,produces,0.2308
-Hungarian,All,19,*szundi,26,understands,0
-Hungarian,All,20,*szundi,18,produces,0.1111
-Hungarian,All,20,*szundi,18,understands,0
+Hungarian,All,19,*szundi,17,produces,0.1765
+Hungarian,All,19,*szundi,17,understands,0
+Hungarian,All,20,*szundi,27,produces,0.1852
+Hungarian,All,20,*szundi,27,understands,0
 Hungarian,All,21,*szundi,36,produces,0.4722
 Hungarian,All,21,*szundi,36,understands,0
-Hungarian,All,22,*szundi,27,produces,0.3333
-Hungarian,All,22,*szundi,27,understands,0
-Hungarian,All,23,*szundi,18,produces,0.4444
-Hungarian,All,23,*szundi,18,understands,0
+Hungarian,All,22,*szundi,20,produces,0.3
+Hungarian,All,22,*szundi,20,understands,0
+Hungarian,All,23,*szundi,25,produces,0.44
+Hungarian,All,23,*szundi,25,understands,0
 Hungarian,All,24,*szundi,38,produces,0.3421
 Hungarian,All,24,*szundi,38,understands,0
-Hungarian,All,25,*szundi,43,produces,0.4651
-Hungarian,All,25,*szundi,43,understands,0
-Hungarian,All,26,*szundi,23,produces,0.4348
-Hungarian,All,26,*szundi,23,understands,0
+Hungarian,All,25,*szundi,27,produces,0.5185
+Hungarian,All,25,*szundi,27,understands,0
+Hungarian,All,26,*szundi,39,produces,0.4103
+Hungarian,All,26,*szundi,39,understands,0
 Hungarian,All,27,*szundi,26,produces,0.3846
 Hungarian,All,27,*szundi,26,understands,0
-Hungarian,All,28,*szundi,30,produces,0.6667
-Hungarian,All,28,*szundi,30,understands,0
-Hungarian,All,29,*szundi,12,produces,0.6667
-Hungarian,All,29,*szundi,12,understands,0
+Hungarian,All,28,*szundi,25,produces,0.64
+Hungarian,All,28,*szundi,25,understands,0
+Hungarian,All,29,*szundi,17,produces,0.7059
+Hungarian,All,29,*szundi,17,understands,0
 Hungarian,All,30,*szundi,18,produces,0.6111
 Hungarian,All,30,*szundi,18,understands,0
 Italian,All,7,nanna,5,produces,0
 Italian,All,7,nanna,5,understands,0.4
-Italian,All,8,nanna,34,produces,0
-Italian,All,8,nanna,34,understands,0.2647
-Italian,All,9,nanna,38,produces,0
-Italian,All,9,nanna,38,understands,0.3421
-Italian,All,10,nanna,53,produces,0
-Italian,All,10,nanna,53,understands,0.3585
+Italian,All,8,nanna,37,produces,0
+Italian,All,8,nanna,37,understands,0.2432
+Italian,All,9,nanna,39,produces,0
+Italian,All,9,nanna,39,understands,0.3333
+Italian,All,10,nanna,54,produces,0
+Italian,All,10,nanna,54,understands,0.3519
 Italian,All,11,nanna,42,produces,0.0476
 Italian,All,11,nanna,42,understands,0.619
-Italian,All,12,nanna,69,produces,0.1014
-Italian,All,12,nanna,69,understands,0.7681
-Italian,All,13,nanna,48,produces,0.2083
-Italian,All,13,nanna,48,understands,0.7083
-Italian,All,14,nanna,40,produces,0.275
-Italian,All,14,nanna,40,understands,0.875
-Italian,All,15,nanna,68,produces,0.3382
-Italian,All,15,nanna,68,understands,0.8382
-Italian,All,16,nanna,56,produces,0.375
-Italian,All,16,nanna,56,understands,0.8214
-Italian,All,17,nanna,48,produces,0.5417
-Italian,All,17,nanna,48,understands,0.875
-Italian,All,18,nanna,75,produces,0.5867
-Italian,All,18,nanna,75,understands,0.4933
-Italian,All,19,nanna,58,produces,0.6552
-Italian,All,19,nanna,58,understands,0.3103
-Italian,All,20,nanna,83,produces,0.747
-Italian,All,20,nanna,83,understands,0.2289
-Italian,All,21,nanna,67,produces,0.8657
-Italian,All,21,nanna,67,understands,0.1791
-Italian,All,22,nanna,77,produces,0.8442
-Italian,All,22,nanna,77,understands,0.2857
-Italian,All,23,nanna,70,produces,0.9429
-Italian,All,23,nanna,70,understands,0.2429
-Italian,All,24,nanna,85,produces,0.9529
-Italian,All,24,nanna,85,understands,0.1529
-Italian,All,25,nanna,39,produces,0.8718
-Italian,All,25,nanna,39,understands,0
-Italian,All,26,nanna,41,produces,0.9024
-Italian,All,26,nanna,41,understands,0
-Italian,All,27,nanna,43,produces,0.9535
-Italian,All,27,nanna,43,understands,0
-Italian,All,28,nanna,44,produces,0.9545
-Italian,All,28,nanna,44,understands,0
-Italian,All,29,nanna,37,produces,0.973
-Italian,All,29,nanna,37,understands,0
-Italian,All,30,nanna,67,produces,0.9104
-Italian,All,30,nanna,67,understands,0
-Italian,All,31,nanna,19,produces,0.9474
-Italian,All,31,nanna,19,understands,0
-Italian,All,32,nanna,23,produces,0.8261
-Italian,All,32,nanna,23,understands,0
-Italian,All,33,nanna,16,produces,0.9375
-Italian,All,33,nanna,16,understands,0
-Italian,All,34,nanna,19,produces,1
-Italian,All,34,nanna,19,understands,0
-Italian,All,35,nanna,15,produces,0.9333
-Italian,All,35,nanna,15,understands,0
-Italian,All,36,nanna,21,produces,0.8095
-Italian,All,36,nanna,21,understands,0
+Italian,All,12,"Pisolino, nanna",82,produces,0.0854
+Italian,All,12,"Pisolino, nanna",82,understands,0.7195
+Italian,All,13,"Pisolino, nanna",52,produces,0.1923
+Italian,All,13,"Pisolino, nanna",52,understands,0.7115
+Italian,All,14,"Pisolino, nanna",48,produces,0.2292
+Italian,All,14,"Pisolino, nanna",48,understands,0.7708
+Italian,All,15,"Pisolino, nanna",78,produces,0.2949
+Italian,All,15,"Pisolino, nanna",78,understands,0.8205
+Italian,All,16,"Pisolino, nanna",62,produces,0.3387
+Italian,All,16,"Pisolino, nanna",62,understands,0.8226
+Italian,All,17,"Pisolino, nanna",52,produces,0.5192
+Italian,All,17,"Pisolino, nanna",52,understands,0.8462
+Italian,All,18,"Pisolino, nanna",96,produces,0.5104
+Italian,All,18,"Pisolino, nanna",96,understands,0.5521
+Italian,All,19,"Pisolino, nanna",64,produces,0.6094
+Italian,All,19,"Pisolino, nanna",64,understands,0.3594
+Italian,All,20,"Pisolino, nanna",104,produces,0.6442
+Italian,All,20,"Pisolino, nanna",104,understands,0.3269
+Italian,All,21,"Pisolino, nanna",77,produces,0.8052
+Italian,All,21,"Pisolino, nanna",77,understands,0.2727
+Italian,All,22,"Pisolino, nanna",88,produces,0.7727
+Italian,All,22,"Pisolino, nanna",88,understands,0.3409
+Italian,All,23,"Pisolino, nanna",83,produces,0.8313
+Italian,All,23,"Pisolino, nanna",83,understands,0.3253
+Italian,All,24,"Pisolino, nanna",94,produces,0.9255
+Italian,All,24,"Pisolino, nanna",94,understands,0.2234
+Italian,All,25,"Pisolino, nanna",52,produces,0.75
+Italian,All,25,"Pisolino, nanna",52,understands,0.2115
+Italian,All,26,"Pisolino, nanna",53,produces,0.7736
+Italian,All,26,"Pisolino, nanna",53,understands,0.1887
+Italian,All,27,"Pisolino, nanna",53,produces,0.8868
+Italian,All,27,"Pisolino, nanna",53,understands,0.1509
+Italian,All,28,"Pisolino, nanna",57,produces,0.8596
+Italian,All,28,"Pisolino, nanna",57,understands,0.2105
+Italian,All,29,"Pisolino, nanna",51,produces,0.8235
+Italian,All,29,"Pisolino, nanna",51,understands,0.2157
+Italian,All,30,"Pisolino, nanna",79,produces,0.8608
+Italian,All,30,"Pisolino, nanna",79,understands,0.0886
+Italian,All,31,"Pisolino, nanna",28,produces,0.7857
+Italian,All,31,"Pisolino, nanna",28,understands,0.3214
+Italian,All,32,"Pisolino, nanna",28,produces,0.75
+Italian,All,32,"Pisolino, nanna",28,understands,0.1786
+Italian,All,33,"Pisolino, nanna",20,produces,0.85
+Italian,All,33,"Pisolino, nanna",20,understands,0.2
+Italian,All,34,"Pisolino, nanna",22,produces,0.9091
+Italian,All,34,"Pisolino, nanna",22,understands,0.0909
+Italian,All,35,"nanna, Pisolino",16,produces,0.9375
+Italian,All,35,"nanna, Pisolino",16,understands,0.0625
+Italian,All,36,"Pisolino, nanna",25,produces,0.84
+Italian,All,36,"Pisolino, nanna",25,understands,0.16
 Kigiriama,All,16,Kunukira,1,produces,0
 Kigiriama,All,16,Kunukira,1,understands,0
 Kigiriama,All,17,Kunukira,6,produces,0
@@ -647,6 +889,56 @@ Latvian,All,35,diendusa,21,produces,0.5714
 Latvian,All,35,diendusa,21,understands,0
 Latvian,All,36,diendusa,22,produces,0.4545
 Latvian,All,36,diendusa,22,understands,0
+Malay (Malaysian),All,12,tidur,3,produces,0.3333
+Malay (Malaysian),All,12,tidur,3,understands,0.3333
+Malay (Malaysian),All,13,tidur,17,produces,0.1176
+Malay (Malaysian),All,13,tidur,17,understands,0.2941
+Malay (Malaysian),All,14,tidur,13,produces,0
+Malay (Malaysian),All,14,tidur,13,understands,0.2308
+Malay (Malaysian),All,15,tidur,23,produces,0.0435
+Malay (Malaysian),All,15,tidur,23,understands,0.3913
+Malay (Malaysian),All,16,tidur,29,produces,0.1379
+Malay (Malaysian),All,16,tidur,29,understands,0.4138
+Malay (Malaysian),All,17,tidur,20,produces,0.1
+Malay (Malaysian),All,17,tidur,20,understands,0.6
+Malay (Malaysian),All,18,tidur,40,produces,0.1
+Malay (Malaysian),All,18,tidur,40,understands,0.4
+Malay (Malaysian),All,19,tidur,13,produces,0.2308
+Malay (Malaysian),All,19,tidur,13,understands,0.3846
+Malay (Malaysian),All,20,tidur,31,produces,0.2903
+Malay (Malaysian),All,20,tidur,31,understands,0.6129
+Malay (Malaysian),All,21,tidur,31,produces,0.3548
+Malay (Malaysian),All,21,tidur,31,understands,0.6774
+Malay (Malaysian),All,22,tidur,28,produces,0.3571
+Malay (Malaysian),All,22,tidur,28,understands,0.6786
+Malay (Malaysian),All,23,tidur,34,produces,0.5
+Malay (Malaysian),All,23,tidur,34,understands,0.6471
+Malay (Malaysian),All,24,tidur,46,produces,0.4783
+Malay (Malaysian),All,24,tidur,46,understands,0.6522
+Malay (Malaysian),All,25,tidur,21,produces,0.4286
+Malay (Malaysian),All,25,tidur,21,understands,0.619
+Malay (Malaysian),All,26,tidur,45,produces,0.4222
+Malay (Malaysian),All,26,tidur,45,understands,0.6667
+Malay (Malaysian),All,27,tidur,19,produces,0.7368
+Malay (Malaysian),All,27,tidur,19,understands,0.8421
+Malay (Malaysian),All,28,tidur,42,produces,0.3333
+Malay (Malaysian),All,28,tidur,42,understands,0.5952
+Malay (Malaysian),All,29,tidur,26,produces,0.4615
+Malay (Malaysian),All,29,tidur,26,understands,0.6154
+Malay (Malaysian),All,30,tidur,30,produces,0.5333
+Malay (Malaysian),All,30,tidur,30,understands,0.6333
+Malay (Malaysian),All,31,tidur,9,produces,0.3333
+Malay (Malaysian),All,31,tidur,9,understands,0.4444
+Malay (Malaysian),All,32,tidur,19,produces,0.6316
+Malay (Malaysian),All,32,tidur,19,understands,0.6842
+Malay (Malaysian),All,33,tidur,20,produces,0.25
+Malay (Malaysian),All,33,tidur,20,understands,0.4
+Malay (Malaysian),All,34,tidur,15,produces,0.2
+Malay (Malaysian),All,34,tidur,15,understands,0.4667
+Malay (Malaysian),All,35,tidur,21,produces,0.3333
+Malay (Malaysian),All,35,tidur,21,understands,0.3333
+Malay (Malaysian),All,36,tidur,13,produces,0.6154
+Malay (Malaysian),All,36,tidur,13,understands,0.6154
 Mandarin (Beijing),All,16,休息/歇会儿,70,produces,0.0429
 Mandarin (Beijing),All,16,休息/歇会儿,70,understands,0
 Mandarin (Beijing),All,17,休息/歇会儿,72,produces,0.0694
@@ -677,6 +969,56 @@ Mandarin (Beijing),All,29,休息/歇会儿,70,produces,0.9286
 Mandarin (Beijing),All,29,休息/歇会儿,70,understands,0
 Mandarin (Beijing),All,30,休息/歇会儿,70,produces,0.9
 Mandarin (Beijing),All,30,休息/歇会儿,70,understands,0
+Mandarin (Malaysian),All,12,小睡,2,produces,0
+Mandarin (Malaysian),All,12,小睡,2,understands,0.5
+Mandarin (Malaysian),All,13,小睡,13,produces,0
+Mandarin (Malaysian),All,13,小睡,13,understands,0.0769
+Mandarin (Malaysian),All,14,小睡,10,produces,0
+Mandarin (Malaysian),All,14,小睡,10,understands,0
+Mandarin (Malaysian),All,15,小睡,17,produces,0
+Mandarin (Malaysian),All,15,小睡,17,understands,0.0588
+Mandarin (Malaysian),All,16,小睡,24,produces,0
+Mandarin (Malaysian),All,16,小睡,24,understands,0
+Mandarin (Malaysian),All,17,小睡,19,produces,0
+Mandarin (Malaysian),All,17,小睡,19,understands,0.1579
+Mandarin (Malaysian),All,18,小睡,37,produces,0
+Mandarin (Malaysian),All,18,小睡,37,understands,0.0541
+Mandarin (Malaysian),All,19,小睡,12,produces,0
+Mandarin (Malaysian),All,19,小睡,12,understands,0.0833
+Mandarin (Malaysian),All,20,小睡,25,produces,0
+Mandarin (Malaysian),All,20,小睡,25,understands,0.08
+Mandarin (Malaysian),All,21,小睡,28,produces,0
+Mandarin (Malaysian),All,21,小睡,28,understands,0
+Mandarin (Malaysian),All,22,小睡,26,produces,0
+Mandarin (Malaysian),All,22,小睡,26,understands,0.0385
+Mandarin (Malaysian),All,23,小睡,30,produces,0
+Mandarin (Malaysian),All,23,小睡,30,understands,0
+Mandarin (Malaysian),All,24,小睡,39,produces,0.0256
+Mandarin (Malaysian),All,24,小睡,39,understands,0.0513
+Mandarin (Malaysian),All,25,小睡,18,produces,0.0556
+Mandarin (Malaysian),All,25,小睡,18,understands,0.0556
+Mandarin (Malaysian),All,26,小睡,37,produces,0.0541
+Mandarin (Malaysian),All,26,小睡,37,understands,0.0811
+Mandarin (Malaysian),All,27,小睡,18,produces,0
+Mandarin (Malaysian),All,27,小睡,18,understands,0
+Mandarin (Malaysian),All,28,小睡,37,produces,0.0541
+Mandarin (Malaysian),All,28,小睡,37,understands,0.1351
+Mandarin (Malaysian),All,29,小睡,23,produces,0.087
+Mandarin (Malaysian),All,29,小睡,23,understands,0.1739
+Mandarin (Malaysian),All,30,小睡,26,produces,0
+Mandarin (Malaysian),All,30,小睡,26,understands,0.1154
+Mandarin (Malaysian),All,31,小睡,7,produces,0
+Mandarin (Malaysian),All,31,小睡,7,understands,0
+Mandarin (Malaysian),All,32,小睡,16,produces,0
+Mandarin (Malaysian),All,32,小睡,16,understands,0
+Mandarin (Malaysian),All,33,小睡,13,produces,0.1538
+Mandarin (Malaysian),All,33,小睡,13,understands,0.1538
+Mandarin (Malaysian),All,34,小睡,12,produces,0.0833
+Mandarin (Malaysian),All,34,小睡,12,understands,0.0833
+Mandarin (Malaysian),All,35,小睡,13,produces,0.1538
+Mandarin (Malaysian),All,35,小睡,13,understands,0.2308
+Mandarin (Malaysian),All,36,小睡,10,produces,0.1
+Mandarin (Malaysian),All,36,小睡,10,understands,0.1
 Mandarin (Taiwanese),All,8,睡覺,86,produces,0.0116
 Mandarin (Taiwanese),All,8,睡覺,86,understands,0.7442
 Mandarin (Taiwanese),All,9,睡覺,79,produces,0
@@ -793,6 +1135,104 @@ Norwegian,All,35,sovetid,422,produces,0.7583
 Norwegian,All,35,sovetid,422,understands,0
 Norwegian,All,36,sovetid,329,produces,0.8024
 Norwegian,All,36,sovetid,329,understands,0
+Polish,All,12,drzemka,7,produces,0
+Polish,All,12,drzemka,7,understands,0.2857
+Polish,All,13,drzemka,15,produces,0
+Polish,All,13,drzemka,15,understands,0.1333
+Polish,All,14,drzemka,3,produces,0
+Polish,All,14,drzemka,3,understands,0.3333
+Polish,All,15,drzemka,8,produces,0
+Polish,All,15,drzemka,8,understands,0.5
+Polish,All,16,drzemka,11,produces,0
+Polish,All,16,drzemka,11,understands,0.1818
+Polish,All,17,drzemka,9,produces,0.1111
+Polish,All,17,drzemka,9,understands,0.5556
+Polish,All,18,drzemka,10,produces,0
+Polish,All,18,drzemka,10,understands,0.5
+Polish,All,19,drzemka,7,produces,0
+Polish,All,19,drzemka,7,understands,0.4286
+Polish,All,20,drzemka,10,produces,0.1
+Polish,All,20,drzemka,10,understands,0.7
+Polish,All,21,drzemka,12,produces,0
+Polish,All,21,drzemka,12,understands,0.1667
+Polish,All,22,drzemka,12,produces,0
+Polish,All,22,drzemka,12,understands,0.5
+Polish,All,23,drzemka,9,produces,0.1111
+Polish,All,23,drzemka,9,understands,0.6667
+Polish,All,24,drzemka,12,produces,0.1667
+Polish,All,24,drzemka,12,understands,0.5
+Polish,All,25,drzemka,9,produces,0.1111
+Polish,All,25,drzemka,9,understands,0.6667
+Polish,All,26,drzemka,15,produces,0.1333
+Polish,All,26,drzemka,15,understands,0.6667
+Polish,All,27,drzemka,10,produces,0.2
+Polish,All,27,drzemka,10,understands,0.9
+Polish,All,28,drzemka,11,produces,0.0909
+Polish,All,28,drzemka,11,understands,0.6364
+Polish,All,29,drzemka,10,produces,0
+Polish,All,29,drzemka,10,understands,0.9
+Polish,All,30,drzemka,7,produces,0.1429
+Polish,All,30,drzemka,7,understands,0.7143
+Polish,All,31,drzemka,9,produces,0.3333
+Polish,All,31,drzemka,9,understands,1
+Polish,All,32,drzemka,8,produces,0.25
+Polish,All,32,drzemka,8,understands,0.625
+Polish,All,33,drzemka,5,produces,0.2
+Polish,All,33,drzemka,5,understands,0.4
+Polish,All,34,drzemka,5,produces,0.2
+Polish,All,34,drzemka,5,understands,0.4
+Polish,All,35,drzemka,10,produces,0.4
+Polish,All,35,drzemka,10,understands,0.7
+Polish,All,36,drzemka,7,produces,0.2857
+Polish,All,36,drzemka,7,understands,0.4286
+Portuguese (European),All,12,soneca / sesta,5,produces,0
+Portuguese (European),All,12,soneca / sesta,5,understands,1
+Portuguese (European),All,13,soneca / sesta,3,produces,0
+Portuguese (European),All,13,soneca / sesta,3,understands,0.6667
+Portuguese (European),All,14,soneca / sesta,3,produces,0.6667
+Portuguese (European),All,14,soneca / sesta,3,understands,1
+Portuguese (European),All,15,soneca / sesta,3,produces,0.3333
+Portuguese (European),All,15,soneca / sesta,3,understands,1
+Portuguese (European),All,16,soneca / sesta,4,produces,0
+Portuguese (European),All,16,soneca / sesta,4,understands,1
+Portuguese (European),All,17,soneca / sesta,7,produces,0.2857
+Portuguese (European),All,17,soneca / sesta,7,understands,0.8571
+Portuguese (European),All,18,soneca / sesta,2,produces,0.5
+Portuguese (European),All,18,soneca / sesta,2,understands,1
+Portuguese (European),All,19,soneca / sesta,7,produces,0.5714
+Portuguese (European),All,19,soneca / sesta,7,understands,0.8571
+Portuguese (European),All,20,soneca / sesta,3,produces,0.6667
+Portuguese (European),All,20,soneca / sesta,3,understands,1
+Portuguese (European),All,21,soneca / sesta,4,produces,0.75
+Portuguese (European),All,21,soneca / sesta,4,understands,0.75
+Portuguese (European),All,22,soneca / sesta,4,produces,0.75
+Portuguese (European),All,22,soneca / sesta,4,understands,0.75
+Portuguese (European),All,23,soneca / sesta,6,produces,0.8333
+Portuguese (European),All,23,soneca / sesta,6,understands,0.8333
+Portuguese (European),All,24,soneca / sesta,8,produces,0.625
+Portuguese (European),All,24,soneca / sesta,8,understands,1
+Portuguese (European),All,25,soneca / sesta,5,produces,0.8
+Portuguese (European),All,25,soneca / sesta,5,understands,0.8
+Portuguese (European),All,26,soneca / sesta,8,produces,0.75
+Portuguese (European),All,26,soneca / sesta,8,understands,1
+Portuguese (European),All,27,soneca / sesta,8,produces,0.75
+Portuguese (European),All,27,soneca / sesta,8,understands,0.75
+Portuguese (European),All,28,soneca / sesta,10,produces,0.7
+Portuguese (European),All,28,soneca / sesta,10,understands,0.9
+Portuguese (European),All,29,soneca / sesta,4,produces,0.75
+Portuguese (European),All,29,soneca / sesta,4,understands,1
+Portuguese (European),All,30,soneca / sesta,5,produces,0.8
+Portuguese (European),All,30,soneca / sesta,5,understands,0.8
+Portuguese (European),All,31,soneca / sesta,6,produces,1
+Portuguese (European),All,31,soneca / sesta,6,understands,1
+Portuguese (European),All,32,soneca / sesta,4,produces,0.5
+Portuguese (European),All,32,soneca / sesta,4,understands,0.75
+Portuguese (European),All,33,soneca / sesta,2,produces,1
+Portuguese (European),All,33,soneca / sesta,2,understands,1
+Portuguese (European),All,35,soneca / sesta,2,produces,0.5
+Portuguese (European),All,35,soneca / sesta,2,understands,1
+Portuguese (European),All,36,soneca / sesta,1,produces,1
+Portuguese (European),All,36,soneca / sesta,1,understands,1
 Spanish (Argentinian),All,16,siesta_noni_noni,47,produces,0.2128
 Spanish (Argentinian),All,16,siesta_noni_noni,47,understands,0
 Spanish (Argentinian),All,17,siesta_noni_noni,49,produces,0.2041
@@ -829,6 +1269,56 @@ Spanish (Argentinian),All,32,siesta_noni_noni,1,produces,1
 Spanish (Argentinian),All,32,siesta_noni_noni,1,understands,0
 Spanish (Argentinian),All,33,siesta_noni_noni,2,produces,0
 Spanish (Argentinian),All,33,siesta_noni_noni,2,understands,0
+Spanish (European),All,12,siesta,16,produces,0.0625
+Spanish (European),All,12,siesta,16,understands,0.1875
+Spanish (European),All,13,siesta,19,produces,0
+Spanish (European),All,13,siesta,19,understands,0.2632
+Spanish (European),All,14,siesta,13,produces,0.1538
+Spanish (European),All,14,siesta,13,understands,0.3077
+Spanish (European),All,15,siesta,24,produces,0
+Spanish (European),All,15,siesta,24,understands,0.4583
+Spanish (European),All,16,siesta,24,produces,0
+Spanish (European),All,16,siesta,24,understands,0.25
+Spanish (European),All,17,siesta,22,produces,0.0455
+Spanish (European),All,17,siesta,22,understands,0.5455
+Spanish (European),All,18,siesta,34,produces,0
+Spanish (European),All,18,siesta,34,understands,0.4412
+Spanish (European),All,19,siesta,24,produces,0.0417
+Spanish (European),All,19,siesta,24,understands,0.5833
+Spanish (European),All,20,siesta,35,produces,0.0571
+Spanish (European),All,20,siesta,35,understands,0.6
+Spanish (European),All,21,siesta,24,produces,0
+Spanish (European),All,21,siesta,24,understands,0.625
+Spanish (European),All,22,siesta,37,produces,0.1351
+Spanish (European),All,22,siesta,37,understands,0.5946
+Spanish (European),All,23,siesta,29,produces,0.069
+Spanish (European),All,23,siesta,29,understands,0.4828
+Spanish (European),All,24,siesta,29,produces,0.1379
+Spanish (European),All,24,siesta,29,understands,0.5517
+Spanish (European),All,25,siesta,32,produces,0.1562
+Spanish (European),All,25,siesta,32,understands,0.75
+Spanish (European),All,26,siesta,30,produces,0.1333
+Spanish (European),All,26,siesta,30,understands,0.6667
+Spanish (European),All,27,siesta,24,produces,0.2917
+Spanish (European),All,27,siesta,24,understands,0.75
+Spanish (European),All,28,siesta,38,produces,0.3421
+Spanish (European),All,28,siesta,38,understands,0.8421
+Spanish (European),All,29,siesta,28,produces,0.1786
+Spanish (European),All,29,siesta,28,understands,0.6429
+Spanish (European),All,30,siesta,34,produces,0.2059
+Spanish (European),All,30,siesta,34,understands,0.6176
+Spanish (European),All,31,siesta,32,produces,0.3125
+Spanish (European),All,31,siesta,32,understands,0.7188
+Spanish (European),All,32,siesta,13,produces,0.5385
+Spanish (European),All,32,siesta,13,understands,0.6923
+Spanish (European),All,33,siesta,23,produces,0.3913
+Spanish (European),All,33,siesta,23,understands,0.7391
+Spanish (European),All,34,siesta,11,produces,0.1818
+Spanish (European),All,34,siesta,11,understands,0.9091
+Spanish (European),All,35,siesta,15,produces,0.2667
+Spanish (European),All,35,siesta,15,understands,0.8667
+Spanish (European),All,36,siesta,11,produces,0.3636
+Spanish (European),All,36,siesta,11,understands,0.8182
 Spanish (Mexican),All,8,hacer la meme,40,produces,0.025
 Spanish (Mexican),All,8,hacer la meme,40,understands,0.25
 Spanish (Mexican),All,9,hacer la meme,64,produces,0.0469
@@ -988,13 +1478,13 @@ Arabic (Saudi),Female,9,قيلولة (غفوة/ نام),10,understands,0
 Arabic (Saudi),Male,9,قيلولة (غفوة/ نام),8,produces,0
 Arabic (Saudi),Male,9,قيلولة (غفوة/ نام),8,understands,0
 Arabic (Saudi),Female,10,قيلولة (غفوة/ نام),11,produces,0
-Arabic (Saudi),Female,10,قيلولة (غفوة/ نام),11,understands,0
+Arabic (Saudi),Female,10,قيلولة (غفوة/ نام),11,understands,0.0909
 Arabic (Saudi),Male,10,قيلولة (غفوة/ نام),14,produces,0
-Arabic (Saudi),Male,10,قيلولة (غفوة/ نام),14,understands,0
+Arabic (Saudi),Male,10,قيلولة (غفوة/ نام),14,understands,0.0714
 Arabic (Saudi),Female,11,قيلولة (غفوة/ نام),9,produces,0.1111
-Arabic (Saudi),Female,11,قيلولة (غفوة/ نام),9,understands,0
+Arabic (Saudi),Female,11,قيلولة (غفوة/ نام),9,understands,0.1111
 Arabic (Saudi),Male,11,قيلولة (غفوة/ نام),12,produces,0
-Arabic (Saudi),Male,11,قيلولة (غفوة/ نام),12,understands,0
+Arabic (Saudi),Male,11,قيلولة (غفوة/ نام),12,understands,0.0833
 Arabic (Saudi),Female,12,قيلولة (غفوة/ نام),8,produces,0
 Arabic (Saudi),Female,12,قيلولة (غفوة/ نام),8,understands,0
 Arabic (Saudi),Male,12,قيلولة (غفوة/ نام),11,produces,0
@@ -1014,7 +1504,87 @@ Arabic (Saudi),Male,15,قيلولة (غفوة/ نام),12,understands,0
 Arabic (Saudi),Female,16,قيلولة (غفوة/ نام),9,produces,0.1111
 Arabic (Saudi),Female,16,قيلولة (غفوة/ نام),9,understands,0
 Arabic (Saudi),Male,16,قيلولة (غفوة/ نام),9,produces,0.1111
-Arabic (Saudi),Male,16,قيلولة (غفوة/ نام),9,understands,0
+Arabic (Saudi),Male,16,قيلولة (غفوة/ نام),9,understands,0.2222
+Arabic (Saudi),Female,17,قيلولة (غفوة/ نام),14,produces,0.0714
+Arabic (Saudi),Female,17,قيلولة (غفوة/ نام),14,understands,0
+Arabic (Saudi),Male,17,قيلولة (غفوة/ نام),21,produces,0.1429
+Arabic (Saudi),Male,17,قيلولة (غفوة/ نام),21,understands,0.0476
+Arabic (Saudi),Female,18,قيلولة (غفوة/ نام),17,produces,0.0588
+Arabic (Saudi),Female,18,قيلولة (غفوة/ نام),17,understands,0
+Arabic (Saudi),Male,18,قيلولة (غفوة/ نام),15,produces,0.0667
+Arabic (Saudi),Male,18,قيلولة (غفوة/ نام),15,understands,0
+Arabic (Saudi),Female,19,قيلولة (غفوة/ نام),11,produces,0.0909
+Arabic (Saudi),Female,19,قيلولة (غفوة/ نام),11,understands,0
+Arabic (Saudi),Male,19,قيلولة (غفوة/ نام),19,produces,0.1053
+Arabic (Saudi),Male,19,قيلولة (غفوة/ نام),19,understands,0.2105
+Arabic (Saudi),Female,20,قيلولة (غفوة/ نام),16,produces,0.125
+Arabic (Saudi),Female,20,قيلولة (غفوة/ نام),16,understands,0.125
+Arabic (Saudi),Male,20,قيلولة (غفوة/ نام),15,produces,0.2
+Arabic (Saudi),Male,20,قيلولة (غفوة/ نام),15,understands,0.2667
+Arabic (Saudi),Female,21,قيلولة (غفوة/ نام),18,produces,0.3333
+Arabic (Saudi),Female,21,قيلولة (غفوة/ نام),18,understands,0.0556
+Arabic (Saudi),Male,21,قيلولة (غفوة/ نام),16,produces,0.25
+Arabic (Saudi),Male,21,قيلولة (غفوة/ نام),16,understands,0
+Arabic (Saudi),Female,22,قيلولة (غفوة/ نام),11,produces,0.0909
+Arabic (Saudi),Female,22,قيلولة (غفوة/ نام),11,understands,0.2727
+Arabic (Saudi),Male,22,قيلولة (غفوة/ نام),17,produces,0.1176
+Arabic (Saudi),Male,22,قيلولة (غفوة/ نام),17,understands,0
+Arabic (Saudi),Female,23,قيلولة (غفوة/ نام),14,produces,0.2143
+Arabic (Saudi),Female,23,قيلولة (غفوة/ نام),14,understands,0.0714
+Arabic (Saudi),Male,23,قيلولة (غفوة/ نام),25,produces,0.28
+Arabic (Saudi),Male,23,قيلولة (غفوة/ نام),25,understands,0.08
+Arabic (Saudi),Female,24,قيلولة (غفوة/ نام),15,produces,0.2667
+Arabic (Saudi),Female,24,قيلولة (غفوة/ نام),15,understands,0.1333
+Arabic (Saudi),Male,24,قيلولة (غفوة/ نام),15,produces,0.3333
+Arabic (Saudi),Male,24,قيلولة (غفوة/ نام),15,understands,0.0667
+Arabic (Saudi),Female,25,قيلولة (غفوة/ نام),16,produces,0.1875
+Arabic (Saudi),Female,25,قيلولة (غفوة/ نام),16,understands,0.125
+Arabic (Saudi),Male,25,قيلولة (غفوة/ نام),18,produces,0.1111
+Arabic (Saudi),Male,25,قيلولة (غفوة/ نام),18,understands,0.1667
+Arabic (Saudi),Female,26,قيلولة (غفوة/ نام),14,produces,0.2143
+Arabic (Saudi),Female,26,قيلولة (غفوة/ نام),14,understands,0.1429
+Arabic (Saudi),Male,26,قيلولة (غفوة/ نام),16,produces,0.1875
+Arabic (Saudi),Male,26,قيلولة (غفوة/ نام),16,understands,0.1875
+Arabic (Saudi),Female,27,قيلولة (غفوة/ نام),22,produces,0.2727
+Arabic (Saudi),Female,27,قيلولة (غفوة/ نام),22,understands,0.2727
+Arabic (Saudi),Male,27,قيلولة (غفوة/ نام),15,produces,0.4
+Arabic (Saudi),Male,27,قيلولة (غفوة/ نام),15,understands,0.2
+Arabic (Saudi),Female,28,قيلولة (غفوة/ نام),18,produces,0.2778
+Arabic (Saudi),Female,28,قيلولة (غفوة/ نام),18,understands,0.3333
+Arabic (Saudi),Male,28,قيلولة (غفوة/ نام),18,produces,0.4444
+Arabic (Saudi),Male,28,قيلولة (غفوة/ نام),18,understands,0.3333
+Arabic (Saudi),Female,29,قيلولة (غفوة/ نام),16,produces,0.25
+Arabic (Saudi),Female,29,قيلولة (غفوة/ نام),16,understands,0.25
+Arabic (Saudi),Male,29,قيلولة (غفوة/ نام),24,produces,0.2083
+Arabic (Saudi),Male,29,قيلولة (غفوة/ نام),24,understands,0.2917
+Arabic (Saudi),Female,30,قيلولة (غفوة/ نام),34,produces,0.2941
+Arabic (Saudi),Female,30,قيلولة (غفوة/ نام),34,understands,0.3824
+Arabic (Saudi),Male,30,قيلولة (غفوة/ نام),30,produces,0.2667
+Arabic (Saudi),Male,30,قيلولة (غفوة/ نام),30,understands,0.3333
+Arabic (Saudi),Female,31,قيلولة (غفوة/ نام),10,produces,0.8
+Arabic (Saudi),Female,31,قيلولة (غفوة/ نام),10,understands,0.5
+Arabic (Saudi),Male,31,قيلولة (غفوة/ نام),14,produces,0.3571
+Arabic (Saudi),Male,31,قيلولة (غفوة/ نام),14,understands,0.2857
+Arabic (Saudi),Female,32,قيلولة (غفوة/ نام),11,produces,0.8182
+Arabic (Saudi),Female,32,قيلولة (غفوة/ نام),11,understands,0.7273
+Arabic (Saudi),Male,32,قيلولة (غفوة/ نام),11,produces,0.6364
+Arabic (Saudi),Male,32,قيلولة (غفوة/ نام),11,understands,0.4545
+Arabic (Saudi),Female,33,قيلولة (غفوة/ نام),15,produces,0.8
+Arabic (Saudi),Female,33,قيلولة (غفوة/ نام),15,understands,0.8
+Arabic (Saudi),Male,33,قيلولة (غفوة/ نام),19,produces,0.6842
+Arabic (Saudi),Male,33,قيلولة (غفوة/ نام),19,understands,0.6316
+Arabic (Saudi),Female,34,قيلولة (غفوة/ نام),8,produces,1
+Arabic (Saudi),Female,34,قيلولة (غفوة/ نام),8,understands,0.875
+Arabic (Saudi),Male,34,قيلولة (غفوة/ نام),10,produces,0.7
+Arabic (Saudi),Male,34,قيلولة (غفوة/ نام),10,understands,0.6
+Arabic (Saudi),Female,35,قيلولة (غفوة/ نام),11,produces,0.9091
+Arabic (Saudi),Female,35,قيلولة (غفوة/ نام),11,understands,0.8182
+Arabic (Saudi),Male,35,قيلولة (غفوة/ نام),6,produces,1
+Arabic (Saudi),Male,35,قيلولة (غفوة/ نام),6,understands,1
+Arabic (Saudi),Female,36,قيلولة (غفوة/ نام),15,produces,0.9333
+Arabic (Saudi),Female,36,قيلولة (غفوة/ نام),15,understands,0.8667
+Arabic (Saudi),Male,36,قيلولة (غفوة/ نام),17,produces,0.9412
+Arabic (Saudi),Male,36,قيلولة (غفوة/ نام),17,understands,0.8235
 British Sign Language,Female,8,nap,2,produces,0
 British Sign Language,Female,8,nap,2,understands,0
 British Sign Language,Male,8,nap,2,produces,0
@@ -1337,14 +1907,102 @@ Danish,Female,36,sove til middag,61,produces,0.918
 Danish,Female,36,sove til middag,61,understands,0
 Danish,Male,36,sove til middag,65,produces,0.9231
 Danish,Male,36,sove til middag,65,understands,0
+Dutch,Female,12,slaapje doen,2,produces,0
+Dutch,Female,12,slaapje doen,2,understands,0.5
+Dutch,Male,12,slaapje doen,1,produces,0
+Dutch,Male,12,slaapje doen,1,understands,1
+Dutch,Female,14,slaapje doen,1,produces,0
+Dutch,Female,14,slaapje doen,1,understands,1
+Dutch,Male,14,slaapje doen,1,produces,0
+Dutch,Male,14,slaapje doen,1,understands,0
+Dutch,Female,15,slaapje doen,3,produces,0
+Dutch,Female,15,slaapje doen,3,understands,0.3333
+Dutch,Female,16,slaapje doen,2,produces,0
+Dutch,Female,16,slaapje doen,2,understands,1
+Dutch,Male,16,slaapje doen,1,produces,0
+Dutch,Male,16,slaapje doen,1,understands,0
+Dutch,Female,17,slaapje doen,2,produces,0
+Dutch,Female,17,slaapje doen,2,understands,0.5
+Dutch,Female,18,slaapje doen,2,produces,0
+Dutch,Female,18,slaapje doen,2,understands,0.5
+Dutch,Male,18,slaapje doen,1,produces,0
+Dutch,Male,18,slaapje doen,1,understands,0
+Dutch,Female,19,slaapje doen,2,produces,0
+Dutch,Female,19,slaapje doen,2,understands,1
+Dutch,Male,19,slaapje doen,1,produces,0
+Dutch,Male,19,slaapje doen,1,understands,1
+Dutch,Female,20,slaapje doen,2,produces,0
+Dutch,Female,20,slaapje doen,2,understands,1
+Dutch,Male,20,slaapje doen,2,produces,0
+Dutch,Male,20,slaapje doen,2,understands,0.5
+Dutch,Female,21,slaapje doen,3,produces,0
+Dutch,Female,21,slaapje doen,3,understands,0.3333
+Dutch,Male,21,slaapje doen,3,produces,0
+Dutch,Male,21,slaapje doen,3,understands,0.3333
+Dutch,Female,22,slaapje doen,3,produces,0.3333
+Dutch,Female,22,slaapje doen,3,understands,1
+Dutch,Male,22,slaapje doen,4,produces,0
+Dutch,Male,22,slaapje doen,4,understands,0.5
+Dutch,Female,23,slaapje doen,2,produces,0.5
+Dutch,Female,23,slaapje doen,2,understands,1
+Dutch,Male,23,slaapje doen,3,produces,0
+Dutch,Male,23,slaapje doen,3,understands,0
+Dutch,Female,24,slaapje doen,1,produces,0
+Dutch,Female,24,slaapje doen,1,understands,1
+Dutch,Male,24,slaapje doen,2,produces,0
+Dutch,Male,24,slaapje doen,2,understands,0.5
+Dutch,Female,25,slaapje doen,2,produces,0.5
+Dutch,Female,25,slaapje doen,2,understands,1
+Dutch,Male,25,slaapje doen,3,produces,0
+Dutch,Male,25,slaapje doen,3,understands,0
+Dutch,Female,26,slaapje doen,2,produces,0
+Dutch,Female,26,slaapje doen,2,understands,0.5
+Dutch,Male,26,slaapje doen,1,produces,0
+Dutch,Male,26,slaapje doen,1,understands,1
+Dutch,Female,27,slaapje doen,3,produces,0.6667
+Dutch,Female,27,slaapje doen,3,understands,1
+Dutch,Male,27,slaapje doen,4,produces,0.25
+Dutch,Male,27,slaapje doen,4,understands,1
+Dutch,Female,28,slaapje doen,1,produces,0
+Dutch,Female,28,slaapje doen,1,understands,1
+Dutch,Male,28,slaapje doen,2,produces,0.5
+Dutch,Male,28,slaapje doen,2,understands,0.5
+Dutch,Female,29,slaapje doen,2,produces,0
+Dutch,Female,29,slaapje doen,2,understands,0.5
+Dutch,Male,29,slaapje doen,2,produces,0
+Dutch,Male,29,slaapje doen,2,understands,0.5
+Dutch,Female,30,slaapje doen,2,produces,1
+Dutch,Female,30,slaapje doen,2,understands,1
+Dutch,Male,30,slaapje doen,3,produces,0.3333
+Dutch,Male,30,slaapje doen,3,understands,0.6667
+Dutch,Female,31,slaapje doen,3,produces,0
+Dutch,Female,31,slaapje doen,3,understands,1
+Dutch,Male,31,slaapje doen,5,produces,0.2
+Dutch,Male,31,slaapje doen,5,understands,0.4
+Dutch,Female,32,slaapje doen,2,produces,0
+Dutch,Female,32,slaapje doen,2,understands,0.5
+Dutch,Male,32,slaapje doen,4,produces,0.25
+Dutch,Male,32,slaapje doen,4,understands,0.5
+Dutch,Female,33,slaapje doen,1,produces,0
+Dutch,Female,33,slaapje doen,1,understands,1
+Dutch,Female,34,slaapje doen,1,produces,1
+Dutch,Female,34,slaapje doen,1,understands,1
+Dutch,Male,34,slaapje doen,2,produces,0
+Dutch,Male,34,slaapje doen,2,understands,1
+Dutch,Female,35,slaapje doen,4,produces,0
+Dutch,Female,35,slaapje doen,4,understands,1
+Dutch,Male,35,slaapje doen,2,produces,0.5
+Dutch,Male,35,slaapje doen,2,understands,0.5
+Dutch,Female,36,slaapje doen,2,produces,0
+Dutch,Female,36,slaapje doen,2,understands,0.5
 English (American),Female,8,nap,114,produces,0.0175
 English (American),Female,8,nap,114,understands,0.2105
 English (American),Male,8,nap,141,produces,0.0071
 English (American),Male,8,nap,141,understands,0.1702
 English (American),Female,9,nap,135,produces,0.0296
 English (American),Female,9,nap,135,understands,0.2963
-English (American),Male,9,nap,160,produces,0
-English (American),Male,9,nap,160,understands,0.2875
+English (American),Male,9,nap,161,produces,0
+English (American),Male,9,nap,161,understands,0.2857
 English (American),Female,10,nap,119,produces,0.0168
 English (American),Female,10,nap,119,understands,0.3361
 English (American),Male,10,nap,144,produces,0
@@ -1359,76 +2017,100 @@ English (American),Male,12,nap,334,produces,0.0269
 English (American),Male,12,nap,334,understands,0.4401
 English (American),Female,13,nap,496,produces,0.0282
 English (American),Female,13,nap,496,understands,0.5706
-English (American),Male,13,nap,541,produces,0.0203
-English (American),Male,13,nap,541,understands,0.536
-English (American),Female,14,nap,220,produces,0.0409
-English (American),Female,14,nap,220,understands,0.5455
-English (American),Male,14,nap,224,produces,0.0357
-English (American),Male,14,nap,224,understands,0.5268
-English (American),Female,15,nap,111,produces,0.0541
-English (American),Female,15,nap,111,understands,0.6667
-English (American),Male,15,nap,127,produces,0.1024
-English (American),Male,15,nap,127,understands,0.6535
-English (American),Female,16,nap,786,produces,0.1018
-English (American),Female,16,nap,786,understands,0.4148
-English (American),Male,16,nap,856,produces,0.0537
-English (American),Male,16,nap,856,understands,0.3785
-English (American),Female,17,nap,315,produces,0.1429
-English (American),Female,17,nap,315,understands,0.4317
-English (American),Male,17,nap,379,produces,0.1214
-English (American),Male,17,nap,379,understands,0.4037
-English (American),Female,18,nap,434,produces,0.2189
-English (American),Female,18,nap,434,understands,0.3594
-English (American),Male,18,nap,468,produces,0.1368
-English (American),Male,18,nap,468,understands,0.359
-English (American),Female,19,nap,231,produces,0.3074
-English (American),Female,19,nap,231,understands,0
-English (American),Male,19,nap,224,produces,0.2143
-English (American),Male,19,nap,224,understands,0
-English (American),Female,20,nap,205,produces,0.3317
-English (American),Female,20,nap,205,understands,0
-English (American),Male,20,nap,222,produces,0.1667
-English (American),Male,20,nap,222,understands,0
-English (American),Female,21,nap,127,produces,0.4173
-English (American),Female,21,nap,127,understands,0
-English (American),Male,21,nap,142,produces,0.3169
-English (American),Male,21,nap,142,understands,0
-English (American),Female,22,nap,186,produces,0.457
-English (American),Female,22,nap,186,understands,0
-English (American),Male,22,nap,162,produces,0.4074
-English (American),Male,22,nap,162,understands,0
-English (American),Female,23,nap,177,produces,0.6384
-English (American),Female,23,nap,177,understands,0
-English (American),Male,23,nap,196,produces,0.4694
-English (American),Male,23,nap,196,understands,0
-English (American),Female,24,nap,365,produces,0.6466
-English (American),Female,24,nap,365,understands,0
-English (American),Male,24,nap,453,produces,0.5408
-English (American),Male,24,nap,453,understands,0
-English (American),Female,25,nap,299,produces,0.7659
-English (American),Female,25,nap,299,understands,0
-English (American),Male,25,nap,336,produces,0.619
-English (American),Male,25,nap,336,understands,0
-English (American),Female,26,nap,173,produces,0.7746
-English (American),Female,26,nap,173,understands,0
-English (American),Male,26,nap,197,produces,0.6345
-English (American),Male,26,nap,197,understands,0
-English (American),Female,27,nap,158,produces,0.7215
-English (American),Female,27,nap,158,understands,0
-English (American),Male,27,nap,154,produces,0.7338
-English (American),Male,27,nap,154,understands,0
-English (American),Female,28,nap,416,produces,0.9014
-English (American),Female,28,nap,416,understands,0
-English (American),Male,28,nap,492,produces,0.8537
-English (American),Male,28,nap,492,understands,0
-English (American),Female,29,nap,166,produces,0.7952
-English (American),Female,29,nap,166,understands,0
-English (American),Male,29,nap,167,produces,0.7784
-English (American),Male,29,nap,167,understands,0
-English (American),Female,30,nap,323,produces,0.8019
-English (American),Female,30,nap,323,understands,0
-English (American),Male,30,nap,368,produces,0.75
-English (American),Male,30,nap,368,understands,0
+English (American),Male,13,nap,542,produces,0.0203
+English (American),Male,13,nap,542,understands,0.5351
+English (American),Female,14,nap,221,produces,0.0407
+English (American),Female,14,nap,221,understands,0.5475
+English (American),Male,14,nap,227,produces,0.0352
+English (American),Male,14,nap,227,understands,0.5198
+English (American),Female,15,nap,132,produces,0.0455
+English (American),Female,15,nap,132,understands,0.6667
+English (American),Male,15,nap,145,produces,0.0897
+English (American),Male,15,nap,145,understands,0.6276
+English (American),Female,16,nap,784,produces,0.102
+English (American),Female,16,nap,784,understands,0.4452
+English (American),Male,16,nap,851,produces,0.0494
+English (American),Male,16,nap,851,understands,0.3972
+English (American),Female,17,nap,437,produces,0.0824
+English (American),Female,17,nap,437,understands,0.3387
+English (American),Male,17,nap,481,produces,0.079
+English (American),Male,17,nap,481,understands,0.3472
+English (American),Female,18,nap,524,produces,0.145
+English (American),Female,18,nap,524,understands,0.3168
+English (American),Male,18,nap,608,produces,0.0905
+English (American),Male,18,nap,608,understands,0.3026
+English (American),Female,19,nap,166,produces,0.3012
+English (American),Female,19,nap,166,understands,0
+English (American),Male,19,nap,163,produces,0.1902
+English (American),Male,19,nap,163,understands,0
+English (American),Female,20,nap,161,produces,0.3106
+English (American),Female,20,nap,161,understands,0
+English (American),Male,20,nap,181,produces,0.1492
+English (American),Male,20,nap,181,understands,0
+English (American),Female,21,nap,137,produces,0.3869
+English (American),Female,21,nap,137,understands,0
+English (American),Male,21,nap,169,produces,0.3136
+English (American),Male,21,nap,169,understands,0
+English (American),Female,22,nap,140,produces,0.4357
+English (American),Female,22,nap,140,understands,0
+English (American),Male,22,nap,127,produces,0.3307
+English (American),Male,22,nap,127,understands,0
+English (American),Female,23,nap,115,produces,0.5565
+English (American),Female,23,nap,115,understands,0
+English (American),Male,23,nap,124,produces,0.3871
+English (American),Male,23,nap,124,understands,0
+English (American),Female,24,nap,310,produces,0.5935
+English (American),Female,24,nap,310,understands,0.0032
+English (American),Male,24,nap,342,produces,0.4737
+English (American),Male,24,nap,342,understands,0.0058
+English (American),Female,25,nap,239,produces,0.7573
+English (American),Female,25,nap,239,understands,0
+English (American),Male,25,nap,268,produces,0.5933
+English (American),Male,25,nap,268,understands,0
+English (American),Female,26,nap,109,produces,0.7615
+English (American),Female,26,nap,109,understands,0
+English (American),Male,26,nap,123,produces,0.626
+English (American),Male,26,nap,123,understands,0.0163
+English (American),Female,27,nap,88,produces,0.7159
+English (American),Female,27,nap,88,understands,0
+English (American),Male,27,nap,82,produces,0.7439
+English (American),Male,27,nap,82,understands,0
+English (American),Female,28,nap,367,produces,0.9128
+English (American),Female,28,nap,367,understands,0
+English (American),Male,28,nap,420,produces,0.8714
+English (American),Male,28,nap,420,understands,0.0024
+English (American),Female,29,nap,89,produces,0.7079
+English (American),Female,29,nap,89,understands,0
+English (American),Male,29,nap,79,produces,0.7468
+English (American),Male,29,nap,79,understands,0.0127
+English (American),Female,30,nap,252,produces,0.754
+English (American),Female,30,nap,252,understands,0
+English (American),Male,30,nap,284,produces,0.6901
+English (American),Male,30,nap,284,understands,0
+English (American),Female,31,nap,111,produces,0.8739
+English (American),Female,31,nap,111,understands,0.009
+English (American),Male,31,nap,124,produces,0.8226
+English (American),Male,31,nap,124,understands,0.0081
+English (American),Female,32,nap,70,produces,0.7857
+English (American),Female,32,nap,70,understands,0.0286
+English (American),Male,32,nap,59,produces,0.7458
+English (American),Male,32,nap,59,understands,0
+English (American),Female,33,nap,24,produces,0.875
+English (American),Female,33,nap,24,understands,0
+English (American),Male,33,nap,17,produces,0.6471
+English (American),Male,33,nap,17,understands,0
+English (American),Female,34,nap,9,produces,0.7778
+English (American),Female,34,nap,9,understands,0.3333
+English (American),Male,34,nap,5,produces,1
+English (American),Male,34,nap,5,understands,0.2
+English (American),Female,35,nap,12,produces,0.5833
+English (American),Female,35,nap,12,understands,0.0833
+English (American),Male,35,nap,9,produces,0.5556
+English (American),Male,35,nap,9,understands,0.1111
+English (American),Female,36,nap,38,produces,0.7105
+English (American),Female,36,nap,38,understands,0.1053
+English (American),Male,36,nap,42,produces,0.7143
+English (American),Male,36,nap,42,understands,0.0238
 English (Australian),Female,12,nap,27,produces,0
 English (Australian),Female,12,nap,27,understands,0
 English (Australian),Male,12,nap,44,produces,0
@@ -1505,62 +2187,222 @@ English (Australian),Female,30,nap,28,produces,0.75
 English (Australian),Female,30,nap,28,understands,0
 English (Australian),Male,30,nap,25,produces,0.64
 English (Australian),Male,30,nap,25,understands,0
-English (British),Female,12,nap,13,produces,0
-English (British),Female,12,nap,13,understands,0.1538
-English (British),Male,12,nap,14,produces,0
-English (British),Male,12,nap,14,understands,0.2143
-English (British),Female,13,nap,2,produces,0
-English (British),Female,13,nap,2,understands,0.5
-English (British),Male,13,nap,5,produces,0
-English (British),Male,13,nap,5,understands,0.4
-English (British),Female,14,nap,27,produces,0
-English (British),Female,14,nap,27,understands,0.4074
-English (British),Male,14,nap,37,produces,0
-English (British),Male,14,nap,37,understands,0.2162
-English (British),Female,15,nap,38,produces,0
-English (British),Female,15,nap,38,understands,0.3158
-English (British),Male,15,nap,50,produces,0
-English (British),Male,15,nap,50,understands,0.44
-English (British),Female,16,nap,58,produces,0.0345
-English (British),Female,16,nap,58,understands,0.5345
-English (British),Male,16,nap,60,produces,0.0333
-English (British),Male,16,nap,60,understands,0.4833
-English (British),Female,17,nap,90,produces,0.0667
-English (British),Female,17,nap,90,understands,0.5111
-English (British),Male,17,nap,107,produces,0.028
-English (British),Male,17,nap,107,understands,0.4579
-English (British),Female,18,nap,58,produces,0.1034
-English (British),Female,18,nap,58,understands,0.6207
-English (British),Male,18,nap,60,produces,0.0833
-English (British),Male,18,nap,60,understands,0.5
-English (British),Female,19,nap,52,produces,0.0769
-English (British),Female,19,nap,52,understands,0.6538
-English (British),Male,19,nap,57,produces,0.0702
-English (British),Male,19,nap,57,understands,0.7018
-English (British),Female,20,nap,64,produces,0.1875
-English (British),Female,20,nap,64,understands,0.6562
-English (British),Male,20,nap,80,produces,0.2
-English (British),Male,20,nap,80,understands,0.6625
-English (British),Female,21,nap,32,produces,0.25
-English (British),Female,21,nap,32,understands,0.7812
-English (British),Male,21,nap,43,produces,0.186
-English (British),Male,21,nap,43,understands,0.7209
-English (British),Female,22,nap,12,produces,0.3333
-English (British),Female,22,nap,12,understands,0.6667
-English (British),Male,22,nap,16,produces,0.1875
-English (British),Male,22,nap,16,understands,0.75
-English (British),Female,23,nap,50,produces,0.3
-English (British),Female,23,nap,50,understands,0.78
-English (British),Male,23,nap,62,produces,0.3387
-English (British),Male,23,nap,62,understands,0.7097
-English (British),Female,24,nap,42,produces,0.4524
-English (British),Female,24,nap,42,understands,0.8333
-English (British),Male,24,nap,45,produces,0.4222
-English (British),Male,24,nap,45,understands,0.9111
-English (British),Female,25,nap,21,produces,0.619
-English (British),Female,25,nap,21,understands,0.8571
-English (British),Male,25,nap,15,produces,0.3333
-English (British),Male,25,nap,15,understands,0.7333
+English (British),Female,8,L Words for games and routines - 13 nap,55,produces,0
+English (British),Female,8,L Words for games and routines - 13 nap,55,understands,0.1091
+English (British),Male,8,L Words for games and routines - 13 nap,51,produces,0
+English (British),Male,8,L Words for games and routines - 13 nap,51,understands,0.1569
+English (British),Female,9,L Words for games and routines - 13 nap,65,produces,0.0154
+English (British),Female,9,L Words for games and routines - 13 nap,65,understands,0.2
+English (British),Male,9,L Words for games and routines - 13 nap,72,produces,0
+English (British),Male,9,L Words for games and routines - 13 nap,72,understands,0.1111
+English (British),Female,10,L Words for games and routines - 13 nap,53,produces,0
+English (British),Female,10,L Words for games and routines - 13 nap,53,understands,0.2264
+English (British),Male,10,L Words for games and routines - 13 nap,75,produces,0
+English (British),Male,10,L Words for games and routines - 13 nap,75,understands,0.3467
+English (British),Female,11,L Words for games and routines - 13 nap,57,produces,0
+English (British),Female,11,L Words for games and routines - 13 nap,57,understands,0.2632
+English (British),Male,11,L Words for games and routines - 13 nap,53,produces,0
+English (British),Male,11,L Words for games and routines - 13 nap,53,understands,0.3208
+English (British),Female,12,"nap, L Words for games and routines - 13 nap",104,produces,0.0192
+English (British),Female,12,"nap, L Words for games and routines - 13 nap",104,understands,0.3365
+English (British),Male,12,"nap, L Words for games and routines - 13 nap",101,produces,0.0198
+English (British),Male,12,"nap, L Words for games and routines - 13 nap",101,understands,0.2673
+English (British),Female,13,"nap, L Words for games and routines - 13 nap",89,produces,0
+English (British),Female,13,"nap, L Words for games and routines - 13 nap",89,understands,0.4045
+English (British),Male,13,"nap, L Words for games and routines - 13 nap",89,produces,0.0112
+English (British),Male,13,"nap, L Words for games and routines - 13 nap",89,understands,0.3708
+English (British),Female,14,"nap, L Words for games and routines - 13 nap",102,produces,0.0196
+English (British),Female,14,"nap, L Words for games and routines - 13 nap",102,understands,0.3824
+English (British),Male,14,"nap, L Words for games and routines - 13 nap",102,produces,0.0098
+English (British),Male,14,"nap, L Words for games and routines - 13 nap",102,understands,0.3431
+English (British),Female,15,"nap, L Words for games and routines - 13 nap",137,produces,0.0365
+English (British),Female,15,"nap, L Words for games and routines - 13 nap",137,understands,0.4745
+English (British),Male,15,"nap, L Words for games and routines - 13 nap",135,produces,0.0148
+English (British),Male,15,"nap, L Words for games and routines - 13 nap",135,understands,0.4815
+English (British),Female,16,"nap, L Words for games and routines - 13 nap, M games - 14 nap",161,produces,0.0373
+English (British),Female,16,"nap, L Words for games and routines - 13 nap, M games - 14 nap",161,understands,0.5217
+English (British),Male,16,"nap, L Words for games and routines - 13 nap, M games - 14 nap",165,produces,0.0364
+English (British),Male,16,"nap, L Words for games and routines - 13 nap, M games - 14 nap",165,understands,0.4545
+English (British),Female,17,"nap, L Words for games and routines - 13 nap, M games - 14 nap",182,produces,0.0989
+English (British),Female,17,"nap, L Words for games and routines - 13 nap, M games - 14 nap",182,understands,0.5714
+English (British),Male,17,"nap, L Words for games and routines - 13 nap, M games - 14 nap",186,produces,0.043
+English (British),Male,17,"nap, L Words for games and routines - 13 nap, M games - 14 nap",186,understands,0.5054
+English (British),Female,18,"nap, L Words for games and routines - 13 nap, M games - 14 nap",143,produces,0.1259
+English (British),Female,18,"nap, L Words for games and routines - 13 nap, M games - 14 nap",143,understands,0.5664
+English (British),Male,18,"nap, L Words for games and routines - 13 nap, M games - 14 nap",171,produces,0.0936
+English (British),Male,18,"nap, L Words for games and routines - 13 nap, M games - 14 nap",171,understands,0.5965
+English (British),Female,19,"nap, M games - 14 nap",97,produces,0.1546
+English (British),Female,19,"nap, M games - 14 nap",97,understands,0.6289
+English (British),Male,19,"nap, M games - 14 nap",99,produces,0.0808
+English (British),Male,19,"nap, M games - 14 nap",99,understands,0.5657
+English (British),Female,20,"nap, M games - 14 nap",120,produces,0.15
+English (British),Female,20,"nap, M games - 14 nap",120,understands,0.7
+English (British),Male,20,"nap, M games - 14 nap",129,produces,0.1628
+English (British),Male,20,"nap, M games - 14 nap",129,understands,0.61240000000000006
+English (British),Female,21,"nap, M games - 14 nap",89,produces,0.2697
+English (British),Female,21,"nap, M games - 14 nap",89,understands,0.6404
+English (British),Male,21,"nap, M games - 14 nap",107,produces,0.1589
+English (British),Male,21,"nap, M games - 14 nap",107,understands,0.6729
+English (British),Female,22,"nap, M games - 14 nap",77,produces,0.2597
+English (British),Female,22,"nap, M games - 14 nap",77,understands,0.7662
+English (British),Male,22,"nap, M games - 14 nap",73,produces,0.2603
+English (British),Male,22,"nap, M games - 14 nap",73,understands,0.7397
+English (British),Female,23,"nap, M games - 14 nap",199,produces,0.2965
+English (British),Female,23,"nap, M games - 14 nap",199,understands,0.7035
+English (British),Male,23,"nap, M games - 14 nap",255,produces,0.2392
+English (British),Male,23,"nap, M games - 14 nap",255,understands,0.6863
+English (British),Female,24,"nap, M games - 14 nap",151,produces,0.3775
+English (British),Female,24,"nap, M games - 14 nap",151,understands,0.7351
+English (British),Male,24,"nap, M games - 14 nap",171,produces,0.2924
+English (British),Male,24,"nap, M games - 14 nap",171,understands,0.7368
+English (British),Female,25,"nap, M games - 14 nap",86,produces,0.5233
+English (British),Female,25,"nap, M games - 14 nap",86,understands,0.8023
+English (British),Male,25,"nap, M games - 14 nap",85,produces,0.4118
+English (British),Male,25,"nap, M games - 14 nap",85,understands,0.7647
+English (British),Female,26,"nap, M games - 14 nap",91,produces,0.5385
+English (British),Female,26,"nap, M games - 14 nap",91,understands,0.8462
+English (British),Male,26,"nap, M games - 14 nap",75,produces,0.3333
+English (British),Male,26,"nap, M games - 14 nap",75,understands,0.7467
+English (British),Female,27,"nap, M games - 14 nap",78,produces,0.4231
+English (British),Female,27,"nap, M games - 14 nap",78,understands,0.8077
+English (British),Male,27,"nap, M games - 14 nap",69,produces,0.4783
+English (British),Male,27,"nap, M games - 14 nap",69,understands,0.6957
+English (British),Female,28,"nap, M games - 14 nap",68,produces,0.5
+English (British),Female,28,"nap, M games - 14 nap",68,understands,0.7647
+English (British),Male,28,"nap, M games - 14 nap",52,produces,0.5385
+English (British),Male,28,"nap, M games - 14 nap",52,understands,0.8077
+English (British),Female,29,"nap, M games - 14 nap",57,produces,0.5789
+English (British),Female,29,"nap, M games - 14 nap",57,understands,0.5965
+English (British),Male,29,"nap, M games - 14 nap",40,produces,0.5
+English (British),Male,29,"nap, M games - 14 nap",40,understands,0.825
+English (British),Female,30,"nap, M games - 14 nap",44,produces,0.6818
+English (British),Female,30,"nap, M games - 14 nap",44,understands,0.7727
+English (British),Male,30,"nap, M games - 14 nap",66,produces,0.5455
+English (British),Male,30,"nap, M games - 14 nap",66,understands,0.7424
+English (British),Female,31,nap,52,produces,0.4615
+English (British),Female,31,nap,52,understands,0.75
+English (British),Male,31,"nap, M games - 14 nap",52,produces,0.4808
+English (British),Male,31,"nap, M games - 14 nap",52,understands,0.8077
+English (British),Female,32,nap,26,produces,0.6538
+English (British),Female,32,nap,26,understands,0.8846
+English (British),Male,32,nap,36,produces,0.6944
+English (British),Male,32,nap,36,understands,0.9444
+English (British),Female,33,nap,34,produces,0.6765
+English (British),Female,33,nap,34,understands,0.8824
+English (British),Male,33,nap,19,produces,0.5789
+English (British),Male,33,nap,19,understands,1
+English (British),Female,34,nap,19,produces,0.6316
+English (British),Female,34,nap,19,understands,0.8421
+English (British),Male,34,nap,26,produces,0.5385
+English (British),Male,34,nap,26,understands,0.9231
+English (British),Female,35,nap,30,produces,0.6
+English (British),Female,35,nap,30,understands,0.8667
+English (British),Male,35,nap,23,produces,0.6087
+English (British),Male,35,nap,23,understands,0.8261
+English (British),Female,36,nap,18,produces,0.7222
+English (British),Female,36,nap,18,understands,0.9444
+English (British),Male,36,nap,29,produces,0.6897
+English (British),Male,36,nap,29,understands,0.931
+English (Malaysian),Female,12,nap,2,produces,0
+English (Malaysian),Female,12,nap,2,understands,0.5
+English (Malaysian),Male,12,nap,1,produces,0
+English (Malaysian),Male,12,nap,1,understands,0
+English (Malaysian),Female,13,nap,11,produces,0
+English (Malaysian),Female,13,nap,11,understands,0.0909
+English (Malaysian),Male,13,nap,6,produces,0
+English (Malaysian),Male,13,nap,6,understands,0.3333
+English (Malaysian),Female,14,nap,2,produces,0
+English (Malaysian),Female,14,nap,2,understands,0
+English (Malaysian),Male,14,nap,11,produces,0
+English (Malaysian),Male,14,nap,11,understands,0.0909
+English (Malaysian),Female,15,nap,7,produces,0
+English (Malaysian),Female,15,nap,7,understands,0.1429
+English (Malaysian),Male,15,nap,16,produces,0
+English (Malaysian),Male,15,nap,16,understands,0.1875
+English (Malaysian),Female,16,nap,13,produces,0
+English (Malaysian),Female,16,nap,13,understands,0.0769
+English (Malaysian),Male,16,nap,16,produces,0
+English (Malaysian),Male,16,nap,16,understands,0.0625
+English (Malaysian),Female,17,nap,7,produces,0
+English (Malaysian),Female,17,nap,7,understands,0
+English (Malaysian),Male,17,nap,13,produces,0
+English (Malaysian),Male,17,nap,13,understands,0.0769
+English (Malaysian),Female,18,nap,18,produces,0.0556
+English (Malaysian),Female,18,nap,18,understands,0.1111
+English (Malaysian),Male,18,nap,22,produces,0.0455
+English (Malaysian),Male,18,nap,22,understands,0.1818
+English (Malaysian),Female,19,nap,6,produces,0
+English (Malaysian),Female,19,nap,6,understands,0
+English (Malaysian),Male,19,nap,7,produces,0
+English (Malaysian),Male,19,nap,7,understands,0.1429
+English (Malaysian),Female,20,nap,9,produces,0
+English (Malaysian),Female,20,nap,9,understands,0.1111
+English (Malaysian),Male,20,nap,22,produces,0.0455
+English (Malaysian),Male,20,nap,22,understands,0.1818
+English (Malaysian),Female,21,nap,14,produces,0
+English (Malaysian),Female,21,nap,14,understands,0.1429
+English (Malaysian),Male,21,nap,17,produces,0
+English (Malaysian),Male,21,nap,17,understands,0.0588
+English (Malaysian),Female,22,nap,10,produces,0
+English (Malaysian),Female,22,nap,10,understands,0.1
+English (Malaysian),Male,22,nap,18,produces,0.0556
+English (Malaysian),Male,22,nap,18,understands,0.1667
+English (Malaysian),Female,23,nap,17,produces,0
+English (Malaysian),Female,23,nap,17,understands,0.0588
+English (Malaysian),Male,23,nap,17,produces,0.0588
+English (Malaysian),Male,23,nap,17,understands,0.2353
+English (Malaysian),Female,24,nap,25,produces,0.04
+English (Malaysian),Female,24,nap,25,understands,0.16
+English (Malaysian),Male,24,nap,21,produces,0.0476
+English (Malaysian),Male,24,nap,21,understands,0.0952
+English (Malaysian),Female,25,nap,11,produces,0
+English (Malaysian),Female,25,nap,11,understands,0.0909
+English (Malaysian),Male,25,nap,10,produces,0
+English (Malaysian),Male,25,nap,10,understands,0
+English (Malaysian),Female,26,nap,26,produces,0
+English (Malaysian),Female,26,nap,26,understands,0.0769
+English (Malaysian),Male,26,nap,19,produces,0.0526
+English (Malaysian),Male,26,nap,19,understands,0.1053
+English (Malaysian),Female,27,nap,12,produces,0.0833
+English (Malaysian),Female,27,nap,12,understands,0.1667
+English (Malaysian),Male,27,nap,7,produces,0.1429
+English (Malaysian),Male,27,nap,7,understands,0.2857
+English (Malaysian),Female,28,nap,21,produces,0.0952
+English (Malaysian),Female,28,nap,21,understands,0.2857
+English (Malaysian),Male,28,nap,21,produces,0.1429
+English (Malaysian),Male,28,nap,21,understands,0.1905
+English (Malaysian),Female,29,nap,14,produces,0.1429
+English (Malaysian),Female,29,nap,14,understands,0.3571
+English (Malaysian),Male,29,nap,12,produces,0.0833
+English (Malaysian),Male,29,nap,12,understands,0.25
+English (Malaysian),Female,30,nap,13,produces,0
+English (Malaysian),Female,30,nap,13,understands,0
+English (Malaysian),Male,30,nap,17,produces,0.1176
+English (Malaysian),Male,30,nap,17,understands,0.2353
+English (Malaysian),Female,31,nap,6,produces,0
+English (Malaysian),Female,31,nap,6,understands,0.3333
+English (Malaysian),Male,31,nap,3,produces,0
+English (Malaysian),Male,31,nap,3,understands,0
+English (Malaysian),Female,32,nap,9,produces,0.1111
+English (Malaysian),Female,32,nap,9,understands,0.2222
+English (Malaysian),Male,32,nap,10,produces,0.1
+English (Malaysian),Male,32,nap,10,understands,0.2
+English (Malaysian),Female,33,nap,8,produces,0.125
+English (Malaysian),Female,33,nap,8,understands,0.25
+English (Malaysian),Male,33,nap,12,produces,0.3333
+English (Malaysian),Male,33,nap,12,understands,0.5833
+English (Malaysian),Female,34,nap,9,produces,0
+English (Malaysian),Female,34,nap,9,understands,0
+English (Malaysian),Male,34,nap,6,produces,0.3333
+English (Malaysian),Male,34,nap,6,understands,0.5
+English (Malaysian),Female,35,nap,11,produces,0.0909
+English (Malaysian),Female,35,nap,11,understands,0.0909
+English (Malaysian),Male,35,nap,10,produces,0.1
+English (Malaysian),Male,35,nap,10,understands,0.3
+English (Malaysian),Female,36,nap,6,produces,0.1667
+English (Malaysian),Female,36,nap,6,understands,0.3333
+English (Malaysian),Male,36,nap,7,produces,0
+English (Malaysian),Male,36,nap,7,understands,0.1429
 Estonian,Female,16,lõunauinak,19,produces,0.1053
 Estonian,Female,16,lõunauinak,19,understands,0
 Estonian,Male,16,lõunauinak,17,produces,0
@@ -1621,14 +2463,14 @@ Estonian,Female,30,lõunauinak,37,produces,0.3514
 Estonian,Female,30,lõunauinak,37,understands,0
 Estonian,Male,30,lõunauinak,34,produces,0.4118
 Estonian,Male,30,lõunauinak,34,understands,0
-Finnish,Female,12,päiväunet ,18,produces,0
-Finnish,Female,12,päiväunet ,18,understands,0
-Finnish,Male,12,päiväunet ,17,produces,0
-Finnish,Male,12,päiväunet ,17,understands,0
-Finnish,Female,15,päiväunet ,18,produces,0
-Finnish,Female,15,päiväunet ,18,understands,0
-Finnish,Male,15,päiväunet ,17,produces,0
-Finnish,Male,15,päiväunet ,17,understands,0
+Finnish,Female,12,päiväunet,18,produces,0
+Finnish,Female,12,päiväunet,18,understands,0
+Finnish,Male,12,päiväunet,17,produces,0
+Finnish,Male,12,päiväunet,17,understands,0
+Finnish,Female,15,päiväunet,18,produces,0
+Finnish,Female,15,päiväunet,18,understands,0
+Finnish,Male,15,päiväunet,17,produces,0
+Finnish,Male,15,päiväunet,17,understands,0
 Finnish,Female,18,päiväunet,18,produces,0.0556
 Finnish,Female,18,päiväunet,18,understands,0
 Finnish,Male,18,päiväunet,17,produces,0
@@ -1637,98 +2479,122 @@ Finnish,Female,24,päiväunet,18,produces,0.2778
 Finnish,Female,24,päiväunet,18,understands,0
 Finnish,Male,24,päiväunet,17,produces,0.4706
 Finnish,Male,24,päiväunet,17,understands,0
-French (French),Female,8,sieste,2,produces,0.5
-French (French),Female,8,sieste,2,understands,0.5
-French (French),Male,8,sieste,5,produces,0
-French (French),Male,8,sieste,5,understands,0
-French (French),Female,9,sieste,2,produces,0.5
-French (French),Female,9,sieste,2,understands,0.5
-French (French),Male,9,sieste,5,produces,0
-French (French),Male,9,sieste,5,understands,0
-French (French),Female,10,sieste,7,produces,0.4286
-French (French),Female,10,sieste,7,understands,0.4286
+French (French),Female,8,sieste,19,produces,0.0526
+French (French),Female,8,sieste,19,understands,0.2632
+French (French),Male,8,sieste,20,produces,0
+French (French),Male,8,sieste,20,understands,0.15
+French (French),Female,9,sieste,6,produces,0.1667
+French (French),Female,9,sieste,6,understands,0.1667
+French (French),Male,9,sieste,11,produces,0
+French (French),Male,9,sieste,11,understands,0
+French (French),Female,10,sieste,8,produces,0.375
+French (French),Female,10,sieste,8,understands,0.375
 French (French),Male,10,sieste,6,produces,0.3333
 French (French),Male,10,sieste,6,understands,0.3333
-French (French),Female,11,sieste,8,produces,0.125
-French (French),Female,11,sieste,8,understands,0.125
-French (French),Male,11,sieste,6,produces,0.1667
-French (French),Male,11,sieste,6,understands,0.1667
-French (French),Female,12,sieste,19,produces,0.4211
-French (French),Female,12,sieste,19,understands,0.4211
-French (French),Male,12,sieste,19,produces,0.2632
-French (French),Male,12,sieste,19,understands,0.2632
-French (French),Female,13,sieste,36,produces,0.1944
-French (French),Female,13,sieste,36,understands,0.4444
-French (French),Male,13,sieste,30,produces,0.2
-French (French),Male,13,sieste,30,understands,0.3333
-French (French),Female,14,sieste,17,produces,0.2353
-French (French),Female,14,sieste,17,understands,0.5294
-French (French),Male,14,sieste,20,produces,0.25
-French (French),Male,14,sieste,20,understands,0.45
-French (French),Female,15,sieste,11,produces,0.8182
-French (French),Female,15,sieste,11,understands,0.8182
-French (French),Male,15,sieste,13,produces,0.6923
-French (French),Male,15,sieste,13,understands,0.6923
-French (French),Female,16,sieste,25,produces,0.16
-French (French),Female,16,sieste,25,understands,0
-French (French),Male,16,sieste,27,produces,0.037
-French (French),Male,16,sieste,27,understands,0.037
-French (French),Female,17,sieste,25,produces,0.04
-French (French),Female,17,sieste,25,understands,0
-French (French),Male,17,sieste,23,produces,0.087
-French (French),Male,17,sieste,23,understands,0
-French (French),Female,18,sieste,27,produces,0.3333
-French (French),Female,18,sieste,27,understands,0
-French (French),Male,18,sieste,21,produces,0.381
-French (French),Male,18,sieste,21,understands,0
-French (French),Female,19,sieste,22,produces,0.3182
-French (French),Female,19,sieste,22,understands,0
-French (French),Male,19,sieste,17,produces,0.2353
-French (French),Male,19,sieste,17,understands,0
-French (French),Female,20,sieste,42,produces,0.2143
-French (French),Female,20,sieste,42,understands,0
-French (French),Male,20,sieste,35,produces,0.1429
-French (French),Male,20,sieste,35,understands,0
-French (French),Female,21,sieste,55,produces,0.2364
-French (French),Female,21,sieste,55,understands,0
-French (French),Male,21,sieste,38,produces,0.1842
-French (French),Male,21,sieste,38,understands,0
-French (French),Female,22,sieste,60,produces,0.3833
-French (French),Female,22,sieste,60,understands,0
-French (French),Male,22,sieste,38,produces,0.3421
-French (French),Male,22,sieste,38,understands,0
-French (French),Female,23,sieste,40,produces,0.325
-French (French),Female,23,sieste,40,understands,0
-French (French),Male,23,sieste,44,produces,0.3182
-French (French),Male,23,sieste,44,understands,0
-French (French),Female,24,sieste,65,produces,0.4154
-French (French),Female,24,sieste,65,understands,0
-French (French),Male,24,sieste,72,produces,0.2778
-French (French),Male,24,sieste,72,understands,0
-French (French),Female,25,sieste,39,produces,0.4615
-French (French),Female,25,sieste,39,understands,0
-French (French),Male,25,sieste,46,produces,0.4565
-French (French),Male,25,sieste,46,understands,0
-French (French),Female,26,sieste,31,produces,0.7097
-French (French),Female,26,sieste,31,understands,0
-French (French),Male,26,sieste,32,produces,0.4062
-French (French),Male,26,sieste,32,understands,0
-French (French),Female,27,sieste,28,produces,0.5357
-French (French),Female,27,sieste,28,understands,0
-French (French),Male,27,sieste,24,produces,0.3333
-French (French),Male,27,sieste,24,understands,0
-French (French),Female,28,sieste,33,produces,0.6061
-French (French),Female,28,sieste,33,understands,0
-French (French),Male,28,sieste,43,produces,0.6047
-French (French),Male,28,sieste,43,understands,0
-French (French),Female,29,sieste,32,produces,0.75
-French (French),Female,29,sieste,32,understands,0
-French (French),Male,29,sieste,33,produces,0.697
-French (French),Male,29,sieste,33,understands,0
-French (French),Female,30,sieste,34,produces,0.5588
-French (French),Female,30,sieste,34,understands,0
-French (French),Male,30,sieste,33,produces,0.5758
-French (French),Male,30,sieste,33,understands,0
+French (French),Female,11,sieste,10,produces,0.1
+French (French),Female,11,sieste,10,understands,0.2
+French (French),Male,11,sieste,10,produces,0.1
+French (French),Male,11,sieste,10,understands,0.2
+French (French),Female,12,sieste,45,produces,0.1778
+French (French),Female,12,sieste,45,understands,0.4222
+French (French),Male,12,sieste,35,produces,0.1429
+French (French),Male,12,sieste,35,understands,0.2857
+French (French),Female,13,sieste,35,produces,0.2
+French (French),Female,13,sieste,35,understands,0.6
+French (French),Male,13,sieste,23,produces,0.2609
+French (French),Male,13,sieste,23,understands,0.3478
+French (French),Female,14,sieste,10,produces,0.4
+French (French),Female,14,sieste,10,understands,0.7
+French (French),Male,14,sieste,13,produces,0.3846
+French (French),Male,14,sieste,13,understands,0.5385
+French (French),Female,15,sieste,25,produces,0.36
+French (French),Female,15,sieste,25,understands,0.56
+French (French),Male,15,sieste,23,produces,0.3913
+French (French),Male,15,sieste,23,understands,0.5652
+French (French),Female,16,sieste,33,produces,0.1212
+French (French),Female,16,sieste,33,understands,0.1515
+French (French),Male,16,sieste,35,produces,0.0286
+French (French),Male,16,sieste,35,understands,0.1429
+French (French),Female,17,sieste,26,produces,0.0385
+French (French),Female,17,sieste,26,understands,0
+French (French),Male,17,sieste,25,produces,0.08
+French (French),Male,17,sieste,25,understands,0.04
+French (French),Female,18,sieste,34,produces,0.2647
+French (French),Female,18,sieste,34,understands,0.2059
+French (French),Male,18,sieste,28,produces,0.1429
+French (French),Male,18,sieste,28,understands,0.25
+French (French),Female,19,sieste,50,produces,0.16
+French (French),Female,19,sieste,50,understands,0.2
+French (French),Male,19,sieste,35,produces,0.0571
+French (French),Male,19,sieste,35,understands,0.1714
+French (French),Female,20,sieste,125,produces,0.12
+French (French),Female,20,sieste,125,understands,0.048
+French (French),Male,20,sieste,119,produces,0.084
+French (French),Male,20,sieste,119,understands,0.0252
+French (French),Female,21,sieste,66,produces,0.1364
+French (French),Female,21,sieste,66,understands,0.1061
+French (French),Male,21,sieste,42,produces,0.0238
+French (French),Male,21,sieste,42,understands,0.1429
+French (French),Female,22,sieste,62,produces,0.2903
+French (French),Female,22,sieste,62,understands,0.1129
+French (French),Male,22,sieste,39,produces,0.2051
+French (French),Male,22,sieste,39,understands,0.1026
+French (French),Female,23,sieste,41,produces,0.2927
+French (French),Female,23,sieste,41,understands,0.1463
+French (French),Male,23,sieste,42,produces,0.2143
+French (French),Male,23,sieste,42,understands,0.0714
+French (French),Female,24,sieste,69,produces,0.3913
+French (French),Female,24,sieste,69,understands,0.0435
+French (French),Male,24,sieste,80,produces,0.275
+French (French),Male,24,sieste,80,understands,0.1
+French (French),Female,25,sieste,42,produces,0.4762
+French (French),Female,25,sieste,42,understands,0.0714
+French (French),Male,25,sieste,50,produces,0.46
+French (French),Male,25,sieste,50,understands,0.1
+French (French),Female,26,sieste,32,produces,0.7188
+French (French),Female,26,sieste,32,understands,0
+French (French),Male,26,sieste,34,produces,0.4412
+French (French),Male,26,sieste,34,understands,0.0294
+French (French),Female,27,sieste,37,produces,0.4865
+French (French),Female,27,sieste,37,understands,0.2432
+French (French),Male,27,sieste,23,produces,0.4783
+French (French),Male,27,sieste,23,understands,0.2174
+French (French),Female,28,sieste,35,produces,0.7429
+French (French),Female,28,sieste,35,understands,0.1714
+French (French),Male,28,sieste,46,produces,0.6739
+French (French),Male,28,sieste,46,understands,0.1087
+French (French),Female,29,sieste,36,produces,0.8056
+French (French),Female,29,sieste,36,understands,0.1667
+French (French),Male,29,sieste,31,produces,0.8065
+French (French),Male,29,sieste,31,understands,0.0323
+French (French),Female,30,sieste,74,produces,0.7568
+French (French),Female,30,sieste,74,understands,0.527
+French (French),Male,30,sieste,72,produces,0.8056
+French (French),Male,30,sieste,72,understands,0.5833
+French (French),Female,31,sieste,16,produces,0.5
+French (French),Female,31,sieste,16,understands,0.625
+French (French),Male,31,sieste,15,produces,0.6667
+French (French),Male,31,sieste,15,understands,0.6
+French (French),Female,32,sieste,12,produces,0.8333
+French (French),Female,32,sieste,12,understands,0.1667
+French (French),Male,32,sieste,16,produces,0.6875
+French (French),Male,32,sieste,16,understands,0.1875
+French (French),Female,33,sieste,14,produces,0.7143
+French (French),Female,33,sieste,14,understands,0.2143
+French (French),Male,33,sieste,13,produces,1
+French (French),Male,33,sieste,13,understands,0.0769
+French (French),Female,34,sieste,13,produces,0.6923
+French (French),Female,34,sieste,13,understands,0.2308
+French (French),Male,34,sieste,18,produces,0.7222
+French (French),Male,34,sieste,18,understands,0.2778
+French (French),Female,35,sieste,4,produces,0.5
+French (French),Female,35,sieste,4,understands,0.25
+French (French),Male,35,sieste,7,produces,0.8571
+French (French),Male,35,sieste,7,understands,0.4286
+French (French),Female,36,sieste,2,produces,0.5
+French (French),Female,36,sieste,2,understands,1
+French (French),Male,36,sieste,6,produces,0.5
+French (French),Male,36,sieste,6,understands,0.8333
 French (Quebecois),Female,8,dodo,49,produces,0
 French (Quebecois),Female,8,dodo,49,understands,0.4694
 French (Quebecois),Male,8,dodo,54,produces,0
@@ -1779,24 +2645,24 @@ French (Quebecois),Male,19,dodo,50,produces,0.68
 French (Quebecois),Male,19,dodo,50,understands,0
 French (Quebecois),Female,20,dodo,90,produces,0.8778
 French (Quebecois),Female,20,dodo,90,understands,0
-French (Quebecois),Male,20,dodo,105,produces,0.819
-French (Quebecois),Male,20,dodo,105,understands,0
+French (Quebecois),Male,20,dodo,104,produces,0.8269
+French (Quebecois),Male,20,dodo,104,understands,0
 French (Quebecois),Female,21,dodo,56,produces,0.9464
 French (Quebecois),Female,21,dodo,56,understands,0
 French (Quebecois),Male,21,dodo,53,produces,0.8868
 French (Quebecois),Male,21,dodo,53,understands,0
-French (Quebecois),Female,22,dodo,42,produces,0.9286
-French (Quebecois),Female,22,dodo,42,understands,0
-French (Quebecois),Male,22,dodo,44,produces,0.7045
-French (Quebecois),Male,22,dodo,44,understands,0
+French (Quebecois),Female,22,dodo,43,produces,0.9302
+French (Quebecois),Female,22,dodo,43,understands,0
+French (Quebecois),Male,22,dodo,43,produces,0.6977
+French (Quebecois),Male,22,dodo,43,understands,0
 French (Quebecois),Female,23,dodo,41,produces,0.9024
 French (Quebecois),Female,23,dodo,41,understands,0
 French (Quebecois),Male,23,dodo,45,produces,0.9556
 French (Quebecois),Male,23,dodo,45,understands,0
-French (Quebecois),Female,24,dodo,56,produces,0.9643
-French (Quebecois),Female,24,dodo,56,understands,0
-French (Quebecois),Male,24,dodo,76,produces,0.9079
-French (Quebecois),Male,24,dodo,76,understands,0
+French (Quebecois),Female,24,dodo,55,produces,0.9636
+French (Quebecois),Female,24,dodo,55,understands,0
+French (Quebecois),Male,24,dodo,77,produces,0.9091
+French (Quebecois),Male,24,dodo,77,understands,0
 French (Quebecois),Female,25,dodo,41,produces,1
 French (Quebecois),Female,25,dodo,41,understands,0
 French (Quebecois),Male,25,dodo,45,produces,0.8444
@@ -1821,62 +2687,160 @@ French (Quebecois),Female,30,dodo,41,produces,0.8293
 French (Quebecois),Female,30,dodo,41,understands,0
 French (Quebecois),Male,30,dodo,59,produces,0.9492
 French (Quebecois),Male,30,dodo,59,understands,0
-Hungarian,Female,16,*szundi,11,produces,0
-Hungarian,Female,16,*szundi,11,understands,0
-Hungarian,Male,16,*szundi,10,produces,0.3
-Hungarian,Male,16,*szundi,10,understands,0
-Hungarian,Female,17,*szundi,11,produces,0.2727
-Hungarian,Female,17,*szundi,11,understands,0
-Hungarian,Male,17,*szundi,7,produces,0.1429
-Hungarian,Male,17,*szundi,7,understands,0
+German (German),Female,12,Mittagsschlaf,3,produces,0
+German (German),Female,12,Mittagsschlaf,3,understands,0.3333
+German (German),Male,12,Mittagsschlaf,2,produces,0
+German (German),Male,12,Mittagsschlaf,2,understands,0
+German (German),Female,13,Mittagsschlaf,2,produces,0
+German (German),Female,13,Mittagsschlaf,2,understands,0.5
+German (German),Male,13,Mittagsschlaf,1,produces,0
+German (German),Male,13,Mittagsschlaf,1,understands,0
+German (German),Female,14,Mittagsschlaf,2,produces,0
+German (German),Female,14,Mittagsschlaf,2,understands,0
+German (German),Male,14,Mittagsschlaf,1,produces,0
+German (German),Male,14,Mittagsschlaf,1,understands,0
+German (German),Female,15,Mittagsschlaf,1,produces,0
+German (German),Female,15,Mittagsschlaf,1,understands,1
+German (German),Male,15,Mittagsschlaf,3,produces,0
+German (German),Male,15,Mittagsschlaf,3,understands,0
+German (German),Female,16,Mittagsschlaf,5,produces,0
+German (German),Female,16,Mittagsschlaf,5,understands,0
+German (German),Male,16,Mittagsschlaf,1,produces,0
+German (German),Male,16,Mittagsschlaf,1,understands,0
+German (German),Female,17,Mittagsschlaf,2,produces,0
+German (German),Female,17,Mittagsschlaf,2,understands,1
+German (German),Male,17,Mittagsschlaf,1,produces,0
+German (German),Male,17,Mittagsschlaf,1,understands,1
+German (German),Female,18,Mittagsschlaf,2,produces,0
+German (German),Female,18,Mittagsschlaf,2,understands,0.5
+German (German),Male,18,Mittagsschlaf,1,produces,0
+German (German),Male,18,Mittagsschlaf,1,understands,0
+German (German),Female,19,Mittagsschlaf,6,produces,0
+German (German),Female,19,Mittagsschlaf,6,understands,0.3333
+German (German),Male,19,Mittagsschlaf,3,produces,0
+German (German),Male,19,Mittagsschlaf,3,understands,0.3333
+German (German),Female,20,Mittagsschlaf,2,produces,0
+German (German),Female,20,Mittagsschlaf,2,understands,0
+German (German),Male,20,Mittagsschlaf,2,produces,0
+German (German),Male,20,Mittagsschlaf,2,understands,1
+German (German),Female,21,Mittagsschlaf,2,produces,0
+German (German),Female,21,Mittagsschlaf,2,understands,0
+German (German),Male,21,Mittagsschlaf,2,produces,0.5
+German (German),Male,21,Mittagsschlaf,2,understands,0.5
+German (German),Female,22,Mittagsschlaf,5,produces,0.2
+German (German),Female,22,Mittagsschlaf,5,understands,0.8
+German (German),Female,23,Mittagsschlaf,3,produces,0.3333
+German (German),Female,23,Mittagsschlaf,3,understands,1
+German (German),Male,23,Mittagsschlaf,1,produces,0
+German (German),Male,23,Mittagsschlaf,1,understands,0
+German (German),Female,24,Mittagsschlaf,6,produces,0.1667
+German (German),Female,24,Mittagsschlaf,6,understands,0.5
+German (German),Male,24,Mittagsschlaf,3,produces,0
+German (German),Male,24,Mittagsschlaf,3,understands,0.6667
+German (German),Female,25,Mittagsschlaf,8,produces,0.375
+German (German),Female,25,Mittagsschlaf,8,understands,1
+German (German),Male,25,Mittagsschlaf,6,produces,0
+German (German),Male,25,Mittagsschlaf,6,understands,0.5
+German (German),Female,26,Mittagsschlaf,10,produces,0.2
+German (German),Female,26,Mittagsschlaf,10,understands,0.8
+German (German),Male,26,Mittagsschlaf,3,produces,0
+German (German),Male,26,Mittagsschlaf,3,understands,1
+German (German),Female,27,Mittagsschlaf,9,produces,0.1111
+German (German),Female,27,Mittagsschlaf,9,understands,0.6667
+German (German),Male,27,Mittagsschlaf,6,produces,0.1667
+German (German),Male,27,Mittagsschlaf,6,understands,0.6667
+German (German),Female,28,Mittagsschlaf,5,produces,0.2
+German (German),Female,28,Mittagsschlaf,5,understands,0.6
+German (German),Male,28,Mittagsschlaf,2,produces,0
+German (German),Male,28,Mittagsschlaf,2,understands,1
+German (German),Female,29,Mittagsschlaf,7,produces,0.1429
+German (German),Female,29,Mittagsschlaf,7,understands,0.7143
+German (German),Male,29,Mittagsschlaf,2,produces,0
+German (German),Male,29,Mittagsschlaf,2,understands,0.5
+German (German),Female,30,Mittagsschlaf,2,produces,0
+German (German),Female,30,Mittagsschlaf,2,understands,1
+German (German),Male,30,Mittagsschlaf,4,produces,0.5
+German (German),Male,30,Mittagsschlaf,4,understands,1
+German (German),Female,31,Mittagsschlaf,3,produces,0
+German (German),Female,31,Mittagsschlaf,3,understands,0.6667
+German (German),Male,31,Mittagsschlaf,3,produces,0.6667
+German (German),Male,31,Mittagsschlaf,3,understands,0.6667
+German (German),Female,32,Mittagsschlaf,1,produces,1
+German (German),Female,32,Mittagsschlaf,1,understands,1
+German (German),Male,32,Mittagsschlaf,6,produces,0.6667
+German (German),Male,32,Mittagsschlaf,6,understands,0.8333
+German (German),Female,33,Mittagsschlaf,4,produces,0.5
+German (German),Female,33,Mittagsschlaf,4,understands,1
+German (German),Male,33,Mittagsschlaf,2,produces,1
+German (German),Male,33,Mittagsschlaf,2,understands,1
+German (German),Female,34,Mittagsschlaf,3,produces,0.3333
+German (German),Female,34,Mittagsschlaf,3,understands,1
+German (German),Male,34,Mittagsschlaf,2,produces,1
+German (German),Male,34,Mittagsschlaf,2,understands,1
+German (German),Female,35,Mittagsschlaf,3,produces,0.6667
+German (German),Female,35,Mittagsschlaf,3,understands,1
+German (German),Male,35,Mittagsschlaf,3,produces,0
+German (German),Male,35,Mittagsschlaf,3,understands,1
+German (German),Female,36,Mittagsschlaf,4,produces,1
+German (German),Female,36,Mittagsschlaf,4,understands,1
+German (German),Male,36,Mittagsschlaf,4,produces,0.5
+German (German),Male,36,Mittagsschlaf,4,understands,0.75
+Hungarian,Female,16,*szundi,8,produces,0
+Hungarian,Female,16,*szundi,8,understands,0
+Hungarian,Male,16,*szundi,7,produces,0.1429
+Hungarian,Male,16,*szundi,7,understands,0
+Hungarian,Female,17,*szundi,14,produces,0.2143
+Hungarian,Female,17,*szundi,14,understands,0
+Hungarian,Male,17,*szundi,10,produces,0.3
+Hungarian,Male,17,*szundi,10,understands,0
 Hungarian,Female,18,*szundi,9,produces,0
 Hungarian,Female,18,*szundi,9,understands,0
 Hungarian,Male,18,*szundi,9,produces,0.1111
 Hungarian,Male,18,*szundi,9,understands,0
-Hungarian,Female,19,*szundi,13,produces,0.1538
-Hungarian,Female,19,*szundi,13,understands,0
-Hungarian,Male,19,*szundi,12,produces,0.3333
-Hungarian,Male,19,*szundi,12,understands,0
-Hungarian,Female,20,*szundi,12,produces,0.1667
-Hungarian,Female,20,*szundi,12,understands,0
-Hungarian,Male,20,*szundi,6,produces,0
-Hungarian,Male,20,*szundi,6,understands,0
+Hungarian,Female,19,*szundi,9,produces,0.1111
+Hungarian,Female,19,*szundi,9,understands,0
+Hungarian,Male,19,*szundi,7,produces,0.2857
+Hungarian,Male,19,*szundi,7,understands,0
+Hungarian,Female,20,*szundi,16,produces,0.1875
+Hungarian,Female,20,*szundi,16,understands,0
+Hungarian,Male,20,*szundi,11,produces,0.1818
+Hungarian,Male,20,*szundi,11,understands,0
 Hungarian,Female,21,*szundi,16,produces,0.5625
 Hungarian,Female,21,*szundi,16,understands,0
 Hungarian,Male,21,*szundi,20,produces,0.4
 Hungarian,Male,21,*szundi,20,understands,0
-Hungarian,Female,22,*szundi,14,produces,0.4286
-Hungarian,Female,22,*szundi,14,understands,0
-Hungarian,Male,22,*szundi,13,produces,0.2308
-Hungarian,Male,22,*szundi,13,understands,0
-Hungarian,Female,23,*szundi,6,produces,0.5
-Hungarian,Female,23,*szundi,6,understands,0
-Hungarian,Male,23,*szundi,12,produces,0.4167
-Hungarian,Male,23,*szundi,12,understands,0
+Hungarian,Female,22,*szundi,10,produces,0.5
+Hungarian,Female,22,*szundi,10,understands,0
+Hungarian,Male,22,*szundi,10,produces,0.1
+Hungarian,Male,22,*szundi,10,understands,0
+Hungarian,Female,23,*szundi,10,produces,0.4
+Hungarian,Female,23,*szundi,10,understands,0
+Hungarian,Male,23,*szundi,15,produces,0.4667
+Hungarian,Male,23,*szundi,15,understands,0
 Hungarian,Female,24,*szundi,14,produces,0.4286
 Hungarian,Female,24,*szundi,14,understands,0
 Hungarian,Male,24,*szundi,24,produces,0.2917
 Hungarian,Male,24,*szundi,24,understands,0
-Hungarian,Female,25,*szundi,17,produces,0.5294
-Hungarian,Female,25,*szundi,17,understands,0
-Hungarian,Male,25,*szundi,25,produces,0.4
-Hungarian,Male,25,*szundi,25,understands,0
-Hungarian,Female,26,*szundi,9,produces,0.3333
-Hungarian,Female,26,*szundi,9,understands,0
-Hungarian,Male,26,*szundi,14,produces,0.5
-Hungarian,Male,26,*szundi,14,understands,0
+Hungarian,Female,25,*szundi,13,produces,0.5385
+Hungarian,Female,25,*szundi,13,understands,0
+Hungarian,Male,25,*szundi,13,produces,0.4615
+Hungarian,Male,25,*szundi,13,understands,0
+Hungarian,Female,26,*szundi,13,produces,0.3846
+Hungarian,Female,26,*szundi,13,understands,0
+Hungarian,Male,26,*szundi,26,produces,0.4231
+Hungarian,Male,26,*szundi,26,understands,0
 Hungarian,Female,27,*szundi,13,produces,0.3077
 Hungarian,Female,27,*szundi,13,understands,0
 Hungarian,Male,27,*szundi,13,produces,0.4615
 Hungarian,Male,27,*szundi,13,understands,0
-Hungarian,Female,28,*szundi,11,produces,0.8182
-Hungarian,Female,28,*szundi,11,understands,0
-Hungarian,Male,28,*szundi,18,produces,0.5556
-Hungarian,Male,28,*szundi,18,understands,0
-Hungarian,Female,29,*szundi,8,produces,0.75
-Hungarian,Female,29,*szundi,8,understands,0
-Hungarian,Male,29,*szundi,4,produces,0.5
-Hungarian,Male,29,*szundi,4,understands,0
+Hungarian,Female,28,*szundi,10,produces,0.9
+Hungarian,Female,28,*szundi,10,understands,0
+Hungarian,Male,28,*szundi,15,produces,0.4667
+Hungarian,Male,28,*szundi,15,understands,0
+Hungarian,Female,29,*szundi,9,produces,0.6667
+Hungarian,Female,29,*szundi,9,understands,0
+Hungarian,Male,29,*szundi,7,produces,0.7143
+Hungarian,Male,29,*szundi,7,understands,0
 Hungarian,Female,30,*szundi,3,produces,0.6667
 Hungarian,Female,30,*szundi,3,understands,0
 Hungarian,Male,30,*szundi,15,produces,0.6
@@ -1885,122 +2849,122 @@ Italian,Female,7,nanna,2,produces,0
 Italian,Female,7,nanna,2,understands,0.5
 Italian,Male,7,nanna,3,produces,0
 Italian,Male,7,nanna,3,understands,0.3333
-Italian,Female,8,nanna,18,produces,0
-Italian,Female,8,nanna,18,understands,0.2778
+Italian,Female,8,nanna,19,produces,0
+Italian,Female,8,nanna,19,understands,0.2632
 Italian,Male,8,nanna,16,produces,0
 Italian,Male,8,nanna,16,understands,0.25
 Italian,Female,9,nanna,14,produces,0
 Italian,Female,9,nanna,14,understands,0.2857
 Italian,Male,9,nanna,24,produces,0
 Italian,Male,9,nanna,24,understands,0.375
-Italian,Female,10,nanna,29,produces,0
-Italian,Female,10,nanna,29,understands,0.3793
+Italian,Female,10,nanna,30,produces,0
+Italian,Female,10,nanna,30,understands,0.3667
 Italian,Male,10,nanna,24,produces,0
 Italian,Male,10,nanna,24,understands,0.3333
 Italian,Female,11,nanna,22,produces,0.0909
 Italian,Female,11,nanna,22,understands,0.6364
 Italian,Male,11,nanna,20,produces,0
 Italian,Male,11,nanna,20,understands,0.6
-Italian,Female,12,nanna,29,produces,0.1034
-Italian,Female,12,nanna,29,understands,0.8621
-Italian,Male,12,nanna,40,produces,0.1
-Italian,Male,12,nanna,40,understands,0.7
-Italian,Female,13,nanna,22,produces,0.2273
-Italian,Female,13,nanna,22,understands,0.8182
-Italian,Male,13,nanna,26,produces,0.1923
-Italian,Male,13,nanna,26,understands,0.6154
-Italian,Female,14,nanna,21,produces,0.3333
-Italian,Female,14,nanna,21,understands,0.9524
-Italian,Male,14,nanna,19,produces,0.2105
-Italian,Male,14,nanna,19,understands,0.7895
-Italian,Female,15,nanna,30,produces,0.4
-Italian,Female,15,nanna,30,understands,0.8667
-Italian,Male,15,nanna,38,produces,0.2895
-Italian,Male,15,nanna,38,understands,0.8158
-Italian,Female,16,nanna,27,produces,0.4074
-Italian,Female,16,nanna,27,understands,0.7407
-Italian,Male,16,nanna,29,produces,0.3448
-Italian,Male,16,nanna,29,understands,0.8966
-Italian,Female,17,nanna,20,produces,0.65
-Italian,Female,17,nanna,20,understands,0.9
-Italian,Male,17,nanna,28,produces,0.4643
-Italian,Male,17,nanna,28,understands,0.8571
-Italian,Female,18,nanna,37,produces,0.5946
-Italian,Female,18,nanna,37,understands,0.4054
-Italian,Male,18,nanna,38,produces,0.5789
-Italian,Male,18,nanna,38,understands,0.5789
-Italian,Female,19,nanna,26,produces,0.6538
-Italian,Female,19,nanna,26,understands,0.1923
-Italian,Male,19,nanna,32,produces,0.6562
-Italian,Male,19,nanna,32,understands,0.4062
-Italian,Female,20,nanna,41,produces,0.7805
-Italian,Female,20,nanna,41,understands,0.1707
-Italian,Male,20,nanna,42,produces,0.7143
-Italian,Male,20,nanna,42,understands,0.2857
-Italian,Female,21,nanna,29,produces,0.8276
-Italian,Female,21,nanna,29,understands,0.1724
-Italian,Male,21,nanna,38,produces,0.8947
-Italian,Male,21,nanna,38,understands,0.1842
-Italian,Female,22,nanna,39,produces,0.8205
-Italian,Female,22,nanna,39,understands,0.3077
-Italian,Male,22,nanna,38,produces,0.8684
-Italian,Male,22,nanna,38,understands,0.2632
-Italian,Female,23,nanna,34,produces,1
-Italian,Female,23,nanna,34,understands,0.2059
-Italian,Male,23,nanna,36,produces,0.8889
-Italian,Male,23,nanna,36,understands,0.2778
-Italian,Female,24,nanna,46,produces,0.9348
-Italian,Female,24,nanna,46,understands,0.1304
-Italian,Male,24,nanna,39,produces,0.9744
-Italian,Male,24,nanna,39,understands,0.1795
-Italian,Female,25,nanna,23,produces,1
-Italian,Female,25,nanna,23,understands,0
-Italian,Male,25,nanna,16,produces,0.6875
-Italian,Male,25,nanna,16,understands,0
-Italian,Female,26,nanna,19,produces,0.8947
-Italian,Female,26,nanna,19,understands,0
-Italian,Male,26,nanna,22,produces,0.9091
-Italian,Male,26,nanna,22,understands,0
-Italian,Female,27,nanna,20,produces,1
-Italian,Female,27,nanna,20,understands,0
-Italian,Male,27,nanna,23,produces,0.913
-Italian,Male,27,nanna,23,understands,0
-Italian,Female,28,nanna,21,produces,0.9524
-Italian,Female,28,nanna,21,understands,0
-Italian,Male,28,nanna,23,produces,0.9565
-Italian,Male,28,nanna,23,understands,0
-Italian,Female,29,nanna,21,produces,1
-Italian,Female,29,nanna,21,understands,0
-Italian,Male,29,nanna,16,produces,0.9375
-Italian,Male,29,nanna,16,understands,0
-Italian,Female,30,nanna,28,produces,0.9643
-Italian,Female,30,nanna,28,understands,0
-Italian,Male,30,nanna,39,produces,0.8718
-Italian,Male,30,nanna,39,understands,0
-Italian,Female,31,nanna,8,produces,0.875
-Italian,Female,31,nanna,8,understands,0
-Italian,Male,31,nanna,11,produces,1
-Italian,Male,31,nanna,11,understands,0
-Italian,Female,32,nanna,14,produces,0.8571
-Italian,Female,32,nanna,14,understands,0
-Italian,Male,32,nanna,9,produces,0.7778
-Italian,Male,32,nanna,9,understands,0
-Italian,Female,33,nanna,5,produces,1
-Italian,Female,33,nanna,5,understands,0
-Italian,Male,33,nanna,11,produces,0.9091
-Italian,Male,33,nanna,11,understands,0
-Italian,Female,34,nanna,12,produces,1
-Italian,Female,34,nanna,12,understands,0
-Italian,Male,34,nanna,7,produces,1
-Italian,Male,34,nanna,7,understands,0
+Italian,Female,12,"Pisolino, nanna",36,produces,0.0833
+Italian,Female,12,"Pisolino, nanna",36,understands,0.8333
+Italian,Male,12,"Pisolino, nanna",46,produces,0.087
+Italian,Male,12,"Pisolino, nanna",46,understands,0.6304
+Italian,Female,13,"Pisolino, nanna",23,produces,0.2174
+Italian,Female,13,"Pisolino, nanna",23,understands,0.8261
+Italian,Male,13,"Pisolino, nanna",29,produces,0.1724
+Italian,Male,13,"Pisolino, nanna",29,understands,0.6207
+Italian,Female,14,"Pisolino, nanna",26,produces,0.2692
+Italian,Female,14,"Pisolino, nanna",26,understands,0.8462
+Italian,Male,14,"Pisolino, nanna",21,produces,0.1905
+Italian,Male,14,"Pisolino, nanna",21,understands,0.7143
+Italian,Female,15,"Pisolino, nanna",34,produces,0.3529
+Italian,Female,15,"Pisolino, nanna",34,understands,0.8235
+Italian,Male,15,"Pisolino, nanna",43,produces,0.2558
+Italian,Male,15,"Pisolino, nanna",43,understands,0.8372
+Italian,Female,16,"Pisolino, nanna",31,produces,0.3548
+Italian,Female,16,"Pisolino, nanna",31,understands,0.7419
+Italian,Male,16,"Pisolino, nanna",31,produces,0.3226
+Italian,Male,16,"Pisolino, nanna",31,understands,0.9032
+Italian,Female,17,"Pisolino, nanna",21,produces,0.619
+Italian,Female,17,"Pisolino, nanna",21,understands,0.9048
+Italian,Male,17,"Pisolino, nanna",31,produces,0.4516
+Italian,Male,17,"Pisolino, nanna",31,understands,0.8065
+Italian,Female,18,"Pisolino, nanna",48,produces,0.5208
+Italian,Female,18,"Pisolino, nanna",48,understands,0.5
+Italian,Male,18,"Pisolino, nanna",48,produces,0.5
+Italian,Male,18,"Pisolino, nanna",48,understands,0.6042
+Italian,Female,19,"Pisolino, nanna",28,produces,0.6429
+Italian,Female,19,"Pisolino, nanna",28,understands,0.2143
+Italian,Male,19,"Pisolino, nanna",36,produces,0.5833
+Italian,Male,19,"Pisolino, nanna",36,understands,0.4722
+Italian,Female,20,"Pisolino, nanna",53,produces,0.6792
+Italian,Female,20,"Pisolino, nanna",53,understands,0.3019
+Italian,Male,20,"Pisolino, nanna",51,produces,0.6078
+Italian,Male,20,"Pisolino, nanna",51,understands,0.3529
+Italian,Female,21,"Pisolino, nanna",35,produces,0.7429
+Italian,Female,21,"Pisolino, nanna",35,understands,0.2857
+Italian,Male,21,"Pisolino, nanna",42,produces,0.8571
+Italian,Male,21,"Pisolino, nanna",42,understands,0.2619
+Italian,Female,22,"Pisolino, nanna",46,produces,0.7391
+Italian,Female,22,"Pisolino, nanna",46,understands,0.3696
+Italian,Male,22,"Pisolino, nanna",42,produces,0.8095
+Italian,Male,22,"Pisolino, nanna",42,understands,0.3095
+Italian,Female,23,"Pisolino, nanna",40,produces,0.85
+Italian,Female,23,"Pisolino, nanna",40,understands,0.275
+Italian,Male,23,"Pisolino, nanna",43,produces,0.814
+Italian,Male,23,"Pisolino, nanna",43,understands,0.3721
+Italian,Female,24,"Pisolino, nanna",53,produces,0.8868
+Italian,Female,24,"Pisolino, nanna",53,understands,0.2264
+Italian,Male,24,"Pisolino, nanna",41,produces,0.9756
+Italian,Male,24,"Pisolino, nanna",41,understands,0.2195
+Italian,Female,25,"Pisolino, nanna",28,produces,0.8929
+Italian,Female,25,"Pisolino, nanna",28,understands,0.1429
+Italian,Male,25,"Pisolino, nanna",24,produces,0.5833
+Italian,Male,25,"Pisolino, nanna",24,understands,0.2917
+Italian,Female,26,"Pisolino, nanna",28,produces,0.7143
+Italian,Female,26,"Pisolino, nanna",28,understands,0.25
+Italian,Male,26,"Pisolino, nanna",25,produces,0.84
+Italian,Male,26,"Pisolino, nanna",25,understands,0.12
+Italian,Female,27,"Pisolino, nanna",26,produces,0.9231
+Italian,Female,27,"Pisolino, nanna",26,understands,0.1538
+Italian,Male,27,"Pisolino, nanna",27,produces,0.8519
+Italian,Male,27,"Pisolino, nanna",27,understands,0.1481
+Italian,Female,28,"Pisolino, nanna",31,produces,0.8387
+Italian,Female,28,"Pisolino, nanna",31,understands,0.2903
+Italian,Male,28,"Pisolino, nanna",25,produces,0.92
+Italian,Male,28,"Pisolino, nanna",25,understands,0.08
+Italian,Female,29,"Pisolino, nanna",28,produces,0.8214
+Italian,Female,29,"Pisolino, nanna",28,understands,0.1786
+Italian,Male,29,"Pisolino, nanna",23,produces,0.8261
+Italian,Male,29,"Pisolino, nanna",23,understands,0.2609
+Italian,Female,30,"Pisolino, nanna",34,produces,0.8824
+Italian,Female,30,"Pisolino, nanna",34,understands,0.1176
+Italian,Male,30,"Pisolino, nanna",45,produces,0.8444
+Italian,Male,30,"Pisolino, nanna",45,understands,0.0667
+Italian,Female,31,"Pisolino, nanna",11,produces,0.8182
+Italian,Female,31,"Pisolino, nanna",11,understands,0.2727
+Italian,Male,31,"Pisolino, nanna",17,produces,0.7647
+Italian,Male,31,"Pisolino, nanna",17,understands,0.3529
+Italian,Female,32,"Pisolino, nanna",18,produces,0.7778
+Italian,Female,32,"Pisolino, nanna",18,understands,0.2222
+Italian,Male,32,"Pisolino, nanna",10,produces,0.7
+Italian,Male,32,"Pisolino, nanna",10,understands,0.1
+Italian,Female,33,"Pisolino, nanna",8,produces,0.75
+Italian,Female,33,"Pisolino, nanna",8,understands,0.375
+Italian,Male,33,"Pisolino, nanna",12,produces,0.9167
+Italian,Male,33,"Pisolino, nanna",12,understands,0.0833
+Italian,Female,34,"Pisolino, nanna",14,produces,0.9286
+Italian,Female,34,"Pisolino, nanna",14,understands,0.0714
+Italian,Male,34,"Pisolino, nanna",8,produces,0.875
+Italian,Male,34,"Pisolino, nanna",8,understands,0.125
 Italian,Female,35,nanna,9,produces,0.8889
 Italian,Female,35,nanna,9,understands,0
-Italian,Male,35,nanna,6,produces,1
-Italian,Male,35,nanna,6,understands,0
-Italian,Female,36,nanna,7,produces,0.8571
-Italian,Female,36,nanna,7,understands,0
-Italian,Male,36,nanna,14,produces,0.7857
-Italian,Male,36,nanna,14,understands,0
+Italian,Male,35,"Pisolino, nanna",7,produces,1
+Italian,Male,35,"Pisolino, nanna",7,understands,0.1429
+Italian,Female,36,"Pisolino, nanna",8,produces,0.875
+Italian,Female,36,"Pisolino, nanna",8,understands,0.125
+Italian,Male,36,"Pisolino, nanna",17,produces,0.8235
+Italian,Male,36,"Pisolino, nanna",17,understands,0.1765
 Kigiriama,Female,16,Kunukira,1,produces,0
 Kigiriama,Female,16,Kunukira,1,understands,0
 Kigiriama,Female,17,Kunukira,5,produces,0
@@ -2171,6 +3135,106 @@ Latvian,Female,36,diendusa,12,produces,0.5
 Latvian,Female,36,diendusa,12,understands,0
 Latvian,Male,36,diendusa,10,produces,0.4
 Latvian,Male,36,diendusa,10,understands,0
+Malay (Malaysian),Female,12,tidur,2,produces,0
+Malay (Malaysian),Female,12,tidur,2,understands,0
+Malay (Malaysian),Male,12,tidur,1,produces,1
+Malay (Malaysian),Male,12,tidur,1,understands,1
+Malay (Malaysian),Female,13,tidur,11,produces,0
+Malay (Malaysian),Female,13,tidur,11,understands,0.1818
+Malay (Malaysian),Male,13,tidur,6,produces,0.3333
+Malay (Malaysian),Male,13,tidur,6,understands,0.5
+Malay (Malaysian),Female,14,tidur,2,produces,0
+Malay (Malaysian),Female,14,tidur,2,understands,0.5
+Malay (Malaysian),Male,14,tidur,11,produces,0
+Malay (Malaysian),Male,14,tidur,11,understands,0.1818
+Malay (Malaysian),Female,15,tidur,7,produces,0.1429
+Malay (Malaysian),Female,15,tidur,7,understands,0.5714
+Malay (Malaysian),Male,15,tidur,16,produces,0
+Malay (Malaysian),Male,15,tidur,16,understands,0.3125
+Malay (Malaysian),Female,16,tidur,13,produces,0.2308
+Malay (Malaysian),Female,16,tidur,13,understands,0.3846
+Malay (Malaysian),Male,16,tidur,16,produces,0.0625
+Malay (Malaysian),Male,16,tidur,16,understands,0.4375
+Malay (Malaysian),Female,17,tidur,7,produces,0
+Malay (Malaysian),Female,17,tidur,7,understands,0.2857
+Malay (Malaysian),Male,17,tidur,13,produces,0.1538
+Malay (Malaysian),Male,17,tidur,13,understands,0.7692
+Malay (Malaysian),Female,18,tidur,18,produces,0.1111
+Malay (Malaysian),Female,18,tidur,18,understands,0.3889
+Malay (Malaysian),Male,18,tidur,22,produces,0.0909
+Malay (Malaysian),Male,18,tidur,22,understands,0.4091
+Malay (Malaysian),Female,19,tidur,6,produces,0.1667
+Malay (Malaysian),Female,19,tidur,6,understands,0.5
+Malay (Malaysian),Male,19,tidur,7,produces,0.2857
+Malay (Malaysian),Male,19,tidur,7,understands,0.2857
+Malay (Malaysian),Female,20,tidur,9,produces,0.3333
+Malay (Malaysian),Female,20,tidur,9,understands,0.5556
+Malay (Malaysian),Male,20,tidur,22,produces,0.2727
+Malay (Malaysian),Male,20,tidur,22,understands,0.6364
+Malay (Malaysian),Female,21,tidur,14,produces,0.3571
+Malay (Malaysian),Female,21,tidur,14,understands,0.5714
+Malay (Malaysian),Male,21,tidur,17,produces,0.3529
+Malay (Malaysian),Male,21,tidur,17,understands,0.7647
+Malay (Malaysian),Female,22,tidur,10,produces,0.4
+Malay (Malaysian),Female,22,tidur,10,understands,0.5
+Malay (Malaysian),Male,22,tidur,18,produces,0.3333
+Malay (Malaysian),Male,22,tidur,18,understands,0.7778
+Malay (Malaysian),Female,23,tidur,17,produces,0.4118
+Malay (Malaysian),Female,23,tidur,17,understands,0.5882
+Malay (Malaysian),Male,23,tidur,17,produces,0.5882
+Malay (Malaysian),Male,23,tidur,17,understands,0.7059
+Malay (Malaysian),Female,24,tidur,25,produces,0.56
+Malay (Malaysian),Female,24,tidur,25,understands,0.72
+Malay (Malaysian),Male,24,tidur,21,produces,0.381
+Malay (Malaysian),Male,24,tidur,21,understands,0.5714
+Malay (Malaysian),Female,25,tidur,11,produces,0.3636
+Malay (Malaysian),Female,25,tidur,11,understands,0.4545
+Malay (Malaysian),Male,25,tidur,10,produces,0.5
+Malay (Malaysian),Male,25,tidur,10,understands,0.8
+Malay (Malaysian),Female,26,tidur,26,produces,0.4231
+Malay (Malaysian),Female,26,tidur,26,understands,0.7308
+Malay (Malaysian),Male,26,tidur,19,produces,0.4211
+Malay (Malaysian),Male,26,tidur,19,understands,0.5789
+Malay (Malaysian),Female,27,tidur,12,produces,0.75
+Malay (Malaysian),Female,27,tidur,12,understands,0.8333
+Malay (Malaysian),Male,27,tidur,7,produces,0.7143
+Malay (Malaysian),Male,27,tidur,7,understands,0.8571
+Malay (Malaysian),Female,28,tidur,21,produces,0.4286
+Malay (Malaysian),Female,28,tidur,21,understands,0.5714
+Malay (Malaysian),Male,28,tidur,21,produces,0.2381
+Malay (Malaysian),Male,28,tidur,21,understands,0.619
+Malay (Malaysian),Female,29,tidur,14,produces,0.3571
+Malay (Malaysian),Female,29,tidur,14,understands,0.5
+Malay (Malaysian),Male,29,tidur,12,produces,0.5833
+Malay (Malaysian),Male,29,tidur,12,understands,0.75
+Malay (Malaysian),Female,30,tidur,13,produces,0.5385
+Malay (Malaysian),Female,30,tidur,13,understands,0.6154
+Malay (Malaysian),Male,30,tidur,17,produces,0.5294
+Malay (Malaysian),Male,30,tidur,17,understands,0.6471
+Malay (Malaysian),Female,31,tidur,6,produces,0.3333
+Malay (Malaysian),Female,31,tidur,6,understands,0.3333
+Malay (Malaysian),Male,31,tidur,3,produces,0.3333
+Malay (Malaysian),Male,31,tidur,3,understands,0.6667
+Malay (Malaysian),Female,32,tidur,9,produces,0.7778
+Malay (Malaysian),Female,32,tidur,9,understands,0.7778
+Malay (Malaysian),Male,32,tidur,10,produces,0.5
+Malay (Malaysian),Male,32,tidur,10,understands,0.6
+Malay (Malaysian),Female,33,tidur,8,produces,0.125
+Malay (Malaysian),Female,33,tidur,8,understands,0.25
+Malay (Malaysian),Male,33,tidur,12,produces,0.3333
+Malay (Malaysian),Male,33,tidur,12,understands,0.5
+Malay (Malaysian),Female,34,tidur,9,produces,0.2222
+Malay (Malaysian),Female,34,tidur,9,understands,0.3333
+Malay (Malaysian),Male,34,tidur,6,produces,0.1667
+Malay (Malaysian),Male,34,tidur,6,understands,0.6667
+Malay (Malaysian),Female,35,tidur,11,produces,0.4545
+Malay (Malaysian),Female,35,tidur,11,understands,0.4545
+Malay (Malaysian),Male,35,tidur,10,produces,0.2
+Malay (Malaysian),Male,35,tidur,10,understands,0.2
+Malay (Malaysian),Female,36,tidur,6,produces,0.5
+Malay (Malaysian),Female,36,tidur,6,understands,0.5
+Malay (Malaysian),Male,36,tidur,7,produces,0.7143
+Malay (Malaysian),Male,36,tidur,7,understands,0.7143
 Mandarin (Beijing),Female,16,休息/歇会儿,35,produces,0.0571
 Mandarin (Beijing),Female,16,休息/歇会儿,35,understands,0
 Mandarin (Beijing),Male,16,休息/歇会儿,35,produces,0.0286
@@ -2231,6 +3295,106 @@ Mandarin (Beijing),Female,30,休息/歇会儿,35,produces,0.8857
 Mandarin (Beijing),Female,30,休息/歇会儿,35,understands,0
 Mandarin (Beijing),Male,30,休息/歇会儿,35,produces,0.9143
 Mandarin (Beijing),Male,30,休息/歇会儿,35,understands,0
+Mandarin (Malaysian),Female,12,小睡,1,produces,0
+Mandarin (Malaysian),Female,12,小睡,1,understands,1
+Mandarin (Malaysian),Male,12,小睡,1,produces,0
+Mandarin (Malaysian),Male,12,小睡,1,understands,0
+Mandarin (Malaysian),Female,13,小睡,9,produces,0
+Mandarin (Malaysian),Female,13,小睡,9,understands,0.1111
+Mandarin (Malaysian),Male,13,小睡,4,produces,0
+Mandarin (Malaysian),Male,13,小睡,4,understands,0
+Mandarin (Malaysian),Female,14,小睡,2,produces,0
+Mandarin (Malaysian),Female,14,小睡,2,understands,0
+Mandarin (Malaysian),Male,14,小睡,8,produces,0
+Mandarin (Malaysian),Male,14,小睡,8,understands,0
+Mandarin (Malaysian),Female,15,小睡,5,produces,0
+Mandarin (Malaysian),Female,15,小睡,5,understands,0.2
+Mandarin (Malaysian),Male,15,小睡,12,produces,0
+Mandarin (Malaysian),Male,15,小睡,12,understands,0
+Mandarin (Malaysian),Female,16,小睡,11,produces,0
+Mandarin (Malaysian),Female,16,小睡,11,understands,0
+Mandarin (Malaysian),Male,16,小睡,13,produces,0
+Mandarin (Malaysian),Male,16,小睡,13,understands,0
+Mandarin (Malaysian),Female,17,小睡,7,produces,0
+Mandarin (Malaysian),Female,17,小睡,7,understands,0.2857
+Mandarin (Malaysian),Male,17,小睡,12,produces,0
+Mandarin (Malaysian),Male,17,小睡,12,understands,0.0833
+Mandarin (Malaysian),Female,18,小睡,16,produces,0
+Mandarin (Malaysian),Female,18,小睡,16,understands,0
+Mandarin (Malaysian),Male,18,小睡,21,produces,0
+Mandarin (Malaysian),Male,18,小睡,21,understands,0.0952
+Mandarin (Malaysian),Female,19,小睡,6,produces,0
+Mandarin (Malaysian),Female,19,小睡,6,understands,0
+Mandarin (Malaysian),Male,19,小睡,6,produces,0
+Mandarin (Malaysian),Male,19,小睡,6,understands,0.1667
+Mandarin (Malaysian),Female,20,小睡,7,produces,0
+Mandarin (Malaysian),Female,20,小睡,7,understands,0
+Mandarin (Malaysian),Male,20,小睡,18,produces,0
+Mandarin (Malaysian),Male,20,小睡,18,understands,0.1111
+Mandarin (Malaysian),Female,21,小睡,14,produces,0
+Mandarin (Malaysian),Female,21,小睡,14,understands,0
+Mandarin (Malaysian),Male,21,小睡,14,produces,0
+Mandarin (Malaysian),Male,21,小睡,14,understands,0
+Mandarin (Malaysian),Female,22,小睡,9,produces,0
+Mandarin (Malaysian),Female,22,小睡,9,understands,0.1111
+Mandarin (Malaysian),Male,22,小睡,17,produces,0
+Mandarin (Malaysian),Male,22,小睡,17,understands,0
+Mandarin (Malaysian),Female,23,小睡,14,produces,0
+Mandarin (Malaysian),Female,23,小睡,14,understands,0
+Mandarin (Malaysian),Male,23,小睡,16,produces,0
+Mandarin (Malaysian),Male,23,小睡,16,understands,0
+Mandarin (Malaysian),Female,24,小睡,21,produces,0
+Mandarin (Malaysian),Female,24,小睡,21,understands,0
+Mandarin (Malaysian),Male,24,小睡,18,produces,0.0556
+Mandarin (Malaysian),Male,24,小睡,18,understands,0.1111
+Mandarin (Malaysian),Female,25,小睡,9,produces,0.1111
+Mandarin (Malaysian),Female,25,小睡,9,understands,0.1111
+Mandarin (Malaysian),Male,25,小睡,9,produces,0
+Mandarin (Malaysian),Male,25,小睡,9,understands,0
+Mandarin (Malaysian),Female,26,小睡,22,produces,0.0455
+Mandarin (Malaysian),Female,26,小睡,22,understands,0.0455
+Mandarin (Malaysian),Male,26,小睡,15,produces,0.0667
+Mandarin (Malaysian),Male,26,小睡,15,understands,0.1333
+Mandarin (Malaysian),Female,27,小睡,11,produces,0
+Mandarin (Malaysian),Female,27,小睡,11,understands,0
+Mandarin (Malaysian),Male,27,小睡,7,produces,0
+Mandarin (Malaysian),Male,27,小睡,7,understands,0
+Mandarin (Malaysian),Female,28,小睡,18,produces,0.0556
+Mandarin (Malaysian),Female,28,小睡,18,understands,0.1667
+Mandarin (Malaysian),Male,28,小睡,19,produces,0.0526
+Mandarin (Malaysian),Male,28,小睡,19,understands,0.1053
+Mandarin (Malaysian),Female,29,小睡,12,produces,0.1667
+Mandarin (Malaysian),Female,29,小睡,12,understands,0.25
+Mandarin (Malaysian),Male,29,小睡,11,produces,0
+Mandarin (Malaysian),Male,29,小睡,11,understands,0.0909
+Mandarin (Malaysian),Female,30,小睡,11,produces,0
+Mandarin (Malaysian),Female,30,小睡,11,understands,0.0909
+Mandarin (Malaysian),Male,30,小睡,15,produces,0
+Mandarin (Malaysian),Male,30,小睡,15,understands,0.1333
+Mandarin (Malaysian),Female,31,小睡,5,produces,0
+Mandarin (Malaysian),Female,31,小睡,5,understands,0
+Mandarin (Malaysian),Male,31,小睡,2,produces,0
+Mandarin (Malaysian),Male,31,小睡,2,understands,0
+Mandarin (Malaysian),Female,32,小睡,8,produces,0
+Mandarin (Malaysian),Female,32,小睡,8,understands,0
+Mandarin (Malaysian),Male,32,小睡,8,produces,0
+Mandarin (Malaysian),Male,32,小睡,8,understands,0
+Mandarin (Malaysian),Female,33,小睡,5,produces,0.4
+Mandarin (Malaysian),Female,33,小睡,5,understands,0.4
+Mandarin (Malaysian),Male,33,小睡,8,produces,0
+Mandarin (Malaysian),Male,33,小睡,8,understands,0
+Mandarin (Malaysian),Female,34,小睡,6,produces,0.1667
+Mandarin (Malaysian),Female,34,小睡,6,understands,0.1667
+Mandarin (Malaysian),Male,34,小睡,6,produces,0
+Mandarin (Malaysian),Male,34,小睡,6,understands,0
+Mandarin (Malaysian),Female,35,小睡,8,produces,0.25
+Mandarin (Malaysian),Female,35,小睡,8,understands,0.25
+Mandarin (Malaysian),Male,35,小睡,5,produces,0
+Mandarin (Malaysian),Male,35,小睡,5,understands,0.2
+Mandarin (Malaysian),Female,36,小睡,4,produces,0
+Mandarin (Malaysian),Female,36,小睡,4,understands,0
+Mandarin (Malaysian),Male,36,小睡,6,produces,0.1667
+Mandarin (Malaysian),Male,36,小睡,6,understands,0.1667
 Mandarin (Taiwanese),Female,8,睡覺,39,produces,0
 Mandarin (Taiwanese),Female,8,睡覺,39,understands,0.7179
 Mandarin (Taiwanese),Male,8,睡覺,47,produces,0.0213
@@ -2463,6 +3627,190 @@ Norwegian,Female,36,sovetid,170,produces,0.8647
 Norwegian,Female,36,sovetid,170,understands,0
 Norwegian,Male,36,sovetid,159,produces,0.7358
 Norwegian,Male,36,sovetid,159,understands,0
+Polish,Female,12,drzemka,3,produces,0
+Polish,Female,12,drzemka,3,understands,0.6667
+Polish,Male,12,drzemka,4,produces,0
+Polish,Male,12,drzemka,4,understands,0
+Polish,Female,13,drzemka,10,produces,0
+Polish,Female,13,drzemka,10,understands,0.2
+Polish,Male,13,drzemka,5,produces,0
+Polish,Male,13,drzemka,5,understands,0
+Polish,Female,14,drzemka,2,produces,0
+Polish,Female,14,drzemka,2,understands,0
+Polish,Male,14,drzemka,1,produces,0
+Polish,Male,14,drzemka,1,understands,1
+Polish,Female,15,drzemka,4,produces,0
+Polish,Female,15,drzemka,4,understands,0.5
+Polish,Male,15,drzemka,4,produces,0
+Polish,Male,15,drzemka,4,understands,0.5
+Polish,Female,16,drzemka,6,produces,0
+Polish,Female,16,drzemka,6,understands,0.1667
+Polish,Male,16,drzemka,5,produces,0
+Polish,Male,16,drzemka,5,understands,0.2
+Polish,Female,17,drzemka,4,produces,0.25
+Polish,Female,17,drzemka,4,understands,0.5
+Polish,Male,17,drzemka,5,produces,0
+Polish,Male,17,drzemka,5,understands,0.6
+Polish,Female,18,drzemka,3,produces,0
+Polish,Female,18,drzemka,3,understands,0.3333
+Polish,Male,18,drzemka,7,produces,0
+Polish,Male,18,drzemka,7,understands,0.5714
+Polish,Female,19,drzemka,1,produces,0
+Polish,Female,19,drzemka,1,understands,0
+Polish,Male,19,drzemka,6,produces,0
+Polish,Male,19,drzemka,6,understands,0.5
+Polish,Female,20,drzemka,7,produces,0.1429
+Polish,Female,20,drzemka,7,understands,0.7143
+Polish,Male,20,drzemka,3,produces,0
+Polish,Male,20,drzemka,3,understands,0.6667
+Polish,Female,21,drzemka,3,produces,0
+Polish,Female,21,drzemka,3,understands,0
+Polish,Male,21,drzemka,9,produces,0
+Polish,Male,21,drzemka,9,understands,0.2222
+Polish,Female,22,drzemka,7,produces,0
+Polish,Female,22,drzemka,7,understands,0.7143
+Polish,Male,22,drzemka,5,produces,0
+Polish,Male,22,drzemka,5,understands,0.2
+Polish,Female,23,drzemka,3,produces,0.3333
+Polish,Female,23,drzemka,3,understands,0.6667
+Polish,Male,23,drzemka,6,produces,0
+Polish,Male,23,drzemka,6,understands,0.6667
+Polish,Female,24,drzemka,5,produces,0.4
+Polish,Female,24,drzemka,5,understands,0.6
+Polish,Male,24,drzemka,7,produces,0
+Polish,Male,24,drzemka,7,understands,0.4286
+Polish,Female,25,drzemka,4,produces,0.25
+Polish,Female,25,drzemka,4,understands,0.75
+Polish,Male,25,drzemka,5,produces,0
+Polish,Male,25,drzemka,5,understands,0.6
+Polish,Female,26,drzemka,5,produces,0.4
+Polish,Female,26,drzemka,5,understands,0.8
+Polish,Male,26,drzemka,10,produces,0
+Polish,Male,26,drzemka,10,understands,0.6
+Polish,Female,27,drzemka,5,produces,0
+Polish,Female,27,drzemka,5,understands,0.8
+Polish,Male,27,drzemka,5,produces,0.4
+Polish,Male,27,drzemka,5,understands,1
+Polish,Female,28,drzemka,3,produces,0.3333
+Polish,Female,28,drzemka,3,understands,0.6667
+Polish,Male,28,drzemka,8,produces,0
+Polish,Male,28,drzemka,8,understands,0.625
+Polish,Female,29,drzemka,8,produces,0
+Polish,Female,29,drzemka,8,understands,0.875
+Polish,Male,29,drzemka,2,produces,0
+Polish,Male,29,drzemka,2,understands,1
+Polish,Female,30,drzemka,3,produces,0
+Polish,Female,30,drzemka,3,understands,0.6667
+Polish,Male,30,drzemka,4,produces,0.25
+Polish,Male,30,drzemka,4,understands,0.75
+Polish,Female,31,drzemka,5,produces,0.4
+Polish,Female,31,drzemka,5,understands,1
+Polish,Male,31,drzemka,4,produces,0.25
+Polish,Male,31,drzemka,4,understands,1
+Polish,Female,32,drzemka,2,produces,0.5
+Polish,Female,32,drzemka,2,understands,1
+Polish,Male,32,drzemka,6,produces,0.1667
+Polish,Male,32,drzemka,6,understands,0.5
+Polish,Female,33,drzemka,2,produces,0.5
+Polish,Female,33,drzemka,2,understands,0.5
+Polish,Male,33,drzemka,3,produces,0
+Polish,Male,33,drzemka,3,understands,0.3333
+Polish,Female,34,drzemka,3,produces,0
+Polish,Female,34,drzemka,3,understands,0.3333
+Polish,Male,34,drzemka,2,produces,0.5
+Polish,Male,34,drzemka,2,understands,0.5
+Polish,Female,35,drzemka,5,produces,0.2
+Polish,Female,35,drzemka,5,understands,0.8
+Polish,Male,35,drzemka,5,produces,0.6
+Polish,Male,35,drzemka,5,understands,0.6
+Polish,Female,36,drzemka,4,produces,0.25
+Polish,Female,36,drzemka,4,understands,0.25
+Polish,Male,36,drzemka,3,produces,0.3333
+Polish,Male,36,drzemka,3,understands,0.6667
+Portuguese (European),Female,12,soneca / sesta,5,produces,0
+Portuguese (European),Female,12,soneca / sesta,5,understands,1
+Portuguese (European),Female,13,soneca / sesta,2,produces,0
+Portuguese (European),Female,13,soneca / sesta,2,understands,0.5
+Portuguese (European),Male,13,soneca / sesta,1,produces,0
+Portuguese (European),Male,13,soneca / sesta,1,understands,1
+Portuguese (European),Female,14,soneca / sesta,1,produces,0
+Portuguese (European),Female,14,soneca / sesta,1,understands,1
+Portuguese (European),Male,14,soneca / sesta,2,produces,1
+Portuguese (European),Male,14,soneca / sesta,2,understands,1
+Portuguese (European),Female,15,soneca / sesta,1,produces,0
+Portuguese (European),Female,15,soneca / sesta,1,understands,1
+Portuguese (European),Male,15,soneca / sesta,2,produces,0.5
+Portuguese (European),Male,15,soneca / sesta,2,understands,1
+Portuguese (European),Male,16,soneca / sesta,4,produces,0
+Portuguese (European),Male,16,soneca / sesta,4,understands,1
+Portuguese (European),Female,17,soneca / sesta,4,produces,0.5
+Portuguese (European),Female,17,soneca / sesta,4,understands,1
+Portuguese (European),Male,17,soneca / sesta,3,produces,0
+Portuguese (European),Male,17,soneca / sesta,3,understands,0.6667
+Portuguese (European),Female,18,soneca / sesta,1,produces,1
+Portuguese (European),Female,18,soneca / sesta,1,understands,1
+Portuguese (European),Male,18,soneca / sesta,1,produces,0
+Portuguese (European),Male,18,soneca / sesta,1,understands,1
+Portuguese (European),Female,19,soneca / sesta,4,produces,0.75
+Portuguese (European),Female,19,soneca / sesta,4,understands,1
+Portuguese (European),Male,19,soneca / sesta,3,produces,0.3333
+Portuguese (European),Male,19,soneca / sesta,3,understands,0.6667
+Portuguese (European),Female,20,soneca / sesta,3,produces,0.6667
+Portuguese (European),Female,20,soneca / sesta,3,understands,1
+Portuguese (European),Female,21,soneca / sesta,2,produces,1
+Portuguese (European),Female,21,soneca / sesta,2,understands,1
+Portuguese (European),Male,21,soneca / sesta,2,produces,0.5
+Portuguese (European),Male,21,soneca / sesta,2,understands,0.5
+Portuguese (European),Female,22,soneca / sesta,1,produces,1
+Portuguese (European),Female,22,soneca / sesta,1,understands,1
+Portuguese (European),Male,22,soneca / sesta,3,produces,0.6667
+Portuguese (European),Male,22,soneca / sesta,3,understands,0.6667
+Portuguese (European),Female,23,soneca / sesta,3,produces,1
+Portuguese (European),Female,23,soneca / sesta,3,understands,1
+Portuguese (European),Male,23,soneca / sesta,3,produces,0.6667
+Portuguese (European),Male,23,soneca / sesta,3,understands,0.6667
+Portuguese (European),Female,24,soneca / sesta,2,produces,1
+Portuguese (European),Female,24,soneca / sesta,2,understands,1
+Portuguese (European),Male,24,soneca / sesta,6,produces,0.5
+Portuguese (European),Male,24,soneca / sesta,6,understands,1
+Portuguese (European),Female,25,soneca / sesta,2,produces,1
+Portuguese (European),Female,25,soneca / sesta,2,understands,1
+Portuguese (European),Male,25,soneca / sesta,3,produces,0.6667
+Portuguese (European),Male,25,soneca / sesta,3,understands,0.6667
+Portuguese (European),Female,26,soneca / sesta,4,produces,1
+Portuguese (European),Female,26,soneca / sesta,4,understands,1
+Portuguese (European),Male,26,soneca / sesta,4,produces,0.5
+Portuguese (European),Male,26,soneca / sesta,4,understands,1
+Portuguese (European),Female,27,soneca / sesta,5,produces,0.8
+Portuguese (European),Female,27,soneca / sesta,5,understands,0.8
+Portuguese (European),Male,27,soneca / sesta,3,produces,0.6667
+Portuguese (European),Male,27,soneca / sesta,3,understands,0.6667
+Portuguese (European),Female,28,soneca / sesta,5,produces,0.4
+Portuguese (European),Female,28,soneca / sesta,5,understands,0.8
+Portuguese (European),Male,28,soneca / sesta,5,produces,1
+Portuguese (European),Male,28,soneca / sesta,5,understands,1
+Portuguese (European),Female,29,soneca / sesta,3,produces,0.6667
+Portuguese (European),Female,29,soneca / sesta,3,understands,1
+Portuguese (European),Male,29,soneca / sesta,1,produces,1
+Portuguese (European),Male,29,soneca / sesta,1,understands,1
+Portuguese (European),Female,30,soneca / sesta,4,produces,0.75
+Portuguese (European),Female,30,soneca / sesta,4,understands,0.75
+Portuguese (European),Male,30,soneca / sesta,1,produces,1
+Portuguese (European),Male,30,soneca / sesta,1,understands,1
+Portuguese (European),Female,31,soneca / sesta,3,produces,1
+Portuguese (European),Female,31,soneca / sesta,3,understands,1
+Portuguese (European),Male,31,soneca / sesta,3,produces,1
+Portuguese (European),Male,31,soneca / sesta,3,understands,1
+Portuguese (European),Female,32,soneca / sesta,2,produces,0
+Portuguese (European),Female,32,soneca / sesta,2,understands,0.5
+Portuguese (European),Male,32,soneca / sesta,2,produces,1
+Portuguese (European),Male,32,soneca / sesta,2,understands,1
+Portuguese (European),Female,33,soneca / sesta,2,produces,1
+Portuguese (European),Female,33,soneca / sesta,2,understands,1
+Portuguese (European),Female,35,soneca / sesta,2,produces,0.5
+Portuguese (European),Female,35,soneca / sesta,2,understands,1
+Portuguese (European),Male,36,soneca / sesta,1,produces,1
+Portuguese (European),Male,36,soneca / sesta,1,understands,1
 Spanish (Argentinian),Female,16,siesta_noni_noni,30,produces,0.2
 Spanish (Argentinian),Female,16,siesta_noni_noni,30,understands,0
 Spanish (Argentinian),Male,16,siesta_noni_noni,17,produces,0.2353
@@ -2531,6 +3879,106 @@ Spanish (Argentinian),Female,32,siesta_noni_noni,1,produces,1
 Spanish (Argentinian),Female,32,siesta_noni_noni,1,understands,0
 Spanish (Argentinian),Male,33,siesta_noni_noni,2,produces,0
 Spanish (Argentinian),Male,33,siesta_noni_noni,2,understands,0
+Spanish (European),Female,12,siesta,8,produces,0
+Spanish (European),Female,12,siesta,8,understands,0.25
+Spanish (European),Male,12,siesta,8,produces,0.125
+Spanish (European),Male,12,siesta,8,understands,0.125
+Spanish (European),Female,13,siesta,7,produces,0
+Spanish (European),Female,13,siesta,7,understands,0.4286
+Spanish (European),Male,13,siesta,12,produces,0
+Spanish (European),Male,13,siesta,12,understands,0.1667
+Spanish (European),Female,14,siesta,7,produces,0.2857
+Spanish (European),Female,14,siesta,7,understands,0.4286
+Spanish (European),Male,14,siesta,6,produces,0
+Spanish (European),Male,14,siesta,6,understands,0.1667
+Spanish (European),Female,15,siesta,14,produces,0
+Spanish (European),Female,15,siesta,14,understands,0.4286
+Spanish (European),Male,15,siesta,10,produces,0
+Spanish (European),Male,15,siesta,10,understands,0.5
+Spanish (European),Female,16,siesta,8,produces,0
+Spanish (European),Female,16,siesta,8,understands,0.125
+Spanish (European),Male,16,siesta,16,produces,0
+Spanish (European),Male,16,siesta,16,understands,0.3125
+Spanish (European),Female,17,siesta,14,produces,0.0714
+Spanish (European),Female,17,siesta,14,understands,0.4286
+Spanish (European),Male,17,siesta,8,produces,0
+Spanish (European),Male,17,siesta,8,understands,0.75
+Spanish (European),Female,18,siesta,15,produces,0
+Spanish (European),Female,18,siesta,15,understands,0.3333
+Spanish (European),Male,18,siesta,19,produces,0
+Spanish (European),Male,18,siesta,19,understands,0.5263
+Spanish (European),Female,19,siesta,11,produces,0
+Spanish (European),Female,19,siesta,11,understands,0.5455
+Spanish (European),Male,19,siesta,13,produces,0.0769
+Spanish (European),Male,19,siesta,13,understands,0.6154
+Spanish (European),Female,20,siesta,19,produces,0.1053
+Spanish (European),Female,20,siesta,19,understands,0.7368
+Spanish (European),Male,20,siesta,16,produces,0
+Spanish (European),Male,20,siesta,16,understands,0.4375
+Spanish (European),Female,21,siesta,9,produces,0
+Spanish (European),Female,21,siesta,9,understands,0.4444
+Spanish (European),Male,21,siesta,15,produces,0
+Spanish (European),Male,21,siesta,15,understands,0.7333
+Spanish (European),Female,22,siesta,20,produces,0.15
+Spanish (European),Female,22,siesta,20,understands,0.65
+Spanish (European),Male,22,siesta,17,produces,0.1176
+Spanish (European),Male,22,siesta,17,understands,0.5294
+Spanish (European),Female,23,siesta,13,produces,0.0769
+Spanish (European),Female,23,siesta,13,understands,0.5385
+Spanish (European),Male,23,siesta,16,produces,0.0625
+Spanish (European),Male,23,siesta,16,understands,0.4375
+Spanish (European),Female,24,siesta,15,produces,0.0667
+Spanish (European),Female,24,siesta,15,understands,0.5333
+Spanish (European),Male,24,siesta,14,produces,0.2143
+Spanish (European),Male,24,siesta,14,understands,0.5714
+Spanish (European),Female,25,siesta,19,produces,0.1053
+Spanish (European),Female,25,siesta,19,understands,0.7368
+Spanish (European),Male,25,siesta,13,produces,0.2308
+Spanish (European),Male,25,siesta,13,understands,0.7692
+Spanish (European),Female,26,siesta,15,produces,0.2667
+Spanish (European),Female,26,siesta,15,understands,0.7333
+Spanish (European),Male,26,siesta,15,produces,0
+Spanish (European),Male,26,siesta,15,understands,0.6
+Spanish (European),Female,27,siesta,13,produces,0.0769
+Spanish (European),Female,27,siesta,13,understands,0.7692
+Spanish (European),Male,27,siesta,11,produces,0.5455
+Spanish (European),Male,27,siesta,11,understands,0.7273
+Spanish (European),Female,28,siesta,25,produces,0.4
+Spanish (European),Female,28,siesta,25,understands,0.8
+Spanish (European),Male,28,siesta,13,produces,0.2308
+Spanish (European),Male,28,siesta,13,understands,0.9231
+Spanish (European),Female,29,siesta,12,produces,0.0833
+Spanish (European),Female,29,siesta,12,understands,0.5833
+Spanish (European),Male,29,siesta,16,produces,0.25
+Spanish (European),Male,29,siesta,16,understands,0.6875
+Spanish (European),Female,30,siesta,13,produces,0.3077
+Spanish (European),Female,30,siesta,13,understands,0.9231
+Spanish (European),Male,30,siesta,21,produces,0.1429
+Spanish (European),Male,30,siesta,21,understands,0.4286
+Spanish (European),Female,31,siesta,14,produces,0.2143
+Spanish (European),Female,31,siesta,14,understands,0.6429
+Spanish (European),Male,31,siesta,18,produces,0.3889
+Spanish (European),Male,31,siesta,18,understands,0.7778
+Spanish (European),Female,32,siesta,7,produces,0.4286
+Spanish (European),Female,32,siesta,7,understands,0.7143
+Spanish (European),Male,32,siesta,6,produces,0.6667
+Spanish (European),Male,32,siesta,6,understands,0.6667
+Spanish (European),Female,33,siesta,13,produces,0.4615
+Spanish (European),Female,33,siesta,13,understands,0.6923
+Spanish (European),Male,33,siesta,10,produces,0.3
+Spanish (European),Male,33,siesta,10,understands,0.8
+Spanish (European),Female,34,siesta,3,produces,0.3333
+Spanish (European),Female,34,siesta,3,understands,0.6667
+Spanish (European),Male,34,siesta,8,produces,0.125
+Spanish (European),Male,34,siesta,8,understands,1
+Spanish (European),Female,35,siesta,9,produces,0.3333
+Spanish (European),Female,35,siesta,9,understands,1
+Spanish (European),Male,35,siesta,6,produces,0.1667
+Spanish (European),Male,35,siesta,6,understands,0.6667
+Spanish (European),Female,36,siesta,1,produces,1
+Spanish (European),Female,36,siesta,1,understands,1
+Spanish (European),Male,36,siesta,10,produces,0.3
+Spanish (European),Male,36,siesta,10,understands,0.8
 Spanish (Mexican),Female,8,hacer la meme,18,produces,0
 Spanish (Mexican),Female,8,hacer la meme,18,understands,0.2222
 Spanish (Mexican),Male,8,hacer la meme,22,produces,0.0455

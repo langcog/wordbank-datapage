@@ -51,24 +51,64 @@ American Sign Language,All,35,HELLO,4,produces,0.25
 American Sign Language,All,35,HELLO,4,understands,1
 American Sign Language,All,36,HELLO,3,produces,0
 American Sign Language,All,36,HELLO,3,understands,0.6667
-Arabic (Saudi),All,8,"الوه, الوه ",24,produces,0
-Arabic (Saudi),All,8,"الوه, الوه ",24,understands,0.0833
-Arabic (Saudi),All,9,"الوه, الوه ",27,produces,0
-Arabic (Saudi),All,9,"الوه, الوه ",27,understands,0.037
-Arabic (Saudi),All,10,"الوه, الوه ",35,produces,0.0571
-Arabic (Saudi),All,10,"الوه, الوه ",35,understands,0.1429
-Arabic (Saudi),All,11,"الوه, الوه ",30,produces,0.0333
-Arabic (Saudi),All,11,"الوه, الوه ",30,understands,0.1667
-Arabic (Saudi),All,12,"الوه, الوه ",30,produces,0.1667
-Arabic (Saudi),All,12,"الوه, الوه ",30,understands,0.2333
-Arabic (Saudi),All,13,"الوه, الوه ",39,produces,0.0513
-Arabic (Saudi),All,13,"الوه, الوه ",39,understands,0.0256
-Arabic (Saudi),All,14,"الوه , الوه",25,produces,0
-Arabic (Saudi),All,14,"الوه , الوه",25,understands,0.04
-Arabic (Saudi),All,15,"الوه, الوه ",27,produces,0.1852
-Arabic (Saudi),All,15,"الوه, الوه ",27,understands,0.1852
-Arabic (Saudi),All,16,"الوه, الوه ",21,produces,0.1905
-Arabic (Saudi),All,16,"الوه, الوه ",21,understands,0.0952
+Arabic (Saudi),All,8,الوه,24,produces,0
+Arabic (Saudi),All,8,الوه,24,understands,0.0833
+Arabic (Saudi),All,9,الوه,27,produces,0
+Arabic (Saudi),All,9,الوه,27,understands,0.0741
+Arabic (Saudi),All,10,الوه,35,produces,0.0571
+Arabic (Saudi),All,10,الوه,35,understands,0.1429
+Arabic (Saudi),All,11,الوه,30,produces,0.0333
+Arabic (Saudi),All,11,الوه,30,understands,0.2
+Arabic (Saudi),All,12,الوه,30,produces,0.1667
+Arabic (Saudi),All,12,الوه,30,understands,0.3667
+Arabic (Saudi),All,13,الوه,39,produces,0.0513
+Arabic (Saudi),All,13,الوه,39,understands,0.0769
+Arabic (Saudi),All,14,الوه,25,produces,0
+Arabic (Saudi),All,14,الوه,25,understands,0.32
+Arabic (Saudi),All,15,الوه,27,produces,0.1852
+Arabic (Saudi),All,15,الوه,27,understands,0.5185
+Arabic (Saudi),All,16,الوه,21,produces,0.1905
+Arabic (Saudi),All,16,الوه,21,understands,0.2857
+Arabic (Saudi),All,17,الوه,36,produces,0.3056
+Arabic (Saudi),All,17,الوه,36,understands,0.3056
+Arabic (Saudi),All,18,الوه,33,produces,0.2727
+Arabic (Saudi),All,18,الوه,33,understands,0.0909
+Arabic (Saudi),All,19,الوه,30,produces,0.3667
+Arabic (Saudi),All,19,الوه,30,understands,0.2333
+Arabic (Saudi),All,20,الوه,31,produces,0.3226
+Arabic (Saudi),All,20,الوه,31,understands,0.3226
+Arabic (Saudi),All,21,الوه,34,produces,0.5
+Arabic (Saudi),All,21,الوه,34,understands,0.3235
+Arabic (Saudi),All,22,الوه,28,produces,0.3571
+Arabic (Saudi),All,22,الوه,28,understands,0.3214
+Arabic (Saudi),All,23,الوه,39,produces,0.359
+Arabic (Saudi),All,23,الوه,39,understands,0.2821
+Arabic (Saudi),All,24,الوه,30,produces,0.5333
+Arabic (Saudi),All,24,الوه,30,understands,0.4
+Arabic (Saudi),All,25,الوه,34,produces,0.4118
+Arabic (Saudi),All,25,الوه,34,understands,0.5
+Arabic (Saudi),All,26,الوه,30,produces,0.5
+Arabic (Saudi),All,26,الوه,30,understands,0.3667
+Arabic (Saudi),All,27,الوه,37,produces,0.5946
+Arabic (Saudi),All,27,الوه,37,understands,0.4865
+Arabic (Saudi),All,28,الوه,36,produces,0.7222
+Arabic (Saudi),All,28,الوه,36,understands,0.5833
+Arabic (Saudi),All,29,الوه,40,produces,0.55
+Arabic (Saudi),All,29,الوه,40,understands,0.625
+Arabic (Saudi),All,30,الوه,64,produces,0.6719
+Arabic (Saudi),All,30,الوه,64,understands,0.6719
+Arabic (Saudi),All,31,الوه,24,produces,0.8333
+Arabic (Saudi),All,31,الوه,24,understands,0.5417
+Arabic (Saudi),All,32,الوه,22,produces,0.8182
+Arabic (Saudi),All,32,الوه,22,understands,0.5909
+Arabic (Saudi),All,33,الوه,34,produces,0.6765
+Arabic (Saudi),All,33,الوه,34,understands,0.6471
+Arabic (Saudi),All,34,الوه,18,produces,0.8889
+Arabic (Saudi),All,34,الوه,18,understands,0.7778
+Arabic (Saudi),All,35,الوه,17,produces,1
+Arabic (Saudi),All,35,الوه,17,understands,0.8824
+Arabic (Saudi),All,36,الوه,32,produces,0.9375
+Arabic (Saudi),All,36,الوه,32,understands,0.875
 British Sign Language,All,8,hello,4,produces,0
 British Sign Language,All,8,hello,4,understands,0
 British Sign Language,All,9,hello,4,produces,0
@@ -329,92 +369,114 @@ Dutch,All,10,hallo/hoi,196,produces,0.0357
 Dutch,All,10,hallo/hoi,196,understands,0.5255
 Dutch,All,11,hallo/hoi,64,produces,0.0781
 Dutch,All,11,hallo/hoi,64,understands,0.6719
-Dutch,All,12,hallo/hoi,35,produces,0.0571
-Dutch,All,12,hallo/hoi,35,understands,0.7429
+Dutch,All,12,"hallo, hallo/hoi",38,produces,0.0526
+Dutch,All,12,"hallo, hallo/hoi",38,understands,0.7105
 Dutch,All,13,hallo/hoi,18,produces,0.1111
 Dutch,All,13,hallo/hoi,18,understands,0.5
-Dutch,All,14,hallo/hoi,94,produces,0.1809
-Dutch,All,14,hallo/hoi,94,understands,0.5957
-Dutch,All,15,"hallo/hoi, hallo, hoi",66,produces,0.2899
-Dutch,All,15,"hallo/hoi, hallo, hoi",66,understands,0.7971
-Dutch,All,16,"hallo/hoi, hallo, hoi, hallo(telefoon)",74,produces,0.4198
-Dutch,All,16,"hallo/hoi, hallo, hoi, hallo(telefoon)",74,understands,0.7901
-Dutch,All,17,"hallo(telefoon), hallo, hoi, hallo/hoi",141,produces,0.6378
-Dutch,All,17,"hallo(telefoon), hallo, hoi, hallo/hoi",141,understands,0.4694
-Dutch,All,18,"hallo(telefoon), hallo, hoi, hallo/hoi",292,produces,0.4367
-Dutch,All,18,"hallo(telefoon), hallo, hoi, hallo/hoi",292,understands,0.4469
-Dutch,All,19,"hallo(telefoon), hallo, hoi, hallo/hoi",102,produces,0.2857
-Dutch,All,19,"hallo(telefoon), hallo, hoi, hallo/hoi",102,understands,0.33
-Dutch,All,20,"hallo, hoi, hallo(telefoon), hallo/hoi",33,produces,0.4394
-Dutch,All,20,"hallo, hoi, hallo(telefoon), hallo/hoi",33,understands,0.3939
-Dutch,All,21,"hallo, hoi, hallo(telefoon), hallo/hoi",13,produces,0.5385
-Dutch,All,21,"hallo, hoi, hallo(telefoon), hallo/hoi",13,understands,0.3077
-Dutch,All,22,"hallo(telefoon), hallo/hoi",7,produces,0.7143
-Dutch,All,22,"hallo(telefoon), hallo/hoi",7,understands,0
-Dutch,All,23,"hallo(telefoon), hallo/hoi",52,produces,0.9417
-Dutch,All,23,"hallo(telefoon), hallo/hoi",52,understands,0.0097
-Dutch,All,24,"hallo(telefoon), hallo/hoi",190,produces,0.9457
-Dutch,All,24,"hallo(telefoon), hallo/hoi",190,understands,0.7195
-Dutch,All,25,"hallo(telefoon), hallo/hoi",11,produces,0.9412
-Dutch,All,25,"hallo(telefoon), hallo/hoi",11,understands,0.2353
-Dutch,All,26,"hallo(telefoon), hallo/hoi",6,produces,1
-Dutch,All,26,"hallo(telefoon), hallo/hoi",6,understands,0
-Dutch,All,27,"hallo(telefoon), hallo/hoi",5,produces,0.6
-Dutch,All,27,"hallo(telefoon), hallo/hoi",5,understands,0
-Dutch,All,28,"hallo(telefoon), hallo/hoi",6,produces,1
-Dutch,All,28,"hallo(telefoon), hallo/hoi",6,understands,0
-Dutch,All,29,"hallo(telefoon), hallo/hoi",23,produces,1
-Dutch,All,29,"hallo(telefoon), hallo/hoi",23,understands,0
-Dutch,All,30,"hallo(telefoon), hallo/hoi",51,produces,0.9867
-Dutch,All,30,"hallo(telefoon), hallo/hoi",51,understands,0.36
-Dutch,All,31,"hallo(telefoon), hallo/hoi",3,produces,1
-Dutch,All,31,"hallo(telefoon), hallo/hoi",3,understands,0.2
+Dutch,All,14,"hallo/hoi, hallo",96,produces,0.1875
+Dutch,All,14,"hallo/hoi, hallo",96,understands,0.6042
+Dutch,All,15,"hallo/hoi, hallo, hoi",69,produces,0.3056
+Dutch,All,15,"hallo/hoi, hallo, hoi",69,understands,0.7917
+Dutch,All,16,"hallo/hoi, hallo, hoi, hallo(telefoon)",77,produces,0.4167
+Dutch,All,16,"hallo/hoi, hallo, hoi, hallo(telefoon)",77,understands,0.869
+Dutch,All,17,"hallo, hoi, hallo(telefoon), hallo/hoi",143,produces,0.6313
+Dutch,All,17,"hallo, hoi, hallo(telefoon), hallo/hoi",143,understands,0.9242
+Dutch,All,18,"hallo, hoi, hallo(telefoon), hallo/hoi",295,produces,0.4341
+Dutch,All,18,"hallo, hoi, hallo(telefoon), hallo/hoi",295,understands,0.6876
+Dutch,All,19,"hallo, hoi, hallo(telefoon), hallo/hoi",105,produces,0.2913
+Dutch,All,19,"hallo, hoi, hallo(telefoon), hallo/hoi",105,understands,0.4078
+Dutch,All,20,"hallo, hoi, hallo/hoi, hallo(telefoon)",37,produces,0.4429
+Dutch,All,20,"hallo, hoi, hallo/hoi, hallo(telefoon)",37,understands,0.6286
+Dutch,All,21,"hallo, hoi, hallo/hoi, hallo(telefoon)",19,produces,0.5312
+Dutch,All,21,"hallo, hoi, hallo/hoi, hallo(telefoon)",19,understands,0.75
+Dutch,All,22,"hallo, hallo/hoi, hallo(telefoon)",14,produces,0.7143
+Dutch,All,22,"hallo, hallo/hoi, hallo(telefoon)",14,understands,1
+Dutch,All,23,"hallo, hallo(telefoon), hallo/hoi",57,produces,0.9167
+Dutch,All,23,"hallo, hallo(telefoon), hallo/hoi",57,understands,0.9722
+Dutch,All,24,"hallo, hallo(telefoon), hallo/hoi",193,produces,0.9464
+Dutch,All,24,"hallo, hallo(telefoon), hallo/hoi",193,understands,1
+Dutch,All,25,"hallo, hallo(telefoon), hallo/hoi",16,produces,0.8636
+Dutch,All,25,"hallo, hallo(telefoon), hallo/hoi",16,understands,0.8636
+Dutch,All,26,"hallo, hallo/hoi, hallo(telefoon)",9,produces,0.9333
+Dutch,All,26,"hallo, hallo/hoi, hallo(telefoon)",9,understands,1
+Dutch,All,27,"hallo, hallo/hoi, hallo(telefoon)",12,produces,0.7059
+Dutch,All,27,"hallo, hallo/hoi, hallo(telefoon)",12,understands,0.8235
+Dutch,All,28,"hallo, hallo/hoi, hallo(telefoon)",9,produces,1
+Dutch,All,28,"hallo, hallo/hoi, hallo(telefoon)",9,understands,1
+Dutch,All,29,"hallo, hallo/hoi, hallo(telefoon)",27,produces,1
+Dutch,All,29,"hallo, hallo/hoi, hallo(telefoon)",27,understands,1
+Dutch,All,30,"hallo, hallo(telefoon), hallo/hoi",56,produces,0.9875
+Dutch,All,30,"hallo, hallo(telefoon), hallo/hoi",56,understands,1
+Dutch,All,31,"hallo, hallo(telefoon), hallo/hoi",11,produces,0.9231
+Dutch,All,31,"hallo, hallo(telefoon), hallo/hoi",11,understands,0.9231
+Dutch,All,32,hallo,6,produces,1
+Dutch,All,32,hallo,6,understands,1
+Dutch,All,33,hallo,1,produces,1
+Dutch,All,33,hallo,1,understands,1
+Dutch,All,34,hallo,3,produces,1
+Dutch,All,34,hallo,3,understands,1
+Dutch,All,35,hallo,6,produces,1
+Dutch,All,35,hallo,6,understands,1
+Dutch,All,36,hallo,2,produces,1
+Dutch,All,36,hallo,2,understands,1
 English (American),All,8,hello,255,produces,0.0039
 English (American),All,8,hello,255,understands,0.2549
-English (American),All,9,hello,299,produces,0.0134
-English (American),All,9,hello,299,understands,0.3211
+English (American),All,9,hello,300,produces,0.0133
+English (American),All,9,hello,300,understands,0.32
 English (American),All,10,hello,279,produces,0.0394
 English (American),All,10,hello,279,understands,0.362
 English (American),All,11,hello,360,produces,0.0444
 English (American),All,11,hello,360,understands,0.4556
 English (American),All,12,hello,615,produces,0.0602
 English (American),All,12,hello,615,understands,0.522
-English (American),All,13,hello,1039,produces,0.102
-English (American),All,13,hello,1039,understands,0.5794
-English (American),All,14,hello,455,produces,0.1495
-English (American),All,14,hello,455,understands,0.6044
-English (American),All,15,hello,245,produces,0.2
-English (American),All,15,hello,245,understands,0.6327
-English (American),All,16,hello,1750,produces,0.284
-English (American),All,16,hello,1750,understands,0.3571
-English (American),All,17,hello,831,produces,0.3755
-English (American),All,17,hello,831,understands,0.3369
-English (American),All,18,hello,1024,produces,0.416
-English (American),All,18,hello,1024,understands,0.3154
-English (American),All,19,hello,570,produces,0.5123
-English (American),All,19,hello,570,understands,0
-English (American),All,20,hello,537,produces,0.527
-English (American),All,20,hello,537,understands,0
-English (American),All,21,hello,366,produces,0.6257
-English (American),All,21,hello,366,understands,0
-English (American),All,22,hello,454,produces,0.7181
-English (American),All,22,hello,454,understands,0
-English (American),All,23,hello,470,produces,0.7085
-English (American),All,23,hello,470,understands,0
-English (American),All,24,hello,985,produces,0.7269
-English (American),All,24,hello,985,understands,0
-English (American),All,25,hello,757,produces,0.7583
-English (American),All,25,hello,757,understands,0
-English (American),All,26,hello,435,produces,0.7218
-English (American),All,26,hello,435,understands,0
-English (American),All,27,hello,361,produces,0.759
-English (American),All,27,hello,361,understands,0
+English (American),All,13,hello,1040,produces,0.1019
+English (American),All,13,hello,1040,understands,0.5788
+English (American),All,14,hello,460,produces,0.1478
+English (American),All,14,hello,460,understands,0.6087
+English (American),All,15,hello,284,produces,0.1831
+English (American),All,15,hello,284,understands,0.6127
+English (American),All,16,hello,1811,produces,0.2849
+English (American),All,16,hello,1811,understands,0.3661
+English (American),All,17,hello,1158,produces,0.2789
+English (American),All,17,hello,1158,understands,0.2617
+English (American),All,18,hello,1406,produces,0.3137
+English (American),All,18,hello,1406,understands,0.2454
+English (American),All,19,hello,573,produces,0.5131
+English (American),All,19,hello,573,understands,0
+English (American),All,20,hello,544,produces,0.5294
+English (American),All,20,hello,544,understands,0
+English (American),All,21,hello,492,produces,0.6707
+English (American),All,21,hello,492,understands,0
+English (American),All,22,hello,481,produces,0.7256
+English (American),All,22,hello,481,understands,0
+English (American),All,23,hello,496,produces,0.7137
+English (American),All,23,hello,496,understands,0
+English (American),All,24,hello,1115,produces,0.7166
+English (American),All,24,hello,1115,understands,0.0027
+English (American),All,25,hello,775,produces,0.7587
+English (American),All,25,hello,775,understands,0
+English (American),All,26,hello,437,produces,0.7231
+English (American),All,26,hello,437,understands,0.0046
+English (American),All,27,hello,362,produces,0.7597
+English (American),All,27,hello,362,understands,0
 English (American),All,28,hello,954,produces,0.8124
-English (American),All,28,hello,954,understands,0
-English (American),All,29,hello,390,produces,0.8333
-English (American),All,29,hello,390,understands,0
-English (American),All,30,hello,785,produces,0.8713
-English (American),All,30,hello,785,understands,0
+English (American),All,28,hello,954,understands,0.001
+English (American),All,29,hello,393,produces,0.8346
+English (American),All,29,hello,393,understands,0.0025
+English (American),All,30,hello,885,produces,0.8791
+English (American),All,30,hello,885,understands,0
+English (American),All,31,hello,284,produces,0.8768
+English (American),All,31,hello,284,understands,0.007
+English (American),All,32,hello,148,produces,0.8243
+English (American),All,32,hello,148,understands,0.027
+English (American),All,33,hello,54,produces,0.8889
+English (American),All,33,hello,54,understands,0
+English (American),All,34,hello,26,produces,0.9615
+English (American),All,34,hello,26,understands,0.1923
+English (American),All,35,hello,34,produces,0.8824
+English (American),All,35,hello,34,understands,0.0588
+English (American),All,36,hello,90,produces,0.9111
+English (American),All,36,hello,90,understands,0.0556
 English (Australian),All,12,hello,71,produces,0.1408
 English (Australian),All,12,hello,71,understands,0
 English (Australian),All,13,hello,64,produces,0.25
@@ -453,34 +515,64 @@ English (Australian),All,29,hello,65,produces,0.9231
 English (Australian),All,29,hello,65,understands,0
 English (Australian),All,30,hello,53,produces,0.9245
 English (Australian),All,30,hello,53,understands,0
-English (British),All,12,hello,27,produces,0.2593
-English (British),All,12,hello,27,understands,0.7407
-English (British),All,13,hello,7,produces,0.2857
-English (British),All,13,hello,7,understands,0.7143
-English (British),All,14,hello,64,produces,0.2344
-English (British),All,14,hello,64,understands,0.6719
-English (British),All,15,hello,88,produces,0.2841
-English (British),All,15,hello,88,understands,0.7727
-English (British),All,16,hello,118,produces,0.3305
-English (British),All,16,hello,118,understands,0.7712
-English (British),All,17,hello,197,produces,0.5076
-English (British),All,17,hello,197,understands,0.8934
-English (British),All,18,hello,118,produces,0.5085
-English (British),All,18,hello,118,understands,0.9068
-English (British),All,19,hello,109,produces,0.6055
-English (British),All,19,hello,109,understands,0.9174
-English (British),All,20,hello,144,produces,0.7361
-English (British),All,20,hello,144,understands,0.9167
-English (British),All,21,hello,75,produces,0.88
-English (British),All,21,hello,75,understands,0.9733
-English (British),All,22,hello,28,produces,0.7143
-English (British),All,22,hello,28,understands,0.8929
-English (British),All,23,hello,112,produces,0.7857
-English (British),All,23,hello,112,understands,0.9732
-English (British),All,24,hello,87,produces,0.908
-English (British),All,24,hello,87,understands,0.977
-English (British),All,25,hello,36,produces,0.8611
-English (British),All,25,hello,36,understands,0.9444
+English (British),All,8,L Words for games and routines - 9 hello/hi/hiya,106,produces,0.1132
+English (British),All,8,L Words for games and routines - 9 hello/hi/hiya,106,understands,0.5849
+English (British),All,9,L Words for games and routines - 9 hello/hi/hiya,137,produces,0.1533
+English (British),All,9,L Words for games and routines - 9 hello/hi/hiya,137,understands,0.6642
+English (British),All,10,L Words for games and routines - 9 hello/hi/hiya,128,produces,0.2188
+English (British),All,10,L Words for games and routines - 9 hello/hi/hiya,128,understands,0.7578
+English (British),All,11,L Words for games and routines - 9 hello/hi/hiya,110,produces,0.2091
+English (British),All,11,L Words for games and routines - 9 hello/hi/hiya,110,understands,0.7545
+English (British),All,12,"hello, L Words for games and routines - 9 hello/hi/hiya",205,produces,0.2195
+English (British),All,12,"hello, L Words for games and routines - 9 hello/hi/hiya",205,understands,0.8
+English (British),All,13,"hello, L Words for games and routines - 9 hello/hi/hiya",178,produces,0.3483
+English (British),All,13,"hello, L Words for games and routines - 9 hello/hi/hiya",178,understands,0.8652
+English (British),All,14,"hello, L Words for games and routines - 9 hello/hi/hiya",204,produces,0.4167
+English (British),All,14,"hello, L Words for games and routines - 9 hello/hi/hiya",204,understands,0.7549
+English (British),All,15,"hello, L Words for games and routines - 9 hello/hi/hiya",272,produces,0.4044
+English (British),All,15,"hello, L Words for games and routines - 9 hello/hi/hiya",272,understands,0.8419
+English (British),All,16,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",327,produces,0.4495
+English (British),All,16,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",327,understands,0.8012
+English (British),All,17,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",368,produces,0.5245
+English (British),All,17,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",368,understands,0.8668
+English (British),All,18,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",314,produces,0.5191
+English (British),All,18,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",314,understands,0.8854
+English (British),All,19,"hello, M games - 10 hello",196,produces,0.5918
+English (British),All,19,"hello, M games - 10 hello",196,understands,0.8418
+English (British),All,20,"hello, M games - 10 hello",250,produces,0.664
+English (British),All,20,"hello, M games - 10 hello",250,understands,0.868
+English (British),All,21,"hello, M games - 10 hello",197,produces,0.7563
+English (British),All,21,"hello, M games - 10 hello",197,understands,0.8528
+English (British),All,22,"hello, M games - 10 hello",150,produces,0.6733
+English (British),All,22,"hello, M games - 10 hello",150,understands,0.88
+English (British),All,23,"hello, M games - 10 hello",223,produces,0.7399
+English (British),All,23,"hello, M games - 10 hello",223,understands,0.8834
+English (British),All,24,"hello, M games - 10 hello",186,produces,0.8495
+English (British),All,24,"hello, M games - 10 hello",186,understands,0.871
+English (British),All,25,"hello, M games - 10 hello",168,produces,0.8452
+English (British),All,25,"hello, M games - 10 hello",168,understands,0.8929
+English (British),All,26,"hello, M games - 10 hello",166,produces,0.8253
+English (British),All,26,"hello, M games - 10 hello",166,understands,0.9036
+English (British),All,27,"hello, M games - 10 hello",147,produces,0.8503
+English (British),All,27,"hello, M games - 10 hello",147,understands,0.898
+English (British),All,28,"hello, M games - 10 hello",121,produces,0.8926
+English (British),All,28,"hello, M games - 10 hello",121,understands,0.9256
+English (British),All,29,"hello, M games - 10 hello",97,produces,0.8969
+English (British),All,29,"hello, M games - 10 hello",97,understands,0.8144
+English (British),All,30,"hello, M games - 10 hello",110,produces,0.8636
+English (British),All,30,"hello, M games - 10 hello",110,understands,0.8818
+English (British),All,31,"hello, M games - 10 hello",104,produces,0.9135
+English (British),All,31,"hello, M games - 10 hello",104,understands,0.9615
+English (British),All,32,hello,63,produces,0.9048
+English (British),All,32,hello,63,understands,1
+English (British),All,33,hello,53,produces,0.9057
+English (British),All,33,hello,53,understands,1
+English (British),All,34,hello,45,produces,0.9778
+English (British),All,34,hello,45,understands,1
+English (British),All,35,hello,53,produces,0.9245
+English (British),All,35,hello,53,understands,0.9434
+English (British),All,36,hello,47,produces,0.9362
+English (British),All,36,hello,47,understands,0.9574
 English (Irish),All,17,hello,2,produces,0
 English (Irish),All,17,hello,2,understands,0
 English (Irish),All,18,hello,1,produces,0
@@ -521,6 +613,56 @@ English (Irish),All,35,hello,11,produces,0.5455
 English (Irish),All,35,hello,11,understands,0
 English (Irish),All,36,hello,5,produces,0.8
 English (Irish),All,36,hello,5,understands,0
+English (Malaysian),All,12,hello,3,produces,0.3333
+English (Malaysian),All,12,hello,3,understands,0.3333
+English (Malaysian),All,13,hello,17,produces,0.1176
+English (Malaysian),All,13,hello,17,understands,0.4118
+English (Malaysian),All,14,hello,13,produces,0
+English (Malaysian),All,14,hello,13,understands,0.2308
+English (Malaysian),All,15,hello,23,produces,0.0435
+English (Malaysian),All,15,hello,23,understands,0.3913
+English (Malaysian),All,16,hello,29,produces,0.1379
+English (Malaysian),All,16,hello,29,understands,0.2414
+English (Malaysian),All,17,hello,20,produces,0.15
+English (Malaysian),All,17,hello,20,understands,0.25
+English (Malaysian),All,18,hello,40,produces,0.25
+English (Malaysian),All,18,hello,40,understands,0.375
+English (Malaysian),All,19,hello,13,produces,0.0769
+English (Malaysian),All,19,hello,13,understands,0.3077
+English (Malaysian),All,20,hello,31,produces,0.2258
+English (Malaysian),All,20,hello,31,understands,0.3226
+English (Malaysian),All,21,hello,31,produces,0.3548
+English (Malaysian),All,21,hello,31,understands,0.3871
+English (Malaysian),All,22,hello,28,produces,0.4643
+English (Malaysian),All,22,hello,28,understands,0.5357
+English (Malaysian),All,23,hello,34,produces,0.3235
+English (Malaysian),All,23,hello,34,understands,0.4118
+English (Malaysian),All,24,hello,46,produces,0.1739
+English (Malaysian),All,24,hello,46,understands,0.3696
+English (Malaysian),All,25,hello,21,produces,0.3333
+English (Malaysian),All,25,hello,21,understands,0.4286
+English (Malaysian),All,26,hello,45,produces,0.2667
+English (Malaysian),All,26,hello,45,understands,0.3111
+English (Malaysian),All,27,hello,19,produces,0.3684
+English (Malaysian),All,27,hello,19,understands,0.4211
+English (Malaysian),All,28,hello,42,produces,0.4048
+English (Malaysian),All,28,hello,42,understands,0.4286
+English (Malaysian),All,29,hello,26,produces,0.3077
+English (Malaysian),All,29,hello,26,understands,0.5
+English (Malaysian),All,30,hello,30,produces,0.2667
+English (Malaysian),All,30,hello,30,understands,0.3333
+English (Malaysian),All,31,hello,9,produces,0.4444
+English (Malaysian),All,31,hello,9,understands,0.4444
+English (Malaysian),All,32,hello,19,produces,0.5263
+English (Malaysian),All,32,hello,19,understands,0.6316
+English (Malaysian),All,33,hello,20,produces,0.45
+English (Malaysian),All,33,hello,20,understands,0.55
+English (Malaysian),All,34,hello,15,produces,0.2667
+English (Malaysian),All,34,hello,15,understands,0.3333
+English (Malaysian),All,35,hello,21,produces,0.3333
+English (Malaysian),All,35,hello,21,understands,0.3333
+English (Malaysian),All,36,hello,13,produces,0.5385
+English (Malaysian),All,36,hello,13,understands,0.5385
 Estonian,All,16,"halloo, tere",36,produces,0.4028
 Estonian,All,16,"halloo, tere",36,understands,0
 Estonian,All,17,"halloo, tere",89,produces,0.4438
@@ -551,44 +693,122 @@ Estonian,All,29,"halloo, tere",100,produces,0.815
 Estonian,All,29,"halloo, tere",100,understands,0
 Estonian,All,30,"halloo, tere",71,produces,0.8873
 Estonian,All,30,"halloo, tere",71,understands,0
-Finnish,All,12,päivää  ,35,produces,0
-Finnish,All,12,päivää  ,35,understands,0
-Finnish,All,15,päivää  ,35,produces,0
-Finnish,All,15,päivää  ,35,understands,0
+Faroese,All,8,hall—,19,produces,0
+Faroese,All,8,hall—,19,understands,0
+Faroese,All,9,hall—,47,produces,0
+Faroese,All,9,hall—,47,understands,0.1277
+Faroese,All,10,hall—,47,produces,0
+Faroese,All,10,hall—,47,understands,0.3404
+Faroese,All,11,hall—,48,produces,0.0625
+Faroese,All,11,hall—,48,understands,0.2292
+Faroese,All,12,hall—,39,produces,0.1026
+Faroese,All,12,hall—,39,understands,0.4615
+Faroese,All,13,hall—,41,produces,0.1707
+Faroese,All,13,hall—,41,understands,0.3902
+Faroese,All,14,hall—,42,produces,0.1667
+Faroese,All,14,hall—,42,understands,0.4524
+Faroese,All,15,hall—,34,produces,0.3529
+Faroese,All,15,hall—,34,understands,0.6471
+Faroese,All,16,hall—,38,produces,0.2632
+Faroese,All,16,hall—,38,understands,0.2632
+Faroese,All,17,hall—,35,produces,0.4
+Faroese,All,17,hall—,35,understands,0.2
+Faroese,All,18,hall—,44,produces,0.5227
+Faroese,All,18,hall—,44,understands,0.3636
+Faroese,All,19,hall—,20,produces,0.5
+Faroese,All,19,hall—,20,understands,0
+Faroese,All,20,hall—,27,produces,0.4815
+Faroese,All,20,hall—,27,understands,0
+Faroese,All,21,hall—,48,produces,0.5208
+Faroese,All,21,hall—,48,understands,0
+Faroese,All,22,hall—,45,produces,0.6222
+Faroese,All,22,hall—,45,understands,0
+Faroese,All,23,hall—,35,produces,0.7143
+Faroese,All,23,hall—,35,understands,0
+Faroese,All,24,hall—,33,produces,0.7273
+Faroese,All,24,hall—,33,understands,0
+Faroese,All,25,hall—,43,produces,0.6279
+Faroese,All,25,hall—,43,understands,0
+Faroese,All,26,hall—,36,produces,0.75
+Faroese,All,26,hall—,36,understands,0
+Faroese,All,27,hall—,51,produces,0.7451
+Faroese,All,27,hall—,51,understands,0
+Faroese,All,28,hall—,37,produces,0.7027
+Faroese,All,28,hall—,37,understands,0
+Faroese,All,29,hall—,39,produces,0.7949
+Faroese,All,29,hall—,39,understands,0
+Faroese,All,30,hall—,49,produces,0.8571
+Faroese,All,30,hall—,49,understands,0
+Faroese,All,31,hall—,38,produces,0.8158
+Faroese,All,31,hall—,38,understands,0
+Faroese,All,32,hall—,42,produces,0.7857
+Faroese,All,32,hall—,42,understands,0
+Faroese,All,33,hall—,31,produces,0.7742
+Faroese,All,33,hall—,31,understands,0
+Faroese,All,34,hall—,42,produces,0.8333
+Faroese,All,34,hall—,42,understands,0
+Faroese,All,35,hall—,26,produces,0.8462
+Faroese,All,35,hall—,26,understands,0
+Faroese,All,36,hall—,17,produces,0.9412
+Faroese,All,36,hall—,17,understands,0
+Finnish,All,12,päivää,35,produces,0
+Finnish,All,12,päivää,35,understands,0
+Finnish,All,15,päivää,35,produces,0
+Finnish,All,15,päivää,35,understands,0
 Finnish,All,18,päivää,35,produces,0.0857
 Finnish,All,18,päivää,35,understands,0
 Finnish,All,24,päivää,35,produces,0.5714
 Finnish,All,24,päivää,35,understands,0
-French (French),All,16,allo,92,produces,0.4674
-French (French),All,16,allo,92,understands,0
-French (French),All,17,allo,52,produces,0.5
-French (French),All,17,allo,52,understands,0
-French (French),All,18,allo,54,produces,0.4815
-French (French),All,18,allo,54,understands,0
-French (French),All,19,allo,42,produces,0.5952
-French (French),All,19,allo,42,understands,0
-French (French),All,20,allo,81,produces,0.6914
-French (French),All,20,allo,81,understands,0
-French (French),All,21,allo,102,produces,0.6471
-French (French),All,21,allo,102,understands,0
-French (French),All,22,allo,103,produces,0.7379
-French (French),All,22,allo,103,understands,0
-French (French),All,23,allo,118,produces,0.7881
-French (French),All,23,allo,118,understands,0
-French (French),All,24,allo,173,produces,0.8786
-French (French),All,24,allo,173,understands,0
-French (French),All,25,allo,87,produces,0.8506
-French (French),All,25,allo,87,understands,0
-French (French),All,26,allo,64,produces,0.9062
-French (French),All,26,allo,64,understands,0
-French (French),All,27,allo,54,produces,0.7037
-French (French),All,27,allo,54,understands,0
-French (French),All,28,allo,76,produces,0.8026
-French (French),All,28,allo,76,understands,0
-French (French),All,29,allo,67,produces,0.7612
-French (French),All,29,allo,67,understands,0
-French (French),All,30,allo,68,produces,0.75
-French (French),All,30,allo,68,understands,0
+French (French),All,12,bonjour,7,produces,0
+French (French),All,12,bonjour,7,understands,0.5714
+French (French),All,13,bonjour,6,produces,0.1667
+French (French),All,13,bonjour,6,understands,0.6667
+French (French),All,14,bonjour,2,produces,0
+French (French),All,14,bonjour,2,understands,0
+French (French),All,15,bonjour,9,produces,0.2222
+French (French),All,15,bonjour,9,understands,0.8889
+French (French),All,16,"bonjour, allo",100,produces,0.43
+French (French),All,16,"bonjour, allo",100,understands,0.06
+French (French),All,17,"bonjour, allo",58,produces,0.4828
+French (French),All,17,"bonjour, allo",58,understands,0.0345
+French (French),All,18,"bonjour, allo",76,produces,0.4474
+French (French),All,18,"bonjour, allo",76,understands,0.3421
+French (French),All,19,"bonjour, allo",91,produces,0.6264
+French (French),All,19,"bonjour, allo",91,understands,0.2527
+French (French),All,20,"bonjour, allo",254,produces,0.7402
+French (French),All,20,"bonjour, allo",254,understands,0.0827
+French (French),All,21,"bonjour, allo",131,produces,0.7634
+French (French),All,21,"bonjour, allo",131,understands,0.2824
+French (French),All,22,"bonjour, allo",122,produces,0.8115
+French (French),All,22,"bonjour, allo",122,understands,0.2623
+French (French),All,23,"bonjour, allo",135,produces,0.8667
+French (French),All,23,"bonjour, allo",135,understands,0.1778
+French (French),All,24,"bonjour, allo",203,produces,0.8867
+French (French),All,24,"bonjour, allo",203,understands,0.1084
+French (French),All,25,"bonjour, allo",104,produces,0.875
+French (French),All,25,"bonjour, allo",104,understands,0.1827
+French (French),All,26,"allo, bonjour",73,produces,0.9452
+French (French),All,26,"allo, bonjour",73,understands,0.0548
+French (French),All,27,"bonjour, allo",74,produces,0.8378
+French (French),All,27,"bonjour, allo",74,understands,0.3784
+French (French),All,28,"bonjour, allo",94,produces,0.9149
+French (French),All,28,"bonjour, allo",94,understands,0.2447
+French (French),All,29,"bonjour, allo",82,produces,0.9146
+French (French),All,29,"bonjour, allo",82,understands,0.2195
+French (French),All,30,"bonjour, allo",91,produces,0.9121
+French (French),All,30,"bonjour, allo",91,understands,0.2637
+French (French),All,31,"bonjour, allo",53,produces,0.8679
+French (French),All,31,"bonjour, allo",53,understands,0.8113
+French (French),All,32,"bonjour, allo",54,produces,0.8889
+French (French),All,32,"bonjour, allo",54,understands,0.537
+French (French),All,33,"bonjour, allo",45,produces,0.9333
+French (French),All,33,"bonjour, allo",45,understands,0.4889
+French (French),All,34,"bonjour, allo",53,produces,0.8868
+French (French),All,34,"bonjour, allo",53,understands,0.5849
+French (French),All,35,"bonjour, allo",24,produces,0.7917
+French (French),All,35,"bonjour, allo",24,understands,0.6667
+French (French),All,36,"bonjour, allo",14,produces,0.7857
+French (French),All,36,"bonjour, allo",14,understands,0.9286
 French (Quebecois),All,8,allo,103,produces,0
 French (Quebecois),All,8,allo,103,understands,0.3786
 French (Quebecois),All,9,allo,167,produces,0.012
@@ -635,32 +855,56 @@ French (Quebecois),All,29,allô,70,produces,0.9
 French (Quebecois),All,29,allô,70,understands,0
 French (Quebecois),All,30,allô,100,produces,0.88
 French (Quebecois),All,30,allô,100,understands,0
-German,All,18,hallo,85,produces,0.5647
-German,All,18,hallo,85,understands,0
-German,All,19,hallo,79,produces,0.6456
-German,All,19,hallo,79,understands,0
-German,All,20,hallo,96,produces,0.6354
-German,All,20,hallo,96,understands,0
-German,All,21,hallo,77,produces,0.7662
-German,All,21,hallo,77,understands,0
-German,All,22,hallo,95,produces,0.8
-German,All,22,hallo,95,understands,0
-German,All,23,hallo,95,produces,0.8947
-German,All,23,hallo,95,understands,0
-German,All,24,hallo,103,produces,0.8835
-German,All,24,hallo,103,understands,0
-German,All,25,hallo,95,produces,0.8316
-German,All,25,hallo,95,understands,0
-German,All,26,hallo,92,produces,0.913
-German,All,26,hallo,92,understands,0
-German,All,27,hallo,89,produces,0.9438
-German,All,27,hallo,89,understands,0
-German,All,28,hallo,93,produces,0.9462
-German,All,28,hallo,93,understands,0
-German,All,29,hallo,89,produces,0.9775
-German,All,29,hallo,89,understands,0
-German,All,30,hallo,93,produces,0.9785
-German,All,30,hallo,93,understands,0
+German (German),All,12,hallo,5,produces,0.2
+German (German),All,12,hallo,5,understands,0.8
+German (German),All,13,hallo,3,produces,0
+German (German),All,13,hallo,3,understands,0.3333
+German (German),All,14,hallo,3,produces,0.3333
+German (German),All,14,hallo,3,understands,1
+German (German),All,15,hallo,4,produces,0
+German (German),All,15,hallo,4,understands,0.75
+German (German),All,16,hallo,6,produces,0.1667
+German (German),All,16,hallo,6,understands,0.8333
+German (German),All,17,hallo,3,produces,0.3333
+German (German),All,17,hallo,3,understands,1
+German (German),All,18,hallo,97,produces,0.5464
+German (German),All,18,hallo,97,understands,0.0309
+German (German),All,19,hallo,92,produces,0.6522
+German (German),All,19,hallo,92,understands,0.0761
+German (German),All,20,hallo,105,produces,0.6286
+German (German),All,20,hallo,105,understands,0.0381
+German (German),All,21,hallo,86,produces,0.7326
+German (German),All,21,hallo,86,understands,0.0465
+German (German),All,22,hallo,108,produces,0.7963
+German (German),All,22,hallo,108,understands,0.0463
+German (German),All,23,hallo,109,produces,0.8716
+German (German),All,23,hallo,109,understands,0.0275
+German (German),All,24,hallo,122,produces,0.877
+German (German),All,24,hallo,122,understands,0.0738
+German (German),All,25,hallo,119,produces,0.8571
+German (German),All,25,hallo,119,understands,0.1092
+German (German),All,26,hallo,114,produces,0.886
+German (German),All,26,hallo,114,understands,0.114
+German (German),All,27,hallo,115,produces,0.9217
+German (German),All,27,hallo,115,understands,0.1304
+German (German),All,28,hallo,104,produces,0.9423
+German (German),All,28,hallo,104,understands,0.0673
+German (German),All,29,hallo,112,produces,0.9732
+German (German),All,29,hallo,112,understands,0.0804
+German (German),All,30,hallo,107,produces,0.972
+German (German),All,30,hallo,107,understands,0.0561
+German (German),All,31,hallo,6,produces,0.8333
+German (German),All,31,hallo,6,understands,1
+German (German),All,32,hallo,7,produces,0.8571
+German (German),All,32,hallo,7,understands,1
+German (German),All,33,hallo,6,produces,0.8333
+German (German),All,33,hallo,6,understands,1
+German (German),All,34,hallo,5,produces,1
+German (German),All,34,hallo,5,understands,1
+German (German),All,35,hallo,6,produces,1
+German (German),All,35,hallo,6,understands,1
+German (German),All,36,hallo,8,produces,0.875
+German (German),All,36,hallo,8,understands,1
 Greek (Cypriot),All,18,χαλόου,45,produces,0.1333
 Greek (Cypriot),All,18,χαλόου,45,understands,0
 Greek (Cypriot),All,21,χαλόου,36,produces,0.2778
@@ -671,34 +915,34 @@ Greek (Cypriot),All,27,χαλόου,29,produces,0.3448
 Greek (Cypriot),All,27,χαλόου,29,understands,0
 Greek (Cypriot),All,30,χαλόου,34,produces,0.2647
 Greek (Cypriot),All,30,χαλόου,34,understands,0
-Hungarian,All,16,"csókolom, halló, helló",21,produces,0.127
-Hungarian,All,16,"csókolom, halló, helló",21,understands,0
-Hungarian,All,17,"csókolom, halló, helló",18,produces,0.2593
-Hungarian,All,17,"csókolom, halló, helló",18,understands,0
+Hungarian,All,16,"csókolom, halló, helló",15,produces,0.0667
+Hungarian,All,16,"csókolom, halló, helló",15,understands,0
+Hungarian,All,17,"csókolom, halló, helló",24,produces,0.2639
+Hungarian,All,17,"csókolom, halló, helló",24,understands,0
 Hungarian,All,18,"csókolom, halló, helló",18,produces,0.2593
 Hungarian,All,18,"csókolom, halló, helló",18,understands,0
-Hungarian,All,19,"csókolom, halló, helló",26,produces,0.3974
-Hungarian,All,19,"csókolom, halló, helló",26,understands,0
-Hungarian,All,20,"csókolom, halló, helló",18,produces,0.2778
-Hungarian,All,20,"csókolom, halló, helló",18,understands,0
+Hungarian,All,19,"csókolom, halló, helló",17,produces,0.3529
+Hungarian,All,19,"csókolom, halló, helló",17,understands,0
+Hungarian,All,20,"csókolom, halló, helló",27,produces,0.3457
+Hungarian,All,20,"csókolom, halló, helló",27,understands,0
 Hungarian,All,21,"csókolom, halló, helló",36,produces,0.4907
 Hungarian,All,21,"csókolom, halló, helló",36,understands,0
-Hungarian,All,22,"csókolom, halló, helló",27,produces,0.3333
-Hungarian,All,22,"csókolom, halló, helló",27,understands,0
-Hungarian,All,23,"csókolom, halló, helló",18,produces,0.2963
-Hungarian,All,23,"csókolom, halló, helló",18,understands,0
+Hungarian,All,22,"csókolom, halló, helló",20,produces,0.35
+Hungarian,All,22,"csókolom, halló, helló",20,understands,0
+Hungarian,All,23,"csókolom, halló, helló",25,produces,0.2933
+Hungarian,All,23,"csókolom, halló, helló",25,understands,0
 Hungarian,All,24,"csókolom, halló, helló",38,produces,0.4123
 Hungarian,All,24,"csókolom, halló, helló",38,understands,0
-Hungarian,All,25,"csókolom, halló, helló",43,produces,0.6279
-Hungarian,All,25,"csókolom, halló, helló",43,understands,0
-Hungarian,All,26,"csókolom, halló, helló",23,produces,0.5362
-Hungarian,All,26,"csókolom, halló, helló",23,understands,0
+Hungarian,All,25,"csókolom, halló, helló",27,produces,0.6173
+Hungarian,All,25,"csókolom, halló, helló",27,understands,0
+Hungarian,All,26,"csókolom, halló, helló",39,produces,0.5812
+Hungarian,All,26,"csókolom, halló, helló",39,understands,0
 Hungarian,All,27,"csókolom, halló, helló",26,produces,0.5513
 Hungarian,All,27,"csókolom, halló, helló",26,understands,0
-Hungarian,All,28,"csókolom, halló, helló",30,produces,0.5889
-Hungarian,All,28,"csókolom, halló, helló",30,understands,0
-Hungarian,All,29,"csókolom, halló, helló",12,produces,0.5556
-Hungarian,All,29,"csókolom, halló, helló",12,understands,0
+Hungarian,All,28,"csókolom, halló, helló",25,produces,0.5733
+Hungarian,All,28,"csókolom, halló, helló",25,understands,0
+Hungarian,All,29,"csókolom, halló, helló",17,produces,0.5882
+Hungarian,All,29,"csókolom, halló, helló",17,understands,0
 Hungarian,All,30,"csókolom, halló, helló",18,produces,0.6667
 Hungarian,All,30,"csókolom, halló, helló",18,understands,0
 Irish,All,17,diadhuit,2,produces,0
@@ -743,64 +987,64 @@ Irish,All,36,diadhuit,5,produces,0.4
 Irish,All,36,diadhuit,5,understands,0
 Italian,All,7,pronto chi è? (al tel),5,produces,0
 Italian,All,7,pronto chi è? (al tel),5,understands,0.2
-Italian,All,8,pronto chi è? (al tel),34,produces,0
-Italian,All,8,pronto chi è? (al tel),34,understands,0.1471
-Italian,All,9,pronto chi è? (al tel),38,produces,0.0263
-Italian,All,9,pronto chi è? (al tel),38,understands,0.3421
-Italian,All,10,pronto chi è? (al tel),53,produces,0
-Italian,All,10,pronto chi è? (al tel),53,understands,0.3396
+Italian,All,8,pronto chi è? (al tel),37,produces,0
+Italian,All,8,pronto chi è? (al tel),37,understands,0.1351
+Italian,All,9,pronto chi è? (al tel),39,produces,0.0256
+Italian,All,9,pronto chi è? (al tel),39,understands,0.3333
+Italian,All,10,pronto chi è? (al tel),54,produces,0
+Italian,All,10,pronto chi è? (al tel),54,understands,0.3333
 Italian,All,11,pronto chi è? (al tel),42,produces,0
 Italian,All,11,pronto chi è? (al tel),42,understands,0.4762
-Italian,All,12,pronto chi è? (al tel),69,produces,0.087
-Italian,All,12,pronto chi è? (al tel),69,understands,0.7391
-Italian,All,13,pronto chi è? (al tel),48,produces,0.1042
-Italian,All,13,pronto chi è? (al tel),48,understands,0.6458
-Italian,All,14,pronto chi è? (al tel),40,produces,0.175
-Italian,All,14,pronto chi è? (al tel),40,understands,0.725
-Italian,All,15,pronto chi è? (al tel),68,produces,0.2206
-Italian,All,15,pronto chi è? (al tel),68,understands,0.6765
-Italian,All,16,pronto chi è? (al tel),56,produces,0.1429
-Italian,All,16,pronto chi è? (al tel),56,understands,0.6429
-Italian,All,17,pronto chi è? (al tel),48,produces,0.3333
-Italian,All,17,pronto chi è? (al tel),48,understands,0.7083
-Italian,All,18,"pronto chi è? (al tel), pronto/chi è?",75,produces,0.4667
-Italian,All,18,"pronto chi è? (al tel), pronto/chi è?",75,understands,0.48
-Italian,All,19,"pronto chi è? (al tel), pronto/chi è?",58,produces,0.4655
-Italian,All,19,"pronto chi è? (al tel), pronto/chi è?",58,understands,0.2931
-Italian,All,20,"pronto chi è? (al tel), pronto/chi è?",83,produces,0.4578
-Italian,All,20,"pronto chi è? (al tel), pronto/chi è?",83,understands,0.2048
-Italian,All,21,"pronto chi è? (al tel), pronto/chi è?",67,produces,0.6119
-Italian,All,21,"pronto chi è? (al tel), pronto/chi è?",67,understands,0.1791
-Italian,All,22,"pronto chi è? (al tel), pronto/chi è?",77,produces,0.5974
-Italian,All,22,"pronto chi è? (al tel), pronto/chi è?",77,understands,0.2338
-Italian,All,23,"pronto chi è? (al tel), pronto/chi è?",70,produces,0.7571
-Italian,All,23,"pronto chi è? (al tel), pronto/chi è?",70,understands,0.2143
-Italian,All,24,"pronto chi è? (al tel), pronto/chi è?",85,produces,0.7294
-Italian,All,24,"pronto chi è? (al tel), pronto/chi è?",85,understands,0.1294
-Italian,All,25,pronto/chi è?,39,produces,0.6923
-Italian,All,25,pronto/chi è?,39,understands,0
-Italian,All,26,pronto/chi è?,41,produces,0.8049
-Italian,All,26,pronto/chi è?,41,understands,0
-Italian,All,27,pronto/chi è?,43,produces,0.7209
-Italian,All,27,pronto/chi è?,43,understands,0
-Italian,All,28,pronto/chi è?,44,produces,0.7955
-Italian,All,28,pronto/chi è?,44,understands,0
-Italian,All,29,pronto/chi è?,37,produces,0.8649
-Italian,All,29,pronto/chi è?,37,understands,0
-Italian,All,30,pronto/chi è?,67,produces,0.8358
-Italian,All,30,pronto/chi è?,67,understands,0
-Italian,All,31,pronto/chi è?,19,produces,0.7368
-Italian,All,31,pronto/chi è?,19,understands,0
-Italian,All,32,pronto/chi è?,23,produces,0.7391
-Italian,All,32,pronto/chi è?,23,understands,0
-Italian,All,33,pronto/chi è?,16,produces,0.875
-Italian,All,33,pronto/chi è?,16,understands,0
-Italian,All,34,pronto/chi è?,19,produces,0.8947
-Italian,All,34,pronto/chi è?,19,understands,0
-Italian,All,35,pronto/chi è?,15,produces,0.9333
-Italian,All,35,pronto/chi è?,15,understands,0
-Italian,All,36,pronto/chi è?,21,produces,0.7143
-Italian,All,36,pronto/chi è?,21,understands,0
+Italian,All,12,"Buongiorno, pronto chi è? (al tel)",82,produces,0.0976
+Italian,All,12,"Buongiorno, pronto chi è? (al tel)",82,understands,0.7439
+Italian,All,13,"Buongiorno, pronto chi è? (al tel)",52,produces,0.1154
+Italian,All,13,"Buongiorno, pronto chi è? (al tel)",52,understands,0.6731
+Italian,All,14,"Buongiorno, pronto chi è? (al tel)",48,produces,0.1458
+Italian,All,14,"Buongiorno, pronto chi è? (al tel)",48,understands,0.6875
+Italian,All,15,"Buongiorno, pronto chi è? (al tel)",78,produces,0.2179
+Italian,All,15,"Buongiorno, pronto chi è? (al tel)",78,understands,0.6795
+Italian,All,16,"Buongiorno, pronto chi è? (al tel)",62,produces,0.1452
+Italian,All,16,"Buongiorno, pronto chi è? (al tel)",62,understands,0.6613
+Italian,All,17,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",52,produces,0.3077
+Italian,All,17,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",52,understands,0.6923
+Italian,All,18,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",96,produces,0.4792
+Italian,All,18,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",96,understands,0.5521
+Italian,All,19,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",64,produces,0.5
+Italian,All,19,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",64,understands,0.3438
+Italian,All,20,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",104,produces,0.4519
+Italian,All,20,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",104,understands,0.3077
+Italian,All,21,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",77,produces,0.6364
+Italian,All,21,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",77,understands,0.2727
+Italian,All,22,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",88,produces,0.625
+Italian,All,22,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",88,understands,0.2955
+Italian,All,23,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",83,produces,0.747
+Italian,All,23,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",83,understands,0.3133
+Italian,All,24,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",94,produces,0.7553
+Italian,All,24,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",94,understands,0.2128
+Italian,All,25,"Buongiorno, pronto/chi è?",52,produces,0.7115
+Italian,All,25,"Buongiorno, pronto/chi è?",52,understands,0.2308
+Italian,All,26,"Buongiorno, pronto/chi è?",53,produces,0.7547
+Italian,All,26,"Buongiorno, pronto/chi è?",53,understands,0.1698
+Italian,All,27,"Buongiorno, pronto/chi è?",53,produces,0.6981
+Italian,All,27,"Buongiorno, pronto/chi è?",53,understands,0.1509
+Italian,All,28,"Buongiorno, pronto/chi è?",57,produces,0.8246
+Italian,All,28,"Buongiorno, pronto/chi è?",57,understands,0.2105
+Italian,All,29,"Buongiorno, pronto/chi è?",51,produces,0.8431
+Italian,All,29,"Buongiorno, pronto/chi è?",51,understands,0.2157
+Italian,All,30,"Buongiorno, pronto/chi è?",79,produces,0.8228
+Italian,All,30,"Buongiorno, pronto/chi è?",79,understands,0.0886
+Italian,All,31,"Buongiorno, pronto/chi è?",28,produces,0.7857
+Italian,All,31,"Buongiorno, pronto/chi è?",28,understands,0.3214
+Italian,All,32,"Buongiorno, pronto/chi è?",28,produces,0.7857
+Italian,All,32,"Buongiorno, pronto/chi è?",28,understands,0.1786
+Italian,All,33,"Buongiorno, pronto/chi è?",20,produces,0.9
+Italian,All,33,"Buongiorno, pronto/chi è?",20,understands,0.2
+Italian,All,34,"Buongiorno, pronto/chi è?",22,produces,0.9091
+Italian,All,34,"Buongiorno, pronto/chi è?",22,understands,0.1364
+Italian,All,35,"pronto/chi è?, Buongiorno",16,produces,0.9375
+Italian,All,35,"pronto/chi è?, Buongiorno",16,understands,0.0625
+Italian,All,36,"Buongiorno, pronto/chi è?",25,produces,0.72
+Italian,All,36,"Buongiorno, pronto/chi è?",25,understands,0.16
 Japanese,All,8,"こんにちは, もしもし",6,produces,0
 Japanese,All,8,"こんにちは, もしもし",6,understands,0
 Japanese,All,9,"こんにちは, もしもし",10,produces,0
@@ -880,43 +1124,43 @@ Korean,All,16,안녕,86,understands,0.6395
 Korean,All,17,안녕,63,produces,0.1905
 Korean,All,17,안녕,63,understands,0.619
 Korean,All,18,안녕,88,produces,0.5
-Korean,All,18,안녕,88,understands,0
+Korean,All,18,안녕,88,understands,0.0341
 Korean,All,19,안녕,77,produces,0.5974
-Korean,All,19,안녕,77,understands,0
+Korean,All,19,안녕,77,understands,0.1429
 Korean,All,20,안녕,88,produces,0.7159
-Korean,All,20,안녕,88,understands,0
+Korean,All,20,안녕,88,understands,0.0909
 Korean,All,21,안녕,79,produces,0.7342
-Korean,All,21,안녕,79,understands,0
+Korean,All,21,안녕,79,understands,0.1139
 Korean,All,22,안녕,87,produces,0.7586
-Korean,All,22,안녕,87,understands,0
+Korean,All,22,안녕,87,understands,0.1264
 Korean,All,23,안녕,87,produces,0.7931
-Korean,All,23,안녕,87,understands,0
+Korean,All,23,안녕,87,understands,0.1724
 Korean,All,24,안녕,107,produces,0.8598
-Korean,All,24,안녕,107,understands,0
+Korean,All,24,안녕,107,understands,0.1495
 Korean,All,25,안녕,95,produces,0.9368
-Korean,All,25,안녕,95,understands,0
+Korean,All,25,안녕,95,understands,0.1263
 Korean,All,26,안녕,91,produces,0.8571
-Korean,All,26,안녕,91,understands,0
+Korean,All,26,안녕,91,understands,0.1319
 Korean,All,27,안녕,104,produces,0.9038
-Korean,All,27,안녕,104,understands,0
+Korean,All,27,안녕,104,understands,0.1731
 Korean,All,28,안녕,89,produces,0.8652
-Korean,All,28,안녕,89,understands,0
+Korean,All,28,안녕,89,understands,0.1573
 Korean,All,29,안녕,101,produces,0.9307
-Korean,All,29,안녕,101,understands,0
+Korean,All,29,안녕,101,understands,0.2178
 Korean,All,30,안녕,81,produces,0.8889
-Korean,All,30,안녕,81,understands,0
+Korean,All,30,안녕,81,understands,0.1235
 Korean,All,31,안녕,79,produces,0.9873
-Korean,All,31,안녕,79,understands,0
+Korean,All,31,안녕,79,understands,0.1519
 Korean,All,32,안녕,70,produces,0.9714
-Korean,All,32,안녕,70,understands,0
+Korean,All,32,안녕,70,understands,0.1571
 Korean,All,33,안녕,79,produces,0.962
-Korean,All,33,안녕,79,understands,0
+Korean,All,33,안녕,79,understands,0.1392
 Korean,All,34,안녕,79,produces,0.962
-Korean,All,34,안녕,79,understands,0
+Korean,All,34,안녕,79,understands,0.1392
 Korean,All,35,안녕,74,produces,0.9459
-Korean,All,35,안녕,74,understands,0
+Korean,All,35,안녕,74,understands,0.1892
 Korean,All,36,안녕,75,produces,0.9867
-Korean,All,36,안녕,75,understands,0
+Korean,All,36,안녕,75,understands,0.1067
 Latvian,All,8,Sveiki!/Čau!,16,produces,0
 Latvian,All,8,Sveiki!/Čau!,16,understands,0.6875
 Latvian,All,9,Sveiki!/Čau!,18,produces,0
@@ -975,6 +1219,56 @@ Latvian,All,35,"labdien, sveiki, čau",21,produces,0.881
 Latvian,All,35,"labdien, sveiki, čau",21,understands,0
 Latvian,All,36,"labdien, sveiki, čau",22,produces,0.8864
 Latvian,All,36,"labdien, sveiki, čau",22,understands,0
+Malay (Malaysian),All,12,halo,3,produces,0.3333
+Malay (Malaysian),All,12,halo,3,understands,0.3333
+Malay (Malaysian),All,13,halo,17,produces,0.1176
+Malay (Malaysian),All,13,halo,17,understands,0.3529
+Malay (Malaysian),All,14,halo,13,produces,0
+Malay (Malaysian),All,14,halo,13,understands,0.1538
+Malay (Malaysian),All,15,halo,23,produces,0.1739
+Malay (Malaysian),All,15,halo,23,understands,0.3913
+Malay (Malaysian),All,16,halo,29,produces,0.1379
+Malay (Malaysian),All,16,halo,29,understands,0.3103
+Malay (Malaysian),All,17,halo,20,produces,0.3
+Malay (Malaysian),All,17,halo,20,understands,0.55
+Malay (Malaysian),All,18,halo,40,produces,0.25
+Malay (Malaysian),All,18,halo,40,understands,0.375
+Malay (Malaysian),All,19,halo,13,produces,0.5385
+Malay (Malaysian),All,19,halo,13,understands,0.6923
+Malay (Malaysian),All,20,halo,31,produces,0.3548
+Malay (Malaysian),All,20,halo,31,understands,0.5161
+Malay (Malaysian),All,21,halo,31,produces,0.3548
+Malay (Malaysian),All,21,halo,31,understands,0.5484
+Malay (Malaysian),All,22,halo,28,produces,0.5714
+Malay (Malaysian),All,22,halo,28,understands,0.6786
+Malay (Malaysian),All,23,halo,34,produces,0.4706
+Malay (Malaysian),All,23,halo,34,understands,0.6176
+Malay (Malaysian),All,24,halo,46,produces,0.5217
+Malay (Malaysian),All,24,halo,46,understands,0.6304
+Malay (Malaysian),All,25,halo,21,produces,0.3333
+Malay (Malaysian),All,25,halo,21,understands,0.4286
+Malay (Malaysian),All,26,halo,45,produces,0.5333
+Malay (Malaysian),All,26,halo,45,understands,0.6
+Malay (Malaysian),All,27,halo,19,produces,0.6842
+Malay (Malaysian),All,27,halo,19,understands,0.7368
+Malay (Malaysian),All,28,halo,42,produces,0.4048
+Malay (Malaysian),All,28,halo,42,understands,0.5238
+Malay (Malaysian),All,29,halo,26,produces,0.4615
+Malay (Malaysian),All,29,halo,26,understands,0.6154
+Malay (Malaysian),All,30,halo,30,produces,0.5
+Malay (Malaysian),All,30,halo,30,understands,0.6
+Malay (Malaysian),All,31,halo,9,produces,0.3333
+Malay (Malaysian),All,31,halo,9,understands,0.4444
+Malay (Malaysian),All,32,halo,19,produces,0.6316
+Malay (Malaysian),All,32,halo,19,understands,0.7368
+Malay (Malaysian),All,33,halo,20,produces,0.2
+Malay (Malaysian),All,33,halo,20,understands,0.35
+Malay (Malaysian),All,34,halo,15,produces,0.2667
+Malay (Malaysian),All,34,halo,15,understands,0.4
+Malay (Malaysian),All,35,halo,21,produces,0.3333
+Malay (Malaysian),All,35,halo,21,understands,0.381
+Malay (Malaysian),All,36,halo,13,produces,0.6923
+Malay (Malaysian),All,36,halo,13,understands,0.6923
 Mandarin (Beijing),All,12,你好,45,produces,0.0444
 Mandarin (Beijing),All,12,你好,45,understands,0.2667
 Mandarin (Beijing),All,13,你好,50,produces,0
@@ -1013,6 +1307,56 @@ Mandarin (Beijing),All,29,"喂？, 你好, （某某某）好, 喂（打电话�
 Mandarin (Beijing),All,29,"喂？, 你好, （某某某）好, 喂（打电话）",119,understands,0
 Mandarin (Beijing),All,30,"喂？, 你好, （某某某）好, 喂（打电话）",110,produces,0.9517
 Mandarin (Beijing),All,30,"喂？, 你好, （某某某）好, 喂（打电话）",110,understands,0
+Mandarin (Malaysian),All,12,哈罗,2,produces,0
+Mandarin (Malaysian),All,12,哈罗,2,understands,0.5
+Mandarin (Malaysian),All,13,哈罗,13,produces,0
+Mandarin (Malaysian),All,13,哈罗,13,understands,0.1538
+Mandarin (Malaysian),All,14,哈罗,10,produces,0
+Mandarin (Malaysian),All,14,哈罗,10,understands,0.3
+Mandarin (Malaysian),All,15,哈罗,17,produces,0
+Mandarin (Malaysian),All,15,哈罗,17,understands,0.0588
+Mandarin (Malaysian),All,16,哈罗,24,produces,0.0833
+Mandarin (Malaysian),All,16,哈罗,24,understands,0.125
+Mandarin (Malaysian),All,17,哈罗,19,produces,0.0526
+Mandarin (Malaysian),All,17,哈罗,19,understands,0.1579
+Mandarin (Malaysian),All,18,哈罗,37,produces,0.027
+Mandarin (Malaysian),All,18,哈罗,37,understands,0.1622
+Mandarin (Malaysian),All,19,哈罗,12,produces,0.0833
+Mandarin (Malaysian),All,19,哈罗,12,understands,0.25
+Mandarin (Malaysian),All,20,哈罗,25,produces,0.08
+Mandarin (Malaysian),All,20,哈罗,25,understands,0.12
+Mandarin (Malaysian),All,21,哈罗,28,produces,0.0714
+Mandarin (Malaysian),All,21,哈罗,28,understands,0.0714
+Mandarin (Malaysian),All,22,哈罗,26,produces,0.0769
+Mandarin (Malaysian),All,22,哈罗,26,understands,0.0769
+Mandarin (Malaysian),All,23,哈罗,30,produces,0.0333
+Mandarin (Malaysian),All,23,哈罗,30,understands,0.0333
+Mandarin (Malaysian),All,24,哈罗,39,produces,0.0769
+Mandarin (Malaysian),All,24,哈罗,39,understands,0.1026
+Mandarin (Malaysian),All,25,哈罗,18,produces,0.2222
+Mandarin (Malaysian),All,25,哈罗,18,understands,0.2222
+Mandarin (Malaysian),All,26,哈罗,37,produces,0.1081
+Mandarin (Malaysian),All,26,哈罗,37,understands,0.1351
+Mandarin (Malaysian),All,27,哈罗,18,produces,0.0556
+Mandarin (Malaysian),All,27,哈罗,18,understands,0.0556
+Mandarin (Malaysian),All,28,哈罗,37,produces,0.2162
+Mandarin (Malaysian),All,28,哈罗,37,understands,0.2432
+Mandarin (Malaysian),All,29,哈罗,23,produces,0.1739
+Mandarin (Malaysian),All,29,哈罗,23,understands,0.2174
+Mandarin (Malaysian),All,30,哈罗,26,produces,0.0769
+Mandarin (Malaysian),All,30,哈罗,26,understands,0.1538
+Mandarin (Malaysian),All,31,哈罗,7,produces,0.2857
+Mandarin (Malaysian),All,31,哈罗,7,understands,0.2857
+Mandarin (Malaysian),All,32,哈罗,16,produces,0.0625
+Mandarin (Malaysian),All,32,哈罗,16,understands,0.0625
+Mandarin (Malaysian),All,33,哈罗,13,produces,0.1538
+Mandarin (Malaysian),All,33,哈罗,13,understands,0.1538
+Mandarin (Malaysian),All,34,哈罗,12,produces,0.1667
+Mandarin (Malaysian),All,34,哈罗,12,understands,0.1667
+Mandarin (Malaysian),All,35,哈罗,13,produces,0.3077
+Mandarin (Malaysian),All,35,哈罗,13,understands,0.3077
+Mandarin (Malaysian),All,36,哈罗,10,produces,0
+Mandarin (Malaysian),All,36,哈罗,10,understands,0.1
 Mandarin (Taiwanese),All,8,哈囉(嗨),86,produces,0
 Mandarin (Taiwanese),All,8,哈囉(嗨),86,understands,0.5
 Mandarin (Taiwanese),All,9,哈囉(嗨),79,produces,0.0127
@@ -1157,6 +1501,112 @@ Persian,All,29,سلام,1,produces,1
 Persian,All,29,سلام,1,understands,0
 Persian,All,30,سلام,2,produces,1
 Persian,All,30,سلام,2,understands,0
+Polish,All,8,"cześć, halo",110,produces,0.0136
+Polish,All,8,"cześć, halo",110,understands,0.2864
+Polish,All,9,"cześć, halo",140,produces,0.0321
+Polish,All,9,"cześć, halo",140,understands,0.3179
+Polish,All,10,"cześć, halo",145,produces,0.0241
+Polish,All,10,"cześć, halo",145,understands,0.4621
+Polish,All,11,"cześć, halo",165,produces,0.0515
+Polish,All,11,"cześć, halo",165,understands,0.4939
+Polish,All,12,"halo, cześć",159,produces,0.1286
+Polish,All,12,"halo, cześć",159,understands,0.5273
+Polish,All,13,"halo, cześć",150,produces,0.1193
+Polish,All,13,"halo, cześć",150,understands,0.593
+Polish,All,14,"halo, cześć",161,produces,0.21
+Polish,All,14,"halo, cześć",161,understands,0.6489
+Polish,All,15,"halo, cześć",155,produces,0.2252
+Polish,All,15,"halo, cześć",155,understands,0.7517
+Polish,All,16,"halo, cześć",166,produces,0.2555
+Polish,All,16,"halo, cześć",166,understands,0.785
+Polish,All,17,"halo, cześć",157,produces,0.3148
+Polish,All,17,"halo, cześć",157,understands,0.8131
+Polish,All,18,"halo, cześć",238,produces,0.4807
+Polish,All,18,"halo, cześć",238,understands,0.4785
+Polish,All,19,"halo, cześć",138,produces,0.5799
+Polish,All,19,"halo, cześć",138,understands,0.0223
+Polish,All,20,"halo, cześć",151,produces,0.5548
+Polish,All,20,"halo, cześć",151,understands,0.0274
+Polish,All,21,"halo, cześć",136,produces,0.5654
+Polish,All,21,"halo, cześć",136,understands,0.0346
+Polish,All,22,"halo, cześć",147,produces,0.6312
+Polish,All,22,"halo, cześć",147,understands,0.0284
+Polish,All,23,"halo, cześć",144,produces,0.6667
+Polish,All,23,"halo, cześć",144,understands,0.0251
+Polish,All,24,"halo, cześć",147,produces,0.7021
+Polish,All,24,"halo, cześć",147,understands,0.0319
+Polish,All,25,"halo, cześć",167,produces,0.76
+Polish,All,25,"halo, cześć",167,understands,0.0246
+Polish,All,26,"halo, cześć",156,produces,0.7744
+Polish,All,26,"halo, cześć",156,understands,0.0404
+Polish,All,27,"halo, cześć",158,produces,0.7908
+Polish,All,27,"halo, cześć",158,understands,0.0327
+Polish,All,28,"halo, cześć",143,produces,0.7891
+Polish,All,28,"halo, cześć",143,understands,0.0327
+Polish,All,29,"halo, cześć",137,produces,0.8182
+Polish,All,29,"halo, cześć",137,understands,0.0379
+Polish,All,30,"halo, cześć",149,produces,0.7869
+Polish,All,30,"halo, cześć",149,understands,0.0137
+Polish,All,31,"halo, cześć",146,produces,0.841
+Polish,All,31,"halo, cześć",146,understands,0.0283
+Polish,All,32,"halo, cześć",149,produces,0.8448
+Polish,All,32,"halo, cześć",149,understands,0.0207
+Polish,All,33,"halo, cześć",146,produces,0.8746
+Polish,All,33,"halo, cześć",146,understands,0.0174
+Polish,All,34,"halo, cześć",132,produces,0.888
+Polish,All,34,"halo, cześć",132,understands,0.0193
+Polish,All,35,"halo, cześć",164,produces,0.8962
+Polish,All,35,"halo, cześć",164,understands,0.0252
+Polish,All,36,"halo, cześć",141,produces,0.8618
+Polish,All,36,"halo, cześć",141,understands,0.0255
+Portuguese (European),All,12,ol‡!,5,produces,0
+Portuguese (European),All,12,ol‡!,5,understands,0.2
+Portuguese (European),All,13,ol‡!,3,produces,0
+Portuguese (European),All,13,ol‡!,3,understands,0
+Portuguese (European),All,14,ol‡!,3,produces,0
+Portuguese (European),All,14,ol‡!,3,understands,0.3333
+Portuguese (European),All,15,ol‡!,3,produces,0
+Portuguese (European),All,15,ol‡!,3,understands,0.3333
+Portuguese (European),All,16,ol‡!,4,produces,0
+Portuguese (European),All,16,ol‡!,4,understands,0
+Portuguese (European),All,17,ol‡!,7,produces,0
+Portuguese (European),All,17,ol‡!,7,understands,0
+Portuguese (European),All,18,ol‡!,2,produces,0
+Portuguese (European),All,18,ol‡!,2,understands,0.5
+Portuguese (European),All,19,ol‡!,7,produces,0.1429
+Portuguese (European),All,19,ol‡!,7,understands,0.7143
+Portuguese (European),All,20,ol‡!,3,produces,0
+Portuguese (European),All,20,ol‡!,3,understands,0.6667
+Portuguese (European),All,21,ol‡!,4,produces,0.25
+Portuguese (European),All,21,ol‡!,4,understands,0.75
+Portuguese (European),All,22,ol‡!,4,produces,0
+Portuguese (European),All,22,ol‡!,4,understands,0.5
+Portuguese (European),All,23,ol‡!,6,produces,0.1667
+Portuguese (European),All,23,ol‡!,6,understands,0.8333
+Portuguese (European),All,24,ol‡!,8,produces,0.125
+Portuguese (European),All,24,ol‡!,8,understands,0.625
+Portuguese (European),All,25,ol‡!,5,produces,0.4
+Portuguese (European),All,25,ol‡!,5,understands,1
+Portuguese (European),All,26,ol‡!,8,produces,0.375
+Portuguese (European),All,26,ol‡!,8,understands,0.875
+Portuguese (European),All,27,ol‡!,8,produces,0.625
+Portuguese (European),All,27,ol‡!,8,understands,0.75
+Portuguese (European),All,28,ol‡!,10,produces,0.4
+Portuguese (European),All,28,ol‡!,10,understands,1
+Portuguese (European),All,29,ol‡!,4,produces,0.75
+Portuguese (European),All,29,ol‡!,4,understands,1
+Portuguese (European),All,30,ol‡!,5,produces,0.4
+Portuguese (European),All,30,ol‡!,5,understands,1
+Portuguese (European),All,31,ol‡!,6,produces,0.8333
+Portuguese (European),All,31,ol‡!,6,understands,1
+Portuguese (European),All,32,ol‡!,4,produces,0.5
+Portuguese (European),All,32,ol‡!,4,understands,0.75
+Portuguese (European),All,33,ol‡!,2,produces,1
+Portuguese (European),All,33,ol‡!,2,understands,1
+Portuguese (European),All,35,ol‡!,2,produces,0.5
+Portuguese (European),All,35,ol‡!,2,understands,1
+Portuguese (European),All,36,ol‡!,1,produces,1
+Portuguese (European),All,36,ol‡!,1,understands,1
 Russian,All,8,алё,59,produces,0.0169
 Russian,All,8,алё,59,understands,0.3051
 Russian,All,9,алё,42,produces,0.0238
@@ -1249,36 +1699,56 @@ Spanish (Chilean),All,14,hola,6,produces,0.5
 Spanish (Chilean),All,14,hola,6,understands,0.8333
 Spanish (Chilean),All,15,hola,5,produces,0
 Spanish (Chilean),All,15,hola,5,understands,0.6
-Spanish (European),All,16,hola/adiós,39,produces,0.5897
-Spanish (European),All,16,hola/adiós,39,understands,0
-Spanish (European),All,17,hola/adiós,39,produces,0.5897
-Spanish (European),All,17,hola/adiós,39,understands,0
-Spanish (European),All,18,hola/adiós,50,produces,0.68
-Spanish (European),All,18,hola/adiós,50,understands,0
-Spanish (European),All,19,hola/adiós,27,produces,0.8148
-Spanish (European),All,19,hola/adiós,27,understands,0
-Spanish (European),All,20,hola/adiós,36,produces,0.8333
-Spanish (European),All,20,hola/adiós,36,understands,0
-Spanish (European),All,21,hola/adiós,41,produces,0.8537
-Spanish (European),All,21,hola/adiós,41,understands,0
-Spanish (European),All,22,hola/adiós,38,produces,0.9474
-Spanish (European),All,22,hola/adiós,38,understands,0
-Spanish (European),All,23,hola/adiós,30,produces,0.9667
-Spanish (European),All,23,hola/adiós,30,understands,0
-Spanish (European),All,24,hola/adiós,55,produces,0.9636
-Spanish (European),All,24,hola/adiós,55,understands,0
-Spanish (European),All,25,hola/adiós,35,produces,0.9143
-Spanish (European),All,25,hola/adiós,35,understands,0
-Spanish (European),All,26,hola/adiós,49,produces,0.9388
-Spanish (European),All,26,hola/adiós,49,understands,0
-Spanish (European),All,27,hola/adiós,34,produces,0.9706
-Spanish (European),All,27,hola/adiós,34,understands,0
-Spanish (European),All,28,hola/adiós,38,produces,0.9737
-Spanish (European),All,28,hola/adiós,38,understands,0
-Spanish (European),All,29,hola/adiós,41,produces,0.9756
-Spanish (European),All,29,hola/adiós,41,understands,0
-Spanish (European),All,30,hola/adiós,41,produces,0.9756
-Spanish (European),All,30,hola/adiós,41,understands,0
+Spanish (European),All,12,hola,16,produces,0.125
+Spanish (European),All,12,hola,16,understands,0.875
+Spanish (European),All,13,hola,19,produces,0.1053
+Spanish (European),All,13,hola,19,understands,0.8421
+Spanish (European),All,14,hola,13,produces,0
+Spanish (European),All,14,hola,13,understands,0.7692
+Spanish (European),All,15,hola,24,produces,0.4167
+Spanish (European),All,15,hola,24,understands,0.875
+Spanish (European),All,16,"hola, hola/adiós",63,produces,0.5397
+Spanish (European),All,16,"hola, hola/adiós",63,understands,0.3016
+Spanish (European),All,17,"hola, hola/adiós",61,produces,0.5738
+Spanish (European),All,17,"hola, hola/adiós",61,understands,0.3115
+Spanish (European),All,18,"hola, hola/adiós",84,produces,0.6548
+Spanish (European),All,18,"hola, hola/adiós",84,understands,0.3929
+Spanish (European),All,19,"hola, hola/adiós",51,produces,0.7059
+Spanish (European),All,19,"hola, hola/adiós",51,understands,0.451
+Spanish (European),All,20,"hola, hola/adiós",71,produces,0.7606
+Spanish (European),All,20,"hola, hola/adiós",71,understands,0.4648
+Spanish (European),All,21,"hola, hola/adiós",65,produces,0.8462
+Spanish (European),All,21,"hola, hola/adiós",65,understands,0.3692
+Spanish (European),All,22,"hola, hola/adiós",75,produces,0.7867
+Spanish (European),All,22,"hola, hola/adiós",75,understands,0.4533
+Spanish (European),All,23,"hola, hola/adiós",59,produces,0.8644
+Spanish (European),All,23,"hola, hola/adiós",59,understands,0.4576
+Spanish (European),All,24,"hola, hola/adiós",84,produces,0.8571
+Spanish (European),All,24,"hola, hola/adiós",84,understands,0.3095
+Spanish (European),All,25,"hola, hola/adiós",67,produces,0.7761
+Spanish (European),All,25,"hola, hola/adiós",67,understands,0.4478
+Spanish (European),All,26,"hola, hola/adiós",79,produces,0.8861
+Spanish (European),All,26,"hola, hola/adiós",79,understands,0.3671
+Spanish (European),All,27,"hola, hola/adiós",58,produces,0.931
+Spanish (European),All,27,"hola, hola/adiós",58,understands,0.4138
+Spanish (European),All,28,"hola, hola/adiós",76,produces,0.8947
+Spanish (European),All,28,"hola, hola/adiós",76,understands,0.4737
+Spanish (European),All,29,"hola, hola/adiós",69,produces,0.8841
+Spanish (European),All,29,"hola, hola/adiós",69,understands,0.3913
+Spanish (European),All,30,"hola, hola/adiós",75,produces,0.9467
+Spanish (European),All,30,"hola, hola/adiós",75,understands,0.44
+Spanish (European),All,31,hola,32,produces,0.8438
+Spanish (European),All,31,hola,32,understands,0.9688
+Spanish (European),All,32,hola,13,produces,0.8462
+Spanish (European),All,32,hola,13,understands,0.9231
+Spanish (European),All,33,hola,23,produces,0.8261
+Spanish (European),All,33,hola,23,understands,0.9565
+Spanish (European),All,34,hola,11,produces,0.9091
+Spanish (European),All,34,hola,11,understands,1
+Spanish (European),All,35,hola,15,produces,0.9333
+Spanish (European),All,35,hola,15,understands,1
+Spanish (European),All,36,hola,11,produces,0.9091
+Spanish (European),All,36,hola,11,understands,1
 Spanish (Peruvian),All,8,hola,9,produces,0
 Spanish (Peruvian),All,8,hola,9,understands,0.8889
 Spanish (Peruvian),All,9,hola,12,produces,0.0833
@@ -1475,42 +1945,122 @@ American Sign Language,Male,35,HELLO,2,produces,0.5
 American Sign Language,Male,35,HELLO,2,understands,1
 American Sign Language,Female,36,HELLO,3,produces,0
 American Sign Language,Female,36,HELLO,3,understands,0.6667
-Arabic (Saudi),Female,8,"الوه, الوه ",13,produces,0
-Arabic (Saudi),Female,8,"الوه, الوه ",13,understands,0.1538
-Arabic (Saudi),Male,8,"الوه, الوه ",11,produces,0
-Arabic (Saudi),Male,8,"الوه, الوه ",11,understands,0
-Arabic (Saudi),Female,9,"الوه, الوه ",14,produces,0
-Arabic (Saudi),Female,9,"الوه, الوه ",14,understands,0.0714
-Arabic (Saudi),Male,9,"الوه, الوه ",13,produces,0
-Arabic (Saudi),Male,9,"الوه, الوه ",13,understands,0
-Arabic (Saudi),Female,10,"الوه, الوه ",15,produces,0.0667
-Arabic (Saudi),Female,10,"الوه, الوه ",15,understands,0.1333
-Arabic (Saudi),Male,10,"الوه, الوه ",20,produces,0.05
-Arabic (Saudi),Male,10,"الوه, الوه ",20,understands,0.15
-Arabic (Saudi),Female,11,"الوه, الوه ",14,produces,0.0714
-Arabic (Saudi),Female,11,"الوه, الوه ",14,understands,0.2143
-Arabic (Saudi),Male,11,"الوه, الوه ",16,produces,0
-Arabic (Saudi),Male,11,"الوه, الوه ",16,understands,0.125
-Arabic (Saudi),Female,12,"الوه, الوه ",14,produces,0.2143
-Arabic (Saudi),Female,12,"الوه, الوه ",14,understands,0.3571
-Arabic (Saudi),Male,12,"الوه, الوه ",16,produces,0.125
-Arabic (Saudi),Male,12,"الوه, الوه ",16,understands,0.125
-Arabic (Saudi),Female,13,"الوه, الوه ",17,produces,0.0588
-Arabic (Saudi),Female,13,"الوه, الوه ",17,understands,0.0588
-Arabic (Saudi),Male,13,"الوه, الوه ",22,produces,0.0455
-Arabic (Saudi),Male,13,"الوه, الوه ",22,understands,0
-Arabic (Saudi),Female,14,الوه ,10,produces,0
-Arabic (Saudi),Female,14,الوه ,10,understands,0
-Arabic (Saudi),Male,14,"الوه, الوه ",15,produces,0
-Arabic (Saudi),Male,14,"الوه, الوه ",15,understands,0.0667
-Arabic (Saudi),Female,15,"الوه, الوه ",12,produces,0.0833
-Arabic (Saudi),Female,15,"الوه, الوه ",12,understands,0.1667
-Arabic (Saudi),Male,15,"الوه, الوه ",15,produces,0.2667
-Arabic (Saudi),Male,15,"الوه, الوه ",15,understands,0.2
-Arabic (Saudi),Female,16,"الوه, الوه ",10,produces,0.3
-Arabic (Saudi),Female,16,"الوه, الوه ",10,understands,0.1
-Arabic (Saudi),Male,16,"الوه, الوه ",11,produces,0.0909
-Arabic (Saudi),Male,16,"الوه, الوه ",11,understands,0.0909
+Arabic (Saudi),Female,8,الوه,13,produces,0
+Arabic (Saudi),Female,8,الوه,13,understands,0.1538
+Arabic (Saudi),Male,8,الوه,11,produces,0
+Arabic (Saudi),Male,8,الوه,11,understands,0
+Arabic (Saudi),Female,9,الوه,14,produces,0
+Arabic (Saudi),Female,9,الوه,14,understands,0.1429
+Arabic (Saudi),Male,9,الوه,13,produces,0
+Arabic (Saudi),Male,9,الوه,13,understands,0
+Arabic (Saudi),Female,10,الوه,15,produces,0.0667
+Arabic (Saudi),Female,10,الوه,15,understands,0.1333
+Arabic (Saudi),Male,10,الوه,20,produces,0.05
+Arabic (Saudi),Male,10,الوه,20,understands,0.15
+Arabic (Saudi),Female,11,الوه,14,produces,0.0714
+Arabic (Saudi),Female,11,الوه,14,understands,0.2143
+Arabic (Saudi),Male,11,الوه,16,produces,0
+Arabic (Saudi),Male,11,الوه,16,understands,0.1875
+Arabic (Saudi),Female,12,الوه,14,produces,0.2143
+Arabic (Saudi),Female,12,الوه,14,understands,0.5
+Arabic (Saudi),Male,12,الوه,16,produces,0.125
+Arabic (Saudi),Male,12,الوه,16,understands,0.25
+Arabic (Saudi),Female,13,الوه,17,produces,0.0588
+Arabic (Saudi),Female,13,الوه,17,understands,0.1176
+Arabic (Saudi),Male,13,الوه,22,produces,0.0455
+Arabic (Saudi),Male,13,الوه,22,understands,0.0455
+Arabic (Saudi),Female,14,الوه,10,produces,0
+Arabic (Saudi),Female,14,الوه,10,understands,0.5
+Arabic (Saudi),Male,14,الوه,15,produces,0
+Arabic (Saudi),Male,14,الوه,15,understands,0.2
+Arabic (Saudi),Female,15,الوه,12,produces,0.0833
+Arabic (Saudi),Female,15,الوه,12,understands,0.5833
+Arabic (Saudi),Male,15,الوه,15,produces,0.2667
+Arabic (Saudi),Male,15,الوه,15,understands,0.4667
+Arabic (Saudi),Female,16,الوه,10,produces,0.3
+Arabic (Saudi),Female,16,الوه,10,understands,0.4
+Arabic (Saudi),Male,16,الوه,11,produces,0.0909
+Arabic (Saudi),Male,16,الوه,11,understands,0.1818
+Arabic (Saudi),Female,17,الوه,14,produces,0.3571
+Arabic (Saudi),Female,17,الوه,14,understands,0.3571
+Arabic (Saudi),Male,17,الوه,22,produces,0.2727
+Arabic (Saudi),Male,17,الوه,22,understands,0.2727
+Arabic (Saudi),Female,18,الوه,18,produces,0.2222
+Arabic (Saudi),Female,18,الوه,18,understands,0.0556
+Arabic (Saudi),Male,18,الوه,15,produces,0.3333
+Arabic (Saudi),Male,18,الوه,15,understands,0.1333
+Arabic (Saudi),Female,19,الوه,11,produces,0.6364
+Arabic (Saudi),Female,19,الوه,11,understands,0.3636
+Arabic (Saudi),Male,19,الوه,19,produces,0.2105
+Arabic (Saudi),Male,19,الوه,19,understands,0.1579
+Arabic (Saudi),Female,20,الوه,16,produces,0.375
+Arabic (Saudi),Female,20,الوه,16,understands,0.4375
+Arabic (Saudi),Male,20,الوه,15,produces,0.2667
+Arabic (Saudi),Male,20,الوه,15,understands,0.2
+Arabic (Saudi),Female,21,الوه,18,produces,0.3889
+Arabic (Saudi),Female,21,الوه,18,understands,0.2222
+Arabic (Saudi),Male,21,الوه,16,produces,0.625
+Arabic (Saudi),Male,21,الوه,16,understands,0.4375
+Arabic (Saudi),Female,22,الوه,11,produces,0.2727
+Arabic (Saudi),Female,22,الوه,11,understands,0.2727
+Arabic (Saudi),Male,22,الوه,17,produces,0.4118
+Arabic (Saudi),Male,22,الوه,17,understands,0.3529
+Arabic (Saudi),Female,23,الوه,14,produces,0.2857
+Arabic (Saudi),Female,23,الوه,14,understands,0.2857
+Arabic (Saudi),Male,23,الوه,25,produces,0.4
+Arabic (Saudi),Male,23,الوه,25,understands,0.28
+Arabic (Saudi),Female,24,الوه,15,produces,0.6667
+Arabic (Saudi),Female,24,الوه,15,understands,0.5333
+Arabic (Saudi),Male,24,الوه,15,produces,0.4
+Arabic (Saudi),Male,24,الوه,15,understands,0.2667
+Arabic (Saudi),Female,25,الوه,16,produces,0.375
+Arabic (Saudi),Female,25,الوه,16,understands,0.4375
+Arabic (Saudi),Male,25,الوه,18,produces,0.4444
+Arabic (Saudi),Male,25,الوه,18,understands,0.5556
+Arabic (Saudi),Female,26,الوه,14,produces,0.5714
+Arabic (Saudi),Female,26,الوه,14,understands,0.3571
+Arabic (Saudi),Male,26,الوه,16,produces,0.4375
+Arabic (Saudi),Male,26,الوه,16,understands,0.375
+Arabic (Saudi),Female,27,الوه,22,produces,0.6818
+Arabic (Saudi),Female,27,الوه,22,understands,0.5455
+Arabic (Saudi),Male,27,الوه,15,produces,0.4667
+Arabic (Saudi),Male,27,الوه,15,understands,0.4
+Arabic (Saudi),Female,28,الوه,18,produces,0.6667
+Arabic (Saudi),Female,28,الوه,18,understands,0.6667
+Arabic (Saudi),Male,28,الوه,18,produces,0.7778
+Arabic (Saudi),Male,28,الوه,18,understands,0.5
+Arabic (Saudi),Female,29,الوه,16,produces,0.5
+Arabic (Saudi),Female,29,الوه,16,understands,0.625
+Arabic (Saudi),Male,29,الوه,24,produces,0.5833
+Arabic (Saudi),Male,29,الوه,24,understands,0.625
+Arabic (Saudi),Female,30,الوه,34,produces,0.6765
+Arabic (Saudi),Female,30,الوه,34,understands,0.6471
+Arabic (Saudi),Male,30,الوه,30,produces,0.6667
+Arabic (Saudi),Male,30,الوه,30,understands,0.7
+Arabic (Saudi),Female,31,الوه,10,produces,0.9
+Arabic (Saudi),Female,31,الوه,10,understands,0.5
+Arabic (Saudi),Male,31,الوه,14,produces,0.7857
+Arabic (Saudi),Male,31,الوه,14,understands,0.5714
+Arabic (Saudi),Female,32,الوه,11,produces,0.7273
+Arabic (Saudi),Female,32,الوه,11,understands,0.6364
+Arabic (Saudi),Male,32,الوه,11,produces,0.9091
+Arabic (Saudi),Male,32,الوه,11,understands,0.5455
+Arabic (Saudi),Female,33,الوه,15,produces,0.7333
+Arabic (Saudi),Female,33,الوه,15,understands,0.7333
+Arabic (Saudi),Male,33,الوه,19,produces,0.6316
+Arabic (Saudi),Male,33,الوه,19,understands,0.5789
+Arabic (Saudi),Female,34,الوه,8,produces,1
+Arabic (Saudi),Female,34,الوه,8,understands,0.875
+Arabic (Saudi),Male,34,الوه,10,produces,0.8
+Arabic (Saudi),Male,34,الوه,10,understands,0.7
+Arabic (Saudi),Female,35,الوه,11,produces,1
+Arabic (Saudi),Female,35,الوه,11,understands,0.8182
+Arabic (Saudi),Male,35,الوه,6,produces,1
+Arabic (Saudi),Male,35,الوه,6,understands,1
+Arabic (Saudi),Female,36,الوه,15,produces,0.9333
+Arabic (Saudi),Female,36,الوه,15,understands,0.8667
+Arabic (Saudi),Male,36,الوه,17,produces,0.9412
+Arabic (Saudi),Male,36,الوه,17,understands,0.8824
 British Sign Language,Female,8,hello,2,produces,0
 British Sign Language,Female,8,hello,2,understands,0
 British Sign Language,Male,8,hello,2,produces,0
@@ -2017,106 +2567,122 @@ Dutch,Female,8,hallo/hoi,5,produces,0
 Dutch,Female,8,hallo/hoi,5,understands,0.2
 Dutch,Male,8,hallo/hoi,2,produces,0
 Dutch,Male,8,hallo/hoi,2,understands,0.5
-Dutch,Female,9,hallo/hoi,55,produces,0.0182
-Dutch,Female,9,hallo/hoi,55,understands,0.4909
-Dutch,Male,9,hallo/hoi,59,produces,0.0169
-Dutch,Male,9,hallo/hoi,59,understands,0.4407
-Dutch,Female,10,hallo/hoi,51,produces,0.0196
-Dutch,Female,10,hallo/hoi,51,understands,0.4706
-Dutch,Male,10,hallo/hoi,49,produces,0
-Dutch,Male,10,hallo/hoi,49,understands,0.3265
+Dutch,Female,9,hallo/hoi,31,produces,0.0323
+Dutch,Female,9,hallo/hoi,31,understands,0.4839
+Dutch,Male,9,hallo/hoi,28,produces,0
+Dutch,Male,9,hallo/hoi,28,understands,0.4643
+Dutch,Female,10,hallo/hoi,18,produces,0
+Dutch,Female,10,hallo/hoi,18,understands,0.3333
+Dutch,Male,10,hallo/hoi,27,produces,0
+Dutch,Male,10,hallo/hoi,27,understands,0.2222
 Dutch,Female,11,hallo/hoi,4,produces,0
 Dutch,Female,11,hallo/hoi,4,understands,0.25
-Dutch,Male,11,hallo/hoi,5,produces,0
-Dutch,Male,11,hallo/hoi,5,understands,0.2
-Dutch,Female,12,hallo/hoi,2,produces,0
-Dutch,Female,12,hallo/hoi,2,understands,0
-Dutch,Male,12,hallo/hoi,5,produces,0
-Dutch,Male,12,hallo/hoi,5,understands,0.6
+Dutch,Male,11,hallo/hoi,3,produces,0
+Dutch,Male,11,hallo/hoi,3,understands,0.3333
+Dutch,Female,12,"hallo, hallo/hoi",4,produces,0
+Dutch,Female,12,"hallo, hallo/hoi",4,understands,0.25
+Dutch,Male,12,"hallo, hallo/hoi",5,produces,0
+Dutch,Male,12,"hallo, hallo/hoi",5,understands,0.4
 Dutch,Female,13,hallo/hoi,3,produces,0.3333
 Dutch,Female,13,hallo/hoi,3,understands,1
 Dutch,Male,13,hallo/hoi,14,produces,0.0714
 Dutch,Male,13,hallo/hoi,14,understands,0.4286
-Dutch,Female,14,hallo/hoi,28,produces,0.2143
-Dutch,Female,14,hallo/hoi,28,understands,0.5714
-Dutch,Male,14,hallo/hoi,35,produces,0.1429
-Dutch,Male,14,hallo/hoi,35,understands,0.7143
-Dutch,Female,15,"hallo/hoi, hallo, hoi",16,produces,0.2222
-Dutch,Female,15,"hallo/hoi, hallo, hoi",16,understands,0.7778
+Dutch,Female,14,"hallo/hoi, hallo",29,produces,0.2414
+Dutch,Female,14,"hallo/hoi, hallo",29,understands,0.5862
+Dutch,Male,14,"hallo/hoi, hallo",36,produces,0.1389
+Dutch,Male,14,"hallo/hoi, hallo",36,understands,0.7222
+Dutch,Female,15,"hallo/hoi, hallo, hoi",19,produces,0.2857
+Dutch,Female,15,"hallo/hoi, hallo, hoi",19,understands,0.7619
 Dutch,Male,15,"hallo/hoi, hallo, hoi",18,produces,0.4211
 Dutch,Male,15,"hallo/hoi, hallo, hoi",18,understands,0.7895
-Dutch,Female,16,"hallo/hoi, hallo, hoi, hallo(telefoon)",25,produces,0.5667
-Dutch,Female,16,"hallo/hoi, hallo, hoi, hallo(telefoon)",25,understands,0.6667
-Dutch,Male,16,"hallo/hoi, hallo, hoi",23,produces,0.2
-Dutch,Male,16,"hallo/hoi, hallo, hoi",23,understands,0.8
-Dutch,Female,17,"hallo(telefoon), hallo, hoi, hallo/hoi",53,produces,0.6591
-Dutch,Female,17,"hallo(telefoon), hallo, hoi, hallo/hoi",53,understands,0.2386
-Dutch,Male,17,"hallo(telefoon), hallo, hoi, hallo/hoi",41,produces,0.5738
-Dutch,Male,17,"hallo(telefoon), hallo, hoi, hallo/hoi",41,understands,0.3934
-Dutch,Female,18,"hallo(telefoon), hallo, hoi, hallo/hoi",133,produces,0.4328
-Dutch,Female,18,"hallo(telefoon), hallo, hoi, hallo/hoi",133,understands,0.4076
-Dutch,Male,18,"hallo(telefoon), hallo, hoi, hallo/hoi",127,produces,0.4439
-Dutch,Male,18,"hallo(telefoon), hallo, hoi, hallo/hoi",127,understands,0.4299
-Dutch,Female,19,"hallo(telefoon), hallo, hoi, hallo/hoi",55,produces,0.3211
-Dutch,Female,19,"hallo(telefoon), hallo, hoi, hallo/hoi",55,understands,0.3394
-Dutch,Male,19,"hallo, hoi, hallo(telefoon), hallo/hoi",47,produces,0.2447
-Dutch,Male,19,"hallo, hoi, hallo(telefoon), hallo/hoi",47,understands,0.3191
-Dutch,Female,20,"hallo, hoi, hallo(telefoon), hallo/hoi",19,produces,0.4737
-Dutch,Female,20,"hallo, hoi, hallo(telefoon), hallo/hoi",19,understands,0.3158
-Dutch,Male,20,"hallo, hoi, hallo(telefoon), hallo/hoi",14,produces,0.3929
-Dutch,Male,20,"hallo, hoi, hallo(telefoon), hallo/hoi",14,understands,0.5
-Dutch,Female,21,"hallo, hoi, hallo(telefoon), hallo/hoi",6,produces,0.75
-Dutch,Female,21,"hallo, hoi, hallo(telefoon), hallo/hoi",6,understands,0.3333
-Dutch,Male,21,"hallo, hoi, hallo(telefoon), hallo/hoi",7,produces,0.3571
-Dutch,Male,21,"hallo, hoi, hallo(telefoon), hallo/hoi",7,understands,0.2857
-Dutch,Female,22,"hallo(telefoon), hallo/hoi",1,produces,1
-Dutch,Female,22,"hallo(telefoon), hallo/hoi",1,understands,0
-Dutch,Male,22,"hallo(telefoon), hallo/hoi",6,produces,0.6667
-Dutch,Male,22,"hallo(telefoon), hallo/hoi",6,understands,0
-Dutch,Female,23,"hallo(telefoon), hallo/hoi",26,produces,1
-Dutch,Female,23,"hallo(telefoon), hallo/hoi",26,understands,0.0196
-Dutch,Male,23,"hallo(telefoon), hallo/hoi",26,produces,0.8846
-Dutch,Male,23,"hallo(telefoon), hallo/hoi",26,understands,0
-Dutch,Female,24,"hallo(telefoon), hallo/hoi",90,produces,0.9717
-Dutch,Female,24,"hallo(telefoon), hallo/hoi",90,understands,0.6981
-Dutch,Male,24,"hallo(telefoon), hallo/hoi",100,produces,0.9217
-Dutch,Male,24,"hallo(telefoon), hallo/hoi",100,understands,0.7391
-Dutch,Female,25,"hallo(telefoon), hallo/hoi",7,produces,0.9167
-Dutch,Female,25,"hallo(telefoon), hallo/hoi",7,understands,0.0833
-Dutch,Male,25,"hallo(telefoon), hallo/hoi",4,produces,1
-Dutch,Male,25,"hallo(telefoon), hallo/hoi",4,understands,0.6
-Dutch,Female,26,"hallo(telefoon), hallo/hoi",1,produces,1
-Dutch,Female,26,"hallo(telefoon), hallo/hoi",1,understands,0
-Dutch,Male,26,"hallo(telefoon), hallo/hoi",5,produces,1
-Dutch,Male,26,"hallo(telefoon), hallo/hoi",5,understands,0
-Dutch,Female,27,"hallo(telefoon), hallo/hoi",3,produces,1
-Dutch,Female,27,"hallo(telefoon), hallo/hoi",3,understands,0
-Dutch,Male,27,"hallo(telefoon), hallo/hoi",1,produces,0
-Dutch,Male,27,"hallo(telefoon), hallo/hoi",1,understands,0
-Dutch,Female,28,"hallo(telefoon), hallo/hoi",5,produces,1
-Dutch,Female,28,"hallo(telefoon), hallo/hoi",5,understands,0
-Dutch,Male,28,"hallo(telefoon), hallo/hoi",1,produces,1
-Dutch,Male,28,"hallo(telefoon), hallo/hoi",1,understands,0
-Dutch,Female,29,"hallo(telefoon), hallo/hoi",12,produces,1
-Dutch,Female,29,"hallo(telefoon), hallo/hoi",12,understands,0
-Dutch,Male,29,"hallo(telefoon), hallo/hoi",11,produces,1
-Dutch,Male,29,"hallo(telefoon), hallo/hoi",11,understands,0
-Dutch,Female,30,"hallo(telefoon), hallo/hoi",27,produces,1
-Dutch,Female,30,"hallo(telefoon), hallo/hoi",27,understands,0.2558
-Dutch,Male,30,"hallo(telefoon), hallo/hoi",24,produces,0.9688
-Dutch,Male,30,"hallo(telefoon), hallo/hoi",24,understands,0.5
-Dutch,Female,31,"hallo(telefoon), hallo/hoi",2,produces,1
-Dutch,Female,31,"hallo(telefoon), hallo/hoi",2,understands,0.3333
-Dutch,Male,31,"hallo(telefoon), hallo/hoi",1,produces,1
-Dutch,Male,31,"hallo(telefoon), hallo/hoi",1,understands,0
+Dutch,Female,16,"hallo/hoi, hallo, hoi",23,produces,0.4583
+Dutch,Female,16,"hallo/hoi, hallo, hoi",23,understands,0.9167
+Dutch,Male,16,"hallo/hoi, hallo, hoi",24,produces,0.2308
+Dutch,Male,16,"hallo/hoi, hallo, hoi",24,understands,0.8077
+Dutch,Female,17,"hallo, hoi",4,produces,0.1667
+Dutch,Female,17,"hallo, hoi",4,understands,0.8333
+Dutch,Male,17,"hallo, hoi",4,produces,0.625
+Dutch,Male,17,"hallo, hoi",4,understands,0.75
+Dutch,Female,18,"hallo, hoi",68,produces,0.2985
+Dutch,Female,18,"hallo, hoi",68,understands,0.5299
+Dutch,Male,18,"hallo, hoi",58,produces,0.313
+Dutch,Male,18,"hallo, hoi",58,understands,0.487
+Dutch,Female,19,"hallo, hoi",51,produces,0.28
+Dutch,Female,19,"hallo, hoi",51,understands,0.38
+Dutch,Male,19,"hallo, hoi",46,produces,0.2198
+Dutch,Male,19,"hallo, hoi",46,understands,0.3407
+Dutch,Female,20,"hallo, hoi",15,produces,0.3571
+Dutch,Female,20,"hallo, hoi",15,understands,0.5
+Dutch,Male,20,"hallo, hoi",15,produces,0.3214
+Dutch,Male,20,"hallo, hoi",15,understands,0.5714
+Dutch,Female,21,"hallo, hoi",6,produces,0.5556
+Dutch,Female,21,"hallo, hoi",6,understands,0.7778
+Dutch,Male,21,"hallo, hoi",6,produces,0.4444
+Dutch,Male,21,"hallo, hoi",6,understands,0.7778
+Dutch,Female,22,hallo,3,produces,1
+Dutch,Female,22,hallo,3,understands,1
+Dutch,Male,22,hallo,4,produces,0.5
+Dutch,Male,22,hallo,4,understands,1
+Dutch,Female,23,hallo,2,produces,1
+Dutch,Female,23,hallo,2,understands,1
+Dutch,Male,23,hallo,3,produces,0
+Dutch,Male,23,hallo,3,understands,0.6667
+Dutch,Female,24,hallo,1,produces,1
+Dutch,Female,24,hallo,1,understands,1
+Dutch,Male,24,hallo,2,produces,1
+Dutch,Male,24,hallo,2,understands,1
+Dutch,Female,25,hallo,2,produces,1
+Dutch,Female,25,hallo,2,understands,1
+Dutch,Male,25,hallo,3,produces,0.3333
+Dutch,Male,25,hallo,3,understands,0.3333
+Dutch,Female,26,hallo,2,produces,0.5
+Dutch,Female,26,hallo,2,understands,1
+Dutch,Male,26,hallo,1,produces,1
+Dutch,Male,26,hallo,1,understands,1
+Dutch,Female,27,hallo,3,produces,1
+Dutch,Female,27,hallo,3,understands,1
+Dutch,Male,27,hallo,4,produces,0.75
+Dutch,Male,27,hallo,4,understands,0.75
+Dutch,Female,28,hallo,1,produces,1
+Dutch,Female,28,hallo,1,understands,1
+Dutch,Male,28,hallo,2,produces,1
+Dutch,Male,28,hallo,2,understands,1
+Dutch,Female,29,hallo,2,produces,1
+Dutch,Female,29,hallo,2,understands,1
+Dutch,Male,29,hallo,2,produces,1
+Dutch,Male,29,hallo,2,understands,1
+Dutch,Female,30,hallo,2,produces,1
+Dutch,Female,30,hallo,2,understands,1
+Dutch,Male,30,hallo,3,produces,1
+Dutch,Male,30,hallo,3,understands,1
+Dutch,Female,31,hallo,3,produces,1
+Dutch,Female,31,hallo,3,understands,1
+Dutch,Male,31,hallo,5,produces,0.8
+Dutch,Male,31,hallo,5,understands,0.8
+Dutch,Female,32,hallo,2,produces,1
+Dutch,Female,32,hallo,2,understands,1
+Dutch,Male,32,hallo,4,produces,1
+Dutch,Male,32,hallo,4,understands,1
+Dutch,Female,33,hallo,1,produces,1
+Dutch,Female,33,hallo,1,understands,1
+Dutch,Female,34,hallo,1,produces,1
+Dutch,Female,34,hallo,1,understands,1
+Dutch,Male,34,hallo,2,produces,1
+Dutch,Male,34,hallo,2,understands,1
+Dutch,Female,35,hallo,4,produces,1
+Dutch,Female,35,hallo,4,understands,1
+Dutch,Male,35,hallo,2,produces,1
+Dutch,Male,35,hallo,2,understands,1
+Dutch,Female,36,hallo,2,produces,1
+Dutch,Female,36,hallo,2,understands,1
 English (American),Female,8,hello,114,produces,0.0088
 English (American),Female,8,hello,114,understands,0.3158
 English (American),Male,8,hello,141,produces,0
 English (American),Male,8,hello,141,understands,0.2057
 English (American),Female,9,hello,135,produces,0.0148
 English (American),Female,9,hello,135,understands,0.363
-English (American),Male,9,hello,160,produces,0.0125
-English (American),Male,9,hello,160,understands,0.2875
+English (American),Male,9,hello,161,produces,0.0124
+English (American),Male,9,hello,161,understands,0.2857
 English (American),Female,10,hello,119,produces,0.0588
 English (American),Female,10,hello,119,understands,0.4118
 English (American),Male,10,hello,144,produces,0.0278
@@ -2131,76 +2697,100 @@ English (American),Male,12,hello,334,produces,0.053900000000000003
 English (American),Male,12,hello,334,understands,0.4671
 English (American),Female,13,hello,496,produces,0.1169
 English (American),Female,13,hello,496,understands,0.6028
-English (American),Male,13,hello,541,produces,0.0887
-English (American),Male,13,hello,541,understands,0.5564
-English (American),Female,14,hello,220,produces,0.1636
-English (American),Female,14,hello,220,understands,0.6318
-English (American),Male,14,hello,224,produces,0.1384
-English (American),Male,14,hello,224,understands,0.5848
-English (American),Female,15,hello,111,produces,0.2523
-English (American),Female,15,hello,111,understands,0.6757
-English (American),Male,15,hello,127,produces,0.1496
-English (American),Male,15,hello,127,understands,0.5984
-English (American),Female,16,hello,786,produces,0.2646
-English (American),Female,16,hello,786,understands,0.3982
-English (American),Male,16,hello,856,produces,0.25
-English (American),Male,16,hello,856,understands,0.3633
-English (American),Female,17,hello,315,produces,0.346
-English (American),Female,17,hello,315,understands,0.4222
-English (American),Male,17,hello,379,produces,0.2955
-English (American),Male,17,hello,379,understands,0.3879
-English (American),Female,18,hello,434,produces,0.4263
-English (American),Female,18,hello,434,understands,0.3548
-English (American),Male,18,hello,468,produces,0.3291
-English (American),Male,18,hello,468,understands,0.3611
-English (American),Female,19,hello,231,produces,0.4675
-English (American),Female,19,hello,231,understands,0
-English (American),Male,19,hello,224,produces,0.375
-English (American),Male,19,hello,224,understands,0
-English (American),Female,20,hello,205,produces,0.5317
-English (American),Female,20,hello,205,understands,0
-English (American),Male,20,hello,222,produces,0.3739
-English (American),Male,20,hello,222,understands,0
-English (American),Female,21,hello,127,produces,0.5512
-English (American),Female,21,hello,127,understands,0
-English (American),Male,21,hello,142,produces,0.5423
-English (American),Male,21,hello,142,understands,0
-English (American),Female,22,hello,186,produces,0.6129
-English (American),Female,22,hello,186,understands,0
-English (American),Male,22,hello,162,produces,0.679
-English (American),Male,22,hello,162,understands,0
-English (American),Female,23,hello,177,produces,0.7232
-English (American),Female,23,hello,177,understands,0
-English (American),Male,23,hello,196,produces,0.5765
-English (American),Male,23,hello,196,understands,0
-English (American),Female,24,hello,365,produces,0.737
-English (American),Female,24,hello,365,understands,0
-English (American),Male,24,hello,453,produces,0.6534
-English (American),Male,24,hello,453,understands,0
-English (American),Female,25,hello,299,produces,0.7692
-English (American),Female,25,hello,299,understands,0
-English (American),Male,25,hello,336,produces,0.6994
-English (American),Male,25,hello,336,understands,0
-English (American),Female,26,hello,173,produces,0.7746
-English (American),Female,26,hello,173,understands,0
-English (American),Male,26,hello,197,produces,0.6142
-English (American),Male,26,hello,197,understands,0
-English (American),Female,27,hello,158,produces,0.7595
-English (American),Female,27,hello,158,understands,0
-English (American),Male,27,hello,154,produces,0.7013
-English (American),Male,27,hello,154,understands,0
-English (American),Female,28,hello,416,produces,0.8365
-English (American),Female,28,hello,416,understands,0
-English (American),Male,28,hello,492,produces,0.7744
-English (American),Male,28,hello,492,understands,0
-English (American),Female,29,hello,166,produces,0.8253
-English (American),Female,29,hello,166,understands,0
-English (American),Male,29,hello,167,produces,0.7844
-English (American),Male,29,hello,167,understands,0
-English (American),Female,30,hello,323,produces,0.8824
-English (American),Female,30,hello,323,understands,0
-English (American),Male,30,hello,368,produces,0.856
-English (American),Male,30,hello,368,understands,0
+English (American),Male,13,hello,542,produces,0.0886
+English (American),Male,13,hello,542,understands,0.5554
+English (American),Female,14,hello,221,produces,0.1629
+English (American),Female,14,hello,221,understands,0.6335
+English (American),Male,14,hello,227,produces,0.1366
+English (American),Male,14,hello,227,understands,0.5903
+English (American),Female,15,hello,132,produces,0.2273
+English (American),Female,15,hello,132,understands,0.6439
+English (American),Male,15,hello,145,produces,0.1379
+English (American),Male,15,hello,145,understands,0.5862
+English (American),Female,16,hello,784,produces,0.2679
+English (American),Female,16,hello,784,understands,0.4247
+English (American),Male,16,hello,851,produces,0.2515
+English (American),Male,16,hello,851,understands,0.3866
+English (American),Female,17,hello,437,produces,0.222
+English (American),Female,17,hello,437,understands,0.3341
+English (American),Male,17,hello,481,produces,0.2037
+English (American),Male,17,hello,481,understands,0.3264
+English (American),Female,18,hello,524,produces,0.2958
+English (American),Female,18,hello,524,understands,0.3053
+English (American),Male,18,hello,608,produces,0.2385
+English (American),Male,18,hello,608,understands,0.3043
+English (American),Female,19,hello,166,produces,0.4819
+English (American),Female,19,hello,166,understands,0
+English (American),Male,19,hello,163,produces,0.3681
+English (American),Male,19,hello,163,understands,0
+English (American),Female,20,hello,161,produces,0.5466
+English (American),Female,20,hello,161,understands,0
+English (American),Male,20,hello,181,produces,0.3923
+English (American),Male,20,hello,181,understands,0
+English (American),Female,21,hello,137,produces,0.6058
+English (American),Female,21,hello,137,understands,0
+English (American),Male,21,hello,169,produces,0.6154
+English (American),Male,21,hello,169,understands,0
+English (American),Female,22,hello,140,produces,0.6643
+English (American),Female,22,hello,140,understands,0
+English (American),Male,22,hello,127,produces,0.7165
+English (American),Male,22,hello,127,understands,0
+English (American),Female,23,hello,115,produces,0.7478
+English (American),Female,23,hello,115,understands,0
+English (American),Male,23,hello,124,produces,0.6048
+English (American),Male,23,hello,124,understands,0
+English (American),Female,24,hello,310,produces,0.7226
+English (American),Female,24,hello,310,understands,0.0032
+English (American),Male,24,hello,342,produces,0.655
+English (American),Male,24,hello,342,understands,0.0058
+English (American),Female,25,hello,239,produces,0.7699
+English (American),Female,25,hello,239,understands,0
+English (American),Male,25,hello,268,produces,0.709
+English (American),Male,25,hello,268,understands,0
+English (American),Female,26,hello,109,produces,0.7339
+English (American),Female,26,hello,109,understands,0
+English (American),Male,26,hello,123,produces,0.626
+English (American),Male,26,hello,123,understands,0.0163
+English (American),Female,27,hello,88,produces,0.7614
+English (American),Female,27,hello,88,understands,0
+English (American),Male,27,hello,82,produces,0.6463
+English (American),Male,27,hello,82,understands,0
+English (American),Female,28,hello,367,produces,0.842
+English (American),Female,28,hello,367,understands,0
+English (American),Male,28,hello,420,produces,0.7762
+English (American),Male,28,hello,420,understands,0.0024
+English (American),Female,29,hello,89,produces,0.764
+English (American),Female,29,hello,89,understands,0
+English (American),Male,29,hello,79,produces,0.7975
+English (American),Male,29,hello,79,understands,0.0127
+English (American),Female,30,hello,252,produces,0.877
+English (American),Female,30,hello,252,understands,0
+English (American),Male,30,hello,284,produces,0.8486
+English (American),Male,30,hello,284,understands,0
+English (American),Female,31,hello,111,produces,0.8559
+English (American),Female,31,hello,111,understands,0.009
+English (American),Male,31,hello,124,produces,0.8548
+English (American),Male,31,hello,124,understands,0.0081
+English (American),Female,32,hello,70,produces,0.8143
+English (American),Female,32,hello,70,understands,0.0571
+English (American),Male,32,hello,59,produces,0.7797
+English (American),Male,32,hello,59,understands,0
+English (American),Female,33,hello,24,produces,0.8333
+English (American),Female,33,hello,24,understands,0
+English (American),Male,33,hello,17,produces,0.8824
+English (American),Male,33,hello,17,understands,0
+English (American),Female,34,hello,9,produces,1
+English (American),Female,34,hello,9,understands,0.4444
+English (American),Male,34,hello,5,produces,0.8
+English (American),Male,34,hello,5,understands,0.2
+English (American),Female,35,hello,12,produces,0.8333
+English (American),Female,35,hello,12,understands,0.0833
+English (American),Male,35,hello,9,produces,0.7778
+English (American),Male,35,hello,9,understands,0.1111
+English (American),Female,36,hello,38,produces,0.8684
+English (American),Female,36,hello,38,understands,0.1053
+English (American),Male,36,hello,42,produces,0.9286
+English (American),Male,36,hello,42,understands,0.0238
 English (Australian),Female,12,hello,27,produces,0.2222
 English (Australian),Female,12,hello,27,understands,0
 English (Australian),Male,12,hello,44,produces,0.0909
@@ -2277,62 +2867,122 @@ English (Australian),Female,30,hello,28,produces,0.9643
 English (Australian),Female,30,hello,28,understands,0
 English (Australian),Male,30,hello,25,produces,0.88
 English (Australian),Male,30,hello,25,understands,0
-English (British),Female,12,hello,13,produces,0.2308
-English (British),Female,12,hello,13,understands,0.8462
-English (British),Male,12,hello,14,produces,0.2857
-English (British),Male,12,hello,14,understands,0.6429
-English (British),Female,13,hello,2,produces,0
-English (British),Female,13,hello,2,understands,1
-English (British),Male,13,hello,5,produces,0.4
-English (British),Male,13,hello,5,understands,0.6
-English (British),Female,14,hello,27,produces,0.2593
-English (British),Female,14,hello,27,understands,0.7407
-English (British),Male,14,hello,37,produces,0.2162
-English (British),Male,14,hello,37,understands,0.6216
-English (British),Female,15,hello,38,produces,0.3158
-English (British),Female,15,hello,38,understands,0.7368
-English (British),Male,15,hello,50,produces,0.26
-English (British),Male,15,hello,50,understands,0.8
-English (British),Female,16,hello,58,produces,0.3448
-English (British),Female,16,hello,58,understands,0.7931
-English (British),Male,16,hello,60,produces,0.3167
-English (British),Male,16,hello,60,understands,0.75
-English (British),Female,17,hello,90,produces,0.5778
-English (British),Female,17,hello,90,understands,0.9
-English (British),Male,17,hello,107,produces,0.4486
-English (British),Male,17,hello,107,understands,0.8879
-English (British),Female,18,hello,58,produces,0.5
-English (British),Female,18,hello,58,understands,0.8621
-English (British),Male,18,hello,60,produces,0.5167
-English (British),Male,18,hello,60,understands,0.95
-English (British),Female,19,hello,52,produces,0.6923
-English (British),Female,19,hello,52,understands,0.9423
-English (British),Male,19,hello,57,produces,0.5263
-English (British),Male,19,hello,57,understands,0.8947
-English (British),Female,20,hello,64,produces,0.7344
-English (British),Female,20,hello,64,understands,0.9219
-English (British),Male,20,hello,80,produces,0.7375
-English (British),Male,20,hello,80,understands,0.9125
-English (British),Female,21,hello,32,produces,0.9375
-English (British),Female,21,hello,32,understands,1
-English (British),Male,21,hello,43,produces,0.8372
-English (British),Male,21,hello,43,understands,0.9535
-English (British),Female,22,hello,12,produces,0.75
-English (British),Female,22,hello,12,understands,0.9167
-English (British),Male,22,hello,16,produces,0.6875
-English (British),Male,22,hello,16,understands,0.875
-English (British),Female,23,hello,50,produces,0.88
-English (British),Female,23,hello,50,understands,0.96
-English (British),Male,23,hello,62,produces,0.7097
-English (British),Male,23,hello,62,understands,0.9839
-English (British),Female,24,hello,42,produces,0.9286
-English (British),Female,24,hello,42,understands,0.9762
-English (British),Male,24,hello,45,produces,0.8889
-English (British),Male,24,hello,45,understands,0.9778
-English (British),Female,25,hello,21,produces,0.9524
-English (British),Female,25,hello,21,understands,0.9524
-English (British),Male,25,hello,15,produces,0.7333
-English (British),Male,25,hello,15,understands,0.9333
+English (British),Female,8,L Words for games and routines - 9 hello/hi/hiya,55,produces,0.0909
+English (British),Female,8,L Words for games and routines - 9 hello/hi/hiya,55,understands,0.5818
+English (British),Male,8,L Words for games and routines - 9 hello/hi/hiya,51,produces,0.1373
+English (British),Male,8,L Words for games and routines - 9 hello/hi/hiya,51,understands,0.5882
+English (British),Female,9,L Words for games and routines - 9 hello/hi/hiya,65,produces,0.1692
+English (British),Female,9,L Words for games and routines - 9 hello/hi/hiya,65,understands,0.6923
+English (British),Male,9,L Words for games and routines - 9 hello/hi/hiya,72,produces,0.1389
+English (British),Male,9,L Words for games and routines - 9 hello/hi/hiya,72,understands,0.6389
+English (British),Female,10,L Words for games and routines - 9 hello/hi/hiya,53,produces,0.2264
+English (British),Female,10,L Words for games and routines - 9 hello/hi/hiya,53,understands,0.7925
+English (British),Male,10,L Words for games and routines - 9 hello/hi/hiya,75,produces,0.2133
+English (British),Male,10,L Words for games and routines - 9 hello/hi/hiya,75,understands,0.7333
+English (British),Female,11,L Words for games and routines - 9 hello/hi/hiya,57,produces,0.2456
+English (British),Female,11,L Words for games and routines - 9 hello/hi/hiya,57,understands,0.807
+English (British),Male,11,L Words for games and routines - 9 hello/hi/hiya,53,produces,0.1698
+English (British),Male,11,L Words for games and routines - 9 hello/hi/hiya,53,understands,0.6981
+English (British),Female,12,"hello, L Words for games and routines - 9 hello/hi/hiya",104,produces,0.2308
+English (British),Female,12,"hello, L Words for games and routines - 9 hello/hi/hiya",104,understands,0.8654
+English (British),Male,12,"hello, L Words for games and routines - 9 hello/hi/hiya",101,produces,0.2079
+English (British),Male,12,"hello, L Words for games and routines - 9 hello/hi/hiya",101,understands,0.7327
+English (British),Female,13,"hello, L Words for games and routines - 9 hello/hi/hiya",89,produces,0.3371
+English (British),Female,13,"hello, L Words for games and routines - 9 hello/hi/hiya",89,understands,0.8652
+English (British),Male,13,"hello, L Words for games and routines - 9 hello/hi/hiya",89,produces,0.3596
+English (British),Male,13,"hello, L Words for games and routines - 9 hello/hi/hiya",89,understands,0.8652
+English (British),Female,14,"hello, L Words for games and routines - 9 hello/hi/hiya",102,produces,0.451
+English (British),Female,14,"hello, L Words for games and routines - 9 hello/hi/hiya",102,understands,0.7745
+English (British),Male,14,"hello, L Words for games and routines - 9 hello/hi/hiya",102,produces,0.3824
+English (British),Male,14,"hello, L Words for games and routines - 9 hello/hi/hiya",102,understands,0.7353
+English (British),Female,15,"hello, L Words for games and routines - 9 hello/hi/hiya",137,produces,0.5182
+English (British),Female,15,"hello, L Words for games and routines - 9 hello/hi/hiya",137,understands,0.8759
+English (British),Male,15,"hello, L Words for games and routines - 9 hello/hi/hiya",135,produces,0.2889
+English (British),Male,15,"hello, L Words for games and routines - 9 hello/hi/hiya",135,understands,0.8074
+English (British),Female,16,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",161,produces,0.4969
+English (British),Female,16,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",161,understands,0.8323
+English (British),Male,16,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",165,produces,0.4061
+English (British),Male,16,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",165,understands,0.7697
+English (British),Female,17,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",182,produces,0.5824
+English (British),Female,17,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",182,understands,0.8626
+English (British),Male,17,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",186,produces,0.4677
+English (British),Male,17,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",186,understands,0.871
+English (British),Female,18,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",143,produces,0.5524
+English (British),Female,18,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",143,understands,0.8601
+English (British),Male,18,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",171,produces,0.4912
+English (British),Male,18,"hello, L Words for games and routines - 9 hello/hi/hiya, M games - 10 hello",171,understands,0.9064
+English (British),Female,19,"hello, M games - 10 hello",97,produces,0.6598
+English (British),Female,19,"hello, M games - 10 hello",97,understands,0.8351
+English (British),Male,19,"hello, M games - 10 hello",99,produces,0.5253
+English (British),Male,19,"hello, M games - 10 hello",99,understands,0.8485
+English (British),Female,20,"hello, M games - 10 hello",120,produces,0.6333
+English (British),Female,20,"hello, M games - 10 hello",120,understands,0.9
+English (British),Male,20,"hello, M games - 10 hello",129,produces,0.6977
+English (British),Male,20,"hello, M games - 10 hello",129,understands,0.8372
+English (British),Female,21,"hello, M games - 10 hello",89,produces,0.8315
+English (British),Female,21,"hello, M games - 10 hello",89,understands,0.8315
+English (British),Male,21,"hello, M games - 10 hello",107,produces,0.6916
+English (British),Male,21,"hello, M games - 10 hello",107,understands,0.8692
+English (British),Female,22,"hello, M games - 10 hello",77,produces,0.7273
+English (British),Female,22,"hello, M games - 10 hello",77,understands,0.8961
+English (British),Male,22,"hello, M games - 10 hello",73,produces,0.6164
+English (British),Male,22,"hello, M games - 10 hello",73,understands,0.863
+English (British),Female,23,"hello, M games - 10 hello",97,produces,0.8454
+English (British),Female,23,"hello, M games - 10 hello",97,understands,0.9278
+English (British),Male,23,"hello, M games - 10 hello",125,produces,0.664
+English (British),Male,23,"hello, M games - 10 hello",125,understands,0.848
+English (British),Female,24,"hello, M games - 10 hello",90,produces,0.9
+English (British),Female,24,"hello, M games - 10 hello",90,understands,0.8444
+English (British),Male,24,"hello, M games - 10 hello",95,produces,0.8
+English (British),Male,24,"hello, M games - 10 hello",95,understands,0.8947
+English (British),Female,25,"hello, M games - 10 hello",85,produces,0.8824
+English (British),Female,25,"hello, M games - 10 hello",85,understands,0.9412
+English (British),Male,25,"hello, M games - 10 hello",83,produces,0.8072
+English (British),Male,25,"hello, M games - 10 hello",83,understands,0.8434
+English (British),Female,26,"hello, M games - 10 hello",91,produces,0.8901
+English (British),Female,26,"hello, M games - 10 hello",91,understands,0.9231
+English (British),Male,26,"hello, M games - 10 hello",75,produces,0.7467
+English (British),Male,26,"hello, M games - 10 hello",75,understands,0.88
+English (British),Female,27,"hello, M games - 10 hello",78,produces,0.8846
+English (British),Female,27,"hello, M games - 10 hello",78,understands,0.9231
+English (British),Male,27,"hello, M games - 10 hello",69,produces,0.8116
+English (British),Male,27,"hello, M games - 10 hello",69,understands,0.8696
+English (British),Female,28,"hello, M games - 10 hello",68,produces,0.8971
+English (British),Female,28,"hello, M games - 10 hello",68,understands,0.9265
+English (British),Male,28,"hello, M games - 10 hello",52,produces,0.8846
+English (British),Male,28,"hello, M games - 10 hello",52,understands,0.9231
+English (British),Female,29,"hello, M games - 10 hello",57,produces,0.8947
+English (British),Female,29,"hello, M games - 10 hello",57,understands,0.7193
+English (British),Male,29,"hello, M games - 10 hello",40,produces,0.9
+English (British),Male,29,"hello, M games - 10 hello",40,understands,0.95
+English (British),Female,30,"hello, M games - 10 hello",44,produces,0.8409
+English (British),Female,30,"hello, M games - 10 hello",44,understands,0.8182
+English (British),Male,30,"hello, M games - 10 hello",66,produces,0.8788
+English (British),Male,30,"hello, M games - 10 hello",66,understands,0.9242
+English (British),Female,31,hello,52,produces,0.9231
+English (British),Female,31,hello,52,understands,0.9615
+English (British),Male,31,"hello, M games - 10 hello",52,produces,0.9038
+English (British),Male,31,"hello, M games - 10 hello",52,understands,0.9615
+English (British),Female,32,hello,26,produces,0.9231
+English (British),Female,32,hello,26,understands,1
+English (British),Male,32,hello,36,produces,0.8889
+English (British),Male,32,hello,36,understands,1
+English (British),Female,33,hello,34,produces,0.9412
+English (British),Female,33,hello,34,understands,1
+English (British),Male,33,hello,19,produces,0.8421
+English (British),Male,33,hello,19,understands,1
+English (British),Female,34,hello,19,produces,1
+English (British),Female,34,hello,19,understands,1
+English (British),Male,34,hello,26,produces,0.9615
+English (British),Male,34,hello,26,understands,1
+English (British),Female,35,hello,30,produces,0.9333
+English (British),Female,35,hello,30,understands,0.9667
+English (British),Male,35,hello,23,produces,0.913
+English (British),Male,35,hello,23,understands,0.913
+English (British),Female,36,hello,18,produces,0.9444
+English (British),Female,36,hello,18,understands,1
+English (British),Male,36,hello,29,produces,0.931
+English (British),Male,36,hello,29,understands,0.931
 English (Irish),Female,17,hello,1,produces,0
 English (Irish),Female,17,hello,1,understands,0
 English (Irish),Male,17,hello,1,produces,0
@@ -2409,6 +3059,106 @@ English (Irish),Female,36,hello,3,produces,0.6667
 English (Irish),Female,36,hello,3,understands,0
 English (Irish),Male,36,hello,2,produces,1
 English (Irish),Male,36,hello,2,understands,0
+English (Malaysian),Female,12,hello,2,produces,0
+English (Malaysian),Female,12,hello,2,understands,0
+English (Malaysian),Male,12,hello,1,produces,1
+English (Malaysian),Male,12,hello,1,understands,1
+English (Malaysian),Female,13,hello,11,produces,0
+English (Malaysian),Female,13,hello,11,understands,0.2727
+English (Malaysian),Male,13,hello,6,produces,0.3333
+English (Malaysian),Male,13,hello,6,understands,0.6667
+English (Malaysian),Female,14,hello,2,produces,0
+English (Malaysian),Female,14,hello,2,understands,0
+English (Malaysian),Male,14,hello,11,produces,0
+English (Malaysian),Male,14,hello,11,understands,0.2727
+English (Malaysian),Female,15,hello,7,produces,0
+English (Malaysian),Female,15,hello,7,understands,0.2857
+English (Malaysian),Male,15,hello,16,produces,0.0625
+English (Malaysian),Male,15,hello,16,understands,0.4375
+English (Malaysian),Female,16,hello,13,produces,0.2308
+English (Malaysian),Female,16,hello,13,understands,0.3077
+English (Malaysian),Male,16,hello,16,produces,0.0625
+English (Malaysian),Male,16,hello,16,understands,0.1875
+English (Malaysian),Female,17,hello,7,produces,0.2857
+English (Malaysian),Female,17,hello,7,understands,0.2857
+English (Malaysian),Male,17,hello,13,produces,0.0769
+English (Malaysian),Male,17,hello,13,understands,0.2308
+English (Malaysian),Female,18,hello,18,produces,0.3333
+English (Malaysian),Female,18,hello,18,understands,0.4444
+English (Malaysian),Male,18,hello,22,produces,0.1818
+English (Malaysian),Male,18,hello,22,understands,0.3182
+English (Malaysian),Female,19,hello,6,produces,0
+English (Malaysian),Female,19,hello,6,understands,0.1667
+English (Malaysian),Male,19,hello,7,produces,0.1429
+English (Malaysian),Male,19,hello,7,understands,0.4286
+English (Malaysian),Female,20,hello,9,produces,0.2222
+English (Malaysian),Female,20,hello,9,understands,0.3333
+English (Malaysian),Male,20,hello,22,produces,0.2273
+English (Malaysian),Male,20,hello,22,understands,0.3182
+English (Malaysian),Female,21,hello,14,produces,0.6429
+English (Malaysian),Female,21,hello,14,understands,0.6429
+English (Malaysian),Male,21,hello,17,produces,0.1176
+English (Malaysian),Male,21,hello,17,understands,0.1765
+English (Malaysian),Female,22,hello,10,produces,0.6
+English (Malaysian),Female,22,hello,10,understands,0.6
+English (Malaysian),Male,22,hello,18,produces,0.3889
+English (Malaysian),Male,22,hello,18,understands,0.5
+English (Malaysian),Female,23,hello,17,produces,0.2353
+English (Malaysian),Female,23,hello,17,understands,0.3529
+English (Malaysian),Male,23,hello,17,produces,0.4118
+English (Malaysian),Male,23,hello,17,understands,0.4706
+English (Malaysian),Female,24,hello,25,produces,0.12
+English (Malaysian),Female,24,hello,25,understands,0.36
+English (Malaysian),Male,24,hello,21,produces,0.2381
+English (Malaysian),Male,24,hello,21,understands,0.381
+English (Malaysian),Female,25,hello,11,produces,0.4545
+English (Malaysian),Female,25,hello,11,understands,0.6364
+English (Malaysian),Male,25,hello,10,produces,0.2
+English (Malaysian),Male,25,hello,10,understands,0.2
+English (Malaysian),Female,26,hello,26,produces,0.3077
+English (Malaysian),Female,26,hello,26,understands,0.3077
+English (Malaysian),Male,26,hello,19,produces,0.2105
+English (Malaysian),Male,26,hello,19,understands,0.3158
+English (Malaysian),Female,27,hello,12,produces,0.3333
+English (Malaysian),Female,27,hello,12,understands,0.4167
+English (Malaysian),Male,27,hello,7,produces,0.4286
+English (Malaysian),Male,27,hello,7,understands,0.4286
+English (Malaysian),Female,28,hello,21,produces,0.3333
+English (Malaysian),Female,28,hello,21,understands,0.3333
+English (Malaysian),Male,28,hello,21,produces,0.4762
+English (Malaysian),Male,28,hello,21,understands,0.5238
+English (Malaysian),Female,29,hello,14,produces,0.2857
+English (Malaysian),Female,29,hello,14,understands,0.5
+English (Malaysian),Male,29,hello,12,produces,0.3333
+English (Malaysian),Male,29,hello,12,understands,0.5
+English (Malaysian),Female,30,hello,13,produces,0.2308
+English (Malaysian),Female,30,hello,13,understands,0.2308
+English (Malaysian),Male,30,hello,17,produces,0.2941
+English (Malaysian),Male,30,hello,17,understands,0.4118
+English (Malaysian),Female,31,hello,6,produces,0.6667
+English (Malaysian),Female,31,hello,6,understands,0.6667
+English (Malaysian),Male,31,hello,3,produces,0
+English (Malaysian),Male,31,hello,3,understands,0
+English (Malaysian),Female,32,hello,9,produces,0.6667
+English (Malaysian),Female,32,hello,9,understands,0.7778
+English (Malaysian),Male,32,hello,10,produces,0.4
+English (Malaysian),Male,32,hello,10,understands,0.5
+English (Malaysian),Female,33,hello,8,produces,0.375
+English (Malaysian),Female,33,hello,8,understands,0.5
+English (Malaysian),Male,33,hello,12,produces,0.5
+English (Malaysian),Male,33,hello,12,understands,0.5833
+English (Malaysian),Female,34,hello,9,produces,0.2222
+English (Malaysian),Female,34,hello,9,understands,0.2222
+English (Malaysian),Male,34,hello,6,produces,0.3333
+English (Malaysian),Male,34,hello,6,understands,0.5
+English (Malaysian),Female,35,hello,11,produces,0.3636
+English (Malaysian),Female,35,hello,11,understands,0.3636
+English (Malaysian),Male,35,hello,10,produces,0.3
+English (Malaysian),Male,35,hello,10,understands,0.3
+English (Malaysian),Female,36,hello,6,produces,0.6667
+English (Malaysian),Female,36,hello,6,understands,0.6667
+English (Malaysian),Male,36,hello,7,produces,0.4286
+English (Malaysian),Male,36,hello,7,understands,0.4286
 Estonian,Female,16,"halloo, tere",19,produces,0.5
 Estonian,Female,16,"halloo, tere",19,understands,0
 Estonian,Male,16,"halloo, tere",17,produces,0.2941
@@ -2469,14 +3219,130 @@ Estonian,Female,30,"halloo, tere",37,produces,0.9054
 Estonian,Female,30,"halloo, tere",37,understands,0
 Estonian,Male,30,"halloo, tere",34,produces,0.8676
 Estonian,Male,30,"halloo, tere",34,understands,0
-Finnish,Female,12,päivää  ,18,produces,0
-Finnish,Female,12,päivää  ,18,understands,0
-Finnish,Male,12,päivää  ,17,produces,0
-Finnish,Male,12,päivää  ,17,understands,0
-Finnish,Female,15,päivää  ,18,produces,0
-Finnish,Female,15,päivää  ,18,understands,0
-Finnish,Male,15,päivää  ,17,produces,0
-Finnish,Male,15,päivää  ,17,understands,0
+Faroese,Female,8,hall—,9,produces,0
+Faroese,Female,8,hall—,9,understands,0
+Faroese,Male,8,hall—,10,produces,0
+Faroese,Male,8,hall—,10,understands,0
+Faroese,Female,9,hall—,21,produces,0
+Faroese,Female,9,hall—,21,understands,0.1429
+Faroese,Male,9,hall—,26,produces,0
+Faroese,Male,9,hall—,26,understands,0.1154
+Faroese,Female,10,hall—,15,produces,0
+Faroese,Female,10,hall—,15,understands,0.2667
+Faroese,Male,10,hall—,32,produces,0
+Faroese,Male,10,hall—,32,understands,0.375
+Faroese,Female,11,hall—,23,produces,0.087
+Faroese,Female,11,hall—,23,understands,0.2609
+Faroese,Male,11,hall—,25,produces,0.04
+Faroese,Male,11,hall—,25,understands,0.2
+Faroese,Female,12,hall—,21,produces,0.1905
+Faroese,Female,12,hall—,21,understands,0.5238
+Faroese,Male,12,hall—,18,produces,0
+Faroese,Male,12,hall—,18,understands,0.3889
+Faroese,Female,13,hall—,18,produces,0.2222
+Faroese,Female,13,hall—,18,understands,0.4444
+Faroese,Male,13,hall—,23,produces,0.1304
+Faroese,Male,13,hall—,23,understands,0.3478
+Faroese,Female,14,hall—,19,produces,0.2632
+Faroese,Female,14,hall—,19,understands,0.4737
+Faroese,Male,14,hall—,23,produces,0.087
+Faroese,Male,14,hall—,23,understands,0.4348
+Faroese,Female,15,hall—,13,produces,0.3846
+Faroese,Female,15,hall—,13,understands,0.6154
+Faroese,Male,15,hall—,21,produces,0.3333
+Faroese,Male,15,hall—,21,understands,0.6667
+Faroese,Female,16,hall—,20,produces,0.35
+Faroese,Female,16,hall—,20,understands,0.3
+Faroese,Male,16,hall—,18,produces,0.1667
+Faroese,Male,16,hall—,18,understands,0.2222
+Faroese,Female,17,hall—,19,produces,0.4737
+Faroese,Female,17,hall—,19,understands,0.2105
+Faroese,Male,17,hall—,16,produces,0.3125
+Faroese,Male,17,hall—,16,understands,0.1875
+Faroese,Female,18,hall—,20,produces,0.55
+Faroese,Female,18,hall—,20,understands,0.5
+Faroese,Male,18,hall—,24,produces,0.5
+Faroese,Male,18,hall—,24,understands,0.25
+Faroese,Female,19,hall—,10,produces,0.5
+Faroese,Female,19,hall—,10,understands,0
+Faroese,Male,19,hall—,10,produces,0.5
+Faroese,Male,19,hall—,10,understands,0
+Faroese,Female,20,hall—,11,produces,0.3636
+Faroese,Female,20,hall—,11,understands,0
+Faroese,Male,20,hall—,16,produces,0.5625
+Faroese,Male,20,hall—,16,understands,0
+Faroese,Female,21,hall—,25,produces,0.64
+Faroese,Female,21,hall—,25,understands,0
+Faroese,Male,21,hall—,23,produces,0.3913
+Faroese,Male,21,hall—,23,understands,0
+Faroese,Female,22,hall—,25,produces,0.64
+Faroese,Female,22,hall—,25,understands,0
+Faroese,Male,22,hall—,20,produces,0.6
+Faroese,Male,22,hall—,20,understands,0
+Faroese,Female,23,hall—,14,produces,0.8571
+Faroese,Female,23,hall—,14,understands,0
+Faroese,Male,23,hall—,21,produces,0.619
+Faroese,Male,23,hall—,21,understands,0
+Faroese,Female,24,hall—,13,produces,0.9231
+Faroese,Female,24,hall—,13,understands,0
+Faroese,Male,24,hall—,20,produces,0.6
+Faroese,Male,24,hall—,20,understands,0
+Faroese,Female,25,hall—,22,produces,0.6364
+Faroese,Female,25,hall—,22,understands,0
+Faroese,Male,25,hall—,21,produces,0.619
+Faroese,Male,25,hall—,21,understands,0
+Faroese,Female,26,hall—,19,produces,0.7895
+Faroese,Female,26,hall—,19,understands,0
+Faroese,Male,26,hall—,17,produces,0.7059
+Faroese,Male,26,hall—,17,understands,0
+Faroese,Female,27,hall—,29,produces,0.7241
+Faroese,Female,27,hall—,29,understands,0
+Faroese,Male,27,hall—,22,produces,0.7727
+Faroese,Male,27,hall—,22,understands,0
+Faroese,Female,28,hall—,15,produces,0.7333
+Faroese,Female,28,hall—,15,understands,0
+Faroese,Male,28,hall—,22,produces,0.6818
+Faroese,Male,28,hall—,22,understands,0
+Faroese,Female,29,hall—,19,produces,0.8421
+Faroese,Female,29,hall—,19,understands,0
+Faroese,Male,29,hall—,20,produces,0.75
+Faroese,Male,29,hall—,20,understands,0
+Faroese,Female,30,hall—,24,produces,0.875
+Faroese,Female,30,hall—,24,understands,0
+Faroese,Male,30,hall—,25,produces,0.84
+Faroese,Male,30,hall—,25,understands,0
+Faroese,Female,31,hall—,19,produces,0.8947
+Faroese,Female,31,hall—,19,understands,0
+Faroese,Male,31,hall—,19,produces,0.7368
+Faroese,Male,31,hall—,19,understands,0
+Faroese,Female,32,hall—,16,produces,0.875
+Faroese,Female,32,hall—,16,understands,0
+Faroese,Male,32,hall—,26,produces,0.7308
+Faroese,Male,32,hall—,26,understands,0
+Faroese,Female,33,hall—,10,produces,0.8
+Faroese,Female,33,hall—,10,understands,0
+Faroese,Male,33,hall—,21,produces,0.7619
+Faroese,Male,33,hall—,21,understands,0
+Faroese,Female,34,hall—,20,produces,0.85
+Faroese,Female,34,hall—,20,understands,0
+Faroese,Male,34,hall—,22,produces,0.8182
+Faroese,Male,34,hall—,22,understands,0
+Faroese,Female,35,hall—,15,produces,0.8667
+Faroese,Female,35,hall—,15,understands,0
+Faroese,Male,35,hall—,11,produces,0.8182
+Faroese,Male,35,hall—,11,understands,0
+Faroese,Female,36,hall—,8,produces,1
+Faroese,Female,36,hall—,8,understands,0
+Faroese,Male,36,hall—,9,produces,0.8889
+Faroese,Male,36,hall—,9,understands,0
+Finnish,Female,12,päivää,18,produces,0
+Finnish,Female,12,päivää,18,understands,0
+Finnish,Male,12,päivää,17,produces,0
+Finnish,Male,12,päivää,17,understands,0
+Finnish,Female,15,päivää,18,produces,0
+Finnish,Female,15,päivää,18,understands,0
+Finnish,Male,15,päivää,17,produces,0
+Finnish,Male,15,päivää,17,understands,0
 Finnish,Female,18,päivää,18,produces,0.0556
 Finnish,Female,18,päivää,18,understands,0
 Finnish,Male,18,päivää,17,produces,0.1176
@@ -2485,66 +3351,106 @@ Finnish,Female,24,päivää,18,produces,0.5556
 Finnish,Female,24,päivää,18,understands,0
 Finnish,Male,24,päivää,17,produces,0.5882
 Finnish,Male,24,päivää,17,understands,0
-French (French),Female,16,allo,25,produces,0.52
-French (French),Female,16,allo,25,understands,0
-French (French),Male,16,allo,26,produces,0.3462
-French (French),Male,16,allo,26,understands,0
-French (French),Female,17,allo,25,produces,0.44
-French (French),Female,17,allo,25,understands,0
-French (French),Male,17,allo,23,produces,0.6087
-French (French),Male,17,allo,23,understands,0
-French (French),Female,18,allo,27,produces,0.5556
-French (French),Female,18,allo,27,understands,0
-French (French),Male,18,allo,21,produces,0.3333
-French (French),Male,18,allo,21,understands,0
-French (French),Female,19,allo,22,produces,0.5909
-French (French),Female,19,allo,22,understands,0
-French (French),Male,19,allo,17,produces,0.6471
-French (French),Male,19,allo,17,understands,0
-French (French),Female,20,allo,42,produces,0.7619
-French (French),Female,20,allo,42,understands,0
-French (French),Male,20,allo,35,produces,0.6286
-French (French),Male,20,allo,35,understands,0
-French (French),Female,21,allo,55,produces,0.7636
-French (French),Female,21,allo,55,understands,0
-French (French),Male,21,allo,38,produces,0.6316
-French (French),Male,21,allo,38,understands,0
-French (French),Female,22,allo,60,produces,0.8
-French (French),Female,22,allo,60,understands,0
-French (French),Male,22,allo,38,produces,0.7368
-French (French),Male,22,allo,38,understands,0
-French (French),Female,23,allo,40,produces,0.775
-French (French),Female,23,allo,40,understands,0
-French (French),Male,23,allo,44,produces,0.7273
-French (French),Male,23,allo,44,understands,0
-French (French),Female,24,allo,65,produces,0.8462
-French (French),Female,24,allo,65,understands,0
-French (French),Male,24,allo,72,produces,0.8611
-French (French),Male,24,allo,72,understands,0
-French (French),Female,25,allo,39,produces,0.8205
-French (French),Female,25,allo,39,understands,0
-French (French),Male,25,allo,46,produces,0.8696
-French (French),Male,25,allo,46,understands,0
-French (French),Female,26,allo,31,produces,0.9355
-French (French),Female,26,allo,31,understands,0
-French (French),Male,26,allo,32,produces,0.875
-French (French),Male,26,allo,32,understands,0
-French (French),Female,27,allo,28,produces,0.8214
-French (French),Female,27,allo,28,understands,0
-French (French),Male,27,allo,24,produces,0.5833
-French (French),Male,27,allo,24,understands,0
-French (French),Female,28,allo,33,produces,0.8182
-French (French),Female,28,allo,33,understands,0
-French (French),Male,28,allo,43,produces,0.7907
-French (French),Male,28,allo,43,understands,0
-French (French),Female,29,allo,32,produces,0.8438
-French (French),Female,29,allo,32,understands,0
-French (French),Male,29,allo,33,produces,0.7273
-French (French),Male,29,allo,33,understands,0
-French (French),Female,30,allo,34,produces,0.8235
-French (French),Female,30,allo,34,understands,0
-French (French),Male,30,allo,33,produces,0.697
-French (French),Male,30,allo,33,understands,0
+French (French),Female,12,bonjour,5,produces,0
+French (French),Female,12,bonjour,5,understands,0.6
+French (French),Male,12,bonjour,2,produces,0
+French (French),Male,12,bonjour,2,understands,0.5
+French (French),Female,13,bonjour,4,produces,0.25
+French (French),Female,13,bonjour,4,understands,0.5
+French (French),Male,13,bonjour,2,produces,0
+French (French),Male,13,bonjour,2,understands,1
+French (French),Female,14,bonjour,1,produces,0
+French (French),Female,14,bonjour,1,understands,0
+French (French),Male,14,bonjour,1,produces,0
+French (French),Male,14,bonjour,1,understands,0
+French (French),Female,15,bonjour,6,produces,0.1667
+French (French),Female,15,bonjour,6,understands,0.8333
+French (French),Male,15,bonjour,3,produces,0.3333
+French (French),Male,15,bonjour,3,understands,1
+French (French),Female,16,"bonjour, allo",31,produces,0.4194
+French (French),Female,16,"bonjour, allo",31,understands,0.1613
+French (French),Male,16,"bonjour, allo",28,produces,0.3214
+French (French),Male,16,"bonjour, allo",28,understands,0.0357
+French (French),Female,17,"bonjour, allo",26,produces,0.4231
+French (French),Female,17,"bonjour, allo",26,understands,0.0385
+French (French),Male,17,"bonjour, allo",25,produces,0.6
+French (French),Male,17,"bonjour, allo",25,understands,0.04
+French (French),Female,18,"bonjour, allo",29,produces,0.5517
+French (French),Female,18,"bonjour, allo",29,understands,0.069
+French (French),Male,18,"bonjour, allo",27,produces,0.2593
+French (French),Male,18,"bonjour, allo",27,understands,0.2963
+French (French),Female,19,"bonjour, allo",44,produces,0.5682
+French (French),Female,19,"bonjour, allo",44,understands,0.1818
+French (French),Male,19,"bonjour, allo",32,produces,0.6875
+French (French),Male,19,"bonjour, allo",32,understands,0.125
+French (French),Female,20,"bonjour, allo",123,produces,0.8049
+French (French),Female,20,"bonjour, allo",123,understands,0.0488
+French (French),Male,20,"bonjour, allo",119,produces,0.6723
+French (French),Male,20,"bonjour, allo",119,understands,0.0252
+French (French),Female,21,"bonjour, allo",66,produces,0.803
+French (French),Female,21,"bonjour, allo",66,understands,0.1364
+French (French),Male,21,"bonjour, allo",42,produces,0.6429
+French (French),Male,21,"bonjour, allo",42,understands,0.1429
+French (French),Female,22,"bonjour, allo",62,produces,0.8065
+French (French),Female,22,"bonjour, allo",62,understands,0.1452
+French (French),Male,22,"bonjour, allo",39,produces,0.8205
+French (French),Male,22,"bonjour, allo",39,understands,0.1282
+French (French),Female,23,"bonjour, allo",41,produces,0.8293
+French (French),Female,23,"bonjour, allo",41,understands,0.1463
+French (French),Male,23,"bonjour, allo",42,produces,0.8095
+French (French),Male,23,"bonjour, allo",42,understands,0.0952
+French (French),Female,24,"bonjour, allo",69,produces,0.8841
+French (French),Female,24,"bonjour, allo",69,understands,0.0435
+French (French),Male,24,"bonjour, allo",80,produces,0.8625
+French (French),Male,24,"bonjour, allo",80,understands,0.1
+French (French),Female,25,"bonjour, allo",42,produces,0.8333
+French (French),Female,25,"bonjour, allo",42,understands,0.119
+French (French),Male,25,"bonjour, allo",50,produces,0.88
+French (French),Male,25,"bonjour, allo",50,understands,0.1
+French (French),Female,26,allo,32,produces,0.9375
+French (French),Female,26,allo,32,understands,0
+French (French),Male,26,"bonjour, allo",34,produces,0.9412
+French (French),Male,26,"bonjour, allo",34,understands,0.0294
+French (French),Female,27,"bonjour, allo",37,produces,0.8108
+French (French),Female,27,"bonjour, allo",37,understands,0.2703
+French (French),Male,27,"bonjour, allo",23,produces,0.7826
+French (French),Male,27,"bonjour, allo",23,understands,0.2174
+French (French),Female,28,"bonjour, allo",35,produces,0.9429
+French (French),Female,28,"bonjour, allo",35,understands,0.1714
+French (French),Male,28,"bonjour, allo",46,produces,0.8696
+French (French),Male,28,"bonjour, allo",46,understands,0.1304
+French (French),Female,29,"bonjour, allo",33,produces,0.8788
+French (French),Female,29,"bonjour, allo",33,understands,0.0909
+French (French),Male,29,"bonjour, allo",31,produces,0.9355
+French (French),Male,29,"bonjour, allo",31,understands,0.0645
+French (French),Female,30,"bonjour, allo",38,produces,0.9211
+French (French),Female,30,"bonjour, allo",38,understands,0.1053
+French (French),Male,30,"bonjour, allo",35,produces,0.9143
+French (French),Male,30,"bonjour, allo",35,understands,0.1714
+French (French),Female,31,"bonjour, allo",15,produces,0.8
+French (French),Female,31,"bonjour, allo",15,understands,0.7333
+French (French),Male,31,"bonjour, allo",11,produces,0.7273
+French (French),Male,31,"bonjour, allo",11,understands,0.4545
+French (French),Female,32,"bonjour, allo",12,produces,0.9167
+French (French),Female,32,"bonjour, allo",12,understands,0.1667
+French (French),Male,32,"bonjour, allo",16,produces,0.75
+French (French),Male,32,"bonjour, allo",16,understands,0.125
+French (French),Female,33,"bonjour, allo",14,produces,0.8571
+French (French),Female,33,"bonjour, allo",14,understands,0.2143
+French (French),Male,33,allo,12,produces,0.9167
+French (French),Male,33,allo,12,understands,0
+French (French),Female,34,"bonjour, allo",13,produces,0.7692
+French (French),Female,34,"bonjour, allo",13,understands,0.3077
+French (French),Male,34,"bonjour, allo",18,produces,0.8333
+French (French),Male,34,"bonjour, allo",18,understands,0.2778
+French (French),Female,35,"bonjour, allo",4,produces,0.5
+French (French),Female,35,"bonjour, allo",4,understands,0.25
+French (French),Male,35,"bonjour, allo",7,produces,0.7143
+French (French),Male,35,"bonjour, allo",7,understands,0.4286
+French (French),Female,36,bonjour,2,produces,1
+French (French),Female,36,bonjour,2,understands,1
+French (French),Male,36,"bonjour, allo",6,produces,0.5
+French (French),Male,36,"bonjour, allo",6,understands,0.8333
 French (Quebecois),Female,8,allo,49,produces,0
 French (Quebecois),Female,8,allo,49,understands,0.3878
 French (Quebecois),Male,8,allo,54,produces,0
@@ -2595,24 +3501,24 @@ French (Quebecois),Male,19,allô,50,produces,0.58
 French (Quebecois),Male,19,allô,50,understands,0
 French (Quebecois),Female,20,allô,90,produces,0.7444
 French (Quebecois),Female,20,allô,90,understands,0
-French (Quebecois),Male,20,allô,105,produces,0.6857
-French (Quebecois),Male,20,allô,105,understands,0
+French (Quebecois),Male,20,allô,104,produces,0.6827
+French (Quebecois),Male,20,allô,104,understands,0
 French (Quebecois),Female,21,allô,56,produces,0.8393
 French (Quebecois),Female,21,allô,56,understands,0
 French (Quebecois),Male,21,allô,53,produces,0.8302
 French (Quebecois),Male,21,allô,53,understands,0
-French (Quebecois),Female,22,allô,42,produces,0.9048
-French (Quebecois),Female,22,allô,42,understands,0
-French (Quebecois),Male,22,allô,44,produces,0.6818
-French (Quebecois),Male,22,allô,44,understands,0
+French (Quebecois),Female,22,allô,43,produces,0.907
+French (Quebecois),Female,22,allô,43,understands,0
+French (Quebecois),Male,22,allô,43,produces,0.6744
+French (Quebecois),Male,22,allô,43,understands,0
 French (Quebecois),Female,23,allô,41,produces,0.9024
 French (Quebecois),Female,23,allô,41,understands,0
 French (Quebecois),Male,23,allô,45,produces,0.8889
 French (Quebecois),Male,23,allô,45,understands,0
-French (Quebecois),Female,24,allô,56,produces,0.8571
-French (Quebecois),Female,24,allô,56,understands,0
-French (Quebecois),Male,24,allô,76,produces,0.8684
-French (Quebecois),Male,24,allô,76,understands,0
+French (Quebecois),Female,24,allô,55,produces,0.8545
+French (Quebecois),Female,24,allô,55,understands,0
+French (Quebecois),Male,24,allô,77,produces,0.8701
+French (Quebecois),Male,24,allô,77,understands,0
 French (Quebecois),Female,25,allô,41,produces,0.9268
 French (Quebecois),Female,25,allô,41,understands,0
 French (Quebecois),Male,25,allô,45,produces,0.6889
@@ -2637,58 +3543,106 @@ French (Quebecois),Female,30,allô,41,produces,0.8293
 French (Quebecois),Female,30,allô,41,understands,0
 French (Quebecois),Male,30,allô,59,produces,0.9153
 French (Quebecois),Male,30,allô,59,understands,0
-German,Female,18,hallo,40,produces,0.65
-German,Female,18,hallo,40,understands,0
-German,Male,18,hallo,45,produces,0.4889
-German,Male,18,hallo,45,understands,0
-German,Female,19,hallo,39,produces,0.6154
-German,Female,19,hallo,39,understands,0
-German,Male,19,hallo,40,produces,0.675
-German,Male,19,hallo,40,understands,0
-German,Female,20,hallo,39,produces,0.6667
-German,Female,20,hallo,39,understands,0
-German,Male,20,hallo,57,produces,0.614
-German,Male,20,hallo,57,understands,0
-German,Female,21,hallo,38,produces,0.7632
-German,Female,21,hallo,38,understands,0
-German,Male,21,hallo,39,produces,0.7692
-German,Male,21,hallo,39,understands,0
-German,Female,22,hallo,52,produces,0.8269
-German,Female,22,hallo,52,understands,0
-German,Male,22,hallo,43,produces,0.7674
-German,Male,22,hallo,43,understands,0
-German,Female,23,hallo,45,produces,0.8889
-German,Female,23,hallo,45,understands,0
-German,Male,23,hallo,50,produces,0.9
-German,Male,23,hallo,50,understands,0
-German,Female,24,hallo,48,produces,0.9583
-German,Female,24,hallo,48,understands,0
-German,Male,24,hallo,55,produces,0.8182
-German,Male,24,hallo,55,understands,0
-German,Female,25,hallo,28,produces,0.8929
-German,Female,25,hallo,28,understands,0
-German,Male,25,hallo,67,produces,0.806
-German,Male,25,hallo,67,understands,0
-German,Female,26,hallo,42,produces,0.9524
-German,Female,26,hallo,42,understands,0
-German,Male,26,hallo,50,produces,0.88
-German,Male,26,hallo,50,understands,0
-German,Female,27,hallo,41,produces,0.9756
-German,Female,27,hallo,41,understands,0
-German,Male,27,hallo,48,produces,0.9167
-German,Male,27,hallo,48,understands,0
-German,Female,28,hallo,35,produces,1
-German,Female,28,hallo,35,understands,0
-German,Male,28,hallo,58,produces,0.9138
-German,Male,28,hallo,58,understands,0
-German,Female,29,hallo,50,produces,1
-German,Female,29,hallo,50,understands,0
-German,Male,29,hallo,39,produces,0.9487
-German,Male,29,hallo,39,understands,0
-German,Female,30,hallo,54,produces,1
-German,Female,30,hallo,54,understands,0
-German,Male,30,hallo,39,produces,0.9487
-German,Male,30,hallo,39,understands,0
+German (German),Female,12,hallo,3,produces,0.3333
+German (German),Female,12,hallo,3,understands,1
+German (German),Male,12,hallo,2,produces,0
+German (German),Male,12,hallo,2,understands,0.5
+German (German),Female,13,hallo,2,produces,0
+German (German),Female,13,hallo,2,understands,0
+German (German),Male,13,hallo,1,produces,0
+German (German),Male,13,hallo,1,understands,1
+German (German),Female,14,hallo,2,produces,0.5
+German (German),Female,14,hallo,2,understands,1
+German (German),Male,14,hallo,1,produces,0
+German (German),Male,14,hallo,1,understands,1
+German (German),Female,15,hallo,1,produces,0
+German (German),Female,15,hallo,1,understands,1
+German (German),Male,15,hallo,3,produces,0
+German (German),Male,15,hallo,3,understands,0.6667
+German (German),Female,16,hallo,5,produces,0.2
+German (German),Female,16,hallo,5,understands,0.8
+German (German),Male,16,hallo,1,produces,0
+German (German),Male,16,hallo,1,understands,1
+German (German),Female,17,hallo,2,produces,0.5
+German (German),Female,17,hallo,2,understands,1
+German (German),Male,17,hallo,1,produces,0
+German (German),Male,17,hallo,1,understands,1
+German (German),Female,18,hallo,45,produces,0.6444
+German (German),Female,18,hallo,45,understands,0.0444
+German (German),Male,18,hallo,52,produces,0.4615
+German (German),Male,18,hallo,52,understands,0.0192
+German (German),Female,19,hallo,46,produces,0.6087
+German (German),Female,19,hallo,46,understands,0.087
+German (German),Male,19,hallo,46,produces,0.6957
+German (German),Male,19,hallo,46,understands,0.0652
+German (German),Female,20,hallo,42,produces,0.6429
+German (German),Female,20,hallo,42,understands,0.0476
+German (German),Male,20,hallo,63,produces,0.619
+German (German),Male,20,hallo,63,understands,0.0317
+German (German),Female,21,hallo,41,produces,0.7317
+German (German),Female,21,hallo,41,understands,0.0488
+German (German),Male,21,hallo,45,produces,0.7333
+German (German),Male,21,hallo,45,understands,0.0444
+German (German),Female,22,hallo,61,produces,0.8361
+German (German),Female,22,hallo,61,understands,0.082
+German (German),Male,22,hallo,47,produces,0.7447
+German (German),Male,22,hallo,47,understands,0
+German (German),Female,23,hallo,54,produces,0.8704
+German (German),Female,23,hallo,54,understands,0.0556
+German (German),Male,23,hallo,55,produces,0.8727
+German (German),Male,23,hallo,55,understands,0
+German (German),Female,24,hallo,59,produces,0.9322
+German (German),Female,24,hallo,59,understands,0.1017
+German (German),Male,24,hallo,63,produces,0.8254
+German (German),Male,24,hallo,63,understands,0.0476
+German (German),Female,25,hallo,41,produces,0.9268
+German (German),Female,25,hallo,41,understands,0.1951
+German (German),Male,25,hallo,78,produces,0.8205
+German (German),Male,25,hallo,78,understands,0.0641
+German (German),Female,26,hallo,57,produces,0.9123
+German (German),Female,26,hallo,57,understands,0.1754
+German (German),Male,26,hallo,57,produces,0.8596
+German (German),Male,26,hallo,57,understands,0.0526
+German (German),Female,27,hallo,57,produces,0.9474
+German (German),Female,27,hallo,57,understands,0.1579
+German (German),Male,27,hallo,58,produces,0.8966
+German (German),Male,27,hallo,58,understands,0.1034
+German (German),Female,28,hallo,41,produces,0.9756
+German (German),Female,28,hallo,41,understands,0.122
+German (German),Male,28,hallo,63,produces,0.9206
+German (German),Male,28,hallo,63,understands,0.0317
+German (German),Female,29,hallo,68,produces,1
+German (German),Female,29,hallo,68,understands,0.1029
+German (German),Male,29,hallo,44,produces,0.9318
+German (German),Male,29,hallo,44,understands,0.0455
+German (German),Female,30,hallo,60,produces,1
+German (German),Female,30,hallo,60,understands,0.0333
+German (German),Male,30,hallo,47,produces,0.9362
+German (German),Male,30,hallo,47,understands,0.0851
+German (German),Female,31,hallo,3,produces,0.6667
+German (German),Female,31,hallo,3,understands,1
+German (German),Male,31,hallo,3,produces,1
+German (German),Male,31,hallo,3,understands,1
+German (German),Female,32,hallo,1,produces,1
+German (German),Female,32,hallo,1,understands,1
+German (German),Male,32,hallo,6,produces,0.8333
+German (German),Male,32,hallo,6,understands,1
+German (German),Female,33,hallo,4,produces,0.75
+German (German),Female,33,hallo,4,understands,1
+German (German),Male,33,hallo,2,produces,1
+German (German),Male,33,hallo,2,understands,1
+German (German),Female,34,hallo,3,produces,1
+German (German),Female,34,hallo,3,understands,1
+German (German),Male,34,hallo,2,produces,1
+German (German),Male,34,hallo,2,understands,1
+German (German),Female,35,hallo,3,produces,1
+German (German),Female,35,hallo,3,understands,1
+German (German),Male,35,hallo,3,produces,1
+German (German),Male,35,hallo,3,understands,1
+German (German),Female,36,hallo,4,produces,1
+German (German),Female,36,hallo,4,understands,1
+German (German),Male,36,hallo,4,produces,0.75
+German (German),Male,36,hallo,4,understands,1
 Greek (Cypriot),Female,18,χαλόου,24,produces,0.1667
 Greek (Cypriot),Female,18,χαλόου,24,understands,0
 Greek (Cypriot),Male,18,χαλόου,21,produces,0.0952
@@ -2709,62 +3663,62 @@ Greek (Cypriot),Female,30,χαλόου,12,produces,0.25
 Greek (Cypriot),Female,30,χαλόου,12,understands,0
 Greek (Cypriot),Male,30,χαλόου,22,produces,0.2727
 Greek (Cypriot),Male,30,χαλόου,22,understands,0
-Hungarian,Female,16,"csókolom, halló, helló",11,produces,0.0909
-Hungarian,Female,16,"csókolom, halló, helló",11,understands,0
-Hungarian,Male,16,"csókolom, halló, helló",10,produces,0.1667
-Hungarian,Male,16,"csókolom, halló, helló",10,understands,0
-Hungarian,Female,17,"csókolom, halló, helló",11,produces,0.3333
-Hungarian,Female,17,"csókolom, halló, helló",11,understands,0
-Hungarian,Male,17,"csókolom, halló, helló",7,produces,0.1429
-Hungarian,Male,17,"csókolom, halló, helló",7,understands,0
+Hungarian,Female,16,"csókolom, halló, helló",8,produces,0
+Hungarian,Female,16,"csókolom, halló, helló",8,understands,0
+Hungarian,Male,16,"csókolom, halló, helló",7,produces,0.1429
+Hungarian,Male,16,"csókolom, halló, helló",7,understands,0
+Hungarian,Female,17,"csókolom, halló, helló",14,produces,0.3333
+Hungarian,Female,17,"csókolom, halló, helló",14,understands,0
+Hungarian,Male,17,"csókolom, halló, helló",10,produces,0.1667
+Hungarian,Male,17,"csókolom, halló, helló",10,understands,0
 Hungarian,Female,18,"csókolom, halló, helló",9,produces,0.2963
 Hungarian,Female,18,"csókolom, halló, helló",9,understands,0
 Hungarian,Male,18,"csókolom, halló, helló",9,produces,0.2222
 Hungarian,Male,18,"csókolom, halló, helló",9,understands,0
-Hungarian,Female,19,"csókolom, halló, helló",13,produces,0.3077
-Hungarian,Female,19,"csókolom, halló, helló",13,understands,0
-Hungarian,Male,19,"csókolom, halló, helló",12,produces,0.4722
-Hungarian,Male,19,"csókolom, halló, helló",12,understands,0
-Hungarian,Female,20,"csókolom, halló, helló",12,produces,0.3611
-Hungarian,Female,20,"csókolom, halló, helló",12,understands,0
-Hungarian,Male,20,"csókolom, halló, helló",6,produces,0.1111
-Hungarian,Male,20,"csókolom, halló, helló",6,understands,0
+Hungarian,Female,19,"csókolom, halló, helló",9,produces,0.2963
+Hungarian,Female,19,"csókolom, halló, helló",9,understands,0
+Hungarian,Male,19,"csókolom, halló, helló",7,produces,0.381
+Hungarian,Male,19,"csókolom, halló, helló",7,understands,0
+Hungarian,Female,20,"csókolom, halló, helló",16,produces,0.3542
+Hungarian,Female,20,"csókolom, halló, helló",16,understands,0
+Hungarian,Male,20,"csókolom, halló, helló",11,produces,0.3333
+Hungarian,Male,20,"csókolom, halló, helló",11,understands,0
 Hungarian,Female,21,"csókolom, halló, helló",16,produces,0.5208
 Hungarian,Female,21,"csókolom, halló, helló",16,understands,0
 Hungarian,Male,21,"csókolom, halló, helló",20,produces,0.4667
 Hungarian,Male,21,"csókolom, halló, helló",20,understands,0
-Hungarian,Female,22,"csókolom, halló, helló",14,produces,0.3571
-Hungarian,Female,22,"csókolom, halló, helló",14,understands,0
-Hungarian,Male,22,"csókolom, halló, helló",13,produces,0.3077
-Hungarian,Male,22,"csókolom, halló, helló",13,understands,0
-Hungarian,Female,23,"csókolom, halló, helló",6,produces,0.3333
-Hungarian,Female,23,"csókolom, halló, helló",6,understands,0
-Hungarian,Male,23,"csókolom, halló, helló",12,produces,0.2778
-Hungarian,Male,23,"csókolom, halló, helló",12,understands,0
+Hungarian,Female,22,"csókolom, halló, helló",10,produces,0.3667
+Hungarian,Female,22,"csókolom, halló, helló",10,understands,0
+Hungarian,Male,22,"csókolom, halló, helló",10,produces,0.3333
+Hungarian,Male,22,"csókolom, halló, helló",10,understands,0
+Hungarian,Female,23,"csókolom, halló, helló",10,produces,0.3333
+Hungarian,Female,23,"csókolom, halló, helló",10,understands,0
+Hungarian,Male,23,"csókolom, halló, helló",15,produces,0.2667
+Hungarian,Male,23,"csókolom, halló, helló",15,understands,0
 Hungarian,Female,24,"csókolom, halló, helló",14,produces,0.4286
 Hungarian,Female,24,"csókolom, halló, helló",14,understands,0
 Hungarian,Male,24,"csókolom, halló, helló",24,produces,0.4028
 Hungarian,Male,24,"csókolom, halló, helló",24,understands,0
-Hungarian,Female,25,"csókolom, halló, helló",17,produces,0.549
-Hungarian,Female,25,"csókolom, halló, helló",17,understands,0
-Hungarian,Male,25,"csókolom, halló, helló",25,produces,0.6667
-Hungarian,Male,25,"csókolom, halló, helló",25,understands,0
-Hungarian,Female,26,"csókolom, halló, helló",9,produces,0.5926
-Hungarian,Female,26,"csókolom, halló, helló",9,understands,0
-Hungarian,Male,26,"csókolom, halló, helló",14,produces,0.5
-Hungarian,Male,26,"csókolom, halló, helló",14,understands,0
+Hungarian,Female,25,"csókolom, halló, helló",13,produces,0.5385
+Hungarian,Female,25,"csókolom, halló, helló",13,understands,0
+Hungarian,Male,25,"csókolom, halló, helló",13,produces,0.6667
+Hungarian,Male,25,"csókolom, halló, helló",13,understands,0
+Hungarian,Female,26,"csókolom, halló, helló",13,produces,0.5897
+Hungarian,Female,26,"csókolom, halló, helló",13,understands,0
+Hungarian,Male,26,"csókolom, halló, helló",26,produces,0.5769
+Hungarian,Male,26,"csókolom, halló, helló",26,understands,0
 Hungarian,Female,27,"csókolom, halló, helló",13,produces,0.6154
 Hungarian,Female,27,"csókolom, halló, helló",13,understands,0
 Hungarian,Male,27,"csókolom, halló, helló",13,produces,0.4872
 Hungarian,Male,27,"csókolom, halló, helló",13,understands,0
-Hungarian,Female,28,"csókolom, halló, helló",11,produces,0.697
-Hungarian,Female,28,"csókolom, halló, helló",11,understands,0
-Hungarian,Male,28,"csókolom, halló, helló",18,produces,0.537
-Hungarian,Male,28,"csókolom, halló, helló",18,understands,0
-Hungarian,Female,29,"csókolom, halló, helló",8,produces,0.5833
-Hungarian,Female,29,"csókolom, halló, helló",8,understands,0
-Hungarian,Male,29,"csókolom, halló, helló",4,produces,0.5
-Hungarian,Male,29,"csókolom, halló, helló",4,understands,0
+Hungarian,Female,28,"csókolom, halló, helló",10,produces,0.7
+Hungarian,Female,28,"csókolom, halló, helló",10,understands,0
+Hungarian,Male,28,"csókolom, halló, helló",15,produces,0.4889
+Hungarian,Male,28,"csókolom, halló, helló",15,understands,0
+Hungarian,Female,29,"csókolom, halló, helló",9,produces,0.5926
+Hungarian,Female,29,"csókolom, halló, helló",9,understands,0
+Hungarian,Male,29,"csókolom, halló, helló",7,produces,0.619
+Hungarian,Male,29,"csókolom, halló, helló",7,understands,0
 Hungarian,Female,30,"csókolom, halló, helló",3,produces,0.6667
 Hungarian,Female,30,"csókolom, halló, helló",3,understands,0
 Hungarian,Male,30,"csókolom, halló, helló",15,produces,0.6667
@@ -2849,122 +3803,122 @@ Italian,Female,7,pronto chi è? (al tel),2,produces,0
 Italian,Female,7,pronto chi è? (al tel),2,understands,0.5
 Italian,Male,7,pronto chi è? (al tel),3,produces,0
 Italian,Male,7,pronto chi è? (al tel),3,understands,0
-Italian,Female,8,pronto chi è? (al tel),18,produces,0
-Italian,Female,8,pronto chi è? (al tel),18,understands,0.1111
+Italian,Female,8,pronto chi è? (al tel),19,produces,0
+Italian,Female,8,pronto chi è? (al tel),19,understands,0.1053
 Italian,Male,8,pronto chi è? (al tel),16,produces,0
 Italian,Male,8,pronto chi è? (al tel),16,understands,0.1875
 Italian,Female,9,pronto chi è? (al tel),14,produces,0.0714
 Italian,Female,9,pronto chi è? (al tel),14,understands,0.3571
 Italian,Male,9,pronto chi è? (al tel),24,produces,0
 Italian,Male,9,pronto chi è? (al tel),24,understands,0.3333
-Italian,Female,10,pronto chi è? (al tel),29,produces,0
-Italian,Female,10,pronto chi è? (al tel),29,understands,0.3448
+Italian,Female,10,pronto chi è? (al tel),30,produces,0
+Italian,Female,10,pronto chi è? (al tel),30,understands,0.3333
 Italian,Male,10,pronto chi è? (al tel),24,produces,0
 Italian,Male,10,pronto chi è? (al tel),24,understands,0.3333
 Italian,Female,11,pronto chi è? (al tel),22,produces,0
 Italian,Female,11,pronto chi è? (al tel),22,understands,0.5455
 Italian,Male,11,pronto chi è? (al tel),20,produces,0
 Italian,Male,11,pronto chi è? (al tel),20,understands,0.4
-Italian,Female,12,pronto chi è? (al tel),29,produces,0.069
-Italian,Female,12,pronto chi è? (al tel),29,understands,0.7241
-Italian,Male,12,pronto chi è? (al tel),40,produces,0.1
-Italian,Male,12,pronto chi è? (al tel),40,understands,0.75
-Italian,Female,13,pronto chi è? (al tel),22,produces,0.0455
-Italian,Female,13,pronto chi è? (al tel),22,understands,0.5909
-Italian,Male,13,pronto chi è? (al tel),26,produces,0.1538
-Italian,Male,13,pronto chi è? (al tel),26,understands,0.6923
-Italian,Female,14,pronto chi è? (al tel),21,produces,0.1429
-Italian,Female,14,pronto chi è? (al tel),21,understands,0.8095
-Italian,Male,14,pronto chi è? (al tel),19,produces,0.2105
-Italian,Male,14,pronto chi è? (al tel),19,understands,0.6316
-Italian,Female,15,pronto chi è? (al tel),30,produces,0.2667
-Italian,Female,15,pronto chi è? (al tel),30,understands,0.6667
-Italian,Male,15,pronto chi è? (al tel),38,produces,0.1842
-Italian,Male,15,pronto chi è? (al tel),38,understands,0.6842
-Italian,Female,16,pronto chi è? (al tel),27,produces,0.1111
-Italian,Female,16,pronto chi è? (al tel),27,understands,0.6296
-Italian,Male,16,pronto chi è? (al tel),29,produces,0.1724
-Italian,Male,16,pronto chi è? (al tel),29,understands,0.6552
-Italian,Female,17,pronto chi è? (al tel),20,produces,0.5
-Italian,Female,17,pronto chi è? (al tel),20,understands,0.85
-Italian,Male,17,pronto chi è? (al tel),28,produces,0.2143
-Italian,Male,17,pronto chi è? (al tel),28,understands,0.6071
-Italian,Female,18,"pronto chi è? (al tel), pronto/chi è?",37,produces,0.5946
-Italian,Female,18,"pronto chi è? (al tel), pronto/chi è?",37,understands,0.3784
-Italian,Male,18,"pronto chi è? (al tel), pronto/chi è?",38,produces,0.3421
-Italian,Male,18,"pronto chi è? (al tel), pronto/chi è?",38,understands,0.5789
-Italian,Female,19,"pronto chi è? (al tel), pronto/chi è?",26,produces,0.3462
-Italian,Female,19,"pronto chi è? (al tel), pronto/chi è?",26,understands,0.1538
-Italian,Male,19,"pronto chi è? (al tel), pronto/chi è?",32,produces,0.5625
-Italian,Male,19,"pronto chi è? (al tel), pronto/chi è?",32,understands,0.4062
-Italian,Female,20,"pronto chi è? (al tel), pronto/chi è?",41,produces,0.4878
-Italian,Female,20,"pronto chi è? (al tel), pronto/chi è?",41,understands,0.1463
-Italian,Male,20,"pronto chi è? (al tel), pronto/chi è?",42,produces,0.4286
-Italian,Male,20,"pronto chi è? (al tel), pronto/chi è?",42,understands,0.2619
-Italian,Female,21,"pronto chi è? (al tel), pronto/chi è?",29,produces,0.6552
-Italian,Female,21,"pronto chi è? (al tel), pronto/chi è?",29,understands,0.1724
-Italian,Male,21,"pronto chi è? (al tel), pronto/chi è?",38,produces,0.5789
-Italian,Male,21,"pronto chi è? (al tel), pronto/chi è?",38,understands,0.1842
-Italian,Female,22,"pronto chi è? (al tel), pronto/chi è?",39,produces,0.5897
-Italian,Female,22,"pronto chi è? (al tel), pronto/chi è?",39,understands,0.3077
-Italian,Male,22,"pronto chi è? (al tel), pronto/chi è?",38,produces,0.6053
-Italian,Male,22,"pronto chi è? (al tel), pronto/chi è?",38,understands,0.1579
-Italian,Female,23,"pronto chi è? (al tel), pronto/chi è?",34,produces,0.8235
-Italian,Female,23,"pronto chi è? (al tel), pronto/chi è?",34,understands,0.2059
-Italian,Male,23,"pronto chi è? (al tel), pronto/chi è?",36,produces,0.6944
-Italian,Male,23,"pronto chi è? (al tel), pronto/chi è?",36,understands,0.2222
-Italian,Female,24,"pronto chi è? (al tel), pronto/chi è?",46,produces,0.6522
-Italian,Female,24,"pronto chi è? (al tel), pronto/chi è?",46,understands,0.1087
-Italian,Male,24,"pronto chi è? (al tel), pronto/chi è?",39,produces,0.8205
-Italian,Male,24,"pronto chi è? (al tel), pronto/chi è?",39,understands,0.1538
-Italian,Female,25,pronto/chi è?,23,produces,0.7391
-Italian,Female,25,pronto/chi è?,23,understands,0
-Italian,Male,25,pronto/chi è?,16,produces,0.625
-Italian,Male,25,pronto/chi è?,16,understands,0
-Italian,Female,26,pronto/chi è?,19,produces,0.8421
-Italian,Female,26,pronto/chi è?,19,understands,0
-Italian,Male,26,pronto/chi è?,22,produces,0.7727
-Italian,Male,26,pronto/chi è?,22,understands,0
-Italian,Female,27,pronto/chi è?,20,produces,0.8
-Italian,Female,27,pronto/chi è?,20,understands,0
-Italian,Male,27,pronto/chi è?,23,produces,0.6522
-Italian,Male,27,pronto/chi è?,23,understands,0
-Italian,Female,28,pronto/chi è?,21,produces,0.7143
-Italian,Female,28,pronto/chi è?,21,understands,0
-Italian,Male,28,pronto/chi è?,23,produces,0.8696
-Italian,Male,28,pronto/chi è?,23,understands,0
-Italian,Female,29,pronto/chi è?,21,produces,0.9048
-Italian,Female,29,pronto/chi è?,21,understands,0
-Italian,Male,29,pronto/chi è?,16,produces,0.8125
-Italian,Male,29,pronto/chi è?,16,understands,0
-Italian,Female,30,pronto/chi è?,28,produces,0.8214
-Italian,Female,30,pronto/chi è?,28,understands,0
-Italian,Male,30,pronto/chi è?,39,produces,0.8462
-Italian,Male,30,pronto/chi è?,39,understands,0
-Italian,Female,31,pronto/chi è?,8,produces,0.625
-Italian,Female,31,pronto/chi è?,8,understands,0
-Italian,Male,31,pronto/chi è?,11,produces,0.8182
-Italian,Male,31,pronto/chi è?,11,understands,0
-Italian,Female,32,pronto/chi è?,14,produces,1
-Italian,Female,32,pronto/chi è?,14,understands,0
-Italian,Male,32,pronto/chi è?,9,produces,0.3333
-Italian,Male,32,pronto/chi è?,9,understands,0
-Italian,Female,33,pronto/chi è?,5,produces,0.8
-Italian,Female,33,pronto/chi è?,5,understands,0
-Italian,Male,33,pronto/chi è?,11,produces,0.9091
-Italian,Male,33,pronto/chi è?,11,understands,0
-Italian,Female,34,pronto/chi è?,12,produces,0.9167
-Italian,Female,34,pronto/chi è?,12,understands,0
-Italian,Male,34,pronto/chi è?,7,produces,0.8571
-Italian,Male,34,pronto/chi è?,7,understands,0
+Italian,Female,12,"Buongiorno, pronto chi è? (al tel)",36,produces,0.0833
+Italian,Female,12,"Buongiorno, pronto chi è? (al tel)",36,understands,0.7222
+Italian,Male,12,"Buongiorno, pronto chi è? (al tel)",46,produces,0.1087
+Italian,Male,12,"Buongiorno, pronto chi è? (al tel)",46,understands,0.7609
+Italian,Female,13,"Buongiorno, pronto chi è? (al tel)",23,produces,0.0435
+Italian,Female,13,"Buongiorno, pronto chi è? (al tel)",23,understands,0.6087
+Italian,Male,13,"Buongiorno, pronto chi è? (al tel)",29,produces,0.1724
+Italian,Male,13,"Buongiorno, pronto chi è? (al tel)",29,understands,0.7241
+Italian,Female,14,"Buongiorno, pronto chi è? (al tel)",26,produces,0.1154
+Italian,Female,14,"Buongiorno, pronto chi è? (al tel)",26,understands,0.7692
+Italian,Male,14,"Buongiorno, pronto chi è? (al tel)",21,produces,0.1905
+Italian,Male,14,"Buongiorno, pronto chi è? (al tel)",21,understands,0.619
+Italian,Female,15,"Buongiorno, pronto chi è? (al tel)",34,produces,0.2647
+Italian,Female,15,"Buongiorno, pronto chi è? (al tel)",34,understands,0.6471
+Italian,Male,15,"Buongiorno, pronto chi è? (al tel)",43,produces,0.186
+Italian,Male,15,"Buongiorno, pronto chi è? (al tel)",43,understands,0.7209
+Italian,Female,16,"Buongiorno, pronto chi è? (al tel)",31,produces,0.129
+Italian,Female,16,"Buongiorno, pronto chi è? (al tel)",31,understands,0.6452
+Italian,Male,16,"Buongiorno, pronto chi è? (al tel)",31,produces,0.1613
+Italian,Male,16,"Buongiorno, pronto chi è? (al tel)",31,understands,0.6774
+Italian,Female,17,"Buongiorno, pronto chi è? (al tel)",21,produces,0.4762
+Italian,Female,17,"Buongiorno, pronto chi è? (al tel)",21,understands,0.8571
+Italian,Male,17,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",31,produces,0.1935
+Italian,Male,17,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",31,understands,0.5806
+Italian,Female,18,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",48,produces,0.6042
+Italian,Female,18,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",48,understands,0.5
+Italian,Male,18,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",48,produces,0.3542
+Italian,Male,18,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",48,understands,0.6042
+Italian,Female,19,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",28,produces,0.3571
+Italian,Female,19,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",28,understands,0.1786
+Italian,Male,19,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",36,produces,0.6111
+Italian,Male,19,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",36,understands,0.4722
+Italian,Female,20,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",53,produces,0.4906
+Italian,Female,20,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",53,understands,0.283
+Italian,Male,20,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",51,produces,0.4118
+Italian,Male,20,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",51,understands,0.3333
+Italian,Female,21,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",35,produces,0.7143
+Italian,Female,21,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",35,understands,0.2857
+Italian,Male,21,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",42,produces,0.5714
+Italian,Male,21,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",42,understands,0.2619
+Italian,Female,22,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",46,produces,0.6304
+Italian,Female,22,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",46,understands,0.3696
+Italian,Male,22,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",42,produces,0.619
+Italian,Male,22,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",42,understands,0.2143
+Italian,Female,23,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",40,produces,0.8
+Italian,Female,23,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",40,understands,0.3
+Italian,Male,23,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",43,produces,0.6977
+Italian,Male,23,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",43,understands,0.3256
+Italian,Female,24,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",53,produces,0.6981
+Italian,Female,24,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",53,understands,0.2264
+Italian,Male,24,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",41,produces,0.8293
+Italian,Male,24,"Buongiorno, pronto chi è? (al tel), pronto/chi è?",41,understands,0.1951
+Italian,Female,25,"Buongiorno, pronto/chi è?",28,produces,0.75
+Italian,Female,25,"Buongiorno, pronto/chi è?",28,understands,0.1786
+Italian,Male,25,"Buongiorno, pronto/chi è?",24,produces,0.6667
+Italian,Male,25,"Buongiorno, pronto/chi è?",24,understands,0.2917
+Italian,Female,26,"Buongiorno, pronto/chi è?",28,produces,0.75
+Italian,Female,26,"Buongiorno, pronto/chi è?",28,understands,0.2143
+Italian,Male,26,"Buongiorno, pronto/chi è?",25,produces,0.76
+Italian,Male,26,"Buongiorno, pronto/chi è?",25,understands,0.12
+Italian,Female,27,"Buongiorno, pronto/chi è?",26,produces,0.7308
+Italian,Female,27,"Buongiorno, pronto/chi è?",26,understands,0.1538
+Italian,Male,27,"Buongiorno, pronto/chi è?",27,produces,0.6667
+Italian,Male,27,"Buongiorno, pronto/chi è?",27,understands,0.1481
+Italian,Female,28,"Buongiorno, pronto/chi è?",31,produces,0.8065
+Italian,Female,28,"Buongiorno, pronto/chi è?",31,understands,0.2903
+Italian,Male,28,"Buongiorno, pronto/chi è?",25,produces,0.84
+Italian,Male,28,"Buongiorno, pronto/chi è?",25,understands,0.08
+Italian,Female,29,"Buongiorno, pronto/chi è?",28,produces,0.8929
+Italian,Female,29,"Buongiorno, pronto/chi è?",28,understands,0.1786
+Italian,Male,29,"Buongiorno, pronto/chi è?",23,produces,0.7826
+Italian,Male,29,"Buongiorno, pronto/chi è?",23,understands,0.2609
+Italian,Female,30,"Buongiorno, pronto/chi è?",34,produces,0.7941
+Italian,Female,30,"Buongiorno, pronto/chi è?",34,understands,0.1176
+Italian,Male,30,"Buongiorno, pronto/chi è?",45,produces,0.8444
+Italian,Male,30,"Buongiorno, pronto/chi è?",45,understands,0.0667
+Italian,Female,31,"Buongiorno, pronto/chi è?",11,produces,0.7273
+Italian,Female,31,"Buongiorno, pronto/chi è?",11,understands,0.2727
+Italian,Male,31,"Buongiorno, pronto/chi è?",17,produces,0.8235
+Italian,Male,31,"Buongiorno, pronto/chi è?",17,understands,0.3529
+Italian,Female,32,"Buongiorno, pronto/chi è?",18,produces,1
+Italian,Female,32,"Buongiorno, pronto/chi è?",18,understands,0.2222
+Italian,Male,32,"Buongiorno, pronto/chi è?",10,produces,0.4
+Italian,Male,32,"Buongiorno, pronto/chi è?",10,understands,0.1
+Italian,Female,33,"Buongiorno, pronto/chi è?",8,produces,0.875
+Italian,Female,33,"Buongiorno, pronto/chi è?",8,understands,0.375
+Italian,Male,33,"Buongiorno, pronto/chi è?",12,produces,0.9167
+Italian,Male,33,"Buongiorno, pronto/chi è?",12,understands,0.0833
+Italian,Female,34,"Buongiorno, pronto/chi è?",14,produces,0.9286
+Italian,Female,34,"Buongiorno, pronto/chi è?",14,understands,0.1429
+Italian,Male,34,"Buongiorno, pronto/chi è?",8,produces,0.875
+Italian,Male,34,"Buongiorno, pronto/chi è?",8,understands,0.125
 Italian,Female,35,pronto/chi è?,9,produces,1
 Italian,Female,35,pronto/chi è?,9,understands,0
-Italian,Male,35,pronto/chi è?,6,produces,0.8333
-Italian,Male,35,pronto/chi è?,6,understands,0
-Italian,Female,36,pronto/chi è?,7,produces,0.5714
-Italian,Female,36,pronto/chi è?,7,understands,0
-Italian,Male,36,pronto/chi è?,14,produces,0.7857
-Italian,Male,36,pronto/chi è?,14,understands,0
+Italian,Male,35,"Buongiorno, pronto/chi è?",7,produces,0.8571
+Italian,Male,35,"Buongiorno, pronto/chi è?",7,understands,0.1429
+Italian,Female,36,"Buongiorno, pronto/chi è?",8,produces,0.625
+Italian,Female,36,"Buongiorno, pronto/chi è?",8,understands,0.125
+Italian,Male,36,"Buongiorno, pronto/chi è?",17,produces,0.7647
+Italian,Male,36,"Buongiorno, pronto/chi è?",17,understands,0.1765
 Japanese,Female,8,"こんにちは, もしもし",2,produces,0
 Japanese,Female,8,"こんにちは, もしもし",2,understands,0
 Japanese,Male,8,"こんにちは, もしもし",4,produces,0
@@ -3119,84 +4073,84 @@ Korean,Male,16,안녕,45,produces,0.1111
 Korean,Male,16,안녕,45,understands,0.6444
 Korean,Female,17,안녕,34,produces,0.1765
 Korean,Female,17,안녕,34,understands,0.5882
-Korean,Male,17,안녕,29,produces,0.2069
-Korean,Male,17,안녕,29,understands,0.6552
+Korean,Male,17,안녕,28,produces,0.2143
+Korean,Male,17,안녕,28,understands,0.6786
 Korean,Female,18,안녕,51,produces,0.5686
-Korean,Female,18,안녕,51,understands,0
+Korean,Female,18,안녕,51,understands,0.0588
 Korean,Male,18,안녕,37,produces,0.4054
 Korean,Male,18,안녕,37,understands,0
 Korean,Female,19,안녕,39,produces,0.7179
-Korean,Female,19,안녕,39,understands,0
+Korean,Female,19,안녕,39,understands,0.1282
 Korean,Male,19,안녕,38,produces,0.4737
-Korean,Male,19,안녕,38,understands,0
+Korean,Male,19,안녕,38,understands,0.1579
 Korean,Female,20,안녕,47,produces,0.8298
-Korean,Female,20,안녕,47,understands,0
+Korean,Female,20,안녕,47,understands,0.0638
 Korean,Male,20,안녕,41,produces,0.5854
-Korean,Male,20,안녕,41,understands,0
+Korean,Male,20,안녕,41,understands,0.122
 Korean,Female,21,안녕,38,produces,0.7895
-Korean,Female,21,안녕,38,understands,0
+Korean,Female,21,안녕,38,understands,0.1053
 Korean,Male,21,안녕,41,produces,0.6829
-Korean,Male,21,안녕,41,understands,0
+Korean,Male,21,안녕,41,understands,0.122
 Korean,Female,22,안녕,42,produces,0.7857
-Korean,Female,22,안녕,42,understands,0
+Korean,Female,22,안녕,42,understands,0.0952
 Korean,Male,22,안녕,45,produces,0.7333
-Korean,Male,22,안녕,45,understands,0
+Korean,Male,22,안녕,45,understands,0.1556
 Korean,Female,23,안녕,42,produces,0.9048
-Korean,Female,23,안녕,42,understands,0
+Korean,Female,23,안녕,42,understands,0.1667
 Korean,Male,23,안녕,45,produces,0.6889
-Korean,Male,23,안녕,45,understands,0
+Korean,Male,23,안녕,45,understands,0.1778
 Korean,Female,24,안녕,46,produces,0.8913
-Korean,Female,24,안녕,46,understands,0
+Korean,Female,24,안녕,46,understands,0.1522
 Korean,Male,24,안녕,61,produces,0.8361
-Korean,Male,24,안녕,61,understands,0
+Korean,Male,24,안녕,61,understands,0.1475
 Korean,Female,25,안녕,46,produces,0.9783
-Korean,Female,25,안녕,46,understands,0
+Korean,Female,25,안녕,46,understands,0.1957
 Korean,Male,25,안녕,49,produces,0.898
-Korean,Male,25,안녕,49,understands,0
+Korean,Male,25,안녕,49,understands,0.0612
 Korean,Female,26,안녕,42,produces,0.881
-Korean,Female,26,안녕,42,understands,0
+Korean,Female,26,안녕,42,understands,0.0952
 Korean,Male,26,안녕,49,produces,0.8367
-Korean,Male,26,안녕,49,understands,0
+Korean,Male,26,안녕,49,understands,0.1633
 Korean,Female,27,안녕,46,produces,0.9348
-Korean,Female,27,안녕,46,understands,0
+Korean,Female,27,안녕,46,understands,0.1739
 Korean,Male,27,안녕,58,produces,0.8793
-Korean,Male,27,안녕,58,understands,0
+Korean,Male,27,안녕,58,understands,0.1724
 Korean,Female,28,안녕,49,produces,0.9184
-Korean,Female,28,안녕,49,understands,0
+Korean,Female,28,안녕,49,understands,0.1633
 Korean,Male,28,안녕,40,produces,0.8
-Korean,Male,28,안녕,40,understands,0
+Korean,Male,28,안녕,40,understands,0.15
 Korean,Female,29,안녕,49,produces,0.9592
-Korean,Female,29,안녕,49,understands,0
+Korean,Female,29,안녕,49,understands,0.1837
 Korean,Male,29,안녕,51,produces,0.9216
-Korean,Male,29,안녕,51,understands,0
+Korean,Male,29,안녕,51,understands,0.2353
 Korean,Female,30,안녕,34,produces,0.9412
-Korean,Female,30,안녕,34,understands,0
+Korean,Female,30,안녕,34,understands,0.0294
 Korean,Male,30,안녕,47,produces,0.8511
-Korean,Male,30,안녕,47,understands,0
+Korean,Male,30,안녕,47,understands,0.1915
 Korean,Female,31,안녕,31,produces,0.9677
-Korean,Female,31,안녕,31,understands,0
+Korean,Female,31,안녕,31,understands,0.129
 Korean,Male,31,안녕,48,produces,1
-Korean,Male,31,안녕,48,understands,0
-Korean,Female,32,안녕,33,produces,0.9697
-Korean,Female,32,안녕,33,understands,0
+Korean,Male,31,안녕,48,understands,0.1667
+Korean,Female,32,안녕,34,produces,0.9706
+Korean,Female,32,안녕,34,understands,0.1176
 Korean,Male,32,안녕,36,produces,0.9722
-Korean,Male,32,안녕,36,understands,0
+Korean,Male,32,안녕,36,understands,0.1944
 Korean,Female,33,안녕,36,produces,0.9167
-Korean,Female,33,안녕,36,understands,0
+Korean,Female,33,안녕,36,understands,0.1111
 Korean,Male,33,안녕,43,produces,1
-Korean,Male,33,안녕,43,understands,0
+Korean,Male,33,안녕,43,understands,0.1628
 Korean,Female,34,안녕,41,produces,1
-Korean,Female,34,안녕,41,understands,0
+Korean,Female,34,안녕,41,understands,0.1463
 Korean,Male,34,안녕,38,produces,0.9211
-Korean,Male,34,안녕,38,understands,0
+Korean,Male,34,안녕,38,understands,0.1316
 Korean,Female,35,안녕,37,produces,0.973
-Korean,Female,35,안녕,37,understands,0
+Korean,Female,35,안녕,37,understands,0.2162
 Korean,Male,35,안녕,37,produces,0.9189
-Korean,Male,35,안녕,37,understands,0
+Korean,Male,35,안녕,37,understands,0.1622
 Korean,Female,36,안녕,40,produces,0.975
-Korean,Female,36,안녕,40,understands,0
+Korean,Female,36,안녕,40,understands,0.075
 Korean,Male,36,안녕,35,produces,1
-Korean,Male,36,안녕,35,understands,0
+Korean,Male,36,안녕,35,understands,0.1429
 Latvian,Female,8,Sveiki!/Čau!,6,produces,0
 Latvian,Female,8,Sveiki!/Čau!,6,understands,0.8333
 Latvian,Male,8,Sveiki!/Čau!,10,produces,0
@@ -3313,6 +4267,106 @@ Latvian,Female,36,"labdien, sveiki, čau",12,produces,0.8333
 Latvian,Female,36,"labdien, sveiki, čau",12,understands,0
 Latvian,Male,36,"labdien, sveiki, čau",10,produces,0.95
 Latvian,Male,36,"labdien, sveiki, čau",10,understands,0
+Malay (Malaysian),Female,12,halo,2,produces,0
+Malay (Malaysian),Female,12,halo,2,understands,0
+Malay (Malaysian),Male,12,halo,1,produces,1
+Malay (Malaysian),Male,12,halo,1,understands,1
+Malay (Malaysian),Female,13,halo,11,produces,0
+Malay (Malaysian),Female,13,halo,11,understands,0.2727
+Malay (Malaysian),Male,13,halo,6,produces,0.3333
+Malay (Malaysian),Male,13,halo,6,understands,0.5
+Malay (Malaysian),Female,14,halo,2,produces,0
+Malay (Malaysian),Female,14,halo,2,understands,0
+Malay (Malaysian),Male,14,halo,11,produces,0
+Malay (Malaysian),Male,14,halo,11,understands,0.1818
+Malay (Malaysian),Female,15,halo,7,produces,0.2857
+Malay (Malaysian),Female,15,halo,7,understands,0.4286
+Malay (Malaysian),Male,15,halo,16,produces,0.125
+Malay (Malaysian),Male,15,halo,16,understands,0.375
+Malay (Malaysian),Female,16,halo,13,produces,0.0769
+Malay (Malaysian),Female,16,halo,13,understands,0.2308
+Malay (Malaysian),Male,16,halo,16,produces,0.1875
+Malay (Malaysian),Male,16,halo,16,understands,0.375
+Malay (Malaysian),Female,17,halo,7,produces,0.5714
+Malay (Malaysian),Female,17,halo,7,understands,0.5714
+Malay (Malaysian),Male,17,halo,13,produces,0.1538
+Malay (Malaysian),Male,17,halo,13,understands,0.5385
+Malay (Malaysian),Female,18,halo,18,produces,0.3333
+Malay (Malaysian),Female,18,halo,18,understands,0.4444
+Malay (Malaysian),Male,18,halo,22,produces,0.1818
+Malay (Malaysian),Male,18,halo,22,understands,0.3182
+Malay (Malaysian),Female,19,halo,6,produces,0.6667
+Malay (Malaysian),Female,19,halo,6,understands,0.8333
+Malay (Malaysian),Male,19,halo,7,produces,0.4286
+Malay (Malaysian),Male,19,halo,7,understands,0.5714
+Malay (Malaysian),Female,20,halo,9,produces,0.4444
+Malay (Malaysian),Female,20,halo,9,understands,0.6667
+Malay (Malaysian),Male,20,halo,22,produces,0.3182
+Malay (Malaysian),Male,20,halo,22,understands,0.4545
+Malay (Malaysian),Female,21,halo,14,produces,0.4286
+Malay (Malaysian),Female,21,halo,14,understands,0.5
+Malay (Malaysian),Male,21,halo,17,produces,0.2941
+Malay (Malaysian),Male,21,halo,17,understands,0.5882
+Malay (Malaysian),Female,22,halo,10,produces,0.6
+Malay (Malaysian),Female,22,halo,10,understands,0.6
+Malay (Malaysian),Male,22,halo,18,produces,0.5556
+Malay (Malaysian),Male,22,halo,18,understands,0.7222
+Malay (Malaysian),Female,23,halo,17,produces,0.4118
+Malay (Malaysian),Female,23,halo,17,understands,0.4706
+Malay (Malaysian),Male,23,halo,17,produces,0.5294
+Malay (Malaysian),Male,23,halo,17,understands,0.7647
+Malay (Malaysian),Female,24,halo,25,produces,0.56
+Malay (Malaysian),Female,24,halo,25,understands,0.72
+Malay (Malaysian),Male,24,halo,21,produces,0.4762
+Malay (Malaysian),Male,24,halo,21,understands,0.5238
+Malay (Malaysian),Female,25,halo,11,produces,0.1818
+Malay (Malaysian),Female,25,halo,11,understands,0.2727
+Malay (Malaysian),Male,25,halo,10,produces,0.5
+Malay (Malaysian),Male,25,halo,10,understands,0.6
+Malay (Malaysian),Female,26,halo,26,produces,0.5769
+Malay (Malaysian),Female,26,halo,26,understands,0.6154
+Malay (Malaysian),Male,26,halo,19,produces,0.4737
+Malay (Malaysian),Male,26,halo,19,understands,0.5789
+Malay (Malaysian),Female,27,halo,12,produces,0.5833
+Malay (Malaysian),Female,27,halo,12,understands,0.6667
+Malay (Malaysian),Male,27,halo,7,produces,0.8571
+Malay (Malaysian),Male,27,halo,7,understands,0.8571
+Malay (Malaysian),Female,28,halo,21,produces,0.381
+Malay (Malaysian),Female,28,halo,21,understands,0.4286
+Malay (Malaysian),Male,28,halo,21,produces,0.4286
+Malay (Malaysian),Male,28,halo,21,understands,0.619
+Malay (Malaysian),Female,29,halo,14,produces,0.3571
+Malay (Malaysian),Female,29,halo,14,understands,0.5
+Malay (Malaysian),Male,29,halo,12,produces,0.5833
+Malay (Malaysian),Male,29,halo,12,understands,0.75
+Malay (Malaysian),Female,30,halo,13,produces,0.6154
+Malay (Malaysian),Female,30,halo,13,understands,0.6154
+Malay (Malaysian),Male,30,halo,17,produces,0.4118
+Malay (Malaysian),Male,30,halo,17,understands,0.5882
+Malay (Malaysian),Female,31,halo,6,produces,0.3333
+Malay (Malaysian),Female,31,halo,6,understands,0.3333
+Malay (Malaysian),Male,31,halo,3,produces,0.3333
+Malay (Malaysian),Male,31,halo,3,understands,0.6667
+Malay (Malaysian),Female,32,halo,9,produces,0.6667
+Malay (Malaysian),Female,32,halo,9,understands,0.7778
+Malay (Malaysian),Male,32,halo,10,produces,0.6
+Malay (Malaysian),Male,32,halo,10,understands,0.7
+Malay (Malaysian),Female,33,halo,8,produces,0.125
+Malay (Malaysian),Female,33,halo,8,understands,0.25
+Malay (Malaysian),Male,33,halo,12,produces,0.25
+Malay (Malaysian),Male,33,halo,12,understands,0.4167
+Malay (Malaysian),Female,34,halo,9,produces,0.2222
+Malay (Malaysian),Female,34,halo,9,understands,0.3333
+Malay (Malaysian),Male,34,halo,6,produces,0.3333
+Malay (Malaysian),Male,34,halo,6,understands,0.5
+Malay (Malaysian),Female,35,halo,11,produces,0.4545
+Malay (Malaysian),Female,35,halo,11,understands,0.5455
+Malay (Malaysian),Male,35,halo,10,produces,0.2
+Malay (Malaysian),Male,35,halo,10,understands,0.2
+Malay (Malaysian),Female,36,halo,6,produces,0.6667
+Malay (Malaysian),Female,36,halo,6,understands,0.6667
+Malay (Malaysian),Male,36,halo,7,produces,0.7143
+Malay (Malaysian),Male,36,halo,7,understands,0.7143
 Mandarin (Beijing),Female,16,"喂？, 你好, （某某某）好",35,produces,0.3524
 Mandarin (Beijing),Female,16,"喂？, 你好, （某某某）好",35,understands,0
 Mandarin (Beijing),Male,16,"喂？, 你好, （某某某）好",35,produces,0.2952
@@ -3373,6 +4427,106 @@ Mandarin (Beijing),Female,30,"喂？, 你好, （某某某）好",35,produces,0.
 Mandarin (Beijing),Female,30,"喂？, 你好, （某某某）好",35,understands,0
 Mandarin (Beijing),Male,30,"喂？, 你好, （某某某）好",35,produces,0.9714
 Mandarin (Beijing),Male,30,"喂？, 你好, （某某某）好",35,understands,0
+Mandarin (Malaysian),Female,12,哈罗,1,produces,0
+Mandarin (Malaysian),Female,12,哈罗,1,understands,1
+Mandarin (Malaysian),Male,12,哈罗,1,produces,0
+Mandarin (Malaysian),Male,12,哈罗,1,understands,0
+Mandarin (Malaysian),Female,13,哈罗,9,produces,0
+Mandarin (Malaysian),Female,13,哈罗,9,understands,0.2222
+Mandarin (Malaysian),Male,13,哈罗,4,produces,0
+Mandarin (Malaysian),Male,13,哈罗,4,understands,0
+Mandarin (Malaysian),Female,14,哈罗,2,produces,0
+Mandarin (Malaysian),Female,14,哈罗,2,understands,0
+Mandarin (Malaysian),Male,14,哈罗,8,produces,0
+Mandarin (Malaysian),Male,14,哈罗,8,understands,0.375
+Mandarin (Malaysian),Female,15,哈罗,5,produces,0
+Mandarin (Malaysian),Female,15,哈罗,5,understands,0.2
+Mandarin (Malaysian),Male,15,哈罗,12,produces,0
+Mandarin (Malaysian),Male,15,哈罗,12,understands,0
+Mandarin (Malaysian),Female,16,哈罗,11,produces,0.1818
+Mandarin (Malaysian),Female,16,哈罗,11,understands,0.1818
+Mandarin (Malaysian),Male,16,哈罗,13,produces,0
+Mandarin (Malaysian),Male,16,哈罗,13,understands,0.0769
+Mandarin (Malaysian),Female,17,哈罗,7,produces,0.1429
+Mandarin (Malaysian),Female,17,哈罗,7,understands,0.2857
+Mandarin (Malaysian),Male,17,哈罗,12,produces,0
+Mandarin (Malaysian),Male,17,哈罗,12,understands,0.0833
+Mandarin (Malaysian),Female,18,哈罗,16,produces,0
+Mandarin (Malaysian),Female,18,哈罗,16,understands,0.125
+Mandarin (Malaysian),Male,18,哈罗,21,produces,0.0476
+Mandarin (Malaysian),Male,18,哈罗,21,understands,0.1905
+Mandarin (Malaysian),Female,19,哈罗,6,produces,0
+Mandarin (Malaysian),Female,19,哈罗,6,understands,0
+Mandarin (Malaysian),Male,19,哈罗,6,produces,0.1667
+Mandarin (Malaysian),Male,19,哈罗,6,understands,0.5
+Mandarin (Malaysian),Female,20,哈罗,7,produces,0.1429
+Mandarin (Malaysian),Female,20,哈罗,7,understands,0.1429
+Mandarin (Malaysian),Male,20,哈罗,18,produces,0.0556
+Mandarin (Malaysian),Male,20,哈罗,18,understands,0.1111
+Mandarin (Malaysian),Female,21,哈罗,14,produces,0.1429
+Mandarin (Malaysian),Female,21,哈罗,14,understands,0.1429
+Mandarin (Malaysian),Male,21,哈罗,14,produces,0
+Mandarin (Malaysian),Male,21,哈罗,14,understands,0
+Mandarin (Malaysian),Female,22,哈罗,9,produces,0.2222
+Mandarin (Malaysian),Female,22,哈罗,9,understands,0.2222
+Mandarin (Malaysian),Male,22,哈罗,17,produces,0
+Mandarin (Malaysian),Male,22,哈罗,17,understands,0
+Mandarin (Malaysian),Female,23,哈罗,14,produces,0.0714
+Mandarin (Malaysian),Female,23,哈罗,14,understands,0.0714
+Mandarin (Malaysian),Male,23,哈罗,16,produces,0
+Mandarin (Malaysian),Male,23,哈罗,16,understands,0
+Mandarin (Malaysian),Female,24,哈罗,21,produces,0.0476
+Mandarin (Malaysian),Female,24,哈罗,21,understands,0.0476
+Mandarin (Malaysian),Male,24,哈罗,18,produces,0.1111
+Mandarin (Malaysian),Male,24,哈罗,18,understands,0.1667
+Mandarin (Malaysian),Female,25,哈罗,9,produces,0.3333
+Mandarin (Malaysian),Female,25,哈罗,9,understands,0.3333
+Mandarin (Malaysian),Male,25,哈罗,9,produces,0.1111
+Mandarin (Malaysian),Male,25,哈罗,9,understands,0.1111
+Mandarin (Malaysian),Female,26,哈罗,22,produces,0.0455
+Mandarin (Malaysian),Female,26,哈罗,22,understands,0.0909
+Mandarin (Malaysian),Male,26,哈罗,15,produces,0.2
+Mandarin (Malaysian),Male,26,哈罗,15,understands,0.2
+Mandarin (Malaysian),Female,27,哈罗,11,produces,0.0909
+Mandarin (Malaysian),Female,27,哈罗,11,understands,0.0909
+Mandarin (Malaysian),Male,27,哈罗,7,produces,0
+Mandarin (Malaysian),Male,27,哈罗,7,understands,0
+Mandarin (Malaysian),Female,28,哈罗,18,produces,0.2778
+Mandarin (Malaysian),Female,28,哈罗,18,understands,0.2778
+Mandarin (Malaysian),Male,28,哈罗,19,produces,0.1579
+Mandarin (Malaysian),Male,28,哈罗,19,understands,0.2105
+Mandarin (Malaysian),Female,29,哈罗,12,produces,0.3333
+Mandarin (Malaysian),Female,29,哈罗,12,understands,0.3333
+Mandarin (Malaysian),Male,29,哈罗,11,produces,0
+Mandarin (Malaysian),Male,29,哈罗,11,understands,0.0909
+Mandarin (Malaysian),Female,30,哈罗,11,produces,0.0909
+Mandarin (Malaysian),Female,30,哈罗,11,understands,0.1818
+Mandarin (Malaysian),Male,30,哈罗,15,produces,0.0667
+Mandarin (Malaysian),Male,30,哈罗,15,understands,0.1333
+Mandarin (Malaysian),Female,31,哈罗,5,produces,0.4
+Mandarin (Malaysian),Female,31,哈罗,5,understands,0.4
+Mandarin (Malaysian),Male,31,哈罗,2,produces,0
+Mandarin (Malaysian),Male,31,哈罗,2,understands,0
+Mandarin (Malaysian),Female,32,哈罗,8,produces,0.125
+Mandarin (Malaysian),Female,32,哈罗,8,understands,0.125
+Mandarin (Malaysian),Male,32,哈罗,8,produces,0
+Mandarin (Malaysian),Male,32,哈罗,8,understands,0
+Mandarin (Malaysian),Female,33,哈罗,5,produces,0.4
+Mandarin (Malaysian),Female,33,哈罗,5,understands,0.4
+Mandarin (Malaysian),Male,33,哈罗,8,produces,0
+Mandarin (Malaysian),Male,33,哈罗,8,understands,0
+Mandarin (Malaysian),Female,34,哈罗,6,produces,0.3333
+Mandarin (Malaysian),Female,34,哈罗,6,understands,0.3333
+Mandarin (Malaysian),Male,34,哈罗,6,produces,0
+Mandarin (Malaysian),Male,34,哈罗,6,understands,0
+Mandarin (Malaysian),Female,35,哈罗,8,produces,0.375
+Mandarin (Malaysian),Female,35,哈罗,8,understands,0.375
+Mandarin (Malaysian),Male,35,哈罗,5,produces,0.2
+Mandarin (Malaysian),Male,35,哈罗,5,understands,0.2
+Mandarin (Malaysian),Female,36,哈罗,4,produces,0
+Mandarin (Malaysian),Female,36,哈罗,4,understands,0
+Mandarin (Malaysian),Male,36,哈罗,6,produces,0
+Mandarin (Malaysian),Male,36,哈罗,6,understands,0.1667
 Mandarin (Taiwanese),Female,8,哈囉(嗨),39,produces,0
 Mandarin (Taiwanese),Female,8,哈囉(嗨),39,understands,0.4359
 Mandarin (Taiwanese),Male,8,哈囉(嗨),47,produces,0
@@ -3573,6 +4727,206 @@ Norwegian,Female,36,hallo,170,produces,0.9706
 Norwegian,Female,36,hallo,170,understands,0
 Norwegian,Male,36,hallo,159,produces,0.9308
 Norwegian,Male,36,hallo,159,understands,0
+Polish,Female,8,"cześć, halo",52,produces,0
+Polish,Female,8,"cześć, halo",52,understands,0.2212
+Polish,Male,8,"cześć, halo",58,produces,0.0259
+Polish,Male,8,"cześć, halo",58,understands,0.3448
+Polish,Female,9,"cześć, halo",74,produces,0.0338
+Polish,Female,9,"cześć, halo",74,understands,0.2905
+Polish,Male,9,"cześć, halo",66,produces,0.0303
+Polish,Male,9,"cześć, halo",66,understands,0.3485
+Polish,Female,10,"cześć, halo",73,produces,0.0205
+Polish,Female,10,"cześć, halo",73,understands,0.5205
+Polish,Male,10,"cześć, halo",72,produces,0.0278
+Polish,Male,10,"cześć, halo",72,understands,0.4028
+Polish,Female,11,"cześć, halo",88,produces,0.0455
+Polish,Female,11,"cześć, halo",88,understands,0.5114
+Polish,Male,11,"cześć, halo",77,produces,0.0584
+Polish,Male,11,"cześć, halo",77,understands,0.474
+Polish,Female,12,"halo, cześć",75,produces,0.1905
+Polish,Female,12,"halo, cześć",75,understands,0.5374
+Polish,Male,12,"halo, cześć",84,produces,0.0732
+Polish,Male,12,"halo, cześć",84,understands,0.5183
+Polish,Female,13,"halo, cześć",74,produces,0.1232
+Polish,Female,13,"halo, cześć",74,understands,0.6014
+Polish,Male,13,"halo, cześć",76,produces,0.1156
+Polish,Male,13,"halo, cześć",76,understands,0.585
+Polish,Female,14,"halo, cześć",84,produces,0.247
+Polish,Female,14,"halo, cześć",84,understands,0.6747
+Polish,Male,14,"halo, cześć",77,produces,0.1699
+Polish,Male,14,"halo, cześć",77,understands,0.6209
+Polish,Female,15,"halo, cześć",71,produces,0.2319
+Polish,Female,15,"halo, cześć",71,understands,0.7536
+Polish,Male,15,"halo, cześć",84,produces,0.2195
+Polish,Male,15,"halo, cześć",84,understands,0.75
+Polish,Female,16,"halo, cześć",80,produces,0.3117
+Polish,Female,16,"halo, cześć",80,understands,0.7857
+Polish,Male,16,"halo, cześć",86,produces,0.2036
+Polish,Male,16,"halo, cześć",86,understands,0.7844
+Polish,Female,17,"halo, cześć",75,produces,0.3699
+Polish,Female,17,"halo, cześć",75,understands,0.8493
+Polish,Male,17,"halo, cześć",82,produces,0.2642
+Polish,Male,17,"halo, cześć",82,understands,0.7799
+Polish,Female,18,"halo, cześć",127,produces,0.51
+Polish,Female,18,"halo, cześć",127,understands,0.494
+Polish,Male,18,"halo, cześć",111,produces,0.4465
+Polish,Male,18,"halo, cześć",111,understands,0.4605
+Polish,Female,19,"halo, cześć",64,produces,0.6614
+Polish,Female,19,"halo, cześć",64,understands,0.0079
+Polish,Male,19,"halo, cześć",74,produces,0.507
+Polish,Male,19,"halo, cześć",74,understands,0.0352
+Polish,Female,20,"halo, cześć",82,produces,0.6497
+Polish,Female,20,"halo, cześć",82,understands,0.0382
+Polish,Male,20,"halo, cześć",69,produces,0.4444
+Polish,Male,20,"halo, cześć",69,understands,0.0148
+Polish,Female,21,"halo, cześć",64,produces,0.648
+Polish,Female,21,"halo, cześć",64,understands,0.016
+Polish,Male,21,"halo, cześć",72,produces,0.4889
+Polish,Male,21,"halo, cześć",72,understands,0.0519
+Polish,Female,22,"halo, cześć",75,produces,0.6783
+Polish,Female,22,"halo, cześć",75,understands,0.042
+Polish,Male,22,"halo, cześć",72,produces,0.5827
+Polish,Male,22,"halo, cześć",72,understands,0.0144
+Polish,Female,23,"halo, cześć",69,produces,0.7185
+Polish,Female,23,"halo, cześć",69,understands,0.0148
+Polish,Male,23,"halo, cześć",75,produces,0.6181
+Polish,Male,23,"halo, cześć",75,understands,0.0347
+Polish,Female,24,"halo, cześć",77,produces,0.7517
+Polish,Female,24,"halo, cześć",77,understands,0.0336
+Polish,Male,24,"halo, cześć",70,produces,0.6466
+Polish,Male,24,"halo, cześć",70,understands,0.0301
+Polish,Female,25,"halo, cześć",78,produces,0.8092
+Polish,Female,25,"halo, cześć",78,understands,0.0197
+Polish,Male,25,"halo, cześć",89,produces,0.7168
+Polish,Male,25,"halo, cześć",89,understands,0.0289
+Polish,Female,26,"halo, cześć",77,produces,0.8389
+Polish,Female,26,"halo, cześć",77,understands,0.0336
+Polish,Male,26,"halo, cześć",79,produces,0.7095
+Polish,Male,26,"halo, cześć",79,understands,0.0473
+Polish,Female,27,"halo, cześć",67,produces,0.8217
+Polish,Female,27,"halo, cześć",67,understands,0.0388
+Polish,Male,27,"halo, cześć",91,produces,0.7684
+Polish,Male,27,"halo, cześć",91,understands,0.0282
+Polish,Female,28,"halo, cześć",68,produces,0.8195
+Polish,Female,28,"halo, cześć",68,understands,0.0226
+Polish,Male,28,"halo, cześć",75,produces,0.7606
+Polish,Male,28,"halo, cześć",75,understands,0.0423
+Polish,Female,29,"halo, cześć",72,produces,0.8162
+Polish,Female,29,"halo, cześć",72,understands,0.0588
+Polish,Male,29,"halo, cześć",65,produces,0.8203
+Polish,Male,29,"halo, cześć",65,understands,0.0156
+Polish,Female,30,"halo, cześć",80,produces,0.828
+Polish,Female,30,"halo, cześć",80,understands,0.0127
+Polish,Male,30,"halo, cześć",69,produces,0.7388
+Polish,Male,30,"halo, cześć",69,understands,0.0149
+Polish,Female,31,"halo, cześć",69,produces,0.8571
+Polish,Female,31,"halo, cześć",69,understands,0.0301
+Polish,Male,31,"halo, cześć",77,produces,0.8267
+Polish,Male,31,"halo, cześć",77,understands,0.0267
+Polish,Female,32,"halo, cześć",69,produces,0.8529
+Polish,Female,32,"halo, cześć",69,understands,0.0147
+Polish,Male,32,"halo, cześć",80,produces,0.8377
+Polish,Male,32,"halo, cześć",80,understands,0.026
+Polish,Female,33,"halo, cześć",64,produces,0.9048
+Polish,Female,33,"halo, cześć",64,understands,0.0159
+Polish,Male,33,"halo, cześć",82,produces,0.8509
+Polish,Male,33,"halo, cześć",82,understands,0.0186
+Polish,Female,34,"halo, cześć",70,produces,0.9197
+Polish,Female,34,"halo, cześć",70,understands,0.0219
+Polish,Male,34,"halo, cześć",62,produces,0.8525
+Polish,Male,34,"halo, cześć",62,understands,0.0164
+Polish,Female,35,"halo, cześć",88,produces,0.9298
+Polish,Female,35,"halo, cześć",88,understands,0.0292
+Polish,Male,35,"halo, cześć",76,produces,0.8571
+Polish,Male,35,"halo, cześć",76,understands,0.0204
+Polish,Female,36,"halo, cześć",77,produces,0.8867
+Polish,Female,36,"halo, cześć",77,understands,0.0267
+Polish,Male,36,"halo, cześć",64,produces,0.832
+Polish,Male,36,"halo, cześć",64,understands,0.024
+Portuguese (European),Female,12,ol‡!,5,produces,0
+Portuguese (European),Female,12,ol‡!,5,understands,0.2
+Portuguese (European),Female,13,ol‡!,2,produces,0
+Portuguese (European),Female,13,ol‡!,2,understands,0
+Portuguese (European),Male,13,ol‡!,1,produces,0
+Portuguese (European),Male,13,ol‡!,1,understands,0
+Portuguese (European),Female,14,ol‡!,1,produces,0
+Portuguese (European),Female,14,ol‡!,1,understands,0
+Portuguese (European),Male,14,ol‡!,2,produces,0
+Portuguese (European),Male,14,ol‡!,2,understands,0.5
+Portuguese (European),Female,15,ol‡!,1,produces,0
+Portuguese (European),Female,15,ol‡!,1,understands,0
+Portuguese (European),Male,15,ol‡!,2,produces,0
+Portuguese (European),Male,15,ol‡!,2,understands,0.5
+Portuguese (European),Male,16,ol‡!,4,produces,0
+Portuguese (European),Male,16,ol‡!,4,understands,0
+Portuguese (European),Female,17,ol‡!,4,produces,0
+Portuguese (European),Female,17,ol‡!,4,understands,0
+Portuguese (European),Male,17,ol‡!,3,produces,0
+Portuguese (European),Male,17,ol‡!,3,understands,0
+Portuguese (European),Female,18,ol‡!,1,produces,0
+Portuguese (European),Female,18,ol‡!,1,understands,1
+Portuguese (European),Male,18,ol‡!,1,produces,0
+Portuguese (European),Male,18,ol‡!,1,understands,0
+Portuguese (European),Female,19,ol‡!,4,produces,0.25
+Portuguese (European),Female,19,ol‡!,4,understands,1
+Portuguese (European),Male,19,ol‡!,3,produces,0
+Portuguese (European),Male,19,ol‡!,3,understands,0.3333
+Portuguese (European),Female,20,ol‡!,3,produces,0
+Portuguese (European),Female,20,ol‡!,3,understands,0.6667
+Portuguese (European),Female,21,ol‡!,2,produces,0
+Portuguese (European),Female,21,ol‡!,2,understands,1
+Portuguese (European),Male,21,ol‡!,2,produces,0.5
+Portuguese (European),Male,21,ol‡!,2,understands,0.5
+Portuguese (European),Female,22,ol‡!,1,produces,0
+Portuguese (European),Female,22,ol‡!,1,understands,1
+Portuguese (European),Male,22,ol‡!,3,produces,0
+Portuguese (European),Male,22,ol‡!,3,understands,0.3333
+Portuguese (European),Female,23,ol‡!,3,produces,0.3333
+Portuguese (European),Female,23,ol‡!,3,understands,1
+Portuguese (European),Male,23,ol‡!,3,produces,0
+Portuguese (European),Male,23,ol‡!,3,understands,0.6667
+Portuguese (European),Female,24,ol‡!,2,produces,0
+Portuguese (European),Female,24,ol‡!,2,understands,0.5
+Portuguese (European),Male,24,ol‡!,6,produces,0.1667
+Portuguese (European),Male,24,ol‡!,6,understands,0.6667
+Portuguese (European),Female,25,ol‡!,2,produces,0.5
+Portuguese (European),Female,25,ol‡!,2,understands,1
+Portuguese (European),Male,25,ol‡!,3,produces,0.3333
+Portuguese (European),Male,25,ol‡!,3,understands,1
+Portuguese (European),Female,26,ol‡!,4,produces,0.5
+Portuguese (European),Female,26,ol‡!,4,understands,1
+Portuguese (European),Male,26,ol‡!,4,produces,0.25
+Portuguese (European),Male,26,ol‡!,4,understands,0.75
+Portuguese (European),Female,27,ol‡!,5,produces,0.6
+Portuguese (European),Female,27,ol‡!,5,understands,0.8
+Portuguese (European),Male,27,ol‡!,3,produces,0.6667
+Portuguese (European),Male,27,ol‡!,3,understands,0.6667
+Portuguese (European),Female,28,ol‡!,5,produces,0.4
+Portuguese (European),Female,28,ol‡!,5,understands,1
+Portuguese (European),Male,28,ol‡!,5,produces,0.4
+Portuguese (European),Male,28,ol‡!,5,understands,1
+Portuguese (European),Female,29,ol‡!,3,produces,0.6667
+Portuguese (European),Female,29,ol‡!,3,understands,1
+Portuguese (European),Male,29,ol‡!,1,produces,1
+Portuguese (European),Male,29,ol‡!,1,understands,1
+Portuguese (European),Female,30,ol‡!,4,produces,0.25
+Portuguese (European),Female,30,ol‡!,4,understands,1
+Portuguese (European),Male,30,ol‡!,1,produces,1
+Portuguese (European),Male,30,ol‡!,1,understands,1
+Portuguese (European),Female,31,ol‡!,3,produces,0.6667
+Portuguese (European),Female,31,ol‡!,3,understands,1
+Portuguese (European),Male,31,ol‡!,3,produces,1
+Portuguese (European),Male,31,ol‡!,3,understands,1
+Portuguese (European),Female,32,ol‡!,2,produces,0
+Portuguese (European),Female,32,ol‡!,2,understands,0.5
+Portuguese (European),Male,32,ol‡!,2,produces,1
+Portuguese (European),Male,32,ol‡!,2,understands,1
+Portuguese (European),Female,33,ol‡!,2,produces,1
+Portuguese (European),Female,33,ol‡!,2,understands,1
+Portuguese (European),Female,35,ol‡!,2,produces,0.5
+Portuguese (European),Female,35,ol‡!,2,understands,1
+Portuguese (European),Male,36,ol‡!,1,produces,1
+Portuguese (European),Male,36,ol‡!,1,understands,1
 Russian,Female,8,алё,25,produces,0
 Russian,Female,8,алё,25,understands,0.32
 Russian,Male,8,алё,34,produces,0.0294
@@ -3757,66 +5111,106 @@ Spanish (Chilean),Female,15,hola,1,produces,0
 Spanish (Chilean),Female,15,hola,1,understands,1
 Spanish (Chilean),Male,15,hola,4,produces,0
 Spanish (Chilean),Male,15,hola,4,understands,0.5
-Spanish (European),Female,16,hola/adiós,19,produces,0.6316
-Spanish (European),Female,16,hola/adiós,19,understands,0
-Spanish (European),Male,16,hola/adiós,20,produces,0.55
-Spanish (European),Male,16,hola/adiós,20,understands,0
-Spanish (European),Female,17,hola/adiós,21,produces,0.619
-Spanish (European),Female,17,hola/adiós,21,understands,0
-Spanish (European),Male,17,hola/adiós,18,produces,0.5556
-Spanish (European),Male,17,hola/adiós,18,understands,0
-Spanish (European),Female,18,hola/adiós,27,produces,0.6667
-Spanish (European),Female,18,hola/adiós,27,understands,0
-Spanish (European),Male,18,hola/adiós,23,produces,0.6957
-Spanish (European),Male,18,hola/adiós,23,understands,0
-Spanish (European),Female,19,hola/adiós,16,produces,0.8125
-Spanish (European),Female,19,hola/adiós,16,understands,0
-Spanish (European),Male,19,hola/adiós,11,produces,0.8182
-Spanish (European),Male,19,hola/adiós,11,understands,0
-Spanish (European),Female,20,hola/adiós,17,produces,0.8235
-Spanish (European),Female,20,hola/adiós,17,understands,0
-Spanish (European),Male,20,hola/adiós,19,produces,0.8421
-Spanish (European),Male,20,hola/adiós,19,understands,0
-Spanish (European),Female,21,hola/adiós,23,produces,0.913
-Spanish (European),Female,21,hola/adiós,23,understands,0
-Spanish (European),Male,21,hola/adiós,18,produces,0.7778
-Spanish (European),Male,21,hola/adiós,18,understands,0
-Spanish (European),Female,22,hola/adiós,18,produces,0.9444
-Spanish (European),Female,22,hola/adiós,18,understands,0
-Spanish (European),Male,22,hola/adiós,20,produces,0.95
-Spanish (European),Male,22,hola/adiós,20,understands,0
-Spanish (European),Female,23,hola/adiós,15,produces,0.9333
-Spanish (European),Female,23,hola/adiós,15,understands,0
-Spanish (European),Male,23,hola/adiós,15,produces,1
-Spanish (European),Male,23,hola/adiós,15,understands,0
-Spanish (European),Female,24,hola/adiós,31,produces,0.9677
-Spanish (European),Female,24,hola/adiós,31,understands,0
-Spanish (European),Male,24,hola/adiós,24,produces,0.9583
-Spanish (European),Male,24,hola/adiós,24,understands,0
-Spanish (European),Female,25,hola/adiós,16,produces,0.9375
-Spanish (European),Female,25,hola/adiós,16,understands,0
-Spanish (European),Male,25,hola/adiós,19,produces,0.8947
-Spanish (European),Male,25,hola/adiós,19,understands,0
-Spanish (European),Female,26,hola/adiós,22,produces,1
-Spanish (European),Female,26,hola/adiós,22,understands,0
-Spanish (European),Male,26,hola/adiós,27,produces,0.8889
-Spanish (European),Male,26,hola/adiós,27,understands,0
-Spanish (European),Female,27,hola/adiós,16,produces,1
-Spanish (European),Female,27,hola/adiós,16,understands,0
-Spanish (European),Male,27,hola/adiós,18,produces,0.9444
-Spanish (European),Male,27,hola/adiós,18,understands,0
-Spanish (European),Female,28,hola/adiós,20,produces,1
-Spanish (European),Female,28,hola/adiós,20,understands,0
-Spanish (European),Male,28,hola/adiós,18,produces,0.9444
-Spanish (European),Male,28,hola/adiós,18,understands,0
-Spanish (European),Female,29,hola/adiós,18,produces,1
-Spanish (European),Female,29,hola/adiós,18,understands,0
-Spanish (European),Male,29,hola/adiós,23,produces,0.9565
-Spanish (European),Male,29,hola/adiós,23,understands,0
-Spanish (European),Female,30,hola/adiós,17,produces,1
-Spanish (European),Female,30,hola/adiós,17,understands,0
-Spanish (European),Male,30,hola/adiós,24,produces,0.9583
-Spanish (European),Male,30,hola/adiós,24,understands,0
+Spanish (European),Female,12,hola,8,produces,0.25
+Spanish (European),Female,12,hola,8,understands,0.875
+Spanish (European),Male,12,hola,8,produces,0
+Spanish (European),Male,12,hola,8,understands,0.875
+Spanish (European),Female,13,hola,7,produces,0
+Spanish (European),Female,13,hola,7,understands,1
+Spanish (European),Male,13,hola,12,produces,0.1667
+Spanish (European),Male,13,hola,12,understands,0.75
+Spanish (European),Female,14,hola,7,produces,0
+Spanish (European),Female,14,hola,7,understands,1
+Spanish (European),Male,14,hola,6,produces,0
+Spanish (European),Male,14,hola,6,understands,0.5
+Spanish (European),Female,15,hola,14,produces,0.5
+Spanish (European),Female,15,hola,14,understands,0.8571
+Spanish (European),Male,15,hola,10,produces,0.3
+Spanish (European),Male,15,hola,10,understands,0.9
+Spanish (European),Female,16,"hola, hola/adiós",27,produces,0.6296
+Spanish (European),Female,16,"hola, hola/adiós",27,understands,0.2593
+Spanish (European),Male,16,"hola, hola/adiós",36,produces,0.4722
+Spanish (European),Male,16,"hola, hola/adiós",36,understands,0.3333
+Spanish (European),Female,17,"hola, hola/adiós",35,produces,0.5429
+Spanish (European),Female,17,"hola, hola/adiós",35,understands,0.3429
+Spanish (European),Male,17,"hola, hola/adiós",26,produces,0.6154
+Spanish (European),Male,17,"hola, hola/adiós",26,understands,0.2692
+Spanish (European),Female,18,"hola, hola/adiós",42,produces,0.619
+Spanish (European),Female,18,"hola, hola/adiós",42,understands,0.3571
+Spanish (European),Male,18,"hola, hola/adiós",42,produces,0.6905
+Spanish (European),Male,18,"hola, hola/adiós",42,understands,0.4286
+Spanish (European),Female,19,"hola, hola/adiós",27,produces,0.7407
+Spanish (European),Female,19,"hola, hola/adiós",27,understands,0.4074
+Spanish (European),Male,19,"hola, hola/adiós",24,produces,0.6667
+Spanish (European),Male,19,"hola, hola/adiós",24,understands,0.5
+Spanish (European),Female,20,"hola, hola/adiós",36,produces,0.7222
+Spanish (European),Female,20,"hola, hola/adiós",36,understands,0.5278
+Spanish (European),Male,20,"hola, hola/adiós",35,produces,0.8
+Spanish (European),Male,20,"hola, hola/adiós",35,understands,0.4
+Spanish (European),Female,21,"hola, hola/adiós",32,produces,0.875
+Spanish (European),Female,21,"hola, hola/adiós",32,understands,0.2812
+Spanish (European),Male,21,"hola, hola/adiós",33,produces,0.8182
+Spanish (European),Male,21,"hola, hola/adiós",33,understands,0.4545
+Spanish (European),Female,22,"hola, hola/adiós",38,produces,0.7368
+Spanish (European),Female,22,"hola, hola/adiós",38,understands,0.4737
+Spanish (European),Male,22,"hola, hola/adiós",37,produces,0.8378
+Spanish (European),Male,22,"hola, hola/adiós",37,understands,0.4324
+Spanish (European),Female,23,"hola, hola/adiós",28,produces,0.7857
+Spanish (European),Female,23,"hola, hola/adiós",28,understands,0.4643
+Spanish (European),Male,23,"hola, hola/adiós",31,produces,0.9355
+Spanish (European),Male,23,"hola, hola/adiós",31,understands,0.4516
+Spanish (European),Female,24,"hola, hola/adiós",46,produces,0.8696
+Spanish (European),Female,24,"hola, hola/adiós",46,understands,0.3043
+Spanish (European),Male,24,"hola, hola/adiós",38,produces,0.8421
+Spanish (European),Male,24,"hola, hola/adiós",38,understands,0.3158
+Spanish (European),Female,25,"hola, hola/adiós",35,produces,0.8571
+Spanish (European),Female,25,"hola, hola/adiós",35,understands,0.5429
+Spanish (European),Male,25,"hola, hola/adiós",32,produces,0.6875
+Spanish (European),Male,25,"hola, hola/adiós",32,understands,0.3438
+Spanish (European),Female,26,"hola, hola/adiós",37,produces,0.973
+Spanish (European),Female,26,"hola, hola/adiós",37,understands,0.3784
+Spanish (European),Male,26,"hola, hola/adiós",42,produces,0.8095
+Spanish (European),Male,26,"hola, hola/adiós",42,understands,0.3571
+Spanish (European),Female,27,"hola, hola/adiós",29,produces,0.931
+Spanish (European),Female,27,"hola, hola/adiós",29,understands,0.4483
+Spanish (European),Male,27,"hola, hola/adiós",29,produces,0.931
+Spanish (European),Male,27,"hola, hola/adiós",29,understands,0.3793
+Spanish (European),Female,28,"hola, hola/adiós",45,produces,0.9111
+Spanish (European),Female,28,"hola, hola/adiós",45,understands,0.5111
+Spanish (European),Male,28,"hola, hola/adiós",31,produces,0.871
+Spanish (European),Male,28,"hola, hola/adiós",31,understands,0.4194
+Spanish (European),Female,29,"hola, hola/adiós",30,produces,0.9
+Spanish (European),Female,29,"hola, hola/adiós",30,understands,0.3667
+Spanish (European),Male,29,"hola, hola/adiós",39,produces,0.8718
+Spanish (European),Male,29,"hola, hola/adiós",39,understands,0.4103
+Spanish (European),Female,30,"hola, hola/adiós",30,produces,0.9667
+Spanish (European),Female,30,"hola, hola/adiós",30,understands,0.4
+Spanish (European),Male,30,"hola, hola/adiós",45,produces,0.9333
+Spanish (European),Male,30,"hola, hola/adiós",45,understands,0.4667
+Spanish (European),Female,31,hola,14,produces,1
+Spanish (European),Female,31,hola,14,understands,1
+Spanish (European),Male,31,hola,18,produces,0.7222
+Spanish (European),Male,31,hola,18,understands,0.9444
+Spanish (European),Female,32,hola,7,produces,0.8571
+Spanish (European),Female,32,hola,7,understands,1
+Spanish (European),Male,32,hola,6,produces,0.8333
+Spanish (European),Male,32,hola,6,understands,0.8333
+Spanish (European),Female,33,hola,13,produces,0.8462
+Spanish (European),Female,33,hola,13,understands,0.9231
+Spanish (European),Male,33,hola,10,produces,0.8
+Spanish (European),Male,33,hola,10,understands,1
+Spanish (European),Female,34,hola,3,produces,1
+Spanish (European),Female,34,hola,3,understands,1
+Spanish (European),Male,34,hola,8,produces,0.875
+Spanish (European),Male,34,hola,8,understands,1
+Spanish (European),Female,35,hola,9,produces,0.8889
+Spanish (European),Female,35,hola,9,understands,1
+Spanish (European),Male,35,hola,6,produces,1
+Spanish (European),Male,35,hola,6,understands,1
+Spanish (European),Female,36,hola,1,produces,1
+Spanish (European),Female,36,hola,1,understands,1
+Spanish (European),Male,36,hola,10,produces,0.9
+Spanish (European),Male,36,hola,10,understands,1
 Spanish (Peruvian),Female,8,hola,6,produces,0
 Spanish (Peruvian),Female,8,hola,6,understands,0.8333
 Spanish (Peruvian),Male,8,hola,3,produces,0
