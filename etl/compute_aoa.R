@@ -10,8 +10,12 @@ suppressMessages({
   library(arrow)
 })
 
+# the site's networks use these estimates, so they follow the site's
+# word-level exclusions (note: this also applies if aoa.parquet is uploaded
+# to Redivis as the aoa table)
+source("etl/word_level_exclusions.R")
 admins <- read_parquet("data/administrations.parquet") |>
-  filter(in_age_range) |>
+  filter(in_age_range, !dataset_name %in% word_level_exclude) |>
   select(data_id, age)
 items <- read_parquet("data/items.parquet") |>
   select(language, form, item_id, item_kind, item_definition, category,

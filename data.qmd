@@ -292,6 +292,10 @@ Inputs.table(ds_preview.rows, { maxWidth: 980 })
 - *Child by word* in long format has one row per child-item pair; in wide
   format one row per child with a TRUE/FALSE column per item (choose which
   measure fills the cells on *Words & Gestures* forms).
+- The Elison English (American) WG dataset is temporarily left out of these
+  exports and the site's word-level views while an import problem with its
+  item-level data is fixed; it is included in the vocabulary norms and on
+  Redivis.
 - Full unfiltered tables (all instruments at once) are available on
   [Redivis](https://stanford.redivis.com/datasets/627v-9ewzpdvz0).
 :::

@@ -42,7 +42,9 @@ if (!all(demo_cols %in% names(admins))) {
 
 if (dir.exists("data/item_responses")) {
   dir.create("slices/responses", recursive = TRUE, showWarnings = FALSE)
+  source("etl/word_level_exclusions.R")
   admins_demo <- admins |>
+    filter(!dataset_name %in% word_level_exclude) |>
     select(data_id, age, is_norming, sex, birth_order, caregiver_education,
            ethnicity)
   item_meta <- read_parquet("data/items.parquet") |>
